@@ -1,0 +1,125 @@
+{
+  "intro": [
+    {
+      "text": "A kingdom known for its research into BioChroma.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "prologue" }]
+    },
+    {
+      "text": "A theocracy whose Returned gods, headed by the God King, live in the Court of Gods in the city of T'Telir and are worshipped through the Iridescent Tones.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "4" }]
+    },
+    {
+      "text": "A jungle valley and the only place where the Tears of Edgli grow; dyes made from them are its main source of wealth.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "35" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Hallandren lies on the western shore of the Bright Sea, an inland sea with several islands, and holds at least a third of its coast; the capital stands at the water's edge. Mountains rise to the north and toward the sunrise, and earthquakes are frequent. Trade across the sea, with kingdoms such as Tedradel, is very profitable, and the routes to the northern kingdoms pass through Idris, a hostile neighbour that Hallandren wants to control.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "16" }]
+    },
+    {
+      "text": "Apart from the Returned there is no nobility: a small, very rich class of leading merchants sits above a middle class, which no other nation on Nalthis has, and a large peasantry. People dress flamboyantly in bright colours, and buildings topped with domes and spires, even furniture, are painted vividly; only the slums look faded. Lifeless are a common sight, usually dressed in grey to match their skin, though people tend to keep clear of them.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "25" }]
+    },
+    {
+      "text": "The kingdom is a theocracy in which the Pantheon of the Returned governs under the God King. For some three hundred years the throne has passed between stillborn infants who Returned; every king after Peacegiver, the first, has been named Susebron, and the present one is the fifth. Its Lifeless army, forty thousand strong, took centuries to build. Many sell their Breath, thinking the loss matters little; rich buyers often stop at fifty, gaining longer life and some Awakening.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "39" }]
+    },
+    {
+      "text": "In practice the priests run much of the state. They tell the gods, who are confined to the Court, what the people think, enforce the gods' decisions and settle minor questions themselves, so government is slow. Major matters such as war need a main assembly at which every Returned votes. The God King can in theory overrule the Pantheon, but he serves as a figurehead for the priests, who cut out his tongue so he cannot use his Breath.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "50" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Hanald",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "32" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Explorers from Chedesh, then the leading power, came upon a jungle valley on the coast of the Inner Sea. On one of their ships in the bay, Vo died and Returned as the first of the Returned, only to die again within a week.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "32" }]
+        },
+        {
+          "text": "His crew founded a kingdom on the spot, naming it Hanald, and it grew into one of the strongest realms of its time.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "32" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "After the Manywar",
+          "revealedIn": [
+            { "book": "warbreaker", "chapter": "40" },
+            { "book": "warbreaker", "chapter": "54" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Feeling abandoned by Austre and saved by Peacegiver, the people turned from Austrism after the Manywar and began worshipping the Returned, founding the Iridescent Tones.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "40" }]
+        },
+        {
+          "text": "With the royal family gone north to found Idris, the Cult of the Returned took charge and renamed the land Hallandren. Pahn Kahl became a province but kept its own faith and culture, and the war's end laid the base of Hallandren's power around the Bright Sea.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "54" }]
+        },
+        {
+          "text": "Peacegiver handed down a treasure of fifty thousand Breaths to the God Kings, leaving the priests to look after it.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "54" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The treaty with Idris",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "4" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "King Dedelin of Idris made a treaty with the God King, pledging a daughter as his bride. He sent Siri, who became queen.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "4" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Vahr's rebellion",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "17" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "About three centuries after the Manywar, a Pahn Kahl named Vahr spent more than ten years trying to stir up his people, until he was captured and imprisoned.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "17" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The Pahn Kahl rebellion",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "epilogue" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Bluefingers plotted to start a war between Hallandren and Idris. He hid mercenaries and Pahn Kahl Awakeners in tunnels beneath the Court of Gods and stirred up tension in the city, then obtained the Commands for the Lifeless army, changed them and sent the army toward Idris.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "epilogue" }]
+        },
+        {
+          "text": "The rising failed when the God King used Peacegiver's treasure to retake his palace with Awakened cloth. Given the security phrase for Kalad's Phantoms, about a thousand soldiers still in working order, he sent them after the Lifeless army.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "epilogue" }]
+        }
+      ]
+    }
+  ]
+}

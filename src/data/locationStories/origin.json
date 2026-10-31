@@ -53,5 +53,34 @@
       ]
     }
   ],
-  "history": []
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Tales of the sea",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "57" },
+                { "book": "wind-and-truth", "chapter": "110" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The story of Derethil and the Wandersail describes a westward search for the Voidbringers' source, ending at islands around a great whirlpool.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "57" },
+                { "book": "wind-and-truth", "chapter": "110" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

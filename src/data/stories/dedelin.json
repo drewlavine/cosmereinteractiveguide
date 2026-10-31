@@ -1,0 +1,66 @@
+{
+  "intro": [
+    {
+      "text": "The King of Idris, who must send a daughter to marry Hallandren's God King under an old treaty, and sends his youngest, Siri, in place of Vivenna.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "1" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "King of Idris",
+          "revealedIn": [
+            { "book": "warbreaker", "chapter": "1" },
+            { "book": "warbreaker", "chapter": "17" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "More than twenty years ago, Dedelin signed a treaty with Hallandren's Court of Gods to stop an invasion of Idris, promising a daughter to the God King once his eldest, Vivenna, turned twenty-two. Vivenna was raised for that role, but when the time came he could not let her go. Persuaded by General Yarda to keep the treaty, he sent his youngest, Siri, instead.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "1" }]
+        },
+        {
+          "text": "Weeks before sending Siri, he had sent Lemex to T'Telir as his spymaster, with money to buy enough Breath to enter the Court of Gods. His letters, which Vivenna found there, showed that he thought war with Hallandren inevitable, and that keeping her home had come down to favouritism.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "17" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "An old man in plain, austere clothes despite his crown. Like the rest of the royal family he has the Royal Locks; he generally holds his hair black, but his control slips at times, letting in an angry red or a fearful white.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "5" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "A devout follower of Austre, he sees the Returned as abominations and holding another's Breath as wrong. Yet he puts his kingdom before his own wishes. He weighs decisions carefully and seeks advice, but once decided he won't be moved, and his passions, though held in check, show in flashes of red in his hair and in his love for Vivenna.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "1" }]
+    }
+  ],
+  "relationships": [
+    {
+      "title": [
+        {
+          "text": "Family",
+          "revealedIn": [
+            { "book": "warbreaker", "chapter": "1" },
+            { "book": "warbreaker", "chapter": "2" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "His wife died in a riding accident over a decade ago. Vivenna, who reminds him of her, is his favourite, and he praises her devotion and her control over her hair. General Yarda is his closest friend and trusted military adviser.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "1" }]
+        },
+        {
+          "text": "He often scolds Siri for skipping her lessons and disapproves of much that she does, and she argues with him constantly, unlike Vivenna. Still, he loves her.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "2" }]
+        }
+      ]
+    }
+  ]
+}

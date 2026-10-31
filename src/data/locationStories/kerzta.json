@@ -1,0 +1,56 @@
+{
+  "intro": [
+    {
+      "text": "A nation whose king is chosen by its nobility every fifty years.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "3" }]
+    },
+    {
+      "text": "A nation in southwestern Dayside, bordering Lossand to the east, with its capital at Ker Kedasha. Its nobility choose its king every fifty years.",
+      "revealedIn": ["white-sand-omnibus"]
+    }
+  ],
+  "description": [
+    {
+      "text": "Kerzta has no rivers or other sources of fresh water, but its many dorim vines mean it is not thought of as desert.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "3" }]
+    },
+    {
+      "text": "Most Kerztians follow Ker'reen, a faith that worships the Sand Lord and fiercely condemns sand mastery.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "3" }]
+    },
+    {
+      "text": "The election of the king is known as the Choosing. The nobles, the Klin, pass the title of Kli from father to son, and the present king is the high merchant, of the merchant DaiKeen.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "3" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Priests and merchants",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "3" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "For much of its history the high priest held sway over Kerzta's kingship, and the nation often fought Lossand over religion and politics. As merchants came to outnumber priests among the nobles, a high merchant was crowned two hundred years ago, bringing a period of comparative calm that served commerce.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "3" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The coming Choosing",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "3" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "The present A'kar has grown sharply in popularity, and many expect the coming Choosing to make him king. He claims to have won the Sand Lord's favor by bringing about the destruction of the sand masters.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "3" }]
+        }
+      ]
+    }
+  ]
+}

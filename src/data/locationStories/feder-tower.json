@@ -1,0 +1,17 @@
+{
+  "intro": [
+    {
+      "text": "A tower in Elendel.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "alloy-of-law", "chapter": "12" },
+            { "book": "shadows-of-self", "chapter": "11" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [],
+  "history": []
+}

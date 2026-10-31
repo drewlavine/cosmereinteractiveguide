@@ -1,0 +1,33 @@
+{
+  "intro": [
+    {
+      "text": "An Elantrian, once a plantation labourer who hoped to become an apprentice, recruited by Raoden in Elantris.",
+      "revealedIn": [{ "book": "elantris", "chapter": "10" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "In Elantris",
+          "revealedIn": [
+            { "book": "elantris", "chapter": "10" },
+            { "book": "elantris", "chapter": "13" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Before the Shaod, Riil worked on a plantation and studied alongside the journeymen in hopes of being taken on as an apprentice.",
+          "revealedIn": [{ "book": "elantris", "chapter": "10" }]
+        },
+        {
+          "text": "Raoden valued Riil's mix of intelligence, sturdy build and work ethic. He set Riil, Maare and Mareshe to work out how to make a roof from what little they had, then to put it over one of the larger buildings Raoden's people used.",
+          "revealedIn": [{ "book": "elantris", "chapter": "13" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

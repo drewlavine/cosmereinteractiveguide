@@ -1,0 +1,50 @@
+{
+  "intro": [
+    {
+      "text": "A Rosharan book by Pleadix, whose ideas concern noticing change in the world around oneself.",
+      "revealedIn": [{ "book": "dawnshard", "chapter": "9" }]
+    }
+  ],
+  "description": [],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Lopen and Rushu",
+          "revealedIn": [{ "book": "dawnshard", "chapter": "9" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Talking with Rushu, Lopen said he could only be sure that a food tasted different over time, not that his own tastes had changed: the one thing he truly knew was that he was himself, so any change he noticed had to come from around him. Rushu asked whether he had ever had Introspections read to him, since he sounded just like Pleadix. He hadn't.",
+          "revealedIn": [{ "book": "dawnshard", "chapter": "9" }]
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Author",
+      "name": "Pleadix",
+      "characterId": "pleadix",
+      "revealedIn": [{ "book": "dawnshard", "chapter": "9" }]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "pleadix",
+      "role": "author",
+      "revealedIn": [{ "book": "dawnshard", "chapter": "9" }]
+    },
+    {
+      "characterId": "rushu",
+      "role": "reader",
+      "revealedIn": [{ "book": "dawnshard", "chapter": "9" }]
+    },
+    {
+      "characterId": "lopen",
+      "role": "echoed it",
+      "revealedIn": [{ "book": "dawnshard", "chapter": "9" }]
+    }
+  ]
+}

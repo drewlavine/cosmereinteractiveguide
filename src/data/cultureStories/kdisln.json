@@ -1,0 +1,18 @@
+{
+  "intro": [
+    {
+      "text": "A fine vintage of Thaylen violet wine, one that Shallan enjoys.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "29" }]
+    }
+  ],
+  "description": [],
+  "history": [],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "shallan-davar",
+      "role": "drinker",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "29" }]
+    }
+  ]
+}

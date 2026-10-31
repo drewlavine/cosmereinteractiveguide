@@ -1,0 +1,29 @@
+{
+  "intro": [
+    {
+      "text": "A river on Roshar.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "108" }]
+    },
+    {
+      "text": "A river on Roshar that flows into the Deathbend River.",
+      "revealedIn": ["oathbringer"]
+    }
+  ],
+  "description": [],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "In Shadesmar",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "108" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "After leaving Celebrant, the ship Honor's Path went around the river, heading east, while sailing through the Cognitive Realm.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "108" }]
+        }
+      ]
+    }
+  ]
+}

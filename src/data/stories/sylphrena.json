@@ -453,5 +453,37 @@
       "text": "Syl wants to be seen as a person, not just a spren. She appears at human size, lets more people see her, and looks for things to do for her own sake, such as writing and keeping a journal, while struggling to balance this with helping Kaladin.",
       "revealedIn": [{ "book": "wind-and-truth", "chapter": "72" }]
     }
+  ],
+  "abilities": [
+    {
+      "title": [
+        {
+          "text": "Accepting Words",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "55" },
+                { "book": "oathbringer", "chapter": "97" },
+                { "book": "wind-and-truth", "chapter": "144" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "After the Stormfather's death, Syl could accept Radiant Words.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "55" },
+                { "book": "oathbringer", "chapter": "97" },
+                { "book": "wind-and-truth", "chapter": "144" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
   ]
 }

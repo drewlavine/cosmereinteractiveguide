@@ -1,0 +1,97 @@
+{
+  "intro": [
+    {
+      "text": "A noble house of the Final Empire, seventh in power among the ten Great Houses of Luthadel.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "9" }]
+    },
+    {
+      "text": "A noble house of Scadrial: seventh of Luthadel's ten Great Houses in the Final Empire, and still a noble house in Elendel.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "9" },
+            { "book": "shadows-of-self", "chapter": "9" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The house war",
+          "revealedIn": [{ "book": "final-empire", "chapter": "19" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Erikell sold swords and dueling canes to its ally House Venture, while selling the same arms a little cheaper to House Tekiel. Posing as a street informant, Kelsier told Straff Venture an exaggerated version of this, hoping to split Venture from Erikell.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "19" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "In Elendel",
+          "revealedIn": [
+            { "book": "shadows-of-self", "chapter": "4" },
+            { "book": "shadows-of-self", "chapter": "9" },
+            { "book": "bands-of-mourning", "chapter": "2" },
+            { "book": "bands-of-mourning", "chapter": "9" },
+            {
+              "all": [
+                { "book": "bands-of-mourning", "chapter": "9" },
+                { "book": "lost-metal", "chapter": "2" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Chip Erikell, a smuggler in Elendel's Third Octant, is among those killed at Winsting Innate's auction.",
+          "revealedIn": [{ "book": "shadows-of-self", "chapter": "4" }]
+        },
+        {
+          "text": "Lord Erikell, head of the house, attends Lady ZoBell's party and talks with Governor Replar Innate.",
+          "revealedIn": [{ "book": "shadows-of-self", "chapter": "9" }]
+        },
+        {
+          "text": "When a water tower falls on the church during Wax and Steris's wedding, an Erikell insurance assessor argues with a priest over paying out the policy.",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "2" }]
+        },
+        {
+          "text": "Cash meant for Erikell's payroll is among the money the Nightstreet Gang takes when it robs a train bound for New Seran.",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "9" }]
+        },
+        {
+          "text": "The house stays powerful, with interests in arms and insurance and friends among high officials. It sides with House Hasting, and is tied to Melstrom, a senator for Elendel's dockworkers, through a bribery scandal.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "bands-of-mourning", "chapter": "9" },
+                { "book": "lost-metal", "chapter": "2" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "chip-erikell",
+      "role": "member",
+      "revealedIn": [{ "book": "shadows-of-self", "chapter": "4" }]
+    },
+    {
+      "characterId": "lord-erikell",
+      "role": "head of house",
+      "revealedIn": [{ "book": "shadows-of-self", "chapter": "9" }]
+    }
+  ]
+}

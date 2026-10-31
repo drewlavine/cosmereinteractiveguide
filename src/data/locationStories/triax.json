@@ -1,0 +1,96 @@
+{
+  "intro": [
+    {
+      "text": "A region of Roshar that, in the time of the Silver Kingdoms, was split between Makabakam and Valhav.",
+      "revealedIn": ["way-of-kings"]
+    },
+    {
+      "text": "A small nation in southern Roshar between Jah Keved and Tu Fallia, with mountains to the north and the Tarat Sea to the south.",
+      "revealedIn": ["oathbringer"]
+    }
+  ],
+  "description": [
+    {
+      "text": "One river divides the country in half. Its coastline is long, yet it has no port or settlement of wider note.",
+      "revealedIn": ["oathbringer"]
+    },
+    {
+      "text": "Squeezed between northern mountains and the southern coast, Triax is a bottleneck for any army crossing southern Roshar, which makes moving troops through it hard and gives the advantage to whoever defends it.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "oathbringer", "chapter": "107" },
+            { "book": "rhythm-of-war", "chapter": "17" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "The land is lush compared with eastern nations like Alethkar, thick with grasses and vines, and home to animals such as a tentacled creature with leathery skin instead of chitin. People live in small villages in forest clearings, in vine-covered houses on stilts, and many carry tools that are not made of metal.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "71" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The Era of Solitude",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "53" },
+            {
+              "all": [
+                { "book": "dawnshard", "chapter": "6" },
+                { "book": "rhythm-of-war", "chapter": "71" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The Veden king NanHar invaded the area but died during the war. His brother and successor, NanKhet, died within three months, and the Siln dynasty took the Veden throne. Whether the conquest succeeded is unknown.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "53" }]
+        },
+        {
+          "text": "Vstim bought wormy grain cheaply in Triax, knowing he could sell it at a profit elsewhere.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "dawnshard", "chapter": "6" },
+                { "book": "rhythm-of-war", "chapter": "71" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The True Desolation",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "122" },
+                { "book": "rhythm-of-war", "chapter": "17" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Contact with Triax, spanreeds included, was lost only weeks after the Everstorm arrived. It remained under the control of Odium's forces after the Battle of Thaylen Field, so the coalition supplied its troops in Emul by sea on Thaylen ships instead of going through Triax.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "122" },
+                { "book": "rhythm-of-war", "chapter": "17" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

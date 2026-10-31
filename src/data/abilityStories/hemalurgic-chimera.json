@@ -1,0 +1,80 @@
+{
+  "intro": [
+    {
+      "text": "Twisted, human-like creatures that run on all fours. TenSoon judges them to be Hemalurgic constructs devised by Paalm and built to beat Wax.",
+      "revealedIn": [{ "book": "shadows-of-self", "chapter": "21" }]
+    },
+    {
+      "text": "Hemalurgic creatures made from living humans, first by Bleeder, then by the Set, twisted into grotesque but viable forms.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "shadows-of-self", "chapter": "21" },
+            { "book": "lost-metal", "chapter": "53" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "So twisted they look more like dogs than people, they move on all fours in an inhuman way, with elbows and knees that bend the wrong way and pure black eyes. Traces of humanity remain, such as overlong fingers and hands with thumbs.",
+      "revealedIn": [{ "book": "shadows-of-self", "chapter": "21" }]
+    },
+    {
+      "text": "They run fast on all fours and attack with sharp teeth and nails. Their thick skulls stand up to modern firearms, though Wax killed some with shotgun blasts at close range.",
+      "revealedIn": [{ "book": "shadows-of-self", "chapter": "21" }]
+    },
+    {
+      "text": "Each carried a single Hemalurgic spike; the one TenSoon pulled out had a reddish cast. How they were made, and what the spike did, was unclear.",
+      "revealedIn": [{ "book": "shadows-of-self", "chapter": "21" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Beneath the city",
+          "revealedIn": [{ "book": "shadows-of-self", "chapter": "21" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Five of the creatures hunted Wax and TenSoon through the tunnels. The two killed them all, Wax shooting them up close and crushing them with added weight.",
+          "revealedIn": [{ "book": "shadows-of-self", "chapter": "21" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The Set's strain",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "53" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Like the Lord Ruler's kandra and koloss, they were made with Hemalurgy, though without his divine knowledge. The Set somehow found a way that left its subjects alive, if grotesque; the exact method is unknown.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "53" }]
+        },
+        {
+          "text": "The Set's chimeras have long necks, four lengthened legs, two spikes in the shoulders and vaguely canine heads that look far too human, with forward-set human eyes. They cannot speak, only hoot.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "53" }]
+        },
+        {
+          "text": "They can track like hounds, yet think almost like people.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "53" }]
+        }
+      ]
+    }
+  ],
+  "peopleTitle": "Characters",
+  "facts": [],
+  "people": [
+    {
+      "characterId": "paalm",
+      "role": "creator",
+      "revealedIn": [{ "book": "shadows-of-self", "chapter": "21" }]
+    }
+  ]
+}

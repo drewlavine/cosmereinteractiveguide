@@ -1,0 +1,89 @@
+{
+  "intro": [
+    {
+      "text": "An elite and prestigious force of nightmare painters whose job is to deal with stable nightmares. Its members are admired and well paid for their skill and service.",
+      "revealedIn": [{ "book": "yumi", "chapter": "27" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Each full member, known as a central soldier, gathers and leads a team of painters called companions.",
+      "revealedIn": [{ "book": "yumi", "chapter": "27" }]
+    },
+    {
+      "text": "Painters join a year into their training and then spend a second year training apart from the rest.",
+      "revealedIn": [{ "book": "yumi", "chapter": "27" }]
+    },
+    {
+      "text": "Painters who spot a stable nightmare tell their foreman, who passes the report to the Dreamwatch. Its members go wherever they are needed and are lodged in a style that suits their rank. Places are meant to go by merit, but in practice they are handed out, and without money, political pull or family ties a painter has almost no chance.",
+      "revealedIn": [{ "book": "yumi", "chapter": "37" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Kilahito",
+          "revealedIn": [
+            { "book": "yumi", "chapter": "27" },
+            { "book": "yumi", "chapter": "30" },
+            { "book": "yumi", "chapter": "37" },
+            { "book": "yumi", "chapter": "40" },
+            { "book": "yumi", "chapter": "another-epilogue" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Nikaro tried for the Dreamwatch while at school but was turned down, although his painter friends had been sure he would get in and he had promised they could be his companions.",
+          "revealedIn": [{ "book": "yumi", "chapter": "27" }]
+        },
+        {
+          "text": "After Tojin reported the stable nightmare Nikaro had faced, the foreman believed him and sent for the Dreamwatch.",
+          "revealedIn": [{ "book": "yumi", "chapter": "30" }]
+        },
+        {
+          "text": "Nikaro found the Dreamwatch's temporary base in Kilahito and warned Tesuaka and the others of a coming attack. They took down his report but did not take it seriously, and Hikiri told him that joining depends on connections he would never have.",
+          "revealedIn": [{ "book": "yumi", "chapter": "37" }]
+        },
+        {
+          "text": "When the stable nightmares came out of the shroud, the painters Nikaro rallied took up the cry \"We are the Dreamwatch now.\"",
+          "revealedIn": [{ "book": "yumi", "chapter": "40" }]
+        },
+        {
+          "text": "The Dreamwatch took no part in the battle of Kilahito, and afterwards it was disbanded along with the whole profession of nightmare painters.",
+          "revealedIn": [{ "book": "yumi", "chapter": "another-epilogue" }]
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Team leader",
+      "name": "Central soldier",
+      "revealedIn": [{ "book": "yumi", "chapter": "27" }]
+    },
+    {
+      "label": "Team members",
+      "name": "Companions",
+      "revealedIn": [{ "book": "yumi", "chapter": "27" }]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "tesuaka-tatomi",
+      "role": "member",
+      "revealedIn": [{ "book": "yumi", "chapter": "37" }]
+    },
+    {
+      "characterId": "hikiri",
+      "role": "member",
+      "revealedIn": [{ "book": "yumi", "chapter": "37" }]
+    },
+    {
+      "characterId": "nikaro",
+      "role": "turned down",
+      "revealedIn": [{ "book": "yumi", "chapter": "27" }]
+    }
+  ]
+}

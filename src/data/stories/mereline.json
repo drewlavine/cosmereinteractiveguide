@@ -1,0 +1,26 @@
+{
+  "intro": [
+    {
+      "text": "A lieutenant in the Elendel constabulary.",
+      "revealedIn": [{ "book": "shadows-of-self", "chapter": "19" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The constabulary",
+          "revealedIn": [{ "book": "shadows-of-self", "chapter": "19" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Mereline held the rank of lieutenant among Elendel's constables.",
+          "revealedIn": [{ "book": "shadows-of-self", "chapter": "19" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

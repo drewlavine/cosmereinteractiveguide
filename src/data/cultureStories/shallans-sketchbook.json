@@ -1,0 +1,40 @@
+{
+  "intro": [
+    {
+      "text": "Shallan's sketchbook is the portfolio in which Shallan Davar keeps her sketches and drawings.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "3" }]
+    }
+  ],
+  "description": [],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Losing the sketches",
+          "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "13" },
+            { "book": "words-of-radiance", "chapter": "17" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "After the attack on the Wind's Pleasure, Shallan found a single drawing of Jasnah in a trunk saved from the ship and mourned the loss of all her other sketches.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "13" }]
+        },
+        {
+          "text": "Travelling with a caravan, she began filling an old notebook of Jasnah's with new drawings to replace what she had lost.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "17" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "shallan-davar",
+      "role": "artist",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "3" }]
+    }
+  ]
+}

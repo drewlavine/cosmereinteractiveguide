@@ -1,0 +1,18 @@
+{
+  "intro": [
+    {
+      "text": "A sickness on Nalthis. Halan, who has it, is carried to Lightsong so a petition can be made for the god's divine Breath.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "12" }]
+    }
+  ],
+  "description": [],
+  "history": [],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "halan",
+      "role": "sufferer",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "12" }]
+    }
+  ]
+}

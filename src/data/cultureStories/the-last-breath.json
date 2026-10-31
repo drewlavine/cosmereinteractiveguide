@@ -1,0 +1,23 @@
+{
+  "intro": [
+    {
+      "text": "A quick, cheerful song with a simple tune, and one of Wayne's favorites.",
+      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "4" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "It was playing on the pianoforte when Wayne first met Ranette. Wayne sometimes whistles it, and once asked a street musician to play it while he was heading to see Ranette.",
+      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "4" }]
+    }
+  ],
+  "history": [],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "wayne",
+      "role": "fan",
+      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "4" }]
+    }
+  ]
+}

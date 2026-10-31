@@ -1,0 +1,49 @@
+{
+  "intro": [
+    {
+      "text": "A Rosharan land that was once part of the Silver Kingdom of Makabakam.",
+      "revealedIn": ["way-of-kings"]
+    },
+    {
+      "text": "A nation of south-central Roshar, lying between the Tarat Sea and the mountains that hold Urithiru, with Marat and Tu Fallia on either side.",
+      "revealedIn": ["oathbringer"]
+    }
+  ],
+  "description": [
+    {
+      "text": "A largely bleak, windswept plain with few rockbuds. Its ground is creased by shallow cuts that give it a rippled look, with lichen on the side facing the storms and grass pressed flat on the lee side. The few trees are thin and bent nearly to the ground, and the mountaintops are stripped bare. The Valley of the Nightwatcher lies in the mountains along its northwestern border.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "114" }]
+    },
+    {
+      "text": "Most Hexi live as nomads, and a traveller may go days without coming across a village. Hexi is seen as a backwater, more so even than neighbouring Marat. After trading with Rysn, the Hexi departed singing a farewell.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "oathbringer", "chapter": "114" },
+            { "book": "dawnshard", "chapter": "6" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "The Hexi faith keeps animals as sacred, and its priests swear never to eat meat. Grubs and insects are classed as plants, which makes fresh grain with worms in it a prized food. Jerky from dead animals is made solely for trade with outsiders.",
+      "revealedIn": [{ "book": "dawnshard", "chapter": "6" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The Era of Solitude",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "114" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "In 1168, Dalinar took a small group of soldiers into Hexi on his way to seek the Nightwatcher, travelling with a caravan until they were close to the Valley.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "114" }]
+        }
+      ]
+    }
+  ]
+}

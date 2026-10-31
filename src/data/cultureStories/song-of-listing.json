@@ -1,0 +1,82 @@
+{
+  "intro": [
+    {
+      "text": "One of the listener songs that preserve their people's skills for each new generation. It lists many of the common forms the listeners could once take.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-1" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "The song runs to at least 91 stanzas. Eshonai reflects that the old songs speak of hundreds of forms, though her people know only a handful.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-1" }]
+    },
+    {
+      "text": "Each stanza describes a form. Mateform is for love and joy and needs true empathy; warform is for battle; workform gives strength and freedom from fear; nimbleform calls for precision. Mediationform was made for peace and teaching, though the gods turned it to lies. Scholarform rewards patience but carries ambition. Artform is for beauty, and dullform is the lowest, a form that dims the mind.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "21" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Among the listeners",
+          "revealedIn": [
+            { "book": "rhythm-of-war", "chapter": "52" },
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "i-4" },
+                { "book": "oathbringer", "chapter": "i-7" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Around 1166, young Eshonai had not yet learned the song. Her mother, Jaxlim, struggled to recite it as her memory began to fail, and Venli tried to prompt her.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "52" }]
+        },
+        {
+          "text": "After generations of research, the listeners rediscovered nimbleform, warform and workform, and their scholars kept working to unlock others the song describes, such as artform and mediationform.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "i-4" },
+                { "book": "oathbringer", "chapter": "i-7" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "With the coming of the Everstorm, forms long lost became available again, and the freed parshmen were offered at least a dozen.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "i-4" },
+                { "book": "oathbringer", "chapter": "i-7" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "eshonai",
+      "role": "learner",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "52" }]
+    },
+    {
+      "characterId": "jaxlim",
+      "role": "reciter",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "52" }]
+    },
+    {
+      "characterId": "venli",
+      "role": "helped recite",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "52" }]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "intro": [
+    {
+      "text": "Professor Aramine, a teacher at Elendel University.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "7" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Elendel University",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "7" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Marasi studied under Aramine, whose subject was probably legal justice or criminal behavioristics. When nervous, Marasi often mulled over sayings from Aramine and her other professors.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "7" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

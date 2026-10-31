@@ -1,0 +1,56 @@
+{
+  "intro": [
+    {
+      "text": "A tall building in Elendel, competing with Tekiel Tower to be the city's tallest.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "1" }]
+    },
+    {
+      "text": "A large skyscraper in Elendel's Fourth Octant, between Demoux Promenade and the Fourth-Fifth Canal, facing its rival in height, Tekiel Tower.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "17" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "It rises in tiers that narrow toward the top, on a stone base; from at least the twentieth floor up it is clad in finely carved ceramic made to look like stone, crowned with ornate spikes. Each side's architects kept redrawing their plans higher, and believable rumours had both towers passing fifty storeys.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "1" }]
+    },
+    {
+      "text": "Even before it was finished, its top vanished on the rare nights when mist rolled in. A freight dock on a branch canal has a fixed crane for unloading, and a huge hydraulic platform lowers people and goods into a tunnel underneath, which held rail cars and track, a wooden building, an aluminum foundry and piles of crates.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "17" }]
+    },
+    {
+      "text": "Members of the United Tradeworkers Union, Brill among them, built it; workers on the site complained to The Elendel Daily about how the union's leaders treated them.",
+      "revealedIn": ["alloy-of-law"]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Wax and the tower",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "3" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "After a ball at Cett mansion, Waxillium Ladrian climbed the building while it was still going up. He also meant to lease offices there.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "3" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The Vanishers' hideout",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "19" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Once Wayne found their first hideout, Miles Dagouter and the Vanishers moved their base to the tunnel below the tower. Wax, Wayne and Marasi Colms raided it to stop Miles and free Steris Harms, badly damaging the platform and underground building and starting many fires. Wax killed Push and Pull on the tower itself, and he and Marasi then tricked Miles into capture.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "19" }]
+        }
+      ]
+    }
+  ]
+}

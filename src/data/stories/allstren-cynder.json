@@ -1,0 +1,42 @@
+{
+  "intro": [
+    {
+      "text": "An Elisian professor and linguist who travels to Dayside with Duchess Khrissalla.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "prologue" }]
+    },
+    {
+      "text": "An Elisian professor and linguist who travels to Dayside with Duchess Khrissalla and sails home with her, taking white sand and a few sand masters.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "epilogue" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Professor on Dayside",
+          "revealedIn": [
+            { "book": "white-sand-omnibus", "chapter": "4" },
+            { "book": "white-sand-omnibus", "chapter": "11" },
+            { "book": "white-sand-omnibus", "chapter": "13" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Cynder had learned the Dayside tongue from centuries-old texts, but in Dosha-Har'Ken people fled from him, and when he addressed the A'kar mid-sermon the party had to retreat. Near Mount KraeDa he and Baon found and revived Kenton, and on the road to Kezare he was hit in the arm by a zinkall bolt.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "4" }]
+        },
+        {
+          "text": "Delighted by Lonzare's mix of cultures, he suspected a pidgin was forming there, and he urged Khriss to use her diplomatic skills for the Diem. He also helped with her sand experiments, which showed Dayside and Darkside sand differed only in their lichen.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "11" }]
+        },
+        {
+          "text": "Moving into the Diem, he mused that any of them could be a spy, and Khriss gave him a pistol so he could guard her.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "13" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

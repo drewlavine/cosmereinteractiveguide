@@ -1,0 +1,57 @@
+{
+  "intro": [
+    {
+      "text": "A planet disturbingly affected by a clash between the Shards Ambition, Mercy and Odium that ended with Ambition destroyed.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "27" }]
+    },
+    {
+      "text": "A planet whose people abandoned their larger home continent and now live on a smaller one, among forests full of shades. A clash of Shards in which Ambition was destroyed has affected it in disturbing ways.",
+      "revealedIn": [
+        {
+          "all": [
+            "shadows-for-silence",
+            { "book": "rhythm-of-war", "chapter": "27" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "Shades are the most common beings in its forests and attack anyone who spills blood or breaks another of the Simple Rules, so no predators remain; deer, rabbits, turkeys and other plant-eaters live there, and the woods are strangely silent at night. Only silver can harm a shade or treat its withering touch, and a shade's touch spoils it. An unusually bright patch of stars, the Starbelt, guides travellers after dark.",
+      "revealedIn": ["shadows-for-silence"]
+    },
+    {
+      "text": "Fortfolk seldom travel in the forests, keep silent when they must, and dress more finely than the homesteaders. Homesteaders are hardy, practical people who live in big families, farm forest clearings, trap and raise animals and walk slowly so as not to draw shades. Many people carry names of mourning, such as Lamentation or Silence.",
+      "revealedIn": ["shadows-for-silence"]
+    },
+    {
+      "text": "Silver underpins the economy: homesteaders sell most of the food to the forts in return for it, and its price rises and falls. Criminals hide in the forests, so bounty hunting is a common trade. Fire is bought from fire merchants and kept burning, glowpaste gives a soft blue light, and fighters favour cudgels, garrotes and crossbows firing blunt bolts, keeping silver blades for shades.",
+      "revealedIn": ["shadows-for-silence"]
+    },
+    {
+      "text": "The Ire station troops on its border in the Cognitive Realm to keep Cognitive Shadows from getting out.",
+      "revealedIn": [{ "book": "secret-history", "chapter": "5-2" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Leaving the home continent",
+          "revealedIn": ["shadows-for-silence"]
+        }
+      ],
+      "items": [
+        {
+          "text": "People first settled the larger of its two continents and built an advanced society there, one that knew gunpowder before the Evil came.",
+          "revealedIn": ["shadows-for-silence"]
+        },
+        {
+          "text": "After the home continent was abandoned, the refugees did not form nations on the smaller one but built forts that served as centres of law. About a century on, they had settled into an uneasy balance with the shades, and Lastport had grown into the continent's most powerful city.",
+          "revealedIn": ["shadows-for-silence"]
+        }
+      ]
+    }
+  ]
+}

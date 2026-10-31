@@ -1,0 +1,43 @@
+{
+  "intro": [
+    {
+      "text": "A former God King of Hallandren, succeeded around 277 years after the Manywar by a new God King, also named Susebron.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "27" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "God King of Hallandren",
+          "revealedIn": [
+            { "book": "warbreaker", "chapter": "55" },
+            "warbreaker",
+            { "book": "warbreaker", "chapter": "27" },
+            { "book": "warbreaker", "chapter": "58" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Little is known of his reign. He married around the year 276, and the next year another infant Returned. The priests made that child the new God King and presented him as the Fourth's son, keeping up the appearance of a divine bloodline.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "55" }]
+        },
+        {
+          "text": "As God King he was a powerful Returned holding Peacegiver's Treasure, some fifty thousand Breaths, which placed him at the Tenth Heightening, a level very few have ever reached. The priests had his tongue cut out, as they did to every God King, so he could not give spoken Commands.",
+          "revealedIn": ["warbreaker"]
+        },
+        {
+          "text": "The accepted story is that a few weeks after passing most of his Breaths to his heir, he gave up his own divine Breath to cure the people of T'Telir of a distrentia plague, and died.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "27" }]
+        },
+        {
+          "text": "Siri suspected the plague story was priestly propaganda. Bluefingers claimed the old God King had not even been in T'Telir when the cure supposedly happened, and giving up a divine Breath can usually heal only one person, not a whole city.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "58" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

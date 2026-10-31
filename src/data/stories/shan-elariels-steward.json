@@ -1,0 +1,38 @@
+{
+  "intro": [
+    {
+      "text": "The Terrisman steward who serves Shan Elariel at Keep Elariel in Luthadel.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "18" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Final Empire",
+          "revealedIn": [
+            { "book": "final-empire", "chapter": "18" },
+            { "book": "final-empire", "chapter": "28" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "At a ball, while Shan kept Vin at her own table, the steward wandered over to the table Vin had left and leafed through the stack of books Elend had dropped there. Vin excused herself and hurried back; one small volume in the pile was close to treason.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "18" }]
+        },
+        {
+          "text": "He also attended Shan at a ball held at Keep Lekal.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "28" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "He wears a great deal of jewellery, keeps his face flat and expressionless, and speaks with a slight Terris accent. Like every steward in the Final Empire he is a eunuch, and Vin finds he has none of Sazed's spark.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "28" }]
+    }
+  ],
+  "personality": []
+}

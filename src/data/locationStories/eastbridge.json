@@ -1,0 +1,41 @@
+{
+  "intro": [
+    {
+      "text": "A large suspension bridge carrying Elendel's outermost ring-road over the Irongate River.",
+      "revealedIn": [{ "book": "shadows-of-self", "chapter": "18" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Elendel's electric lighting stops short of the outskirts beyond the bridge.",
+      "revealedIn": [{ "book": "shadows-of-self", "chapter": "18" }]
+    },
+    {
+      "text": "Both a road and a railway cross it.",
+      "revealedIn": [{ "book": "shadows-of-self", "chapter": "24" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Wax on the bridge",
+          "revealedIn": [
+            { "book": "shadows-of-self", "chapter": "18" },
+            { "book": "shadows-of-self", "chapter": "24" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "After meeting his uncle Edwarn, Waxillium Ladrian paused on the bridge to think, looking back over the city.",
+          "revealedIn": [{ "book": "shadows-of-self", "chapter": "18" }]
+        },
+        {
+          "text": "Chasing Bleeder, Wax caught up with her here, and their final fight played out on and around the bridge.",
+          "revealedIn": [{ "book": "shadows-of-self", "chapter": "24" }]
+        }
+      ]
+    }
+  ]
+}

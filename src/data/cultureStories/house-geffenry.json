@@ -1,0 +1,55 @@
+{
+  "intro": [
+    {
+      "text": "A noble house of the Final Empire on Scadrial, home of the Mistborn Crews Geffenry.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "19" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "An ally of House Tekiel that wants closer ties with Tekiel and the use of its canals over the eastern plains.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "23" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The house war",
+          "revealedIn": [
+            { "book": "final-empire", "chapter": "19" },
+            { "book": "final-empire", "chapter": "23" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Charrs Entrone, a Tekiel ally, had been gambling against Crews Geffenry when Kelsier killed him and left him in the grounds of Keep Tekiel. Kelsier did not care whether Geffenry, House Izenry or some other house took the blame.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "19" }]
+        },
+        {
+          "text": "Lady Kliss says Tekiel came to think Geffenry had killed Entrone to frighten Tekiel into a closer alliance. She and Milen Davenpleu suspect Tekiel then had Ardous and Callins Geffenry killed in return.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "23" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "crews-geffenry",
+      "role": "Mistborn",
+      "revealedIn": [{ "book": "final-empire", "chapter": "19" }]
+    },
+    {
+      "characterId": "ardous-geffenry",
+      "role": "member",
+      "revealedIn": [{ "book": "final-empire", "chapter": "23" }]
+    },
+    {
+      "characterId": "callins-geffenry",
+      "role": "member",
+      "revealedIn": [{ "book": "final-empire", "chapter": "23" }]
+    }
+  ]
+}

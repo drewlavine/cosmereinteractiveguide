@@ -1,0 +1,38 @@
+{
+  "intro": [
+    {
+      "text": "\"Mari's Two Lovers\" is a comic Rosharan song about Mari, a woman involved with twin brothers she believes are one man.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "27" }]
+    }
+  ],
+  "description": [],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "In the chasms",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "27" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Dunny and Rock sang it while Bridge Four was working chasm duty.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "27" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "dunny",
+      "role": "singer",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "27" }]
+    },
+    {
+      "characterId": "lunamor",
+      "role": "singer",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "27" }]
+    }
+  ]
+}

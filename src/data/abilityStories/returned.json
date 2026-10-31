@@ -1,0 +1,230 @@
+{
+  "intro": [
+    {
+      "text": "People who have come back to life after dying, with no memory of their past lives. In Hallandren they live in the Court of Gods and are worshipped as gods, and each needs a new Breath every week to stay alive.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "3" }]
+    },
+    {
+      "text": "People who have come back to life after dying, with no memory of their past lives, each holding one divine Breath. Hallandren worships them as gods; a Returned can heal one person by giving up that Breath, but dies doing so.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "27" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "A Returned remembers nothing of their life or death before they Returned.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "3" }]
+    },
+    {
+      "text": "To keep living, a Returned must be given a new Breath every week.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "3" }]
+    },
+    {
+      "text": "Each Returned holds a single divine Breath, which lifts them to the Fifth Heightening and could heal one person, though giving it up costs the Returned their life.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "27" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The God Kings",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "32" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Hoid tells Siri about the First Returned, and that each God King has fathered a stillborn son who Returned and took his place.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "32" }]
+        }
+      ]
+    }
+  ],
+  "mechanics": [
+    {
+      "title": [
+        {
+          "text": "Coming back",
+          "revealedIn": [
+            { "book": "warbreaker", "chapter": "30" },
+            { "book": "warbreaker", "chapter": "57" },
+            { "book": "warbreaker", "chapter": "epilogue" },
+            { "book": "warbreaker", "chapter": "46" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Returned keep the general knowledge and skills of their past lives, even without the memories.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "30" }]
+        },
+        {
+          "text": "Someone who Returns as a child grows up very quickly in mind, while the body grows at a normal pace and then stops once it reaches adulthood.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "30" }]
+        },
+        {
+          "text": "How a person Returns is unclear, but Lightsong recalls a Voice speaking to him when he did.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "57" }]
+        },
+        {
+          "text": "Returned often remember why they came back, and much of their past life, when they reach the moment that made them choose to Return.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "epilogue" }]
+        },
+        {
+          "text": "Vasher classes the Returned as Type One BioChromatic entities: sentient manifestations of Breath that arise by themselves in a dead body.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "46" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The divine Breath",
+          "revealedIn": [
+            { "book": "warbreaker", "chapter": "27" },
+            { "book": "warbreaker", "chapter": "12" },
+            { "book": "warbreaker", "chapter": "epilogue" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "A Returned's divine Breath is a single, very powerful Breath that raises them to the Fifth Heightening. To someone of the First Heightening it seems endless and impossible to measure.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "27" }]
+        },
+        {
+          "text": "Giving the divine Breath away heals one person: it can cure illness, mend nearly any injury and even restore missing limbs. It doesn't pass the Fifth Heightening on to the one healed.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "12" }]
+        },
+        {
+          "text": "Giving it away kills the Returned.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "27" }]
+        },
+        {
+          "text": "A Returned can hold back their divine Breath to look like an ordinary person, losing the Fifth Heightening while they do.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "epilogue" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Body and appearance",
+          "revealedIn": [
+            { "book": "warbreaker", "chapter": "18" },
+            { "book": "warbreaker", "chapter": "epilogue" },
+            { "book": "warbreaker", "chapter": "42" },
+            { "book": "warbreaker", "chapter": "44" },
+            {
+              "all": [
+                { "book": "warbreaker", "chapter": "44" },
+                { "book": "yumi", "chapter": "32" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Returned are immune to most illnesses and ailments, headaches among them, and to all poisons, including alcohol.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "18" }]
+        },
+        {
+          "text": "A Returned's looks seem to reflect how they see themselves: old gods look old and heroic ones look strong. Most are taller than ordinary people, around seven feet, and give off the color-changing aura of the Fifth Heightening.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "epilogue" }]
+        },
+        {
+          "text": "A Returned who has reached maturity no longer ages.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "42" }]
+        },
+        {
+          "text": "Their bodies don't change: a Returned never grows fat.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "44" }]
+        },
+        {
+          "text": "Exercise doesn't make a Returned stronger, nor does a lack of it make them weaker. They hold very high levels of Investiture, nearly as much as an Elantrian.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "warbreaker", "chapter": "44" },
+                { "book": "yumi", "chapter": "32" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "title": "In Hallandren",
+      "items": [
+        {
+          "text": "In Hallandren the Returned are worshipped as gods whom the Iridescent Tones send to guide the faithful, and each is given a Breath a week to keep them alive.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "12" }]
+        },
+        {
+          "text": "People petition the gods to give up their Breath to cure the sick. Gods who turn down petitions may still help in other ways.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "12" }]
+        },
+        {
+          "text": "The gods judge works of art sent by the people as auguries, and their priests write down their dreams, words and deeds in search of prophecy.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "12" }]
+        }
+      ],
+      "parts": []
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "lightsong",
+      "role": "God",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "3" }]
+    },
+    {
+      "characterId": "blushweaver",
+      "role": "Goddess",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "7" }]
+    },
+    {
+      "characterId": "mercystar",
+      "role": "Goddess",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "21" }]
+    },
+    {
+      "characterId": "weatherlove",
+      "role": "Hallandren deity",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "22" }]
+    },
+    {
+      "characterId": "truthcall",
+      "role": "Hallandren deity",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "22" }]
+    },
+    {
+      "characterId": "lifeblesser",
+      "role": "Hallandren deity",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "22" }]
+    },
+    {
+      "characterId": "vo",
+      "role": "First Returned",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "32" }]
+    },
+    {
+      "characterId": "susebron",
+      "role": "God King",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "32" }]
+    },
+    {
+      "characterId": "allmother",
+      "role": "Goddess",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "42" }]
+    },
+    {
+      "characterId": "vasher",
+      "role": "Disguised",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "58" }]
+    }
+  ]
+}

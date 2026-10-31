@@ -1,0 +1,73 @@
+{
+  "intro": [
+    {
+      "text": "The catastrophe that struck Elantris about ten years before the story begins. Its name comes from Aon Reo, which means punishment.",
+      "revealedIn": [{ "book": "elantris", "chapter": "4" }]
+    },
+    {
+      "text": "The catastrophe that struck Elantris about ten years before the story begins, named for Aon Reo, meaning punishment. Raoden comes to see that it was caused by a chasm opening in the land.",
+      "revealedIn": [{ "book": "elantris", "chapter": "49" }]
+    },
+    {
+      "text": "The catastrophe of ten years before, named for Aon Reo (punishment). An earthquake split southern Arelon with a chasm, so the land no longer matched the Aons; the Elantrians lost their magic and were left half-changed until Raoden added the missing line.",
+      "revealedIn": [{ "book": "elantris", "chapter": "61" }]
+    }
+  ],
+  "description": [],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The fall of Elantris",
+          "revealedIn": [
+            { "book": "elantris", "chapter": "61" },
+            { "book": "elantris", "chapter": "5" },
+            { "book": "elantris", "chapter": "49" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The Reod began with a great earthquake that tore a chasm across southern Arelon. Every Aon is based on the shape of the land, so the change left them all inaccurate and none would work, including the vast Aon Rao made by Elantris and the cities around it. The Elantrians lost their power and were stuck in an unfinished Shaod. Followers of Shu-Keseg and Shu-Dereth took it as a curse on the Elantrians for their pagan ways.",
+          "revealedIn": [{ "book": "elantris", "chapter": "61" }]
+        },
+        {
+          "text": "Once Elantris fell, mobs turned on the weakened Elantrians and on nearly every person of rank tied to them, and a monarchy under Iadon took their place. The Shaod went on taking people, but now they were treated as dead, given burial wrappings and a food offering, and shut inside Elantris to gather wounds that never healed. The city itself quickly fell into decay.",
+          "revealedIn": [{ "book": "elantris", "chapter": "5" }]
+        },
+        {
+          "text": "Talking over the Elantrians' magic with Galladon, Raoden realises that the chasm was not a result of the Reod but its cause.",
+          "revealedIn": [{ "book": "elantris", "chapter": "49" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Undoing the Reod",
+          "revealedIn": [{ "book": "elantris", "chapter": "61" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Raoden ended the Reod by drawing the chasm line onto the Aon Rao of Elantris. The Dor flowed through the Aons again, and both the Elantrians and their magic were restored to what they had been.",
+          "revealedIn": [{ "book": "elantris", "chapter": "61" }]
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Named for",
+      "name": "Aon Reo",
+      "revealedIn": [{ "book": "elantris", "chapter": "prologue" }]
+    },
+    {
+      "label": "Ended by",
+      "name": "Raoden",
+      "characterId": "raoden",
+      "revealedIn": [{ "book": "elantris", "chapter": "61" }]
+    }
+  ],
+  "people": []
+}

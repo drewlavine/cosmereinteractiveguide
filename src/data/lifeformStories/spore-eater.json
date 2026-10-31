@@ -1,0 +1,137 @@
+{
+  "intro": [
+    {
+      "text": "A person with a rogue spore essence living inside them. It guards them fiercely against harm but drains their water, so they drink constantly, and the thirst keeps growing until it kills them.",
+      "revealedIn": [{ "book": "tress", "chapter": "28" }]
+    },
+    {
+      "text": "A person with a rogue spore essence living inside them, guarding them against harm while draining their water until it kills them. No lasting cure is known: even the dragon Xisis can only clear it for a year or two.",
+      "revealedIn": [{ "book": "tress", "chapter": "52" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Most spore eaters look like anyone else, though those far along may be noticed always drinking or keeping water close at hand.",
+      "revealedIn": [{ "book": "tress", "chapter": "27" }]
+    },
+    {
+      "text": "A spore eater's body is infested with aether that is Connected directly to one of the great parent aethers on the moons. It pulls water from its host without end and passes it on to that aether, which feeds on many spore eaters across the world.",
+      "revealedIn": [{ "book": "tress", "chapter": "28" }]
+    }
+  ],
+  "history": [],
+  "sections": [
+    {
+      "title": "Protection",
+      "items": [],
+      "parts": [
+        {
+          "title": [
+            {
+              "text": "Guarding the host",
+              "revealedIn": [{ "book": "tress", "chapter": "27" }]
+            }
+          ],
+          "items": [
+            {
+              "text": "When the aether senses a threat, it bursts out to shield its host. In a verdant spore eater, vines split the skin or creep out from places such as around the eye, and can be seen moving under the skin. They do little lasting harm beyond a cut or a drop of blood.",
+              "revealedIn": [{ "book": "tress", "chapter": "27" }]
+            },
+            {
+              "text": "When a man aims a weapon at Crow, she shoots herself in the head, and vines burst from her face and catch the bullet.",
+              "revealedIn": [{ "book": "tress", "chapter": "27" }]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "The toll",
+      "items": [],
+      "parts": [
+        {
+          "title": [
+            {
+              "text": "Thirst and decline",
+              "revealedIn": [{ "book": "tress", "chapter": "28" }]
+            }
+          ],
+          "items": [
+            {
+              "text": "A spore eater must keep drinking to replace what the aether takes, and the condition is painful. The longer a host is infected, the more water the parent aether demands.",
+              "revealedIn": [{ "book": "tress", "chapter": "28" }]
+            },
+            {
+              "text": "In time the need for water outgrows what anyone can drink, and the host dries out, withers and dies, usually within about a year, though it can take longer.",
+              "revealedIn": [{ "book": "tress", "chapter": "28" }]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Beliefs and cures",
+      "items": [],
+      "parts": [
+        {
+          "title": [
+            {
+              "text": "What people say",
+              "revealedIn": [
+                { "book": "tress", "chapter": "31" },
+                { "book": "tress", "chapter": "50" }
+              ]
+            }
+          ],
+          "items": [
+            {
+              "text": "Histories tell of Queen Bek, a spore eater cured with the help of Xisis.",
+              "revealedIn": [{ "book": "tress", "chapter": "31" }]
+            },
+            {
+              "text": "Legend says a person becomes a spore eater by swallowing a rare kind of spore, which gives the name; other tales say it happens to some who fall into a spore sea. People also claim that spores run in their veins. Though they threaten mostly themselves, people tend to fear them or keep their distance.",
+              "revealedIn": [{ "book": "tress", "chapter": "50" }]
+            },
+            {
+              "text": "The only cure the old stories offer is a bargain with the dragon Xisis, who is thought able to heal any illness.",
+              "revealedIn": [{ "book": "tress", "chapter": "50" }]
+            }
+          ]
+        },
+        {
+          "title": [
+            {
+              "text": "No lasting cure",
+              "revealedIn": [{ "book": "tress", "chapter": "52" }]
+            }
+          ],
+          "items": [
+            {
+              "text": "No permanent cure is known. Xisis says he can only clear the spores out for a year or two before they return, so a person would have to keep coming back to him or stay at his side.",
+              "revealedIn": [{ "book": "tress", "chapter": "52" }]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Usual course",
+      "name": "About a year",
+      "revealedIn": [{ "book": "tress", "chapter": "28" }]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "crow",
+      "role": "verdant host",
+      "revealedIn": [{ "book": "tress", "chapter": "28" }]
+    },
+    {
+      "characterId": "bek",
+      "role": "cured",
+      "revealedIn": [{ "book": "tress", "chapter": "31" }]
+    }
+  ]
+}

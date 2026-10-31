@@ -1,0 +1,66 @@
+{
+  "intro": [
+    {
+      "text": "A listener song. Venli sang it while Eshonai hummed along, a reminder of a simpler time between them.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "86" }]
+    },
+    {
+      "text": "A simple listener song meant to train young children for harder rhythms and songs. It is Jaxlim's favorite.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "115" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Venli finds it satisfying: being simple, it leaves a singer free to add complexity and sing its soul rather than fret over words and notes.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "115" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Venli and Eshonai",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "86" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "After a heated argument, Eshonai and Venli hummed to Reconciliation, then Longing, then Joy. Venli sang the Song of Mornings over Eshonai's humming; it fit the moment, though it was dusk.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "86" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Jaxlim remembers",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "115" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "After she met the listeners who had escaped Narak, Venli sang the song to help Jaxlim, whose mind had failed, remember who she was. It worked, and Jaxlim's memories came back.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "115" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "venli",
+      "role": "singer",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "86" }]
+    },
+    {
+      "characterId": "eshonai",
+      "role": "hummed along",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "86" }]
+    },
+    {
+      "characterId": "jaxlim",
+      "role": "loved it",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "115" }]
+    }
+  ]
+}

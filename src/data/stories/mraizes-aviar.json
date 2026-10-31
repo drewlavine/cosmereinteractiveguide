@@ -1,0 +1,82 @@
+{
+  "intro": [
+    {
+      "text": "Mraize's pet bird, which often perches on his shoulder; he likes to show it off, even when he is in disguise.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "22" }]
+    },
+    {
+      "text": "Mraize's bright green, sharp-beaked bird: highly intelligent, a meat eater, and trained to fly back to him at a whistle.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "oathbringer", "chapter": "22" },
+            { "book": "rhythm-of-war", "chapter": "60" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "With Mraize",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "22" },
+            { "book": "rhythm-of-war", "chapter": "i-5" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Mraize had the bird by the time he came to Urithiru, and it often rode on his shoulder there. He enjoyed flaunting it, even while disguised.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "22" }]
+        },
+        {
+          "text": "In Urithiru, after an old man was killed, Mraize's bird attacked the dead man's own bird and badly hurt it. Lift protected and healed the wounded bird, which led her to its owner's body and grieved there until Mraize came in with his bird, at which Lift fled, taking the injured one with her.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "i-5" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "With Axindweth",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "i-13" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "In the tower, the bird sometimes went along with Axindweth when she had her captive, Zahel, tortured, but it was not with her when Lift defeated her.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "i-13" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "A sleek bird with bright green feathers and a big hooked beak as sharp as a knife.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "oathbringer", "chapter": "22" },
+            { "book": "rhythm-of-war", "chapter": "i-5" }
+          ]
+        }
+      ]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Its chirps sound like words, and it seems not to like the cold. It prefers to control a fight, and runs off when things stop going its way.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "oathbringer", "chapter": "22" },
+            { "book": "rhythm-of-war", "chapter": "i-5" }
+          ]
+        }
+      ]
+    }
+  ]
+}

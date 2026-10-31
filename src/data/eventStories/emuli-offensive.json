@@ -1,0 +1,53 @@
+{
+  "intro": [
+    {
+      "text": "The coalition's successful campaign to free Emul from Odium's forces.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "101" }]
+    }
+  ],
+  "description": [],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The campaign",
+          "revealedIn": [
+            { "book": "rhythm-of-war", "chapter": "i-6" },
+            { "book": "rhythm-of-war", "chapter": "60" },
+            { "book": "rhythm-of-war", "chapter": "112" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Taravangian ordered the Veden army to betray the coalition, but was swiftly arrested.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "i-6" }]
+        },
+        {
+          "text": "The coalition defeated the Veden force and continued under Dalinar and the Alethi.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "60" }]
+        },
+        {
+          "text": "The campaign succeeded, and Dalinar's meeting with Odium produced the agreement for a contest of champions.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "112" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "After the fighting",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "6" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Dami reached the Fourth Ideal after the offensive and gained Shardplate.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "6" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": []
+}

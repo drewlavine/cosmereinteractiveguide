@@ -1,0 +1,33 @@
+{
+  "intro": [
+    {
+      "text": "Palates of Personality is a Rosharan book claiming that the foods a person prefers reveal their character.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "33" }]
+    }
+  ],
+  "description": [],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Kabsal's quote",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "33" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Kabsal quoted the book to Shallan and assured her it really exists.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "33" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "kabsal",
+      "role": "quoted it",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "33" }]
+    }
+  ]
+}

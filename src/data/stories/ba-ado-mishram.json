@@ -24,8 +24,30 @@
     {
       "title": [
         {
+          "text": "Seeking peace",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "120" },
+            { "book": "wind-and-truth", "chapter": "86" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Mishram sought Honor's promise to make peace with her if Odium could no longer prevent it. Honor agreed, but subsequently made a conflicting agreement with Odium.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "120" }]
+        },
+        {
+          "text": "She believed Odium prolonged the wars for his own purposes and that the singers deserved a different god.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "86" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
           "text": "The False Desolation",
           "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "121" },
             { "book": "oathbringer", "chapter": "80" },
             {
               "all": [
@@ -43,6 +65,10 @@
         }
       ],
       "items": [
+        {
+          "text": "Mishram accepted the departure of the singers who rejected her war rather than forcing them to remain.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "121" }]
+        },
         {
           "text": "Ba-Ado-Mishram Connected with almost every singer on Roshar at once, a feat spanning the whole continent. Her actions began a new war without the Fused, which scholars later called the False Desolation, though many deny it ever happened.",
           "revealedIn": [{ "book": "oathbringer", "chapter": "80" }]
@@ -91,6 +117,7 @@
           "text": "The search for her prison",
           "revealedIn": [
             { "book": "rhythm-of-war", "chapter": "115" },
+            { "book": "wind-and-truth", "chapter": "132" },
             { "book": "wind-and-truth", "chapter": "147" }
           ]
         }
@@ -101,17 +128,84 @@
           "revealedIn": [{ "book": "rhythm-of-war", "chapter": "115" }]
         },
         {
+          "text": "Desperate to escape despite her hatred of humans, Mishram guided Shallan, Renarin and Rlain toward her prison.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "132" }]
+        },
+        {
           "text": "Ba-Ado-Mishram was finally freed by Renarin and Rlain in 1175. Her release ended a discordant note that had sounded through Roshar since her binding, and spren began to recover from being deadeyes.",
           "revealedIn": [{ "book": "wind-and-truth", "chapter": "147" }]
         }
       ]
     }
   ],
-  "appearance": [],
+  "appearance": [
+    {
+      "text": "She can appear as a singer with white, red and black skin, changing from smaller than average to enormous, or as a dark cloud moving on limbs.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "121" }]
+    }
+  ],
   "personality": [
     {
       "text": "The Unmade Sja-anat considers her crafty and conniving, while Ulim dismisses her as a foolish oversized spren.",
       "revealedIn": [{ "book": "rhythm-of-war", "chapter": "73" }]
+    }
+  ],
+  "abilities": [
+    {
+      "title": [
+        {
+          "text": "Healing and Connection",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "76" },
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "80" },
+                { "book": "rhythm-of-war", "chapter": "73" },
+                { "book": "wind-and-truth", "chapter": "124" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Before becoming the Granter of Forms, Mishram healed wounded singers on battlefields.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "76" }]
+        },
+        {
+          "text": "Absorbing the Well of Control Connected her to Roshar, its people and its spren, and protected her from Odium's direct touch.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "80" },
+                { "book": "rhythm-of-war", "chapter": "73" },
+                { "book": "wind-and-truth", "chapter": "124" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Across the Realms",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "84" },
+            { "book": "wind-and-truth", "chapter": "143" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Even while imprisoned, she could project her face and voice into Shadesmar and influence Spiritual Realm visions.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "84" }]
+        },
+        {
+          "text": "Once freed, she could bring people from the Spiritual Realm into Shadesmar.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "143" }]
+        }
+      ]
     }
   ]
 }

@@ -1,0 +1,39 @@
+{
+  "intro": [
+    {
+      "text": "A city on the far southern edge of the Elendel Basin, on the railway through the Seran Range to the Southern Roughs.",
+      "revealedIn": ["alloy-of-law"]
+    }
+  ],
+  "description": [
+    {
+      "text": "The city spreads over at least a dozen huge, flat-topped stone terraces, split by streams that spill over each edge as waterfalls to the level below before rejoining the river toward Elendel. The falls make it so loud that Wax compared the din to an earthquake or an explosion.",
+      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "10" }]
+    },
+    {
+      "text": "Gondolas slung from lines a hundred feet or more up carry people between and across the terraces, run by the New Seran Transportation Authority (NSTA). Ramps serve carriages, and bridges serve walkers.",
+      "revealedIn": ["bands-of-mourning"]
+    },
+    {
+      "text": "Political cartoons show deep resentment of Elendel, blamed for crushing the city's liberty and prosperity with unfair taxes. Locals call the Elendel government \"the Ravaging Lion\" and the city itself \"the Lion's Den\", and firms such as Zinc Brand Whiskey sell themselves as local goods that never pass through Elendel.",
+      "revealedIn": ["bands-of-mourning"]
+    },
+    {
+      "text": "At the city's university, the playwright B. Sablerfils offers a class in writing \"scientific fantasies\". The Shores mansion, with its stained glass, limelights burning outside and many-peaked roof shaped like a mountain's outline, is another landmark.",
+      "revealedIn": ["bands-of-mourning"]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        { "text": "A broken gondola", "revealedIn": ["bands-of-mourning"] }
+      ],
+      "items": [
+        {
+          "text": "The Zinc Line gondola once broke down after an \"unidentified disturbance\", stranding its riders until the NSTA got them where they were going by other means.",
+          "revealedIn": ["bands-of-mourning"]
+        }
+      ]
+    }
+  ]
+}

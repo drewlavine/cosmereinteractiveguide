@@ -19,6 +19,27 @@
           "revealedIn": [{ "book": "rhythm-of-war", "chapter": "20" }]
         }
       ]
+    },
+    {
+      "title": [
+        {
+          "text": "Hunting the Ghostbloods",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "18" },
+            { "book": "wind-and-truth", "chapter": "29" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Darcira followed a suspected Ghostblood to Narak and reported the hideout to Shallan by spanreed.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "18" }]
+        },
+        {
+          "text": "During the raid, she helped intercept Ghostbloods fleeing through the back tunnels before reaching the wounded Shallan.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "29" }]
+        }
+      ]
     }
   ],
   "appearance": [],

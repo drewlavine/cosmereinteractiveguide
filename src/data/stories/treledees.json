@@ -1,0 +1,76 @@
+{
+  "intro": [
+    {
+      "text": "The God King's high priest, who welcomes Princess Siri of Idris to the Court of Gods in T'Telir.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "4" }],
+      "fallback": true
+    },
+    {
+      "text": "The God King's high priest, who dies defending the God King and Siri when the palace is attacked.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "55" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "High priest of the God King",
+          "revealedIn": [
+            { "book": "warbreaker", "chapter": "4" },
+            { "book": "warbreaker", "chapter": "11" },
+            { "book": "warbreaker", "chapter": "16" },
+            { "book": "warbreaker", "chapter": "40" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Treledees greeted Siri when she arrived in T'Telir and told her there would be no wedding ceremony.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "4" }]
+        },
+        {
+          "text": "When Siri begged to be let out of the palace, he was offended, telling her that staying inside was the least she could do to honour the God King. Devoted to his office, he respects her position as queen, yet will only call her 'Vessel'.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "11" }]
+        },
+        {
+          "text": "As the Court debated war with Idris, which Hallandren views as a rebel province, he told Siri that an heir would steady the kingdom and might hold off war, hinting that people in the palace knew what really happened in the bedchamber.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "16" }]
+        },
+        {
+          "text": "When Siri kept him waiting and told him she knew about the God King's tongue, he said it had been cut out to protect Peacegiver's treasure of Breaths. His Breath let him see the faintest shift in her hair, and he had studied Idris's princesses closely, though he admitted the court knew little about her.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "40" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The attack on the palace",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "55" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "When the palace was attacked, Treledees took Siri from her room, and with the other priests tried to get her and the God King out. Shocked that she believed the priests meant to kill the God King, he told her a God King could pass on Peacegiver's Breath and live. Taking up a fallen soldier's sword, he died with his priests defending the pair.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "55" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Unusually tall and thin for a Hallandren, almost as tall as the Returned, with a long face. He dresses grandly, in silver and blue robes with high, armour-like shoulders and a matching mitre-like headdress.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "16" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Highly respected at court, though Siri finds him arrogant, smug and disdainful. He will not bend rules or play favourites.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "18" }]
+    },
+    {
+      "text": "Clever, observant and secretive, he holds enough Breath to reach the Third Heightening.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "40" }]
+    }
+  ]
+}

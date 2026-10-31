@@ -1,0 +1,62 @@
+{
+  "intro": [
+    {
+      "text": "A criminal gang operating near Ironstand on Scadrial.",
+      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "9" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "It is well known around Ironstand, though Elendel's constables seem barely aware of it. It usually strikes cities in or near the Roughs, but Constable Matieu thinks it is growing bolder and hitting targets nearer the heart of the Basin. Its members don't wear masks.",
+      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "9" }]
+    },
+    {
+      "text": "Its leader is Donny, a short, lively koloss-blood.",
+      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "9" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The train attack",
+          "revealedIn": [
+            { "book": "bands-of-mourning", "chapter": "18" },
+            { "book": "bands-of-mourning", "chapter": "9" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Kelesina Shores, acting for Edwarn Ladrian, hired the gang to attack Wax and distract him from the Set. They came well equipped, with a chemical weapon for the guards of an Erikell payroll, gas masks, a Coinshot and dynamite for the coal tender. Irich of the Set rode with them and used a primer cube to cut off Wax's Allomancy.",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "18" }]
+        },
+        {
+          "text": "Riding alongside a train Wax was on, the gang went after the Erikell payroll and seemed surprised to meet Allomancers rather than wealthy passengers. The attack went badly: some fled with the payroll or by leaping into a river, but Constable Matieu believed more than half were killed or captured.",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "9" }]
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Leader",
+      "name": "Donny",
+      "characterId": "donny",
+      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "9" }]
+    },
+    {
+      "label": "Based near",
+      "name": "Ironstand",
+      "placeId": "ironstand",
+      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "9" }]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "donny",
+      "role": "leader",
+      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "9" }]
+    }
+  ]
+}

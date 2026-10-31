@@ -1,0 +1,33 @@
+{
+  "intro": [
+    {
+      "text": "A listener song sung for heroes who have died, a kind of funeral rite.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "109" }]
+    }
+  ],
+  "description": [],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "For Teft",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "109" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Rlain sang it when he found Teft's body.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "109" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "rlain",
+      "role": "singer",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "109" }]
+    }
+  ]
+}

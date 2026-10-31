@@ -1,0 +1,52 @@
+{
+  "intro": [
+    {
+      "text": "The Bloodsealer the arbiters brought in to keep the Forger Shai sealed in her room; Gaotona trusts him as a loyal, discreet servant.",
+      "revealedIn": [{ "book": "emperors-soul", "chapter": "day-97" }]
+    },
+    {
+      "text": "A Bloodsealer from Dzhamar who helped keep Shai imprisoned while she Forged a soul for Emperor Ashravan.",
+      "revealedIn": ["emperors-soul"]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Warding the Forger",
+          "revealedIn": [
+            { "book": "emperors-soul", "chapter": "day-17" },
+            { "book": "emperors-soul", "chapter": "day-97" },
+            { "book": "emperors-soul", "chapter": "day-98" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Gaotona brought him to the palace to seal Shai in a small room with Bloodsealing wards, and he asked for her bones as his only fee. He came each morning to renew his mark on her door, though some days he was late, which she noticed.",
+          "revealedIn": [{ "book": "emperors-soul", "chapter": "day-17" }]
+        },
+        {
+          "text": "Letters from a lover back in Dzhamar woke him in the mornings and kept him on time; when no news came from home he drank and turned up late.",
+          "revealedIn": [{ "book": "emperors-soul", "chapter": "day-97" }]
+        },
+        {
+          "text": "When Shai broke free he sent his skeletals after her, but she smashed every one and wounded him. Before leaving she told him the woman who wrote to him wanted him home, whatever he was earning in the capital.",
+          "revealedIn": [{ "book": "emperors-soul", "chapter": "day-98" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Young, white-haired and milky-skinned, he has red eyes, lips that are faintly see-through and long fingers. He dresses in robes and a cloak and moves with an unnatural suppleness. He carries a crude stamp made of bone and keeps skeletal \"pets\" built from the bones of the dead.",
+      "revealedIn": [{ "book": "emperors-soul", "chapter": "day-3" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Gaotona thinks him loyal, discreet and capable; the guards are wary of him and push him around.",
+      "revealedIn": [{ "book": "emperors-soul", "chapter": "day-97" }]
+    }
+  ]
+}

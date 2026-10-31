@@ -1,0 +1,30 @@
+{
+  "intro": [
+    {
+      "text": "A school on Roshar.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "122" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Its students gain the coveted right to use Kharbranth's Palanaeum.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "122" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Students",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "122" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Gvori, one of Taravangian's granddaughters, was accepted to study there around the start of the True Desolation.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "122" }]
+        }
+      ]
+    }
+  ]
+}

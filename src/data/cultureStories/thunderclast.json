@@ -153,6 +153,53 @@
       ]
     }
   ],
+  "sections": [
+    {
+      "title": "Forms and weaknesses",
+      "items": [
+        {
+          "text": "Their Cognitive forms are enormous red-eyed shadows.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "80" }]
+        },
+        {
+          "text": "Severing the spine beneath the skull drives them back into the Cognitive Realm.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "81" }]
+        },
+        {
+          "text": "Worked or covered stone makes it harder for them to form a body.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "82" }]
+        }
+      ],
+      "parts": []
+    },
+    {
+      "title": "Azimir and Narak",
+      "items": [],
+      "parts": [
+        {
+          "title": [
+            {
+              "text": "Attacks on the capitals",
+              "revealedIn": [
+                { "book": "wind-and-truth", "chapter": "63" },
+                { "book": "wind-and-truth", "chapter": "85" }
+              ]
+            }
+          ],
+          "items": [
+            {
+              "text": "Kai-garnis broke through Narak Four's wall. Even after Sigzil and the Stonewards defeated her, the body gave the attackers a way through.",
+              "revealedIn": [{ "book": "wind-and-truth", "chapter": "63" }]
+            },
+            {
+              "text": "Terushal attacked Azimir. Adolin defeated the thunderclast, but lost part of his leg in the fight.",
+              "revealedIn": [{ "book": "wind-and-truth", "chapter": "85" }]
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "facts": [],
   "people": [
     {

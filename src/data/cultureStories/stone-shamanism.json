@@ -1,0 +1,39 @@
+{
+  "intro": [
+    {
+      "text": "A Shin religion that reveres stone and is led by Stone Shamans.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "i-6" },
+            { "book": "words-of-radiance", "chapter": "i-10" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "Followers avoid walking on stone, mining, and using metal taken from the ground.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "i-6" },
+            { "book": "words-of-radiance", "chapter": "i-10" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Acolytes can pursue service as ministers or as elite warriors.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "73" }]
+    },
+    {
+      "text": "Gemstone lighting is reserved for holy places, while ordinary homes use fire.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "90" }]
+    }
+  ],
+  "history": [],
+  "facts": [],
+  "people": []
+}

@@ -1,0 +1,47 @@
+{
+  "intro": [
+    {
+      "text": "A town whose law enforcement was allied with that of Weathering and Far Dorest.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "11" }]
+    },
+    {
+      "text": "A city in the Northern Roughs where two rivers meet, on the only railway into the region, about 125 miles north of Drypost, the nearest city in the Basin.",
+      "revealedIn": ["alloy-of-law"]
+    },
+    {
+      "text": "By around 342 PC the largest city in the Northern Roughs, set where two rivers meet on the region's only railway, about 125 miles north of Drypost.",
+      "revealedIn": [
+        {
+          "all": [
+            "alloy-of-law",
+            { "book": "bands-of-mourning", "chapter": "10" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Lawmen of the Roughs",
+          "revealedIn": [
+            { "book": "alloy-of-law", "chapter": "11" },
+            { "book": "bands-of-mourning", "chapter": "10" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Miles Dagouter was its lawman for about fifteen years, keeping its law enforcement allied with Weathering and Far Dorest. He carried a lighter bearing the seal of True Madil's lawmen, and kept using it as leader of the Vanishers, though it unsettled the gang.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "11" }]
+        },
+        {
+          "text": "The city had a very secure prison, where Waxillium Ladrian locked up the criminal Ape Manton after catching him.",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "10" }]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "intro": [
+    {
+      "text": "A dead man whose shade, people say, protects Silence's waystop from its enemies, a story Silence may have started herself.",
+      "revealedIn": [{ "book": "shadows-for-silence", "chapter": "1" }]
+    },
+    {
+      "text": "Silence Montane's late partner and the father of William Ann Montane.",
+      "revealedIn": [{ "book": "shadows-for-silence", "chapter": "4" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Silence's partner",
+          "revealedIn": [
+            { "book": "shadows-for-silence", "chapter": "4" },
+            { "book": "shadows-for-silence", "chapter": "1" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Silence's grandmother knew him, perhaps because he worked at her waystop, and thought him a fool; she believed Silence better off after his death. Silence became pregnant by him shortly before he died.",
+          "revealedIn": [{ "book": "shadows-for-silence", "chapter": "4" }]
+        },
+        {
+          "text": "Since his death his shade is said to protect Silence's waystop, a tale Silence may have spread herself.",
+          "revealedIn": [{ "book": "shadows-for-silence", "chapter": "1" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

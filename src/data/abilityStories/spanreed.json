@@ -1,0 +1,252 @@
+{
+  "intro": [
+    {
+      "text": "A conjoiner fabrial: a pair of linked reed pens that lets people on Roshar write to each other over long distances.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "28" }]
+    },
+    {
+      "text": "A conjoiner fabrial made by trapping a spren in a ruby and splitting it between two reed pens, so that each pen copies the other's movements and people can write to each other over long distances.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "28" },
+            { "book": "oathbringer", "chapter": "100" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "Whoever writes with one reed powers the movement of its twin, so a working spanreed weighs about double what a normal pen does.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "prelude" }]
+    },
+    {
+      "text": "Turning the ruby's setting switches between modes: asking the other side to talk, confirming a message came through, and linking the two reeds so they move together. Writers switch back to show they are done.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "28" }]
+    },
+    {
+      "text": "A spanreed is made like other conjoiners, by trapping a spren in a ruby and splitting it in two.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "100" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Spread of the spanreed",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "44" },
+                { "book": "oathbringer", "chapter": "52" }
+              ]
+            },
+            { "book": "way-of-kings", "chapter": "39" },
+            { "book": "words-of-radiance", "chapter": "24" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The Alethi royal family was using spanreeds by 1155, yet in 1168, early in the War of Reckoning, they were still seen as a new invention.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "44" },
+                { "book": "oathbringer", "chapter": "52" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "By the war's sixth year they were in common use in the Vorin lands, found in places as far apart as the Shattered Plains, Kharbranth and the remote Davar estates.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "39" }]
+        },
+        {
+          "text": "By 1173 Tashikk was growing into a spanreed hub. People and places kept reeds linked to Tashikki businesses, whose operators could be hired to pass on messages, look things up and make enquiries.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "24" }]
+        }
+      ]
+    }
+  ],
+  "mechanics": [
+    {
+      "title": [
+        {
+          "text": "Writing by spanreed",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "28" },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "28" },
+                { "book": "oathbringer", "chapter": "64" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "prelude" },
+                { "book": "oathbringer", "chapter": "100" },
+                { "book": "rhythm-of-war", "chapter": "28" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Spanreed desks have to be perfectly level for the reeds to work, and many come with levelling devices built in.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "28" }]
+        },
+        {
+          "text": "Vorin men who don't write can still use a spanreed, switching the gem on and off to show they are alive.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "28" },
+                { "book": "oathbringer", "chapter": "64" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "The farther apart two reeds are, the heavier they become once active, which can be used to work out where the other reed is.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "prelude" },
+                { "book": "oathbringer", "chapter": "100" },
+                { "book": "rhythm-of-war", "chapter": "28" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Limits",
+          "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "88" },
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "88" },
+                { "book": "dawnshard", "chapter": "5" }
+              ]
+            },
+            { "book": "rhythm-of-war", "chapter": "20" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "A moving spanreed can't send a clear message to a twin that is standing still.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "88" }]
+        },
+        {
+          "text": "Fabrials depend on the user's frame of reference, so two reeds on the same ship work normally, and the planet's motion and curve don't affect them.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "88" },
+                { "book": "dawnshard", "chapter": "5" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Spanreeds can't link the Physical and Cognitive Realms.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "20" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Aluminum",
+          "revealedIn": [{ "book": "dawnshard", "chapter": "9" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Huio noticed that aluminum affects the spren trapped in a spanreed's ruby: after he tinkered with one, its twin would only move sideways. Rushu built on this to make Rysn's chair float.",
+          "revealedIn": [{ "book": "dawnshard", "chapter": "9" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "jasnah-kholin",
+      "role": "Correspondent",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "28" }]
+    },
+    {
+      "characterId": "navani-kholin",
+      "role": "Correspondent",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "28" }]
+    },
+    {
+      "characterId": "dalinar-kholin",
+      "role": "Correspondent",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "28" }]
+    },
+    {
+      "characterId": "adolin-kholin",
+      "role": "Correspondent",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "28" }]
+    },
+    {
+      "characterId": "shallan-davar",
+      "role": "Correspondent",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "29" }]
+    },
+    {
+      "characterId": "eylita-tavinar",
+      "role": "Correspondent",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "29" }]
+    },
+    {
+      "characterId": "balat-davar",
+      "role": "Correspondent",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "39" }]
+    },
+    {
+      "characterId": "tyn",
+      "role": "Owner",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "34" }]
+    },
+    {
+      "characterId": "lift",
+      "role": "Sends a note",
+      "revealedIn": [{ "book": "edgedancer", "chapter": "13" }]
+    },
+    {
+      "characterId": "kaladin",
+      "role": "Field reports",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "7" }]
+    },
+    {
+      "characterId": "huio",
+      "role": "Tinkerer",
+      "revealedIn": [{ "book": "dawnshard", "chapter": "9" }]
+    },
+    {
+      "characterId": "rushu",
+      "role": "Fabrial scholar",
+      "revealedIn": [{ "book": "dawnshard", "chapter": "9" }]
+    },
+    {
+      "characterId": "rysn-ftori",
+      "role": "Correspondent",
+      "revealedIn": [{ "book": "dawnshard", "chapter": "9" }]
+    },
+    {
+      "characterId": "vstim",
+      "role": "Correspondent",
+      "revealedIn": [{ "book": "dawnshard", "chapter": "9" }]
+    }
+  ]
+}

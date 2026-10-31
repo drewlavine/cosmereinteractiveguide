@@ -1,0 +1,111 @@
+{
+  "intro": [
+    {
+      "text": "The body that governs the Terris people, which sets Keepers such as Sazed their work.",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "7" }]
+    },
+    {
+      "text": "The ruling council of the Terris Keepers. Under the Lord Ruler the Terris people quietly looked to it for guidance; after his death it openly governs Terris.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "well-of-ascension", "chapter": "56" },
+            { "book": "hero-of-ages", "chapter": "22" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "It took on the task of keeping knowledge of the world from before the Lord Ruler's Ascension, but never rose openly against the Final Empire, staying a secret body with its seat at Tathingdwen, in the Terris Dominance.",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "37" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Under the Lord Ruler",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "37" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "The Synod opposed Sazed's choice to help the skaa rebellion, and when he would not defend his actions, it removed him from his place among them.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "37" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "After the Lord Ruler's fall",
+          "revealedIn": [
+            { "book": "well-of-ascension", "chapter": "7" },
+            { "book": "well-of-ascension", "chapter": "14" },
+            { "book": "well-of-ascension", "chapter": "23" },
+            { "book": "well-of-ascension", "chapter": "49" },
+            { "book": "well-of-ascension", "chapter": "56" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "At the Synod's request, Sazed travels the countryside teaching skaa to write, farm, heal and govern themselves.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "7" }]
+        },
+        {
+          "text": "Free to work in the open, the Synod begins spreading the knowledge it has gathered.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "14" }]
+        },
+        {
+          "text": "Tindwyl, a Keeper sent to Luthadel to help Elend Venture hold his kingdom, rebukes Sazed for leaving his teaching. He holds that he was right to defy the Synod when he helped bring down the Lord Ruler.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "23" }]
+        },
+        {
+          "text": "Sazed believes the Synod would give Elend military help if asked, and Elend agrees to carry a package to Tathingdwen for the Synod when he leaves Luthadel.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "49" }]
+        },
+        {
+          "text": "Steel Inquisitors attack Tathingdwen and kill every member of the Synod in the city.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "56" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "In Elendel",
+          "revealedIn": [{ "book": "shadows-of-self", "chapter": "5" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "In Wax's day, a Synod rules the Village, Elendel's Terris quarter.",
+          "revealedIn": [{ "book": "shadows-of-self", "chapter": "5" }]
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Based in",
+      "name": "Tathingdwen",
+      "placeId": "tathingdwen",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "37" }]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "sazed",
+      "role": "Keeper",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "7" }]
+    },
+    {
+      "characterId": "tindwyl",
+      "role": "Keeper",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "23" }]
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "intro": [
+    {
+      "text": "A port city in Kerzta, on the northwestern shore of Dayside.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "prologue" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Although the Dynasty keeps travel under tight control, a local merchant says one or two ships from Darkside put in here every week.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "prologue" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "A Darkside expedition",
+          "revealedIn": [
+            { "book": "white-sand-omnibus", "chapter": "prologue" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Duchess Khrissalla's party came ashore here after crossing the Border Ocean from Darkside. They bought supplies from a Kerztian merchant whose signs were in Dynastic and who could speak it.",
+          "revealedIn": [
+            { "book": "white-sand-omnibus", "chapter": "prologue" }
+          ]
+        }
+      ]
+    }
+  ]
+}

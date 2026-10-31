@@ -1,0 +1,45 @@
+{
+  "intro": [
+    {
+      "text": "An event from Roshar's past whose details were forgotten over time and argued about by Veristitalian scholars.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "99" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Jasnah Kholin and her fellow Veristitalian Jochi disagreed about what really happened at the challenge. The Herald Shalash, who had been there, told Jasnah that King Iyalid was drunk at the time, which settled part of the dispute in Jochi's favour.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "99" }]
+    }
+  ],
+  "history": [],
+  "facts": [
+    {
+      "label": "Witness",
+      "name": "Shalash",
+      "characterId": "shalash",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "99" }]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "iyalid",
+      "role": "King",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "99" }]
+    },
+    {
+      "characterId": "shalash",
+      "role": "Witness",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "99" }]
+    },
+    {
+      "characterId": "jasnah-kholin",
+      "role": "Scholar",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "99" }]
+    },
+    {
+      "characterId": "jochi",
+      "role": "Scholar",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "99" }]
+    }
+  ]
+}

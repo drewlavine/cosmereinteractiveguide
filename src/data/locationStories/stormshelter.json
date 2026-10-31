@@ -1,0 +1,37 @@
+{
+  "intro": [
+    {
+      "text": "A kind of building on Roshar, also called a storm bunker, where people take cover during highstorms.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "61" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "They are also places to socialize. Some are built for the rich, who gather to mingle while a storm passes, and for poorer people a shelter can serve as a meeting place or a dance hall.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "50" },
+            { "book": "oathbringer", "chapter": "70" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "They are made of stone or brick, some built and some Soulcast, with low, rounded roofs that give the wind little to catch, so that they look like loaves of bread. Some have windows.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "edgedancer", "chapter": "18" },
+            { "book": "oathbringer", "chapter": "109" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "They protect people and livestock from the highstorms and the Everstorm. Most people shelter at home, but governments keep public shelters of limited size for travellers and the homeless. In war they are vital: armies on the march sleep in them, besiegers hurry to build them, and civilians hide in them during battles.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "121" }]
+    }
+  ],
+  "history": []
+}

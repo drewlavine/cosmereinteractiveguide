@@ -1,0 +1,26 @@
+{
+  "intro": [
+    {
+      "text": "Old Burlow, a resident of Weathering in the Roughs.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "13" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Weathering",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "13" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "His daughter was murdered by Pars the Deadman, who left her body in the middle of Weathering to taunt Wax, who was hunting him.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "13" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

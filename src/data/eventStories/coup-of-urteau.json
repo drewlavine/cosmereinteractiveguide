@@ -1,0 +1,185 @@
+{
+  "intro": [
+    {
+      "text": "The struggle to bring Urteau, ruled by Quellion the Citizen, into Elend's empire. When Quellion turned away Elend's envoys, Sazed and Breeze joined Spook, already in the city, to plan how to deal with him.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "29" }]
+    },
+    {
+      "text": "The struggle for Urteau after its skaa overthrew the government and made Quellion their leader. Elend's envoys joined Spook to stir up a rebellion, and when riots set the city ablaze, Spook flooded its canals and saved it.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "59" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Sitting on the canals, Urteau let House Venture control, and tax, nearly every heavy shipment headed for other cities, Luthadel above all. Under Quellion the dry canals served as roads, market space and a place for homeless skaa to sleep.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "16" }]
+    },
+    {
+      "text": "Urteau is the ancestral home of House Venture and was the capital of the Northern Dominance. Its canals once crossed the city, but most were left empty and became \"streetslots\", sunken streets reached by ladders, ramps or stairs; in richer districts they were filled in and paved.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "well-of-ascension", "chapter": "3" },
+            { "book": "hero-of-ages", "chapter": "29" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Beneath the city lay a storage cache left by the Lord Ruler, holding food, supplies and equipment, notes on the undiscovered metal electrum, and warnings about the danger of Ruin. The Lord Ruler had diverted the canals' water into the cavern, drying them but giving the cache fresh water.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "31" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The Citizen's rule",
+          "revealedIn": [
+            { "book": "hero-of-ages", "chapter": "70" },
+            { "book": "hero-of-ages", "chapter": "14" },
+            { "book": "hero-of-ages", "chapter": "16" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "While Straff Venture was away besieging Luthadel, Quellion, an unstable skaa, put a spike in himself and became a Seeker. He began seeing Ruin in the form of Kelsier, who guided his actions. Claiming the mists would spare Kelsier's true followers, he killed anyone stricken by mistsickness and every noble but his sister, took the city and the title of Citizen, and denounced Kelsier's crew as impostors.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "70" }]
+        },
+        {
+          "text": "Spook spied on Quellion's council as it discussed Elend's conquests, the envoy Elend was sending, and laws against the nobility.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "14" }]
+        },
+        {
+          "text": "Nobles who had not left Urteau as ordered were locked in a building, and it was set on fire.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "16" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Elend's envoys",
+          "revealedIn": [
+            { "book": "hero-of-ages", "chapter": "29" },
+            { "book": "hero-of-ages", "chapter": "49" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Sazed reached Urteau with Breeze, Allrianne, Goradel and an honour guard as Elend's envoys. Quellion refused an alliance, saying his people followed the Survivor and needed no allies, but let them stay if they kept the law.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "29" }]
+        },
+        {
+          "text": "Sazed and Breeze joined Spook, who had spent months gathering information in Urteau. Settling in an abandoned Ministry building, they found the supply cache beneath it, with an underground reservoir that explained the dry canals, and started to plan their move against Quellion.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "29" }]
+        },
+        {
+          "text": "Believing Quellion was secretly a Coinshot, Spook had Sazed and Breeze spread rumours of his Allomancy and noble blood, hoping to make him use it in public in a city where nobles were being executed. Sazed planned to flood the canals to add to Spook's growing fame among the people. When Quellion's sister Beldre came to plead for her brother's life, Spook took her hostage and spread word that she had defected.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "49" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Urteau burns",
+          "revealedIn": [
+            { "book": "hero-of-ages", "chapter": "58" },
+            { "book": "hero-of-ages", "chapter": "59" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Riots broke out. During Quellion's speech denouncing Spook, Spook and Goradel's soldiers stormed the stage, and Spook nearly killed Quellion until a coin from Beldre stopped him; she, not her brother, was the Coinshot. Spook saw that a false vision of Kelsier had been steering them both, pulled out his and Quellion's spikes, and found the city burning. Beldre had killed the guards meant to release the water.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "58" }]
+        },
+        {
+          "text": "Spook, Beldre and Sazed found the Ministry building in flames. Spook went in, pulled the lever and flooded the canals, and the people used the water to put out the fires, though roughly a third of Urteau burned.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "59" }]
+        },
+        {
+          "text": "TenSoon reached Urteau to find many buildings burned, the canals flowing again and Breeze in charge.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "59" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Aftermath",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "epilogue" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Sazed left Breeze in charge of the city. Freed of his spike, Quellion grew calmer and became open to the idea of joining Elend.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "epilogue" }]
+        },
+        {
+          "text": "When the mists began acting strangely, Spook told Breeze to gather everyone in Urteau into the storage cavern at once. Those who sheltered there survived, and were brought together with survivors from across the empire.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "epilogue" }]
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Location",
+      "name": "Urteau",
+      "placeId": "urteau",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "14" }]
+    },
+    {
+      "label": "City ruler",
+      "name": "Quellion",
+      "characterId": "quellion",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "14" }]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "quellion",
+      "role": "the Citizen",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "14" }]
+    },
+    {
+      "characterId": "spook",
+      "role": "spy",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "14" }]
+    },
+    {
+      "characterId": "sazed",
+      "role": "envoy",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "29" }]
+    },
+    {
+      "characterId": "breeze",
+      "role": "envoy",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "29" }]
+    },
+    {
+      "characterId": "allrianne-cett",
+      "role": "envoy",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "29" }]
+    },
+    {
+      "characterId": "goradel",
+      "role": "soldier",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "29" }]
+    },
+    {
+      "characterId": "beldre",
+      "role": "Quellion's sister",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "49" }]
+    },
+    {
+      "characterId": "elend-venture",
+      "role": "emperor",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "29" }]
+    }
+  ]
+}

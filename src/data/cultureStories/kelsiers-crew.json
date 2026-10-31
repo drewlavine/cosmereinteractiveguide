@@ -1,0 +1,192 @@
+{
+  "intro": [
+    {
+      "text": "A band of skaa, led by Kelsier, that works against the Final Empire.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "2" }]
+    },
+    {
+      "text": "A crew of skaa thieves led by Kelsier and working with the skaa rebellion. Their job is the destruction of the Final Empire.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "6" }]
+    },
+    {
+      "text": "A crew of skaa thieves, led by Kelsier until his death, who set out to destroy the Final Empire. Their work ends with Vin killing the Lord Ruler.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "38" }]
+    }
+  ],
+  "description": [],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Kelsier's first crew",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "3" },
+                { "book": "shadows-of-self", "chapter": "11" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The first crew Kelsier put together, to break into Kredik Shaw, included Mare and Redd. All but Kelsier died during the heist or after it.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "3" },
+                { "book": "shadows-of-self", "chapter": "11" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The job",
+          "revealedIn": [
+            { "book": "final-empire", "chapter": "4" },
+            { "book": "final-empire", "chapter": "5" },
+            { "book": "final-empire", "chapter": "6" },
+            { "book": "final-empire", "chapter": "8" },
+            { "book": "final-empire", "chapter": "19" },
+            { "book": "final-empire", "chapter": "34" },
+            { "book": "final-empire", "chapter": "35" },
+            { "book": "final-empire", "chapter": "38" },
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "3" },
+                { "book": "shadows-of-self", "chapter": "11" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Kelsier pitches a job tied to the skaa rebellion to the crew he has gathered, among them Dockson, Breeze, Hammond and Clubs, with the rebel Yeden present. All agree except Clubs, who walks out. Kelsier tells them Vin is Mistborn and shows them the Eleventh Metal.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "4" }]
+        },
+        {
+          "text": "Clubs comes back and agrees to join the team.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "5" }]
+        },
+        {
+          "text": "In Clubs's shop the crew work out their plan, which is to bring down the Final Empire. Clubs's nephew Spook is there, and Marsh turns up to speak with Kelsier in private.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "6" }]
+        },
+        {
+          "text": "The Terrisman Sazed takes Kelsier and Vin to Lord Renoux's estate at Fellise, where Renoux proposes that Vin pose as the daughter of a favoured cousin and be introduced to the noble houses.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "8" }]
+        },
+        {
+          "text": "To push the nobles toward a house war, Kelsier stirs up more trouble, leaving a murdered Entrone nobleman in House Tekiel's garden.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "19" }]
+        },
+        {
+          "text": "Before a crowd, the Lord Ruler kills Kelsier with a single blow; Ham pulls Vin away to safety.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "34" }]
+        },
+        {
+          "text": "The crew finally see what Kelsier's plan was all along. In his warehouse they find a huge stockpile of weapons and a document he left them, and Dockson starts handing out arms and armour to the skaa.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "35" }]
+        },
+        {
+          "text": "Vin kills the Lord Ruler while the skaa rebels close in on the palace.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "38" }]
+        },
+        {
+          "text": "Between them, the crew set off a house war among Luthadel's nobility, raised an army and stirred mass skaa riots in the city, before the Lord Ruler's death brought down the Final Empire. Those who survive then run Luthadel's government, and are no longer counted as Kelsier's crew.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "3" },
+                { "book": "shadows-of-self", "chapter": "11" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "kelsier",
+      "role": "Leader",
+      "revealedIn": [{ "book": "final-empire", "chapter": "2" }]
+    },
+    {
+      "characterId": "dockson",
+      "role": "Crew member",
+      "revealedIn": [{ "book": "final-empire", "chapter": "4" }]
+    },
+    {
+      "characterId": "breeze",
+      "role": "Soother",
+      "revealedIn": [{ "book": "final-empire", "chapter": "4" }]
+    },
+    {
+      "characterId": "hammond",
+      "role": "Thug",
+      "revealedIn": [{ "book": "final-empire", "chapter": "4" }]
+    },
+    {
+      "characterId": "clubs",
+      "role": "Smoker",
+      "revealedIn": [{ "book": "final-empire", "chapter": "4" }]
+    },
+    {
+      "characterId": "vin",
+      "role": "Mistborn",
+      "revealedIn": [{ "book": "final-empire", "chapter": "4" }]
+    },
+    {
+      "characterId": "yeden",
+      "role": "Rebellion leader",
+      "revealedIn": [{ "book": "final-empire", "chapter": "4" }]
+    },
+    {
+      "characterId": "spook",
+      "role": "Clubs's nephew",
+      "revealedIn": [{ "book": "final-empire", "chapter": "6" }]
+    },
+    {
+      "characterId": "marsh",
+      "role": "Crew member",
+      "revealedIn": [{ "book": "final-empire", "chapter": "6" }]
+    },
+    {
+      "characterId": "sazed",
+      "role": "Terrisman steward",
+      "revealedIn": [{ "book": "final-empire", "chapter": "8" }]
+    },
+    {
+      "characterId": "mare",
+      "role": "First crew",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "3" },
+            { "book": "shadows-of-self", "chapter": "11" }
+          ]
+        }
+      ]
+    },
+    {
+      "characterId": "redd",
+      "role": "First crew",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "3" },
+            { "book": "shadows-of-self", "chapter": "11" }
+          ]
+        }
+      ]
+    }
+  ]
+}

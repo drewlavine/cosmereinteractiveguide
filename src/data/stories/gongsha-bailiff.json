@@ -1,0 +1,34 @@
+{
+  "intro": [
+    {
+      "text": "The bailiff of Gongsha Town, whom Liyun sends for when Yumi decides to destroy the scholars' machine.",
+      "revealedIn": [{ "book": "yumi", "chapter": "34" }],
+      "fallback": true
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Gongsha Town",
+          "revealedIn": [
+            { "book": "yumi", "chapter": "34" },
+            { "book": "yumi", "chapter": "38" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "When Yumi resolved to destroy the scholars' machine, Liyun sent Hwanji for the bailiff, and he gathered villagers to help. At the scholars' tent, everyone around Nikaro began turning into nightmares.",
+          "revealedIn": [{ "book": "yumi", "chapter": "34" }]
+        },
+        {
+          "text": "The bailiff had brought a dozen men with hammers, and he too became a nightmare before they could act. Yumi then found the scholars' machine hidden in his house.",
+          "revealedIn": [{ "book": "yumi", "chapter": "38" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

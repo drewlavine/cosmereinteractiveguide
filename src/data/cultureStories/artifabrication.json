@@ -1,0 +1,33 @@
+{
+  "intro": [
+    {
+      "text": "A six-volume work by Britt the Good, kept in Navani Kholin's library.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "101" }]
+    }
+  ],
+  "description": [],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Navani's library",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "101" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Navani acquired a worn set when she was young and kept it in her Kholinar study.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "101" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "navani-kholin",
+      "role": "reader",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "101" }]
+    }
+  ]
+}

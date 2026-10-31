@@ -1,0 +1,57 @@
+{
+  "intro": [
+    {
+      "text": "Father Omin, a short, bald Korathi priest in Kae with strikingly blue eyes.",
+      "revealedIn": [{ "book": "elantris", "chapter": "17" }]
+    },
+    {
+      "text": "Father Omin, a kind, fatherly and very absent-minded Korathi priest in Kae, who performs Sarene's weddings.",
+      "revealedIn": [{ "book": "elantris", "chapter": "63" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Priest in Kae",
+          "revealedIn": [
+            { "book": "elantris", "chapter": "17" },
+            { "book": "elantris", "chapter": "21" },
+            { "book": "elantris", "chapter": "38" },
+            { "book": "elantris", "chapter": "63" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Sarene visited Omin's Korathi chapel to find out what a Widow's Trial involved. They talked about the Elantrians, and about whether Hrathen might be stirring up hatred of them for his own ends.",
+          "revealedIn": [{ "book": "elantris", "chapter": "17" }]
+        },
+        {
+          "text": "Meeting Hrathen on the wall of Elantris, Omin challenged him for preaching hatred of the Elantrians while doing nothing more than talk. He spoke to him about truth and belief, and admired his logic and determination, but questioned whether he had real faith.",
+          "revealedIn": [{ "book": "elantris", "chapter": "21" }]
+        },
+        {
+          "text": "Omin officiated at Sarene's wedding to Roial, even though the head of his church was there.",
+          "revealedIn": [{ "book": "elantris", "chapter": "38" }]
+        },
+        {
+          "text": "At Sarene's request, Omin married her to Raoden, though Raoden's mind wandered during his long address.",
+          "revealedIn": [{ "book": "elantris", "chapter": "63" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Omin is bald, with strikingly blue eyes, and so short, even for an Arelene, that he has built a special podium to preach from.",
+      "revealedIn": [{ "book": "elantris", "chapter": "17" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Omin is kind and fatherly, one of the best priests Sarene has known, but deeply absent-minded, often drifting off into his own thoughts in the middle of a conversation.",
+      "revealedIn": [{ "book": "elantris", "chapter": "63" }]
+    }
+  ]
+}

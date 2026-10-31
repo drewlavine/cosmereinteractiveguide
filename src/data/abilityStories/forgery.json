@@ -1,0 +1,240 @@
+{
+  "intro": [
+    {
+      "text": "The art practised by Forgers such as Shai. Only one branch of it, Soul Forgery, is actually against the law.",
+      "revealedIn": [{ "book": "emperors-soul", "chapter": "day-2" }]
+    },
+    {
+      "text": "A magic in which carved soulstamps rewrite an object's past. If the new history is plausible enough, the seal takes and the object becomes as if it had always had that history.",
+      "revealedIn": [{ "book": "emperors-soul", "chapter": "day-12" }]
+    },
+    {
+      "text": "A magic powered by the Dor, in which carved soulstamps rewrite an object's past. If the new history is plausible enough, the seal takes and the object becomes as if it had always had that history.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "emperors-soul", "chapter": "day-12" },
+            { "book": "lost-metal", "chapter": "53" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "Most Forgers learn mundane forgery first, such as reading people, writing, art and personal signets, before they are taught soulstamps. These skills are not required but help a great deal.",
+      "revealedIn": [{ "book": "emperors-soul", "chapter": "day-30" }]
+    },
+    {
+      "text": "Many cultures consider soulforging, Forging a person's soul, blasphemous.",
+      "revealedIn": [{ "book": "emperors-soul", "chapter": "day-76" }]
+    },
+    {
+      "text": "A stamp's success depends on how plausible its new history is, so the more a Forger knows about the subject, the better the stamp. This is why Forgers spend so long studying. Simple Forgings, such as making a neglected table one that was cared for, need little knowledge.",
+      "revealedIn": ["emperors-soul"]
+    }
+  ],
+  "history": [],
+  "mechanics": [
+    {
+      "title": [
+        {
+          "text": "Soulstamps and seals",
+          "revealedIn": [
+            { "book": "emperors-soul", "chapter": "day-12" },
+            { "book": "emperors-soul", "chapter": "day-3" },
+            { "book": "emperors-soul", "chapter": "day-76" },
+            { "book": "emperors-soul", "chapter": "day-30" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "A soulstamp presses a seal, also called a soulstamp, that changes the object's past as its design describes. A convincing new history holds; an unconvincing one fails after a time that depends on how far it strays. A failing seal evaporates and the object returns to normal, as it does if the seal is forced off. A Forgery that many people know about is more likely to fail.",
+          "revealedIn": [{ "book": "emperors-soul", "chapter": "day-12" }]
+        },
+        {
+          "text": "A seal resists being forced off more strongly than the object's own material should allow, and its ink is hard to harm and stays crisp until the seal breaks or wears off.",
+          "revealedIn": [{ "book": "emperors-soul", "chapter": "day-3" }]
+        },
+        {
+          "text": "Seals sit slightly indented, with a texture of their own whatever the material. When one fails, the texture vanishes and the ink is as if fresh. Once a Forger has made a stamp, anyone can apply it, but stamps do not work on a subject under a Bloodseal.",
+          "revealedIn": [{ "book": "emperors-soul", "chapter": "day-76" }]
+        },
+        {
+          "text": "A Forger must encode their intent by arranging the correct symbols and modifiers in the correct pattern.",
+          "revealedIn": [{ "book": "emperors-soul", "chapter": "day-30" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Materials and ink",
+          "revealedIn": [{ "book": "emperors-soul", "chapter": "day-3" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Stamps are known to be carved from wood, crystal, soulstone and bone. Harder, finer materials make better stamps, and soulstone is valued most: soft and easy to cut, it becomes very hard once baked.",
+          "revealedIn": [{ "book": "emperors-soul", "chapter": "day-3" }]
+        },
+        {
+          "text": "Only fresh, organic inks work, though they can be mixed with things like wax. Clear, bright colours are best, and animal inks outdo plant inks, squid ink being well regarded. Inks from more complex creatures help a seal take.",
+          "revealedIn": [{ "book": "emperors-soul", "chapter": "day-3" }]
+        }
+      ]
+    },
+    {
+      "title": [{ "text": "Plausibility", "revealedIn": ["emperors-soul"] }],
+      "items": [
+        {
+          "text": "Whether a seal takes depends partly on plausibility: both the object's own sense of its history and how others see it count, as does the Forger's skill in what they imitate. Connections the object could not know about matter too, as when altering the room where Atsuko of JinDo was kept swayed how a mural was drawn.",
+          "revealedIn": ["emperors-soul"]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The Dor and MaiPon",
+          "revealedIn": [
+            { "book": "lost-metal", "chapter": "53" },
+            {
+              "all": [
+                { "book": "emperors-soul", "chapter": "day-30" },
+                { "book": "lost-metal", "chapter": "54" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "emperors-soul", "chapter": "day-5" },
+                { "book": "lost-metal", "chapter": "54" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Forgery draws its power from the Dor.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "53" }]
+        },
+        {
+          "text": "Forgery is tied to MaiPon: it reaches the Dor through a Connection to that land, and every soulstamp bears an impression of MaiPon on its back. The link can be fooled into using another place's shape instead.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "emperors-soul", "chapter": "day-30" },
+                { "book": "lost-metal", "chapter": "54" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Not everyone who meets the requirement of place can Forge. Away from Sel, a Forger can still work by bringing Dor along, by dipping stamps in purified Dor, or by using Invested Ink.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "emperors-soul", "chapter": "day-5" },
+                { "book": "lost-metal", "chapter": "54" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "A universal stamp works on any fitting object without being made for it, and can be reused, but its effect lasts only minutes unless more Investiture is added.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "53" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Forgery and Elantrians",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "54" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Forgery can make a person an Elantrian, by first altering their birthplace and then soulforging them into one, though this takes a great deal of Investiture to hold.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "54" }]
+        }
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "title": "Branches of Forgery",
+      "items": [],
+      "parts": [
+        {
+          "title": [
+            {
+              "text": "Resealing",
+              "revealedIn": [{ "book": "emperors-soul", "chapter": "day-2" }]
+            }
+          ],
+          "items": [
+            {
+              "text": "Resealing, which the MaiPon call Flesh Forgery, repairs damage to the human body.",
+              "revealedIn": [{ "book": "emperors-soul", "chapter": "day-2" }]
+            },
+            {
+              "text": "It can heal wonders, even saving Emperor Ashravan after a crossbow bolt struck his head, but it mends only the body: after an injury like his, the mind stays empty, and only a new Forged soul could restore him.",
+              "revealedIn": [{ "book": "emperors-soul", "chapter": "day-2" }]
+            },
+            {
+              "text": "It takes great skill and specialism. Shai says a Reseal needs knowledge of everything about the subject's body, down to where each vein, muscle and sinew lies.",
+              "revealedIn": [{ "book": "emperors-soul", "chapter": "day-2" }]
+            }
+          ]
+        },
+        {
+          "title": [
+            {
+              "text": "Remembering",
+              "revealedIn": [{ "book": "emperors-soul", "chapter": "day-3" }]
+            }
+          ],
+          "items": [
+            {
+              "text": "The Heritage Faction's name for its own Forgery, kept to recreating objects of historic and cultural value. Its Forgers turn common, low-quality goods into historic works in bulk for decoration; the limits exist because Forgery is so poorly regarded in the Rose Empire.",
+              "revealedIn": [{ "book": "emperors-soul", "chapter": "day-3" }]
+            }
+          ]
+        },
+        {
+          "title": [
+            {
+              "text": "Soulforging",
+              "revealedIn": [{ "book": "emperors-soul", "chapter": "day-76" }]
+            }
+          ],
+          "items": [
+            {
+              "text": "The people of MaiPon practise soulforging with special stamps called Essence Marks, so named because they Forge a person's spiritual side.",
+              "revealedIn": [{ "book": "emperors-soul", "chapter": "day-76" }]
+            },
+            {
+              "text": "With Essence Marks, the MaiPon Forge their own souls to gain skills, take on disguises, change their personality or body, or rewrite their memories. Marks are powerful but very hard to make, needing a lattice of hundreds of linked stamps.",
+              "revealedIn": [{ "book": "emperors-soul", "chapter": "day-76" }]
+            },
+            {
+              "text": "Applying a Mark gives off faint red smoke, as on any living thing, as the soul fights the rewriting. A soul keeps changing, so a Mark lasts a day at most and must be reapplied every twenty-four hours; after a few years of steady use it may no longer be needed. Memories from a Mark fade within an hour of stopping.",
+              "revealedIn": [{ "book": "emperors-soul", "chapter": "day-76" }]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "wan-shailu",
+      "role": "Forger",
+      "revealedIn": [{ "book": "emperors-soul", "chapter": "day-12" }]
+    }
+  ]
+}

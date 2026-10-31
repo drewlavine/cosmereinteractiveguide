@@ -1,0 +1,112 @@
+{
+  "intro": [
+    {
+      "text": "Deadly pale beings of the Forests of Hell. Shedding another's blood, kindling a fire or running at night drives them into a rage.",
+      "revealedIn": [{ "book": "shadows-for-silence", "chapter": "2" }]
+    },
+    {
+      "text": "Ghostly white figures that haunt the Forests of Hell, most keeping the shape of the person they once were. Breaking the Simple Rules enrages them.",
+      "revealedIn": ["shadows-for-silence"]
+    },
+    {
+      "text": "A kind of Cognitive Shadow native to Threnody's Forests of Hell: the spirits of dead Threnodites, preying on travellers. Only silver defeats them, and their touch can cripple, disfigure or kill, turning the victim into a shade.",
+      "revealedIn": [
+        {
+          "all": [
+            "shadows-for-silence",
+            { "book": "sunlit-man", "chapter": "22" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "Silence teaches William Ann never to shed another's blood, light a fire or run at night, lest the shades rage. When she kills sleeping outlaws, she does it inside tar-lined bags so that no blood spills.",
+      "revealedIn": [{ "book": "shadows-for-silence", "chapter": "2" }]
+    },
+    {
+      "text": "A silver knife can destroy a shade, and silver dust stops the withering their touch causes. Passing through a shade withers a person, and a circle of silver dust holds them off.",
+      "revealedIn": [{ "book": "shadows-for-silence", "chapter": "2" }]
+    },
+    {
+      "text": "Calm shades are invisible by day; at night they glow faintly as translucent white figures, drifting just above the ground with trails of white behind them. Older ones lose their human features, and their eyes look dead. They mostly ignore the living, wander aimlessly and shy slightly away from living things, so moving slowly avoids touching one. Their numbers in each part of the forest rise and fall.",
+      "revealedIn": ["shadows-for-silence"]
+    },
+    {
+      "text": "Running at night enrages them slowest, and standing still may calm them again. Lighting a fire, rather than fire itself, draws many at once, though its light dazzles them. Drawn blood enrages them fastest and most fiercely, sending them first after whoever drew it; they will even throw themselves at silver barriers. Blood from accidents or the body's own processes does not count, and must meet the air before they notice it.",
+      "revealedIn": ["shadows-for-silence"]
+    },
+    {
+      "text": "Silver powder, spread on the wound or swallowed, can undo withering, sparking and blackening as it is used up; it also ends the freezing pain and numbness, though some chill lingers for months. Left too long, withering cannot be reversed, but blackened skin fades to grey over time.",
+      "revealedIn": ["shadows-for-silence"]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The shade at the waystop",
+          "revealedIn": [{ "book": "shadows-for-silence", "chapter": "5" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "When Theopolis struck Silence and drew blood, the door behind her opened on her grandmother's shade, kept shut away inside; it killed him, then let Silence lock it in again.",
+          "revealedIn": [{ "book": "shadows-for-silence", "chapter": "5" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Watched by the Ire",
+          "revealedIn": [{ "book": "secret-history", "chapter": "5-2" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "The Ire stationed forces around the edge of Threnody's subastral to keep shades from escaping, and built devices that can detect them.",
+          "revealedIn": [{ "book": "secret-history", "chapter": "5-2" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The Chorus of Canticle",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "22" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "A band of Threnodites escaped to Canticle; those who died first there became the shades called the Chorus, keepers of the refugees' history who build ships for the living. Canticle's sun turns shades into sunhearts, which keeps them from overrunning the planet, and no new shades have formed there since the Chorus.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "22" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "silence-montane",
+      "role": "fights them",
+      "revealedIn": [{ "book": "shadows-for-silence", "chapter": "2" }]
+    },
+    {
+      "characterId": "william-ann-montane",
+      "role": "withered",
+      "revealedIn": [{ "book": "shadows-for-silence", "chapter": "2" }]
+    },
+    {
+      "characterId": "theopolis",
+      "role": "killed by one",
+      "revealedIn": [{ "book": "shadows-for-silence", "chapter": "5" }]
+    },
+    {
+      "characterId": "silences-grandmother",
+      "role": "shade",
+      "revealedIn": [{ "book": "shadows-for-silence", "chapter": "5" }]
+    }
+  ]
+}

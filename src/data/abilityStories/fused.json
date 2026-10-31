@@ -1,0 +1,146 @@
+{
+  "intro": [
+    {
+      "text": "Ancient singer souls reborn in living hosts, organized into nine brands with one Surge each.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "oathbringer", "chapter": "121" },
+            { "book": "rhythm-of-war", "chapter": "31" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Odium's singer servants, ranked above ordinary singers and Regals.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "41" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Repeated deaths and rebirths have damaged many Fused's minds.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "oathbringer", "chapter": "38" },
+            { "book": "rhythm-of-war", "chapter": "97" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Roughly four thousand remained by the Night of Sorrows.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "47" }]
+    },
+    {
+      "text": "Odium can restrict a Fused's access to its Surge.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "56" }]
+    },
+    {
+      "text": "Fused can use Warlight to fuel their powers.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "147" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The first war",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "64" },
+                { "book": "wind-and-truth", "chapter": "115" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The first Fused recruited powerful singers and overwhelmed humans through repeated rebirths. The Oathpact bound their souls to Braize.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "64" },
+                { "book": "wind-and-truth", "chapter": "115" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Under a new Odium",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "i-3" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Taravangian placed El above the Nine.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "i-3" }]
+        }
+      ]
+    }
+  ],
+  "mechanics": [
+    {
+      "title": [
+        {
+          "text": "The brands",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "56" },
+            { "book": "wind-and-truth", "chapter": "61" },
+            { "book": "wind-and-truth", "chapter": "103" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The Deepest Ones cannot pass through material that was once alive, including wood.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "56" }]
+        },
+        {
+          "text": "Focused Ones tighten their loose flesh into a compact, resilient body and release that stored tension for powerful movement and attacks.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "61" }]
+        },
+        {
+          "text": "Magnified Ones grow their carapace into tools and weapons without spending Voidlight.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "103" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Human counterparts",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "128" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Ishar used the Well of Control's power to create human counterparts of the Fused, reborn into willing hosts.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "128" }]
+        },
+        {
+          "text": "He can control their movements and kill them at will. Their presence can distort the lives and perceptions of people nearby.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "133" }]
+        },
+        {
+          "text": "They use Honorblades rather than possessing innate Surgebinding, and Nightblood can destroy them permanently.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "141" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "el",
+      "role": "commander",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "i-3" }]
+    }
+  ]
+}

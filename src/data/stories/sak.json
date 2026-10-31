@@ -1,0 +1,144 @@
+{
+  "intro": [
+    {
+      "text": "A small black bird that rides on the shoulder of the trapper Sixth of the Dusk. She belongs to a mainland species rather than one of the Aviar breeds, yet she gained an Aviar's talent on Patji.",
+      "revealedIn": ["sixth-of-the-dusk"]
+    },
+    {
+      "text": "A bird who lives with Dusk, a former trapper, and shares his worry for his missing Aviar, Kokerlii.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "1" }],
+      "fallback": true
+    },
+    {
+      "text": "Dusk's bird, who rides on his shoulder and shows him visions of his own corpse wherever death threatens.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "4" }],
+      "fallback": true
+    },
+    {
+      "text": "A mainland bird, not one of the Aviar breeds, that Dusk brought to the Pantheon islands, where she shows him visions of where death waits.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "12" }],
+      "fallback": true
+    },
+    {
+      "text": "A mainland bird bonded to Dusk, who shows him visions of where death waits and, through their bond, hears the thrumming that lets him find islands in the dark.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "33" }],
+      "fallback": true
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "On Patji",
+          "revealedIn": [
+            "sixth-of-the-dusk",
+            { "book": "isles-of-the-emberdark", "chapter": "4" },
+            { "book": "isles-of-the-emberdark", "chapter": "6" },
+            { "book": "isles-of-the-emberdark", "chapter": "10" },
+            { "book": "isles-of-the-emberdark", "chapter": "12" },
+            { "book": "isles-of-the-emberdark", "chapter": "20" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Dusk kept Sak a secret for years, leaving her behind whenever he travelled away from Patji so that no one would ask about her.",
+          "revealedIn": ["sixth-of-the-dusk"]
+        },
+        {
+          "text": "Five years before the present, Sak rode on Dusk's shoulder as he sailed to Patji, and as he came ashore she showed him his corpse floating in the surf so he could steer around the danger.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "4" }]
+        },
+        {
+          "text": "As Dusk led Vathi, a company clerk, through the jungle, she was puzzled that he carried Sak, a bird she did not take for an Aviar. Dusk did not explain.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "6" }]
+        },
+        {
+          "text": "One night Sak and the island's other Aviar shrieked as if in pain, and among her visions Dusk saw a body that was not quite dead. He blamed whatever Vathi's company was doing across the island.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "10" }]
+        },
+        {
+          "text": "Unsettled by visions that seemed wrong, Dusk had Sak show them to Vathi too, which convinced her to come with him. On the way he admitted that Sak was a mainland bird he had brought to the Pantheon.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "12" }]
+        },
+        {
+          "text": "Outside the company's fort, Sak suddenly flew off toward the shore; Dusk followed her and found Vathi waiting for him.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "20" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "In the present",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "7" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "At a meeting with the Ones Above, Sak showed Dusk his own burned corpse at their feet, a warning not to trust them. As the meeting went on, she showed him, for the first time ever, a corpse that was not his: Vathi's, decades older, in a uniform of the Ones Above.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "7" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Into the dark",
+          "revealedIn": [
+            { "book": "isles-of-the-emberdark", "chapter": "24" },
+            { "book": "isles-of-the-emberdark", "chapter": "29" },
+            { "book": "isles-of-the-emberdark", "chapter": "33" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Out in the endless dark, Sak showed Dusk corpses sinking into the not-water, which gave him no hint of which way to go.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "24" }]
+        },
+        {
+          "text": "When Dusk flipped his boat to coat it in worm paste, he strapped Sak into a harness, as she cannot fly well, and she and Rokke scolded him throughout.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "29" }]
+        },
+        {
+          "text": "After Dusk found that eating the glowing worm paste let him hear a thrumming in the dark, Sak and Rokke began to hear it too, through their bonds with him.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "33" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "A black bird of ordinary Aviar size, about three fists tall. She limps, and scars on her left wing let her fly only short hops, so she nearly always perches on Dusk's shoulder.",
+      "revealedIn": ["sixth-of-the-dusk"]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Quieter and more solemn than Kokerlii, she seldom calls out unless she senses danger. When frightened she burrows into Dusk's hair, and he calms her by scratching her neck.",
+      "revealedIn": ["sixth-of-the-dusk"]
+    }
+  ],
+  "abilities": [
+    {
+      "title": [
+        { "text": "Visions of death", "revealedIn": ["sixth-of-the-dusk"] }
+      ],
+      "items": [
+        {
+          "text": "Sak shows a person where they could die within roughly the next minute, as an image of their corpse at that spot. Dusk suspects she cannot warn of deaths that would leave no body. She decides who sees the visions, sharing them with one person at a time, and seems to see them herself, calling out in warning. No other Aviar is known to have this talent.",
+          "revealedIn": ["sixth-of-the-dusk"]
+        },
+        {
+          "text": "She gained it the way young Aviar do, by eating the parasites in the fruit at Patji's Eye, the first mainland bird known to do so.",
+          "revealedIn": ["sixth-of-the-dusk"]
+        },
+        {
+          "text": "She seems to follow spoken commands: told to show Vathi the visions, she did so at once.",
+          "revealedIn": ["sixth-of-the-dusk"]
+        }
+      ]
+    }
+  ]
+}

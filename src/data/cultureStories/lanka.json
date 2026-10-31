@@ -1,0 +1,33 @@
+{
+  "intro": [
+    {
+      "text": "A shelled creature whose claws are eaten, cooked in a savoury broth.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "19" }]
+    }
+  ],
+  "description": [],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Dalinar's feast",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "19" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Lanka claws in broth were part of the men's meal at the feast where Dalinar first met Evi. He cracked the shells with his mug to reach the meat.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "19" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "dalinar-kholin",
+      "role": "ate it",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "19" }]
+    }
+  ]
+}

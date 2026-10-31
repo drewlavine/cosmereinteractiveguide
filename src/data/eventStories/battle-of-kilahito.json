@@ -1,0 +1,137 @@
+{
+  "intro": [
+    {
+      "text": "The fight at the western edge of Kilahito between a band of the city's painters and an army of stable nightmares that came out of the shroud.",
+      "revealedIn": [{ "book": "yumi", "chapter": "40" }]
+    }
+  ],
+  "description": [],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Before the attack",
+          "revealedIn": [{ "book": "yumi", "chapter": "40" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Sent to kill Nikaro, Liyun held back when he stirred her humanity, but warned him that the father machine would send a hundred stable nightmares, a bigger army than the one that destroyed Futinoro. Nikaro took the warning to the Dreamwatch, but Tesuaka Tatomi and her team did nothing.",
+          "revealedIn": [{ "book": "yumi", "chapter": "40" }]
+        },
+        {
+          "text": "Nikaro meant to face the army alone but asked his friends for help instead. Tojin trusted him first, then Masaka, Akane and Izzy. With other painters they gathered where the attack was expected and waited an hour, grumbling, until the shroud stirred and the nightmares emerged.",
+          "revealedIn": [{ "book": "yumi", "chapter": "40" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The battle",
+          "revealedIn": [{ "book": "yumi", "chapter": "40" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "The painters formed a rough ring, shoulder to shoulder, with Nikaro moving to wherever the line wavered. With the machine distracted by Yumi, the nightmares fought with less purpose, but none stayed in the shapes they were painted into, and they crept closer.",
+          "revealedIn": [{ "book": "yumi", "chapter": "40" }]
+        },
+        {
+          "text": "Six painters were hurt and pulled into the middle of the ring, and fear spread, though at least the nightmares went for the painters rather than the city. Nikaro reminded them that the whole city depended on them, and they took up the cry \"We are the Dreamwatch now.\"",
+          "revealedIn": [{ "book": "yumi", "chapter": "40" }]
+        },
+        {
+          "text": "Nikaro then spotted Liyun among the nightmares and painted her in the human form she had worn in Torio; she took that form and kept it. He moved on to the Gongsha mayor and other townsfolk, refining each picture as the figures slowly changed, while the other painters held the line. When he finished painting Hwanji, the battle was over.",
+          "revealedIn": [{ "book": "yumi", "chapter": "40" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Aftermath",
+          "revealedIn": [
+            { "book": "yumi", "chapter": "41" },
+            { "book": "yumi", "chapter": "another-epilogue" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The Torish townsfolk were left cold and bewildered across the field while emergency workers and reporters arrived, tending the wounded and handing blankets to the strangers. Once Yumi had wrecked the father machine, the shroud and the painted nightmares both began to fade.",
+          "revealedIn": [{ "book": "yumi", "chapter": "41" }]
+        },
+        {
+          "text": "Nikaro wanted no credit, so his friends said the painter Usasha, the only one of them killed in the attack, had raised the alarm, and Usasha was honoured for saving the city. It was the last clash between painters and nightmares, and the Nightmare Division and Dreamwatch were disbanded.",
+          "revealedIn": [{ "book": "yumi", "chapter": "another-epilogue" }]
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Location",
+      "name": "Western edge of Kilahito",
+      "placeId": "kilahito",
+      "revealedIn": [{ "book": "yumi", "chapter": "40" }]
+    },
+    {
+      "label": "Attackers",
+      "name": "A hundred stable nightmares",
+      "revealedIn": [{ "book": "yumi", "chapter": "40" }]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "nikaro",
+      "role": "led the painters",
+      "revealedIn": [{ "book": "yumi", "chapter": "40" }]
+    },
+    {
+      "characterId": "tojin",
+      "role": "painter",
+      "revealedIn": [{ "book": "yumi", "chapter": "40" }]
+    },
+    {
+      "characterId": "masaka",
+      "role": "painter",
+      "revealedIn": [{ "book": "yumi", "chapter": "40" }]
+    },
+    {
+      "characterId": "akane",
+      "role": "painter",
+      "revealedIn": [{ "book": "yumi", "chapter": "40" }]
+    },
+    {
+      "characterId": "liyun",
+      "role": "nightmare",
+      "revealedIn": [{ "book": "yumi", "chapter": "40" }]
+    },
+    {
+      "characterId": "tesuaka-tatomi",
+      "role": "ignored warning",
+      "revealedIn": [{ "book": "yumi", "chapter": "40" }]
+    },
+    {
+      "characterId": "yumi",
+      "role": "distracted machine",
+      "revealedIn": [{ "book": "yumi", "chapter": "40" }]
+    },
+    {
+      "characterId": "gongsha-mayor",
+      "role": "painted human",
+      "revealedIn": [{ "book": "yumi", "chapter": "40" }]
+    },
+    {
+      "characterId": "hwanji",
+      "role": "painted human",
+      "revealedIn": [{ "book": "yumi", "chapter": "40" }]
+    },
+    {
+      "characterId": "usasha",
+      "role": "painter",
+      "revealedIn": [{ "book": "yumi", "chapter": "another-epilogue" }]
+    }
+  ]
+}

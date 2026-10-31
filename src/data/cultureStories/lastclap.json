@@ -1,0 +1,74 @@
+{
+  "intro": [
+    {
+      "text": "A desperate move that catches a Shardblade's downward strike between the palms. It works only against slow, straight-down swings and usually gets the user killed.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "44" }]
+    }
+  ],
+  "description": [],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Caught blades",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "13" },
+                { "book": "words-of-radiance", "chapter": "32" }
+              ]
+            },
+            { "book": "words-of-radiance", "chapter": "44" },
+            { "book": "words-of-radiance", "chapter": "57" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "During Szeth's attack on Elhokar's palace at the Shattered Plains, Dalinar was caught without weapon or armour. As Szeth brought his blade down, Dalinar clapped his palms together and caught it, surprising Szeth long enough for Kaladin to tackle him.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "13" },
+                { "book": "words-of-radiance", "chapter": "32" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Kaladin asked Zahel for help fighting a Shardbearer and mentioned Dalinar's catch. Zahel knew the move as the lastclap, called it foolish and told Kaladin to focus on tactics with better odds; Kaladin agreed.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "44" }]
+        },
+        {
+          "text": "Untrained in the move, Kaladin still needed it at the close of Adolin Kholin's uneven duel against Relis Ruthar: Relis swung at him instead of Renarin, Kaladin caught the Blade, both men heard screaming in their minds, and Relis fled the arena, forfeiting.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "57" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "dalinar-kholin",
+      "role": "user",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "13" },
+            { "book": "words-of-radiance", "chapter": "32" }
+          ]
+        }
+      ]
+    },
+    {
+      "characterId": "zahel",
+      "role": "named it",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "44" }]
+    },
+    {
+      "characterId": "kaladin",
+      "role": "user",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "57" }]
+    }
+  ]
+}

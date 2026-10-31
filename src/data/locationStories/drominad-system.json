@@ -1,0 +1,19 @@
+{
+  "intro": [
+    {
+      "text": "A planetary system of seven planets, which its star chart names by number in the Eelakin fashion.",
+      "revealedIn": ["arcanum-unbounded"]
+    }
+  ],
+  "description": [
+    {
+      "text": "Its innermost planet, First of the Sun, has a large mainland and many islands where the Eelakin live. The Aviar birds are native to its Pantheon islands.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "18" }]
+    },
+    {
+      "text": "In the Physical Realm the system lies fairly close to Lumar, under a year's journey for starships slower than light.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "36" }]
+    }
+  ],
+  "history": []
+}

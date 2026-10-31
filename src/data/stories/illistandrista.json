@@ -1,0 +1,399 @@
+{
+  "intro": [
+    {
+      "text": "Illistandrista, called Starling, a young dragon on the world of Yolen who lives with her uncle Frost and is about to take dragon form for the first time.",
+      "revealedIn": [
+        { "book": "isles-of-the-emberdark", "chapter": "prologue" }
+      ],
+      "fallback": true
+    },
+    {
+      "text": "Starling, a dragon working aboard the ship Dynamic, far from her homeworld, who has been unable to take dragon form for twelve years.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "22" }],
+      "fallback": true
+    },
+    {
+      "text": "Illistandrista, called Starling, a dragon from Yolen who captains the ship Dynamic and is an apprentice of Hoid.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "30" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Childhood",
+          "revealedIn": [
+            { "book": "isles-of-the-emberdark", "chapter": "prologue" },
+            { "book": "isles-of-the-emberdark", "chapter": "49" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "On her thirtieth birthday, though she looked like an eight-year-old human girl, Starling eagerly sought out her uncle Frost, who was raising her on Yolen. At first light on his palace balcony, she took the shape of a dragon for the first time.",
+          "revealedIn": [
+            { "book": "isles-of-the-emberdark", "chapter": "prologue" }
+          ]
+        },
+        {
+          "text": "Unusually, she flew on the very day of her first transformation. Soon after, Frost brought her to the ancestral cavern where a Dawnshard was once kept, and taught her to send her mind to the Spirit Shores.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "49" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Manacles",
+          "revealedIn": [
+            { "book": "isles-of-the-emberdark", "chapter": "58" },
+            { "book": "isles-of-the-emberdark", "chapter": "51" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "At about seventy-five, Starling defied her elders' rulings out of conviction. As punishment she was given manacles that turn her own Investiture against her, barring her from dragon form, the Spirit Shores and every other draconic power, though she can still conjure an illusion of her dragon shape.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "58" }]
+        },
+        {
+          "text": "She was also exiled from Yolen until she had learned her lesson. The circumstances of her exile led Hoid to take her as his apprentice, admiring how much she cared for mortals and what she would sacrifice to do right.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "51" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Apprenticeship",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "51" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Frost supported the apprenticeship despite his differences with Hoid. For years Starling travelled the cosmere with Hoid aboard the Dynamic, loving his stories, above all those of Roshar, and learning negotiation from him. He once dropped her into a volcano, which she does not hold against him. In time he left her and the ship, trusting her to lead the crew alone.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "51" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Aboard the Dynamic",
+          "revealedIn": [
+            { "book": "isles-of-the-emberdark", "chapter": "22" },
+            { "book": "isles-of-the-emberdark", "chapter": "27" },
+            { "book": "isles-of-the-emberdark", "chapter": "28" },
+            { "book": "isles-of-the-emberdark", "chapter": "30" },
+            { "book": "isles-of-the-emberdark", "chapter": "32" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Aboard the Dynamic she gave the homesick engineer, Aditil, a ticket home to Dhatri, and promised ZeetZi she would speak to the ship's doctor, Chrysalis, about her spying.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "22" }]
+        },
+        {
+          "text": "When Captain Crow chose to let an Iriali family die to an entity and loot their ship, Starling and the crew locked Crow off the bridge and flew to the rescue. Leaping onto the downed ship, she called up her soul's dragon shape to halt the entity, and withstood its vision of her dying still in manacles until the Dynamic drew it away.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "27" }]
+        },
+        {
+          "text": "Expecting to be broken up for the mutiny, the crew celebrated what they thought was their last flight together, but Starling vowed to persuade the ship's owner, Xisis, to keep them together.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "28" }]
+        },
+        {
+          "text": "At Silverlight, the rescued couple, Crux and Nol, gave her a family map to a hidden perpendicularity. Ed recognised it as a lost piece of the Iriali Long Trail record pointing to Drominad, a small planet claimed by the Scadrians.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "30" }]
+        },
+        {
+          "text": "Facing Xisis, who wanted her to rule a kingdom for him, she bargained for six months to find the perpendicularity with her ship and crew. If she failed, she would rule for him for fifty years.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "32" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The hunt for the perpendicularity",
+          "revealedIn": [
+            { "book": "isles-of-the-emberdark", "chapter": "35" },
+            { "book": "isles-of-the-emberdark", "chapter": "38" },
+            { "book": "isles-of-the-emberdark", "chapter": "42" },
+            { "book": "isles-of-the-emberdark", "chapter": "45" },
+            { "book": "isles-of-the-emberdark", "chapter": "46" },
+            { "book": "isles-of-the-emberdark", "chapter": "49" },
+            { "book": "isles-of-the-emberdark", "chapter": "51" },
+            { "book": "isles-of-the-emberdark", "chapter": "53" },
+            { "book": "isles-of-the-emberdark", "chapter": "56" },
+            { "book": "isles-of-the-emberdark", "chapter": "57" },
+            { "book": "isles-of-the-emberdark", "chapter": "60" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Following the map, the crew reached an island in the emberdark, only to find Malwish Scadrians already guarding it, and a giant serpent circling a smaller island at its heart.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "35" }]
+        },
+        {
+          "text": "Colonel Dajer saw through her claim to be a simple trader, worked out that she too sought the perpendicularity, and detained the crew. A false execution of Leonore lured out Nazh, whom the Scadrians shut in a shade prison.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "38" }]
+        },
+        {
+          "text": "Dajer offered to free her crew and her manacles if she served as his aide-de-camp, showing her a dragons' lock broken by his Intensifier. She refused and began planning an escape, and agreed when the stranger from Drominad, Dusk, insisted she come with him into the Cave of Death.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "42" }]
+        },
+        {
+          "text": "In the cave she let a masher wasp sting her to show she could take it. Once Dusk got rid of Dajer's listening drone, she told him frankly of the cosmere's powers, the worth of the perpendicularity, and that she worked for one of those powers herself. She pitied his people but saw no way out for them.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "45" }]
+        },
+        {
+          "text": "Her crew pitched a plan to poison Aditil so the Scadrians would carry her into their ships; Starling saw its flaws and promised to find a better one.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "46" }]
+        },
+        {
+          "text": "On a second trip she belittled the oral history of Dusk's people beside the dragons' records. Afterwards Dajer threatened her crew, and when he turned the Intensifier on her manacles they weakened, letting her reach the Spirit Shores. Frost did not answer her call, but Hoid did.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "49" }]
+        },
+        {
+          "text": "Hoid, locked in a vault, could not help, but told her a story of Roshar's ancient warriors and urged her to lead her crew rather than protect them. Back with the crew, she admitted she had no plan, which only hardened their resolve.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "51" }]
+        },
+        {
+          "text": "Working together, the crew hatched a plan to overload the Intensifier and black out the camp.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "53" }]
+        },
+        {
+          "text": "When the serpent attacked the camp, she told Dusk it was the remnant of a god, and he linked it to his people's legend of the Dakwara. After the Malwish caught Chrysalis, Starling accepted Dajer's contract to set the plan in motion.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "56" }]
+        },
+        {
+          "text": "Back in the cave she apologised to Dusk for dismissing his people and warned they would need allies. He told her how he navigates the dark by the Current, and the tunnel ended without a perpendicularity.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "57" }]
+        },
+        {
+          "text": "When the Intensifier was turned on her manacles again she felt her power returning, but instead held the manacles together until the machine overloaded and blacked out the island, letting the crew escape aboard the Dynamic.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "60" }]
+        },
+        {
+          "text": "Realising Chrysalis had been left behind, she went back, smashed open her prison and took bullets shielding the others. Facing Dajer's gunship, she offered to surrender, but the Dakwara, now commanded by Dusk, destroyed it.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "60" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Drominad",
+          "revealedIn": [
+            { "book": "isles-of-the-emberdark", "chapter": "61" },
+            { "book": "isles-of-the-emberdark", "chapter": "epilogue" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Dusk took her through Patji's Eye to his world, where she met the Eelakin president, Vathi, and offered to tell her about the cosmere. She translated the writing in Cakoban's tomb: her own language, signed by Frost, saying Cakoban had died with honour.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "61" }]
+        },
+        {
+          "text": "The crew spent six months' shore leave there. After the Navigators' first voyage she gave the planet's leaders some last advice. Her crew resolved to find a way to free her from her manacles, perhaps at the Grand Apparatus, and Dusk joined them as a Navigator.",
+          "revealedIn": [
+            { "book": "isles-of-the-emberdark", "chapter": "epilogue" }
+          ]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Leucistic in both forms: as a dragon she has shimmering white scales and silver dragonsteel; as a human, pale skin, white hair and white eyes. Dragons age slowly, so she looks like a young woman. Manacles on her wrists suppress her draconic powers and keep her human. She usually wears loose, filmy trousers and a long jacket.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "22" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "As a child she was lively, kind and honest, genuinely fond of most people and polite to the rest. Though impatient on the morning of her first transformation, she respected her uncle's followers and waited through his prayers. Understanding mortals came hard to her, but she was set on learning.",
+      "revealedIn": [
+        { "book": "isles-of-the-emberdark", "chapter": "prologue" }
+      ]
+    },
+    {
+      "text": "She dislikes the stereotypes about dragons, such as eating people or hoarding treasure, and tries to talk people out of them. She drinks kaftea.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "42" }]
+    },
+    {
+      "text": "A bubbly optimist, though she must often push herself to stay that way. Losing her draconic powers weighs on her, but she looks for the bright side and assures her crew all will be well.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "49" }]
+    },
+    {
+      "text": "Her strong sense of justice, rooted in care for others, led her to defy her elders, and to defy Captain Crow and risk her life against an entity to save Crux and Nol.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "51" }]
+    },
+    {
+      "text": "She can take over planning and leave others little say, feeling that solving problems is her duty, until she learns that leading means trusting her crew's skills and working together.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "53" }]
+    },
+    {
+      "text": "She can be condescending toward other cultures, assuming Dusk needs saving and that his people are less capable for being less advanced, but she comes to see her error and apologises.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "57" }]
+    },
+    {
+      "text": "She cares deeply for her crew and tries to keep them safe and happy, whether buying Aditil a ticket home, standing up for Chrysalis, or giving up her own freedom for her friends' safety.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "58" }]
+    }
+  ],
+  "abilities": [
+    {
+      "title": [
+        {
+          "text": "Dragon",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "44" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "As a dragon she is all but immortal: even with her powers bound, her wounds heal almost at once, she can survive a fall from any height, and a masher wasp sting only makes her dizzy. If she ever falls unconscious, protections in her manacles would let other dragons recover her.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "44" }]
+        },
+        {
+          "text": "Dragons carry so much Investiture that most Invested Arts are closed to them, and no Nahel bond can take hold.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "44" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Leader",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "53" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Empathetic and quick to read others' feelings, she has the love and respect of her crew, makes good use of their varied skills, and plans well to get them out of trouble.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "53" }]
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "title": [
+        {
+          "text": "Hoid",
+          "revealedIn": [
+            { "book": "isles-of-the-emberdark", "chapter": "44" },
+            { "book": "isles-of-the-emberdark", "chapter": "51" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "She looks up to Hoid, her master, and turns to him or to his advice when in trouble, believing he can solve anything. She admires that he treats everyone alike, even in his insults, and looks for the lesson in his stories. He calls her Star, and listens to her troubles even when he cannot help.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "44" }]
+        },
+        {
+          "text": "He thinks well of her as a leader and as a person, and praises her courage in standing up to draconic authority.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "51" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Frost",
+          "revealedIn": [
+            { "book": "isles-of-the-emberdark", "chapter": "32" },
+            { "book": "isles-of-the-emberdark", "chapter": "47" },
+            { "book": "isles-of-the-emberdark", "chapter": "51" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Her uncle Frost has been missing for years, and most believe him dead. Xisis told her so, but she is sure he is alive and that she will see him again.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "32" }]
+        },
+        {
+          "text": "They are very close and tease each other fondly. Frost was a kind, encouraging mentor who taught her to empathise with mortals and to treat humans as equals rather than grow aloof like other dragons.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "47" }]
+        },
+        {
+          "text": "She disagrees with his policy of not interfering, which is why she apprenticed herself to Hoid. Frost allowed it, though he worried Hoid would draw danger.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "51" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The crew",
+          "revealedIn": [
+            { "book": "isles-of-the-emberdark", "chapter": "23" },
+            { "book": "isles-of-the-emberdark", "chapter": "26" },
+            { "book": "isles-of-the-emberdark", "chapter": "28" },
+            { "book": "isles-of-the-emberdark", "chapter": "30" },
+            { "book": "isles-of-the-emberdark", "chapter": "22" },
+            { "book": "isles-of-the-emberdark", "chapter": "51" },
+            { "book": "isles-of-the-emberdark", "chapter": "56" },
+            { "book": "isles-of-the-emberdark", "chapter": "epilogue" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "ZeetZi, the technician, respects her as captain and friend, and she thinks him very clever, but she often scolds him over how he treats Chrysalis and urges him not to judge her by the deeds of the Sleepless.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "23" }]
+        },
+        {
+          "text": "Nazh and Starling are close friends who trade barbs; she is at ease with him though many fear shades, and tries to make him smile. He backed her over Captain Crow in the mutiny.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "26" }]
+        },
+        {
+          "text": "Nazh is protective of her, ready to risk his bloodlust to keep her safe, though she hates asking it of him, and he tries to stop her sacrificing herself.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "28" }]
+        },
+        {
+          "text": "Starling does not truly trust Chrysalis but defends her as crew, trusting Hoid's choice of her as doctor, and is frustrated that Chrysalis keeps spying and rebuffs every welcome.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "28" }]
+        },
+        {
+          "text": "She thinks Ed odd but invaluable, values his skill as an arcanist, and cuts through his rambling to get to the point.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "30" }]
+        },
+        {
+          "text": "She spotted Aditil's homesickness when she joined the crew and spent a great deal to buy her a ticket home. Aditil is deeply grateful.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "22" }]
+        },
+        {
+          "text": "Leonore, a Malwish deserter and former military pilot, is loyal to her. Starling avoids asking about Leonore's past and keeps clear of Scadrians to spare her a trial, and does not judge her for being Malwish.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "51" }]
+        },
+        {
+          "text": "Starling sensed that Chrysalis was tied to the prime minister's killing, though she wrongly took her for the killer, kept the secret, hid her from the Scadrians and bargained for her life.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "56" }]
+        },
+        {
+          "text": "Chrysalis was surprised and moved when Starling saved her, and Starling saw how hard her past had been. Starling secretly finds hordes nauseating.",
+          "revealedIn": [
+            { "book": "isles-of-the-emberdark", "chapter": "epilogue" }
+          ]
+        },
+        {
+          "text": "Aditil feels at home with Starling, who encourages her to share her ideas, and chose not to go home until Starling is free of her manacles, which touched her deeply.",
+          "revealedIn": [
+            { "book": "isles-of-the-emberdark", "chapter": "epilogue" }
+          ]
+        },
+        {
+          "text": "She thinks Leonore an exceptional pilot and encourages her when she doubts herself; Leonore thinks her a brilliant captain.",
+          "revealedIn": [
+            { "book": "isles-of-the-emberdark", "chapter": "epilogue" }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "intro": [
+    {
+      "text": "A small settlement on the fringe of the Elendel Basin, roughly fifty miles northeast of New Seran.",
+      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "15" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "A remote, isolated farming village beneath the Seran Range. Higher ground close by gives it a small waterfall, fitted with a turbine that generates electricity.",
+      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "17" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "A landmark case",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "15" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "The village was once the scene of a landmark water-rights case, which Marasi Colms had read about in a textbook.",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "15" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The crashed airship",
+          "revealedIn": [
+            { "book": "bands-of-mourning", "chapter": "23" },
+            { "book": "bands-of-mourning", "chapter": "30" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Around 342 PC, a Southern Scadrian airship, the Brunstell, came down here in bad weather while searching the nearby mountains, and some of its crew died. Villagers helped the survivors at first, but the Set soon came, imprisoned the crew and took over, razing most of the village for a heavily guarded walled compound with a large hangar where Southern items were studied.",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "23" }]
+        },
+        {
+          "text": "Wax's group traced a stolen spike to the village and found the Set's compound. Inside they recovered the spike and found Allik Neverfar, then got away aboard the shuttle Wilg, while the Brunstell stayed in the Set's hands.",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "30" }]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "intro": [
+    {
+      "text": "A figure of Unkalaki belief, either a person or a god.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "55" },
+            { "book": "oathbringer", "chapter": "37" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Horneater curses",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "55" },
+                { "book": "oathbringer", "chapter": "37" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The Unkalaki believe Kali'kalin has a ghost, and they sometimes curse by it. The Horneater saying Kali'kalin'da is probably connected.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "55" },
+                { "book": "oathbringer", "chapter": "37" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

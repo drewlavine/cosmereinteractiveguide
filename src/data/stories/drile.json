@@ -1,0 +1,99 @@
+{
+  "intro": [
+    {
+      "text": "A mastrell of the Diem who scolds Lestrell Yeeden for sparring with acolents and scoffs at Kenton's plan to run the Mastrell's Path.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "prologue" }],
+      "fallback": true
+    },
+    {
+      "text": "A mastrell of the Diem, son of Mastrell Rile, whose power impressed Lord Mastrell Praxton when he was a boy recruit.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "1" }]
+    },
+    {
+      "text": "A powerful sand master demoted to diemfen for hiring out his mastery, who tries to take charge of the Diem after the attack.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "5" }]
+    },
+    {
+      "text": "The Diem's most powerful sand master, who fights Kenton for its leadership and then stands with him.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "18" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Mastrell",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "2" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Drile showed rare strength from his first test as a recruit. As a mastrell, he and a group under him were said to be selling their mastery. At the next ceremony he declined to drink from the shared bowl and was lowered to diemfen, the first time the Diem had ever reduced a sand master's rank.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "2" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Claiming the Diem",
+          "revealedIn": [
+            { "book": "white-sand-omnibus", "chapter": "18" },
+            { "book": "white-sand-omnibus", "chapter": "6" },
+            { "book": "white-sand-omnibus", "chapter": "10" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Because Drile had refused the ceremonial water and then survived the attack, Kenton suspected him of being behind it.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "18" }]
+        },
+        {
+          "text": "After the attack, he went to Kezare to ask the Taishin to make him Lord Mastrell, but Kenton interrupted and was named acting Lord Mastrell instead. Back at the Diem, Drile was handing out empty rooms to his followers. When Kenton objected, Drile pushed him off a ledge, lost the fight that followed and was ordered to take off his golden sash.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "6" }]
+        },
+        {
+          "text": "When Kenton returned from the deep sands, Drile was urging the sand masters to leave and sell their powers. He refused to stop, and Kenton challenged him to a duel in the pit, set for just after the Taishin's final vote.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "10" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The duel",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "18" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Drile's twenty-five ribbons soon overwhelmed Kenton's five, but Kenton fought back with a single ribbon, breaking Drile's one after another. As Drile gathered power for a great blast of sand, he collapsed, drained, and Kenton spared him.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "18" }]
+        },
+        {
+          "text": "Recovering, Drile told Kenton he had felt as weak in the duel as during the attack in the Kerla. Together they worked out that someone had poisoned their water both times, and that it was Elorin.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "18" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": [],
+  "abilities": [
+    {
+      "title": [
+        {
+          "text": "Sand mastery",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "10" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Exceptionally strong; he can work up to twenty-five ribbons of sand at once, a power seen perhaps once or twice a generation.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "10" }]
+        }
+      ]
+    }
+  ]
+}

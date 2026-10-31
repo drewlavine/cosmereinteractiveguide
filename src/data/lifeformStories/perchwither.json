@@ -1,0 +1,42 @@
+{
+  "intro": [
+    {
+      "text": "A fungus that gives off a dim blue light as it grows on glowstones, which are large, porous rocks. Kandra grow eyes made specially to see by its glow.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "7" }]
+    },
+    {
+      "text": "A glowing fungus found only in the kandra Homeland. Its dim blue light is what kandra grow special eyes to see by.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "hero-of-ages", "chapter": "7" },
+            { "book": "shadows-of-self", "chapter": "20" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "TenSoon notices that the Trustwarren uses no glowstones for light, relying instead on oil lamps with blue glass.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "9" }]
+    }
+  ],
+  "history": [],
+  "facts": [
+    {
+      "label": "Grows in",
+      "name": "Kandra Homeland",
+      "placeId": "kandra-homeland",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "hero-of-ages", "chapter": "7" },
+            { "book": "shadows-of-self", "chapter": "20" }
+          ]
+        }
+      ]
+    }
+  ],
+  "people": []
+}

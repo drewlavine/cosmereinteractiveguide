@@ -673,6 +673,30 @@ Shattering there until the later reveal.
    same engine (`docs/state-of-my-cosmere.md`), replacing the SVG
    `StarChart`.
 
+## The researched chronology (secret page)
+
+A fuller Cosmere chronology, researched from the fan spreadsheet, 17th
+Shard timelines, official timelines, the Coppermind and its footnotes, and
+Word of Brandon. It is the data source the time bar, filters and Catch Me
+Up can draw on later. Unwritten books are left out.
+
+- **Page:** `/chronology`, not linked anywhere. Press `?` twice (not while
+  typing) or tap the site title five times. Read-only, spoiler-gated by
+  Books Read like everything else, with filters for tier, kind and world,
+  and each event's id shown so changes can be asked for by id.
+- **Data:** `src/data/chronology.json`, emitted by
+  `~/cig-chronology/emit.mjs` (never hand-edit). Types and the reveal
+  trim are in `src/data/chronology.ts`; `chronology.test.ts` checks every
+  book, chapter, world and character id.
+- **Pipeline:** `~/cig-chronology/` (`SCHEMA.md` is the contract). Research
+  events live in `events/<group>.json` with notes and sources; dates are
+  stored in each world's calendar and mapped to one shared year scale
+  (years after the Shattering) by `ANCHORS.json`.
+- **Tiers:** headline (the events a community timeline would always list),
+  major, minor. **Kinds:** cosmology, shard, war, politics, order, magic,
+  disaster, journey, birth, death, story. Events known only from Word of
+  Brandon carry a badge.
+
 ## Open questions
 
 - Should the Yolen star stay a placeholder, or wait for an official

@@ -1,0 +1,30 @@
+{
+  "intro": [
+    {
+      "text": "A mining town in the Northern Roughs, about thirty miles southwest of Weathering.",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "prologue" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Its miners live in poverty beside the mine, where fatal accidents happen often.",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "prologue" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Wayne's childhood",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "prologue" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Wayne grew up here in one of the town's poorest families, in a one-window house right by the mine. His father and his uncle Gregr died in mine accidents, which forced his mother to work in the mine, and another accident killed her when Wayne was eleven.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "prologue" }]
+        }
+      ]
+    }
+  ]
+}

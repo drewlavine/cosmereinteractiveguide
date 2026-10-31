@@ -1,0 +1,153 @@
+{
+  "intro": [
+    {
+      "text": "A rare metal, first called ettmetal, that keeps southern airships aloft and charges their cubes. Wax and Steris study it in Elendel, trying to pull it apart into atium and lerasium.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "bands-of-mourning", "chapter": "22" },
+            { "book": "lost-metal", "chapter": "13" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "A rare, soft metal that keeps southern airships aloft and charges their cubes. Drawn apart under electric heat, it starts to turn into atium and lerasium, and it pushes trellium away.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "bands-of-mourning", "chapter": "22" },
+            { "book": "lost-metal", "chapter": "15" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "Paired with southern technology, the metal grants Allomantic or Feruchemical powers to those near it. Small primer cubes hold it and switch its effect on or off; used Allomantically it burns a pure white and is slowly used up. It drives Steelpushing airships and blue lamps. The cubes are scarce, as the metal is tightly controlled.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "bands-of-mourning", "chapter": "29" },
+            { "book": "lost-metal", "chapter": "4" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Northerners call the charged cubes Allomantic grenades. Once Wax, Marasi and others dealt often with the Malwish, they gained more cubes for police work, and the design was improved.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "bands-of-mourning", "chapter": "21" },
+            { "book": "lost-metal", "chapter": "4" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [],
+  "mechanics": [
+    {
+      "title": [
+        {
+          "text": "Properties",
+          "revealedIn": [
+            { "book": "lost-metal", "chapter": "13" },
+            {
+              "all": [
+                { "book": "bands-of-mourning", "chapter": "epilogue" },
+                { "book": "lost-metal", "chapter": "15" }
+              ]
+            },
+            { "book": "lost-metal", "chapter": "59" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "It melts only above 3,000 degrees, and heated, it shines with every colour of light, its red and infrared end running past the scale.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "13" }]
+        },
+        {
+          "text": "It corrodes and reacts strongly with air, so it is kept under oil. Acids leave it untouched.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "bands-of-mourning", "chapter": "epilogue" },
+                { "book": "lost-metal", "chapter": "15" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Too much of it in one place is said to risk forming a perpendicularity, so the southerners never store large amounts together.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "59" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Splitting and trellium",
+          "revealedIn": [
+            { "book": "lost-metal", "chapter": "15" },
+            { "book": "lost-metal", "chapter": "epilogue-4" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "It is soft like gold, more so when heated by flame or electricity. Drawn slowly apart under electric heat, a nugget begins to separate into two parts resembling atium and lerasium, but both revert once the thread between them is cut.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "15" }]
+        },
+        {
+          "text": "It and trellium repel each other, more strongly the closer they are forced together.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "15" }]
+        },
+        {
+          "text": "Trellium set between two halves of a softened, split piece sets off a violent reaction that turns a small part of both metals into pure energy, leaving bits of atium and lerasium. The blast is akin to a nuclear bomb, and even Harmony and Autonomy do not know how strong it could be.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "epilogue-4" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "waxillium-ladrian",
+      "role": "cube user",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "bands-of-mourning", "chapter": "21" },
+            { "book": "lost-metal", "chapter": "4" }
+          ]
+        }
+      ]
+    },
+    {
+      "characterId": "marasi-colms",
+      "role": "cube user",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "bands-of-mourning", "chapter": "21" },
+            { "book": "lost-metal", "chapter": "4" }
+          ]
+        }
+      ]
+    },
+    {
+      "characterId": "allik-neverfar",
+      "role": "cube user",
+      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "23" }]
+    },
+    {
+      "characterId": "irich",
+      "role": "cube user",
+      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "18" }]
+    }
+  ]
+}

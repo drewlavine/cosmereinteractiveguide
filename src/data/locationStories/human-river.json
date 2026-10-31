@@ -1,0 +1,22 @@
+{
+  "intro": [
+    {
+      "text": "A river in the Roughs, known only from a tale, that is said to mark the edge of lands the koloss tribes held before the third century PC.",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "prologue" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "The tale makes it a vast, rock-strewn waterway running as fast as a train, the swiftest river on Scadrial, though such stories are deliberately overblown.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "hero-of-ages", "chapter": "8" },
+            { "book": "lost-metal", "chapter": "prologue" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": []
+}

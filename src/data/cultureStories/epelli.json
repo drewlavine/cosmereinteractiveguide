@@ -1,0 +1,28 @@
+{
+  "intro": [
+    {
+      "text": "An obscure name from Eelakin tales of Cakoban the Navigator, tied to two hostile giants he met on his travels. Whether it means a place, a people, a god or something else is not known.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "3" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "In the tale as the loremother Frond tells it, Cakoban steered between the legs of the two giants of Epelli, first one and then the other, so that in their confusion they struck at each other. He rode the swells thrown up by their swinging clubs, and when both giants toppled dead into the ocean he caught the biggest wave of all, which is said to have borne him over the endless sea for three days.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "3" }]
+    }
+  ],
+  "history": [],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "frond",
+      "role": "storyteller",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "3" }]
+    },
+    {
+      "characterId": "cakoban",
+      "role": "hero of tale",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "3" }]
+    }
+  ]
+}

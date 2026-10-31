@@ -1,0 +1,29 @@
+{
+  "intro": [
+    {
+      "text": "A JinDo dish. Its name translates as \"meat with fiery skin\".",
+      "revealedIn": [{ "book": "elantris", "chapter": "47" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "RaiDel, a JinDo pepper, is one of its key ingredients.",
+      "revealedIn": [{ "book": "elantris", "chapter": "47" }]
+    }
+  ],
+  "history": [],
+  "facts": [
+    {
+      "label": "Origin",
+      "name": "JinDo",
+      "placeId": "jindo",
+      "revealedIn": [{ "book": "elantris", "chapter": "47" }]
+    },
+    {
+      "label": "Ingredient",
+      "name": "RaiDel peppers",
+      "revealedIn": [{ "book": "elantris", "chapter": "47" }]
+    }
+  ],
+  "people": []
+}

@@ -1,0 +1,69 @@
+{
+  "intro": [
+    {
+      "text": "In Shu-Dereth, mythical enemies of Jaddeth, thought of as part ghost, part demon.",
+      "revealedIn": [{ "book": "elantris", "chapter": "6" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "The Derethi say they are the souls of those who hated Jaddeth in life, shut out of heaven and able to take over the bodies of the living and control what they do.",
+      "revealedIn": [{ "book": "elantris", "chapter": "6" }]
+    },
+    {
+      "text": "Condemned to wander Sel, they curse their fate and prey on the living. Followers of Shu-Dereth often blame them for bad luck or hard times.",
+      "revealedIn": [{ "book": "elantris", "chapter": "51" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Elantris and the Svrakiss",
+          "revealedIn": [
+            { "book": "elantris", "chapter": "18" },
+            { "book": "elantris", "chapter": "6" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "When Elantris fell, the Derethi claimed the Elantrians had been Svrakiss all along, using evil powers to win the worship of the weak-minded. Korathi priests did not share this view.",
+          "revealedIn": [{ "book": "elantris", "chapter": "18" }]
+        },
+        {
+          "text": "Hrathen planned to denounce the fallen Elantrians as Svrakiss and unite the Arelene in hatred of Elantris.",
+          "revealedIn": [{ "book": "elantris", "chapter": "6" }]
+        },
+        {
+          "text": "Hrathen and Dilaf used the doctrine to turn the Arelene against the Elantrians, though Hrathen did not truly believe the Elantrians were Svrakiss.",
+          "revealedIn": [{ "book": "elantris", "chapter": "18" }]
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Religion",
+      "name": "Shu-Dereth",
+      "revealedIn": [{ "book": "elantris", "chapter": "6" }]
+    },
+    {
+      "label": "Enemies of",
+      "name": "Jaddeth",
+      "revealedIn": [{ "book": "elantris", "chapter": "6" }]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "hrathen",
+      "role": "accuser",
+      "revealedIn": [{ "book": "elantris", "chapter": "6" }]
+    },
+    {
+      "characterId": "dilaf",
+      "role": "accuser",
+      "revealedIn": [{ "book": "elantris", "chapter": "18" }]
+    }
+  ]
+}

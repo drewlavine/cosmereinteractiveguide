@@ -1,0 +1,73 @@
+{
+  "intro": [
+    {
+      "text": "A trait passed down in the royal house of Idris.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "1" }]
+    },
+    {
+      "text": "A trait passed down in the royal house of Idris that lets those who carry it change their appearance, above all the color and length of their hair.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "22" }]
+    },
+    {
+      "text": "A trait of Idris's royal house, descended from the First Returned, that lets those who carry it change their appearance, above all the color and length of their hair.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "32" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Those with the Royal Locks can alter how they look, most visibly by changing the color and length of their hair. Only royals who could inherit the throne have the trait and pass it on.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "22" }]
+    },
+    {
+      "text": "Changing one's looks takes much practice, energy and focus; to some it feels like moving a muscle. It leaves the user tired and hungry, and it can't change their features enough to pass for someone else.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "39" }]
+    },
+    {
+      "text": "Anyone holding enough Breath can see even small shifts in the hair's color.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "40" }]
+    },
+    {
+      "text": "Carrying the Royal Locks makes it much easier to learn Awakening, much as holding more Breath does.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "43" }]
+    },
+    {
+      "text": "Left alone, the hair follows the bearer's feelings, turning red with anger or embarrassment and white with fear; with discipline it can be held to one color.",
+      "revealedIn": ["warbreaker"]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "From Hanald to Idris",
+          "revealedIn": [
+            { "book": "warbreaker", "chapter": "32" },
+            { "book": "warbreaker", "chapter": "4" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Hoid tells Siri that Idris's royal family carries the blood of the First Returned.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "32" }]
+        },
+        {
+          "text": "The line ruled Hanald for three hundred years until the Manywar, after which it left T'Telir and founded Idris in the highlands. Hanald became Hallandren, and its priests played down the importance of Vo's bloodline.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "32" }]
+        },
+        {
+          "text": "The royal line has ruled Idris for three hundred years since. Hallandren's priests, wanting the Royal Locks back in their own monarchy to firm up its claim and silence those who saw King Dedelin as the true heir, arranged for an Idrian princess to marry the God King.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "4" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "vivenna",
+      "role": "Princess",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "22" }]
+    }
+  ]
+}

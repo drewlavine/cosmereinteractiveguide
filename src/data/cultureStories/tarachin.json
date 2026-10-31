@@ -1,0 +1,64 @@
+{
+  "intro": [
+    {
+      "text": "A demanding Hallandren game, mostly played by the wealthy, in which painted wooden balls are thrown onto a field marked out with ropes and stakes.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "22" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "The balls are carved wood around a lead core, painted by role: orange reversal spheres, and deep blue doubling spheres with carved rings. With intricate rules, the game asks for strength, accuracy and strategy alike.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "22" }]
+    },
+    {
+      "text": "In the Court of Gods both field and balls are oversized to suit the Returned, who usually play from a balcony so they can take in the whole board while servants and scribes keep score.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "22" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "A game among the gods",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "22" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Weatherlove, Lifeblesser and Truthcall played every week, using the game as a chance to gossip and scheme. Lightsong joined them several times and kept winning without knowing the rules, which convinced him the game was flawed and let him enjoy irritating them.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "22" }]
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Played in",
+      "name": "Hallandren",
+      "placeId": "hallandren",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "22" }]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "weatherlove",
+      "role": "player",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "22" }]
+    },
+    {
+      "characterId": "lifeblesser",
+      "role": "player",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "22" }]
+    },
+    {
+      "characterId": "truthcall",
+      "role": "player",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "22" }]
+    },
+    {
+      "characterId": "lightsong",
+      "role": "player",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "22" }]
+    }
+  ]
+}

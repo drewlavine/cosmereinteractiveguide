@@ -1,0 +1,52 @@
+{
+  "intro": [
+    {
+      "text": "A member of the Vanishers who recruited many of the gang's men.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "8" }],
+      "fallback": true
+    },
+    {
+      "text": "Third in command of the Vanishers under Miles and Tarson, who recruits and trains the gang's men and joins many of their raids.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "11" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The Vanishers",
+          "revealedIn": [
+            { "book": "alloy-of-law", "chapter": "11" },
+            { "book": "alloy-of-law", "chapter": "17" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Clamps recruited all of Miles's men and trained them at a foundry in Longard. At the Yomen-Ostlin wedding dinner he told Miles the recruits were itching to use their guns on the guests; several were captured after Wax and Wayne won the gunfight, and Wayne tricked some into admitting that Clamps had recruited them.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "11" }]
+        },
+        {
+          "text": "Abandoning the foundry, Clamps, who knew something of traps and explosives, rigged it to kill Wax and Wayne, promising Miles it would work. He replaced the men lost at the wedding, waited at the lair beneath the Ironspine Building while Miles met Mister Suit, then oversaw and joined the raid on the Breaknaught.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "17" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Clamps has a fine-featured face, often set in a scowl. His neck is scarred in imitation of the Survivor's scars, and he scratches at them while he thinks.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "17" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Clamps is cruel and violent, ready to kill anyone who witnesses his crimes, beggars included, and to let his men hurt bystanders just because they can. He claims devotion to the gang's cause but joined for the thrill of the robberies, and his occasional insolence causes friction with Miles.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "15" }]
+    },
+    {
+      "text": "A fanatical member of the Church of the Survivor, he had his neck scarred as a sign of devotion.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "17" }]
+    }
+  ]
+}

@@ -48,6 +48,39 @@
     {
       "title": [
         {
+          "text": "The early land",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "113" },
+                { "book": "wind-and-truth", "chapter": "43" }
+              ]
+            },
+            { "book": "wind-and-truth", "chapter": "107" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Before humans arrived, Shinovar already had soil but lacked the grass and imported ecology that came with them.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "113" },
+                { "book": "wind-and-truth", "chapter": "43" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Refugees from Ashyn settled in the sheltered region, bringing plants and animals that could survive away from Roshar's strongest storms.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "107" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
           "text": "History",
           "revealedIn": [
             {
@@ -57,6 +90,8 @@
               ]
             },
             { "book": "oathbringer", "chapter": "75" },
+            { "book": "wind-and-truth", "chapter": "133" },
+            { "book": "wind-and-truth", "chapter": "59" },
             {
               "all": [
                 { "book": "way-of-kings", "chapter": "i-4" },
@@ -86,6 +121,14 @@
           "revealedIn": [{ "book": "oathbringer", "chapter": "75" }]
         },
         {
+          "text": "Ishar drew power from the Well of Control and bound himself deeply to Shinovar.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "133" }]
+        },
+        {
+          "text": "Repeated raids from Steen led the coastal monasteries to develop as defenses against seaborne attacks.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "59" }]
+        },
+        {
           "text": "About eight years before the True Desolation, Szeth announced that the Voidbringers were returning. The Shin leaders called it false, made him Truthless and exiled him, trading him to the Thaylen merchant Vstim.",
           "revealedIn": [
             {
@@ -104,6 +147,27 @@
         {
           "text": "Dalinar asked them by way of a Thaylen merchant to join his coalition. The Shin declined, sending back only congratulations, and stayed uncommitted.",
           "revealedIn": [{ "book": "oathbringer", "chapter": "122" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The return to Shinovar",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "143" },
+            { "book": "wind-and-truth", "chapter": "145" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Szeth completed his struggle against the Honorbearers and the influence controlling Shinovar.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "143" }]
+        },
+        {
+          "text": "Despite the cleansing, Shinovar was among the lands claimed by Retribution after the contest.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "145" }]
         }
       ]
     }

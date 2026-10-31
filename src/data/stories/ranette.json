@@ -1,0 +1,198 @@
+{
+  "intro": [
+    {
+      "text": "A gunsmith who once worked in the Roughs, where she made Wax's Sterrion pistols, and who now keeps a workshop in Elendel's Third Octant.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "14" }]
+    },
+    {
+      "text": "A gruff gunsmith and old friend of Wax and Wayne from the Roughs, who has Wax field-test her new guns and gear and lives in Elendel with her longtime girlfriend.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "alloy-of-law", "chapter": "14" },
+            { "book": "bands-of-mourning", "chapter": "2" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "A gruff gunsmith and old friend of Wax and Wayne from the Roughs, who has Wax field-test her inventions and is married to her longtime partner Jaxy.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "alloy-of-law", "chapter": "14" },
+            { "book": "lost-metal", "chapter": "epilogue-5" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The Roughs",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "14" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Ranette worked as a gunsmith in the Roughs, where she built Wax's Sterrions and his Ambersair. Some time before Wax came back to Elendel she moved there herself, drawn by the electricity the Roughs did not have.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "14" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Elendel",
+          "revealedIn": [
+            { "book": "alloy-of-law", "chapter": "14" },
+            { "book": "shadows-of-self", "chapter": "19" },
+            { "book": "bands-of-mourning", "chapter": "4" },
+            { "book": "lost-metal", "chapter": "14" },
+            {
+              "all": [
+                { "book": "alloy-of-law", "chapter": "14" },
+                { "book": "lost-metal", "chapter": "epilogue-5" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "When Wax, Wayne and Marasi turned up after Wax's study was blown up, Ranette met them with a shotgun but relented when Wayne offered a Vanisher aluminum gun. She traced it to Nouxil, a gunsmith she had written to before he vanished, and on hearing of the hostages lent Wax Vindication and hazekiller rounds, a planning room, and Marasi a rifle and trousers.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "14" }]
+        },
+        {
+          "text": "Ranette sent Wax a package of gear to test, including a first grappling hook for use while he leapt with Allomancy. When he asked for a bullet that could stop the Bleeder, she made one from his earring within hours and brought it to the governor's mansion, uneasy about the crowds gathering outside.",
+          "revealedIn": [{ "book": "shadows-of-self", "chapter": "19" }]
+        },
+        {
+          "text": "Coming home after delivering Wax's new cords, Ranette found Wayne by the house she had moved into a few months before, along with a notebook he had left for her. Reading it, she realized he was finally giving up on winning her, and she smiled and thanked him, though she firmly refused his final hopeful suggestion involving her girlfriend.",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "4" }]
+        },
+        {
+          "text": "After Wayne split with MeLaan, Ranette and Jaxy met him at the Drunken Spur, a Roughs-themed restaurant Ranette found tacky. She told him in her gruff way that she was proud of how maturely he was handling it, and the two women gently pointed out that his visits to Allriandre only punished them both.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "14" }]
+        },
+        {
+          "text": "Ranette and Jaxy returned from their honeymoon in the Malwish Consortium to find their property greatly enlarged, a wedding gift from Wayne that came with a note written in crayon.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "alloy-of-law", "chapter": "14" },
+                { "book": "lost-metal", "chapter": "epilogue-5" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Ranette is tall, lean and long-legged, with dark hair worn in a ponytail to her shoulders. During Wax, Wayne and Marasi's stay at her house she dressed in boots and brown trousers with a white laced shirt, under a long Roughs-style leather coat.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "15" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Ranette is often gruff, sarcastic and contrary, but she can be very perceptive and caring when she chooses.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "15" }]
+    },
+    {
+      "text": "She is quick to threaten to shoot anyone who annoys her, Wayne above all, and keeps shotguns in a basket by her door, but she never shoots someone she has let into her home. She keeps to herself, neither selling nor patenting her inventions, and will forgive almost anything in exchange for an interesting gun.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "alloy-of-law", "chapter": "19" },
+            { "book": "shadows-of-self", "chapter": "19" }
+          ]
+        }
+      ]
+    }
+  ],
+  "abilities": [
+    {
+      "title": [
+        {
+          "text": "Gunsmithing",
+          "revealedIn": [
+            { "book": "alloy-of-law", "chapter": "14" },
+            {
+              "all": [
+                { "book": "shadows-of-self", "chapter": "11" },
+                { "book": "bands-of-mourning", "chapter": "5" }
+              ]
+            },
+            { "book": "lost-metal", "chapter": "19" },
+            { "book": "lost-metal", "chapter": "58" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Ranette made Vindication, named for the Ascendant Warrior: an eight-chambered revolver of light, tough Invarian steel, two of whose chambers take hazekiller rounds, with a hidden safety only an Allomancer can work so it can never be turned on its Allomancer owner.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "14" }]
+        },
+        {
+          "text": "She develops hazekiller ammunition designed for fighting Allomancers.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "14" }]
+        },
+        {
+          "text": "Her grappling hook lets a Coinshot haul himself toward a building he is drifting away from and doubles as a weapon; its third version, the cords, are three cord-wrapped metal balls whose hooks an Allomancer can engage and release at will.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "shadows-of-self", "chapter": "11" },
+                { "book": "bands-of-mourning", "chapter": "5" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "For fighting Hemalurgists she built Vindication II, a large-caliber all-aluminum gun with two extra chambers for oversized hazekillers, as well as the Steel Survivor, an aluminum pistol with a long barrel for precise shots.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "19" }]
+        },
+        {
+          "text": "Ranette is a highly skilled gunsmith whose work bears an identifying symbol, and she can tell who made a gun just by examining it.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "58" }]
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "title": [
+        {
+          "text": "Romance",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "shadows-of-self", "chapter": "19" },
+                { "book": "bands-of-mourning", "chapter": "2" },
+                { "book": "lost-metal", "chapter": "14" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Ranette is a lesbian who has been out for two decades. She was once involved with Misra and is now with Jaxy, whom she calls \"Jax\".",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "shadows-of-self", "chapter": "19" },
+                { "book": "bands-of-mourning", "chapter": "2" },
+                { "book": "lost-metal", "chapter": "14" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

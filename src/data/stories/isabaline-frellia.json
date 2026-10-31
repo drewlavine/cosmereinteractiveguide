@@ -1,0 +1,26 @@
+{
+  "intro": [
+    {
+      "text": "A criminal in Elendel.",
+      "revealedIn": [{ "book": "shadows-of-self", "chapter": "4" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Elendel",
+          "revealedIn": [{ "book": "shadows-of-self", "chapter": "4" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Isabaline Frellia was one of Elendel's criminals.",
+          "revealedIn": [{ "book": "shadows-of-self", "chapter": "4" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

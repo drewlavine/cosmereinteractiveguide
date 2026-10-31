@@ -1,0 +1,48 @@
+{
+  "intro": [
+    {
+      "text": "The crime lord Sharezan's second-in-command, who kills six trackts in a raid before Ais hunts him down.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "6" }],
+      "fallback": true
+    },
+    {
+      "text": "Sharezan's second-in-command, a devout warrior-priest arrested by Ais, who carries out Sharezan's orders against her.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "17" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Sharezan's second",
+          "revealedIn": [
+            { "book": "white-sand-omnibus", "chapter": "6" },
+            { "book": "white-sand-omnibus", "chapter": "17" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Lokmlen fled a raid in which he had killed trackts, and Ais chased him to Portside Market. He called her a traitor to her people and faith and goaded her until he had her beaten, but Aarik stepped in, dodged his attacks and stamped on his foot, and Ais arrested him.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "6" }]
+        },
+        {
+          "text": "Tain claimed Lokmlen had broken under questioning, though that may have been a lie. Freed, he rejoined the gang, planted a fire trap at the orphanage where Ais grew up, and was waiting at the hideout where Sharezan sprang his trap on her.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "17" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Brown-skinned and bald, with a Kerztian cross scar across his forehead and eyes, a goatee, and a single hoop in his left ear; he is armed with a sword and a zinkall.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "4" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "A devout and outspoken Kerztian of the warrior-priest DaiKeen.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "4" }]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "intro": [
+    {
+      "text": "The Vavibrar is a Rosharan literary work. A passage it quotes from an older text appears in an epigraph about Urithiru.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "35" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "The passage says some of Urithiru's founders hoped to build it in Alethela, one of the Silver Kingdoms, but that this could not be done.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "35" }]
+    },
+    {
+      "text": "Jasnah thought its source the oldest surviving original text to mention Urithiru, and wished she could read the dead language Dawnchant.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "60" }]
+    }
+  ],
+  "history": [],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "jasnah-kholin",
+      "role": "researcher",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "60" }]
+    }
+  ]
+}

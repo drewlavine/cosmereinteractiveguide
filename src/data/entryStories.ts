@@ -50,14 +50,27 @@ export async function loadEntryStory(kind: EntryKind, id: string) {
   return story
 }
 
+const pointsOf = (p: RevealPoint) =>
+  typeof p === 'object' && 'all' in p ? p.all : [p]
+
 /**
  * When an entry first shows: the chapter its page's earliest intro is dated
- * to, if it has a page, or else the list's own (book-level) date.
+ * to, if it has a page, or else the list's own (book-level) date. An entry
+ * whose type is a later reveal (kindRevealedIn) also waits for that, so its
+ * type is never shown early.
  */
 export const entryRevealedIn = (
   kind: EntryKind,
-  entry: { id: string; revealedIn: Reveal },
-): Reveal => entryReveals[kind][entry.id] ?? entry.revealedIn
+  entry: { id: string; revealedIn: Reveal; kindRevealedIn?: Reveal },
+): Reveal => {
+  const base = entryReveals[kind][entry.id] ?? entry.revealedIn
+  const later = entry.kindRevealedIn
+  return later
+    ? base.flatMap((p) =>
+        later.map((q) => ({ all: [...pointsOf(p), ...pointsOf(q)] })),
+      )
+    : base
+}
 
 /**
  * The entry's other names the reader may see (Coinshot for Steel), in the

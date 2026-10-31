@@ -1,0 +1,47 @@
+{
+  "intro": [
+    {
+      "text": "A Striker from Mulla'dil and captain of the guard at the Rose Palace, who captured the Forger Shai and has promised that one day he will kill her.",
+      "revealedIn": [{ "book": "emperors-soul", "chapter": "day-2" }]
+    },
+    {
+      "text": "A Striker from Mulla'dil and captain of the Rose Palace guard, put in charge of guarding the imprisoned Forger's room.",
+      "revealedIn": [{ "book": "emperors-soul", "chapter": "day-58" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Guarding the Forger",
+          "revealedIn": [
+            { "book": "emperors-soul", "chapter": "day-58" },
+            { "book": "emperors-soul", "chapter": "day-98" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "He was among the guards who brought Shai before the arbiters after her capture. Still smarting from having failed to stop her robbing the palace, he swore he would kill her one day. He was put in charge of guarding her room and of the arbiters who visited, the only Striker who knew of the emperor's injury and the bargain.",
+          "revealedIn": [{ "book": "emperors-soul", "chapter": "day-58" }]
+        },
+        {
+          "text": "Once her work on the emperor's soul was finished, he sent the guards out of her room and tried to kill her. He wounded her with his sword but dropped through a trap in the floor and was knocked out. On waking he went to the Bloodsealer, who tracked her by the blood on his blade, but as Shaizan she easily beat him, breaking his wrist and six ribs, and rode off on his costly warhorse.",
+          "revealedIn": [{ "book": "emperors-soul", "chapter": "day-98" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "He is young, tall and lean, with pale skin, wide lips and carefully styled dark hair that suggests he seldom wears a helmet.",
+      "revealedIn": [{ "book": "emperors-soul", "chapter": "day-98" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Ambitious, he is sure great things lie ahead of him. He is not clever, but the arbiters find him useful when they want someone killed. Forgery makes him uneasy.",
+      "revealedIn": [{ "book": "emperors-soul", "chapter": "day-17" }]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "intro": [
+    {
+      "text": "A pepper grown in JinDo, and a key ingredient of the dish RaiDomo Mai.",
+      "revealedIn": [{ "book": "elantris", "chapter": "47" }]
+    }
+  ],
+  "description": [],
+  "history": [],
+  "facts": [
+    {
+      "label": "Grown in",
+      "name": "JinDo",
+      "placeId": "jindo",
+      "revealedIn": [{ "book": "elantris", "chapter": "47" }]
+    }
+  ],
+  "people": []
+}

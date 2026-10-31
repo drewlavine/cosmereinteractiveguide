@@ -1,0 +1,53 @@
+{
+  "intro": [
+    {
+      "text": "The owner of the Kingseat hotel where December takes rooms.",
+      "revealedIn": [{ "book": "fires-of-december", "chapter": "ix" }],
+      "fallback": true
+    },
+    {
+      "text": "A Kingseat hotelier who mistreated her staff until December bought her hotel from her and sent her off to the countryside.",
+      "revealedIn": [{ "book": "fires-of-december", "chapter": "xxii" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Hotelier",
+          "revealedIn": [
+            { "book": "fires-of-december", "chapter": "xxiii" },
+            { "book": "fires-of-december", "chapter": "xix" },
+            { "book": "fires-of-december", "chapter": "xxii" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "She borrowed heavily to furnish a fine hotel and hire the best staff, but turned away anyone who didn't suit her idea of an elegant guest, and the loan's interest drained her.",
+          "revealedIn": [{ "book": "fires-of-december", "chapter": "xxiii" }]
+        },
+        {
+          "text": "She was thrilled when December chose her hotel, and pleased when December wanted one of the valets as a footman, until it turned out to be Dmitrovik, whom she scorned as a fosterling raising a daughter born out of wedlock.",
+          "revealedIn": [{ "book": "fires-of-december", "chapter": "xix" }]
+        },
+        {
+          "text": "She fired Dmitrovik and let him think December was unhappy with him. Furious, December threatened to ruin the hotel's name and bought it for fifty gold, on condition that Greenwares leave to live with her sister in the countryside.",
+          "revealedIn": [{ "book": "fires-of-december", "chapter": "xxii" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Stocky, with a tall bun that adds a foot to her height. She dresses in demon's-blood fabrics, such as a bubbly bright yellow outfit and an orange gown streaked with red.",
+      "revealedIn": [{ "book": "fires-of-december", "chapter": "xxii" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Purses her lips when displeased. She abuses her staff behind closed doors while staying calm in public, looks down on fosterlings and children born outside marriage, and is good with accounts.",
+      "revealedIn": [{ "book": "fires-of-december", "chapter": "xxii" }]
+    }
+  ]
+}

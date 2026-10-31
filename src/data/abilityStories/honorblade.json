@@ -44,6 +44,32 @@
     {
       "title": [
         {
+          "text": "The Shin custodians",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "83" },
+            { "book": "wind-and-truth", "chapter": "117" },
+            { "book": "wind-and-truth", "chapter": "90" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Szeth replaced Tuko as the bearer of Jezrien's Blade after his pilgrimage.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "83" }]
+        },
+        {
+          "text": "Ishar directed the Honorbearers to let Szeth retain the Blade when they declared him Truthless.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "117" }]
+        },
+        {
+          "text": "Elid became the bearer of Chanarach's Honorblade.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "90" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
           "text": "Jezrien's Honorblade",
           "revealedIn": [
             { "book": "words-of-radiance", "chapter": "87" },
@@ -75,18 +101,70 @@
       "title": [
         {
           "text": "Talenel's Honorblade",
-          "revealedIn": [{ "book": "words-of-radiance", "chapter": "76" }]
+          "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "76" },
+            { "book": "wind-and-truth", "chapter": "42" }
+          ]
         }
       ],
       "items": [
         {
           "text": "Talenel returns carrying his Honorblade, which doesn't vanish when he drops it. On the way to the Shattered Plains it's swapped for an ordinary Shardblade.",
           "revealedIn": [{ "book": "words-of-radiance", "chapter": "76" }]
+        },
+        {
+          "text": "The Shin recovered the Blade, and Rit became its bearer.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "42" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Fighting the Honorbearers",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "141" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Nightblood damaged several Honorblades during Szeth's fight against Ishar's returning Honorbearers.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "141" }]
         }
       ]
     }
   ],
   "mechanics": [
+    {
+      "title": [
+        {
+          "text": "Nature of the Honorblades",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "53" },
+            { "book": "wind-and-truth", "chapter": "65" },
+            { "book": "wind-and-truth", "chapter": "89" },
+            { "book": "wind-and-truth", "chapter": "144" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Honorblades can talk with Nightblood and remain weapons rather than becoming spren in Shadesmar.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "53" }]
+        },
+        {
+          "text": "They are solid manifestations of Honor's god metal.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "65" }]
+        },
+        {
+          "text": "They anchor the Oathpact and can be corrupted after their Herald dies permanently.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "89" }]
+        },
+        {
+          "text": "A new Honorblade can take a form other than a sword: Kaladin's appeared as a spear.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "144" }]
+        }
+      ]
+    },
     {
       "title": [
         {
@@ -147,6 +225,46 @@
   ],
   "facts": [],
   "people": [
+    {
+      "characterId": "kaladin",
+      "role": "Own Honorblade",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "144" }]
+    },
+    {
+      "characterId": "rit-daughter-clutio",
+      "role": "Talenel's Honorblade",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "42" }]
+    },
+    {
+      "characterId": "tuko-son-tuko",
+      "role": "Jezrien's Honorblade",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "83" }]
+    },
+    {
+      "characterId": "elid-daughter-zeenid",
+      "role": "Chanarach's Honorblade",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "90" }]
+    },
+    {
+      "characterId": "neturo-son-vallano",
+      "role": "Ishar's Honorblade",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "111" }]
+    },
+    {
+      "characterId": "pozen-son-nash",
+      "role": "Battar's Honorblade",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "53" }]
+    },
+    {
+      "characterId": "sivi-daughter-sivi",
+      "role": "Kalak's Honorblade",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "45" }]
+    },
+    {
+      "characterId": "moss-son-farrier",
+      "role": "Shalash's Honorblade",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "71" }]
+    },
     {
       "characterId": "szeth",
       "role": "Jezrien's Honorblade",

@@ -1,0 +1,38 @@
+{
+  "intro": [
+    {
+      "text": "Admiral Rattu, an influential Eelakin politician in the talks with the Ones Above, to whom other officials often defer.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "11" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Opposing the dark",
+          "revealedIn": [
+            { "book": "isles-of-the-emberdark", "chapter": "11" },
+            { "book": "isles-of-the-emberdark", "chapter": "19" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Rattu had led the preparations for an earlier ship that tried to sail the endless dark and failed. He opposed sending another, as it would cost many resources and lives with little hope of success.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "11" }]
+        },
+        {
+          "text": "While Vathi was away at Patji, Admiral Rattu filed a motion to cut the funding for her projects and to have the First Company vice presidents review her leadership, a first step toward removing her.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "19" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Keeps a large, pure green Aviar with a yellow chest, which likes to puff out its feathers.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "11" }]
+    }
+  ],
+  "personality": []
+}

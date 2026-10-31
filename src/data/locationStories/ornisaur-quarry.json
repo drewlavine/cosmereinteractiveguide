@@ -1,0 +1,22 @@
+{
+  "intro": [
+    {
+      "text": "A quarry somewhere between Scadrial's northern and southern continents, holding paintings of great feathered ornisaurs and an ornisaur skeleton made of aluminum.",
+      "revealedIn": ["lost-metal"]
+    }
+  ],
+  "description": [],
+  "history": [
+    {
+      "title": [
+        { "text": "The aluminum skeleton", "revealedIn": ["lost-metal"] }
+      ],
+      "items": [
+        {
+          "text": "In 348 PC, Nicelle Sauvage and three companions came to the quarry, found the aluminum skeleton and carried it off.",
+          "revealedIn": ["lost-metal"]
+        }
+      ]
+    }
+  ]
+}

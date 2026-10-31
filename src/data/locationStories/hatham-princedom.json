@@ -1,0 +1,72 @@
+{
+  "intro": [
+    {
+      "text": "One of the ten princedoms of Alethkar. Its house colours are gold and red.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "107" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "It lies in western Alethkar, with Jah Keved to the west and the Sunmaker Mountains along its northern edge, and is the part of Alethkar closest to the Horneater Peaks. Though landlocked, it is bordered in part by rivers that drain into Mevan Bay.",
+      "revealedIn": ["oathbringer"]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Narak and Urithiru",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "104" },
+                { "book": "rhythm-of-war", "chapter": "17" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Hatham's warcamp caught the unexpected highstorm during the battle at Narak and grew fairly rich on the Stormlight. After the Alethi moved into Urithiru, Highprince Hatham set his farmers to work on the tower's gardens. He was named Highprince of Works, and his princedom took charge of the tower's plumbing and other infrastructure.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "104" },
+                { "book": "rhythm-of-war", "chapter": "17" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The True Desolation",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "104" },
+                { "book": "rhythm-of-war", "chapter": "17" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Western Alethkar held out longest against the invading singer forces, but in the end the Hatham princedom fell under singer control.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "104" },
+                { "book": "rhythm-of-war", "chapter": "17" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,169 @@
+{
+  "intro": [
+    {
+      "text": "A shining golden metal, pale enough to look almost white.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "121" }]
+    },
+    {
+      "text": "A rare golden metal that naturally draws Investiture into itself. Odium's forces build it into weapons that pull Stormlight out of Radiants.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "oathbringer", "chapter": "121" },
+            { "book": "rhythm-of-war", "chapter": "84" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "Raysium is a shining gold, so pale it looks nearly white.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "121" }]
+    },
+    {
+      "text": "It conducts Investiture on its own, pulling it in from whatever source it touches. This works with every kind of Light and with spren too, so it can carry a spren from one gemstone to another, even one of the halves made when a paired fabrial is created.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "84" }]
+    },
+    {
+      "text": "Raboniel once took the raysium strip out of a dagger and put it back the other way round, so that the knife sent Investiture out of its gem instead of drawing it in. Which way raysium carries Investiture can depend on how it is set.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "84" }]
+    },
+    {
+      "text": "Moving one half of a split spren into a bigger gem upsets the balance between the two halves: shifting the larger gem a little moves its smaller partner much further, multiplying the force.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "84" }]
+    },
+    {
+      "text": "Odium's forces have put raysium in weapons for several Returns, using it to drain Stormlight from enemy Radiants and to fill gems with Light. The lances of the Heavenly Ones are weapons of this kind.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "84" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Soul-trapping daggers",
+          "revealedIn": [
+            { "book": "rhythm-of-war", "chapter": "106" },
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "121" },
+                { "book": "rhythm-of-war", "chapter": "106" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Not long after Ba-Ado-Mishram was imprisoned in the False Desolation, the Fused She Who Dreams saw that raysium could guide a Herald's soul into a gemstone prison, and a few such daggers have been made since then.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "106" }]
+        },
+        {
+          "text": "Moash killed Jezrien with one of these daggers. Shalash felt that this death was unlike the others, because she could no longer sense his soul.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "121" },
+                { "book": "rhythm-of-war", "chapter": "106" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "While Urithiru was occupied, Raboniel had no fewer than three others. One was destroyed in an experiment. With another she ended her daughter's life for good, and Navani then used that one to wound Raboniel fatally. She filled the third with anti-Stormlight and handed it to Moash, who was to use it against Phendorana.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "106" }]
+        },
+        {
+          "text": "Mraize gave Shallan another such dagger so that she could trap Kalak's soul in it for the Ghostbloods.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "106" }]
+        }
+      ]
+    }
+  ],
+  "mechanics": [
+    {
+      "title": [
+        {
+          "text": "Soul-trapping daggers",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "121" },
+                { "book": "rhythm-of-war", "chapter": "104" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "These daggers have a gemstone set into the pommel. When one kills a Herald, the Herald's soul is caught in the gem instead of going back to Braize, ending that Herald's cycle of death and return.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "121" },
+                { "book": "rhythm-of-war", "chapter": "104" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Charged with anti-Stormlight, such a dagger can kill a Radiant's spren, which breaks the bond between them.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "121" },
+                { "book": "rhythm-of-war", "chapter": "104" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Colour",
+      "name": "Pale gold",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "121" }]
+    },
+    {
+      "label": "Effect",
+      "name": "Draws in Investiture",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "84" }]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "raboniel",
+      "role": "Fused researcher",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "84" }]
+    },
+    {
+      "characterId": "moash",
+      "role": "Dagger wielder",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "106" }]
+    },
+    {
+      "characterId": "she-who-dreams",
+      "role": "Found soul-trapping",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "106" }]
+    },
+    {
+      "characterId": "navani-kholin",
+      "role": "Dagger wielder",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "106" }]
+    },
+    {
+      "characterId": "mraize",
+      "role": "Supplied a dagger",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "106" }]
+    },
+    {
+      "characterId": "shallan-davar",
+      "role": "Given a dagger",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "106" }]
+    }
+  ]
+}

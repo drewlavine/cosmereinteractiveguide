@@ -49,5 +49,21 @@
       "revealedIn": [{ "book": "way-of-kings", "chapter": "i-5" }]
     }
   ],
-  "personality": []
+  "personality": [],
+  "abilities": [
+    {
+      "title": [
+        {
+          "text": "The Fifth Journey",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "i-11" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Cusicesh opened a perpendicularity for the Iriali's departure from Roshar, serving as their guide on the Fifth Journey.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "i-11" }]
+        }
+      ]
+    }
+  ]
 }

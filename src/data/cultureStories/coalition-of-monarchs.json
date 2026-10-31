@@ -121,6 +121,32 @@
           "revealedIn": [{ "book": "rhythm-of-war", "chapter": "111" }]
         }
       ]
+    },
+    {
+      "title": [
+        {
+          "text": "Defending the capitals",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "20" },
+            { "book": "wind-and-truth", "chapter": "21" },
+            { "book": "wind-and-truth", "chapter": "116" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Simultaneous attacks toward Azimir, Thaylen City and Narak forced the coalition to divide its forces.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "20" }]
+        },
+        {
+          "text": "Dalinar discussed seeking Honor's power in the Spiritual Realm. The Mink secured Windrunners for a separate attempt to recover Herdaz.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "21" }]
+        },
+        {
+          "text": "Thaylenah and Azir's protectorates passed out of the coalition through allegiance or surrender to Odium.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "116" }]
+        }
+      ]
     }
   ],
   "facts": [],

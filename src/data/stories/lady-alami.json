@@ -1,0 +1,26 @@
+{
+  "intro": [
+    {
+      "text": "An Alethi noblewoman on the Shattered Plains.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "22" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The king's feast",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "22" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "At a feast King Elhokar held two days after a highstorm, the king's Wit mocked Lady Alami's intelligence.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "22" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

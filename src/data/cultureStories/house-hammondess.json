@@ -1,0 +1,27 @@
+{
+  "intro": [
+    {
+      "text": "A noble house on Scadrial that holds a hereditary seat in the Elendel Senate.",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "33" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "In 348 PC, Mari Hammondess holds the house's Senate seat.",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "33" }]
+    },
+    {
+      "text": "In 342 PC, Governor Replar Innate made a Hammondess scion a judge.",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "33" }]
+    }
+  ],
+  "history": [],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "mari-hammondess",
+      "role": "senator",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "33" }]
+    }
+  ]
+}

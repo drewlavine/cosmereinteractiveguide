@@ -1,0 +1,38 @@
+{
+  "intro": [
+    {
+      "text": "Tuka, director of the park in the homeisles' capital that keeps plants and animals from the Pantheon.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "1" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The park",
+          "revealedIn": [
+            { "book": "isles-of-the-emberdark", "chapter": "1" },
+            { "book": "isles-of-the-emberdark", "chapter": "3" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "She thinks well of Dusk and welcomes his talks at the park, yet she has never been to Patji and has little grasp of how trappers live or how lethal the Pantheon's creatures are.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "1" }]
+        },
+        {
+          "text": "She told Dusk that Mother Frond wanted to speak with him.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "3" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "A stout, loud woman with long black hair, she wears orange so faithfully that she resembles a piece of fruit.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "1" }]
+    }
+  ],
+  "personality": []
+}

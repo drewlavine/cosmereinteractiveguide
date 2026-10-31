@@ -1,0 +1,19 @@
+{
+  "intro": [
+    {
+      "text": "A large sea in Shadesmar, home to the honorspren capital, Lasting Integrity.",
+      "revealedIn": [{ "all": ["way-of-kings", "rhythm-of-war"] }]
+    }
+  ],
+  "description": [
+    {
+      "text": "It borders the Sea of Regret, the Sea of Lost Lights and the Nexus of Imagination. In the Physical Realm, it matches central Roshar, including Urithiru and the Valley, and nations such as Tu Bayla, Marat, Azir, Emul, Tukar and Tashikk.",
+      "revealedIn": [{ "all": ["oathbringer", "rhythm-of-war"] }]
+    },
+    {
+      "text": "Spren live in settlements on its peninsulas and along its southern shore, where a road leads toward the Expanse of Vibrance.",
+      "revealedIn": ["rhythm-of-war"]
+    }
+  ],
+  "history": []
+}

@@ -1,0 +1,25 @@
+{
+  "intro": [
+    {
+      "text": "A tavern in one of the towns on the outskirts of Kholinar.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "51" }]
+    }
+  ],
+  "description": [],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Moash's stop",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "51" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "In his caravan days the tavern was one of Moash's favourite stops, since it had always made him welcome. He passed it again on the way to a lumberyard while labouring for the singers in the siege of Kholinar.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "51" }]
+        }
+      ]
+    }
+  ]
+}

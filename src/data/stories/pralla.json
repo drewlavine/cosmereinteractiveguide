@@ -74,5 +74,42 @@
       "text": "A good person, but flawed by her love of secrets.",
       "revealedIn": [{ "book": "wind-and-truth", "chapter": "103" }]
     }
+  ],
+  "abilities": [
+    {
+      "title": [
+        {
+          "text": "Before the Oathpact",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "55" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Odium's Surges slowed her aging and gave her future sight before she became a Herald.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "55" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The Heralds' power",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "64" },
+            { "book": "wind-and-truth", "chapter": "122" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Vedel used her Connection to Honor to supply the Investiture that made her immortal.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "64" }]
+        },
+        {
+          "text": "Honor increased the Heralds' access to the Surges and to the powers of Roshar itself.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "122" }]
+        }
+      ]
+    }
   ]
 }

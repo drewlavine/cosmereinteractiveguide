@@ -1,0 +1,26 @@
+{
+  "intro": [
+    {
+      "text": "The elder of a small village that Vin passes through on her way back to Luthadel.",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "52" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Return to Luthadel",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "52" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "When Vin asked the villagers for pewter, one of them suggested that Cled might own a few goblets with some of the metal in them.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "52" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

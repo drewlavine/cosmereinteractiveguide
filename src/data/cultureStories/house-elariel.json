@@ -1,0 +1,69 @@
+{
+  "intro": [
+    {
+      "text": "One of the oldest noble houses of the Final Empire, third in power among the ten Great Houses of Luthadel.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "9" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Smaller than Keep Venture, Keep Elariel has a separate ballroom: a squat, single-storey wing reached by steps. Its stained glass is all in the ceiling, round rose windows lit by limelights on the roof. A sunken dance floor sits in the middle, ringed by two raised tiers of candlelit tables, and the coloured light makes faces hard to tell apart.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "18" }]
+    },
+    {
+      "text": "A very rich and powerful house that, like the other Great Houses, controls much of the empire's trade.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "23" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The house war",
+          "revealedIn": [
+            { "book": "final-empire", "chapter": "18" },
+            { "book": "final-empire", "chapter": "19" },
+            { "book": "final-empire", "chapter": "30" },
+            { "book": "final-empire", "chapter": "31" },
+            { "book": "final-empire", "chapter": "32" },
+            { "book": "final-empire", "chapter": "37" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Shan Elariel is engaged to Elend Venture. At a ball at Keep Elariel, Vin realises Shan can Soothe, and sees Shan's Terrisman steward searching Elend's books.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "18" }]
+        },
+        {
+          "text": "A fire breaks out at Keep Elariel, but does not spread past the guardhouses.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "19" }]
+        },
+        {
+          "text": "Elariel assassins, two of them Mistborn including Shan, set out to murder Elend and two of his friends at the last ball at Keep Venture. Vin stops them and kills Shan. The house has the services of at least one more Mistborn besides her.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "30" }]
+        },
+        {
+          "text": "Learning that Shan was Mistborn, Elend suspects House Elariel meant to have him killed as soon as an Elariel grandson was born.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "31" }]
+        },
+        {
+          "text": "House Elariel attacks House Hasting, bringing about its fall.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "32" }]
+        },
+        {
+          "text": "When the skaa rise, Keep Elariel is one of the first keeps to fall.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "37" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "shan-elariel",
+      "role": "member",
+      "revealedIn": [{ "book": "final-empire", "chapter": "18" }]
+    }
+  ]
+}

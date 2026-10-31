@@ -1,0 +1,47 @@
+{
+  "intro": [
+    {
+      "text": "The former sprouter of the Crow's Song, who the crew say was put off the ship for refusing to turn pirate.",
+      "revealedIn": [{ "book": "tress", "chapter": "16" }]
+    },
+    {
+      "text": "The former sprouter of the Crow's Song, who secretly helped Crow look for the dragon Xisis until he tried to blackmail her and she killed him.",
+      "revealedIn": [{ "book": "tress", "chapter": "31" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Aboard the Crow's Song",
+          "revealedIn": [
+            { "book": "tress", "chapter": "22" },
+            { "book": "tress", "chapter": "37" },
+            { "book": "tress", "chapter": "31" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "A crewman remembered Weev as a decent sort who couldn't bluff and was bad at cards, and the only one to speak against turning pirate.",
+          "revealedIn": [{ "book": "tress", "chapter": "22" }]
+        },
+        {
+          "text": "He gathered many kinds of spores, among them zephyr, rose, verdant, sunlight and midnight, the last from Hoid. A purist, he patched holes with an iron plate and steel trowel, and his notes were a jumble of passing thoughts and half-made ideas. Crow wanted him to work out how to make their own cannonballs to save money, but he never did.",
+          "revealedIn": [{ "book": "tress", "chapter": "37" }]
+        },
+        {
+          "text": "Weev also met Crow in secret to help her find the dragon Xisis, until he turned to blackmail. Her notes say she threw him off the ship, and that was the end of him.",
+          "revealedIn": [{ "book": "tress", "chapter": "31" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": [
+    {
+      "text": "Sprouters all have a name for madness, and Weev was thought madder than most.",
+      "revealedIn": [{ "book": "tress", "chapter": "25" }]
+    }
+  ]
+}

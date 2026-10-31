@@ -1,0 +1,43 @@
+{
+  "intro": [
+    {
+      "text": "A thug in a gang the Set hired as muscle, working under Granks, one of the Set's Hemalurgist officers.",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "11" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The Set's hired muscle",
+          "revealedIn": [
+            { "book": "lost-metal", "chapter": "8" },
+            { "book": "lost-metal", "chapter": "21" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "In 348 PC Franis's gang carried out thefts, shakedowns and killings in Elendel on the Set's orders. He was among the thugs Wayne and Marasi caught in a raid on a Set hideout in the tunnels below the city, where Wayne bound them with shoelaces.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "8" }]
+        },
+        {
+          "text": "With Franis in custody, Wayne chose him to impersonate, as they were alike in age and build. He chatted with Franis, took his hat, then combined it with a wig and makeup to pass as him among the Set, fooling people who knew Franis well. VenDell judged the imitation as good as a kandra's.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "21" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "In his early thirties, he looks a little like Wayne but more worn, with sunken eyes, a squarer chin, different hair and a habitual squint. He wears a battered wool cap, walks with a swagger and talks in a whiny dockworker's accent.",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "21" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "By Wayne's account, Franis was an ex-dockworker who joined the gang for better money and easier hours rather than any taste for crime. He sometimes questioned the Set's leaders, and seems to be on good terms with Embrier.",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "21" }]
+    }
+  ]
+}

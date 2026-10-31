@@ -1,0 +1,43 @@
+{
+  "intro": [
+    {
+      "text": "A wine that ran out during Gavilar's feast, along with the Clavendah.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "prologue" }]
+    }
+  ],
+  "description": [],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Gavilar's feast",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "prologue" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "At the feast the cook reported that the Clavendah and the Ruby Bench had run out. Guessing that Dalinar was raiding the kitchens for wine again, Navani sent the cook to the monastery to ask Sister Talanah for her hidden stock.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "prologue" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "navani-kholin",
+      "role": "hostess",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "prologue" }]
+    },
+    {
+      "characterId": "dalinar-kholin",
+      "role": "drank it",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "prologue" }]
+    },
+    {
+      "characterId": "talanah",
+      "role": "kept reserves",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "prologue" }]
+    }
+  ]
+}

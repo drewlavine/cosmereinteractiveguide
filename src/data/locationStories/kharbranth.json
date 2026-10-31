@@ -26,6 +26,10 @@
           ]
         }
       ]
+    },
+    {
+      "text": "The City of Bells, destroyed by a tidal wave sent by Odium.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "i-12" }]
     }
   ],
   "description": [
@@ -173,6 +177,34 @@
         {
           "text": "The new queen, Savrahalidem, condemned her father's actions and withdrew Kharbranth from every alliance, declaring it neutral and returning to its role of giving medical aid to anyone. Dalinar blockaded its waters but would not risk a costly land attack.",
           "revealedIn": [{ "book": "rhythm-of-war", "chapter": "50" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Before the contest",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "i-12" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Cultivation threatened Taravangian's family to press him toward peace. He answered by sending a tidal wave that destroyed Kharbranth.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "i-12" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "After the contest",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "147" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Retribution kept a replica of Kharbranth in the Spiritual Realm. He had secretly moved the citizens there before the destruction and removed their memories of it.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "147" }]
         }
       ]
     }

@@ -1,0 +1,47 @@
+{
+  "intro": [
+    {
+      "text": "An Elendel senator whom Wax sees as a puppet of Houses Hasting and Erikell, both usually opposed to his politics.",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "2" }]
+    },
+    {
+      "text": "The senator for Elendel's dockworkers, whom Wax sees as a puppet of Houses Hasting and Erikell.",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "33" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The Senate",
+          "revealedIn": [
+            { "book": "lost-metal", "chapter": "2" },
+            { "book": "lost-metal", "chapter": "33" },
+            { "book": "lost-metal", "chapter": "46" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "When Wax argued against a bill to give Elendel's governor more power over the Outer Cities, Melstrom rose to answer him, and Wax produced a letter from Houses Hasting and Erikell bribing Melstrom to back the bill. The vote went ahead anyway without Melstrom, Hasting and Erikell, and the bill passed 122 to 118.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "2" }]
+        },
+        {
+          "text": "Melstrom was seen as a powerful senator, and his closeness to Hasting and Erikell had led Wax to look into those ties. Once exposed, Melstrom knew his career was badly damaged, though Governor Varlance refused to hold impropriety hearings until after the vote.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "33" }]
+        },
+        {
+          "text": "Melstrom's name was among the senators in papers Tobal Copper and Maraga Dulcet found about the Set's plan to bomb Elendel. Wax found that many of those papers were forgeries, so Melstrom probably knew nothing of the Set's work.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "46" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": [
+    {
+      "text": "He and Wax are openly hostile to each other, and he scorns the idea that the Outer Cities can govern themselves.",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "2" }]
+    }
+  ]
+}

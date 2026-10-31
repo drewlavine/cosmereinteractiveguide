@@ -1,0 +1,63 @@
+{
+  "intro": [
+    {
+      "text": "A luckmerch is a kind of merchant on Roshar.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "25" }]
+    },
+    {
+      "text": "A luckmerch is a travelling merchant on Roshar who sells glyphwards and other charms.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "25" },
+            { "book": "rhythm-of-war", "chapter": "2" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "Most people neither fear luckmerches nor hold superstitions about them, though some, Kaladin among them, dislike them because what they sell does nobody any real good.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "25" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "On the Shattered Plains",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "25" },
+                { "book": "rhythm-of-war", "chapter": "2" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Several luckmerches traded in Sadeas's warcamp, among other trades too disreputable for Urithiru.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "25" },
+                { "book": "rhythm-of-war", "chapter": "2" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "kaladin",
+      "role": "critic",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "25" }]
+    }
+  ]
+}

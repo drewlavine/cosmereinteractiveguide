@@ -1,0 +1,33 @@
+{
+  "intro": [
+    {
+      "text": "A legendary place in Scadrian stories, home to a great maze whose way out was found by following a string.",
+      "revealedIn": [{ "book": "secret-history", "chapter": "3-2" }]
+    }
+  ],
+  "description": [],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Kelsier's thread",
+          "revealedIn": [{ "book": "secret-history", "chapter": "3-2" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "After his death, Kelsier follows a thread of Preservation's essence to two scholars on an island in the Cognitive Realm that matches Lake Luthadel, and likens it to following the string out of Ishathon's maze.",
+          "revealedIn": [{ "book": "secret-history", "chapter": "3-2" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "kelsier",
+      "role": "likened it",
+      "revealedIn": [{ "book": "secret-history", "chapter": "3-2" }]
+    }
+  ]
+}

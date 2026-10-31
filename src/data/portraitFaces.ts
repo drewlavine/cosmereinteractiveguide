@@ -5,6 +5,12 @@
  * "<page-id> <src>" for shared art; null when the art has no usable face.
  */
 export const portraitFaces: Record<string, string | null> = {
+  '/portraits/aarik-botanicaxu.webp': '/portraits/faces/aarik-botanicaxu.webp',
+  '/portraits/adawathwyn-two-seasons.webp':
+    '/portraits/faces/adawathwyn-two-seasons.webp',
+  '/portraits/adien-elantrian.webp': '/portraits/faces/adien-elantrian.webp',
+  '/portraits/aditil-crew.webp': '/portraits/faces/aditil-crew.webp',
+  '/portraits/admiral-shade.webp': '/portraits/faces/admiral-shade.webp',
   '/portraits/adolin-kholin-duelist.webp':
     '/portraits/faces/adolin-kholin-duelist.webp',
   '/portraits/adolin-kholin-maya.webp': null,
@@ -13,21 +19,48 @@ export const portraitFaces: Record<string, string | null> = {
   '/portraits/adrotagia-portrait.webp':
     '/portraits/faces/adrotagia-portrait.webp',
   '/portraits/aesudan-kholin.webp': '/portraits/faces/aesudan-kholin.webp',
+  '/portraits/ahan-portrait.webp': '/portraits/faces/ahan-portrait.webp',
+  '/portraits/ais-botanicaxu.webp': '/portraits/faces/ais-botanicaxu.webp',
+  '/portraits/ais-white-sand-cover.webp':
+    '/portraits/faces/ais-white-sand-cover.webp',
+  '/portraits/akane-portrait.webp': '/portraits/faces/akane-portrait.webp',
+  '/portraits/ala-seon-box.webp': null,
   '/portraits/aladar.webp': '/portraits/faces/aladar.webp',
   '/portraits/alendi-at-the-well.webp':
     '/portraits/faces/alendi-at-the-well.webp',
   '/portraits/alendi-uniform.webp': '/portraits/faces/alendi-uniform.webp',
+  '/portraits/allik-neverfar-caged.webp': null,
+  '/portraits/allik-neverfar-mask.webp':
+    '/portraits/faces/allik-neverfar-mask.webp',
+  '/portraits/allik-neverfar-motp.webp':
+    '/portraits/faces/allik-neverfar-motp.webp',
   '/portraits/allrianne-cett-pink.webp':
     '/portraits/faces/allrianne-cett-pink.webp',
+  '/portraits/allstren-cynder-comic.webp':
+    '/portraits/faces/allstren-cynder-comic.webp',
+  '/portraits/alonoe-ire.webp': '/portraits/faces/alonoe-ire.webp',
+  '/portraits/ana-family.webp': '/portraits/faces/ana-family.webp',
+  '/portraits/ann-portrait.webp': '/portraits/faces/ann-portrait.webp',
+  '/portraits/ann-spectacles.webp': '/portraits/faces/ann-spectacles.webp',
   '/portraits/aona-devotion.webp': '/portraits/faces/aona-devotion.webp',
   '/portraits/aradan-yomen.webp': '/portraits/faces/aradan-yomen.webp',
+  '/portraits/arclomedarian-seeberger.webp': null,
   '/portraits/ashe-fencing.webp': null,
   '/portraits/ashe-with-sarene.webp': null,
+  '/portraits/ashertmarn-heart.webp': null,
+  '/portraits/ashertmarn-veil.webp': null,
+  '/portraits/ashlv-deepteadraws.webp':
+    '/portraits/faces/ashlv-deepteadraws.webp',
+  '/portraits/ashravan-botanicaxu.webp':
+    '/portraits/faces/ashravan-botanicaxu.webp',
   '/portraits/ashweather-cett-map.webp':
     '/portraits/faces/ashweather-cett-map.webp',
   '/portraits/ati-botanicaxu.webp': '/portraits/faces/ati-botanicaxu.webp',
+  '/portraits/auxiliary-spear.webp': null,
   '/portraits/avarak-matal-matal.webp':
     '/portraits/faces/avarak-matal-matal.webp',
+  '/portraits/axies-elisgardor.webp': '/portraits/faces/axies-elisgardor.webp',
+  '/portraits/axies-shuravf.webp': '/portraits/faces/axies-shuravf.webp',
   '/portraits/azure-highmarshal.webp':
     '/portraits/faces/azure-highmarshal.webp',
   '/portraits/ba-ado-mishram-mythica.webp': null,
@@ -35,39 +68,89 @@ export const portraitFaces: Record<string, string | null> = {
   '/portraits/balat-davar-portrait.webp':
     '/portraits/faces/balat-davar-portrait.webp',
   '/portraits/baon.webp': '/portraits/faces/baon.webp',
+  '/portraits/battar-endsheet.webp': '/portraits/faces/battar-endsheet.webp',
+  '/portraits/battar-headband.webp': '/portraits/faces/battar-headband.webp',
+  '/portraits/bavadin-autonomy.webp': '/portraits/faces/bavadin-autonomy.webp',
   '/portraits/beldre-field-of-rebirth.webp': null,
   '/portraits/beldre-first-meeting.webp': null,
   '/portraits/beryl-portrait.webp': '/portraits/faces/beryl-portrait.webp',
+  '/portraits/betha-deepteadraws.webp':
+    '/portraits/faces/betha-deepteadraws.webp',
   '/portraits/bisig-portrait.webp': '/portraits/faces/bisig-portrait.webp',
+  '/portraits/blended-laurys-l.webp': '/portraits/faces/blended-laurys-l.webp',
+  '/portraits/bloody-tan-bust.webp': '/portraits/faces/bloody-tan-bust.webp',
   '/portraits/blushweaver.webp': '/portraits/faces/blushweaver.webp',
   '/portraits/breeze-charm.webp': '/portraits/faces/breeze-charm.webp',
   '/portraits/breeze-soother.webp': '/portraits/faces/breeze-soother.webp',
+  '/portraits/cakoban-medallion.webp':
+    '/portraits/faces/cakoban-medallion.webp',
   '/portraits/camon.webp': '/portraits/faces/camon.webp',
+  '/portraits/cenn-battlefield.webp': '/portraits/faces/cenn-battlefield.webp',
   '/portraits/chanarach-endsheet.webp':
     '/portraits/faces/chanarach-endsheet.webp',
   '/portraits/chanarach-portrait.webp':
     '/portraits/faces/chanarach-portrait.webp',
+  '/portraits/charlie-garden-wall.webp':
+    '/portraits/faces/charlie-garden-wall.webp',
+  '/portraits/charlie-valet.webp': '/portraits/faces/charlie-valet.webp',
   '/portraits/chiri-chiri-grown.webp': null,
   '/portraits/chiri-chiri-sleeping.webp': null,
+  '/portraits/chrysalis-crew.webp': '/portraits/faces/chrysalis-crew.webp',
   '/portraits/cinder-king.webp': '/portraits/faces/cinder-king.webp',
   '/portraits/clubs-hat.webp': '/portraits/faces/clubs-hat.webp',
   '/portraits/clubs-pipe.webp': '/portraits/faces/clubs-pipe.webp',
+  '/portraits/compassion-portrait.webp':
+    '/portraits/faces/compassion-portrait.webp',
+  '/portraits/confidence-portrait.webp':
+    '/portraits/faces/confidence-portrait.webp',
+  '/portraits/contemplation-portrait.webp':
+    '/portraits/faces/contemplation-portrait.webp',
   '/portraits/cord.webp': '/portraits/faces/cord.webp',
+  '/portraits/crow-captain.webp': '/portraits/faces/crow-captain.webp',
+  '/portraits/crow-revealed.webp': '/portraits/faces/crow-revealed.webp',
+  '/portraits/crow-vines.webp': '/portraits/faces/crow-vines.webp',
+  '/portraits/cusicesh-jordi-rapture.webp':
+    '/portraits/faces/cusicesh-jordi-rapture.webp',
+  '/portraits/da-family.webp': '/portraits/faces/da-family.webp',
+  '/portraits/daazk-comic.webp': '/portraits/faces/daazk-comic.webp',
   '/portraits/dabbid.webp': '/portraits/faces/dabbid.webp',
+  '/portraits/dakwara-icon.webp': null,
+  '/portraits/dakwara-serpent.webp': null,
   '/portraits/dalinar-kholin-bondsmith.webp':
     '/portraits/faces/dalinar-kholin-bondsmith.webp',
   '/portraits/dalinar-kholin-coat.webp':
     '/portraits/faces/dalinar-kholin-coat.webp',
   '/portraits/dalinar-kholin-shardplate.webp': null,
+  '/portraits/danlan-morakotha-fyre.webp':
+    '/portraits/faces/danlan-morakotha-fyre.webp',
+  '/portraits/dao-seon.webp': null,
+  '/portraits/daora-portrait.webp': '/portraits/faces/daora-portrait.webp',
+  '/portraits/daorn-child.webp': '/portraits/faces/daorn-child.webp',
+  '/portraits/deborah-james-not-a-star.webp': null,
+  '/portraits/december-tran-nguyen.webp':
+    '/portraits/faces/december-tran-nguyen.webp',
+  '/portraits/dedelin-portrait.webp': '/portraits/faces/dedelin-portrait.webp',
   '/portraits/denth.webp': '/portraits/faces/denth.webp',
+  '/portraits/design-cryptic.webp': null,
+  '/portraits/design-noodle-shop.webp':
+    '/portraits/faces/design-noodle-shop.webp',
   '/portraits/dieno-portrait.webp': '/portraits/faces/dieno-portrait.webp',
   '/portraits/dilaf.webp': '/portraits/faces/dilaf.webp',
   '/portraits/dockson-documents.webp':
     '/portraits/faces/dockson-documents.webp',
   '/portraits/dockson-waistcoat.webp':
     '/portraits/faces/dockson-waistcoat.webp',
+  '/portraits/dreaming-though-awake-laurys-l.webp':
+    '/portraits/faces/dreaming-though-awake-laurys-l.webp',
   '/portraits/drehy.webp': '/portraits/faces/drehy.webp',
+  '/portraits/drile-botanicaxu.webp': '/portraits/faces/drile-botanicaxu.webp',
+  '/portraits/drile-white-sand-cover.webp':
+    '/portraits/faces/drile-white-sand-cover.webp',
   '/portraits/dul-with-mazish.webp': null,
+  '/portraits/dumad-mists.webp': '/portraits/faces/dumad-mists.webp',
+  '/portraits/eddlin-crew.webp': '/portraits/faces/eddlin-crew.webp',
+  '/portraits/eddlin-studying.webp': '/portraits/faces/eddlin-studying.webp',
+  '/portraits/edgli-endowment.webp': '/portraits/faces/edgli-endowment.webp',
   '/portraits/edwarn-ladrian-suit.webp':
     '/portraits/faces/edwarn-ladrian-suit.webp',
   '/portraits/el-sketch.webp': null,
@@ -78,13 +161,29 @@ export const portraitFaces: Record<string, string | null> = {
     '/portraits/faces/elend-venture-reading.webp',
   '/portraits/elhokar-kholin-plate.webp': null,
   '/portraits/elhokar-kholin.webp': '/portraits/faces/elhokar-kholin.webp',
+  '/portraits/elizandra-dramali-arms-crossed.webp':
+    '/portraits/faces/elizandra-dramali-arms-crossed.webp',
+  '/portraits/elizandra-dramali-blue.webp':
+    '/portraits/faces/elizandra-dramali-blue.webp',
+  '/portraits/elizandra-dramali-finding-jak.webp': null,
+  '/portraits/ellista-botanicaxu.webp':
+    '/portraits/faces/ellista-botanicaxu.webp',
+  '/portraits/eondel-portrait.webp': '/portraits/faces/eondel-portrait.webp',
   '/portraits/eshonai.webp': '/portraits/faces/eshonai.webp',
   '/portraits/evi-kholin-portrait.webp':
     '/portraits/faces/evi-kholin-portrait.webp',
   '/portraits/felt-valley.webp': null,
   '/portraits/fen-rnamdi.webp': '/portraits/faces/fen-rnamdi.webp',
+  '/portraits/fleet-storm.webp': null,
+  '/portraits/fort-hello.webp': '/portraits/faces/fort-hello.webp',
+  '/portraits/fort-portrait.webp': '/portraits/faces/fort-portrait.webp',
+  '/portraits/frava-botanicaxu.webp': '/portraits/faces/frava-botanicaxu.webp',
+  '/portraits/frost-hoid.webp': '/portraits/faces/frost-hoid.webp',
   '/portraits/galladon.webp': '/portraits/faces/galladon.webp',
   '/portraits/gallant.webp': '/portraits/faces/gallant.webp',
+  '/portraits/gaotona-botanicaxu.webp':
+    '/portraits/faces/gaotona-botanicaxu.webp',
+  '/portraits/gaotona-pekgna.webp': '/portraits/faces/gaotona-pekgna.webp',
   '/portraits/gavilar-kholin.webp': null,
   '/portraits/gavinor-kholin.webp': '/portraits/faces/gavinor-kholin.webp',
   '/portraits/gaz.webp': '/portraits/faces/gaz.webp',
@@ -92,31 +191,70 @@ export const portraitFaces: Record<string, string | null> = {
   '/portraits/gemmel-rooftops.webp': null,
   '/portraits/general-khal-shardplate.webp':
     '/portraits/faces/general-khal-shardplate.webp',
+  '/portraits/gereh-dragontrill.webp':
+    '/portraits/faces/gereh-dragontrill.webp',
+  '/portraits/gerehs-aviar-clarinking.webp': null,
+  '/portraits/getruda-cane.webp': '/portraits/faces/getruda-cane.webp',
   '/portraits/glys.webp': null,
   '/portraits/hammond-thug.webp': '/portraits/faces/hammond-thug.webp',
+  '/portraits/han-shuxen-botanicaxu.webp':
+    '/portraits/faces/han-shuxen-botanicaxu.webp',
+  '/portraits/hashal-dragontrill.webp':
+    '/portraits/faces/hashal-dragontrill.webp',
+  '/portraits/havarseth-scribe.webp': '/portraits/faces/havarseth-scribe.webp',
   '/portraits/helaran-davar.webp': '/portraits/faces/helaran-davar.webp',
   '/portraits/hesina.webp': '/portraits/faces/hesina.webp',
+  '/portraits/hnanan-fallen-from-grace.webp':
+    '/portraits/faces/hnanan-fallen-from-grace.webp',
   '/portraits/hobber.webp': '/portraits/faces/hobber.webp',
   '/portraits/hoid-storyteller.webp': '/portraits/faces/hoid-storyteller.webp',
   '/portraits/hrathen.webp': '/portraits/faces/hrathen.webp',
+  '/portraits/huio-king-lopen.webp': '/portraits/faces/huio-king-lopen.webp',
   '/portraits/human-and-vin.webp': null,
   '/portraits/human-koloss.webp': '/portraits/faces/human-koloss.webp',
+  '/portraits/hwynn-tyvneri-elsecaller.webp':
+    '/portraits/faces/hwynn-tyvneri-elsecaller.webp',
+  '/portraits/iadon-portrait.webp': '/portraits/faces/iadon-portrait.webp',
   '/portraits/ialai-sadeas.webp': '/portraits/faces/ialai-sadeas.webp',
+  '/portraits/ico-reachers.webp': null,
+  '/portraits/ico-sketch.webp': '/portraits/faces/ico-sketch.webp',
+  '/portraits/illistandrista-portrait.webp':
+    '/portraits/faces/illistandrista-portrait.webp',
+  '/portraits/inkima-havah.webp': '/portraits/faces/inkima-havah.webp',
   '/portraits/ironeyes-alley.webp': null,
   '/portraits/ishar.webp': null,
+  '/portraits/ishikk-purelake.webp': '/portraits/faces/ishikk-purelake.webp',
   '/portraits/ishnah.webp': '/portraits/faces/ishnah.webp',
   '/portraits/ivory.webp': '/portraits/faces/ivory.webp',
   '/portraits/iyatil-masked.webp': '/portraits/faces/iyatil-masked.webp',
+  '/portraits/izumakamo-portrait.webp':
+    '/portraits/faces/izumakamo-portrait.webp',
+  '/portraits/jak-egilde.webp': '/portraits/faces/jak-egilde.webp',
+  '/portraits/jak-pits-of-eltania.webp':
+    '/portraits/faces/jak-pits-of-eltania.webp',
+  '/portraits/jakamav-comb.webp': '/portraits/faces/jakamav-comb.webp',
+  '/portraits/jakamav-hammer.webp': '/portraits/faces/jakamav-hammer.webp',
+  '/portraits/jalla-portrait.webp': '/portraits/faces/jalla-portrait.webp',
+  '/portraits/jan-ven-boat.webp': '/portraits/faces/jan-ven-boat.webp',
   '/portraits/jasnah-kholin-elsecaller.webp':
     '/portraits/faces/jasnah-kholin-elsecaller.webp',
   '/portraits/jasnah-kholin-portrait.webp':
     '/portraits/faces/jasnah-kholin-portrait.webp',
   '/portraits/jaxlim.webp': null,
+  '/portraits/jaxy-bar.webp': '/portraits/faces/jaxy-bar.webp',
+  '/portraits/jeksonofnone-swamp-spirit.webp':
+    '/portraits/faces/jeksonofnone-swamp-spirit.webp',
+  '/portraits/jenet-fyre.webp': '/portraits/faces/jenet-fyre.webp',
+  '/portraits/jerick-enrichcoulet.webp':
+    '/portraits/faces/jerick-enrichcoulet.webp',
+  '/portraits/jewels-portrait.webp': '/portraits/faces/jewels-portrait.webp',
   '/portraits/jezrien.webp': '/portraits/faces/jezrien.webp',
+  '/portraits/jon-acron-comic.webp': '/portraits/faces/jon-acron-comic.webp',
   '/portraits/jushu-davar-portrait.webp':
     '/portraits/faces/jushu-davar-portrait.webp',
   '/portraits/kabsal-portrait.webp': '/portraits/faces/kabsal-portrait.webp',
   '/portraits/kadash-ardent.webp': '/portraits/faces/kadash-ardent.webp',
+  '/portraits/kaise-child.webp': '/portraits/faces/kaise-child.webp',
   '/portraits/kaladin-bridgeman.webp':
     '/portraits/faces/kaladin-bridgeman.webp',
   '/portraits/kaladin-shardplate.webp':
@@ -126,6 +264,7 @@ export const portraitFaces: Record<string, string | null> = {
   '/portraits/kaladin-windrunner.webp':
     '/portraits/faces/kaladin-windrunner.webp',
   '/portraits/kalak.webp': '/portraits/faces/kalak.webp',
+  '/portraits/kaza-cloak.webp': '/portraits/faces/kaza-cloak.webp',
   '/portraits/kelsier-campfire.webp': null,
   '/portraits/kelsier-cognitive-shadow.webp': null,
   '/portraits/kelsier-hooded.webp': '/portraits/faces/kelsier-hooded.webp',
@@ -133,13 +272,23 @@ export const portraitFaces: Record<string, string | null> = {
     '/portraits/faces/kelsier-sovereign.webp',
   '/portraits/kelsier-survivor.webp': '/portraits/faces/kelsier-survivor.webp',
   '/portraits/kenton-cover.webp': '/portraits/faces/kenton-cover.webp',
+  '/portraits/kerzt-journal.webp': null,
   '/portraits/khen-portrait.webp': '/portraits/faces/khen-portrait.webp',
   '/portraits/khriss-and-nazh.webp': null,
   '/portraits/khrissalla-map.webp': '/portraits/faces/khrissalla-map.webp',
+  '/portraits/khyan-comic.webp': '/portraits/faces/khyan-comic.webp',
+  '/portraits/kokerlii-dusk.webp': '/portraits/faces/kokerlii-dusk.webp',
+  '/portraits/kokerlii-icon.webp': null,
+  '/portraits/koravellium-avast-endsheet.webp':
+    '/portraits/faces/koravellium-avast-endsheet.webp',
+  '/portraits/lady-lavont-soiree.webp':
+    '/portraits/faces/lady-lavont-soiree.webp',
+  '/portraits/laggart-portrait.webp': '/portraits/faces/laggart-portrait.webp',
   '/portraits/laral-roshone-adult.webp':
     '/portraits/faces/laral-roshone-adult.webp',
   '/portraits/laral-roshone-child.webp':
     '/portraits/faces/laral-roshone-child.webp',
+  '/portraits/leonore-crew.webp': '/portraits/faces/leonore-crew.webp',
   '/portraits/leras-preservation.webp':
     '/portraits/faces/leras-preservation.webp',
   '/portraits/leshwi.webp': '/portraits/faces/leshwi.webp',
@@ -149,20 +298,29 @@ export const portraitFaces: Record<string, string | null> = {
   '/portraits/lift-thief.webp': '/portraits/faces/lift-thief.webp',
   '/portraits/lift-wyndle.webp': '/portraits/faces/lift-wyndle.webp',
   '/portraits/lightsong.webp': '/portraits/faces/lightsong.webp',
+  '/portraits/lily-terrier.webp': '/portraits/faces/lily-terrier.webp',
   '/portraits/lin-davar-portrait.webp':
     '/portraits/faces/lin-davar-portrait.webp',
   '/portraits/lirin.webp': '/portraits/faces/lirin.webp',
+  '/portraits/liyun-portrait.webp': '/portraits/faces/liyun-portrait.webp',
   '/portraits/llarimar.webp': '/portraits/faces/llarimar.webp',
   '/portraits/lopen-bridge-four.webp':
     '/portraits/faces/lopen-bridge-four.webp',
   '/portraits/lopen-vest.webp': '/portraits/faces/lopen-vest.webp',
   '/portraits/lord-ruler-carriage.webp':
     '/portraits/faces/lord-ruler-carriage.webp',
+  '/portraits/lorieta-elsecaller.webp':
+    '/portraits/faces/lorieta-elsecaller.webp',
+  '/portraits/lossa-journal.webp': '/portraits/faces/lossa-journal.webp',
+  '/portraits/lukel-portrait.webp': '/portraits/faces/lukel-portrait.webp',
   '/portraits/lunamor-card.webp': '/portraits/faces/lunamor-card.webp',
   '/portraits/lunamor-vest.webp': '/portraits/faces/lunamor-vest.webp',
   '/portraits/lyn-bridge-four.webp': '/portraits/faces/lyn-bridge-four.webp',
   '/portraits/lyn.webp': '/portraits/faces/lyn.webp',
   '/portraits/malata-portrait.webp': '/portraits/faces/malata-portrait.webp',
+  '/portraits/malise-gevelmar-seeberger.webp':
+    '/portraits/faces/malise-gevelmar-seeberger.webp',
+  '/portraits/maps-dragontrill.webp': '/portraits/faces/maps-dragontrill.webp',
   '/portraits/marasi-colms-curls.webp':
     '/portraits/faces/marasi-colms-curls.webp',
   '/portraits/marasi-colms-rifle.webp':
@@ -174,6 +332,7 @@ export const portraitFaces: Record<string, string | null> = {
   '/portraits/marsh-hat.webp': '/portraits/faces/marsh-hat.webp',
   '/portraits/marsh-spy.webp': null,
   '/portraits/marsh.webp': '/portraits/faces/marsh.webp',
+  '/portraits/masaka-portrait.webp': '/portraits/faces/masaka-portrait.webp',
   '/portraits/may-aladar.webp': '/portraits/faces/may-aladar.webp',
   '/portraits/mayalaran.webp': '/portraits/faces/mayalaran.webp',
   '/portraits/mazish-with-dul.webp': null,
@@ -184,11 +343,15 @@ export const portraitFaces: Record<string, string | null> = {
     '/portraits/faces/meridas-amaram-blade.webp',
   '/portraits/meridas-amaram.webp': '/portraits/faces/meridas-amaram.webp',
   '/portraits/miles-dagouter.webp': '/portraits/faces/miles-dagouter.webp',
+  '/portraits/mirris-icon.webp': null,
+  '/portraits/mirris-vathi.webp': '/portraits/faces/mirris-vathi.webp',
   '/portraits/moash-bridge.webp': '/portraits/faces/moash-bridge.webp',
   '/portraits/moash-knife.webp': null,
   '/portraits/moash-uniform.webp': '/portraits/faces/moash-uniform.webp',
   '/portraits/moash-vyre.webp': '/portraits/faces/moash-vyre.webp',
   '/portraits/mraize.webp': '/portraits/faces/mraize.webp',
+  '/portraits/mraizes-aviar-ghostblood-agent.webp': null,
+  '/portraits/mustaches-soiree.webp': '/portraits/faces/mustaches-soiree.webp',
   '/portraits/nale.webp': '/portraits/faces/nale.webp',
   '/portraits/navani-kholin-bondsmith.webp':
     '/portraits/faces/navani-kholin-bondsmith.webp',
@@ -198,6 +361,10 @@ export const portraitFaces: Record<string, string | null> = {
     '/portraits/faces/navani-kholin-scholar.webp',
   '/portraits/nazrilof-forest.webp': null,
   '/portraits/nergaoul-thrill.webp': null,
+  '/portraits/nicelle-sauvage-ghastly-gondola.webp':
+    '/portraits/faces/nicelle-sauvage-ghastly-gondola.webp',
+  '/portraits/nicelle-sauvage-gondola-fight.webp':
+    '/portraits/faces/nicelle-sauvage-gondola-fight.webp',
   '/portraits/nightblood.webp': null,
   '/portraits/nightwatcher.webp': null,
   '/portraits/nikaro-noodle-pupil.webp':
@@ -216,20 +383,38 @@ export const portraitFaces: Record<string, string | null> = {
   '/portraits/paalm-lessie.webp': '/portraits/faces/paalm-lessie.webp',
   '/portraits/paalm-masks-of-the-past.webp':
     '/portraits/faces/paalm-masks-of-the-past.webp',
+  '/portraits/pai-ardent.webp': '/portraits/faces/pai-ardent.webp',
+  '/portraits/pailiah-endsheet.webp': '/portraits/faces/pailiah-endsheet.webp',
   '/portraits/palona-portrait.webp': '/portraits/faces/palona-portrait.webp',
+  '/portraits/parlin-hat.webp': '/portraits/faces/parlin-hat.webp',
   '/portraits/pattern-blade.webp': null,
   '/portraits/pattern-cognitive.webp': null,
   '/portraits/pattern-sketch.webp': null,
   '/portraits/peet.webp': '/portraits/faces/peet.webp',
   '/portraits/phendorana-portrait.webp':
     '/portraits/faces/phendorana-portrait.webp',
+  '/portraits/prasanva-armour.webp': null,
+  '/portraits/prasanva-roseite.webp': '/portraits/faces/prasanva-roseite.webp',
+  '/portraits/prasanva-tea.webp': '/portraits/faces/prasanva-tea.webp',
+  '/portraits/puuli-botanicaxu.webp': '/portraits/faces/puuli-botanicaxu.webp',
   '/portraits/raboniel.webp': '/portraits/faces/raboniel.webp',
+  '/portraits/ral-na-dragontrill.webp':
+    '/portraits/faces/ral-na-dragontrill.webp',
+  '/portraits/ranette-dimova.webp': '/portraits/faces/ranette-dimova.webp',
+  '/portraits/ranette-shotgun.webp': '/portraits/faces/ranette-shotgun.webp',
+  '/portraits/ranette-workshop.webp': '/portraits/faces/ranette-workshop.webp',
   '/portraits/raoden-restored.webp': '/portraits/faces/raoden-restored.webp',
   '/portraits/raoden-shaod.webp': '/portraits/faces/raoden-shaod.webp',
   '/portraits/rashek-confrontation.webp':
     '/portraits/faces/rashek-confrontation.webp',
   '/portraits/rayse-human-form.webp': '/portraits/faces/rayse-human-form.webp',
+  '/portraits/re-shephir-midnight-mother.webp':
+    '/portraits/faces/re-shephir-midnight-mother.webp',
   '/portraits/rebeke-salvage-ambush.webp': null,
+  '/portraits/redin-dragontrill.webp':
+    '/portraits/faces/redin-dragontrill.webp',
+  '/portraits/relu-na-tai-na.webp': null,
+  '/portraits/reluur-dimova.webp': '/portraits/faces/reluur-dimova.webp',
   '/portraits/renarin-kholin-glys.webp':
     '/portraits/faces/renarin-kholin-glys.webp',
   '/portraits/renarin-kholin-portrait.webp':
@@ -237,19 +422,33 @@ export const portraitFaces: Record<string, string | null> = {
   '/portraits/renarin-kholin-shardblade.webp':
     '/portraits/faces/renarin-kholin-shardblade.webp',
   '/portraits/riina-sorceress.webp': '/portraits/faces/riina-sorceress.webp',
+  '/portraits/rit-daughter-clutio-amirul-hhf.webp':
+    '/portraits/faces/rit-daughter-clutio-amirul-hhf.webp',
   '/portraits/rlain-dullform.webp': '/portraits/faces/rlain-dullform.webp',
   '/portraits/rlain-warform.webp': '/portraits/faces/rlain-warform.webp',
+  '/portraits/roial-portrait.webp': '/portraits/faces/roial-portrait.webp',
   '/portraits/roion-portrait.webp': '/portraits/faces/roion-portrait.webp',
+  '/portraits/rokke-icon.webp': null,
   '/portraits/rua-glowing.webp': '/portraits/faces/rua-glowing.webp',
   '/portraits/rushu.webp': '/portraits/faces/rushu.webp',
+  '/portraits/rushur-kris-artifabrian.webp':
+    '/portraits/faces/rushur-kris-artifabrian.webp',
   '/portraits/rysn-ftori-wandersail.webp': null,
   '/portraits/rysn-ftori.webp': '/portraits/faces/rysn-ftori.webp',
   '/portraits/sah-with-daughter.webp':
     '/portraits/faces/sah-with-daughter.webp',
+  '/portraits/sak-dusk.webp': '/portraits/faces/sak-dusk.webp',
+  '/portraits/sak-icon.webp': null,
+  '/portraits/salay-portrait.webp': '/portraits/faces/salay-portrait.webp',
+  '/portraits/salay-wheel.webp': '/portraits/faces/salay-wheel.webp',
+  '/portraits/sand-lord-comic.webp': null,
   '/portraits/sarene-fencing.webp': '/portraits/faces/sarene-fencing.webp',
   '/portraits/sarene.webp': '/portraits/faces/sarene.webp',
   '/portraits/sazed-cosmos.webp': '/portraits/faces/sazed-cosmos.webp',
   '/portraits/sazed-steward.webp': '/portraits/faces/sazed-steward.webp',
+  '/portraits/scrak-axehound.webp': '/portraits/faces/scrak-axehound.webp',
+  '/portraits/seinalan-portrait.webp':
+    '/portraits/faces/seinalan-portrait.webp',
   '/portraits/shalash.webp': '/portraits/faces/shalash.webp',
   '/portraits/shallan-davar-card.webp':
     '/portraits/faces/shallan-davar-card.webp',
@@ -263,11 +462,22 @@ export const portraitFaces: Record<string, string | null> = {
     '/portraits/faces/shan-elariel-ball.webp',
   '/portraits/shan-elariel-the-noble.webp':
     '/portraits/faces/shan-elariel-the-noble.webp',
+  '/portraits/shashara-red.webp': null,
   '/portraits/shuden.webp': '/portraits/faces/shuden.webp',
   '/portraits/sigzil-bridgeman.webp': '/portraits/faces/sigzil-bridgeman.webp',
   '/portraits/sigzil-clerk.webp': '/portraits/faces/sigzil-clerk.webp',
   '/portraits/sigzil-windrunner.webp':
     '/portraits/faces/sigzil-windrunner.webp',
+  '/portraits/silence-montane-cover.webp':
+    '/portraits/faces/silence-montane-cover.webp',
+  '/portraits/silence-montane-egilde.webp':
+    '/portraits/faces/silence-montane-egilde.webp',
+  '/portraits/sisirinah-court.webp': '/portraits/faces/sisirinah-court.webp',
+  '/portraits/sisirinah-hallandren.webp':
+    '/portraits/faces/sisirinah-hallandren.webp',
+  '/portraits/sisirinah-idris.webp': '/portraits/faces/sisirinah-idris.webp',
+  '/portraits/sisirinah-susebron.webp':
+    '/portraits/faces/sisirinah-susebron.webp',
   '/portraits/sixth-of-the-dusk.webp':
     '/portraits/faces/sixth-of-the-dusk.webp',
   '/portraits/sja-anat-mirror.webp': null,
@@ -300,18 +510,32 @@ export const portraitFaces: Record<string, string | null> = {
   '/portraits/tag-portrait.webp': '/portraits/faces/tag-portrait.webp',
   '/portraits/talenel.webp': '/portraits/faces/talenel.webp',
   '/portraits/talik-portrait.webp': '/portraits/faces/talik-portrait.webp',
+  '/portraits/tanalan-act-of-mercy.webp':
+    '/portraits/faces/tanalan-act-of-mercy.webp',
   '/portraits/tanavast-endsheet.webp':
     '/portraits/faces/tanavast-endsheet.webp',
   '/portraits/tanavast-portrait.webp':
     '/portraits/faces/tanavast-portrait.webp',
+  '/portraits/tarah-branstetter.webp':
+    '/portraits/faces/tarah-branstetter.webp',
   '/portraits/taravangian.webp': '/portraits/faces/taravangian.webp',
   '/portraits/teft-bridgeman.webp': '/portraits/faces/teft-bridgeman.webp',
   '/portraits/teft-uniform.webp': '/portraits/faces/teft-uniform.webp',
   '/portraits/teft-windrunner.webp': '/portraits/faces/teft-windrunner.webp',
   '/portraits/teleb-archer.webp': '/portraits/faces/teleb-archer.webp',
+  '/portraits/telrii-portrait.webp': '/portraits/faces/telrii-portrait.webp',
+  '/portraits/telsin-ladrian-motp.webp':
+    '/portraits/faces/telsin-ladrian-motp.webp',
+  '/portraits/telsin-ladrian-red-eyes.webp':
+    '/portraits/faces/telsin-ladrian-red-eyes.webp',
+  '/portraits/telsin-ladrian-temple.webp':
+    '/portraits/faces/telsin-ladrian-temple.webp',
   '/portraits/tensoon-glowing-bones.webp': null,
   '/portraits/tensoon-wolfhound.webp':
     '/portraits/faces/tensoon-wolfhound.webp',
+  '/portraits/teofil-dragontrill.webp':
+    '/portraits/faces/teofil-dragontrill.webp',
+  '/portraits/terushal-mushimallo.webp': null,
   '/portraits/teven-renoux-house-war.webp':
     '/portraits/faces/teven-renoux-house-war.webp',
   '/portraits/themos-tresting-ashfall.webp': null,
@@ -319,20 +543,40 @@ export const portraitFaces: Record<string, string | null> = {
   '/portraits/timbre.webp': null,
   '/portraits/tindwyl-keeper.webp': '/portraits/faces/tindwyl-keeper.webp',
   '/portraits/tindwyl-with-sazed.webp': null,
+  '/portraits/toh-dragontrill.webp': '/portraits/faces/toh-dragontrill.webp',
   '/portraits/tonk-fah.webp': '/portraits/faces/tonk-fah.webp',
   '/portraits/toralin-roshone-portrait.webp':
     '/portraits/faces/toralin-roshone-portrait.webp',
+  '/portraits/torena-portrait.webp': '/portraits/faces/torena-portrait.webp',
   '/portraits/torol-sadeas-plate.webp':
     '/portraits/faces/torol-sadeas-plate.webp',
   '/portraits/torol-sadeas.webp': '/portraits/faces/torol-sadeas.webp',
+  '/portraits/tozbek-dragontrill.webp':
+    '/portraits/faces/tozbek-dragontrill.webp',
+  '/portraits/trell-taldain-comic.webp':
+    '/portraits/faces/trell-taldain-comic.webp',
   '/portraits/tress-huck.webp': '/portraits/faces/tress-huck.webp',
   '/portraits/tress.webp': '/portraits/faces/tress.webp',
+  '/portraits/tuaka-rock-and-song.webp':
+    '/portraits/faces/tuaka-rock-and-song.webp',
   '/portraits/tumi-portrait.webp': '/portraits/faces/tumi-portrait.webp',
   '/portraits/turinad-sebarial.webp': '/portraits/faces/turinad-sebarial.webp',
+  '/portraits/tvlakv-slaver.webp': '/portraits/faces/tvlakv-slaver.webp',
   '/portraits/tyn-portrait.webp': '/portraits/faces/tyn-portrait.webp',
   '/portraits/uapam-portrait.webp': '/portraits/faces/uapam-portrait.webp',
+  '/portraits/ulaam-portrait.webp': '/portraits/faces/ulaam-portrait.webp',
+  '/portraits/urv-ardent.webp': '/portraits/faces/urv-ardent.webp',
+  '/portraits/vahr-prologue.webp': null,
+  '/portraits/vai-free-parshmen.webp':
+    '/portraits/faces/vai-free-parshmen.webp',
+  '/portraits/varlance-two-seasons.webp':
+    '/portraits/faces/varlance-two-seasons.webp',
   '/portraits/vasher.webp': '/portraits/faces/vasher.webp',
   '/portraits/vathah.webp': '/portraits/faces/vathah.webp',
+  '/portraits/vathi-mirris.webp': '/portraits/faces/vathi-mirris.webp',
+  '/portraits/vedel-endpage.webp': '/portraits/faces/vedel-endpage.webp',
+  '/portraits/velat-fourth-bridge.webp':
+    '/portraits/faces/velat-fourth-bridge.webp',
   '/portraits/venli-envoyform.webp': '/portraits/faces/venli-envoyform.webp',
   '/portraits/venli-listeners.webp': '/portraits/faces/venli-listeners.webp',
   '/portraits/venli-stormform.webp': '/portraits/faces/venli-stormform.webp',
@@ -348,19 +592,30 @@ export const portraitFaces: Record<string, string | null> = {
   '/portraits/vivenna-slums.webp': null,
   '/portraits/vivenna.webp': '/portraits/faces/vivenna.webp',
   '/portraits/vstim-shinovar.webp': '/portraits/faces/vstim-shinovar.webp',
+  '/portraits/wan-shailu-cover.webp': '/portraits/faces/wan-shailu-cover.webp',
+  '/portraits/wan-shailu-mural.webp': null,
+  '/portraits/wan-shailu-shuravf.webp':
+    '/portraits/faces/wan-shailu-shuravf.webp',
   '/portraits/waxillium-ladrian-traintop.webp':
     '/portraits/faces/waxillium-ladrian-traintop.webp',
   '/portraits/waxillium-ladrian.webp':
     '/portraits/faces/waxillium-ladrian.webp',
   '/portraits/wayne-train.webp': '/portraits/faces/wayne-train.webp',
   '/portraits/wayne.webp': '/portraits/faces/wayne.webp',
+  '/portraits/weedfingers-botanicaxu.webp':
+    '/portraits/faces/weedfingers-botanicaxu.webp',
   '/portraits/wikim-davar-portrait.webp':
     '/portraits/faces/wikim-davar-portrait.webp',
   '/portraits/wit-kings-wit.webp': '/portraits/faces/wit-kings-wit.webp',
   '/portraits/wyndle.webp': '/portraits/faces/wyndle.webp',
+  '/portraits/xisisrefliel-better-deal.webp': null,
+  '/portraits/xisisrefliel-piano.webp':
+    '/portraits/faces/xisisrefliel-piano.webp',
+  '/portraits/xisisrefliel-red-moon.webp': null,
   '/portraits/yalb-bowing.webp': '/portraits/faces/yalb-bowing.webp',
   '/portraits/yanagawn.webp': '/portraits/faces/yanagawn.webp',
   '/portraits/yelig-nar-servant-of-odium.webp': null,
+  '/portraits/ym-spectacles.webp': '/portraits/faces/ym-spectacles.webp',
   '/portraits/yumi-dress-shopping.webp': null,
   '/portraits/yumi-nightmare.webp': null,
   '/portraits/yumi.webp': '/portraits/faces/yumi.webp',
@@ -370,10 +625,16 @@ export const portraitFaces: Record<string, string | null> = {
     '/portraits/faces/zane-venture-portrait.webp',
   '/portraits/zane-venture-precise-shot.webp':
     '/portraits/faces/zane-venture-precise-shot.webp',
+  '/portraits/zeal-portrait.webp': '/portraits/faces/zeal-portrait.webp',
+  '/portraits/zeetzi-crew.webp': '/portraits/faces/zeetzi-crew.webp',
   '/portraits/zu-roshar-with-uapam.webp':
     '/portraits/faces/zu-roshar-with-uapam.webp',
+  '/portraits/zu-sel-botanicaxu.webp':
+    '/portraits/faces/zu-sel-botanicaxu.webp',
   'allrianne-cett /portraits/breeze-charm.webp':
     '/portraits/faces/allrianne-cett--breeze-charm.webp',
   'nikaro /portraits/yumi-nightmare.webp': null,
+  'pailiah /portraits/pailiah-endsheet.webp':
+    '/portraits/faces/pailiah--pailiah-endsheet.webp',
   'rashek /portraits/alendi-at-the-well.webp': null,
 }

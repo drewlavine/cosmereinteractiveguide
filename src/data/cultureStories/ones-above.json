@@ -1,0 +1,107 @@
+{
+  "intro": [
+    {
+      "text": "The Eelakin name for a group of space travellers who visit First of the Sun regularly, so called because they arrived in its sky aboard spaceships.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "1" }]
+    },
+    {
+      "text": "The Eelakin name for the Scadrians who visit First of the Sun by spaceship, handing out technology while seeking its Aviar.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "38" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "They are fascinated by the Aviar, and Vathi thinks they want them. Laws they never explain bar them from conquering the islands outright, or even from trading with less developed peoples; they hint that other spacefaring peoples face no such limits.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "10" }]
+    },
+    {
+      "text": "Their technology far outstrips anything the Eelakin, traditionally canoe-sailing wayfinders who had barely worked out engines for boats, had made themselves. They pass some of it on, usually without explaining how it works.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "10" }]
+    },
+    {
+      "text": "They look like the Eelakin and can sometimes talk like them, though they also have a language of their own, used in their devices and manuals.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "20" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Visits to First of the Sun",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "20" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Their regular visits soon became an accepted part of life, and one of their emissaries dealt in person with Vathi and her colleagues at the company. Their technology changed the homeisles, bringing a new focus on schooling and industry, less interest in traditional names and trades, and more demand for Aviar. The Northern Interests Trading Company and its rivals had long hoped to set up outposts in the Pantheon, though, so that ambition did not start with the visitors.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "20" }]
+        },
+        {
+          "text": "Dusk and Vathi distrusted the Ones Above but used their technology like every other Eelakin. The visitors seemed well-meaning, but the two came to see that the visitors had planted devices and information to hurry the Eelakin into new discoveries, and suspected they were feeding out technology on purpose, speeding up the islanders' progress to get around the laws that kept them from taking the Aviar.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "20" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Demanding Aviar",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "7" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Two of them met Vathi's government and, for the first time, took off their helmets in front of the Eelakin, showing that they were human. They warned that their masters' patience was limited, and were to return in two months for the Aviar chicks they had been promised.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "7" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "An island in the dark",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "38" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Crossing the endless dark, Dusk found a camp of the Ones Above on an island: Scadrian soldiers under Colonel Dajer, searching for the pool. Dajer told him how badly his people wanted the Aviar and the perpendicularity he believed the Eelakin were hiding.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "38" }]
+        }
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "title": "Technology",
+      "items": [
+        {
+          "text": "Dusk uses their sea charts, which are more accurate than any the Eelakin can draw.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "2" }]
+        },
+        {
+          "text": "Vathi carries one of their handheld devices, which both translates languages and detects nearby Aviar.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "10" }]
+        },
+        {
+          "text": "The Northern Interests Trading Company has a bigger version that can scan a whole island and print a map of the Aviar on it. The birds react badly when it is switched on.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "10" }]
+        }
+      ],
+      "parts": []
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "vathi",
+      "role": "worked with them",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "20" }]
+    },
+    {
+      "characterId": "dajer",
+      "role": "colonel",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "38" }]
+    }
+  ]
+}

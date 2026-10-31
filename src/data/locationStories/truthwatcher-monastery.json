@@ -1,0 +1,39 @@
+{
+  "intro": [
+    {
+      "text": "A Shin monastery associated with the Truthwatcher Honorblade.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "86" }]
+    }
+  ],
+  "description": [],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The Honorbearers",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "86" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Vambra held the Truthwatcher Blade during Szeth's training pilgrimage.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "86" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The return to Shinovar",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "86" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Szeth, Kaladin and Nale visited the monastery after its Honorbearer had been defeated at the Lightweaver monastery. Already carrying its Blade, they stopped only to complete the pilgrimage.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "86" }]
+        }
+      ]
+    }
+  ]
+}

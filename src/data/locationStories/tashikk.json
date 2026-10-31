@@ -21,6 +21,17 @@
           ]
         }
       ]
+    },
+    {
+      "text": "A Makabaki princedom that seceded from the Azish Empire and joined Odium.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "oathbringer", "chapter": "122" },
+            { "book": "wind-and-truth", "chapter": "76" }
+          ]
+        }
+      ]
     }
   ],
   "description": [
@@ -79,6 +90,34 @@
         {
           "text": "Dalinar used Tashikk's relay stations to warn the world about the Everstorm. The prince would not join the coalition until Azir did, and then sent his ambassador in Azimir to Urithiru.",
           "revealedIn": [{ "book": "oathbringer", "chapter": "96" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "A new allegiance",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "122" },
+                { "book": "wind-and-truth", "chapter": "76" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Tashikk and Emul left the Azish Empire and sided with Odium.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "122" },
+                { "book": "wind-and-truth", "chapter": "76" }
+              ]
+            }
+          ]
         }
       ]
     }

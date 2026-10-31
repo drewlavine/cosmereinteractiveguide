@@ -1,0 +1,105 @@
+{
+  "intro": [
+    {
+      "text": "A powerful noble house of Elendel, most of whose members follow Sliverism.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "hero-of-ages", "chapter": "60" },
+            { "book": "alloy-of-law", "chapter": "4" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "Its members include Aradan Yomen, an obligator in the days of the Final Empire who worshipped the Lord Ruler and honoured his Inquisitors, and Lord Joshin Yomen.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "hero-of-ages", "chapter": "60" },
+            { "book": "alloy-of-law", "chapter": "4" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Besides a grand mansion in Elendel, the house holds several smaller properties in the city. Joshin buys run-down buildings and restores them, and crime around them has fallen sharply.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "9" }]
+    },
+    {
+      "text": "The house has a seat in the Elendel Senate and is on good terms with House Ladrian. Through Senator Mi'chelle Yomen, it was the first house to oppose the Elendel Supremacy Bill in a vote.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "alloy-of-law", "chapter": "5" },
+            { "book": "lost-metal", "chapter": "33" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "After the Catacendre",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "2" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Aradan Yomen or his descendants founded the house soon after the Catacendre. It rose quickly to become a great house and held a Senate seat from the Senate's very beginning.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "2" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The Yomen-Ostlin wedding",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "5" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Lord Joshin Yomen wed Lady Mi'chelle Ostlin in 341 PC, and nearly all of Elendel's high society came to the dinner at the Yomen mansion. As the first course was served, the Vanishers robbed every guest, the Yomens included, and took the bridal necklace. They seized Steris Harms and Marasi as hostages and shot Lord Peterus.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "5" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "aradan-yomen",
+      "role": "member",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "hero-of-ages", "chapter": "60" },
+            { "book": "alloy-of-law", "chapter": "4" }
+          ]
+        }
+      ]
+    },
+    {
+      "characterId": "joshin-yomen",
+      "role": "member",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "hero-of-ages", "chapter": "60" },
+            { "book": "alloy-of-law", "chapter": "4" }
+          ]
+        }
+      ]
+    },
+    {
+      "characterId": "michelle-yomen",
+      "role": "member",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "5" }]
+    }
+  ]
+}

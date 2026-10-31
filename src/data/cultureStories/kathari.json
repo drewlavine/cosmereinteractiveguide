@@ -1,0 +1,24 @@
+{
+  "intro": [
+    {
+      "text": "A big, pink fruit that grows in Hraggen.",
+      "revealedIn": [{ "book": "elantris", "chapter": "25" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "When the New Elantrians are given clothes dyed in odd colours, Galladon does not want Raoden teasing him for looking like a kathari.",
+      "revealedIn": [{ "book": "elantris", "chapter": "25" }]
+    }
+  ],
+  "history": [],
+  "facts": [
+    {
+      "label": "Grown in",
+      "name": "Hraggen",
+      "placeId": "hraggen",
+      "revealedIn": [{ "book": "elantris", "chapter": "25" }]
+    }
+  ],
+  "people": []
+}

@@ -1,0 +1,84 @@
+{
+  "intro": [
+    {
+      "text": "A perfect gemstone of Rosharan legend.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "99" }]
+    }
+  ],
+  "description": [],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Tales of the Stone",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "99" },
+            { "book": "oathbringer", "chapter": "i-13" },
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "99" },
+                { "book": "rhythm-of-war", "chapter": "78" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "On a Reacher ship in Shadesmar, while they talk about how much perfect gemstones are worth there, Kaladin asks Ico, the captain, whether he knows of the Stone of Ten Dawns. Ico has never heard of it.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "99" }]
+        },
+        {
+          "text": "Vstim told Rysn of a rumor that the King's Drop, a huge perfect ruby, had come from the Stone.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "i-13" }]
+        },
+        {
+          "text": "According to Mraize, in the days of the first Radiants some honorspren, who prize perfect gems, believed the tales of the Stone and spent lifetimes searching for it.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "99" },
+                { "book": "rhythm-of-war", "chapter": "78" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "kaladin",
+      "role": "asked about it",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "99" }]
+    },
+    {
+      "characterId": "ico",
+      "role": "asked about it",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "99" }]
+    },
+    {
+      "characterId": "vstim",
+      "role": "told of it",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "i-13" }]
+    },
+    {
+      "characterId": "rysn-ftori",
+      "role": "heard of it",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "i-13" }]
+    },
+    {
+      "characterId": "mraize",
+      "role": "told of it",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "oathbringer", "chapter": "99" },
+            { "book": "rhythm-of-war", "chapter": "78" }
+          ]
+        }
+      ]
+    }
+  ]
+}

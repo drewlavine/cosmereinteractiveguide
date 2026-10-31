@@ -1,0 +1,48 @@
+{
+  "intro": [
+    {
+      "text": "The duke of Diggen's Point, and Charlie's father.",
+      "revealedIn": [{ "book": "tress", "chapter": "2" }],
+      "fallback": true
+    },
+    {
+      "text": "The duke of Diggen's Point and Charlie's father, one of the few islanders allowed to leave, which he does now and then to report to the king. He has little warmth for his son and dislikes Charlie's closeness to Tress.",
+      "revealedIn": [{ "book": "tress", "chapter": "4" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Diggen's Point",
+          "revealedIn": [
+            { "book": "tress", "chapter": "5" },
+            { "book": "tress", "chapter": "epilogue" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The duke thought Charlie unfit to inherit: weak, no war hero, and too clever. Seeing how close Charlie and Tress had grown, he took his son off to wed a princess. Charlie bored every candidate on purpose, so the duke finally sent him to court the Sorceress, expecting it to kill him, and took his nephew Dirk, a strong and silent war hero, as heir instead. Home again, he spoke of an unfortunate accident and threw a feast.",
+          "revealedIn": [{ "book": "tress", "chapter": "5" }]
+        },
+        {
+          "text": "By the time Tress and Charlie came home, the duke's wife had left him over the way he had disposed of their son. He was furious that the king's new writ let islanders leave, but had no power to block it.",
+          "revealedIn": [{ "book": "tress", "chapter": "epilogue" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Tall and upright, he wears a military uniform so crowded with medals that they seem to pin the cloth to him.",
+      "revealedIn": [{ "book": "tress", "chapter": "3" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "A sour man who spends his days grumbling up in his mansion and treats shouting as a solemn duty. The only time Tress has seen him smile was while old Lotari was being punished for an attempt to leave the island.",
+      "revealedIn": [{ "book": "tress", "chapter": "3" }]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "intro": [
+    {
+      "text": "A fearsome creature hunted in the Reshi Isles.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-3" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "As a young man on a hunting trip, Vstim killed a coracot by himself. The feat, remarkable for a foreigner, won the respect of Relu-na's people, and their trust made trade possible.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-3" }]
+    }
+  ],
+  "history": [],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "vstim",
+      "role": "killed one",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-3" }]
+    }
+  ]
+}

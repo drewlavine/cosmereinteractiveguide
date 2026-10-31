@@ -1,0 +1,35 @@
+{
+  "intro": [
+    {
+      "text": "A sullen young teenage Elantrian who helps Matisse watch over the children at the Roost in New Elantris.",
+      "revealedIn": ["hope-of-elantris"]
+    }
+  ],
+  "history": [
+    {
+      "title": [{ "text": "The Roost", "revealedIn": ["hope-of-elantris"] }],
+      "items": [
+        {
+          "text": "As one of the older children at the Roost, Idotris helped stop the little ones from sneaking out of the sleeping room at night. Seeing some adults practise drawing Aons one night, he told Matisse it was pointless, since Aons did not work.",
+          "revealedIn": ["hope-of-elantris"]
+        },
+        {
+          "text": "On the night Fjordell soldiers attacked the city, Idotris roused the children at Matisse's order and, though terrified, carried a lantern to lead them to safety. Matisse sent Ashe to have him put the light out before the soldiers saw it, and while she drew the soldiers away, Ashe helped Idotris guide the children to a hidden library.",
+          "revealedIn": ["hope-of-elantris"]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Gray-skinned, with limp and thinning hair like other Elantrians of his day. He is a young teenager, though his body makes his age hard to judge.",
+      "revealedIn": ["hope-of-elantris"]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Grumpy and sulky, often answering with a grunt; Matisse thinks he resents being kept with the young children instead of fighting beside Dashe. For all his bravado he scares easily, but he keeps lookout and follows her lead, once he has complained.",
+      "revealedIn": ["hope-of-elantris"]
+    }
+  ]
+}

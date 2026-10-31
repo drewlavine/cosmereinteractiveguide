@@ -1,0 +1,43 @@
+{
+  "intro": [
+    {
+      "text": "A plant of Roshar that surgeons use to put patients to sleep.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "10" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Crushed into powder and stirred into oil, it can be swallowed, though it tastes bitter. One spoonful for each ten brickweight a patient weighs keeps them out for about five hours, enough for surgery.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "10" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "In Lirin's surgery",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "10" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Lirin and Kaladin gave winterwort to Sani before trying to mend her crushed hand.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "10" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "lirin",
+      "role": "surgeon",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "10" }]
+    },
+    {
+      "characterId": "kaladin",
+      "role": "apprentice",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "10" }]
+    }
+  ]
+}

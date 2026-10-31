@@ -67,5 +67,28 @@
       "revealedIn": [{ "book": "wind-and-truth", "chapter": "62" }]
     }
   ],
-  "personality": []
+  "personality": [],
+  "abilities": [
+    {
+      "title": [
+        {
+          "text": "The Heralds' immortality",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "65" },
+            { "book": "wind-and-truth", "chapter": "144" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Vedel used the Heralds' Connection to Honor to continuously supply their souls with Investiture, fixing their ages and making them immortal.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "65" }]
+        },
+        {
+          "text": "Ishar drew on Vedel's method when the Oathpact was remade.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "144" }]
+        }
+      ]
+    }
+  ]
 }

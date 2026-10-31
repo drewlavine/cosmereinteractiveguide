@@ -1,0 +1,335 @@
+{
+  "intro": [
+    {
+      "text": "An orphan raised by the innkeepers of Rivershore, called Hodołnika in the local tongue after a winter month. She lives a long, hard life in the town, dies alone at eighty, and then wakes up young again.",
+      "revealedIn": [{ "book": "fires-of-december", "chapter": "i" }]
+    },
+    {
+      "text": "A fosterling from Rivershore who wakes at twenty-one with a whole life in her memory, and travels by riverboat toward the capital to stop the plague she remembers and learn about the demon held there.",
+      "revealedIn": [{ "book": "fires-of-december", "chapter": "iii" }],
+      "fallback": true
+    },
+    {
+      "text": "A fosterling from Rivershore, taken everywhere for a noblewoman, who has come to Kingseat to warn the king that the demon will break loose. The life she remembers may have been a vision of what is to come.",
+      "revealedIn": [{ "book": "fires-of-december", "chapter": "xii" }],
+      "fallback": true
+    },
+    {
+      "text": "A fosterling from Rivershore who has lived her life over more than once to save the kingdom of Mountaincrest, and who at last bonded the Megalith by reasoning with it instead of forcing it.",
+      "revealedIn": [{ "book": "fires-of-december", "chapter": "xlii" }],
+      "fallback": true
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Rivershore",
+          "revealedIn": [{ "book": "fires-of-december", "chapter": "i" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "December's parents died when she was born, and the family that kept Rivershore's inn raised her. Her name in the local language, Hodołnika, also belongs to one of the winter months.",
+          "revealedIn": [{ "book": "fires-of-december", "chapter": "i" }]
+        },
+        {
+          "text": "The night before she turned twenty-one, she noticed an unusual stranger at the inn. She was matched with Bark, a brutish miner, and after four miserable years of marriage he struck her and she walked out. Once Bark found silver and became mayor, he made laws aimed at her for her foreign birth.",
+          "revealedIn": [{ "book": "fires-of-december", "chapter": "i" }]
+        },
+        {
+          "text": "She offered the widowed reeve a marriage of convenience and came to love him, his children and his grandchildren. She also helped Bark's second wife escape his abuse, and in facing him found out that he had killed Tap.",
+          "revealedIn": [{ "book": "fires-of-december", "chapter": "i" }]
+        },
+        {
+          "text": "Troubles in the capital, years back, ended with the river curdling and a plague that wiped out most of the town. December endured the hard years after, died alone at eighty, and woke up in her own past.",
+          "revealedIn": [{ "book": "fires-of-december", "chapter": "i" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "A second chance",
+          "revealedIn": [{ "book": "fires-of-december", "chapter": "ii" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "On her twenty-first birthday once more, she kept Rema from choking, refused Bark and revealed that he had murdered Tap. Set on stopping the plague, she collected the reward for the silver vein, got Matin to write her a letter to the king and left for the capital.",
+          "revealedIn": [{ "book": "fires-of-december", "chapter": "ii" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Up the river",
+          "revealedIn": [
+            { "book": "fires-of-december", "chapter": "iv" },
+            { "book": "fires-of-december", "chapter": "vi" },
+            { "book": "fires-of-december", "chapter": "vii" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Aboard the Northern Eclipse her strange manners made people take her for a noble, perhaps one who had given up her title. Wanting to know more about the demon at the capital, she met Sister Amaal, a wandering priestess of the Monastery of the Final Word, took her on as spiritual adviser and heard about the Prophet's mandata.",
+          "revealedIn": [{ "book": "fires-of-december", "chapter": "iv" }]
+        },
+        {
+          "text": "She came across a cat-shaped demon and told it it was beautiful. At a river stop she stepped in for a woman whose brother abused her, playing a mysterious noble in his dress shop and paying the woman, Tamantha, herself for the dress she had designed. Tamantha joined her as stylist and hairdresser.",
+          "revealedIn": [{ "book": "fires-of-december", "chapter": "vi" }]
+        },
+        {
+          "text": "At Smallport an unseen man held a knife to her throat while she dined aboard; she bargained calmly and he ran off. Her growing mystery drew a crowd to the docks at Kingseat, where a letter from the king summoned her to court.",
+          "revealedIn": [{ "book": "fires-of-december", "chapter": "vii" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Before the king",
+          "revealedIn": [
+            { "book": "fires-of-december", "chapter": "ix" },
+            { "book": "fires-of-december", "chapter": "x" },
+            { "book": "fires-of-december", "chapter": "xi" },
+            { "book": "fires-of-december", "chapter": "xii" },
+            { "book": "fires-of-december", "chapter": "xv" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Touring Kingseat, she watched clothes being made from the demon's blood. She picked a hotel after spotting a valet with a small handprint on his trousers, and resolved to open up to the city's ways.",
+          "revealedIn": [{ "book": "fires-of-december", "chapter": "ix" }]
+        },
+        {
+          "text": "Amaal shared her research: the demon had come eight centuries ago and fed on souls until the Prophet beat it and left a sword in its heart. Amaal doubted December's story and warned it could get her branded a witch.",
+          "revealedIn": [{ "book": "fires-of-december", "chapter": "x" }]
+        },
+        {
+          "text": "At court the king tried to send her away, but she held her ground until he heard her warning of plague and the demon breaking free, and she won a meeting with Lord Geoffrim.",
+          "revealedIn": [{ "book": "fires-of-december", "chapter": "xi" }]
+        },
+        {
+          "text": "She told her story to Geoffrim and Petva. When she recognised a picture of the stranger from the inn, they decided her first life was a vision of a possible future brought on by Hoid, gave her a lineage sheet under the king's stamp, and told her Hoid had been murdered in Kingseat.",
+          "revealedIn": [{ "book": "fires-of-december", "chapter": "xii" }]
+        },
+        {
+          "text": "They suspected a count, but told her to leave it to them. Shaken, she decided to think like the old woman she had been while acting as a young one, and on hearing that the count was in the city awaiting trial, she set out to get close to him.",
+          "revealedIn": [{ "book": "fires-of-december", "chapter": "xv" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Count Flint",
+          "revealedIn": [
+            { "book": "fires-of-december", "chapter": "xvii" },
+            { "book": "fires-of-december", "chapter": "xix" },
+            { "book": "fires-of-december", "chapter": "xxi" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "With the valet Dmitrovik as her footman, she found Count Flint at a gambling parlour and knew his voice as that of the man with the knife. Learning of his past as a diplomat, his trial and his debts, she resolved to win him over and learn what he knew.",
+          "revealedIn": [{ "book": "fires-of-december", "chapter": "xvii" }]
+        },
+        {
+          "text": "Her flirting fell flat: Flint took her for a swindler and gave her tips instead. Amaal warned that praise feeds demons. Dressed as an old woman, December overheard Flint arguing with partners in a rigged dice game, and Dmitrovik tracked him to the Night Barges.",
+          "revealedIn": [{ "book": "fires-of-december", "chapter": "xix" }]
+        },
+        {
+          "text": "At the Night Barges she drew Flint into conversation and chased him when he left. He finally talked with her, but fled again once she brought up Hoid.",
+          "revealedIn": [{ "book": "fires-of-december", "chapter": "xxi" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The hotel",
+          "revealedIn": [
+            { "book": "fires-of-december", "chapter": "xxiii" },
+            { "book": "fires-of-december", "chapter": "xxiv" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Learning that Miss Greenwares had fired Dmitrovik and mistreated her staff, December forced her to sell the hotel and leave the city, then made Dmitrovik her butler. Amaal taught her the second mandate, that anyone can be a villain.",
+          "revealedIn": [{ "book": "fires-of-december", "chapter": "xxiii" }]
+        },
+        {
+          "text": "Wearing a swimsuit, she sank into the river of blood and shaped Tamantha's phoenix-inspired dress, which the journalists photographed. Petva came by to ask about her meetings with Flint.",
+          "revealedIn": [{ "book": "fires-of-december", "chapter": "xxiv" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The hexers' village",
+          "revealedIn": [
+            { "book": "fires-of-december", "chapter": "xxvi" },
+            { "book": "fires-of-december", "chapter": "xxviii" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Though Petva urged her to wait, she toured the demon's chest to see the Ever-Slaying Sword, slipped off and crept through the river to watch the hexers mine demonstone. Her dress melted away into an unsteady robe, and she saw Flint show the hexers a lantern bearing Hoid's face.",
+          "revealedIn": [{ "book": "fires-of-december", "chapter": "xxvi" }]
+        },
+        {
+          "text": "Flint offered Hoid's lantern to the hexers for demonstone he meant to sell to Duke Kird, though it could start a civil war. Spotting December, he passed her off as his backup, led her out, and agreed to meet her alone.",
+          "revealedIn": [{ "book": "fires-of-december", "chapter": "xxviii" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The teahouse",
+          "revealedIn": [
+            { "book": "fires-of-december", "chapter": "xxix" },
+            { "book": "fires-of-december", "chapter": "xxxi" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "At the Concordance teahouse they priced each other's questions in gaming chips. Flint claimed he had killed Hoid as the king's spymaster, then admitted he had refused. General Drakes arrived and arrested him; December saw she had set him up by naming him to Geoffrim and Petva. Flint had slipped her a key.",
+          "revealedIn": [{ "book": "fires-of-december", "chapter": "xxix" }]
+        },
+        {
+          "text": "After a newspaper scandal she published a statement defending Flint. At the palace General Drakes proved sharper and kinder than she had judged and hinted at a setup; realising she had trusted Geoffrim wrongly, she found that Flint's key opened Geoffrim's office.",
+          "revealedIn": [{ "book": "fires-of-december", "chapter": "xxxi" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "In the dungeons",
+          "revealedIn": [
+            { "book": "fires-of-december", "chapter": "xxxii" },
+            { "book": "fires-of-december", "chapter": "xxxiii" },
+            { "book": "fires-of-december", "chapter": "xxxv" },
+            { "book": "fires-of-december", "chapter": "xxxvi" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "With the cat-shaped demon's help, though not bonded to it, she found Geoffrim's research on freeing the demon. Petva, a witch, attacked her; Geoffrim paraded her before the king as a witch and conspirator and had her jailed.",
+          "revealedIn": [{ "book": "fires-of-december", "chapter": "xxxii" }]
+        },
+        {
+          "text": "Geoffrim came to question her, saying that Drakes was dead and that the demon's prison was failing anyway. She gave in, and then turned to the cat-shaped demon for help.",
+          "revealedIn": [{ "book": "fires-of-december", "chapter": "xxxiii" }]
+        },
+        {
+          "text": "She persuaded Beautiful to help her, melted the bars to free herself and Flint, and cowed the guards with her new power. In the hidden passages the two kissed, and overheard Geoffrim urging the king to use the passphrases to free the demon.",
+          "revealedIn": [{ "book": "fires-of-december", "chapter": "xxxv" }]
+        },
+        {
+          "text": "To cover Flint's escape she had Beautiful take his shape, then walked into the throne room and invoked the king's covenant with the witches. He had her bound and sent to the hexers.",
+          "revealedIn": [{ "book": "fires-of-december", "chapter": "xxxvi" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Among the hexers",
+          "revealedIn": [
+            { "book": "fires-of-december", "chapter": "xxxvii" },
+            { "book": "fires-of-december", "chapter": "xxxviii" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The hexers fussed over her, but Weonim admitted they lacked the knowledge to control the demon once it was free. Shown the contract she was meant to force on Beautiful, December chose mercy and released it from their bond instead.",
+          "revealedIn": [{ "book": "fires-of-december", "chapter": "xxxvii" }]
+        },
+        {
+          "text": "Hearing Hoid's voice, she found him. He told her the life she remembered had been real, and at the Ever-Slaying Sword confirmed the binding was weakening, though not as urgently as Geoffrim claimed, and said he could not help.",
+          "revealedIn": [{ "book": "fires-of-december", "chapter": "xxxviii" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The demon set loose",
+          "revealedIn": [
+            { "book": "fires-of-december", "chapter": "xxxix" },
+            { "book": "fires-of-december", "chapter": "xl" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Flint came back at the head of soldiers, and the city split into a war between the wall guard and the palace guard. The demon had already been freed through the river of blood in the palace; Geoffrim held up the king's head, claiming he had tried to stop him.",
+          "revealedIn": [{ "book": "fires-of-december", "chapter": "xxxix" }]
+        },
+        {
+          "text": "Inside the palace Petva tried to master the demon and was killed. Geoffrim stabbed Flint, and December, unable to save him, asked Hoid to send her forward into the future once more.",
+          "revealedIn": [{ "book": "fires-of-december", "chapter": "xl" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Another life",
+          "revealedIn": [{ "book": "fires-of-december", "chapter": "xli" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "She watched Flint and her friends die, fled Kingseat with Petva's books, and spent years as a surgeon while secretly studying witches and demons through the dukes' war. Betrayed, she wandered south to Rivershore, where Matin sheltered her until soldiers sent on Geoffrim's orders drove her out.",
+          "revealedIn": [{ "book": "fires-of-december", "chapter": "xli" }]
+        },
+        {
+          "text": "After ten years of study at the Monastery of the Final Word, she worked as an Inspirer on the southern plains when the plague arrived, and met the Prophet in dreams. Though she learned to dominate demons, she lost to the great demon, died, and woke once more.",
+          "revealedIn": [{ "book": "fires-of-december", "chapter": "xli" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Bonding the Megalith",
+          "revealedIn": [
+            { "book": "fires-of-december", "chapter": "xlii" },
+            { "book": "fires-of-december", "chapter": "xliii" },
+            { "book": "fires-of-december", "chapter": "epilogue" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Facing the Megalith again, she reasoned with it rather than trying to dominate it, promising to help it learn to be alive if it let her save the kingdom. Shown mercy, it stopped raging and bonded with her.",
+          "revealedIn": [{ "book": "fires-of-december", "chapter": "xlii" }]
+        },
+        {
+          "text": "She talked Flint out of giving up. Having worked out that the mandata were also passphrases, she let Flint take Geoffrim's power; Geoffrim died of his wound and Flint was healed.",
+          "revealedIn": [{ "book": "fires-of-december", "chapter": "xliii" }]
+        },
+        {
+          "text": "Duke Kird took the throne with Matin as Minister of Finance. December won the hexers their freedom, built a chain of hotels run by Dmitrovik, and married Flint, with Amaal, now royal priestess, presiding.",
+          "revealedIn": [{ "book": "fires-of-december", "chapter": "epilogue" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

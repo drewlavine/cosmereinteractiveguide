@@ -24,6 +24,42 @@
     {
       "title": [
         {
+          "text": "Unusual bonds",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "5" },
+            { "book": "wind-and-truth", "chapter": "44" },
+            { "book": "wind-and-truth", "chapter": "64" },
+            { "book": "wind-and-truth", "chapter": "127" },
+            { "book": "wind-and-truth", "chapter": "135" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "A bond to two spren is called imbricated and can produce unusual effects.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "5" }]
+        },
+        {
+          "text": "Spren can shelter inside their Radiant to help hide from Shards.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "44" }]
+        },
+        {
+          "text": "Honor discouraged mind-to-mind speech between partners as an invasion of privacy.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "64" }]
+        },
+        {
+          "text": "Being remembered helps true spren recover themselves after crossing into the Physical Realm.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "127" }]
+        },
+        {
+          "text": "Highspren can limit a bond's strength to protect themselves from becoming deadeyes, even after the Fifth Ideal.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "135" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
           "text": "Forming the bond",
           "revealedIn": [
             {

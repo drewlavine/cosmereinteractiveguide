@@ -1,0 +1,41 @@
+{
+  "intro": [
+    {
+      "text": "A river in Alethkar, named after the Windrunners, one of the orders of the Knights Radiant.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "61" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "It is the longest and most important river in northern Alethkar and marks the borders of several princedoms. Its main branch begins near Shulin in the Unclaimed Hills and runs northwest to the Bay of Elibath; a large tributary runs down from the Sunmaker Mountains, with branches near Kholinar. Hearthstone lies along its course.",
+      "revealedIn": ["oathbringer"]
+    },
+    {
+      "text": "In Shadesmar the river becomes a set of long, narrow peninsulas reaching into the Sea of Oracles; Candlemore stands on one.",
+      "revealedIn": ["oathbringer"]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The Kholinar mission",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "61" },
+            { "book": "oathbringer", "chapter": "89" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Flying the strike team from Urithiru to besieged Kholinar, Kaladin learned from Syl that they had passed the river. Walking on toward the city, he and Elhokar crossed it on a stone bridge, and Elhokar pointed out that it was named for Kaladin's order.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "61" }]
+        },
+        {
+          "text": "When their bid to free Kholinar collapsed and most of the team was pulled into Shadesmar, they journeyed along the thin strips of land that mark the river's course there.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "89" }]
+        }
+      ]
+    }
+  ]
+}

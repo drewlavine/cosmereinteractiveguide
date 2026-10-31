@@ -1,0 +1,73 @@
+{
+  "intro": [
+    {
+      "text": "Fused who can fly, with powers much like a Windrunner's.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "31" }]
+    },
+    {
+      "text": "The shanay-im, usually called the Heavenly Ones: a kind of Fused who use the Surge of Gravitation, chiefly to fly.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "5" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Their powers resemble Kaladin's, though the first ones he fought were less skilled than him and handled flying through a highstorm worse.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "31" }]
+    },
+    {
+      "text": "Besides flying, they can use Basic Lashings on objects and living things as Radiants do. That spends their Voidlight, so they do it sparingly. They can also burn Voidlight to heal.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "5" }]
+    },
+    {
+      "text": "Against Windrunners they keep a tradition of single combat: one raises a weapon to the Windrunner it wants to fight, and the duel begins if the Windrunner agrees, while the rest hover and stay out of it. The outnumbered Windrunners go along with it, as it keeps them from being swarmed. Ordinary soldiers get no such courtesy.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "5" }]
+    },
+    {
+      "text": "They usually dress in very long robes that trail several feet behind them, and fight with long lances made for combat in the air. The lances are coated in aluminum to stop Shardblades and carry raysium to drain Radiants of Stormlight.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "84" }]
+    },
+    {
+      "text": "They can rise into space, but not far: without air or pressure they would need a great deal of Voidlight to keep healing.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "89" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The spires of Kholinar",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "11" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Once the Fused held Kholinar, the shanay-im had a row of twenty narrow stone spires, each around a hundred feet tall, built across the city. A guardhouse at each base controls a wooden stair spiralling up. Like an old pillar in Narak, they look ready to topple yet stand through highstorms.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "11" }]
+        },
+        {
+          "text": "Atop each spire is a High Chamber, open on two sides with no railing, where the most important shanay-im live; their Voices usually stay in the guardhouse. Servants include a stormsetter who packs up their belongings before every storm. Lesser shanay-im live in ordinary houses.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "11" }]
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Surge",
+      "name": "Gravitation",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "2" }]
+    },
+    {
+      "label": "Weapon",
+      "name": "Long lances",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "84" }]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "leshwi",
+      "role": "Flying Fused",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "54" }]
+    }
+  ]
+}

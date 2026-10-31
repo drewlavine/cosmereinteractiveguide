@@ -1,0 +1,78 @@
+{
+  "intro": [
+    {
+      "text": "A count of Arelon, one of the powerful nobles who meet in secret to oppose King Iadon.",
+      "revealedIn": [{ "book": "elantris", "chapter": "11" }],
+      "fallback": true
+    },
+    {
+      "text": "Count Ahan, an Arelene merchant noble whose daughter Torena is being courted by Shuden.",
+      "revealedIn": [{ "book": "elantris", "chapter": "44" }]
+    },
+    {
+      "text": "Count Ahan, an Arelene merchant noble and father of Torena, who has a long, friendly rivalry with Duke Roial.",
+      "revealedIn": [{ "book": "elantris", "chapter": "47" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Raoden's circle",
+          "revealedIn": [
+            { "book": "elantris", "chapter": "11" },
+            { "book": "elantris", "chapter": "20" },
+            { "book": "elantris", "chapter": "47" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Ahan was one of the five powerful nobles who came to Kiin's dinner for Raoden's allies, where they talked over how to keep resisting the king without Raoden.",
+          "revealedIn": [{ "book": "elantris", "chapter": "11" }]
+        },
+        {
+          "text": "Sarene told Ahan and the other nobles that they had to keep Iadon solvent, so that he would not be replaced by someone more willing to accept a Derethi invasion.",
+          "revealedIn": [{ "book": "elantris", "chapter": "20" }]
+        },
+        {
+          "text": "Ahan grew rich enough after the Reod to earn a count's title under Iadon's wealth-based nobility, though his fortune never ranked higher than fourth. He had a friendly rivalry with Duke Roial and always tried to outdo or oppose him; he had joined Raoden's circle expecting to stand against Roial, and was startled to find him there. With Roial, Eondel and Shuden he backed Sarene against Iadon and against Hrathen's efforts to convert Arelon.",
+          "revealedIn": [{ "book": "elantris", "chapter": "47" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Telrii's reign",
+          "revealedIn": [
+            { "book": "elantris", "chapter": "53" },
+            { "book": "elantris", "chapter": "epilogue" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "During a meeting of the group, Ahan slipped out claiming an upset stomach and came back with Telrii and guards, crowing that he had finally got the better of Roial. Telrii had Roial killed for treason and ordered the other nobles killed too. Raoden's sudden appearance drove Telrii off, but Roial could not be saved.",
+          "revealedIn": [{ "book": "elantris", "chapter": "53" }]
+        },
+        {
+          "text": "Ahan admitted he had tried to sell the group out to Iadon several times, but he had expected Telrii to imprison them, not kill them, and he screamed in horror when Roial died. The guilt and grief never left him: he lost much of his weight and afterwards spoke only in a dazed, sickly voice.",
+          "revealedIn": [{ "book": "elantris", "chapter": "epilogue" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Ahan is very fat and carries himself with an arrogant air.",
+      "revealedIn": [{ "book": "elantris", "chapter": "epilogue" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Ahan rarely seems to take anything seriously, and is rash to a fault, often speaking or acting before he thinks. He does not grasp how serious his position is until his actions cost Roial his life, after which he sinks into a deep, self-loathing depression.",
+      "revealedIn": [{ "book": "elantris", "chapter": "epilogue" }]
+    }
+  ]
+}

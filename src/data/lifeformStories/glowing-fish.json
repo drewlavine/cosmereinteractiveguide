@@ -1,0 +1,36 @@
+{
+  "intro": [
+    {
+      "text": "Glowing fish that swim in shoals through the endless dark.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "31" }]
+    },
+    {
+      "text": "Invested fish that swim in shoals through the unsea of the emberdark, keeping clear of bigger creatures such as the skullsnakes that hunt them.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "34" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Those able to sense the waves of the unsea can pick out their shoals.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "34" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "In the endless dark",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "31" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Lost in the endless dark, Dusk spotted shoals of glowing fish and hoped the way they moved might show him where islands lay.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "31" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": []
+}

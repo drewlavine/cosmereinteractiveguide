@@ -1,0 +1,57 @@
+{
+  "intro": [
+    {
+      "text": "A Rosharan tale about a girl who climbs the wall around her village. Shallan stages it in Urithiru as a play made of Lightweaving.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "25" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "A girl lives in a village shut in by a wall. No one can tell her why it is there, so she climbs it, which takes days, and on the far side finds stairs leading down to a second village, one with Stormlight. She takes the light home with her.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "25" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Shallan's play",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "25" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Exploring Urithiru, Shallan uses Lightweaving to stage the tale in an amphitheater, and finds she has conjured a shadowy audience in the seats. Her version is hopeful but ends unhappily. She runs out of Stormlight before the end and tells Pattern the rest aloud.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "25" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Wit's telling",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "82" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "In Kholinar, after Shallan learns that her efforts to help the city's people have failed, Wit tells her the tale again, using illusions so they live it together. His version goes on past the wall: the girl finds the light of God and carries it back over, driving away the darkness.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "82" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "shallan-davar",
+      "role": "storyteller",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "25" }]
+    },
+    {
+      "characterId": "wit",
+      "role": "storyteller",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "82" }]
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "intro": [
+    {
+      "text": "A group from another land who have died and yet not died, and who have raised a city somewhere between worlds.",
+      "revealedIn": [{ "book": "secret-history", "chapter": "3-3" }]
+    },
+    {
+      "text": "A group of ancient, glowing beings who keep a guarded fortress in the Cognitive Realm, on the fringe of the part that lies around Scadrial.",
+      "revealedIn": [{ "book": "secret-history", "chapter": "5-2" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "The Ire proper are extremely old, wizened, mostly bald and barely recognisable as human, with silvery, faintly glowing skin. They wear hooded white robes embroidered in silver; Alonoe, who seems to lead them, has thicker silver bands.",
+      "revealedIn": [{ "book": "secret-history", "chapter": "5-2" }]
+    },
+    {
+      "text": "A large company of guards under a captain serves them, in white-blue tabards and carrying pikes. The guards don't share the Ire's ancient look, but are fair-skinned and speak the same language.",
+      "revealedIn": [{ "book": "secret-history", "chapter": "5-2" }]
+    },
+    {
+      "text": "They own a device about as big as a desk clock, a yellow gemstone set in golden latticework, that can sense shades from Threnody up to a day's march away.",
+      "revealedIn": [{ "book": "secret-history", "chapter": "5-2" }]
+    },
+    {
+      "text": "Their fortress, nearly the size of a city, is built of white stones, really the souls of stones, glowing faintly blue. A conduit of power runs through it and gives it permanence. It has corridors, large chambers and living quarters, and guards on the roof watch for shades.",
+      "revealedIn": [{ "book": "secret-history", "chapter": "5-3" }]
+    },
+    {
+      "text": "They know the cosmere well, speaking of Fortune, Connection, Realmatic Theory, Cognitive Shadows and Adonalsium. Ruin and Preservation both know of their fortress, and the scholars Khriss and Nazh say the Ire know far more than they do.",
+      "revealedIn": [{ "book": "secret-history", "chapter": "6-1" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Kelsier and the Ire",
+          "revealedIn": [
+            { "book": "secret-history", "chapter": "5-2" },
+            { "book": "secret-history", "chapter": "5-3" },
+            { "book": "secret-history", "chapter": "6-4" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "After the Lord Ruler killed him, Kelsier, now a Cognitive Shadow, met the dying Preservation, who led him to Khriss and Nazh. They could not help, but told him to seek the Ire for their knowledge, and Preservation confirmed that the Ire kept a city in the Cognitive Realm.",
+          "revealedIn": [{ "book": "secret-history", "chapter": "5-2" }]
+        },
+        {
+          "text": "Kelsier finds the fortress and slips inside, able to speak and read the Ire's language. A guard, Maod, spots him and reports to Alonoe. Fearing shades from Threnody, she has the detection device turned on; it misses Kelsier, but she warns everyone to stay alert.",
+          "revealedIn": [{ "book": "secret-history", "chapter": "5-2" }]
+        },
+        {
+          "text": "Kelsier overhears a meeting of the Ire, who plan to seize Preservation's power. Elrao fears angering Ruin, but Alonoe won't be deterred. The key is an orb giving the Connection needed to Ascend, warded to hide it from Ruin, and Kelsier resolves to steal it.",
+          "revealedIn": [{ "book": "secret-history", "chapter": "5-3" }]
+        },
+        {
+          "text": "About a week after that, a party of the Ire leaves the fortress on horseback with guards, carrying the orb. Each night they drink something that brings back their glow. Kelsier pretends to be Ruin and torments them until they can barely rest.",
+          "revealedIn": [{ "book": "secret-history", "chapter": "5-3" }]
+        },
+        {
+          "text": "When Alonoe is cut off from the others, Kelsier fakes her death so the rest flee home. He then knocks out her guard, frightens her into giving up the orb and sends her walking back.",
+          "revealedIn": [{ "book": "secret-history", "chapter": "5-3" }]
+        },
+        {
+          "text": "Kelsier keeps the orb, and in the end uses it as the Ire had intended, taking up Preservation's power himself.",
+          "revealedIn": [{ "book": "secret-history", "chapter": "6-4" }]
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Leader",
+      "name": "Alonoe",
+      "characterId": "alonoe",
+      "revealedIn": [{ "book": "secret-history", "chapter": "5-2" }]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "alonoe",
+      "role": "leader",
+      "revealedIn": [{ "book": "secret-history", "chapter": "5-2" }]
+    },
+    {
+      "characterId": "elrao",
+      "role": "member",
+      "revealedIn": [{ "book": "secret-history", "chapter": "5-3" }]
+    },
+    {
+      "characterId": "maod",
+      "role": "guard",
+      "revealedIn": [{ "book": "secret-history", "chapter": "5-2" }]
+    },
+    {
+      "characterId": "kelsier",
+      "role": "infiltrator",
+      "revealedIn": [{ "book": "secret-history", "chapter": "5-2" }]
+    }
+  ]
+}

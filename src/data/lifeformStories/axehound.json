@@ -59,6 +59,26 @@
     }
   ],
   "history": [],
+  "sections": [
+    {
+      "title": "Domestication",
+      "items": [
+        {
+          "text": "Humans bred axehounds to replace the dogs brought from Ashyn, whose small breeding population died out within three hundred years.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "49" }]
+        },
+        {
+          "text": "Selective breeding strengthened the doglike behavior already present in wild axehounds.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "49" }]
+        },
+        {
+          "text": "Some enjoy being brushed.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "55" }]
+        }
+      ],
+      "parts": []
+    }
+  ],
   "facts": [],
   "people": []
 }

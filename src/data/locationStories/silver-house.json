@@ -1,0 +1,42 @@
+{
+  "intro": [
+    {
+      "text": "A mansion in Bilming, home of the city's sitting lord mayor.",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "37" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Though far from the tallest building in Bilming, its styling and silvery-white paint lend it majesty. It has a springy lawn.",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "41" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The mayor's house",
+          "revealedIn": [
+            { "book": "lost-metal", "chapter": "57" },
+            { "book": "lost-metal", "chapter": "46" },
+            { "book": "lost-metal", "chapter": "66" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "In 348 PC it was home to Mayor Gave Entrone, who also owned a mansion at the edge of town.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "57" }]
+        },
+        {
+          "text": "Suspecting Gave, Wax and Wayne travelled to the city and forced their way into his office in the house. Wax found a calendar mentioning a \"lab\", an unusual safe, and a trapdoor to a small bunker with a storm-drain exit. Wayne's diversionary fire got out of hand, and the house burned.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "46" }]
+        },
+        {
+          "text": "The Set had not expected the break-in, and what Wax learned there helped him work out Gave's real aims.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "66" }]
+        }
+      ]
+    }
+  ]
+}

@@ -123,7 +123,7 @@ describe('Cosmere Timeline reveal', () => {
       'gavilar-assassinated',
     )
     expect(later?.when).toMatchObject({
-      text: 'ca. 10958',
+      text: 'ca. 10957',
       label: 'after the Shattering',
     })
     expect(later?.date?.text).toBe('1167.10')
@@ -319,7 +319,7 @@ describe('Cosmere Timeline reveal', () => {
       expect(
         person([...ERA1, ...WOK], {}, 'gavilar-assassinated', 'elend-venture')
           ?.died,
-      ).toMatchObject({ years: 332, circa: true })
+      ).toMatchObject({ years: 331, circa: true })
     })
 
     it('has Kelsier dead, until Secret History shows him a Cognitive Shadow', () => {

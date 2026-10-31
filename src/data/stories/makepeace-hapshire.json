@@ -1,0 +1,23 @@
+{
+  "intro": [
+    {
+      "text": "Reportedly caught by the White Fox somewhere in Threnody's Forests of Hell.",
+      "revealedIn": ["shadows-for-silence"]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        { "text": "In Daggon's stories", "revealedIn": ["shadows-for-silence"] }
+      ],
+      "items": [
+        {
+          "text": "Daggon told Lamentation Winebare the tale of Makepeace's capture at Silence's waystop.",
+          "revealedIn": ["shadows-for-silence"]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

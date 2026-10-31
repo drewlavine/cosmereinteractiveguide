@@ -1,0 +1,26 @@
+{
+  "intro": [
+    {
+      "text": "A scholar whose three-volume work Elend has read.",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "50" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Siege of Luthadel",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "50" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "During the siege of Luthadel, Elend brought up Troubeld's work with Vin, telling her that he had read all three volumes while they travelled away from the city.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "50" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

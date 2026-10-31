@@ -1,0 +1,33 @@
+{
+  "intro": [
+    {
+      "text": "High priestess of the goddess Blushweaver, who argues in the Court of Gods for war with Idris.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "16" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Blushweaver's high priestess",
+          "revealedIn": [
+            { "book": "warbreaker", "chapter": "34" },
+            { "book": "warbreaker", "chapter": "16" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Some time after entering Blushweaver's service, Inhanna asked whether she wanted the storage tunnels beneath her palace joined to the main tunnel network. Blushweaver said no, not wanting to put up with the noise of digging.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "34" }]
+        },
+        {
+          "text": "In the Court's debate over war, Inhanna argued for it against Nanrovah. She saw Idris as a rebel enclave and resented its hold on the northern trade passes and on every workable copper mine; she was also troubled by its claim that its king was Hallandren's rightful ruler, and by Idrian armies lying so near.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "16" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

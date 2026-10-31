@@ -1,0 +1,53 @@
+{
+  "intro": [
+    {
+      "text": "A man who comes to Silence's waystop demanding the money she owes him, threatening to take the place over if she cannot pay.",
+      "revealedIn": [{ "book": "shadows-for-silence", "chapter": "1" }],
+      "fallback": true
+    },
+    {
+      "text": "A fort tax collector and loan shark who has his eye on Silence Montane's waystop.",
+      "revealedIn": ["shadows-for-silence"]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Silence's creditor",
+          "revealedIn": [
+            "shadows-for-silence",
+            { "book": "shadows-for-silence", "chapter": "2" },
+            { "book": "shadows-for-silence", "chapter": "5" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Since Silence keeps her life as the White Fox secret, she hands him the bodies she brings in. Knowing countless hiding places and with contacts in Lastport, he claims the bounties quietly and keeps half.",
+          "revealedIn": ["shadows-for-silence"]
+        },
+        {
+          "text": "When Red Young's band seized Chesterton's body, Silence suspected Theopolis had sent them, since only he knew she was hunting a bounty and how she worked.",
+          "revealedIn": [{ "book": "shadows-for-silence", "chapter": "2" }]
+        },
+        {
+          "text": "He came back to collect his debts, and Silence accused him of following them through the night, pointing to the glowing paste on his shoes. He slapped her and drew blood, and her grandmother's shade, loosed from behind the door, killed him.",
+          "revealedIn": [{ "book": "shadows-for-silence", "chapter": "5" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Gangly and clean-shaven, with a smooth voice and a condescending smile, he wears plain, clean clothes with nothing to mark his position.",
+      "revealedIn": ["shadows-for-silence"]
+    }
+  ],
+  "personality": [
+    {
+      "text": "A dangerous and unscrupulous man, he covets Silence's waystop.",
+      "revealedIn": ["shadows-for-silence"]
+    }
+  ]
+}

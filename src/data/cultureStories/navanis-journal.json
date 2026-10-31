@@ -1,0 +1,132 @@
+{
+  "intro": [
+    {
+      "text": "The personal journals of Navani Kholin, in which she records the events of her life.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "endnote" }]
+    },
+    {
+      "text": "Navani Kholin's detailed personal journals, recording her life through Gavilar's murder and the arrival of the Everstorm.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "endnote" },
+            { "book": "rhythm-of-war", "chapter": "65" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "As a scholar, Navani wrote very thorough journals, sometimes setting down several accounts of one event when she thought the details mattered. She also noted small things, such as her favourite wine vintages, and kept every volume to consult in future.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "65" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Gavilar's last years",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "104" },
+                { "book": "rhythm-of-war", "chapter": "prologue" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "67" },
+                { "book": "rhythm-of-war", "chapter": "65" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Her journals from around Gavilar's death were especially valuable, as she saw his strange behaviour up close. He had grown distracted from ruling and was hiding something, which strained their marriage. Trying to watch him in secret, she walked in on him discussing unusual spheres with two visitors; he refused to explain and answered only with scorn.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "104" },
+                { "book": "rhythm-of-war", "chapter": "prologue" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "After Gavilar was killed, Navani wrote out the events of that day six separate times, noting that she felt differently at each writing. Once the True Desolation began, she went back to these entries dozens of times, trying in vain to make sense of his cryptic last words and actions.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "67" },
+                { "book": "rhythm-of-war", "chapter": "65" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "A new volume",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "endnote" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "On Jeseses 1174, days after the battle at Narak and the discovery of Urithiru, Navani started a fresh volume. On its cover she wrote a ketek, as a glyphpair shaped like two colliding storms, about the Everstorm meeting a highstorm. Inside she wrote of her grief for Jasnah and of how Sadeas's treachery had kept her from seeing the danger coming.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "endnote" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Research in the occupied tower",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "76" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "While Raboniel held Urithiru, Navani turned to her journals again for her research into the kinds of Light, as she was one of few who had seen and described the odd sphere Gavilar gave Szeth. Raboniel let her have them, and read them too to understand her. Rereading them, Navani recalled Gavilar calling her a destroyer of light, which led her to realize that he had somehow obtained Anti-Voidlight.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "76" }]
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Written by",
+      "name": "Navani Kholin",
+      "characterId": "navani-kholin",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "endnote" }]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "navani-kholin",
+      "role": "author",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "endnote" }]
+    },
+    {
+      "characterId": "gavilar-kholin",
+      "role": "subject",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "67" },
+            { "book": "rhythm-of-war", "chapter": "65" }
+          ]
+        }
+      ]
+    },
+    {
+      "characterId": "raboniel",
+      "role": "reader",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "76" }]
+    }
+  ]
+}

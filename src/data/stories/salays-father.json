@@ -1,0 +1,43 @@
+{
+  "intro": [
+    {
+      "text": "Salay's father, whom she looks for in every port so that she can pay his debts and bring him home.",
+      "revealedIn": [{ "book": "tress", "chapter": "20" }],
+      "fallback": true
+    },
+    {
+      "text": "Salay's father, freed by Tress's crew and now learning to steer aboard the Two Cups.",
+      "revealedIn": [{ "book": "tress", "chapter": "epilogue" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Salay's search",
+          "revealedIn": [
+            { "book": "tress", "chapter": "20" },
+            { "book": "tress", "chapter": "53" },
+            { "book": "tress", "chapter": "epilogue" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Salay hunted for her father in every port the Crow's Song visited, meaning to clear his debts so he could come home.",
+          "revealedIn": [{ "book": "tress", "chapter": "20" }]
+        },
+        {
+          "text": "Tress came back from beneath the Crimson Sea with a letter saying where he could be found.",
+          "revealedIn": [{ "book": "tress", "chapter": "53" }]
+        },
+        {
+          "text": "After the Sorceress was gone, the crew freed him from Filistrate City. He joined them aboard the Two Cups, where Salay began teaching him the helm, though he still bumped the docks coming into Diggen's Point.",
+          "revealedIn": [{ "book": "tress", "chapter": "epilogue" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

@@ -1,0 +1,40 @@
+{
+  "intro": [
+    {
+      "text": "A seon bonded to Riika, named for the Aon that means honour.",
+      "revealedIn": [{ "all": ["elantris", "hope-of-elantris"] }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Riika's seon",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "elantris", "chapter": "62" },
+                "hope-of-elantris"
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Each night Mai read Riika a bedtime story; without one she could not fall asleep. During the invasion of Arelon he was in Teod with Sarene, and from there he got word to Ashe that Dakhor monks had her surrounded at the docks.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "elantris", "chapter": "62" },
+                "hope-of-elantris"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

@@ -1,0 +1,44 @@
+{
+  "intro": [
+    {
+      "text": "December's mother, lost to her right after she was born in Rivershore, leaving her an orphan.",
+      "revealedIn": [{ "book": "fires-of-december", "chapter": "i" }],
+      "fallback": true
+    },
+    {
+      "text": "December's mother, a woman whose looks hint that she came from the Lark kingdom, east of Mountaincrest.",
+      "revealedIn": [{ "book": "fires-of-december", "chapter": "xii" }]
+    },
+    {
+      "text": "An outsider who reached Rivershore as a ship's hand and died soon after giving birth to December, passing on to her daughter a fragment of the demon's soul.",
+      "revealedIn": [{ "book": "fires-of-december", "chapter": "xli" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Rivershore",
+          "revealedIn": [{ "book": "fires-of-december", "chapter": "xli" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "She came to Rivershore working aboard a ship and stayed on, by chance as far as anyone could tell, though some in town suspected she was running from something. A sailor fathered her child.",
+          "revealedIn": [{ "book": "fires-of-december", "chapter": "xli" }]
+        },
+        {
+          "text": "She gave birth at the very last cold hour of the year's last cold month and, pale and weak from bleeding, named the girl December after the month, thinking of how a soft snowfall hushes noise and worry. With a kiss, a whispered word and her tears she handed her fragment of the demon's soul on to the baby, and died not long after.",
+          "revealedIn": [{ "book": "fires-of-december", "chapter": "xli" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Dark brown eyes, quiet and thoughtful, that seemed to hold points of light like stars; a bright smile and a gentle voice.",
+      "revealedIn": [{ "book": "fires-of-december", "chapter": "xii" }]
+    }
+  ],
+  "personality": []
+}

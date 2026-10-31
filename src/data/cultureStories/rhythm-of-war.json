@@ -1,0 +1,56 @@
+{
+  "intro": [
+    {
+      "text": "The name Navani and Raboniel give the notebook they share while experimenting with Light. It is named for the Rhythm of War, to mark a time when Honor and Odium worked side by side, however briefly.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "89" }]
+    }
+  ],
+  "description": [],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Two copies",
+          "revealedIn": [
+            { "book": "rhythm-of-war", "chapter": "106" },
+            { "book": "rhythm-of-war", "chapter": "116" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Raboniel had a copy of the notebook made for Navani and sent the original to Kholinar, wanting their discoveries to give both sides the means to end the war at last.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "106" }]
+        },
+        {
+          "text": "El, a Fused who studies human arts, used the original to repeat their work, and tested it by killing Lezian permanently.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "116" }]
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Authors",
+      "name": "Navani Kholin and Raboniel",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "89" }]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "navani-kholin",
+      "role": "co-author",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "89" }]
+    },
+    {
+      "characterId": "raboniel",
+      "role": "co-author",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "89" }]
+    },
+    {
+      "characterId": "el",
+      "role": "used it",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "116" }]
+    }
+  ]
+}

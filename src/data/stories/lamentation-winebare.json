@@ -1,0 +1,45 @@
+{
+  "intro": [
+    {
+      "text": "A traveller who, going by the name Earnest, buys Daggon drinks at Silence's waystop in return for stories about the White Fox.",
+      "revealedIn": [{ "book": "shadows-for-silence", "chapter": "prologue" }],
+      "fallback": true
+    },
+    {
+      "text": "A jumpy, sweaty horse thief with a Lastport accent, living in the Forests of Hell on Threnody.",
+      "revealedIn": ["shadows-for-silence"]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Petty thief",
+          "revealedIn": [
+            "shadows-for-silence",
+            { "book": "shadows-for-silence", "chapter": "epilogue" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Horse stealing earned him a bounty worth just two measures of silver. Going by Earnest, he paid Daggon in drinks for tales of the White Fox, and Daggon assured him the White Fox would never bother with so small a criminal.",
+          "revealedIn": ["shadows-for-silence"]
+        },
+        {
+          "text": "He took work at a nearby homestead but spends his nights at the waystop. He told Daggon that Silence had received seven proposals since collecting the reward for Chesterton's body.",
+          "revealedIn": [
+            { "book": "shadows-for-silence", "chapter": "epilogue" }
+          ]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "He has a long, thin neck and a head shaped like a potato.",
+      "revealedIn": ["shadows-for-silence"]
+    }
+  ],
+  "personality": []
+}

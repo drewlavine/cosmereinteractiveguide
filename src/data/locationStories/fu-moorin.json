@@ -1,0 +1,25 @@
+{
+  "intro": [
+    {
+      "text": "A village on the Purelake.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "i-1" }]
+    }
+  ],
+  "description": [],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The foreigners' search",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "i-1" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "In 1173 Ishikk looked for Hoid there on behalf of a group of foreigners.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "i-1" }]
+        }
+      ]
+    }
+  ]
+}

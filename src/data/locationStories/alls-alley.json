@@ -1,0 +1,50 @@
+{
+  "intro": [
+    {
+      "text": "A rough tavern in the Breakaway market of Urithiru, owned by Sullik and guarded by hired lighteyed thugs. Its customers are mostly shady soldiers and craftsmen.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "18" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Despite the name, it is not in an alley: it is five tents of different colours stitched together into curtained sections and dim nooks, a few with tables and chairs rather than crates. Navani's plan for the Breakaway put it in section two, on the central corridor near the lifts.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "18" }]
+    },
+    {
+      "text": "The bar itself is a plank laid over boxes under a draped cloth. It stocks Veden saph, plus some Horneater white kept as a joke rather than for sale. Oil lamps leave it dim, and it smells worse than other taverns.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "18" }]
+    },
+    {
+      "text": "A bouncer watches the door but turns no one away, and the hired thugs handle any trouble. Sullik, who tends the bar himself, has little patience for likely troublemakers. Killings nearby did not hurt trade; the place stayed packed.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "18" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The Breakaway killings",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "18" },
+            { "book": "oathbringer", "chapter": "40" },
+            { "book": "oathbringer", "chapter": "25" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Sullik opened the tavern in the Breakaway after the move to Urithiru. Soon after, a drunk from Sadeas's camp named Ned killed his wife Rem by strangling her just outside. The next day a barmaid was killed the same way, and Ur, one of the bar's guards, threw Ned off the plateau for it.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "18" }]
+        },
+        {
+          "text": "Hunting for leads on Sadeas's murder, Shallan came to the bar in disguise. Sullik would not talk and sent her to his thugs; after she wounded Ur, she learned of both killings. Ishnah first met her there. Shallan came to see that the barmaid's death copied Rem's murder, the work of the Unmade Re-Shephir.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "40" }]
+        },
+        {
+          "text": "A few streets from the bar, a dark figure stabbed Rock the same way Shallan, in disguise, had wounded Ur.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "25" }]
+        }
+      ]
+    }
+  ]
+}

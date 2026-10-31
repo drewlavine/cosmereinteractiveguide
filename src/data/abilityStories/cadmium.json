@@ -1,0 +1,65 @@
+{
+  "intro": [
+    {
+      "text": "An Allomantic metal. A Pulser burning it pulls on time, slowing it inside a bubble around them, so that events outside seem to rush by.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "prologue" }]
+    },
+    {
+      "text": "A metal whose Allomancers slow time in a bubble around themselves and whose Feruchemists store breath. Its paired alloy is bendalloy.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "10" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "A Gasper stores breath in cadmium, and must breathe hard while storing to keep their body supplied with oxygen. Tapping a cadmiummind lets them go without breathing or adds oxygen to their blood.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "prologue" }]
+    },
+    {
+      "text": "A Pulser's bubble stays put relative to the ground beneath them. A Pulser riding something small and moving, or stepping to the bubble's edge, slips out of it and pops it. Anything crossing the edge veers wildly.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "alloy-of-law", "chapter": "2" },
+            { "book": "bands-of-mourning", "chapter": "17" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "A cadmium bubble can fill a room, larger than a bendalloy bubble, and a close look can show the air shimmering at its edge. Anyone even partly inside is caught in it. Where cadmium and bendalloy bubbles overlap they cancel out, though both metals are still used up.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "alloy-of-law", "chapter": "12" },
+            { "book": "lost-metal", "chapter": "49" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [],
+  "facts": [
+    {
+      "label": "Allomancy",
+      "name": "Slows time in a bubble",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "prologue" }]
+    },
+    {
+      "label": "Paired metal",
+      "name": "Bendalloy",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "10" }]
+    },
+    {
+      "label": "Feruchemy",
+      "name": "Stores breath",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "prologue" }]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "marasi-colms",
+      "role": "Pulser",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "11" }]
+    }
+  ]
+}

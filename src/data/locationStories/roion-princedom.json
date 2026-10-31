@@ -1,0 +1,124 @@
+{
+  "intro": [
+    {
+      "text": "A princedom of Alethkar, described by Highprince Roion as the smallest of the princedoms.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "24" }]
+    },
+    {
+      "text": "One of the ten princedoms of Alethkar, in the country's northeast corner, with a long northern coastline and the Unclaimed Hills to the east.",
+      "revealedIn": ["oathbringer"]
+    }
+  ],
+  "description": [
+    {
+      "text": "Among the less wealthy and powerful princedoms. On the Shattered Plains, Highprince Roion won the fewest gemhearts of any highprince and held no Shards.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "24" },
+            { "book": "words-of-radiance", "chapter": "81" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Its army is small but adequate. It uses larger, safer bridges than the light ones Sadeas favours, and while its infantry is unskilled, its archers are the best in Alethkar.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "29" },
+            { "book": "words-of-radiance", "chapter": "82" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "It lies between the Aladar princedom to the west and the Kholin princedom to the south. Its coast faces the Bay of Elibath, the Nightstream Sea and Hoel Bay. Relanas stands on a river near the Aladar border, and Varikev is a major port on Hoel Bay.",
+      "revealedIn": ["oathbringer"]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "War on the Shattered Plains",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "24" },
+                { "book": "words-of-radiance", "chapter": "76" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Roion turned down Dalinar's first offer of a joint assault, unwilling to risk what little power he had. He was persuaded in time and became the first highprince to join Dalinar's expedition across the Shattered Plains.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "24" },
+                { "book": "words-of-radiance", "chapter": "76" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "At Narak",
+          "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "81" },
+            { "book": "words-of-radiance", "chapter": "83" },
+            { "book": "words-of-radiance", "chapter": "86" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Before the battle at Narak, Roion offered sharp insights into Parshendi strategy, and Dalinar encouraged him to lead his army himself.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "81" }]
+        },
+        {
+          "text": "Roion's lines were among the first the Parshendi broke, and his army was trapped on a plateau. His archers fought well in bad weather and helped some troops escape, but half the army was lost.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "83" }]
+        },
+        {
+          "text": "When Szeth came to kill Dalinar, Roion and his men attacked him, and Szeth killed them all, Roion included. Sebarial helped organise the retreat of Roion's remaining troops.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "86" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The True Desolation",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "86" },
+                { "book": "oathbringer", "chapter": "86" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "After the battle, the princedom's warcamp was abandoned as its people left through the Oathgate for Urithiru. Roion's son became Highprince Roion, though many thought him unready to lead, and the princedom's armies stayed loyal to Dalinar.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "86" },
+                { "book": "oathbringer", "chapter": "86" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

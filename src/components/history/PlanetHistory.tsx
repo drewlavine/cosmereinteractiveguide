@@ -3,17 +3,18 @@ import type { ShownPlanet } from '../../data/reveal'
 import { useLinkText } from '../LinkedText'
 import { PageSection } from '../PageSections'
 import { Chronicle } from './Chronicle'
-import { Codex } from './Codex'
 import { historyStyles, useHistoryStyle } from './historyLook'
-import { Retold } from './Retold'
+import { Chapters, Dial, Metro, StarChart } from './ScrubLooks'
 import { Scrubber } from './Scrubber'
 import s from './history.module.css'
 
 const views = {
   chronicle: Chronicle,
   scrubber: Scrubber,
-  codex: Codex,
-  retold: Retold,
+  chapters: Chapters,
+  metro: Metro,
+  stars: StarChart,
+  dial: Dial,
 }
 
 /**

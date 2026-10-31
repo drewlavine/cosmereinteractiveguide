@@ -1,0 +1,89 @@
+{
+  "intro": [
+    {
+      "text": "The moment Rashek took up the power of the Well of Ascension and became the Lord Ruler. To beat the Deepness he pulled Scadrial closer to its sun, then raised the ashmounts to thicken the air when the world grew too hot to live on.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "4" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Holding the Well's power, Rashek came to understand all three Metallic Arts. Some of what he learned came with the power itself, and some was whispered to him by Ruin.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "9" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Remaking the world",
+          "revealedIn": [
+            { "book": "hero-of-ages", "chapter": "4" },
+            { "book": "hero-of-ages", "chapter": "5" },
+            { "book": "hero-of-ages", "chapter": "12" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Rashek moved Scadrial nearer its sun to defeat the Deepness. When that made the world too hot to survive, he created the ashmounts to fill the sky with ash and smoke.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "4" }]
+        },
+        {
+          "text": "With less sunlight getting through, he had to change the plants to live on it, and then change the people to live on those poorer plants and to breathe ash all their lives.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "5" }]
+        },
+        {
+          "text": "He moved the Well itself, flattening the Terris lands of his day and raising new mountains in the north, which became the Terris homeland under his empire. He expected the Well to fill again and meant to be ready to take its power once more, and to keep anyone else from finding it.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "12" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The first Mistborn",
+          "revealedIn": [
+            { "book": "hero-of-ages", "chapter": "9" },
+            { "book": "hero-of-ages", "chapter": "62" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Among the things he now knew: swallowing the metal nuggets in the Chamber of Ascension makes a person Mistborn.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "9" }]
+        },
+        {
+          "text": "Every Allomancer of the ages since descends from the men who swallowed those few beads of the Well's power.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "62" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The fate of the Feruchemists",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "68" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Seeing that anyone with the full power of both Allomancy and Feruchemy, as he had, could challenge him, Rashek turned every other living Feruchemist into a mistwraith.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "68" }]
+        },
+        {
+          "text": "His friends, his fellow packmen, became mistwraiths and then kandra, the First Generation.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "68" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "lord-ruler",
+      "role": "Ascendant",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "4" }]
+    }
+  ]
+}

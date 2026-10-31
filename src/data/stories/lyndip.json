@@ -1,0 +1,25 @@
+{
+  "intro": [
+    {
+      "text": "Allomancer Jak's spirit guide, who looks like a talking crow.",
+      "revealedIn": ["allomancer-jak"]
+    }
+  ],
+  "history": [
+    {
+      "title": [{ "text": "Spirit guide", "revealedIn": ["allomancer-jak"] }],
+      "items": [
+        {
+          "text": "Jak says Lyndip shows up when he faces great danger or difficulty. She claims to serve and speak for the Survivor, who Jak believes sent her, and he suspects she is one of the Faceless Immortals.",
+          "revealedIn": ["allomancer-jak"]
+        },
+        {
+          "text": "Handerwym has never seen her and thinks at least one visit was a hallucination. He also notes that the Faceless Immortals belong to Pathism, not Survivorism, which does not trouble Jak.",
+          "revealedIn": ["allomancer-jak"]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

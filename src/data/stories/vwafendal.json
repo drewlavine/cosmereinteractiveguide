@@ -1,0 +1,75 @@
+{
+  "intro": [
+    {
+      "text": "A Terriswoman of the Village in Elendel and the maternal grandmother of Wax.",
+      "revealedIn": [{ "book": "shadows-of-self", "chapter": "5" }]
+    },
+    {
+      "text": "A stately Terriswoman of the Village in Elendel, an Elder of the Synod and the maternal grandmother of Wax and his sister Telsin.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "shadows-of-self", "chapter": "5" },
+            { "book": "bands-of-mourning", "chapter": "prologue" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Wax's youth",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "prologue" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "When teenage Wax lived in the Village, Vwafendal faced down a constable who brought evidence that a young Terris named Forch had committed arson, insisting the Terris would handle it themselves. She then called in Wax, knowing he had tipped off the constables, comforted him and told him to let the Synod do its work. Soon after, Wax found Forch dissecting a kidnapped boy and killed him, sure his grandmother would hate him for it.",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "prologue" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The Steelrunner",
+          "revealedIn": [{ "book": "shadows-of-self", "chapter": "5" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "When Wax came asking about murders that looked like a Steelrunner's work, Vwafendal received him in her log hut, worried about Feruchemy and Allomancy mixing, and the two went over old quarrels about his life as a lawman. In the end she named Idashwy as the only Steelrunner who could be involved and asked him to bring her back rather than kill her.",
+          "revealedIn": [{ "book": "shadows-of-self", "chapter": "5" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Stately, with dark skin and white hair in a braid. She wears Terris robes and carries a cane by choice.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "shadows-of-self", "chapter": "5" },
+            { "book": "bands-of-mourning", "chapter": "prologue" }
+          ]
+        }
+      ]
+    }
+  ],
+  "personality": [
+    {
+      "text": "She never yells but commands respect, and very little gets past her. A firm believer in Terris tradition and order, she holds that the Terris can police themselves and has deep contempt for guns. She calls Wax by his Terris name, Asinthew.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "shadows-of-self", "chapter": "5" },
+            { "book": "bands-of-mourning", "chapter": "prologue" }
+          ]
+        }
+      ]
+    }
+  ]
+}

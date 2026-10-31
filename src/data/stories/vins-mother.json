@@ -1,0 +1,58 @@
+{
+  "intro": [
+    {
+      "text": "Vin's mother, who gave her the earring she keeps among her few belongings.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "3" }],
+      "fallback": true
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Vin's childhood",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "20" },
+                { "book": "hero-of-ages", "chapter": "73" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "20" },
+                { "book": "hero-of-ages", "chapter": "72" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "She killed Vin's baby sister with one of her bronze earrings, making it a Hemalurgic spike, then forced it through Vin's ear. The spike carried the dead girl's power to Vin, giving her the ability to see through copperclouds.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "20" },
+                { "book": "hero-of-ages", "chapter": "73" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "When Reen came home, he found his mother covered in her baby daughter's blood, proclaiming that Vin was a queen.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "20" },
+                { "book": "hero-of-ages", "chapter": "72" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

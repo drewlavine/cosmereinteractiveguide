@@ -1,0 +1,27 @@
+{
+  "intro": [
+    {
+      "text": "A lake on the edge of the Eastern Dominance, whose eastern shore falls just within the Crescent Dominance. The River Seran joins it to South Seran, the larger of the two Seran lakes.",
+      "revealedIn": ["final-empire"]
+    }
+  ],
+  "description": [
+    {
+      "text": "Mountains rise north of the lake and farmland stretches to its west. Two settlements or plantations stand at its southern end, close to where the river begins.",
+      "revealedIn": ["final-empire"]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        { "text": "After the Catacendre", "revealedIn": ["lost-metal"] }
+      ],
+      "items": [
+        {
+          "text": "The lake remained in the same place after the Catacendre.",
+          "revealedIn": ["lost-metal"]
+        }
+      ]
+    }
+  ]
+}

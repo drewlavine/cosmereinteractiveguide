@@ -1,0 +1,249 @@
+{
+  "intro": [
+    {
+      "text": "The central power of the Elendel Basin, and home to many of its high noble houses, among them Ladrian, Tekiel, Yomen and Cett.",
+      "revealedIn": ["alloy-of-law"]
+    },
+    {
+      "text": "The largest city in the Elendel Basin and its central power, home to many high noble houses, standing where the Irongate River meets Hammondar Bay. Residents call it the City; the outer cities call it the 'Del.",
+      "revealedIn": [
+        { "all": ["alloy-of-law", { "book": "lost-metal", "chapter": "22" }] }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "The city is split into eight octants, each with its own constabulary precinct of about six hundred constables. The work is steady and promotions come regularly, but there is little prestige or money in it below the rank of constable-general. Few women serve, and many of the city's poor distrust the constables.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "alloy-of-law", "chapter": "5" },
+            { "book": "shadows-of-self", "chapter": "5" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Slum tenements stand grey with ash from nearby coal plants, along narrow streets little wider than alleys. Rich neighborhoods are clean and quiet by comparison, their houses often white, apartment blocks trimmed with spiked ironwork around the upper windows, and no washing hung out to dry.",
+      "revealedIn": [{ "book": "shadows-of-self", "chapter": "6" }]
+    },
+    {
+      "text": "Noble houses own or part-own most companies, dealing in everything from banking and security to steel, and they hold much of the city's land. Many people rely on a house for work and pay, and after a generation or two such families count as full members of it, earning more than newcomers.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "alloy-of-law", "chapter": "7" },
+            { "book": "shadows-of-self", "chapter": "14" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "The Senate has two chambers. In one sit the noble houses: whoever inherits a high noble title inherits its vote, though a proxy may cast it. The other is elected by trade through guilds, such as orchard growers or seamstresses, with a few seats kept for particular historical groups. The Senate can appoint a small Select Council, usually for a set time, to deal with a matter quickly.",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "31" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Founding and early years",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "alloy-of-law", "chapter": "4" },
+                { "book": "secret-history", "chapter": "epilogue" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "hero-of-ages", "chapter": "epilogue" },
+                { "book": "shadows-of-self", "chapter": "19" },
+                { "book": "bands-of-mourning", "chapter": "5" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Harmony shaped the land here during the Catacendre and brought the survivors sheltering in the caverns to it. These Originators, a fifth of them Terris, founded the city on the Tinth of Hammondar. Several great houses, such as Hammondess and Demoux, date from this time, while others, such as Ladrian, rose quickly to prominence.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "alloy-of-law", "chapter": "4" },
+                { "book": "secret-history", "chapter": "epilogue" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "The Lord Mistborn ruled for a hundred years, and his laws shaped the city for centuries; some form of the Senate began under him. He pressed for equality, building sturdy, lasting homes for the poor so that slums would not form. According to official records, after his century in charge he one day simply vanished.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "hero-of-ages", "chapter": "epilogue" },
+                { "book": "shadows-of-self", "chapter": "19" },
+                { "book": "bands-of-mourning", "chapter": "5" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The third century",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "alloy-of-law", "chapter": "16" },
+                { "book": "shadows-of-self", "chapter": "5" }
+              ]
+            },
+            { "book": "shadows-of-self", "chapter": "10" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "By the third century the three-branch government had settled into its present form, and although the old house wars were over, houses still skirmished from time to time. Motorcars began as unreliable steam-powered curiosities before gas-powered models followed, and Tim Vashin made them affordable sometime before 340 PC. Gum appeared around the same time.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "alloy-of-law", "chapter": "16" },
+                { "book": "shadows-of-self", "chapter": "5" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Early in the century, the statistician and psychologist Mirabell wrote her book on why some people work harder than others. In the first half of 311 PC, the First Central Bank's stakeholders began lending to poor and common people, which made them very rich. The incandescent light bulb also arrived in this period, its invention credited by some to Remmingtel Tarcsel and by others to Professor Hanlanaze.",
+          "revealedIn": [{ "book": "shadows-of-self", "chapter": "10" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The Vanishers",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "epilogue" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "A gang called the Vanishers robbed a string of trains, then the Coolerim Playhouse, and then the Yomen-Ostlin wedding dinner, where lawman Waxillium Ladrian and his deputy Wayne fought them off. The constabulary went on to capture and prosecute the gang, with notable help from Ladrian.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "epilogue" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Unrest in 342",
+          "revealedIn": [{ "book": "shadows-of-self", "chapter": "epilogue" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "In 342 PC the governor vetoed bill 775, known as the workers'-rights manifesto, and with joblessness from new technology already high, strikes and riots spread through the city. The governor's brother, Winsting Innate, was found dead at an auction among much of the city's criminal elite. Governor Replar Innate's promises, such as new coach lines and higher tariffs on goods from Bilming, failed to calm people, so he declared martial law and named Claude Aradel lord high constable.",
+          "revealedIn": [{ "book": "shadows-of-self", "chapter": "epilogue" }]
+        },
+        {
+          "text": "At the height of the riots, with a speech by the governor going badly, Aradel arrested Innate for corruption and deputized the angry crowd to help round up suspected co-conspirators. Innate took his own life in custody before he could be tried, but many powerful nobles were convicted. Taking this as a sign of change, the Senate elected Aradel governor a couple of months afterward, the first ever with no noble blood.",
+          "revealedIn": [{ "book": "shadows-of-self", "chapter": "epilogue" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "New Seran and new peoples",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "bands-of-mourning", "chapter": "31" },
+                { "book": "lost-metal", "chapter": "31" }
+              ]
+            },
+            { "book": "bands-of-mourning", "chapter": "31" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Tensions with the outer cities, building for decades, reached new heights. Governor Aradel sent Waxillium Ladrian to a gathering of their political elite in New Seran, where the death of the hostess was blamed on him and, through him, on the Senate. Outrage on both sides brought war closer than ever, until Aradel managed to calm things somewhat.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "bands-of-mourning", "chapter": "31" },
+                { "book": "lost-metal", "chapter": "31" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Within days came news of new peoples with technology unknown in the Basin. Senator Waxillium Ladrian then flew over the city in a Malwish airship, landed on Ahlstrom Tower and announced a trade agreement worth six medallions to Elendel. Formal contact with the Southerners, opened by the governor, followed.",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "31" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Years of tension",
+          "revealedIn": [
+            { "book": "lost-metal", "chapter": "25" },
+            {
+              "all": [
+                { "book": "bands-of-mourning", "chapter": "1" },
+                { "book": "lost-metal", "chapter": "22" }
+              ]
+            },
+            { "book": "lost-metal", "chapter": "epilogue-1" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Over the next six years Elendel deepened its contact with the Malwish, new trade routes to the South opened and an ambassador, Jonnes, arrived. Relations soon soured, though, and both sides armed, Elendel forming a military of its own. In 346 PC Aradel resigned, and the Senate chose Varlance as a hedge against Malwish taunts of Basin weakness, but he proved a poor governor, largely a puppet of other politicians.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "25" }]
+        },
+        {
+          "text": "By 348 PC a census showed more people living in the outer cities than in Elendel. Keen to look strong before the Malwish, and afraid of power slipping from the capital, the Senate passed the Elendel Supremacy Bill by 122 votes to 118, giving the city authority over the outer cities and making its governor supreme leader of the Basin. Soon afterward Daal arrived as ambassador of the newly formed Malwish Consortium.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "bands-of-mourning", "chapter": "1" },
+                { "book": "lost-metal", "chapter": "22" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "With war seemingly near, the Senate planned for conscription and set guns on the outskirts. When word came that a bomb able to level a city lay in Bilming, a small council of senators took charge, and the government began evacuating Elendel, blaming mysterious gas leaks to head off panic. Crowds fled by train and by car, and every officially known Allomancer was called on to help.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "epilogue-1" }]
+        },
+        {
+          "text": "Learning that the bomb would come by ship, officials concentrated on emptying the westernmost octants. The governor also approved sinking private boats to slow any tsunami, promising compensation. Waxillium Ladrian and Wayne kept the bomb from going off at full strength, saving the city, though a tsunami left the dockside buildings a disaster zone for weeks.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "epilogue-1" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "From 348 to 350 PC",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "epilogue-7" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Over the next two years Elendel repealed the Supremacy Bill and created a National Assembly for all the Basin's cities, and relations with the outer cities improved dramatically. The Malwish Consortium grew more hostile, closing its borders and banning most trade. In 350 PC senators called for making the Roughs a province, and the Basin sent Marasi Colms south as an ambassador to ease tensions.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "epilogue-7" }]
+        }
+      ]
+    }
+  ]
+}

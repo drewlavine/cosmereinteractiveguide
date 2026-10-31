@@ -1,0 +1,109 @@
+{
+  "intro": [
+    {
+      "text": "The Shin custodians of the Honorblades, each leading a monastery dedicated to preserving and mastering its powers.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "40" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Candidates train with the different Honorblades, defeat a bearer without using powers, and seek the other bearers' approval on a second pilgrimage.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "73" }]
+    },
+    {
+      "text": "The Bondsmith Honorbearer is chosen by a vote instead.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "75" }]
+    },
+    {
+      "text": "Pozen dominated the Honorbearers during Szeth's training, despite the Bondsmith's traditional seniority.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "111" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The sacred trust",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "40" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Under the Heralds' guidance, the Shin built monasteries and kept the Honorblades ready for the Voidbringers' return.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "40" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Ishar's control",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "128" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Ishar used stolen power from Odium's perpendicularity to influence the Honorbearers as the Voice. His influence helped turn them against Szeth's warnings.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "128" }]
+        },
+        {
+          "text": "Ishar made corrupted Honorbearers able to take new bodies after death. Sivi rejected him.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "128" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Szeth's pilgrimage",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "33" },
+            { "book": "wind-and-truth", "chapter": "41" },
+            { "book": "wind-and-truth", "chapter": "45" },
+            { "book": "wind-and-truth", "chapter": "53" },
+            { "book": "wind-and-truth", "chapter": "72" },
+            { "book": "wind-and-truth", "chapter": "90" },
+            { "book": "wind-and-truth", "chapter": "141" },
+            { "book": "wind-and-truth", "chapter": "144" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Ishar ordered Szeth to make a pilgrimage through the monasteries.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "33" }]
+        },
+        {
+          "text": "Szeth defeated Rit and recovered Talenel's Blade.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "41" }]
+        },
+        {
+          "text": "He found Sivi dead and recovered Kalak's Blade.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "45" }]
+        },
+        {
+          "text": "He destroyed the Edgedancer Honorbearer with Nightblood in Shadesmar, while Pozen killed himself with his Blade.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "53" }]
+        },
+        {
+          "text": "Szeth overcame Moss, while Kaladin saved him from the hidden Truthwatcher Honorbearer.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "72" }]
+        },
+        {
+          "text": "Ishar recalled Elid before Szeth could finish reaching his sister.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "90" }]
+        },
+        {
+          "text": "When the corrupted bearers returned to fight him, Szeth used Nightblood to destroy them permanently.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "141" }]
+        },
+        {
+          "text": "The renewed Oathpact returned the Blades to the Heralds, ending the need for their Shin custodians.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "144" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": []
+}

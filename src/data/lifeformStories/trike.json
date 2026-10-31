@@ -1,0 +1,28 @@
+{
+  "intro": [
+    {
+      "text": "A fish of Sel.",
+      "revealedIn": [{ "book": "elantris", "chapter": "41" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Planning crops for New Elantris, Raoden and Galladon ask Sarene for trike, expecting her to think they want it as food and send it rotten out of spite. They really mean to use it as fertiliser.",
+      "revealedIn": [{ "book": "elantris", "chapter": "41" }]
+    }
+  ],
+  "history": [],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "raoden",
+      "role": "requests it",
+      "revealedIn": [{ "book": "elantris", "chapter": "41" }]
+    },
+    {
+      "characterId": "galladon",
+      "role": "requests it",
+      "revealedIn": [{ "book": "elantris", "chapter": "41" }]
+    }
+  ]
+}

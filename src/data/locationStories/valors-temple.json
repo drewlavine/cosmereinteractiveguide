@@ -1,0 +1,38 @@
+{
+  "intro": [
+    {
+      "text": "A grand temple to Valor in Kingseat, sometimes called Valor's chapel, and one of several she made on the planet. Only clergy may enter it.",
+      "revealedIn": [{ "book": "fires-of-december", "chapter": "epilogue" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "It holds many relics, fine stained-glass windows showing the Prophet and murals of worlds Valor has visited. Because no one but clergy may go in, it is famous yet often known as Valor's secret or hidden temple.",
+      "revealedIn": [{ "book": "fires-of-december", "chapter": "epilogue" }]
+    },
+    {
+      "text": "Anyone outside the priesthood who steps inside is vaporized at once by Godsflame, a fire that consumes body and soul alike.",
+      "revealedIn": [{ "book": "fires-of-december", "chapter": "epilogue" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Visitors",
+          "revealedIn": [{ "book": "fires-of-december", "chapter": "epilogue" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "On her pilgrimage to Kingseat, Amaal prayed to Valor at the temple and questioned the priests about the hexers, coming to see that the king's handling of them was the best course.",
+          "revealedIn": [{ "book": "fires-of-december", "chapter": "epilogue" }]
+        },
+        {
+          "text": "Hoid sneaked inside and was burned to a crisp, but his soul kept regenerating until he smothered the Godsflame and made himself a body. After the crisis with the Megalith he tried again; this time he put out the fire quickly and kept his memories. He then tricked Amaal into describing the murals.",
+          "revealedIn": [{ "book": "fires-of-december", "chapter": "epilogue" }]
+        }
+      ]
+    }
+  ]
+}

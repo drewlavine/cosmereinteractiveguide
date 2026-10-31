@@ -1,0 +1,35 @@
+{
+  "intro": [
+    {
+      "text": "A small creature of Roshar with a flat tail, two large claws and long antennae, served steamed as food.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "68" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "At a Kholinar tavern where Wit has a job entertaining, he and Shallan are given Soulcast grain cakes, each with a steamed skrip on top. Shallan finds the dish not terrible and eats Wit's share too.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "68" }]
+    }
+  ],
+  "history": [],
+  "facts": [
+    {
+      "label": "Eaten in",
+      "name": "Kholinar",
+      "placeId": "kholinar",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "68" }]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "shallan-davar",
+      "role": "eater",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "68" }]
+    },
+    {
+      "characterId": "wit",
+      "role": "diner",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "68" }]
+    }
+  ]
+}

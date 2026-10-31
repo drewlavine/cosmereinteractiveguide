@@ -1,0 +1,27 @@
+{
+  "intro": [
+    {
+      "text": "A skaa boy from the village of Vetitan.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "1" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Vetitan",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "1" }],
+          "fallback": true
+        }
+      ],
+      "items": [
+        {
+          "text": "When koloss threatened Vetitan, he was the first to spot Elend Venture riding in. He calls Fatren \"Fats\".",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "1" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

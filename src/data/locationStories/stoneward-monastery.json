@@ -1,0 +1,74 @@
+{
+  "intro": [
+    {
+      "text": "A Shin monastery dedicated to Talmut, overlooking the Nirovah Valley from a rocky ridge.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "51" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "The fortified great hall has cages of gemstones open to the highstorms. A mural of Talmut covers its floor.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "42" }]
+    },
+    {
+      "text": "A winding path connects the monastery to a soldiers' camp along the ridge.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "57" }]
+    },
+    {
+      "text": "The Farmer, General and Cook govern the surrounding Encilo region while carrying out the work their titles describe.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "68" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The soldiers' camp",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "57" },
+            { "book": "wind-and-truth", "chapter": "68" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "After Szeth killed a soldier during an attack on his family's homestead, he was required to train at the monastery. His family moved there with him.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "57" }]
+        },
+        {
+          "text": "Neturo became the General's aide and helped reform the camp, improving its organization and morale.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "57" }]
+        },
+        {
+          "text": "When Szeth became a shaman acolyte, he and Neturo left for the Elsecaller monastery and Mokdown.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "68" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The return to Shinovar",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "40" },
+            { "book": "wind-and-truth", "chapter": "42" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The soldiers left after hearing a voice, and nearby villagers moved into the camp. They feared the soil would swallow anyone who stepped outside by day.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "40" }]
+        },
+        {
+          "text": "Szeth fought Rit in the great hall and recovered the Stoneward Honorblade. Their battle left the floor lowered and its mural broken into pillars.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "42" }]
+        },
+        {
+          "text": "The camp's residents emerged from their houses after the fight and thanked Szeth for freeing them.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "42" }]
+        }
+      ]
+    }
+  ]
+}

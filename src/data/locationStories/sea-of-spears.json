@@ -1,0 +1,43 @@
+{
+  "intro": [
+    {
+      "text": "A shallow body of water on Roshar, with spears of rock jutting up from its surface.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "46" },
+            { "book": "oathbringer", "chapter": "97" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "A large, shallow inland sea in southeastern Alethkar, with spears of rock jutting up from its surface.",
+      "revealedIn": [
+        { "all": [{ "book": "way-of-kings", "chapter": "46" }, "oathbringer"] }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "Adolin calls it a lake.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "46" },
+            { "book": "oathbringer", "chapter": "97" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "In Shadesmar it corresponds to an island, the site of the spren city of Celebrant.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "99" }]
+    },
+    {
+      "text": "Its shores touch the Eastern Crownlands and the princedoms of Thanadal, Sebarial and Kholin. Near its northern tip lie the ruins of Rathalas, and the town of Davinar sits on its western shore.",
+      "revealedIn": ["oathbringer"]
+    }
+  ],
+  "history": []
+}

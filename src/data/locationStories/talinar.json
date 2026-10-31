@@ -1,0 +1,51 @@
+{
+  "intro": [
+    {
+      "text": "A town in Alethkar where Teft grew up.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "91" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "A small place, too small to be called a city, which smelled of flowers in Teft's childhood. Nearby cliffs are high enough for a fall to kill.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "71" },
+            { "book": "rhythm-of-war", "chapter": "91" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The Envisagers",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "71" },
+                { "book": "rhythm-of-war", "chapter": "91" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Around 1129, Envisagers came to Talinar teaching that facing mortal danger could awaken a Knight Radiant's powers, and a cult formed there to restore the Radiant orders. Members leapt from cliffs and let boulders fall on them, hoping to summon such powers. After his mother's death, Teft told the citylord about the cult, and all its surviving members were hanged. Teft left Talinar to join the army and never returned.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "71" },
+                { "book": "rhythm-of-war", "chapter": "91" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

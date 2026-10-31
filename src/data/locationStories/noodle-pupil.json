@@ -1,0 +1,42 @@
+{
+  "intro": [
+    {
+      "text": "A noodle restaurant in Kilahito.",
+      "revealedIn": [{ "book": "yumi", "chapter": "5" }]
+    },
+    {
+      "text": "A noodle restaurant in Kilahito, renamed the Noodle Princess by its new owners.",
+      "revealedIn": [{ "book": "yumi", "chapter": "another-epilogue" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "It has tables and a bar whose wood is carved with heated round hollows that keep bowls of noodles warm. It also serves rice for soaking up the leftover broth. A bowl usually costs two hundred kon, and the owner gives discounts in prime-number percentages.",
+      "revealedIn": [{ "book": "yumi", "chapter": "5" }]
+    },
+    {
+      "text": "Many painters drop in after work or on their breaks.",
+      "revealedIn": [{ "book": "yumi", "chapter": "another-epilogue" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Painters and new owners",
+          "revealedIn": [{ "book": "yumi", "chapter": "another-epilogue" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Painters gathered here were recruited to help hold off an approaching army of nightmares.",
+          "revealedIn": [{ "book": "yumi", "chapter": "another-epilogue" }]
+        },
+        {
+          "text": "When its founder left the planet, the shop passed to two of its regulars, who renamed it the Noodle Princess.",
+          "revealedIn": [{ "book": "yumi", "chapter": "another-epilogue" }]
+        }
+      ]
+    }
+  ]
+}

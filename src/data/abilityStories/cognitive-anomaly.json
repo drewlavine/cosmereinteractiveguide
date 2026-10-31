@@ -1,0 +1,59 @@
+{
+  "intro": [
+    {
+      "text": "Something a person can be anchored through, according to claims about a rare chain said to come from the lands of the dead.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "oathbringer", "chapter": "102" },
+            { "book": "rhythm-of-war", "chapter": "64" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "Silvery chains are said to let whoever uses them anchor themselves through a Cognitive anomaly. What anchoring actually does is unknown, and the chains are extremely rare and command great prices.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "oathbringer", "chapter": "102" },
+            { "book": "rhythm-of-war", "chapter": "64" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "One letter writer called such a chain priceless while seeing no use for it, since the writer was unable to leave the Rosharan system.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "64" }]
+    },
+    {
+      "text": "In the Shadesmar city of Celebrant, Kaladin saw a cultivationspren merchant offering a thin silver chain for what struck him as an absurd price.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "oathbringer", "chapter": "102" },
+            { "book": "rhythm-of-war", "chapter": "64" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [],
+  "facts": [
+    {
+      "label": "Anchored with",
+      "name": "A silvery chain",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "oathbringer", "chapter": "102" },
+            { "book": "rhythm-of-war", "chapter": "64" }
+          ]
+        }
+      ]
+    }
+  ],
+  "people": []
+}

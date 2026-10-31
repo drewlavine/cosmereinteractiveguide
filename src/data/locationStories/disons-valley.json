@@ -1,0 +1,30 @@
+{
+  "intro": [
+    {
+      "text": "A valley in southeastern Shinovar, near the Nirovah Valley.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "27" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "It lies inland from Clearmount, on the opposite side of the town from Szeth's family homestead.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "27" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Coastal raids",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "27" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "When raiders approached the coast, Neturo proposed taking his family's sheep into the valley for safety.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "27" }]
+        }
+      ]
+    }
+  ]
+}

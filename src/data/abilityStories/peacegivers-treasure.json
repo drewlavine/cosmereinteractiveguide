@@ -1,0 +1,84 @@
+{
+  "intro": [
+    {
+      "text": "A trove of Breath handed down to Hallandren's God Kings from Peacegiver, who ended the Manywar. Most of the God King's power comes from it.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "15" }]
+    },
+    {
+      "text": "A store of more than fifty thousand Breaths, also called the Light of Peace, that the Returned Peacegiver left to Hallandren's God Kings, who hand it on from one to the next.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "55" }]
+    },
+    {
+      "text": "A store of more than fifty thousand Breaths that Vasher, as Peacegiver, left to Hallandren's God Kings, to be guarded and never used.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "epilogue" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "The Treasure is the main source of the God King's power.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "15" }]
+    },
+    {
+      "text": "With his tongue removed, Susebron has no way to use the Breath he holds.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "20" }]
+    },
+    {
+      "text": "Peacegiver charged the priests to protect the Breath and never use it. They believe he died when he gave it to them and might one day Return to take it back.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "40" }]
+    },
+    {
+      "text": "A God King can hand on only the Treasure and still keep his own divine Breath.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "55" }]
+    },
+    {
+      "text": "Holding so much Breath lifts a God King to the Tenth Heightening, where Commands can be given in the mind, which is how a God King with no tongue can still pass it on. The priests also give each God King two or more Breaths a week, so the store keeps growing.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "58" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The God Kings",
+          "revealedIn": [
+            { "book": "warbreaker", "chapter": "32" },
+            { "book": "warbreaker", "chapter": "40" },
+            { "book": "warbreaker", "chapter": "58" },
+            { "book": "warbreaker", "chapter": "epilogue" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Hoid tells Siri that once the Manywar was over, Peacegiver bequeathed his Breath to the God King who came after him, and that each God King fathers a stillborn son who Returns and takes his place.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "32" }]
+        },
+        {
+          "text": "The priests built the God Kings' succession around guarding the Treasure. A Returned infant is a sign that the God King should change: they cut out the child's tongue and pass the Treasure to him.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "40" }]
+        },
+        {
+          "text": "With his tongue healed, Susebron could finally use the Treasure, and with it he broke the attack on the palace and rescued Siri.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "58" }]
+        },
+        {
+          "text": "Vasher reveals that he was Peacegiver. After the Manywar he had put his Breaths in a priest for safekeeping, and that priest became the first God King.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "epilogue" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "susebron",
+      "role": "God King",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "58" }]
+    },
+    {
+      "characterId": "vasher",
+      "role": "First owner",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "epilogue" }]
+    }
+  ]
+}

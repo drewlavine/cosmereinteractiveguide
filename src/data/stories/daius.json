@@ -1,0 +1,33 @@
+{
+  "intro": [
+    {
+      "text": "An Elendel attorney and senior prosecutor, for whom Marasi Colms once worked as an intern; he led the prosecution at Miles Dagouter's trial.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "epilogue" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The prosecutor's office",
+          "revealedIn": [
+            { "book": "alloy-of-law", "chapter": "epilogue" },
+            { "book": "shadows-of-self", "chapter": "5" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Daius won a death sentence for Miles Dagouter. He never went to executions himself and advised Marasi to stay away as well, but she chose to attend.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "epilogue" }]
+        },
+        {
+          "text": "Her internship under Daius convinced Marasi she would rather be a constable, as she disliked the rivalry and disorder of the prosecutor's office.",
+          "revealedIn": [{ "book": "shadows-of-self", "chapter": "5" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

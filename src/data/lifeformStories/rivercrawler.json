@@ -1,0 +1,28 @@
+{
+  "intro": [
+    {
+      "text": "A creature of Sel that leaves its shell behind once it has outgrown it.",
+      "revealedIn": [{ "book": "elantris", "chapter": "22" }]
+    },
+    {
+      "text": "A kind of crawfish native to JinDo that discards its shell when it grows too big for it and finds another.",
+      "revealedIn": [{ "book": "elantris", "chapter": "24" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Raoden compares crumbling Elantris to the empty, cast-off shell of a rivercrawler.",
+      "revealedIn": [{ "book": "elantris", "chapter": "22" }]
+    }
+  ],
+  "history": [],
+  "facts": [
+    {
+      "label": "Native to",
+      "name": "JinDo",
+      "placeId": "jindo",
+      "revealedIn": [{ "book": "elantris", "chapter": "24" }]
+    }
+  ],
+  "people": []
+}

@@ -1,0 +1,25 @@
+{
+  "intro": [
+    {
+      "text": "A forest just outside the Imperial Seat.",
+      "revealedIn": ["emperors-soul"]
+    }
+  ],
+  "description": [
+    {
+      "text": "Its woods are deep and dense enough to hide in for a long time.",
+      "revealedIn": ["emperors-soul"]
+    }
+  ],
+  "history": [
+    {
+      "title": [{ "text": "A hiding place", "revealedIn": ["emperors-soul"] }],
+      "items": [
+        {
+          "text": "After escaping the Rose Palace, Shai went to ground in the forest for a few months.",
+          "revealedIn": ["emperors-soul"]
+        }
+      ]
+    }
+  ]
+}

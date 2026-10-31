@@ -443,5 +443,49 @@
         }
       ]
     }
+  ],
+  "abilities": [
+    {
+      "title": [
+        {
+          "text": "Division",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "121" },
+                { "book": "wind-and-truth", "chapter": "90" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Szeth could use Division with precision as well as destructive force, including igniting the air, though repeated use was dangerous.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "121" },
+                { "book": "wind-and-truth", "chapter": "90" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Nightblood's Surges",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "140" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Nightblood gave Szeth access to all ten Surges after his Skybreaker bond ended. The sword could draw Investiture through Connections to nearby people rather than consuming Szeth.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "140" }]
+        }
+      ]
+    }
   ]
 }

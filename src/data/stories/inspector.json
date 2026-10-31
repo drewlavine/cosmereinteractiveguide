@@ -1,0 +1,40 @@
+{
+  "intro": [
+    {
+      "text": "The royal cargo inspector at Diggen's Point, who checks writs, searches outgoing loads for stowaways, and makes everyone call her by her title.",
+      "revealedIn": [{ "book": "tress", "chapter": "6" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Diggen's Point",
+          "revealedIn": [{ "book": "tress", "chapter": "8" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "The Inspector arrived less than a year before Tress left, and would not give her name, saying she would not stay long enough for it to matter. She soon became known for her strictness, checking every load that left the island.",
+          "revealedIn": [{ "book": "tress", "chapter": "8" }]
+        },
+        {
+          "text": "Royal inspectors were among the few allowed off the island, so Tress stole the Inspector's spare uniform to pose as her, and the dock register was altered to give the Oot's Dream a departure time after its real one. By the time the real Inspector reached the docks, Tress had already sailed.",
+          "revealedIn": [{ "book": "tress", "chapter": "8" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "She wears the royal inspector's red and gold coat, which hangs past her knees, and carries a heavy rod.",
+      "revealedIn": [{ "book": "tress", "chapter": "8" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Stern and exacting, always looking for an excuse to punish someone. She weighs sacks of feathers, stabs barrels of salt and listens to ale barrels through a stethoscope, and is said to hear a stowaway's heartbeat.",
+      "revealedIn": [{ "book": "tress", "chapter": "8" }]
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "intro": [
+    {
+      "text": "A merchant in T'Telir who owns forested land in Hallandren, and an old contact of Denth and Tonk Fah.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "22" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Meeting Vivenna",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "22" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Fob borrowed Lifeless workers from the government to clear his land so he could rent it to farmers. In exchange, everything grown there becomes the gods' property in time of war. He has known Denth and Tonk Fah for a while, and knows they are unscrupulous.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "22" }]
+        },
+        {
+          "text": "Over a meal in a restaurant, Denth urges him to harvest early, arguing that war is coming and his crops could be seized. Fob distrusts him and says the two nations always seem close to war, until Vivenna proves who she is by changing the colour of her royal hair; shaken, he promises to consider it.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "22" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "A small, skeletal man.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "22" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Suspicious by nature.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "22" }]
+    }
+  ]
+}

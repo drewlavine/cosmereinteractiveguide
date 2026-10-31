@@ -1,0 +1,27 @@
+{
+  "intro": [
+    {
+      "text": "A nobleman on Scadrial.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "81" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Luthadel Assembly",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "81" }],
+          "fallback": true
+        }
+      ],
+      "items": [
+        {
+          "text": "He sat on the Luthadel Assembly, and was at Hathsin as one of the few members of Luthadel's government still alive.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "81" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

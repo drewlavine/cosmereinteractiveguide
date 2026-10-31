@@ -1,0 +1,63 @@
+{
+  "intro": [
+    {
+      "text": "A photograph, such as the picture of a crime scene that Wayne studies to work out where the first shots came from.",
+      "revealedIn": [{ "book": "shadows-of-self", "chapter": "5" }]
+    },
+    {
+      "text": "A photograph, made by an early way of capturing images that was invented on Scadrial after the Catacendre.",
+      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "3" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "In 342 PC a new device, the evanoscope, used lights to throw an enlarged evanotype onto a wall or other surface. Wayne and Marasi were astonished to see one at work, and VenDell expected them to become popular.",
+      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "3" }]
+    },
+    {
+      "text": "Evanotypes are taken with special cameras. Early ones were large and needed the subject to keep still; ReLuur's newer camera could catch action and fitted in his pack. By around 330 PC they were common enough to reach the Roughs, and by 348 PC people had worked out moving images. Evanoplays had appeared in Bilming a few years before then.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "shadows-of-self", "chapter": "5" },
+            { "book": "bands-of-mourning", "chapter": "3" },
+            { "book": "lost-metal", "chapter": "45" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Harmony let the idea of moving images slip to the kandra but would say no more about it. The Set had worked out how to make moving evanoscope images.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "bands-of-mourning", "chapter": "3" },
+            { "book": "lost-metal", "chapter": "45" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "reluur",
+      "role": "photographer",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "shadows-of-self", "chapter": "5" },
+            { "book": "bands-of-mourning", "chapter": "3" },
+            { "book": "lost-metal", "chapter": "45" }
+          ]
+        }
+      ]
+    },
+    {
+      "characterId": "vendell",
+      "role": "evanoscope owner",
+      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "3" }]
+    }
+  ]
+}

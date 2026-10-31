@@ -1,0 +1,55 @@
+{
+  "intro": [
+    {
+      "text": "A garment made of one long sheet wound around the body from head to toe, each arm and leg wrapped separately. Both men and women wear it.",
+      "revealedIn": [{ "book": "edgedancer", "chapter": "6" }]
+    },
+    {
+      "text": "The garment of the Tashikki: one long sheet wound around the body from head to toe, each arm and leg wrapped separately. Both men and women wear it.",
+      "revealedIn": [{ "book": "edgedancer", "chapter": "8" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "It has to be draped and tied in a set way; anyone wrapped carelessly is taken for a foreigner.",
+      "revealedIn": [{ "book": "edgedancer", "chapter": "6" }]
+    },
+    {
+      "text": "Tashikki keep to their wraps nearly everywhere, even as far off as Kharbranth. At home, where Tashi is believed to guard the land, they may uncover the head and face or hitch the cloth up to free their legs.",
+      "revealedIn": [{ "book": "edgedancer", "chapter": "12" }]
+    },
+    {
+      "text": "Not every Tashikki wears one: their ambassador to Urithiru wore a flowery suit when the monarchs first met there.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "3" },
+            { "book": "edgedancer", "chapter": "12" },
+            { "book": "oathbringer", "chapter": "96" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "The cloth is usually one plain colour, such as yellow, black or brown. In Celebrant, Adolin saw a spren wearing a shiqua over trousers, an odd pairing.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "edgedancer", "chapter": "18" },
+            { "book": "oathbringer", "chapter": "102" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [],
+  "facts": [
+    {
+      "label": "Worn in",
+      "name": "Tashikk",
+      "placeId": "tashikk",
+      "revealedIn": [{ "book": "edgedancer", "chapter": "8" }]
+    }
+  ],
+  "people": []
+}

@@ -1,0 +1,26 @@
+{
+  "intro": [
+    {
+      "text": "An Elendel solicitor with a reputation for honesty.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "8" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The Vanishers case",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "8" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Wayne heard on the streets that Arintol was honest. Disguised as a corrupt constable, he told the captured Vanisher Sindren to confess what he knew only after the constables promised him freedom with Arintol present.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "8" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

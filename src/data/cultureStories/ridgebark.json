@@ -1,0 +1,71 @@
+{
+  "intro": [
+    {
+      "text": "A common Rosharan stimulant, chewed to stay awake and alert.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-2" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "It is so easy to come by that even street urchins have it. People chew it to keep going when tiredness or injury would otherwise leave them helpless or unconscious.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-2" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Users",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "35" },
+                { "book": "oathbringer", "chapter": "41" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Adolin Kholin kept himself awake with ridgebark while he stood guard all night over his father's room after Szeth's attempt on Dalinar's life. Teft, by contrast, compared casual firemoss use to chewing ridgebark, unlike his own addiction.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "35" },
+                { "book": "oathbringer", "chapter": "41" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "adolin-kholin",
+      "role": "chewed it",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "35" },
+            { "book": "oathbringer", "chapter": "41" }
+          ]
+        }
+      ]
+    },
+    {
+      "characterId": "teft",
+      "role": "mentioned it",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "35" },
+            { "book": "oathbringer", "chapter": "41" }
+          ]
+        }
+      ]
+    }
+  ]
+}

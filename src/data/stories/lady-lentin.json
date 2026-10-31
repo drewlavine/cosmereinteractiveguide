@@ -1,0 +1,26 @@
+{
+  "intro": [
+    {
+      "text": "A guest at Winsting Innate's auction, a gathering of crime lords and corrupt nobles.",
+      "revealedIn": [{ "book": "shadows-of-self", "chapter": "5" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The auction",
+          "revealedIn": [{ "book": "shadows-of-self", "chapter": "5" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Lady Lentin died in the shootout that killed every guest at the auction. Examining the scene afterwards, Wax and Wayne decided she was probably the first one shot, part of the killer's plan to throw the room into chaos.",
+          "revealedIn": [{ "book": "shadows-of-self", "chapter": "5" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

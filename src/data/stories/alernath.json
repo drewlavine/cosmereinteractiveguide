@@ -1,0 +1,26 @@
+{
+  "intro": [
+    {
+      "text": "Lord Alernath, an Elendel nobleman who keeps company with Lord Harms.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "4" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The wedding dinner",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "4" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Lord Harms shared a drink with Alernath at the Yomen-Ostlin wedding dinner.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "4" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

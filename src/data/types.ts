@@ -165,7 +165,6 @@ export interface ListedLocation {
 
 export type ListedAbilityKind =
   | 'system'
-  | 'power'
   | 'metal'
   | 'order'
   | 'user'
@@ -192,6 +191,11 @@ export interface ListedAbility {
   shards?: (AbilityTie & { name: string })[]
   /** The earliest book its Coppermind page cites, or later if set by hand. */
   revealedIn: Reveal
+  /**
+   * When its type (e.g. Investiture) is revealed, if later than its page's
+   * earliest mention; the entry waits for it (see entryRevealedIn).
+   */
+  kindRevealedIn?: Reveal
   /** Every book its page cites, in publication order. */
   books: string[]
   coppermindPage: string

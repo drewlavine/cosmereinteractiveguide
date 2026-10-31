@@ -1,0 +1,62 @@
+{
+  "intro": [
+    {
+      "text": "A manor in Elendel with a huge ballroom.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "4" }]
+    },
+    {
+      "text": "The seat of House Yomen in Elendel's Fourth Octant, sometimes called Yomen mansion.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "6" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "The mansion has a courtyard, many balconies, large kitchens and plenty of servants. Its grand hardwood-floored ballroom can fit hundreds of tables, and the wealthy, powerful house throws lavish parties there.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "6" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "An early visit",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "4" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "As a young man, Waxillium Ladrian visited and saw the vast ballroom standing empty. House Ladrian had a similar ballroom, though not inside its own mansion.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "4" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The Vanishers' raid",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "alloy-of-law", "chapter": "6" },
+                { "book": "shadows-of-self", "chapter": "4" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Joshin Yomen's home hosted the Yomen-Ostlin wedding dinner in its ballroom. The Vanishers raided it, robbing the guests, killing Lord Peterus and taking Steris Harms hostage as they fought Wax and Wayne, leaving the building badly damaged. Captain Brettin of the Fourth Octant constabulary afterwards questioned Wax and other witnesses in the kitchens.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "alloy-of-law", "chapter": "6" },
+                { "book": "shadows-of-self", "chapter": "4" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

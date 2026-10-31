@@ -1,0 +1,42 @@
+{
+  "intro": [
+    {
+      "text": "A building that holds the Taisha Meeting Hall, where Lossand's ruling council, the Taishin, meets.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "4" }]
+    },
+    {
+      "text": "A building that holds both the Taisha Meeting Hall, where Lossand's ruling council meets, and the Trackt Hall, base of the trackts.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "6" }]
+    },
+    {
+      "text": "The headquarters of the Hall of Judges, the trackts and the scribes, and the meeting place of the Taishin, Lossand's ruling council.",
+      "revealedIn": ["white-sand-omnibus"]
+    }
+  ],
+  "description": [
+    {
+      "text": "The council chamber is a large round room with a high ceiling. Tiers of seats circle its walls, the Taisha sitting just above the main floor, and visitors address the council from the open floor in the middle.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "4" }]
+    },
+    {
+      "text": "Outside the main entrance, a clerk at a desk greets visitors, lets them in and announces them.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "4" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Debate over the Diem",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "4" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "The Taishin gathered here to decide whether to disband the Diem of sand masters.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "4" }]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "intro": [
+    {
+      "text": "A district of Sebarial's warcamp on the Shattered Plains, home to many of the warcamps' Herdazians.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "87" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Its buildings are mostly hovels. The district is nominally under Sebarial's rule, but its people give that little weight and keep order among themselves. Lopen's mother lives there, along with an uncle and a number of his cousins.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "87" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Hiding the king",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "87" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "After Graves's attempt on King Elhokar's life, Lopen and Kaladin hid the king in Little Herdaz, counting on the district's habit of keeping to itself.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "87" }]
+        }
+      ]
+    }
+  ]
+}

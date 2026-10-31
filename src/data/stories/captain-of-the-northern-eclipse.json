@@ -1,0 +1,38 @@
+{
+  "intro": [
+    {
+      "text": "The captain of the Northern Eclipse, a boat that trades goods along the waterways of the kingdom of Mountaincrest.",
+      "revealedIn": [{ "book": "fires-of-december", "chapter": "iii" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Aboard the Northern Eclipse",
+          "revealedIn": [
+            { "book": "fires-of-december", "chapter": "iv" },
+            { "book": "fires-of-december", "chapter": "vii" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Returning from the southern plains with fine cloth and other goods, he took on passengers including December and Amaal. She invited him to share meals at the inns they both liked, but he fidgeted the whole time. He took her for a noble, and when she said she wasn't, decided she had given up her rank as Gustavin the Great once did.",
+          "revealedIn": [{ "book": "fires-of-december", "chapter": "iv" }]
+        },
+        {
+          "text": "He had everyone eat aboard so the boat could press on overnight, and urged December to bring a guard ashore at First Dukeseat, which she turned down. While he was at the theatre in Smallport, a man in black boarded and attacked her, and she sent him running. Three days on they reached Kingseat.",
+          "revealedIn": [{ "book": "fires-of-december", "chapter": "vii" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": [
+    {
+      "text": "A keen reader with shelves of novels, some about fashionable society, and well versed in history and politics. He prefers eating at inns to taverns, and never knows quite what to make of December.",
+      "revealedIn": [{ "book": "fires-of-december", "chapter": "vii" }]
+    }
+  ]
+}

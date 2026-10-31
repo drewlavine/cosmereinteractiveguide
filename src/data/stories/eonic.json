@@ -1,0 +1,30 @@
+{
+  "intro": [
+    {
+      "text": "A blacksmith living in New Elantris.",
+      "revealedIn": [{ "book": "elantris", "chapter": "25" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Smith of New Elantris",
+          "revealedIn": [{ "book": "elantris", "chapter": "25" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Eonic was one of the skilled workers Raoden recruited to make life in New Elantris better. Once Sarene began giving out food at the city gates, he was among the few Elantrians who kept faith with Raoden's plans.",
+          "revealedIn": [{ "book": "elantris", "chapter": "25" }]
+        },
+        {
+          "text": "When Raoden asked Sarene for steel, she spitefully sent him thousands of bent nails, but Raoden was sure Eonic could find some use for them.",
+          "revealedIn": [{ "book": "elantris", "chapter": "25" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

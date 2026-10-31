@@ -1,0 +1,64 @@
+{
+  "intro": [
+    {
+      "text": "An ancient poem of Sel, three thousand lines long, about Fjorden's founder, the first Wyrn. It is believed to be Sel's earliest known literary work, predating the Do-Kando.",
+      "revealedIn": [{ "book": "elantris", "chapter": "43" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Altered versions of the poem portray Wyrn as a Derethi and refer again and again to the importance of Jaddeth.",
+      "revealedIn": [{ "book": "elantris", "chapter": "43" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Sarene's discovery",
+          "revealedIn": [{ "book": "elantris", "chapter": "43" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "In Elantris, Sarene found the unaltered poem in a copy of Seor's Encyclopedia of Political Myths, a book that debunked much of the Derethi church's propaganda, citing the altered poem among its examples. In the original, Shu-Dereth goes unmentioned, and Jaddeth is only a minor god of the rocks beneath the ground.",
+          "revealedIn": [{ "book": "elantris", "chapter": "43" }]
+        },
+        {
+          "text": "Sarene noted that Fjorden's priests would be badly embarrassed if their tampering became known.",
+          "revealedIn": [{ "book": "elantris", "chapter": "43" }]
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Length",
+      "name": "Three thousand lines",
+      "revealedIn": [{ "book": "elantris", "chapter": "43" }]
+    },
+    {
+      "label": "Subject",
+      "name": "The first Wyrn",
+      "characterId": "wyrn",
+      "revealedIn": [{ "book": "elantris", "chapter": "43" }]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "wyrn",
+      "role": "subject",
+      "revealedIn": [{ "book": "elantris", "chapter": "43" }]
+    },
+    {
+      "characterId": "sarene",
+      "role": "found the original",
+      "revealedIn": [{ "book": "elantris", "chapter": "43" }]
+    },
+    {
+      "characterId": "seor",
+      "role": "encyclopedia author",
+      "revealedIn": [{ "book": "elantris", "chapter": "43" }]
+    }
+  ]
+}

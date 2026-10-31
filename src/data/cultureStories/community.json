@@ -1,0 +1,118 @@
+{
+  "intro": [
+    {
+      "text": "A staged town where people live, which Marasi and Moonlight watch through one-way glass.",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "53" }]
+    },
+    {
+      "text": "A Set project meant to supply Allomancers for the Set's experiments, where captured people live alongside Set tranquility officers and scientists.",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "57" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "The captives are told that the Ashmounts have erupted, metal mutants roam and the world has ended; that they had been picked to keep civilization going; and that their rescuers had to stage kidnappings to avoid panic. The Set hires actors to play survivors and once even let a 'metal mutant' into the town.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "alloy-of-law", "chapter": "epilogue" },
+            { "book": "lost-metal", "chapter": "57" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "The captives resent their mayor, Gave Entrone.",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "57" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The hidden town",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "alloy-of-law", "chapter": "epilogue" },
+                { "book": "lost-metal", "chapter": "57" }
+              ]
+            },
+            { "book": "lost-metal", "chapter": "68" },
+            { "book": "lost-metal", "chapter": "56" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The Set devised the project before 341 PC under Edwarn Ladrian, who had people with strong Allomantic heritage seized from across the Basin and the Roughs, disguised as kidnappings and hostage-takings. The captives were moved between caverns for two years, then kept for five in Wayfarer, a hidden town beneath Bilming.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "alloy-of-law", "chapter": "epilogue" },
+                { "book": "lost-metal", "chapter": "57" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Gave Entrone took over as the project's leader. He and Telsin Ladrian planned to use Wayfarer as a bunker if Autonomy invaded.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "68" }]
+        },
+        {
+          "text": "Marasi slipped into the Community and found her distant cousin Armal Harms, whom the vanishers had abducted. Entrone had told the residents that the ashfalls had begun again.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "56" }]
+        },
+        {
+          "text": "Marasi convinced several captives that the world above was not as they had been told, defeated Gave with their help and led them out to the surface, ending the Community.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "68" }]
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Location",
+      "name": "Wayfarer",
+      "placeId": "wayfarer",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "alloy-of-law", "chapter": "epilogue" },
+            { "book": "lost-metal", "chapter": "57" }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Mayor",
+      "name": "Gave Entrone",
+      "characterId": "gave-entrone",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "57" }]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "edwarn-ladrian",
+      "role": "first leader",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "alloy-of-law", "chapter": "epilogue" },
+            { "book": "lost-metal", "chapter": "57" }
+          ]
+        }
+      ]
+    },
+    {
+      "characterId": "gave-entrone",
+      "role": "mayor",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "57" }]
+    },
+    {
+      "characterId": "armal",
+      "role": "captive",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "56" }]
+    }
+  ]
+}

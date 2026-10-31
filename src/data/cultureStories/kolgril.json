@@ -1,0 +1,43 @@
+{
+  "intro": [
+    {
+      "text": "A fish of the Purelake.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "i-1" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Purelake folk consider the kolgril very lucky. Eating one is said to ease aching joints for a month, and some claim it lets you read in the clouds when friends will come to visit.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "i-1" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Ishikk's gift",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "i-1" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "One morning Ishikk caught a kolgril and gave it to Maib, who loved the fish for the aches in her fingers, so she would owe him and stop trying to coax him into marriage.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "i-1" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "ishikk",
+      "role": "caught one",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "i-1" }]
+    },
+    {
+      "characterId": "maib",
+      "role": "given one",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "i-1" }]
+    }
+  ]
+}

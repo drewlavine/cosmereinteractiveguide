@@ -1,0 +1,23 @@
+{
+  "intro": [
+    {
+      "text": "A religion grown out of the Final Empire's dominant faith, carried into the new world by obligators who lived through the Final Ascension, Aradan Yomen among them.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "4" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Many outsiders seem to look down on its followers.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "4" }]
+    }
+  ],
+  "history": [],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "aradan-yomen",
+      "role": "obligator",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "4" }]
+    }
+  ]
+}

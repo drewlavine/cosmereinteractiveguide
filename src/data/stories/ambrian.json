@@ -1,0 +1,26 @@
+{
+  "intro": [
+    {
+      "text": "A scholar who wrote about the Voidbringers.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "40" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The Last Desolation",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "40" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Ambrian was the author of The Last Desolation, a work on the mythical Voidbringers. Jasnah Kholin copied passages from it into her notebook.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "40" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

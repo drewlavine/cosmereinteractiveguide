@@ -1,0 +1,52 @@
+{
+  "intro": [
+    {
+      "text": "Dalinar Kholin's account of his life, written in his own hand rather than dictated to a scribe.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "122" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "The epilogue defends Dalinar's belief in a caring power beyond the Almighty while acknowledging Jasnah's objection about innocent suffering.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "77" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Writing the book",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "122" },
+                { "book": "rhythm-of-war", "chapter": "101" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Dalinar completed the manuscript during the Emuli offensive and asked Jasnah to write its undertext.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "122" },
+                { "book": "rhythm-of-war", "chapter": "101" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "dalinar-kholin",
+      "role": "author",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "122" }]
+    }
+  ]
+}

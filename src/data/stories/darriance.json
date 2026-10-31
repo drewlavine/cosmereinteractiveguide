@@ -1,0 +1,45 @@
+{
+  "intro": [
+    {
+      "text": "Wax's butler at Ladrian Mansion in Elendel.",
+      "revealedIn": [{ "book": "shadows-of-self", "chapter": "2" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Butler of Ladrian Mansion",
+          "revealedIn": [
+            { "book": "shadows-of-self", "chapter": "7" },
+            { "book": "shadows-of-self", "chapter": "10" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "When Wax and Wayne came back to the mansion, Darriance told Wax that Ranette had called and left some equipment for him to try out.",
+          "revealedIn": [{ "book": "shadows-of-self", "chapter": "7" }]
+        },
+        {
+          "text": "Besides answering the door, taking coats and holding Wax's messages and parcels, Darriance helped Wax practice with his steel bubble by shooting at him while Wax wore heavy padding and armor.",
+          "revealedIn": [{ "book": "shadows-of-self", "chapter": "10" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": [
+    {
+      "text": "Darriance sticks firmly to protocol and shrugs off Wayne's endless attempts to provoke him, though Wayne jokes that one day the butler will snap and try to kill everyone.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "shadows-of-self", "chapter": "8" },
+            { "book": "bands-of-mourning", "chapter": "4" }
+          ]
+        }
+      ]
+    }
+  ]
+}

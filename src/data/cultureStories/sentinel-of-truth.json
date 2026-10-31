@@ -1,0 +1,80 @@
+{
+  "intro": [
+    {
+      "text": "A broadsheet from Bilming, a city on Scadrial.",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "30" }]
+    },
+    {
+      "text": "A sensational broadsheet from Bilming, on Scadrial, whose editor-in-chief is Maraga Dulcet.",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "33" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "It holds the rights to the serialized Allomancer Jak stories, which sets it apart from similar Bilming broadsheets.",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "31" }]
+    },
+    {
+      "text": "Maraga fills it with cartoons, crude pictures and sensational stories other papers pass over. She once worked at a more respected paper and says those print as many lies as she does, only less openly. Moonlight counts it among Bilming's least reputable broadsheets.",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "33" }]
+    },
+    {
+      "text": "Its offices are at 42-13 Seventh Street, in an old one-story wooden building with an attic and a big basement, one of the few in Bilming not recently renovated.",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "33" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Tobal's evidence",
+          "revealedIn": [
+            { "book": "lost-metal", "chapter": "33" },
+            { "book": "lost-metal", "chapter": "36" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "While investigating the Set, Wax, Wayne, Marasi and Moonlight came to the offices, thinking Tobal Copper might have gone to the press. The building looked abandoned and issues came out irregularly. Once she trusted them, Maraga told them she had met Tobal in secret over a conspiracy in the city; they researched in the basement, writing in metal so nothing could be altered. Since Tobal's killing she had locked herself in, terrified.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "33" }]
+        },
+        {
+          "text": "While Maraga presented the evidence, Telsin turned up to confront Wax and Wayne. Marasi and Moonlight gathered the evidence, and Moonlight had Maraga taken to a Ghostblood safehouse to keep her safe.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "36" }]
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Editor-in-chief",
+      "name": "Maraga Dulcet",
+      "characterId": "maraga-dulcet",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "33" }]
+    },
+    {
+      "label": "Based in",
+      "name": "Bilming",
+      "placeId": "bilming",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "30" }]
+    },
+    {
+      "label": "Address",
+      "name": "42-13 Seventh Street",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "33" }]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "maraga-dulcet",
+      "role": "editor-in-chief",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "33" }]
+    },
+    {
+      "characterId": "tobal-copper",
+      "role": "source",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "33" }]
+    }
+  ]
+}

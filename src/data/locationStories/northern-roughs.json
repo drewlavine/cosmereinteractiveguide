@@ -1,0 +1,58 @@
+{
+  "intro": [
+    {
+      "text": "Scadrial's rough frontier country: vast, dry, dusty plains under a harsh sun, with short, scraggly trees, prickly plants and few large animals beyond lions, giraffes and gazelles.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "alloy-of-law", "chapter": "7" },
+            { "book": "shadows-of-self", "chapter": "prologue" },
+            { "book": "bands-of-mourning", "chapter": "6" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Frontier lands walled off from the fertile Elendel Basin by mountain ranges, and split roughly at the Irongate River into the Northern and Southern Roughs.",
+      "revealedIn": ["lost-metal"]
+    }
+  ],
+  "description": [
+    {
+      "text": "Men and women alike favor dusters, sometimes patterned in color, along with broad-brimmed hats, heavy trousers and buttoned shirts. Faith follows the Basin, with the Path and the Church of the Survivor among the religions, weddings are often held in plain wooden chapels, and the theater tends toward the bawdy.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "alloy-of-law", "chapter": "14" },
+            { "book": "shadows-of-self", "chapter": "5" },
+            { "book": "bands-of-mourning", "chapter": "14" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Its people differ sharply from those of the Basin, though many once lived there. They speak with a Roughs accent, are none too clean, smoke plenty of cigars and share a fatalistic streak, mistrusting authority and often shunning lawmen even if criminals go free as a result. The poor live mostly on beans and oatmeal, and a local fruit hides a gooey inside under a hard shell. People tell tales of dragons, and several koloss clans live there.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "shadows-of-self", "chapter": "5" },
+            { "book": "bands-of-mourning", "chapter": "12" },
+            { "book": "lost-metal", "chapter": "prologue" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Railroad and mining companies regularly offer rewards for outlaws, and for some, bounty hunting is a living. Though behind the Basin in technology, the Roughs are modernizing quickly. One movement has pushed for the Roughs to become a represented province of the Basin, while others would rather be a nation of their own.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "shadows-of-self", "chapter": "prologue" },
+            { "book": "lost-metal", "chapter": "epilogue-7" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": []
+}

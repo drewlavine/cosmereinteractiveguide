@@ -1,0 +1,48 @@
+{
+  "intro": [
+    {
+      "text": "Ranette's girlfriend, who joins her and Wayne at the Drunken Spur.",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "14" }],
+      "fallback": true
+    },
+    {
+      "text": "Ranette's wife: a kind, light-hearted woman with short, tightly curled white-blonde hair and a fondness for sparkle.",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "epilogue-5" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Ranette and Wayne",
+          "revealedIn": [
+            { "book": "lost-metal", "chapter": "14" },
+            { "book": "lost-metal", "chapter": "epilogue-5" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "At the Drunken Spur, Jaxy and Ranette comforted Wayne after losing MeLaan, then persuaded him that delivering money to Allriandre in person every month was selfish and cruel.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "14" }]
+        },
+        {
+          "text": "After Wayne's death, Jaxy saw to the renovation of Ranette's workshop with the money he had given Ranette. The two of them honeymooned in the south; Ranette pretended to grumble about being made to relax, but Jaxy knew she had enjoyed it and teased her for it.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "epilogue-5" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Short, tightly curled white-blonde hair. At the Drunken Spur she wore a white dress with diamond barrettes; Wayne says she likes sparkles.",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "epilogue-5" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Kind and light-hearted, she humors Ranette's grouchiness. She is gentle and sympathetic with Wayne and admires how well he understands people.",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "epilogue-5" }]
+    }
+  ]
+}

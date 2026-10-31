@@ -1,0 +1,18 @@
+{
+  "intro": [
+    {
+      "text": "An illness of Sel. When the Shaod took Duke Telrii's daughter, he claimed dionia had killed her, though the court whispered about what had really happened.",
+      "revealedIn": [{ "book": "elantris", "chapter": "22" }]
+    }
+  ],
+  "description": [],
+  "history": [],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "telrii",
+      "role": "blames it",
+      "revealedIn": [{ "book": "elantris", "chapter": "22" }]
+    }
+  ]
+}

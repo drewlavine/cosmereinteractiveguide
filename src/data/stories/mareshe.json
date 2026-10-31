@@ -1,0 +1,130 @@
+{
+  "intro": [
+    {
+      "text": "A former jeweler newly thrown into Elantris, whom Raoden leads away from Shaor's gang and recruits as a shoemaker.",
+      "revealedIn": [{ "book": "elantris", "chapter": "7" }],
+      "fallback": true
+    },
+    {
+      "text": "An Elantrian and former jeweler, the first person Raoden recruits in his effort to make life in Elantris bearable.",
+      "revealedIn": [{ "book": "elantris", "chapter": "13" }]
+    },
+    {
+      "text": "An Elantrian and former jeweler, Raoden's first recruit and trusted friend, and a driving force behind New Elantris.",
+      "revealedIn": [{ "book": "elantris", "chapter": "28" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "New Elantris",
+          "revealedIn": [
+            { "book": "elantris", "chapter": "10" },
+            { "book": "elantris", "chapter": "13" },
+            { "book": "elantris", "chapter": "23" },
+            { "book": "elantris", "chapter": "34" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The Shaod took Mareshe just two days after Raoden. Frightened when he was thrown in, he gladly let Raoden and Galladon steer him clear of Shaor's men, and became the first recruit to Raoden's plan to improve life in Elantris. A jeweler by trade, he was set to make shoes that fit perfectly, since any blister would never heal, and he managed it with leather from old book covers.",
+          "revealedIn": [{ "book": "elantris", "chapter": "10" }]
+        },
+        {
+          "text": "Mareshe built a roof using a clay-like material he had made himself.",
+          "revealedIn": [{ "book": "elantris", "chapter": "13" }]
+        },
+        {
+          "text": "Mareshe told Raoden when Sarene and a group of nobles from Kae came into Elantris with food. When Sarene met the city's supposed rulers to negotiate, Mareshe played the gang leader Aanden beside Karata.",
+          "revealedIn": [{ "book": "elantris", "chapter": "23" }]
+        },
+        {
+          "text": "As 'Aanden' Mareshe came across as pompous and blustering, leaving Karata to do the real bargaining. His way with words helped win newcomers over, and at Raoden's direction he set Elantrians like Riil, Maare and Kahar to work improving the city. He devised sleds to move the heavy crates Sarene sent, kept track of her supplies, helped Raoden find unusual uses for them, and put Shaor's former followers to work as labourers.",
+          "revealedIn": [{ "book": "elantris", "chapter": "34" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The invasion",
+          "revealedIn": [
+            "hope-of-elantris",
+            { "book": "elantris", "chapter": "epilogue" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Just before the invasion, Mareshe came to the Roost late at night looking for Dashe, and Matisse scolded him for making noise. Finding Dashe gone, he grumbled that Galladon and Karata kept vanishing and keeping secrets.",
+          "revealedIn": ["hope-of-elantris"]
+        },
+        {
+          "text": "During the invasion, Galladon found Mareshe among the Hoed, with a huge ragged hole torn in his chest.",
+          "revealedIn": [{ "book": "elantris", "chapter": "epilogue" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Mareshe is a short, spindly man in his late forties with a small face. Fresh from the Shaod he looked gaunt and nervous-eyed, with an Elantrian's sickly look. In New Elantris he wears its bright clothing, adding extra sashes to look more artistic.",
+      "revealedIn": [
+        { "all": [{ "book": "elantris", "chapter": "23" }, "hope-of-elantris"] }
+      ]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Mareshe is devoted to Raoden, who counts him a friend and confidant and a driving force behind New Elantris. Raoden thinks himself lucky that Mareshe arrived right after him, and trusts him to help run the city.",
+      "revealedIn": [{ "book": "elantris", "chapter": "28" }]
+    },
+    {
+      "text": "Mareshe speaks rather formally, calling Raoden 'my lord', and is vain and haughty; his boasting grates on Galladon. He follows Raoden out of fear at first but soon trusts him, works hard at every task and loves to show off his skills. Though one of Raoden's closest advisers, he is sometimes irked at being kept out of some secrets.",
+      "revealedIn": [
+        { "all": [{ "book": "elantris", "chapter": "23" }, "hope-of-elantris"] }
+      ]
+    }
+  ],
+  "abilities": [
+    {
+      "title": [
+        {
+          "text": "Craftsman",
+          "revealedIn": [
+            { "book": "elantris", "chapter": "49" },
+            { "book": "elantris", "chapter": "23" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "A jeweler by trade, Mareshe claims to be a skilled jack-of-all-trades and, surprisingly, proves it, finding clever uses for the city's scant resources. He is intelligent, organised and practical. He makes perfectly fitting shoes from book-binding leather, an earthen material strong enough to shore up walls and make new roofs, ropes from torn rags, and sleds for moving heavy loads.",
+          "revealedIn": [{ "book": "elantris", "chapter": "49" }]
+        },
+        {
+          "text": "Mareshe tells stories dramatically, if at length, in a way that holds people's attention and wins their trust. He has little experience of acting, though he thinks himself good at it.",
+          "revealedIn": [{ "book": "elantris", "chapter": "23" }]
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "title": [
+        {
+          "text": "Galladon",
+          "revealedIn": [{ "book": "elantris", "chapter": "60" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Galladon and Mareshe do not get along. Galladon is sarcastic and rude to him from the start and doubts he can live up to his boasts. He comes to see Mareshe's ingenuity, but won't admit it, knowing it would only feed his ego. Seeing Mareshe among the Hoed upsets him.",
+          "revealedIn": [{ "book": "elantris", "chapter": "60" }]
+        }
+      ]
+    }
+  ]
+}

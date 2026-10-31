@@ -1,8 +1,11 @@
 import { Fragment } from 'react'
-import { Link, useParams } from 'react-router'
+import { Link, Navigate, useParams } from 'react-router'
 import { EntryPage } from '../components/EntryPage'
 import { abilityKindNames, abilityList } from '../data/abilities'
+import { findCharacter } from '../data/characters'
+import { cultureList } from '../data/culture'
 import { entryRevealedIn } from '../data/entryStories'
+import { eventList } from '../data/events'
 import { useCanSee } from '../state/reveal'
 import { NotFound } from './NotFound'
 
@@ -11,7 +14,17 @@ export function AbilityDetail() {
   const { abilityId } = useParams()
   const canSee = useCanSee()
   const entry = abilityList.find((a) => a.id === abilityId)
-  if (!entry) return <NotFound />
+  if (!entry) {
+    // Entries moved to another list (Reod is an event).
+    const to = eventList.some((e) => e.id === abilityId)
+      ? 'events'
+      : cultureList.some((c) => c.id === abilityId)
+        ? 'culture'
+        : findCharacter(abilityId)
+          ? 'characters'
+          : undefined
+    return to ? <Navigate to={`/${to}/${abilityId}`} replace /> : <NotFound />
+  }
   const systems = (entry.systems ?? [])
     .filter((t) => canSee(t.revealedIn))
     .map((t) => abilityList.find((a) => a.id === t.id))

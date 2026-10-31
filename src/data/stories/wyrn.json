@@ -1,0 +1,26 @@
+{
+  "intro": [
+    {
+      "text": "The king celebrated in Wyrn the King, the oldest literary work known.",
+      "revealedIn": [{ "book": "elantris", "chapter": "43" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Wyrn the King",
+          "revealedIn": [{ "book": "elantris", "chapter": "43" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "He lived long before either Shu-Dereth or Shu-Korath was founded. Once Shu-Dereth became a state religion, Derethi priests altered old records to make it appear that Wyrn had been a Derethi follower of Jaddeth.",
+          "revealedIn": [{ "book": "elantris", "chapter": "43" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

@@ -1,0 +1,33 @@
+{
+  "intro": [
+    {
+      "text": "A fictional noblewoman in the historical drama Seasons of Regret, a hion viewer program.",
+      "revealedIn": [{ "book": "yumi", "chapter": "25" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Seasons of Regret",
+          "revealedIn": [
+            { "book": "yumi", "chapter": "25" },
+            { "book": "yumi", "chapter": "33" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Lady Hinobi, drawn in magenta hion lines, loves the ronin Sir Ashinata but is forbidden to be with him.",
+          "revealedIn": [{ "book": "yumi", "chapter": "25" }]
+        },
+        {
+          "text": "After they first kissed, Ashinata told her he must leave forever because of a danger his late, wicked brother had set in motion. A surprise final episode brought him back to her.",
+          "revealedIn": [{ "book": "yumi", "chapter": "33" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

@@ -1,0 +1,38 @@
+{
+  "intro": [
+    {
+      "text": "A puzzling fragment of old writing that the ardent Urv, who studies the Covad, decided was not Dawnchant at all, but another language spelled out by sound in the Dawnchant's script.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "i-2" }]
+    }
+  ],
+  "description": [],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Translating the Dawnchant",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "i-2" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Once Dalinar and Navani made public how to translate the Dawnchant, scholars set to work on old texts in earnest. Ellista suggested that some of the hardest fragments used its script only to write down the sounds of other languages, and Urv judged this fragment to be one of them.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "i-2" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "urv",
+      "role": "scholar",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "i-2" }]
+    },
+    {
+      "characterId": "ellista",
+      "role": "scholar",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "i-2" }]
+    }
+  ]
+}

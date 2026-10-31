@@ -3541,36 +3541,6 @@ a.search-option:focus-visible {
   outline: none;
 }
 
-.character-group-by {
-  display: inline-flex;
-  gap: 0.5rem;
-  align-items: center;
-  color: var(--gold-soft);
-}
-
-.character-group-by select {
-  padding: 0.4rem 0.6rem;
-  border: 1px solid rgba(212, 165, 64, 0.45);
-  border-radius: 8px;
-  background: var(--slate-deep);
-  color: var(--text-strong);
-  font: inherit;
-}
-
-.character-group-by select:focus {
-  border-color: var(--gold);
-  outline: none;
-}
-
-.character-group h2[data-count]::after {
-  content: attr(data-count);
-  margin-left: 0.6rem;
-  color: var(--text-muted, #9fb0bc);
-  font-family: system-ui, sans-serif;
-  font-size: 0.9rem;
-  font-weight: normal;
-}
-
 .list-alias {
   color: var(--text-muted, #9fb0bc);
   font-size: 0.85em;

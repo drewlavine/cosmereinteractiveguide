@@ -1,0 +1,180 @@
+{
+  "intro": [
+    {
+      "text": "Prophecies from Terris which, by one ancient account, give a man the power to save the world, and hint that he could destroy it as well.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "2" }]
+    },
+    {
+      "text": "Prophecies from Terris foretelling the Hero of Ages, an outsider with the power to save the world, and hinting that he could destroy it as well.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "30" }]
+    },
+    {
+      "text": "Prophecies from Terris foretelling the Hero of Ages, who would be able to save the world. A malevolent force altered them so that the Hero would release the thing imprisoned at the Well of Ascension.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "2" },
+            { "book": "well-of-ascension", "chapter": "epilogue" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "The same ancient writer marvels that Terris, a pastoral land of herdsmen and farmers, produced the prophecies and theologies the whole world relied on in his day.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "3" }]
+    },
+    {
+      "text": "By the prophecies' own account the Hero of Ages is to come from outside, which the writer thinks the Terris packmen fail to grasp as they listen to Rashek.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "30" }]
+    },
+    {
+      "text": "In Khlennium the Hero of Ages was called Rabzeen, and also the Anamnesor.",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "12" }]
+    },
+    {
+      "text": "Translations of the prophecies most often call the Hero 'he', though the word they use is better rendered 'it'.",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "45" }]
+    },
+    {
+      "text": "Ruin altered the prophecies but did not make them up. Older tellings speak of a Hero who would rule all mankind as emperor though his own people rejected him, who would bear the world's future on his arms, and who would mend what had been broken apart. A gender-neutral pronoun leaves it open whether the Hero is a woman or a man.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "69" }]
+    },
+    {
+      "text": "The kandra keep their own Terris prophecies, in which the Hero of Ages is to succeed Preservation.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "75" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Kwaan's Hero",
+          "revealedIn": [
+            { "book": "final-empire", "chapter": "29" },
+            { "book": "well-of-ascension", "chapter": "34" },
+            { "book": "well-of-ascension", "chapter": "40" },
+            { "book": "well-of-ascension", "chapter": "epilogue" },
+            {
+              "all": [
+                { "book": "well-of-ascension", "chapter": "epilogue" },
+                { "book": "hero-of-ages", "chapter": "65" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Kwaan, a Terris philosopher, discovered the old writer and first called him the Hero of Ages, after a long struggle to convince his colleagues. Kwaan then turned against him, preaching against his reign and denouncing him before the Conclave of Worldbringers.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "29" }]
+        },
+        {
+          "text": "Kwaan, a Terris Worldbringer, says he discovered Alendi and was first to proclaim him the Hero of Ages. The other Worldbringers scorned the claim, then came to him admitting they had been wrong, and Kwaan saw himself as the Announcer, the foretold prophet whose role was to find the Hero.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "34" }]
+        },
+        {
+          "text": "Even as the others came round, Kwaan was beginning to doubt his declaration: Alendi seemed to fit the signs too well, as if they had built a hero to fit their prophecies.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "40" }]
+        },
+        {
+          "text": "Kwaan's metal plate at the Conventical of Seran tells how a malevolent force altered the prophecies so that the Hero would release the thing imprisoned at the Well. The other Worldbringers trusted their copperminds and never saw that the prophecies could be changed. Kwaan sent his nephew Rashek, who went with trusted friends as Alendi's packmen, to stop Alendi, killing him if he must. Reading this, Sazed loses all faith.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "epilogue" }]
+        },
+        {
+          "text": "Near the journey's end Rashek killed Alendi and took up Preservation's power at the Well himself. Rather than give it up, as Alendi would have done and as Ruin wanted, he tried to use it to protect the world. He knew many Terris would reject him as the Hero, since he fit their prophecies poorly.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "well-of-ascension", "chapter": "epilogue" },
+                { "book": "hero-of-ages", "chapter": "65" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "After the Lord Ruler",
+          "revealedIn": [
+            { "book": "well-of-ascension", "chapter": "33" },
+            { "book": "well-of-ascension", "chapter": "55" },
+            { "book": "hero-of-ages", "chapter": "28" },
+            { "book": "hero-of-ages", "chapter": "68" },
+            { "book": "hero-of-ages", "chapter": "71" },
+            {
+              "all": [
+                { "book": "well-of-ascension", "chapter": "55" },
+                { "book": "hero-of-ages", "chapter": "82" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Vin wonders if she might really be the Hero of Ages, and the vagueness of the prophecies frustrates her.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "33" }]
+        },
+        {
+          "text": "Watching Vin force the kings besieging Luthadel to submit, Sazed goes over in his mind what the prophecies say of the Hero of Ages, who was to create and destroy nations, and begins to believe Vin is the Hero.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "55" }]
+        },
+        {
+          "text": "When Vin speaks of her destiny as the Hero, Elend points out that Ruin could have corrupted the prophecy.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "28" }]
+        },
+        {
+          "text": "In the kandra Homeland, Sazed declares that he is the Announcer, who found the Hero and has kept watch on her, and he tells the kandra that the end has come.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "68" }]
+        },
+        {
+          "text": "With the kandra First Generation, Sazed combs his notes for Ruin's changes. He believes the prophecies kept the neutral pronoun so they could point to a woman: Vin.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "71" }]
+        },
+        {
+          "text": "Holding Preservation's power, Vin strikes Ruin so hard that he dies, but the blow costs her life as well. Seeing his copperminds on his arms, Sazed remembers the prophecies and draws in both powers. He renews the land and its failing ecology, and remains as the Hero of Ages, watching over and guiding the world.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "well-of-ascension", "chapter": "55" },
+                { "book": "hero-of-ages", "chapter": "82" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "kwaan",
+      "role": "Terris philosopher",
+      "revealedIn": [{ "book": "final-empire", "chapter": "29" }]
+    },
+    {
+      "characterId": "alendi",
+      "role": "Proclaimed Hero",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "34" }]
+    },
+    {
+      "characterId": "vin",
+      "role": "Believed Hero",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "55" }]
+    },
+    {
+      "characterId": "sazed",
+      "role": "Keeper",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "55" }]
+    },
+    {
+      "characterId": "rashek",
+      "role": "Kwaan's nephew",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "epilogue" }]
+    }
+  ]
+}

@@ -77,6 +77,110 @@
     {
       "title": [
         {
+          "text": "Direct gifts of the Surges",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "107" },
+            { "book": "wind-and-truth", "chapter": "140" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Honor and Odium granted unrestricted Surges on Ashyn; their use in prolonged warfare devastated the world.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "107" }]
+        },
+        {
+          "text": "Nightblood learned Surgebinding from the Honorblades and can grant it to a wielder.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "140" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Control and resistance",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "19" },
+            { "book": "wind-and-truth", "chapter": "45" },
+            { "book": "wind-and-truth", "chapter": "90" },
+            { "book": "wind-and-truth", "chapter": "61" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Windrunners shape air pressure to keep a group together and reduce resistance during flight.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "19" }]
+        },
+        {
+          "text": "Division starts a reaction in an object's soul. Precise use can require convincing the object to regard itself as smaller pieces.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "45" }]
+        },
+        {
+          "text": "Abrasion can increase friction as well as remove it, improving grip and the force of a push.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "90" }]
+        },
+        {
+          "text": "Investiture resists Cohesion and Tension; even a small amount of Stormlight can stop Cohesion from changing an object.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "61" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Realms and visions",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "29" },
+            { "book": "wind-and-truth", "chapter": "80" },
+            { "book": "wind-and-truth", "chapter": "107" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "A double spren bond can let a Surgebinder enter Shadesmar through Transformation, without bringing others or returning alone.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "29" }]
+        },
+        {
+          "text": "Bondsmiths use Connection to place people in visions and navigate the Spiritual Realm.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "80" }]
+        },
+        {
+          "text": "Elsecalling can locate the rhythms of planets.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "107" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Fused techniques",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "67" },
+            { "book": "wind-and-truth", "chapter": "103" },
+            { "book": "wind-and-truth", "chapter": "81" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Masked Ones can place illusions on objects, but can spend less Light on them than Radiants.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "67" }]
+        },
+        {
+          "text": "Magnified Ones grow their bodies into tools and weapons rather than healing other people with Progression.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "103" }]
+        },
+        {
+          "text": "Focused Ones compress their corded flesh and release it to strike or throw with great force.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "81" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
           "text": "Light",
           "revealedIn": [
             {

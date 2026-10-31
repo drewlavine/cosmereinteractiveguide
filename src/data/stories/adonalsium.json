@@ -21,6 +21,34 @@
     {
       "title": [
         {
+          "text": "Before the Shattering",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "66" },
+                { "book": "wind-and-truth", "chapter": "100" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Adonalsium created Roshar and the ancient entities called the Wind, the Stone and the Night. Singers worshipped Adonalsium before Honor and Cultivation arrived.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "66" },
+                { "book": "wind-and-truth", "chapter": "100" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
           "text": "The Shattering",
           "revealedIn": [
             {
@@ -65,5 +93,37 @@
     }
   ],
   "appearance": [],
-  "personality": []
+  "personality": [],
+  "description": [
+    {
+      "title": [
+        {
+          "text": "Singers' beliefs",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "43" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "The ancient singers called Adonalsium the Origin of Songs, regarded it as gender-neutral, and continued to hope for its return after the Shattering.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "43" }]
+        }
+      ]
+    }
+  ],
+  "abilities": [
+    {
+      "title": [
+        {
+          "text": "Investiture",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "100" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "The cosmere's Investiture derives from Adonalsium. Highstorms and spren existed before the Shattering, when Adonalsium directly governed their powers and limits.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "100" }]
+        }
+      ]
+    }
+  ]
 }

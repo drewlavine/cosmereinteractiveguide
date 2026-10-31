@@ -1,0 +1,54 @@
+{
+  "intro": [
+    {
+      "text": "A wealthy Elendel noblewoman, born an Ostlin, whose marriage to Lord Joshin Yomen makes her part of House Yomen.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "4" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The Yomen wedding",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "6" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Mi'chelle married Lord Joshin Yomen, and their reception at Yomen Manor was attended by Wax, Wayne, Marasi and the Harmses. The Vanishers raided the reception and made off with valuables, among them her bridal necklace.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "6" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Senator",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "alloy-of-law", "chapter": "4" },
+                { "book": "lost-metal", "chapter": "33" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "As a senator, Lady Yomen cast the first vote on the bill that would strengthen Elendel's hold on the Outer Cities, voting against it, in line with Wax's speech. Wax regards her as a good friend and a senator he can trust.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "alloy-of-law", "chapter": "4" },
+                { "book": "lost-metal", "chapter": "33" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

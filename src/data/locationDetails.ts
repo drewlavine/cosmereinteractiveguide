@@ -5,6 +5,84 @@
 import type { LocationDetails } from './types'
 
 export const locationDetails: Record<string, LocationDetails> = {
+  'abiding-light': {
+    facts: [
+      {
+        label: 'Region',
+        name: 'Sea of Souls',
+        placeId: 'sea-of-souls',
+        revealedIn: [
+          {
+            all: ['oathbringer', 'rhythm-of-war'],
+          },
+        ],
+      },
+    ],
+    people: [],
+  },
+  abri: {
+    facts: [
+      {
+        label: 'Type',
+        name: 'Island',
+        revealedIn: ['oathbringer'],
+      },
+      {
+        label: 'Region',
+        name: 'The Reshi Isles',
+        placeId: 'reshi-isles',
+        revealedIn: ['oathbringer'],
+      },
+    ],
+    people: [],
+  },
+  'ageless-beauty': {
+    facts: [
+      {
+        label: 'Region',
+        name: 'Sea of Souls',
+        placeId: 'sea-of-souls',
+        revealedIn: [
+          {
+            all: ['oathbringer', 'rhythm-of-war'],
+          },
+        ],
+      },
+    ],
+    people: [],
+  },
+  'ahlstrom-tower': {
+    facts: [
+      {
+        label: 'Owners',
+        name: 'Waxillium Ladrian',
+        characterId: 'waxillium-ladrian',
+        revealedIn: [
+          {
+            book: 'bands-of-mourning',
+            chapter: '31',
+          },
+        ],
+      },
+      {
+        label: 'Used for',
+        name: 'Skyscraper',
+        revealedIn: [
+          {
+            book: 'bands-of-mourning',
+            chapter: '31',
+          },
+        ],
+      },
+      {
+        label: 'City',
+        name: 'Elendel',
+        placeId: 'elendel',
+        revealedIn: ['bands-of-mourning'],
+      },
+    ],
+    people: [],
+  },
   aimia: {
     facts: [
       {
@@ -20,6 +98,89 @@ export const locationDetails: Record<string, LocationDetails> = {
             chapter: '54',
           },
         ],
+      },
+    ],
+    people: [],
+  },
+  'aimian-sea': {
+    facts: [
+      {
+        label: 'Type',
+        name: 'Sea',
+        revealedIn: [
+          {
+            book: 'oathbringer',
+            chapter: 'i-4',
+          },
+        ],
+      },
+    ],
+    people: [],
+  },
+  akak: {
+    facts: [
+      {
+        label: 'Type',
+        name: 'Island',
+        revealedIn: [
+          {
+            all: [
+              {
+                book: 'way-of-kings',
+                chapter: '56',
+              },
+              {
+                book: 'oathbringer',
+                chapter: '52',
+              },
+            ],
+          },
+          {
+            all: [
+              {
+                book: 'oathbringer',
+                chapter: '52',
+              },
+              {
+                book: 'way-of-kings',
+                chapter: '56',
+              },
+            ],
+          },
+        ],
+      },
+      {
+        label: 'Region',
+        name: 'Reshi Isles',
+        placeId: 'reshi-isles',
+        revealedIn: [
+          {
+            all: [
+              'way-of-kings',
+              {
+                book: 'oathbringer',
+                chapter: '52',
+              },
+            ],
+          },
+        ],
+      },
+    ],
+    people: [],
+  },
+  akanny: {
+    facts: [
+      {
+        label: 'Region',
+        name: 'Sadeas princedom',
+        placeId: 'sadeas-princedom',
+        revealedIn: ['oathbringer'],
+      },
+      {
+        label: 'Region',
+        name: 'Alethkar',
+        placeId: 'alethkar',
+        revealedIn: ['oathbringer'],
       },
     ],
     people: [],
@@ -42,6 +203,17 @@ export const locationDetails: Record<string, LocationDetails> = {
         name: 'Alethkar',
         placeId: 'alethkar',
         revealedIn: ['way-of-kings'],
+      },
+    ],
+    people: [],
+  },
+  alendel: {
+    facts: [
+      {
+        label: 'Region',
+        name: 'Elendel Basin',
+        placeId: 'elendel-basin',
+        revealedIn: ['alloy-of-law'],
       },
     ],
     people: [],
@@ -73,6 +245,168 @@ export const locationDetails: Record<string, LocationDetails> = {
         label: 'Ruled by',
         name: 'The Nine',
         revealedIn: ['wind-and-truth'],
+      },
+    ],
+    people: [],
+  },
+  alicago: {
+    facts: [
+      {
+        label: 'Type',
+        name: 'Island',
+        revealedIn: [
+          {
+            book: 'lost-metal',
+            chapter: '70',
+          },
+        ],
+      },
+    ],
+    people: [],
+  },
+  'alls-alley': {
+    facts: [
+      {
+        label: 'Owner',
+        name: 'Sullik',
+        characterId: 'sullik',
+        revealedIn: [
+          {
+            book: 'oathbringer',
+            chapter: '18',
+          },
+        ],
+      },
+      {
+        label: 'Used for',
+        name: 'Tavern',
+        revealedIn: [
+          {
+            book: 'oathbringer',
+            chapter: '18',
+          },
+        ],
+      },
+      {
+        label: 'City',
+        name: 'Urithiru',
+        placeId: 'urithiru',
+        revealedIn: ['oathbringer'],
+      },
+    ],
+    people: [],
+  },
+  alm: {
+    facts: [
+      {
+        label: 'People',
+        name: 'Makabaki',
+        revealedIn: ['way-of-kings'],
+      },
+      {
+        label: 'Ruled by',
+        name: 'Prime Aqasix Yanagawn',
+        revealedIn: [
+          {
+            all: [
+              {
+                book: 'oathbringer',
+                chapter: '12',
+              },
+              'way-of-kings',
+            ],
+          },
+          {
+            all: [
+              {
+                book: 'oathbringer',
+                chapter: '65',
+              },
+              'way-of-kings',
+            ],
+          },
+        ],
+      },
+      {
+        label: 'Region',
+        name: 'Makabak',
+        placeId: 'makabak',
+        revealedIn: ['way-of-kings'],
+      },
+    ],
+    people: [],
+  },
+  amydlatn: {
+    facts: [
+      {
+        label: 'Region',
+        name: 'Frostlands',
+        placeId: 'frostlands',
+        revealedIn: ['words-of-radiance'],
+      },
+    ],
+    people: [],
+  },
+  arak: {
+    facts: [
+      {
+        label: 'Type',
+        name: 'Island',
+        revealedIn: ['oathbringer'],
+      },
+      {
+        label: 'Region',
+        name: 'The Reshi Isles',
+        placeId: 'reshi-isles',
+        revealedIn: ['oathbringer'],
+      },
+    ],
+    people: [],
+  },
+  'aredel-river': {
+    facts: [
+      {
+        label: 'Type',
+        name: 'River',
+        revealedIn: [
+          {
+            book: 'elantris',
+            chapter: '49',
+          },
+        ],
+      },
+      {
+        label: 'Region',
+        name: 'Arelon',
+        placeId: 'arelon',
+        revealedIn: ['elantris'],
+      },
+    ],
+    people: [],
+  },
+  arelon: {
+    facts: [
+      {
+        label: 'Capital',
+        name: 'Elantris',
+        placeId: 'elantris',
+        revealedIn: [
+          {
+            book: 'elantris',
+            chapter: '11',
+          },
+        ],
+      },
+      {
+        label: 'Capital',
+        name: 'Kae',
+        placeId: 'kae',
+        revealedIn: ['elantris'],
+      },
+      {
+        label: 'Region',
+        name: 'Opelon',
+        revealedIn: ['elantris'],
       },
     ],
     people: [],
@@ -112,6 +446,83 @@ export const locationDetails: Record<string, LocationDetails> = {
           {
             book: 'final-empire',
             chapter: '6',
+          },
+        ],
+      },
+    ],
+    people: [],
+  },
+  'astral-banks': {
+    facts: [
+      {
+        label: 'Region',
+        name: 'Sea of Souls',
+        placeId: 'sea-of-souls',
+        revealedIn: [
+          {
+            all: ['oathbringer', 'rhythm-of-war'],
+          },
+        ],
+      },
+    ],
+    people: [],
+  },
+  'atad-mountains': {
+    facts: [
+      {
+        label: 'Type',
+        name: 'Mountains',
+        revealedIn: [
+          {
+            book: 'elantris',
+            chapter: '3',
+          },
+        ],
+      },
+      {
+        label: 'Region',
+        name: 'Opelon',
+        revealedIn: [
+          {
+            book: 'elantris',
+            chapter: '3',
+          },
+        ],
+      },
+    ],
+    people: [],
+  },
+  austrex: {
+    facts: [
+      {
+        label: 'Dominance',
+        name: 'Southern Dominance',
+        revealedIn: [
+          {
+            book: 'secret-history',
+            chapter: '4-2',
+          },
+        ],
+      },
+      {
+        label: 'Nation',
+        name: 'Final Empire',
+        placeId: 'final-empire',
+        revealedIn: ['secret-history'],
+      },
+    ],
+    people: [],
+  },
+  ayabiza: {
+    facts: [
+      {
+        label: 'Nation',
+        name: 'Shinovar',
+        placeId: 'shinovar',
+        revealedIn: [
+          {
+            book: 'wind-and-truth',
+            chapter: '92',
           },
         ],
       },
@@ -185,6 +596,16 @@ export const locationDetails: Record<string, LocationDetails> = {
           {
             book: 'wind-and-truth',
             chapter: '60',
+          },
+        ],
+      },
+      {
+        characterId: 'ulak',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'wind-and-truth',
+            chapter: '14',
           },
         ],
       },
@@ -273,6 +694,21 @@ export const locationDetails: Record<string, LocationDetails> = {
     ],
     people: [],
   },
+  'basin-of-the-veiled-sun': {
+    facts: [
+      {
+        label: 'Region',
+        name: 'Sea of Souls',
+        placeId: 'sea-of-souls',
+        revealedIn: [
+          {
+            all: ['oathbringer', 'rhythm-of-war'],
+          },
+        ],
+      },
+    ],
+    people: [],
+  },
   basmardin: {
     facts: [
       {
@@ -280,6 +716,69 @@ export const locationDetails: Record<string, LocationDetails> = {
         name: 'Final Empire',
         placeId: 'final-empire',
         revealedIn: ['hero-of-ages'],
+      },
+    ],
+    people: [],
+  },
+  'bastion-hill': {
+    facts: [
+      {
+        label: 'Region',
+        name: 'The Forests of Hell',
+        placeId: 'forests-of-hell',
+        revealedIn: ['shadows-for-silence'],
+      },
+    ],
+    people: [],
+  },
+  bavland: {
+    facts: [
+      {
+        label: 'Nation',
+        name: 'Jah Keved',
+        placeId: 'jah-keved',
+        revealedIn: ['way-of-kings'],
+      },
+    ],
+    people: [
+      {
+        characterId: 'amark',
+        relation: 'citizen',
+        revealedIn: [
+          {
+            book: 'way-of-kings',
+            chapter: 'i-3',
+          },
+        ],
+      },
+      {
+        characterId: 'makkek',
+        relation: 'citizen',
+        revealedIn: [
+          {
+            book: 'way-of-kings',
+            chapter: 'i-6',
+          },
+        ],
+      },
+    ],
+  },
+  'bay-of-elibath': {
+    facts: [
+      {
+        label: 'Type',
+        name: 'Bay',
+        revealedIn: [
+          {
+            all: ['oathbringer', 'way-of-kings'],
+          },
+        ],
+      },
+      {
+        label: 'Region',
+        name: 'Alethkar',
+        placeId: 'alethkar',
+        revealedIn: ['way-of-kings'],
       },
     ],
     people: [],
@@ -415,6 +914,274 @@ export const locationDetails: Record<string, LocationDetails> = {
       },
     ],
   },
+  berizhet: {
+    facts: [
+      {
+        label: 'Nation',
+        name: 'Liafor',
+        placeId: 'liafor',
+        revealedIn: ['oathbringer'],
+      },
+    ],
+    people: [],
+  },
+  'bethab-princedom': {
+    facts: [
+      {
+        label: 'Nation',
+        name: 'Alethkar',
+        placeId: 'alethkar',
+        revealedIn: [
+          {
+            all: [
+              'way-of-kings',
+              {
+                book: 'words-of-radiance',
+                chapter: '67',
+              },
+            ],
+          },
+        ],
+      },
+    ],
+    people: [],
+  },
+  bevalis: {
+    facts: [
+      {
+        label: 'Nation',
+        name: 'Idris',
+        placeId: 'idris',
+        revealedIn: ['warbreaker'],
+      },
+    ],
+    people: [
+      {
+        characterId: 'dedelin',
+        relation: 'resident',
+        revealedIn: ['warbreaker'],
+      },
+      {
+        characterId: 'fafen',
+        relation: 'resident',
+        revealedIn: ['warbreaker'],
+      },
+      {
+        characterId: 'mab',
+        relation: 'resident',
+        revealedIn: ['warbreaker'],
+      },
+      {
+        characterId: 'ridger',
+        relation: 'resident',
+        revealedIn: ['warbreaker'],
+      },
+      {
+        characterId: 'vivennas-mother',
+        relation: 'resident',
+        revealedIn: ['warbreaker'],
+      },
+      {
+        characterId: 'yarda',
+        relation: 'resident',
+        revealedIn: ['warbreaker'],
+      },
+    ],
+  },
+  bilming: {
+    facts: [
+      {
+        label: 'Region',
+        name: 'Elendel Basin',
+        placeId: 'elendel-basin',
+        revealedIn: [
+          {
+            all: [
+              'alloy-of-law',
+              {
+                book: 'shadows-of-self',
+                chapter: '5',
+              },
+              {
+                book: 'bands-of-mourning',
+                chapter: '21',
+              },
+              {
+                book: 'lost-metal',
+                chapter: '20',
+              },
+            ],
+          },
+        ],
+      },
+    ],
+    people: [
+      {
+        characterId: 'blantach',
+        relation: 'resident',
+        revealedIn: [
+          {
+            all: [
+              {
+                book: 'lost-metal',
+                chapter: '26',
+              },
+              {
+                book: 'shadows-of-self',
+                chapter: '5',
+              },
+              {
+                book: 'bands-of-mourning',
+                chapter: '21',
+              },
+            ],
+          },
+        ],
+      },
+      {
+        characterId: 'darkwater',
+        relation: 'resident',
+        revealedIn: [
+          {
+            all: [
+              'lost-metal',
+              {
+                book: 'shadows-of-self',
+                chapter: '5',
+              },
+              {
+                book: 'bands-of-mourning',
+                chapter: '21',
+              },
+            ],
+          },
+        ],
+      },
+      {
+        characterId: 'embrier',
+        relation: 'resident',
+        revealedIn: [
+          {
+            all: [
+              {
+                book: 'lost-metal',
+                chapter: '21',
+              },
+              {
+                book: 'shadows-of-self',
+                chapter: '5',
+              },
+              {
+                book: 'bands-of-mourning',
+                chapter: '21',
+              },
+            ],
+          },
+        ],
+      },
+      {
+        characterId: 'fion',
+        relation: 'resident',
+        revealedIn: [
+          {
+            all: [
+              'lost-metal',
+              {
+                book: 'shadows-of-self',
+                chapter: '5',
+              },
+              {
+                book: 'bands-of-mourning',
+                chapter: '21',
+              },
+            ],
+          },
+        ],
+      },
+      {
+        characterId: 'gave-entrone',
+        relation: 'resident',
+        revealedIn: [
+          {
+            all: [
+              {
+                book: 'lost-metal',
+                chapter: '27',
+              },
+              {
+                book: 'shadows-of-self',
+                chapter: '5',
+              },
+              {
+                book: 'bands-of-mourning',
+                chapter: '21',
+              },
+            ],
+          },
+        ],
+      },
+      {
+        characterId: 'kyndlip-ternavyl',
+        relation: 'resident',
+        revealedIn: [
+          {
+            all: [
+              'lost-metal',
+              {
+                book: 'shadows-of-self',
+                chapter: '5',
+              },
+              {
+                book: 'bands-of-mourning',
+                chapter: '21',
+              },
+            ],
+          },
+        ],
+      },
+      {
+        characterId: 'maraga-dulcet',
+        relation: 'resident',
+        revealedIn: [
+          {
+            all: [
+              {
+                book: 'lost-metal',
+                chapter: '33',
+              },
+              {
+                book: 'shadows-of-self',
+                chapter: '5',
+              },
+              {
+                book: 'bands-of-mourning',
+                chapter: '21',
+              },
+            ],
+          },
+        ],
+      },
+      {
+        characterId: 'pielle-fromed',
+        relation: 'resident',
+        revealedIn: [
+          {
+            all: [
+              'lost-metal',
+              {
+                book: 'shadows-of-self',
+                chapter: '5',
+              },
+              {
+                book: 'bands-of-mourning',
+                chapter: '21',
+              },
+            ],
+          },
+        ],
+      },
+    ],
+  },
   'black-lake': {
     facts: [
       {
@@ -431,6 +1198,123 @@ export const locationDetails: Record<string, LocationDetails> = {
         label: 'Region',
         name: 'Eastern Dominance',
         revealedIn: ['final-empire'],
+      },
+    ],
+    people: [],
+  },
+  'bondsmith-monastery': {
+    facts: [
+      {
+        label: 'Used for',
+        name: 'Worship of Ishu',
+        characterId: 'ishar',
+        revealedIn: ['wind-and-truth'],
+      },
+      {
+        label: 'Used for',
+        name: 'custody of the Bondsmith Honorblade',
+        revealedIn: ['wind-and-truth'],
+      },
+      {
+        label: 'Region',
+        name: 'Shinovar',
+        placeId: 'shinovar',
+        revealedIn: [
+          {
+            book: 'wind-and-truth',
+            chapter: '92',
+          },
+        ],
+      },
+    ],
+    people: [],
+  },
+  'border-ocean': {
+    facts: [
+      {
+        label: 'Type',
+        name: 'Sea',
+        revealedIn: ['white-sand-omnibus'],
+      },
+    ],
+    people: [],
+  },
+  bornwater: {
+    facts: [
+      {
+        label: 'Region',
+        name: 'Bavland',
+        placeId: 'bavland',
+        revealedIn: [
+          {
+            book: 'way-of-kings',
+            chapter: 'i-6',
+          },
+        ],
+      },
+      {
+        label: 'Nation',
+        name: 'Jah Keved',
+        placeId: 'jah-keved',
+        revealedIn: ['way-of-kings'],
+      },
+    ],
+    people: [
+      {
+        characterId: 'gavashaw',
+        relation: 'resident',
+        revealedIn: ['way-of-kings'],
+      },
+      {
+        characterId: 'makkek',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'way-of-kings',
+            chapter: 'i-6',
+          },
+        ],
+      },
+    ],
+  },
+  'bricks-tavern': {
+    facts: [
+      {
+        label: 'Owner',
+        name: 'Brick',
+        characterId: 'brick',
+        revealedIn: [
+          {
+            book: 'tress',
+            chapter: '7',
+          },
+        ],
+      },
+    ],
+    people: [],
+  },
+  'bright-sea': {
+    facts: [
+      {
+        label: 'Type',
+        name: 'Sea',
+        revealedIn: [
+          {
+            book: 'warbreaker',
+            chapter: '4',
+          },
+        ],
+      },
+    ],
+    people: [],
+  },
+  'brilliance-eternal': {
+    facts: [
+      {
+        label: 'Region',
+        name: 'Sea of Souls',
+        placeId: 'sea-of-souls',
+        revealedIn: ['rhythm-of-war'],
       },
     ],
     people: [],
@@ -494,6 +1378,17 @@ export const locationDetails: Record<string, LocationDetails> = {
     ],
     people: [],
   },
+  'burning-gardens': {
+    facts: [
+      {
+        label: 'Region',
+        name: 'Sea of Lost Lights',
+        placeId: 'sea-of-lost-lights',
+        revealedIn: ['oathbringer'],
+      },
+    ],
+    people: [],
+  },
   burnlands: {
     facts: [
       {
@@ -511,6 +1406,17 @@ export const locationDetails: Record<string, LocationDetails> = {
         name: 'Final Empire',
         placeId: 'final-empire',
         revealedIn: ['well-of-ascension'],
+      },
+    ],
+    people: [],
+  },
+  callingfale: {
+    facts: [
+      {
+        label: 'Region',
+        name: 'The Roughs',
+        placeId: 'northern-roughs',
+        revealedIn: ['alloy-of-law'],
       },
     ],
     people: [],
@@ -564,7 +1470,61 @@ export const locationDetails: Record<string, LocationDetails> = {
     ],
     people: [],
   },
+  candlemore: {
+    facts: [
+      {
+        label: 'Region',
+        name: 'Sea of Lost Lights',
+        placeId: 'sea-of-lost-lights',
+        revealedIn: ['oathbringer'],
+      },
+    ],
+    people: [],
+  },
+  canticle: {
+    facts: [],
+    people: [
+      {
+        characterId: 'haridan',
+        relation: 'resident',
+        revealedIn: ['sunlit-man'],
+      },
+    ],
+  },
+  'caretaker-of-laughter': {
+    facts: [
+      {
+        label: 'Region',
+        name: 'Sea of Lost Lights',
+        placeId: 'sea-of-lost-lights',
+        revealedIn: ['oathbringer'],
+      },
+    ],
+    people: [],
+  },
+  'carlos-bend': {
+    facts: [
+      {
+        label: 'Region',
+        name: 'Elendel Basin',
+        placeId: 'elendel-basin',
+        revealedIn: ['alloy-of-law'],
+      },
+    ],
+    people: [],
+  },
   celebrant: {
+    facts: [
+      {
+        label: 'Region',
+        name: 'Sea of Lost Lights',
+        placeId: 'sea-of-lost-lights',
+        revealedIn: ['oathbringer'],
+      },
+    ],
+    people: [],
+  },
+  'celebrant-channel': {
     facts: [
       {
         label: 'Region',
@@ -596,6 +1556,30 @@ export const locationDetails: Record<string, LocationDetails> = {
     ],
     people: [],
   },
+  'channerel-range': {
+    facts: [
+      {
+        label: 'Type',
+        name: 'Mountains',
+        revealedIn: [
+          {
+            all: ['alloy-of-law', 'final-empire'],
+          },
+        ],
+      },
+      {
+        label: 'Region',
+        name: 'Elendel Basin',
+        placeId: 'elendel-basin',
+        revealedIn: [
+          {
+            all: ['alloy-of-law', 'final-empire'],
+          },
+        ],
+      },
+    ],
+    people: [],
+  },
   chardees: {
     facts: [
       {
@@ -616,6 +1600,65 @@ export const locationDetails: Record<string, LocationDetails> = {
       },
     ],
     people: [],
+  },
+  chedesh: {
+    facts: [],
+    people: [
+      {
+        characterId: 'vo',
+        relation: 'born',
+        revealedIn: [
+          {
+            book: 'warbreaker',
+            chapter: '32',
+          },
+        ],
+      },
+    ],
+  },
+  'clarvonnes-theater': {
+    facts: [
+      {
+        label: 'City',
+        name: 'Elendel',
+        placeId: 'elendel',
+        revealedIn: ['shadows-of-self'],
+      },
+    ],
+    people: [],
+  },
+  clearmount: {
+    facts: [
+      {
+        label: 'Region',
+        name: 'Nirovah Valley',
+        placeId: 'nirovah-valley',
+        revealedIn: [
+          {
+            book: 'wind-and-truth',
+            chapter: '40',
+          },
+        ],
+      },
+      {
+        label: 'Nation',
+        name: 'Shinovar',
+        placeId: 'shinovar',
+        revealedIn: [
+          {
+            book: 'wind-and-truth',
+            chapter: '24',
+          },
+        ],
+      },
+    ],
+    people: [
+      {
+        characterId: 'szeth',
+        relation: 'born',
+        revealedIn: ['wind-and-truth'],
+      },
+    ],
   },
   'clubss-shop': {
     facts: [
@@ -673,6 +1716,26 @@ export const locationDetails: Record<string, LocationDetails> = {
     ],
     people: [],
   },
+  concordance: {
+    facts: [
+      {
+        label: 'Used for',
+        name: 'Bar',
+        revealedIn: ['fires-of-december'],
+      },
+      {
+        label: 'City',
+        name: 'Kingseat',
+        revealedIn: [
+          {
+            book: 'fires-of-december',
+            chapter: 'xxviii',
+          },
+        ],
+      },
+    ],
+    people: [],
+  },
   'conventical-of-seran': {
     facts: [
       {
@@ -709,6 +1772,132 @@ export const locationDetails: Record<string, LocationDetails> = {
     ],
     people: [],
   },
+  'coolerim-playhouse': {
+    facts: [
+      {
+        label: 'Used for',
+        name: 'Theater',
+        revealedIn: [
+          {
+            book: 'alloy-of-law',
+            chapter: '2',
+          },
+        ],
+      },
+      {
+        label: 'City',
+        name: 'Elendel',
+        placeId: 'elendel',
+        revealedIn: ['alloy-of-law'],
+      },
+    ],
+    people: [],
+  },
+  corbeau: {
+    facts: [
+      {
+        label: 'Region',
+        name: 'Elendel Basin',
+        placeId: 'elendel-basin',
+        revealedIn: [
+          {
+            all: [
+              'alloy-of-law',
+              {
+                book: 'shadows-of-self',
+                chapter: '6',
+              },
+            ],
+          },
+        ],
+      },
+    ],
+    people: [],
+  },
+  'core-archipelago': {
+    facts: [
+      {
+        label: 'Type',
+        name: 'Island',
+        revealedIn: [
+          {
+            book: 'tress',
+            chapter: '8',
+          },
+        ],
+      },
+      {
+        label: 'Region',
+        name: 'Emerald Sea',
+        placeId: 'emerald-sea',
+        revealedIn: ['tress'],
+      },
+    ],
+    people: [],
+  },
+  'counselors-cup': {
+    facts: [
+      {
+        label: 'Used for',
+        name: 'Pub',
+        revealedIn: [
+          {
+            book: 'shadows-of-self',
+            chapter: '11',
+          },
+        ],
+      },
+      {
+        label: 'City',
+        name: 'Elendel',
+        placeId: 'elendel',
+        revealedIn: ['shadows-of-self'],
+      },
+    ],
+    people: [],
+  },
+  'court-of-gods': {
+    facts: [
+      {
+        label: 'Used for',
+        name: 'Government',
+        revealedIn: [
+          {
+            book: 'warbreaker',
+            chapter: '47',
+          },
+        ],
+      },
+      {
+        label: 'Used for',
+        name: 'Palace',
+        revealedIn: [
+          {
+            book: 'warbreaker',
+            chapter: '3',
+          },
+        ],
+      },
+      {
+        label: 'City',
+        name: "T'Telir",
+        placeId: 'ttelir',
+        revealedIn: [
+          {
+            book: 'warbreaker',
+            chapter: '5',
+          },
+        ],
+      },
+      {
+        label: 'Nation',
+        name: 'Hallandren',
+        placeId: 'hallandren',
+        revealedIn: ['warbreaker'],
+      },
+    ],
+    people: [],
+  },
   courteline: {
     facts: [
       {
@@ -716,6 +1905,49 @@ export const locationDetails: Record<string, LocationDetails> = {
         name: 'Final Empire',
         placeId: 'final-empire',
         revealedIn: ['final-empire'],
+      },
+    ],
+    people: [],
+  },
+  covingtar: {
+    facts: [
+      {
+        label: 'Region',
+        name: 'The Roughs',
+        placeId: 'northern-roughs',
+        revealedIn: ['alloy-of-law'],
+      },
+    ],
+    people: [],
+  },
+  'crimson-sea': {
+    facts: [
+      {
+        label: 'Type',
+        name: 'Ocean',
+        revealedIn: [
+          {
+            book: 'tress',
+            chapter: '35',
+          },
+        ],
+      },
+    ],
+    people: [],
+  },
+  'crossroads-garden': {
+    facts: [
+      {
+        label: 'City',
+        name: "T'Telir",
+        placeId: 'ttelir',
+        revealedIn: ['warbreaker'],
+      },
+      {
+        label: 'Nation',
+        name: 'Hallandren',
+        placeId: 'hallandren',
+        revealedIn: ['warbreaker'],
       },
     ],
     people: [],
@@ -746,6 +1978,31 @@ export const locationDetails: Record<string, LocationDetails> = {
     ],
     people: [],
   },
+  'dakwaras-island': {
+    facts: [
+      {
+        label: 'Type',
+        name: 'Island',
+        revealedIn: [
+          {
+            book: 'isles-of-the-emberdark',
+            chapter: '52',
+          },
+        ],
+      },
+      {
+        label: 'Region',
+        name: 'Drominad subastral',
+        revealedIn: [
+          {
+            book: 'isles-of-the-emberdark',
+            chapter: '60',
+          },
+        ],
+      },
+    ],
+    people: [],
+  },
   dalilak: {
     facts: [
       {
@@ -768,6 +2025,178 @@ export const locationDetails: Record<string, LocationDetails> = {
       },
     ],
   },
+  'dampmere-park': {
+    facts: [
+      {
+        label: 'City',
+        name: 'Elendel',
+        placeId: 'elendel',
+        revealedIn: ['alloy-of-law'],
+      },
+    ],
+    people: [],
+  },
+  danidan: {
+    facts: [
+      {
+        label: 'Nation',
+        name: 'Alethkar',
+        placeId: 'alethkar',
+        revealedIn: ['oathbringer'],
+      },
+    ],
+    people: [],
+  },
+  darkhill: {
+    facts: [
+      {
+        label: 'Nation',
+        name: 'Alethkar',
+        placeId: 'alethkar',
+        revealedIn: ['oathbringer'],
+      },
+    ],
+    people: [],
+  },
+  davinar: {
+    facts: [
+      {
+        label: 'Nation',
+        name: 'Alethkar',
+        placeId: 'alethkar',
+        revealedIn: ['oathbringer'],
+      },
+    ],
+    people: [],
+  },
+  'dawns-shadow': {
+    facts: [
+      {
+        label: 'Region',
+        name: 'Unclaimed Hills',
+        placeId: 'unclaimed-hills',
+        revealedIn: [
+          {
+            all: [
+              'way-of-kings',
+              {
+                book: 'words-of-radiance',
+                chapter: '60',
+              },
+              {
+                book: 'oathbringer',
+                chapter: '67',
+              },
+            ],
+          },
+        ],
+      },
+    ],
+    people: [],
+  },
+  dazarlomue: {
+    facts: [
+      {
+        label: 'Region',
+        name: 'Elendel Basin',
+        placeId: 'elendel-basin',
+        revealedIn: ['alloy-of-law'],
+      },
+    ],
+    people: [],
+  },
+  'ddenir-garden': {
+    facts: [
+      {
+        label: 'City',
+        name: "T'Telir",
+        placeId: 'ttelir',
+        revealedIn: [
+          {
+            book: 'warbreaker',
+            chapter: '29',
+          },
+        ],
+      },
+      {
+        label: 'Nation',
+        name: 'Hallandren',
+        placeId: 'hallandren',
+        revealedIn: ['warbreaker'],
+      },
+    ],
+    people: [],
+  },
+  'deathbend-river': {
+    facts: [
+      {
+        label: 'Type',
+        name: 'River',
+        revealedIn: [
+          {
+            all: [
+              {
+                book: 'oathbringer',
+                chapter: '58',
+              },
+              {
+                book: 'way-of-kings',
+                chapter: '28',
+              },
+            ],
+          },
+        ],
+      },
+      {
+        label: 'Region',
+        name: 'Alethkar',
+        placeId: 'alethkar',
+        revealedIn: ['way-of-kings'],
+      },
+    ],
+    people: [],
+  },
+  'deep-sand': {
+    facts: [
+      {
+        label: 'Region',
+        name: 'Dayside',
+        revealedIn: ['white-sand-omnibus'],
+      },
+    ],
+    people: [],
+  },
+  'demoux-city': {
+    facts: [
+      {
+        label: 'Region',
+        name: 'Elendel Basin',
+        placeId: 'elendel-basin',
+        revealedIn: [
+          {
+            all: [
+              'alloy-of-law',
+              {
+                book: 'lost-metal',
+                chapter: '19',
+              },
+            ],
+          },
+        ],
+      },
+    ],
+    people: [],
+  },
+  denka: {
+    facts: [
+      {
+        label: 'Region',
+        name: 'Dayside',
+        revealedIn: ['white-sand-omnibus'],
+      },
+    ],
+    people: [],
+  },
   derytatith: {
     facts: [
       {
@@ -789,6 +2218,26 @@ export const locationDetails: Record<string, LocationDetails> = {
     ],
     people: [],
   },
+  desh: {
+    facts: [
+      {
+        label: 'People',
+        name: 'Deshi',
+        revealedIn: [
+          {
+            all: [
+              {
+                book: 'dawnshard',
+                chapter: '12',
+              },
+              'way-of-kings',
+            ],
+          },
+        ],
+      },
+    ],
+    people: [],
+  },
   devanex: {
     facts: [
       {
@@ -800,6 +2249,353 @@ export const locationDetails: Record<string, LocationDetails> = {
     ],
     people: [],
   },
+  'diggens-point': {
+    facts: [
+      {
+        label: 'Type',
+        name: 'Island',
+        revealedIn: [
+          {
+            book: 'tress',
+            chapter: '1',
+          },
+        ],
+      },
+      {
+        label: 'Region',
+        name: 'Emerald Sea',
+        placeId: 'emerald-sea',
+        revealedIn: ['tress'],
+      },
+    ],
+    people: [
+      {
+        characterId: 'brick',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'tress',
+            chapter: '7',
+          },
+        ],
+      },
+      {
+        characterId: 'brunswick',
+        relation: 'resident',
+        revealedIn: ['tress'],
+      },
+      {
+        characterId: 'charlie',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'tress',
+            chapter: '5',
+          },
+        ],
+      },
+      {
+        characterId: 'charlies-father',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'tress',
+            chapter: '5',
+          },
+        ],
+      },
+      {
+        characterId: 'dirk',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'tress',
+            chapter: '5',
+          },
+        ],
+      },
+      {
+        characterId: 'flik',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'tress',
+            chapter: '5',
+          },
+        ],
+      },
+      {
+        characterId: 'gremmy',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'tress',
+            chapter: '7',
+          },
+        ],
+      },
+      {
+        characterId: 'gret',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'tress',
+            chapter: '7',
+          },
+        ],
+      },
+      {
+        characterId: 'inspector',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'tress',
+            chapter: '8',
+          },
+        ],
+      },
+      {
+        characterId: 'jule',
+        relation: 'resident',
+        revealedIn: ['tress'],
+      },
+      {
+        characterId: 'lead',
+        relation: 'resident',
+        revealedIn: ['tress'],
+      },
+      {
+        characterId: 'lem',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'tress',
+            chapter: '7',
+          },
+        ],
+      },
+      {
+        characterId: 'princess-of-dormancy',
+        relation: 'resident',
+        revealedIn: ['tress'],
+      },
+      {
+        characterId: 'rod-lumar',
+        relation: 'resident',
+        revealedIn: ['tress'],
+      },
+      {
+        characterId: 'snagu',
+        relation: 'resident',
+        revealedIn: ['tress'],
+      },
+      {
+        characterId: 'sor',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'tress',
+            chapter: '7',
+          },
+        ],
+      },
+      {
+        characterId: 'tress',
+        relation: 'born',
+        revealedIn: [
+          {
+            book: 'tress',
+            chapter: '1',
+          },
+        ],
+      },
+      {
+        characterId: 'ulba',
+        relation: 'resident',
+        revealedIn: ['tress'],
+      },
+    ],
+  },
+  'disons-valley': {
+    facts: [
+      {
+        label: 'Type',
+        name: 'Valley',
+        revealedIn: [
+          {
+            book: 'wind-and-truth',
+            chapter: '27',
+          },
+        ],
+      },
+      {
+        label: 'Region',
+        name: 'Shinovar',
+        placeId: 'shinovar',
+        revealedIn: [
+          {
+            book: 'wind-and-truth',
+            chapter: '27',
+          },
+        ],
+      },
+    ],
+    people: [],
+  },
+  domistar: {
+    facts: [
+      {
+        label: 'Nation',
+        name: 'Yulay',
+        placeId: 'yulay',
+        revealedIn: ['rhythm-of-war'],
+      },
+    ],
+    people: [],
+  },
+  'doriel-town': {
+    facts: [
+      {
+        label: 'Region',
+        name: 'Elendel Basin',
+        placeId: 'elendel-basin',
+        revealedIn: ['alloy-of-law'],
+      },
+    ],
+    people: [],
+  },
+  'dosha-harken': {
+    facts: [
+      {
+        label: 'Region',
+        name: 'Dayside',
+        revealedIn: [
+          {
+            book: 'white-sand-omnibus',
+            chapter: 'prologue',
+          },
+        ],
+      },
+      {
+        label: 'Nation',
+        name: 'Kerzta',
+        placeId: 'kerzta',
+        revealedIn: ['white-sand-omnibus'],
+      },
+    ],
+    people: [],
+  },
+  doxonar: {
+    facts: [
+      {
+        label: 'Region',
+        name: 'Elendel Basin',
+        placeId: 'elendel-basin',
+        revealedIn: ['alloy-of-law'],
+      },
+    ],
+    people: [],
+  },
+  'dromatory-isles': {
+    facts: [
+      {
+        label: 'Type',
+        name: 'Island',
+        revealedIn: [
+          {
+            book: 'tress',
+            chapter: '35',
+          },
+        ],
+      },
+    ],
+    people: [],
+  },
+  'drunken-spur': {
+    facts: [
+      {
+        label: 'Used for',
+        name: 'Restaurant',
+        revealedIn: [
+          {
+            book: 'lost-metal',
+            chapter: '14',
+          },
+        ],
+      },
+      {
+        label: 'City',
+        name: 'Elendel',
+        placeId: 'elendel',
+        revealedIn: ['lost-metal'],
+      },
+    ],
+    people: [],
+  },
+  'drunmu-basin': {
+    facts: [
+      {
+        label: 'Nation',
+        name: 'Emul',
+        placeId: 'emul',
+        revealedIn: [
+          {
+            all: [
+              'oathbringer',
+              {
+                book: 'rhythm-of-war',
+                chapter: '64',
+              },
+            ],
+          },
+        ],
+      },
+    ],
+    people: [],
+  },
+  'drying-sea': {
+    facts: [
+      {
+        label: 'Type',
+        name: 'Sea',
+        revealedIn: [
+          {
+            book: 'way-of-kings',
+            chapter: '28',
+          },
+        ],
+      },
+      {
+        label: 'Region',
+        name: 'Frostlands or Unclaimed Hills',
+        placeId: 'frostlands',
+        revealedIn: ['way-of-kings'],
+      },
+    ],
+    people: [],
+  },
+  dryport: {
+    facts: [
+      {
+        label: 'Region',
+        name: 'Elendel Basin',
+        placeId: 'elendel-basin',
+        revealedIn: ['alloy-of-law'],
+      },
+    ],
+    people: [],
+  },
+  drypost: {
+    facts: [
+      {
+        label: 'Region',
+        name: 'Elendel Basin',
+        placeId: 'elendel-basin',
+        revealedIn: ['alloy-of-law'],
+      },
+    ],
+    people: [],
+  },
   'dueling-arena': {
     facts: [
       {
@@ -807,6 +2603,1553 @@ export const locationDetails: Record<string, LocationDetails> = {
         name: 'The Shattered Plains',
         placeId: 'shattered-plains',
         revealedIn: ['way-of-kings'],
+      },
+    ],
+    people: [],
+  },
+  duladel: {
+    facts: [
+      {
+        label: 'People',
+        name: 'Dula',
+        revealedIn: [
+          {
+            book: 'elantris',
+            chapter: '3',
+          },
+        ],
+      },
+      {
+        label: 'Region',
+        name: 'Opelon',
+        revealedIn: [
+          {
+            book: 'elantris',
+            chapter: '10',
+          },
+        ],
+      },
+    ],
+    people: [
+      {
+        characterId: 'edan',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'elantris',
+            chapter: '26',
+          },
+        ],
+      },
+    ],
+  },
+  'dulouis-building': {
+    facts: [
+      {
+        label: 'City',
+        name: 'Bilming',
+        placeId: 'bilming',
+        revealedIn: ['lost-metal'],
+      },
+    ],
+    people: [],
+  },
+  dulsing: {
+    facts: [
+      {
+        label: 'Region',
+        name: 'Elendel Basin',
+        placeId: 'elendel-basin',
+        revealedIn: ['bands-of-mourning'],
+      },
+    ],
+    people: [],
+  },
+  dumadari: {
+    facts: [
+      {
+        label: 'Region',
+        name: 'Border between Jah Keved & Alethkar',
+        placeId: 'jah-keved',
+        revealedIn: ['way-of-kings'],
+      },
+    ],
+    people: [],
+  },
+  'dustbringer-monastery': {
+    facts: [
+      {
+        label: 'Used for',
+        name: 'Worship of Chana',
+        revealedIn: ['wind-and-truth'],
+      },
+      {
+        label: 'Used for',
+        name: 'custody of the Dustbringer Honorblade',
+        revealedIn: ['wind-and-truth'],
+      },
+      {
+        label: 'Region',
+        name: 'Shinovar',
+        placeId: 'shinovar',
+        revealedIn: [
+          {
+            book: 'wind-and-truth',
+            chapter: '90',
+          },
+        ],
+      },
+    ],
+    people: [],
+  },
+  dynasty: {
+    facts: [
+      {
+        label: 'Ruled by',
+        name: 'Emperor Skathan',
+        characterId: 'skathan',
+        revealedIn: [
+          {
+            book: 'white-sand-omnibus',
+            chapter: '4',
+          },
+          {
+            book: 'white-sand-omnibus',
+            chapter: '4',
+          },
+        ],
+      },
+      {
+        label: 'Region',
+        name: 'Darkside',
+        revealedIn: [
+          {
+            book: 'white-sand-omnibus',
+            chapter: '4',
+          },
+          {
+            book: 'white-sand-omnibus',
+            chapter: '4',
+          },
+        ],
+      },
+    ],
+    people: [],
+  },
+  dzhamar: {
+    facts: [
+      {
+        label: 'People',
+        name: 'Dzhamarian',
+        revealedIn: [
+          {
+            book: 'emperors-soul',
+            chapter: 'day-42',
+          },
+          {
+            book: 'emperors-soul',
+            chapter: 'day-76',
+          },
+        ],
+      },
+      {
+        label: 'Region',
+        name: 'Rose Empire',
+        placeId: 'rose-empire',
+        revealedIn: ['emperors-soul'],
+      },
+    ],
+    people: [],
+  },
+  eastbridge: {
+    facts: [
+      {
+        label: 'Used for',
+        name: 'Bridge',
+        revealedIn: [
+          {
+            book: 'shadows-of-self',
+            chapter: '18',
+          },
+        ],
+      },
+      {
+        label: 'City',
+        name: 'Elendel',
+        placeId: 'elendel',
+        revealedIn: [
+          {
+            all: [
+              'alloy-of-law',
+              {
+                book: 'shadows-of-self',
+                chapter: '18',
+              },
+            ],
+          },
+        ],
+      },
+    ],
+    people: [],
+  },
+  'eastern-crownlands': {
+    facts: [
+      {
+        label: 'Nation',
+        name: 'Alethkar',
+        placeId: 'alethkar',
+        revealedIn: ['oathbringer'],
+      },
+    ],
+    people: [],
+  },
+  'edgedancer-monastery': {
+    facts: [
+      {
+        label: 'Region',
+        name: 'Shinovar',
+        placeId: 'shinovar',
+        revealedIn: ['wind-and-truth'],
+      },
+    ],
+    people: [],
+  },
+  eila: {
+    facts: [
+      {
+        label: 'Nation',
+        name: 'Iri',
+        placeId: 'iri',
+        revealedIn: ['oathbringer'],
+      },
+    ],
+    people: [],
+  },
+  elanar: {
+    facts: [
+      {
+        label: 'Nation',
+        name: 'Jah Keved',
+        placeId: 'jah-keved',
+        revealedIn: ['oathbringer'],
+      },
+    ],
+    people: [],
+  },
+  elantris: {
+    facts: [
+      {
+        label: 'Region',
+        name: 'Opelon',
+        revealedIn: [
+          {
+            book: 'elantris',
+            chapter: '5',
+          },
+        ],
+      },
+      {
+        label: 'Nation',
+        name: 'Arelon',
+        placeId: 'arelon',
+        revealedIn: ['elantris'],
+      },
+    ],
+    people: [
+      {
+        characterId: 'aeo',
+        relation: 'resident',
+        revealedIn: [
+          {
+            all: [
+              'hope-of-elantris',
+              {
+                book: 'elantris',
+                chapter: '5',
+              },
+            ],
+          },
+        ],
+      },
+      {
+        characterId: 'dahad',
+        relation: 'resident',
+        revealedIn: ['elantris'],
+      },
+      {
+        characterId: 'dashe',
+        relation: 'resident',
+        revealedIn: [
+          {
+            all: [
+              'hope-of-elantris',
+              {
+                book: 'elantris',
+                chapter: '5',
+              },
+            ],
+          },
+        ],
+      },
+      {
+        characterId: 'dion',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'elantris',
+            chapter: '22',
+          },
+        ],
+      },
+      {
+        characterId: 'diren',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'elantris',
+            chapter: '18',
+          },
+        ],
+      },
+      {
+        characterId: 'eonic',
+        relation: 'resident',
+        revealedIn: ['elantris'],
+      },
+      {
+        characterId: 'galladon',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'elantris',
+            chapter: '25',
+          },
+        ],
+      },
+      {
+        characterId: 'galladons-father',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'elantris',
+            chapter: '25',
+          },
+        ],
+      },
+      {
+        characterId: 'horen',
+        relation: 'resident',
+        revealedIn: ['elantris'],
+      },
+      {
+        characterId: 'idotris',
+        relation: 'resident',
+        revealedIn: [
+          {
+            all: [
+              'hope-of-elantris',
+              {
+                book: 'elantris',
+                chapter: '5',
+              },
+            ],
+          },
+        ],
+      },
+      {
+        characterId: 'ien',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'elantris',
+            chapter: '5',
+          },
+        ],
+      },
+      {
+        characterId: 'kahar',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'elantris',
+            chapter: '25',
+          },
+        ],
+      },
+      {
+        characterId: 'karata',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'elantris',
+            chapter: '5',
+          },
+        ],
+      },
+      {
+        characterId: 'loren',
+        relation: 'resident',
+        revealedIn: ['elantris'],
+      },
+      {
+        characterId: 'maare',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'elantris',
+            chapter: '10',
+          },
+        ],
+      },
+      {
+        characterId: 'mareshe',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'elantris',
+            chapter: '7',
+          },
+        ],
+      },
+      {
+        characterId: 'matisse',
+        relation: 'resident',
+        revealedIn: [
+          {
+            all: [
+              'hope-of-elantris',
+              {
+                book: 'elantris',
+                chapter: '5',
+              },
+            ],
+          },
+        ],
+      },
+      {
+        characterId: 'raoden',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'elantris',
+            chapter: '19',
+          },
+        ],
+      },
+      {
+        characterId: 'riika',
+        relation: 'resident',
+        revealedIn: [
+          {
+            all: [
+              'hope-of-elantris',
+              {
+                book: 'elantris',
+                chapter: '5',
+              },
+            ],
+          },
+        ],
+      },
+      {
+        characterId: 'riil',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'elantris',
+            chapter: '10',
+          },
+        ],
+      },
+      {
+        characterId: 'saolin',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'elantris',
+            chapter: '10',
+          },
+        ],
+      },
+      {
+        characterId: 'shaor',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'elantris',
+            chapter: '5',
+          },
+        ],
+      },
+      {
+        characterId: 'taan',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'elantris',
+            chapter: '10',
+          },
+        ],
+      },
+      {
+        characterId: 'taid',
+        relation: 'resident',
+        revealedIn: [
+          {
+            all: [
+              'hope-of-elantris',
+              {
+                book: 'elantris',
+                chapter: '5',
+              },
+            ],
+          },
+        ],
+      },
+      {
+        characterId: 'tenrao',
+        relation: 'resident',
+        revealedIn: ['elantris'],
+      },
+      {
+        characterId: 'teor',
+        relation: 'resident',
+        revealedIn: [
+          {
+            all: [
+              'hope-of-elantris',
+              {
+                book: 'elantris',
+                chapter: '5',
+              },
+            ],
+          },
+        ],
+      },
+      {
+        characterId: 'tiil',
+        relation: 'resident',
+        revealedIn: [
+          {
+            all: [
+              'hope-of-elantris',
+              {
+                book: 'elantris',
+                chapter: '5',
+              },
+            ],
+          },
+        ],
+      },
+    ],
+  },
+  elendel: {
+    facts: [
+      {
+        label: 'Region',
+        name: 'Elendel Basin',
+        placeId: 'elendel-basin',
+        revealedIn: ['alloy-of-law'],
+      },
+    ],
+    people: [
+      {
+        characterId: 'adawathwyn',
+        relation: 'resident',
+        revealedIn: [
+          {
+            all: [
+              {
+                book: 'lost-metal',
+                chapter: '31',
+              },
+              'alloy-of-law',
+            ],
+          },
+        ],
+      },
+      {
+        characterId: 'allriandre-durkel',
+        relation: 'resident',
+        revealedIn: [
+          {
+            all: [
+              {
+                book: 'shadows-of-self',
+                chapter: '5',
+              },
+              'alloy-of-law',
+            ],
+          },
+        ],
+      },
+      {
+        characterId: 'armal',
+        relation: 'resident',
+        revealedIn: [
+          {
+            all: ['lost-metal', 'alloy-of-law'],
+          },
+        ],
+      },
+      {
+        characterId: 'aving-cett',
+        relation: 'resident',
+        revealedIn: ['alloy-of-law'],
+      },
+      {
+        characterId: 'blue',
+        relation: 'resident',
+        revealedIn: [
+          {
+            all: ['shadows-of-self', 'alloy-of-law'],
+          },
+        ],
+      },
+      {
+        characterId: 'brettin',
+        relation: 'resident',
+        revealedIn: ['alloy-of-law'],
+      },
+      {
+        characterId: 'caberel',
+        relation: 'resident',
+        revealedIn: [
+          {
+            all: ['shadows-of-self', 'alloy-of-law'],
+          },
+        ],
+      },
+      {
+        characterId: 'call',
+        relation: 'resident',
+        revealedIn: [
+          {
+            all: [
+              {
+                book: 'lost-metal',
+                chapter: '14',
+              },
+              'alloy-of-law',
+            ],
+          },
+        ],
+      },
+      {
+        characterId: 'cett',
+        relation: 'resident',
+        revealedIn: [
+          {
+            all: ['shadows-of-self', 'alloy-of-law'],
+          },
+        ],
+      },
+      {
+        characterId: 'chapaou',
+        relation: 'resident',
+        revealedIn: [
+          {
+            all: [
+              {
+                book: 'shadows-of-self',
+                chapter: '15',
+              },
+              'alloy-of-law',
+            ],
+          },
+        ],
+      },
+      {
+        characterId: 'chip-constable',
+        relation: 'resident',
+        revealedIn: [
+          {
+            all: ['shadows-of-self', 'alloy-of-law'],
+          },
+        ],
+      },
+      {
+        characterId: 'chip-erikell',
+        relation: 'resident',
+        revealedIn: [
+          {
+            all: ['shadows-of-self', 'alloy-of-law'],
+          },
+        ],
+      },
+      {
+        characterId: 'clamps',
+        relation: 'resident',
+        revealedIn: ['alloy-of-law'],
+      },
+      {
+        characterId: 'clotide',
+        relation: 'resident',
+        revealedIn: [
+          {
+            all: ['shadows-of-self', 'alloy-of-law'],
+          },
+        ],
+      },
+      {
+        characterId: 'coussaint',
+        relation: 'resident',
+        revealedIn: [
+          {
+            all: ['lost-metal', 'alloy-of-law'],
+          },
+        ],
+      },
+      {
+        characterId: 'darlin-cett',
+        relation: 'resident',
+        revealedIn: [
+          {
+            all: [
+              {
+                book: 'lost-metal',
+                chapter: '38',
+              },
+              'alloy-of-law',
+            ],
+          },
+        ],
+      },
+      {
+        characterId: 'darriance',
+        relation: 'resident',
+        revealedIn: [
+          {
+            all: ['bands-of-mourning', 'alloy-of-law'],
+          },
+        ],
+      },
+      {
+        characterId: 'dent',
+        relation: 'resident',
+        revealedIn: [
+          {
+            all: ['bands-of-mourning', 'alloy-of-law'],
+          },
+        ],
+      },
+      {
+        characterId: 'dims',
+        relation: 'resident',
+        revealedIn: [
+          {
+            all: [
+              {
+                book: 'shadows-of-self',
+                chapter: '5',
+              },
+              'alloy-of-law',
+            ],
+          },
+        ],
+      },
+      {
+        characterId: 'donton',
+        relation: 'resident',
+        revealedIn: [
+          {
+            all: ['shadows-of-self', 'alloy-of-law'],
+          },
+        ],
+      },
+      {
+        characterId: 'dowser-maline',
+        relation: 'resident',
+        revealedIn: [
+          {
+            all: [
+              {
+                book: 'shadows-of-self',
+                chapter: '5',
+              },
+              'alloy-of-law',
+            ],
+          },
+        ],
+      },
+      {
+        characterId: 'drapen',
+        relation: 'resident',
+        revealedIn: [
+          {
+            all: ['bands-of-mourning', 'alloy-of-law'],
+          },
+        ],
+      },
+      {
+        characterId: 'drewton',
+        relation: 'resident',
+        revealedIn: [
+          {
+            all: [
+              {
+                book: 'bands-of-mourning',
+                chapter: 'epilogue',
+              },
+              'alloy-of-law',
+            ],
+          },
+        ],
+      },
+      {
+        characterId: 'dupon-melstrom',
+        relation: 'resident',
+        revealedIn: [
+          {
+            all: [
+              {
+                book: 'lost-metal',
+                chapter: '2',
+              },
+              'alloy-of-law',
+            ],
+          },
+        ],
+      },
+      {
+        characterId: 'edwarn-ladrian',
+        relation: 'resident',
+        revealedIn: [
+          {
+            all: [
+              {
+                book: 'bands-of-mourning',
+                chapter: '17',
+              },
+              'alloy-of-law',
+            ],
+          },
+        ],
+      },
+      {
+        characterId: 'father-bin',
+        relation: 'resident',
+        revealedIn: [
+          {
+            all: ['shadows-of-self', 'alloy-of-law'],
+          },
+        ],
+      },
+      {
+        characterId: 'flog',
+        relation: 'resident',
+        revealedIn: [
+          {
+            all: ['shadows-of-self', 'alloy-of-law'],
+          },
+        ],
+      },
+      {
+        characterId: 'garisel-daring',
+        relation: 'resident',
+        revealedIn: [
+          {
+            all: [
+              {
+                book: 'lost-metal',
+                chapter: '16',
+              },
+              'alloy-of-law',
+            ],
+          },
+        ],
+      },
+      {
+        characterId: 'gemdwyn',
+        relation: 'resident',
+        revealedIn: [
+          {
+            all: ['lost-metal', 'alloy-of-law'],
+          },
+        ],
+      },
+      {
+        characterId: 'gorglen',
+        relation: 'resident',
+        revealedIn: [
+          {
+            all: ['lost-metal', 'alloy-of-law'],
+          },
+        ],
+      },
+      {
+        characterId: 'halex',
+        relation: 'resident',
+        revealedIn: [
+          {
+            all: ['shadows-of-self', 'alloy-of-law'],
+          },
+        ],
+      },
+      {
+        characterId: 'herve',
+        relation: 'resident',
+        revealedIn: [
+          {
+            all: ['bands-of-mourning', 'alloy-of-law'],
+          },
+        ],
+      },
+      {
+        characterId: 'hughes-entrone',
+        relation: 'resident',
+        revealedIn: [
+          {
+            all: ['shadows-of-self', 'alloy-of-law'],
+          },
+        ],
+      },
+      {
+        characterId: 'idashwy',
+        relation: 'resident',
+        revealedIn: [
+          {
+            all: ['bands-of-mourning', 'alloy-of-law'],
+          },
+        ],
+      },
+      {
+        characterId: 'jackstom-harms',
+        relation: 'resident',
+        revealedIn: ['alloy-of-law'],
+      },
+      {
+        characterId: 'javies',
+        relation: 'resident',
+        revealedIn: [
+          {
+            all: ['shadows-of-self', 'alloy-of-law'],
+          },
+        ],
+      },
+      {
+        characterId: 'jaxy',
+        relation: 'resident',
+        revealedIn: [
+          {
+            all: [
+              {
+                book: 'lost-metal',
+                chapter: 'epilogue-5',
+              },
+              'alloy-of-law',
+            ],
+          },
+        ],
+      },
+      {
+        characterId: 'jendel',
+        relation: 'resident',
+        revealedIn: [
+          {
+            all: [
+              {
+                book: 'shadows-of-self',
+                chapter: '8',
+              },
+              'alloy-of-law',
+            ],
+          },
+        ],
+      },
+      {
+        characterId: 'jone',
+        relation: 'resident',
+        revealedIn: [
+          {
+            all: ['wind-and-truth', 'alloy-of-law'],
+          },
+        ],
+      },
+      {
+        characterId: 'joshin-yomen',
+        relation: 'resident',
+        revealedIn: ['alloy-of-law'],
+      },
+      {
+        characterId: 'kath',
+        relation: 'resident',
+        revealedIn: [
+          {
+            all: [
+              {
+                book: 'lost-metal',
+                chapter: '5',
+              },
+              'alloy-of-law',
+            ],
+          },
+        ],
+      },
+      {
+        characterId: 'kellen',
+        relation: 'resident',
+        revealedIn: [
+          {
+            all: ['lost-metal', 'alloy-of-law'],
+          },
+        ],
+      },
+      {
+        characterId: 'kip',
+        relation: 'resident',
+        revealedIn: ['alloy-of-law'],
+      },
+      {
+        characterId: 'krent',
+        relation: 'resident',
+        revealedIn: ['alloy-of-law'],
+      },
+      {
+        characterId: 'kwashim',
+        relation: 'resident',
+        revealedIn: [
+          {
+            all: [
+              {
+                book: 'bands-of-mourning',
+                chapter: 'prologue',
+              },
+              'alloy-of-law',
+            ],
+          },
+        ],
+      },
+      {
+        characterId: 'lady-gardre',
+        relation: 'resident',
+        revealedIn: [
+          {
+            all: [
+              {
+                book: 'lost-metal',
+                chapter: '48',
+              },
+              'alloy-of-law',
+            ],
+          },
+        ],
+      },
+      {
+        characterId: 'lady-mulgrave',
+        relation: 'resident',
+        revealedIn: [
+          {
+            all: ['shadows-of-self', 'alloy-of-law'],
+          },
+        ],
+      },
+      {
+        characterId: 'limmi',
+        relation: 'resident',
+        revealedIn: ['alloy-of-law'],
+      },
+      {
+        characterId: 'lord-stenet',
+        relation: 'resident',
+        revealedIn: [
+          {
+            all: ['shadows-of-self', 'alloy-of-law'],
+          },
+        ],
+      },
+      {
+        characterId: 'madam-penfor',
+        relation: 'resident',
+        revealedIn: [
+          {
+            all: ['shadows-of-self', 'alloy-of-law'],
+          },
+        ],
+      },
+      {
+        characterId: 'maindew',
+        relation: 'resident',
+        revealedIn: [
+          {
+            all: ['shadows-of-self', 'alloy-of-law'],
+          },
+        ],
+      },
+      {
+        characterId: 'marasi-colms',
+        relation: 'resident',
+        revealedIn: ['alloy-of-law'],
+      },
+      {
+        characterId: 'mari-hammondess',
+        relation: 'resident',
+        revealedIn: [
+          {
+            all: [
+              {
+                book: 'lost-metal',
+                chapter: '31',
+              },
+              'alloy-of-law',
+            ],
+          },
+        ],
+      },
+      {
+        characterId: 'marksman',
+        relation: 'resident',
+        revealedIn: [
+          {
+            all: [
+              {
+                book: 'shadows-of-self',
+                chapter: '3',
+              },
+              'alloy-of-law',
+            ],
+          },
+        ],
+      },
+      {
+        characterId: 'marthin',
+        relation: 'resident',
+        revealedIn: ['alloy-of-law'],
+      },
+      {
+        characterId: 'matieu',
+        relation: 'resident',
+        revealedIn: [
+          {
+            all: ['bands-of-mourning', 'alloy-of-law'],
+          },
+        ],
+      },
+      {
+        characterId: 'maxillium-ladrian',
+        relation: 'resident',
+        revealedIn: [
+          {
+            all: ['lost-metal', 'alloy-of-law'],
+          },
+        ],
+      },
+      {
+        characterId: 'mereline',
+        relation: 'resident',
+        revealedIn: [
+          {
+            all: ['shadows-of-self', 'alloy-of-law'],
+          },
+        ],
+      },
+      {
+        characterId: 'michelle-yomen',
+        relation: 'resident',
+        revealedIn: [
+          {
+            all: [
+              {
+                book: 'lost-metal',
+                chapter: '2',
+              },
+              'alloy-of-law',
+            ],
+          },
+        ],
+      },
+      {
+        characterId: 'migs',
+        relation: 'resident',
+        revealedIn: [
+          {
+            all: ['bands-of-mourning', 'alloy-of-law'],
+          },
+        ],
+      },
+      {
+        characterId: 'miklin',
+        relation: 'resident',
+        revealedIn: [
+          {
+            all: ['shadows-of-self', 'alloy-of-law'],
+          },
+        ],
+      },
+      {
+        characterId: 'miles-dagouter',
+        relation: 'resident',
+        revealedIn: ['alloy-of-law'],
+      },
+      {
+        characterId: 'miss-grimes',
+        relation: 'resident',
+        revealedIn: ['alloy-of-law'],
+      },
+      {
+        characterId: 'nouxil',
+        relation: 'resident',
+        revealedIn: ['alloy-of-law'],
+      },
+      {
+        characterId: 'peterus',
+        relation: 'resident',
+        revealedIn: ['alloy-of-law'],
+      },
+      {
+        characterId: 'pull',
+        relation: 'resident',
+        revealedIn: ['alloy-of-law'],
+      },
+      {
+        characterId: 'push',
+        relation: 'resident',
+        revealedIn: ['alloy-of-law'],
+      },
+      {
+        characterId: 'ranette',
+        relation: 'resident',
+        revealedIn: ['alloy-of-law'],
+      },
+      {
+        characterId: 'reddi',
+        relation: 'resident',
+        revealedIn: [
+          {
+            all: [
+              {
+                book: 'lost-metal',
+                chapter: '10',
+              },
+              'alloy-of-law',
+            ],
+          },
+        ],
+      },
+      {
+        characterId: 'rian',
+        relation: 'resident',
+        revealedIn: [
+          {
+            all: ['shadows-of-self', 'alloy-of-law'],
+          },
+        ],
+      },
+      {
+        characterId: 'ruri',
+        relation: 'resident',
+        revealedIn: [
+          {
+            all: ['lost-metal', 'alloy-of-law'],
+          },
+        ],
+      },
+      {
+        characterId: 'shewrman',
+        relation: 'resident',
+        revealedIn: ['alloy-of-law'],
+      },
+      {
+        characterId: 'sindren',
+        relation: 'resident',
+        revealedIn: ['alloy-of-law'],
+      },
+      {
+        characterId: 'sophi-tarcsel',
+        relation: 'resident',
+        revealedIn: [
+          {
+            all: [
+              {
+                book: 'shadows-of-self',
+                chapter: '6',
+              },
+              'alloy-of-law',
+            ],
+          },
+        ],
+      },
+      {
+        characterId: 'spook',
+        relation: 'resident',
+        revealedIn: [
+          {
+            all: [
+              {
+                book: 'bands-of-mourning',
+                chapter: '5',
+              },
+              'alloy-of-law',
+            ],
+          },
+        ],
+      },
+      {
+        characterId: 'steris-harms',
+        relation: 'resident',
+        revealedIn: ['alloy-of-law'],
+      },
+      {
+        characterId: 'tellingdwar',
+        relation: 'resident',
+        revealedIn: [
+          {
+            all: ['bands-of-mourning', 'alloy-of-law'],
+          },
+        ],
+      },
+      {
+        characterId: 'telsin-ladrian',
+        relation: 'born',
+        revealedIn: [
+          {
+            all: [
+              {
+                book: 'lost-metal',
+                chapter: '46',
+              },
+              'alloy-of-law',
+            ],
+          },
+        ],
+      },
+      {
+        characterId: 'tillaume',
+        relation: 'resident',
+        revealedIn: ['alloy-of-law'],
+      },
+      {
+        characterId: 'tindwyl-ladrian',
+        relation: 'resident',
+        revealedIn: [
+          {
+            all: ['lost-metal', 'alloy-of-law'],
+          },
+        ],
+      },
+      {
+        characterId: 'varlance',
+        relation: 'resident',
+        revealedIn: [
+          {
+            all: [
+              {
+                book: 'lost-metal',
+                chapter: '2',
+              },
+              'alloy-of-law',
+            ],
+          },
+        ],
+      },
+      {
+        characterId: 'waxillium-ladrian',
+        relation: 'resident',
+        revealedIn: ['alloy-of-law'],
+      },
+      {
+        characterId: 'waxillium-ladrian',
+        relation: 'born',
+        revealedIn: ['alloy-of-law'],
+      },
+      {
+        characterId: 'wayne',
+        relation: 'resident',
+        revealedIn: ['alloy-of-law'],
+      },
+      {
+        characterId: 'winsting-innate',
+        relation: 'resident',
+        revealedIn: [
+          {
+            all: [
+              {
+                book: 'shadows-of-self',
+                chapter: '5',
+              },
+              'alloy-of-law',
+            ],
+          },
+        ],
+      },
+      {
+        characterId: 'yancey-yaceczko',
+        relation: 'resident',
+        revealedIn: [
+          {
+            all: ['lost-metal', 'alloy-of-law'],
+          },
+        ],
+      },
+    ],
+  },
+  'elendel-basin': {
+    facts: [
+      {
+        label: 'Capital',
+        name: 'Elendel',
+        placeId: 'elendel',
+        revealedIn: [
+          {
+            all: [
+              {
+                book: 'bands-of-mourning',
+                chapter: '5',
+              },
+              {
+                book: 'alloy-of-law',
+                chapter: '11',
+              },
+            ],
+          },
+        ],
+      },
+    ],
+    people: [],
+  },
+  'elendel-university': {
+    facts: [
+      {
+        label: 'Used for',
+        name: 'University',
+        revealedIn: [
+          {
+            book: 'alloy-of-law',
+            chapter: '4',
+          },
+        ],
+      },
+      {
+        label: 'City',
+        name: 'Elendel',
+        placeId: 'elendel',
+        revealedIn: ['alloy-of-law'],
+      },
+    ],
+    people: [],
+  },
+  elis: {
+    facts: [
+      {
+        label: 'People',
+        name: 'Elisian',
+        revealedIn: [
+          {
+            book: 'white-sand-omnibus',
+            chapter: '5',
+          },
+        ],
+      },
+      {
+        label: 'Region',
+        name: 'Darkside',
+        revealedIn: [
+          {
+            book: 'white-sand-omnibus',
+            chapter: '5',
+          },
+        ],
+      },
+    ],
+    people: [],
+  },
+  elmsdel: {
+    facts: [
+      {
+        label: 'Region',
+        name: 'Elendel Basin',
+        placeId: 'elendel-basin',
+        revealedIn: ['alloy-of-law'],
+      },
+    ],
+    people: [],
+  },
+  'elsecaller-monastery': {
+    facts: [
+      {
+        label: 'Used for',
+        name: 'Worship of Batlah',
+        characterId: 'battar',
+        revealedIn: ['wind-and-truth'],
+      },
+      {
+        label: 'Used for',
+        name: 'custody of the Elsecaller Honorblade',
+        revealedIn: ['wind-and-truth'],
+      },
+      {
+        label: 'Region',
+        name: 'Shinovar',
+        placeId: 'shinovar',
+        revealedIn: [
+          {
+            book: 'wind-and-truth',
+            chapter: '68',
+          },
+        ],
+      },
+    ],
+    people: [
+      {
+        characterId: 'gonda-son-darias',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'wind-and-truth',
+            chapter: '73',
+          },
+        ],
+      },
+    ],
+  },
+  'emberdark-channel': {
+    facts: [
+      {
+        label: 'Region',
+        name: 'Sea of Lost Lights',
+        placeId: 'sea-of-lost-lights',
+        revealedIn: ['oathbringer'],
+      },
+    ],
+    people: [],
+  },
+  'emberdark-settlement': {
+    facts: [
+      {
+        label: 'Region',
+        name: 'Sea of Lost Lights',
+        placeId: 'sea-of-lost-lights',
+        revealedIn: ['oathbringer'],
+      },
+    ],
+    people: [],
+  },
+  'emerald-sea': {
+    facts: [
+      {
+        label: 'Type',
+        name: 'Ocean',
+        revealedIn: [
+          {
+            book: 'tress',
+            chapter: '14',
+          },
+        ],
+      },
+    ],
+    people: [],
+  },
+  'empyrean-gulf': {
+    facts: [
+      {
+        label: 'Region',
+        name: 'Sea of Souls',
+        placeId: 'sea-of-souls',
+        revealedIn: [
+          {
+            all: ['oathbringer', 'rhythm-of-war'],
+          },
+        ],
       },
     ],
     people: [],
@@ -855,6 +4198,53 @@ export const locationDetails: Record<string, LocationDetails> = {
         label: 'Type',
         name: 'Sea',
         revealedIn: ['oathbringer'],
+      },
+    ],
+    people: [],
+  },
+  'erik-island': {
+    facts: [
+      {
+        label: 'Type',
+        name: 'Island',
+        revealedIn: [
+          {
+            book: 'tress',
+            chapter: '2',
+          },
+        ],
+      },
+      {
+        label: 'Region',
+        name: 'Emerald Sea',
+        placeId: 'emerald-sea',
+        revealedIn: ['tress'],
+      },
+    ],
+    people: [],
+  },
+  eshkerlosh: {
+    facts: [
+      {
+        label: 'Region',
+        name: 'Dayside',
+        revealedIn: ['white-sand-omnibus'],
+      },
+      {
+        label: 'Nation',
+        name: 'Kerzta',
+        placeId: 'kerzta',
+        revealedIn: ['white-sand-omnibus'],
+      },
+    ],
+    people: [],
+  },
+  'evergall-trainyards': {
+    facts: [
+      {
+        label: 'Used for',
+        name: 'Train yard',
+        revealedIn: ['alloy-of-law'],
       },
     ],
     people: [],
@@ -926,6 +4316,165 @@ export const locationDetails: Record<string, LocationDetails> = {
       },
     ],
   },
+  'faleast-range': {
+    facts: [
+      {
+        label: 'Type',
+        name: 'Mountains',
+        revealedIn: [
+          {
+            all: ['alloy-of-law', 'final-empire'],
+          },
+        ],
+      },
+      {
+        label: 'Region',
+        name: 'Elendel Basin',
+        placeId: 'elendel-basin',
+        revealedIn: [
+          {
+            all: ['alloy-of-law', 'final-empire'],
+          },
+        ],
+      },
+    ],
+    people: [],
+  },
+  'fallen-tower': {
+    facts: [
+      {
+        label: 'Used for',
+        name: 'Tavern',
+        revealedIn: ['oathbringer'],
+      },
+      {
+        label: 'City',
+        name: 'Kholinar suburb',
+        placeId: 'kholinar',
+        revealedIn: [
+          {
+            book: 'oathbringer',
+            chapter: '51',
+          },
+        ],
+      },
+      {
+        label: 'Nation',
+        name: 'Alethkar',
+        placeId: 'alethkar',
+        revealedIn: ['oathbringer'],
+      },
+    ],
+    people: [],
+  },
+  'far-dorest': {
+    facts: [
+      {
+        label: 'Region',
+        name: 'The Roughs',
+        placeId: 'northern-roughs',
+        revealedIn: ['alloy-of-law'],
+      },
+    ],
+    people: [],
+  },
+  faradana: {
+    facts: [
+      {
+        label: 'Region',
+        name: 'The Roughs',
+        placeId: 'northern-roughs',
+        revealedIn: ['alloy-of-law'],
+      },
+    ],
+    people: [],
+  },
+  farcoast: {
+    facts: [
+      {
+        label: 'Nation',
+        name: 'Alethkar',
+        placeId: 'alethkar',
+        revealedIn: ['words-of-radiance'],
+      },
+    ],
+    people: [],
+  },
+  'farthing-mansion': {
+    facts: [
+      {
+        label: 'Owner',
+        name: 'Lady Farthing',
+        characterId: 'lady-farthing',
+        revealedIn: [
+          {
+            book: 'bands-of-mourning',
+            chapter: '10',
+          },
+        ],
+      },
+      {
+        label: 'City',
+        name: 'New Seran',
+        placeId: 'new-seran',
+        revealedIn: ['bands-of-mourning'],
+      },
+    ],
+    people: [],
+  },
+  'feasting-basin': {
+    facts: [
+      {
+        label: 'City',
+        name: 'Alethi warcamps',
+        revealedIn: [
+          {
+            book: 'way-of-kings',
+            chapter: '22',
+          },
+        ],
+      },
+      {
+        label: 'Region',
+        name: 'The Shattered Plains',
+        placeId: 'shattered-plains',
+        revealedIn: ['way-of-kings'],
+      },
+    ],
+    people: [],
+  },
+  'feder-tower': {
+    facts: [
+      {
+        label: 'City',
+        name: 'Elendel',
+        placeId: 'elendel',
+        revealedIn: [
+          {
+            all: [
+              'alloy-of-law',
+              {
+                book: 'shadows-of-self',
+                chapter: '11',
+              },
+            ],
+          },
+        ],
+      },
+    ],
+    people: [],
+  },
+  fellavoo: {
+    facts: [
+      {
+        label: 'Nation',
+        name: 'Duladel',
+        placeId: 'duladel',
+        revealedIn: ['elantris'],
+      },
+    ],
+    people: [],
+  },
   fellise: {
     facts: [
       {
@@ -968,6 +4517,39 @@ export const locationDetails: Record<string, LocationDetails> = {
       },
     ],
   },
+  feltrel: {
+    facts: [
+      {
+        label: 'Region',
+        name: 'The Roughs',
+        placeId: 'northern-roughs',
+        revealedIn: ['alloy-of-law'],
+      },
+    ],
+    people: [],
+  },
+  'field-of-rebirth': {
+    facts: [
+      {
+        label: 'City',
+        name: 'Elendel',
+        placeId: 'elendel',
+        revealedIn: ['alloy-of-law'],
+      },
+    ],
+    people: [],
+  },
+  'filistrate-city': {
+    facts: [
+      {
+        label: 'Region',
+        name: 'Emerald Sea',
+        placeId: 'emerald-sea',
+        revealedIn: ['tress'],
+      },
+    ],
+    people: [],
+  },
   'final-empire': {
     facts: [
       {
@@ -984,6 +4566,186 @@ export const locationDetails: Record<string, LocationDetails> = {
     ],
     people: [],
   },
+  'first-central-bank': {
+    facts: [
+      {
+        label: 'Used for',
+        name: 'Bank',
+        revealedIn: [
+          {
+            book: 'shadows-of-self',
+            chapter: '8',
+          },
+        ],
+      },
+      {
+        label: 'City',
+        name: 'Elendel',
+        placeId: 'elendel',
+        revealedIn: ['shadows-of-self'],
+      },
+    ],
+    people: [],
+  },
+  'first-dukeseat': {
+    facts: [
+      {
+        label: 'Nation',
+        name: 'Mountaincrest',
+        revealedIn: [
+          {
+            book: 'fires-of-december',
+            chapter: 'v',
+          },
+        ],
+      },
+    ],
+    people: [
+      {
+        characterId: 'tamanthas-brother',
+        relation: 'resident',
+        revealedIn: ['fires-of-december'],
+      },
+    ],
+  },
+  'first-insurance-bank': {
+    facts: [
+      {
+        label: 'City',
+        name: 'Elendel',
+        placeId: 'elendel',
+        revealedIn: ['shadows-of-self'],
+      },
+    ],
+    people: [],
+  },
+  'first-union-bank-elendel': {
+    facts: [
+      {
+        label: 'Used for',
+        name: 'Bank',
+        revealedIn: [
+          {
+            book: 'shadows-of-self',
+            chapter: '2',
+          },
+          {
+            book: 'shadows-of-self',
+            chapter: '2',
+          },
+        ],
+      },
+      {
+        label: 'City',
+        name: 'Elendel',
+        placeId: 'elendel',
+        revealedIn: ['shadows-of-self'],
+      },
+    ],
+    people: [],
+  },
+  fjorden: {
+    facts: [
+      {
+        label: 'People',
+        name: 'Fjordell',
+        revealedIn: [
+          {
+            book: 'elantris',
+            chapter: '2',
+          },
+        ],
+      },
+      {
+        label: 'Capital',
+        name: 'Widor',
+        placeId: 'widor',
+        revealedIn: [
+          {
+            all: [
+              'emperors-soul',
+              {
+                book: 'elantris',
+                chapter: '2',
+              },
+            ],
+          },
+        ],
+      },
+      {
+        label: 'Region',
+        name: 'Sycla',
+        revealedIn: [
+          {
+            all: [
+              'emperors-soul',
+              {
+                book: 'elantris',
+                chapter: '2',
+              },
+            ],
+          },
+        ],
+      },
+    ],
+    people: [],
+  },
+  'forests-of-hell': {
+    facts: [
+      {
+        label: 'Type',
+        name: 'Forests',
+        revealedIn: ['shadows-for-silence'],
+      },
+    ],
+    people: [
+      {
+        characterId: 'chesterton-divide',
+        relation: 'resident',
+        revealedIn: ['shadows-for-silence'],
+      },
+      {
+        characterId: 'daggon',
+        relation: 'resident',
+        revealedIn: ['shadows-for-silence'],
+      },
+      {
+        characterId: 'silence-montane',
+        relation: 'resident',
+        revealedIn: ['shadows-for-silence'],
+      },
+      {
+        characterId: 'silences-grandmother',
+        relation: 'resident',
+        revealedIn: ['shadows-for-silence'],
+      },
+      {
+        characterId: 'theopolis',
+        relation: 'resident',
+        revealedIn: ['shadows-for-silence'],
+      },
+      {
+        characterId: 'william-ann-montane',
+        relation: 'resident',
+        revealedIn: ['shadows-for-silence'],
+      },
+    ],
+  },
+  'fortress-town': {
+    facts: [],
+    people: [
+      {
+        characterId: 'red-young',
+        relation: 'resident',
+        revealedIn: ['shadows-for-silence'],
+      },
+      {
+        characterId: 'tobias',
+        relation: 'resident',
+        revealedIn: ['shadows-for-silence'],
+      },
+    ],
+  },
   'fourwell-crossroads': {
     facts: [
       {
@@ -991,6 +4753,126 @@ export const locationDetails: Record<string, LocationDetails> = {
         name: 'Luthadel',
         placeId: 'luthadel',
         revealedIn: ['final-empire'],
+      },
+    ],
+    people: [],
+  },
+  'fu-abra': {
+    facts: [
+      {
+        label: 'Region',
+        name: 'The Purelake',
+        placeId: 'purelake',
+        revealedIn: ['way-of-kings'],
+      },
+    ],
+    people: [
+      {
+        characterId: 'ishikk',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'way-of-kings',
+            chapter: 'i-1',
+          },
+        ],
+      },
+      {
+        characterId: 'maib',
+        relation: 'resident',
+        revealedIn: ['way-of-kings'],
+      },
+      {
+        characterId: 'thaspic',
+        relation: 'resident',
+        revealedIn: ['way-of-kings'],
+      },
+    ],
+  },
+  'fu-albast': {
+    facts: [
+      {
+        label: 'Region',
+        name: 'The Purelake',
+        placeId: 'purelake',
+        revealedIn: ['way-of-kings'],
+      },
+    ],
+    people: [],
+  },
+  'fu-moorin': {
+    facts: [
+      {
+        label: 'Region',
+        name: 'The Purelake',
+        placeId: 'purelake',
+        revealedIn: ['way-of-kings'],
+      },
+    ],
+    people: [],
+  },
+  'fu-namir': {
+    facts: [
+      {
+        label: 'Region',
+        name: 'The Purelake',
+        placeId: 'purelake',
+        revealedIn: ['way-of-kings'],
+      },
+    ],
+    people: [],
+  },
+  'fu-ralis': {
+    facts: [
+      {
+        label: 'Region',
+        name: 'The Purelake',
+        placeId: 'purelake',
+        revealedIn: ['way-of-kings'],
+      },
+    ],
+    people: [],
+  },
+  fuhima: {
+    facts: [
+      {
+        label: 'Nation',
+        name: 'Nagadan',
+        placeId: 'nagadan',
+        revealedIn: ['yumi'],
+      },
+    ],
+    people: [],
+  },
+  futinoro: {
+    facts: [
+      {
+        label: 'Nation',
+        name: 'Nagadan',
+        placeId: 'nagadan',
+        revealedIn: ['yumi'],
+      },
+    ],
+    people: [],
+  },
+  'gallery-of-maps': {
+    facts: [
+      {
+        label: 'Region',
+        name: 'The Shattered Plains',
+        placeId: 'shattered-plains',
+        revealedIn: ['way-of-kings'],
+      },
+    ],
+    people: [],
+  },
+  garmet: {
+    facts: [
+      {
+        label: 'Region',
+        name: 'Elendel Basin',
+        placeId: 'elendel-basin',
+        revealedIn: ['alloy-of-law'],
       },
     ],
     people: [],
@@ -1006,6 +4888,98 @@ export const locationDetails: Record<string, LocationDetails> = {
     ],
     people: [],
   },
+  geant: {
+    facts: [
+      {
+        label: 'Capital',
+        name: 'Velf',
+        placeId: 'velf',
+        revealedIn: ['elantris'],
+      },
+      {
+        label: 'Region',
+        name: 'Sycla',
+        revealedIn: ['elantris'],
+      },
+    ],
+    people: [],
+  },
+  'glasswater-deep': {
+    facts: [
+      {
+        label: 'Region',
+        name: 'Sea of Lost Lights',
+        placeId: 'sea-of-lost-lights',
+        revealedIn: ['oathbringer'],
+      },
+    ],
+    people: [],
+  },
+  'glimmering-point': {
+    facts: [
+      {
+        label: 'City',
+        name: 'Elendel',
+        placeId: 'elendel',
+        revealedIn: ['bands-of-mourning'],
+      },
+    ],
+    people: [],
+  },
+  gmordsom: {
+    facts: [
+      {
+        label: 'Nation',
+        name: 'Hraggen',
+        placeId: 'hraggen',
+        revealedIn: ['elantris'],
+      },
+    ],
+    people: [],
+  },
+  gofi: {
+    facts: [
+      {
+        label: 'Type',
+        name: 'Island',
+        revealedIn: [
+          {
+            book: 'isles-of-the-emberdark',
+            chapter: '24',
+          },
+        ],
+      },
+      {
+        label: 'Region',
+        name: 'Pantheon',
+        placeId: 'pantheon',
+        revealedIn: ['isles-of-the-emberdark'],
+      },
+    ],
+    people: [],
+  },
+  'gongsha-town': {
+    facts: [
+      {
+        label: 'Nation',
+        name: 'Torio',
+        placeId: 'torio',
+        revealedIn: ['yumi'],
+      },
+    ],
+    people: [
+      {
+        characterId: 'gongsha-bailiff',
+        relation: 'resident',
+        revealedIn: ['yumi'],
+      },
+      {
+        characterId: 'gongsha-mayor',
+        relation: 'resident',
+        revealedIn: ['yumi'],
+      },
+    ],
+  },
   'grand-indicium': {
     facts: [
       {
@@ -1018,6 +4992,446 @@ export const locationDetails: Record<string, LocationDetails> = {
         name: 'Yeddaw',
         placeId: 'yeddaw',
         revealedIn: ['edgedancer'],
+      },
+    ],
+    people: [],
+  },
+  'grand-knell': {
+    facts: [
+      {
+        label: 'Region',
+        name: 'Cognitive Realm',
+        revealedIn: [
+          {
+            book: 'wind-and-truth',
+            chapter: '11',
+          },
+        ],
+      },
+    ],
+    people: [],
+  },
+  'great-concourse-of-kharbranth': {
+    facts: [
+      {
+        label: 'Used for',
+        name: 'School',
+        revealedIn: [
+          {
+            book: 'way-of-kings',
+            chapter: '17',
+          },
+        ],
+      },
+      {
+        label: 'City',
+        name: 'Kharbranth',
+        placeId: 'kharbranth',
+        revealedIn: ['way-of-kings'],
+      },
+    ],
+    people: [],
+  },
+  'greater-hexi': {
+    facts: [
+      {
+        label: 'Region',
+        name: 'Makabak',
+        placeId: 'makabak',
+        revealedIn: ['way-of-kings'],
+      },
+    ],
+    people: [],
+  },
+  haiko: {
+    facts: [
+      {
+        label: 'Nation',
+        name: 'JinDo',
+        placeId: 'jindo',
+        revealedIn: ['elantris'],
+      },
+    ],
+    people: [],
+  },
+  hakaalaku: {
+    facts: [
+      {
+        label: 'Ruled by',
+        name: 'Peakspren',
+        revealedIn: [
+          {
+            book: 'wind-and-truth',
+            chapter: '147',
+          },
+        ],
+      },
+      {
+        label: 'Region',
+        name: 'Horneater Peaks',
+        placeId: 'horneater-peaks',
+        revealedIn: [
+          {
+            book: 'wind-and-truth',
+            chapter: '147',
+          },
+        ],
+      },
+      {
+        label: 'Region',
+        name: 'Shadesmar',
+        revealedIn: [
+          {
+            book: 'wind-and-truth',
+            chapter: '147',
+          },
+        ],
+      },
+    ],
+    people: [],
+  },
+  'hall-of-judgment': {
+    facts: [
+      {
+        label: 'Owners',
+        name: 'Taishin',
+        revealedIn: ['white-sand-omnibus'],
+      },
+      {
+        label: 'Used for',
+        name: 'Government',
+        revealedIn: ['white-sand-omnibus'],
+      },
+      {
+        label: 'City',
+        name: 'Kezare',
+        placeId: 'kezare',
+        revealedIn: [
+          {
+            book: 'white-sand-omnibus',
+            chapter: '6',
+          },
+        ],
+      },
+      {
+        label: 'Nation',
+        name: 'Lossand',
+        placeId: 'lossand',
+        revealedIn: ['white-sand-omnibus'],
+      },
+    ],
+    people: [],
+  },
+  hallandren: {
+    facts: [
+      {
+        label: 'People',
+        name: 'Hallandren',
+        revealedIn: [
+          {
+            book: 'warbreaker',
+            chapter: 'prologue',
+          },
+        ],
+      },
+      {
+        label: 'Capital',
+        name: "T'Telir",
+        placeId: 'ttelir',
+        revealedIn: [
+          {
+            book: 'warbreaker',
+            chapter: '4',
+          },
+        ],
+      },
+      {
+        label: 'Ruled by',
+        name: 'God King Susebron',
+        characterId: 'susebron',
+        revealedIn: [
+          {
+            book: 'warbreaker',
+            chapter: '1',
+          },
+          {
+            book: 'warbreaker',
+            chapter: '1',
+          },
+        ],
+      },
+    ],
+    people: [
+      {
+        characterId: 'allmother',
+        relation: 'citizen',
+        revealedIn: ['warbreaker'],
+      },
+      {
+        characterId: 'bebid',
+        relation: 'citizen',
+        revealedIn: [
+          {
+            book: 'warbreaker',
+            chapter: '5',
+          },
+        ],
+      },
+      {
+        characterId: 'blushweaver',
+        relation: 'citizen',
+        revealedIn: [
+          {
+            book: 'warbreaker',
+            chapter: '7',
+          },
+        ],
+      },
+      {
+        characterId: 'brighthue',
+        relation: 'citizen',
+        revealedIn: ['warbreaker'],
+      },
+      {
+        characterId: 'brightvison',
+        relation: 'citizen',
+        revealedIn: ['warbreaker'],
+      },
+      {
+        characterId: 'calmseer',
+        relation: 'citizen',
+        revealedIn: ['warbreaker'],
+      },
+      {
+        characterId: 'fob',
+        relation: 'citizen',
+        revealedIn: [
+          {
+            book: 'warbreaker',
+            chapter: '22',
+          },
+        ],
+      },
+      {
+        characterId: 'gagaril',
+        relation: 'citizen',
+        revealedIn: ['warbreaker'],
+      },
+      {
+        characterId: 'giftbeacon',
+        relation: 'citizen',
+        revealedIn: ['warbreaker'],
+      },
+      {
+        characterId: 'grable',
+        relation: 'citizen',
+        revealedIn: ['warbreaker'],
+      },
+      {
+        characterId: 'halan',
+        relation: 'citizen',
+        revealedIn: ['warbreaker'],
+      },
+      {
+        characterId: 'hopefinder',
+        relation: 'citizen',
+        revealedIn: ['warbreaker'],
+      },
+      {
+        characterId: 'inhanna',
+        relation: 'citizen',
+        revealedIn: [
+          {
+            book: 'warbreaker',
+            chapter: '16',
+          },
+        ],
+      },
+      {
+        characterId: 'jewels',
+        relation: 'citizen',
+        revealedIn: [
+          {
+            book: 'warbreaker',
+            chapter: '25',
+          },
+        ],
+      },
+      {
+        characterId: 'kindwinds',
+        relation: 'citizen',
+        revealedIn: ['warbreaker'],
+      },
+      {
+        characterId: 'lifeblesser',
+        relation: 'citizen',
+        revealedIn: ['warbreaker'],
+      },
+      {
+        characterId: 'lightsong',
+        relation: 'citizen',
+        revealedIn: [
+          {
+            book: 'warbreaker',
+            chapter: '23',
+          },
+        ],
+      },
+      {
+        characterId: 'llarimar',
+        relation: 'citizen',
+        revealedIn: [
+          {
+            book: 'warbreaker',
+            chapter: '47',
+          },
+        ],
+      },
+      {
+        characterId: 'lolan',
+        relation: 'citizen',
+        revealedIn: ['warbreaker'],
+      },
+      {
+        characterId: 'mercystar',
+        relation: 'citizen',
+        revealedIn: ['warbreaker'],
+      },
+      {
+        characterId: 'mirthgiver',
+        relation: 'citizen',
+        revealedIn: ['warbreaker'],
+      },
+      {
+        characterId: 'misel',
+        relation: 'citizen',
+        revealedIn: ['warbreaker'],
+      },
+      {
+        characterId: 'nanrovah',
+        relation: 'citizen',
+        revealedIn: ['warbreaker'],
+      },
+      {
+        characterId: 'peaceyearning',
+        relation: 'citizen',
+        revealedIn: ['warbreaker'],
+      },
+      {
+        characterId: 'rariv',
+        relation: 'citizen',
+        revealedIn: ['warbreaker'],
+      },
+      {
+        characterId: 'stillmark',
+        relation: 'citizen',
+        revealedIn: ['warbreaker'],
+      },
+      {
+        characterId: 'susebron-the-fourth',
+        relation: 'citizen',
+        revealedIn: [
+          {
+            book: 'warbreaker',
+            chapter: '27',
+          },
+        ],
+      },
+      {
+        characterId: 'susebron',
+        relation: 'citizen',
+        revealedIn: [
+          {
+            book: 'warbreaker',
+            chapter: '40',
+          },
+        ],
+      },
+      {
+        characterId: 'taff',
+        relation: 'citizen',
+        revealedIn: ['warbreaker'],
+      },
+      {
+        characterId: 'tatara',
+        relation: 'citizen',
+        revealedIn: ['warbreaker'],
+      },
+      {
+        characterId: 'treledees',
+        relation: 'citizen',
+        revealedIn: [
+          {
+            book: 'warbreaker',
+            chapter: '16',
+          },
+        ],
+      },
+      {
+        characterId: 'truthcall',
+        relation: 'citizen',
+        revealedIn: ['warbreaker'],
+      },
+      {
+        characterId: 'weatherlove',
+        relation: 'citizen',
+        revealedIn: ['warbreaker'],
+      },
+    ],
+  },
+  'hammondar-bay': {
+    facts: [
+      {
+        label: 'Type',
+        name: 'Water body',
+        revealedIn: [
+          {
+            all: ['lost-metal', 'alloy-of-law'],
+          },
+        ],
+      },
+      {
+        label: 'Region',
+        name: 'Elendel Basin',
+        placeId: 'elendel-basin',
+        revealedIn: ['alloy-of-law'],
+      },
+    ],
+    people: [],
+  },
+  hannerdam: {
+    facts: [
+      {
+        label: 'Region',
+        name: 'Southern Scadrian',
+        revealedIn: ['isles-of-the-emberdark'],
+      },
+      {
+        label: 'Nation',
+        name: 'Malwish Empire',
+        placeId: 'malwish-empire',
+        revealedIn: ['isles-of-the-emberdark'],
+      },
+    ],
+    people: [],
+  },
+  'hatham-princedom': {
+    facts: [
+      {
+        label: 'Nation',
+        name: 'Alethkar',
+        placeId: 'alethkar',
+        revealedIn: [
+          {
+            all: [
+              'way-of-kings',
+              {
+                book: 'oathbringer',
+                chapter: '107',
+              },
+            ],
+          },
+        ],
       },
     ],
     people: [],
@@ -1226,6 +5640,65 @@ export const locationDetails: Record<string, LocationDetails> = {
     ],
     people: [],
   },
+  hobbleken: {
+    facts: [
+      {
+        label: 'Nation',
+        name: 'Alethkar',
+        placeId: 'alethkar',
+        revealedIn: ['oathbringer'],
+      },
+    ],
+    people: [],
+  },
+  'hobbles-brook': {
+    facts: [
+      {
+        label: 'Type',
+        name: 'Stream',
+        revealedIn: ['oathbringer'],
+      },
+    ],
+    people: [],
+  },
+  'hoel-bay': {
+    facts: [
+      {
+        label: 'Type',
+        name: 'Bay',
+        revealedIn: ['oathbringer'],
+      },
+      {
+        label: 'Region',
+        name: 'Alethkar',
+        placeId: 'alethkar',
+        revealedIn: ['oathbringer'],
+      },
+    ],
+    people: [],
+  },
+  holiqqil: {
+    facts: [
+      {
+        label: 'Nation',
+        name: 'Emul',
+        placeId: 'emul',
+        revealedIn: ['rhythm-of-war'],
+      },
+    ],
+    people: [],
+  },
+  hollavesi: {
+    facts: [
+      {
+        label: 'Nation',
+        name: 'Hrovell',
+        placeId: 'hrovell',
+        revealedIn: ['elantris'],
+      },
+    ],
+    people: [],
+  },
   holstep: {
     facts: [
       {
@@ -1238,6 +5711,28 @@ export const locationDetails: Record<string, LocationDetails> = {
         name: 'Final Empire',
         placeId: 'final-empire',
         revealedIn: ['final-empire'],
+      },
+    ],
+    people: [],
+  },
+  'holy-grotto': {
+    facts: [
+      {
+        label: 'Region',
+        name: 'The Purelake',
+        placeId: 'purelake',
+        revealedIn: ['way-of-kings'],
+      },
+    ],
+    people: [],
+  },
+  homeland: {
+    facts: [
+      {
+        label: 'Region',
+        name: 'Fallen World',
+        placeId: 'fallen-world',
+        revealedIn: ['shadows-for-silence'],
       },
     ],
     people: [],
@@ -1296,6 +5791,17 @@ export const locationDetails: Record<string, LocationDetails> = {
     ],
     people: [],
   },
+  'horneater-oceans': {
+    facts: [
+      {
+        label: 'Region',
+        name: 'The Horneater Peaks',
+        placeId: 'horneater-peaks',
+        revealedIn: ['words-of-radiance'],
+      },
+    ],
+    people: [],
+  },
   'horneater-peaks': {
     facts: [
       {
@@ -1333,6 +5839,268 @@ export const locationDetails: Record<string, LocationDetails> = {
       },
     ],
   },
+  hornhollow: {
+    facts: [
+      {
+        label: 'Region',
+        name: 'Sadeas princedom',
+        placeId: 'sadeas-princedom',
+        revealedIn: [
+          {
+            book: 'oathbringer',
+            chapter: '10',
+          },
+        ],
+      },
+      {
+        label: 'Nation',
+        name: 'Alethkar',
+        placeId: 'alethkar',
+        revealedIn: ['oathbringer'],
+      },
+    ],
+    people: [
+      {
+        characterId: 'khem',
+        relation: 'resident',
+        revealedIn: ['oathbringer'],
+      },
+    ],
+  },
+  'house-of-proceedings': {
+    facts: [
+      {
+        label: 'City',
+        name: 'Elendel',
+        placeId: 'elendel',
+        revealedIn: ['lost-metal'],
+      },
+    ],
+    people: [],
+  },
+  hraggen: {
+    facts: [
+      {
+        label: 'People',
+        name: 'Hraggish',
+        revealedIn: ['elantris'],
+      },
+    ],
+    people: [],
+  },
+  hrovell: {
+    facts: [
+      {
+        label: 'People',
+        name: 'Hroven',
+        revealedIn: [
+          {
+            book: 'elantris',
+            chapter: '23',
+          },
+        ],
+      },
+    ],
+    people: [],
+  },
+  'human-river': {
+    facts: [
+      {
+        label: 'Type',
+        name: 'River',
+        revealedIn: [
+          {
+            all: [
+              {
+                book: 'hero-of-ages',
+                chapter: '8',
+              },
+              {
+                book: 'lost-metal',
+                chapter: 'prologue',
+              },
+            ],
+          },
+        ],
+      },
+      {
+        label: 'Region',
+        name: 'The Roughs',
+        placeId: 'northern-roughs',
+        revealedIn: ['lost-metal'],
+      },
+    ],
+    people: [],
+  },
+  iald: {
+    facts: [
+      {
+        label: 'Region',
+        name: 'Opelon',
+        revealedIn: ['elantris'],
+      },
+      {
+        label: 'Nation',
+        name: 'Arelon',
+        placeId: 'arelon',
+        revealedIn: ['elantris'],
+      },
+    ],
+    people: [],
+  },
+  'icingway-river': {
+    facts: [
+      {
+        label: 'Type',
+        name: 'River',
+        revealedIn: [
+          {
+            book: 'oathbringer',
+            chapter: '108',
+          },
+        ],
+      },
+    ],
+    people: [],
+  },
+  idris: {
+    facts: [
+      {
+        label: 'People',
+        name: 'Idrian',
+        revealedIn: [
+          {
+            book: 'warbreaker',
+            chapter: '1',
+          },
+        ],
+      },
+      {
+        label: 'Capital',
+        name: 'Bevalis',
+        placeId: 'bevalis',
+        revealedIn: ['warbreaker'],
+      },
+      {
+        label: 'Ruled by',
+        name: 'Dedelin',
+        characterId: 'dedelin',
+        revealedIn: [
+          {
+            book: 'warbreaker',
+            chapter: '1',
+          },
+        ],
+      },
+    ],
+    people: [],
+  },
+  ifaba: {
+    facts: [
+      {
+        label: 'Nation',
+        name: 'Tashikk',
+        placeId: 'tashikk',
+        revealedIn: ['rhythm-of-war'],
+      },
+    ],
+    people: [],
+  },
+  ihosen: {
+    facts: [
+      {
+        label: 'Nation',
+        name: 'Torio',
+        placeId: 'torio',
+        revealedIn: ['yumi'],
+      },
+    ],
+    people: [],
+  },
+  iiaria: {
+    facts: [
+      {
+        label: 'Region',
+        name: 'Darkside',
+        revealedIn: [
+          {
+            book: 'white-sand-omnibus',
+            chapter: '11',
+          },
+          {
+            book: 'white-sand-omnibus',
+            chapter: '11',
+          },
+        ],
+      },
+    ],
+    people: [],
+  },
+  'imperial-seat': {
+    facts: [
+      {
+        label: 'Nation',
+        name: 'Rose Empire',
+        placeId: 'rose-empire',
+        revealedIn: ['emperors-soul'],
+      },
+    ],
+    people: [],
+  },
+  'impossible-falls': {
+    facts: [
+      {
+        label: 'Type',
+        name: 'Waterfall',
+        revealedIn: [
+          {
+            book: 'way-of-kings',
+            chapter: '26',
+          },
+        ],
+      },
+      {
+        label: 'Region',
+        name: 'Kholinar',
+        placeId: 'kholinar',
+        revealedIn: ['way-of-kings'],
+      },
+    ],
+    people: [],
+  },
+  'independence-tower': {
+    facts: [
+      {
+        label: 'City',
+        name: 'Bilming',
+        placeId: 'bilming',
+        revealedIn: ['lost-metal'],
+      },
+    ],
+    people: [],
+  },
+  'inkling-lane': {
+    facts: [
+      {
+        label: 'City',
+        name: 'Elendel',
+        placeId: 'elendel',
+        revealedIn: ['lost-metal'],
+      },
+    ],
+    people: [],
+  },
+  'inkwell-town': {
+    facts: [
+      {
+        label: 'Region',
+        name: 'Central Alethkar',
+        placeId: 'alethkar',
+        revealedIn: ['oathbringer'],
+      },
+    ],
+    people: [],
+  },
   iri: {
     facts: [
       {
@@ -1344,6 +6112,207 @@ export const locationDetails: Record<string, LocationDetails> = {
             chapter: '18',
           },
         ],
+      },
+    ],
+    people: [],
+  },
+  'irongate-river': {
+    facts: [
+      {
+        label: 'Type',
+        name: 'River',
+        revealedIn: [
+          {
+            all: [
+              {
+                book: 'shadows-of-self',
+                chapter: '18',
+              },
+              'alloy-of-law',
+            ],
+          },
+        ],
+      },
+      {
+        label: 'Region',
+        name: 'Elendel Basin',
+        placeId: 'elendel-basin',
+        revealedIn: ['alloy-of-law'],
+      },
+    ],
+    people: [],
+  },
+  'ironspine-building': {
+    facts: [
+      {
+        label: 'Owners',
+        name: 'Unknown',
+        revealedIn: [
+          {
+            book: 'alloy-of-law',
+            chapter: '18',
+          },
+          {
+            book: 'alloy-of-law',
+            chapter: '19',
+          },
+        ],
+      },
+      {
+        label: 'Used for',
+        name: 'Skyscraper',
+        revealedIn: [
+          {
+            book: 'alloy-of-law',
+            chapter: '1',
+          },
+        ],
+      },
+      {
+        label: 'City',
+        name: 'Elendel',
+        placeId: 'elendel',
+        revealedIn: ['alloy-of-law'],
+      },
+    ],
+    people: [],
+  },
+  ironstand: {
+    facts: [
+      {
+        label: 'Region',
+        name: 'Elendel Basin',
+        placeId: 'elendel-basin',
+        revealedIn: ['bands-of-mourning'],
+      },
+    ],
+    people: [],
+  },
+  ironsway: {
+    facts: [
+      {
+        label: 'Region',
+        name: 'Bavland',
+        placeId: 'bavland',
+        revealedIn: [
+          {
+            book: 'way-of-kings',
+            chapter: 'i-3',
+          },
+        ],
+      },
+      {
+        label: 'Nation',
+        name: 'Jah Keved',
+        placeId: 'jah-keved',
+        revealedIn: ['way-of-kings'],
+      },
+    ],
+    people: [],
+  },
+  'isaeucs-bend': {
+    facts: [
+      {
+        label: 'Region',
+        name: 'The Roughs',
+        placeId: 'northern-roughs',
+        revealedIn: ['alloy-of-law'],
+      },
+    ],
+    people: [],
+  },
+  'ishars-field': {
+    facts: [
+      {
+        label: 'Region',
+        name: 'Central Alethkar',
+        placeId: 'alethkar',
+        revealedIn: ['oathbringer'],
+      },
+    ],
+    people: [],
+  },
+  'islands-of-lobu': {
+    facts: [
+      {
+        label: 'Type',
+        name: 'Island',
+        revealedIn: [
+          {
+            book: 'tress',
+            chapter: '15',
+          },
+        ],
+      },
+      {
+        label: 'Region',
+        name: 'Sapphire Sea',
+        placeId: 'sapphire-sea',
+        revealedIn: ['tress'],
+      },
+    ],
+    people: [
+      {
+        characterId: 'fort',
+        relation: 'born',
+        revealedIn: [
+          {
+            book: 'tress',
+            chapter: '15',
+          },
+        ],
+      },
+      {
+        characterId: 'salay',
+        relation: 'born',
+        revealedIn: [
+          {
+            book: 'tress',
+            chapter: '15',
+          },
+        ],
+      },
+    ],
+  },
+  'ja-dran': {
+    facts: [
+      {
+        label: 'Nation',
+        name: 'Marat',
+        placeId: 'marat',
+        revealedIn: ['rhythm-of-war'],
+      },
+    ],
+    people: [],
+  },
+  jaador: {
+    facts: [
+      {
+        label: 'People',
+        name: 'JinDo',
+        placeId: 'jindo',
+        revealedIn: [
+          {
+            book: 'elantris',
+            chapter: '15',
+          },
+        ],
+      },
+      {
+        label: 'Region',
+        name: 'Opelon',
+        revealedIn: ['elantris'],
+      },
+    ],
+    people: [],
+  },
+  jabom: {
+    facts: [
+      {
+        label: 'Nation',
+        name: 'Marat',
+        placeId: 'marat',
+        revealedIn: ['rhythm-of-war'],
       },
     ],
     people: [],
@@ -1406,6 +6375,239 @@ export const locationDetails: Record<string, LocationDetails> = {
     ],
     people: [],
   },
+  jindo: {
+    facts: [],
+    people: [
+      {
+        characterId: 'shuden',
+        relation: 'citizen',
+        revealedIn: ['elantris'],
+      },
+    ],
+  },
+  jito: {
+    facts: [
+      {
+        label: 'Nation',
+        name: 'Nagadan',
+        placeId: 'nagadan',
+        revealedIn: ['yumi'],
+      },
+    ],
+    people: [],
+  },
+  'jokasha-monastery': {
+    facts: [
+      {
+        label: 'Used for',
+        name: 'Home of the Devotary of the Mind',
+        revealedIn: [
+          {
+            book: 'oathbringer',
+            chapter: 'i-2',
+          },
+        ],
+      },
+      {
+        label: 'Region',
+        name: 'The Horneater Peaks',
+        placeId: 'horneater-peaks',
+        revealedIn: ['oathbringer'],
+      },
+    ],
+    people: [
+      {
+        characterId: 'bettam',
+        relation: 'resident',
+        revealedIn: ['oathbringer'],
+      },
+      {
+        characterId: 'ellista',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'oathbringer',
+            chapter: 'i-2',
+          },
+        ],
+      },
+      {
+        characterId: 'urv',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'oathbringer',
+            chapter: 'i-2',
+          },
+        ],
+      },
+    ],
+  },
+  'justice-untarnished': {
+    facts: [
+      {
+        label: 'Region',
+        name: 'Sea of Souls',
+        placeId: 'sea-of-souls',
+        revealedIn: [
+          {
+            all: ['oathbringer', 'rhythm-of-war'],
+          },
+        ],
+      },
+    ],
+    people: [],
+  },
+  kadrix: {
+    facts: [
+      {
+        label: 'Type',
+        name: 'Island',
+        revealedIn: [
+          {
+            all: [
+              'oathbringer',
+              {
+                book: 'way-of-kings',
+                chapter: '36',
+              },
+            ],
+          },
+        ],
+      },
+      {
+        label: 'Region',
+        name: 'The Reshi Isles',
+        placeId: 'reshi-isles',
+        revealedIn: ['way-of-kings'],
+      },
+    ],
+    people: [],
+  },
+  kae: {
+    facts: [
+      {
+        label: 'Nation',
+        name: 'Arelon',
+        placeId: 'arelon',
+        revealedIn: ['elantris'],
+      },
+    ],
+    people: [
+      {
+        characterId: 'adien',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'elantris',
+            chapter: '5',
+          },
+        ],
+      },
+      {
+        characterId: 'atara',
+        relation: 'resident',
+        revealedIn: ['elantris'],
+      },
+      {
+        characterId: 'daora',
+        relation: 'resident',
+        revealedIn: ['elantris'],
+      },
+      {
+        characterId: 'daorn',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'elantris',
+            chapter: '5',
+          },
+        ],
+      },
+      {
+        characterId: 'elao',
+        relation: 'resident',
+        revealedIn: ['elantris'],
+      },
+      {
+        characterId: 'eshen',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'elantris',
+            chapter: '3',
+          },
+        ],
+      },
+      {
+        characterId: 'iadon',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'elantris',
+            chapter: '26',
+          },
+        ],
+      },
+      {
+        characterId: 'ketol',
+        relation: 'resident',
+        revealedIn: ['elantris'],
+      },
+      {
+        characterId: 'kiin',
+        relation: 'resident',
+        revealedIn: ['elantris'],
+      },
+      {
+        characterId: 'meala',
+        relation: 'resident',
+        revealedIn: ['elantris'],
+      },
+      {
+        characterId: 'opa',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'elantris',
+            chapter: '32',
+          },
+        ],
+      },
+    ],
+  },
+  'kalomo-river': {
+    facts: [
+      {
+        label: 'Type',
+        name: 'River',
+        revealedIn: [
+          {
+            book: 'elantris',
+            chapter: '49',
+          },
+        ],
+      },
+      {
+        label: 'Region',
+        name: 'Arelon',
+        placeId: 'arelon',
+        revealedIn: ['elantris'],
+      },
+    ],
+    people: [],
+  },
+  kaltii: {
+    facts: [
+      {
+        label: 'Nation',
+        name: 'Arelon',
+        placeId: 'arelon',
+        revealedIn: ['elantris'],
+      },
+    ],
+    people: [],
+  },
   'kandra-homeland': {
     facts: [
       {
@@ -1427,6 +6629,54 @@ export const locationDetails: Record<string, LocationDetails> = {
     ],
     people: [],
   },
+  karanak: {
+    facts: [
+      {
+        label: 'Nation',
+        name: 'Alethkar',
+        placeId: 'alethkar',
+        revealedIn: ['oathbringer'],
+      },
+    ],
+    people: [],
+  },
+  kasitor: {
+    facts: [
+      {
+        label: 'Nation',
+        name: 'Iri',
+        placeId: 'iri',
+        revealedIn: [
+          {
+            book: 'way-of-kings',
+            chapter: 'i-5',
+          },
+        ],
+      },
+    ],
+    people: [
+      {
+        characterId: 'dyel',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'wind-and-truth',
+            chapter: 'i-11',
+          },
+        ],
+      },
+      {
+        characterId: 'dyels-mother',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'wind-and-truth',
+            chapter: 'i-11',
+          },
+        ],
+      },
+    ],
+  },
   'keep-orielle': {
     facts: [
       {
@@ -1439,6 +6689,45 @@ export const locationDetails: Record<string, LocationDetails> = {
             chapter: '30',
           },
         ],
+      },
+    ],
+    people: [],
+  },
+  'keep-shezler': {
+    facts: [
+      {
+        label: 'Owner',
+        name: 'Antillius Shezler',
+        characterId: 'antillius-shezler',
+        revealedIn: ['eleventh-metal'],
+      },
+      {
+        label: 'City',
+        name: 'Mantiz',
+        placeId: 'mantiz',
+        revealedIn: ['eleventh-metal'],
+      },
+      {
+        label: 'Dominance',
+        name: 'Western Dominance',
+        revealedIn: ['eleventh-metal'],
+      },
+    ],
+    people: [
+      {
+        characterId: 'antillius-shezler',
+        relation: 'resident',
+        revealedIn: ['eleventh-metal'],
+      },
+    ],
+  },
+  kelathar: {
+    facts: [
+      {
+        label: 'Nation',
+        name: 'Alethkar',
+        placeId: 'alethkar',
+        revealedIn: ['oathbringer'],
       },
     ],
     people: [],
@@ -1464,6 +6753,255 @@ export const locationDetails: Record<string, LocationDetails> = {
       },
     ],
     people: [],
+  },
+  'ker-kedasha': {
+    facts: [
+      {
+        label: 'Nation',
+        name: 'Kerzta',
+        placeId: 'kerzta',
+        revealedIn: ['white-sand-omnibus'],
+      },
+    ],
+    people: [],
+  },
+  kerla: {
+    facts: [
+      {
+        label: 'Region',
+        name: 'Dayside',
+        revealedIn: ['white-sand-omnibus'],
+      },
+    ],
+    people: [],
+  },
+  kerzta: {
+    facts: [
+      {
+        label: 'Capital',
+        name: 'Ker Kedasha',
+        placeId: 'ker-kedasha',
+        revealedIn: ['white-sand-omnibus'],
+      },
+      {
+        label: 'Region',
+        name: 'Dayside',
+        revealedIn: ['white-sand-omnibus'],
+      },
+    ],
+    people: [],
+  },
+  kezare: {
+    facts: [
+      {
+        label: 'Region',
+        name: 'Dayside',
+        revealedIn: ['white-sand-omnibus'],
+      },
+      {
+        label: 'Nation',
+        name: 'Lossand',
+        placeId: 'lossand',
+        revealedIn: ['white-sand-omnibus'],
+      },
+    ],
+    people: [
+      {
+        characterId: 'ais',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'white-sand-omnibus',
+            chapter: '6',
+          },
+        ],
+      },
+      {
+        characterId: 'delius',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'white-sand-omnibus',
+            chapter: '7',
+          },
+        ],
+      },
+      {
+        characterId: 'deliuss-son',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'white-sand-omnibus',
+            chapter: '15',
+          },
+        ],
+      },
+      {
+        characterId: 'dirin',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'white-sand-omnibus',
+            chapter: '4',
+          },
+        ],
+      },
+      {
+        characterId: 'doril',
+        relation: 'resident',
+        revealedIn: ['white-sand-omnibus'],
+      },
+      {
+        characterId: 'drile',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'white-sand-omnibus',
+            chapter: '4',
+          },
+        ],
+      },
+      {
+        characterId: 'elorin',
+        relation: 'resident',
+        revealedIn: ['white-sand-omnibus'],
+      },
+      {
+        characterId: 'gennel',
+        relation: 'resident',
+        revealedIn: ['white-sand-omnibus'],
+      },
+      {
+        characterId: 'grelin',
+        relation: 'resident',
+        revealedIn: ['white-sand-omnibus'],
+      },
+      {
+        characterId: 'gremt',
+        relation: 'resident',
+        revealedIn: ['white-sand-omnibus'],
+      },
+      {
+        characterId: 'heelis',
+        relation: 'resident',
+        revealedIn: ['white-sand-omnibus'],
+      },
+      {
+        characterId: 'kenton',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'white-sand-omnibus',
+            chapter: '4',
+          },
+        ],
+      },
+      {
+        characterId: 'lokmlen',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'white-sand-omnibus',
+            chapter: '6',
+          },
+        ],
+      },
+      {
+        characterId: 'mellis',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'white-sand-omnibus',
+            chapter: '11',
+          },
+        ],
+      },
+      {
+        characterId: 'melloni',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'white-sand-omnibus',
+            chapter: '11',
+          },
+        ],
+      },
+      {
+        characterId: 'moril',
+        relation: 'resident',
+        revealedIn: ['white-sand-omnibus'],
+      },
+      {
+        characterId: 'naimeer',
+        relation: 'resident',
+        revealedIn: ['white-sand-omnibus'],
+      },
+      {
+        characterId: 'praxton',
+        relation: 'resident',
+        revealedIn: ['white-sand-omnibus'],
+      },
+      {
+        characterId: 'raagent',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'white-sand-omnibus',
+            chapter: '9',
+          },
+        ],
+      },
+      {
+        characterId: 'reendel',
+        relation: 'resident',
+        revealedIn: ['white-sand-omnibus'],
+      },
+      {
+        characterId: 'rite',
+        relation: 'resident',
+        revealedIn: ['white-sand-omnibus'],
+      },
+      {
+        characterId: 'serin',
+        relation: 'resident',
+        revealedIn: ['white-sand-omnibus'],
+      },
+      {
+        characterId: 'tarn-taldain',
+        relation: 'resident',
+        revealedIn: ['white-sand-omnibus'],
+      },
+      {
+        characterId: 'traiben',
+        relation: 'resident',
+        revealedIn: ['white-sand-omnibus'],
+      },
+      {
+        characterId: 'trell-taldain',
+        relation: 'resident',
+        revealedIn: ['white-sand-omnibus'],
+      },
+      {
+        characterId: 'vennin',
+        relation: 'resident',
+        revealedIn: ['white-sand-omnibus'],
+      },
+      {
+        characterId: 'vey',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'white-sand-omnibus',
+            chapter: '15',
+          },
+        ],
+      },
+      {
+        characterId: 'yeeden',
+        relation: 'resident',
+        revealedIn: ['white-sand-omnibus'],
+      },
+    ],
   },
   kharbranth: {
     facts: [
@@ -1495,20 +7033,8 @@ export const locationDetails: Record<string, LocationDetails> = {
         characterId: 'savrahalidem',
         revealedIn: [
           {
-            book: 'way-of-kings',
-            chapter: '3',
-          },
-          {
-            book: 'way-of-kings',
-            chapter: '5',
-          },
-          {
-            book: 'way-of-kings',
-            chapter: '7',
-          },
-          {
-            book: 'words-of-radiance',
-            chapter: 'i-14',
+            book: 'rhythm-of-war',
+            chapter: '50',
           },
         ],
       },
@@ -1561,6 +7087,17 @@ export const locationDetails: Record<string, LocationDetails> = {
         ],
       },
     ],
+  },
+  khathazan: {
+    facts: [
+      {
+        label: 'Nation',
+        name: 'Tukar',
+        placeId: 'tukar',
+        revealedIn: ['rhythm-of-war'],
+      },
+    ],
+    people: [],
   },
   khlennium: {
     facts: [
@@ -1700,6 +7237,16 @@ export const locationDetails: Record<string, LocationDetails> = {
         ],
       },
       {
+        characterId: 'heshual',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'wind-and-truth',
+            chapter: 'i-3',
+          },
+        ],
+      },
+      {
         characterId: 'ialai-sadeas',
         relation: 'resident',
         revealedIn: [
@@ -1828,6 +7375,191 @@ export const locationDetails: Record<string, LocationDetails> = {
     ],
     people: [],
   },
+  khrishji: {
+    facts: [
+      {
+        label: 'Nation',
+        name: 'Marat',
+        placeId: 'marat',
+        revealedIn: ['rhythm-of-war'],
+      },
+    ],
+    people: [],
+  },
+  kilahito: {
+    facts: [
+      {
+        label: 'Nation',
+        name: 'Nagadan',
+        placeId: 'nagadan',
+        revealedIn: ['yumi'],
+      },
+    ],
+    people: [
+      {
+        characterId: 'akane',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'yumi',
+            chapter: '11',
+          },
+        ],
+      },
+      {
+        characterId: 'gaino',
+        relation: 'resident',
+        revealedIn: ['yumi'],
+      },
+      {
+        characterId: 'izumakamo',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'yumi',
+            chapter: '16',
+          },
+        ],
+      },
+      {
+        characterId: 'masaka',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'yumi',
+            chapter: '33',
+          },
+        ],
+      },
+      {
+        characterId: 'namakudo',
+        relation: 'resident',
+        revealedIn: ['yumi'],
+      },
+      {
+        characterId: 'nanakai',
+        relation: 'resident',
+        revealedIn: ['yumi'],
+      },
+      {
+        characterId: 'nikaro',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'yumi',
+            chapter: '3',
+          },
+        ],
+      },
+      {
+        characterId: 'sukishi',
+        relation: 'resident',
+        revealedIn: ['yumi'],
+      },
+      {
+        characterId: 'tojin',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'yumi',
+            chapter: '40',
+          },
+        ],
+      },
+      {
+        characterId: 'usasha',
+        relation: 'resident',
+        revealedIn: ['yumi'],
+      },
+    ],
+  },
+  kingsport: {
+    facts: [
+      {
+        label: 'Region',
+        name: 'Emerald Sea',
+        placeId: 'emerald-sea',
+        revealedIn: ['tress'],
+      },
+    ],
+    people: [],
+  },
+  kjaard: {
+    facts: [
+      {
+        label: 'Nation',
+        name: 'Jaador',
+        placeId: 'jaador',
+        revealedIn: ['elantris'],
+      },
+    ],
+    people: [],
+  },
+  'klna-city': {
+    facts: [
+      {
+        label: 'Nation',
+        name: 'Thaylenah',
+        placeId: 'thaylenah',
+        revealedIn: ['oathbringer'],
+      },
+    ],
+    people: [],
+  },
+  kneespike: {
+    facts: [
+      {
+        label: 'Region',
+        name: 'Bavland',
+        placeId: 'bavland',
+        revealedIn: ['way-of-kings'],
+      },
+    ],
+    people: [],
+  },
+  kondeon: {
+    facts: [
+      {
+        label: 'Nation',
+        name: 'Arelon',
+        placeId: 'arelon',
+        revealedIn: ['elantris'],
+      },
+    ],
+    people: [],
+  },
+  koring: {
+    facts: [
+      {
+        label: 'Nation',
+        name: 'Shinovar',
+        placeId: 'shinovar',
+        revealedIn: [
+          {
+            book: 'wind-and-truth',
+            chapter: '45',
+          },
+        ],
+      },
+    ],
+    people: [],
+  },
+  kraeda: {
+    facts: [
+      {
+        label: 'Type',
+        name: 'Mountain',
+        revealedIn: ['white-sand-omnibus'],
+      },
+      {
+        label: 'Region',
+        name: 'Kerla',
+        placeId: 'kerla',
+        revealedIn: ['white-sand-omnibus'],
+      },
+    ],
+    people: [],
+  },
   'kredik-shaw': {
     facts: [
       {
@@ -1870,6 +7602,71 @@ export const locationDetails: Record<string, LocationDetails> = {
     ],
     people: [],
   },
+  kurth: {
+    facts: [
+      {
+        label: 'Nation',
+        name: 'Rira',
+        placeId: 'rira-country',
+        revealedIn: ['way-of-kings'],
+      },
+    ],
+    people: [],
+  },
+  'laio-quarry': {
+    facts: [
+      {
+        label: 'Nation',
+        name: 'Rose Empire',
+        placeId: 'rose-empire',
+        revealedIn: ['emperors-soul'],
+      },
+    ],
+    people: [],
+  },
+  'lake-alonoe': {
+    facts: [
+      {
+        label: 'Type',
+        name: 'Lake',
+        revealedIn: [
+          {
+            book: 'elantris',
+            chapter: '46',
+          },
+        ],
+      },
+      {
+        label: 'Region',
+        name: 'Arelon',
+        placeId: 'arelon',
+        revealedIn: ['elantris'],
+      },
+    ],
+    people: [],
+  },
+  'lake-iri': {
+    facts: [
+      {
+        label: 'Type',
+        name: 'Lake',
+        revealedIn: ['oathbringer'],
+      },
+      {
+        label: 'Region',
+        name: 'Iri',
+        placeId: 'iri',
+        revealedIn: ['oathbringer'],
+      },
+      {
+        label: 'Region',
+        name: 'Rira',
+        placeId: 'rira-country',
+        revealedIn: ['oathbringer'],
+      },
+    ],
+    people: [],
+  },
   'lake-luthadel': {
     facts: [
       {
@@ -1901,6 +7698,27 @@ export const locationDetails: Record<string, LocationDetails> = {
         label: 'Region',
         name: 'Central Dominance',
         revealedIn: ['final-empire'],
+      },
+    ],
+    people: [],
+  },
+  laqqi: {
+    facts: [
+      {
+        label: 'Nation',
+        name: 'Emul',
+        placeId: 'emul',
+        revealedIn: [
+          {
+            all: [
+              'oathbringer',
+              {
+                book: 'rhythm-of-war',
+                chapter: '101',
+              },
+            ],
+          },
+        ],
       },
     ],
     people: [],
@@ -1940,6 +7758,17 @@ export const locationDetails: Record<string, LocationDetails> = {
       },
     ],
   },
+  lastport: {
+    facts: [
+      {
+        label: 'Region',
+        name: 'The Forests of Hell',
+        placeId: 'forests-of-hell',
+        revealedIn: ['shadows-for-silence'],
+      },
+    ],
+    people: [],
+  },
   'lekal-city': {
     facts: [
       {
@@ -1957,6 +7786,242 @@ export const locationDetails: Record<string, LocationDetails> = {
         name: 'Final Empire',
         placeId: 'final-empire',
         revealedIn: ['hero-of-ages'],
+      },
+    ],
+    people: [],
+  },
+  lexili: {
+    facts: [
+      {
+        label: 'Nation',
+        name: 'Greater Hexi',
+        placeId: 'greater-hexi',
+        revealedIn: ['rhythm-of-war'],
+      },
+    ],
+    people: [],
+  },
+  liafor: {
+    facts: [
+      {
+        label: 'People',
+        name: 'Liaforan',
+        revealedIn: [
+          {
+            all: [
+              {
+                book: 'edgedancer',
+                chapter: '3',
+              },
+              'way-of-kings',
+            ],
+          },
+        ],
+      },
+    ],
+    people: [],
+  },
+  'lifeless-enclave': {
+    facts: [
+      {
+        label: 'Used for',
+        name: 'Lifeless barracks',
+        revealedIn: [
+          {
+            book: 'warbreaker',
+            chapter: '47',
+          },
+          {
+            book: 'warbreaker',
+            chapter: '47',
+          },
+        ],
+      },
+      {
+        label: 'City',
+        name: "T'Telir",
+        placeId: 'ttelir',
+        revealedIn: ['warbreaker'],
+      },
+    ],
+    people: [],
+  },
+  'lightweaver-monastery': {
+    facts: [
+      {
+        label: 'Used for',
+        name: 'Worship of Shush',
+        characterId: 'shalash',
+        revealedIn: [
+          {
+            book: 'wind-and-truth',
+            chapter: '72',
+          },
+        ],
+      },
+      {
+        label: 'Used for',
+        name: 'custody of the Lightweaver Honorblade',
+        revealedIn: [
+          {
+            book: 'wind-and-truth',
+            chapter: '71',
+          },
+        ],
+      },
+      {
+        label: 'Region',
+        name: 'Shinovar',
+        placeId: 'shinovar',
+        revealedIn: [
+          {
+            book: 'wind-and-truth',
+            chapter: '70',
+          },
+        ],
+      },
+    ],
+    people: [],
+  },
+  'linder-mar': {
+    facts: [
+      {
+        label: 'Nation',
+        name: 'Tukar',
+        placeId: 'tukar',
+        revealedIn: ['rhythm-of-war'],
+      },
+    ],
+    people: [],
+  },
+  'little-herdaz': {
+    facts: [
+      {
+        label: 'City',
+        name: 'Sebarial warcamp',
+        revealedIn: [
+          {
+            book: 'words-of-radiance',
+            chapter: '87',
+          },
+        ],
+      },
+      {
+        label: 'Region',
+        name: 'The Shattered Plains',
+        placeId: 'shattered-plains',
+        revealedIn: [
+          {
+            book: 'words-of-radiance',
+            chapter: '87',
+          },
+        ],
+      },
+      {
+        label: 'Nation',
+        name: 'Alethkar',
+        placeId: 'alethkar',
+        revealedIn: ['words-of-radiance'],
+      },
+    ],
+    people: [],
+  },
+  longard: {
+    facts: [
+      {
+        label: 'City',
+        name: 'Elendel',
+        placeId: 'elendel',
+        revealedIn: ['alloy-of-law'],
+      },
+    ],
+    people: [],
+  },
+  'longbrows-straits': {
+    facts: [
+      {
+        label: 'Type',
+        name: 'Body of water',
+        revealedIn: [
+          {
+            all: [
+              'dawnshard',
+              {
+                book: 'words-of-radiance',
+                chapter: '1',
+              },
+            ],
+          },
+        ],
+      },
+    ],
+    people: [],
+  },
+  longsfollow: {
+    facts: [
+      {
+        label: 'Dominance',
+        name: 'Southern Dominance',
+        revealedIn: [
+          {
+            book: 'secret-history',
+            chapter: '4-2',
+          },
+        ],
+      },
+      {
+        label: 'Nation',
+        name: 'Final Empire',
+        placeId: 'final-empire',
+        revealedIn: ['secret-history'],
+      },
+    ],
+    people: [],
+  },
+  lossand: {
+    facts: [
+      {
+        label: 'Capital',
+        name: 'Kezare',
+        placeId: 'kezare',
+        revealedIn: ['white-sand-omnibus'],
+      },
+      {
+        label: 'Region',
+        name: 'Dayside',
+        revealedIn: ['white-sand-omnibus'],
+      },
+    ],
+    people: [],
+  },
+  lraezare: {
+    facts: [
+      {
+        label: 'Nation',
+        name: 'Lossand',
+        placeId: 'lossand',
+        revealedIn: ['white-sand-omnibus'],
+      },
+    ],
+    people: [],
+  },
+  'luminous-shallows': {
+    facts: [
+      {
+        label: 'Region',
+        name: 'Sea of Lost Lights',
+        placeId: 'sea-of-lost-lights',
+        revealedIn: ['oathbringer'],
+      },
+    ],
+    people: [],
+  },
+  lunagree: {
+    facts: [
+      {
+        label: 'Type',
+        name: 'Geographical feature',
+        revealedIn: ['tress'],
       },
     ],
     people: [],
@@ -2354,6 +8419,116 @@ export const locationDetails: Record<string, LocationDetails> = {
       },
     ],
   },
+  'madion-ways': {
+    facts: [
+      {
+        label: 'City',
+        name: 'Elendel',
+        placeId: 'elendel',
+        revealedIn: ['alloy-of-law'],
+      },
+    ],
+    people: [],
+  },
+  maipon: {
+    facts: [],
+    people: [
+      {
+        characterId: 'wan-shailu',
+        relation: 'citizen',
+        revealedIn: [
+          {
+            book: 'emperors-soul',
+            chapter: 'day-17',
+          },
+        ],
+      },
+    ],
+  },
+  makabak: {
+    facts: [
+      {
+        label: 'People',
+        name: 'Makabaki',
+        revealedIn: [
+          {
+            book: 'way-of-kings',
+            chapter: '14',
+          },
+          {
+            book: 'words-of-radiance',
+            chapter: '20',
+          },
+          {
+            book: 'edgedancer',
+            chapter: '2',
+          },
+        ],
+      },
+    ],
+    people: [],
+  },
+  'malwish-consortium': {
+    facts: [
+      {
+        label: 'People',
+        name: 'Malwish',
+        revealedIn: [
+          {
+            all: [
+              {
+                book: 'bands-of-mourning',
+                chapter: '25',
+              },
+              {
+                book: 'lost-metal',
+                chapter: '9',
+              },
+            ],
+          },
+        ],
+      },
+      {
+        label: 'Capital',
+        name: 'Unknown',
+        revealedIn: ['lost-metal'],
+      },
+      {
+        label: 'Ruled by',
+        name: 'Unknown',
+        revealedIn: ['lost-metal'],
+      },
+    ],
+    people: [],
+  },
+  'malwish-empire': {
+    facts: [
+      {
+        label: 'People',
+        name: 'Malwish',
+        revealedIn: [
+          {
+            all: [
+              {
+                book: 'sunlit-man',
+                chapter: '8',
+              },
+              {
+                book: 'isles-of-the-emberdark',
+                chapter: '36',
+              },
+            ],
+          },
+        ],
+      },
+      {
+        label: 'Capital',
+        name: 'Unknown',
+        revealedIn: ['isles-of-the-emberdark'],
+      },
+    ],
+    people: [],
+  },
   mantiz: {
     facts: [
       {
@@ -2387,6 +8562,17 @@ export const locationDetails: Record<string, LocationDetails> = {
     ],
     people: [],
   },
+  'margothian-district': {
+    facts: [
+      {
+        label: 'City',
+        name: 'Elendel',
+        placeId: 'elendel',
+        revealedIn: ['alloy-of-law'],
+      },
+    ],
+    people: [],
+  },
   marketpit: {
     facts: [
       {
@@ -2394,6 +8580,344 @@ export const locationDetails: Record<string, LocationDetails> = {
         name: 'Urteau',
         placeId: 'urteau',
         revealedIn: ['hero-of-ages'],
+      },
+    ],
+    people: [],
+  },
+  mausoleum: {
+    facts: [
+      {
+        label: 'Owner',
+        name: 'Tenet family',
+        revealedIn: [
+          {
+            book: 'oathbringer',
+            chapter: '77',
+          },
+        ],
+      },
+      {
+        label: 'Used for',
+        name: 'Mansion',
+        revealedIn: [
+          {
+            book: 'oathbringer',
+            chapter: '77',
+          },
+        ],
+      },
+      {
+        label: 'City',
+        name: 'Kholinar',
+        placeId: 'kholinar',
+        revealedIn: ['oathbringer'],
+      },
+    ],
+    people: [],
+  },
+  mazzu: {
+    facts: [
+      {
+        label: 'Nation',
+        name: 'Azir',
+        placeId: 'azir',
+        revealedIn: [
+          {
+            all: ['oathbringer', 'rhythm-of-war'],
+          },
+        ],
+      },
+    ],
+    people: [],
+  },
+  merrytown: {
+    facts: [
+      {
+        label: 'Nation',
+        name: 'Mountaincrest',
+        revealedIn: [
+          {
+            book: 'fires-of-december',
+            chapter: 'xvii',
+          },
+        ],
+      },
+    ],
+    people: [],
+  },
+  'mevan-bay': {
+    facts: [
+      {
+        label: 'Type',
+        name: 'Bay',
+        revealedIn: ['oathbringer'],
+      },
+    ],
+    people: [],
+  },
+  'midnight-sea': {
+    facts: [
+      {
+        label: 'Type',
+        name: 'Ocean',
+        revealedIn: [
+          {
+            book: 'tress',
+            chapter: '42',
+          },
+        ],
+      },
+    ],
+    people: [],
+  },
+  mikhan: {
+    facts: [
+      {
+        label: 'Nation',
+        name: 'Marat',
+        placeId: 'marat',
+        revealedIn: ['rhythm-of-war'],
+      },
+    ],
+    people: [],
+  },
+  'misted-mountains': {
+    facts: [
+      {
+        label: 'Type',
+        name: 'Mountains',
+        revealedIn: [
+          {
+            book: 'way-of-kings',
+            chapter: 'i-4',
+          },
+        ],
+      },
+      {
+        label: 'Region',
+        name: 'Shinovar',
+        placeId: 'shinovar',
+        revealedIn: [
+          {
+            book: 'way-of-kings',
+            chapter: 'i-4',
+          },
+        ],
+      },
+    ],
+    people: [],
+  },
+  mokdown: {
+    facts: [
+      {
+        label: 'Nation',
+        name: 'Shinovar',
+        placeId: 'shinovar',
+        revealedIn: [
+          {
+            book: 'wind-and-truth',
+            chapter: '73',
+          },
+        ],
+      },
+    ],
+    people: [],
+  },
+  'monastery-of-the-final-word': {
+    facts: [
+      {
+        label: 'Used for',
+        name: 'Worship of the Prophet',
+        revealedIn: [
+          {
+            book: 'fires-of-december',
+            chapter: 'xxxix',
+          },
+        ],
+      },
+    ],
+    people: [
+      {
+        characterId: 'brother-grund',
+        relation: 'resident',
+        revealedIn: ['fires-of-december'],
+      },
+    ],
+  },
+  'monastery-of-truth': {
+    facts: [
+      {
+        label: 'Used for',
+        name: 'Worship of the Heralds',
+        revealedIn: [
+          {
+            book: 'wind-and-truth',
+            chapter: '40',
+          },
+          {
+            book: 'wind-and-truth',
+            chapter: '71',
+          },
+          {
+            book: 'wind-and-truth',
+            chapter: '83',
+          },
+        ],
+      },
+      {
+        label: 'Used for',
+        name: 'custody of the Honorblades',
+        revealedIn: ['wind-and-truth'],
+      },
+      {
+        label: 'Region',
+        name: 'Shinovar',
+        placeId: 'shinovar',
+        revealedIn: ['wind-and-truth'],
+      },
+    ],
+    people: [],
+  },
+  'mountains-of-ur': {
+    facts: [
+      {
+        label: 'Type',
+        name: 'Mountains',
+        revealedIn: [
+          {
+            all: [
+              {
+                book: 'oathbringer',
+                chapter: '30',
+              },
+              'rhythm-of-war',
+            ],
+          },
+        ],
+      },
+      {
+        label: 'Region',
+        name: 'Central Roshar',
+        revealedIn: ['rhythm-of-war'],
+      },
+    ],
+    people: [],
+  },
+  'mourns-vault': {
+    facts: [
+      {
+        label: 'Nation',
+        name: 'Alethkar',
+        placeId: 'alethkar',
+        revealedIn: ['oathbringer'],
+      },
+    ],
+    people: [],
+  },
+  mycondwel: {
+    facts: [
+      {
+        label: 'Region',
+        name: 'Elendel Basin',
+        placeId: 'elendel-basin',
+        revealedIn: ['alloy-of-law'],
+      },
+    ],
+    people: [],
+  },
+  naen: {
+    facts: [
+      {
+        label: 'Nation',
+        name: 'Arelon',
+        placeId: 'arelon',
+        revealedIn: ['elantris'],
+      },
+    ],
+    people: [],
+  },
+  nagadan: {
+    facts: [],
+    people: [
+      {
+        characterId: 'akane',
+        relation: 'citizen',
+        revealedIn: ['yumi'],
+      },
+      {
+        characterId: 'gaino',
+        relation: 'citizen',
+        revealedIn: ['yumi'],
+      },
+      {
+        characterId: 'hikiri',
+        relation: 'citizen',
+        revealedIn: ['yumi'],
+      },
+      {
+        characterId: 'izumakamo',
+        relation: 'citizen',
+        revealedIn: ['yumi'],
+      },
+      {
+        characterId: 'masaka',
+        relation: 'citizen',
+        revealedIn: ['yumi'],
+      },
+      {
+        characterId: 'namakudo',
+        relation: 'citizen',
+        revealedIn: ['yumi'],
+      },
+      {
+        characterId: 'nanakai',
+        relation: 'citizen',
+        revealedIn: ['yumi'],
+      },
+      {
+        characterId: 'nikaro',
+        relation: 'citizen',
+        revealedIn: ['yumi'],
+      },
+      {
+        characterId: 'sukishi',
+        relation: 'citizen',
+        revealedIn: ['yumi'],
+      },
+      {
+        characterId: 'tesuaka-tatomi',
+        relation: 'citizen',
+        revealedIn: ['yumi'],
+      },
+      {
+        characterId: 'tojin',
+        relation: 'citizen',
+        revealedIn: ['yumi'],
+      },
+      {
+        characterId: 'usasha',
+        relation: 'citizen',
+        revealedIn: ['yumi'],
+      },
+    ],
+  },
+  nameless: {
+    facts: [
+      {
+        label: 'Region',
+        name: 'Sea of Souls',
+        placeId: 'sea-of-souls',
+        revealedIn: [
+          {
+            all: [
+              'oathbringer',
+              {
+                book: 'rhythm-of-war',
+                chapter: '29',
+              },
+            ],
+          },
+        ],
       },
     ],
     people: [],
@@ -2424,6 +8948,33 @@ export const locationDetails: Record<string, LocationDetails> = {
             chapter: '83',
           },
         ],
+      },
+    ],
+    people: [],
+  },
+  'national-archives': {
+    facts: [
+      {
+        label: 'City',
+        name: 'Elendel',
+        placeId: 'elendel',
+        revealedIn: ['shadows-of-self'],
+      },
+    ],
+    people: [],
+  },
+  'new-bridge': {
+    facts: [
+      {
+        label: 'Used for',
+        name: 'Bridge',
+        revealedIn: ['shadows-for-silence'],
+      },
+      {
+        label: 'Region',
+        name: 'The Forests of Hell',
+        placeId: 'forests-of-hell',
+        revealedIn: ['shadows-for-silence'],
       },
     ],
     people: [],
@@ -2471,12 +9022,379 @@ export const locationDetails: Record<string, LocationDetails> = {
     ],
     people: [],
   },
+  'new-seran': {
+    facts: [
+      {
+        label: 'Region',
+        name: 'Elendel Basin',
+        placeId: 'elendel-basin',
+        revealedIn: ['alloy-of-law'],
+      },
+    ],
+    people: [
+      {
+        characterId: 'aunt-gin',
+        relation: 'resident',
+        revealedIn: [
+          {
+            all: [
+              {
+                book: 'bands-of-mourning',
+                chapter: '16',
+              },
+              'alloy-of-law',
+            ],
+          },
+        ],
+      },
+      {
+        characterId: 'dechamp',
+        relation: 'resident',
+        revealedIn: [
+          {
+            all: ['bands-of-mourning', 'alloy-of-law'],
+          },
+        ],
+      },
+      {
+        characterId: 'destra',
+        relation: 'resident',
+        revealedIn: [
+          {
+            all: ['bands-of-mourning', 'alloy-of-law'],
+          },
+        ],
+      },
+      {
+        characterId: 'devlin-airs',
+        relation: 'resident',
+        revealedIn: [
+          {
+            all: [
+              {
+                book: 'bands-of-mourning',
+                chapter: '13',
+              },
+              'alloy-of-law',
+            ],
+          },
+        ],
+      },
+      {
+        characterId: 'eriola',
+        relation: 'resident',
+        revealedIn: [
+          {
+            all: ['bands-of-mourning', 'alloy-of-law'],
+          },
+        ],
+      },
+      {
+        characterId: 'gave-entrone',
+        relation: 'born',
+        revealedIn: [
+          {
+            all: [
+              {
+                book: 'lost-metal',
+                chapter: '27',
+              },
+              'alloy-of-law',
+            ],
+          },
+        ],
+      },
+      {
+        characterId: 'kelesina-shores',
+        relation: 'resident',
+        revealedIn: [
+          {
+            all: [
+              {
+                book: 'bands-of-mourning',
+                chapter: '16',
+              },
+              'alloy-of-law',
+            ],
+          },
+        ],
+      },
+      {
+        characterId: 'kelesina-shoress-steward',
+        relation: 'resident',
+        revealedIn: [
+          {
+            all: ['bands-of-mourning', 'alloy-of-law'],
+          },
+        ],
+      },
+      {
+        characterId: 'templeton-fig',
+        relation: 'resident',
+        revealedIn: [
+          {
+            all: [
+              {
+                book: 'bands-of-mourning',
+                chapter: '15',
+              },
+              'alloy-of-law',
+            ],
+          },
+        ],
+      },
+    ],
+  },
+  'night-barges': {
+    facts: [
+      {
+        label: 'City',
+        name: 'Kingseat',
+        revealedIn: ['fires-of-december'],
+      },
+    ],
+    people: [],
+  },
+  'nightstream-sea': {
+    facts: [
+      {
+        label: 'Type',
+        name: 'Sea',
+        revealedIn: ['oathbringer'],
+      },
+      {
+        label: 'Region',
+        name: 'Alethkar',
+        placeId: 'alethkar',
+        revealedIn: ['oathbringer'],
+      },
+    ],
+    people: [],
+  },
+  'nirovah-valley': {
+    facts: [
+      {
+        label: 'Type',
+        name: 'Valley',
+        revealedIn: [
+          {
+            book: 'wind-and-truth',
+            chapter: '40',
+          },
+        ],
+      },
+      {
+        label: 'Region',
+        name: 'Shinovar',
+        placeId: 'shinovar',
+        revealedIn: [
+          {
+            book: 'wind-and-truth',
+            chapter: '40',
+          },
+        ],
+      },
+    ],
+    people: [],
+  },
+  'noodle-pupil': {
+    facts: [
+      {
+        label: 'Used for',
+        name: 'Restaurant',
+        revealedIn: [
+          {
+            book: 'yumi',
+            chapter: '5',
+          },
+        ],
+      },
+      {
+        label: 'City',
+        name: 'Kilahito',
+        placeId: 'kilahito',
+        revealedIn: [
+          {
+            book: 'yumi',
+            chapter: '5',
+          },
+        ],
+      },
+      {
+        label: 'Nation',
+        name: 'Nagadan',
+        placeId: 'nagadan',
+        revealedIn: ['yumi'],
+      },
+    ],
+    people: [],
+  },
+  'nor-channel': {
+    facts: [
+      {
+        label: 'Region',
+        name: 'Sea of Lost Lights',
+        placeId: 'sea-of-lost-lights',
+        revealedIn: ['oathbringer'],
+      },
+    ],
+    people: [],
+  },
+  nortallon: {
+    facts: [
+      {
+        label: 'Region',
+        name: 'Dayside',
+        revealedIn: ['white-sand-omnibus'],
+      },
+      {
+        label: 'Nation',
+        name: 'Tallon',
+        placeId: 'tallon',
+        revealedIn: ['white-sand-omnibus'],
+      },
+    ],
+    people: [],
+  },
+  'nortallon-river': {
+    facts: [
+      {
+        label: 'Type',
+        name: 'River',
+        revealedIn: ['white-sand-omnibus'],
+      },
+    ],
+    people: [],
+  },
+  'north-hallen-channel': {
+    facts: [
+      {
+        label: 'Region',
+        name: 'Sea of Lost Lights',
+        placeId: 'sea-of-lost-lights',
+        revealedIn: ['oathbringer'],
+      },
+    ],
+    people: [],
+  },
   'north-seran': {
     facts: [
       {
         label: 'Type',
         name: 'Lake',
         revealedIn: ['final-empire'],
+      },
+    ],
+    people: [],
+  },
+  'northern-depths': {
+    facts: [
+      {
+        label: 'Type',
+        name: 'Ocean',
+        revealedIn: ['oathbringer'],
+      },
+    ],
+    people: [],
+  },
+  'northern-roughs': {
+    facts: [],
+    people: [
+      {
+        characterId: 'bloody-tan',
+        relation: 'resident',
+        revealedIn: [
+          {
+            all: [
+              {
+                book: 'alloy-of-law',
+                chapter: '7',
+              },
+              {
+                book: 'shadows-of-self',
+                chapter: 'prologue',
+              },
+              {
+                book: 'bands-of-mourning',
+                chapter: '6',
+              },
+            ],
+          },
+        ],
+      },
+    ],
+  },
+  northgrip: {
+    facts: [
+      {
+        label: 'Nation',
+        name: 'Jah Keved',
+        placeId: 'jah-keved',
+        revealedIn: ['words-of-radiance'],
+      },
+    ],
+    people: [],
+  },
+  'number-city': {
+    facts: [
+      {
+        label: 'Region',
+        name: 'Shadesmar',
+        revealedIn: [
+          {
+            all: [
+              {
+                book: 'oathbringer',
+                chapter: '47',
+              },
+              {
+                book: 'rhythm-of-war',
+                chapter: '26',
+              },
+            ],
+          },
+        ],
+      },
+    ],
+    people: [],
+  },
+  'oathbound-spires': {
+    facts: [
+      {
+        label: 'Region',
+        name: 'Sea of Souls',
+        placeId: 'sea-of-souls',
+        revealedIn: [
+          {
+            all: ['oathbringer', 'rhythm-of-war'],
+          },
+        ],
+      },
+    ],
+    people: [],
+  },
+  'ocean-of-origins': {
+    facts: [
+      {
+        label: 'Type',
+        name: 'Sea',
+        revealedIn: ['wind-and-truth'],
+      },
+    ],
+    people: [],
+  },
+  'old-bridge': {
+    facts: [
+      {
+        label: 'Used for',
+        name: 'Bridge',
+        revealedIn: ['shadows-for-silence'],
+      },
+      {
+        label: 'Region',
+        name: 'The Forests of Hell',
+        placeId: 'forests-of-hell',
+        revealedIn: ['shadows-for-silence'],
       },
     ],
     people: [],
@@ -2578,6 +9496,33 @@ export const locationDetails: Record<string, LocationDetails> = {
       },
     ],
   },
+  'ornery-chull': {
+    facts: [
+      {
+        label: 'Used for',
+        name: 'Bar',
+        revealedIn: ['words-of-radiance'],
+      },
+      {
+        label: 'Region',
+        name: 'The Shattered Plains',
+        placeId: 'shattered-plains',
+        revealedIn: ['words-of-radiance'],
+      },
+    ],
+    people: [],
+  },
+  'outer-estates': {
+    facts: [
+      {
+        label: 'Region',
+        name: 'Elendel Basin',
+        placeId: 'elendel-basin',
+        revealedIn: ['alloy-of-law'],
+      },
+    ],
+    people: [],
+  },
   'outer-market': {
     facts: [
       {
@@ -2588,6 +9533,62 @@ export const locationDetails: Record<string, LocationDetails> = {
       },
     ],
     people: [],
+  },
+  owd: {
+    facts: [
+      {
+        label: 'Nation',
+        name: 'Azir',
+        placeId: 'azir',
+        revealedIn: ['rhythm-of-war'],
+      },
+    ],
+    people: [],
+  },
+  'pahn-kahl': {
+    facts: [
+      {
+        label: 'People',
+        name: 'Pahn Kahl',
+        revealedIn: [
+          {
+            book: 'warbreaker',
+            chapter: '15',
+          },
+          {
+            book: 'warbreaker',
+            chapter: '15',
+          },
+        ],
+      },
+    ],
+    people: [
+      {
+        characterId: 'havarseth',
+        relation: 'citizen',
+        revealedIn: [
+          {
+            book: 'warbreaker',
+            chapter: '34',
+          },
+        ],
+      },
+      {
+        characterId: 'tonk-fah',
+        relation: 'citizen',
+        revealedIn: ['warbreaker'],
+      },
+      {
+        characterId: 'vahr',
+        relation: 'citizen',
+        revealedIn: [
+          {
+            book: 'warbreaker',
+            chapter: '15',
+          },
+        ],
+      },
+    ],
   },
   palanaeum: {
     facts: [
@@ -2610,6 +9611,99 @@ export const locationDetails: Record<string, LocationDetails> = {
         name: 'Kharbranth',
         placeId: 'kharbranth',
         revealedIn: ['way-of-kings'],
+      },
+    ],
+    people: [],
+  },
+  panatham: {
+    facts: [
+      {
+        label: 'Nation',
+        name: 'Babatharnam',
+        placeId: 'babatharnam',
+        revealedIn: ['oathbringer'],
+      },
+    ],
+    people: [],
+  },
+  pantheon: {
+    facts: [
+      {
+        label: 'Type',
+        name: 'Archipelago',
+        revealedIn: ['sixth-of-the-dusk'],
+      },
+    ],
+    people: [],
+  },
+  'patji-island': {
+    facts: [
+      {
+        label: 'Type',
+        name: 'Islands',
+        revealedIn: [
+          {
+            book: 'isles-of-the-emberdark',
+            chapter: '2',
+          },
+        ],
+      },
+      {
+        label: 'Region',
+        name: 'Pantheon',
+        placeId: 'pantheon',
+        revealedIn: ['isles-of-the-emberdark'],
+      },
+    ],
+    people: [
+      {
+        characterId: 'patji',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'isles-of-the-emberdark',
+            chapter: '18',
+          },
+        ],
+      },
+    ],
+  },
+  'patjis-eye': {
+    facts: [
+      {
+        label: 'Type',
+        name: 'Lake',
+        revealedIn: [
+          {
+            book: 'isles-of-the-emberdark',
+            chapter: '16',
+          },
+        ],
+      },
+      {
+        label: 'Type',
+        name: 'Perpendicularity',
+        revealedIn: [
+          {
+            book: 'isles-of-the-emberdark',
+            chapter: '16',
+          },
+        ],
+      },
+    ],
+    people: [],
+  },
+  'perpetual-sobriety': {
+    facts: [
+      {
+        label: 'Region',
+        name: 'Sea of Souls',
+        placeId: 'sea-of-souls',
+        revealedIn: [
+          {
+            all: ['oathbringer', 'rhythm-of-war'],
+          },
+        ],
       },
     ],
     people: [],
@@ -2675,6 +9769,16 @@ export const locationDetails: Record<string, LocationDetails> = {
     ],
     people: [],
   },
+  'plains-of-kaermeron': {
+    facts: [
+      {
+        label: 'Type',
+        name: 'Plain',
+        revealedIn: ['shadows-of-self'],
+      },
+    ],
+    people: [],
+  },
   purelake: {
     facts: [
       {
@@ -2691,6 +9795,59 @@ export const locationDetails: Record<string, LocationDetails> = {
         label: 'Region',
         name: 'Sela Tales',
         placeId: 'sela-tales',
+        revealedIn: ['way-of-kings'],
+      },
+    ],
+    people: [],
+  },
+  quili: {
+    facts: [
+      {
+        label: 'Type',
+        name: 'Islands',
+        revealedIn: ['oathbringer'],
+      },
+      {
+        label: 'Region',
+        name: 'The Reshi Isles',
+        placeId: 'reshi-isles',
+        revealedIn: ['oathbringer'],
+      },
+    ],
+    people: [],
+  },
+  'radiant-depths': {
+    facts: [
+      {
+        label: 'Region',
+        name: 'Sea of Souls',
+        placeId: 'sea-of-souls',
+        revealedIn: [
+          {
+            all: [
+              'way-of-kings',
+              {
+                book: 'rhythm-of-war',
+                chapter: '26',
+              },
+            ],
+          },
+        ],
+      },
+    ],
+    people: [],
+  },
+  ralinsa: {
+    facts: [
+      {
+        label: 'Used for',
+        name: 'Road',
+        revealedIn: ['way-of-kings'],
+      },
+      {
+        label: 'City',
+        name: 'Kharbranth',
+        placeId: 'kharbranth',
         revealedIn: ['way-of-kings'],
       },
     ],
@@ -2717,6 +9874,28 @@ export const locationDetails: Record<string, LocationDetails> = {
         ],
       },
     ],
+  },
+  rashekin: {
+    facts: [
+      {
+        label: 'Region',
+        name: 'Elendel Basin',
+        placeId: 'elendel-basin',
+        revealedIn: ['alloy-of-law'],
+      },
+    ],
+    people: [],
+  },
+  rashir: {
+    facts: [
+      {
+        label: 'Nation',
+        name: 'Alethkar',
+        placeId: 'alethkar',
+        revealedIn: ['oathbringer'],
+      },
+    ],
+    people: [],
   },
   rathalas: {
     facts: [
@@ -2751,6 +9930,64 @@ export const locationDetails: Record<string, LocationDetails> = {
       },
     ],
   },
+  ravizadth: {
+    facts: [
+      {
+        label: 'Region',
+        name: 'Sea of Lost Lights',
+        placeId: 'sea-of-lost-lights',
+        revealedIn: ['oathbringer'],
+      },
+    ],
+    people: [],
+  },
+  'raymar-place': {
+    facts: [
+      {
+        label: 'Used for',
+        name: 'Restaurant',
+        revealedIn: [
+          {
+            book: 'warbreaker',
+            chapter: '22',
+          },
+        ],
+      },
+      {
+        label: 'City',
+        name: "T'Telir",
+        placeId: 'ttelir',
+        revealedIn: ['warbreaker'],
+      },
+    ],
+    people: [],
+  },
+  relanas: {
+    facts: [
+      {
+        label: 'Nation',
+        name: 'Alethkar',
+        placeId: 'alethkar',
+        revealedIn: ['oathbringer'],
+      },
+    ],
+    people: [],
+  },
+  'reliqqs-channel': {
+    facts: [
+      {
+        label: 'Region',
+        name: 'Sea of Souls',
+        placeId: 'sea-of-souls',
+        revealedIn: [
+          {
+            all: ['oathbringer', 'rhythm-of-war'],
+          },
+        ],
+      },
+    ],
+    people: [],
+  },
   'reshi-isles': {
     facts: [
       {
@@ -2762,6 +9999,108 @@ export const locationDetails: Record<string, LocationDetails> = {
             chapter: '28',
           },
         ],
+      },
+    ],
+    people: [],
+  },
+  'reshi-sea': {
+    facts: [
+      {
+        label: 'Type',
+        name: 'Sea',
+        revealedIn: [
+          {
+            book: 'words-of-radiance',
+            chapter: 'i-3',
+          },
+        ],
+      },
+    ],
+    people: [
+      {
+        characterId: 'relu-na',
+        relation: 'resident',
+        revealedIn: ['words-of-radiance'],
+      },
+    ],
+  },
+  reveln: {
+    facts: [
+      {
+        label: 'Nation',
+        name: 'Seevis',
+        placeId: 'seevis',
+        revealedIn: ['white-sand-omnibus'],
+      },
+    ],
+    people: [],
+  },
+  rianal: {
+    facts: [
+      {
+        label: 'Nation',
+        name: 'Rira',
+        placeId: 'rira-country',
+        revealedIn: ['way-of-kings'],
+      },
+    ],
+    people: [
+      {
+        characterId: 'drehy',
+        relation: 'born',
+        revealedIn: [
+          {
+            all: [
+              'wind-and-truth',
+              {
+                book: 'way-of-kings',
+                chapter: '49',
+              },
+            ],
+          },
+        ],
+      },
+    ],
+  },
+  'riinos-lighthouse': {
+    facts: [
+      {
+        label: 'Owner',
+        name: 'Riino',
+        characterId: 'riino',
+        revealedIn: [
+          {
+            book: 'oathbringer',
+            chapter: '97',
+          },
+        ],
+      },
+      {
+        label: 'Used for',
+        name: 'Lighthouse',
+        revealedIn: [
+          {
+            book: 'oathbringer',
+            chapter: '97',
+          },
+        ],
+      },
+      {
+        label: 'Region',
+        name: 'Sea of Lost Lights',
+        placeId: 'sea-of-lost-lights',
+        revealedIn: ['oathbringer'],
+      },
+    ],
+    people: [],
+  },
+  'riqu-mar': {
+    facts: [
+      {
+        label: 'Nation',
+        name: 'Tukar',
+        placeId: 'tukar',
+        revealedIn: ['rhythm-of-war'],
       },
     ],
     people: [],
@@ -2825,6 +10164,219 @@ export const locationDetails: Record<string, LocationDetails> = {
     ],
     people: [],
   },
+  'river-vandonas': {
+    facts: [
+      {
+        label: 'Type',
+        name: 'River',
+        revealedIn: ['way-of-kings'],
+      },
+      {
+        label: 'Region',
+        name: 'Unclaimed Hills & Shattered Plains',
+        placeId: 'unclaimed-hills',
+        revealedIn: ['way-of-kings'],
+      },
+    ],
+    people: [],
+  },
+  rockfall: {
+    facts: [
+      {
+        label: 'Used for',
+        name: 'Mansion',
+        revealedIn: [
+          {
+            book: 'oathbringer',
+            chapter: '72',
+          },
+        ],
+      },
+      {
+        label: 'City',
+        name: 'Kholinar',
+        placeId: 'kholinar',
+        revealedIn: [
+          {
+            book: 'oathbringer',
+            chapter: '72',
+          },
+        ],
+      },
+      {
+        label: 'Nation',
+        name: 'Alethkar',
+        placeId: 'alethkar',
+        revealedIn: ['oathbringer'],
+      },
+    ],
+    people: [],
+  },
+  'roion-princedom': {
+    facts: [
+      {
+        label: 'Nation',
+        name: 'Alethkar',
+        placeId: 'alethkar',
+        revealedIn: ['way-of-kings'],
+      },
+    ],
+    people: [],
+  },
+  'rose-empire': {
+    facts: [
+      {
+        label: 'Capital',
+        name: 'Imperial Seat',
+        placeId: 'imperial-seat',
+        revealedIn: ['emperors-soul'],
+      },
+    ],
+    people: [],
+  },
+  'rose-palace': {
+    facts: [
+      {
+        label: 'Used for',
+        name: 'Palace',
+        revealedIn: [
+          {
+            book: 'emperors-soul',
+            chapter: 'day-59',
+          },
+          {
+            book: 'emperors-soul',
+            chapter: 'day-59',
+          },
+          {
+            book: 'emperors-soul',
+            chapter: 'day-59',
+          },
+          {
+            book: 'emperors-soul',
+            chapter: 'day-98',
+          },
+        ],
+      },
+      {
+        label: 'City',
+        name: 'Imperial Seat',
+        placeId: 'imperial-seat',
+        revealedIn: [
+          {
+            book: 'emperors-soul',
+            chapter: 'day-76',
+          },
+        ],
+      },
+      {
+        label: 'Nation',
+        name: 'Rose Empire',
+        placeId: 'rose-empire',
+        revealedIn: ['emperors-soul'],
+      },
+    ],
+    people: [],
+  },
+  'rose-sea': {
+    facts: [
+      {
+        label: 'Type',
+        name: 'Ocean',
+        revealedIn: [
+          {
+            book: 'tress',
+            chapter: '23',
+          },
+        ],
+      },
+    ],
+    people: [],
+  },
+  'rossen-dar': {
+    facts: [
+      {
+        label: 'Nation',
+        name: 'Marat',
+        placeId: 'marat',
+        revealedIn: ['rhythm-of-war'],
+      },
+    ],
+    people: [],
+  },
+  rousseaus: {
+    facts: [
+      {
+        label: 'Used for',
+        name: 'Retail',
+        revealedIn: ['shadows-of-self'],
+      },
+      {
+        label: 'City',
+        name: 'Elendel',
+        placeId: 'elendel',
+        revealedIn: ['shadows-of-self'],
+      },
+    ],
+    people: [],
+  },
+  'royal-sanctuaries': {
+    facts: [
+      {
+        label: 'City',
+        name: 'Kingseat',
+        revealedIn: [
+          {
+            book: 'fires-of-december',
+            chapter: 'xxxi',
+          },
+        ],
+      },
+    ],
+    people: [],
+  },
+  'ru-parat': {
+    facts: [
+      {
+        label: 'Nation',
+        name: 'Tu Bayla',
+        placeId: 'tu-bayla',
+        revealedIn: ['oathbringer'],
+      },
+    ],
+    people: [],
+  },
+  'ruthar-princedom': {
+    facts: [
+      {
+        label: 'Nation',
+        name: 'Alethkar',
+        placeId: 'alethkar',
+        revealedIn: [
+          {
+            all: [
+              'words-of-radiance',
+              {
+                book: 'oathbringer',
+                chapter: '46',
+              },
+            ],
+          },
+        ],
+      },
+    ],
+    people: [],
+  },
+  rydoali: {
+    facts: [
+      {
+        label: 'Type',
+        name: 'River',
+        revealedIn: ['white-sand-omnibus'],
+      },
+    ],
+    people: [],
+  },
   'sadeas-princedom': {
     facts: [
       {
@@ -2836,6 +10388,180 @@ export const locationDetails: Record<string, LocationDetails> = {
     ],
     people: [],
   },
+  safecamp: {
+    facts: [
+      {
+        label: 'Owners',
+        name: 'Trappers',
+        revealedIn: ['isles-of-the-emberdark'],
+      },
+      {
+        label: 'Region',
+        name: 'Pantheon',
+        placeId: 'pantheon',
+        revealedIn: ['isles-of-the-emberdark'],
+      },
+    ],
+    people: [],
+  },
+  'salavashi-trench': {
+    facts: [
+      {
+        label: 'Region',
+        name: 'Sea of Lost Lights',
+        placeId: 'sea-of-lost-lights',
+        revealedIn: ['oathbringer'],
+      },
+    ],
+    people: [],
+  },
+  salumon: {
+    facts: [
+      {
+        label: 'Region',
+        name: 'Sea of Lost Lights',
+        placeId: 'sea-of-lost-lights',
+        revealedIn: ['oathbringer'],
+      },
+    ],
+    people: [],
+  },
+  'sapphire-sea': {
+    facts: [
+      {
+        label: 'Type',
+        name: 'Ocean',
+        revealedIn: [
+          {
+            book: 'tress',
+            chapter: '42',
+          },
+        ],
+      },
+    ],
+    people: [],
+  },
+  savalashi: {
+    facts: [
+      {
+        label: 'Nation',
+        name: 'Alethkar',
+        placeId: 'alethkar',
+        revealedIn: ['oathbringer'],
+      },
+    ],
+    people: [],
+  },
+  'school-of-storms': {
+    facts: [
+      {
+        label: 'Used for',
+        name: 'School',
+        revealedIn: [
+          {
+            book: 'oathbringer',
+            chapter: '122',
+          },
+        ],
+      },
+    ],
+    people: [],
+  },
+  'sea-of-fjorden': {
+    facts: [
+      {
+        label: 'Type',
+        name: 'Sea',
+        revealedIn: [
+          {
+            book: 'elantris',
+            chapter: '2',
+          },
+        ],
+      },
+    ],
+    people: [],
+  },
+  'sea-of-lennes': {
+    facts: [
+      {
+        label: 'Type',
+        name: 'Sea',
+        revealedIn: ['alloy-of-law'],
+      },
+    ],
+    people: [],
+  },
+  'sea-of-oracles': {
+    facts: [
+      {
+        label: 'Region',
+        name: 'Sea of Lost Lights',
+        placeId: 'sea-of-lost-lights',
+        revealedIn: ['oathbringer'],
+      },
+    ],
+    people: [],
+  },
+  'sea-of-spears': {
+    facts: [
+      {
+        label: 'Type',
+        name: 'Sea',
+        revealedIn: [
+          {
+            all: [
+              {
+                book: 'way-of-kings',
+                chapter: '46',
+              },
+              {
+                book: 'oathbringer',
+                chapter: '97',
+              },
+            ],
+          },
+        ],
+      },
+      {
+        label: 'Region',
+        name: 'Alethkar',
+        placeId: 'alethkar',
+        revealedIn: [
+          {
+            all: [
+              'way-of-kings',
+              {
+                book: 'oathbringer',
+                chapter: '97',
+              },
+            ],
+          },
+        ],
+      },
+    ],
+    people: [],
+  },
+  'sea-of-yomend': {
+    facts: [
+      {
+        label: 'Type',
+        name: 'Sea',
+        revealedIn: [
+          {
+            all: [
+              'lost-metal',
+              {
+                book: 'final-empire',
+                chapter: '29',
+              },
+            ],
+          },
+        ],
+      },
+    ],
+    people: [],
+  },
   'sebarial-princedom': {
     facts: [
       {
@@ -2843,6 +10569,106 @@ export const locationDetails: Record<string, LocationDetails> = {
         name: 'Alethkar',
         placeId: 'alethkar',
         revealedIn: ['words-of-radiance'],
+      },
+    ],
+    people: [],
+  },
+  'secure-keeps': {
+    facts: [
+      {
+        label: 'City',
+        name: 'Kholinar',
+        placeId: 'kholinar',
+        revealedIn: ['oathbringer'],
+      },
+    ],
+    people: [],
+  },
+  seevis: {
+    facts: [
+      {
+        label: 'Ruled by',
+        name: 'King Reven',
+        characterId: 'reven',
+        revealedIn: [
+          {
+            book: 'white-sand-omnibus',
+            chapter: '9',
+          },
+        ],
+      },
+      {
+        label: 'Region',
+        name: 'Dayside',
+        revealedIn: ['white-sand-omnibus'],
+      },
+    ],
+    people: [],
+  },
+  'seran-range': {
+    facts: [
+      {
+        label: 'Type',
+        name: 'Mountains',
+        revealedIn: [
+          {
+            all: [
+              {
+                book: 'bands-of-mourning',
+                chapter: '10',
+              },
+              'alloy-of-law',
+            ],
+          },
+        ],
+      },
+      {
+        label: 'Region',
+        name: 'Elendel Basin',
+        placeId: 'elendel-basin',
+        revealedIn: ['alloy-of-law'],
+      },
+    ],
+    people: [],
+  },
+  'seran-river': {
+    facts: [
+      {
+        label: 'Type',
+        name: 'River',
+        revealedIn: [
+          {
+            book: 'bands-of-mourning',
+            chapter: '7',
+          },
+        ],
+      },
+      {
+        label: 'Region',
+        name: 'Elendel Basin',
+        placeId: 'elendel-basin',
+        revealedIn: [
+          {
+            all: [
+              'alloy-of-law',
+              {
+                book: 'bands-of-mourning',
+                chapter: '7',
+              },
+            ],
+          },
+        ],
+      },
+    ],
+    people: [],
+  },
+  seraven: {
+    facts: [
+      {
+        label: 'Nation',
+        name: 'Svorden',
+        placeId: 'svorden',
+        revealedIn: ['elantris'],
       },
     ],
     people: [],
@@ -2865,6 +10691,17 @@ export const locationDetails: Record<string, LocationDetails> = {
         name: 'Frostlands',
         placeId: 'frostlands',
         revealedIn: ['words-of-radiance'],
+      },
+    ],
+    people: [],
+  },
+  shamel: {
+    facts: [
+      {
+        label: 'Nation',
+        name: 'Alethkar',
+        placeId: 'alethkar',
+        revealedIn: ['oathbringer'],
       },
     ],
     people: [],
@@ -2961,6 +10798,17 @@ export const locationDetails: Record<string, LocationDetails> = {
       },
     ],
   },
+  shimmerbay: {
+    facts: [
+      {
+        label: 'Region',
+        name: 'Emerald Sea',
+        placeId: 'emerald-sea',
+        revealedIn: ['tress'],
+      },
+    ],
+    people: [],
+  },
   shinovar: {
     facts: [
       {
@@ -2991,6 +10839,96 @@ export const locationDetails: Record<string, LocationDetails> = {
       },
     ],
   },
+  'shinzua-shopping-center': {
+    facts: [
+      {
+        label: 'Used for',
+        name: 'Shopping center',
+        revealedIn: [
+          {
+            book: 'yumi',
+            chapter: '15',
+          },
+        ],
+      },
+      {
+        label: 'Nation',
+        name: 'Nagadan',
+        placeId: 'nagadan',
+        revealedIn: ['yumi'],
+      },
+    ],
+    people: [],
+  },
+  shorsebroon: {
+    facts: [
+      {
+        label: 'Nation',
+        name: 'Alethkar',
+        placeId: 'alethkar',
+        revealedIn: ['way-of-kings'],
+      },
+    ],
+    people: [
+      {
+        characterId: 'vathe',
+        relation: 'resident',
+        revealedIn: [
+          {
+            all: [
+              'rhythm-of-war',
+              {
+                book: 'way-of-kings',
+                chapter: '10',
+              },
+            ],
+          },
+        ],
+      },
+    ],
+  },
+  'shrouded-isles': {
+    facts: [
+      {
+        label: 'Type',
+        name: 'Island',
+        revealedIn: ['lost-metal'],
+      },
+    ],
+    people: [],
+  },
+  shulin: {
+    facts: [
+      {
+        label: 'Nation',
+        name: 'Alethkar',
+        placeId: 'alethkar',
+        revealedIn: ['oathbringer'],
+      },
+    ],
+    people: [],
+  },
+  'silent-mount': {
+    facts: [
+      {
+        label: 'Type',
+        name: 'Mountain',
+        revealedIn: [
+          {
+            book: 'way-of-kings',
+            chapter: '60',
+          },
+        ],
+      },
+      {
+        label: 'Region',
+        name: 'Jah Keved',
+        placeId: 'jah-keved',
+        revealedIn: ['way-of-kings'],
+      },
+    ],
+    people: [],
+  },
   silnasen: {
     facts: [
       {
@@ -3002,12 +10940,225 @@ export const locationDetails: Record<string, LocationDetails> = {
     ],
     people: [],
   },
+  'silver-house': {
+    facts: [
+      {
+        label: 'Used for',
+        name: "Mayor's mansion",
+        revealedIn: ['lost-metal'],
+      },
+      {
+        label: 'City',
+        name: 'Bilming',
+        placeId: 'bilming',
+        revealedIn: [
+          {
+            book: 'lost-metal',
+            chapter: '37',
+          },
+        ],
+      },
+      {
+        label: 'Region',
+        name: 'Elendel Basin',
+        placeId: 'elendel-basin',
+        revealedIn: ['lost-metal'],
+      },
+    ],
+    people: [],
+  },
+  silverlight: {
+    facts: [
+      {
+        label: 'Region',
+        name: 'Cognitive Realm',
+        revealedIn: [
+          {
+            book: 'isles-of-the-emberdark',
+            chapter: '30',
+          },
+          {
+            book: 'isles-of-the-emberdark',
+            chapter: '47',
+          },
+        ],
+      },
+    ],
+    people: [
+      {
+        characterId: 'spring',
+        relation: 'resident',
+        revealedIn: ['isles-of-the-emberdark'],
+      },
+    ],
+  },
+  'simulacrum-of-paralet': {
+    facts: [
+      {
+        label: 'Used for',
+        name: 'Statue',
+        revealedIn: [
+          {
+            book: 'oathbringer',
+            chapter: '59',
+          },
+        ],
+      },
+      {
+        label: 'City',
+        name: 'Thaylen City',
+        placeId: 'thaylen-city',
+        revealedIn: ['oathbringer'],
+      },
+    ],
+    people: [],
+  },
+  'skybreaker-monastery': {
+    facts: [
+      {
+        label: 'Used for',
+        name: 'Worship of Nin',
+        characterId: 'nale',
+        revealedIn: [
+          {
+            book: 'wind-and-truth',
+            chapter: '108',
+          },
+        ],
+      },
+      {
+        label: 'Used for',
+        name: 'custody of the Skybreaker Honorblade',
+        revealedIn: [
+          {
+            book: 'wind-and-truth',
+            chapter: '108',
+          },
+        ],
+      },
+      {
+        label: 'Region',
+        name: 'Shinovar',
+        placeId: 'shinovar',
+        revealedIn: [
+          {
+            book: 'wind-and-truth',
+            chapter: '108',
+          },
+        ],
+      },
+    ],
+    people: [],
+  },
+  smallport: {
+    facts: [
+      {
+        label: 'Nation',
+        name: 'Mountaincrest',
+        revealedIn: [
+          {
+            book: 'fires-of-december',
+            chapter: 'vii',
+          },
+        ],
+      },
+    ],
+    people: [],
+  },
+  'smolderbrand-channel': {
+    facts: [
+      {
+        label: 'Region',
+        name: 'Sea of Lost Lights',
+        placeId: 'sea-of-lost-lights',
+        revealedIn: ['oathbringer'],
+      },
+    ],
+    people: [],
+  },
+  'sogdian-forest': {
+    facts: [
+      {
+        label: 'Type',
+        name: 'Forests',
+        revealedIn: ['emperors-soul'],
+      },
+    ],
+    people: [],
+  },
+  'sorceresss-island': {
+    facts: [
+      {
+        label: 'Type',
+        name: 'Island',
+        revealedIn: [
+          {
+            book: 'tress',
+            chapter: '23',
+          },
+        ],
+      },
+    ],
+    people: [],
+  },
+  sori: {
+    facts: [
+      {
+        label: 'Type',
+        name: 'Island',
+        revealedIn: [
+          {
+            book: 'isles-of-the-emberdark',
+            chapter: '2',
+          },
+        ],
+      },
+      {
+        label: 'Region',
+        name: 'Pantheon',
+        placeId: 'pantheon',
+        revealedIn: ['isles-of-the-emberdark'],
+      },
+    ],
+    people: [],
+  },
+  'south-hallen-channel': {
+    facts: [
+      {
+        label: 'Region',
+        name: 'Sea of Lost Lights',
+        placeId: 'sea-of-lost-lights',
+        revealedIn: ['oathbringer'],
+      },
+    ],
+    people: [],
+  },
   'south-seran': {
     facts: [
       {
         label: 'Type',
         name: 'Lake',
         revealedIn: ['final-empire'],
+      },
+    ],
+    people: [],
+  },
+  'southern-depths': {
+    facts: [
+      {
+        label: 'Type',
+        name: 'Ocean',
+        revealedIn: [
+          {
+            all: [
+              'rhythm-of-war',
+              {
+                book: 'words-of-radiance',
+                chapter: '11',
+              },
+            ],
+          },
+        ],
       },
     ],
     people: [],
@@ -3027,6 +11178,43 @@ export const locationDetails: Record<string, LocationDetails> = {
     ],
     people: [],
   },
+  'southern-plains': {
+    facts: [
+      {
+        label: 'Type',
+        name: 'Plains',
+        revealedIn: [
+          {
+            book: 'fires-of-december',
+            chapter: 'x',
+          },
+        ],
+      },
+    ],
+    people: [],
+  },
+  'sovereigns-temple': {
+    facts: [
+      {
+        label: 'Owner',
+        name: 'Sovereign',
+        revealedIn: ['bands-of-mourning'],
+      },
+      {
+        label: 'Region',
+        name: 'Seran Range',
+        placeId: 'seran-range',
+        revealedIn: ['bands-of-mourning'],
+      },
+      {
+        label: 'Region',
+        name: 'Elendel Basin',
+        placeId: 'elendel-basin',
+        revealedIn: ['bands-of-mourning'],
+      },
+    ],
+    people: [],
+  },
   'square-of-the-survivor': {
     facts: [
       {
@@ -3037,6 +11225,34 @@ export const locationDetails: Record<string, LocationDetails> = {
       },
     ],
     people: [],
+  },
+  'stansel-belt': {
+    facts: [
+      {
+        label: 'City',
+        name: 'Elendel',
+        placeId: 'elendel',
+        revealedIn: ['alloy-of-law'],
+      },
+    ],
+    people: [],
+  },
+  staplind: {
+    facts: [
+      {
+        label: 'Region',
+        name: 'Bavland',
+        placeId: 'bavland',
+        revealedIn: ['way-of-kings'],
+      },
+    ],
+    people: [
+      {
+        characterId: 'makkek',
+        relation: 'born',
+        revealedIn: ['way-of-kings'],
+      },
+    ],
   },
   'statlin-city': {
     facts: [
@@ -3055,6 +11271,79 @@ export const locationDetails: Record<string, LocationDetails> = {
         name: 'Final Empire',
         placeId: 'final-empire',
         revealedIn: ['well-of-ascension'],
+      },
+    ],
+    people: [],
+  },
+  'steamwater-ocean': {
+    facts: [
+      {
+        label: 'Type',
+        name: 'Ocean',
+        revealedIn: [
+          {
+            book: 'oathbringer',
+            chapter: '66',
+          },
+        ],
+      },
+    ],
+    people: [],
+  },
+  steen: {
+    facts: [
+      {
+        label: 'Region',
+        name: 'Makabak',
+        placeId: 'makabak',
+        revealedIn: ['wind-and-truth'],
+      },
+    ],
+    people: [],
+  },
+  steinel: {
+    facts: [
+      {
+        label: 'Region',
+        name: 'Elendel Basin',
+        placeId: 'elendel-basin',
+        revealedIn: ['alloy-of-law'],
+      },
+    ],
+    people: [],
+  },
+  'stoneward-monastery': {
+    facts: [
+      {
+        label: 'Used for',
+        name: 'Worship of Talmut',
+        revealedIn: [
+          {
+            book: 'wind-and-truth',
+            chapter: '42',
+          },
+        ],
+      },
+      {
+        label: 'Used for',
+        name: 'custody of the Stoneward Honorblade',
+        revealedIn: [
+          {
+            book: 'wind-and-truth',
+            chapter: '40',
+          },
+        ],
+      },
+      {
+        label: 'Region',
+        name: 'Shinovar',
+        placeId: 'shinovar',
+        revealedIn: [
+          {
+            book: 'wind-and-truth',
+            chapter: '51',
+          },
+        ],
       },
     ],
     people: [],
@@ -3091,6 +11380,44 @@ export const locationDetails: Record<string, LocationDetails> = {
     ],
     people: [],
   },
+  stormshelter: {
+    facts: [
+      {
+        label: 'Used for',
+        name: 'Bunker',
+        revealedIn: [
+          {
+            all: [
+              {
+                book: 'words-of-radiance',
+                chapter: '50',
+              },
+              {
+                book: 'oathbringer',
+                chapter: '61',
+              },
+            ],
+          },
+          {
+            book: 'oathbringer',
+            chapter: '70',
+          },
+        ],
+      },
+    ],
+    people: [],
+  },
+  stringken: {
+    facts: [
+      {
+        label: 'Nation',
+        name: 'Alethkar',
+        placeId: 'alethkar',
+        revealedIn: ['oathbringer'],
+      },
+    ],
+    people: [],
+  },
   suisna: {
     facts: [
       {
@@ -3112,6 +11439,76 @@ export const locationDetails: Record<string, LocationDetails> = {
     ],
     people: [],
   },
+  suluko: {
+    facts: [
+      {
+        label: 'Type',
+        name: 'Island',
+        revealedIn: [
+          {
+            book: 'isles-of-the-emberdark',
+            chapter: '14',
+          },
+        ],
+      },
+      {
+        label: 'Region',
+        name: 'Eelakin Islands',
+        revealedIn: [
+          {
+            book: 'isles-of-the-emberdark',
+            chapter: '14',
+          },
+        ],
+      },
+    ],
+    people: [],
+  },
+  sumi: {
+    facts: [
+      {
+        label: 'Type',
+        name: 'Island',
+        revealedIn: ['oathbringer'],
+      },
+      {
+        label: 'Region',
+        name: 'The Reshi Isles',
+        placeId: 'reshi-isles',
+        revealedIn: ['oathbringer'],
+      },
+    ],
+    people: [],
+  },
+  'sunmaker-mountains': {
+    facts: [
+      {
+        label: 'Type',
+        name: 'Mountains',
+        revealedIn: [
+          {
+            all: [
+              {
+                book: 'oathbringer',
+                chapter: '16',
+              },
+              {
+                book: 'way-of-kings',
+                chapter: '24',
+              },
+            ],
+          },
+        ],
+      },
+      {
+        label: 'Region',
+        name: 'Alethkar',
+        placeId: 'alethkar',
+        revealedIn: ['way-of-kings'],
+      },
+    ],
+    people: [],
+  },
   suringshath: {
     facts: [
       {
@@ -3119,6 +11516,149 @@ export const locationDetails: Record<string, LocationDetails> = {
         name: 'Final Empire',
         placeId: 'final-empire',
         revealedIn: ['well-of-ascension'],
+      },
+    ],
+    people: [],
+  },
+  svorden: {
+    facts: [
+      {
+        label: 'People',
+        name: 'Svordish',
+        revealedIn: [
+          {
+            book: 'elantris',
+            chapter: '5',
+          },
+          {
+            book: 'elantris',
+            chapter: '8',
+          },
+          {
+            book: 'elantris',
+            chapter: '9',
+          },
+        ],
+      },
+      {
+        label: 'Capital',
+        name: 'Seraven',
+        placeId: 'seraven',
+        revealedIn: [
+          {
+            book: 'elantris',
+            chapter: '32',
+          },
+        ],
+      },
+      {
+        label: 'Region',
+        name: 'Opelon',
+        revealedIn: [
+          {
+            all: [
+              'emperors-soul',
+              {
+                book: 'elantris',
+                chapter: '5',
+              },
+            ],
+          },
+        ],
+      },
+    ],
+    people: [],
+  },
+  'svordish-university': {
+    facts: [
+      {
+        label: 'Used for',
+        name: 'University',
+        revealedIn: [
+          {
+            book: 'elantris',
+            chapter: '5',
+          },
+        ],
+      },
+      {
+        label: 'Nation',
+        name: 'Svorden',
+        placeId: 'svorden',
+        revealedIn: ['elantris'],
+      },
+    ],
+    people: [],
+  },
+  sween: {
+    facts: [
+      {
+        label: 'Nation',
+        name: 'Babatharnam',
+        placeId: 'babatharnam',
+        revealedIn: ['rhythm-of-war'],
+      },
+    ],
+    people: [],
+  },
+  talinar: {
+    facts: [
+      {
+        label: 'Nation',
+        name: 'Alethkar',
+        placeId: 'alethkar',
+        revealedIn: [
+          {
+            all: [
+              'words-of-radiance',
+              {
+                book: 'rhythm-of-war',
+                chapter: '91',
+              },
+            ],
+          },
+        ],
+      },
+    ],
+    people: [],
+  },
+  tallon: {
+    facts: [
+      {
+        label: 'Region',
+        name: 'Dayside',
+        revealedIn: ['white-sand-omnibus'],
+      },
+    ],
+    people: [],
+  },
+  'tarat-sea': {
+    facts: [
+      {
+        label: 'Type',
+        name: 'Sea',
+        revealedIn: [
+          {
+            all: [
+              {
+                book: 'rhythm-of-war',
+                chapter: '17',
+              },
+              'oathbringer',
+            ],
+          },
+        ],
+      },
+    ],
+    people: [],
+  },
+  tarier: {
+    facts: [
+      {
+        label: 'Region',
+        name: 'Elendel Basin',
+        placeId: 'elendel-basin',
+        revealedIn: ['alloy-of-law'],
       },
     ],
     people: [],
@@ -3154,6 +11694,17 @@ export const locationDetails: Record<string, LocationDetails> = {
     ],
     people: [],
   },
+  tathingdwel: {
+    facts: [
+      {
+        label: 'Region',
+        name: 'Elendel Basin',
+        placeId: 'elendel-basin',
+        revealedIn: ['alloy-of-law'],
+      },
+    ],
+    people: [],
+  },
   tathingdwen: {
     facts: [
       {
@@ -3166,6 +11717,101 @@ export const locationDetails: Record<string, LocationDetails> = {
         name: 'Final Empire',
         placeId: 'final-empire',
         revealedIn: ['well-of-ascension'],
+      },
+    ],
+    people: [],
+  },
+  'tekiel-tower': {
+    facts: [
+      {
+        label: 'Owners',
+        name: 'House Tekiel',
+        revealedIn: [
+          {
+            book: 'alloy-of-law',
+            chapter: '17',
+          },
+        ],
+      },
+      {
+        label: 'Used for',
+        name: 'Skyscraper',
+        revealedIn: [
+          {
+            book: 'alloy-of-law',
+            chapter: '17',
+          },
+        ],
+      },
+      {
+        label: 'City',
+        name: 'Elendel',
+        placeId: 'elendel',
+        revealedIn: ['alloy-of-law'],
+      },
+    ],
+    people: [],
+  },
+  teod: {
+    facts: [
+      {
+        label: 'Capital',
+        name: 'Teoras',
+        placeId: 'teoras',
+        revealedIn: [
+          {
+            all: [
+              'emperors-soul',
+              {
+                book: 'elantris',
+                chapter: '2',
+              },
+            ],
+          },
+        ],
+      },
+      {
+        label: 'Ruled by',
+        name: 'Eventeo',
+        characterId: 'eventeo',
+        revealedIn: [
+          {
+            book: 'elantris',
+            chapter: '2',
+          },
+          {
+            book: 'elantris',
+            chapter: '17',
+          },
+        ],
+      },
+    ],
+    people: [],
+  },
+  teoras: {
+    facts: [
+      {
+        label: 'Nation',
+        name: 'Teod',
+        placeId: 'teod',
+        revealedIn: ['elantris'],
+      },
+    ],
+    people: [
+      {
+        characterId: 'graeo',
+        relation: 'resident',
+        revealedIn: ['elantris'],
+      },
+    ],
+  },
+  'thanadal-princedom': {
+    facts: [
+      {
+        label: 'Nation',
+        name: 'Alethkar',
+        placeId: 'alethkar',
+        revealedIn: ['way-of-kings'],
       },
     ],
     people: [],
@@ -3223,6 +11869,32 @@ export const locationDetails: Record<string, LocationDetails> = {
       },
     ],
   },
+  'thaylen-gemstone-reserve': {
+    facts: [
+      {
+        label: 'City',
+        name: 'Thaylen City',
+        placeId: 'thaylen-city',
+        revealedIn: ['oathbringer'],
+      },
+    ],
+    people: [],
+  },
+  'thaylen-sea': {
+    facts: [
+      {
+        label: 'Region',
+        name: 'Sea of Lost Lights',
+        placeId: 'sea-of-lost-lights',
+        revealedIn: [
+          {
+            all: ['way-of-kings', 'oathbringer'],
+          },
+        ],
+      },
+    ],
+    people: [],
+  },
   thaylenah: {
     facts: [
       {
@@ -3277,6 +11949,145 @@ export const locationDetails: Record<string, LocationDetails> = {
         name: 'Emul/Greater Hexi',
         placeId: 'emul',
         revealedIn: ['way-of-kings'],
+      },
+    ],
+    people: [],
+  },
+  'the-village': {
+    facts: [
+      {
+        label: 'Region',
+        name: 'Elendel',
+        placeId: 'elendel',
+        revealedIn: ['shadows-of-self'],
+      },
+    ],
+    people: [
+      {
+        characterId: 'forch',
+        relation: 'resident',
+        revealedIn: [
+          {
+            all: [
+              {
+                book: 'bands-of-mourning',
+                chapter: 'prologue',
+              },
+              {
+                book: 'shadows-of-self',
+                chapter: '5',
+              },
+            ],
+          },
+        ],
+      },
+      {
+        characterId: 'razal',
+        relation: 'resident',
+        revealedIn: ['shadows-of-self'],
+      },
+      {
+        characterId: 'vwafendal',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'shadows-of-self',
+            chapter: '5',
+          },
+        ],
+      },
+    ],
+  },
+  thermoli: {
+    facts: [
+      {
+        label: 'Region',
+        name: 'Elendel Basin',
+        placeId: 'elendel-basin',
+        revealedIn: [
+          {
+            all: [
+              'alloy-of-law',
+              {
+                book: 'shadows-of-self',
+                chapter: '9',
+              },
+            ],
+          },
+        ],
+      },
+    ],
+    people: [],
+  },
+  'tiaoc-states': {
+    facts: [
+      {
+        label: 'People',
+        name: 'Tiaocian',
+        revealedIn: [
+          {
+            book: 'white-sand-omnibus',
+            chapter: '5',
+          },
+        ],
+      },
+      {
+        label: 'Region',
+        name: 'Darkside',
+        revealedIn: [
+          {
+            book: 'white-sand-omnibus',
+            chapter: '5',
+          },
+        ],
+      },
+    ],
+    people: [],
+  },
+  'tinweight-settlement': {
+    facts: [],
+    people: [
+      {
+        characterId: 'waynes-mother',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'lost-metal',
+            chapter: 'prologue',
+          },
+        ],
+      },
+    ],
+  },
+  tomat: {
+    facts: [
+      {
+        label: 'Nation',
+        name: 'Alethkar',
+        placeId: 'alethkar',
+        revealedIn: ['oathbringer'],
+      },
+    ],
+    people: [],
+  },
+  'torio-city': {
+    facts: [
+      {
+        label: 'Nation',
+        name: 'Torio',
+        placeId: 'torio',
+        revealedIn: ['yumi'],
+      },
+    ],
+    people: [],
+  },
+  torriqqam: {
+    facts: [
+      {
+        label: 'Nation',
+        name: 'Tukar',
+        placeId: 'tukar',
+        revealedIn: ['rhythm-of-war'],
       },
     ],
     people: [],
@@ -3392,6 +12203,317 @@ export const locationDetails: Record<string, LocationDetails> = {
       },
     ],
   },
+  triplets: {
+    facts: [
+      {
+        label: 'Type',
+        name: 'Rock formation',
+        revealedIn: [
+          {
+            book: 'oathbringer',
+            chapter: '43',
+          },
+        ],
+      },
+      {
+        label: 'Region',
+        name: 'Frostlands',
+        placeId: 'frostlands',
+        revealedIn: ['oathbringer'],
+      },
+    ],
+    people: [],
+  },
+  'true-madil': {
+    facts: [
+      {
+        label: 'Region',
+        name: 'The Roughs',
+        placeId: 'northern-roughs',
+        revealedIn: ['alloy-of-law'],
+      },
+    ],
+    people: [],
+  },
+  'truthwatcher-monastery': {
+    facts: [
+      {
+        label: 'Used for',
+        name: 'Worship of Pralla',
+        characterId: 'pralla',
+        revealedIn: ['wind-and-truth'],
+      },
+      {
+        label: 'Used for',
+        name: 'custody of the Truthwatcher Honorblade',
+        revealedIn: [
+          {
+            book: 'wind-and-truth',
+            chapter: '86',
+          },
+        ],
+      },
+      {
+        label: 'Region',
+        name: 'Shinovar',
+        placeId: 'shinovar',
+        revealedIn: [
+          {
+            book: 'wind-and-truth',
+            chapter: '86',
+          },
+        ],
+      },
+    ],
+    people: [],
+  },
+  ttelir: {
+    facts: [
+      {
+        label: 'Nation',
+        name: 'Hallandren',
+        placeId: 'hallandren',
+        revealedIn: ['warbreaker'],
+      },
+    ],
+    people: [
+      {
+        characterId: 'allmother',
+        relation: 'resident',
+        revealedIn: ['warbreaker'],
+      },
+      {
+        characterId: 'ashu',
+        relation: 'resident',
+        revealedIn: ['warbreaker'],
+      },
+      {
+        characterId: 'bebid',
+        relation: 'resident',
+        revealedIn: ['warbreaker'],
+      },
+      {
+        characterId: 'blushweaver',
+        relation: 'resident',
+        revealedIn: ['warbreaker'],
+      },
+      {
+        characterId: 'brighthue',
+        relation: 'resident',
+        revealedIn: ['warbreaker'],
+      },
+      {
+        characterId: 'brightvison',
+        relation: 'resident',
+        revealedIn: ['warbreaker'],
+      },
+      {
+        characterId: 'cads',
+        relation: 'resident',
+        revealedIn: ['warbreaker'],
+      },
+      {
+        characterId: 'calmseer',
+        relation: 'resident',
+        revealedIn: ['warbreaker'],
+      },
+      {
+        characterId: 'denth',
+        relation: 'resident',
+        revealedIn: ['warbreaker'],
+      },
+      {
+        characterId: 'fob',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'warbreaker',
+            chapter: '22',
+          },
+        ],
+      },
+      {
+        characterId: 'gagaril',
+        relation: 'resident',
+        revealedIn: ['warbreaker'],
+      },
+      {
+        characterId: 'giftbeacon',
+        relation: 'resident',
+        revealedIn: ['warbreaker'],
+      },
+      {
+        characterId: 'grable',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'warbreaker',
+            chapter: '22',
+          },
+        ],
+      },
+      {
+        characterId: 'havarseth',
+        relation: 'resident',
+        revealedIn: ['warbreaker'],
+      },
+      {
+        characterId: 'hopefinder',
+        relation: 'resident',
+        revealedIn: ['warbreaker'],
+      },
+      {
+        characterId: 'inhanna',
+        relation: 'resident',
+        revealedIn: ['warbreaker'],
+      },
+      {
+        characterId: 'kindwinds',
+        relation: 'resident',
+        revealedIn: ['warbreaker'],
+      },
+      {
+        characterId: 'lemex',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'warbreaker',
+            chapter: '13',
+          },
+        ],
+      },
+      {
+        characterId: 'lifeblesser',
+        relation: 'resident',
+        revealedIn: ['warbreaker'],
+      },
+      {
+        characterId: 'lightsong',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'warbreaker',
+            chapter: '22',
+          },
+        ],
+      },
+      {
+        characterId: 'llarimar',
+        relation: 'resident',
+        revealedIn: ['warbreaker'],
+      },
+      {
+        characterId: 'mercystar',
+        relation: 'resident',
+        revealedIn: ['warbreaker'],
+      },
+      {
+        characterId: 'mirthgiver',
+        relation: 'resident',
+        revealedIn: ['warbreaker'],
+      },
+      {
+        characterId: 'misel',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'warbreaker',
+            chapter: '49',
+          },
+        ],
+      },
+      {
+        characterId: 'old-chapps',
+        relation: 'resident',
+        revealedIn: ['warbreaker'],
+      },
+      {
+        characterId: 'paxen',
+        relation: 'resident',
+        revealedIn: ['warbreaker'],
+      },
+      {
+        characterId: 'peaceyearning',
+        relation: 'resident',
+        revealedIn: ['warbreaker'],
+      },
+      {
+        characterId: 'rira',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'warbreaker',
+            chapter: '31',
+          },
+        ],
+      },
+      {
+        characterId: 'sisirinah',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'warbreaker',
+            chapter: '4',
+          },
+        ],
+      },
+      {
+        characterId: 'stillmark',
+        relation: 'resident',
+        revealedIn: ['warbreaker'],
+      },
+      {
+        characterId: 'susebron-the-fourth',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'warbreaker',
+            chapter: '27',
+          },
+        ],
+      },
+      {
+        characterId: 'susebron',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'warbreaker',
+            chapter: '40',
+          },
+        ],
+      },
+      {
+        characterId: 'thame',
+        relation: 'resident',
+        revealedIn: ['warbreaker'],
+      },
+      {
+        characterId: 'tonk-fah',
+        relation: 'resident',
+        revealedIn: ['warbreaker'],
+      },
+      {
+        characterId: 'treledees',
+        relation: 'resident',
+        revealedIn: ['warbreaker'],
+      },
+      {
+        characterId: 'truthcall',
+        relation: 'resident',
+        revealedIn: ['warbreaker'],
+      },
+      {
+        characterId: 'tuft',
+        relation: 'resident',
+        revealedIn: ['warbreaker'],
+      },
+      {
+        characterId: 'weatherlove',
+        relation: 'resident',
+        revealedIn: ['warbreaker'],
+      },
+    ],
+  },
   tukar: {
     facts: [
       {
@@ -3445,6 +12567,50 @@ export const locationDetails: Record<string, LocationDetails> = {
       },
     ],
     people: [],
+  },
+  'tyrian-sea': {
+    facts: [
+      {
+        label: 'Type',
+        name: 'Sea',
+        revealedIn: ['alloy-of-law'],
+      },
+      {
+        label: 'Region',
+        name: 'The Roughs',
+        placeId: 'northern-roughs',
+        revealedIn: ['alloy-of-law'],
+      },
+    ],
+    people: [],
+  },
+  'uarr-dion': {
+    facts: [
+      {
+        label: 'Nation',
+        name: 'Yulay',
+        placeId: 'yulay',
+        revealedIn: ['rhythm-of-war'],
+      },
+    ],
+    people: [],
+  },
+  ukurgi: {
+    facts: [
+      {
+        label: 'Nation',
+        name: 'Rose Empire',
+        placeId: 'rose-empire',
+        revealedIn: ['emperors-soul'],
+      },
+    ],
+    people: [
+      {
+        characterId: 'ashravan',
+        relation: 'born',
+        revealedIn: ['emperors-soul'],
+      },
+    ],
   },
   'ulutu-dynasty': {
     facts: [
@@ -3621,6 +12787,11 @@ export const locationDetails: Record<string, LocationDetails> = {
         ],
       },
       {
+        characterId: 'baramaz',
+        relation: 'resident',
+        revealedIn: ['wind-and-truth'],
+      },
+      {
         characterId: 'bashin',
         relation: 'resident',
         revealedIn: [
@@ -3689,6 +12860,11 @@ export const locationDetails: Record<string, LocationDetails> = {
             chapter: '44',
           },
         ],
+      },
+      {
+        characterId: 'ethenia',
+        relation: 'resident',
+        revealedIn: ['wind-and-truth'],
       },
       {
         characterId: 'eylita-tavinar',
@@ -3761,9 +12937,24 @@ export const locationDetails: Record<string, LocationDetails> = {
         revealedIn: ['oathbringer'],
       },
       {
+        characterId: 'hakindar',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'wind-and-truth',
+            chapter: '15',
+          },
+        ],
+      },
+      {
         characterId: 'hatham',
         relation: 'resident',
         revealedIn: ['words-of-radiance'],
+      },
+      {
+        characterId: 'hendit',
+        relation: 'resident',
+        revealedIn: ['wind-and-truth'],
       },
       {
         characterId: 'hesina',
@@ -3816,12 +13007,22 @@ export const locationDetails: Record<string, LocationDetails> = {
         ],
       },
       {
+        characterId: 'isom',
+        relation: 'resident',
+        revealedIn: ['wind-and-truth'],
+      },
+      {
         characterId: 'jasnah-kholin',
         relation: 'resident',
         revealedIn: ['oathbringer'],
       },
       {
         characterId: 'jayn',
+        relation: 'resident',
+        revealedIn: ['wind-and-truth'],
+      },
+      {
+        characterId: 'jeneh',
         relation: 'resident',
         revealedIn: ['wind-and-truth'],
       },
@@ -4036,6 +13237,16 @@ export const locationDetails: Record<string, LocationDetails> = {
         ],
       },
       {
+        characterId: 'pabolon',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'wind-and-truth',
+            chapter: '14',
+          },
+        ],
+      },
+      {
         characterId: 'palona',
         relation: 'resident',
         revealedIn: [
@@ -4227,6 +13438,17 @@ export const locationDetails: Record<string, LocationDetails> = {
       },
     ],
   },
+  'urithiru-gem-archive': {
+    facts: [
+      {
+        label: 'City',
+        name: 'Urithiru',
+        placeId: 'urithiru',
+        revealedIn: ['oathbringer'],
+      },
+    ],
+    people: [],
+  },
   urteau: {
     facts: [
       {
@@ -4334,6 +13556,33 @@ export const locationDetails: Record<string, LocationDetails> = {
       },
     ],
   },
+  'valam-princedom': {
+    facts: [
+      {
+        label: 'Nation',
+        name: 'Jah Keved',
+        placeId: 'jah-keved',
+        revealedIn: [
+          {
+            all: [
+              'way-of-kings',
+              {
+                book: 'words-of-radiance',
+                chapter: '45',
+              },
+            ],
+          },
+        ],
+      },
+    ],
+    people: [
+      {
+        characterId: 'revilar',
+        relation: 'resident',
+        revealedIn: ['words-of-radiance'],
+      },
+    ],
+  },
   valath: {
     facts: [
       {
@@ -4341,6 +13590,42 @@ export const locationDetails: Record<string, LocationDetails> = {
         name: 'Jah Keved',
         placeId: 'jah-keved',
         revealedIn: ['way-of-kings'],
+      },
+    ],
+    people: [],
+  },
+  'valley-of-truth': {
+    facts: [
+      {
+        label: 'Type',
+        name: 'Valley',
+        revealedIn: [
+          {
+            book: 'way-of-kings',
+            chapter: 'i-6',
+          },
+        ],
+      },
+      {
+        label: 'Region',
+        name: 'Shinovar',
+        placeId: 'shinovar',
+        revealedIn: ['way-of-kings'],
+      },
+    ],
+    people: [],
+  },
+  'valors-temple': {
+    facts: [
+      {
+        label: 'Used for',
+        name: 'Worship of Valor',
+        revealedIn: [
+          {
+            book: 'fires-of-december',
+            chapter: 'epilogue',
+          },
+        ],
       },
     ],
     people: [],
@@ -4366,6 +13651,39 @@ export const locationDetails: Record<string, LocationDetails> = {
     ],
     people: [],
   },
+  'vamah-princedom': {
+    facts: [
+      {
+        label: 'Nation',
+        name: 'Alethkar',
+        placeId: 'alethkar',
+        revealedIn: ['way-of-kings'],
+      },
+    ],
+    people: [],
+  },
+  varikev: {
+    facts: [
+      {
+        label: 'Nation',
+        name: 'Alethkar',
+        placeId: 'alethkar',
+        revealedIn: ['oathbringer'],
+      },
+    ],
+    people: [],
+  },
+  vedelliar: {
+    facts: [
+      {
+        label: 'Nation',
+        name: 'Alethkar',
+        placeId: 'alethkar',
+        revealedIn: ['oathbringer'],
+      },
+    ],
+    people: [],
+  },
   vedenar: {
     facts: [
       {
@@ -4373,6 +13691,22 @@ export const locationDetails: Record<string, LocationDetails> = {
         name: 'Jah Keved',
         placeId: 'jah-keved',
         revealedIn: ['way-of-kings'],
+      },
+    ],
+    people: [],
+  },
+  velf: {
+    facts: [
+      {
+        label: 'Region',
+        name: 'Sycla',
+        revealedIn: ['elantris'],
+      },
+      {
+        label: 'Nation',
+        name: 'Geant',
+        placeId: 'geant',
+        revealedIn: ['elantris'],
       },
     ],
     people: [],
@@ -4420,6 +13754,55 @@ export const locationDetails: Record<string, LocationDetails> = {
       },
     ],
   },
+  'vindiel-cameux': {
+    facts: [
+      {
+        label: 'Region',
+        name: 'Elendel Basin',
+        placeId: 'elendel-basin',
+        revealedIn: ['alloy-of-law'],
+      },
+    ],
+    people: [],
+  },
+  'vtlar-cove': {
+    facts: [
+      {
+        label: 'Type',
+        name: 'Coastal inlet',
+        revealedIn: ['oathbringer'],
+      },
+      {
+        label: 'Region',
+        name: 'Thaylenah',
+        placeId: 'thaylenah',
+        revealedIn: ['oathbringer'],
+      },
+    ],
+    people: [],
+  },
+  wayfarer: {
+    facts: [
+      {
+        label: 'Region',
+        name: 'Elendel Basin',
+        placeId: 'elendel-basin',
+        revealedIn: ['lost-metal'],
+      },
+    ],
+    people: [],
+  },
+  weathering: {
+    facts: [
+      {
+        label: 'Region',
+        name: 'The Roughs',
+        placeId: 'northern-roughs',
+        revealedIn: ['alloy-of-law'],
+      },
+    ],
+    people: [],
+  },
   'westbrook-lane': {
     facts: [
       {
@@ -4427,6 +13810,144 @@ export const locationDetails: Record<string, LocationDetails> = {
         name: 'Urteau',
         placeId: 'urteau',
         revealedIn: ['hero-of-ages'],
+      },
+    ],
+    people: [],
+  },
+  'wests-haven': {
+    facts: [
+      {
+        label: 'Region',
+        name: 'The Roughs',
+        placeId: 'northern-roughs',
+        revealedIn: ['lost-metal'],
+      },
+    ],
+    people: [],
+  },
+  widor: {
+    facts: [
+      {
+        label: 'Nation',
+        name: 'Fjorden',
+        placeId: 'fjorden',
+        revealedIn: ['elantris'],
+      },
+    ],
+    people: [],
+  },
+  wiestlow: {
+    facts: [
+      {
+        label: 'Region',
+        name: 'Southern Scadrial',
+        revealedIn: [
+          {
+            book: 'bands-of-mourning',
+            chapter: '22',
+          },
+        ],
+      },
+    ],
+    people: [],
+  },
+  'willshaper-monastery': {
+    facts: [
+      {
+        label: 'Used for',
+        name: 'Worship of Kalak',
+        characterId: 'kalak',
+        revealedIn: ['wind-and-truth'],
+      },
+      {
+        label: 'Used for',
+        name: 'custody of the Willshaper Honorblade',
+        revealedIn: [
+          {
+            book: 'wind-and-truth',
+            chapter: '45',
+          },
+        ],
+      },
+      {
+        label: 'Region',
+        name: 'Shinovar',
+        placeId: 'shinovar',
+        revealedIn: [
+          {
+            book: 'wind-and-truth',
+            chapter: '45',
+          },
+        ],
+      },
+    ],
+    people: [],
+  },
+  'windrunner-monastery': {
+    facts: [
+      {
+        label: 'Used for',
+        name: 'Worship of Yesoran',
+        characterId: 'jezrien',
+        revealedIn: [
+          {
+            book: 'wind-and-truth',
+            chapter: '83',
+          },
+        ],
+      },
+      {
+        label: 'Used for',
+        name: 'custody of the Windrunner Honorblade',
+        revealedIn: [
+          {
+            book: 'wind-and-truth',
+            chapter: '83',
+          },
+        ],
+      },
+      {
+        label: 'Region',
+        name: 'Shinovar',
+        placeId: 'shinovar',
+        revealedIn: [
+          {
+            book: 'wind-and-truth',
+            chapter: '83',
+          },
+        ],
+      },
+    ],
+    people: [],
+  },
+  'windrunner-river': {
+    facts: [
+      {
+        label: 'Type',
+        name: 'River',
+        revealedIn: [
+          {
+            book: 'oathbringer',
+            chapter: '61',
+          },
+        ],
+      },
+      {
+        label: 'Region',
+        name: 'Alethkar',
+        placeId: 'alethkar',
+        revealedIn: ['oathbringer'],
+      },
+    ],
+    people: [],
+  },
+  wyllion: {
+    facts: [
+      {
+        label: 'Region',
+        name: 'Elendel Basin',
+        placeId: 'elendel-basin',
+        revealedIn: ['alloy-of-law'],
       },
     ],
     people: [],
@@ -4485,6 +14006,147 @@ export const locationDetails: Record<string, LocationDetails> = {
         name: 'Final Empire',
         placeId: 'final-empire',
         revealedIn: ['well-of-ascension'],
+      },
+    ],
+    people: [],
+  },
+  yezier: {
+    facts: [
+      {
+        label: 'People',
+        name: 'Makabaki',
+        revealedIn: [
+          {
+            all: ['oathbringer', 'way-of-kings'],
+          },
+        ],
+      },
+      {
+        label: 'Ruled by',
+        name: 'Princess of Yezier',
+        revealedIn: [
+          {
+            all: ['oathbringer', 'way-of-kings'],
+          },
+        ],
+      },
+      {
+        label: 'Region',
+        name: 'Makabak',
+        placeId: 'makabak',
+        revealedIn: ['way-of-kings'],
+      },
+    ],
+    people: [],
+  },
+  'yian-dion': {
+    facts: [
+      {
+        label: 'Nation',
+        name: 'Yulay',
+        placeId: 'yulay',
+        revealedIn: ['rhythm-of-war'],
+      },
+    ],
+    people: [],
+  },
+  'yomen-manor': {
+    facts: [
+      {
+        label: 'Owners',
+        name: 'House Yomen',
+        revealedIn: [
+          {
+            book: 'alloy-of-law',
+            chapter: '4',
+          },
+          {
+            book: 'alloy-of-law',
+            chapter: '6',
+          },
+        ],
+      },
+      {
+        label: 'City',
+        name: 'Elendel',
+        placeId: 'elendel',
+        revealedIn: ['alloy-of-law'],
+      },
+    ],
+    people: [],
+  },
+  zawfix: {
+    facts: [
+      {
+        label: 'Nation',
+        name: 'Azir',
+        placeId: 'azir',
+        revealedIn: ['edgedancer'],
+      },
+    ],
+    people: [],
+  },
+  'zephyr-islands': {
+    facts: [
+      {
+        label: 'Type',
+        name: 'Island',
+        revealedIn: [
+          {
+            book: 'tress',
+            chapter: '28',
+          },
+        ],
+      },
+      {
+        label: 'Region',
+        name: 'Sapphire Sea',
+        placeId: 'sapphire-sea',
+        revealedIn: ['tress'],
+      },
+    ],
+    people: [],
+  },
+  zigareth: {
+    facts: [
+      {
+        label: 'Used for',
+        name: 'Palace',
+        revealedIn: ['elantris'],
+      },
+      {
+        label: 'City',
+        name: 'Widor',
+        placeId: 'widor',
+        revealedIn: ['elantris'],
+      },
+      {
+        label: 'Nation',
+        name: 'Fjorden',
+        placeId: 'fjorden',
+        revealedIn: ['elantris'],
+      },
+    ],
+    people: [],
+  },
+  'zobell-tower': {
+    facts: [
+      {
+        label: 'City',
+        name: 'Elendel',
+        placeId: 'elendel',
+        revealedIn: ['shadows-of-self'],
+      },
+    ],
+    people: [],
+  },
+  zodruf: {
+    facts: [
+      {
+        label: 'Nation',
+        name: 'Azir',
+        placeId: 'azir',
+        revealedIn: ['rhythm-of-war'],
       },
     ],
     people: [],

@@ -8,6 +8,7 @@ import {
 import { Link, useLocation, useNavigate } from 'react-router'
 import type { SearchHit } from '../search/engine'
 import { addRecent, clearRecent, loadRecent } from '../search/recent'
+import { isTyping } from '../state/keys'
 import {
   hiddenNote,
   searchPageHref,
@@ -22,11 +23,6 @@ const PER_GROUP = 5
 const isMac =
   typeof navigator !== 'undefined' &&
   /Mac|iPhone|iPad/.test(navigator.platform || navigator.userAgent)
-
-const isTyping = (target: EventTarget | null) =>
-  target instanceof HTMLElement &&
-  (target.isContentEditable ||
-    ['INPUT', 'TEXTAREA', 'SELECT'].includes(target.tagName))
 
 /**
  * Header button and ⌘K / Ctrl+K / "/" shortcut that open the search box: a

@@ -1,0 +1,106 @@
+{
+  "intro": [
+    {
+      "text": "A nation ruled as a theocracy, home of the Fjordell.",
+      "revealedIn": [{ "book": "elantris", "chapter": "2" }]
+    },
+    {
+      "text": "A theocracy, home of the Fjordell, with Shu-Dereth as its state religion. It leads the Fjordell Empire, a union of Derethi nations that each keep their own ruler but are in effect governed by the Wyrn as highest priest.",
+      "revealedIn": [{ "book": "elantris", "chapter": "9" }]
+    },
+    {
+      "text": "Home of the Fjordell and by far the largest state of the Fjordell Empire, a union of Derethi nations that the Wyrn in effect governs. Fjorden itself is a theocracy with Shu-Dereth as its state religion and Widor as its capital.",
+      "revealedIn": ["elantris"]
+    }
+  ],
+  "description": [
+    {
+      "text": "Fjorden lies along the Sea of Fjorden. The Dathreki Mountains, called the Atad by the Arelene, form its western border, and two or more large rivers cross the country. The climate is cold, and some winters are harsh enough to make trees freeze and burst.",
+      "revealedIn": [{ "book": "elantris", "chapter": "14" }]
+    },
+    {
+      "text": "Fjordell society is rigidly ordered: everyone obeys a superior, in a chain that ends with the Wyrn, who alone may serve Jaddeth without an intermediary. Fjordell people go to any length to climb in rank, since ambition pleases Jaddeth as much as devotion does. Their language, Fjordell, is held to be Jaddeth's own chosen tongue and therefore holy, while all others are profane, and the native accent is thick and melodic.",
+      "revealedIn": [{ "book": "elantris", "chapter": "21" }]
+    },
+    {
+      "text": "Fjorden is rich. It trades heavily with Teod, Arelon and its own territories, and it is notorious for profiting from the turmoil of other nations. Its gold coin, the wyrning, carries the Wyrn's profile, and its good wines are sold abroad, including in Arelon.",
+      "revealedIn": [{ "book": "elantris", "chapter": "43" }]
+    },
+    {
+      "text": "Derethi priests go through hard physical training in Fjorden's monasteries, which makes them fine warriors who strengthen the Wyrn's armies. Fjorden has little sea power of its own, but it can afford a navy, mostly Svordish ships, large enough to overwhelm Teod by sheer numbers.",
+      "revealedIn": [{ "book": "elantris", "chapter": "57" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Early Fjorden",
+          "revealedIn": ["elantris", { "book": "elantris", "chapter": "8" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "The Old Empire, also called the First Empire, once ruled Fjorden. More than three hundred years ago it came close to conquering all of Opelon, held back only by Arelon with the help of Elantrian magic, and it finally collapsed because it had taken more land than it could govern.",
+          "revealedIn": ["elantris"]
+        },
+        {
+          "text": "For centuries, Fjordell laborers spent their whole lives as feudal serfs, treated worse than livestock. Raised to it and knowing no other way, they never rebelled.",
+          "revealedIn": [{ "book": "elantris", "chapter": "8" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The Derethi theocracy",
+          "revealedIn": [
+            { "book": "elantris", "chapter": "43" },
+            { "book": "elantris", "chapter": "5" },
+            { "book": "elantris", "chapter": "7" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Some three centuries ago, Wyrn Wulfden the First adopted Shu-Dereth, and inside a single generation the whole country followed, remaking the country as a theocracy. Since then the Wyrns have rewritten Fjorden's histories, poetry and royal lives so that the empire always seems to have served a divine purpose and its greatest king does not sound like a pagan.",
+          "revealedIn": [{ "book": "elantris", "chapter": "43" }]
+        },
+        {
+          "text": "Over the following three centuries the Wyrns used their religious power to grow, absorbing neighboring states through conversion, until by the time of the Reod they were stronger than the Old Empire had ever been.",
+          "revealedIn": [{ "book": "elantris", "chapter": "5" }]
+        },
+        {
+          "text": "The Fjordell despise the Arelene as pagans for worshipping Domi and the Elantrians, a hatred deepened by Fjorden's repeated failures to conquer Arelon. They also regard the Teo as their old rivals and archenemies.",
+          "revealedIn": [{ "book": "elantris", "chapter": "7" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "After the Reod",
+          "revealedIn": [
+            { "book": "elantris", "chapter": "8" },
+            { "book": "elantris", "chapter": "15" },
+            { "book": "elantris", "chapter": "62" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "After the Reod, Fjorden began pushing its influence outward again. It brought about the bloody collapse of the Duladel Republic and then turned its attention to Arelon and its ally Teod.",
+          "revealedIn": [{ "book": "elantris", "chapter": "8" }]
+        },
+        {
+          "text": "Hrathen was sent to convert Arelon and bring it under Fjorden; if that could not be done within three months, Fjordell armies were to wipe out everyone and everything alive in Arelon's cities. Fjorden also gave money to Telrii, an Arelene Derethi who wanted the throne.",
+          "revealedIn": [{ "book": "elantris", "chapter": "15" }]
+        },
+        {
+          "text": "Ten years after the Reod, the Wyrn secretly sent warrior monks from the Dakhor monastery into Arelon, where they began slaughtering nobles and commoners alike, while a Fjordell force sailed straight for Teoras. Both invasions were halted, and they left Fjorden's relations with Arelon and Teod far worse than before.",
+          "revealedIn": [{ "book": "elantris", "chapter": "62" }]
+        }
+      ]
+    }
+  ]
+}

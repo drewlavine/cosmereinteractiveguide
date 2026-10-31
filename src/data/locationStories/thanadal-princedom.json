@@ -1,0 +1,38 @@
+{
+  "intro": [
+    {
+      "text": "One of the ten princedoms of Alethkar.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "28" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "On the Shattered Plains the princedom held five Shards: the Highprince's Blade and Plate and three others. By long tradition, the Highprince's Shards are carried by a warrior called the Royal Defender, a post held by Brightlord Resi.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "58" }]
+    },
+    {
+      "text": "Its army includes hired mercenaries.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "67" }]
+    },
+    {
+      "text": "It lies in central Alethkar, with the Sunmaker Mountains to the north, the Sea of Spears and the Sebarial princedom to the south, the Hatham princedom to the west and the Eastern Crownlands to the east. One river from the Sea of Spears cuts through its middle, and another marks its border with the Crownlands.",
+      "revealedIn": ["oathbringer"]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The True Desolation",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "104" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "When most of the Alethi army moved to Urithiru, Highprince Thanadal stayed behind in the warcamps and extended the lands under his control.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "104" }]
+        }
+      ]
+    }
+  ]
+}

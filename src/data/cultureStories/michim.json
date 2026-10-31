@@ -1,0 +1,28 @@
+{
+  "intro": [
+    {
+      "text": "A game Sigzil and Teft played while they waited for Kaladin to come back from the Shattered Plains.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "71" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Teft grumbled that michim is a holy word in Vorinism; Sigzil replied that it isn't holy where the game comes from. Teft lost most games.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "71" }]
+    }
+  ],
+  "history": [],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "sigzil",
+      "role": "player",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "71" }]
+    },
+    {
+      "characterId": "teft",
+      "role": "player",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "71" }]
+    }
+  ]
+}

@@ -61,7 +61,7 @@ describe('characters pages', () => {
   beforeAll(() => Promise.all([...storyIds.map(loadStory), loadPack('roshar')]))
 
   it('lists every character, grouped by letter', () => {
-    renderAt('/characters', allBooks)
+    renderAt('/characters?group=name', allBooks)
     const list = screen.getByRole('article', { name: 'Characters' })
     expect(within(list).getByRole('link', { name: 'Kaladin' })).toHaveAttribute(
       'href',
@@ -78,7 +78,7 @@ describe('characters pages', () => {
   })
 
   it('hides characters the reader has not met', () => {
-    renderAt('/characters')
+    renderAt('/characters?group=name')
     const hidden = Object.keys(characterDetails).length + personas.length
     expect(characterLinks()).toHaveLength(
       characters.length + personas.length - hidden,
@@ -90,14 +90,14 @@ describe('characters pages', () => {
       ),
     ).toBeInTheDocument()
     // Characters without details yet are still listed.
-    expect(screen.getByRole('link', { name: 'Blackthorn' })).toBeInTheDocument()
+    expect(screen.getByRole('link', { name: 'Hana' })).toBeInTheDocument()
   })
 
   it('shows a character once the reader reaches their first chapter', () => {
-    renderAt('/characters', [], { 'way-of-kings': 'prologue' })
+    renderAt('/characters?group=name', [], { 'way-of-kings': 'prologue' })
     expect(screen.queryByRole('link', { name: 'Kaladin' })).toBeNull()
     cleanup()
-    renderAt('/characters', [], { 'way-of-kings': '1' })
+    renderAt('/characters?group=name', [], { 'way-of-kings': '1' })
     expect(screen.getByRole('link', { name: 'Kaladin' })).toBeInTheDocument()
   })
 
@@ -293,7 +293,7 @@ describe('characters pages', () => {
     stormlight('/characters/vasher')
     expect(screen.getByText(/Not met yet/)).toBeInTheDocument()
     cleanup()
-    stormlight('/characters')
+    stormlight('/characters?group=name')
     expect(screen.getByRole('link', { name: 'Zahel' })).toBeInTheDocument()
     expect(screen.queryByRole('link', { name: 'Vasher' })).toBeNull()
     cleanup()
@@ -334,7 +334,7 @@ describe('characters pages', () => {
         .map((h) => h.textContent),
     ).toEqual(['Becoming a Returned', 'The Manywar', "In T'Telir", 'On Roshar'])
     cleanup()
-    both('/characters')
+    both('/characters?group=name')
     expect(screen.getByRole('link', { name: 'Vasher' })).toBeInTheDocument()
     expect(screen.queryByRole('link', { name: 'Zahel' })).toBeNull()
   })
@@ -366,7 +366,7 @@ describe('characters pages', () => {
     await userEvent.click(screen.getByRole('link', { name: 'Appearances' }))
     expect(page()).not.toMatch(/Way of Kings|Radiance|Oathbringer|Rhythm/)
     cleanup()
-    sunlit('/characters')
+    sunlit('/characters?group=name')
     expect(screen.getByRole('link', { name: 'Nomad' })).toBeInTheDocument()
     expect(screen.queryByRole('link', { name: 'Sigzil' })).toBeNull()
     cleanup()
@@ -444,7 +444,7 @@ describe('characters pages', () => {
   })
 
   it('opens a character page from the list', async () => {
-    renderAt('/characters', ['final-empire'])
+    renderAt('/characters?group=name', ['final-empire'])
     await userEvent.click(screen.getByRole('link', { name: 'Vin' }))
     // The list stays while its exit transition plays.
     expect(
@@ -457,14 +457,14 @@ describe('characters pages', () => {
   })
 
   it('shows a character name, placeholder and Coppermind link', () => {
-    renderAt('/characters/blackthorn')
+    renderAt('/characters/hana')
     expect(
-      screen.getByRole('heading', { level: 1, name: 'Blackthorn' }),
+      screen.getByRole('heading', { level: 1, name: 'Hana' }),
     ).toBeInTheDocument()
     expect(screen.getByText('Details coming soon.')).toBeInTheDocument()
     expect(
       screen.getByRole('link', { name: /on the Coppermind/ }),
-    ).toHaveAttribute('href', 'https://coppermind.net/wiki/Blackthorn_(spren)')
+    ).toHaveAttribute('href', 'https://coppermind.net/wiki/Hana_(Roshar)')
     expect(
       within(screen.getByRole('navigation', { name: 'Breadcrumb' })).getByRole(
         'link',
@@ -529,62 +529,249 @@ describe('characters pages', () => {
     )
   })
 
-  it('groups the list by series, world, species, ability or book count', async () => {
+  it('groups the list by series, world, species, ability or book count', () => {
     renderAt('/characters', allBooks)
-    const groupBy = screen.getByRole('combobox', { name: 'Group by' })
-    await userEvent.selectOptions(groupBy, 'series')
-    const region = (name: string) => screen.getByRole('region', { name })
     expect(
-      within(region('The Stormlight Archive')).getByRole('link', {
-        name: 'Kaladin',
+      within(screen.getByRole('navigation', { name: 'Browse by' }))
+        .getAllByRole('link')
+        .map((a) => a.textContent),
+    ).toEqual([
+      'Series',
+      'World',
+      'Species',
+      'Ability',
+      'Number of books',
+      'Page feature',
+    ])
+    const series = within(screen.getByRole('region', { name: 'Series' }))
+    expect(
+      series.getByRole('link', { name: /^The Stormlight Archive, / }),
+    ).toBeInTheDocument()
+    expect(
+      series.getByRole('link', { name: /^Warbreaker, / }),
+    ).toBeInTheDocument()
+    expect(
+      series.getByRole('link', { name: /^Not sorted yet, / }),
+    ).toBeInTheDocument()
+    const members = (path: string) => {
+      cleanup()
+      renderAt(path, allBooks)
+      return within(screen.getByRole('article'))
+    }
+    const kaladin = { name: 'Kaladin' }
+    expect(
+      members('/characters?group=series&of=stormlight').getByRole(
+        'link',
+        kaladin,
+      ),
+    ).toBeInTheDocument()
+    expect(
+      members('/characters?group=series&of=warbreaker').getByRole('link', {
+        name: 'Vivenna',
       }),
     ).toBeInTheDocument()
     expect(
-      within(region('Standalones')).getByRole('link', { name: 'Vivenna' }),
+      members('/characters?group=world&of=roshar').getByRole('link', kaladin),
     ).toBeInTheDocument()
-    expect(screen.getByText(/not sorted by series yet/)).toBeInTheDocument()
-    await userEvent.selectOptions(groupBy, 'world')
     expect(
-      within(region('Roshar')).getByRole('link', { name: 'Kaladin' }),
+      members('/characters?group=species&of=Human').getByRole('link', kaladin),
     ).toBeInTheDocument()
-    await userEvent.selectOptions(groupBy, 'books')
     expect(
-      within(region('In 6 books')).getByRole('link', { name: 'Kaladin' }),
+      members('/characters?group=ability&of=Surgebinder').getByRole(
+        'link',
+        kaladin,
+      ),
+    ).toBeInTheDocument()
+    expect(
+      members('/characters?group=books&of=6').getByRole('link', kaladin),
+    ).toBeInTheDocument()
+    expect(
+      screen.getByRole('heading', { level: 1, name: 'In 6 books' }),
     ).toBeInTheDocument()
   })
 
-  it('groups only by what the reader knows', async () => {
+  it('groups only by what the reader knows', () => {
     // Kaladin learns he's a Surgebinder in chapter 57 (Coppermind footnote).
+    const surgebinders = '/characters?group=ability&of=Surgebinder'
     renderAt('/characters?group=ability', [], { 'way-of-kings': '56' })
-    expect(screen.queryByRole('region', { name: 'Surgebinder' })).toBeNull()
+    expect(screen.queryByRole('link', { name: /^Surgebinder, / })).toBeNull()
+    cleanup()
+    renderAt(surgebinders, [], { 'way-of-kings': '56' })
+    // A group the reader can't see gets the empty page, naming nothing.
+    expect(screen.getByText('No characters match.')).toBeInTheDocument()
+    expect(screen.queryByText(/Surgebinder/)).toBeNull()
+    expect(screen.queryByRole('link', { name: 'Kaladin' })).toBeNull()
     cleanup()
     renderAt('/characters?group=ability', [], { 'way-of-kings': '57' })
     expect(
-      within(screen.getByRole('region', { name: 'Surgebinder' })).getByRole(
+      screen.getByRole('link', { name: /^Surgebinder, / }),
+    ).toBeInTheDocument()
+    cleanup()
+    renderAt(surgebinders, [], { 'way-of-kings': '57' })
+    expect(
+      within(screen.getByRole('article', { name: 'Surgebinder' })).getByRole(
         'link',
         { name: 'Kaladin' },
       ),
     ).toBeInTheDocument()
     cleanup()
     renderAt('/characters?group=series', ['warbreaker'])
-    // One group: nothing to jump between.
     expect(
-      screen.queryByRole('combobox', { name: 'Jump to series' }),
-    ).toBeNull()
-    expect(
-      screen.getByRole('region', { name: 'Standalones' }),
+      screen.getByRole('link', { name: /^Warbreaker, / }),
     ).toBeInTheDocument()
+    expect(
+      screen.queryByRole('link', { name: /^The Stormlight Archive, / }),
+    ).toBeNull()
     cleanup()
     renderAt('/characters?group=series', ['warbreaker', 'way-of-kings'])
     expect(
-      within(screen.getByRole('combobox', { name: 'Jump to series' }))
-        .getAllByRole('option')
-        .slice(1)
-        .map((o) => o.textContent),
-    ).toEqual(['The Stormlight Archive', 'Standalones'])
+      within(screen.getByRole('region', { name: 'Series' }))
+        .getAllByRole('link')
+        .map((a) => a.getAttribute('aria-label')?.replace(/, \d+ .+$/, ''))
+        .slice(0, 2),
+    ).toEqual(['The Stormlight Archive', 'Warbreaker'])
     expect(
       screen.queryByRole('navigation', { name: 'Jump to letter' }),
     ).toBeNull()
+  })
+
+  it('gives standalone books separate series cards, covers and members', async () => {
+    const read = ['warbreaker', 'sunlit-man']
+    renderAt('/characters?group=series', read)
+    const series = within(screen.getByRole('region', { name: 'Series' }))
+    const warbreaker = series.getByRole('link', { name: /^Warbreaker, / })
+    const sunlit = series.getByRole('link', {
+      name: /^The Sunlit Man, /,
+    })
+    expect(warbreaker).toHaveAttribute(
+      'href',
+      '/characters?group=series&of=warbreaker',
+    )
+    expect(sunlit).toHaveAttribute(
+      'href',
+      '/characters?group=series&of=sunlit-man',
+    )
+    expect(warbreaker.querySelector('img')).toHaveAttribute(
+      'src',
+      expect.stringContaining('/timeline/covers/warbreaker.webp'),
+    )
+    expect(series.queryByRole('link', { name: /^Standalones, / })).toBeNull()
+    expect(
+      series.queryByRole('link', { name: /^Sixth of the Dusk, / }),
+    ).toBeNull()
+    await userEvent.click(warbreaker)
+    const members = within(
+      await screen.findByRole('article', { name: 'Warbreaker' }),
+    )
+    expect(members.getByRole('link', { name: 'Vivenna' })).toBeInTheDocument()
+    expect(members.queryByRole('link', { name: 'Nomad' })).toBeNull()
+    cleanup()
+    renderAt('/characters?group=series&of=sunlit-man', read)
+    expect(screen.getByRole('link', { name: 'Nomad' })).toBeInTheDocument()
+    expect(screen.queryByRole('link', { name: 'Vivenna' })).toBeNull()
+  })
+
+  it('counts a group by the characters the reader can see in it', () => {
+    const surgebinders = () =>
+      screen.getByRole('link', { name: /^Surgebinder, / })
+    // Others are told to be Surgebinders at chapters 59 and 60.
+    renderAt('/characters?group=ability', [], { 'way-of-kings': '57' })
+    expect(surgebinders()).toHaveAccessibleName('Surgebinder, 1 character')
+    cleanup()
+    renderAt('/characters?group=ability', [], { 'way-of-kings': '59' })
+    expect(surgebinders()).toHaveAccessibleName('Surgebinder, 2 characters')
+    cleanup()
+    renderAt('/characters?group=ability', [], { 'way-of-kings': '60' })
+    expect(surgebinders()).toHaveAccessibleName('Surgebinder, 4 characters')
+    cleanup()
+    renderAt('/characters?group=ability&of=Surgebinder', [], {
+      'way-of-kings': '60',
+    })
+    expect(screen.getByText('4 characters')).toBeInTheDocument()
+    expect(characterLinks()).toHaveLength(4)
+  })
+
+  it('shows art on a species or ability card only once the reader may see it', () => {
+    const card = (
+      grouping: string,
+      name: RegExp,
+      read: string[],
+      reading = {},
+    ) => {
+      cleanup()
+      renderAt(`/characters?group=${grouping}`, read, reading)
+      return screen.getByRole('link', { name })
+    }
+    const honorspren = /^Honorspren, /
+    // Syl's species is told at chapter 57; its page waits for chapter 67 and
+    // its art for the end of Rhythm of War.
+    const locked = card('species', honorspren, [], { 'way-of-kings': '57' })
+    expect(locked.querySelector('img')).toBeNull()
+    // A locked card looks like one that never has art.
+    const symbol = locked.querySelector('svg')
+    expect(symbol).not.toBeNull()
+    expect(symbol?.outerHTML).toBe(
+      screen.getByRole('link', { name: /^Human, / }).querySelector('svg')
+        ?.outerHTML,
+    )
+    expect(
+      card('species', honorspren, ['way-of-kings']).querySelector('img'),
+    ).toBeNull()
+    expect(
+      card('species', honorspren, [
+        'way-of-kings',
+        'rhythm-of-war',
+      ]).querySelector('img'),
+    ).toHaveAttribute('src', expect.stringMatching(/lifeform-honorspren/))
+    // An Order's emblem needs its page, from chapter 52 of The Way of Kings.
+    const windrunner = /^Windrunner, /
+    expect(
+      card('ability', windrunner, [], {
+        'way-of-kings': '51',
+        'words-of-radiance': '87',
+      }).querySelector('img'),
+    ).toBeNull()
+    expect(
+      card('ability', windrunner, [], {
+        'way-of-kings': '52',
+        'words-of-radiance': '87',
+      }).querySelector('img'),
+    ).toHaveAttribute(
+      'src',
+      expect.stringMatching(/order-of-windrunners-glyph/),
+    )
+  })
+
+  it('keeps a persona to its own groups until the reader sees through it', () => {
+    const inSeries = (id: string, read: string[], reading = {}) => {
+      cleanup()
+      renderAt(`/characters?group=series&of=${id}`, read, reading)
+      return screen.getByRole('article')
+    }
+    const link = (name: string) => ({ name })
+    // Stormlight only: Zahel, and no hint of Vasher or Warbreaker.
+    const stormlight = ['way-of-kings']
+    const reading = { 'words-of-radiance': '44' }
+    expect(
+      within(inSeries('stormlight', stormlight, reading)).getByRole(
+        'link',
+        link('Zahel'),
+      ),
+    ).toBeInTheDocument()
+    expect(screen.queryByRole('link', link('Vasher'))).toBeNull()
+    cleanup()
+    renderAt('/characters?group=series', stormlight, reading)
+    expect(screen.queryByRole('link', { name: /^Warbreaker, / })).toBeNull()
+    inSeries('warbreaker', stormlight, reading)
+    expect(screen.getByText('No characters match.')).toBeInTheDocument()
+    expect(screen.queryByRole('link', link('Vasher'))).toBeNull()
+    // Both read: Vasher, once under each, and Zahel nowhere.
+    const both = ['warbreaker', 'way-of-kings']
+    for (const id of ['stormlight', 'warbreaker']) {
+      const group = within(inSeries(id, both, { 'words-of-radiance': '16' }))
+      expect(group.getAllByRole('link', link('Vasher'))).toHaveLength(1)
+      expect(group.queryByRole('link', link('Zahel'))).toBeNull()
+    }
   })
 
   it('shows not found for unknown characters', () => {

@@ -1,0 +1,44 @@
+{
+  "intro": [
+    {
+      "text": "A soup Kiin knows how to make, to his family's dismay.",
+      "revealedIn": [{ "book": "elantris", "chapter": "26" }]
+    },
+    {
+      "text": "A soup from Hraggen that few people enjoy the taste of. Kiin knows how to make it, to his family's dismay.",
+      "revealedIn": [{ "book": "elantris", "chapter": "35" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Sarene's mother made King Eventeo eat weed soup so that he would lose weight and grow healthier.",
+      "revealedIn": [{ "book": "elantris", "chapter": "35" }]
+    }
+  ],
+  "history": [],
+  "facts": [
+    {
+      "label": "Origin",
+      "name": "Hraggen",
+      "placeId": "hraggen",
+      "revealedIn": [{ "book": "elantris", "chapter": "35" }]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "kiin",
+      "role": "cook",
+      "revealedIn": [{ "book": "elantris", "chapter": "26" }]
+    },
+    {
+      "characterId": "eventeo",
+      "role": "ate it",
+      "revealedIn": [{ "book": "elantris", "chapter": "35" }]
+    },
+    {
+      "characterId": "sarenes-mother",
+      "role": "served it",
+      "revealedIn": [{ "book": "elantris", "chapter": "35" }]
+    }
+  ]
+}

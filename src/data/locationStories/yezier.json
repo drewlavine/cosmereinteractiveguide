@@ -1,0 +1,64 @@
+{
+  "intro": [
+    {
+      "text": "A region of southwestern Roshar that was part of Makabakam in the time of the Silver Kingdoms.",
+      "revealedIn": ["way-of-kings"]
+    },
+    {
+      "text": "A landlocked princedom in southwestern Roshar, a member state of the Azish Empire, ruled by a princess.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "111" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Yezier has no Oathgate. Like other member states of the empire, it can ordinarily borrow Azir's imperial Shardblades.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "edgedancer", "chapter": "2" },
+            { "book": "oathbringer", "chapter": "12" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Yezier is known for its stormwardens and timekeepers. With neighbouring Liafor, it has been one of Roshar's centres of fashion for decades.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "96" }]
+    },
+    {
+      "text": "Yezier has long had close ties to the Azish throne, and its princess spends half of each year in Azimir.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "122" }]
+    },
+    {
+      "text": "It borders Desh to the north, Azir to the east and Tashikk and Liafor to the south, with a river along its western border with Alm and the Misted Mountains, beyond which lies Shinovar, in the northeast. It has no other major rivers and no notable settlements.",
+      "revealedIn": ["oathbringer"]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Dalinar's coalition",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "96" },
+            { "book": "oathbringer", "chapter": "122" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "After the Everstorm, Dalinar tried to win Yezier over to his coalition, hoping it would sway other states nearby. Its princess held back, waiting for the Prime Aqasix to decide. Once Azir agreed to join, Yezier followed, and the princess came to Urithiru in person.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "96" }]
+        },
+        {
+          "text": "When the Azish withdrew from the coalition shortly before the Battle of Thaylen Field, Yezier, fearful of an invasion from Iri, stayed, and the princess sought closer ties between her country and Alethkar.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "122" }]
+        },
+        {
+          "text": "The princess entered a courtship with Halam Khal, a highlord of House Kholin, though she needs the Prime's permission to marry him.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "122" }]
+        }
+      ]
+    }
+  ]
+}

@@ -2285,7 +2285,7 @@ export const characterDetails: Record<string, CharacterDetails> = {
         name: 'Telsin',
         relation: 'sibling',
         characterId: 'telsin-ladrian',
-        revealedIn: [{ book: 'shadows-of-self', chapter: '5' }],
+        revealedIn: [{ book: 'alloy-of-law', chapter: '3' }],
       },
       {
         name: 'Paalm',
@@ -2464,7 +2464,7 @@ export const characterDetails: Record<string, CharacterDetails> = {
         name: 'Jackstom Harms',
         relation: 'parent',
         characterId: 'jackstom-harms',
-        revealedIn: ['lost-metal'],
+        revealedIn: [{ book: 'alloy-of-law', chapter: '9' }],
       },
       {
         name: 'Steris Harms',
@@ -2541,13 +2541,13 @@ export const characterDetails: Record<string, CharacterDetails> = {
         name: 'Maxillium',
         relation: 'child',
         characterId: 'maxillium-ladrian',
-        revealedIn: ['lost-metal'],
+        revealedIn: [{ book: 'lost-metal', chapter: '2' }],
       },
       {
         name: 'Tindwyl',
         relation: 'child',
         characterId: 'tindwyl-ladrian',
-        revealedIn: ['lost-metal'],
+        revealedIn: [{ book: 'lost-metal', chapter: '2' }],
       },
       {
         name: 'Armal',
@@ -2592,7 +2592,7 @@ export const characterDetails: Record<string, CharacterDetails> = {
         name: 'Iadon',
         relation: 'parent',
         characterId: 'iadon',
-        revealedIn: [{ book: 'elantris', chapter: '46' }],
+        revealedIn: [{ book: 'elantris', chapter: '1' }],
       },
       {
         name: 'Sarene',
@@ -2634,13 +2634,13 @@ export const characterDetails: Record<string, CharacterDetails> = {
         name: 'Eventeo',
         relation: 'parent',
         characterId: 'eventeo',
-        revealedIn: [{ book: 'elantris', chapter: '17' }],
+        revealedIn: [{ book: 'elantris', chapter: '2' }],
       },
       {
         name: 'Teorn',
         relation: 'sibling',
         characterId: 'teorn',
-        revealedIn: ['hope-of-elantris'],
+        revealedIn: [{ book: 'elantris', chapter: '17' }],
       },
       {
         name: 'Raoden',
@@ -2770,18 +2770,19 @@ export const characterDetails: Record<string, CharacterDetails> = {
         name: 'Ridger',
         relation: 'sibling',
         characterId: 'ridger',
-        revealedIn: ['warbreaker'],
+        revealedIn: [{ book: 'warbreaker', chapter: '1' }],
       },
       {
         name: 'Fafen',
         relation: 'sibling',
         characterId: 'fafen',
-        revealedIn: ['warbreaker'],
+        revealedIn: [{ book: 'warbreaker', chapter: '2' }],
       },
       {
         name: 'Siri',
         relation: 'sibling',
-        revealedIn: [{ book: 'warbreaker', chapter: '33' }],
+        characterId: 'sisirinah',
+        revealedIn: [{ book: 'warbreaker', chapter: '1' }],
       },
       {
         name: 'Vo',
@@ -3768,13 +3769,13 @@ export const characterDetails: Record<string, CharacterDetails> = {
         name: 'Lem',
         relation: 'parent',
         characterId: 'lem',
-        revealedIn: ['tress'],
+        revealedIn: [{ book: 'tress', chapter: '4' }],
       },
       {
         name: 'Ulba',
         relation: 'parent',
         characterId: 'ulba',
-        revealedIn: ['tress'],
+        revealedIn: [{ book: 'tress', chapter: '5' }],
       },
       {
         name: 'Aunt Glorf',
@@ -3796,7 +3797,7 @@ export const characterDetails: Record<string, CharacterDetails> = {
     ],
     world: {
       planetId: 'komashi',
-      revealedIn: [{ book: 'yumi', chapter: '2' }],
+      revealedIn: [{ book: 'yumi', chapter: '34' }],
     },
     aliases: [
       { name: 'Chosen', revealedIn: ['yumi'] },
@@ -3807,7 +3808,7 @@ export const characterDetails: Record<string, CharacterDetails> = {
       { name: 'Human', revealedIn: [{ book: 'yumi', chapter: '2' }] },
       {
         name: 'Cognitive Shadow',
-        revealedIn: [{ book: 'yumi', chapter: '17' }],
+        revealedIn: [{ book: 'yumi', chapter: '39' }],
       },
     ],
     abilities: [
@@ -4853,7 +4854,9 @@ export const characterDetails: Record<string, CharacterDetails> = {
     species: [
       { name: 'Human', revealedIn: [{ book: 'final-empire', chapter: '10' }] },
     ],
-    abilities: [{ name: 'Smoker', revealedIn: ['final-empire'] }],
+    abilities: [
+      { name: 'Smoker', revealedIn: [{ book: 'final-empire', chapter: '10' }] },
+    ],
     nationality: [],
     profession: [],
     groups: [],
@@ -9199,7 +9202,12 @@ export const characterDetails: Record<string, CharacterDetails> = {
     abilities: [],
     nationality: [],
     profession: [],
-    groups: [{ name: 'Luthadel Assembly', revealedIn: ['well-of-ascension'] }],
+    groups: [
+      {
+        name: 'Luthadel Assembly',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '38' }],
+      },
+    ],
     bonds: [],
     relatives: [],
   },
@@ -22013,7 +22021,7 @@ export const characterDetails: Record<string, CharacterDetails> = {
         name: 'Brightlord Lustow',
         relation: 'parent',
         characterId: 'lustow',
-        revealedIn: ['oathbringer'],
+        revealedIn: [{ book: 'way-of-kings', chapter: '12' }],
       },
     ],
   },
@@ -26494,7 +26502,7 @@ export const characterDetails: Record<string, CharacterDetails> = {
         name: 'Brightlord Seveks',
         relation: 'parent',
         characterId: 'brightlord-seveks',
-        revealedIn: ['way-of-kings'],
+        revealedIn: [{ book: 'way-of-kings', chapter: '24' }],
       },
     ],
   },
@@ -41619,7 +41627,7 @@ export const characterDetails: Record<string, CharacterDetails> = {
         name: 'Ana',
         relation: 'spouse',
         characterId: 'ana',
-        revealedIn: ['oathbringer'],
+        revealedIn: [{ book: 'oathbringer', chapter: '54' }],
       },
     ],
   },
@@ -45156,7 +45164,7 @@ export const characterDetails: Record<string, CharacterDetails> = {
         name: 'Seala',
         relation: 'spouse',
         characterId: 'seala',
-        revealedIn: ['elantris'],
+        revealedIn: [{ book: 'elantris', chapter: '60' }],
       },
     ],
   },
@@ -45287,7 +45295,7 @@ export const characterDetails: Record<string, CharacterDetails> = {
         name: 'Hinston',
         relation: 'child',
         characterId: 'hinston-ladrian',
-        revealedIn: ['bands-of-mourning'],
+        revealedIn: [{ book: 'alloy-of-law', chapter: '10' }],
       },
       {
         name: 'Waxillium Ladrian',
@@ -45421,5 +45429,22883 @@ export const characterDetails: Record<string, CharacterDetails> = {
       },
     ],
     relatives: [],
+  },
+  lukel: {
+    appearsIn: [
+      { bookId: 'elantris', revealedIn: [{ book: 'elantris', chapter: '5' }] },
+    ],
+    world: {
+      planetId: 'sel',
+      revealedIn: [{ book: 'elantris', chapter: '5' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'elantris', chapter: '5' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Arelene', revealedIn: [{ book: 'elantris', chapter: '5' }] },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Daora',
+        relation: 'parent',
+        characterId: 'daora',
+        revealedIn: [{ book: 'elantris', chapter: '5' }],
+      },
+      {
+        name: 'Kiin',
+        relation: 'parent',
+        characterId: 'kiin',
+        revealedIn: [{ book: 'elantris', chapter: '5' }],
+      },
+      {
+        name: 'Adien',
+        relation: 'sibling',
+        characterId: 'adien',
+        revealedIn: [{ book: 'elantris', chapter: '5' }],
+      },
+      {
+        name: 'Kaise',
+        relation: 'sibling',
+        characterId: 'kaise',
+        revealedIn: [{ book: 'elantris', chapter: '5' }],
+      },
+      {
+        name: 'Daorn',
+        relation: 'sibling',
+        characterId: 'daorn',
+        revealedIn: [{ book: 'elantris', chapter: '5' }],
+      },
+      {
+        name: 'Jalla',
+        relation: 'spouse',
+        characterId: 'jalla',
+        revealedIn: [{ book: 'elantris', chapter: '5' }],
+      },
+    ],
+  },
+  eondel: {
+    appearsIn: [
+      { bookId: 'elantris', revealedIn: [{ book: 'elantris', chapter: '11' }] },
+    ],
+    world: {
+      planetId: 'sel',
+      revealedIn: [{ book: 'elantris', chapter: '11' }],
+    },
+    aliases: [
+      {
+        name: 'Count of Eon Plantation',
+        revealedIn: [{ book: 'elantris', chapter: '11' }],
+      },
+    ],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'elantris', chapter: '11' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Arelene', revealedIn: [{ book: 'elantris', chapter: '11' }] },
+    ],
+    profession: [
+      { name: 'Soldier', revealedIn: [{ book: 'elantris', chapter: '11' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  kiin: {
+    appearsIn: [
+      { bookId: 'elantris', revealedIn: [{ book: 'elantris', chapter: '5' }] },
+    ],
+    world: {
+      planetId: 'sel',
+      revealedIn: [{ book: 'elantris', chapter: '5' }],
+    },
+    aliases: [
+      {
+        name: 'Dreok Crushthroat',
+        revealedIn: [{ book: 'elantris', chapter: '58' }],
+      },
+      { name: 'Hunky Kay', revealedIn: [{ book: 'elantris', chapter: '5' }] },
+      {
+        name: 'Crown Prince of Teod',
+        revealedIn: [{ book: 'elantris', chapter: '58' }],
+      },
+    ],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'elantris', chapter: '5' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Teo', revealedIn: [{ book: 'elantris', chapter: '5' }] },
+    ],
+    profession: [
+      { name: 'Pirate', revealedIn: [{ book: 'elantris', chapter: '58' }] },
+      { name: 'Merchant', revealedIn: [{ book: 'elantris', chapter: '5' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Eventeo',
+        relation: 'sibling',
+        characterId: 'eventeo',
+        revealedIn: [{ book: 'elantris', chapter: '11' }],
+      },
+      {
+        name: 'Daora',
+        relation: 'spouse',
+        characterId: 'daora',
+        revealedIn: [{ book: 'elantris', chapter: '5' }],
+      },
+      {
+        name: 'Kaise',
+        relation: 'child',
+        characterId: 'kaise',
+        revealedIn: [{ book: 'elantris', chapter: '5' }],
+      },
+      {
+        name: 'Daorn',
+        relation: 'child',
+        characterId: 'daorn',
+        revealedIn: [{ book: 'elantris', chapter: '5' }],
+      },
+      {
+        name: 'Lukel',
+        relation: 'child',
+        characterId: 'lukel',
+        revealedIn: [{ book: 'elantris', chapter: '5' }],
+      },
+      {
+        name: 'Adien',
+        relation: 'child',
+        characterId: 'adien',
+        revealedIn: [{ book: 'elantris', chapter: '5' }],
+      },
+      {
+        name: 'Sarene',
+        relation: 'relative',
+        characterId: 'sarene',
+        revealedIn: [{ book: 'elantris', chapter: '5' }],
+      },
+      {
+        name: 'Teorn',
+        relation: 'relative',
+        characterId: 'teorn',
+        revealedIn: [{ book: 'elantris', chapter: '17' }],
+      },
+    ],
+  },
+  telrii: {
+    appearsIn: [
+      { bookId: 'elantris', revealedIn: [{ book: 'elantris', chapter: '8' }] },
+    ],
+    world: {
+      planetId: 'sel',
+      revealedIn: [{ book: 'elantris', chapter: '8' }],
+    },
+    aliases: [
+      { name: 'Duke', revealedIn: [{ book: 'elantris', chapter: '9' }] },
+      {
+        name: 'King of Arelon',
+        revealedIn: [{ book: 'elantris', chapter: '44' }],
+      },
+    ],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'elantris', chapter: '8' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Arelene', revealedIn: [{ book: 'elantris', chapter: '9' }] },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Atara',
+        relation: 'spouse',
+        characterId: 'atara',
+        revealedIn: [{ book: 'elantris', chapter: '14' }],
+      },
+      {
+        name: 'Shaor',
+        relation: 'child',
+        characterId: 'shaor',
+        revealedIn: [{ book: 'elantris', chapter: '22' }],
+      },
+    ],
+  },
+  roial: {
+    appearsIn: [
+      { bookId: 'elantris', revealedIn: [{ book: 'elantris', chapter: '11' }] },
+    ],
+    world: {
+      planetId: 'sel',
+      revealedIn: [{ book: 'elantris', chapter: '11' }],
+    },
+    aliases: [{ name: 'Duke of Ial Plantation', revealedIn: ['elantris'] }],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'elantris', chapter: '11' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Arelene', revealedIn: [{ book: 'elantris', chapter: '11' }] },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [{ name: 'Opa', revealedIn: [{ book: 'elantris', chapter: '32' }] }],
+    relatives: [
+      {
+        name: 'Eoldess',
+        relation: 'spouse',
+        characterId: 'eoldess',
+        revealedIn: [{ book: 'elantris', chapter: '14' }],
+      },
+    ],
+  },
+  karata: {
+    appearsIn: [
+      { bookId: 'elantris', revealedIn: [{ book: 'elantris', chapter: '4' }] },
+    ],
+    world: {
+      planetId: 'sel',
+      revealedIn: [{ book: 'elantris', chapter: '4' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'elantris', chapter: '4' }] },
+      { name: 'Elantrian', revealedIn: [{ book: 'elantris', chapter: '4' }] },
+    ],
+    abilities: [{ name: 'AonDor', revealedIn: ['elantris'] }],
+    nationality: [
+      { name: 'Arelene', revealedIn: [{ book: 'elantris', chapter: '13' }] },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Opais',
+        relation: 'child',
+        characterId: 'opais',
+        revealedIn: [{ book: 'elantris', chapter: '13' }],
+      },
+    ],
+  },
+  eventeo: {
+    appearsIn: [
+      { bookId: 'elantris', revealedIn: [{ book: 'elantris', chapter: '2' }] },
+    ],
+    world: {
+      planetId: 'sel',
+      revealedIn: [{ book: 'elantris', chapter: '2' }],
+    },
+    aliases: [
+      {
+        name: 'King of Teod',
+        revealedIn: [{ book: 'elantris', chapter: '2' }],
+      },
+    ],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'elantris', chapter: '2' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Teo', revealedIn: [{ book: 'elantris', chapter: '2' }] },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [{ name: 'Dio', revealedIn: ['elantris'] }],
+    relatives: [
+      {
+        name: 'Kiin',
+        relation: 'sibling',
+        characterId: 'kiin',
+        revealedIn: [{ book: 'elantris', chapter: '11' }],
+      },
+      {
+        name: 'Teorn',
+        relation: 'child',
+        characterId: 'teorn',
+        revealedIn: [{ book: 'elantris', chapter: '17' }],
+      },
+      {
+        name: 'Sarene',
+        relation: 'child',
+        characterId: 'sarene',
+        revealedIn: [{ book: 'elantris', chapter: '2' }],
+      },
+      {
+        name: 'Kaise',
+        relation: 'relative',
+        characterId: 'kaise',
+        revealedIn: [{ book: 'elantris', chapter: '11' }],
+      },
+      {
+        name: 'Daorn',
+        relation: 'relative',
+        characterId: 'daorn',
+        revealedIn: [{ book: 'elantris', chapter: '11' }],
+      },
+    ],
+  },
+  kaise: {
+    appearsIn: [
+      { bookId: 'elantris', revealedIn: [{ book: 'elantris', chapter: '5' }] },
+      {
+        bookId: 'lost-metal',
+        revealedIn: [{ book: 'lost-metal', chapter: '39' }],
+      },
+    ],
+    world: {
+      planetId: 'sel',
+      revealedIn: [{ book: 'elantris', chapter: '5' }],
+    },
+    aliases: [
+      {
+        name: 'Codenames Are Stupid',
+        revealedIn: [{ book: 'lost-metal', chapter: '39' }],
+      },
+      {
+        name: 'Codenames',
+        revealedIn: [{ book: 'lost-metal', chapter: '39' }],
+      },
+    ],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [
+          { book: 'elantris', chapter: '5' },
+          { book: 'lost-metal', chapter: '39' },
+        ],
+      },
+    ],
+    abilities: [
+      {
+        name: 'Worldhopper',
+        revealedIn: [{ all: ['elantris', 'lost-metal'] }],
+      },
+    ],
+    nationality: [
+      { name: 'Arelene', revealedIn: [{ book: 'elantris', chapter: '5' }] },
+    ],
+    profession: [],
+    groups: [
+      {
+        name: 'Ghostbloods',
+        revealedIn: [{ book: 'lost-metal', chapter: '39' }],
+      },
+    ],
+    bonds: [
+      { name: 'Dao', revealedIn: [{ book: 'lost-metal', chapter: '40' }] },
+    ],
+    relatives: [
+      {
+        name: 'Kiin',
+        relation: 'parent',
+        characterId: 'kiin',
+        revealedIn: [{ book: 'elantris', chapter: '5' }],
+      },
+      {
+        name: 'Daora',
+        relation: 'parent',
+        characterId: 'daora',
+        revealedIn: [{ book: 'elantris', chapter: '5' }],
+      },
+      {
+        name: 'Lukel',
+        relation: 'sibling',
+        characterId: 'lukel',
+        revealedIn: [{ book: 'elantris', chapter: '5' }],
+      },
+      {
+        name: 'Adien',
+        relation: 'sibling',
+        characterId: 'adien',
+        revealedIn: [{ book: 'elantris', chapter: '5' }],
+      },
+      {
+        name: 'Daorn',
+        relation: 'sibling',
+        characterId: 'daorn',
+        revealedIn: [{ book: 'elantris', chapter: '5' }],
+      },
+      {
+        name: 'Sarene',
+        relation: 'relative',
+        characterId: 'sarene',
+        revealedIn: [{ book: 'elantris', chapter: '5' }],
+      },
+      {
+        name: 'Teorn',
+        relation: 'relative',
+        characterId: 'teorn',
+        revealedIn: [{ book: 'elantris', chapter: '17' }],
+      },
+      {
+        name: 'Eventeo',
+        relation: 'relative',
+        characterId: 'eventeo',
+        revealedIn: [{ book: 'elantris', chapter: '11' }],
+      },
+    ],
+    personas: [
+      {
+        id: 'codenames',
+        name: 'Codenames',
+        coppermindPage: 'Kaise',
+        books: ['lost-metal'],
+        identityRevealedIn: [{ all: ['elantris', 'lost-metal'] }],
+      },
+    ],
+  },
+  iadon: {
+    appearsIn: [
+      { bookId: 'elantris', revealedIn: [{ book: 'elantris', chapter: '1' }] },
+    ],
+    world: {
+      planetId: 'sel',
+      revealedIn: [{ book: 'elantris', chapter: '1' }],
+    },
+    aliases: [
+      {
+        name: 'King of Arelon',
+        revealedIn: [{ book: 'elantris', chapter: '1' }],
+      },
+    ],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'elantris', chapter: '1' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Arelene', revealedIn: [{ book: 'elantris', chapter: '2' }] },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Eshen',
+        relation: 'spouse',
+        characterId: 'eshen',
+        revealedIn: [{ book: 'elantris', chapter: '2' }],
+      },
+      {
+        name: 'Raoden',
+        relation: 'child',
+        characterId: 'raoden',
+        revealedIn: [{ book: 'elantris', chapter: '1' }],
+      },
+    ],
+  },
+  saolin: {
+    appearsIn: [
+      { bookId: 'elantris', revealedIn: [{ book: 'elantris', chapter: '10' }] },
+    ],
+    world: {
+      planetId: 'sel',
+      revealedIn: [{ book: 'elantris', chapter: '10' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'elantris', chapter: '10' }] },
+      { name: 'Elantrian', revealedIn: [{ book: 'elantris', chapter: '10' }] },
+    ],
+    abilities: [{ name: 'AonDor', revealedIn: ['elantris'] }],
+    nationality: [
+      { name: 'Arelene', revealedIn: [{ book: 'elantris', chapter: '10' }] },
+    ],
+    profession: [
+      { name: 'Soldier', revealedIn: [{ book: 'elantris', chapter: '10' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  torena: {
+    appearsIn: [
+      { bookId: 'elantris', revealedIn: [{ book: 'elantris', chapter: '14' }] },
+    ],
+    world: {
+      planetId: 'sel',
+      revealedIn: [{ book: 'elantris', chapter: '14' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'elantris', chapter: '14' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Ahan',
+        relation: 'parent',
+        characterId: 'ahan',
+        revealedIn: [{ book: 'elantris', chapter: '14' }],
+      },
+      {
+        name: 'Seaden',
+        relation: 'parent',
+        characterId: 'seaden',
+        revealedIn: [{ book: 'elantris', chapter: '14' }],
+      },
+    ],
+  },
+  adien: {
+    appearsIn: [
+      { bookId: 'elantris', revealedIn: [{ book: 'elantris', chapter: '5' }] },
+    ],
+    world: {
+      planetId: 'sel',
+      revealedIn: [{ book: 'elantris', chapter: '5' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'elantris', chapter: '5' }] },
+      { name: 'Elantrian', revealedIn: [{ book: 'elantris', chapter: '60' }] },
+    ],
+    abilities: [{ name: 'AonDor', revealedIn: ['elantris'] }],
+    nationality: [
+      { name: 'Arelene', revealedIn: [{ book: 'elantris', chapter: '5' }] },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Kiin',
+        relation: 'parent',
+        characterId: 'kiin',
+        revealedIn: [{ book: 'elantris', chapter: '5' }],
+      },
+      {
+        name: 'Daora',
+        relation: 'parent',
+        characterId: 'daora',
+        revealedIn: [{ book: 'elantris', chapter: '5' }],
+      },
+      {
+        name: 'Lukel',
+        relation: 'sibling',
+        characterId: 'lukel',
+        revealedIn: [{ book: 'elantris', chapter: '5' }],
+      },
+      {
+        name: 'Kaise',
+        relation: 'sibling',
+        characterId: 'kaise',
+        revealedIn: [{ book: 'elantris', chapter: '5' }],
+      },
+      {
+        name: 'Daorn',
+        relation: 'sibling',
+        characterId: 'daorn',
+        revealedIn: [{ book: 'elantris', chapter: '5' }],
+      },
+    ],
+  },
+  ahan: {
+    appearsIn: [
+      { bookId: 'elantris', revealedIn: [{ book: 'elantris', chapter: '11' }] },
+    ],
+    world: {
+      planetId: 'sel',
+      revealedIn: [{ book: 'elantris', chapter: '11' }],
+    },
+    aliases: [
+      { name: 'Count', revealedIn: [{ book: 'elantris', chapter: '11' }] },
+    ],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'elantris', chapter: '11' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Arelene', revealedIn: [{ book: 'elantris', chapter: '11' }] },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Seaden',
+        relation: 'spouse',
+        characterId: 'seaden',
+        revealedIn: [{ book: 'elantris', chapter: '14' }],
+      },
+      {
+        name: 'Torena',
+        relation: 'child',
+        characterId: 'torena',
+        revealedIn: [{ book: 'elantris', chapter: '14' }],
+      },
+    ],
+  },
+  daora: {
+    appearsIn: [
+      { bookId: 'elantris', revealedIn: [{ book: 'elantris', chapter: '5' }] },
+    ],
+    world: {
+      planetId: 'sel',
+      revealedIn: [{ book: 'elantris', chapter: '5' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'elantris', chapter: '5' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Arelene', revealedIn: [{ book: 'elantris', chapter: '5' }] },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Kiin',
+        relation: 'spouse',
+        characterId: 'kiin',
+        revealedIn: [{ book: 'elantris', chapter: '5' }],
+      },
+      {
+        name: 'Lukel',
+        relation: 'child',
+        characterId: 'lukel',
+        revealedIn: [{ book: 'elantris', chapter: '5' }],
+      },
+      {
+        name: 'Adien',
+        relation: 'child',
+        characterId: 'adien',
+        revealedIn: [{ book: 'elantris', chapter: '5' }],
+      },
+      {
+        name: 'Kaise',
+        relation: 'child',
+        characterId: 'kaise',
+        revealedIn: [{ book: 'elantris', chapter: '5' }],
+      },
+      {
+        name: 'Daorn',
+        relation: 'child',
+        characterId: 'daorn',
+        revealedIn: [{ book: 'elantris', chapter: '5' }],
+      },
+    ],
+  },
+  daorn: {
+    appearsIn: [
+      { bookId: 'elantris', revealedIn: [{ book: 'elantris', chapter: '5' }] },
+    ],
+    world: {
+      planetId: 'sel',
+      revealedIn: [{ book: 'elantris', chapter: '5' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'elantris', chapter: '5' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Arelene', revealedIn: [{ book: 'elantris', chapter: '5' }] },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Kiin',
+        relation: 'parent',
+        characterId: 'kiin',
+        revealedIn: [{ book: 'elantris', chapter: '5' }],
+      },
+      {
+        name: 'Daora',
+        relation: 'parent',
+        characterId: 'daora',
+        revealedIn: [{ book: 'elantris', chapter: '5' }],
+      },
+      {
+        name: 'Lukel',
+        relation: 'sibling',
+        characterId: 'lukel',
+        revealedIn: [{ book: 'elantris', chapter: '5' }],
+      },
+      {
+        name: 'Kaise',
+        relation: 'sibling',
+        characterId: 'kaise',
+        revealedIn: [{ book: 'elantris', chapter: '5' }],
+      },
+      {
+        name: 'Adien',
+        relation: 'sibling',
+        characterId: 'adien',
+        revealedIn: [{ book: 'elantris', chapter: '5' }],
+      },
+      {
+        name: 'Sarene',
+        relation: 'relative',
+        characterId: 'sarene',
+        revealedIn: [{ book: 'elantris', chapter: '5' }],
+      },
+      {
+        name: 'Teorn',
+        relation: 'relative',
+        characterId: 'teorn',
+        revealedIn: [{ book: 'elantris', chapter: '17' }],
+      },
+      {
+        name: 'Eventeo',
+        relation: 'relative',
+        characterId: 'eventeo',
+        revealedIn: [{ book: 'elantris', chapter: '11' }],
+      },
+    ],
+  },
+  dashe: {
+    appearsIn: [
+      { bookId: 'elantris', revealedIn: [{ book: 'elantris', chapter: '16' }] },
+      { bookId: 'hope-of-elantris', revealedIn: ['hope-of-elantris'] },
+    ],
+    world: {
+      planetId: 'sel',
+      revealedIn: [{ book: 'elantris', chapter: '16' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'elantris', chapter: '16' }] },
+      { name: 'Elantrian', revealedIn: [{ book: 'elantris', chapter: '16' }] },
+    ],
+    abilities: [{ name: 'AonDor', revealedIn: ['elantris'] }],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [{ name: 'Ati', revealedIn: ['hope-of-elantris'] }],
+    relatives: [
+      {
+        name: 'Matisse',
+        relation: 'child',
+        characterId: 'matisse',
+        revealedIn: ['hope-of-elantris'],
+      },
+    ],
+  },
+  mareshe: {
+    appearsIn: [
+      { bookId: 'elantris', revealedIn: [{ book: 'elantris', chapter: '7' }] },
+      { bookId: 'hope-of-elantris', revealedIn: ['hope-of-elantris'] },
+    ],
+    world: {
+      planetId: 'sel',
+      revealedIn: [{ book: 'elantris', chapter: '7' }],
+    },
+    aliases: [
+      { name: 'Aanden', revealedIn: [{ book: 'elantris', chapter: '23' }] },
+    ],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'elantris', chapter: '7' }] },
+      { name: 'Elantrian', revealedIn: [{ book: 'elantris', chapter: '7' }] },
+    ],
+    abilities: [{ name: 'AonDor', revealedIn: ['elantris'] }],
+    nationality: [],
+    profession: [
+      { name: 'Jeweler', revealedIn: [{ book: 'elantris', chapter: '7' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  omin: {
+    appearsIn: [
+      { bookId: 'elantris', revealedIn: [{ book: 'elantris', chapter: '17' }] },
+    ],
+    world: {
+      planetId: 'sel',
+      revealedIn: [{ book: 'elantris', chapter: '17' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'elantris', chapter: '17' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Arelene', revealedIn: [{ book: 'elantris', chapter: '17' }] },
+    ],
+    profession: [
+      {
+        name: 'Priest of Shu-Korath',
+        revealedIn: [{ book: 'elantris', chapter: '17' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  eshen: {
+    appearsIn: [
+      { bookId: 'elantris', revealedIn: [{ book: 'elantris', chapter: '2' }] },
+    ],
+    world: {
+      planetId: 'sel',
+      revealedIn: [{ book: 'elantris', chapter: '2' }],
+    },
+    aliases: [
+      {
+        name: 'Queen of Arelon',
+        revealedIn: [{ book: 'elantris', chapter: '2' }],
+      },
+    ],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'elantris', chapter: '2' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Arelene', revealedIn: [{ book: 'elantris', chapter: '2' }] },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Iadon',
+        relation: 'spouse',
+        characterId: 'iadon',
+        revealedIn: [{ book: 'elantris', chapter: '2' }],
+      },
+      {
+        name: 'Raoden',
+        relation: 'stepson',
+        characterId: 'raoden',
+        revealedIn: [{ book: 'elantris', chapter: '14' }],
+      },
+    ],
+  },
+  ien: {
+    appearsIn: [
+      { bookId: 'elantris', revealedIn: [{ book: 'elantris', chapter: '4' }] },
+    ],
+    world: {
+      planetId: 'sel',
+      revealedIn: [{ book: 'elantris', chapter: '4' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Seon', revealedIn: [{ book: 'elantris', chapter: '4' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [
+      { name: 'Raoden', revealedIn: [{ book: 'elantris', chapter: '4' }] },
+    ],
+    relatives: [],
+  },
+  jalla: {
+    appearsIn: [
+      { bookId: 'elantris', revealedIn: [{ book: 'elantris', chapter: '5' }] },
+    ],
+    world: {
+      planetId: 'sel',
+      revealedIn: [{ book: 'elantris', chapter: '5' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'elantris', chapter: '5' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Svordish', revealedIn: [{ book: 'elantris', chapter: '5' }] },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Lukel',
+        relation: 'spouse',
+        characterId: 'lukel',
+        revealedIn: [{ book: 'elantris', chapter: '5' }],
+      },
+    ],
+  },
+  'hrathens-seon': {
+    appearsIn: [
+      { bookId: 'elantris', revealedIn: [{ book: 'elantris', chapter: '12' }] },
+    ],
+    world: {
+      planetId: 'sel',
+      revealedIn: [{ book: 'elantris', chapter: '12' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Seon', revealedIn: [{ book: 'elantris', chapter: '12' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [
+      { name: 'Hrathen', revealedIn: [{ book: 'elantris', chapter: '12' }] },
+    ],
+    relatives: [],
+  },
+  kahar: {
+    appearsIn: [
+      { bookId: 'elantris', revealedIn: [{ book: 'elantris', chapter: '13' }] },
+    ],
+    world: {
+      planetId: 'sel',
+      revealedIn: [{ book: 'elantris', chapter: '13' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'elantris', chapter: '13' }] },
+      { name: 'Elantrian', revealedIn: [{ book: 'elantris', chapter: '13' }] },
+    ],
+    abilities: [{ name: 'AonDor', revealedIn: ['elantris'] }],
+    nationality: [],
+    profession: [
+      { name: 'Cleaner', revealedIn: [{ book: 'elantris', chapter: '13' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  seaden: {
+    appearsIn: [
+      { bookId: 'elantris', revealedIn: [{ book: 'elantris', chapter: '14' }] },
+    ],
+    world: {
+      planetId: 'sel',
+      revealedIn: [{ book: 'elantris', chapter: '14' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'elantris', chapter: '14' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Arelene', revealedIn: [{ book: 'elantris', chapter: '14' }] },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Ahan',
+        relation: 'spouse',
+        characterId: 'ahan',
+        revealedIn: [{ book: 'elantris', chapter: '14' }],
+      },
+      {
+        name: 'Torena',
+        relation: 'child',
+        characterId: 'torena',
+        revealedIn: [{ book: 'elantris', chapter: '14' }],
+      },
+    ],
+  },
+  atara: {
+    appearsIn: [
+      { bookId: 'elantris', revealedIn: [{ book: 'elantris', chapter: '14' }] },
+    ],
+    world: {
+      planetId: 'sel',
+      revealedIn: [{ book: 'elantris', chapter: '14' }],
+    },
+    aliases: [
+      {
+        name: 'Queen of Arelon',
+        revealedIn: [{ book: 'elantris', chapter: '44' }],
+      },
+    ],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'elantris', chapter: '14' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Arelene', revealedIn: [{ book: 'elantris', chapter: '14' }] },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Telrii',
+        relation: 'spouse',
+        characterId: 'telrii',
+        revealedIn: [{ book: 'elantris', chapter: '14' }],
+      },
+      {
+        name: 'Shaor',
+        relation: 'child',
+        characterId: 'shaor',
+        revealedIn: [{ book: 'elantris', chapter: '22' }],
+      },
+    ],
+  },
+  edan: {
+    appearsIn: [
+      { bookId: 'elantris', revealedIn: [{ book: 'elantris', chapter: '11' }] },
+    ],
+    world: {
+      planetId: 'sel',
+      revealedIn: [{ book: 'elantris', chapter: '11' }],
+    },
+    aliases: [
+      {
+        name: 'Baron of Tii Plantation',
+        revealedIn: [{ book: 'elantris', chapter: '11' }],
+      },
+    ],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'elantris', chapter: '11' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Arelene', revealedIn: [{ book: 'elantris', chapter: '11' }] },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  fjon: {
+    appearsIn: [
+      { bookId: 'elantris', revealedIn: [{ book: 'elantris', chapter: '3' }] },
+    ],
+    world: {
+      planetId: 'sel',
+      revealedIn: [{ book: 'elantris', chapter: '3' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'elantris', chapter: '3' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Fjordell', revealedIn: [{ book: 'elantris', chapter: '3' }] },
+    ],
+    profession: [
+      {
+        name: 'Derethi Arteth',
+        revealedIn: [{ book: 'elantris', chapter: '3' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  forton: {
+    appearsIn: [
+      { bookId: 'elantris', revealedIn: [{ book: 'elantris', chapter: '18' }] },
+    ],
+    world: {
+      planetId: 'sel',
+      revealedIn: [{ book: 'elantris', chapter: '18' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'elantris', chapter: '18' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Hroven', revealedIn: [{ book: 'elantris', chapter: '18' }] },
+    ],
+    profession: [
+      { name: 'Apothecary', revealedIn: [{ book: 'elantris', chapter: '18' }] },
+    ],
+    groups: [],
+    bonds: [
+      {
+        name: 'Unnamed seon',
+        revealedIn: [{ book: 'elantris', chapter: '18' }],
+      },
+    ],
+    relatives: [],
+  },
+  maare: {
+    appearsIn: [
+      { bookId: 'elantris', revealedIn: [{ book: 'elantris', chapter: '10' }] },
+    ],
+    world: {
+      planetId: 'sel',
+      revealedIn: [{ book: 'elantris', chapter: '10' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'elantris', chapter: '10' }] },
+      { name: 'Elantrian', revealedIn: [{ book: 'elantris', chapter: '10' }] },
+    ],
+    abilities: [{ name: 'AonDor', revealedIn: ['elantris'] }],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  seinalan: {
+    appearsIn: [
+      { bookId: 'elantris', revealedIn: [{ book: 'elantris', chapter: '35' }] },
+    ],
+    world: {
+      planetId: 'sel',
+      revealedIn: [{ book: 'elantris', chapter: '35' }],
+    },
+    aliases: [
+      {
+        name: 'Patriarch of Shu-Korath',
+        revealedIn: [{ book: 'elantris', chapter: '35' }],
+      },
+    ],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'elantris', chapter: '35' }] },
+    ],
+    abilities: [],
+    nationality: [{ name: 'Teo', revealedIn: ['elantris'] }],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  shaor: {
+    appearsIn: [
+      { bookId: 'elantris', revealedIn: [{ book: 'elantris', chapter: '4' }] },
+    ],
+    world: {
+      planetId: 'sel',
+      revealedIn: [{ book: 'elantris', chapter: '4' }],
+    },
+    aliases: [
+      { name: 'Soine', revealedIn: [{ book: 'elantris', chapter: '22' }] },
+      { name: 'Sorii', revealedIn: ['elantris'] },
+    ],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'elantris', chapter: '4' }] },
+      { name: 'Elantrian', revealedIn: [{ book: 'elantris', chapter: '4' }] },
+    ],
+    abilities: [{ name: 'AonDor', revealedIn: ['elantris'] }],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Atara',
+        relation: 'parent',
+        characterId: 'atara',
+        revealedIn: [{ book: 'elantris', chapter: '22' }],
+      },
+      {
+        name: 'Telrii',
+        relation: 'parent',
+        characterId: 'telrii',
+        revealedIn: [{ book: 'elantris', chapter: '22' }],
+      },
+    ],
+  },
+  taan: {
+    appearsIn: [
+      { bookId: 'elantris', revealedIn: [{ book: 'elantris', chapter: '10' }] },
+    ],
+    world: {
+      planetId: 'sel',
+      revealedIn: [{ book: 'elantris', chapter: '10' }],
+    },
+    aliases: [
+      { name: 'Aanden', revealedIn: [{ book: 'elantris', chapter: '10' }] },
+      {
+        name: 'Baron of Elantris',
+        revealedIn: [{ book: 'elantris', chapter: '10' }],
+      },
+    ],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'elantris', chapter: '10' }] },
+      { name: 'Elantrian', revealedIn: [{ book: 'elantris', chapter: '10' }] },
+    ],
+    abilities: [{ name: 'AonDor', revealedIn: ['elantris'] }],
+    nationality: [
+      { name: 'Arelene', revealedIn: [{ book: 'elantris', chapter: '10' }] },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  dio: {
+    appearsIn: [
+      { bookId: 'elantris', revealedIn: [{ book: 'elantris', chapter: '45' }] },
+    ],
+    world: {
+      planetId: 'sel',
+      revealedIn: [{ book: 'elantris', chapter: '45' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Seon', revealedIn: [{ book: 'elantris', chapter: '45' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [
+      { name: 'Eventeo', revealedIn: [{ book: 'elantris', chapter: '45' }] },
+    ],
+    relatives: [],
+  },
+  dion: {
+    appearsIn: [
+      { bookId: 'elantris', revealedIn: [{ book: 'elantris', chapter: '22' }] },
+    ],
+    world: {
+      planetId: 'sel',
+      revealedIn: [{ book: 'elantris', chapter: '22' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'elantris', chapter: '22' }] },
+      { name: 'Elantrian', revealedIn: [{ book: 'elantris', chapter: '22' }] },
+    ],
+    abilities: [{ name: 'AonDor', revealedIn: ['elantris'] }],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  diren: {
+    appearsIn: [
+      { bookId: 'elantris', revealedIn: [{ book: 'elantris', chapter: '18' }] },
+    ],
+    world: {
+      planetId: 'sel',
+      revealedIn: [{ book: 'elantris', chapter: '18' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'elantris', chapter: '18' }] },
+      { name: 'Elantrian', revealedIn: [{ book: 'elantris', chapter: '18' }] },
+    ],
+    abilities: [{ name: 'AonDor', revealedIn: ['elantris'] }],
+    nationality: [],
+    profession: [
+      { name: 'Farmer', revealedIn: [{ book: 'elantris', chapter: '18' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  dothgen: {
+    appearsIn: [
+      { bookId: 'elantris', revealedIn: [{ book: 'elantris', chapter: '36' }] },
+    ],
+    world: {
+      planetId: 'sel',
+      revealedIn: [{ book: 'elantris', chapter: '36' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'elantris', chapter: '36' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Fjordell', revealedIn: [{ book: 'elantris', chapter: '36' }] },
+    ],
+    profession: [
+      { name: 'Assassin', revealedIn: [{ book: 'elantris', chapter: '36' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  elao: {
+    appearsIn: [
+      { bookId: 'elantris', revealedIn: [{ book: 'elantris', chapter: '1' }] },
+    ],
+    world: {
+      planetId: 'sel',
+      revealedIn: [{ book: 'elantris', chapter: '1' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'elantris', chapter: '1' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Arelene', revealedIn: [{ book: 'elantris', chapter: '1' }] },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  horen: {
+    appearsIn: [
+      { bookId: 'elantris', revealedIn: [{ book: 'elantris', chapter: '16' }] },
+    ],
+    world: {
+      planetId: 'sel',
+      revealedIn: [{ book: 'elantris', chapter: '16' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'elantris', chapter: '16' }] },
+      { name: 'Elantrian', revealedIn: [{ book: 'elantris', chapter: '16' }] },
+    ],
+    abilities: [{ name: 'AonDor', revealedIn: ['elantris'] }],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  idan: {
+    appearsIn: [
+      { bookId: 'elantris', revealedIn: [{ book: 'elantris', chapter: '9' }] },
+    ],
+    world: {
+      planetId: 'sel',
+      revealedIn: [{ book: 'elantris', chapter: '9' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'elantris', chapter: '9' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Waren',
+        relation: 'cousin',
+        characterId: 'waren',
+        revealedIn: [{ book: 'elantris', chapter: '9' }],
+      },
+    ],
+  },
+  idotris: {
+    appearsIn: [
+      { bookId: 'hope-of-elantris', revealedIn: ['hope-of-elantris'] },
+    ],
+    world: { planetId: 'sel', revealedIn: ['hope-of-elantris'] },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: ['hope-of-elantris'] },
+      { name: 'Elantrian', revealedIn: ['hope-of-elantris'] },
+    ],
+    abilities: [
+      {
+        name: 'AonDor',
+        revealedIn: [{ all: ['elantris', 'hope-of-elantris'] }],
+      },
+    ],
+    nationality: [{ name: 'Arelene', revealedIn: ['hope-of-elantris'] }],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  ketol: {
+    appearsIn: [
+      { bookId: 'elantris', revealedIn: [{ book: 'elantris', chapter: '2' }] },
+    ],
+    world: {
+      planetId: 'sel',
+      revealedIn: [{ book: 'elantris', chapter: '2' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'elantris', chapter: '2' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Arelene', revealedIn: [{ book: 'elantris', chapter: '2' }] },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  matisse: {
+    appearsIn: [
+      { bookId: 'hope-of-elantris', revealedIn: ['hope-of-elantris'] },
+    ],
+    world: { planetId: 'sel', revealedIn: ['hope-of-elantris'] },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: ['hope-of-elantris'] },
+      { name: 'Elantrian', revealedIn: ['hope-of-elantris'] },
+    ],
+    abilities: [
+      {
+        name: 'AonDor',
+        revealedIn: [{ all: ['elantris', 'hope-of-elantris'] }],
+      },
+    ],
+    nationality: [{ name: 'Arelene', revealedIn: ['hope-of-elantris'] }],
+    profession: [],
+    groups: [],
+    bonds: [{ name: 'Aeo', revealedIn: ['hope-of-elantris'] }],
+    relatives: [
+      {
+        name: 'Dashe',
+        relation: 'parent',
+        characterId: 'dashe',
+        revealedIn: ['hope-of-elantris'],
+      },
+    ],
+  },
+  meala: {
+    appearsIn: [
+      { bookId: 'elantris', revealedIn: [{ book: 'elantris', chapter: '20' }] },
+    ],
+    world: {
+      planetId: 'sel',
+      revealedIn: [{ book: 'elantris', chapter: '20' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'elantris', chapter: '20' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Arelene', revealedIn: [{ book: 'elantris', chapter: '20' }] },
+    ],
+    profession: [
+      { name: 'Head maid', revealedIn: [{ book: 'elantris', chapter: '20' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  opa: {
+    appearsIn: [
+      { bookId: 'elantris', revealedIn: [{ book: 'elantris', chapter: '32' }] },
+    ],
+    world: {
+      planetId: 'sel',
+      revealedIn: [{ book: 'elantris', chapter: '32' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Seon', revealedIn: [{ book: 'elantris', chapter: '32' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [
+      { name: 'Roial', revealedIn: [{ book: 'elantris', chapter: '32' }] },
+    ],
+    relatives: [],
+  },
+  opais: {
+    appearsIn: [
+      { bookId: 'elantris', revealedIn: [{ book: 'elantris', chapter: '13' }] },
+    ],
+    world: {
+      planetId: 'sel',
+      revealedIn: [{ book: 'elantris', chapter: '13' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'elantris', chapter: '13' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Arelene', revealedIn: [{ book: 'elantris', chapter: '13' }] },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Karata',
+        relation: 'parent',
+        characterId: 'karata',
+        revealedIn: [{ book: 'elantris', chapter: '13' }],
+      },
+    ],
+  },
+  ramear: {
+    appearsIn: [
+      { bookId: 'elantris', revealedIn: [{ book: 'elantris', chapter: '9' }] },
+    ],
+    world: {
+      planetId: 'sel',
+      revealedIn: [{ book: 'elantris', chapter: '9' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'elantris', chapter: '9' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Arelene', revealedIn: [{ book: 'elantris', chapter: '9' }] },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  riika: {
+    appearsIn: [
+      { bookId: 'hope-of-elantris', revealedIn: ['hope-of-elantris'] },
+    ],
+    world: { planetId: 'sel', revealedIn: ['hope-of-elantris'] },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: ['hope-of-elantris'] },
+      { name: 'Elantrian', revealedIn: ['hope-of-elantris'] },
+    ],
+    abilities: [
+      {
+        name: 'AonDor',
+        revealedIn: [{ all: ['elantris', 'hope-of-elantris'] }],
+      },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [{ name: 'Mai', revealedIn: ['hope-of-elantris'] }],
+    relatives: [],
+  },
+  riil: {
+    appearsIn: [
+      { bookId: 'elantris', revealedIn: [{ book: 'elantris', chapter: '10' }] },
+    ],
+    world: {
+      planetId: 'sel',
+      revealedIn: [{ book: 'elantris', chapter: '10' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'elantris', chapter: '10' }] },
+      { name: 'Elantrian', revealedIn: [{ book: 'elantris', chapter: '10' }] },
+    ],
+    abilities: [{ name: 'AonDor', revealedIn: ['elantris'] }],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  taid: {
+    appearsIn: [
+      { bookId: 'hope-of-elantris', revealedIn: ['hope-of-elantris'] },
+    ],
+    world: { planetId: 'sel', revealedIn: ['hope-of-elantris'] },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: ['hope-of-elantris'] },
+      { name: 'Elantrian', revealedIn: ['hope-of-elantris'] },
+    ],
+    abilities: [
+      {
+        name: 'AonDor',
+        revealedIn: [{ all: ['elantris', 'hope-of-elantris'] }],
+      },
+    ],
+    nationality: [{ name: 'Arelene', revealedIn: ['hope-of-elantris'] }],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  tenrao: {
+    appearsIn: [
+      { bookId: 'elantris', revealedIn: [{ book: 'elantris', chapter: '40' }] },
+    ],
+    world: {
+      planetId: 'sel',
+      revealedIn: [{ book: 'elantris', chapter: '40' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'elantris', chapter: '40' }] },
+      { name: 'Elantrian', revealedIn: [{ book: 'elantris', chapter: '40' }] },
+    ],
+    abilities: [{ name: 'AonDor', revealedIn: ['elantris'] }],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  teor: {
+    appearsIn: [
+      { bookId: 'hope-of-elantris', revealedIn: ['hope-of-elantris'] },
+    ],
+    world: { planetId: 'sel', revealedIn: ['hope-of-elantris'] },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: ['hope-of-elantris'] },
+      { name: 'Elantrian', revealedIn: ['hope-of-elantris'] },
+    ],
+    abilities: [
+      {
+        name: 'AonDor',
+        revealedIn: [{ all: ['elantris', 'hope-of-elantris'] }],
+      },
+    ],
+    nationality: [{ name: 'Arelene', revealedIn: ['hope-of-elantris'] }],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  thered: {
+    appearsIn: [
+      { bookId: 'elantris', revealedIn: [{ book: 'elantris', chapter: '21' }] },
+    ],
+    world: {
+      planetId: 'sel',
+      revealedIn: [{ book: 'elantris', chapter: '21' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'elantris', chapter: '21' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Fjordell', revealedIn: [{ book: 'elantris', chapter: '21' }] },
+    ],
+    profession: [
+      {
+        name: 'Derethi Arteth',
+        revealedIn: [{ book: 'elantris', chapter: '21' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  tiil: {
+    appearsIn: [
+      { bookId: 'hope-of-elantris', revealedIn: ['hope-of-elantris'] },
+    ],
+    world: { planetId: 'sel', revealedIn: ['hope-of-elantris'] },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: ['hope-of-elantris'] },
+      { name: 'Elantrian', revealedIn: ['hope-of-elantris'] },
+    ],
+    abilities: [
+      {
+        name: 'AonDor',
+        revealedIn: [{ all: ['elantris', 'hope-of-elantris'] }],
+      },
+    ],
+    nationality: [{ name: 'Arelene', revealedIn: ['hope-of-elantris'] }],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  waren: {
+    appearsIn: [
+      { bookId: 'elantris', revealedIn: [{ book: 'elantris', chapter: '9' }] },
+    ],
+    world: {
+      planetId: 'sel',
+      revealedIn: [{ book: 'elantris', chapter: '9' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'elantris', chapter: '9' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Arelene', revealedIn: [{ book: 'elantris', chapter: '9' }] },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Diolen',
+        relation: 'parent',
+        characterId: 'diolen',
+        revealedIn: [{ book: 'elantris', chapter: '14' }],
+      },
+      {
+        name: 'Idan',
+        relation: 'cousin',
+        characterId: 'idan',
+        revealedIn: [{ book: 'elantris', chapter: '9' }],
+      },
+    ],
+  },
+  aeo: {
+    appearsIn: [
+      { bookId: 'hope-of-elantris', revealedIn: ['hope-of-elantris'] },
+    ],
+    world: { planetId: 'sel', revealedIn: ['hope-of-elantris'] },
+    aliases: [],
+    species: [{ name: 'Seon', revealedIn: ['hope-of-elantris'] }],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [{ name: 'Matisse', revealedIn: ['hope-of-elantris'] }],
+    relatives: [],
+  },
+  ashgress: {
+    appearsIn: [
+      { bookId: 'elantris', revealedIn: [{ book: 'elantris', chapter: '17' }] },
+    ],
+    world: {
+      planetId: 'sel',
+      revealedIn: [{ book: 'elantris', chapter: '17' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'elantris', chapter: '17' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Fjordell', revealedIn: [{ book: 'elantris', chapter: '17' }] },
+    ],
+    profession: [
+      { name: 'Ambassador', revealedIn: [{ book: 'elantris', chapter: '17' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'ati-seon': {
+    appearsIn: [
+      { bookId: 'hope-of-elantris', revealedIn: ['hope-of-elantris'] },
+    ],
+    world: { planetId: 'sel', revealedIn: ['hope-of-elantris'] },
+    aliases: [],
+    species: [{ name: 'Seon', revealedIn: ['hope-of-elantris'] }],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [{ name: 'Dashe', revealedIn: ['hope-of-elantris'] }],
+    relatives: [],
+  },
+  dereth: {
+    appearsIn: [
+      { bookId: 'elantris', revealedIn: [{ book: 'elantris', chapter: '14' }] },
+    ],
+    world: {
+      planetId: 'sel',
+      revealedIn: [{ book: 'elantris', chapter: '14' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'elantris', chapter: '14' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  diolen: {
+    appearsIn: [
+      { bookId: 'elantris', revealedIn: [{ book: 'elantris', chapter: '14' }] },
+    ],
+    world: {
+      planetId: 'sel',
+      revealedIn: [{ book: 'elantris', chapter: '14' }],
+    },
+    aliases: [
+      {
+        name: 'Baron of Kie Plantation',
+        revealedIn: [{ book: 'elantris', chapter: '14' }],
+      },
+    ],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'elantris', chapter: '14' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Waren',
+        relation: 'child',
+        characterId: 'waren',
+        revealedIn: [{ book: 'elantris', chapter: '14' }],
+      },
+    ],
+  },
+  eoden: {
+    appearsIn: [
+      { bookId: 'elantris', revealedIn: [{ book: 'elantris', chapter: '32' }] },
+    ],
+    world: {
+      planetId: 'sel',
+      revealedIn: [{ book: 'elantris', chapter: '32' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'elantris', chapter: '32' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  eoldess: {
+    appearsIn: [
+      { bookId: 'elantris', revealedIn: [{ book: 'elantris', chapter: '14' }] },
+    ],
+    world: {
+      planetId: 'sel',
+      revealedIn: [{ book: 'elantris', chapter: '14' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'elantris', chapter: '14' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Arelene', revealedIn: [{ book: 'elantris', chapter: '14' }] },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Roial',
+        relation: 'spouse',
+        characterId: 'roial',
+        revealedIn: [{ book: 'elantris', chapter: '14' }],
+      },
+    ],
+  },
+  eonic: {
+    appearsIn: [
+      { bookId: 'elantris', revealedIn: [{ book: 'elantris', chapter: '25' }] },
+    ],
+    world: {
+      planetId: 'sel',
+      revealedIn: [{ book: 'elantris', chapter: '25' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'elantris', chapter: '25' }] },
+      { name: 'Elantrian', revealedIn: [{ book: 'elantris', chapter: '25' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      { name: 'Blacksmith', revealedIn: [{ book: 'elantris', chapter: '25' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  graeo: {
+    appearsIn: [
+      { bookId: 'elantris', revealedIn: [{ book: 'elantris', chapter: '32' }] },
+    ],
+    world: {
+      planetId: 'sel',
+      revealedIn: [{ book: 'elantris', chapter: '32' }],
+    },
+    aliases: [
+      { name: 'Count', revealedIn: [{ book: 'elantris', chapter: '32' }] },
+    ],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'elantris', chapter: '32' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Teo', revealedIn: [{ book: 'elantris', chapter: '32' }] },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  mai: {
+    appearsIn: [
+      { bookId: 'elantris', revealedIn: [{ book: 'elantris', chapter: '62' }] },
+      { bookId: 'hope-of-elantris', revealedIn: ['hope-of-elantris'] },
+    ],
+    world: {
+      planetId: 'sel',
+      revealedIn: [{ book: 'elantris', chapter: '62' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Seon', revealedIn: [{ book: 'elantris', chapter: '62' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [{ name: 'Riika', revealedIn: ['hope-of-elantris'] }],
+    relatives: [],
+  },
+  naolen: {
+    appearsIn: [
+      { bookId: 'elantris', revealedIn: [{ book: 'elantris', chapter: '2' }] },
+    ],
+    world: {
+      planetId: 'sel',
+      revealedIn: [{ book: 'elantris', chapter: '2' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'elantris', chapter: '2' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Teo', revealedIn: [{ book: 'elantris', chapter: '2' }] },
+    ],
+    profession: [
+      { name: 'Minister', revealedIn: [{ book: 'elantris', chapter: '2' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  neoden: {
+    appearsIn: [
+      { bookId: 'elantris', revealedIn: [{ book: 'elantris', chapter: '23' }] },
+    ],
+    world: {
+      planetId: 'sel',
+      revealedIn: [{ book: 'elantris', chapter: '23' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'elantris', chapter: '23' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'raodens-mother': {
+    appearsIn: [
+      { bookId: 'elantris', revealedIn: [{ book: 'elantris', chapter: '2' }] },
+    ],
+    world: {
+      planetId: 'sel',
+      revealedIn: [{ book: 'elantris', chapter: '2' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'elantris', chapter: '2' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Arelene', revealedIn: [{ book: 'elantris', chapter: '19' }] },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Iadon',
+        relation: 'spouse',
+        characterId: 'iadon',
+        revealedIn: [{ book: 'elantris', chapter: '2' }],
+      },
+      {
+        name: 'Raoden',
+        relation: 'child',
+        characterId: 'raoden',
+        revealedIn: [{ book: 'elantris', chapter: '2' }],
+      },
+    ],
+  },
+  redeen: {
+    appearsIn: [
+      { bookId: 'elantris', revealedIn: [{ book: 'elantris', chapter: '32' }] },
+    ],
+    world: {
+      planetId: 'sel',
+      revealedIn: [{ book: 'elantris', chapter: '32' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'elantris', chapter: '32' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'sarenes-mother': {
+    appearsIn: [
+      { bookId: 'elantris', revealedIn: [{ book: 'elantris', chapter: '2' }] },
+    ],
+    world: {
+      planetId: 'sel',
+      revealedIn: [{ book: 'elantris', chapter: '2' }],
+    },
+    aliases: [
+      {
+        name: 'Queen of Teod',
+        revealedIn: [{ book: 'elantris', chapter: '2' }],
+      },
+    ],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'elantris', chapter: '2' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Teo', revealedIn: [{ book: 'elantris', chapter: '35' }] },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [{ name: 'Ashe', revealedIn: [{ book: 'elantris', chapter: '5' }] }],
+    relatives: [
+      {
+        name: 'Eventeo',
+        relation: 'spouse',
+        characterId: 'eventeo',
+        revealedIn: [{ book: 'elantris', chapter: '2' }],
+      },
+      {
+        name: 'Teorn',
+        relation: 'child',
+        characterId: 'teorn',
+        revealedIn: [{ book: 'elantris', chapter: '17' }],
+      },
+      {
+        name: 'Sarene',
+        relation: 'child',
+        characterId: 'sarene',
+        revealedIn: [{ book: 'elantris', chapter: '2' }],
+      },
+    ],
+  },
+  seala: {
+    appearsIn: [
+      { bookId: 'elantris', revealedIn: [{ book: 'elantris', chapter: '60' }] },
+    ],
+    world: {
+      planetId: 'sel',
+      revealedIn: [{ book: 'elantris', chapter: '60' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'elantris', chapter: '60' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Arelene', revealedIn: [{ book: 'elantris', chapter: '60' }] },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Dilaf',
+        relation: 'spouse',
+        characterId: 'dilaf',
+        revealedIn: [{ book: 'elantris', chapter: '60' }],
+      },
+    ],
+  },
+  seor: {
+    appearsIn: [
+      { bookId: 'elantris', revealedIn: [{ book: 'elantris', chapter: '43' }] },
+    ],
+    world: {
+      planetId: 'sel',
+      revealedIn: [{ book: 'elantris', chapter: '43' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'elantris', chapter: '43' }] },
+      { name: 'Elantrian', revealedIn: ['elantris'] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  teorn: {
+    appearsIn: [
+      { bookId: 'elantris', revealedIn: [{ book: 'elantris', chapter: '17' }] },
+    ],
+    world: {
+      planetId: 'sel',
+      revealedIn: [{ book: 'elantris', chapter: '17' }],
+    },
+    aliases: [{ name: 'Crown Prince of Teod', revealedIn: ['elantris'] }],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'elantris', chapter: '17' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Teo', revealedIn: [{ book: 'elantris', chapter: '17' }] },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Eventeo',
+        relation: 'parent',
+        characterId: 'eventeo',
+        revealedIn: [{ book: 'elantris', chapter: '17' }],
+      },
+      {
+        name: 'Sarene',
+        relation: 'sibling',
+        characterId: 'sarene',
+        revealedIn: [{ book: 'elantris', chapter: '17' }],
+      },
+      {
+        name: 'Kaise',
+        relation: 'relative',
+        characterId: 'kaise',
+        revealedIn: [{ book: 'elantris', chapter: '17' }],
+      },
+      {
+        name: 'Daorn',
+        relation: 'relative',
+        characterId: 'daorn',
+        revealedIn: [{ book: 'elantris', chapter: '17' }],
+      },
+      {
+        name: 'Kiin',
+        relation: 'relative',
+        characterId: 'kiin',
+        revealedIn: [{ book: 'elantris', chapter: '17' }],
+      },
+    ],
+  },
+  'wulfden-the-fourth': {
+    appearsIn: [
+      { bookId: 'elantris', revealedIn: [{ book: 'elantris', chapter: '3' }] },
+    ],
+    world: {
+      planetId: 'sel',
+      revealedIn: [{ book: 'elantris', chapter: '3' }],
+    },
+    aliases: [
+      { name: 'Wyrn', revealedIn: [{ book: 'elantris', chapter: '3' }] },
+      { name: 'Emperor of Fjorden', revealedIn: ['elantris'] },
+      { name: 'Prophet of Shu-Dereth', revealedIn: ['elantris'] },
+      { name: "Ruler of Jaddeth's Holy Kingdom", revealedIn: ['elantris'] },
+      { name: 'Regent of All Creation', revealedIn: ['elantris'] },
+    ],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'elantris', chapter: '3' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Fjordell', revealedIn: [{ book: 'elantris', chapter: '15' }] },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  sisirinah: {
+    appearsIn: [
+      {
+        bookId: 'warbreaker',
+        revealedIn: [{ book: 'warbreaker', chapter: '1' }],
+      },
+    ],
+    world: {
+      planetId: 'nalthis',
+      revealedIn: [{ book: 'warbreaker', chapter: '1' }],
+    },
+    aliases: [
+      { name: 'Siri', revealedIn: [{ book: 'warbreaker', chapter: '1' }] },
+      {
+        name: 'Princess of Idris',
+        revealedIn: [{ book: 'warbreaker', chapter: '1' }],
+      },
+      {
+        name: 'Queen of Hallandren',
+        revealedIn: [{ book: 'warbreaker', chapter: '4' }],
+      },
+      { name: 'Vessel', revealedIn: [{ book: 'warbreaker', chapter: '6' }] },
+    ],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'warbreaker', chapter: '1' }] },
+    ],
+    abilities: [
+      {
+        name: 'Royal Locks',
+        revealedIn: [{ book: 'warbreaker', chapter: '1' }],
+      },
+    ],
+    nationality: [
+      { name: 'Idrian', revealedIn: [{ book: 'warbreaker', chapter: '1' }] },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Dedelin',
+        relation: 'parent',
+        characterId: 'dedelin',
+        revealedIn: [{ book: 'warbreaker', chapter: '1' }],
+      },
+      {
+        name: 'Vivenna',
+        relation: 'sibling',
+        characterId: 'vivenna',
+        revealedIn: [{ book: 'warbreaker', chapter: '1' }],
+      },
+      {
+        name: 'Ridger',
+        relation: 'sibling',
+        characterId: 'ridger',
+        revealedIn: [{ book: 'warbreaker', chapter: '1' }],
+      },
+      {
+        name: 'Fafen',
+        relation: 'sibling',
+        characterId: 'fafen',
+        revealedIn: [{ book: 'warbreaker', chapter: '2' }],
+      },
+      {
+        name: 'Susebron',
+        relation: 'spouse',
+        characterId: 'susebron',
+        revealedIn: [{ book: 'warbreaker', chapter: '7' }],
+      },
+      {
+        name: 'Vo',
+        relation: 'ancestor',
+        characterId: 'vo',
+        revealedIn: [{ book: 'warbreaker', chapter: '32' }],
+      },
+    ],
+  },
+  parlin: {
+    appearsIn: [
+      {
+        bookId: 'warbreaker',
+        revealedIn: [{ book: 'warbreaker', chapter: '9' }],
+      },
+    ],
+    world: {
+      planetId: 'nalthis',
+      revealedIn: [{ book: 'warbreaker', chapter: '9' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'warbreaker', chapter: '9' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Idrian', revealedIn: [{ book: 'warbreaker', chapter: '9' }] },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Yarda',
+        relation: 'parent',
+        characterId: 'yarda',
+        revealedIn: [{ book: 'warbreaker', chapter: '9' }],
+      },
+    ],
+  },
+  havarseth: {
+    appearsIn: [
+      {
+        bookId: 'warbreaker',
+        revealedIn: [{ book: 'warbreaker', chapter: '6' }],
+      },
+    ],
+    world: {
+      planetId: 'nalthis',
+      revealedIn: [{ book: 'warbreaker', chapter: '6' }],
+    },
+    aliases: [
+      {
+        name: 'Bluefingers',
+        revealedIn: [{ book: 'warbreaker', chapter: '6' }],
+      },
+    ],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'warbreaker', chapter: '6' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Pahn Kahl', revealedIn: [{ book: 'warbreaker', chapter: '6' }] },
+    ],
+    profession: [
+      { name: 'Scribe', revealedIn: [{ book: 'warbreaker', chapter: '6' }] },
+      { name: 'Steward', revealedIn: [{ book: 'warbreaker', chapter: '6' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  treledees: {
+    appearsIn: [
+      {
+        bookId: 'warbreaker',
+        revealedIn: [{ book: 'warbreaker', chapter: '4' }],
+      },
+    ],
+    world: {
+      planetId: 'nalthis',
+      revealedIn: [{ book: 'warbreaker', chapter: '4' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'warbreaker', chapter: '4' }] },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Hallandren',
+        revealedIn: [{ book: 'warbreaker', chapter: '16' }],
+      },
+    ],
+    profession: [
+      {
+        name: 'High Priest',
+        revealedIn: [{ book: 'warbreaker', chapter: '4' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  jewels: {
+    appearsIn: [
+      {
+        bookId: 'warbreaker',
+        revealedIn: [{ book: 'warbreaker', chapter: '13' }],
+      },
+    ],
+    world: {
+      planetId: 'nalthis',
+      revealedIn: [{ book: 'warbreaker', chapter: '13' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'warbreaker', chapter: '13' }] },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Hallandren',
+        revealedIn: [{ book: 'warbreaker', chapter: '25' }],
+      },
+    ],
+    profession: [
+      {
+        name: 'Mercenary',
+        revealedIn: [{ book: 'warbreaker', chapter: '13' }],
+      },
+    ],
+    groups: [
+      {
+        name: "Denth's crew",
+        revealedIn: [{ book: 'warbreaker', chapter: '13' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  nanrovah: {
+    appearsIn: [
+      {
+        bookId: 'warbreaker',
+        revealedIn: [{ book: 'warbreaker', chapter: '16' }],
+      },
+    ],
+    world: {
+      planetId: 'nalthis',
+      revealedIn: [{ book: 'warbreaker', chapter: '16' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'warbreaker', chapter: '16' }] },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Hallandren',
+        revealedIn: [{ book: 'warbreaker', chapter: '16' }],
+      },
+    ],
+    profession: [
+      {
+        name: 'High Priest',
+        revealedIn: [{ book: 'warbreaker', chapter: '16' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Misel',
+        relation: 'child',
+        characterId: 'misel',
+        revealedIn: [{ book: 'warbreaker', chapter: '49' }],
+      },
+    ],
+  },
+  inhanna: {
+    appearsIn: [
+      {
+        bookId: 'warbreaker',
+        revealedIn: [{ book: 'warbreaker', chapter: '7' }],
+      },
+    ],
+    world: {
+      planetId: 'nalthis',
+      revealedIn: [{ book: 'warbreaker', chapter: '7' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'warbreaker', chapter: '7' }] },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Hallandren',
+        revealedIn: [{ book: 'warbreaker', chapter: '16' }],
+      },
+    ],
+    profession: [
+      {
+        name: 'High Priestess',
+        revealedIn: [{ book: 'warbreaker', chapter: '16' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  thame: {
+    appearsIn: [
+      {
+        bookId: 'warbreaker',
+        revealedIn: [{ book: 'warbreaker', chapter: '22' }],
+      },
+    ],
+    world: {
+      planetId: 'nalthis',
+      revealedIn: [{ book: 'warbreaker', chapter: '22' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'warbreaker', chapter: '22' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Idrian', revealedIn: [{ book: 'warbreaker', chapter: '22' }] },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  dedelin: {
+    appearsIn: [
+      {
+        bookId: 'warbreaker',
+        revealedIn: [{ book: 'warbreaker', chapter: '1' }],
+      },
+    ],
+    world: {
+      planetId: 'nalthis',
+      revealedIn: [{ book: 'warbreaker', chapter: '1' }],
+    },
+    aliases: [
+      {
+        name: 'King of Idris',
+        revealedIn: [{ book: 'warbreaker', chapter: '1' }],
+      },
+    ],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'warbreaker', chapter: '1' }] },
+    ],
+    abilities: [
+      {
+        name: 'Royal Locks',
+        revealedIn: [{ book: 'warbreaker', chapter: '1' }],
+      },
+    ],
+    nationality: [
+      { name: 'Idrian', revealedIn: [{ book: 'warbreaker', chapter: '1' }] },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Vivenna',
+        relation: 'child',
+        characterId: 'vivenna',
+        revealedIn: [{ book: 'warbreaker', chapter: '1' }],
+      },
+      {
+        name: 'Ridger',
+        relation: 'child',
+        characterId: 'ridger',
+        revealedIn: [{ book: 'warbreaker', chapter: '1' }],
+      },
+      {
+        name: 'Fafen',
+        relation: 'child',
+        characterId: 'fafen',
+        revealedIn: [{ book: 'warbreaker', chapter: '1' }],
+      },
+      {
+        name: 'Siri',
+        relation: 'child',
+        characterId: 'sisirinah',
+        revealedIn: [{ book: 'warbreaker', chapter: '1' }],
+      },
+      {
+        name: 'Vo',
+        relation: 'ancestor',
+        characterId: 'vo',
+        revealedIn: [{ book: 'warbreaker', chapter: '32' }],
+      },
+    ],
+  },
+  'old-chapps': {
+    appearsIn: [
+      {
+        bookId: 'warbreaker',
+        revealedIn: [{ book: 'warbreaker', chapter: '53' }],
+      },
+    ],
+    world: {
+      planetId: 'nalthis',
+      revealedIn: [{ book: 'warbreaker', chapter: '53' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'warbreaker', chapter: '53' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Fisherman',
+        revealedIn: [{ book: 'warbreaker', chapter: '53' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  allmother: {
+    appearsIn: [
+      {
+        bookId: 'warbreaker',
+        revealedIn: [{ book: 'warbreaker', chapter: '26' }],
+      },
+    ],
+    world: {
+      planetId: 'nalthis',
+      revealedIn: [{ book: 'warbreaker', chapter: '26' }],
+    },
+    aliases: [
+      {
+        name: 'Goddess of Matrons and Families',
+        revealedIn: [{ book: 'warbreaker', chapter: '34' }],
+      },
+    ],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'warbreaker', chapter: '26' }] },
+      { name: 'Returned', revealedIn: [{ book: 'warbreaker', chapter: '26' }] },
+      {
+        name: 'Cognitive Shadow',
+        revealedIn: [
+          { all: ['warbreaker', { book: 'rhythm-of-war', chapter: '15' }] },
+        ],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Hallandren',
+        revealedIn: [{ book: 'warbreaker', chapter: '26' }],
+      },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  arsteel: {
+    appearsIn: [
+      {
+        bookId: 'warbreaker',
+        revealedIn: [{ book: 'warbreaker', chapter: '19' }],
+      },
+    ],
+    world: {
+      planetId: 'nalthis',
+      revealedIn: [{ book: 'warbreaker', chapter: '19' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'warbreaker', chapter: '19' }] },
+      {
+        name: 'Returned',
+        revealedIn: [{ book: 'warbreaker', chapter: 'epilogue' }],
+      },
+      {
+        name: 'Cognitive Shadow',
+        revealedIn: [
+          { all: ['warbreaker', { book: 'rhythm-of-war', chapter: '15' }] },
+        ],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Scholar',
+        revealedIn: [{ book: 'warbreaker', chapter: 'epilogue' }],
+      },
+    ],
+    groups: [
+      {
+        name: 'Five Scholars',
+        revealedIn: [{ book: 'warbreaker', chapter: 'epilogue' }],
+      },
+    ],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Yesteel',
+        relation: 'sibling',
+        characterId: 'yesteel',
+        revealedIn: [{ book: 'warbreaker', chapter: 'epilogue' }],
+      },
+    ],
+  },
+  ashu: {
+    appearsIn: [
+      {
+        bookId: 'warbreaker',
+        revealedIn: [{ book: 'warbreaker', chapter: '31' }],
+      },
+    ],
+    world: {
+      planetId: 'nalthis',
+      revealedIn: [{ book: 'warbreaker', chapter: '31' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'warbreaker', chapter: '31' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Idrian', revealedIn: [{ book: 'warbreaker', chapter: '31' }] },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  bebid: {
+    appearsIn: [
+      {
+        bookId: 'warbreaker',
+        revealedIn: [{ book: 'warbreaker', chapter: '5' }],
+      },
+    ],
+    world: {
+      planetId: 'nalthis',
+      revealedIn: [{ book: 'warbreaker', chapter: '5' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'warbreaker', chapter: '5' }] },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Hallandren',
+        revealedIn: [{ book: 'warbreaker', chapter: '5' }],
+      },
+    ],
+    profession: [
+      { name: 'Priest', revealedIn: [{ book: 'warbreaker', chapter: '5' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  cads: {
+    appearsIn: [
+      {
+        bookId: 'warbreaker',
+        revealedIn: [{ book: 'warbreaker', chapter: '41' }],
+      },
+    ],
+    world: {
+      planetId: 'nalthis',
+      revealedIn: [{ book: 'warbreaker', chapter: '41' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'warbreaker', chapter: '41' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  fafen: {
+    appearsIn: [
+      {
+        bookId: 'warbreaker',
+        revealedIn: [{ book: 'warbreaker', chapter: '2' }],
+      },
+    ],
+    world: {
+      planetId: 'nalthis',
+      revealedIn: [{ book: 'warbreaker', chapter: '2' }],
+    },
+    aliases: [
+      {
+        name: 'Princess of Idris',
+        revealedIn: [{ book: 'warbreaker', chapter: '2' }],
+      },
+    ],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'warbreaker', chapter: '2' }] },
+    ],
+    abilities: [{ name: 'Royal Locks', revealedIn: ['warbreaker'] }],
+    nationality: [
+      { name: 'Idrian', revealedIn: [{ book: 'warbreaker', chapter: '2' }] },
+    ],
+    profession: [
+      { name: 'Monk', revealedIn: [{ book: 'warbreaker', chapter: '2' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Dedelin',
+        relation: 'parent',
+        characterId: 'dedelin',
+        revealedIn: [{ book: 'warbreaker', chapter: '1' }],
+      },
+      {
+        name: 'Vivenna',
+        relation: 'sibling',
+        characterId: 'vivenna',
+        revealedIn: [{ book: 'warbreaker', chapter: '2' }],
+      },
+      {
+        name: 'Ridger',
+        relation: 'sibling',
+        characterId: 'ridger',
+        revealedIn: [{ book: 'warbreaker', chapter: '1' }],
+      },
+      {
+        name: 'Siri',
+        relation: 'sibling',
+        characterId: 'sisirinah',
+        revealedIn: [{ book: 'warbreaker', chapter: '2' }],
+      },
+      {
+        name: 'Vo',
+        relation: 'ancestor',
+        characterId: 'vo',
+        revealedIn: [{ book: 'warbreaker', chapter: '32' }],
+      },
+    ],
+  },
+  fob: {
+    appearsIn: [
+      {
+        bookId: 'warbreaker',
+        revealedIn: [{ book: 'warbreaker', chapter: '22' }],
+      },
+    ],
+    world: {
+      planetId: 'nalthis',
+      revealedIn: [{ book: 'warbreaker', chapter: '22' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'warbreaker', chapter: '22' }] },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Hallandren',
+        revealedIn: [{ book: 'warbreaker', chapter: '22' }],
+      },
+    ],
+    profession: [
+      { name: 'Merchant', revealedIn: [{ book: 'warbreaker', chapter: '22' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  fran: {
+    appearsIn: [
+      {
+        bookId: 'warbreaker',
+        revealedIn: [{ book: 'warbreaker', chapter: '26' }],
+      },
+    ],
+    world: {
+      planetId: 'nalthis',
+      revealedIn: [{ book: 'warbreaker', chapter: '26' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'warbreaker', chapter: '26' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      { name: 'Guard', revealedIn: [{ book: 'warbreaker', chapter: '26' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  gagaril: {
+    appearsIn: [
+      {
+        bookId: 'warbreaker',
+        revealedIn: [{ book: 'warbreaker', chapter: '26' }],
+      },
+    ],
+    world: {
+      planetId: 'nalthis',
+      revealedIn: [{ book: 'warbreaker', chapter: '26' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'warbreaker', chapter: '26' }] },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Hallandren',
+        revealedIn: [{ book: 'warbreaker', chapter: '26' }],
+      },
+    ],
+    profession: [
+      { name: 'Guard', revealedIn: [{ book: 'warbreaker', chapter: '26' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  gendren: {
+    appearsIn: [
+      {
+        bookId: 'warbreaker',
+        revealedIn: [{ book: 'warbreaker', chapter: '54' }],
+      },
+    ],
+    world: {
+      planetId: 'nalthis',
+      revealedIn: [{ book: 'warbreaker', chapter: '54' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'warbreaker', chapter: '54' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  grable: {
+    appearsIn: [
+      {
+        bookId: 'warbreaker',
+        revealedIn: [{ book: 'warbreaker', chapter: '22' }],
+      },
+    ],
+    world: {
+      planetId: 'nalthis',
+      revealedIn: [{ book: 'warbreaker', chapter: '22' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'warbreaker', chapter: '22' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Crime lord',
+        revealedIn: [{ book: 'warbreaker', chapter: '22' }],
+      },
+      {
+        name: 'Restaurateur',
+        revealedIn: [{ book: 'warbreaker', chapter: '22' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  halan: {
+    appearsIn: [
+      {
+        bookId: 'warbreaker',
+        revealedIn: [{ book: 'warbreaker', chapter: '12' }],
+      },
+    ],
+    world: {
+      planetId: 'nalthis',
+      revealedIn: [{ book: 'warbreaker', chapter: '12' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'warbreaker', chapter: '12' }] },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Hallandren',
+        revealedIn: [{ book: 'warbreaker', chapter: '12' }],
+      },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  hopefinder: {
+    appearsIn: [
+      {
+        bookId: 'warbreaker',
+        revealedIn: [{ book: 'warbreaker', chapter: '30' }],
+      },
+    ],
+    world: {
+      planetId: 'nalthis',
+      revealedIn: [{ book: 'warbreaker', chapter: '30' }],
+    },
+    aliases: [
+      { name: 'Hopefinder the Just', revealedIn: ['warbreaker'] },
+      { name: 'God of Innocence and Beauty', revealedIn: ['warbreaker'] },
+    ],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'warbreaker', chapter: '30' }] },
+      { name: 'Returned', revealedIn: [{ book: 'warbreaker', chapter: '30' }] },
+      {
+        name: 'Cognitive Shadow',
+        revealedIn: [
+          { all: ['warbreaker', { book: 'rhythm-of-war', chapter: '15' }] },
+        ],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Hallandren',
+        revealedIn: [{ book: 'warbreaker', chapter: '30' }],
+      },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  jlan: {
+    appearsIn: [
+      {
+        bookId: 'warbreaker',
+        revealedIn: [{ book: 'warbreaker', chapter: '6' }],
+      },
+    ],
+    world: {
+      planetId: 'nalthis',
+      revealedIn: [{ book: 'warbreaker', chapter: '6' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'warbreaker', chapter: '6' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  lemex: {
+    appearsIn: [
+      {
+        bookId: 'warbreaker',
+        revealedIn: [{ book: 'warbreaker', chapter: '9' }],
+      },
+    ],
+    world: {
+      planetId: 'nalthis',
+      revealedIn: [{ book: 'warbreaker', chapter: '9' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'warbreaker', chapter: '9' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Idrian', revealedIn: [{ book: 'warbreaker', chapter: '9' }] },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'lemexs-nurse': {
+    appearsIn: [
+      {
+        bookId: 'warbreaker',
+        revealedIn: [{ book: 'warbreaker', chapter: '10' }],
+      },
+    ],
+    world: {
+      planetId: 'nalthis',
+      revealedIn: [{ book: 'warbreaker', chapter: '10' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'warbreaker', chapter: '10' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      { name: 'Nurse', revealedIn: [{ book: 'warbreaker', chapter: '10' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  lifeblesser: {
+    appearsIn: [
+      {
+        bookId: 'warbreaker',
+        revealedIn: [{ book: 'warbreaker', chapter: '22' }],
+      },
+    ],
+    world: {
+      planetId: 'nalthis',
+      revealedIn: [{ book: 'warbreaker', chapter: '22' }],
+    },
+    aliases: [
+      {
+        name: 'God of Healing',
+        revealedIn: [{ book: 'warbreaker', chapter: '22' }],
+      },
+    ],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'warbreaker', chapter: '22' }] },
+      { name: 'Returned', revealedIn: [{ book: 'warbreaker', chapter: '22' }] },
+      {
+        name: 'Cognitive Shadow',
+        revealedIn: [
+          { all: ['warbreaker', { book: 'rhythm-of-war', chapter: '15' }] },
+        ],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Hallandren',
+        revealedIn: [{ book: 'warbreaker', chapter: '22' }],
+      },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  lolan: {
+    appearsIn: [
+      {
+        bookId: 'warbreaker',
+        revealedIn: [{ book: 'warbreaker', chapter: '26' }],
+      },
+    ],
+    world: {
+      planetId: 'nalthis',
+      revealedIn: [{ book: 'warbreaker', chapter: '26' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'warbreaker', chapter: '26' }] },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Hallandren',
+        revealedIn: [{ book: 'warbreaker', chapter: '26' }],
+      },
+    ],
+    profession: [
+      { name: 'Servant', revealedIn: [{ book: 'warbreaker', chapter: '26' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  mab: {
+    appearsIn: [
+      {
+        bookId: 'warbreaker',
+        revealedIn: [{ book: 'warbreaker', chapter: '1' }],
+      },
+    ],
+    world: {
+      planetId: 'nalthis',
+      revealedIn: [{ book: 'warbreaker', chapter: '1' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'warbreaker', chapter: '1' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Idrian', revealedIn: [{ book: 'warbreaker', chapter: '1' }] },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  mercystar: {
+    appearsIn: [
+      {
+        bookId: 'warbreaker',
+        revealedIn: [{ book: 'warbreaker', chapter: '21' }],
+      },
+    ],
+    world: {
+      planetId: 'nalthis',
+      revealedIn: [{ book: 'warbreaker', chapter: '21' }],
+    },
+    aliases: [
+      {
+        name: 'Goddess of Kindness',
+        revealedIn: [{ book: 'warbreaker', chapter: '23' }],
+      },
+    ],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'warbreaker', chapter: '21' }] },
+      { name: 'Returned', revealedIn: [{ book: 'warbreaker', chapter: '21' }] },
+      {
+        name: 'Cognitive Shadow',
+        revealedIn: [
+          { all: ['warbreaker', { book: 'rhythm-of-war', chapter: '15' }] },
+        ],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Hallandren',
+        revealedIn: [{ book: 'warbreaker', chapter: '21' }],
+      },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  misel: {
+    appearsIn: [
+      {
+        bookId: 'warbreaker',
+        revealedIn: [{ book: 'warbreaker', chapter: '49' }],
+      },
+    ],
+    world: {
+      planetId: 'nalthis',
+      revealedIn: [{ book: 'warbreaker', chapter: '49' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'warbreaker', chapter: '49' }] },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Hallandren',
+        revealedIn: [{ book: 'warbreaker', chapter: '49' }],
+      },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Nanrovah',
+        relation: 'parent',
+        characterId: 'nanrovah',
+        revealedIn: [{ book: 'warbreaker', chapter: '49' }],
+      },
+    ],
+  },
+  paxen: {
+    appearsIn: [
+      {
+        bookId: 'warbreaker',
+        revealedIn: [{ book: 'warbreaker', chapter: '31' }],
+      },
+    ],
+    world: {
+      planetId: 'nalthis',
+      revealedIn: [{ book: 'warbreaker', chapter: '31' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'warbreaker', chapter: '31' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  rariv: {
+    appearsIn: [
+      {
+        bookId: 'warbreaker',
+        revealedIn: [{ book: 'warbreaker', chapter: '26' }],
+      },
+    ],
+    world: {
+      planetId: 'nalthis',
+      revealedIn: [{ book: 'warbreaker', chapter: '26' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'warbreaker', chapter: '26' }] },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Hallandren',
+        revealedIn: [{ book: 'warbreaker', chapter: '26' }],
+      },
+    ],
+    profession: [
+      { name: 'Servant', revealedIn: [{ book: 'warbreaker', chapter: '26' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  tatara: {
+    appearsIn: [
+      {
+        bookId: 'warbreaker',
+        revealedIn: [{ book: 'warbreaker', chapter: '57' }],
+      },
+    ],
+    world: {
+      planetId: 'nalthis',
+      revealedIn: [{ book: 'warbreaker', chapter: '57' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'warbreaker', chapter: '57' }] },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Hallandren',
+        revealedIn: [{ book: 'warbreaker', chapter: '57' }],
+      },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Llarimar',
+        relation: 'parent',
+        characterId: 'llarimar',
+        revealedIn: [{ book: 'warbreaker', chapter: '57' }],
+      },
+      {
+        name: 'Lightsong',
+        relation: 'relative',
+        characterId: 'lightsong',
+        revealedIn: [{ book: 'warbreaker', chapter: '57' }],
+      },
+    ],
+  },
+  truthcall: {
+    appearsIn: [
+      {
+        bookId: 'warbreaker',
+        revealedIn: [{ book: 'warbreaker', chapter: '22' }],
+      },
+    ],
+    world: {
+      planetId: 'nalthis',
+      revealedIn: [{ book: 'warbreaker', chapter: '22' }],
+    },
+    aliases: [
+      {
+        name: 'God of Nature',
+        revealedIn: [{ book: 'warbreaker', chapter: '22' }],
+      },
+    ],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'warbreaker', chapter: '22' }] },
+      { name: 'Returned', revealedIn: [{ book: 'warbreaker', chapter: '22' }] },
+      {
+        name: 'Cognitive Shadow',
+        revealedIn: [
+          { all: ['warbreaker', { book: 'rhythm-of-war', chapter: '15' }] },
+        ],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Hallandren',
+        revealedIn: [{ book: 'warbreaker', chapter: '22' }],
+      },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  tuft: {
+    appearsIn: [
+      {
+        bookId: 'warbreaker',
+        revealedIn: [{ book: 'warbreaker', chapter: '54' }],
+      },
+    ],
+    world: {
+      planetId: 'nalthis',
+      revealedIn: [{ book: 'warbreaker', chapter: '54' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'warbreaker', chapter: '54' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      { name: 'Beggar', revealedIn: [{ book: 'warbreaker', chapter: '54' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  vahr: {
+    appearsIn: [
+      {
+        bookId: 'warbreaker',
+        revealedIn: [{ book: 'warbreaker', chapter: 'prologue' }],
+      },
+    ],
+    world: {
+      planetId: 'nalthis',
+      revealedIn: [{ book: 'warbreaker', chapter: 'prologue' }],
+    },
+    aliases: [
+      {
+        name: 'Rebel leader',
+        revealedIn: [{ book: 'warbreaker', chapter: 'prologue' }],
+      },
+    ],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'warbreaker', chapter: 'prologue' }],
+      },
+    ],
+    abilities: [
+      {
+        name: 'Awakener',
+        revealedIn: [{ book: 'warbreaker', chapter: 'prologue' }],
+      },
+    ],
+    nationality: [
+      { name: 'Pahn Kahl', revealedIn: [{ book: 'warbreaker', chapter: '1' }] },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  weatherlove: {
+    appearsIn: [
+      {
+        bookId: 'warbreaker',
+        revealedIn: [{ book: 'warbreaker', chapter: '22' }],
+      },
+    ],
+    world: {
+      planetId: 'nalthis',
+      revealedIn: [{ book: 'warbreaker', chapter: '22' }],
+    },
+    aliases: [
+      {
+        name: 'God of Storms',
+        revealedIn: [{ book: 'warbreaker', chapter: '22' }],
+      },
+    ],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'warbreaker', chapter: '22' }] },
+      { name: 'Returned', revealedIn: [{ book: 'warbreaker', chapter: '22' }] },
+      {
+        name: 'Cognitive Shadow',
+        revealedIn: [
+          { all: ['warbreaker', { book: 'rhythm-of-war', chapter: '15' }] },
+        ],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Hallandren',
+        revealedIn: [{ book: 'warbreaker', chapter: '22' }],
+      },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  yarda: {
+    appearsIn: [
+      {
+        bookId: 'warbreaker',
+        revealedIn: [{ book: 'warbreaker', chapter: '1' }],
+      },
+    ],
+    world: {
+      planetId: 'nalthis',
+      revealedIn: [{ book: 'warbreaker', chapter: '1' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'warbreaker', chapter: '1' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Idrian', revealedIn: [{ book: 'warbreaker', chapter: '1' }] },
+    ],
+    profession: [
+      { name: 'General', revealedIn: [{ book: 'warbreaker', chapter: '1' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Parlin',
+        relation: 'child',
+        characterId: 'parlin',
+        revealedIn: [{ book: 'warbreaker', chapter: '9' }],
+      },
+    ],
+  },
+  brighthue: {
+    appearsIn: [
+      {
+        bookId: 'warbreaker',
+        revealedIn: [{ book: 'warbreaker', chapter: '12' }],
+      },
+    ],
+    world: {
+      planetId: 'nalthis',
+      revealedIn: [{ book: 'warbreaker', chapter: '12' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'warbreaker', chapter: '12' }] },
+      { name: 'Returned', revealedIn: [{ book: 'warbreaker', chapter: '12' }] },
+      {
+        name: 'Cognitive Shadow',
+        revealedIn: [
+          { all: ['warbreaker', { book: 'rhythm-of-war', chapter: '15' }] },
+        ],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Hallandren',
+        revealedIn: [{ book: 'warbreaker', chapter: '12' }],
+      },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  calmseer: {
+    appearsIn: [
+      {
+        bookId: 'warbreaker',
+        revealedIn: [{ book: 'warbreaker', chapter: '7' }],
+      },
+    ],
+    world: {
+      planetId: 'nalthis',
+      revealedIn: [{ book: 'warbreaker', chapter: '7' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'warbreaker', chapter: '7' }] },
+      { name: 'Returned', revealedIn: [{ book: 'warbreaker', chapter: '7' }] },
+      {
+        name: 'Cognitive Shadow',
+        revealedIn: [
+          { all: ['warbreaker', { book: 'rhythm-of-war', chapter: '15' }] },
+        ],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Hallandren',
+        revealedIn: [{ book: 'warbreaker', chapter: '7' }],
+      },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  giftbeacon: {
+    appearsIn: [
+      {
+        bookId: 'warbreaker',
+        revealedIn: [{ book: 'warbreaker', chapter: '21' }],
+      },
+    ],
+    world: {
+      planetId: 'nalthis',
+      revealedIn: [{ book: 'warbreaker', chapter: '21' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'warbreaker', chapter: '21' }] },
+      { name: 'Returned', revealedIn: [{ book: 'warbreaker', chapter: '21' }] },
+      {
+        name: 'Cognitive Shadow',
+        revealedIn: [
+          { all: ['warbreaker', { book: 'rhythm-of-war', chapter: '15' }] },
+        ],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Hallandren',
+        revealedIn: [{ book: 'warbreaker', chapter: '21' }],
+      },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  kindwinds: {
+    appearsIn: [
+      {
+        bookId: 'warbreaker',
+        revealedIn: [{ book: 'warbreaker', chapter: '54' }],
+      },
+    ],
+    world: {
+      planetId: 'nalthis',
+      revealedIn: [{ book: 'warbreaker', chapter: '54' }],
+    },
+    aliases: [
+      {
+        name: 'Kindwinds the Honest',
+        revealedIn: [{ book: 'warbreaker', chapter: '54' }],
+      },
+    ],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'warbreaker', chapter: '54' }] },
+      { name: 'Returned', revealedIn: [{ book: 'warbreaker', chapter: '54' }] },
+      {
+        name: 'Cognitive Shadow',
+        revealedIn: [
+          { all: ['warbreaker', { book: 'rhythm-of-war', chapter: '15' }] },
+        ],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Hallandren',
+        revealedIn: [{ book: 'warbreaker', chapter: '54' }],
+      },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  mirthgiver: {
+    appearsIn: [
+      {
+        bookId: 'warbreaker',
+        revealedIn: [{ book: 'warbreaker', chapter: '16' }],
+      },
+    ],
+    world: {
+      planetId: 'nalthis',
+      revealedIn: [{ book: 'warbreaker', chapter: '16' }],
+    },
+    aliases: [
+      {
+        name: 'God of Laughter',
+        revealedIn: [{ book: 'warbreaker', chapter: '16' }],
+      },
+    ],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'warbreaker', chapter: '16' }] },
+      { name: 'Returned', revealedIn: [{ book: 'warbreaker', chapter: '16' }] },
+      {
+        name: 'Cognitive Shadow',
+        revealedIn: [
+          { all: ['warbreaker', { book: 'rhythm-of-war', chapter: '15' }] },
+        ],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Hallandren',
+        revealedIn: [{ book: 'warbreaker', chapter: '16' }],
+      },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  peaceyearning: {
+    appearsIn: [
+      {
+        bookId: 'warbreaker',
+        revealedIn: [{ book: 'warbreaker', chapter: '21' }],
+      },
+    ],
+    world: {
+      planetId: 'nalthis',
+      revealedIn: [{ book: 'warbreaker', chapter: '21' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'warbreaker', chapter: '21' }] },
+      { name: 'Returned', revealedIn: [{ book: 'warbreaker', chapter: '21' }] },
+      {
+        name: 'Cognitive Shadow',
+        revealedIn: [
+          { all: ['warbreaker', { book: 'rhythm-of-war', chapter: '15' }] },
+        ],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Hallandren',
+        revealedIn: [{ book: 'warbreaker', chapter: '21' }],
+      },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  ridger: {
+    appearsIn: [
+      {
+        bookId: 'warbreaker',
+        revealedIn: [{ book: 'warbreaker', chapter: '1' }],
+      },
+    ],
+    world: {
+      planetId: 'nalthis',
+      revealedIn: [{ book: 'warbreaker', chapter: '1' }],
+    },
+    aliases: [
+      {
+        name: 'Heir to the throne of Idris',
+        revealedIn: [{ book: 'warbreaker', chapter: '1' }],
+      },
+    ],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'warbreaker', chapter: '1' }] },
+    ],
+    abilities: [{ name: 'Royal Locks', revealedIn: ['warbreaker'] }],
+    nationality: [
+      { name: 'Idrian', revealedIn: [{ book: 'warbreaker', chapter: '1' }] },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Dedelin',
+        relation: 'parent',
+        characterId: 'dedelin',
+        revealedIn: [{ book: 'warbreaker', chapter: '1' }],
+      },
+      {
+        name: 'Vivenna',
+        relation: 'sibling',
+        characterId: 'vivenna',
+        revealedIn: [{ book: 'warbreaker', chapter: '1' }],
+      },
+      {
+        name: 'Fafen',
+        relation: 'sibling',
+        characterId: 'fafen',
+        revealedIn: [{ book: 'warbreaker', chapter: '1' }],
+      },
+      {
+        name: 'Siri',
+        relation: 'sibling',
+        characterId: 'sisirinah',
+        revealedIn: [{ book: 'warbreaker', chapter: '1' }],
+      },
+      {
+        name: 'Vo',
+        relation: 'ancestor',
+        characterId: 'vo',
+        revealedIn: [{ book: 'warbreaker', chapter: '32' }],
+      },
+    ],
+  },
+  stillmark: {
+    appearsIn: [
+      {
+        bookId: 'warbreaker',
+        revealedIn: [{ book: 'warbreaker', chapter: '16' }],
+      },
+    ],
+    world: {
+      planetId: 'nalthis',
+      revealedIn: [{ book: 'warbreaker', chapter: '16' }],
+    },
+    aliases: [
+      {
+        name: 'Stillmark the Noble',
+        revealedIn: [{ book: 'warbreaker', chapter: '16' }],
+      },
+    ],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'warbreaker', chapter: '16' }] },
+      { name: 'Returned', revealedIn: [{ book: 'warbreaker', chapter: '16' }] },
+      {
+        name: 'Cognitive Shadow',
+        revealedIn: [
+          { all: ['warbreaker', { book: 'rhythm-of-war', chapter: '15' }] },
+        ],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Hallandren',
+        revealedIn: [{ book: 'warbreaker', chapter: '16' }],
+      },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'susebrons-mother': {
+    appearsIn: [
+      {
+        bookId: 'warbreaker',
+        revealedIn: [{ book: 'warbreaker', chapter: '24' }],
+      },
+    ],
+    world: {
+      planetId: 'nalthis',
+      revealedIn: [{ book: 'warbreaker', chapter: '24' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'warbreaker', chapter: '24' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Susebron',
+        relation: 'child',
+        characterId: 'susebron',
+        revealedIn: [{ book: 'warbreaker', chapter: '24' }],
+      },
+    ],
+  },
+  taff: {
+    appearsIn: [
+      {
+        bookId: 'warbreaker',
+        revealedIn: [{ book: 'warbreaker', chapter: '26' }],
+      },
+    ],
+    world: {
+      planetId: 'nalthis',
+      revealedIn: [{ book: 'warbreaker', chapter: '26' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'warbreaker', chapter: '26' }] },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Hallandren',
+        revealedIn: [{ book: 'warbreaker', chapter: '26' }],
+      },
+    ],
+    profession: [
+      { name: 'Servant', revealedIn: [{ book: 'warbreaker', chapter: '26' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  vo: {
+    appearsIn: [
+      {
+        bookId: 'warbreaker',
+        revealedIn: [{ book: 'warbreaker', chapter: '32' }],
+      },
+    ],
+    world: {
+      planetId: 'nalthis',
+      revealedIn: [{ book: 'warbreaker', chapter: '32' }],
+    },
+    aliases: [
+      {
+        name: 'First Returned',
+        revealedIn: [{ book: 'warbreaker', chapter: '32' }],
+      },
+    ],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'warbreaker', chapter: '32' }] },
+      { name: 'Returned', revealedIn: [{ book: 'warbreaker', chapter: '32' }] },
+      {
+        name: 'Cognitive Shadow',
+        revealedIn: [
+          { all: ['warbreaker', { book: 'rhythm-of-war', chapter: '15' }] },
+        ],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      { name: 'Sailor', revealedIn: [{ book: 'warbreaker', chapter: '32' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'allriannes-mother': {
+    appearsIn: [
+      {
+        bookId: 'well-of-ascension',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '25' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'well-of-ascension', chapter: '25' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '25' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Ashweather Cett',
+        relation: 'spouse',
+        characterId: 'ashweather-cett',
+        revealedIn: ['well-of-ascension'],
+      },
+      {
+        name: 'Allrianne',
+        relation: 'child',
+        characterId: 'allrianne-cett',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '25' }],
+      },
+      {
+        name: 'Gneorndin',
+        relation: 'child',
+        characterId: 'gneorndin-cett',
+        revealedIn: ['well-of-ascension'],
+      },
+    ],
+  },
+  'audil-lekal': {
+    appearsIn: [
+      {
+        bookId: 'hero-of-ages',
+        revealedIn: [{ book: 'hero-of-ages', chapter: '4' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'hero-of-ages', chapter: '4' }],
+    },
+    aliases: [
+      {
+        name: "King of House Lekal's kingdom",
+        revealedIn: [{ book: 'hero-of-ages', chapter: '4' }],
+      },
+    ],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'hero-of-ages', chapter: '4' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Jastes Lekal',
+        relation: 'relative',
+        characterId: 'jastes-lekal',
+        revealedIn: [{ book: 'hero-of-ages', chapter: '4' }],
+      },
+    ],
+  },
+  braches: {
+    appearsIn: [
+      {
+        bookId: 'final-empire',
+        revealedIn: [{ book: 'final-empire', chapter: '22' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'final-empire', chapter: '22' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'final-empire', chapter: '22' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  cled: {
+    appearsIn: [
+      {
+        bookId: 'well-of-ascension',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '52' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'well-of-ascension', chapter: '52' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '52' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  culee: {
+    appearsIn: [
+      {
+        bookId: 'well-of-ascension',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '51' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'well-of-ascension', chapter: '51' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '51' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Military officer',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '51' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  dilisteni: {
+    appearsIn: [
+      {
+        bookId: 'final-empire',
+        revealedIn: [{ book: 'final-empire', chapter: '12' }],
+      },
+      {
+        bookId: 'hero-of-ages',
+        revealedIn: [{ book: 'hero-of-ages', chapter: '32' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'final-empire', chapter: '12' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'final-empire', chapter: '12' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      { name: 'Author', revealedIn: [{ book: 'final-empire', chapter: '12' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  eiser: {
+    appearsIn: [
+      {
+        bookId: 'final-empire',
+        revealedIn: [{ book: 'final-empire', chapter: '6' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'final-empire', chapter: '6' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'final-empire', chapter: '6' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'elends-mother': {
+    appearsIn: [
+      {
+        bookId: 'final-empire',
+        revealedIn: [{ book: 'final-empire', chapter: '28' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'final-empire', chapter: '28' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'final-empire', chapter: '28' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Straff',
+        relation: 'spouse',
+        characterId: 'straff-venture',
+        revealedIn: [{ book: 'final-empire', chapter: '28' }],
+      },
+      {
+        name: 'Elend',
+        relation: 'child',
+        characterId: 'elend-venture',
+        revealedIn: [{ book: 'final-empire', chapter: '28' }],
+      },
+    ],
+  },
+  'kelsiers-mother': {
+    appearsIn: [
+      {
+        bookId: 'final-empire',
+        revealedIn: [{ book: 'final-empire', chapter: '8' }],
+      },
+      {
+        bookId: 'well-of-ascension',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '33' }],
+      },
+      {
+        bookId: 'secret-history',
+        revealedIn: [{ book: 'secret-history', chapter: '2-2' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'final-empire', chapter: '8' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'final-empire', chapter: '8' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Kelsier',
+        relation: 'child',
+        characterId: 'kelsier',
+        revealedIn: [{ book: 'final-empire', chapter: '8' }],
+      },
+      {
+        name: 'Marsh',
+        relation: 'child',
+        characterId: 'marsh',
+        revealedIn: [{ book: 'final-empire', chapter: '20' }],
+      },
+    ],
+  },
+  redd: {
+    appearsIn: [
+      {
+        bookId: 'final-empire',
+        revealedIn: [{ book: 'final-empire', chapter: '14' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'final-empire', chapter: '14' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'final-empire', chapter: '14' }] },
+    ],
+    abilities: [
+      { name: 'Smoker', revealedIn: [{ book: 'final-empire', chapter: '31' }] },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [
+      {
+        name: "Kelsier's crew",
+        revealedIn: [{ book: 'final-empire', chapter: '31' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  senna: {
+    appearsIn: [
+      {
+        bookId: 'secret-history',
+        revealedIn: [{ book: 'secret-history', chapter: '3-1' }],
+      },
+    ],
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'secret-history', chapter: '3-1' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'shan-elariels-steward': {
+    appearsIn: [
+      {
+        bookId: 'final-empire',
+        revealedIn: [{ book: 'final-empire', chapter: '18' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'final-empire', chapter: '18' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'final-empire', chapter: '18' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Terris', revealedIn: [{ book: 'final-empire', chapter: '18' }] },
+    ],
+    profession: [
+      {
+        name: 'Steward',
+        revealedIn: [{ book: 'final-empire', chapter: '18' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  troubeld: {
+    appearsIn: [
+      {
+        bookId: 'well-of-ascension',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '50' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'well-of-ascension', chapter: '50' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '50' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Scholar',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '50' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'vet-scadrial': {
+    appearsIn: [
+      {
+        bookId: 'well-of-ascension',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '38' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'well-of-ascension', chapter: '38' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '38' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [
+      {
+        name: 'Luthadel Assembly',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '38' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  'vins-mother': {
+    appearsIn: [
+      {
+        bookId: 'final-empire',
+        revealedIn: [{ book: 'final-empire', chapter: '3' }],
+      },
+      {
+        bookId: 'hero-of-ages',
+        revealedIn: [{ book: 'hero-of-ages', chapter: '72' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'final-empire', chapter: '3' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'final-empire', chapter: '3' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Vin',
+        relation: 'child',
+        characterId: 'vin',
+        revealedIn: [{ book: 'final-empire', chapter: '3' }],
+      },
+      {
+        name: 'Reen',
+        relation: 'child',
+        characterId: 'reen',
+        revealedIn: [{ book: 'final-empire', chapter: '20' }],
+      },
+    ],
+  },
+  'vins-sister': {
+    appearsIn: [
+      {
+        bookId: 'final-empire',
+        revealedIn: [{ book: 'final-empire', chapter: '20' }],
+      },
+      {
+        bookId: 'well-of-ascension',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '44' }],
+      },
+      {
+        bookId: 'hero-of-ages',
+        revealedIn: [{ book: 'hero-of-ages', chapter: '43' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'final-empire', chapter: '20' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'final-empire', chapter: '20' }] },
+    ],
+    abilities: [
+      { name: 'Seeker', revealedIn: [{ book: 'hero-of-ages', chapter: '73' }] },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Vin',
+        relation: 'sibling',
+        characterId: 'vin',
+        revealedIn: [{ book: 'final-empire', chapter: '20' }],
+      },
+      {
+        name: 'Reen',
+        relation: 'sibling',
+        characterId: 'reen',
+        revealedIn: [{ book: 'final-empire', chapter: '20' }],
+      },
+    ],
+  },
+  dahad: {
+    appearsIn: [
+      { bookId: 'elantris', revealedIn: [{ book: 'elantris', chapter: '19' }] },
+    ],
+    world: {
+      planetId: 'sel',
+      revealedIn: [{ book: 'elantris', chapter: '19' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'elantris', chapter: '19' }] },
+      { name: 'Elantrian', revealedIn: [{ book: 'elantris', chapter: '19' }] },
+    ],
+    abilities: [{ name: 'AonDor', revealedIn: ['elantris'] }],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'galladons-father': {
+    appearsIn: [
+      { bookId: 'elantris', revealedIn: [{ book: 'elantris', chapter: '25' }] },
+    ],
+    world: {
+      planetId: 'sel',
+      revealedIn: [{ book: 'elantris', chapter: '25' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'elantris', chapter: '25' }] },
+      { name: 'Elantrian', revealedIn: [{ book: 'elantris', chapter: '25' }] },
+    ],
+    abilities: [{ name: 'AonDor', revealedIn: ['elantris'] }],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Galladon',
+        relation: 'child',
+        characterId: 'galladon',
+        revealedIn: [{ book: 'elantris', chapter: '25' }],
+      },
+    ],
+  },
+  grondkest: {
+    appearsIn: [
+      { bookId: 'elantris', revealedIn: [{ book: 'elantris', chapter: '18' }] },
+    ],
+    world: {
+      planetId: 'sel',
+      revealedIn: [{ book: 'elantris', chapter: '18' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'elantris', chapter: '18' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [{ name: 'Philosopher', revealedIn: ['elantris'] }],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  keseg: {
+    appearsIn: [
+      { bookId: 'elantris', revealedIn: [{ book: 'elantris', chapter: '14' }] },
+    ],
+    world: {
+      planetId: 'sel',
+      revealedIn: [{ book: 'elantris', chapter: '14' }],
+    },
+    aliases: [{ name: 'KeHwo', revealedIn: ['elantris'] }],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'elantris', chapter: '14' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  loren: {
+    appearsIn: [
+      { bookId: 'elantris', revealedIn: [{ book: 'elantris', chapter: '13' }] },
+    ],
+    world: {
+      planetId: 'sel',
+      revealedIn: [{ book: 'elantris', chapter: '13' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'elantris', chapter: '13' }] },
+      { name: 'Elantrian', revealedIn: [{ book: 'elantris', chapter: '13' }] },
+    ],
+    abilities: [{ name: 'AonDor', revealedIn: ['elantris'] }],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'wulfden-the-first': {
+    appearsIn: [{ bookId: 'elantris', revealedIn: ['elantris'] }],
+    world: { planetId: 'sel', revealedIn: ['elantris'] },
+    aliases: [
+      { name: 'Wyrn', revealedIn: ['elantris'] },
+      { name: 'Emperor of Fjorden', revealedIn: ['elantris'] },
+    ],
+    species: [{ name: 'Human', revealedIn: ['elantris'] }],
+    abilities: [],
+    nationality: [{ name: 'Fjordell', revealedIn: ['elantris'] }],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  wyrn: {
+    appearsIn: [
+      { bookId: 'elantris', revealedIn: [{ book: 'elantris', chapter: '43' }] },
+    ],
+    world: {
+      planetId: 'sel',
+      revealedIn: [{ book: 'elantris', chapter: '43' }],
+    },
+    aliases: [{ name: 'King of Fjorden', revealedIn: ['elantris'] }],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'elantris', chapter: '43' }] },
+    ],
+    abilities: [],
+    nationality: [{ name: 'Fjordell', revealedIn: ['elantris'] }],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  brightvison: {
+    appearsIn: [
+      {
+        bookId: 'warbreaker',
+        revealedIn: [{ book: 'warbreaker', chapter: '5' }],
+      },
+    ],
+    world: {
+      planetId: 'nalthis',
+      revealedIn: [{ book: 'warbreaker', chapter: '5' }],
+    },
+    aliases: [
+      {
+        name: 'Brightvison the True',
+        revealedIn: [{ book: 'warbreaker', chapter: '5' }],
+      },
+      {
+        name: 'Brightvision',
+        revealedIn: [{ book: 'warbreaker', chapter: '5' }],
+      },
+    ],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'warbreaker', chapter: '5' }] },
+      { name: 'Returned', revealedIn: [{ book: 'warbreaker', chapter: '5' }] },
+      {
+        name: 'Cognitive Shadow',
+        revealedIn: [
+          { all: ['warbreaker', { book: 'rhythm-of-war', chapter: '15' }] },
+        ],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Hallandren',
+        revealedIn: [{ book: 'warbreaker', chapter: '5' }],
+      },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  rira: {
+    appearsIn: [
+      {
+        bookId: 'warbreaker',
+        revealedIn: [{ book: 'warbreaker', chapter: '31' }],
+      },
+    ],
+    world: {
+      planetId: 'nalthis',
+      revealedIn: [{ book: 'warbreaker', chapter: '31' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'warbreaker', chapter: '31' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Idrian', revealedIn: [{ book: 'warbreaker', chapter: '31' }] },
+    ],
+    profession: [
+      { name: 'Slumlord', revealedIn: [{ book: 'warbreaker', chapter: '31' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'susebron-the-fourth': {
+    appearsIn: [
+      {
+        bookId: 'warbreaker',
+        revealedIn: [{ book: 'warbreaker', chapter: '27' }],
+      },
+    ],
+    world: {
+      planetId: 'nalthis',
+      revealedIn: [{ book: 'warbreaker', chapter: '27' }],
+    },
+    aliases: [
+      {
+        name: 'God King of Hallandren',
+        revealedIn: [{ book: 'warbreaker', chapter: '27' }],
+      },
+    ],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'warbreaker', chapter: '27' }] },
+      { name: 'Returned', revealedIn: [{ book: 'warbreaker', chapter: '55' }] },
+      {
+        name: 'Cognitive Shadow',
+        revealedIn: [
+          { all: ['warbreaker', { book: 'rhythm-of-war', chapter: '15' }] },
+        ],
+      },
+    ],
+    abilities: [{ name: 'Awakener', revealedIn: ['warbreaker'] }],
+    nationality: [
+      {
+        name: 'Hallandren',
+        revealedIn: [{ book: 'warbreaker', chapter: '27' }],
+      },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'vivennas-mother': {
+    appearsIn: [
+      {
+        bookId: 'warbreaker',
+        revealedIn: [{ book: 'warbreaker', chapter: '1' }],
+      },
+    ],
+    world: {
+      planetId: 'nalthis',
+      revealedIn: [{ book: 'warbreaker', chapter: '1' }],
+    },
+    aliases: [
+      {
+        name: 'Queen of Idris',
+        revealedIn: [{ book: 'warbreaker', chapter: '27' }],
+      },
+    ],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'warbreaker', chapter: '1' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Dedelin',
+        relation: 'spouse',
+        characterId: 'dedelin',
+        revealedIn: [{ book: 'warbreaker', chapter: '1' }],
+      },
+      {
+        name: 'Vivenna',
+        relation: 'child',
+        characterId: 'vivenna',
+        revealedIn: [{ book: 'warbreaker', chapter: '1' }],
+      },
+      {
+        name: 'Ridger',
+        relation: 'child',
+        characterId: 'ridger',
+        revealedIn: [{ book: 'warbreaker', chapter: '1' }],
+      },
+      {
+        name: 'Fafen',
+        relation: 'child',
+        characterId: 'fafen',
+        revealedIn: [{ book: 'warbreaker', chapter: '2' }],
+      },
+      {
+        name: 'Sisirinah',
+        relation: 'child',
+        characterId: 'sisirinah',
+        revealedIn: [{ book: 'warbreaker', chapter: '1' }],
+      },
+    ],
+  },
+  'telsin-ladrian': {
+    appearsIn: [
+      {
+        bookId: 'alloy-of-law',
+        revealedIn: [{ book: 'alloy-of-law', chapter: '3' }],
+      },
+      {
+        bookId: 'shadows-of-self',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '17' }],
+      },
+      {
+        bookId: 'bands-of-mourning',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: 'prologue' }],
+      },
+      {
+        bookId: 'lost-metal',
+        revealedIn: [{ book: 'lost-metal', chapter: '19' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'alloy-of-law', chapter: '3' }],
+    },
+    aliases: [
+      {
+        name: 'Sequence',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: '27' }],
+      },
+      { name: 'Key', revealedIn: [{ book: 'lost-metal', chapter: '21' }] },
+    ],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'alloy-of-law', chapter: '3' }] },
+    ],
+    abilities: [
+      {
+        name: 'Hemalurgist',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: '31' }],
+      },
+      {
+        name: 'Avatar of Autonomy',
+        revealedIn: [{ book: 'lost-metal', chapter: '27' }],
+      },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [
+      {
+        name: 'Set',
+        revealedIn: [
+          { book: 'bands-of-mourning', chapter: '27' },
+          { book: 'lost-metal', chapter: '19' },
+        ],
+      },
+    ],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Waxillium Ladrian',
+        relation: 'sibling',
+        characterId: 'waxillium-ladrian',
+        revealedIn: [{ book: 'alloy-of-law', chapter: '3' }],
+      },
+      {
+        name: 'Edwarn Ladrian',
+        relation: 'relative',
+        characterId: 'edwarn-ladrian',
+        revealedIn: [{ book: 'alloy-of-law', chapter: 'epilogue' }],
+      },
+      {
+        name: 'Hinston',
+        relation: 'relative',
+        characterId: 'hinston-ladrian',
+        revealedIn: ['lost-metal'],
+      },
+      {
+        name: 'Maxillium',
+        relation: 'relative',
+        characterId: 'maxillium-ladrian',
+        revealedIn: [{ book: 'lost-metal', chapter: '2' }],
+      },
+      {
+        name: 'Tindwyl',
+        relation: 'relative',
+        characterId: 'tindwyl-ladrian',
+        revealedIn: [{ book: 'lost-metal', chapter: '2' }],
+      },
+      {
+        name: 'Ashweather',
+        relation: 'ancestor',
+        characterId: 'ashweather-cett',
+        revealedIn: ['lost-metal'],
+      },
+      {
+        name: 'Edgard',
+        relation: 'ancestor',
+        characterId: 'edgard-ladrian',
+        revealedIn: [
+          {
+            all: [
+              { book: 'alloy-of-law', chapter: '3' },
+              { book: 'shadows-of-self', chapter: '5' },
+            ],
+          },
+        ],
+      },
+      {
+        name: 'Allrianne',
+        relation: 'ancestor',
+        characterId: 'allrianne-cett',
+        revealedIn: [
+          {
+            all: [
+              { book: 'alloy-of-law', chapter: '3' },
+              { book: 'shadows-of-self', chapter: '5' },
+            ],
+          },
+        ],
+      },
+      {
+        name: 'Vwafendal',
+        relation: 'ancestor',
+        characterId: 'vwafendal',
+        revealedIn: ['lost-metal'],
+      },
+    ],
+  },
+  'allik-neverfar': {
+    appearsIn: [
+      {
+        bookId: 'bands-of-mourning',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: '21' }],
+      },
+      {
+        bookId: 'lost-metal',
+        revealedIn: [{ book: 'lost-metal', chapter: '11' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'bands-of-mourning', chapter: '21' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: '21' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Malwish',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: '22' }],
+      },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  reddi: {
+    appearsIn: [
+      {
+        bookId: 'alloy-of-law',
+        revealedIn: [{ book: 'alloy-of-law', chapter: '6' }],
+      },
+      {
+        bookId: 'shadows-of-self',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '2' }],
+      },
+      {
+        bookId: 'bands-of-mourning',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: '11' }],
+      },
+      {
+        bookId: 'lost-metal',
+        revealedIn: [{ book: 'lost-metal', chapter: '10' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'alloy-of-law', chapter: '6' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'alloy-of-law', chapter: '6' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Law enforcement',
+        revealedIn: [{ book: 'alloy-of-law', chapter: '6' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  vendell: {
+    appearsIn: [
+      {
+        bookId: 'bands-of-mourning',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: '3' }],
+      },
+      {
+        bookId: 'lost-metal',
+        revealedIn: [{ book: 'lost-metal', chapter: '15' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'bands-of-mourning', chapter: '3' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Kandra',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: '3' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'claude-aradel': {
+    appearsIn: [
+      {
+        bookId: 'shadows-of-self',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '4' }],
+      },
+      {
+        bookId: 'bands-of-mourning',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: '31' }],
+      },
+      {
+        bookId: 'lost-metal',
+        revealedIn: [{ book: 'lost-metal', chapter: '2' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'shadows-of-self', chapter: '4' }],
+    },
+    aliases: [
+      {
+        name: 'Governor',
+        revealedIn: [
+          { book: 'shadows-of-self', chapter: 'epilogue' },
+          { book: 'bands-of-mourning', chapter: '31' },
+          { book: 'lost-metal', chapter: '2' },
+        ],
+      },
+      {
+        name: 'Constable-General',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '4' }],
+      },
+    ],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '4' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Governor of Elendel',
+        revealedIn: [
+          { book: 'shadows-of-self', chapter: 'epilogue' },
+          { book: 'bands-of-mourning', chapter: '31' },
+          { book: 'lost-metal', chapter: '2' },
+        ],
+      },
+      {
+        name: 'Law enforcement',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '4' }],
+      },
+    ],
+    groups: [
+      {
+        name: 'Elendel Constabulary',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '4' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  'gave-entrone': {
+    appearsIn: [
+      {
+        bookId: 'bands-of-mourning',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: '12' }],
+      },
+      {
+        bookId: 'lost-metal',
+        revealedIn: [{ book: 'lost-metal', chapter: '26' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'bands-of-mourning', chapter: '12' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: '12' }],
+      },
+    ],
+    abilities: [
+      {
+        name: 'Hemalurgist',
+        revealedIn: [{ book: 'lost-metal', chapter: '59' }],
+      },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [
+      { name: 'Set', revealedIn: [{ book: 'lost-metal', chapter: '47' }] },
+    ],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Valette Entrone',
+        relation: 'relative',
+        characterId: 'valette-entrone',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: '12' }],
+      },
+    ],
+  },
+  prasanva: {
+    appearsIn: [
+      {
+        bookId: 'lost-metal',
+        revealedIn: [{ book: 'lost-metal', chapter: '40' }],
+      },
+    ],
+    world: {
+      planetId: 'dhatri',
+      revealedIn: [{ book: 'lost-metal', chapter: '51' }],
+    },
+    aliases: [
+      { name: 'TwinSoul', revealedIn: [{ book: 'lost-metal', chapter: '40' }] },
+      {
+        name: 'Shri Prasanva',
+        revealedIn: [{ book: 'lost-metal', chapter: '40' }],
+      },
+      { name: 'Pras', revealedIn: [{ book: 'lost-metal', chapter: '42' }] },
+      {
+        name: 'Grand Aetherbound of the twelve kingdoms',
+        revealedIn: [{ book: 'lost-metal', chapter: '51' }],
+      },
+      {
+        name: 'Raj of the Coriander Court',
+        revealedIn: [{ book: 'lost-metal', chapter: '51' }],
+      },
+    ],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'lost-metal', chapter: '40' }] },
+    ],
+    abilities: [
+      {
+        name: 'Aetherbound',
+        revealedIn: [{ book: 'lost-metal', chapter: '40' }],
+      },
+      {
+        name: 'Worldhopper',
+        revealedIn: [{ book: 'lost-metal', chapter: '51' }],
+      },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [
+      {
+        name: 'Ghostbloods',
+        revealedIn: [{ book: 'lost-metal', chapter: '40' }],
+      },
+    ],
+    bonds: [
+      { name: 'Silajana', revealedIn: [{ book: 'lost-metal', chapter: '51' }] },
+    ],
+    relatives: [],
+  },
+  'replar-innate': {
+    appearsIn: [
+      {
+        bookId: 'shadows-of-self',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '6' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'shadows-of-self', chapter: '6' }],
+    },
+    aliases: [
+      {
+        name: 'Governor',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '6' }],
+      },
+    ],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '6' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Governor of Elendel',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '6' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Winsting Innate',
+        relation: 'sibling',
+        characterId: 'winsting-innate',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '6' }],
+      },
+      {
+        name: 'Allri Innate',
+        relation: 'spouse',
+        characterId: 'allri-innate',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '9' }],
+      },
+    ],
+  },
+  silajana: {
+    appearsIn: [
+      {
+        bookId: 'lost-metal',
+        revealedIn: [{ book: 'lost-metal', chapter: '51' }],
+      },
+    ],
+    world: {
+      planetId: 'dhatri',
+      revealedIn: [{ book: 'lost-metal', chapter: '51' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Aether', revealedIn: [{ book: 'lost-metal', chapter: '51' }] },
+    ],
+    abilities: [
+      {
+        name: 'Control of roseite',
+        revealedIn: [{ book: 'lost-metal', chapter: '51' }],
+      },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [
+      {
+        name: 'Roseite Aetherbound',
+        revealedIn: [{ book: 'lost-metal', chapter: '51' }],
+      },
+    ],
+    relatives: [],
+  },
+  varlance: {
+    appearsIn: [
+      {
+        bookId: 'lost-metal',
+        revealedIn: [{ book: 'lost-metal', chapter: '2' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'lost-metal', chapter: '2' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'lost-metal', chapter: '2' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  dumad: {
+    appearsIn: [
+      {
+        bookId: 'lost-metal',
+        revealedIn: [{ book: 'lost-metal', chapter: '23' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'lost-metal', chapter: '23' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'lost-metal', chapter: '23' }] },
+    ],
+    abilities: [
+      {
+        name: 'Hemalurgist',
+        revealedIn: [{ book: 'lost-metal', chapter: '25' }],
+      },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [
+      { name: 'Set', revealedIn: [{ book: 'lost-metal', chapter: '26' }] },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  'jackstom-harms': {
+    appearsIn: [
+      {
+        bookId: 'alloy-of-law',
+        revealedIn: [{ book: 'alloy-of-law', chapter: '2' }],
+      },
+      {
+        bookId: 'shadows-of-self',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '12' }],
+      },
+      {
+        bookId: 'bands-of-mourning',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: '1' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'alloy-of-law', chapter: '2' }],
+    },
+    aliases: [
+      { name: 'Lord', revealedIn: [{ book: 'alloy-of-law', chapter: '4' }] },
+    ],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'alloy-of-law', chapter: '2' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Steris',
+        relation: 'child',
+        characterId: 'steris-harms',
+        revealedIn: [{ book: 'alloy-of-law', chapter: '2' }],
+      },
+      {
+        name: 'Marasi',
+        relation: 'child',
+        characterId: 'marasi-colms',
+        revealedIn: [{ book: 'alloy-of-law', chapter: '9' }],
+      },
+      {
+        name: 'Armal',
+        relation: 'relative',
+        characterId: 'armal',
+        revealedIn: [{ book: 'lost-metal', chapter: '56' }],
+      },
+      {
+        name: 'Spook',
+        relation: 'ancestor',
+        characterId: 'spook',
+        revealedIn: [{ book: 'alloy-of-law', chapter: '7' }],
+      },
+    ],
+  },
+  getruda: {
+    appearsIn: [
+      {
+        bookId: 'lost-metal',
+        revealedIn: [{ book: 'lost-metal', chapter: '23' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'lost-metal', chapter: '23' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'lost-metal', chapter: '23' }] },
+    ],
+    abilities: [
+      {
+        name: 'Hemalurgist',
+        revealedIn: [{ book: 'lost-metal', chapter: '49' }],
+      },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [
+      { name: 'Set', revealedIn: [{ book: 'lost-metal', chapter: '26' }] },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  'maxillium-ladrian': {
+    appearsIn: [
+      {
+        bookId: 'lost-metal',
+        revealedIn: [{ book: 'lost-metal', chapter: '2' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'lost-metal', chapter: '2' }],
+    },
+    aliases: [
+      { name: 'Max', revealedIn: [{ book: 'lost-metal', chapter: '5' }] },
+    ],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'lost-metal', chapter: '2' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Steris',
+        relation: 'parent',
+        characterId: 'steris-harms',
+        revealedIn: [{ book: 'lost-metal', chapter: '2' }],
+      },
+      {
+        name: 'Waxillium',
+        relation: 'parent',
+        characterId: 'waxillium-ladrian',
+        revealedIn: [{ book: 'lost-metal', chapter: '2' }],
+      },
+      {
+        name: 'Tindwyl',
+        relation: 'sibling',
+        characterId: 'tindwyl-ladrian',
+        revealedIn: [{ book: 'lost-metal', chapter: '2' }],
+      },
+      {
+        name: 'Marasi Colms',
+        relation: 'relative',
+        characterId: 'marasi-colms',
+        revealedIn: [
+          {
+            all: [
+              { book: 'alloy-of-law', chapter: '9' },
+              { book: 'lost-metal', chapter: '2' },
+            ],
+          },
+        ],
+      },
+      {
+        name: 'Edwarn',
+        relation: 'relative',
+        characterId: 'edwarn-ladrian',
+        revealedIn: [
+          {
+            all: [
+              { book: 'alloy-of-law', chapter: 'epilogue' },
+              { book: 'lost-metal', chapter: '2' },
+            ],
+          },
+        ],
+      },
+      {
+        name: 'Telsin',
+        relation: 'relative',
+        characterId: 'telsin-ladrian',
+        revealedIn: [
+          {
+            all: [
+              { book: 'alloy-of-law', chapter: '3' },
+              { book: 'lost-metal', chapter: '2' },
+            ],
+          },
+        ],
+      },
+      {
+        name: 'Hinston',
+        relation: 'relative',
+        characterId: 'hinston-ladrian',
+        revealedIn: ['lost-metal'],
+      },
+      {
+        name: 'Armal',
+        relation: 'relative',
+        characterId: 'armal',
+        revealedIn: [{ book: 'lost-metal', chapter: '56' }],
+      },
+      {
+        name: 'Ashweather',
+        relation: 'ancestor',
+        characterId: 'ashweather-cett',
+        revealedIn: ['lost-metal'],
+      },
+      {
+        name: 'Edgard',
+        relation: 'ancestor',
+        characterId: 'edgard-ladrian',
+        revealedIn: [
+          {
+            all: [
+              { book: 'shadows-of-self', chapter: '5' },
+              { book: 'lost-metal', chapter: '2' },
+            ],
+          },
+        ],
+      },
+      {
+        name: 'Allrianne',
+        relation: 'ancestor',
+        characterId: 'allrianne-cett',
+        revealedIn: [
+          {
+            all: [
+              { book: 'shadows-of-self', chapter: '5' },
+              { book: 'lost-metal', chapter: '2' },
+            ],
+          },
+        ],
+      },
+      {
+        name: 'Jackstom',
+        relation: 'ancestor',
+        characterId: 'jackstom-harms',
+        revealedIn: [
+          {
+            all: [
+              { book: 'alloy-of-law', chapter: '2' },
+              { book: 'lost-metal', chapter: '2' },
+            ],
+          },
+        ],
+      },
+      {
+        name: 'Vwafendal',
+        relation: 'ancestor',
+        characterId: 'vwafendal',
+        revealedIn: ['lost-metal'],
+      },
+      {
+        name: 'Spook',
+        relation: 'ancestor',
+        characterId: 'spook',
+        revealedIn: [
+          {
+            all: [
+              { book: 'alloy-of-law', chapter: '7' },
+              { book: 'lost-metal', chapter: '2' },
+            ],
+          },
+        ],
+      },
+    ],
+  },
+  tarson: {
+    appearsIn: [
+      {
+        bookId: 'alloy-of-law',
+        revealedIn: [{ book: 'alloy-of-law', chapter: '5' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'alloy-of-law', chapter: '5' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'alloy-of-law', chapter: '5' }] },
+    ],
+    abilities: [
+      {
+        name: 'Pewterarm (Savant)',
+        revealedIn: [{ book: 'alloy-of-law', chapter: '17' }],
+      },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [
+      {
+        name: 'Vanishers',
+        revealedIn: [{ book: 'alloy-of-law', chapter: '5' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  adawathwyn: {
+    appearsIn: [
+      {
+        bookId: 'lost-metal',
+        revealedIn: [{ book: 'lost-metal', chapter: '2' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'lost-metal', chapter: '2' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'lost-metal', chapter: '2' }] },
+    ],
+    abilities: [
+      { name: 'Sparker', revealedIn: [{ book: 'lost-metal', chapter: '48' }] },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  blantach: {
+    appearsIn: [
+      {
+        bookId: 'lost-metal',
+        revealedIn: [{ book: 'lost-metal', chapter: '22' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'lost-metal', chapter: '22' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'lost-metal', chapter: '22' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  ranette: {
+    appearsIn: [
+      {
+        bookId: 'alloy-of-law',
+        revealedIn: [{ book: 'alloy-of-law', chapter: '14' }],
+      },
+      {
+        bookId: 'shadows-of-self',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '7' }],
+      },
+      {
+        bookId: 'bands-of-mourning',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: '2' }],
+      },
+      {
+        bookId: 'lost-metal',
+        revealedIn: [{ book: 'lost-metal', chapter: '14' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'alloy-of-law', chapter: '14' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'alloy-of-law', chapter: '14' }] },
+    ],
+    abilities: [{ name: 'Lurcher', revealedIn: ['lost-metal'] }],
+    nationality: [],
+    profession: [
+      {
+        name: 'Gunsmith',
+        revealedIn: [{ book: 'alloy-of-law', chapter: '14' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Jaxy',
+        relation: 'spouse',
+        characterId: 'jaxy',
+        revealedIn: [{ book: 'lost-metal', chapter: 'epilogue-5' }],
+      },
+    ],
+  },
+  tillaume: {
+    appearsIn: [
+      {
+        bookId: 'alloy-of-law',
+        revealedIn: [{ book: 'alloy-of-law', chapter: '1' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'alloy-of-law', chapter: '1' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'alloy-of-law', chapter: '1' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      { name: 'Butler', revealedIn: [{ book: 'alloy-of-law', chapter: '2' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  dechamp: {
+    appearsIn: [
+      {
+        bookId: 'bands-of-mourning',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: '12' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'bands-of-mourning', chapter: '12' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: '12' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Gravekeeper',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: '14' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'kelesina-shores': {
+    appearsIn: [
+      {
+        bookId: 'bands-of-mourning',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: '11' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'bands-of-mourning', chapter: '11' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: '11' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'maraga-dulcet': {
+    appearsIn: [
+      {
+        bookId: 'lost-metal',
+        revealedIn: [{ book: 'lost-metal', chapter: '32' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'lost-metal', chapter: '32' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'lost-metal', chapter: '32' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Editor-in-chief',
+        revealedIn: [{ book: 'lost-metal', chapter: '33' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  push: {
+    appearsIn: [
+      {
+        bookId: 'alloy-of-law',
+        revealedIn: [{ book: 'alloy-of-law', chapter: '15' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'alloy-of-law', chapter: '15' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'alloy-of-law', chapter: '15' }] },
+    ],
+    abilities: [
+      {
+        name: 'Coinshot',
+        revealedIn: [{ book: 'alloy-of-law', chapter: '17' }],
+      },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [
+      { name: 'Set', revealedIn: [{ book: 'alloy-of-law', chapter: '17' }] },
+      {
+        name: 'Vanishers',
+        revealedIn: [{ book: 'alloy-of-law', chapter: '18' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  'tindwyl-ladrian': {
+    appearsIn: [
+      {
+        bookId: 'lost-metal',
+        revealedIn: [{ book: 'lost-metal', chapter: '2' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'lost-metal', chapter: '2' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'lost-metal', chapter: '2' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Steris',
+        relation: 'parent',
+        characterId: 'steris-harms',
+        revealedIn: [{ book: 'lost-metal', chapter: '2' }],
+      },
+      {
+        name: 'Waxillium',
+        relation: 'parent',
+        characterId: 'waxillium-ladrian',
+        revealedIn: [{ book: 'lost-metal', chapter: '2' }],
+      },
+      {
+        name: 'Maxillium',
+        relation: 'sibling',
+        characterId: 'maxillium-ladrian',
+        revealedIn: [{ book: 'lost-metal', chapter: '2' }],
+      },
+      {
+        name: 'Marasi',
+        relation: 'relative',
+        characterId: 'marasi-colms',
+        revealedIn: [
+          {
+            all: [
+              { book: 'alloy-of-law', chapter: '9' },
+              { book: 'lost-metal', chapter: '2' },
+            ],
+          },
+        ],
+      },
+      {
+        name: 'Edwarn',
+        relation: 'relative',
+        characterId: 'edwarn-ladrian',
+        revealedIn: [
+          {
+            all: [
+              { book: 'alloy-of-law', chapter: 'epilogue' },
+              { book: 'lost-metal', chapter: '2' },
+            ],
+          },
+        ],
+      },
+      {
+        name: 'Telsin',
+        relation: 'relative',
+        characterId: 'telsin-ladrian',
+        revealedIn: [
+          {
+            all: [
+              { book: 'alloy-of-law', chapter: '3' },
+              { book: 'lost-metal', chapter: '2' },
+            ],
+          },
+        ],
+      },
+      {
+        name: 'Hinston',
+        relation: 'relative',
+        characterId: 'hinston-ladrian',
+        revealedIn: ['lost-metal'],
+      },
+      {
+        name: 'Armal',
+        relation: 'relative',
+        characterId: 'armal',
+        revealedIn: [{ book: 'lost-metal', chapter: '56' }],
+      },
+      {
+        name: 'Ashweather',
+        relation: 'ancestor',
+        characterId: 'ashweather-cett',
+        revealedIn: ['lost-metal'],
+      },
+      {
+        name: 'Edgard',
+        relation: 'ancestor',
+        characterId: 'edgard-ladrian',
+        revealedIn: [
+          {
+            all: [
+              { book: 'shadows-of-self', chapter: '5' },
+              { book: 'lost-metal', chapter: '2' },
+            ],
+          },
+        ],
+      },
+      {
+        name: 'Allrianne',
+        relation: 'ancestor',
+        characterId: 'allrianne-cett',
+        revealedIn: [
+          {
+            all: [
+              { book: 'shadows-of-self', chapter: '5' },
+              { book: 'lost-metal', chapter: '2' },
+            ],
+          },
+        ],
+      },
+      {
+        name: 'Jackstom',
+        relation: 'ancestor',
+        characterId: 'jackstom-harms',
+        revealedIn: [
+          {
+            all: [
+              { book: 'alloy-of-law', chapter: '2' },
+              { book: 'lost-metal', chapter: '2' },
+            ],
+          },
+        ],
+      },
+      {
+        name: 'Vwafendal',
+        relation: 'ancestor',
+        characterId: 'vwafendal',
+        revealedIn: ['lost-metal'],
+      },
+      {
+        name: 'Spook',
+        relation: 'ancestor',
+        characterId: 'spook',
+        revealedIn: [
+          {
+            all: [
+              { book: 'alloy-of-law', chapter: '7' },
+              { book: 'lost-metal', chapter: '2' },
+            ],
+          },
+        ],
+      },
+    ],
+  },
+  brettin: {
+    appearsIn: [
+      {
+        bookId: 'alloy-of-law',
+        revealedIn: [{ book: 'alloy-of-law', chapter: '6' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'alloy-of-law', chapter: '6' }],
+    },
+    aliases: [
+      {
+        name: 'Constable-general',
+        revealedIn: [{ book: 'alloy-of-law', chapter: '6' }],
+      },
+    ],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'alloy-of-law', chapter: '6' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Law enforcement',
+        revealedIn: [{ book: 'alloy-of-law', chapter: '6' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  call: {
+    appearsIn: [
+      {
+        bookId: 'lost-metal',
+        revealedIn: [{ book: 'lost-metal', chapter: '14' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'lost-metal', chapter: '14' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'lost-metal', chapter: '14' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Accountant',
+        revealedIn: [{ book: 'lost-metal', chapter: '14' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  clamps: {
+    appearsIn: [
+      {
+        bookId: 'alloy-of-law',
+        revealedIn: [{ book: 'alloy-of-law', chapter: '8' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'alloy-of-law', chapter: '8' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'alloy-of-law', chapter: '8' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [
+      {
+        name: 'Vanishers',
+        revealedIn: [{ book: 'alloy-of-law', chapter: '8' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  'darlin-cett': {
+    appearsIn: [
+      {
+        bookId: 'lost-metal',
+        revealedIn: [{ book: 'lost-metal', chapter: '31' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'lost-metal', chapter: '31' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'lost-metal', chapter: '31' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  darriance: {
+    appearsIn: [
+      {
+        bookId: 'shadows-of-self',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '2' }],
+      },
+      {
+        bookId: 'bands-of-mourning',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: '4' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'shadows-of-self', chapter: '2' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '2' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Butler',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '2' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  drewton: {
+    appearsIn: [
+      {
+        bookId: 'bands-of-mourning',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: '1' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'bands-of-mourning', chapter: '1' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: '1' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Valet',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: '7' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  drim: {
+    appearsIn: [
+      {
+        bookId: 'shadows-of-self',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '9' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'shadows-of-self', chapter: '9' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '9' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Bodyguard',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '10' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'garisel-daring': {
+    appearsIn: [
+      {
+        bookId: 'lost-metal',
+        revealedIn: [{ book: 'lost-metal', chapter: '16' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'lost-metal', chapter: '16' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'lost-metal', chapter: '16' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Accountant',
+        revealedIn: [{ book: 'lost-metal', chapter: '16' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  irich: {
+    appearsIn: [
+      {
+        bookId: 'bands-of-mourning',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: '18' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'bands-of-mourning', chapter: '18' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: '18' }],
+      },
+    ],
+    abilities: [
+      {
+        name: 'Leecher',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: '18' }],
+      },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [
+      {
+        name: 'Set',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: '18' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  jordis: {
+    appearsIn: [
+      {
+        bookId: 'bands-of-mourning',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: '29' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'bands-of-mourning', chapter: '29' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: '29' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Malwish',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: '30' }],
+      },
+    ],
+    profession: [
+      {
+        name: 'Airship Captain',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: '29' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  kath: {
+    appearsIn: [
+      {
+        bookId: 'lost-metal',
+        revealedIn: [{ book: 'lost-metal', chapter: '2' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'lost-metal', chapter: '2' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'lost-metal', chapter: '2' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      { name: 'Governess', revealedIn: [{ book: 'lost-metal', chapter: '2' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'kelesina-shoress-steward': {
+    appearsIn: [
+      {
+        bookId: 'bands-of-mourning',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: '14' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'bands-of-mourning', chapter: '14' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: '14' }],
+      },
+    ],
+    abilities: [
+      {
+        name: 'Brute',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: '16' }],
+      },
+    ],
+    nationality: [
+      {
+        name: 'Terris',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: '14' }],
+      },
+    ],
+    profession: [
+      {
+        name: 'Steward',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: '14' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'lady-gardre': {
+    appearsIn: [
+      {
+        bookId: 'lost-metal',
+        revealedIn: [{ book: 'lost-metal', chapter: '31' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'lost-metal', chapter: '31' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'lost-metal', chapter: '31' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'mari-hammondess': {
+    appearsIn: [
+      {
+        bookId: 'lost-metal',
+        revealedIn: [{ book: 'lost-metal', chapter: '31' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'lost-metal', chapter: '31' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'lost-metal', chapter: '31' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  marksman: {
+    appearsIn: [
+      {
+        bookId: 'shadows-of-self',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '2' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'shadows-of-self', chapter: '2' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '2' }],
+      },
+    ],
+    abilities: [
+      {
+        name: 'Coinshot',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '2' }],
+      },
+    ],
+    nationality: [],
+    profession: [
+      {
+        name: 'Bank Robber',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '2' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'michelle-yomen': {
+    appearsIn: [
+      {
+        bookId: 'alloy-of-law',
+        revealedIn: [{ book: 'alloy-of-law', chapter: '4' }],
+      },
+      {
+        bookId: 'lost-metal',
+        revealedIn: [{ book: 'lost-metal', chapter: '2' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'alloy-of-law', chapter: '4' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'alloy-of-law', chapter: '4' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Joshin Yomen',
+        relation: 'spouse',
+        characterId: 'joshin-yomen',
+        revealedIn: [{ book: 'alloy-of-law', chapter: '5' }],
+      },
+    ],
+  },
+  pull: {
+    appearsIn: [
+      {
+        bookId: 'alloy-of-law',
+        revealedIn: [{ book: 'alloy-of-law', chapter: '15' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'alloy-of-law', chapter: '15' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'alloy-of-law', chapter: '15' }] },
+    ],
+    abilities: [
+      {
+        name: 'Lurcher',
+        revealedIn: [{ book: 'alloy-of-law', chapter: '18' }],
+      },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [
+      { name: 'Set', revealedIn: [{ book: 'alloy-of-law', chapter: '17' }] },
+      {
+        name: 'Vanishers',
+        revealedIn: [{ book: 'alloy-of-law', chapter: 'epilogue' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  'sophi-tarcsel': {
+    appearsIn: [
+      {
+        bookId: 'shadows-of-self',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '6' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'shadows-of-self', chapter: '6' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '6' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Inventor',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '10' }],
+      },
+      { name: 'Entrepreneur', revealedIn: ['shadows-of-self'] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Remmingtel Tarcsel',
+        relation: 'parent',
+        characterId: 'remmingtel-tarcsel',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '10' }],
+      },
+    ],
+  },
+  abrem: {
+    appearsIn: [
+      {
+        bookId: 'lost-metal',
+        revealedIn: [{ book: 'lost-metal', chapter: '56' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'lost-metal', chapter: '56' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'lost-metal', chapter: '56' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  armal: {
+    appearsIn: [
+      {
+        bookId: 'alloy-of-law',
+        revealedIn: [{ book: 'alloy-of-law', chapter: '2' }],
+      },
+      {
+        bookId: 'lost-metal',
+        revealedIn: [{ book: 'lost-metal', chapter: '56' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'alloy-of-law', chapter: '2' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'alloy-of-law', chapter: '2' }] },
+    ],
+    abilities: [
+      { name: 'Rioter', revealedIn: [{ book: 'lost-metal', chapter: '57' }] },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Steris Harms',
+        relation: 'relative',
+        characterId: 'steris-harms',
+        revealedIn: [{ book: 'lost-metal', chapter: '56' }],
+      },
+      {
+        name: 'Marasi Colms',
+        relation: 'relative',
+        characterId: 'marasi-colms',
+        revealedIn: [{ book: 'lost-metal', chapter: '56' }],
+      },
+      {
+        name: 'Jackstom Harms',
+        relation: 'relative',
+        characterId: 'jackstom-harms',
+        revealedIn: [{ book: 'lost-metal', chapter: '56' }],
+      },
+      {
+        name: 'Maxillium Ladrian',
+        relation: 'relative',
+        characterId: 'maxillium-ladrian',
+        revealedIn: ['lost-metal'],
+      },
+      {
+        name: 'Tindwyl Ladrian',
+        relation: 'relative',
+        characterId: 'tindwyl-ladrian',
+        revealedIn: ['lost-metal'],
+      },
+      {
+        name: 'Spook',
+        relation: 'ancestor',
+        characterId: 'spook',
+        revealedIn: [{ book: 'alloy-of-law', chapter: '7' }],
+      },
+    ],
+  },
+  'aunt-gin': {
+    appearsIn: [
+      {
+        bookId: 'bands-of-mourning',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: '10' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'bands-of-mourning', chapter: '10' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: '10' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Hotel owner',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: '10' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  caberel: {
+    appearsIn: [
+      {
+        bookId: 'shadows-of-self',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '5' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'shadows-of-self', chapter: '5' }],
+    },
+    aliases: [
+      {
+        name: 'Lieutenant',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '5' }],
+      },
+    ],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '5' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Law enforcement',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '5' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  drenya: {
+    appearsIn: [
+      {
+        bookId: 'lost-metal',
+        revealedIn: [{ book: 'lost-metal', chapter: '56' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'lost-metal', chapter: '56' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'lost-metal', chapter: '56' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  fialia: {
+    appearsIn: [
+      {
+        bookId: 'lost-metal',
+        revealedIn: [{ book: 'lost-metal', chapter: '56' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'lost-metal', chapter: '56' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'lost-metal', chapter: '56' }] },
+    ],
+    abilities: [
+      { name: 'Lurcher', revealedIn: [{ book: 'lost-metal', chapter: '56' }] },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  idashwy: {
+    appearsIn: [
+      {
+        bookId: 'shadows-of-self',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '5' }],
+      },
+      {
+        bookId: 'bands-of-mourning',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: 'prologue' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'shadows-of-self', chapter: '5' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '5' }],
+      },
+    ],
+    abilities: [
+      {
+        name: 'Steelrunner',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '5' }],
+      },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  jaxy: {
+    appearsIn: [
+      {
+        bookId: 'lost-metal',
+        revealedIn: [{ book: 'lost-metal', chapter: '14' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'lost-metal', chapter: '14' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'lost-metal', chapter: '14' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Ranette',
+        relation: 'spouse',
+        characterId: 'ranette',
+        revealedIn: [{ book: 'lost-metal', chapter: 'epilogue-5' }],
+      },
+    ],
+  },
+  kessi: {
+    appearsIn: [
+      {
+        bookId: 'lost-metal',
+        revealedIn: [{ book: 'lost-metal', chapter: '56' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'lost-metal', chapter: '56' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'lost-metal', chapter: '56' }] },
+    ],
+    abilities: [
+      { name: 'Soother', revealedIn: [{ book: 'lost-metal', chapter: '56' }] },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  limmi: {
+    appearsIn: [
+      {
+        bookId: 'alloy-of-law',
+        revealedIn: [{ book: 'alloy-of-law', chapter: '2' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'alloy-of-law', chapter: '2' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'alloy-of-law', chapter: '2' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Head of staff',
+        revealedIn: [{ book: 'alloy-of-law', chapter: '2' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  rian: {
+    appearsIn: [
+      {
+        bookId: 'shadows-of-self',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '7' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'shadows-of-self', chapter: '7' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '7' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Guardsman',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '7' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  vwafendal: {
+    appearsIn: [
+      {
+        bookId: 'shadows-of-self',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '5' }],
+      },
+      {
+        bookId: 'bands-of-mourning',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: 'prologue' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'shadows-of-self', chapter: '5' }],
+    },
+    aliases: [
+      {
+        name: 'Elder',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: 'prologue' }],
+      },
+    ],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '5' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [
+      {
+        name: 'Synod',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: 'prologue' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  'winsting-innate': {
+    appearsIn: [
+      {
+        bookId: 'shadows-of-self',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '1' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'shadows-of-self', chapter: '1' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '1' }],
+      },
+    ],
+    abilities: [
+      {
+        name: 'Rioter',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '1' }],
+      },
+    ],
+    nationality: [],
+    profession: [
+      {
+        name: 'Politician',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '1' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Replar Innate',
+        relation: 'sibling',
+        characterId: 'replar-innate',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '6' }],
+      },
+    ],
+  },
+  'aving-cett': {
+    appearsIn: [
+      {
+        bookId: 'alloy-of-law',
+        revealedIn: [{ book: 'alloy-of-law', chapter: '1' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'alloy-of-law', chapter: '1' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'alloy-of-law', chapter: '1' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  blome: {
+    appearsIn: [
+      {
+        bookId: 'shadows-of-self',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '1' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'shadows-of-self', chapter: '1' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '1' }],
+      },
+    ],
+    abilities: [
+      {
+        name: 'Seeker',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '1' }],
+      },
+    ],
+    nationality: [],
+    profession: [
+      {
+        name: 'Bartender',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '1' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'bloody-tan': {
+    appearsIn: [
+      {
+        bookId: 'alloy-of-law',
+        revealedIn: [{ book: 'alloy-of-law', chapter: 'prologue' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'alloy-of-law', chapter: 'prologue' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'alloy-of-law', chapter: 'prologue' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Mortician',
+        revealedIn: [{ book: 'alloy-of-law', chapter: 'prologue' }],
+      },
+      {
+        name: 'Criminal',
+        revealedIn: [{ book: 'alloy-of-law', chapter: 'prologue' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  blue: {
+    appearsIn: [
+      {
+        bookId: 'shadows-of-self',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '13' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'shadows-of-self', chapter: '13' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '13' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Guard',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '13' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  bookers: {
+    appearsIn: [
+      {
+        bookId: 'shadows-of-self',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '9' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'shadows-of-self', chapter: '9' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '9' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  cett: {
+    appearsIn: [
+      {
+        bookId: 'shadows-of-self',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '14' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'shadows-of-self', chapter: '14' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '14' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Businessman',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '14' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  chapaou: {
+    appearsIn: [
+      {
+        bookId: 'shadows-of-self',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '15' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'shadows-of-self', chapter: '15' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '15' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Cab driver',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '15' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'chip-constable': {
+    appearsIn: [
+      {
+        bookId: 'shadows-of-self',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '19' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'shadows-of-self', chapter: '19' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '19' }],
+      },
+    ],
+    abilities: [
+      {
+        name: 'Coinshot',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '19' }],
+      },
+    ],
+    nationality: [],
+    profession: [
+      {
+        name: 'Law enforcement',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '19' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'chip-erikell': {
+    appearsIn: [
+      {
+        bookId: 'shadows-of-self',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '4' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'shadows-of-self', chapter: '4' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '4' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Lord Erikell',
+        relation: 'relative',
+        characterId: 'lord-erikell',
+        revealedIn: ['shadows-of-self'],
+      },
+    ],
+  },
+  clotide: {
+    appearsIn: [
+      {
+        bookId: 'shadows-of-self',
+        revealedIn: [{ book: 'shadows-of-self', chapter: 'epilogue' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'shadows-of-self', chapter: 'epilogue' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'shadows-of-self', chapter: 'epilogue' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Servant',
+        revealedIn: [{ book: 'shadows-of-self', chapter: 'epilogue' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  coussaint: {
+    appearsIn: [
+      {
+        bookId: 'lost-metal',
+        revealedIn: [{ book: 'lost-metal', chapter: 'epilogue-3' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'lost-metal', chapter: 'epilogue-3' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'lost-metal', chapter: 'epilogue-3' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Landlady',
+        revealedIn: [{ book: 'lost-metal', chapter: 'epilogue-3' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  dao: {
+    appearsIn: [
+      {
+        bookId: 'lost-metal',
+        revealedIn: [{ book: 'lost-metal', chapter: '40' }],
+      },
+    ],
+    world: {
+      planetId: 'sel',
+      revealedIn: [{ all: ['elantris', 'lost-metal'] }],
+    },
+    aliases: [
+      { name: 'Dae-oh', revealedIn: [{ book: 'lost-metal', chapter: '40' }] },
+    ],
+    species: [
+      { name: 'Seon', revealedIn: [{ book: 'lost-metal', chapter: '40' }] },
+    ],
+    abilities: [
+      {
+        name: 'Worldhopper',
+        revealedIn: [{ all: ['elantris', 'lost-metal'] }],
+      },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [
+      {
+        name: 'Ghostbloods',
+        revealedIn: [{ book: 'lost-metal', chapter: '40' }],
+      },
+    ],
+    bonds: [
+      { name: 'Kaise', revealedIn: [{ all: ['elantris', 'lost-metal'] }] },
+    ],
+    relatives: [],
+  },
+  darkwater: {
+    appearsIn: [
+      {
+        bookId: 'lost-metal',
+        revealedIn: [{ book: 'lost-metal', chapter: '36' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'lost-metal', chapter: '36' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'lost-metal', chapter: '36' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [
+      {
+        name: 'Ghostbloods',
+        revealedIn: [{ book: 'lost-metal', chapter: '36' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  dent: {
+    appearsIn: [
+      {
+        bookId: 'bands-of-mourning',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: '4' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'bands-of-mourning', chapter: '4' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: '4' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Food vendor',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: '4' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  destra: {
+    appearsIn: [
+      {
+        bookId: 'bands-of-mourning',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: '15' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'bands-of-mourning', chapter: '15' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: '15' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'ali-daughter-hasweth': {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '47' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: '47' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '47' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Shin',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '47' }],
+      },
+    ],
+    profession: [
+      {
+        name: 'Scholar',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '47' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  ambrian: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '40' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '40' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '40' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Scholar',
+        revealedIn: [{ book: 'way-of-kings', chapter: '40' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  beggar: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: 'i-5' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: 'i-5' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: 'i-5' }] },
+    ],
+    abilities: [],
+    nationality: [{ name: 'Iriali', revealedIn: ['way-of-kings'] }],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'brightlord-seveks': {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '24' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '24' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '24' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Malasha',
+        relation: 'child',
+        characterId: 'malasha-seveks',
+        revealedIn: [{ book: 'way-of-kings', chapter: '24' }],
+      },
+    ],
+  },
+  cabine: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '37' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '37' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '37' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  chemoarish: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '108' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '108' }],
+    },
+    aliases: [
+      {
+        name: 'Dustmother',
+        revealedIn: [{ book: 'oathbringer', chapter: '108' }],
+      },
+    ],
+    species: [
+      { name: 'Spren', revealedIn: [{ book: 'oathbringer', chapter: '108' }] },
+    ],
+    abilities: [
+      {
+        name: 'Splinter of Odium',
+        revealedIn: [{ book: 'oathbringer', chapter: '108' }],
+      },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [
+      { name: 'Unmade', revealedIn: [{ book: 'oathbringer', chapter: '108' }] },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  'cleft-chin': {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '82' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: '82' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '82' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  corvana: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '60' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '60' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '60' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      { name: 'Writer', revealedIn: [{ book: 'way-of-kings', chapter: '60' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  dialectur: {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '67' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: '67' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '67' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Scholar',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '67' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  ekel: {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '48' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: '48' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '48' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Veden',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '48' }],
+      },
+    ],
+    profession: [
+      {
+        name: 'Guard',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '48' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  eshu: {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '71' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: '71' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '71' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  gevelmar: {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '39' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: '39' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '39' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Veden',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '39' }],
+      },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Malise Gevelmar',
+        relation: 'child',
+        characterId: 'malise-gevelmar',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '39' }],
+      },
+    ],
+  },
+  gom: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: 'i-8' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: 'i-8' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: 'i-8' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  isan: {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '39' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: '39' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '39' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  ixil: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '42' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '42' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '42' }] },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Kharbranthian',
+        revealedIn: [{ book: 'way-of-kings', chapter: '42' }],
+      },
+    ],
+    profession: [
+      { name: 'Ardent', revealedIn: [{ book: 'way-of-kings', chapter: '42' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  ixsix: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '30' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '30' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '30' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      { name: 'Author', revealedIn: [{ book: 'way-of-kings', chapter: '30' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  jarel: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '25' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '25' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '25' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  kalikalin: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '55' }],
+      },
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '37' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '55' }],
+    },
+    aliases: [],
+    species: [],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Unkalaki',
+        revealedIn: [{ book: 'way-of-kings', chapter: '55' }],
+      },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'king-of-herdaz': {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '23' }],
+      },
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '41' }],
+      },
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '49' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '23' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '23' }] },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Herdazian',
+        revealedIn: [{ book: 'way-of-kings', chapter: '23' }],
+      },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'lady-alami': {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '22' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '22' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '22' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Alethi', revealedIn: [{ book: 'way-of-kings', chapter: '22' }] },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  lustow: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '12' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '12' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '12' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Alethi', revealedIn: [{ book: 'way-of-kings', chapter: '12' }] },
+    ],
+    profession: [
+      {
+        name: 'Cavalry officer',
+        revealedIn: [{ book: 'way-of-kings', chapter: '18' }],
+      },
+    ],
+    groups: [
+      {
+        name: 'Kholin army',
+        revealedIn: [{ book: 'way-of-kings', chapter: '18' }],
+      },
+    ],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Janala',
+        relation: 'child',
+        characterId: 'janala-lustow',
+        revealedIn: [{ book: 'way-of-kings', chapter: '12' }],
+      },
+    ],
+  },
+  malchin: {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '57' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: '57' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '57' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  mill: {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '48' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: '48' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '48' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Veden',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '48' }],
+      },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  minara: {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '48' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: '48' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '48' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  ministara: {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '48' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: '48' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '48' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Scholar',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '48' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  mungam: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '48' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '48' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '48' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      { name: 'Ardent', revealedIn: [{ book: 'way-of-kings', chapter: '48' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  neteb: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '22' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '22' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '22' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'new-kid': {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '6' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: '6' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '6' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Sailor',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '6' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  niali: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '5' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '5' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '5' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Philosopher',
+        revealedIn: [{ book: 'way-of-kings', chapter: '5' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  reya: {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '31' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: '31' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '31' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  sakisa: {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '48' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: '48' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Axehound',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '48' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  sinbian: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '34' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '34' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '34' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      { name: 'Author', revealedIn: [{ book: 'way-of-kings', chapter: '34' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'tarn-roshar': {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '16' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '16' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '16' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Alethi', revealedIn: [{ book: 'way-of-kings', chapter: '16' }] },
+    ],
+    profession: [
+      { name: 'Farmer', revealedIn: [{ book: 'way-of-kings', chapter: '16' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'teshavs-ward': {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '81' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: '81' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '81' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'ton-veden': {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: 'i-3' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: 'i-3' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: 'i-3' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      { name: 'Miner', revealedIn: [{ book: 'way-of-kings', chapter: 'i-3' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  varala: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '32' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '32' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '32' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Scholar',
+        revealedIn: [{ book: 'way-of-kings', chapter: '32' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  ana: {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '44' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: '44' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '44' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Silversmith',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '44' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Da',
+        relation: 'spouse',
+        characterId: 'da',
+        revealedIn: [{ book: 'oathbringer', chapter: '54' }],
+      },
+    ],
+  },
+  blackthorn: {
+    appearsIn: [
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '145' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'wind-and-truth', chapter: '145' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Spren',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '145' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  dem: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [
+          {
+            all: [
+              { book: 'way-of-kings', chapter: '67' },
+              { book: 'rhythm-of-war', chapter: '108' },
+            ],
+          },
+        ],
+      },
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '108' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [
+        {
+          all: [
+            { book: 'way-of-kings', chapter: '67' },
+            { book: 'rhythm-of-war', chapter: '108' },
+          ],
+        },
+      ],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [
+          {
+            all: [
+              { book: 'way-of-kings', chapter: '67' },
+              { book: 'rhythm-of-war', chapter: '108' },
+            ],
+          },
+        ],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: "Messenger boy in Amaram's army",
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '108' }],
+      },
+    ],
+    groups: [
+      {
+        name: "Amaram's army",
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '108' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  'ganlos-riera': {
+    appearsIn: [
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '2' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: '2' }],
+    },
+    aliases: [],
+    species: [],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  gen: {
+    appearsIn: [
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '7' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: '7' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'rhythm-of-war', chapter: '7' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Soldier',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '7' }],
+      },
+    ],
+    groups: [
+      {
+        name: 'Kholin army',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '7' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  'hwynn-tyvneri': {
+    appearsIn: [{ bookId: 'elsecaller', revealedIn: ['elsecaller'] }],
+    aliases: [],
+    species: [{ name: 'Human', revealedIn: ['elsecaller'] }],
+    abilities: [{ name: 'Worldhopper', revealedIn: ['elsecaller'] }],
+    nationality: [],
+    profession: [{ name: 'Historian', revealedIn: ['elsecaller'] }],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  ked: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '45' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '45' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '45' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  kmakra: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '59' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '59' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '59' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Wzmal',
+        relation: 'parent',
+        characterId: 'wzmal',
+        revealedIn: [{ book: 'oathbringer', chapter: '59' }],
+      },
+      {
+        name: 'Molinar',
+        relation: 'sibling',
+        characterId: 'molinar',
+        revealedIn: [{ book: 'oathbringer', chapter: '59' }],
+      },
+    ],
+  },
+  lorieta: {
+    appearsIn: [{ bookId: 'elsecaller', revealedIn: ['elsecaller'] }],
+    aliases: [],
+    species: [],
+    abilities: [
+      { name: 'Glimpses of the future in dreams', revealedIn: ['elsecaller'] },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  marni: {
+    appearsIn: [
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '12' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: '12' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'rhythm-of-war', chapter: '12' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Winehouse worker',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '12' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  molinar: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '59' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '59' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '59' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Wzmal',
+        relation: 'parent',
+        characterId: 'wzmal',
+        revealedIn: [{ book: 'oathbringer', chapter: '59' }],
+      },
+      {
+        name: 'Kmakra',
+        relation: 'sibling',
+        characterId: 'kmakra',
+        revealedIn: [{ book: 'oathbringer', chapter: '59' }],
+      },
+    ],
+  },
+  'mraizes-aviar': {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '22' }],
+      },
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '13' }],
+      },
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: 'i-13' }],
+      },
+    ],
+    aliases: [],
+    species: [{ name: 'Aviar', revealedIn: ['wind-and-truth'] }],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [
+      {
+        name: 'Ghostbloods',
+        revealedIn: [{ book: 'oathbringer', chapter: '22' }],
+      },
+    ],
+    bonds: [
+      { name: 'Mraize', revealedIn: [{ book: 'oathbringer', chapter: '22' }] },
+    ],
+    relatives: [],
+  },
+  natem: {
+    appearsIn: [
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '7' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: '7' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'rhythm-of-war', chapter: '7' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Soldier',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '7' }],
+      },
+    ],
+    groups: [
+      {
+        name: 'Kholin army',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '7' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  'tukari-leader': {
+    appearsIn: [
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '30' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: '30' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'rhythm-of-war', chapter: '30' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  uscri: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: 'i-5' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: 'i-5' }],
+    },
+    aliases: [
+      {
+        name: 'Uscritic',
+        revealedIn: [{ book: 'oathbringer', chapter: 'i-5' }],
+      },
+    ],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: 'i-5' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'vivennas-blade': {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '70' }],
+      },
+    ],
+    aliases: [],
+    species: [],
+    abilities: [
+      {
+        name: 'Cuts through any substance',
+        revealedIn: [{ book: 'oathbringer', chapter: '83' }],
+      },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+    personas: [
+      {
+        id: 'azures-blade',
+        name: "Azure's Blade",
+        coppermindPage: "Vivenna's Blade",
+        books: ['oathbringer'],
+        identityRevealedIn: [
+          { all: ['warbreaker', { book: 'oathbringer', chapter: '70' }] },
+        ],
+      },
+    ],
+  },
+  vod: {
+    appearsIn: [
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '11' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: '11' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Singer',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '11' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  wzmal: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '59' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '59' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '59' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Kmakra',
+        relation: 'child',
+        characterId: 'kmakra',
+        revealedIn: [{ book: 'oathbringer', chapter: '59' }],
+      },
+      {
+        name: 'Molinar',
+        relation: 'child',
+        characterId: 'molinar',
+        revealedIn: [{ book: 'oathbringer', chapter: '59' }],
+      },
+    ],
+  },
+  'devlin-airs': {
+    appearsIn: [
+      {
+        bookId: 'bands-of-mourning',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: '12' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'bands-of-mourning', chapter: '12' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: '12' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Informant',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: '12' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  dims: {
+    appearsIn: [
+      {
+        bookId: 'shadows-of-self',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '5' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'shadows-of-self', chapter: '5' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '5' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Gang leader',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '5' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  donton: {
+    appearsIn: [
+      {
+        bookId: 'shadows-of-self',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '18' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'shadows-of-self', chapter: '18' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '18' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Minister',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '18' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'dorise-chevalle': {
+    appearsIn: [
+      {
+        bookId: 'shadows-of-self',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '2' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'shadows-of-self', chapter: '2' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '2' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'dowser-maline': {
+    appearsIn: [
+      {
+        bookId: 'shadows-of-self',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '1' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'shadows-of-self', chapter: '1' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '1' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Smuggler',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '1' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  drapen: {
+    appearsIn: [
+      {
+        bookId: 'bands-of-mourning',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: '2' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'bands-of-mourning', chapter: '2' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: '2' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Law enforcement',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: '2' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  drawers: {
+    appearsIn: [
+      {
+        bookId: 'bands-of-mourning',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: 'prologue' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'bands-of-mourning', chapter: 'prologue' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: 'prologue' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Criminal',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: 'prologue' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'dupon-melstrom': {
+    appearsIn: [
+      {
+        bookId: 'lost-metal',
+        revealedIn: [{ book: 'lost-metal', chapter: '2' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'lost-metal', chapter: '2' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'lost-metal', chapter: '2' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      { name: 'Senator', revealedIn: [{ book: 'lost-metal', chapter: '33' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  embrier: {
+    appearsIn: [
+      {
+        bookId: 'lost-metal',
+        revealedIn: [{ book: 'lost-metal', chapter: '21' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'lost-metal', chapter: '21' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'lost-metal', chapter: '21' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [
+      { name: 'Set', revealedIn: [{ book: 'lost-metal', chapter: '26' }] },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  eriola: {
+    appearsIn: [
+      {
+        bookId: 'bands-of-mourning',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: '11' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'bands-of-mourning', chapter: '11' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: '11' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Banker',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: '11' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'father-bin': {
+    appearsIn: [
+      {
+        bookId: 'shadows-of-self',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '2' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'shadows-of-self', chapter: '2' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '2' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Priest',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '12' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'felise-demoux': {
+    appearsIn: [
+      {
+        bookId: 'bands-of-mourning',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: '12' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'bands-of-mourning', chapter: '12' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: '12' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  fion: {
+    appearsIn: [
+      {
+        bookId: 'lost-metal',
+        revealedIn: [{ book: 'lost-metal', chapter: '47' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'lost-metal', chapter: '47' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'lost-metal', chapter: '47' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [
+      { name: 'Set', revealedIn: [{ book: 'lost-metal', chapter: '47' }] },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  flog: {
+    appearsIn: [
+      {
+        bookId: 'shadows-of-self',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '1' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'shadows-of-self', chapter: '1' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '1' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Bodyguard',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '1' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  forch: {
+    appearsIn: [
+      {
+        bookId: 'bands-of-mourning',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: 'prologue' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'bands-of-mourning', chapter: 'prologue' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: 'prologue' }],
+      },
+    ],
+    abilities: [
+      {
+        name: 'Coinshot & Brute twinborn',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: 'prologue' }],
+      },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  gabria: {
+    appearsIn: [
+      {
+        bookId: 'lost-metal',
+        revealedIn: [{ book: 'lost-metal', chapter: '69' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'lost-metal', chapter: '69' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'lost-metal', chapter: '69' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [
+      { name: 'Set', revealedIn: [{ book: 'lost-metal', chapter: '69' }] },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  gemdwyn: {
+    appearsIn: [
+      {
+        bookId: 'lost-metal',
+        revealedIn: [{ book: 'lost-metal', chapter: '10' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'lost-metal', chapter: '10' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'lost-metal', chapter: '10' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Constable',
+        revealedIn: [{ book: 'lost-metal', chapter: '10' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  gorglen: {
+    appearsIn: [
+      {
+        bookId: 'lost-metal',
+        revealedIn: [{ book: 'lost-metal', chapter: '1' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'lost-metal', chapter: '1' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'lost-metal', chapter: '1' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'granite-joe': {
+    appearsIn: [
+      {
+        bookId: 'shadows-of-self',
+        revealedIn: [{ book: 'shadows-of-self', chapter: 'prologue' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'shadows-of-self', chapter: 'prologue' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'shadows-of-self', chapter: 'prologue' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  guillian: {
+    appearsIn: [
+      {
+        bookId: 'bands-of-mourning',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: 'prologue' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'bands-of-mourning', chapter: 'prologue' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: 'prologue' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Criminal',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: 'prologue' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  halex: {
+    appearsIn: [
+      {
+        bookId: 'shadows-of-self',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '15' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'shadows-of-self', chapter: '15' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '15' }],
+      },
+    ],
+    abilities: [
+      {
+        name: 'Soother',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '15' }],
+      },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  herve: {
+    appearsIn: [
+      {
+        bookId: 'bands-of-mourning',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: '4' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'bands-of-mourning', chapter: '4' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: '4' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Footman',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: '5' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'hughes-entrone': {
+    appearsIn: [
+      {
+        bookId: 'shadows-of-self',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '1' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'shadows-of-self', chapter: '1' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '1' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'isabaline-frellia': {
+    appearsIn: [
+      {
+        bookId: 'shadows-of-self',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '4' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'shadows-of-self', chapter: '4' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '4' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'jan-ven': {
+    appearsIn: [
+      {
+        bookId: 'lost-metal',
+        revealedIn: [{ book: 'lost-metal', chapter: 'epilogue-6' }],
+      },
+    ],
+    aliases: [],
+    species: [
+      {
+        name: 'Sho Del',
+        revealedIn: [{ book: 'lost-metal', chapter: 'epilogue-6' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  javie: {
+    appearsIn: [
+      {
+        bookId: 'bands-of-mourning',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: '18' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'bands-of-mourning', chapter: '18' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: '18' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Professor',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: '18' }],
+      },
+    ],
+    groups: [
+      {
+        name: 'Set',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: '18' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  javies: {
+    appearsIn: [
+      {
+        bookId: 'shadows-of-self',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '6' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'shadows-of-self', chapter: '6' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '6' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Law enforcement',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '6' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  jendel: {
+    appearsIn: [
+      {
+        bookId: 'shadows-of-self',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '8' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'shadows-of-self', chapter: '8' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '8' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Laborer',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '8' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  jonnes: {
+    appearsIn: [
+      {
+        bookId: 'lost-metal',
+        revealedIn: [{ book: 'lost-metal', chapter: '2' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'lost-metal', chapter: '2' }],
+    },
+    aliases: [
+      { name: 'Admiral', revealedIn: [{ book: 'lost-metal', chapter: '2' }] },
+    ],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'lost-metal', chapter: '2' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Malwish', revealedIn: [{ book: 'lost-metal', chapter: '2' }] },
+    ],
+    profession: [
+      {
+        name: 'Ambassador',
+        revealedIn: [{ book: 'lost-metal', chapter: '2' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'joshin-yomen': {
+    appearsIn: [
+      {
+        bookId: 'alloy-of-law',
+        revealedIn: [{ book: 'alloy-of-law', chapter: '4' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'alloy-of-law', chapter: '4' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'alloy-of-law', chapter: '4' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: "Mi'chelle Ostlin",
+        relation: 'spouse',
+        characterId: 'michelle-yomen',
+        revealedIn: [{ book: 'alloy-of-law', chapter: '5' }],
+      },
+    ],
+  },
+  kellen: {
+    appearsIn: [
+      {
+        bookId: 'lost-metal',
+        revealedIn: [{ book: 'lost-metal', chapter: '23' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'lost-metal', chapter: '23' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'lost-metal', chapter: '23' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Lieutenant',
+        revealedIn: [{ book: 'lost-metal', chapter: '23' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  kip: {
+    appearsIn: [
+      {
+        bookId: 'alloy-of-law',
+        revealedIn: [{ book: 'alloy-of-law', chapter: '2' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'alloy-of-law', chapter: '2' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'alloy-of-law', chapter: '2' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      { name: 'Servant', revealedIn: [{ book: 'alloy-of-law', chapter: '2' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  krent: {
+    appearsIn: [
+      {
+        bookId: 'alloy-of-law',
+        revealedIn: [{ book: 'alloy-of-law', chapter: '9' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'alloy-of-law', chapter: '9' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'alloy-of-law', chapter: '9' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Coachman',
+        revealedIn: [{ book: 'alloy-of-law', chapter: '9' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  kwashim: {
+    appearsIn: [
+      {
+        bookId: 'bands-of-mourning',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: 'prologue' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'bands-of-mourning', chapter: 'prologue' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: 'prologue' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'kyndlip-ternavyl': {
+    appearsIn: [
+      {
+        bookId: 'lost-metal',
+        revealedIn: [{ book: 'lost-metal', chapter: '50' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'lost-metal', chapter: '50' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'lost-metal', chapter: '50' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      { name: 'Editor', revealedIn: [{ book: 'lost-metal', chapter: '50' }] },
+      { name: 'Proprietor of The Two Seasons', revealedIn: ['lost-metal'] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'lady-mulgrave': {
+    appearsIn: [
+      {
+        bookId: 'shadows-of-self',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '9' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'shadows-of-self', chapter: '9' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '9' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'lord-erikell': {
+    appearsIn: [
+      {
+        bookId: 'shadows-of-self',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '9' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'shadows-of-self', chapter: '9' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '9' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Chip Erikell',
+        relation: 'relative',
+        characterId: 'chip-erikell',
+        revealedIn: ['shadows-of-self'],
+      },
+    ],
+  },
+  'lord-stenet': {
+    appearsIn: [
+      {
+        bookId: 'shadows-of-self',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '9' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'shadows-of-self', chapter: '9' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '9' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'madam-penfor': {
+    appearsIn: [
+      {
+        bookId: 'shadows-of-self',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '5' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'shadows-of-self', chapter: '5' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '5' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Dormitory matron',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '5' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  maindew: {
+    appearsIn: [
+      {
+        bookId: 'shadows-of-self',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '5' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'shadows-of-self', chapter: '5' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '5' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Law enforcement',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '5' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  marthin: {
+    appearsIn: [
+      {
+        bookId: 'alloy-of-law',
+        revealedIn: [{ book: 'alloy-of-law', chapter: '5' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'alloy-of-law', chapter: '5' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'alloy-of-law', chapter: '5' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Peterus',
+        relation: 'spouse',
+        characterId: 'peterus',
+        revealedIn: [{ book: 'alloy-of-law', chapter: '5' }],
+      },
+    ],
+  },
+  mathingdaw: {
+    appearsIn: [
+      {
+        bookId: 'lost-metal',
+        revealedIn: [{ book: 'lost-metal', chapter: '24' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'lost-metal', chapter: '24' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'lost-metal', chapter: '24' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Constable',
+        revealedIn: [{ book: 'lost-metal', chapter: '24' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  matieu: {
+    appearsIn: [
+      {
+        bookId: 'bands-of-mourning',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: '9' }],
+      },
+      {
+        bookId: 'lost-metal',
+        revealedIn: [{ book: 'lost-metal', chapter: '10' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'bands-of-mourning', chapter: '9' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: '9' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Constable',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: '9' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  mereline: {
+    appearsIn: [
+      {
+        bookId: 'shadows-of-self',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '19' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'shadows-of-self', chapter: '19' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '19' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Law enforcement',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '19' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  migs: {
+    appearsIn: [
+      {
+        bookId: 'bands-of-mourning',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: 'prologue' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'bands-of-mourning', chapter: 'prologue' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: 'prologue' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Criminal',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: 'prologue' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  miklin: {
+    appearsIn: [
+      {
+        bookId: 'shadows-of-self',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '14' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'shadows-of-self', chapter: '14' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '14' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Law enforcement',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '16' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  nikolin: {
+    appearsIn: [
+      {
+        bookId: 'shadows-of-self',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '8' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'shadows-of-self', chapter: '8' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '8' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  nouxil: {
+    appearsIn: [
+      {
+        bookId: 'alloy-of-law',
+        revealedIn: [{ book: 'alloy-of-law', chapter: '14' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'alloy-of-law', chapter: '14' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'alloy-of-law', chapter: '14' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Gunsmith',
+        revealedIn: [{ book: 'alloy-of-law', chapter: '14' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  peterus: {
+    appearsIn: [
+      {
+        bookId: 'alloy-of-law',
+        revealedIn: [{ book: 'alloy-of-law', chapter: '5' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'alloy-of-law', chapter: '5' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'alloy-of-law', chapter: '5' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Chief Constable of the Eighth Octant',
+        revealedIn: [{ book: 'alloy-of-law', chapter: '5' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Marthin',
+        relation: 'spouse',
+        characterId: 'marthin',
+        revealedIn: [{ book: 'alloy-of-law', chapter: '5' }],
+      },
+    ],
+  },
+  petrine: {
+    appearsIn: [
+      {
+        bookId: 'bands-of-mourning',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: '29' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'bands-of-mourning', chapter: '29' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: '29' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Malwish',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: '29' }],
+      },
+    ],
+    profession: [
+      {
+        name: 'Airship enginemaster',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: '29' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'pielle-fromed': {
+    appearsIn: [
+      {
+        bookId: 'lost-metal',
+        revealedIn: [{ book: 'lost-metal', chapter: '50' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'lost-metal', chapter: '50' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'lost-metal', chapter: '50' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Politician',
+        revealedIn: [{ book: 'lost-metal', chapter: '50' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'rame-maldor': {
+    appearsIn: [
+      {
+        bookId: 'shadows-of-self',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '9' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'shadows-of-self', chapter: '9' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '9' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  razal: {
+    appearsIn: [
+      {
+        bookId: 'shadows-of-self',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '5' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'shadows-of-self', chapter: '5' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '5' }],
+      },
+    ],
+    abilities: [
+      {
+        name: 'Brute',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '5' }],
+      },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'red-scadrial': {
+    appearsIn: [
+      {
+        bookId: 'shadows-of-self',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '5' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'shadows-of-self', chapter: '5' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '5' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Boatman',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '5' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  remin: {
+    appearsIn: [
+      {
+        bookId: 'shadows-of-self',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '9' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'shadows-of-self', chapter: '9' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '9' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  ruri: {
+    appearsIn: [
+      {
+        bookId: 'lost-metal',
+        revealedIn: [{ book: 'lost-metal', chapter: 'epilogue-3' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'lost-metal', chapter: 'epilogue-3' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'lost-metal', chapter: 'epilogue-3' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Allriandre',
+        relation: 'parent',
+        characterId: 'allriandre-durkel',
+        revealedIn: [{ book: 'lost-metal', chapter: 'epilogue-3' }],
+      },
+      {
+        name: 'Durkel',
+        relation: 'ancestor',
+        characterId: 'durkel',
+        revealedIn: [{ book: 'lost-metal', chapter: 'epilogue-3' }],
+      },
+    ],
+  },
+  shayna: {
+    appearsIn: [
+      {
+        bookId: 'shadows-of-self',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '9' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'shadows-of-self', chapter: '9' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '9' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  shewrman: {
+    appearsIn: [
+      {
+        bookId: 'alloy-of-law',
+        revealedIn: [{ book: 'alloy-of-law', chapter: '4' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'alloy-of-law', chapter: '4' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'alloy-of-law', chapter: '4' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  sindren: {
+    appearsIn: [
+      {
+        bookId: 'alloy-of-law',
+        revealedIn: [{ book: 'alloy-of-law', chapter: '8' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'alloy-of-law', chapter: '8' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'alloy-of-law', chapter: '8' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [
+      {
+        name: 'Vanishers',
+        revealedIn: [{ book: 'alloy-of-law', chapter: '8' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  slink: {
+    appearsIn: [
+      {
+        bookId: 'bands-of-mourning',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: 'prologue' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'bands-of-mourning', chapter: 'prologue' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: 'prologue' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Gang Member',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: 'prologue' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  stanoux: {
+    appearsIn: [
+      {
+        bookId: 'bands-of-mourning',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: '18' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'bands-of-mourning', chapter: '18' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: '18' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Linguist',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: '18' }],
+      },
+    ],
+    groups: [
+      {
+        name: 'Set',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: '18' }],
+      },
+    ],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Stansi',
+        relation: 'relative',
+        characterId: 'stansi',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: '18' }],
+      },
+    ],
+  },
+  stansi: {
+    appearsIn: [
+      {
+        bookId: 'bands-of-mourning',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: '18' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'bands-of-mourning', chapter: '18' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: '18' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Engineer',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: '18' }],
+      },
+    ],
+    groups: [
+      {
+        name: 'Set',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: '18' }],
+      },
+    ],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Stanoux',
+        relation: 'relative',
+        characterId: 'stanoux',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: '18' }],
+      },
+    ],
+  },
+  taudr: {
+    appearsIn: [
+      {
+        bookId: 'shadows-of-self',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '14' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'shadows-of-self', chapter: '14' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '14' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Law enforcement',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '14' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  tellingdwar: {
+    appearsIn: [
+      {
+        bookId: 'bands-of-mourning',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: 'prologue' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'bands-of-mourning', chapter: 'prologue' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: 'prologue' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'templeton-fig': {
+    appearsIn: [
+      {
+        bookId: 'bands-of-mourning',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: '15' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'bands-of-mourning', chapter: '15' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: '15' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Manager of Seran New District Cemetery',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: '15' }],
+      },
+    ],
+    groups: [
+      {
+        name: 'Set',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: '18' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  'waynes-mother': {
+    appearsIn: [
+      {
+        bookId: 'lost-metal',
+        revealedIn: [{ book: 'lost-metal', chapter: 'prologue' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'lost-metal', chapter: 'prologue' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'lost-metal', chapter: 'prologue' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Wayne',
+        relation: 'child',
+        characterId: 'wayne',
+        revealedIn: [{ book: 'lost-metal', chapter: 'prologue' }],
+      },
+    ],
+  },
+  wellid: {
+    appearsIn: [
+      {
+        bookId: 'lost-metal',
+        revealedIn: [{ book: 'lost-metal', chapter: '69' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'lost-metal', chapter: '69' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'lost-metal', chapter: '69' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [
+      { name: 'Set', revealedIn: [{ book: 'lost-metal', chapter: '69' }] },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  wilhelmette: {
+    appearsIn: [
+      {
+        bookId: 'lost-metal',
+        revealedIn: [{ book: 'lost-metal', chapter: '10' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'lost-metal', chapter: '10' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'lost-metal', chapter: '10' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'yancey-yaceczko': {
+    appearsIn: [
+      {
+        bookId: 'lost-metal',
+        revealedIn: [{ book: 'lost-metal', chapter: '2' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'lost-metal', chapter: '2' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'lost-metal', chapter: '2' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      { name: 'Senator', revealedIn: [{ book: 'lost-metal', chapter: '2' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  alernath: {
+    appearsIn: [
+      {
+        bookId: 'alloy-of-law',
+        revealedIn: [{ book: 'alloy-of-law', chapter: '4' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'alloy-of-law', chapter: '4' }],
+    },
+    aliases: [
+      { name: 'Lord', revealedIn: [{ book: 'alloy-of-law', chapter: '4' }] },
+    ],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'alloy-of-law', chapter: '4' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'allri-innate': {
+    appearsIn: [
+      {
+        bookId: 'shadows-of-self',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '9' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'shadows-of-self', chapter: '9' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '9' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Replar Innate',
+        relation: 'spouse',
+        characterId: 'replar-innate',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '9' }],
+      },
+    ],
+  },
+  'allriandre-durkel': {
+    appearsIn: [
+      {
+        bookId: 'shadows-of-self',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '5' }],
+      },
+      {
+        bookId: 'lost-metal',
+        revealedIn: [{ book: 'lost-metal', chapter: '14' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'shadows-of-self', chapter: '5' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '5' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Durkel',
+        relation: 'parent',
+        characterId: 'durkel',
+        revealedIn: [{ book: 'lost-metal', chapter: '58' }],
+      },
+      {
+        name: 'Ruri',
+        relation: 'child',
+        characterId: 'ruri',
+        revealedIn: [{ book: 'lost-metal', chapter: 'epilogue-3' }],
+      },
+    ],
+  },
+  annarel: {
+    appearsIn: [
+      {
+        bookId: 'alloy-of-law',
+        revealedIn: [{ book: 'alloy-of-law', chapter: 'prologue' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'alloy-of-law', chapter: 'prologue' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'alloy-of-law', chapter: 'prologue' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'ape-manton': {
+    appearsIn: [
+      {
+        bookId: 'shadows-of-self',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '2' }],
+      },
+      {
+        bookId: 'bands-of-mourning',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: '10' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'shadows-of-self', chapter: '2' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '2' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  aramine: {
+    appearsIn: [
+      {
+        bookId: 'alloy-of-law',
+        revealedIn: [{ book: 'alloy-of-law', chapter: '7' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'alloy-of-law', chapter: '7' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'alloy-of-law', chapter: '7' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Professor',
+        revealedIn: [{ book: 'alloy-of-law', chapter: '7' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  arbitan: {
+    appearsIn: [
+      {
+        bookId: 'alloy-of-law',
+        revealedIn: [{ book: 'alloy-of-law', chapter: '4' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'alloy-of-law', chapter: '4' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'alloy-of-law', chapter: '4' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      { name: 'Lawman', revealedIn: [{ book: 'alloy-of-law', chapter: '4' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  arintol: {
+    appearsIn: [
+      {
+        bookId: 'alloy-of-law',
+        revealedIn: [{ book: 'alloy-of-law', chapter: '8' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'alloy-of-law', chapter: '8' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'alloy-of-law', chapter: '8' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Solicitor',
+        revealedIn: [{ book: 'alloy-of-law', chapter: '8' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'augustin-tekiel': {
+    appearsIn: [
+      {
+        bookId: 'alloy-of-law',
+        revealedIn: [{ book: 'alloy-of-law', chapter: '3' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'alloy-of-law', chapter: '3' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'alloy-of-law', chapter: '3' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  barl: {
+    appearsIn: [
+      {
+        bookId: 'alloy-of-law',
+        revealedIn: [{ book: 'alloy-of-law', chapter: 'prologue' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'alloy-of-law', chapter: 'prologue' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'alloy-of-law', chapter: 'prologue' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Deputy lawman',
+        revealedIn: [{ book: 'alloy-of-law', chapter: 'prologue' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'bastien-severington': {
+    appearsIn: [
+      {
+        bookId: 'bands-of-mourning',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: '13' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'bands-of-mourning', chapter: '13' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: '13' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Mayor',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: '15' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'ben-oldson': {
+    appearsIn: [
+      {
+        bookId: 'lost-metal',
+        revealedIn: [{ book: 'lost-metal', chapter: '58' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'lost-metal', chapter: '58' }],
+    },
+    aliases: [
+      {
+        name: 'Icy Ben Oldson',
+        revealedIn: [{ book: 'lost-metal', chapter: '58' }],
+      },
+    ],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'lost-metal', chapter: '58' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  bilmy: {
+    appearsIn: [
+      {
+        bookId: 'bands-of-mourning',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: '12' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'bands-of-mourning', chapter: '12' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: '12' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Gravekeeper',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: '12' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  bleaker: {
+    appearsIn: [
+      {
+        bookId: 'lost-metal',
+        revealedIn: [{ book: 'lost-metal', chapter: 'epilogue-3' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'lost-metal', chapter: 'epilogue-3' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'lost-metal', chapter: 'epilogue-3' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  blinker: {
+    appearsIn: [
+      {
+        bookId: 'lost-metal',
+        revealedIn: [{ book: 'lost-metal', chapter: '58' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'lost-metal', chapter: '58' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'lost-metal', chapter: '58' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      { name: 'Deputy', revealedIn: [{ book: 'lost-metal', chapter: '58' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'boris-junior': {
+    appearsIn: [
+      {
+        bookId: 'shadows-of-self',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '2' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'shadows-of-self', chapter: '2' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '2' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Boris the Third',
+        relation: 'sibling',
+        characterId: 'boris-the-third',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '2' }],
+      },
+    ],
+  },
+  'boris-the-third': {
+    appearsIn: [
+      {
+        bookId: 'shadows-of-self',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '2' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'shadows-of-self', chapter: '2' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '2' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Boris Junior',
+        relation: 'sibling',
+        characterId: 'boris-junior',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '2' }],
+      },
+    ],
+  },
+  burl: {
+    appearsIn: [
+      {
+        bookId: 'bands-of-mourning',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: '15' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'bands-of-mourning', chapter: '15' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: '15' }],
+      },
+    ],
+    abilities: [
+      {
+        name: 'Seeker',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: '15' }],
+      },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  burlow: {
+    appearsIn: [
+      {
+        bookId: 'alloy-of-law',
+        revealedIn: [{ book: 'alloy-of-law', chapter: '13' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'alloy-of-law', chapter: '13' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'alloy-of-law', chapter: '13' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'cali-hatthew': {
+    appearsIn: [
+      {
+        bookId: 'lost-metal',
+        revealedIn: [{ book: 'lost-metal', chapter: '26' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'lost-metal', chapter: '26' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'lost-metal', chapter: '26' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Constable',
+        revealedIn: [{ book: 'lost-metal', chapter: '26' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  cassileux: {
+    appearsIn: [
+      {
+        bookId: 'lost-metal',
+        revealedIn: [{ book: 'lost-metal', chapter: '15' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'lost-metal', chapter: '15' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'lost-metal', chapter: '15' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Constable',
+        revealedIn: [{ book: 'lost-metal', chapter: '15' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'chip-hunter': {
+    appearsIn: [
+      {
+        bookId: 'bands-of-mourning',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: '6' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'bands-of-mourning', chapter: '6' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: '6' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Hunter',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: '6' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  cimines: {
+    appearsIn: [
+      {
+        bookId: 'bands-of-mourning',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: '10' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'bands-of-mourning', chapter: '10' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: '10' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Scholar',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: '10' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'copper-strangler': {
+    appearsIn: [
+      {
+        bookId: 'alloy-of-law',
+        revealedIn: [{ book: 'alloy-of-law', chapter: '8' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'alloy-of-law', chapter: '8' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'alloy-of-law', chapter: '8' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Serial Killer',
+        revealedIn: [{ book: 'alloy-of-law', chapter: '9' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  daius: {
+    appearsIn: [
+      {
+        bookId: 'alloy-of-law',
+        revealedIn: [{ book: 'alloy-of-law', chapter: 'epilogue' }],
+      },
+      {
+        bookId: 'shadows-of-self',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '5' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'alloy-of-law', chapter: 'epilogue' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'alloy-of-law', chapter: 'epilogue' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Attorney',
+        revealedIn: [
+          { book: 'alloy-of-law', chapter: 'epilogue' },
+          { book: 'shadows-of-self', chapter: '5' },
+        ],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'dashir-boys': {
+    appearsIn: [
+      {
+        bookId: 'shadows-of-self',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '2' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'shadows-of-self', chapter: '2' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '2' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  daughnin: {
+    appearsIn: [
+      {
+        bookId: 'shadows-of-self',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '7' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'shadows-of-self', chapter: '7' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '7' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  dean: {
+    appearsIn: [
+      {
+        bookId: 'lost-metal',
+        revealedIn: [{ book: 'lost-metal', chapter: '40' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'lost-metal', chapter: '40' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'lost-metal', chapter: '40' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Scientist',
+        revealedIn: [{ book: 'lost-metal', chapter: '40' }],
+      },
+    ],
+    groups: [
+      {
+        name: 'Ghostbloods',
+        revealedIn: [{ book: 'lost-metal', chapter: '40' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  demmy: {
+    appearsIn: [
+      {
+        bookId: 'lost-metal',
+        revealedIn: [{ book: 'lost-metal', chapter: 'prologue' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'lost-metal', chapter: 'prologue' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'lost-metal', chapter: 'prologue' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  dip: {
+    appearsIn: [
+      {
+        bookId: 'lost-metal',
+        revealedIn: [{ book: 'lost-metal', chapter: '21' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'lost-metal', chapter: '21' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'lost-metal', chapter: '21' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [
+      { name: 'Set', revealedIn: [{ book: 'lost-metal', chapter: '21' }] },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  donal: {
+    appearsIn: [
+      {
+        bookId: 'alloy-of-law',
+        revealedIn: [{ book: 'alloy-of-law', chapter: 'prologue' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'alloy-of-law', chapter: 'prologue' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'alloy-of-law', chapter: 'prologue' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  donny: {
+    appearsIn: [
+      {
+        bookId: 'bands-of-mourning',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: '9' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'bands-of-mourning', chapter: '9' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: '9' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [
+      {
+        name: 'Nightstreet Gang',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: '9' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  'douglas-venture': {
+    appearsIn: [
+      {
+        bookId: 'shadows-of-self',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '2' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'shadows-of-self', chapter: '2' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '2' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  dug: {
+    appearsIn: [
+      {
+        bookId: 'lost-metal',
+        revealedIn: [{ book: 'lost-metal', chapter: 'prologue' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'lost-metal', chapter: 'prologue' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'lost-metal', chapter: 'prologue' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  durkel: {
+    appearsIn: [
+      {
+        bookId: 'lost-metal',
+        revealedIn: [{ book: 'lost-metal', chapter: '58' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'lost-metal', chapter: '58' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'lost-metal', chapter: '58' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Allriandre',
+        relation: 'child',
+        characterId: 'allriandre-durkel',
+        revealedIn: [{ book: 'lost-metal', chapter: '58' }],
+      },
+    ],
+  },
+  edip: {
+    appearsIn: [
+      {
+        bookId: 'shadows-of-self',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '3' }],
+      },
+      {
+        bookId: 'bands-of-mourning',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: '4' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'shadows-of-self', chapter: '3' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '3' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'eliza-marin': {
+    appearsIn: [
+      {
+        bookId: 'bands-of-mourning',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: '13' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'bands-of-mourning', chapter: '13' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: '13' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'evenstrom-tekiel': {
+    appearsIn: [
+      {
+        bookId: 'alloy-of-law',
+        revealedIn: [{ book: 'alloy-of-law', chapter: '16' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'alloy-of-law', chapter: '16' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'alloy-of-law', chapter: '16' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  fed: {
+    appearsIn: [
+      {
+        bookId: 'bands-of-mourning',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: '29' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'bands-of-mourning', chapter: '29' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: '29' }],
+      },
+    ],
+    abilities: [
+      {
+        name: 'Skimmer',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: '29' }],
+      },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [
+      {
+        name: 'Set',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: '29' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  forgeron: {
+    appearsIn: [
+      {
+        bookId: 'shadows-of-self',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '14' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'shadows-of-self', chapter: '14' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '14' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Cab driver',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '14' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  franis: {
+    appearsIn: [
+      {
+        bookId: 'lost-metal',
+        revealedIn: [{ book: 'lost-metal', chapter: '21' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'lost-metal', chapter: '21' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'lost-metal', chapter: '21' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  geormin: {
+    appearsIn: [
+      {
+        bookId: 'alloy-of-law',
+        revealedIn: [{ book: 'alloy-of-law', chapter: 'prologue' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'alloy-of-law', chapter: 'prologue' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'alloy-of-law', chapter: 'prologue' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  gord: {
+    appearsIn: [
+      {
+        bookId: 'lost-metal',
+        revealedIn: [{ book: 'lost-metal', chapter: '56' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'lost-metal', chapter: '56' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'lost-metal', chapter: '56' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  granks: {
+    appearsIn: [
+      {
+        bookId: 'lost-metal',
+        revealedIn: [{ book: 'lost-metal', chapter: '21' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'lost-metal', chapter: '21' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'lost-metal', chapter: '21' }] },
+    ],
+    abilities: [
+      {
+        name: 'Hemalurgist',
+        revealedIn: [{ book: 'lost-metal', chapter: '21' }],
+      },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [
+      { name: 'Set', revealedIn: [{ book: 'lost-metal', chapter: '21' }] },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  gregr: {
+    appearsIn: [
+      {
+        bookId: 'lost-metal',
+        revealedIn: [{ book: 'lost-metal', chapter: 'prologue' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'lost-metal', chapter: 'prologue' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'lost-metal', chapter: 'prologue' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Miner',
+        revealedIn: [{ book: 'lost-metal', chapter: 'prologue' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Wayne',
+        relation: 'relative',
+        characterId: 'wayne',
+        revealedIn: [{ book: 'lost-metal', chapter: 'prologue' }],
+      },
+    ],
+  },
+  hanlanaze: {
+    appearsIn: [
+      {
+        bookId: 'shadows-of-self',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '9' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'shadows-of-self', chapter: '9' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '9' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Professor',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '9' }],
+      },
+      {
+        name: 'Scientist',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '9' }],
+      },
+      {
+        name: 'Mathematician',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '9' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'harrisel-hard': {
+    appearsIn: [
+      {
+        bookId: 'alloy-of-law',
+        revealedIn: [{ book: 'alloy-of-law', chapter: '9' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'alloy-of-law', chapter: '9' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'alloy-of-law', chapter: '9' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      { name: 'Outlaw', revealedIn: [{ book: 'alloy-of-law', chapter: '9' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'hinston-ladrian': {
+    appearsIn: [
+      {
+        bookId: 'alloy-of-law',
+        revealedIn: [{ book: 'alloy-of-law', chapter: '10' }],
+      },
+      {
+        bookId: 'shadows-of-self',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '5' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'alloy-of-law', chapter: '10' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'alloy-of-law', chapter: '10' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Edwarn Ladrian',
+        relation: 'parent',
+        characterId: 'edwarn-ladrian',
+        revealedIn: [{ book: 'alloy-of-law', chapter: '10' }],
+      },
+      {
+        name: 'Waxillium Ladrian',
+        relation: 'relative',
+        characterId: 'waxillium-ladrian',
+        revealedIn: [{ book: 'alloy-of-law', chapter: '10' }],
+      },
+      {
+        name: 'Telsin Ladrian',
+        relation: 'relative',
+        characterId: 'telsin-ladrian',
+        revealedIn: [{ book: 'alloy-of-law', chapter: '10' }],
+      },
+      {
+        name: 'Maxillium',
+        relation: 'relative',
+        characterId: 'maxillium-ladrian',
+        revealedIn: [{ book: 'lost-metal', chapter: '2' }],
+      },
+      {
+        name: 'Tindwyl',
+        relation: 'relative',
+        characterId: 'tindwyl-ladrian',
+        revealedIn: [{ book: 'lost-metal', chapter: '2' }],
+      },
+      {
+        name: 'Ashweather',
+        relation: 'ancestor',
+        characterId: 'ashweather-cett',
+        revealedIn: [{ all: ['lost-metal', 'hero-of-ages'] }],
+      },
+      {
+        name: 'Breeze',
+        relation: 'ancestor',
+        characterId: 'edgard-ladrian',
+        revealedIn: [{ all: ['lost-metal', 'hero-of-ages'] }],
+      },
+      {
+        name: 'Allrianne',
+        relation: 'ancestor',
+        characterId: 'allrianne-cett',
+        revealedIn: [{ all: ['lost-metal', 'hero-of-ages'] }],
+      },
+    ],
+  },
+  jak: {
+    appearsIn: [
+      { bookId: 'allomancer-jak', revealedIn: ['allomancer-jak'] },
+      {
+        bookId: 'shadows-of-self',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '19' }],
+      },
+      {
+        bookId: 'bands-of-mourning',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: '11' }],
+      },
+      {
+        bookId: 'lost-metal',
+        revealedIn: [{ book: 'lost-metal', chapter: 'prologue' }],
+      },
+    ],
+    world: { planetId: 'scadrial', revealedIn: ['allomancer-jak'] },
+    aliases: [],
+    species: [{ name: 'Human', revealedIn: ['allomancer-jak'] }],
+    abilities: [{ name: 'Tineye', revealedIn: ['allomancer-jak'] }],
+    nationality: [],
+    profession: [{ name: 'Explorer', revealedIn: ['allomancer-jak'] }],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'jammi-walls': {
+    appearsIn: [
+      {
+        bookId: 'lost-metal',
+        revealedIn: [{ book: 'lost-metal', chapter: '1' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'lost-metal', chapter: '1' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'lost-metal', chapter: '1' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  jamms: {
+    appearsIn: [
+      {
+        bookId: 'lost-metal',
+        revealedIn: [{ book: 'lost-metal', chapter: '10' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'lost-metal', chapter: '10' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'lost-metal', chapter: '10' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Constable-general',
+        revealedIn: [{ book: 'lost-metal', chapter: '10' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  jeffy: {
+    appearsIn: [
+      {
+        bookId: 'lost-metal',
+        revealedIn: [{ book: 'lost-metal', chapter: '71' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'lost-metal', chapter: '71' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'lost-metal', chapter: '71' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  jennid: {
+    appearsIn: [
+      {
+        bookId: 'lost-metal',
+        revealedIn: [{ book: 'lost-metal', chapter: 'epilogue-2' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'lost-metal', chapter: 'epilogue-2' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'lost-metal', chapter: 'epilogue-2' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  johnst: {
+    appearsIn: [
+      {
+        bookId: 'shadows-of-self',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '14' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'shadows-of-self', chapter: '14' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '14' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Farmer',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '14' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'jon-deadfinger': {
+    appearsIn: [
+      {
+        bookId: 'alloy-of-law',
+        revealedIn: [{ book: 'alloy-of-law', chapter: '4' }],
+      },
+      {
+        bookId: 'shadows-of-self',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '6' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'alloy-of-law', chapter: '4' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'alloy-of-law', chapter: '4' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      { name: 'Lawman', revealedIn: [{ book: 'alloy-of-law', chapter: '4' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'jub-hending': {
+    appearsIn: [
+      {
+        bookId: 'lost-metal',
+        revealedIn: [{ book: 'lost-metal', chapter: '9' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'lost-metal', chapter: '9' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'lost-metal', chapter: '9' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'lady-faula': {
+    appearsIn: [
+      {
+        bookId: 'lost-metal',
+        revealedIn: [{ book: 'lost-metal', chapter: '2' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'lost-metal', chapter: '2' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'lost-metal', chapter: '2' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      { name: 'Senator', revealedIn: [{ book: 'lost-metal', chapter: '2' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'lady-lentin': {
+    appearsIn: [
+      {
+        bookId: 'shadows-of-self',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '5' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'shadows-of-self', chapter: '5' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '5' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'lady-zobell': {
+    appearsIn: [
+      {
+        bookId: 'shadows-of-self',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '5' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'shadows-of-self', chapter: '5' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '5' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  landre: {
+    appearsIn: [
+      {
+        bookId: 'bands-of-mourning',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: '5' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'bands-of-mourning', chapter: '5' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: '5' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  larskpur: {
+    appearsIn: [
+      {
+        bookId: 'shadows-of-self',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '12' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'shadows-of-self', chapter: '12' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '12' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Priest',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '12' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  leemar: {
+    appearsIn: [
+      {
+        bookId: 'lost-metal',
+        revealedIn: [{ book: 'lost-metal', chapter: '15' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'lost-metal', chapter: '15' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Kandra', revealedIn: [{ book: 'lost-metal', chapter: '15' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'lieutenant-ahlstrom': {
+    appearsIn: [
+      {
+        bookId: 'shadows-of-self',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '5' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'shadows-of-self', chapter: '5' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '5' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Constable',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '5' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'lord-barrington': {
+    appearsIn: [
+      {
+        bookId: 'shadows-of-self',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '14' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'shadows-of-self', chapter: '14' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '14' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'lord-steming': {
+    appearsIn: [
+      {
+        bookId: 'bands-of-mourning',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: '2' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'bands-of-mourning', chapter: '2' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: '2' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  macil: {
+    appearsIn: [
+      {
+        bookId: 'lost-metal',
+        revealedIn: [{ book: 'lost-metal', chapter: '60' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'lost-metal', chapter: '60' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'lost-metal', chapter: '60' }] },
+    ],
+    abilities: [
+      { name: 'Leecher', revealedIn: [{ book: 'lost-metal', chapter: '60' }] },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  maraya: {
+    appearsIn: [
+      {
+        bookId: 'lost-metal',
+        revealedIn: [{ book: 'lost-metal', chapter: '2' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'lost-metal', chapter: '2' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'lost-metal', chapter: '2' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      { name: 'Senator', revealedIn: [{ book: 'lost-metal', chapter: '2' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  maurin: {
+    appearsIn: [
+      {
+        bookId: 'bands-of-mourning',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: '19' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'bands-of-mourning', chapter: '19' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: '19' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  mirabell: {
+    appearsIn: [
+      {
+        bookId: 'shadows-of-self',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '7' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'shadows-of-self', chapter: '7' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '7' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Scholar',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '7' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  misra: {
+    appearsIn: [
+      {
+        bookId: 'shadows-of-self',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '19' }],
+      },
+      {
+        bookId: 'bands-of-mourning',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: '4' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'shadows-of-self', chapter: '19' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '19' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  modicarm: {
+    appearsIn: [
+      {
+        bookId: 'alloy-of-law',
+        revealedIn: [{ book: 'alloy-of-law', chapter: '7' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'alloy-of-law', chapter: '7' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'alloy-of-law', chapter: '7' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Professor',
+        revealedIn: [{ book: 'alloy-of-law', chapter: '7' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'mrs-hutchen': {
+    appearsIn: [
+      {
+        bookId: 'bands-of-mourning',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: '9' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'bands-of-mourning', chapter: '9' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: '9' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'mrs-nock': {
+    appearsIn: [
+      {
+        bookId: 'lost-metal',
+        revealedIn: [{ book: 'lost-metal', chapter: 'prologue' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'lost-metal', chapter: 'prologue' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'lost-metal', chapter: 'prologue' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  murnbru: {
+    appearsIn: [
+      {
+        bookId: 'alloy-of-law',
+        revealedIn: [{ book: 'alloy-of-law', chapter: '15' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'alloy-of-law', chapter: '15' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'alloy-of-law', chapter: '15' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      { name: 'Doctor', revealedIn: [{ book: 'alloy-of-law', chapter: '15' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  paclo: {
+    appearsIn: [
+      {
+        bookId: 'alloy-of-law',
+        revealedIn: [{ book: 'alloy-of-law', chapter: '15' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'alloy-of-law', chapter: '15' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'alloy-of-law', chapter: '15' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      { name: 'Lawman', revealedIn: [{ book: 'alloy-of-law', chapter: '15' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  pars: {
+    appearsIn: [
+      {
+        bookId: 'alloy-of-law',
+        revealedIn: [{ book: 'alloy-of-law', chapter: '13' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'alloy-of-law', chapter: '13' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'alloy-of-law', chapter: '13' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  peret: {
+    appearsIn: [
+      {
+        bookId: 'alloy-of-law',
+        revealedIn: [{ book: 'alloy-of-law', chapter: '9' }],
+      },
+      {
+        bookId: 'shadows-of-self',
+        revealedIn: [{ book: 'shadows-of-self', chapter: 'prologue' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'alloy-of-law', chapter: '9' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'alloy-of-law', chapter: '9' }] },
+    ],
+    abilities: [
+      {
+        name: 'Pewterarm',
+        revealedIn: [{ book: 'alloy-of-law', chapter: '9' }],
+      },
+    ],
+    nationality: [],
+    profession: [
+      { name: 'Outlaw', revealedIn: [{ book: 'alloy-of-law', chapter: '9' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  reluur: {
+    appearsIn: [
+      {
+        bookId: 'bands-of-mourning',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: '3' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'bands-of-mourning', chapter: '3' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Kandra',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: '3' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'remmingtel-tarcsel': {
+    appearsIn: [
+      {
+        bookId: 'shadows-of-self',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '6' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'shadows-of-self', chapter: '6' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '6' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Inventor',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '10' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Sophi Tarcsel',
+        relation: 'child',
+        characterId: 'sophi-tarcsel',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '10' }],
+      },
+    ],
+  },
+  'rick-stranger': {
+    appearsIn: [
+      {
+        bookId: 'shadows-of-self',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '2' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'shadows-of-self', chapter: '2' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '2' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  rusko: {
+    appearsIn: [
+      {
+        bookId: 'shadows-of-self',
+        revealedIn: [{ book: 'shadows-of-self', chapter: 'prologue' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'shadows-of-self', chapter: 'prologue' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'shadows-of-self', chapter: 'prologue' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Barkeep',
+        revealedIn: [{ book: 'shadows-of-self', chapter: 'prologue' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'senator-vindel': {
+    appearsIn: [
+      {
+        bookId: 'lost-metal',
+        revealedIn: [{ book: 'lost-metal', chapter: '2' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'lost-metal', chapter: '2' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'lost-metal', chapter: '2' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      { name: 'Senator', revealedIn: [{ book: 'lost-metal', chapter: '2' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  stagin: {
+    appearsIn: [
+      {
+        bookId: 'alloy-of-law',
+        revealedIn: [{ book: 'alloy-of-law', chapter: '1' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'alloy-of-law', chapter: '1' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'alloy-of-law', chapter: '1' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      { name: 'Brewer', revealedIn: [{ book: 'alloy-of-law', chapter: '1' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  stanton: {
+    appearsIn: [
+      {
+        bookId: 'alloy-of-law',
+        revealedIn: [{ book: 'alloy-of-law', chapter: '1' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'alloy-of-law', chapter: '1' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'alloy-of-law', chapter: '1' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Noble lord',
+        revealedIn: [{ book: 'alloy-of-law', chapter: '1' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  suna: {
+    appearsIn: [
+      {
+        bookId: 'lost-metal',
+        revealedIn: [{ book: 'lost-metal', chapter: '51' }],
+      },
+    ],
+    aliases: [],
+    species: [],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  svel: {
+    appearsIn: [
+      {
+        bookId: 'bands-of-mourning',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: '22' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'bands-of-mourning', chapter: '22' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: '22' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Airshipman',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: '22' }],
+      },
+    ],
+    groups: [
+      {
+        name: 'Crew of Brunstell',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: '22' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  taraco: {
+    appearsIn: [
+      {
+        bookId: 'alloy-of-law',
+        revealedIn: [{ book: 'alloy-of-law', chapter: '9' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'alloy-of-law', chapter: '9' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'alloy-of-law', chapter: '9' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      { name: 'Bandit', revealedIn: [{ book: 'alloy-of-law', chapter: '9' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'tark-vestingdow': {
+    appearsIn: [
+      {
+        bookId: 'lost-metal',
+        revealedIn: [{ book: 'lost-metal', chapter: 'prologue' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'lost-metal', chapter: 'prologue' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'lost-metal', chapter: 'prologue' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  tathed: {
+    appearsIn: [
+      {
+        bookId: 'bands-of-mourning',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: 'prologue' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'bands-of-mourning', chapter: 'prologue' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: 'prologue' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  terri: {
+    appearsIn: [
+      {
+        bookId: 'shadows-of-self',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '7' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'shadows-of-self', chapter: '7' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '7' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Law enforcement',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '7' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'thomton-delacour': {
+    appearsIn: [
+      {
+        bookId: 'bands-of-mourning',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: '4' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'bands-of-mourning', chapter: '4' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: '4' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'tim-vashin': {
+    appearsIn: [
+      {
+        bookId: 'shadows-of-self',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '5' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'shadows-of-self', chapter: '5' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '5' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Inventor',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '5' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'tobal-copper': {
+    appearsIn: [
+      {
+        bookId: 'lost-metal',
+        revealedIn: [{ book: 'lost-metal', chapter: '28' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'lost-metal', chapter: '28' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'lost-metal', chapter: '28' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      { name: 'Chemist', revealedIn: [{ book: 'lost-metal', chapter: '29' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'trell-trellism': {
+    appearsIn: [
+      {
+        bookId: 'alloy-of-law',
+        revealedIn: [{ book: 'alloy-of-law', chapter: '11' }],
+      },
+      {
+        bookId: 'shadows-of-self',
+        revealedIn: [{ book: 'shadows-of-self', chapter: 'epilogue' }],
+      },
+      {
+        bookId: 'bands-of-mourning',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: '3' }],
+      },
+      {
+        bookId: 'lost-metal',
+        revealedIn: [{ book: 'lost-metal', chapter: '3' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'alloy-of-law', chapter: '11' }],
+    },
+    aliases: [],
+    species: [],
+    abilities: [
+      {
+        name: 'Avatar of Autonomy',
+        revealedIn: [{ book: 'lost-metal', chapter: '19' }],
+      },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'valette-entrone': {
+    appearsIn: [
+      {
+        bookId: 'alloy-of-law',
+        revealedIn: [{ book: 'alloy-of-law', chapter: '2' }],
+      },
+      {
+        bookId: 'bands-of-mourning',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: '12' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'alloy-of-law', chapter: '2' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'alloy-of-law', chapter: '2' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Gave Entrone',
+        relation: 'relative',
+        characterId: 'gave-entrone',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: '12' }],
+      },
+    ],
+  },
+  'vennis-hasting': {
+    appearsIn: [
+      {
+        bookId: 'lost-metal',
+        revealedIn: [{ book: 'lost-metal', chapter: '33' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'lost-metal', chapter: '33' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'lost-metal', chapter: '33' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      { name: 'Senator', revealedIn: [{ book: 'lost-metal', chapter: '33' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  vishwadhar: {
+    appearsIn: [
+      {
+        bookId: 'lost-metal',
+        revealedIn: [{ book: 'lost-metal', chapter: '51' }],
+      },
+    ],
+    aliases: [],
+    species: [],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  wells: {
+    appearsIn: [
+      {
+        bookId: 'shadows-of-self',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '6' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'shadows-of-self', chapter: '6' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '6' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Law enforcement',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '6' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'westweather-cett': {
+    appearsIn: [
+      {
+        bookId: 'bands-of-mourning',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: '11' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'bands-of-mourning', chapter: '11' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: '11' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  yulip: {
+    appearsIn: [
+      {
+        bookId: 'lost-metal',
+        revealedIn: [{ book: 'lost-metal', chapter: '21' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'lost-metal', chapter: '21' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'lost-metal', chapter: '21' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'admiral-daal': {
+    appearsIn: [
+      {
+        bookId: 'lost-metal',
+        revealedIn: [{ book: 'lost-metal', chapter: '9' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'lost-metal', chapter: '9' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'lost-metal', chapter: '9' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Malwish', revealedIn: [{ book: 'lost-metal', chapter: '9' }] },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'cob-scadrial': {
+    appearsIn: [
+      {
+        bookId: 'bands-of-mourning',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: '3' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'bands-of-mourning', chapter: '3' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: '3' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Coachman',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: '3' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  darm: {
+    appearsIn: [
+      {
+        bookId: 'shadows-of-self',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '1' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'shadows-of-self', chapter: '1' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '1' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'elizandra-dramali': {
+    appearsIn: [{ bookId: 'allomancer-jak', revealedIn: ['allomancer-jak'] }],
+    world: { planetId: 'scadrial', revealedIn: ['allomancer-jak'] },
+    aliases: [],
+    species: [{ name: 'Human', revealedIn: ['allomancer-jak'] }],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  handerwym: {
+    appearsIn: [{ bookId: 'allomancer-jak', revealedIn: ['allomancer-jak'] }],
+    world: { planetId: 'scadrial', revealedIn: ['allomancer-jak'] },
+    aliases: [],
+    species: [{ name: 'Human', revealedIn: ['allomancer-jak'] }],
+    abilities: [{ name: 'Connector', revealedIn: ['allomancer-jak'] }],
+    nationality: [],
+    profession: [{ name: 'Explorer', revealedIn: ['allomancer-jak'] }],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'icy-ben-oldson': {
+    appearsIn: [
+      {
+        bookId: 'lost-metal',
+        revealedIn: [{ book: 'lost-metal', chapter: '58' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'lost-metal', chapter: '58' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'lost-metal', chapter: '58' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      { name: 'Outlaw', revealedIn: [{ book: 'lost-metal', chapter: '58' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'inis-julien': {
+    appearsIn: [
+      { bookId: 'bands-of-mourning', revealedIn: ['bands-of-mourning'] },
+    ],
+    world: { planetId: 'scadrial', revealedIn: ['bands-of-mourning'] },
+    aliases: [],
+    species: [{ name: 'Human', revealedIn: ['bands-of-mourning'] }],
+    abilities: [],
+    nationality: [],
+    profession: [{ name: 'Senator', revealedIn: ['bands-of-mourning'] }],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'kelsiers-seon': {
+    appearsIn: [
+      {
+        bookId: 'lost-metal',
+        revealedIn: [{ book: 'lost-metal', chapter: '40' }],
+      },
+    ],
+    world: {
+      planetId: 'sel',
+      revealedIn: [{ all: ['elantris', 'lost-metal'] }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Seon', revealedIn: [{ book: 'lost-metal', chapter: '40' }] },
+    ],
+    abilities: [
+      {
+        name: 'Worldhopper',
+        revealedIn: [{ all: ['elantris', 'lost-metal'] }],
+      },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [
+      {
+        name: 'Ghostbloods',
+        revealedIn: [{ book: 'lost-metal', chapter: '40' }],
+      },
+    ],
+    bonds: [
+      { name: 'Kelsier', revealedIn: [{ book: 'lost-metal', chapter: '40' }] },
+    ],
+    relatives: [],
+  },
+  'lady-farthing': {
+    appearsIn: [
+      {
+        bookId: 'bands-of-mourning',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: '10' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'bands-of-mourning', chapter: '10' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: '10' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  lily: {
+    appearsIn: [
+      {
+        bookId: 'lost-metal',
+        revealedIn: [{ book: 'lost-metal', chapter: '39' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'lost-metal', chapter: '39' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Dog', revealedIn: [{ book: 'lost-metal', chapter: '39' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  lyndip: {
+    appearsIn: [{ bookId: 'allomancer-jak', revealedIn: ['allomancer-jak'] }],
+    world: { planetId: 'scadrial', revealedIn: ['allomancer-jak'] },
+    aliases: [],
+    species: [],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  mikaff: {
+    appearsIn: [{ bookId: 'allomancer-jak', revealedIn: ['allomancer-jak'] }],
+    world: { planetId: 'scadrial', revealedIn: ['allomancer-jak'] },
+    aliases: [],
+    species: [{ name: 'Human', revealedIn: ['allomancer-jak'] }],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'sir-squeekins': {
+    appearsIn: [
+      {
+        bookId: 'lost-metal',
+        revealedIn: [{ book: 'lost-metal', chapter: '21' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'lost-metal', chapter: '21' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Rat', revealedIn: [{ book: 'lost-metal', chapter: '21' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'three-tooth-dag': {
+    appearsIn: [
+      {
+        bookId: 'lost-metal',
+        revealedIn: [{ book: 'lost-metal', chapter: '14' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'lost-metal', chapter: '14' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'lost-metal', chapter: '14' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'alloran-feltri': {
+    appearsIn: [{ bookId: 'alloy-of-law', revealedIn: ['alloy-of-law'] }],
+    world: { planetId: 'scadrial', revealedIn: ['alloy-of-law'] },
+    aliases: [],
+    species: [{ name: 'Human', revealedIn: ['alloy-of-law'] }],
+    abilities: [{ name: 'Rioter (alleged)', revealedIn: ['alloy-of-law'] }],
+    nationality: [],
+    profession: [{ name: 'Politician', revealedIn: ['alloy-of-law'] }],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  ausdenec: {
+    appearsIn: [{ bookId: 'shadows-of-self', revealedIn: ['shadows-of-self'] }],
+    world: { planetId: 'scadrial', revealedIn: ['shadows-of-self'] },
+    aliases: [],
+    species: [{ name: 'Human', revealedIn: ['shadows-of-self'] }],
+    abilities: [],
+    nationality: [],
+    profession: [{ name: 'Author', revealedIn: ['shadows-of-self'] }],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'b-sablerfils': {
+    appearsIn: [
+      { bookId: 'shadows-of-self', revealedIn: ['shadows-of-self'] },
+      { bookId: 'bands-of-mourning', revealedIn: ['bands-of-mourning'] },
+    ],
+    world: { planetId: 'scadrial', revealedIn: ['shadows-of-self'] },
+    aliases: [],
+    species: [{ name: 'Human', revealedIn: ['shadows-of-self'] }],
+    abilities: [],
+    nationality: [],
+    profession: [
+      { name: 'Playwright', revealedIn: ['shadows-of-self'] },
+      { name: 'Professor', revealedIn: ['bands-of-mourning'] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'basin-bill': {
+    appearsIn: [
+      { bookId: 'bands-of-mourning', revealedIn: ['bands-of-mourning'] },
+      { bookId: 'lost-metal', revealedIn: ['lost-metal'] },
+    ],
+    world: { planetId: 'scadrial', revealedIn: ['bands-of-mourning'] },
+    aliases: [],
+    species: [{ name: 'Human', revealedIn: ['bands-of-mourning'] }],
+    abilities: [],
+    nationality: [],
+    profession: [
+      { name: 'Pub owner', revealedIn: ['bands-of-mourning'] },
+      { name: 'Adventurer', revealedIn: ['bands-of-mourning'] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  brill: {
+    appearsIn: [{ bookId: 'alloy-of-law', revealedIn: ['alloy-of-law'] }],
+    world: { planetId: 'scadrial', revealedIn: ['alloy-of-law'] },
+    aliases: [],
+    species: [{ name: 'Human', revealedIn: ['alloy-of-law'] }],
+    abilities: [],
+    nationality: [],
+    profession: [{ name: 'Construction worker', revealedIn: ['alloy-of-law'] }],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  buissonommes: {
+    appearsIn: [{ bookId: 'shadows-of-self', revealedIn: ['shadows-of-self'] }],
+    world: { planetId: 'scadrial', revealedIn: ['shadows-of-self'] },
+    aliases: [],
+    species: [{ name: 'Human', revealedIn: ['shadows-of-self'] }],
+    abilities: [],
+    nationality: [],
+    profession: [{ name: 'Playwright', revealedIn: ['shadows-of-self'] }],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'carmine-feltry': {
+    appearsIn: [{ bookId: 'lost-metal', revealedIn: ['lost-metal'] }],
+    world: { planetId: 'scadrial', revealedIn: ['lost-metal'] },
+    aliases: [],
+    species: [{ name: 'Human', revealedIn: ['lost-metal'] }],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'chapmot-heviers': {
+    appearsIn: [{ bookId: 'shadows-of-self', revealedIn: ['shadows-of-self'] }],
+    world: { planetId: 'scadrial', revealedIn: ['shadows-of-self'] },
+    aliases: [],
+    species: [{ name: 'Human', revealedIn: ['shadows-of-self'] }],
+    abilities: [],
+    nationality: [],
+    profession: [{ name: 'Banker', revealedIn: ['shadows-of-self'] }],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  dechane: {
+    appearsIn: [{ bookId: 'shadows-of-self', revealedIn: ['shadows-of-self'] }],
+    world: { planetId: 'scadrial', revealedIn: ['shadows-of-self'] },
+    aliases: [],
+    species: [{ name: 'Human', revealedIn: ['shadows-of-self'] }],
+    abilities: [],
+    nationality: [],
+    profession: [{ name: 'Author', revealedIn: ['shadows-of-self'] }],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'elors-durnsed': {
+    appearsIn: [{ bookId: 'alloy-of-law', revealedIn: ['alloy-of-law'] }],
+    world: { planetId: 'scadrial', revealedIn: ['alloy-of-law'] },
+    aliases: [{ name: 'Union Leader', revealedIn: ['alloy-of-law'] }],
+    species: [{ name: 'Human', revealedIn: ['alloy-of-law'] }],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'florin-malin': {
+    appearsIn: [
+      { bookId: 'bands-of-mourning', revealedIn: ['bands-of-mourning'] },
+    ],
+    world: { planetId: 'scadrial', revealedIn: ['bands-of-mourning'] },
+    aliases: [],
+    species: [{ name: 'Human', revealedIn: ['bands-of-mourning'] }],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Minister of Science and Technology',
+        revealedIn: ['bands-of-mourning'],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'fronks-vif': {
+    appearsIn: [{ bookId: 'shadows-of-self', revealedIn: ['shadows-of-self'] }],
+    world: { planetId: 'scadrial', revealedIn: ['shadows-of-self'] },
+    aliases: [],
+    species: [{ name: 'Human', revealedIn: ['shadows-of-self'] }],
+    abilities: [],
+    nationality: [],
+    profession: [{ name: 'Doctor', revealedIn: ['shadows-of-self'] }],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Selvest Vif',
+        relation: 'sibling',
+        characterId: 'selvest-vif',
+        revealedIn: ['shadows-of-self'],
+      },
+    ],
+  },
+  'galabris-menthon': {
+    appearsIn: [
+      { bookId: 'bands-of-mourning', revealedIn: ['bands-of-mourning'] },
+    ],
+    world: { planetId: 'scadrial', revealedIn: ['bands-of-mourning'] },
+    aliases: [],
+    species: [{ name: 'Human', revealedIn: ['bands-of-mourning'] }],
+    abilities: [],
+    nationality: [],
+    profession: [{ name: 'Philosopher', revealedIn: ['bands-of-mourning'] }],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'garven-munz': {
+    appearsIn: [{ bookId: 'lost-metal', revealedIn: ['lost-metal'] }],
+    world: { planetId: 'scadrial', revealedIn: ['lost-metal'] },
+    aliases: [],
+    species: [{ name: 'Human', revealedIn: ['lost-metal'] }],
+    abilities: [],
+    nationality: [],
+    profession: [{ name: 'Professor', revealedIn: ['lost-metal'] }],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'idkwyl-elariel': {
+    appearsIn: [{ bookId: 'lost-metal', revealedIn: ['lost-metal'] }],
+    world: { planetId: 'scadrial', revealedIn: ['lost-metal'] },
+    aliases: [],
+    species: [{ name: 'Human', revealedIn: ['lost-metal'] }],
+    abilities: [],
+    nationality: [],
+    profession: [{ name: 'Fashion Designer', revealedIn: ['lost-metal'] }],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  jarrington: {
+    appearsIn: [{ bookId: 'alloy-of-law', revealedIn: ['alloy-of-law'] }],
+    world: { planetId: 'scadrial', revealedIn: ['alloy-of-law'] },
+    aliases: [],
+    species: [{ name: 'Human', revealedIn: ['alloy-of-law'] }],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'javier-daleuc': {
+    appearsIn: [
+      { bookId: 'bands-of-mourning', revealedIn: ['bands-of-mourning'] },
+    ],
+    world: { planetId: 'scadrial', revealedIn: ['bands-of-mourning'] },
+    aliases: [],
+    species: [{ name: 'Human', revealedIn: ['bands-of-mourning'] }],
+    abilities: [],
+    nationality: [],
+    profession: [{ name: 'Actor', revealedIn: ['bands-of-mourning'] }],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  kesun: {
+    appearsIn: [{ bookId: 'lost-metal', revealedIn: ['lost-metal'] }],
+    world: { planetId: 'scadrial', revealedIn: ['lost-metal'] },
+    aliases: [],
+    species: [{ name: 'Kandra', revealedIn: ['lost-metal'] }],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'lady-lavont': {
+    appearsIn: [{ bookId: 'shadows-of-self', revealedIn: ['shadows-of-self'] }],
+    world: { planetId: 'scadrial', revealedIn: ['shadows-of-self'] },
+    aliases: [],
+    species: [{ name: 'Human', revealedIn: ['shadows-of-self'] }],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'lesan-calour': {
+    appearsIn: [{ bookId: 'shadows-of-self', revealedIn: ['shadows-of-self'] }],
+    world: { planetId: 'scadrial', revealedIn: ['shadows-of-self'] },
+    aliases: [],
+    species: [{ name: 'Human', revealedIn: ['shadows-of-self'] }],
+    abilities: [],
+    nationality: [],
+    profession: [{ name: 'Publisher', revealedIn: ['shadows-of-self'] }],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  mustaches: {
+    appearsIn: [{ bookId: 'shadows-of-self', revealedIn: ['shadows-of-self'] }],
+    world: { planetId: 'scadrial', revealedIn: ['shadows-of-self'] },
+    aliases: [],
+    species: [{ name: 'Human', revealedIn: ['shadows-of-self'] }],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'olin-tober': {
+    appearsIn: [{ bookId: 'lost-metal', revealedIn: ['lost-metal'] }],
+    world: { planetId: 'scadrial', revealedIn: ['lost-metal'] },
+    aliases: [],
+    species: [{ name: 'Human', revealedIn: ['lost-metal'] }],
+    abilities: [],
+    nationality: [],
+    profession: [{ name: 'Professor', revealedIn: ['lost-metal'] }],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'penelope-portreau': {
+    appearsIn: [
+      { bookId: 'bands-of-mourning', revealedIn: ['bands-of-mourning'] },
+      { bookId: 'lost-metal', revealedIn: ['lost-metal'] },
+    ],
+    world: { planetId: 'scadrial', revealedIn: ['bands-of-mourning'] },
+    aliases: [],
+    species: [{ name: 'Human', revealedIn: ['bands-of-mourning'] }],
+    abilities: [],
+    nationality: [],
+    profession: [{ name: 'Actor', revealedIn: ['bands-of-mourning'] }],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'reshelle-tekiel': {
+    appearsIn: [{ bookId: 'alloy-of-law', revealedIn: ['alloy-of-law'] }],
+    world: { planetId: 'scadrial', revealedIn: ['alloy-of-law'] },
+    aliases: [],
+    species: [{ name: 'Human', revealedIn: ['alloy-of-law'] }],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'schrib-welfor': {
+    appearsIn: [{ bookId: 'lost-metal', revealedIn: ['lost-metal'] }],
+    world: { planetId: 'scadrial', revealedIn: ['lost-metal'] },
+    aliases: [],
+    species: [{ name: 'Human', revealedIn: ['lost-metal'] }],
+    abilities: [],
+    nationality: [],
+    profession: [{ name: 'Writer', revealedIn: ['lost-metal'] }],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'selvest-vif': {
+    appearsIn: [{ bookId: 'shadows-of-self', revealedIn: ['shadows-of-self'] }],
+    world: { planetId: 'scadrial', revealedIn: ['shadows-of-self'] },
+    aliases: [],
+    species: [{ name: 'Human', revealedIn: ['shadows-of-self'] }],
+    abilities: [],
+    nationality: [],
+    profession: [{ name: 'Doctor', revealedIn: ['shadows-of-self'] }],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Fronks Vif',
+        relation: 'sibling',
+        characterId: 'fronks-vif',
+        revealedIn: ['shadows-of-self'],
+      },
+    ],
+  },
+  tabaar: {
+    appearsIn: [{ bookId: 'lost-metal', revealedIn: ['lost-metal'] }],
+    world: { planetId: 'scadrial', revealedIn: ['lost-metal'] },
+    aliases: [],
+    species: [{ name: 'Kandra', revealedIn: ['lost-metal'] }],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'trevva-cett-venture': {
+    appearsIn: [{ bookId: 'lost-metal', revealedIn: ['lost-metal'] }],
+    world: { planetId: 'scadrial', revealedIn: ['lost-metal'] },
+    aliases: [],
+    species: [{ name: 'Human', revealedIn: ['lost-metal'] }],
+    abilities: [],
+    nationality: [],
+    profession: [{ name: 'Actor', revealedIn: ['lost-metal'] }],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  vema: {
+    appearsIn: [{ bookId: 'lost-metal', revealedIn: ['lost-metal'] }],
+    world: { planetId: 'scadrial', revealedIn: ['lost-metal'] },
+    aliases: [],
+    species: [{ name: 'Human', revealedIn: ['lost-metal'] }],
+    abilities: [],
+    nationality: [],
+    profession: [
+      { name: 'Staff at a food-delivery service', revealedIn: ['lost-metal'] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'vila-mecant': {
+    appearsIn: [{ bookId: 'lost-metal', revealedIn: ['lost-metal'] }],
+    world: { planetId: 'scadrial', revealedIn: ['lost-metal'] },
+    aliases: [],
+    species: [{ name: 'Human', revealedIn: ['lost-metal'] }],
+    abilities: [{ name: 'Coinshot', revealedIn: ['lost-metal'] }],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'stefan-sauvage': {
+    appearsIn: [
+      { bookId: 'bands-of-mourning', revealedIn: ['bands-of-mourning'] },
+    ],
+    world: { planetId: 'scadrial', revealedIn: ['bands-of-mourning'] },
+    aliases: [{ name: 'His Lordship', revealedIn: ['bands-of-mourning'] }],
+    species: [{ name: 'Human', revealedIn: ['bands-of-mourning'] }],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Nicelle Sauvage',
+        relation: 'child',
+        characterId: 'nicelle-sauvage',
+        revealedIn: ['bands-of-mourning'],
+      },
+    ],
+  },
+  smolderbrand: {
+    appearsIn: [{ bookId: 'oathbringer', revealedIn: ['oathbringer'] }],
+    world: { planetId: 'roshar', revealedIn: ['oathbringer'] },
+    aliases: [],
+    species: [],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  vandonas: {
+    appearsIn: [{ bookId: 'way-of-kings', revealedIn: ['way-of-kings'] }],
+    world: { planetId: 'roshar', revealedIn: ['way-of-kings'] },
+    aliases: [],
+    species: [{ name: 'Human', revealedIn: ['way-of-kings'] }],
+    abilities: [],
+    nationality: [],
+    profession: [{ name: 'Artist', revealedIn: ['way-of-kings'] }],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'isadan-sao': {
+    appearsIn: [{ bookId: 'elantris', revealedIn: ['elantris'] }],
+    world: { planetId: 'sel', revealedIn: ['elantris'] },
+    aliases: [],
+    species: [{ name: 'Human', revealedIn: ['elantris'] }],
+    abilities: [],
+    nationality: [],
+    profession: [{ name: 'Cartographer', revealedIn: ['elantris'] }],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  ais: {
+    appearsIn: [
+      {
+        bookId: 'white-sand-omnibus',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '6' }],
+      },
+    ],
+    world: {
+      planetId: 'taldain',
+      revealedIn: [{ book: 'white-sand-omnibus', chapter: '6' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '6' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Lossandin',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: 'epilogue' }],
+      },
+    ],
+    profession: [
+      {
+        name: 'Trackt',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '6' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Mellis',
+        relation: 'spouse',
+        characterId: 'mellis',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '6' }],
+      },
+      {
+        name: 'Melloni',
+        relation: 'child',
+        characterId: 'melloni',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '6' }],
+      },
+    ],
+  },
+  aarik: {
+    appearsIn: [
+      {
+        bookId: 'white-sand-omnibus',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '6' }],
+      },
+    ],
+    world: {
+      planetId: 'taldain',
+      revealedIn: [{ book: 'white-sand-omnibus', chapter: '6' }],
+    },
+    aliases: [
+      {
+        name: 'Lord General',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '16' }],
+      },
+    ],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '6' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Lossandin',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '7' }],
+      },
+    ],
+    profession: [
+      {
+        name: 'Taisha',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '16' }],
+      },
+    ],
+    groups: [
+      {
+        name: 'Taishin',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '16' }],
+      },
+      {
+        name: 'The Tower',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '16' }],
+      },
+    ],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Raagent',
+        relation: 'parent',
+        characterId: 'raagent',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '7' }],
+      },
+    ],
+  },
+  drile: {
+    appearsIn: [
+      {
+        bookId: 'white-sand-omnibus',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: 'prologue' }],
+      },
+    ],
+    world: {
+      planetId: 'taldain',
+      revealedIn: [{ book: 'white-sand-omnibus', chapter: 'prologue' }],
+    },
+    aliases: [
+      {
+        name: 'Undermastrell',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: 'epilogue' }],
+      },
+      {
+        name: 'Diemfen',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '2' }],
+      },
+      {
+        name: 'Mastrell',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: 'prologue' }],
+      },
+    ],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: 'prologue' }],
+      },
+    ],
+    abilities: [
+      {
+        name: 'Sand master',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: 'prologue' }],
+      },
+    ],
+    nationality: [
+      {
+        name: 'Lossandin',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '5' }],
+      },
+    ],
+    profession: [],
+    groups: [
+      {
+        name: 'Diem',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: 'prologue' }],
+      },
+    ],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Mastrell Rile',
+        relation: 'parent',
+        characterId: 'mastrell-rile',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '1' }],
+      },
+    ],
+  },
+  dirin: {
+    appearsIn: [
+      {
+        bookId: 'white-sand-omnibus',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '2' }],
+      },
+    ],
+    world: {
+      planetId: 'taldain',
+      revealedIn: [{ book: 'white-sand-omnibus', chapter: '2' }],
+    },
+    aliases: [
+      {
+        name: 'Acolent',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '2' }],
+      },
+    ],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '2' }],
+      },
+    ],
+    abilities: [
+      {
+        name: 'Sand master',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '2' }],
+      },
+    ],
+    nationality: [
+      {
+        name: 'Lossandin',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '5' }],
+      },
+    ],
+    profession: [],
+    groups: [
+      {
+        name: 'Diem',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '2' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  delius: {
+    appearsIn: [
+      {
+        bookId: 'white-sand-omnibus',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '7' }],
+      },
+    ],
+    world: {
+      planetId: 'taldain',
+      revealedIn: [{ book: 'white-sand-omnibus', chapter: '7' }],
+    },
+    aliases: [
+      {
+        name: 'Lord Admiral',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '7' }],
+      },
+    ],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '7' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Lossandin',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '7' }],
+      },
+    ],
+    profession: [],
+    groups: [
+      {
+        name: 'Taishin',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '7' }],
+      },
+      {
+        name: 'Helm',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '7' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  elorin: {
+    appearsIn: [
+      {
+        bookId: 'white-sand-omnibus',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '1' }],
+      },
+    ],
+    world: {
+      planetId: 'taldain',
+      revealedIn: [{ book: 'white-sand-omnibus', chapter: '1' }],
+    },
+    aliases: [
+      {
+        name: 'Undermastrell',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '1' }],
+      },
+    ],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '1' }],
+      },
+    ],
+    abilities: [
+      {
+        name: 'Sand master',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '1' }],
+      },
+    ],
+    nationality: [
+      {
+        name: 'Lossandin',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '5' }],
+      },
+    ],
+    profession: [],
+    groups: [
+      {
+        name: 'Diem',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '1' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  heelis: {
+    appearsIn: [
+      {
+        bookId: 'white-sand-omnibus',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '4' }],
+      },
+    ],
+    world: {
+      planetId: 'taldain',
+      revealedIn: [{ book: 'white-sand-omnibus', chapter: '4' }],
+    },
+    aliases: [
+      {
+        name: 'Lady Judge',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '4' }],
+      },
+    ],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '4' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Lossandin',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '4' }],
+      },
+    ],
+    profession: [],
+    groups: [
+      {
+        name: 'Taishin',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '4' }],
+      },
+      {
+        name: 'The Hall',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '6' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  nteese: {
+    appearsIn: [
+      {
+        bookId: 'white-sand-omnibus',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '5' }],
+      },
+    ],
+    world: {
+      planetId: 'taldain',
+      revealedIn: [{ book: 'white-sand-omnibus', chapter: '5' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '5' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Lossandin',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '7' }],
+      },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  tain: {
+    appearsIn: [
+      {
+        bookId: 'white-sand-omnibus',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '6' }],
+      },
+    ],
+    world: {
+      planetId: 'taldain',
+      revealedIn: [{ book: 'white-sand-omnibus', chapter: '6' }],
+    },
+    aliases: [
+      {
+        name: 'Sharezan',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '17' }],
+      },
+    ],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '6' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Lossandin',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '6' }],
+      },
+    ],
+    profession: [
+      {
+        name: 'Trackt',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '6' }],
+      },
+      {
+        name: 'Criminal',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '17' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  vey: {
+    appearsIn: [
+      {
+        bookId: 'white-sand-omnibus',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '4' }],
+      },
+    ],
+    world: {
+      planetId: 'taldain',
+      revealedIn: [{ book: 'white-sand-omnibus', chapter: '4' }],
+    },
+    aliases: [
+      {
+        name: 'Lord Merchant',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '4' }],
+      },
+    ],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '4' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Lossandin',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '16' }],
+      },
+    ],
+    profession: [],
+    groups: [
+      {
+        name: 'Taishin',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '4' }],
+      },
+      {
+        name: 'The Guild',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '6' }],
+      },
+    ],
+    bonds: [],
+    relatives: [
+      {
+        name: 'NaiMeer',
+        relation: 'relative',
+        characterId: 'naimeer',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '15' }],
+      },
+    ],
+  },
+  mellis: {
+    appearsIn: [
+      {
+        bookId: 'white-sand-omnibus',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '6' }],
+      },
+    ],
+    world: {
+      planetId: 'taldain',
+      revealedIn: [{ book: 'white-sand-omnibus', chapter: '6' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '6' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Lossandin',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '18' }],
+      },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Ais',
+        relation: 'spouse',
+        characterId: 'ais',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '6' }],
+      },
+      {
+        name: 'Melloni',
+        relation: 'child',
+        characterId: 'melloni',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '6' }],
+      },
+    ],
+  },
+  praxton: {
+    appearsIn: [
+      {
+        bookId: 'white-sand-omnibus',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '1' }],
+      },
+    ],
+    world: {
+      planetId: 'taldain',
+      revealedIn: [{ book: 'white-sand-omnibus', chapter: '1' }],
+    },
+    aliases: [
+      {
+        name: 'Lord Mastrell',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '1' }],
+      },
+    ],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '1' }],
+      },
+    ],
+    abilities: [
+      {
+        name: 'Sand master',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '1' }],
+      },
+    ],
+    nationality: [
+      {
+        name: 'Lossandin',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '5' }],
+      },
+    ],
+    profession: [],
+    groups: [
+      {
+        name: 'Diem',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '1' }],
+      },
+      {
+        name: 'Taishin',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '5' }],
+      },
+    ],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Kenton',
+        relation: 'child',
+        characterId: 'kenton',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '1' }],
+      },
+    ],
+  },
+  daazk: {
+    appearsIn: [
+      {
+        bookId: 'white-sand-omnibus',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: 'prologue' }],
+      },
+    ],
+    world: {
+      planetId: 'taldain',
+      revealedIn: [{ book: 'white-sand-omnibus', chapter: 'prologue' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: 'prologue' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Kerztian',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '1' }],
+      },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  flennid: {
+    appearsIn: [
+      {
+        bookId: 'white-sand-omnibus',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: 'prologue' }],
+      },
+    ],
+    world: {
+      planetId: 'taldain',
+      revealedIn: [{ book: 'white-sand-omnibus', chapter: 'prologue' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: 'prologue' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Elisian',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '8' }],
+      },
+    ],
+    profession: [
+      {
+        name: 'Soldier',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: 'prologue' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  gennel: {
+    appearsIn: [
+      {
+        bookId: 'white-sand-omnibus',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '15' }],
+      },
+    ],
+    world: {
+      planetId: 'taldain',
+      revealedIn: [{ book: 'white-sand-omnibus', chapter: '15' }],
+    },
+    aliases: [
+      {
+        name: 'Lord Farmer',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '15' }],
+      },
+    ],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '15' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Lossandin',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '15' }],
+      },
+    ],
+    profession: [],
+    groups: [
+      {
+        name: 'Taishin',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '15' }],
+      },
+      { name: 'The Field', revealedIn: ['white-sand-omnibus'] },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  lokkall: {
+    appearsIn: [
+      {
+        bookId: 'white-sand-omnibus',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '15' }],
+      },
+    ],
+    world: {
+      planetId: 'taldain',
+      revealedIn: [{ book: 'white-sand-omnibus', chapter: '15' }],
+    },
+    aliases: [
+      {
+        name: 'Lord Admiral',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '15' }],
+      },
+    ],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '15' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Lossandin',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '15' }],
+      },
+    ],
+    profession: [],
+    groups: [
+      {
+        name: 'Taishin',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '15' }],
+      },
+      {
+        name: 'The Helm',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '15' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  lokmlen: {
+    appearsIn: [
+      {
+        bookId: 'white-sand-omnibus',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '6' }],
+      },
+    ],
+    world: {
+      planetId: 'taldain',
+      revealedIn: [{ book: 'white-sand-omnibus', chapter: '6' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '6' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Daysider',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '6' }],
+      },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  melloni: {
+    appearsIn: [
+      {
+        bookId: 'white-sand-omnibus',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '6' }],
+      },
+    ],
+    world: {
+      planetId: 'taldain',
+      revealedIn: [{ book: 'white-sand-omnibus', chapter: '6' }],
+    },
+    aliases: [
+      {
+        name: 'Melly',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '11' }],
+      },
+    ],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '6' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Lossandin',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '18' }],
+      },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Ais',
+        relation: 'parent',
+        characterId: 'ais',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '6' }],
+      },
+      {
+        name: 'Mellis',
+        relation: 'parent',
+        characterId: 'mellis',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '6' }],
+      },
+    ],
+  },
+  rite: {
+    appearsIn: [
+      {
+        bookId: 'white-sand-omnibus',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '7' }],
+      },
+    ],
+    world: {
+      planetId: 'taldain',
+      revealedIn: [{ book: 'white-sand-omnibus', chapter: '7' }],
+    },
+    aliases: [
+      {
+        name: 'Lord Artisan',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '7' }],
+      },
+    ],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '7' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Lossandin',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '7' }],
+      },
+    ],
+    profession: [],
+    groups: [
+      {
+        name: 'Taishin',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '7' }],
+      },
+      {
+        name: 'The Draft',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '7' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  torth: {
+    appearsIn: [
+      {
+        bookId: 'white-sand-omnibus',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: 'prologue' }],
+      },
+    ],
+    world: {
+      planetId: 'taldain',
+      revealedIn: [{ book: 'white-sand-omnibus', chapter: 'prologue' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: 'prologue' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Elisian',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '8' }],
+      },
+    ],
+    profession: [
+      {
+        name: 'Soldier',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: 'prologue' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  traiben: {
+    appearsIn: [
+      {
+        bookId: 'white-sand-omnibus',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: 'prologue' }],
+      },
+    ],
+    world: {
+      planetId: 'taldain',
+      revealedIn: [{ book: 'white-sand-omnibus', chapter: 'prologue' }],
+    },
+    aliases: [
+      {
+        name: 'Mastrell',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: 'prologue' }],
+      },
+    ],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: 'prologue' }],
+      },
+    ],
+    abilities: [
+      {
+        name: 'Sand master',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: 'prologue' }],
+      },
+    ],
+    nationality: [
+      {
+        name: 'Lossandin',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '5' }],
+      },
+    ],
+    profession: [],
+    groups: [
+      {
+        name: 'Diem',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: 'prologue' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  'allstren-cynder': {
+    appearsIn: [
+      {
+        bookId: 'white-sand-omnibus',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: 'prologue' }],
+      },
+    ],
+    world: {
+      planetId: 'taldain',
+      revealedIn: [{ book: 'white-sand-omnibus', chapter: 'prologue' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: 'prologue' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Elisian',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: 'prologue' }],
+      },
+    ],
+    profession: [
+      {
+        name: 'Linguist',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: 'prologue' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  grelin: {
+    appearsIn: [
+      {
+        bookId: 'white-sand-omnibus',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '13' }],
+      },
+    ],
+    world: {
+      planetId: 'taldain',
+      revealedIn: [{ book: 'white-sand-omnibus', chapter: '13' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '13' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Lossandin',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '13' }],
+      },
+    ],
+    profession: [
+      {
+        name: 'Secretary',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '13' }],
+      },
+    ],
+    groups: [
+      {
+        name: 'The Guild',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '13' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  'jon-acron': {
+    appearsIn: [
+      {
+        bookId: 'white-sand-omnibus',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: 'prologue' }],
+      },
+    ],
+    world: {
+      planetId: 'taldain',
+      revealedIn: [{ book: 'white-sand-omnibus', chapter: 'prologue' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: 'prologue' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Professor',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: 'prologue' }],
+      },
+      {
+        name: 'Assassin',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '14' }],
+      },
+    ],
+    groups: [
+      {
+        name: 'Darksider',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '5' }],
+      },
+      {
+        name: 'Dynasty',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '14' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  raagent: {
+    appearsIn: [
+      {
+        bookId: 'white-sand-omnibus',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '7' }],
+      },
+    ],
+    world: {
+      planetId: 'taldain',
+      revealedIn: [{ book: 'white-sand-omnibus', chapter: '7' }],
+    },
+    aliases: [
+      {
+        name: 'Lord General',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '7' }],
+      },
+    ],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '7' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Lossandin',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '7' }],
+      },
+    ],
+    profession: [],
+    groups: [
+      {
+        name: 'Taishin',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '7' }],
+      },
+      {
+        name: 'The Tower',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '7' }],
+      },
+    ],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Aarik',
+        relation: 'child',
+        characterId: 'aarik',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '7' }],
+      },
+    ],
+  },
+  'deliuss-son': {
+    appearsIn: [
+      {
+        bookId: 'white-sand-omnibus',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '15' }],
+      },
+    ],
+    world: {
+      planetId: 'taldain',
+      revealedIn: [{ book: 'white-sand-omnibus', chapter: '15' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '15' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Lossandin',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '15' }],
+      },
+    ],
+    profession: [
+      {
+        name: 'Steward',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '15' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Delius',
+        relation: 'parent',
+        characterId: 'delius',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '15' }],
+      },
+    ],
+  },
+  doril: {
+    appearsIn: [
+      {
+        bookId: 'white-sand-omnibus',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '13' }],
+      },
+    ],
+    world: {
+      planetId: 'taldain',
+      revealedIn: [{ book: 'white-sand-omnibus', chapter: '13' }],
+    },
+    aliases: [
+      {
+        name: 'Underfen',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '13' }],
+      },
+    ],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '13' }],
+      },
+    ],
+    abilities: [
+      {
+        name: 'Sand master',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '13' }],
+      },
+    ],
+    nationality: [
+      {
+        name: 'Lossandin',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '13' }],
+      },
+    ],
+    profession: [],
+    groups: [
+      {
+        name: 'Diem',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '13' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  gremt: {
+    appearsIn: [
+      {
+        bookId: 'white-sand-omnibus',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '16' }],
+      },
+    ],
+    world: {
+      planetId: 'taldain',
+      revealedIn: [{ book: 'white-sand-omnibus', chapter: '16' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '16' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Lossandin',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '16' }],
+      },
+    ],
+    profession: [
+      {
+        name: 'Soldier',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '16' }],
+      },
+    ],
+    groups: [
+      {
+        name: 'The Tower',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '16' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  loaten: {
+    appearsIn: [
+      {
+        bookId: 'white-sand-omnibus',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '5' }],
+      },
+    ],
+    world: {
+      planetId: 'taldain',
+      revealedIn: [{ book: 'white-sand-omnibus', chapter: '5' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '5' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  moril: {
+    appearsIn: [
+      {
+        bookId: 'white-sand-omnibus',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: 'prologue' }],
+      },
+    ],
+    world: {
+      planetId: 'taldain',
+      revealedIn: [{ book: 'white-sand-omnibus', chapter: 'prologue' }],
+    },
+    aliases: [
+      {
+        name: 'Underlestrell',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: 'prologue' }],
+      },
+    ],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: 'prologue' }],
+      },
+    ],
+    abilities: [
+      {
+        name: 'Sand master',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: 'prologue' }],
+      },
+    ],
+    nationality: [
+      {
+        name: 'Lossandin',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '5' }],
+      },
+    ],
+    profession: [],
+    groups: [
+      {
+        name: 'Diem',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: 'prologue' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  naimeer: {
+    appearsIn: [
+      {
+        bookId: 'white-sand-omnibus',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '15' }],
+      },
+    ],
+    world: {
+      planetId: 'taldain',
+      revealedIn: [{ book: 'white-sand-omnibus', chapter: '15' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '15' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Lossandin',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '15' }],
+      },
+    ],
+    profession: [
+      {
+        name: 'Dockmaster',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '15' }],
+      },
+    ],
+    groups: [{ name: 'The Helm', revealedIn: ['white-sand-omnibus'] }],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Vey',
+        relation: 'relative',
+        characterId: 'vey',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '15' }],
+      },
+    ],
+  },
+  reendel: {
+    appearsIn: [
+      {
+        bookId: 'white-sand-omnibus',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '2' }],
+      },
+    ],
+    world: {
+      planetId: 'taldain',
+      revealedIn: [{ book: 'white-sand-omnibus', chapter: '2' }],
+    },
+    aliases: [
+      {
+        name: 'Lestrell',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '2' }],
+      },
+    ],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '2' }],
+      },
+    ],
+    abilities: [
+      {
+        name: 'Sand master',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '2' }],
+      },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [
+      {
+        name: 'Diem',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '2' }],
+      },
+    ],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Keshdel',
+        relation: 'parent',
+        characterId: 'keshdel',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '2' }],
+      },
+    ],
+  },
+  serin: {
+    appearsIn: [
+      {
+        bookId: 'white-sand-omnibus',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: 'epilogue' }],
+      },
+    ],
+    world: {
+      planetId: 'taldain',
+      revealedIn: [{ book: 'white-sand-omnibus', chapter: 'epilogue' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: 'epilogue' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Lossandin',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: 'epilogue' }],
+      },
+    ],
+    profession: [
+      {
+        name: 'Secretary',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: 'epilogue' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'tarn-taldain': {
+    appearsIn: [
+      {
+        bookId: 'white-sand-omnibus',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '13' }],
+      },
+    ],
+    world: {
+      planetId: 'taldain',
+      revealedIn: [{ book: 'white-sand-omnibus', chapter: '13' }],
+    },
+    aliases: [
+      {
+        name: 'Tonk',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '13' }],
+      },
+    ],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '13' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  torkel: {
+    appearsIn: [
+      {
+        bookId: 'white-sand-omnibus',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '6' }],
+      },
+    ],
+    world: {
+      planetId: 'taldain',
+      revealedIn: [{ book: 'white-sand-omnibus', chapter: '6' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '6' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [
+      {
+        name: 'The Guild',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '6' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  'trell-taldain': {
+    appearsIn: [
+      {
+        bookId: 'white-sand-omnibus',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '12' }],
+      },
+    ],
+    world: {
+      planetId: 'taldain',
+      revealedIn: [{ book: 'white-sand-omnibus', chapter: '12' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '12' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Lossandin',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '12' }],
+      },
+    ],
+    profession: [
+      {
+        name: 'Builder',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '12' }],
+      },
+    ],
+    groups: [{ name: "Mason's Guild", revealedIn: ['white-sand-omnibus'] }],
+    bonds: [],
+    relatives: [],
+  },
+  vennin: {
+    appearsIn: [
+      {
+        bookId: 'white-sand-omnibus',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '13' }],
+      },
+    ],
+    world: {
+      planetId: 'taldain',
+      revealedIn: [{ book: 'white-sand-omnibus', chapter: '13' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '13' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Lossandin',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '13' }],
+      },
+    ],
+    profession: [
+      {
+        name: 'Trackt',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '13' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  yeeden: {
+    appearsIn: [
+      {
+        bookId: 'white-sand-omnibus',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: 'prologue' }],
+      },
+    ],
+    world: {
+      planetId: 'taldain',
+      revealedIn: [{ book: 'white-sand-omnibus', chapter: 'prologue' }],
+    },
+    aliases: [
+      {
+        name: 'Lestrell',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: 'prologue' }],
+      },
+    ],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: 'prologue' }],
+      },
+    ],
+    abilities: [
+      {
+        name: 'Sand master',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: 'prologue' }],
+      },
+    ],
+    nationality: [
+      {
+        name: 'Lossandin',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '5' }],
+      },
+    ],
+    profession: [],
+    groups: [
+      {
+        name: 'Diem',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: 'prologue' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  deral: {
+    appearsIn: [
+      {
+        bookId: 'white-sand-omnibus',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '8' }],
+      },
+    ],
+    world: {
+      planetId: 'taldain',
+      revealedIn: [{ book: 'white-sand-omnibus', chapter: '8' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '8' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Elisian',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '8' }],
+      },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  gevalden: {
+    appearsIn: [
+      {
+        bookId: 'white-sand-omnibus',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '5' }],
+      },
+    ],
+    world: {
+      planetId: 'taldain',
+      revealedIn: [{ book: 'white-sand-omnibus', chapter: '5' }],
+    },
+    aliases: [
+      {
+        name: 'Gevin',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '14' }],
+      },
+      {
+        name: 'Nilto',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '5' }],
+      },
+      {
+        name: 'Prince of Elis',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '14' }],
+      },
+      {
+        name: 'Lord Beggar',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '5' }],
+      },
+    ],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '5' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Elisian',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '14' }],
+      },
+    ],
+    profession: [],
+    groups: [
+      {
+        name: 'Taishin (unofficial)',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '5' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+    personas: [
+      {
+        id: 'nilto',
+        name: 'Nilto',
+        coppermindPage: 'Nilto',
+        books: ['white-sand-omnibus'],
+        identityRevealedIn: [{ book: 'white-sand-omnibus', chapter: '14' }],
+      },
+    ],
+  },
+  hennin: {
+    appearsIn: [
+      {
+        bookId: 'white-sand-omnibus',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '15' }],
+      },
+    ],
+    world: {
+      planetId: 'taldain',
+      revealedIn: [{ book: 'white-sand-omnibus', chapter: '15' }],
+    },
+    aliases: [
+      {
+        name: 'Lord Merchant',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '15' }],
+      },
+    ],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '15' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [
+      {
+        name: 'Taishin',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '15' }],
+      },
+      {
+        name: 'The Guild',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '15' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  jedan: {
+    appearsIn: [
+      {
+        bookId: 'white-sand-omnibus',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '6' }],
+      },
+    ],
+    world: {
+      planetId: 'taldain',
+      revealedIn: [{ book: 'white-sand-omnibus', chapter: '6' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '6' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Lossandin',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '6' }],
+      },
+    ],
+    profession: [
+      {
+        name: 'Trackt',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '6' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  karmat: {
+    appearsIn: [
+      {
+        bookId: 'white-sand-omnibus',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '12' }],
+      },
+    ],
+    world: {
+      planetId: 'taldain',
+      revealedIn: [{ book: 'white-sand-omnibus', chapter: '12' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '12' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Lossandin',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '12' }],
+      },
+    ],
+    profession: [],
+    groups: [{ name: "The Mason's Guild", revealedIn: ['white-sand-omnibus'] }],
+    bonds: [],
+    relatives: [],
+  },
+  'kentons-mother': {
+    appearsIn: [
+      {
+        bookId: 'white-sand-omnibus',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '11' }],
+      },
+    ],
+    world: {
+      planetId: 'taldain',
+      revealedIn: [{ book: 'white-sand-omnibus', chapter: '11' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '11' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Praxton',
+        relation: 'spouse',
+        characterId: 'praxton',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '11' }],
+      },
+      {
+        name: 'Kenton',
+        relation: 'child',
+        characterId: 'kenton',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '11' }],
+      },
+    ],
+  },
+  kerzt: {
+    appearsIn: [
+      {
+        bookId: 'white-sand-omnibus',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '3' }],
+      },
+    ],
+    world: {
+      planetId: 'taldain',
+      revealedIn: [{ book: 'white-sand-omnibus', chapter: '3' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '3' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Lossa',
+        relation: 'sibling',
+        characterId: 'lossa',
+        revealedIn: ['white-sand-omnibus'],
+      },
+    ],
+  },
+  lossa: {
+    appearsIn: [
+      {
+        bookId: 'white-sand-omnibus',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '3' }],
+      },
+    ],
+    world: {
+      planetId: 'taldain',
+      revealedIn: [{ book: 'white-sand-omnibus', chapter: '3' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '3' }],
+      },
+    ],
+    abilities: [{ name: 'Sand master', revealedIn: ['white-sand-omnibus'] }],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Kerzt',
+        relation: 'sibling',
+        characterId: 'kerzt',
+        revealedIn: ['white-sand-omnibus'],
+      },
+    ],
+  },
+  reven: {
+    appearsIn: [
+      {
+        bookId: 'white-sand-omnibus',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '9' }],
+      },
+    ],
+    world: {
+      planetId: 'taldain',
+      revealedIn: [{ book: 'white-sand-omnibus', chapter: '9' }],
+    },
+    aliases: [
+      {
+        name: 'King of Seevis',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '9' }],
+      },
+    ],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '9' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  skathan: {
+    appearsIn: [
+      {
+        bookId: 'white-sand-omnibus',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: 'prologue' }],
+      },
+    ],
+    world: {
+      planetId: 'taldain',
+      revealedIn: [{ book: 'white-sand-omnibus', chapter: 'prologue' }],
+    },
+    aliases: [
+      {
+        name: 'Emperor of the Dynasty',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: 'prologue' }],
+      },
+    ],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: 'prologue' }],
+      },
+    ],
+    abilities: [
+      {
+        name: 'Ageless',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '11' }],
+      },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  wilheln: {
+    appearsIn: [
+      {
+        bookId: 'white-sand-omnibus',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '5' }],
+      },
+    ],
+    world: {
+      planetId: 'taldain',
+      revealedIn: [{ book: 'white-sand-omnibus', chapter: '5' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '5' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  keshdel: {
+    appearsIn: [
+      {
+        bookId: 'white-sand-omnibus',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '2' }],
+      },
+    ],
+    world: {
+      planetId: 'taldain',
+      revealedIn: [{ book: 'white-sand-omnibus', chapter: '2' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '2' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Craftsman',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '2' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Reendel',
+        relation: 'child',
+        characterId: 'reendel',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '2' }],
+      },
+    ],
+  },
+  khyan: {
+    appearsIn: [
+      {
+        bookId: 'white-sand-omnibus',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '12' }],
+      },
+    ],
+    world: {
+      planetId: 'taldain',
+      revealedIn: [{ book: 'white-sand-omnibus', chapter: '12' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '12' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Lossandin',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '12' }],
+      },
+    ],
+    profession: [
+      {
+        name: 'Mason',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '12' }],
+      },
+    ],
+    groups: [{ name: "Mason's Guild", revealedIn: ['white-sand-omnibus'] }],
+    bonds: [],
+    relatives: [],
+  },
+  'mastrell-rile': {
+    appearsIn: [
+      {
+        bookId: 'white-sand-omnibus',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '1' }],
+      },
+    ],
+    world: {
+      planetId: 'taldain',
+      revealedIn: [{ book: 'white-sand-omnibus', chapter: '1' }],
+    },
+    aliases: [
+      {
+        name: 'Mastrell',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '1' }],
+      },
+    ],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '1' }],
+      },
+    ],
+    abilities: [
+      {
+        name: 'Sand master',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '1' }],
+      },
+    ],
+    nationality: [
+      {
+        name: 'Lossandin',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '5' }],
+      },
+    ],
+    profession: [],
+    groups: [
+      {
+        name: 'Diem',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '1' }],
+      },
+    ],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Drile',
+        relation: 'child',
+        characterId: 'drile',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '1' }],
+      },
+    ],
+  },
+  'sand-lord': {
+    appearsIn: [
+      {
+        bookId: 'white-sand-omnibus',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '3' }],
+      },
+    ],
+    world: {
+      planetId: 'taldain',
+      revealedIn: [{ book: 'white-sand-omnibus', chapter: '3' }],
+    },
+    aliases: [
+      {
+        name: 'Sun Lord',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '11' }],
+      },
+    ],
+    species: [],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  scooch: {
+    appearsIn: [
+      {
+        bookId: 'white-sand-omnibus',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '2' }],
+      },
+    ],
+    world: {
+      planetId: 'taldain',
+      revealedIn: [{ book: 'white-sand-omnibus', chapter: '2' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Sand fox',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '2' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  stumpy: {
+    appearsIn: [
+      {
+        bookId: 'white-sand-omnibus',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '4' }],
+      },
+    ],
+    world: {
+      planetId: 'taldain',
+      revealedIn: [{ book: 'white-sand-omnibus', chapter: '4' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Tonk',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '4' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  tendel: {
+    appearsIn: [
+      {
+        bookId: 'white-sand-omnibus',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '1' }],
+      },
+    ],
+    world: {
+      planetId: 'taldain',
+      revealedIn: [{ book: 'white-sand-omnibus', chapter: '1' }],
+    },
+    aliases: [
+      {
+        name: 'Mastrell',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '1' }],
+      },
+    ],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '1' }],
+      },
+    ],
+    abilities: [
+      {
+        name: 'Sand master',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '1' }],
+      },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [
+      {
+        name: 'Diem',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '1' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  charlie: {
+    appearsIn: [
+      { bookId: 'tress', revealedIn: [{ book: 'tress', chapter: '2' }] },
+    ],
+    world: { planetId: 'lumar', revealedIn: [{ book: 'tress', chapter: '2' }] },
+    aliases: [{ name: 'Huck', revealedIn: [{ book: 'tress', chapter: '60' }] }],
+    species: [{ name: 'Human', revealedIn: [{ book: 'tress', chapter: '2' }] }],
+    abilities: [],
+    nationality: [],
+    profession: [
+      { name: 'Pirate', revealedIn: [{ book: 'tress', chapter: '60' }] },
+      { name: 'Ducal heir', revealedIn: [{ book: 'tress', chapter: '4' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Dirk',
+        relation: 'relative',
+        characterId: 'dirk',
+        revealedIn: [{ book: 'tress', chapter: '5' }],
+      },
+    ],
+  },
+  salay: {
+    appearsIn: [
+      { bookId: 'tress', revealedIn: [{ book: 'tress', chapter: '15' }] },
+    ],
+    world: {
+      planetId: 'lumar',
+      revealedIn: [{ book: 'tress', chapter: '15' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'tress', chapter: '15' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      { name: 'Pirate', revealedIn: [{ book: 'tress', chapter: '15' }] },
+      { name: 'Helmswoman', revealedIn: [{ book: 'tress', chapter: '15' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  crow: {
+    appearsIn: [
+      { bookId: 'tress', revealedIn: [{ book: 'tress', chapter: '12' }] },
+      {
+        bookId: 'isles-of-the-emberdark',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '25' }],
+      },
+    ],
+    world: {
+      planetId: 'lumar',
+      revealedIn: [{ book: 'tress', chapter: '12' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [
+          { book: 'tress', chapter: '12' },
+          { book: 'isles-of-the-emberdark', chapter: '25' },
+        ],
+      },
+    ],
+    abilities: [
+      { name: 'Spore eater', revealedIn: [{ book: 'tress', chapter: '28' }] },
+      {
+        name: 'Worldhopper',
+        revealedIn: [
+          {
+            all: [
+              { book: 'tress', chapter: '12' },
+              { book: 'isles-of-the-emberdark', chapter: '25' },
+            ],
+          },
+        ],
+      },
+    ],
+    nationality: [],
+    profession: [
+      { name: 'Pirate', revealedIn: [{ book: 'tress', chapter: '12' }] },
+      {
+        name: 'Captain',
+        revealedIn: [
+          { book: 'tress', chapter: '12' },
+          { book: 'isles-of-the-emberdark', chapter: '25' },
+        ],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  ann: {
+    appearsIn: [
+      { bookId: 'tress', revealedIn: [{ book: 'tress', chapter: '14' }] },
+    ],
+    world: {
+      planetId: 'lumar',
+      revealedIn: [{ book: 'tress', chapter: '14' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'tress', chapter: '14' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      { name: 'Pirate', revealedIn: [{ book: 'tress', chapter: '14' }] },
+      { name: 'Carpenter', revealedIn: [{ book: 'tress', chapter: '14' }] },
+      {
+        name: 'Assistant cannonmaster',
+        revealedIn: [{ book: 'tress', chapter: '17' }],
+      },
+    ],
+    groups: [
+      {
+        name: "Crew of the Crow's Song",
+        revealedIn: [{ book: 'tress', chapter: '14' }],
+      },
+      { name: 'Crew of the Two Cups', revealedIn: ['tress'] },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  fort: {
+    appearsIn: [
+      { bookId: 'tress', revealedIn: [{ book: 'tress', chapter: '14' }] },
+    ],
+    world: {
+      planetId: 'lumar',
+      revealedIn: [{ book: 'tress', chapter: '14' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'tress', chapter: '14' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      { name: 'Pirate', revealedIn: [{ book: 'tress', chapter: '15' }] },
+      { name: 'Cook', revealedIn: [{ book: 'tress', chapter: '15' }] },
+      { name: 'Trader', revealedIn: [{ book: 'tress', chapter: '15' }] },
+      { name: 'Hunter', revealedIn: [{ book: 'tress', chapter: '40' }] },
+      { name: 'Quartermaster', revealedIn: [{ book: 'tress', chapter: '14' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  laggart: {
+    appearsIn: [
+      { bookId: 'tress', revealedIn: [{ book: 'tress', chapter: '13' }] },
+    ],
+    world: {
+      planetId: 'lumar',
+      revealedIn: [{ book: 'tress', chapter: '13' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'tress', chapter: '13' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      { name: 'Pirate', revealedIn: [{ book: 'tress', chapter: '19' }] },
+      { name: 'First mate', revealedIn: [{ book: 'tress', chapter: '15' }] },
+      { name: 'Cannonmaster', revealedIn: [{ book: 'tress', chapter: '15' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'charlies-father': {
+    appearsIn: [
+      { bookId: 'tress', revealedIn: [{ book: 'tress', chapter: '2' }] },
+    ],
+    world: { planetId: 'lumar', revealedIn: [{ book: 'tress', chapter: '2' }] },
+    aliases: [{ name: 'Duke', revealedIn: [{ book: 'tress', chapter: '2' }] }],
+    species: [{ name: 'Human', revealedIn: [{ book: 'tress', chapter: '2' }] }],
+    abilities: [],
+    nationality: [],
+    profession: [
+      { name: 'Duke', revealedIn: [{ book: 'tress', chapter: '2' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Charlie',
+        relation: 'child',
+        characterId: 'charlie',
+        revealedIn: [{ book: 'tress', chapter: '2' }],
+      },
+      {
+        name: 'Dirk',
+        relation: 'relative',
+        characterId: 'dirk',
+        revealedIn: [{ book: 'tress', chapter: '5' }],
+      },
+    ],
+  },
+  'captain-of-the-oots-dream': {
+    appearsIn: [
+      { bookId: 'tress', revealedIn: [{ book: 'tress', chapter: '7' }] },
+    ],
+    world: { planetId: 'lumar', revealedIn: [{ book: 'tress', chapter: '7' }] },
+    aliases: [],
+    species: [{ name: 'Human', revealedIn: [{ book: 'tress', chapter: '7' }] }],
+    abilities: [],
+    nationality: [],
+    profession: [
+      { name: 'Captain', revealedIn: [{ book: 'tress', chapter: '7' }] },
+      { name: 'Smuggler', revealedIn: [{ book: 'tress', chapter: '9' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  lem: {
+    appearsIn: [
+      { bookId: 'tress', revealedIn: [{ book: 'tress', chapter: '4' }] },
+    ],
+    world: { planetId: 'lumar', revealedIn: [{ book: 'tress', chapter: '4' }] },
+    aliases: [],
+    species: [{ name: 'Human', revealedIn: [{ book: 'tress', chapter: '4' }] }],
+    abilities: [],
+    nationality: [],
+    profession: [
+      { name: 'Miner', revealedIn: [{ book: 'tress', chapter: '5' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Ulba',
+        relation: 'spouse',
+        characterId: 'ulba',
+        revealedIn: [{ book: 'tress', chapter: '5' }],
+      },
+      {
+        name: 'Tress',
+        relation: 'child',
+        characterId: 'tress',
+        revealedIn: [{ book: 'tress', chapter: '4' }],
+      },
+    ],
+  },
+  ulba: {
+    appearsIn: [
+      { bookId: 'tress', revealedIn: [{ book: 'tress', chapter: '5' }] },
+    ],
+    world: { planetId: 'lumar', revealedIn: [{ book: 'tress', chapter: '5' }] },
+    aliases: [],
+    species: [{ name: 'Human', revealedIn: [{ book: 'tress', chapter: '5' }] }],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Lem',
+        relation: 'spouse',
+        characterId: 'lem',
+        revealedIn: [{ book: 'tress', chapter: '5' }],
+      },
+      {
+        name: 'Tress',
+        relation: 'child',
+        characterId: 'tress',
+        revealedIn: [{ book: 'tress', chapter: '5' }],
+      },
+    ],
+  },
+  dorp: {
+    appearsIn: [
+      { bookId: 'tress', revealedIn: [{ book: 'tress', chapter: '10' }] },
+    ],
+    world: {
+      planetId: 'lumar',
+      revealedIn: [{ book: 'tress', chapter: '10' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'tress', chapter: '10' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      { name: 'Sprouter', revealedIn: [{ book: 'tress', chapter: '11' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  pakson: {
+    appearsIn: [
+      { bookId: 'tress', revealedIn: [{ book: 'tress', chapter: '44' }] },
+    ],
+    world: {
+      planetId: 'lumar',
+      revealedIn: [{ book: 'tress', chapter: '44' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'tress', chapter: '44' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      { name: 'Pirate', revealedIn: [{ book: 'tress', chapter: '44' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  brick: {
+    appearsIn: [
+      { bookId: 'tress', revealedIn: [{ book: 'tress', chapter: '6' }] },
+    ],
+    world: { planetId: 'lumar', revealedIn: [{ book: 'tress', chapter: '6' }] },
+    aliases: [],
+    species: [{ name: 'Human', revealedIn: [{ book: 'tress', chapter: '6' }] }],
+    abilities: [],
+    nationality: [],
+    profession: [
+      { name: 'Brewer', revealedIn: [{ book: 'tress', chapter: '7' }] },
+      { name: 'Tavern owner', revealedIn: [{ book: 'tress', chapter: '7' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  brunswick: {
+    appearsIn: [
+      { bookId: 'tress', revealedIn: [{ book: 'tress', chapter: '5' }] },
+    ],
+    world: { planetId: 'lumar', revealedIn: [{ book: 'tress', chapter: '5' }] },
+    aliases: [],
+    species: [{ name: 'Human', revealedIn: [{ book: 'tress', chapter: '5' }] }],
+    abilities: [],
+    nationality: [],
+    profession: [
+      { name: 'Steward', revealedIn: [{ book: 'tress', chapter: '5' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  dirk: {
+    appearsIn: [
+      { bookId: 'tress', revealedIn: [{ book: 'tress', chapter: '5' }] },
+    ],
+    world: { planetId: 'lumar', revealedIn: [{ book: 'tress', chapter: '5' }] },
+    aliases: [
+      { name: 'Ducal heir', revealedIn: [{ book: 'tress', chapter: '5' }] },
+    ],
+    species: [{ name: 'Human', revealedIn: [{ book: 'tress', chapter: '5' }] }],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Military officer',
+        revealedIn: [{ book: 'tress', chapter: '5' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'The princess of Dormancy',
+        relation: 'spouse',
+        characterId: 'princess-of-dormancy',
+        revealedIn: [{ book: 'tress', chapter: '5' }],
+      },
+      {
+        name: 'The duke',
+        relation: 'uncle',
+        characterId: 'charlies-father',
+        revealedIn: [{ book: 'tress', chapter: '5' }],
+      },
+      {
+        name: 'Charlie',
+        relation: 'cousin',
+        characterId: 'charlie',
+        revealedIn: [{ book: 'tress', chapter: '5' }],
+      },
+    ],
+  },
+  flik: {
+    appearsIn: [
+      { bookId: 'tress', revealedIn: [{ book: 'tress', chapter: '5' }] },
+    ],
+    world: { planetId: 'lumar', revealedIn: [{ book: 'tress', chapter: '5' }] },
+    aliases: [],
+    species: [{ name: 'Human', revealedIn: [{ book: 'tress', chapter: '5' }] }],
+    abilities: [],
+    nationality: [],
+    profession: [
+      { name: 'Servant', revealedIn: [{ book: 'tress', chapter: '5' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  gremmy: {
+    appearsIn: [
+      { bookId: 'tress', revealedIn: [{ book: 'tress', chapter: '6' }] },
+    ],
+    world: { planetId: 'lumar', revealedIn: [{ book: 'tress', chapter: '6' }] },
+    aliases: [],
+    species: [{ name: 'Human', revealedIn: [{ book: 'tress', chapter: '6' }] }],
+    abilities: [],
+    nationality: [],
+    profession: [
+      { name: 'Dockworker', revealedIn: [{ book: 'tress', chapter: '8' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  gret: {
+    appearsIn: [
+      { bookId: 'tress', revealedIn: [{ book: 'tress', chapter: '7' }] },
+    ],
+    world: { planetId: 'lumar', revealedIn: [{ book: 'tress', chapter: '7' }] },
+    aliases: [],
+    species: [{ name: 'Human', revealedIn: [{ book: 'tress', chapter: '7' }] }],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Sor',
+        relation: 'parent',
+        characterId: 'sor',
+        revealedIn: [{ book: 'tress', chapter: '7' }],
+      },
+    ],
+  },
+  gustal: {
+    appearsIn: [
+      { bookId: 'tress', revealedIn: [{ book: 'tress', chapter: '11' }] },
+    ],
+    world: {
+      planetId: 'lumar',
+      revealedIn: [{ book: 'tress', chapter: '11' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'tress', chapter: '11' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      { name: 'Sailor', revealedIn: [{ book: 'tress', chapter: '11' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  inspector: {
+    appearsIn: [
+      { bookId: 'tress', revealedIn: [{ book: 'tress', chapter: '6' }] },
+    ],
+    world: { planetId: 'lumar', revealedIn: [{ book: 'tress', chapter: '6' }] },
+    aliases: [],
+    species: [{ name: 'Human', revealedIn: [{ book: 'tress', chapter: '6' }] }],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Royal inspector',
+        revealedIn: [{ book: 'tress', chapter: '6' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  jule: {
+    appearsIn: [
+      { bookId: 'tress', revealedIn: [{ book: 'tress', chapter: '7' }] },
+    ],
+    world: { planetId: 'lumar', revealedIn: [{ book: 'tress', chapter: '7' }] },
+    aliases: [],
+    species: [{ name: 'Human', revealedIn: [{ book: 'tress', chapter: '7' }] }],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  lead: {
+    appearsIn: [
+      { bookId: 'tress', revealedIn: [{ book: 'tress', chapter: '2' }] },
+    ],
+    world: { planetId: 'lumar', revealedIn: [{ book: 'tress', chapter: '2' }] },
+    aliases: [],
+    species: [{ name: 'Human', revealedIn: [{ book: 'tress', chapter: '2' }] }],
+    abilities: [],
+    nationality: [],
+    profession: [
+      { name: 'Soldier', revealedIn: [{ book: 'tress', chapter: '2' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'princess-of-dormancy': {
+    appearsIn: [
+      { bookId: 'tress', revealedIn: [{ book: 'tress', chapter: '5' }] },
+    ],
+    world: { planetId: 'lumar', revealedIn: [{ book: 'tress', chapter: '5' }] },
+    aliases: [
+      { name: 'Princess', revealedIn: [{ book: 'tress', chapter: '5' }] },
+    ],
+    species: [{ name: 'Human', revealedIn: [{ book: 'tress', chapter: '5' }] }],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Dirk',
+        relation: 'spouse',
+        characterId: 'dirk',
+        revealedIn: [{ book: 'tress', chapter: '5' }],
+      },
+    ],
+  },
+  'rod-lumar': {
+    appearsIn: [
+      { bookId: 'tress', revealedIn: [{ book: 'tress', chapter: '7' }] },
+    ],
+    world: { planetId: 'lumar', revealedIn: [{ book: 'tress', chapter: '7' }] },
+    aliases: [],
+    species: [{ name: 'Human', revealedIn: [{ book: 'tress', chapter: '7' }] }],
+    abilities: [],
+    nationality: [],
+    profession: [
+      { name: 'Innkeeper', revealedIn: [{ book: 'tress', chapter: '7' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'salays-father': {
+    appearsIn: [
+      { bookId: 'tress', revealedIn: [{ book: 'tress', chapter: '20' }] },
+    ],
+    world: {
+      planetId: 'lumar',
+      revealedIn: [{ book: 'tress', chapter: '20' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'tress', chapter: '20' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Salay',
+        relation: 'child',
+        characterId: 'salay',
+        revealedIn: [{ book: 'tress', chapter: '20' }],
+      },
+    ],
+  },
+  smocke: {
+    appearsIn: [
+      { bookId: 'tress', revealedIn: [{ book: 'tress', chapter: '27' }] },
+    ],
+    world: {
+      planetId: 'lumar',
+      revealedIn: [{ book: 'tress', chapter: '27' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'tress', chapter: '27' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      { name: 'Sailor', revealedIn: [{ book: 'tress', chapter: '27' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  snagu: {
+    appearsIn: [
+      { bookId: 'tress', revealedIn: [{ book: 'tress', chapter: '2' }] },
+    ],
+    world: { planetId: 'lumar', revealedIn: [{ book: 'tress', chapter: '2' }] },
+    aliases: [],
+    species: [{ name: 'Human', revealedIn: [{ book: 'tress', chapter: '2' }] }],
+    abilities: [],
+    nationality: [],
+    profession: [
+      { name: 'Soldier', revealedIn: [{ book: 'tress', chapter: '2' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  sor: {
+    appearsIn: [
+      { bookId: 'tress', revealedIn: [{ book: 'tress', chapter: '6' }] },
+    ],
+    world: { planetId: 'lumar', revealedIn: [{ book: 'tress', chapter: '6' }] },
+    aliases: [],
+    species: [{ name: 'Human', revealedIn: [{ book: 'tress', chapter: '6' }] }],
+    abilities: [],
+    nationality: [],
+    profession: [
+      { name: 'Dockmaster', revealedIn: [{ book: 'tress', chapter: '7' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Gret',
+        relation: 'child',
+        characterId: 'gret',
+        revealedIn: [{ book: 'tress', chapter: '7' }],
+      },
+    ],
+  },
+  weev: {
+    appearsIn: [
+      { bookId: 'tress', revealedIn: [{ book: 'tress', chapter: '16' }] },
+    ],
+    world: {
+      planetId: 'lumar',
+      revealedIn: [{ book: 'tress', chapter: '16' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'tress', chapter: '16' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      { name: 'Sprouter', revealedIn: [{ book: 'tress', chapter: '16' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  bek: {
+    appearsIn: [
+      { bookId: 'tress', revealedIn: [{ book: 'tress', chapter: '31' }] },
+    ],
+    world: {
+      planetId: 'lumar',
+      revealedIn: [{ book: 'tress', chapter: '31' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'tress', chapter: '31' }] },
+    ],
+    abilities: [
+      { name: 'Spore eater', revealedIn: [{ book: 'tress', chapter: '31' }] },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  delph: {
+    appearsIn: [
+      { bookId: 'tress', revealedIn: [{ book: 'tress', chapter: '31' }] },
+    ],
+    world: {
+      planetId: 'lumar',
+      revealedIn: [{ book: 'tress', chapter: '31' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'tress', chapter: '31' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      { name: 'Scholar', revealedIn: [{ book: 'tress', chapter: '31' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'doug-lumar': {
+    appearsIn: [
+      { bookId: 'tress', revealedIn: [{ book: 'tress', chapter: '12' }] },
+    ],
+    world: {
+      planetId: 'lumar',
+      revealedIn: [{ book: 'tress', chapter: '12' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'tress', chapter: '12' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      { name: 'Pirate', revealedIn: [{ book: 'tress', chapter: '12' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  kaplan: {
+    appearsIn: [
+      { bookId: 'tress', revealedIn: [{ book: 'tress', chapter: '20' }] },
+    ],
+    world: {
+      planetId: 'lumar',
+      revealedIn: [{ book: 'tress', chapter: '20' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'tress', chapter: '20' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  lili: {
+    appearsIn: [
+      { bookId: 'tress', revealedIn: [{ book: 'tress', chapter: '52' }] },
+    ],
+    world: {
+      planetId: 'lumar',
+      revealedIn: [{ book: 'tress', chapter: '52' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'tress', chapter: '52' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  linji: {
+    appearsIn: [
+      { bookId: 'tress', revealedIn: [{ book: 'tress', chapter: '24' }] },
+    ],
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'tress', chapter: '24' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  mallory: {
+    appearsIn: [
+      { bookId: 'tress', revealedIn: [{ book: 'tress', chapter: '20' }] },
+    ],
+    world: {
+      planetId: 'lumar',
+      revealedIn: [{ book: 'tress', chapter: '20' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'tress', chapter: '20' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  marple: {
+    appearsIn: [
+      { bookId: 'tress', revealedIn: [{ book: 'tress', chapter: '20' }] },
+    ],
+    world: {
+      planetId: 'lumar',
+      revealedIn: [{ book: 'tress', chapter: '20' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'tress', chapter: '20' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'verdant-king': {
+    appearsIn: [
+      { bookId: 'tress', revealedIn: [{ book: 'tress', chapter: '7' }] },
+    ],
+    world: { planetId: 'lumar', revealedIn: [{ book: 'tress', chapter: '7' }] },
+    aliases: [],
+    species: [{ name: 'Human', revealedIn: [{ book: 'tress', chapter: '7' }] }],
+    abilities: [],
+    nationality: [],
+    profession: [
+      { name: 'King', revealedIn: [{ book: 'tress', chapter: '7' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'aunt-glorf': {
+    appearsIn: [
+      { bookId: 'tress', revealedIn: [{ book: 'tress', chapter: '40' }] },
+    ],
+    world: {
+      planetId: 'lumar',
+      revealedIn: [{ book: 'tress', chapter: '40' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'tress', chapter: '40' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Tress',
+        relation: 'relative',
+        characterId: 'tress',
+        revealedIn: [{ book: 'tress', chapter: '40' }],
+      },
+      {
+        name: 'Great-grandmother Glorf',
+        relation: 'ancestor',
+        characterId: 'great-grandmother-glorf',
+        revealedIn: [{ book: 'tress', chapter: '40' }],
+      },
+    ],
+  },
+  diggen: {
+    appearsIn: [
+      { bookId: 'tress', revealedIn: [{ book: 'tress', chapter: '1' }] },
+    ],
+    world: { planetId: 'lumar', revealedIn: [{ book: 'tress', chapter: '1' }] },
+    aliases: [],
+    species: [{ name: 'Human', revealedIn: [{ book: 'tress', chapter: '1' }] }],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'great-grandmother-glorf': {
+    appearsIn: [
+      { bookId: 'tress', revealedIn: [{ book: 'tress', chapter: '2' }] },
+    ],
+    world: { planetId: 'lumar', revealedIn: [{ book: 'tress', chapter: '2' }] },
+    aliases: [],
+    species: [{ name: 'Human', revealedIn: [{ book: 'tress', chapter: '2' }] }],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  holmes: {
+    appearsIn: [
+      { bookId: 'tress', revealedIn: [{ book: 'tress', chapter: '5' }] },
+    ],
+    world: { planetId: 'lumar', revealedIn: [{ book: 'tress', chapter: '5' }] },
+    aliases: [],
+    species: [{ name: 'Human', revealedIn: [{ book: 'tress', chapter: '5' }] }],
+    abilities: [],
+    nationality: [],
+    profession: [
+      { name: 'Baker', revealedIn: [{ book: 'tress', chapter: '5' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  lotari: {
+    appearsIn: [
+      { bookId: 'tress', revealedIn: [{ book: 'tress', chapter: '3' }] },
+    ],
+    world: { planetId: 'lumar', revealedIn: [{ book: 'tress', chapter: '3' }] },
+    aliases: [],
+    species: [{ name: 'Human', revealedIn: [{ book: 'tress', chapter: '3' }] }],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  poloni: {
+    appearsIn: [
+      { bookId: 'tress', revealedIn: [{ book: 'tress', chapter: '2' }] },
+    ],
+    world: { planetId: 'lumar', revealedIn: [{ book: 'tress', chapter: '2' }] },
+    aliases: [],
+    species: [{ name: 'Human', revealedIn: [{ book: 'tress', chapter: '2' }] }],
+    abilities: [],
+    nationality: [],
+    profession: [
+      { name: 'Fishmonger', revealedIn: [{ book: 'tress', chapter: '2' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  sak: {
+    appearsIn: [
+      { bookId: 'sixth-of-the-dusk', revealedIn: ['sixth-of-the-dusk'] },
+      {
+        bookId: 'isles-of-the-emberdark',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '1' }],
+      },
+    ],
+    world: {
+      planetId: 'first-of-the-sun',
+      revealedIn: [
+        'sixth-of-the-dusk',
+        { book: 'isles-of-the-emberdark', chapter: '1' },
+      ],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Aviar',
+        revealedIn: [
+          'sixth-of-the-dusk',
+          { book: 'isles-of-the-emberdark', chapter: '12' },
+        ],
+      },
+    ],
+    abilities: [
+      {
+        name: 'Precognition',
+        revealedIn: [
+          'sixth-of-the-dusk',
+          { book: 'isles-of-the-emberdark', chapter: '4' },
+        ],
+      },
+      { name: 'Worldhopper', revealedIn: ['isles-of-the-emberdark'] },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [
+      {
+        name: 'Sixth of the Dusk',
+        revealedIn: [
+          'sixth-of-the-dusk',
+          { book: 'isles-of-the-emberdark', chapter: '1' },
+        ],
+      },
+    ],
+    relatives: [],
+  },
+  illistandrista: {
+    appearsIn: [
+      {
+        bookId: 'isles-of-the-emberdark',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: 'prologue' }],
+      },
+    ],
+    world: {
+      planetId: 'yolen',
+      revealedIn: [{ book: 'isles-of-the-emberdark', chapter: 'prologue' }],
+    },
+    aliases: [
+      {
+        name: 'Starling',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: 'prologue' }],
+      },
+      {
+        name: 'L.T.',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '22' }],
+      },
+    ],
+    species: [
+      {
+        name: 'Dragon (cosmere)',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: 'prologue' }],
+      },
+    ],
+    abilities: [
+      {
+        name: 'Worldhopper',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '22' }],
+      },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Frost',
+        relation: 'relative',
+        characterId: 'frost',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: 'prologue' }],
+      },
+    ],
+  },
+  rokke: {
+    appearsIn: [
+      {
+        bookId: 'isles-of-the-emberdark',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '15' }],
+      },
+    ],
+    world: {
+      planetId: 'first-of-the-sun',
+      revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '15' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Aviar',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '15' }],
+      },
+    ],
+    abilities: [
+      {
+        name: 'Mental shielding',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '21' }],
+      },
+      { name: 'Worldhopper', revealedIn: ['isles-of-the-emberdark'] },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [
+      {
+        name: 'Sixth of the Dusk',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '33' }],
+      },
+    ],
+    relatives: [],
+  },
+  vathi: {
+    appearsIn: [
+      { bookId: 'sixth-of-the-dusk', revealedIn: ['sixth-of-the-dusk'] },
+      {
+        bookId: 'isles-of-the-emberdark',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '1' }],
+      },
+    ],
+    world: {
+      planetId: 'first-of-the-sun',
+      revealedIn: [
+        'sixth-of-the-dusk',
+        { book: 'isles-of-the-emberdark', chapter: '1' },
+      ],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [
+          'sixth-of-the-dusk',
+          { book: 'isles-of-the-emberdark', chapter: '1' },
+        ],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Scientist',
+        revealedIn: ['sixth-of-the-dusk', 'isles-of-the-emberdark'],
+      },
+      {
+        name: 'Explorer',
+        revealedIn: [
+          'sixth-of-the-dusk',
+          { book: 'isles-of-the-emberdark', chapter: '10' },
+        ],
+      },
+      {
+        name: 'President',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '1' }],
+      },
+    ],
+    groups: [
+      {
+        name: 'First Company',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '3' }],
+      },
+    ],
+    bonds: [
+      {
+        name: 'Mirris',
+        revealedIn: [
+          'sixth-of-the-dusk',
+          { book: 'isles-of-the-emberdark', chapter: '6' },
+        ],
+      },
+    ],
+    relatives: [],
+  },
+  dajer: {
+    appearsIn: [
+      {
+        bookId: 'isles-of-the-emberdark',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '36' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '36' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '36' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Malwish',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '36' }],
+      },
+    ],
+    profession: [
+      {
+        name: 'Soldier',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '36' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  zeetzi: {
+    appearsIn: [
+      {
+        bookId: 'isles-of-the-emberdark',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '22' }],
+      },
+    ],
+    aliases: [],
+    species: [
+      {
+        name: 'Lawnark',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '22' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  chrysalis: {
+    appearsIn: [
+      {
+        bookId: 'isles-of-the-emberdark',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '22' }],
+      },
+    ],
+    aliases: [],
+    species: [
+      {
+        name: 'Sleepless',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '23' }],
+      },
+    ],
+    abilities: [
+      {
+        name: 'Worldhopper',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '28' }],
+      },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  leonore: {
+    appearsIn: [
+      {
+        bookId: 'isles-of-the-emberdark',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '25' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '28' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '25' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Malwish',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '25' }],
+      },
+    ],
+    profession: [
+      {
+        name: 'Pilot',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '25' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  eddlin: {
+    appearsIn: [
+      {
+        bookId: 'isles-of-the-emberdark',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '25' }],
+      },
+    ],
+    aliases: [
+      {
+        name: 'Ed',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '25' }],
+      },
+    ],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '25' }],
+      },
+    ],
+    abilities: [
+      {
+        name: 'Worldhopper',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '25' }],
+      },
+    ],
+    nationality: [],
+    profession: [
+      {
+        name: 'Arcanist',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '25' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  aditil: {
+    appearsIn: [
+      {
+        bookId: 'isles-of-the-emberdark',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '22' }],
+      },
+    ],
+    world: {
+      planetId: 'dhatri',
+      revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '22' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '22' }],
+      },
+    ],
+    abilities: [
+      {
+        name: 'Aetherbound',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '42' }],
+      },
+      {
+        name: 'Worldhopper',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '22' }],
+      },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  dakwara: {
+    appearsIn: [
+      {
+        bookId: 'isles-of-the-emberdark',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '3' }],
+      },
+    ],
+    aliases: [],
+    species: [
+      {
+        name: 'Type 1-6 Threnodite entity',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '54' }],
+      },
+    ],
+    abilities: [
+      {
+        name: 'Splinter of Ambition',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '54' }],
+      },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  kokerlii: {
+    appearsIn: [
+      { bookId: 'sixth-of-the-dusk', revealedIn: ['sixth-of-the-dusk'] },
+      {
+        bookId: 'isles-of-the-emberdark',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '1' }],
+      },
+    ],
+    world: {
+      planetId: 'first-of-the-sun',
+      revealedIn: [
+        'sixth-of-the-dusk',
+        { book: 'isles-of-the-emberdark', chapter: '1' },
+      ],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Aviar',
+        revealedIn: [
+          'sixth-of-the-dusk',
+          { book: 'isles-of-the-emberdark', chapter: '1' },
+        ],
+      },
+    ],
+    abilities: [
+      {
+        name: 'Mental shielding',
+        revealedIn: [
+          'sixth-of-the-dusk',
+          { book: 'isles-of-the-emberdark', chapter: '2' },
+        ],
+      },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [
+      {
+        name: 'Sixth of the Dusk',
+        revealedIn: [
+          'sixth-of-the-dusk',
+          { book: 'isles-of-the-emberdark', chapter: '2' },
+        ],
+      },
+    ],
+    relatives: [],
+  },
+  mirris: {
+    appearsIn: [
+      { bookId: 'sixth-of-the-dusk', revealedIn: ['sixth-of-the-dusk'] },
+      {
+        bookId: 'isles-of-the-emberdark',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '6' }],
+      },
+    ],
+    world: {
+      planetId: 'first-of-the-sun',
+      revealedIn: [
+        'sixth-of-the-dusk',
+        { book: 'isles-of-the-emberdark', chapter: '6' },
+      ],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Aviar',
+        revealedIn: [
+          'sixth-of-the-dusk',
+          { book: 'isles-of-the-emberdark', chapter: '6' },
+        ],
+      },
+    ],
+    abilities: [
+      {
+        name: 'Mental shielding',
+        revealedIn: [
+          'sixth-of-the-dusk',
+          { book: 'isles-of-the-emberdark', chapter: '32' },
+        ],
+      },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [
+      {
+        name: 'Vathi',
+        revealedIn: [
+          'sixth-of-the-dusk',
+          { book: 'isles-of-the-emberdark', chapter: '6' },
+        ],
+      },
+    ],
+    relatives: [],
+  },
+  xisisrefliel: {
+    appearsIn: [
+      { bookId: 'tress', revealedIn: [{ book: 'tress', chapter: '31' }] },
+      {
+        bookId: 'isles-of-the-emberdark',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '28' }],
+      },
+    ],
+    world: { planetId: 'yolen', revealedIn: ['isles-of-the-emberdark'] },
+    aliases: [
+      {
+        name: 'Foil',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '32' }],
+      },
+      {
+        name: 'Xisis',
+        revealedIn: [
+          { book: 'tress', chapter: '31' },
+          { book: 'isles-of-the-emberdark', chapter: '28' },
+        ],
+      },
+    ],
+    species: [
+      {
+        name: 'Dragon (cosmere)',
+        revealedIn: [
+          { book: 'tress', chapter: '31' },
+          { book: 'isles-of-the-emberdark', chapter: '32' },
+        ],
+      },
+    ],
+    abilities: [
+      {
+        name: 'Worldhopper',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '32' }],
+      },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  crux: {
+    appearsIn: [
+      {
+        bookId: 'isles-of-the-emberdark',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '27' }],
+      },
+    ],
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '27' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Nol',
+        relation: 'spouse',
+        characterId: 'nol',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '30' }],
+      },
+    ],
+  },
+  'first-of-the-sky': {
+    appearsIn: [
+      { bookId: 'sixth-of-the-dusk', revealedIn: ['sixth-of-the-dusk'] },
+      {
+        bookId: 'isles-of-the-emberdark',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '12' }],
+      },
+    ],
+    world: {
+      planetId: 'first-of-the-sun',
+      revealedIn: [
+        'sixth-of-the-dusk',
+        { book: 'isles-of-the-emberdark', chapter: '12' },
+      ],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [
+          'sixth-of-the-dusk',
+          { book: 'isles-of-the-emberdark', chapter: '12' },
+        ],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Trapper',
+        revealedIn: [
+          'sixth-of-the-dusk',
+          { book: 'isles-of-the-emberdark', chapter: '12' },
+        ],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  nol: {
+    appearsIn: [
+      {
+        bookId: 'isles-of-the-emberdark',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '27' }],
+      },
+    ],
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '27' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Crux',
+        relation: 'spouse',
+        characterId: 'crux',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '30' }],
+      },
+    ],
+  },
+  ruen: {
+    appearsIn: [
+      {
+        bookId: 'isles-of-the-emberdark',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '15' }],
+      },
+    ],
+    world: {
+      planetId: 'first-of-the-sun',
+      revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '15' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '15' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Scientist',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '17' }],
+      },
+    ],
+    groups: [],
+    bonds: [
+      {
+        name: 'Unnamed Aviar',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '17' }],
+      },
+    ],
+    relatives: [],
+  },
+  'second-of-the-soil': {
+    appearsIn: [
+      {
+        bookId: 'isles-of-the-emberdark',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '7' }],
+      },
+    ],
+    world: {
+      planetId: 'first-of-the-sun',
+      revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '7' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '7' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Politician',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '7' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  tague: {
+    appearsIn: [
+      {
+        bookId: 'isles-of-the-emberdark',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '54' }],
+      },
+    ],
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '54' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Engineer',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '54' }],
+      },
+    ],
+    groups: [
+      {
+        name: 'Malwish Empire',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '54' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  frond: {
+    appearsIn: [
+      {
+        bookId: 'isles-of-the-emberdark',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '3' }],
+      },
+    ],
+    world: {
+      planetId: 'first-of-the-sun',
+      revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '3' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '3' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Loremother',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '3' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  patji: {
+    appearsIn: [
+      {
+        bookId: 'isles-of-the-emberdark',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '2' }],
+      },
+    ],
+    world: {
+      planetId: 'first-of-the-sun',
+      revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '2' }],
+    },
+    aliases: [],
+    species: [],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  saja: {
+    appearsIn: [
+      {
+        bookId: 'isles-of-the-emberdark',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '49' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '50' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '49' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Soldier',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '49' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  sisisru: {
+    appearsIn: [
+      { bookId: 'sixth-of-the-dusk', revealedIn: ['sixth-of-the-dusk'] },
+      {
+        bookId: 'isles-of-the-emberdark',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '8' }],
+      },
+    ],
+    world: {
+      planetId: 'first-of-the-sun',
+      revealedIn: [
+        'sixth-of-the-dusk',
+        { book: 'isles-of-the-emberdark', chapter: '8' },
+      ],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Aviar',
+        revealedIn: [
+          'sixth-of-the-dusk',
+          { book: 'isles-of-the-emberdark', chapter: '8' },
+        ],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  tuka: {
+    appearsIn: [
+      {
+        bookId: 'isles-of-the-emberdark',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '1' }],
+      },
+    ],
+    world: {
+      planetId: 'first-of-the-sun',
+      revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '1' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '1' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Park Director',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '1' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  winds: {
+    appearsIn: [
+      { bookId: 'sixth-of-the-dusk', revealedIn: ['sixth-of-the-dusk'] },
+      {
+        bookId: 'isles-of-the-emberdark',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '20' }],
+      },
+    ],
+    world: {
+      planetId: 'first-of-the-sun',
+      revealedIn: [
+        'sixth-of-the-dusk',
+        { book: 'isles-of-the-emberdark', chapter: '20' },
+      ],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [
+          'sixth-of-the-dusk',
+          { book: 'isles-of-the-emberdark', chapter: '20' },
+        ],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [
+      {
+        name: 'Northern Interests Trading Company',
+        revealedIn: [
+          'sixth-of-the-dusk',
+          { book: 'isles-of-the-emberdark', chapter: '20' },
+        ],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  biord: {
+    appearsIn: [
+      {
+        bookId: 'isles-of-the-emberdark',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '43' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '43' }],
+    },
+    aliases: [
+      {
+        name: 'Ensign',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '43' }],
+      },
+    ],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '43' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  cakoban: {
+    appearsIn: [
+      {
+        bookId: 'isles-of-the-emberdark',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '3' }],
+      },
+    ],
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '3' }],
+      },
+    ],
+    abilities: [
+      {
+        name: 'Navigator',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '52' }],
+      },
+      {
+        name: 'Worldhopper',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '52' }],
+      },
+    ],
+    nationality: [],
+    profession: [
+      {
+        name: 'Explorer',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '52' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  esandi: {
+    appearsIn: [
+      {
+        bookId: 'isles-of-the-emberdark',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '48' }],
+      },
+    ],
+    world: {
+      planetId: 'dhatri',
+      revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '48' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '48' }],
+      },
+    ],
+    abilities: [
+      {
+        name: 'Aetherbound',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '48' }],
+      },
+    ],
+    nationality: [
+      {
+        name: 'Malwish',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '48' }],
+      },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  flumi: {
+    appearsIn: [
+      {
+        bookId: 'isles-of-the-emberdark',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '61' }],
+      },
+    ],
+    world: {
+      planetId: 'first-of-the-sun',
+      revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '61' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '61' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  jope: {
+    appearsIn: [
+      {
+        bookId: 'isles-of-the-emberdark',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '52' }],
+      },
+    ],
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '52' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  kapu: {
+    appearsIn: [
+      {
+        bookId: 'isles-of-the-emberdark',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '3' }],
+      },
+    ],
+    world: {
+      planetId: 'first-of-the-sun',
+      revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '3' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '3' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Eelakin',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '3' }],
+      },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  karokandriamast: {
+    appearsIn: [
+      {
+        bookId: 'isles-of-the-emberdark',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '51' }],
+      },
+    ],
+    world: {
+      planetId: 'yolen',
+      revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '51' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Dragon (cosmere)',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '51' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'second-of-saplings': {
+    appearsIn: [
+      {
+        bookId: 'isles-of-the-emberdark',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '7' }],
+      },
+    ],
+    world: {
+      planetId: 'first-of-the-sun',
+      revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '7' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '7' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'General',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '7' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'second-of-the-fist': {
+    appearsIn: [
+      {
+        bookId: 'isles-of-the-emberdark',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '17' }],
+      },
+    ],
+    world: {
+      planetId: 'first-of-the-sun',
+      revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '17' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '17' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Guard',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '17' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'second-of-the-palm': {
+    appearsIn: [
+      {
+        bookId: 'isles-of-the-emberdark',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '11' }],
+      },
+    ],
+    world: {
+      planetId: 'first-of-the-sun',
+      revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '11' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '11' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Chief',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '11' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  spring: {
+    appearsIn: [
+      {
+        bookId: 'isles-of-the-emberdark',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '32' }],
+      },
+    ],
+    aliases: [],
+    species: [
+      {
+        name: 'Peakspren',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '32' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Guard',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '32' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'third-of-waves': {
+    appearsIn: [
+      {
+        bookId: 'isles-of-the-emberdark',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '7' }],
+      },
+    ],
+    world: {
+      planetId: 'first-of-the-sun',
+      revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '7' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '7' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Politician',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '7' }],
+      },
+    ],
+    groups: [],
+    bonds: [
+      {
+        name: 'Unnamed Aviar',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '7' }],
+      },
+    ],
+    relatives: [],
+  },
+  tumak: {
+    appearsIn: [
+      {
+        bookId: 'isles-of-the-emberdark',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '32' }],
+      },
+    ],
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '32' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Emperor',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '32' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  argent: {
+    appearsIn: [
+      {
+        bookId: 'isles-of-the-emberdark',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '30' }],
+      },
+    ],
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '30' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Arcanist',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '30' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  clemaxin: {
+    appearsIn: [
+      {
+        bookId: 'isles-of-the-emberdark',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '23' }],
+      },
+    ],
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '23' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  eusto: {
+    appearsIn: [
+      {
+        bookId: 'isles-of-the-emberdark',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '10' }],
+      },
+    ],
+    world: {
+      planetId: 'first-of-the-sun',
+      revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '10' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '10' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: "Ship's captain",
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '10' }],
+      },
+    ],
+    groups: [
+      {
+        name: 'Northern Interests Trading Company',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '10' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  'jess-silverlight': {
+    appearsIn: [
+      {
+        bookId: 'isles-of-the-emberdark',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '30' }],
+      },
+    ],
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '30' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Arcanist',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '30' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  kallib: {
+    appearsIn: [
+      {
+        bookId: 'isles-of-the-emberdark',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '38' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '38' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '38' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Malwish',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '38' }],
+      },
+    ],
+    profession: [
+      {
+        name: 'Soldier',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '38' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  kuko: {
+    appearsIn: [
+      {
+        bookId: 'isles-of-the-emberdark',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '61' }],
+      },
+    ],
+    world: {
+      planetId: 'first-of-the-sun',
+      revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '61' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '61' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'professor-lake': {
+    appearsIn: [
+      {
+        bookId: 'isles-of-the-emberdark',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '32' }],
+      },
+    ],
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '32' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Arcanist',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '32' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'second-of-the-dawn': {
+    appearsIn: [
+      {
+        bookId: 'isles-of-the-emberdark',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '21' }],
+      },
+    ],
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '21' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  vambrakastram: {
+    appearsIn: [
+      {
+        bookId: 'isles-of-the-emberdark',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: 'prologue' }],
+      },
+    ],
+    world: {
+      planetId: 'yolen',
+      revealedIn: [{ book: 'isles-of-the-emberdark', chapter: 'prologue' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Dragon (cosmere)',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: 'prologue' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  yaalani: {
+    appearsIn: [
+      {
+        bookId: 'isles-of-the-emberdark',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '6' }],
+      },
+    ],
+    world: {
+      planetId: 'first-of-the-sun',
+      revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '6' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '6' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Trapper',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '6' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  yadramak: {
+    appearsIn: [
+      {
+        bookId: 'isles-of-the-emberdark',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '48' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '48' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '48' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Malwish',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '48' }],
+      },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'admiral-rattu': {
+    appearsIn: [
+      {
+        bookId: 'isles-of-the-emberdark',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '11' }],
+      },
+    ],
+    world: {
+      planetId: 'first-of-the-sun',
+      revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '11' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '11' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Admiral',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '11' }],
+      },
+    ],
+    groups: [
+      {
+        name: 'First Company',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '19' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  tuli: {
+    appearsIn: [
+      {
+        bookId: 'isles-of-the-emberdark',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '7' }],
+      },
+    ],
+    world: {
+      planetId: 'first-of-the-sun',
+      revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '7' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '7' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Strategist',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '7' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'wan-shailu': {
+    appearsIn: [
+      {
+        bookId: 'emperors-soul',
+        revealedIn: [{ book: 'emperors-soul', chapter: 'prologue' }],
+      },
+      {
+        bookId: 'lost-metal',
+        revealedIn: [{ book: 'lost-metal', chapter: '20' }],
+      },
+    ],
+    world: {
+      planetId: 'sel',
+      revealedIn: [{ book: 'emperors-soul', chapter: 'prologue' }],
+    },
+    aliases: [
+      {
+        name: 'Shaizan',
+        revealedIn: [{ book: 'emperors-soul', chapter: 'day-98' }],
+      },
+      {
+        name: 'Moonlight',
+        revealedIn: [{ book: 'lost-metal', chapter: '20' }],
+      },
+      { name: 'Kim', revealedIn: [{ book: 'lost-metal', chapter: '29' }] },
+      { name: 'Shay-I', revealedIn: [{ book: 'lost-metal', chapter: '54' }] },
+      {
+        name: 'Shai',
+        revealedIn: [{ book: 'emperors-soul', chapter: 'day-2' }],
+      },
+    ],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [
+          { book: 'emperors-soul', chapter: 'prologue' },
+          { book: 'lost-metal', chapter: '20' },
+        ],
+      },
+    ],
+    abilities: [
+      {
+        name: 'Forger',
+        revealedIn: [{ book: 'emperors-soul', chapter: 'prologue' }],
+      },
+      {
+        name: 'Worldhopper',
+        revealedIn: [{ book: 'lost-metal', chapter: '20' }],
+      },
+    ],
+    nationality: [
+      {
+        name: 'MaiPon',
+        revealedIn: [{ book: 'emperors-soul', chapter: 'day-17' }],
+      },
+    ],
+    profession: [],
+    groups: [
+      {
+        name: 'Ghostbloods',
+        revealedIn: [{ book: 'lost-metal', chapter: '20' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+    personas: [
+      {
+        id: 'moonlight',
+        name: 'Moonlight',
+        coppermindPage: 'Moonlight',
+        books: ['lost-metal'],
+        identityRevealedIn: [
+          { all: ['emperors-soul', { book: 'lost-metal', chapter: '42' }] },
+        ],
+      },
+    ],
+  },
+  gaotona: {
+    appearsIn: [
+      {
+        bookId: 'emperors-soul',
+        revealedIn: [{ book: 'emperors-soul', chapter: 'prologue' }],
+      },
+    ],
+    world: {
+      planetId: 'sel',
+      revealedIn: [{ book: 'emperors-soul', chapter: 'prologue' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'emperors-soul', chapter: 'prologue' }],
+      },
+    ],
+    abilities: [],
+    nationality: [{ name: 'Grand', revealedIn: ['emperors-soul'] }],
+    profession: [
+      {
+        name: 'Arbiter',
+        revealedIn: [{ book: 'emperors-soul', chapter: 'prologue' }],
+      },
+    ],
+    groups: [
+      {
+        name: 'Heritage Faction',
+        revealedIn: [{ book: 'emperors-soul', chapter: 'prologue' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  'zu-sel': {
+    appearsIn: [
+      {
+        bookId: 'emperors-soul',
+        revealedIn: [{ book: 'emperors-soul', chapter: 'day-2' }],
+      },
+    ],
+    world: {
+      planetId: 'sel',
+      revealedIn: [{ book: 'emperors-soul', chapter: 'day-2' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'emperors-soul', chapter: 'day-2' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Striker',
+        revealedIn: [{ book: 'emperors-soul', chapter: 'day-2' }],
+      },
+    ],
+    profession: [
+      {
+        name: 'Soldier',
+        revealedIn: [{ book: 'emperors-soul', chapter: 'day-2' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  frava: {
+    appearsIn: [
+      {
+        bookId: 'emperors-soul',
+        revealedIn: [{ book: 'emperors-soul', chapter: 'prologue' }],
+      },
+    ],
+    world: {
+      planetId: 'sel',
+      revealedIn: [{ book: 'emperors-soul', chapter: 'prologue' }],
+    },
+    aliases: [
+      {
+        name: 'Senior Arbiter',
+        revealedIn: [{ book: 'emperors-soul', chapter: 'prologue' }],
+      },
+    ],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'emperors-soul', chapter: 'prologue' }],
+      },
+    ],
+    abilities: [],
+    nationality: [{ name: 'Grand', revealedIn: ['emperors-soul'] }],
+    profession: [],
+    groups: [
+      {
+        name: 'Heritage Faction',
+        revealedIn: [{ book: 'emperors-soul', chapter: 'prologue' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  weedfingers: {
+    appearsIn: [
+      {
+        bookId: 'emperors-soul',
+        revealedIn: [{ book: 'emperors-soul', chapter: 'day-97' }],
+      },
+    ],
+    world: {
+      planetId: 'sel',
+      revealedIn: [{ book: 'emperors-soul', chapter: 'day-97' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'emperors-soul', chapter: 'day-97' }],
+      },
+    ],
+    abilities: [
+      {
+        name: 'Bloodsealer',
+        revealedIn: [{ book: 'emperors-soul', chapter: 'day-97' }],
+      },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  ashravan: {
+    appearsIn: [
+      {
+        bookId: 'emperors-soul',
+        revealedIn: [{ book: 'emperors-soul', chapter: 'day-2' }],
+      },
+    ],
+    world: {
+      planetId: 'sel',
+      revealedIn: [{ book: 'emperors-soul', chapter: 'day-2' }],
+    },
+    aliases: [
+      {
+        name: 'Emperor of the Rose Empire',
+        revealedIn: [{ book: 'emperors-soul', chapter: 'day-2' }],
+      },
+    ],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'emperors-soul', chapter: 'day-2' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [
+      {
+        name: 'Heritage Faction',
+        revealedIn: [{ book: 'emperors-soul', chapter: 'day-2' }],
+      },
+    ],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Kurshina',
+        relation: 'spouse',
+        characterId: 'kurshina',
+        revealedIn: [{ book: 'emperors-soul', chapter: 'day-85' }],
+      },
+    ],
+  },
+  hurli: {
+    appearsIn: [
+      {
+        bookId: 'emperors-soul',
+        revealedIn: [{ book: 'emperors-soul', chapter: 'day-97' }],
+      },
+    ],
+    world: {
+      planetId: 'sel',
+      revealedIn: [{ book: 'emperors-soul', chapter: 'day-97' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'emperors-soul', chapter: 'day-97' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Striker',
+        revealedIn: [{ book: 'emperors-soul', chapter: 'day-97' }],
+      },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  stivient: {
+    appearsIn: [
+      {
+        bookId: 'emperors-soul',
+        revealedIn: [{ book: 'emperors-soul', chapter: 'epilogue' }],
+      },
+    ],
+    world: {
+      planetId: 'sel',
+      revealedIn: [{ book: 'emperors-soul', chapter: 'epilogue' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'emperors-soul', chapter: 'epilogue' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [
+      {
+        name: 'Heritage Faction',
+        revealedIn: [{ book: 'emperors-soul', chapter: 'epilogue' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  ushnaka: {
+    appearsIn: [
+      {
+        bookId: 'emperors-soul',
+        revealedIn: [{ book: 'emperors-soul', chapter: 'epilogue' }],
+      },
+    ],
+    world: {
+      planetId: 'sel',
+      revealedIn: [{ book: 'emperors-soul', chapter: 'epilogue' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'emperors-soul', chapter: 'epilogue' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [
+      {
+        name: 'Heritage Faction',
+        revealedIn: [{ book: 'emperors-soul', chapter: 'epilogue' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  yil: {
+    appearsIn: [
+      {
+        bookId: 'emperors-soul',
+        revealedIn: [{ book: 'emperors-soul', chapter: 'day-97' }],
+      },
+    ],
+    world: {
+      planetId: 'sel',
+      revealedIn: [{ book: 'emperors-soul', chapter: 'day-97' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'emperors-soul', chapter: 'day-97' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Striker',
+        revealedIn: [{ book: 'emperors-soul', chapter: 'day-97' }],
+      },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  atsuko: {
+    appearsIn: [
+      {
+        bookId: 'emperors-soul',
+        revealedIn: [{ book: 'emperors-soul', chapter: 'day-76' }],
+      },
+    ],
+    world: {
+      planetId: 'sel',
+      revealedIn: [{ book: 'emperors-soul', chapter: 'day-76' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'emperors-soul', chapter: 'day-76' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'JinDo',
+        revealedIn: [{ book: 'emperors-soul', chapter: 'day-76' }],
+      },
+    ],
+    profession: [
+      {
+        name: 'Artist',
+        revealedIn: [{ book: 'emperors-soul', chapter: 'day-76' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  azalec: {
+    appearsIn: [
+      {
+        bookId: 'emperors-soul',
+        revealedIn: [{ book: 'emperors-soul', chapter: 'day-97' }],
+      },
+    ],
+    world: {
+      planetId: 'sel',
+      revealedIn: [{ book: 'emperors-soul', chapter: 'day-97' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'emperors-soul', chapter: 'day-97' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  chamrav: {
+    appearsIn: [
+      {
+        bookId: 'emperors-soul',
+        revealedIn: [{ book: 'emperors-soul', chapter: 'day-12' }],
+      },
+    ],
+    world: {
+      planetId: 'sel',
+      revealedIn: [{ book: 'emperors-soul', chapter: 'day-12' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'emperors-soul', chapter: 'day-12' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'han-shuxen': {
+    appearsIn: [
+      {
+        bookId: 'emperors-soul',
+        revealedIn: [{ book: 'emperors-soul', chapter: 'day-2' }],
+      },
+    ],
+    world: {
+      planetId: 'sel',
+      revealedIn: [{ book: 'emperors-soul', chapter: 'day-2' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'emperors-soul', chapter: 'day-2' }],
+      },
+    ],
+    abilities: [],
+    nationality: [{ name: 'MaiPon', revealedIn: ['emperors-soul'] }],
+    profession: [
+      {
+        name: 'Painter',
+        revealedIn: [{ book: 'emperors-soul', chapter: 'day-2' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  kurshina: {
+    appearsIn: [
+      {
+        bookId: 'emperors-soul',
+        revealedIn: [{ book: 'emperors-soul', chapter: 'day-85' }],
+      },
+    ],
+    world: {
+      planetId: 'sel',
+      revealedIn: [{ book: 'emperors-soul', chapter: 'day-85' }],
+    },
+    aliases: [
+      {
+        name: 'Empress of the Rose Empire',
+        revealedIn: [{ book: 'emperors-soul', chapter: 'day-98' }],
+      },
+    ],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'emperors-soul', chapter: 'day-85' }],
+      },
+    ],
+    abilities: [],
+    nationality: [{ name: 'Grand', revealedIn: ['emperors-soul'] }],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Ashravan',
+        relation: 'spouse',
+        characterId: 'ashravan',
+        revealedIn: [{ book: 'emperors-soul', chapter: 'day-85' }],
+      },
+    ],
+  },
+  nyen: {
+    appearsIn: [
+      {
+        bookId: 'emperors-soul',
+        revealedIn: [{ book: 'emperors-soul', chapter: 'day-58' }],
+      },
+    ],
+    world: {
+      planetId: 'sel',
+      revealedIn: [{ book: 'emperors-soul', chapter: 'day-58' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'emperors-soul', chapter: 'day-58' }],
+      },
+    ],
+    abilities: [
+      {
+        name: 'Forger',
+        revealedIn: [{ book: 'emperors-soul', chapter: 'day-58' }],
+      },
+    ],
+    nationality: [{ name: 'MaiPon', revealedIn: ['emperors-soul'] }],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  tao: {
+    appearsIn: [
+      {
+        bookId: 'emperors-soul',
+        revealedIn: [{ book: 'emperors-soul', chapter: 'day-42' }],
+      },
+    ],
+    world: {
+      planetId: 'sel',
+      revealedIn: [{ book: 'emperors-soul', chapter: 'day-42' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'emperors-soul', chapter: 'day-42' }],
+      },
+    ],
+    abilities: [
+      {
+        name: 'Forger',
+        revealedIn: [{ book: 'emperors-soul', chapter: 'day-42' }],
+      },
+    ],
+    nationality: [{ name: 'MaiPon', revealedIn: ['emperors-soul'] }],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  yazad: {
+    appearsIn: [
+      {
+        bookId: 'emperors-soul',
+        revealedIn: [{ book: 'emperors-soul', chapter: 'day-17' }],
+      },
+    ],
+    world: {
+      planetId: 'sel',
+      revealedIn: [{ book: 'emperors-soul', chapter: 'day-17' }],
+    },
+    aliases: [
+      {
+        name: 'Emperor of the Rose Empire',
+        revealedIn: [{ book: 'emperors-soul', chapter: 'day-17' }],
+      },
+    ],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'emperors-soul', chapter: 'day-17' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'silence-montane': {
+    appearsIn: [
+      {
+        bookId: 'shadows-for-silence',
+        revealedIn: [{ book: 'shadows-for-silence', chapter: 'prologue' }],
+      },
+    ],
+    world: {
+      planetId: 'threnody',
+      revealedIn: [{ book: 'shadows-for-silence', chapter: 'prologue' }],
+    },
+    aliases: [
+      {
+        name: 'White Fox',
+        revealedIn: [{ book: 'shadows-for-silence', chapter: '5' }],
+      },
+    ],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'shadows-for-silence', chapter: 'prologue' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Innkeeper',
+        revealedIn: [{ book: 'shadows-for-silence', chapter: 'prologue' }],
+      },
+      {
+        name: 'Bounty Hunter',
+        revealedIn: [{ book: 'shadows-for-silence', chapter: '1' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'William Montane',
+        relation: 'spouse',
+        characterId: 'william-montane',
+        revealedIn: [{ book: 'shadows-for-silence', chapter: '4' }],
+      },
+      {
+        name: 'William Ann Montane',
+        relation: 'child',
+        characterId: 'william-ann-montane',
+        revealedIn: [{ book: 'shadows-for-silence', chapter: '1' }],
+      },
+      {
+        name: 'Sebruki',
+        relation: 'adopted',
+        characterId: 'sebruki',
+        revealedIn: ['shadows-for-silence'],
+      },
+    ],
+  },
+  'william-ann-montane': {
+    appearsIn: [
+      {
+        bookId: 'shadows-for-silence',
+        revealedIn: [{ book: 'shadows-for-silence', chapter: '1' }],
+      },
+    ],
+    world: {
+      planetId: 'threnody',
+      revealedIn: [{ book: 'shadows-for-silence', chapter: '1' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'shadows-for-silence', chapter: '1' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Silence Montane',
+        relation: 'parent',
+        characterId: 'silence-montane',
+        revealedIn: [{ book: 'shadows-for-silence', chapter: '1' }],
+      },
+      {
+        name: 'William Montane',
+        relation: 'parent',
+        characterId: 'william-montane',
+        revealedIn: [{ book: 'shadows-for-silence', chapter: '1' }],
+      },
+      {
+        name: 'Sebruki',
+        relation: 'sibling',
+        characterId: 'sebruki',
+        revealedIn: ['shadows-for-silence'],
+      },
+    ],
+  },
+  'chesterton-divide': {
+    appearsIn: [
+      {
+        bookId: 'shadows-for-silence',
+        revealedIn: [{ book: 'shadows-for-silence', chapter: '1' }],
+      },
+    ],
+    world: {
+      planetId: 'threnody',
+      revealedIn: [{ book: 'shadows-for-silence', chapter: '1' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'shadows-for-silence', chapter: '1' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Highwayman',
+        revealedIn: [{ book: 'shadows-for-silence', chapter: '1' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  theopolis: {
+    appearsIn: [
+      {
+        bookId: 'shadows-for-silence',
+        revealedIn: [{ book: 'shadows-for-silence', chapter: '1' }],
+      },
+    ],
+    world: {
+      planetId: 'threnody',
+      revealedIn: [{ book: 'shadows-for-silence', chapter: '1' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'shadows-for-silence', chapter: '1' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Loan Shark',
+        revealedIn: [{ book: 'shadows-for-silence', chapter: '1' }],
+      },
+      { name: 'Tax Collector', revealedIn: ['shadows-for-silence'] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  daggon: {
+    appearsIn: [
+      {
+        bookId: 'shadows-for-silence',
+        revealedIn: [{ book: 'shadows-for-silence', chapter: 'prologue' }],
+      },
+    ],
+    world: {
+      planetId: 'threnody',
+      revealedIn: [{ book: 'shadows-for-silence', chapter: 'prologue' }],
+    },
+    aliases: [{ name: 'Amity', revealedIn: ['shadows-for-silence'] }],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'shadows-for-silence', chapter: 'prologue' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  dob: {
+    appearsIn: [
+      {
+        bookId: 'shadows-for-silence',
+        revealedIn: [{ book: 'shadows-for-silence', chapter: '1' }],
+      },
+    ],
+    world: {
+      planetId: 'threnody',
+      revealedIn: [{ book: 'shadows-for-silence', chapter: '1' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'shadows-for-silence', chapter: '1' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Stable hand',
+        revealedIn: [{ book: 'shadows-for-silence', chapter: '1' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'lamentation-winebare': {
+    appearsIn: [
+      {
+        bookId: 'shadows-for-silence',
+        revealedIn: [{ book: 'shadows-for-silence', chapter: '1' }],
+      },
+    ],
+    world: {
+      planetId: 'threnody',
+      revealedIn: [{ book: 'shadows-for-silence', chapter: '1' }],
+    },
+    aliases: [
+      {
+        name: 'Earnest',
+        revealedIn: [{ book: 'shadows-for-silence', chapter: 'prologue' }],
+      },
+    ],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'shadows-for-silence', chapter: '1' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [{ name: 'Horse Thief', revealedIn: ['shadows-for-silence'] }],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  sebruki: {
+    appearsIn: [
+      {
+        bookId: 'shadows-for-silence',
+        revealedIn: [{ book: 'shadows-for-silence', chapter: '1' }],
+      },
+    ],
+    world: {
+      planetId: 'threnody',
+      revealedIn: [{ book: 'shadows-for-silence', chapter: '1' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'shadows-for-silence', chapter: '1' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Silence Montane',
+        relation: 'parent',
+        characterId: 'silence-montane',
+        revealedIn: ['shadows-for-silence'],
+      },
+      {
+        name: 'William Ann',
+        relation: 'sibling',
+        characterId: 'william-ann-montane',
+        revealedIn: ['shadows-for-silence'],
+      },
+    ],
+  },
+  'red-young': {
+    appearsIn: [
+      {
+        bookId: 'shadows-for-silence',
+        revealedIn: [{ book: 'shadows-for-silence', chapter: '2' }],
+      },
+    ],
+    world: {
+      planetId: 'threnody',
+      revealedIn: [{ book: 'shadows-for-silence', chapter: '2' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'shadows-for-silence', chapter: '2' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Bounty Hunter',
+        revealedIn: [{ book: 'shadows-for-silence', chapter: '2' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'silences-grandmother': {
+    appearsIn: [
+      {
+        bookId: 'shadows-for-silence',
+        revealedIn: [{ book: 'shadows-for-silence', chapter: '4' }],
+      },
+    ],
+    world: {
+      planetId: 'threnody',
+      revealedIn: [{ book: 'shadows-for-silence', chapter: '4' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Shade',
+        revealedIn: [{ book: 'shadows-for-silence', chapter: '5' }],
+      },
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'shadows-for-silence', chapter: '4' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  tobias: {
+    appearsIn: [
+      {
+        bookId: 'shadows-for-silence',
+        revealedIn: [{ book: 'shadows-for-silence', chapter: '2' }],
+      },
+    ],
+    world: {
+      planetId: 'threnody',
+      revealedIn: [{ book: 'shadows-for-silence', chapter: '2' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'shadows-for-silence', chapter: '2' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Bounty Hunter',
+        revealedIn: [{ book: 'shadows-for-silence', chapter: '2' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'bloody-kent': {
+    appearsIn: [
+      {
+        bookId: 'shadows-for-silence',
+        revealedIn: [{ book: 'shadows-for-silence', chapter: 'epilogue' }],
+      },
+    ],
+    world: {
+      planetId: 'threnody',
+      revealedIn: [{ book: 'shadows-for-silence', chapter: 'epilogue' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'shadows-for-silence', chapter: 'epilogue' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      { name: 'Bounty Hunter', revealedIn: ['shadows-for-silence'] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  harold: {
+    appearsIn: [
+      {
+        bookId: 'shadows-for-silence',
+        revealedIn: [{ book: 'shadows-for-silence', chapter: '2' }],
+      },
+    ],
+    world: {
+      planetId: 'threnody',
+      revealedIn: [{ book: 'shadows-for-silence', chapter: '2' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'shadows-for-silence', chapter: '2' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'makepeace-hapshire': {
+    appearsIn: [
+      {
+        bookId: 'shadows-for-silence',
+        revealedIn: [{ book: 'shadows-for-silence', chapter: 'prologue' }],
+      },
+    ],
+    world: {
+      planetId: 'threnody',
+      revealedIn: [{ book: 'shadows-for-silence', chapter: 'prologue' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'shadows-for-silence', chapter: 'prologue' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'william-montane': {
+    appearsIn: [
+      {
+        bookId: 'shadows-for-silence',
+        revealedIn: [{ book: 'shadows-for-silence', chapter: 'prologue' }],
+      },
+    ],
+    world: {
+      planetId: 'threnody',
+      revealedIn: [{ book: 'shadows-for-silence', chapter: 'prologue' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'shadows-for-silence', chapter: 'prologue' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Silence Forescout',
+        relation: 'spouse',
+        characterId: 'silence-montane',
+        revealedIn: [{ book: 'shadows-for-silence', chapter: '4' }],
+      },
+      {
+        name: 'William Ann Montane',
+        relation: 'child',
+        characterId: 'william-ann-montane',
+        revealedIn: [{ book: 'shadows-for-silence', chapter: '1' }],
+      },
+    ],
+  },
+  'silences-grandfather': {
+    appearsIn: [
+      { bookId: 'shadows-for-silence', revealedIn: ['shadows-for-silence'] },
+    ],
+    world: { planetId: 'threnody', revealedIn: ['shadows-for-silence'] },
+    aliases: [],
+    species: [{ name: 'Human', revealedIn: ['shadows-for-silence'] }],
+    abilities: [],
+    nationality: [],
+    profession: [{ name: 'Innkeeper', revealedIn: ['shadows-for-silence'] }],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  liyun: {
+    appearsIn: [
+      { bookId: 'yumi', revealedIn: [{ book: 'yumi', chapter: '2' }] },
+    ],
+    world: {
+      planetId: 'komashi',
+      revealedIn: [{ book: 'yumi', chapter: '34' }],
+    },
+    aliases: [{ name: 'Warden-nimi', revealedIn: ['yumi'] }],
+    species: [{ name: 'Human', revealedIn: [{ book: 'yumi', chapter: '2' }] }],
+    abilities: [
+      { name: 'Nightmare', revealedIn: [{ book: 'yumi', chapter: '34' }] },
+    ],
+    nationality: [
+      { name: 'Torish', revealedIn: [{ book: 'yumi', chapter: '2' }] },
+    ],
+    profession: [
+      { name: 'Kihomaban', revealedIn: [{ book: 'yumi', chapter: '2' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  akane: {
+    appearsIn: [
+      { bookId: 'yumi', revealedIn: [{ book: 'yumi', chapter: '1' }] },
+    ],
+    world: {
+      planetId: 'komashi',
+      revealedIn: [{ book: 'yumi', chapter: '1' }],
+    },
+    aliases: [],
+    species: [{ name: 'Human', revealedIn: [{ book: 'yumi', chapter: '1' }] }],
+    abilities: [],
+    nationality: [
+      { name: 'Nagadan', revealedIn: [{ book: 'yumi', chapter: '31' }] },
+    ],
+    profession: [
+      { name: 'Painter', revealedIn: [{ book: 'yumi', chapter: '1' }] },
+    ],
+    groups: [
+      {
+        name: 'Nightmare Division',
+        revealedIn: [{ book: 'yumi', chapter: '14' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  hwanji: {
+    appearsIn: [
+      { bookId: 'yumi', revealedIn: [{ book: 'yumi', chapter: '2' }] },
+    ],
+    world: {
+      planetId: 'komashi',
+      revealedIn: [{ book: 'yumi', chapter: '34' }],
+    },
+    aliases: [],
+    species: [{ name: 'Human', revealedIn: [{ book: 'yumi', chapter: '2' }] }],
+    abilities: [
+      { name: 'Nightmare', revealedIn: [{ book: 'yumi', chapter: '34' }] },
+    ],
+    nationality: [
+      { name: 'Torish', revealedIn: [{ book: 'yumi', chapter: '2' }] },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  chaeyung: {
+    appearsIn: [
+      { bookId: 'yumi', revealedIn: [{ book: 'yumi', chapter: '2' }] },
+    ],
+    world: {
+      planetId: 'komashi',
+      revealedIn: [{ book: 'yumi', chapter: '34' }],
+    },
+    aliases: [],
+    species: [{ name: 'Human', revealedIn: [{ book: 'yumi', chapter: '2' }] }],
+    abilities: [
+      { name: 'Nightmare', revealedIn: [{ book: 'yumi', chapter: '34' }] },
+    ],
+    nationality: [
+      { name: 'Torish', revealedIn: [{ book: 'yumi', chapter: '2' }] },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  tojin: {
+    appearsIn: [
+      { bookId: 'yumi', revealedIn: [{ book: 'yumi', chapter: '1' }] },
+    ],
+    world: {
+      planetId: 'komashi',
+      revealedIn: [{ book: 'yumi', chapter: '1' }],
+    },
+    aliases: [],
+    species: [{ name: 'Human', revealedIn: [{ book: 'yumi', chapter: '1' }] }],
+    abilities: [],
+    nationality: [
+      { name: 'Nagadan', revealedIn: [{ book: 'yumi', chapter: '31' }] },
+    ],
+    profession: [
+      { name: 'Painter', revealedIn: [{ book: 'yumi', chapter: '1' }] },
+    ],
+    groups: [
+      {
+        name: 'Nightmare Division',
+        revealedIn: [{ book: 'yumi', chapter: '14' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  masaka: {
+    appearsIn: [
+      { bookId: 'yumi', revealedIn: [{ book: 'yumi', chapter: '16' }] },
+    ],
+    aliases: [
+      {
+        name: 'Chinikdakordich',
+        revealedIn: [{ book: 'yumi', chapter: '33' }],
+      },
+    ],
+    species: [
+      { name: 'Sleepless', revealedIn: [{ book: 'yumi', chapter: '33' }] },
+    ],
+    abilities: [{ name: 'Worldhopper', revealedIn: ['yumi'] }],
+    nationality: [
+      { name: 'Nagadan', revealedIn: [{ book: 'yumi', chapter: '31' }] },
+    ],
+    profession: [
+      { name: 'Painter', revealedIn: [{ book: 'yumi', chapter: '16' }] },
+    ],
+    groups: [
+      {
+        name: 'Nightmare Division',
+        revealedIn: [{ book: 'yumi', chapter: '16' }],
+      },
+      { name: 'Natricatich strain', revealedIn: ['yumi'] },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  izumakamo: {
+    appearsIn: [
+      { bookId: 'yumi', revealedIn: [{ book: 'yumi', chapter: '16' }] },
+    ],
+    world: {
+      planetId: 'komashi',
+      revealedIn: [{ book: 'yumi', chapter: '16' }],
+    },
+    aliases: [{ name: 'Izzy', revealedIn: [{ book: 'yumi', chapter: '16' }] }],
+    species: [{ name: 'Human', revealedIn: [{ book: 'yumi', chapter: '16' }] }],
+    abilities: [],
+    nationality: [
+      { name: 'Nagadan', revealedIn: [{ book: 'yumi', chapter: '31' }] },
+    ],
+    profession: [
+      { name: 'Painter', revealedIn: [{ book: 'yumi', chapter: '21' }] },
+    ],
+    groups: [
+      {
+        name: 'Nightmare Division',
+        revealedIn: [{ book: 'yumi', chapter: '21' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  gyundok: {
+    appearsIn: [
+      { bookId: 'yumi', revealedIn: [{ book: 'yumi', chapter: '23' }] },
+    ],
+    world: {
+      planetId: 'komashi',
+      revealedIn: [{ book: 'yumi', chapter: '34' }],
+    },
+    aliases: [],
+    species: [{ name: 'Human', revealedIn: [{ book: 'yumi', chapter: '23' }] }],
+    abilities: [
+      { name: 'Nightmare', revealedIn: [{ book: 'yumi', chapter: '34' }] },
+    ],
+    nationality: [
+      { name: 'Torish', revealedIn: [{ book: 'yumi', chapter: '23' }] },
+    ],
+    profession: [
+      { name: 'Scholar', revealedIn: [{ book: 'yumi', chapter: '23' }] },
+    ],
+    groups: [
+      {
+        name: 'Institute of Mechanical Solutions',
+        revealedIn: [{ book: 'yumi', chapter: '23' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  sunjun: {
+    appearsIn: [
+      { bookId: 'yumi', revealedIn: [{ book: 'yumi', chapter: '23' }] },
+    ],
+    world: {
+      planetId: 'komashi',
+      revealedIn: [{ book: 'yumi', chapter: '34' }],
+    },
+    aliases: [],
+    species: [{ name: 'Human', revealedIn: [{ book: 'yumi', chapter: '23' }] }],
+    abilities: [
+      { name: 'Nightmare', revealedIn: [{ book: 'yumi', chapter: '34' }] },
+    ],
+    nationality: [
+      { name: 'Torish', revealedIn: [{ book: 'yumi', chapter: '23' }] },
+    ],
+    profession: [
+      { name: 'Scholar', revealedIn: [{ book: 'yumi', chapter: '23' }] },
+    ],
+    groups: [
+      {
+        name: 'Institute of Mechanical Solutions',
+        revealedIn: [{ book: 'yumi', chapter: '23' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  honam: {
+    appearsIn: [
+      { bookId: 'yumi', revealedIn: [{ book: 'yumi', chapter: '23' }] },
+    ],
+    world: {
+      planetId: 'komashi',
+      revealedIn: [{ book: 'yumi', chapter: '34' }],
+    },
+    aliases: [],
+    species: [{ name: 'Human', revealedIn: [{ book: 'yumi', chapter: '23' }] }],
+    abilities: [
+      { name: 'Nightmare', revealedIn: [{ book: 'yumi', chapter: '34' }] },
+    ],
+    nationality: [
+      { name: 'Torish', revealedIn: [{ book: 'yumi', chapter: '23' }] },
+    ],
+    profession: [
+      { name: 'Scholar', revealedIn: [{ book: 'yumi', chapter: '23' }] },
+    ],
+    groups: [
+      {
+        name: 'Institute of Mechanical Solutions',
+        revealedIn: [{ book: 'yumi', chapter: '23' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  sukishi: {
+    appearsIn: [
+      { bookId: 'yumi', revealedIn: [{ book: 'yumi', chapter: '5' }] },
+    ],
+    world: {
+      planetId: 'komashi',
+      revealedIn: [{ book: 'yumi', chapter: '5' }],
+    },
+    aliases: [],
+    species: [{ name: 'Human', revealedIn: [{ book: 'yumi', chapter: '5' }] }],
+    abilities: [],
+    nationality: [
+      { name: 'Nagadan', revealedIn: [{ book: 'yumi', chapter: '31' }] },
+    ],
+    profession: [],
+    groups: [
+      {
+        name: 'Nightmare Division',
+        revealedIn: [{ book: 'yumi', chapter: '14' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  'gongsha-mayor': {
+    appearsIn: [
+      { bookId: 'yumi', revealedIn: [{ book: 'yumi', chapter: '20' }] },
+    ],
+    world: {
+      planetId: 'komashi',
+      revealedIn: [{ book: 'yumi', chapter: '34' }],
+    },
+    aliases: [],
+    species: [{ name: 'Human', revealedIn: [{ book: 'yumi', chapter: '20' }] }],
+    abilities: [
+      { name: 'Nightmare', revealedIn: [{ book: 'yumi', chapter: '40' }] },
+    ],
+    nationality: [
+      { name: 'Torish', revealedIn: [{ book: 'yumi', chapter: '20' }] },
+    ],
+    profession: [
+      { name: 'Mayor', revealedIn: [{ book: 'yumi', chapter: '20' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  gaino: {
+    appearsIn: [
+      { bookId: 'yumi', revealedIn: [{ book: 'yumi', chapter: '21' }] },
+    ],
+    world: {
+      planetId: 'komashi',
+      revealedIn: [{ book: 'yumi', chapter: '21' }],
+    },
+    aliases: [],
+    species: [{ name: 'Human', revealedIn: [{ book: 'yumi', chapter: '21' }] }],
+    abilities: [],
+    nationality: [
+      { name: 'Nagadan', revealedIn: [{ book: 'yumi', chapter: '31' }] },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'gongsha-bailiff': {
+    appearsIn: [
+      { bookId: 'yumi', revealedIn: [{ book: 'yumi', chapter: '34' }] },
+    ],
+    world: {
+      planetId: 'komashi',
+      revealedIn: [{ book: 'yumi', chapter: '34' }],
+    },
+    aliases: [],
+    species: [{ name: 'Human', revealedIn: [{ book: 'yumi', chapter: '34' }] }],
+    abilities: [
+      { name: 'Nightmare', revealedIn: [{ book: 'yumi', chapter: '34' }] },
+    ],
+    nationality: [
+      { name: 'Torish', revealedIn: [{ book: 'yumi', chapter: '34' }] },
+    ],
+    profession: [
+      { name: 'Bailiff', revealedIn: [{ book: 'yumi', chapter: '34' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  hikiri: {
+    appearsIn: [
+      { bookId: 'yumi', revealedIn: [{ book: 'yumi', chapter: '37' }] },
+    ],
+    world: {
+      planetId: 'komashi',
+      revealedIn: [{ book: 'yumi', chapter: '37' }],
+    },
+    aliases: [],
+    species: [{ name: 'Human', revealedIn: [{ book: 'yumi', chapter: '37' }] }],
+    abilities: [],
+    nationality: [
+      { name: 'Nagadan', revealedIn: [{ book: 'yumi', chapter: '37' }] },
+    ],
+    profession: [
+      { name: 'Painter', revealedIn: [{ book: 'yumi', chapter: '37' }] },
+    ],
+    groups: [
+      { name: 'Nightmare Division', revealedIn: ['yumi'] },
+      { name: 'Dreamwatch', revealedIn: [{ book: 'yumi', chapter: '37' }] },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  namakudo: {
+    appearsIn: [
+      { bookId: 'yumi', revealedIn: [{ book: 'yumi', chapter: '33' }] },
+    ],
+    world: {
+      planetId: 'komashi',
+      revealedIn: [{ book: 'yumi', chapter: '33' }],
+    },
+    aliases: [],
+    species: [{ name: 'Human', revealedIn: [{ book: 'yumi', chapter: '33' }] }],
+    abilities: [],
+    nationality: [
+      { name: 'Nagadan', revealedIn: [{ book: 'yumi', chapter: '33' }] },
+    ],
+    profession: [
+      { name: 'Cook', revealedIn: [{ book: 'yumi', chapter: '33' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  nanakai: {
+    appearsIn: [
+      { bookId: 'yumi', revealedIn: [{ book: 'yumi', chapter: '40' }] },
+    ],
+    world: {
+      planetId: 'komashi',
+      revealedIn: [{ book: 'yumi', chapter: '40' }],
+    },
+    aliases: [],
+    species: [{ name: 'Human', revealedIn: [{ book: 'yumi', chapter: '40' }] }],
+    abilities: [],
+    nationality: [
+      { name: 'Nagadan', revealedIn: [{ book: 'yumi', chapter: '40' }] },
+    ],
+    profession: [
+      { name: 'Painter', revealedIn: [{ book: 'yumi', chapter: '40' }] },
+    ],
+    groups: [
+      {
+        name: 'Nightmare Division',
+        revealedIn: [{ book: 'yumi', chapter: '40' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  'tesuaka-tatomi': {
+    appearsIn: [
+      { bookId: 'yumi', revealedIn: [{ book: 'yumi', chapter: '37' }] },
+    ],
+    world: {
+      planetId: 'komashi',
+      revealedIn: [{ book: 'yumi', chapter: '37' }],
+    },
+    aliases: [],
+    species: [{ name: 'Human', revealedIn: [{ book: 'yumi', chapter: '37' }] }],
+    abilities: [],
+    nationality: [
+      { name: 'Nagadan', revealedIn: [{ book: 'yumi', chapter: '37' }] },
+    ],
+    profession: [
+      { name: 'Painter', revealedIn: [{ book: 'yumi', chapter: '37' }] },
+    ],
+    groups: [
+      { name: 'Nightmare Division', revealedIn: ['yumi'] },
+      { name: 'Dreamwatch', revealedIn: [{ book: 'yumi', chapter: '37' }] },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  usasha: {
+    appearsIn: [
+      {
+        bookId: 'yumi',
+        revealedIn: [{ book: 'yumi', chapter: 'another-epilogue' }],
+      },
+    ],
+    world: {
+      planetId: 'komashi',
+      revealedIn: [{ book: 'yumi', chapter: 'another-epilogue' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'yumi', chapter: 'another-epilogue' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Nagadan',
+        revealedIn: [{ book: 'yumi', chapter: 'another-epilogue' }],
+      },
+    ],
+    profession: [
+      {
+        name: 'Painter',
+        revealedIn: [{ book: 'yumi', chapter: 'another-epilogue' }],
+      },
+    ],
+    groups: [
+      {
+        name: 'Nightmare Division',
+        revealedIn: [{ book: 'yumi', chapter: 'another-epilogue' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  dwookim: {
+    appearsIn: [
+      { bookId: 'yumi', revealedIn: [{ book: 'yumi', chapter: '22' }] },
+    ],
+    world: {
+      planetId: 'komashi',
+      revealedIn: [{ book: 'yumi', chapter: '34' }],
+    },
+    aliases: [],
+    species: [{ name: 'Human', revealedIn: [{ book: 'yumi', chapter: '22' }] }],
+    abilities: [
+      { name: 'Yoki-hijo', revealedIn: [{ book: 'yumi', chapter: '22' }] },
+    ],
+    nationality: [
+      { name: 'Torish', revealedIn: [{ book: 'yumi', chapter: '22' }] },
+    ],
+    profession: [
+      { name: 'Yoki-hijo', revealedIn: [{ book: 'yumi', chapter: '22' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  ikonora: {
+    appearsIn: [
+      { bookId: 'yumi', revealedIn: [{ book: 'yumi', chapter: '39' }] },
+    ],
+    world: {
+      planetId: 'komashi',
+      revealedIn: [{ book: 'yumi', chapter: '39' }],
+    },
+    aliases: [],
+    species: [{ name: 'Human', revealedIn: [{ book: 'yumi', chapter: '39' }] }],
+    abilities: [],
+    nationality: [
+      { name: 'Nagadan', revealedIn: [{ book: 'yumi', chapter: '39' }] },
+    ],
+    profession: [
+      { name: 'Painter', revealedIn: [{ book: 'yumi', chapter: '39' }] },
+    ],
+    groups: [
+      {
+        name: 'Nightmare Division',
+        revealedIn: [{ book: 'yumi', chapter: '39' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  ito: {
+    appearsIn: [
+      { bookId: 'yumi', revealedIn: [{ book: 'yumi', chapter: '26' }] },
+    ],
+    world: {
+      planetId: 'komashi',
+      revealedIn: [{ book: 'yumi', chapter: '26' }],
+    },
+    aliases: [],
+    species: [{ name: 'Human', revealedIn: [{ book: 'yumi', chapter: '26' }] }],
+    abilities: [],
+    nationality: [
+      { name: 'Nagadan', revealedIn: [{ book: 'yumi', chapter: '31' }] },
+    ],
+    profession: [
+      { name: 'Painter', revealedIn: [{ book: 'yumi', chapter: '26' }] },
+    ],
+    groups: [
+      {
+        name: 'Nightmare Division',
+        revealedIn: [{ book: 'yumi', chapter: '26' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  'mrs-shinja': {
+    appearsIn: [
+      { bookId: 'yumi', revealedIn: [{ book: 'yumi', chapter: '14' }] },
+    ],
+    world: {
+      planetId: 'komashi',
+      revealedIn: [{ book: 'yumi', chapter: '14' }],
+    },
+    aliases: [],
+    species: [{ name: 'Human', revealedIn: [{ book: 'yumi', chapter: '14' }] }],
+    abilities: [],
+    nationality: [
+      { name: 'Nagadan', revealedIn: [{ book: 'yumi', chapter: '31' }] },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  samjae: {
+    appearsIn: [
+      { bookId: 'yumi', revealedIn: [{ book: 'yumi', chapter: '13' }] },
+    ],
+    world: {
+      planetId: 'komashi',
+      revealedIn: [{ book: 'yumi', chapter: '34' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'yumi', chapter: '13' }] },
+      { name: 'Cognitive Shadow', revealedIn: ['yumi'] },
+    ],
+    abilities: [
+      { name: 'Yoki-hijo', revealedIn: [{ book: 'yumi', chapter: '32' }] },
+    ],
+    nationality: [
+      { name: 'Torish', revealedIn: [{ book: 'yumi', chapter: '32' }] },
+    ],
+    profession: [
+      { name: 'Yoki-hijo', revealedIn: [{ book: 'yumi', chapter: '32' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  takanda: {
+    appearsIn: [
+      { bookId: 'yumi', revealedIn: [{ book: 'yumi', chapter: '39' }] },
+    ],
+    world: {
+      planetId: 'komashi',
+      revealedIn: [{ book: 'yumi', chapter: '39' }],
+    },
+    aliases: [],
+    species: [{ name: 'Human', revealedIn: [{ book: 'yumi', chapter: '39' }] }],
+    abilities: [],
+    nationality: [
+      { name: 'Nagadan', revealedIn: [{ book: 'yumi', chapter: '39' }] },
+    ],
+    profession: [
+      { name: 'Painter', revealedIn: [{ book: 'yumi', chapter: '39' }] },
+    ],
+    groups: [
+      {
+        name: 'Nightmare Division',
+        revealedIn: [{ book: 'yumi', chapter: '39' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  yuinshi: {
+    appearsIn: [
+      { bookId: 'yumi', revealedIn: [{ book: 'yumi', chapter: '39' }] },
+    ],
+    world: {
+      planetId: 'komashi',
+      revealedIn: [{ book: 'yumi', chapter: '39' }],
+    },
+    aliases: [],
+    species: [{ name: 'Human', revealedIn: [{ book: 'yumi', chapter: '39' }] }],
+    abilities: [],
+    nationality: [
+      { name: 'Nagadan', revealedIn: [{ book: 'yumi', chapter: '39' }] },
+    ],
+    profession: [
+      { name: 'Painter', revealedIn: [{ book: 'yumi', chapter: '39' }] },
+    ],
+    groups: [
+      {
+        name: 'Nightmare Division',
+        revealedIn: [{ book: 'yumi', chapter: '39' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  ashinata: {
+    appearsIn: [
+      { bookId: 'yumi', revealedIn: [{ book: 'yumi', chapter: '25' }] },
+    ],
+    aliases: [],
+    species: [{ name: 'Human', revealedIn: [{ book: 'yumi', chapter: '25' }] }],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'fourth-torish-scholar': {
+    appearsIn: [
+      { bookId: 'yumi', revealedIn: [{ book: 'yumi', chapter: '23' }] },
+    ],
+    world: {
+      planetId: 'komashi',
+      revealedIn: [{ book: 'yumi', chapter: '34' }],
+    },
+    aliases: [],
+    species: [{ name: 'Human', revealedIn: [{ book: 'yumi', chapter: '23' }] }],
+    abilities: [
+      { name: 'Nightmare', revealedIn: [{ book: 'yumi', chapter: '34' }] },
+    ],
+    nationality: [
+      { name: 'Torish', revealedIn: [{ book: 'yumi', chapter: '23' }] },
+    ],
+    profession: [
+      { name: 'Scholar', revealedIn: [{ book: 'yumi', chapter: '23' }] },
+    ],
+    groups: [
+      {
+        name: 'Institute of Mechanical Solutions',
+        revealedIn: [{ book: 'yumi', chapter: '23' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  guri: {
+    appearsIn: [
+      { bookId: 'yumi', revealedIn: [{ book: 'yumi', chapter: '16' }] },
+    ],
+    aliases: [],
+    species: [{ name: 'Human', revealedIn: [{ book: 'yumi', chapter: '16' }] }],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  hinobi: {
+    appearsIn: [
+      { bookId: 'yumi', revealedIn: [{ book: 'yumi', chapter: '25' }] },
+    ],
+    aliases: [],
+    species: [{ name: 'Human', revealedIn: [{ book: 'yumi', chapter: '25' }] }],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'compassions-grandsons': {
+    appearsIn: [
+      {
+        bookId: 'sunlit-man',
+        revealedIn: [{ book: 'sunlit-man', chapter: '43' }],
+      },
+    ],
+    world: {
+      planetId: 'canticle',
+      revealedIn: [{ book: 'sunlit-man', chapter: '43' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'sunlit-man', chapter: '43' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Compassion',
+        relation: 'ancestor',
+        characterId: 'compassion',
+        revealedIn: [{ book: 'sunlit-man', chapter: '43' }],
+      },
+    ],
+  },
+  december: {
+    appearsIn: [
+      {
+        bookId: 'fires-of-december',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'i' }],
+      },
+    ],
+    world: {
+      planetId: 'miral',
+      revealedIn: [{ book: 'fires-of-december', chapter: 'i' }],
+    },
+    aliases: [
+      {
+        name: 'Lady',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'xii' }],
+      },
+      {
+        name: 'Hodołnika',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'i' }],
+      },
+    ],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'i' }],
+      },
+    ],
+    abilities: [
+      {
+        name: 'Witch',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'xxxiv' }],
+      },
+    ],
+    nationality: [
+      {
+        name: 'Mountaincrest',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'iii' }],
+      },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [
+      {
+        name: 'Beautiful',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'xxxiv' }],
+      },
+      {
+        name: 'Megalith',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'xlii' }],
+      },
+    ],
+    relatives: [
+      {
+        name: 'Abrim Flint',
+        relation: 'spouse',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'epilogue' }],
+      },
+    ],
+  },
+  dmitrovik: {
+    appearsIn: [
+      {
+        bookId: 'fires-of-december',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'xvi' }],
+      },
+    ],
+    world: {
+      planetId: 'miral',
+      revealedIn: [{ book: 'fires-of-december', chapter: 'xvi' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'xvi' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Mountaincrest',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'xvi' }],
+      },
+    ],
+    profession: [
+      {
+        name: 'Valet',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'xvi' }],
+      },
+      {
+        name: 'Hotel manager',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'epilogue' }],
+      },
+      {
+        name: 'Butler',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'xxiii' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Irinek',
+        relation: 'child',
+        characterId: 'irinek',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'xxiii' }],
+      },
+    ],
+  },
+  beaudilog: {
+    appearsIn: [
+      {
+        bookId: 'fires-of-december',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'xi' }],
+      },
+    ],
+    world: {
+      planetId: 'miral',
+      revealedIn: [{ book: 'fires-of-december', chapter: 'xi' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'xi' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Mountaincrest',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'xi' }],
+      },
+    ],
+    profession: [
+      {
+        name: 'King',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'xi' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Petva',
+        relation: 'relative',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'xxxv' }],
+      },
+    ],
+  },
+  matin: {
+    appearsIn: [
+      {
+        bookId: 'fires-of-december',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'i' }],
+      },
+    ],
+    world: {
+      planetId: 'miral',
+      revealedIn: [{ book: 'fires-of-december', chapter: 'i' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'i' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Mountaincrest',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'iii' }],
+      },
+    ],
+    profession: [
+      {
+        name: 'Reeve',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'i' }],
+      },
+      {
+        name: 'Minister of Finance',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'epilogue' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Rema',
+        relation: 'spouse',
+        characterId: 'rema',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'i' }],
+      },
+      {
+        name: 'December',
+        relation: 'spouse',
+        characterId: 'december',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'i' }],
+      },
+      {
+        name: 'Kamdon',
+        relation: 'child',
+        characterId: 'kamdon',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'ii' }],
+      },
+      {
+        name: 'Torrent',
+        relation: 'child',
+        characterId: 'torrent',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'ii' }],
+      },
+      {
+        name: 'Jamek',
+        relation: 'child',
+        characterId: 'jamek',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'ii' }],
+      },
+    ],
+  },
+  weonim: {
+    appearsIn: [
+      {
+        bookId: 'fires-of-december',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'xxvi' }],
+      },
+    ],
+    world: {
+      planetId: 'miral',
+      revealedIn: [{ book: 'fires-of-december', chapter: 'xxvi' }],
+    },
+    aliases: [
+      {
+        name: 'Elder',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'xxxvii' }],
+      },
+    ],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'xxvi' }],
+      },
+    ],
+    abilities: [
+      {
+        name: 'Witch',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'xxxvii' }],
+      },
+    ],
+    nationality: [
+      {
+        name: 'Mountaincrest',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'xxvi' }],
+      },
+    ],
+    profession: [
+      {
+        name: 'Hexer',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'xxvi' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'captain-of-the-northern-eclipse': {
+    appearsIn: [
+      {
+        bookId: 'fires-of-december',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'iii' }],
+      },
+    ],
+    world: {
+      planetId: 'miral',
+      revealedIn: [{ book: 'fires-of-december', chapter: 'iii' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'iii' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Sailor',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'iii' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  drakes: {
+    appearsIn: [
+      {
+        bookId: 'fires-of-december',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'xi' }],
+      },
+    ],
+    world: {
+      planetId: 'miral',
+      revealedIn: [{ book: 'fires-of-december', chapter: 'xi' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'xi' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Mountaincrest',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'xi' }],
+      },
+    ],
+    profession: [
+      {
+        name: 'Soldier',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'xi' }],
+      },
+      {
+        name: 'Minister of Defense',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'xv' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  megalith: {
+    appearsIn: [
+      {
+        bookId: 'fires-of-december',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'x' }],
+      },
+    ],
+    aliases: [],
+    species: [
+      {
+        name: 'Demon',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'x' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [
+      {
+        name: 'December',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'xlii' }],
+      },
+    ],
+    relatives: [],
+  },
+  'miss-greenwares': {
+    appearsIn: [
+      {
+        bookId: 'fires-of-december',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'ix' }],
+      },
+    ],
+    world: {
+      planetId: 'miral',
+      revealedIn: [{ book: 'fires-of-december', chapter: 'ix' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'ix' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Mountaincrest',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'ix' }],
+      },
+    ],
+    profession: [
+      {
+        name: 'Innkeeper',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'ix' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  rema: {
+    appearsIn: [
+      {
+        bookId: 'fires-of-december',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'i' }],
+      },
+    ],
+    world: {
+      planetId: 'miral',
+      revealedIn: [{ book: 'fires-of-december', chapter: 'i' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'i' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Mountaincrest',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'iii' }],
+      },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Matin',
+        relation: 'spouse',
+        characterId: 'matin',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'i' }],
+      },
+      {
+        name: 'Kamdon',
+        relation: 'child',
+        characterId: 'kamdon',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'ii' }],
+      },
+      {
+        name: 'Torrent',
+        relation: 'child',
+        characterId: 'torrent',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'ii' }],
+      },
+      {
+        name: 'Jamek',
+        relation: 'child',
+        characterId: 'jamek',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'ii' }],
+      },
+    ],
+  },
+  bark: {
+    appearsIn: [
+      {
+        bookId: 'fires-of-december',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'i' }],
+      },
+    ],
+    world: {
+      planetId: 'miral',
+      revealedIn: [{ book: 'fires-of-december', chapter: 'i' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'i' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Mountaincrest',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'iii' }],
+      },
+    ],
+    profession: [
+      {
+        name: 'Assistant foreman',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'i' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'brother-grund': {
+    appearsIn: [
+      {
+        bookId: 'fires-of-december',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'iii' }],
+      },
+    ],
+    world: {
+      planetId: 'miral',
+      revealedIn: [{ book: 'fires-of-december', chapter: 'iii' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'iii' }],
+      },
+    ],
+    abilities: [],
+    nationality: [{ name: 'Mountaincrest', revealedIn: ['fires-of-december'] }],
+    profession: [
+      {
+        name: 'Abbot',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'xli' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  gornil: {
+    appearsIn: [
+      {
+        bookId: 'fires-of-december',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'i' }],
+      },
+    ],
+    world: {
+      planetId: 'miral',
+      revealedIn: [{ book: 'fires-of-december', chapter: 'i' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'i' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Mountaincrest',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'iii' }],
+      },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Yorduk',
+        relation: 'spouse',
+        characterId: 'yorduk',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'i' }],
+      },
+      {
+        name: 'Isa',
+        relation: 'relative',
+        characterId: 'isa',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'i' }],
+      },
+    ],
+  },
+  irinek: {
+    appearsIn: [
+      {
+        bookId: 'fires-of-december',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'xxiii' }],
+      },
+    ],
+    world: {
+      planetId: 'miral',
+      revealedIn: [{ book: 'fires-of-december', chapter: 'xxiii' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'xxiii' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Mountaincrest',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'xxiii' }],
+      },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Dmitrovik',
+        relation: 'parent',
+        characterId: 'dmitrovik',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'xxiii' }],
+      },
+    ],
+  },
+  'tamanthas-brother': {
+    appearsIn: [
+      {
+        bookId: 'fires-of-december',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'v' }],
+      },
+    ],
+    world: {
+      planetId: 'miral',
+      revealedIn: [{ book: 'fires-of-december', chapter: 'v' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'v' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Mountaincrest',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'v' }],
+      },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Tamantha',
+        relation: 'sibling',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'v' }],
+      },
+    ],
+  },
+  'decembers-mother': {
+    appearsIn: [
+      {
+        bookId: 'fires-of-december',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'i' }],
+      },
+    ],
+    world: {
+      planetId: 'miral',
+      revealedIn: [{ book: 'fires-of-december', chapter: 'i' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'i' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'December',
+        relation: 'child',
+        characterId: 'december',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'i' }],
+      },
+    ],
+  },
+  'doug-miral': {
+    appearsIn: [
+      {
+        bookId: 'fires-of-december',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'vii' }],
+      },
+    ],
+    world: {
+      planetId: 'miral',
+      revealedIn: [{ book: 'fires-of-december', chapter: 'vii' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'vii' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Sailor',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'vii' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  jamek: {
+    appearsIn: [
+      {
+        bookId: 'fires-of-december',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'i' }],
+      },
+    ],
+    world: {
+      planetId: 'miral',
+      revealedIn: [{ book: 'fires-of-december', chapter: 'i' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'i' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Mountaincrest',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'iii' }],
+      },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Rema',
+        relation: 'parent',
+        characterId: 'rema',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'ii' }],
+      },
+      {
+        name: 'Matin',
+        relation: 'parent',
+        characterId: 'matin',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'ii' }],
+      },
+      {
+        name: 'Torrent',
+        relation: 'sibling',
+        characterId: 'torrent',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'ii' }],
+      },
+      {
+        name: 'Kamdon',
+        relation: 'sibling',
+        characterId: 'kamdon',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'ii' }],
+      },
+      {
+        name: 'Matin',
+        relation: 'grandson',
+        characterId: 'matin-grandson',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'ii' }],
+      },
+    ],
+  },
+  kamdon: {
+    appearsIn: [
+      {
+        bookId: 'fires-of-december',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'i' }],
+      },
+    ],
+    world: {
+      planetId: 'miral',
+      revealedIn: [{ book: 'fires-of-december', chapter: 'i' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'i' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Mountaincrest',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'iii' }],
+      },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Rema',
+        relation: 'parent',
+        characterId: 'rema',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'ii' }],
+      },
+      {
+        name: 'Matin',
+        relation: 'parent',
+        characterId: 'matin',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'ii' }],
+      },
+      {
+        name: 'Torrent',
+        relation: 'sibling',
+        characterId: 'torrent',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'ii' }],
+      },
+      {
+        name: 'Jamek',
+        relation: 'sibling',
+        characterId: 'jamek',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'ii' }],
+      },
+      {
+        name: 'Matin',
+        relation: 'grandson',
+        characterId: 'matin-grandson',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'ii' }],
+      },
+      {
+        name: 'Matin',
+        relation: 'grandson',
+        characterId: 'matin-grandson',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'ii' }],
+      },
+    ],
+  },
+  kird: {
+    appearsIn: [
+      {
+        bookId: 'fires-of-december',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'xv' }],
+      },
+    ],
+    world: {
+      planetId: 'miral',
+      revealedIn: [{ book: 'fires-of-december', chapter: 'xv' }],
+    },
+    aliases: [
+      {
+        name: 'Orange Duke',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'xv' }],
+      },
+    ],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'xv' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Mountaincrest',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'xv' }],
+      },
+    ],
+    profession: [
+      {
+        name: 'Duke',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'xv' }],
+      },
+      {
+        name: 'King',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'epilogue' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Melsi',
+        relation: 'child',
+        characterId: 'melsi',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'xxxiv' }],
+      },
+    ],
+  },
+  melsi: {
+    appearsIn: [
+      {
+        bookId: 'fires-of-december',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'xxxiv' }],
+      },
+    ],
+    world: {
+      planetId: 'miral',
+      revealedIn: [{ book: 'fires-of-december', chapter: 'xxxiv' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'xxxiv' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Mountaincrest',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'xxxiv' }],
+      },
+    ],
+    profession: [
+      {
+        name: 'Minister of Espionage',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'epilogue' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Kird',
+        relation: 'parent',
+        characterId: 'kird',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'xxxiv' }],
+      },
+    ],
+  },
+  mozbiki: {
+    appearsIn: [
+      {
+        bookId: 'fires-of-december',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'xxiii' }],
+      },
+    ],
+    world: {
+      planetId: 'miral',
+      revealedIn: [{ book: 'fires-of-december', chapter: 'xxiii' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'xxiii' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Mountaincrest',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'xxiii' }],
+      },
+    ],
+    profession: [
+      {
+        name: 'Bookkeeper',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'xxiii' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  telich: {
+    appearsIn: [
+      {
+        bookId: 'fires-of-december',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'xxiii' }],
+      },
+    ],
+    world: {
+      planetId: 'miral',
+      revealedIn: [{ book: 'fires-of-december', chapter: 'xxiii' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'xxiii' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Mountaincrest',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'xxiii' }],
+      },
+    ],
+    profession: [
+      {
+        name: 'Head of Housekeeping',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'xxiii' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  torrent: {
+    appearsIn: [
+      {
+        bookId: 'fires-of-december',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'i' }],
+      },
+    ],
+    world: {
+      planetId: 'miral',
+      revealedIn: [{ book: 'fires-of-december', chapter: 'i' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'i' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Mountaincrest',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'iii' }],
+      },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Rema',
+        relation: 'parent',
+        characterId: 'rema',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'ii' }],
+      },
+      {
+        name: 'Matin',
+        relation: 'parent',
+        characterId: 'matin',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'ii' }],
+      },
+      {
+        name: 'Jamek',
+        relation: 'sibling',
+        characterId: 'jamek',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'ii' }],
+      },
+      {
+        name: 'Kamdon',
+        relation: 'sibling',
+        characterId: 'kamdon',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'ii' }],
+      },
+      {
+        name: 'Matin',
+        relation: 'grandson',
+        characterId: 'matin-grandson',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'ii' }],
+      },
+    ],
+  },
+  'will-kartov': {
+    appearsIn: [
+      {
+        bookId: 'fires-of-december',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'xviii' }],
+      },
+    ],
+    world: {
+      planetId: 'miral',
+      revealedIn: [{ book: 'fires-of-december', chapter: 'xviii' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'xviii' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Mountaincrest',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'xviii' }],
+      },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'brother-braskofskil': {
+    appearsIn: [
+      {
+        bookId: 'fires-of-december',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'xli' }],
+      },
+    ],
+    world: {
+      planetId: 'miral',
+      revealedIn: [{ book: 'fires-of-december', chapter: 'xli' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'xli' }],
+      },
+    ],
+    abilities: [],
+    nationality: [{ name: 'Mountaincrest', revealedIn: ['fires-of-december'] }],
+    profession: [
+      {
+        name: 'Priest',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'xli' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'sister-aqswa': {
+    appearsIn: [
+      {
+        bookId: 'fires-of-december',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'xli' }],
+      },
+    ],
+    world: {
+      planetId: 'miral',
+      revealedIn: [{ book: 'fires-of-december', chapter: 'xli' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'xli' }],
+      },
+    ],
+    abilities: [],
+    nationality: [{ name: 'Mountaincrest', revealedIn: ['fires-of-december'] }],
+    profession: [
+      {
+        name: 'Priest',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'xli' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'sister-braskofskil': {
+    appearsIn: [
+      {
+        bookId: 'fires-of-december',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'xli' }],
+      },
+    ],
+    world: {
+      planetId: 'miral',
+      revealedIn: [{ book: 'fires-of-december', chapter: 'xli' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'xli' }],
+      },
+    ],
+    abilities: [],
+    nationality: [{ name: 'Mountaincrest', revealedIn: ['fires-of-december'] }],
+    profession: [
+      {
+        name: 'Priest',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'xli' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'sister-grund': {
+    appearsIn: [
+      {
+        bookId: 'fires-of-december',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'iii' }],
+      },
+    ],
+    world: {
+      planetId: 'miral',
+      revealedIn: [{ book: 'fires-of-december', chapter: 'iii' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'iii' }],
+      },
+    ],
+    abilities: [],
+    nationality: [{ name: 'Mountaincrest', revealedIn: ['fires-of-december'] }],
+    profession: [
+      {
+        name: 'Priest',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'iii' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  tap: {
+    appearsIn: [
+      {
+        bookId: 'fires-of-december',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'i' }],
+      },
+    ],
+    world: {
+      planetId: 'miral',
+      revealedIn: [{ book: 'fires-of-december', chapter: 'i' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'i' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Mountaincrest',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'iii' }],
+      },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'baroness-silmial': {
+    appearsIn: [
+      {
+        bookId: 'fires-of-december',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'xx' }],
+      },
+    ],
+    world: {
+      planetId: 'miral',
+      revealedIn: [{ book: 'fires-of-december', chapter: 'xx' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'xx' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Mountaincrest',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'xx' }],
+      },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'brother-chambers': {
+    appearsIn: [
+      {
+        bookId: 'fires-of-december',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'xxvi' }],
+      },
+    ],
+    world: {
+      planetId: 'miral',
+      revealedIn: [{ book: 'fires-of-december', chapter: 'xxvi' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'xxvi' }],
+      },
+    ],
+    abilities: [],
+    nationality: [{ name: 'Mountaincrest', revealedIn: ['fires-of-december'] }],
+    profession: [
+      {
+        name: 'Priest',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'xxvi' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'count-retrivolok': {
+    appearsIn: [
+      {
+        bookId: 'fires-of-december',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'xx' }],
+      },
+    ],
+    world: {
+      planetId: 'miral',
+      revealedIn: [{ book: 'fires-of-december', chapter: 'xx' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'xx' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Mountaincrest',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'xx' }],
+      },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  dimi: {
+    appearsIn: [
+      {
+        bookId: 'fires-of-december',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'xxi' }],
+      },
+    ],
+    world: {
+      planetId: 'miral',
+      revealedIn: [{ book: 'fires-of-december', chapter: 'xxi' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'xxi' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Mountaincrest',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'xxi' }],
+      },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  goyvid: {
+    appearsIn: [
+      {
+        bookId: 'fires-of-december',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'xxv' }],
+      },
+    ],
+    world: {
+      planetId: 'miral',
+      revealedIn: [{ book: 'fires-of-december', chapter: 'xxv' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'xxv' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Mountaincrest',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'xxv' }],
+      },
+    ],
+    profession: [
+      {
+        name: 'Royal Megalith guide',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'xxv' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  gustavin: {
+    appearsIn: [
+      {
+        bookId: 'fires-of-december',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'iv' }],
+      },
+    ],
+    world: {
+      planetId: 'miral',
+      revealedIn: [{ book: 'fires-of-december', chapter: 'iv' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'iv' }],
+      },
+    ],
+    abilities: [],
+    nationality: [{ name: 'Mountaincrest', revealedIn: ['fires-of-december'] }],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  isa: {
+    appearsIn: [
+      {
+        bookId: 'fires-of-december',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'i' }],
+      },
+    ],
+    world: {
+      planetId: 'miral',
+      revealedIn: [{ book: 'fires-of-december', chapter: 'i' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'i' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Mountaincrest',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'iii' }],
+      },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Gornil',
+        relation: 'relative',
+        characterId: 'gornil',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'i' }],
+      },
+      {
+        name: 'Yorduk',
+        relation: 'relative',
+        characterId: 'yorduk',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'i' }],
+      },
+    ],
+  },
+  kita: {
+    appearsIn: [
+      {
+        bookId: 'fires-of-december',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'ii' }],
+      },
+    ],
+    world: {
+      planetId: 'miral',
+      revealedIn: [{ book: 'fires-of-december', chapter: 'ii' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'ii' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Mountaincrest',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'iii' }],
+      },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  kom: {
+    appearsIn: [
+      {
+        bookId: 'fires-of-december',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'ii' }],
+      },
+    ],
+    world: {
+      planetId: 'miral',
+      revealedIn: [{ book: 'fires-of-december', chapter: 'ii' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'ii' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Mountaincrest',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'iii' }],
+      },
+    ],
+    profession: [
+      {
+        name: 'Weaver',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'ii' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'matin-grandson': {
+    appearsIn: [
+      {
+        bookId: 'fires-of-december',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'i' }],
+      },
+    ],
+    world: {
+      planetId: 'miral',
+      revealedIn: [{ book: 'fires-of-december', chapter: 'i' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'i' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Mountaincrest',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'iii' }],
+      },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Kamdon',
+        relation: 'relative',
+        characterId: 'kamdon',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'i' }],
+      },
+      {
+        name: 'Torrent',
+        relation: 'relative',
+        characterId: 'torrent',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'ii' }],
+      },
+      {
+        name: 'Jamek',
+        relation: 'relative',
+        characterId: 'jamek',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'ii' }],
+      },
+      {
+        name: 'Telli',
+        relation: 'relative',
+        characterId: 'telli',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'viii' }],
+      },
+      {
+        name: 'Matin',
+        relation: 'ancestor',
+        characterId: 'matin',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'i' }],
+      },
+      {
+        name: 'Rema',
+        relation: 'ancestor',
+        characterId: 'rema',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'i' }],
+      },
+    ],
+  },
+  nathenial: {
+    appearsIn: [
+      {
+        bookId: 'fires-of-december',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'ii' }],
+      },
+    ],
+    world: {
+      planetId: 'miral',
+      revealedIn: [{ book: 'fires-of-december', chapter: 'ii' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'ii' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Mountaincrest',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'iii' }],
+      },
+    ],
+    profession: [
+      {
+        name: 'Bailiff',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'ii' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  renta: {
+    appearsIn: [
+      {
+        bookId: 'fires-of-december',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'vi' }],
+      },
+    ],
+    world: {
+      planetId: 'miral',
+      revealedIn: [{ book: 'fires-of-december', chapter: 'vi' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'vi' }],
+      },
+    ],
+    abilities: [],
+    nationality: [{ name: 'Mountaincrest', revealedIn: ['fires-of-december'] }],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  rold: {
+    appearsIn: [
+      {
+        bookId: 'fires-of-december',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'ii' }],
+      },
+    ],
+    world: {
+      planetId: 'miral',
+      revealedIn: [{ book: 'fires-of-december', chapter: 'ii' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'ii' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Mountaincrest',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'iii' }],
+      },
+    ],
+    profession: [
+      {
+        name: 'Baker',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'ii' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'rooster-boy': {
+    appearsIn: [
+      {
+        bookId: 'fires-of-december',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'xvii' }],
+      },
+    ],
+    world: {
+      planetId: 'miral',
+      revealedIn: [{ book: 'fires-of-december', chapter: 'xvii' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'xvii' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Mountaincrest',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'xvii' }],
+      },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'sister-drimond': {
+    appearsIn: [
+      {
+        bookId: 'fires-of-december',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'v' }],
+      },
+    ],
+    world: {
+      planetId: 'miral',
+      revealedIn: [{ book: 'fires-of-december', chapter: 'v' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'v' }],
+      },
+    ],
+    abilities: [],
+    nationality: [{ name: 'Mountaincrest', revealedIn: ['fires-of-december'] }],
+    profession: [
+      {
+        name: 'Priest',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'v' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  telli: {
+    appearsIn: [
+      {
+        bookId: 'fires-of-december',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'v' }],
+      },
+    ],
+    world: {
+      planetId: 'miral',
+      revealedIn: [{ book: 'fires-of-december', chapter: 'v' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'v' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Mountaincrest',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'v' }],
+      },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Kamdon',
+        relation: 'relative',
+        characterId: 'kamdon',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'viii' }],
+      },
+      {
+        name: 'Torrent',
+        relation: 'relative',
+        characterId: 'torrent',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'viii' }],
+      },
+      {
+        name: 'Jamek',
+        relation: 'relative',
+        characterId: 'jamek',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'viii' }],
+      },
+      {
+        name: 'Matin',
+        relation: 'grandson',
+        characterId: 'matin-grandson',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'viii' }],
+      },
+      {
+        name: 'Matin',
+        relation: 'ancestor',
+        characterId: 'matin',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'viii' }],
+      },
+      {
+        name: 'Rema',
+        relation: 'ancestor',
+        characterId: 'rema',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'viii' }],
+      },
+    ],
+  },
+  'viscountess-marchiksik': {
+    appearsIn: [
+      {
+        bookId: 'fires-of-december',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'xxi' }],
+      },
+    ],
+    world: {
+      planetId: 'miral',
+      revealedIn: [{ book: 'fires-of-december', chapter: 'xxi' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'xxi' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Mountaincrest',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'xxi' }],
+      },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  yorduk: {
+    appearsIn: [
+      {
+        bookId: 'fires-of-december',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'i' }],
+      },
+    ],
+    world: {
+      planetId: 'miral',
+      revealedIn: [{ book: 'fires-of-december', chapter: 'i' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'i' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Mountaincrest',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'iii' }],
+      },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Gornil',
+        relation: 'spouse',
+        characterId: 'gornil',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'i' }],
+      },
+      {
+        name: 'Isa',
+        relation: 'relative',
+        characterId: 'isa',
+        revealedIn: [{ book: 'fires-of-december', chapter: 'i' }],
+      },
+    ],
+  },
+  'nicelle-sauvage': {
+    appearsIn: [
+      { bookId: 'shadows-of-self', revealedIn: ['shadows-of-self'] },
+      { bookId: 'bands-of-mourning', revealedIn: ['bands-of-mourning'] },
+      {
+        bookId: 'lost-metal',
+        revealedIn: [{ book: 'lost-metal', chapter: '32' }],
+      },
+    ],
+    world: { planetId: 'scadrial', revealedIn: ['shadows-of-self'] },
+    aliases: [],
+    species: [{ name: 'Human', revealedIn: ['shadows-of-self'] }],
+    abilities: [{ name: 'Leecher', revealedIn: ['bands-of-mourning'] }],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Stefan Sauvage',
+        relation: 'parent',
+        characterId: 'stefan-sauvage',
+        revealedIn: ['bands-of-mourning'],
+      },
+    ],
   },
 }

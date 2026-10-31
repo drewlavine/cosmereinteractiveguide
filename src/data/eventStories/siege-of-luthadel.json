@@ -1,0 +1,175 @@
+{
+  "intro": [
+    {
+      "text": "The siege of Luthadel, beginning when Straff Venture's army of some fifty thousand soldiers camped outside the city and Elend feared the Assembly would hand the city over to avoid bloodshed.",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "1" }]
+    },
+    {
+      "text": "The siege of Luthadel by three armies: Straff Venture's, Cett's, and a koloss army led by Jastes Lekal.",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "19" }]
+    },
+    {
+      "text": "The siege of Luthadel by the armies of Straff Venture, Cett and Jastes Lekal's koloss. It ended when Vin took control of the koloss and killed Straff, so Elend could take back the city and rule it as Emperor of the New Empire.",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "55" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "At first Straff's larger force seemed set to take the city, which pushed Cett and Elend into talks. The koloss army, able to beat any of the human armies there, upset that balance.",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "50" }]
+    },
+    {
+      "text": "Luthadel's walls, broken by the many openings of its eight gates, were hard for the defenders to hold.",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "54" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The armies gather",
+          "revealedIn": [
+            { "book": "well-of-ascension", "chapter": "1" },
+            { "book": "well-of-ascension", "chapter": "11" },
+            { "book": "well-of-ascension", "chapter": "19" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Straff Venture's army of about fifty thousand soldiers camped outside Luthadel, and Elend worried the Assembly would give up the city to avoid bloodshed.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "1" }]
+        },
+        {
+          "text": "A second army, Cett's, arrived. Breeze, who had been one of Cett's advisers, escaped into the city and explained that he had steered Cett into attacking so that the two armies would be locked in a standoff and Elend's bargaining position would be stronger.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "11" }]
+        },
+        {
+          "text": "On his way to Luthadel, Sazed came upon a third army: koloss led by Jastes Lekal.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "19" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Inside the walls",
+          "revealedIn": [
+            { "book": "well-of-ascension", "chapter": "27" },
+            { "book": "well-of-ascension", "chapter": "38" },
+            { "book": "well-of-ascension", "chapter": "50" },
+            { "book": "well-of-ascension", "chapter": "44" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "After Elend and Vin parleyed with Straff in his camp, the Assembly passed a vote of no confidence, removing Elend as king.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "27" }]
+        },
+        {
+          "text": "The Assembly chose Ferson Penrod as king.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "38" }]
+        },
+        {
+          "text": "Vin cowed the besiegers, turning duralumin-boosted emotional Allomancy on Straff and attacking Cett's keep inside the city walls.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "50" }]
+        },
+        {
+          "text": "After Vin's attack, Cett's army pulled away from Luthadel.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "44" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The siege breaks",
+          "revealedIn": [
+            { "book": "well-of-ascension", "chapter": "49" },
+            { "book": "well-of-ascension", "chapter": "50" },
+            { "book": "well-of-ascension", "chapter": "54" },
+            { "book": "well-of-ascension", "chapter": "55" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Elend, Vin and Spook slipped out of Luthadel past Straff's army and headed north for Terris.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "49" }]
+        },
+        {
+          "text": "Straff's army pulled back toward his home dominance, leaving Luthadel facing Jastes's koloss alone.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "50" }]
+        },
+        {
+          "text": "A huge brawl in the koloss camp drove the koloss into a rage, and they attacked Luthadel of their own accord; Jastes had lost control of them and fled.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "54" }]
+        },
+        {
+          "text": "The koloss broke through the walls. Koloss killed Dockson, Clubs and Tindwyl in the assault.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "54" }]
+        },
+        {
+          "text": "Vin returned, took control of the koloss and swiftly killed Straff. With the koloss army in her hands, Elend regained Luthadel and was crowned Emperor of the New Empire.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "55" }]
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Location",
+      "name": "Luthadel",
+      "placeId": "luthadel",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "1" }]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "elend-venture",
+      "role": "king",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "1" }]
+    },
+    {
+      "characterId": "straff-venture",
+      "role": "besieger",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "1" }]
+    },
+    {
+      "characterId": "ashweather-cett",
+      "role": "besieger",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "11" }]
+    },
+    {
+      "characterId": "jastes-lekal",
+      "role": "koloss leader",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "19" }]
+    },
+    {
+      "characterId": "breeze",
+      "role": "Cett's former adviser",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "11" }]
+    },
+    {
+      "characterId": "sazed",
+      "role": "witness",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "19" }]
+    },
+    {
+      "characterId": "ferson-penrod",
+      "role": "elected king",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "38" }]
+    },
+    {
+      "characterId": "vin",
+      "role": "Mistborn defender",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "44" }]
+    },
+    {
+      "characterId": "spook",
+      "role": "companion",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "49" }]
+    }
+  ]
+}

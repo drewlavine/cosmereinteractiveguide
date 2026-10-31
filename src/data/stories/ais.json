@@ -1,0 +1,98 @@
+{
+  "intro": [
+    {
+      "text": "A senior trackt in Kezare, Lossand's capital, who has spent a long time chasing the crime lord Sharezan.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "6" }]
+    },
+    {
+      "text": "A senior trackt in Kezare who hunts the crime lord Sharezan while Lady Judge Heelis has her guard, and quietly watch, the acting Lord Mastrell Kenton.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "11" }]
+    },
+    {
+      "text": "A former senior trackt of Kezare who grew up in an orphanage. Married to Mellis, with a daughter, Melloni, she leaves the trackts and sets out with Mellis for Ker Kedasha.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "epilogue" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Hunting Sharezan",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "6" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Ais had pursued Sharezan through Kezare for a long while without proving who he was. A recent raid on his people left eleven of her trackts dead or hurt, her second-in-command Jedan among them, and a threat aimed at her family left her disheartened.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "6" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Guarding Kenton",
+          "revealedIn": [
+            { "book": "white-sand-omnibus", "chapter": "11" },
+            { "book": "white-sand-omnibus", "chapter": "14" },
+            { "book": "white-sand-omnibus", "chapter": "16" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Heelis set her to shadow the acting Lord Mastrell, nominally as his protection. Ais loathed sand mastery, yet duty drove her to shield Kenton from assassin after assassin. She went with him and Aarik into the deep sand to see Lord General Raagent, but was too far off to help when a Kerztian assassin struck there.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "11" }]
+        },
+        {
+          "text": "After an attack on Kenton at a restaurant, she found an unsigned note from someone close to Sharezan who wanted protection in return for testimony. Kenton talked his way into joining her at the meeting place, an empty warehouse. Hearing someone limp away, Ais sensed a trap, and they got out just before the building went up in flames.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "14" }]
+        },
+        {
+          "text": "Helping search the Tower for the missing Lord General, she found blood in his room and then his body in the wine cellar, bearing the kind of torture Sharezan favours. Remembering Raagent's limp from the hunt, she realised he must have been her unnamed informant.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "16" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Sharezan's trap",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "17" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Her second-in-command, Tain, led her to a supposed hideout and then revealed that he was Sharezan. He said he had set a fire trap at the orphanage where she grew up and would also go after her family, leaving her time to save only one. She sent a trackt to the orphanage and ran home, where Kenton had already thrown Tain through a wall.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "17" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The vote",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "18" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Ais meant to resign, but Heelis kept her on for one more day and then gave her the Hall's vote, wanting it cast by someone set against the Diem. Remembering that Kenton had saved her family on her own terms, Ais voted to keep the Diem. She then returned to the arena and offered to vouch that Kenton had acted in self-defence.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "18" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Tan-skinned and dark-eyed, with shoulder-length brown hair. She wears earrings, a Kerztian headpiece set with a blue stone, and a trackt's black uniform and cape of rank, with a sword and zinkall on duty.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "6" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Grave and serious at work, with a gentler side she keeps for home; she cares a great deal for her family and fellow trackts.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "17" }]
+    }
+  ]
+}

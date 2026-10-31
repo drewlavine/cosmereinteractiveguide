@@ -1,0 +1,38 @@
+{
+  "intro": [
+    {
+      "text": "Pack-hunting predators of the Pantheon islands on First of the Sun, Patji among them, almost as big as a person.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "14" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "They hunt mostly by day and follow predictable routes, unless a blooming Cakoban's finger draws them off course. They leave mounds behind where they root in the soil.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "14" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "A trapper's death",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "14" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "A tuskrun pack drawn by blooming Cakoban's fingers killed the trapper First of the Sky on Patji.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "14" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "first-of-the-sky",
+      "role": "killed by them",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "14" }]
+    }
+  ]
+}

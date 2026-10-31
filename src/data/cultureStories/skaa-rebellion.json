@@ -1,0 +1,124 @@
+{
+  "intro": [
+    {
+      "text": "Skaa who secretly fight the Final Empire. Their leader, Yeden, hires Kelsier's crew to help bring down the Lord Ruler and his empire.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "4" }]
+    },
+    {
+      "text": "Skaa who secretly fight the Final Empire. Led by Yeden, with Kelsier's crew raising its army, the rebellion strikes early at the Holstep Garrison and loses the army, all but about 2,000 soldiers left behind in the caves.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "25" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "There have been skaa rebels for as long as the Final Empire has existed, but never a successful mass revolt. Around the year 700, rebels gathered seven thousand skaa, and it ended in the Massacre of Tougier.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "6" }]
+    },
+    {
+      "text": "Under Marsh's leadership, before Kelsier's crew is hired, the rebels hide runaways, plan burglaries, organise raids and kidnap minor nobles. They never expect to overthrow the Final Empire; they want to pull off something grand that gives the skaa hope.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "7" }]
+    },
+    {
+      "text": "Marsh stepped down as leader at the time Kelsier went to the Pits of Hathsin. The rebels then numbered some three hundred, women and children included, spread between Luthadel and the Arguois caverns.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "7" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Kelsier's crew and the army",
+          "revealedIn": [
+            { "book": "final-empire", "chapter": "4" },
+            { "book": "final-empire", "chapter": "10" },
+            { "book": "final-empire", "chapter": "21" },
+            { "book": "final-empire", "chapter": "24" },
+            { "book": "final-empire", "chapter": "25" },
+            { "book": "final-empire", "chapter": "38" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Yeden, the rebellion's leader, hires Kelsier's crew to help bring down the Lord Ruler's empire, and the crew becomes vital in building and running the rebellion's army.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "4" }]
+        },
+        {
+          "text": "Breeze heads a group of Soothers and Rioters who help draw recruits from among the skaa workers.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "10" }]
+        },
+        {
+          "text": "Ham, who has military experience, trains the new recruits and commands the rebellion's army until Yeden replaces him.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "21" }]
+        },
+        {
+          "text": "Kelsier brings recruits and supplies to the caves where the army trains. At dinner Bilg and Demoux duel, and Kelsier secretly uses Allomancy to help the smaller Demoux win.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "21" }]
+        },
+        {
+          "text": "The army attacks the Holstep Garrison to the north.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "24" }]
+        },
+        {
+          "text": "Running to warn the army, Kelsier and Vin come upon its remains, surrounded by the Valtroux Garrison's army, and leave it to its fate. At the caves they find 2,000 soldiers alive, ready to leave at a moment's notice thanks to Mennis.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "25" }]
+        },
+        {
+          "text": "Those 2,000, Demoux among them, had stayed in the caverns, judging that Yeden was acting rashly.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "25" }]
+        },
+        {
+          "text": "As dawn breaks, the skaa rebellion closes on the Lord Ruler's palace.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "38" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "After the Final Empire",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "81" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "With the Lord Ruler dead, Elend Venture becomes king, ruling Luthadel and the Central Dominance. The rebellion's veterans join his army and form its backbone, fighting for him through the Siege of Luthadel and on to the Battle of Hathsin.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "81" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "yeden",
+      "role": "Leader",
+      "revealedIn": [{ "book": "final-empire", "chapter": "4" }]
+    },
+    {
+      "characterId": "marsh",
+      "role": "Former leader",
+      "revealedIn": [{ "book": "final-empire", "chapter": "7" }]
+    },
+    {
+      "characterId": "breeze",
+      "role": "Recruiter",
+      "revealedIn": [{ "book": "final-empire", "chapter": "10" }]
+    },
+    {
+      "characterId": "hammond",
+      "role": "Army commander",
+      "revealedIn": [{ "book": "final-empire", "chapter": "21" }]
+    },
+    {
+      "characterId": "demoux",
+      "role": "Soldier",
+      "revealedIn": [{ "book": "final-empire", "chapter": "21" }]
+    },
+    {
+      "characterId": "mennis",
+      "role": "Cave organiser",
+      "revealedIn": [{ "book": "final-empire", "chapter": "25" }]
+    }
+  ]
+}

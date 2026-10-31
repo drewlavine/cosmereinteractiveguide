@@ -1,0 +1,48 @@
+{
+  "intro": [
+    {
+      "text": "A region outside Elendel.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "4" }]
+    },
+    {
+      "text": "The wide belt of orchards, fields and pastures just beyond Elendel's suburbs, which feeds the city. The greenery thins out closer to the suburbs.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "13" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Marasi Colms lived here for most of her life before moving to the city for university.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "4" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "A carriage accident",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "epilogue" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "The public was told that Edwarn Ladrian died out here when his horse bolted and his carriage went over a cliff; in truth, he had faked his death.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "epilogue" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The train robberies",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "12" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "When Waxillium Ladrian came out to examine the scene of the latest Vanishers raid on train cars, the calm, quiet countryside struck him as strange and dull, enough to make him uneasy.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "12" }]
+        }
+      ]
+    }
+  ]
+}

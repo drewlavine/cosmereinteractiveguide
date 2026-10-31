@@ -1,0 +1,37 @@
+{
+  "intro": [
+    {
+      "text": "Wax's valet in Elendel.",
+      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "1" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Wax's valet",
+          "revealedIn": [
+            { "book": "bands-of-mourning", "chapter": "1" },
+            { "book": "bands-of-mourning", "chapter": "epilogue" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Drewton helped Wax shave and change for his wedding to Steris on a water tower outside the church.",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "1" }]
+        },
+        {
+          "text": "Drewton had taken the job with only a rough idea of how often his employer landed in danger. Traveling to New Seran with Wax's party, he was caught in a shootout on the train, pestered Marasi about the fate of Wax's last valet as she fought, and swore at her over a near miss. Afterward he sat with tea among nurses, complaining loudly.",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "epilogue" }]
+        },
+        {
+          "text": "Back in Elendel, Drewton kept serving as Wax's valet in the penthouse, carefully setting out the belongings left from Wax's New Seran trip on a cloth on the dressing table.",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "epilogue" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

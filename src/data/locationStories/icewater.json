@@ -1,0 +1,29 @@
+{
+  "intro": [
+    {
+      "text": "A place on Roshar.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "i-13" }]
+    },
+    {
+      "text": "A port city in the Southern Depths, off the southern edge of Roshar, on the northern shore of an island.",
+      "revealedIn": ["oathbringer"]
+    }
+  ],
+  "description": [],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Visitors",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "i-13" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Rysn once went there with Vstim and bargained with pirates.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "i-13" }]
+        }
+      ]
+    }
+  ]
+}

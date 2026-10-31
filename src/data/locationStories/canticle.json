@@ -1,0 +1,72 @@
+{
+  "intro": [
+    {
+      "text": "A ringed planet orbiting a single star, whose light also glances off the rings, so even the night side receives some of it.",
+      "revealedIn": [{ "book": "sunlit-man", "chapter": "12" }]
+    },
+    {
+      "text": "A ringed planet settled by Threnodites who fled infighting on their homeworld. Its sunlight is so fierce that the land and air grow hot enough to burn or melt anything nearby, even vaporising a person.",
+      "revealedIn": [{ "book": "sunlit-man", "chapter": "39" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Light reflected from the rings lets plants grow quickly through the night. People sow seeds in the burned ground just ahead of dawn and can harvest every day, needing only seeds and water.",
+      "revealedIn": [{ "book": "sunlit-man", "chapter": "13" }]
+    },
+    {
+      "text": "Most people descend from Threnodites who left after the Evil attacked their ancestors, and they regard Threnody as Hell. All speak one language close to Threnodite, and many names, as on Threnody, are emotions, virtues or ideas. They both fear and respect the sun, calling it the Sky Tyrant.",
+      "revealedIn": [{ "book": "sunlit-man", "chapter": "17" }]
+    },
+    {
+      "text": "To keep ahead of the deadly sun, people live in flying cities made of linked ships powered by sunhearts, each keeping to its own corridor of latitude. There are around fifty communities; the largest, Union, has absorbed every city of real size and controls nearly every habitable corridor.",
+      "revealedIn": [{ "book": "sunlit-man", "chapter": "23" }]
+    },
+    {
+      "text": "The planet spins slowly in reverse, so the sun rises in the west; a day lasts ten standard hours. The air thins out about a thousand feet up, so mountains, such as the highlands along the southern band, reach into space and cannot be crossed. Behind the sunset line comes the great maelstrom, a storm of whirling fire.",
+      "revealedIn": [{ "book": "sunlit-man", "chapter": "34" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "First settlers",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "39" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Some time after the Evil came, a group of Threnodites led by Zellion, driven out by infighting among their people, arrived in the system. They devised the flying cities, and after their deaths became the first of the Chorus.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "39" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The Cinder King",
+          "revealedIn": [
+            { "book": "sunlit-man", "chapter": "16" },
+            { "book": "sunlit-man", "chapter": "45" },
+            { "book": "sunlit-man", "chapter": "26" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The Cinder King once found a sick Thaylen worldhopper and killed him, believing him a demon. From the man's books he learned about other worlds, then set out to conquer the other cities so that everyone would live in his capital.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "16" }]
+        },
+        {
+          "text": "Around the time of his conquests he found a Scadrian research centre and began trading with its scientists, handing over people for their heat experiments in return for scraps of knowledge, including how to corrupt a sunheart to create the Charred.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "45" }]
+        },
+        {
+          "text": "Most cities fell to him, and those that held out were pushed toward the poles. He kept power by being the only source of sunhearts and by the menace of his Charred, while each city elected a Lodestar as its leader and chief navigator.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "26" }]
+        }
+      ]
+    }
+  ]
+}

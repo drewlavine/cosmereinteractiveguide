@@ -1,0 +1,39 @@
+{
+  "intro": [
+    {
+      "text": "A shy girl of eleven from a horned people, lost in Shadesmar and looked after by the historian Hwynn Tyvneri.",
+      "revealedIn": ["elsecaller"]
+    }
+  ],
+  "history": [
+    {
+      "title": [{ "text": "Lost in Shadesmar", "revealedIn": ["elsecaller"] }],
+      "items": [
+        {
+          "text": "Lorieta can't name the world she comes from. Tyvneri, a historian from Rellam exploring the cosmere, found her adrift in the Cognitive Realm, resolved to help her get home, and looks after her like a parent while he searches.",
+          "revealedIn": ["elsecaller"]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Her people have horns, but hers are still small nubs. She speaks with a clipped accent, barely sounding her t's and d's.",
+      "revealedIn": ["elsecaller"]
+    }
+  ],
+  "personality": [
+    { "text": "A shy, timid girl.", "revealedIn": ["elsecaller"] }
+  ],
+  "abilities": [
+    {
+      "title": [{ "text": "Abilities", "revealedIn": ["elsecaller"] }],
+      "items": [
+        {
+          "text": "In her dreams, Lorieta glimpses possible futures, though only to a limited degree. She had such dreams on her voyage with Tyvneri and Jasnah Kholin.",
+          "revealedIn": ["elsecaller"]
+        }
+      ]
+    }
+  ]
+}

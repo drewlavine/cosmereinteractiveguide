@@ -1,0 +1,76 @@
+{
+  "intro": [
+    {
+      "text": "A creature of Roshar that grows in clusters, as on the docks of Kharbranth. What it feeds on is unknown.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "3" }]
+    },
+    {
+      "text": "A mollusk of Roshar with two shells, pearly in some kinds, that open and close in rhythm. Haspers grow in clusters, and what they eat is unknown.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "64" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Haspers live across eastern Roshar: on Kharbranth's docks, around Hearthstone and down in the Shattered Plains chasms. They breed during the Weeping, when clusters seem to appear from nowhere.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "55" }]
+    },
+    {
+      "text": "The shells enclose a slimy body, and their rhythmic opening makes haspers look like tiny breathing mouths.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "64" },
+            { "book": "words-of-radiance", "chapter": "55" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "They seem to stay fixed in one place all their lives, clinging to stone, wood or shalebark, and a cluster can bear the weight of a few waterskins.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "64" },
+            { "book": "words-of-radiance", "chapter": "69" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "One kind, the stranna hasper, is cooked and eaten.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "64" },
+            { "book": "oathbringer", "chapter": "13" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "As a meal",
+          "revealedIn": [
+            { "book": "rhythm-of-war", "chapter": "45" },
+            { "book": "oathbringer", "chapter": "13" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Just before she discovered the humans, Eshonai had eaten steamed haspers.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "45" }]
+        },
+        {
+          "text": "After training Shallan with a Shardblade, Adolin brought a platter to her rooms in Urithiru that included steamed stranna haspers.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "13" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": []
+}

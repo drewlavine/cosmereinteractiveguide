@@ -1,0 +1,69 @@
+{
+  "intro": [
+    {
+      "text": "The religion of the Bennet, a people of Scadrial's past, and one of the faiths stored in Sazed's copperminds.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "29" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "The Bennet were skilled sailors and mapmakers, and some of their maps are still used in the Final Empire.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "29" }]
+    },
+    {
+      "text": "The faith made mapmaking a sacred duty, teaching that people would know peace once they had mapped and understood the whole world. It was meant to be practised at sea: a ship's captain was also its minister, and had to be trained in its theology before taking command.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "29" }]
+    },
+    {
+      "text": "Sazed thinks few peoples of old lived up to ideals of peace and discovery as well as the Bennet did.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "29" }]
+    },
+    {
+      "text": "Sazed suggests it to Kelsier, who declines, having no use for peace and harmony at the moment, and asks Sazed to tell him of the Valla.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "29" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Remaking the world",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "29" },
+                { "book": "hero-of-ages", "chapter": "82" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "With the power he took up, Sazed used the Bennet maps stored in his metalminds, which showed the world before the Lord Ruler's Ascension, to undo the changes Rashek had made to the land.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "29" },
+                { "book": "hero-of-ages", "chapter": "82" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "sazed",
+      "role": "Keeper",
+      "revealedIn": [{ "book": "final-empire", "chapter": "29" }]
+    },
+    {
+      "characterId": "kelsier",
+      "role": "turned it down",
+      "revealedIn": [{ "book": "final-empire", "chapter": "29" }]
+    }
+  ]
+}

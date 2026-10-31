@@ -1,0 +1,21 @@
+{
+  "intro": [
+    {
+      "text": "A late friend of Allomancer Jak.",
+      "revealedIn": ["allomancer-jak"]
+    }
+  ],
+  "history": [
+    {
+      "title": [{ "text": "Dying wish", "revealedIn": ["allomancer-jak"] }],
+      "items": [
+        {
+          "text": "Mikaff's dying wish was to recover the Survivor's Treasure from the Pits of Eltania.",
+          "revealedIn": ["allomancer-jak"]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

@@ -1,0 +1,33 @@
+{
+  "intro": [
+    {
+      "text": "A holiday of the Rose Empire that had fallen out of observance by Emperor Ashravan's reign.",
+      "revealedIn": [{ "book": "emperors-soul", "chapter": "day-17" }]
+    }
+  ],
+  "description": [],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Revival",
+          "revealedIn": [{ "book": "emperors-soul", "chapter": "day-17" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "During Shai's work on Ashravan's replacement soul, the Heritage Faction brought the holiday back to win over the public. Shai thought the effort pointless: if she failed, the factions' arbiters, not the people, would pick the next emperor.",
+          "revealedIn": [{ "book": "emperors-soul", "chapter": "day-17" }]
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Revived by",
+      "name": "Heritage Faction",
+      "revealedIn": [{ "book": "emperors-soul", "chapter": "day-17" }]
+    }
+  ],
+  "people": []
+}

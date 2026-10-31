@@ -1,0 +1,34 @@
+{
+  "intro": [
+    {
+      "text": "A mansion in Kholinar owned by the Tenet family, who are reputed to be very rich. It is nicknamed for the statues lining its grand hall.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "77" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "A large larder sits along the outer wall. The grand hall is lined with statues Soulcast from the household's favourite servants, an honour usually kept for lighteyes, which gave the house its nickname.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "77" }]
+    },
+    {
+      "text": "Maps of the house are sold on Kholinar's black market, and rumour says great riches lie somewhere deep inside.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "77" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "During the siege",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "78" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Shallan and her team broke into the house. They left its rumoured wealth alone and raided only the larder, taking food they needed as a bribe for the Cult of Moments.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "78" }]
+        }
+      ]
+    }
+  ]
+}

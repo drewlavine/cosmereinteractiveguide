@@ -75,13 +75,20 @@
       "title": [
         {
           "text": "Opinions",
-          "revealedIn": [{ "book": "way-of-kings", "chapter": "44" }]
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "44" },
+            { "book": "wind-and-truth", "chapter": "121" }
+          ]
         }
       ],
       "items": [
         {
           "text": "When Hesina suggested young Kaladin could become a stormwarden, he reacted with disgust at predicting the future, though studying the winds held some appeal.",
           "revealedIn": [{ "book": "way-of-kings", "chapter": "44" }]
+        },
+        {
+          "text": "Navani also distrusted stormwardens.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "121" }]
         }
       ]
     }

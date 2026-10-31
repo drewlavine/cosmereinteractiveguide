@@ -1,0 +1,74 @@
+{
+  "intro": [
+    {
+      "text": "A nation under Fjordell occupation, where Shu-Dereth has become the state religion.",
+      "revealedIn": [{ "book": "elantris", "chapter": "3" }]
+    },
+    {
+      "text": "A kingdom of Opelon on Arelon's southern border, home of the Dula. A revolution stirred up by Derethi priests turned it into a Derethi monarchy that follows the Wyrn's will, in effect a Fjordell puppet.",
+      "revealedIn": [{ "book": "elantris", "chapter": "19" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Most Dula are of mixed blood, usually half Aonic and half JinDo, though some have Fjordell ancestry. Their Aonic heritage means the Shaod can take them and make them Elantrians.",
+      "revealedIn": [{ "book": "elantris", "chapter": "19" }]
+    },
+    {
+      "text": "Until the revolution Duladel's official faith was Jesker, which reveres the Dor as a kind of overspirit. Its followers seek harmony with the Dor and with nature, and hold that everything is aware of the Dor except humans, who can be blind to it. Jesker gives weight to the movements of the heavens, and Hrathen says its people worship the moon. Outsiders sometimes call it primitive, which its followers find insulting.",
+      "revealedIn": [{ "book": "elantris", "chapter": "33" }]
+    },
+    {
+      "text": "Dula aristocrats tend to have creamy brown skin, while commoners are often darker and very large. Reputed to be the most carefree people in Opelon, the Dula care little for decorum and are slow to act. Aristocrats favor gaudy, bright clothes and big feathered hats. Their fencers are reputed to be the best in Opelon. They speak Duladen, and many, especially near the Arelene border, are fluent in Aonic.",
+      "revealedIn": [{ "book": "elantris", "chapter": "53" }]
+    },
+    {
+      "text": "The land has several climates, with swamps and the cave-riddled Dula Steppes. It borders Arelon, Fjorden and JinDo, its one major river is the Kalomo, and no other country has safe routes across the Atad Mountains. Its capital is Fellavoo.",
+      "revealedIn": ["elantris"]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The Duladel Republic",
+          "revealedIn": [
+            { "book": "elantris", "chapter": "25" },
+            { "book": "elantris", "chapter": "53" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Before the Reod the Duladel Republic ranked among the great powers of Opelon. It was friendly with Arelon, the Elantrians and Teod, but on worse terms with the Fjordell.",
+          "revealedIn": [{ "book": "elantris", "chapter": "25" }]
+        },
+        {
+          "text": "The republic was governed by the Republican class, citizens elected by the Dula who bore the title Citizen.",
+          "revealedIn": [{ "book": "elantris", "chapter": "53" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Revolution and Fjordell rule",
+          "revealedIn": [
+            { "book": "elantris", "chapter": "12" },
+            { "book": "elantris", "chapter": "53" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "When the republic collapsed, a group of Derethi priests under the gyorn Hrathen stirred up a revolution, and a Derethi monarchy was set up afterwards. Fjordell priests could now convert the Dula on a far greater scale, and because Shu-Dereth answers to the Wyrn, Dula of every rank fell under the sway of the Fjordell priesthood.",
+          "revealedIn": [{ "book": "elantris", "chapter": "12" }]
+        },
+        {
+          "text": "The revolution was extremely violent: the Republican class was wiped out apart from a handful of survivors, and Shu-Dereth took the place of Jesker as the official faith. A few men, mostly surviving republicans, kept up the fight against the Fjordell from hiding places in the swamps and the caves of the Dula Steppes. The fall of Duladel led to the betrothal of Raoden of Arelon to Sarene of Teod, binding together the two remaining non-Derethi nations.",
+          "revealedIn": [{ "book": "elantris", "chapter": "53" }]
+        }
+      ]
+    }
+  ]
+}

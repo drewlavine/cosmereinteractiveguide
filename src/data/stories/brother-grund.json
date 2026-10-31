@@ -1,0 +1,43 @@
+{
+  "intro": [
+    {
+      "text": "A brother of the Monastery of the Final Word, the order that Sister Amaal serves as a travelling priestess.",
+      "revealedIn": [{ "book": "fires-of-december", "chapter": "iii" }],
+      "fallback": true
+    },
+    {
+      "text": "The abbot of the Monastery of the Final Word, a noble-born scholar and Amaal's chief mentor, who sent her on pilgrimage to the capital.",
+      "revealedIn": [{ "book": "fires-of-december", "chapter": "xli" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The Monastery of the Final Word",
+          "revealedIn": [
+            { "book": "fires-of-december", "chapter": "xli" },
+            { "book": "fires-of-december", "chapter": "epilogue" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Brother Grund mentored Amaal, teased her for talking too much, and sent her on pilgrimage to the capital, telling her to start her teaching with the second mandate.",
+          "revealedIn": [{ "book": "fires-of-december", "chapter": "xli" }]
+        },
+        {
+          "text": "In another life December lived, he took her in at the monastery, opened its locked books on demons and witchcraft to her, and kept caring for refugees until the plague killed him. After December bonded the Megalith, he travelled to the capital for her wedding to Flint.",
+          "revealedIn": [{ "book": "fires-of-december", "chapter": "epilogue" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": [
+    {
+      "text": "A fine scholar of language who thinks priests should lift the Prophet's words up for the capital's elite. He has dreamt of the Prophet visiting him, and has felt unworthy of the Prophet's attention.",
+      "revealedIn": [{ "book": "fires-of-december", "chapter": "epilogue" }]
+    }
+  ]
+}

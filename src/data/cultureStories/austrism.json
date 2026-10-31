@@ -1,0 +1,119 @@
+{
+  "intro": [
+    {
+      "text": "The religion of the Idrians, devoted to a single god, Austre, often called the God of Colors.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "1" }]
+    },
+    {
+      "text": "The religion of the Idrians, devoted to a single god, Austre, the God of Colors. Its core tenets are the Five Visions, which Vo saw before his death.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "20" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Idrians believe Austre watches over and protects them, and call themselves his sons and daughters.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "9" }]
+    },
+    {
+      "text": "Austrism teaches that Austre gives Breath to humanity and sends the Returned back to life.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "15" }]
+    },
+    {
+      "text": "The faith's core tenets are the Five Visions, which Vo saw before he died.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "20" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Before the Manywar",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "15" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Before the Manywar and the royal family's exile, Austre was worshipped in Hallandren as well.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "15" }]
+        }
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "title": "Teachings",
+      "items": [
+        {
+          "text": "Ending a pregnancy is considered a sin.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "34" }]
+        },
+        {
+          "text": "The Visions teach humility, sacrifice and putting others' troubles before one's own. No one should set themselves above others, as Austre sees all people as equals. Showiness, flaunting one's talents and shunning people for their sins are sins.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "40" }]
+        },
+        {
+          "text": "Feelings are not wrong, but using them to draw attention to oneself is.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "40" }]
+        },
+        {
+          "text": "Idrian Austrism links Breath closely to the soul, so holding others' Breath is a sin and Awakening with it a worse one. Vasher says this hostility to Awakening arose only after the Manywar.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "40" }]
+        }
+      ],
+      "parts": []
+    },
+    {
+      "title": "Austre",
+      "items": [
+        {
+          "text": "Austre is spoken of as he but is seen less as a person than as an unseen, karmic force watching over everyone. He is still given human traits, such as colorful eyes, and can be pleased or displeased, regarding all people as equals whatever their station.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "29" }]
+        },
+        {
+          "text": "He is believed to make every living thing and set it in its proper place, to give people their personalities and talents, to send the Returned back as his prophets, and to have given Vo the Five Visions.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "29" }]
+        }
+      ],
+      "parts": []
+    },
+    {
+      "title": "Monks",
+      "items": [
+        {
+          "text": "Monks are meant to be the most devout and least showy of Idrians; they shave their heads and wear white robes. Families, especially rich or noble ones, are expected to give at least one child to the monasteries, since even selfishness with one's own blood goes against the Visions.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "44" }]
+        },
+        {
+          "text": "Monks are free to leave their monasteries at any time and serve Idris's needy. Many are hard-working, Fafen among them.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "44" }]
+        }
+      ],
+      "parts": []
+    }
+  ],
+  "facts": [
+    {
+      "label": "God",
+      "name": "Austre",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "1" }]
+    },
+    {
+      "label": "Followed in",
+      "name": "Idris",
+      "placeId": "idris",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "1" }]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "fafen",
+      "role": "monk",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "2" }]
+    },
+    {
+      "characterId": "vo",
+      "role": "received Visions",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "20" }]
+    }
+  ]
+}

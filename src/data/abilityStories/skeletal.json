@@ -1,0 +1,80 @@
+{
+  "intro": [
+    {
+      "text": "A creature made from the skeleton of the dead by a Bloodsealer, who keeps such creatures as pets.",
+      "revealedIn": [{ "book": "emperors-soul", "chapter": "day-3" }]
+    },
+    {
+      "text": "A Bloodsealing construct that brings the bones of a dead person or creature back to life: a skilled, tireless warrior that hunts its target without mercy.",
+      "revealedIn": [{ "book": "emperors-soul", "chapter": "day-98" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Skeletals are made from the bones of the dead by Bloodsealing, a magic from Dzhamar similar to Forgery. A stamp, usually of bone, is inked with fresh blood and pressed into the skull's forehead, and the blood brings the bones to life.",
+      "revealedIn": [{ "book": "emperors-soul", "chapter": "day-98" }]
+    },
+    {
+      "text": "They are skilled fighters that can work in teams and use weapons. Ordinary people can barely beat them hand to hand: they cannot be stabbed, never tire, and their bones are hard to break or pull loose. Sent after the source of their seal's blood, they track it through walls and over long distances, and Essence Marks do not throw them off.",
+      "revealedIn": [{ "book": "emperors-soul", "chapter": "day-98" }]
+    },
+    {
+      "text": "Outside Dzhamar, Bloodsealing is seen as an abomination. Strikers, rivals of the Dzhamarians, despise it, and others find it horrifying. People call skeletals a Bloodsealer's pets and flee if they think any are near; the mere threat of them can force someone to obey.",
+      "revealedIn": [{ "book": "emperors-soul", "chapter": "day-98" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Hunting Shai",
+          "revealedIn": [{ "book": "emperors-soul", "chapter": "day-98" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "The Heritage Faction hired the Bloodsealer Weedfingers to keep Shai in the Rose Palace, skeletals included, and he asked for her bones as payment. When Shai fled, Zu cut her and drew blood, and Weedfingers sent five skeletals after her. As Shaizan, she destroyed them all, then found him hiding and took the skulls with her so they could not be sent after her again.",
+          "revealedIn": [{ "book": "emperors-soul", "chapter": "day-98" }]
+        }
+      ]
+    }
+  ],
+  "mechanics": [
+    {
+      "title": [
+        {
+          "text": "Blood and tracking",
+          "revealedIn": [{ "book": "emperors-soul", "chapter": "day-98" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "A skeletal is tuned to the person whose blood inked its seal and can sense them anywhere; when the Bloodsealer stamps the skull, that person may feel pain in their wound. The seals need renewing with fresh blood, less often than other Bloodseals, but their tracking fades after twenty-four hours.",
+          "revealedIn": [{ "book": "emperors-soul", "chapter": "day-98" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Keeping them whole",
+          "revealedIn": [{ "book": "emperors-soul", "chapter": "day-98" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "A skeletal can be brought back many times, but only while its skeleton is whole. If bones, especially the skull or spine, are removed or broken, it falls and stays still until repaired; wooden carvings can stand in for lost bones. The Bloodsealer guarding Shai sharpens his skeletals' bones so they are hard to pull apart.",
+          "revealedIn": [{ "book": "emperors-soul", "chapter": "day-98" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "weedfingers",
+      "role": "Bloodsealer",
+      "revealedIn": [{ "book": "emperors-soul", "chapter": "day-3" }]
+    }
+  ]
+}

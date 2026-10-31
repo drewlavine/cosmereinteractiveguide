@@ -1,0 +1,25 @@
+{
+  "intro": [
+    {
+      "text": "A place in Roshar's distant past, named in the in-world book Words of Radiance.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "43" }]
+    }
+  ],
+  "description": [],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The Heraldic Epochs",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "43" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Disturbances in Revv were quelled around the time Nalan accepted the Skybreakers' patronage.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "43" }]
+        }
+      ]
+    }
+  ]
+}

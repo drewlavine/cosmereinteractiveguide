@@ -1,0 +1,25 @@
+{
+  "intro": [
+    {
+      "text": "A city in Iri overlooking the bay where Cusicesh appears.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "i-5" }]
+    }
+  ],
+  "description": [],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The Long Trail",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "i-11" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Cusicesh appeared outside his usual schedule and opened a shining gateway. He called on the Iriali to prepare for the next stage of the Long Trail.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "i-11" }]
+        }
+      ]
+    }
+  ]
+}

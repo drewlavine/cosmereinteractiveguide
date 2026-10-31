@@ -1,0 +1,23 @@
+{
+  "intro": [
+    {
+      "text": "Mysterious Invested beings that carry messages across the Cognitive Realm. They read Connection to find anyone, wherever they are, and some of them work for Silverlight Mercantile.",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "epilogue-6" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Harmony used one to send word to MeLaan.",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "epilogue-6" }]
+    }
+  ],
+  "history": [],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "melaan",
+      "role": "recipient",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "epilogue-6" }]
+    }
+  ]
+}

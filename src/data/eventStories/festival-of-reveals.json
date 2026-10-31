@@ -1,0 +1,49 @@
+{
+  "intro": [
+    {
+      "text": "A festival in Torio City that Yumi dreams of attending in disguise, though her warden discourages it.",
+      "revealedIn": [{ "book": "yumi", "chapter": "2" }]
+    },
+    {
+      "text": "A yearly festival in Torio City where the nation's finest art, plays and projects are shown in honour of its queen and the spirits.",
+      "revealedIn": [{ "book": "yumi", "chapter": "40" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "It fills the city centre, gathered around a big bannered courtyard and the grand exhibit hall.",
+      "revealedIn": [{ "book": "yumi", "chapter": "40" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The father machine",
+          "revealedIn": [{ "book": "yumi", "chapter": "38" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Scholars of the Institute of Mechanical Solutions unveiled the father machine at the festival and switched it on.",
+          "revealedIn": [{ "book": "yumi", "chapter": "38" }]
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Location",
+      "name": "Torio City",
+      "placeId": "torio-city",
+      "revealedIn": [{ "book": "yumi", "chapter": "2" }]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "yumi",
+      "role": "hoped to attend",
+      "revealedIn": [{ "book": "yumi", "chapter": "2" }]
+    }
+  ]
+}

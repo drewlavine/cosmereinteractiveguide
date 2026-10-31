@@ -1,0 +1,34 @@
+{
+  "intro": [
+    {
+      "text": "An Alethi general on Roshar.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "47" }],
+      "fallback": true
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Defending Narak",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "88" },
+            { "book": "wind-and-truth", "chapter": "90" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Winn advised Sigzil during the defense of the Shattered Plains, including how to bear the losses among their soldiers.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "88" }]
+        },
+        {
+          "text": "Even when he thought their chances of holding out were very poor, Winn trusted Sigzil and promised to buy him more time.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "90" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

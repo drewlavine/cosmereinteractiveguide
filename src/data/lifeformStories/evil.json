@@ -1,0 +1,128 @@
+{
+  "intro": [
+    {
+      "text": "Beings, also called nephilim, eidoliths or Splinters of Ambition, that live mostly on Threnody.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "39" }]
+    },
+    {
+      "text": "Remnants of Ambition, a god destroyed by Odium: entities of almost pure anti-Investiture, found mostly on Threnody, that change with the thoughts of the people near them.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "54" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Made of almost pure anti-Investiture, they are deadly even to strongly Invested beings, dragons among them.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "26" }]
+    },
+    {
+      "text": "In Shadesmar they look huge, translucent white and often skeletal, moving in jerks that leave afterimages behind.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "26" }]
+    },
+    {
+      "text": "Roughly human in shape but eyeless, they have many limbs and can sprout hundreds more arms at need.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "27" }]
+    },
+    {
+      "text": "Looking into their empty eye sockets can show a person visions.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "27" }]
+    },
+    {
+      "text": "They generally keep away from populated places.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "35" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        { "text": "The Homeland", "revealedIn": ["shadows-for-silence"] }
+      ],
+      "items": [
+        {
+          "text": "Some time after Threnody's people found the continent of the Forests of Hell, the Evil appeared in their Homeland and killed most of its people. Survivors crossed the sea to the Forests, where the Forescouts helped them settle and live by the Simple Rules. Much of the old continent's government, culture and technology was lost, and those who survived became a harsh, practical people.",
+          "revealedIn": ["shadows-for-silence"]
+        },
+        {
+          "text": "Within a century of its coming, the truth about the Evil was already lost in myths and legends. Silence's grandmother and other Forescouts believed they would one day destroy it; tales of the White Fox claimed he had visited the Fallen World and shaken its hand.",
+          "revealedIn": ["shadows-for-silence"]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Beyond Threnody",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "sunlit-man", "chapter": "15" },
+                { "book": "isles-of-the-emberdark", "chapter": "52" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "isles-of-the-emberdark", "chapter": "39" },
+                { "book": "fires-of-december", "chapter": "xli" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Some remained on Threnody, while others had long been roaming the Cognitive Realm.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "sunlit-man", "chapter": "15" },
+                { "book": "isles-of-the-emberdark", "chapter": "52" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Many also came to live on Miral, where locals call them demons, fairies or moondust.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "isles-of-the-emberdark", "chapter": "39" },
+                { "book": "fires-of-december", "chapter": "xli" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "title": "Powers and weaknesses",
+      "items": [
+        {
+          "text": "They break easily through shields made by Allomancy or Awakening and through Aonic force fields.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "39" }]
+        },
+        {
+          "text": "Some arcanists have harmed them by overfeeding them with Investiture.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "40" }]
+        },
+        {
+          "text": "Some Investiture, such as Feruchemical healing, and some technology, such as wireless signals, tends to fail near them.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "43" }]
+        },
+        {
+          "text": "Most ordinary and Invested weapons do little against them.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "54" }]
+        }
+      ],
+      "parts": []
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "dakwara",
+      "role": "entity",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "54" }]
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "intro": [
+    {
+      "text": "One of the notable criminals found dead at Lord Winsting Innate's mansion.",
+      "revealedIn": [{ "book": "shadows-of-self", "chapter": "4" }],
+      "fallback": true
+    },
+    {
+      "text": "A suspected smuggler from Elendel's Third Octant, killed at Lord Winsting Innate's auction.",
+      "revealedIn": [{ "book": "shadows-of-self", "chapter": "16" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The auction",
+          "revealedIn": [{ "book": "shadows-of-self", "chapter": "16" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "The constabulary suspected Chip of smuggling in the Third Octant. He was among the criminals and corrupt nobles who gathered for Winsting Innate's auction of his senate vote, and was killed there. Wax knew who he was the moment he saw the body.",
+          "revealedIn": [{ "book": "shadows-of-self", "chapter": "16" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

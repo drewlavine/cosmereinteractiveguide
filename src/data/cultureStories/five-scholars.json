@@ -1,0 +1,104 @@
+{
+  "intro": [
+    {
+      "text": "A group of scholars from before the Manywar whose discoveries in Awakening, including a way to make a Lifeless from a single Breath, helped bring on that war. Kalad is said to have been one of them.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "32" }]
+    },
+    {
+      "text": "A group of scholars from before the Manywar, Vasher among them, whose discoveries in Awakening, including a way to make a Lifeless from a single Breath, helped bring on that war.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "58" }]
+    },
+    {
+      "text": "Five scholars of Awakening from before the Manywar, Vasher, Denth, Shashara, Arsteel and Yesteel, whose discoveries, including single-Breath Lifeless and ichor-alcohol, helped bring on that war.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "epilogue" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Kalad, said to be one of the Scholars, made a stronger kind of Lifeless that came to be called Kalad's Phantoms.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "32" }]
+    },
+    {
+      "text": "Until one of the Scholars found a Command to make a Lifeless with one Breath, each took fifty Breaths and was costly to make.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "53" }]
+    },
+    {
+      "text": "Shashara leaked the single-Breath Command to the world.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "epilogue" }]
+    },
+    {
+      "text": "Yesteel invented ichor-alcohol, which let a Lifeless keep working far longer without upkeep.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "epilogue" }]
+    },
+    {
+      "text": "Shashara found out how to Awaken steel, using a thousand Breaths, and made Nightblood with Vasher's help.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "epilogue" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The Manywar",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "epilogue" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Cheap, long-lasting Lifeless were one cause of the Manywar. When it began, the Scholars split among the warring sides, the lovers Vasher and Shashara siding with Hanald, so each faction held different Awakening knowledge.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "epilogue" }]
+        },
+        {
+          "text": "Vasher sealed Awakened bones in stone to make powerful Lifeless, and with them seized power from the royal family, who escaped into the mountains.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "epilogue" }]
+        },
+        {
+          "text": "Soon after marrying Vasher, Shashara drew Nightblood at the Battle of Twilight Falls, the war's last battle. Taken with its power, she wanted to keep using it and to give away how to make more, as she had with the single-Breath Command. Vasher was disgusted by the death it caused.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "epilogue" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "After the war",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "epilogue" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Vasher ended the Manywar by calling his Lifeless back.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "epilogue" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "vasher",
+      "role": "member",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "58" }]
+    },
+    {
+      "characterId": "denth",
+      "role": "member",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "epilogue" }]
+    },
+    {
+      "characterId": "shashara",
+      "role": "member",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "epilogue" }]
+    },
+    {
+      "characterId": "arsteel",
+      "role": "member",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "epilogue" }]
+    },
+    {
+      "characterId": "yesteel",
+      "role": "member",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "epilogue" }]
+    }
+  ]
+}

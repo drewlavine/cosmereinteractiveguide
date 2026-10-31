@@ -1,0 +1,227 @@
+{
+  "intro": [
+    {
+      "text": "Shallan Davar's family, a noble house sworn to Highprince Valam, whose failing health means he no longer protects it as he once did. Since her father's death its finances have been in ruins.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "3" }]
+    },
+    {
+      "text": "A noble house of Jah Keved and Shallan Davar's family. Its estate, known for mining, lies in Highprince Valam's princedom. The ailing Valam no longer protects it, and its finances have been in ruins since her father died.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "45" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "The family lives on an estate in Highprince Valam's princedom and is known for mining. After their father died, his children learned he had been opening new quarries with a Soulcaster until the device broke.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "7" }]
+    },
+    {
+      "text": "Lin Davar's children were Helaran, Balat, Jushu, Wikim and Shallan. In the years before his death his wife was Malise.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "i-2" },
+            { "book": "words-of-radiance", "chapter": "48" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Shallan's mother",
+          "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "19" },
+            { "book": "words-of-radiance", "chapter": "88" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The household believed Lin had killed his wife, along with her lover.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "19" }]
+        },
+        {
+          "text": "In truth, when Shallan's mother learned what Shallan could do, she tried to kill her, and Shallan killed her in self-defence. Lin took the blame, and the strain tore the family apart.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "88" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Helaran",
+          "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "19" },
+            { "book": "words-of-radiance", "chapter": "45" },
+            { "book": "words-of-radiance", "chapter": "61" },
+            { "book": "words-of-radiance", "chapter": "73" },
+            { "book": "words-of-radiance", "chapter": "74" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Years before, Shallan's brother Helaran called Lin a murderer, summoned a Shardblade and left, warning that he would keep watch on the house.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "19" }]
+        },
+        {
+          "text": "At the Middlefest Fair on the Davar estate, Lin declared Helaran disinherited.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "45" }]
+        },
+        {
+          "text": "Lin secretly ordered a guard to ambush Helaran and bring back his head, offering Helaran's Shardblade as payment. His wife Malise was horrified.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "61" }]
+        },
+        {
+          "text": "Lin told his children that Helaran had died on a battlefield in Alethkar.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "73" }]
+        },
+        {
+          "text": "Hearing Shallan's story, Kaladin realized her brother was the Shardbearer he had killed while saving Amaram.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "74" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Their father's last years",
+          "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "45" },
+            { "book": "words-of-radiance", "chapter": "48" },
+            { "book": "words-of-radiance", "chapter": "61" },
+            { "book": "way-of-kings", "chapter": "70" },
+            { "book": "words-of-radiance", "chapter": "73" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "At the Middlefest Fair, Revilar pushed Lin into a poor deal, pointing to the house's falling standing.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "45" }]
+        },
+        {
+          "text": "Lin refused to pay Jushu's gambling debts and let the creditors take him. The ledgers showed the house deep in debt. Shallan persuaded the men to accept her brothers' daggers as payment and brought Jushu home.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "48" }]
+        },
+        {
+          "text": "The house's fortunes then improved as new marble deposits were found and Lin played rival lighteyes against each other. He wanted Balat to marry Highprince Valam's daughter Sudi rather than Eylita Tavinar.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "61" }]
+        },
+        {
+          "text": "Shallan admitted that she had killed her father.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "70" }]
+        },
+        {
+          "text": "When Lin learned his children planned to leave, he killed Malise as punishment and beat Balat. Shallan gave him poisoned wine, then strangled him with her necklace, and Jushu found a broken Soulcaster in his pocket.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "73" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "After their father's death",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "i-2" },
+            { "book": "way-of-kings", "chapter": "29" },
+            { "book": "way-of-kings", "chapter": "74" },
+            { "book": "words-of-radiance", "chapter": "88" },
+            { "book": "oathbringer", "chapter": "122" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Balat ran the estate with Wikim at his side, while Shallan did most of the work of saving the family.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "i-2" }]
+        },
+        {
+          "text": "Some weeks after Luesh died, men claiming to be friends of their late father urged Balat to return the family's Soulcaster. Balat thought they were its true owners and dangerous; one had a symbol tattooed on his thumb. By then Balat was betrothed to Eylita Tavinar.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "29" }]
+        },
+        {
+          "text": "On seeing the Ghostbloods' symbol, Shallan realized her father had likely been one of them.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "74" }]
+        },
+        {
+          "text": "Mraize told Shallan that the Ghostbloods had her brothers and that her family owed them for the broken Soulcaster.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "88" }]
+        },
+        {
+          "text": "Shallan's brothers arrived at Urithiru soon after Thaylen Field was fought, on the day she married Adolin Kholin.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "122" }]
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Sworn to",
+      "name": "Highprince Valam",
+      "characterId": "valam",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "3" }]
+    },
+    {
+      "label": "Estate in",
+      "name": "Valam princedom",
+      "placeId": "valam-princedom",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "7" }]
+    },
+    {
+      "label": "Nation",
+      "name": "Jah Keved",
+      "placeId": "jah-keved",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "45" }]
+    },
+    {
+      "label": "Known for",
+      "name": "Mining",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "7" }]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "shallan-davar",
+      "role": "daughter",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "3" }]
+    },
+    {
+      "characterId": "balat-davar",
+      "role": "son",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "i-2" }]
+    },
+    {
+      "characterId": "wikim-davar",
+      "role": "son",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "i-2" }]
+    },
+    {
+      "characterId": "eylita-tavinar",
+      "role": "Balat's betrothed",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "29" }]
+    },
+    {
+      "characterId": "helaran-davar",
+      "role": "son",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "19" }]
+    },
+    {
+      "characterId": "lin-davar",
+      "role": "father",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "19" }]
+    },
+    {
+      "characterId": "malise-gevelmar",
+      "role": "Lin's wife",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "45" }]
+    },
+    {
+      "characterId": "jushu-davar",
+      "role": "son",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "48" }]
+    }
+  ]
+}

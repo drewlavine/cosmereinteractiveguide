@@ -1,0 +1,38 @@
+{
+  "intro": [
+    {
+      "text": "A creature of Thaylen myth. Modern Thaylens and Rosharan scholars mostly think it fictional, much as they regard sea hags or living cremling heaps.",
+      "revealedIn": [{ "book": "dawnshard", "chapter": "9" }]
+    }
+  ],
+  "description": [],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Old legends reconsidered",
+          "revealedIn": [{ "book": "dawnshard", "chapter": "9" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "As reports of unexplained events grew during the True Desolation, Jasnah Kholin began to wonder whether some legends and folk tales were true. During the voyage to Akinah, while they discussed the strange things happening aboard the Wandersail, Vstim passed on to Rysn Jasnah's thoughts about Aimians and the gloomdancer.",
+          "revealedIn": [{ "book": "dawnshard", "chapter": "9" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "vstim",
+      "role": "mentioned it",
+      "revealedIn": [{ "book": "dawnshard", "chapter": "9" }]
+    },
+    {
+      "characterId": "rysn-ftori",
+      "role": "heard of it",
+      "revealedIn": [{ "book": "dawnshard", "chapter": "9" }]
+    }
+  ]
+}

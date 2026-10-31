@@ -1,0 +1,41 @@
+{
+  "intro": [
+    {
+      "text": "A criminal whose capture won a young constable, Peterus, fame, promotion and a place among Elendel's lords.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "8" }]
+    },
+    {
+      "text": "A serial killer in Elendel: an outwardly ordinary man with a family, friends and a decent job, who strangled women with copper wire and sank their bodies in the canals.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "9" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Crimes and capture",
+          "revealedIn": [
+            { "book": "alloy-of-law", "chapter": "9" },
+            { "book": "alloy-of-law", "chapter": "8" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "For no reason anyone could find, this ordinary man began murdering women, choking them with copper wire and hiding the bodies in the canals, probably in the Eighth Octant among other places. Peterus, then a plain constable, joined the hunt and caught the Strangler himself.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "9" }]
+        },
+        {
+          "text": "The arrest brought Peterus praise, awards and promotions, most likely including his post as chief constable of the Eighth Octant, and an invitation to become a lord.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "8" }]
+        },
+        {
+          "text": "Criminologists such as Marasi Colms remained fascinated by the case, puzzling over how so normal a man could commit such crimes without any apparent motive.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "9" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

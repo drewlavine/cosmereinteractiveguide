@@ -1,0 +1,56 @@
+{
+  "intro": [
+    {
+      "text": "One of Vathi's trusted advisors, who greets a reluctant Dusk outside the government offices.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "7" }],
+      "fallback": true
+    },
+    {
+      "text": "Soil, Vathi's vice president, who brings her the results of the votes on her people's future.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "61" }],
+      "fallback": true
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Vathi's advisor",
+          "revealedIn": [
+            { "book": "isles-of-the-emberdark", "chapter": "7" },
+            { "book": "isles-of-the-emberdark", "chapter": "61" },
+            { "book": "isles-of-the-emberdark", "chapter": "epilogue" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Soil met Dusk outside the government offices before the talks with the Ones Above.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "7" }]
+        },
+        {
+          "text": "He brought Vathi the telegram with the latest vote. As each vote's margin grew narrower, he came to think they should accept the provisional terms of the Ones Above.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "61" }]
+        },
+        {
+          "text": "As vice president of the interior and Vathi's trusted advisor, he often acts as her aide, fetching Dusk for talks, discussing strategy, passing on messages and seeing off guests and diplomats.",
+          "revealedIn": [
+            { "book": "isles-of-the-emberdark", "chapter": "epilogue" }
+          ]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Long-legged and lanky, he carries his Aviar on his head rather than his shoulder, a sight the broadsheets love to caricature.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "61" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "A city man, he knows little of the jungles of the Pantheon.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "61" }]
+    }
+  ]
+}

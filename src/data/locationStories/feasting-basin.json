@@ -1,0 +1,116 @@
+{
+  "intro": [
+    {
+      "text": "A place near the Pinnacle in the Alethi warcamps of the Shattered Plains, where King Elhokar Kholin holds feasts.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "22" }]
+    },
+    {
+      "text": "A place near the Pinnacle in the Alethi warcamps of the Shattered Plains, where King Elhokar Kholin held feasts until the camps were abandoned.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "22" },
+            { "book": "oathbringer", "chapter": "50" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "Braziers along each island keep guests warm; after Navani Kholin came to the Plains, heating fabrials took their place. The islands hold tables of food and drink and chairs for the guests, and the king has an island of his own for his family and guests of honor.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "54" }]
+    },
+    {
+      "text": "The basin sits at the foot of the hill topped by the Pinnacle, Elhokar's palace. It is an open-air, shallow bowl from which five round platforms, made by Soulcasting, rise. Bridges join them, and their finely scrolled railings are packed away between feasts to protect them from damp.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "22" },
+            { "book": "words-of-radiance", "chapter": "67" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "For most feasts a nearby stream is diverted to flood the basin into a small lake, so the platforms become islands. The depth depends on the stream, which changes with the weather and season. Sometimes spheres filled with Stormlight are tossed into the water so that it glows.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "54" },
+            { "book": "words-of-radiance", "chapter": "67" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "As in most Vorin ballrooms, four islands are split by gender, two for men and two for women. One has a sparring ring where young brightlords show off with the sword, and elsewhere women have easels and drawing tools to display their skill. The king's island is open to everyone, giving powerful nobles of either gender equal access to him.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "22" },
+            { "book": "words-of-radiance", "chapter": "67" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Feasts in the warcamps",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "54" },
+                { "book": "words-of-radiance", "chapter": "67" }
+              ]
+            },
+            { "book": "way-of-kings", "chapter": "22" },
+            { "book": "words-of-radiance", "chapter": "67" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The basin was the warcamps' chief venue for high-born parties, where lighteyes could see the king, mingle with their peers and play politics, both foreign and domestic. Highprinces seldom missed a feast, and the setting saw some notable political maneuvering between them, often started by Highprince Sadeas.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "54" },
+                { "book": "words-of-radiance", "chapter": "67" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Younger lighteyes came to show off their clothes, catch up on rumors and enjoy heavily spiced dishes, a change from the bland Soulcast meat and grain of the camps. The sparring ring hosted friendly bouts and, when needed, duels of honor. The King's Wit made a habit of sitting at one island's entrance to insult each guest who arrived.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "22" }]
+        },
+        {
+          "text": "Since the basin had no roof, feasts were planned around the stormwardens' forecasts and called off when a highstorm or other bad weather was expected.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "22" }]
+        },
+        {
+          "text": "Early in Elhokar's reign the islands had few guards. As the highprinces' rivalries sharpened and the Assassin in White was increasingly feared, brightlords brought bodyguards in growing numbers; afterward the guards were sometimes given the leftover food.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "67" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Abandonment",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "50" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Once the True Desolation began, the basin fell out of use, as the king and most of the warcamps' people left for Urithiru.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "50" }]
+        }
+      ]
+    }
+  ]
+}

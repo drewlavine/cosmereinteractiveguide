@@ -1,0 +1,69 @@
+{
+  "intro": [
+    {
+      "text": "The leader of one of the three main gangs in Elantris; her followers take the food offerings of new arrivals who head left from the gate.",
+      "revealedIn": [{ "book": "elantris", "chapter": "4" }],
+      "fallback": true
+    },
+    {
+      "text": "An Arelene Elantrian who runs one of the city's gangs from the old palace, where she secretly shelters Elantris's children, and who has allied her gang with Raoden.",
+      "revealedIn": [{ "book": "elantris", "chapter": "13" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Gang leader",
+          "revealedIn": [
+            { "book": "elantris", "chapter": "25" },
+            { "book": "elantris", "chapter": "13" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Before the Shaod, Karata lived in Kae with her small daughter Opais and her husband, a royal guard she had met while working as a nurse for some mercenaries. In Elantris she became one of three gang leaders, holding the old palace beside Aanden's ground. Her gang claimed the food of newcomers who stepped left from the gate, and she collected it herself, avoiding force where she could.",
+          "revealedIn": [{ "book": "elantris", "chapter": "25" }]
+        },
+        {
+          "text": "Karata had broken out of Elantris three times and been caught breaking into the palace in Kae, which led to rumours that she wanted King Iadon dead. When Raoden started building near her territory, she took him for a rival gang leader and sent her men to wreck his work and take his food, until he offered to get her into the palace.",
+          "revealedIn": [{ "book": "elantris", "chapter": "13" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Raoden's ally",
+          "revealedIn": [
+            { "book": "elantris", "chapter": "13" },
+            { "book": "elantris", "chapter": "23" },
+            { "book": "elantris", "chapter": "61" },
+            { "book": "elantris", "chapter": "epilogue" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Karata and Raoden escaped through a well. When he asked her to spare Iadon, she guessed who he was, and told him she only wanted to see her daughter. Her husband, on patrol, did not know her and attacked, but Raoden bluffed him into standing still. Back in Elantris she showed Raoden the children she secretly protected and pledged to help his cause.",
+          "revealedIn": [{ "book": "elantris", "chapter": "13" }]
+        },
+        {
+          "text": "When Sarene brought food into Elantris, Karata and Mareshe, pretending to be Aanden, told her that the two of them were allies, had killed Shaor and now ruled the city.",
+          "revealedIn": [{ "book": "elantris", "chapter": "23" }]
+        },
+        {
+          "text": "After Raoden fell, Karata helped Galladon carry him up to the mountain pool. When he woke and ran to draw a line along the chasm, she and Galladon held off Fjordell soldiers for him. Karata was beheaded, one of the few ways to truly kill an Elantrian, seconds before Raoden finished the Aon that restored the Elantrians' power.",
+          "revealedIn": [{ "book": "elantris", "chapter": "61" }]
+        },
+        {
+          "text": "Karata was buried among those who had fought for Arelon, alongside Eondel, Roial and Saolin.",
+          "revealedIn": [{ "book": "elantris", "chapter": "epilogue" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

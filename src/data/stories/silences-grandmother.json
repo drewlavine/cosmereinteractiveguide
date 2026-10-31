@@ -1,0 +1,43 @@
+{
+  "intro": [
+    {
+      "text": "Silence's grandmother, remembered by Silence in a conversation about their journey from Homeland.",
+      "revealedIn": [{ "book": "shadows-for-silence", "chapter": "4" }],
+      "fallback": true
+    },
+    {
+      "text": "A woman from the Homeland who travelled to the Forests of Hell on Threnody and raised her granddaughter Silence.",
+      "revealedIn": ["shadows-for-silence"]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Forescout",
+          "revealedIn": [
+            "shadows-for-silence",
+            { "book": "shadows-for-silence", "chapter": "2" },
+            { "book": "shadows-for-silence", "chapter": "5" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "She and her husband were among the first to reach the continent of the Forests of Hell, which earned them the name Forescout, and after the Homeland fell they ran a waystop. They brought up their granddaughter Silence to be strong.",
+          "revealedIn": ["shadows-for-silence"]
+        },
+        {
+          "text": "She taught Silence the Simple Rules for surviving the forest.",
+          "revealedIn": [{ "book": "shadows-for-silence", "chapter": "2" }]
+        },
+        {
+          "text": "Her shade, shut behind a door at the waystop, burst out when Theopolis drew Silence's blood. It killed him and then let Silence lock it away again.",
+          "revealedIn": [{ "book": "shadows-for-silence", "chapter": "5" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

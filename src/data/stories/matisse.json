@@ -1,0 +1,21 @@
+{
+  "intro": [
+    {
+      "text": "An Elantrian who looks after the children of New Elantris; Dashe has become a father to her.",
+      "revealedIn": ["hope-of-elantris"]
+    }
+  ],
+  "history": [
+    {
+      "title": [{ "text": "The Roost", "revealedIn": ["hope-of-elantris"] }],
+      "items": [
+        {
+          "text": "Matisse cared for the children of New Elantris and kept them safe when Fjordell soldiers attacked the city.",
+          "revealedIn": ["hope-of-elantris"]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

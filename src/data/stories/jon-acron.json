@@ -1,0 +1,46 @@
+{
+  "intro": [
+    {
+      "text": "A Darkside professor on Duchess Khrissalla's voyage to Dayside.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "prologue" }],
+      "fallback": true
+    },
+    {
+      "text": "A professor travelling with Duchess Khrissalla's expedition to Dayside.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "3" }]
+    },
+    {
+      "text": "A professor on Duchess Khrissalla's expedition who is secretly a Dynasty agent sent to kill the prince.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "14" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The expedition",
+          "revealedIn": [
+            { "book": "white-sand-omnibus", "chapter": "5" },
+            { "book": "white-sand-omnibus", "chapter": "14" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Acron spotted a Dynastic-speaking merchant in Dosha-Har'Ken so the party could buy supplies, and puzzled over Dayside's odd mix of simple and advanced technology. The party found and revived Kenton, who led them to Kezare, where Acron stayed in Lonzare, bickering with Cynder.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "5" }]
+        },
+        {
+          "text": "He tried to make Khriss suspect Baon, saying he had heard only two shots the night Captain Deral died. When assassins struck at a restaurant, he saved Khriss with the pistol she had given Cynder, then hurried after her when she went to meet Nilto.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "14" }]
+        },
+        {
+          "text": "At the docks, as Khriss unmasked Nilto as Prince Gevin, Acron drew the pistol on him, revealing himself as a Dynasty agent. He grazed Baon, chased Khriss through the crates and was knocked off the pier by a crane she swung.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "14" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

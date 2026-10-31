@@ -1,0 +1,27 @@
+{
+  "intro": [
+    {
+      "text": "A skaa Smoker on Scadrial.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "10" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Clubs's apprentice",
+          "revealedIn": [{ "book": "final-empire", "chapter": "10" }],
+          "fallback": true
+        }
+      ],
+      "items": [
+        {
+          "text": "An apprentice of Clubs, he used his Smoking to hide one of the crew's meetings.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "10" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

@@ -44,5 +44,35 @@
       "text": "Rahel is uncomfortable being a Truthwatcher and would rather be known as an Edgedancer. She is ashamed that she can't heal minds or lost limbs, and the horrors of war weigh on her.",
       "revealedIn": [{ "book": "wind-and-truth", "chapter": "127" }]
     }
+  ],
+  "abilities": [
+    {
+      "title": [
+        {
+          "text": "Progression",
+          "revealedIn": [
+            {
+              "all": [
+                "words-of-radiance",
+                { "book": "wind-and-truth", "chapter": "50" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Rahel healed the defenders of Azimir with Progression, but could not restore missing limbs or repair injuries to the mind.",
+          "revealedIn": [
+            {
+              "all": [
+                "words-of-radiance",
+                { "book": "wind-and-truth", "chapter": "50" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
   ]
 }

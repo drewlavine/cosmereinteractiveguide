@@ -1,0 +1,69 @@
+{
+  "intro": [
+    {
+      "text": "A threat named by a dying member of the Set, who warns Marasi that the end will come through ash or through the men of gold and red.",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "6" }]
+    },
+    {
+      "text": "A force Autonomy could send to invade Scadrial, one of her two ways to take the planet besides bombing Elendel.",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "35" }]
+    },
+    {
+      "text": "An army under Autonomy's direct command, gold-skinned and with glowing red eyes, which she sends to invade and conquer worlds where her other efforts to rule have failed.",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "60" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Its soldiers have a statuesque look and number several thousand or more, armed with rifles Marasi considers advanced. It has rarely been needed, and once unleashed it is said to be hard to control. TwinSoul claims to have seen its destructive power firsthand.",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "60" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The planned invasion of Scadrial",
+          "revealedIn": [
+            { "book": "lost-metal", "chapter": "35" },
+            { "book": "lost-metal", "chapter": "40" },
+            { "book": "lost-metal", "chapter": "47" },
+            {
+              "all": [
+                { "book": "alloy-of-law", "chapter": "epilogue" },
+                { "book": "lost-metal", "chapter": "64" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Telsin told Wax that Autonomy had two ways to take Scadrial: bombing Elendel, or sending these soldiers to invade.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "35" }]
+        },
+        {
+          "text": "TwinSoul explained that the invasion was Autonomy's preferred plan, with the Set's bombing of Elendel only a gambit.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "40" }]
+        },
+        {
+          "text": "Mayor Gave Entrone, whose scientists' work was not yet ready to impress Autonomy, resigned himself to helping the red-eyed, gold-skinned army arrive.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "47" }]
+        },
+        {
+          "text": "The invasion never came: Constable Marasi Colms, helped by those trapped in the Community, collapsed the perpendicularity meant for the troops' arrival.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "alloy-of-law", "chapter": "epilogue" },
+                { "book": "lost-metal", "chapter": "64" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": []
+}

@@ -1,0 +1,61 @@
+{
+  "intro": [
+    {
+      "text": "The Arguments is a book of Vorin doctrine on Roshar, treated as scripture.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "61" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Adolin quoted it to Dalinar, who called it scripture. Adolin drew on it when speaking of the wars fought on Roshar since the days of the Tranquiline Halls.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "61" }]
+    },
+    {
+      "text": "Navani pointed out that nothing in it bars a widow from wedding her dead husband's brother, though some devout Vorins still think such a match improper.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "61" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "In Vorin practice",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "i-12" },
+                { "book": "oathbringer", "chapter": "15" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Shallan remembered painting passages of The Arguments as a girl in Jah Keved, reciting them until she knew them by heart and then burning the paper. She and the ardent Pai each pointed to the Alethi's distance from the book when doubting their devotion.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "i-12" },
+                { "book": "oathbringer", "chapter": "15" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "adolin-kholin",
+      "role": "quoted it",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "61" }]
+    },
+    {
+      "characterId": "navani-kholin",
+      "role": "cited it",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "61" }]
+    }
+  ]
+}

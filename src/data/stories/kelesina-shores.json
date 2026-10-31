@@ -1,0 +1,53 @@
+{
+  "intro": [
+    {
+      "text": "A noblewoman of New Seran whose party Wax and Steris attend while searching for leads.",
+      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "11" }],
+      "fallback": true
+    },
+    {
+      "text": "A noblewoman of New Seran who wants the Basin's cities to break free of Elendel and works with the Set to make it happen.",
+      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "15" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "New Seranian independence",
+          "revealedIn": [
+            { "book": "bands-of-mourning", "chapter": "17" },
+            { "book": "bands-of-mourning", "chapter": "13" },
+            { "book": "bands-of-mourning", "chapter": "16" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Devoted to freeing the Basin's cities from Elendel, Kelesina struck a bargain with Mister Suit: she would help kill ReLuur and keep Wax away from the Set's projects, and in return Suit would crush Elendel and give her an army. Believing she had killed ReLuur, she sent one of his spikes to Suit as proof.",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "17" }]
+        },
+        {
+          "text": "At Kelesina's party Wax played the novice to put her at ease, then asked her about a strange coin. Visibly unnerved, she made an excuse and left, and Wax followed her.",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "13" }]
+        },
+        {
+          "text": "Kelesina told Mister Suit that Wax could not be lured away from his mission, while Suit insisted another mystery would distract him. When Wax confronted her, having learned she was behind the Nightstreet Gang's attack on their train, her Feruchemist steward shot her dead on Suit's orders.",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "16" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Kelesina is an older, statuesque woman who wears rings on every finger. Her mansion is built in an old style, its architecture and art meant to evoke the mansions of the time before the Catacendre.",
+      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "14" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Kelesina likes to think of herself as a kind of predator in polite society, though Wax sees her as an ordinary self-absorbed noblewoman.",
+      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "14" }]
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "intro": [
+    {
+      "text": "A costly clear liquid surgeons on Roshar use to put patients under. Held over the mouth and nose on a cloth, it dulls pain and leaves the patient grinning and babbling.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "41" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "It is so strong that the surgeon must hold his breath while applying it. The soaked cloth is burned afterwards, since heat drives the dazewater off as steam. It can also ease the pain of the dying.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "41" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Notable uses",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "41" },
+            { "book": "rhythm-of-war", "chapter": "39" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Lirin had Kaladin put Roshone, the citylord, and his son Rillir under with dazewater after the two returned badly hurt from hunting a whitespine.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "41" }]
+        },
+        {
+          "text": "When Radiants in Urithiru fell unconscious during its invasion, an ardent wrongly guessed that leaking dazewater was to blame.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "39" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "lirin",
+      "role": "surgeon",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "41" }]
+    },
+    {
+      "characterId": "kaladin",
+      "role": "apprentice",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "41" }]
+    }
+  ]
+}

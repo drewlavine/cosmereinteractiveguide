@@ -1,0 +1,135 @@
+{
+  "intro": [
+    {
+      "text": "A port city of the Elendel Basin, shaped in the Catacendre. Its role as a second port beside Elendel has bred friction between the two cities.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "shadows-of-self", "chapter": "5" },
+            { "book": "bands-of-mourning", "chapter": "21" },
+            { "book": "lost-metal", "chapter": "20" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "An industrial port city in the Elendel Basin, and the only major port there apart from Elendel. Its people are called Bilmingers, and its emblem is a tortoise.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "bands-of-mourning", "chapter": "15" },
+            { "book": "lost-metal", "chapter": "22" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "From 343 PC, older, distinctive buildings gave way to rows of modern ones with calculated variations, an effect called \"mass-produced individuality\". The silvery, many-windowed City Records and Research Building, with glass-walled rooms inside, is one example. Government billboards all over the city promote the new look and stir up ill will toward Elendel.",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "39" }]
+    },
+    {
+      "text": "Clippers and cargo ships fill its harbour, joined around 342 PC by armoured, turreted Pewternauts. A fast elevated railway with cushioned seats and private compartments crosses the city, and factories turn out sleek steel motorcars, cheap vehicles and fuels such as biodiesel; its refineries outdo Elendel's. Bilmingers have their own accent and a taste for bright, clashing clothes, and are known as brash individualists.",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "42" }]
+    },
+    {
+      "text": "It stands on a peninsula on the Sea of Yomend, its docks open to rougher water than Elendel's. Its railway runs only to Elendel, but the port lets it get around that monopoly. The strongest outer city and a thriving industrial centre, it keeps its own chemists and military, and by 348 PC six big steel warships gave it naval supremacy, since Elendel had none.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "bands-of-mourning", "chapter": "15" },
+            { "book": "lost-metal", "chapter": "52" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Rivalry with Elendel",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "shadows-of-self", "chapter": "5" },
+                { "book": "bands-of-mourning", "chapter": "21" },
+                { "book": "lost-metal", "chapter": "20" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "About three centuries after the Catacendre, Bilming's rise as a rival port began to strain ties with Elendel, the self-made capital. Governor Replar Innate once promised higher tariffs on its imports but never raised them. In 342 PC, Mayor Bastien Severington invited Elendel senators to see the new Pewternauts as a friendly gesture, and Senator Inis Julien publicly mocked them as pointless \"toys\".",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "shadows-of-self", "chapter": "5" },
+                { "book": "bands-of-mourning", "chapter": "21" },
+                { "book": "lost-metal", "chapter": "20" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "That year, at Kelesina Shores's party, Devlin Airs warned Waxillium Ladrian that civil war was brewing, and Wax, hearing Severington's speech against Elendel, saw that Bilming could lead such a fight. Trade with the Malwish Consortium, mostly arriving through its port, brought the city great wealth, and by 348 PC its economy was booming amid heavy construction.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "shadows-of-self", "chapter": "5" },
+                { "book": "bands-of-mourning", "chapter": "21" },
+                { "book": "lost-metal", "chapter": "20" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The Set in Bilming",
+          "revealedIn": [
+            { "book": "lost-metal", "chapter": "56" },
+            { "book": "lost-metal", "chapter": "31" },
+            { "book": "lost-metal", "chapter": "46" },
+            {
+              "all": [
+                { "book": "bands-of-mourning", "chapter": "15" },
+                { "book": "lost-metal", "chapter": "epilogue-1" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "By 341 PC the Set had begun to settle in, bringing Allomancers kidnapped from Elendel to live in the caverns under the city. When people felt tremors from 343 PC, the city announced a new subway and raised taxes to pay for it, while expanding the elevated railway and highways; in truth, the tremors came from the Set's bomb tests underground. In 346 PC Gave Entrone took office as lord mayor.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "56" }]
+        },
+        {
+          "text": "Tension with Elendel climbed after the Elendel Supremacy Bill passed in 348 PC. That year Marasi Colms and the Elendel constabulary ran a sting in the city; the Set turned its failure into propaganda about Elendel meddling in the outer cities, and local papers blew it up further.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "31" }]
+        },
+        {
+          "text": "The Set fed the city's grievances against Elendel and grew so entrenched that it effectively controlled Bilming.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "46" }]
+        },
+        {
+          "text": "The Elendel Senate set up a council to deal with the crisis in Bilming, hearing of railway blockades, recruitment of \"security forces\" across the Roughs, and warships. Marasi and her allies freed the political prisoners and kidnapped Allomancers held in the caverns, opposition leader Pielle Fromed among them, laying bare the city government's corruption, and the local constabulary began to accept evidence against Entrone.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "bands-of-mourning", "chapter": "15" },
+                { "book": "lost-metal", "chapter": "epilogue-1" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

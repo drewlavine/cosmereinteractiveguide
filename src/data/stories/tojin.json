@@ -1,0 +1,126 @@
+{
+  "intro": [
+    {
+      "text": "A nightmare painter in Kilahito who works the same schedule as his fellow painter Akane.",
+      "revealedIn": [{ "book": "yumi", "chapter": "1" }],
+      "fallback": true
+    },
+    {
+      "text": "A nightmare painter in Kilahito, one of Akane's friends, and a keen weightlifter.",
+      "revealedIn": [{ "book": "yumi", "chapter": "21" }]
+    },
+    {
+      "text": "A nightmare painter in Kilahito who partners with Akane, and the first to agree when Nikaro asks for help defending the city.",
+      "revealedIn": [{ "book": "yumi", "chapter": "39" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Upper school",
+          "revealedIn": [{ "book": "yumi", "chapter": "27" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "At upper school Tojin joined the circle of friends around Akane, along with Nikaro, Masaka and Izzy. He believed Nikaro would make the Dreamwatch and take him on as a companion, and the friendship collapsed when that proved a lie. After graduating he worked mostly with Akane.",
+          "revealedIn": [{ "book": "yumi", "chapter": "27" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Meeting Yumi",
+          "revealedIn": [
+            { "book": "yumi", "chapter": "16" },
+            { "book": "yumi", "chapter": "21" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Tojin first met Yumi when Akane brought her to the Noodle Pupil and introduced her as Nikaro's sister.",
+          "revealedIn": [{ "book": "yumi", "chapter": "16" }]
+        },
+        {
+          "text": "Tojin was among the friends who staged an intervention to get Yumi out to dinner. There he pulled off his shirt to show Gaino how well the lat press his friend had recommended was working, until Izzy teased him and he shyly sat back down. Yumi watched closely to understand him.",
+          "revealedIn": [{ "book": "yumi", "chapter": "21" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The stable nightmare",
+          "revealedIn": [
+            { "book": "yumi", "chapter": "26" },
+            { "book": "yumi", "chapter": "30" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "When he and Akane found Yumi doing Nikaro's job, Tojin hurried off to find painters to cover their shift so they could talk with her.",
+          "revealedIn": [{ "book": "yumi", "chapter": "26" }]
+        },
+        {
+          "text": "Tojin convinced Akane that Yumi might go back out, and they followed her and found her after the stable nightmare attacked. When it came for them he fell, and Nikaro reached him just in time, leaving Tojin with a brief sense of his presence. Tojin then showed foreman Sukishi the damage, and the Dreamwatch was called in.",
+          "revealedIn": [{ "book": "yumi", "chapter": "30" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Yumi's goodbye",
+          "revealedIn": [{ "book": "yumi", "chapter": "33" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "When Yumi came to say goodbye, Tojin made a scornful remark about Nikaro, and she lectured the friends on how they had treated him.",
+          "revealedIn": [{ "book": "yumi", "chapter": "33" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Defending Kilahito",
+          "revealedIn": [
+            { "book": "yumi", "chapter": "39" },
+            { "book": "yumi", "chapter": "40" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "When Nikaro apologised and asked for help, Tojin was the first to agree and talked Izzy round. Having thought he glimpsed Nikaro during the stable nightmare's attack, he had been moved to try harder and to forgive.",
+          "revealedIn": [{ "book": "yumi", "chapter": "39" }]
+        },
+        {
+          "text": "In the Battle of Kilahito, Tojin was the first after Nikaro to take up the cry \"we are the Dreamwatch now\".",
+          "revealedIn": [{ "book": "yumi", "chapter": "40" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "A young man of about twenty with flat features, a square chin, and arms and upper body heavily built from training.",
+      "revealedIn": [{ "book": "yumi", "chapter": "21" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Weight training is Tojin's passion; he treats his body as a tool to push beyond what he thinks possible. He shows off his muscles out of a real wish to share his progress rather than for attention, and turns shy when teased about it.",
+      "revealedIn": [{ "book": "yumi", "chapter": "21" }]
+    },
+    {
+      "text": "He likes training with friends such as Gaino and offering them advice and encouragement, often talks in weightlifting metaphors, and enjoys spicy food.",
+      "revealedIn": [{ "book": "yumi", "chapter": "21" }]
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "intro": [
+    {
+      "text": "A town in Bavland.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "i-3" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Bavland is a self-governing region at the foot of a mountain range, technically inside the borders of southwestern Jah Keved. With a town square, a few hundred homes and three taverns, Ironsway is one of its biggest settlements.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "i-3" }]
+    },
+    {
+      "text": "Szeth still thinks of it as a village. Like many Bavland towns, it has a large population of workers who come and go with the ups and downs of the local mines.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "i-3" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Szeth's visit",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "i-3" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Took brought Szeth into a shabby tavern in Ironsway to show him off to local miners, among them Amark and Ton.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "i-3" }]
+        },
+        {
+          "text": "Leaving the tavern, Took headed for the town's poor district to avoid paying for better lodgings. Thieves killed him in the street and took Szeth's Oathstone.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "i-3" }]
+        }
+      ]
+    }
+  ]
+}

@@ -41,9 +41,40 @@
     {
       "title": [
         {
+          "text": "The early world",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "100" },
+            { "book": "wind-and-truth", "chapter": "120" },
+            { "book": "wind-and-truth", "chapter": "113" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Adonalsium created Roshar. The ancient spren called the Wind, Stone and Night watched over the world before the Shards arrived.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "100" }]
+        },
+        {
+          "text": "A fourth moon fell to the planet, leaving fragments beneath the land that became the Shattered Plains.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "120" }]
+        },
+        {
+          "text": "Honor, Cultivation and Odium made an agreement restricting their intervention and the power of Surgebinding. It bound all three Shards to the Rosharan system.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "113" }]
+        },
+        {
+          "text": "A clash between Honor and Odium caused the buried moon fragments to react, shaping the symmetrical chasms of the Shattered Plains.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "120" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
           "text": "History",
           "revealedIn": [
             { "book": "way-of-kings", "chapter": "38" },
+            { "book": "wind-and-truth", "chapter": "124" },
             {
               "all": [
                 { "book": "way-of-kings", "chapter": "52" },
@@ -65,6 +96,10 @@
         {
           "text": "In the Heraldic Epochs, time was counted in Epochs centuries long. Desolations came ever closer together, until only a year separated the Last Desolation from the one before it.",
           "revealedIn": [{ "book": "way-of-kings", "chapter": "38" }]
+        },
+        {
+          "text": "Ba-Ado-Mishram drew on the Well of Control and became Connected to the planet's tones. Her imprisonment damaged that Connection and briefly stilled Roshar's rhythms.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "124" }]
         },
         {
           "text": "In the Era of Solitude, the Vorin church tried to rule the world in the Hierocracy, until Sadees the Sunmaker united Alethkar's princedoms and cast it down in the War of Loss.",
@@ -92,6 +127,32 @@
         {
           "text": "In 1173, at the Battle of Narak, the Everstorm was summoned, ending the Era of Solitude and beginning the True Desolation.",
           "revealedIn": [{ "book": "words-of-radiance", "chapter": "87" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The contest and its aftermath",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "145" },
+            { "book": "wind-and-truth", "chapter": "146" },
+            { "book": "wind-and-truth", "chapter": "147" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Odium took up Honor's power and became Retribution. Most of Roshar fell under his rule, while Azir and the Shattered Plains retained their independence.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "145" }]
+        },
+        {
+          "text": "The highstorms ceased, and an unending Everstorm covered most of the world in rain and darkness.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "146" }]
+        },
+        {
+          "text": "Time slowed around Roshar. Roughly a decade on the planet was expected to correspond to seventy or eighty years in the wider cosmere.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "147" }]
         }
       ]
     }

@@ -1,0 +1,33 @@
+{
+  "intro": [
+    {
+      "text": "A game played by young noblemen in the Final Empire on Scadrial.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "23" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Milen Davenpleu, Lord Rene and Lord Tyden play it together. After Milen once failed to turn up and spoiled a game, he had an obligator witness his promise, at a ball at Keep Hasting, to play the next day.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "23" }]
+    }
+  ],
+  "history": [],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "milen-davenpleu",
+      "role": "player",
+      "revealedIn": [{ "book": "final-empire", "chapter": "23" }]
+    },
+    {
+      "characterId": "rene",
+      "role": "player",
+      "revealedIn": [{ "book": "final-empire", "chapter": "23" }]
+    },
+    {
+      "characterId": "tyden",
+      "role": "player",
+      "revealedIn": [{ "book": "final-empire", "chapter": "23" }]
+    }
+  ]
+}

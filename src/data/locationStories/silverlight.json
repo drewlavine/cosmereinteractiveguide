@@ -1,0 +1,60 @@
+{
+  "intro": [
+    {
+      "text": "An ancient city in the Cognitive Realm, built above its own perpendicularity, the Silverlight Nexus, which glows beneath it like a frosty white sun and gives the city its name. Its people are called Lighters.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "30" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "By the Space Age the city builds upward: slender skyscrapers on light but very strong dragonsteel frames, crossed by walkways, many with hovering pod rooms hanging out over the void. Many dragon-owned buildings began as dens, became palaces and ended as skyscrapers.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "32" }]
+    },
+    {
+      "text": "The ground around the city is glassy, with plants growing on it, and travelers reach the Nexus through holes in it. The Nexus, about as big as the city and by far the largest perpendicularity, opens onto three places in the Physical Realm. It also slows time: a day spent inside passes as ten outside.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "47" }]
+    },
+    {
+      "text": "Its universities have produced guidebooks to many worlds, including survey volumes covering several at once. Arcanists' research belongs to the university, and outside funders get first rights to whatever they create or discover. It is also a center of information trading, has a film industry, grows its plants by the Nexus's light and relies on flight control to keep its busy traffic in order.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "sunlit-man", "chapter": "35" },
+            { "book": "isles-of-the-emberdark", "chapter": "47" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Silverlight has its own jurisdiction and laws, and its courts are thought just. It shaped interplanetary law through its Codes of Interplanetary Conduct, which include a bill obliging travelers to grant asylum in some cases, and through the Silverlight Accords on treating prisoners. Slavery is banned there.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "sunlit-man", "chapter": "43" },
+            { "book": "isles-of-the-emberdark", "chapter": "48" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "An ancient city",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "30" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Silverlight goes back millennia before the Space Age. It began as a cluster of dragon palaces but soon became one of the cosmere's first multicultural settlements, and it is now a strong political power that even the Malwish dare not bully.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "30" }]
+        },
+        {
+          "text": "Some decades ago, the dragons revealed that Yolen, homeworld of the Shards, could be reached through the Nexus. Many people wanted to visit, and long waiting lists soon formed.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "30" }]
+        }
+      ]
+    }
+  ]
+}

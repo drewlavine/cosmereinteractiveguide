@@ -1,0 +1,38 @@
+{
+  "intro": [
+    {
+      "text": "A former Malwish prime minister, said to have been killed by one of the Sleepless.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "48" }],
+      "fallback": true
+    },
+    {
+      "text": "A Malwish politician who rose to prime minister and led his party, until partisans killed him.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "55" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "His death",
+          "revealedIn": [
+            { "book": "isles-of-the-emberdark", "chapter": "48" },
+            { "book": "isles-of-the-emberdark", "chapter": "55" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Yadramak's death was blamed on a Sleepless assassin. Since the Sleepless greatly respect dragons, Dajer thought a dragon bodyguard would serve him well politically.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "48" }]
+        },
+        {
+          "text": "As prime minister, Yadramak had hired a Sleepless spy. Partisans ambushed and killed him while he was meeting her, killing some of her nodes too, so when his body was found everyone assumed the Sleepless had done it.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "55" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

@@ -1,0 +1,165 @@
+{
+  "intro": [
+    {
+      "text": "The koloss assault on Luthadel, launched after the koloss army camped outside the city erupted into a huge brawl. Their leader, Jastes Lekal, had already lost control of them and fled.",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "51" }]
+    },
+    {
+      "text": "The koloss assault on Luthadel, launched after their leader, Jastes Lekal, lost control of them. It ended when Vin took command of the koloss, killed Straff Venture and made the remaining rulers submit to the New Empire.",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "55" }]
+    }
+  ],
+  "description": [],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Before the attack",
+          "revealedIn": [
+            { "book": "well-of-ascension", "chapter": "46" },
+            { "book": "well-of-ascension", "chapter": "51" },
+            { "book": "well-of-ascension", "chapter": "52" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "After Vin and Zane attacked Cett's army, Cett pulled back, leaving two armies at Luthadel: Straff Venture's fifty thousand soldiers and Jastes Lekal's twenty thousand koloss. On Zane's advice, Straff held back too, meaning to strike once the koloss had killed most of the city.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "46" }]
+        },
+        {
+          "text": "A massive brawl in the koloss camp stoked their rage until they turned on the city. Jastes had already lost control of them and fled.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "51" }]
+        },
+        {
+          "text": "A thousand soldiers held each of Luthadel's gates. The koloss massed to the east of the city and attacked in the morning.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "52" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The gates fall",
+          "revealedIn": [
+            { "book": "well-of-ascension", "chapter": "52" },
+            { "book": "well-of-ascension", "chapter": "53" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "At the Zinc Gate, Breeze Soothed the waiting soldiers but could not Soothe the koloss, while Clubs led the defence.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "52" }]
+        },
+        {
+          "text": "The koloss struck the Tin Gate first, then the Pewter and Zinc Gates, and the Zinc Gate broke first. Sazed held the Steel Gate firmly. By sunset the koloss had stormed Keep Lekal and Keep Venture, and thousands of soldiers had gathered in Keep Hasting to guard King Penrod. Vin arrived at dusk.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "53" }]
+        },
+        {
+          "text": "The Tin Gate, under Tindwyl's command, fell. A koloss cut down Clubs at the Zinc Gate, and koloss killed Dockson at Keep Venture.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "53" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Vin takes the koloss",
+          "revealedIn": [
+            { "book": "well-of-ascension", "chapter": "54" },
+            { "book": "well-of-ascension", "chapter": "55" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Vin covered the retreat of many soldiers but could not halt the koloss, who marched on Keep Hasting, where only five thousand defenders faced some twelve thousand koloss. Then Vin found she could take control of the koloss, and the army became hers.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "54" }]
+        },
+        {
+          "text": "After the fighting, Sazed found Tindwyl's body.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "54" }]
+        },
+        {
+          "text": "At dawn Vin led her koloss and Luthadel's soldiers west of the city to meet Straff Venture's army, and killed Straff as soon as they met. Cett then arrived with forty thousand soldiers to support Luthadel.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "55" }]
+        },
+        {
+          "text": "Vin made Penrod, Cett and Janarle, the last of Straff's officers, submit to the New Empire.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "55" }]
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Location",
+      "name": "Luthadel",
+      "placeId": "luthadel",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "52" }]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "vin",
+      "role": "defender",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "53" }]
+    },
+    {
+      "characterId": "jastes-lekal",
+      "role": "koloss leader",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "51" }]
+    },
+    {
+      "characterId": "straff-venture",
+      "role": "army commander",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "46" }]
+    },
+    {
+      "characterId": "ashweather-cett",
+      "role": "army commander",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "46" }]
+    },
+    {
+      "characterId": "zane-venture",
+      "role": "Straff's adviser",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "46" }]
+    },
+    {
+      "characterId": "breeze",
+      "role": "Soother",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "52" }]
+    },
+    {
+      "characterId": "clubs",
+      "role": "gate commander",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "52" }]
+    },
+    {
+      "characterId": "sazed",
+      "role": "gate defender",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "53" }]
+    },
+    {
+      "characterId": "tindwyl",
+      "role": "gate commander",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "53" }]
+    },
+    {
+      "characterId": "dockson",
+      "role": "casualty",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "53" }]
+    },
+    {
+      "characterId": "ferson-penrod",
+      "role": "king",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "53" }]
+    },
+    {
+      "characterId": "janarle",
+      "role": "Straff's officer",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "55" }]
+    }
+  ]
+}

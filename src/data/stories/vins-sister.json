@@ -1,0 +1,78 @@
+{
+  "intro": [
+    {
+      "text": "A baby sister of Vin and Reen who was killed in infancy.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "20" }]
+    },
+    {
+      "text": "A baby sister of Vin and Reen, killed in infancy. She was a Seeker, and her power passed to Vin through the spike used to kill her.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "20" },
+            { "book": "hero-of-ages", "chapter": "73" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Death",
+          "revealedIn": [
+            { "book": "hero-of-ages", "chapter": "74" },
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "20" },
+                { "book": "well-of-ascension", "chapter": "44" }
+              ]
+            },
+            { "book": "final-empire", "chapter": "20" },
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "31" },
+                { "book": "well-of-ascension", "chapter": "44" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Ruin wanted a pawn who could release him from his prison at the Well of Ascension, and the two sisters gave him an opening. Playing on their mother's mental illness, he arranged the baby's death so that Vin would gain the power she needed to find and free him.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "74" }]
+        },
+        {
+          "text": "On the day she died, Reen could not take either girl with him, so he left both sisters with their mother. When he came back, he found their mother holding Vin, with the baby lying dead at her feet; their mother had killed her.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "20" },
+                { "book": "well-of-ascension", "chapter": "44" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Reen told Vin what had happened and how her sister had been killed.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "20" }]
+        },
+        {
+          "text": "After joining Kelsier's crew, Vin began to talk about her past and her sister's death with several crew members and with Elend.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "31" },
+                { "book": "well-of-ascension", "chapter": "44" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

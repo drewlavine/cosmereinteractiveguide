@@ -1,0 +1,34 @@
+{
+  "intro": [
+    {
+      "text": "A green plant of Roshar grown as a vegetable.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "29" }]
+    }
+  ],
+  "description": [],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Famine and fare",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "i-7" },
+            { "book": "way-of-kings", "chapter": "31" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "A lurnip famine struck Emul some decades before 1173. Av's father, whose family was starving, went to the Nightwatcher.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "i-7" }]
+        },
+        {
+          "text": "Jasnah ate a lurnip in a women's vegetable stew at a lunch with Taravangian in Kharbranth.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "31" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": []
+}

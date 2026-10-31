@@ -1,0 +1,38 @@
+{
+  "intro": [
+    {
+      "text": "The governor of Elendel and brother of Winsting Innate, who has been murdered in his own mansion.",
+      "revealedIn": [{ "book": "shadows-of-self", "chapter": "6" }],
+      "fallback": true
+    },
+    {
+      "text": "A corrupt governor of Elendel, killed and impersonated by the kandra Paalm, who used his face to stir unrest in the city.",
+      "revealedIn": [{ "book": "shadows-of-self", "chapter": "22" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Governor of Elendel",
+          "revealedIn": [
+            { "book": "shadows-of-self", "chapter": "22" },
+            { "book": "shadows-of-self", "chapter": "epilogue" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Replar Innate, a corrupt governor, was murdered by the kandra Paalm some time before her assault on Elendel. She took his place and used his noble likeness to inflame the city's working class. When she also killed his brother Winsting, a senator, in his own mansion, riots broke out in Elendel's already tense streets.",
+          "revealedIn": [{ "book": "shadows-of-self", "chapter": "22" }]
+        },
+        {
+          "text": "Wax forced Paalm to abandon Innate's bones. MeLaan took them up and tried to calm the riots with a speech outside the Governor's Mansion, during which Claude Aradel arrested the false Innate for corruption. MeLaan then staged Innate's suicide in his cell.",
+          "revealedIn": [{ "book": "shadows-of-self", "chapter": "epilogue" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

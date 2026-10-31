@@ -1,0 +1,25 @@
+{
+  "intro": [
+    {
+      "text": "A great Malwish city on Scadrial.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "38" }]
+    }
+  ],
+  "description": [],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The Hannerdam Bridge",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "38" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "An ambitious bridge was built just outside the city to speed the flow of traffic, but it fell down soon after it opened. The engineers took the blame for nuts left loose, missing washers and work nobody rechecked, and the project's lead engineer had been dismissed partway through for overspending.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "38" }]
+        }
+      ]
+    }
+  ]
+}

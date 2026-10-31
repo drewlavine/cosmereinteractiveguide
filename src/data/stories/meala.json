@@ -1,0 +1,31 @@
+{
+  "intro": [
+    {
+      "text": "The young, polite head maid of King Iadon's palace.",
+      "revealedIn": [{ "book": "elantris", "chapter": "20" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Royal palace",
+          "revealedIn": [{ "book": "elantris", "chapter": "32" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "When Sarene asked why her room was so rarely cleaned, Meala explained that maids had been vanishing without explanation. This was one of the clues that turned Sarene's suspicion on Iadon, and led her to discover that he followed the Jeskeri Mysteries and had been sacrificing the missing maids.",
+          "revealedIn": [{ "book": "elantris", "chapter": "32" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Young and thin; to Sarene she seems more like a bookkeeper than a servant.",
+      "revealedIn": [{ "book": "elantris", "chapter": "20" }]
+    }
+  ],
+  "personality": []
+}

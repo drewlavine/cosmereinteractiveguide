@@ -1,0 +1,30 @@
+{
+  "intro": [
+    {
+      "text": "A man from the Homeland who travelled to the Forests of Hell on Threnody and helped raise his granddaughter Silence.",
+      "revealedIn": ["shadows-for-silence"]
+    }
+  ],
+  "history": [
+    {
+      "title": [{ "text": "Forescout", "revealedIn": ["shadows-for-silence"] }],
+      "items": [
+        {
+          "text": "He and his wife were among the first to reach the continent of the Forests of Hell, which gave them the name Forescout, and ran a waystop after the Homeland fell. He taught Silence woodcraft and how to slip through the forest unnoticed by shades or people, and told her stories of the Fallen World.",
+          "revealedIn": ["shadows-for-silence"]
+        },
+        {
+          "text": "He died in the forest, most likely to the shades, and his wife never smiled again.",
+          "revealedIn": ["shadows-for-silence"]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": [
+    {
+      "text": "Unlike his stern wife he seems kindly, and Silence remembers him with affection. Brave enough to settle an unknown continent, he loved and respected the Forests of Hell, comparing them to a dangerous beast that is not wicked, only to be approached with caution.",
+      "revealedIn": ["shadows-for-silence"]
+    }
+  ]
+}

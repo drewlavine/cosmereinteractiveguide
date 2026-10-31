@@ -1,0 +1,84 @@
+{
+  "intro": [
+    {
+      "text": "A criminal, and one of Wax's old enemies.",
+      "revealedIn": [{ "book": "shadows-of-self", "chapter": "2" }]
+    },
+    {
+      "text": "A thief and hunter of Allomancers from the Roughs who came close to beating Wax during his years as a lawman.",
+      "revealedIn": [{ "book": "shadows-of-self", "chapter": "10" }]
+    },
+    {
+      "text": "One of Wax's old nemeses, a criminal whose defining trait is a hatred of Allomancers.",
+      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "10" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The Roughs",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "shadows-of-self", "chapter": "10" },
+                { "book": "bands-of-mourning", "chapter": "10" }
+              ]
+            },
+            { "book": "shadows-of-self", "chapter": "2" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The Ape hunted Allomancers in the Roughs. Wax, then a lawman, pursued him in a case where the Ape painted his reversed mah on a stagecoach. The Ape caught Wax and tortured him for several nights before Wax escaped and captured him; he was locked away in the jail at True Madil. The memories stayed sharp and painful for Wax for years.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "shadows-of-self", "chapter": "10" },
+                { "book": "bands-of-mourning", "chapter": "10" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Preparing for her wedding to Wax, Steris compiled biographies of his old enemies, the Ape among them, hoping to invite one so she could plan for the disruption.",
+          "revealedIn": [{ "book": "shadows-of-self", "chapter": "2" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "New Seran",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "15" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Wax's uncle Edwarn used the Ape to try to distract him: Edwarn's agents robbed Farthing Mansion in New Seran and painted the Ape's symbol on a wall. Wax went to look but stayed on his main investigation. Overhearing Edwarn with Lady Kelesina, he realized it was a diversion and decided the Ape had likely never been in the city.",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "15" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "His looks are unknown. He marks his crimes with a jagged, reversed mah, the Steel alphabet letter for gold, usually painted in red.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "alloy-of-law", "chapter": "10" },
+            { "book": "bands-of-mourning", "chapter": "10" }
+          ]
+        }
+      ]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Driven above all by hatred of Allomancers, he would refuse an Allomancer's help even to save his own life, which is why Wax doubts he would ever work with the Set.",
+      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "10" }]
+    }
+  ]
+}

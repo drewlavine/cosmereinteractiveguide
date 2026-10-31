@@ -1,3 +1,4 @@
+import { sharedYear } from './bookTimeline'
 import { findCharacter } from './characters'
 import type { MapPoint } from './journey'
 import { revealCharacter, type CanSee } from './reveal'
@@ -44,8 +45,8 @@ export interface LifeDate {
 }
 
 // Calendar years on the timeline's scale, as its events have them.
-const rosharan = (year: number) => year + 9791
-const fe = (year: number) => year + 9601
+const rosharan = (year: number) => sharedYear('rosharan', year)
+const fe = (year: number) => sharedYear('fe', year)
 const pc = (year: number) => fe(1025) + year
 // Bounds anyone could tell: mortals of the books' day, not born in the era
 // before (Rosharans after 1050, Scadrians of Era 1 after 950 FE, Arelenes
@@ -160,7 +161,10 @@ export const timelinePeople: TimelinePerson[] = [
   // Fifty at Warbreaker, some three hundred years after the Manywar.
   {
     id: 'susebron',
-    born: { year: 10775, revealedIn: [{ book: 'warbreaker', chapter: '15' }] },
+    born: {
+      year: sharedYear('nalthian', -50),
+      revealedIn: [{ book: 'warbreaker', chapter: '15' }],
+    },
   },
 ]
 

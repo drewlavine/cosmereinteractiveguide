@@ -1,0 +1,87 @@
+{
+  "intro": [
+    {
+      "text": "A Coinshot in Bilming who dresses like Wax and backs his Steelpushes with duralumin, fighting alongside his partner Getruda.",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "24" }],
+      "fallback": true
+    },
+    {
+      "text": "A member of the Set, a Hemalurgically enhanced Coinshot who dresses like Wax and works with his partner Getruda.",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "49" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Clashes with Wax and Wayne",
+          "revealedIn": [
+            { "book": "lost-metal", "chapter": "24" },
+            { "book": "lost-metal", "chapter": "25" },
+            { "book": "lost-metal", "chapter": "49" },
+            { "book": "lost-metal", "chapter": "65" },
+            { "book": "lost-metal", "chapter": "69" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "When Marasi's sting in Bilming went wrong, Dumad unleashed an enormous Steelpush in every direction, showing that the gang was armed with aluminum, and Marasi guessed he must be burning duralumin. He then had the gang pull back and drew Wax out of the building after him.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "24" }]
+        },
+        {
+          "text": "Wax chased Dumad over the rooftops of Bilming. Dumad crushed a car, brought a building down on Wax and shot at him through the wall, then hurled them both skyward, leeched Wax's metals and scattered his vials before slipping away.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "25" }]
+        },
+        {
+          "text": "Dumad and Getruda ambushed Wax and Wayne underground. Inside Wayne's speed bubble Dumad Pushed on the coins lodged in Wayne's body, until Wax shot both doubles with explosive Hemalurgist-killer rounds. Still able to move, Dumad escaped with Getruda through a street grate.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "49" }]
+        },
+        {
+          "text": "At the Shaw, Dumad and Getruda guarded the rocket, but Wax and Wayne swapped opponents. Wayne clung to him and cuffed their wrists together; Dumad flung them both upward with duralumin, only to find Wayne had pocketed his flask. The fall killed Dumad, while Wayne's healing saved him.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "65" }]
+        },
+        {
+          "text": "After learning that the rocket had been a decoy, Wax and Wayne took the spikes from Dumad's body, and Wax used the duralumin power from one of them to Steelpush from the Shaw all the way to the Pewternaut ship.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "69" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Dumad dresses in the style of Wax, the man he was trained to counter.",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "65" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Dumad is set on facing Wax, and grew irritated when Wayne grappled him instead, telling him to go fight Getruda.",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "65" }],
+      "fallback": true
+    }
+  ],
+  "abilities": [
+    {
+      "title": [
+        {
+          "text": "Allomancy and Hemalurgy",
+          "revealedIn": [
+            { "book": "lost-metal", "chapter": "25" },
+            { "book": "lost-metal", "chapter": "69" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Dumad made up for having held his powers only briefly by boosting his Pushes with duralumin, refilling his metals from an aluminum flask rather than ordinary vials that a Coinshot or Lurcher could seize, an idea even Wax admired.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "25" }]
+        },
+        {
+          "text": "Dumad carries at least four spikes, which give him steel and duralumin, and he can also burn pewter, chromium and bronze, sensing even Feruchemy. Wax suspected he was a natural Coinshot because of his skill with steel.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "69" }]
+        }
+      ]
+    }
+  ]
+}

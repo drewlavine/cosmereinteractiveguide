@@ -1,0 +1,33 @@
+{
+  "intro": [
+    {
+      "text": "A Rosharan liquor made from lavis grain.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "81" }]
+    }
+  ],
+  "description": [],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "On the Shattered Plains",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "81" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "In late 1173, during the Weeping, Zahel was drinking hard honu from the bottle as he and Kaladin talked about washing the sand in the lighteyes' dueling grounds.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "81" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "zahel",
+      "role": "drinker",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "81" }]
+    }
+  ]
+}

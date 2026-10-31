@@ -1,0 +1,167 @@
+{
+  "intro": [
+    {
+      "text": "A text that King Taravangian of Kharbranth and his circle follow, believing it shows how to save humanity from the Desolations.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-14" }]
+    },
+    {
+      "text": "A book of guidance that King Taravangian wrote on a day of rare brilliance, followed by him and his circle in hope of saving humanity from the Desolations.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "i-14" },
+            { "book": "oathbringer", "chapter": "i-5" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "A book of instructions for uniting mankind, written by King Taravangian on a day of genius in a language he invented that day. Those who follow it are also called the Diagram.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "i-3" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "The writings have been gathered into a thick hogshide-bound book, copied over with every spot and scratch.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "i-5" }]
+    },
+    {
+      "text": "On his day of greatest genius Taravangian covered every surface of his bedroom with writing, codes and glyphs of his own making. Adrotagia translated and transcribed it. It tells of coming wars and lays out a harsh path to survival, which calls for Taravangian to unite all Roshar under his rule.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "i-14" },
+            { "book": "rhythm-of-war", "chapter": "i-3" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Parts of it are open to interpretation, and so to mistakes, and its accuracy fades as time passes, so Taravangian has tried to bring it up to date.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "i-14" },
+            { "book": "rhythm-of-war", "chapter": "i-3" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Foreseen and unforeseen",
+          "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "i-14" },
+            { "book": "words-of-radiance", "chapter": "87" },
+            { "book": "oathbringer", "chapter": "43" },
+            { "book": "oathbringer", "chapter": "122" },
+            { "book": "rhythm-of-war", "chapter": "111" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "It foresaw that soldiers of Jah Keved would cheer Taravangian when he came to the battlefield outside Vedenar.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-14" }]
+        },
+        {
+          "text": "It predicted six factions in the war for the Veden throne, but seven fought.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-14" }]
+        },
+        {
+          "text": "It did not foresee a male Radiant on the Shattered Plains. When Szeth reported fighting one, Taravangian reread a passage and decided the bridgemen were the likely source of Radiants.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-14" }]
+        },
+        {
+          "text": "One section, in Adrotagia's third translation, went badly astray, since both attempts on Dalinar's life were stopped by Kaladin.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "87" }]
+        },
+        {
+          "text": "It predicted that the Fused would come back and use Voidlight.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "43" }]
+        },
+        {
+          "text": "It knew of the Honorblades and the powers they give their bearers.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "122" }]
+        },
+        {
+          "text": "It foretold that Dalinar would fall and become the enemy's champion, which proved wrong.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "122" }]
+        },
+        {
+          "text": "It foresaw one or more of the Unmade settling in Shinovar.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "111" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Taravangian's copies",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "i-5" },
+            { "book": "rhythm-of-war", "chapter": "i-3" },
+            { "book": "rhythm-of-war", "chapter": "i-6" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Wondering whether the bound book had shaped how they read it, Taravangian, on a day of high intellect, cut a copy apart and rearranged the pieces. His new reading told his circle to support Dalinar, then bring him down and take his place.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "i-5" }]
+        },
+        {
+          "text": "Believing it had served its purpose, Taravangian told his circle that the Diagram was disbanded and burned his own copy.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "i-3" }]
+        },
+        {
+          "text": "Studying its sheets, Taravangian wondered why the Diagram could not see Renarin Kholin.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "i-6" }]
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Written by",
+      "name": "Taravangian",
+      "characterId": "taravangian",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "i-5" }]
+    },
+    {
+      "label": "Translated by",
+      "name": "Adrotagia",
+      "characterId": "adrotagia",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "i-14" },
+            { "book": "rhythm-of-war", "chapter": "i-3" }
+          ]
+        }
+      ]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "taravangian",
+      "role": "author",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "i-5" }]
+    },
+    {
+      "characterId": "adrotagia",
+      "role": "translator",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "i-14" },
+            { "book": "rhythm-of-war", "chapter": "i-3" }
+          ]
+        }
+      ]
+    }
+  ]
+}

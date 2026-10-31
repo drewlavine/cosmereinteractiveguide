@@ -1,0 +1,26 @@
+{
+  "intro": [
+    {
+      "text": "An Elantrian who lives in New Elantris.",
+      "revealedIn": [{ "book": "elantris", "chapter": "40" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "New Elantris",
+          "revealedIn": [{ "book": "elantris", "chapter": "40" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Tenrao was one of the Elantrians living in Raoden's settlement of New Elantris.",
+          "revealedIn": [{ "book": "elantris", "chapter": "40" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

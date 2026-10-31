@@ -1,0 +1,43 @@
+{
+  "intro": [
+    {
+      "text": "A deputy who helped Wax keep the law in the Roughs.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "prologue" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Weathering",
+          "revealedIn": [
+            { "book": "alloy-of-law", "chapter": "prologue" },
+            { "book": "alloy-of-law", "chapter": "4" },
+            { "book": "alloy-of-law", "chapter": "2" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "During the hunt for Bloody Tan in Feltrel, Barl and Wayne teamed up to search one side of the town.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "prologue" }]
+        },
+        {
+          "text": "With Wayne, Lessie and others, Barl usually helped Wax keep order in and around Weathering, though he was something of a rogue himself.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "4" }]
+        },
+        {
+          "text": "When Wayne left the Roughs to fetch Wax, he left Barl running Weathering, which appalled Wax.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "2" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": [
+    {
+      "text": "Something of a scoundrel, for a lawman.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "4" }]
+    }
+  ]
+}

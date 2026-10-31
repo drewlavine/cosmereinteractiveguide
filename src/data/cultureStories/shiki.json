@@ -1,0 +1,42 @@
+{
+  "intro": [
+    {
+      "text": "A brown Unkalaki drink, mixed in big metal bins, chilled overnight and served cold from a large pot.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "37" }]
+    }
+  ],
+  "description": [],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Lunamor's shiki",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "37" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Lunamor once made shiki for Bridge Four, but most of the bridgemen turned it down for beer.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "37" }]
+        },
+        {
+          "text": "He tried again during training at Narak. Huio added lazbo to a batch, annoying Lunamor, until he found the spice suited the drink perfectly. This time Bridge Four loved it, helped by how refreshing it was after hard training.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "37" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "lunamor",
+      "role": "brewer",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "37" }]
+    },
+    {
+      "characterId": "huio",
+      "role": "added lazbo",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "37" }]
+    }
+  ]
+}

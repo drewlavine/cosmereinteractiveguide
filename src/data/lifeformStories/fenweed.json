@@ -1,0 +1,36 @@
+{
+  "intro": [
+    {
+      "text": "A poisonous plant of the Forests of Hell.",
+      "revealedIn": ["shadows-for-silence"]
+    }
+  ],
+  "description": [
+    {
+      "text": "It brings on severe headaches, drowsiness, dizziness and a foggy head. Its faint taste is easily hidden in food or beer.",
+      "revealedIn": ["shadows-for-silence"]
+    },
+    {
+      "text": "It must be ground into a paste. A full dose in a man's food or drink sends him straight to sleep; half a dose leaves him mostly unaffected for a while before he drops off, though lightly enough to be woken.",
+      "revealedIn": ["shadows-for-silence"]
+    },
+    {
+      "text": "Silence has William Ann slip half doses into the beer of Chesterton Divide and his four men so that she can kill them as they sleep.",
+      "revealedIn": ["shadows-for-silence"]
+    }
+  ],
+  "history": [],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "silence-montane",
+      "role": "used it",
+      "revealedIn": ["shadows-for-silence"]
+    },
+    {
+      "characterId": "william-ann-montane",
+      "role": "used it",
+      "revealedIn": ["shadows-for-silence"]
+    }
+  ]
+}

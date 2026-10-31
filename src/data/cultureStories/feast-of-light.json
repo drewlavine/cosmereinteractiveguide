@@ -1,0 +1,28 @@
+{
+  "intro": [
+    {
+      "text": "A gathering that honorspren, and perhaps other spren, attend.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "101" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Aboard his Reacher ship, Captain Ico lent Adolin Kholin clothes, including a waistcoat and jacket, which Adolin adjusted to his own taste. Once he was dressed, Ico said he looked like an honorspren on the way to a Feast of Light.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "101" }]
+    }
+  ],
+  "history": [],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "ico",
+      "role": "mentioned it",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "101" }]
+    },
+    {
+      "characterId": "adolin-kholin",
+      "role": "compared",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "101" }]
+    }
+  ]
+}

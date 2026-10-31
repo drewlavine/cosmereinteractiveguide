@@ -1,0 +1,42 @@
+{
+  "intro": [
+    {
+      "text": "A food eaten in the Final Empire on Scadrial.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "6" }]
+    },
+    {
+      "text": "A food of the Final Empire on Scadrial: thin flatbread rolled into a cylinder around a filling of boiled barley and vegetables, eaten by skaa who can afford it.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "26" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Ham can get through four at one meal, while Vin thinks even three would be more than she could ever eat at once.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "6" }]
+    },
+    {
+      "text": "Kelsier's crew eats them often at Clubs's shop and at Lord Renoux's mansion, so often that Kelsier grows a little sick of them.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "27" }]
+    }
+  ],
+  "history": [],
+  "facts": [
+    {
+      "label": "Ingredients",
+      "name": "Flatbread, barley, vegetables",
+      "revealedIn": [{ "book": "final-empire", "chapter": "26" }]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "hammond",
+      "role": "hearty eater",
+      "revealedIn": [{ "book": "final-empire", "chapter": "6" }]
+    },
+    {
+      "characterId": "kelsier",
+      "role": "tired of them",
+      "revealedIn": [{ "book": "final-empire", "chapter": "27" }]
+    }
+  ]
+}

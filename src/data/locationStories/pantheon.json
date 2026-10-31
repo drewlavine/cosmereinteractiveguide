@@ -1,0 +1,22 @@
+{
+  "intro": [
+    {
+      "text": "A group of more than forty islands, at least three weeks' journey from the Eelakin homeisles.",
+      "revealedIn": ["sixth-of-the-dusk"]
+    }
+  ],
+  "description": [
+    {
+      "text": "Plant-eaters such as nell beasts share the islands with carnivores like the nightmaws, and patches of hungry mud trap the unwary. The surrounding sea is deadly, home to huge deepwalkers and to many octopuses.",
+      "revealedIn": [
+        {
+          "all": [
+            "sixth-of-the-dusk",
+            { "book": "isles-of-the-emberdark", "chapter": "6" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": []
+}

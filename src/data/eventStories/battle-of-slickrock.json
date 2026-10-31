@@ -1,0 +1,78 @@
+{
+  "intro": [
+    {
+      "text": "A battle on Roshar, fought before the War of Reckoning, in which Dalinar Kholin's Alethi army beat the Veden troops led by Nalanar.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "100" }]
+    }
+  ],
+  "description": [],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The battle",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "100" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Geved, an older soldier, served in Nalanar's second infantry at Slickrock and lived through Dalinar's victory.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "100" }]
+        },
+        {
+          "text": "By Dalinar's own account, Nalanar came close to beating him at three separate moments of the fight.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "100" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Remembered at Vedenar",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "100" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "When Dalinar visited Vedenar after its civil war, he and Geved talked about Slickrock, which both remembered as belonging to a simpler time.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "100" }]
+        },
+        {
+          "text": "Geved contrasted it with the horror of Jah Keved's recent civil war and the pull of the Thrill. As they spoke, Dalinar felt the Thrill stir in him and understood that it had left the Shattered Plains for Vedenar.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "100" }]
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Victor",
+      "name": "Dalinar Kholin",
+      "characterId": "dalinar-kholin",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "100" }]
+    },
+    {
+      "label": "Opponent",
+      "name": "Nalanar",
+      "characterId": "nalanar",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "100" }]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "dalinar-kholin",
+      "role": "Alethi commander",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "100" }]
+    },
+    {
+      "characterId": "nalanar",
+      "role": "Veden commander",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "100" }]
+    },
+    {
+      "characterId": "geved",
+      "role": "Veden soldier",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "100" }]
+    }
+  ]
+}

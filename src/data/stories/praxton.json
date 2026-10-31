@@ -1,0 +1,67 @@
+{
+  "intro": [
+    {
+      "text": "The Lord Mastrell, leader of the Diem's sand masters and Kenton's father, who tried to keep his weak son out of the Diem.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "1" }]
+    },
+    {
+      "text": "The formidable Lord Mastrell of the Diem and Kenton's father, who falls when Kerztian warrior-priests attack the sand masters.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "2" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Lord Mastrell",
+          "revealedIn": [
+            { "book": "white-sand-omnibus", "chapter": "1" },
+            { "book": "white-sand-omnibus", "chapter": "2" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "When Kenton could barely move any sand at his entrance test, Praxton belittled him in public and tried to refuse him, but Kenton cited the law letting anyone with any ability become an acolent. Four times Praxton offered him underfen, the lowest rank, and four times Kenton turned it down.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "1" }]
+        },
+        {
+          "text": "At the advancement ceremony Praxton demoted Drile to diemfen, the first demotion in the Diem's history. When Kenton again refused underfen, he handed him Drile's discarded mastrell's sash, warning that the others would always see it as favouritism.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "2" }]
+        },
+        {
+          "text": "When Kerztian warrior-priests struck, Praxton was disabled for much of the fight while sand masters were cut down around him. Rallying, he sent a vast wave of sand across the field that buried Kenton safely and ended the fight, and died under dozens of arrows.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "2" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "An elderly man with grey hair and eyebrows and blue eyes.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "2" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "A strong leader, as much for his sheer force of will as for his power.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "2" }]
+    }
+  ],
+  "abilities": [
+    {
+      "title": [
+        {
+          "text": "Sand mastery",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "2" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Hugely powerful: he can work dozens of ribbons at once and unleash a blast of sand able to fell hundreds of foes.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "2" }]
+        }
+      ]
+    }
+  ]
+}

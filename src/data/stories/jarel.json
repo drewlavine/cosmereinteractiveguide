@@ -1,0 +1,26 @@
+{
+  "intro": [
+    {
+      "text": "An old man of Hearthstone.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "25" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Hearthstone",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "25" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Old Jarel lived in the town of Hearthstone.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "25" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

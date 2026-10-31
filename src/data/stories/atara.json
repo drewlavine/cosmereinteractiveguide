@@ -1,0 +1,38 @@
+{
+  "intro": [
+    {
+      "text": "An Arelene noblewoman, the wife of Duke Telrii.",
+      "revealedIn": [{ "book": "elantris", "chapter": "14" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Arelene court",
+          "revealedIn": [
+            { "book": "elantris", "chapter": "14" },
+            { "book": "elantris", "chapter": "17" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "When Sarene first joined Queen Eshen's needlepoint circle, Atara commented that Shu-Korath and Shu-Dereth were much the same. Seaden warned her not to say so near priests, and when Sarene pointed out real differences, Atara waved them away as unimportant.",
+          "revealedIn": [{ "book": "elantris", "chapter": "14" }]
+        },
+        {
+          "text": "Sarene's offer to teach the ladies to fence startled her, and she noted that Raoden was one of the few Arelene men who could. Once Eondel helped with the lessons, Atara showed a surprising talent with a practice sword, though his touch on her wrist as he corrected her flustered her.",
+          "revealedIn": [{ "book": "elantris", "chapter": "17" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Small even for an Arelene, with curly auburn hair to her shoulders, costly clothes and jewellery, and a quiet, twittering laugh. Sarene finds her needlepoint designs safe and unimaginative.",
+      "revealedIn": ["elantris"]
+    }
+  ],
+  "personality": []
+}

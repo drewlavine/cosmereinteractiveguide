@@ -50,6 +50,75 @@
     }
   ],
   "history": [],
+  "mechanics": [
+    {
+      "title": [
+        {
+          "text": "Accessing power",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "64" },
+            { "book": "wind-and-truth", "chapter": "129" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "An Invested Art needs a Connection to a source of power and a way to direct that power.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "64" }]
+        },
+        {
+          "text": "A Shard's Connection to its magic lets it supply Investiture directly to a user.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "64" }]
+        },
+        {
+          "text": "Swearing a Radiant Ideal strengthens the spren bond and briefly opens a miniature perpendicularity.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "129" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The Spiritual Realm",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "80" },
+            { "book": "wind-and-truth", "chapter": "139" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Strengthening a Connection can change the role someone occupies within a vision.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "80" }]
+        },
+        {
+          "text": "Connections guide travelers toward particular pasts or possible futures within the Spiritual Realm.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "139" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Roshar and its Shards",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "21" },
+            { "book": "wind-and-truth", "chapter": "144" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "A Shard investing a world Connects itself to every axon of that world.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "21" }]
+        },
+        {
+          "text": "The Oathpact uses the Heralds' and Fused's shared Connection to Odium, reinforced by their oaths and the significance of ten on Roshar.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "144" }]
+        }
+      ]
+    }
+  ],
   "facts": [
     {
       "label": "Feruchemical metal",

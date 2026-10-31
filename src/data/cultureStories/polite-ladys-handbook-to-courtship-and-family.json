@@ -1,0 +1,39 @@
+{
+  "intro": [
+    {
+      "text": "A Rosharan guide to courtship and family life. A woman named Bekenah wrote at least one edition.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "121" }]
+    }
+  ],
+  "description": [],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Shallan's joke",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "121" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Once the Battle of Thaylen Field was over, Adolin offered to step aside and let Kaladin have Shallan, judging from the looks she had given Kaladin, and from his flying, that she would be happier with him. Shallan, who had realized how much she and Adolin loved each other, asked sarcastically whether a woman had to favor a suitor who could fly, and supposed that rule came from Bekenah's edition of the handbook.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "121" }]
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Author",
+      "name": "Bekenah (one edition)",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "121" }]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "shallan-davar",
+      "role": "joked about it",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "121" }]
+    }
+  ]
+}

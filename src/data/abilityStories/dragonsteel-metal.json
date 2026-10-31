@@ -1,0 +1,38 @@
+{
+  "intro": [
+    {
+      "text": "A metal that grows as part of a dragon's body. On at least one dragon it forms the horns and claws, the spikes along the back and the ridges on the neck and limbs.",
+      "revealedIn": [{ "book": "tress", "chapter": "52" }]
+    },
+    {
+      "text": "A metal that grows as part of a dragon's body, forming horns, claws and spikes. It looks silvery, almost liquid in the right light, and is immensely strong yet light enough to build with.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "tress", "chapter": "52" },
+            { "book": "isles-of-the-emberdark", "chapter": "30" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "On at least one dragon, dragonsteel makes up the horns and claws, the spikes on the back and the ridges running along the neck and limbs.",
+      "revealedIn": [{ "book": "tress", "chapter": "52" }]
+    },
+    {
+      "text": "It has a silvery look and can seem almost liquid in certain light. It is extremely strong and very light, and it can be used for building.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "30" }]
+    }
+  ],
+  "history": [],
+  "facts": [
+    {
+      "label": "Found on",
+      "name": "Dragons",
+      "revealedIn": [{ "book": "tress", "chapter": "52" }]
+    }
+  ],
+  "people": []
+}

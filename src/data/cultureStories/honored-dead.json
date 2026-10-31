@@ -1,0 +1,23 @@
+{
+  "intro": [
+    {
+      "text": "Ym's term for historical figures honoured after their deaths for great contributions to society.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-2" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Ym believes everyone should experience the many parts of life, so he finds spectacles wondrous for letting people see properly. He put forward a proposal to add the Azish man who invented spectacles to the Honored Dead.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-2" }]
+    }
+  ],
+  "history": [],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "ym",
+      "role": "used the term",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-2" }]
+    }
+  ]
+}

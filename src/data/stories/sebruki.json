@@ -1,0 +1,56 @@
+{
+  "intro": [
+    {
+      "text": "A girl at Silence's waystop who cleans the pig shack, and who knows a guest in the common room as the man who murdered her family.",
+      "revealedIn": [{ "book": "shadows-for-silence", "chapter": "1" }],
+      "fallback": true
+    },
+    {
+      "text": "An eight-year-old girl working at Silence Montane's waystop in Threnody's Forests of Hell.",
+      "revealedIn": ["shadows-for-silence"]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        { "text": "Early life", "revealedIn": ["shadows-for-silence"] }
+      ],
+      "items": [
+        {
+          "text": "Chesterton Divide slaughtered her family on their homestead; of thirteen people, only she lived, hidden under the floorboards by her mother. Silence, the only one willing to go to the ruined homestead, found her there.",
+          "revealedIn": ["shadows-for-silence"]
+        },
+        {
+          "text": "Silence took her in. For three months she did nothing but stare at the wall, but she slowly came back, cleaning obsessively and minding the pigs, two of which she named Ezekiel and Jarom.",
+          "revealedIn": ["shadows-for-silence"]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Chesterton at the waystop",
+          "revealedIn": [{ "book": "shadows-for-silence", "chapter": "1" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "When Chesterton came to the waystop she took Silence's crossbow, meaning to shoot him with a poisoned bolt. Silence talked her down, but the dropped crossbow fired the bolt out of the kitchen window, and Silence sang her to sleep.",
+          "revealedIn": [{ "book": "shadows-for-silence", "chapter": "1" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Small even for eight, she has dark skin and long dark hair.",
+      "revealedIn": ["shadows-for-silence"]
+    }
+  ],
+  "personality": [
+    {
+      "text": "An odd, unsettlingly observant child, she scrubs the kitchen until the wood bleaches white, because helping makes her feel good. Raised a homesteader, she is independent and keen to work off her debts, yet she longs for someone stern in charge, so Silence handles her as Silence's grandmother would have. She calls Silence \"Aunt Silence\".",
+      "revealedIn": ["shadows-for-silence"]
+    }
+  ]
+}

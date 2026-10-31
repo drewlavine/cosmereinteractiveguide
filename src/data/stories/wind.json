@@ -104,5 +104,45 @@
       "text": "Protective, especially of spren, the Wind has a long memory and cares deeply, though she doesn't think like a human. Usually somewhat whimsical, she is determined in times of conflict and worries about the future.",
       "revealedIn": [{ "book": "wind-and-truth", "chapter": "144" }]
     }
+  ],
+  "abilities": [
+    {
+      "title": [
+        {
+          "text": "Wind and sound",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "85" },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "57" },
+                { "book": "wind-and-truth", "chapter": "119" }
+              ]
+            },
+            { "book": "wind-and-truth", "chapter": "43" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The Wind watches events across Roshar and can sometimes speak to people or direct the air, although her ability to intervene varies.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "85" }]
+        },
+        {
+          "text": "She can preserve sounds for years and repeat them, even in several places at once, as well as give people impressions of the past.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "57" },
+                { "book": "wind-and-truth", "chapter": "119" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "She can appear in a Spiritual Realm vision while also acting in the Physical Realm.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "43" }]
+        }
+      ]
+    }
   ]
 }

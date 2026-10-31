@@ -1,0 +1,64 @@
+{
+  "intro": [
+    {
+      "text": "A skaa woman, the resourceful mistress of a high-ranking nobleman and the mother of Kelsier.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "8" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Family",
+          "revealedIn": [
+            { "book": "final-empire", "chapter": "8" },
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "20" },
+                { "book": "secret-history", "chapter": "2-2" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "20" },
+                { "book": "well-of-ascension", "chapter": "33" },
+                { "book": "secret-history", "chapter": "2-2" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "A capable woman, she became the mistress of a powerful lord, and Kelsier was born to the couple.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "8" }]
+        },
+        {
+          "text": "For years she kept her skaa blood hidden from her lover, so her sons, Kelsier and Marsh, grew up in comfort as illegitimate nobles. When their father discovered the truth, obligators took her away. The boys were still very young, and losing her caused Marsh to Snap.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "20" },
+                { "book": "secret-history", "chapter": "2-2" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "By the time they were grown, the brothers had no family left but each other. What had been done to their mother fed Kelsier's hatred of the nobility, while Marsh turned his anger on the obligators and devoted himself to bringing down the Final Empire.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "20" },
+                { "book": "well-of-ascension", "chapter": "33" },
+                { "book": "secret-history", "chapter": "2-2" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

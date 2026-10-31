@@ -1,0 +1,58 @@
+{
+  "intro": [
+    {
+      "text": "A princedom of Alethkar.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "67" }]
+    },
+    {
+      "text": "One of the ten princedoms of Alethkar, in the country's southwest, bordering Jah Keved and the Frostlands. It is the only princedom with access to the Southern Depths, by way of Mevan Bay.",
+      "revealedIn": ["oathbringer"]
+    }
+  ],
+  "description": [
+    {
+      "text": "Its army is made up mostly of mercenary companies.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "67" }]
+    },
+    {
+      "text": "Highprince Bethab has more than once written language favouring his own claim to the throne into business contracts with the king. His wife, Mishinah, is deeply involved in Alethi politics and sometimes represents his interests.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "28" },
+            { "book": "oathbringer", "chapter": "104" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Dumadari",
+          "revealedIn": [
+            "oathbringer",
+            {
+              "all": [{ "book": "way-of-kings", "chapter": "5" }, "oathbringer"]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "After the Vengeance Pact, Dalinar's forces stopped at the princedom's city of Dumadari on their way to the Shattered Plains, then sailed on to New Natanan. Dalinar used the voyage as cover to go in search of the Nightwatcher.",
+          "revealedIn": ["oathbringer"]
+        },
+        {
+          "text": "Jasnah spent some time in Dumadari in 1173. Shallan came to the city to meet her, but Jasnah had already left by the time she got there.",
+          "revealedIn": [
+            {
+              "all": [{ "book": "way-of-kings", "chapter": "5" }, "oathbringer"]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

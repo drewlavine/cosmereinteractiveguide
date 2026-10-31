@@ -1,0 +1,67 @@
+{
+  "intro": [
+    {
+      "text": "Ancient fabrials that transport people between Urithiru and distant cities.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "86" },
+            { "book": "oathbringer", "chapter": "16" },
+            { "book": "rhythm-of-war", "chapter": "55" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Spren-operated gateways whose cooperation allows the coalition to travel through Urithiru.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "7" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "A living Shardblade or Honorblade activates the gateway.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "86" },
+            { "book": "oathbringer", "chapter": "16" },
+            { "book": "rhythm-of-war", "chapter": "55" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Their spren were inkspren who willingly accepted transformation.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "13" }]
+    },
+    {
+      "text": "Journeys into Shadesmar carry only the people and objects inside the control chamber.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "34" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The renewed tower",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "7" },
+            { "book": "wind-and-truth", "chapter": "145" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The awakened Sibling persuaded most Oathgate spren to cooperate with the coalition.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "7" }]
+        },
+        {
+          "text": "After the Night of Sorrows, the spren left their platforms and the Oathgates stopped working.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "145" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": []
+}

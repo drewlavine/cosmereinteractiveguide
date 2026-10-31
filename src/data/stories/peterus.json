@@ -1,0 +1,61 @@
+{
+  "intro": [
+    {
+      "text": "Lord Peterus, once chief constable of Elendel's Eighth Octant, now retired and part of the city's upper class.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "5" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Constable",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "9" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "As a young constable of the Eighth Octant, Peterus won fame by catching the Copper Strangler, who killed young women with copper wire and sank them in the canals. The acclaim brought him a lordship and a place in high society. He married Marthin and rose to chief constable of his octant.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "9" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The wedding dinner",
+          "revealedIn": [
+            { "book": "alloy-of-law", "chapter": "5" },
+            { "book": "alloy-of-law", "chapter": "6" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Retired but still active in society, Peterus attended the Yomen-Ostlin wedding dinner. When the Vanishers came to rob the guests, he was the first to resist, calling them cowards despite his wife's pleas. Their leader recognized him, had him disarmed, and struck him to the ground, cutting his head.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "5" }]
+        },
+        {
+          "text": "While his wife tended the wound, Peterus saw that the robbers meant to take Steris Harms and Marasi Colms as hostages. He offered himself in their place and again called the Vanishers cowards, and their enraged leader shot him dead.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "6" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "An older man with a thick graying beard, fond of old-fashioned suits whose tails reach his ankles. He wears a Granger pistol in a shoulder holster, even to a wedding.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "5" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Still a constable at heart despite his wealth: brave, outspoken and gallant to the point of recklessness, ready to risk himself to spare others.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "5" }]
+    },
+    {
+      "text": "Miles Dagouter saw him as a fraud who only played at justice to win the favor of the elite, though Peterus's final act suggests he truly cared about doing right.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "11" }]
+    }
+  ]
+}

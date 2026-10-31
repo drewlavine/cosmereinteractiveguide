@@ -1,0 +1,45 @@
+{
+  "intro": [
+    {
+      "text": "One of the Verdant King's secret assassins, the subject of rumours on the Emerald Sea.",
+      "revealedIn": [{ "book": "tress", "chapter": "30" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "King's Masks are said to work as both spies and killers for the king and to be forbidden to admit what they are. Rumour also holds that they take youth potions to look younger and harmless, that there are never more than five, and that their word to the king can vouch for someone.",
+      "revealedIn": [{ "book": "tress", "chapter": "32" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Aboard the Crow's Song",
+          "revealedIn": [{ "book": "tress", "chapter": "30" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Some of the Crow's Song's crew took Tress to be a King's Mask.",
+          "revealedIn": [{ "book": "tress", "chapter": "30" }]
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Serves",
+      "name": "The Verdant King",
+      "characterId": "verdant-king",
+      "revealedIn": [{ "book": "tress", "chapter": "30" }]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "tress",
+      "role": "suspected one",
+      "revealedIn": [{ "book": "tress", "chapter": "30" }]
+    }
+  ]
+}

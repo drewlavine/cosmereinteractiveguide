@@ -1,0 +1,60 @@
+{
+  "intro": [
+    {
+      "text": "A region of Alethkar that includes the city of Rathalas.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "11" }]
+    },
+    {
+      "text": "A region of southeastern Alethkar on the eastern shore of the Sea of Spears, bordered by the Unclaimed Hills to the west and the Frostlands to the south.",
+      "revealedIn": ["oathbringer"]
+    }
+  ],
+  "description": [
+    {
+      "text": "Its people, especially those from Rathalas, speak with a distinctive nasal accent.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "11" }]
+    },
+    {
+      "text": "When a Crownlands landholder dies with no heir, the throne takes back the land.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "58" }]
+    },
+    {
+      "text": "Rathalas lies in a canyon cut into rocky ground at the north end of the Sea of Spears, which earns it the nickname the Rift. The Sea of Spears is really a lake that drains into the Deathbend River. Around it lie plains crossed by riverbeds that stay dry except after storms, where rockbuds soak up water and grow huge.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "71" }]
+    },
+    {
+      "text": "Rathalas, once the largest city in the region, lies in ruins. In Shadesmar, the spren city of Celebrant stands near it, on an island that corresponds to the Sea of Spears.",
+      "revealedIn": ["oathbringer"]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Rathalas and the unification",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "91" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Rathalas and its rulers rose against Gavilar more than once, both before Alethkar was unified and after. He worried their revolt might spread until the whole of the Crownlands tried to break away. Once political measures had failed, Dalinar and Sadeas led an army against Rathalas and destroyed the city as a warning to the other highprinces.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "91" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The True Desolation",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "58" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Elhokar granted Kaladin land in the region, though Dalinar noted that the singer forces invading Alethkar might already hold it.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "58" }]
+        }
+      ]
+    }
+  ]
+}

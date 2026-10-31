@@ -1,0 +1,60 @@
+{
+  "intro": [
+    {
+      "text": "Hot lakes in the craters atop the high mountains of the Horneater Peaks, each creating a pocket of livable land amid the cold.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "46" }]
+    },
+    {
+      "text": "A series of hot springs in the Horneater Peaks, sometimes called the Emerald Pools for their colour.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "46" },
+            { "book": "oathbringer", "chapter": "93" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "In one Unkalaki tale, the tana'kai sought a home where his people would be safe from hunters. The sea and forest gods could not shelter them, since men were attacking those gods too. The mountain gods agreed on condition that the bare slopes be made livable, so the Unkalaki asked the sea gods for drinking water, the forest gods for fruit and the mountain gods for the warmth at their core. Thus the oceans were formed.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "46" }]
+    },
+    {
+      "text": "According to Unkalaki belief, anyone else who swims in the oceans will die. The Unkalaki themselves are free to swim there, and doing so can sometimes let them glimpse the place of gods and speak with those who live in it.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "46" }]
+    },
+    {
+      "text": "In Unkalaki belief, gods at times come to them by way of the oceans. One is Lunu'anaki, a white-haired god of travel and mischief with an angular face, who is unable to harm humans.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "46" }]
+    },
+    {
+      "text": "Beneath the water lies an emerald liquid. The Oceans are Cultivation's Perpendicularity, through which travellers can pass between Roshar and Shadesmar.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "46" },
+            { "book": "oathbringer", "chapter": "93" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The True Desolation",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "102" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "The Oceans held Roshar's only stable Perpendicularity, but the Fused overran the area around it in Shadesmar. Many spren ships sailing there were never seen again, most spren refused to go, and people living around the Oceans could feel the Fused's presence.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "102" }]
+        }
+      ]
+    }
+  ]
+}

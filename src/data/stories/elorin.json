@@ -1,0 +1,105 @@
+{
+  "intro": [
+    {
+      "text": "An undermastrell of the Diem who warns Kenton against the Mastrell's Path but lets him attempt it.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "1" }],
+      "fallback": true
+    },
+    {
+      "text": "A former undermastrell who returns to the Diem after the attack, saying he has overmastered and lost his sand mastery, and is welcomed back by Kenton.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "8" }],
+      "fallback": true
+    },
+    {
+      "text": "An undermastrell and Lord Mastrell Praxton's assistant who secretly turned to the Ker'reen faith and worked from inside the Diem to destroy it.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "18" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The Mastrell's Path",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "2" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Elorin tried once more to talk Kenton out of the Path, then explained it: cross the Kerla in limited time, gather five red spheres and carry a single qido of water. He let Kenton take a sword, since no rule forbade it. Afterwards he told Kenton he was thought to have spoiled the test by killing the deep sandling that guarded the last sphere.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "2" }]
+        },
+        {
+          "text": "At the advancement ceremony he handed Praxton the ceremonial bowl from which all the sand masters drank.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "2" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Back at the Diem",
+          "revealedIn": [
+            { "book": "white-sand-omnibus", "chapter": "8" },
+            { "book": "white-sand-omnibus", "chapter": "13" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Elorin, who had once overseen the acolents, came back explaining that he had overmastered and lost his ability, and that his home village, unseen since he was ten, no longer felt like home. Kenton gladly took him back.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "8" }]
+        },
+        {
+          "text": "He showed Khriss and her professors to their rooms. When Kenton asked him to handle some of the Diem's smaller matters, Elorin agreed, and Kenton began sending questioners to him.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "13" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Betrayal",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "18" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "After the Sand Lord appeared to him, Elorin converted to the Ker'reen faith, quietly stopped mastering and stayed in the Diem on the A'kar's orders. He tried to keep Kenton from the ceremony, then poisoned the shared bowl with KaDo so the sand masters dehydrated and fell in the Kerztian attack he had arranged.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "18" }]
+        },
+        {
+          "text": "Back at the Diem, he lied about losing his powers while directing assassins against Kenton and Drile, and before the duel he poisoned Drile's bowl. Kenton and Drile worked it out, and when Kenton confronted him, Elorin fired a dart at him and was killed by Kenton's ribbon.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "18" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Bald, with yellow eyebrows and green eyes; he wears a sand master's uniform with a yellow sash.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "2" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Deferential to his superiors, above all to Lord Mastrell Praxton.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "2" }]
+    }
+  ],
+  "abilities": [
+    {
+      "title": [
+        {
+          "text": "Sand mastery",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "2" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "A sand master, able to form ribbons and walls from mastered sand.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "2" }]
+        }
+      ]
+    }
+  ]
+}

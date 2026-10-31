@@ -1,0 +1,74 @@
+{
+  "intro": [
+    {
+      "text": "Guiding teachings of the Idrian faith. To set an example of living by them, Idris's rich and noble families each give one member to the monasteries.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "17" }]
+    },
+    {
+      "text": "The five guiding teachings of Austrism, the main faith of Idris, held to have been spoken by Vo as a message from Austre.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "29" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "The Visions ask believers to be patient, humble, self-sacrificing, selfless and understanding, and warn against showiness, pride, selfishness and setting oneself above others.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "46" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Vo's declaration",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "32" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "As Hoid told it, Vo, the first Returned, was born on a ship heading for the coast, proclaimed the five Visions, and died a week afterwards.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "32" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "In Idris",
+          "revealedIn": [
+            { "book": "warbreaker", "chapter": "17" },
+            { "book": "warbreaker", "chapter": "46" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Fafen chose to become a monk while young and as an adult could recite several of the Visions from memory, while her sister Siri struggled even to list all five.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "17" }]
+        },
+        {
+          "text": "Vivenna came to see that many followers of Austrism had carried the Visions' call to humility too far, leading them to wrongly condemn Awakening.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "46" }]
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Religion",
+      "name": "Austrism",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "29" }]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "fafen",
+      "role": "monk",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "17" }]
+    },
+    {
+      "characterId": "vo",
+      "role": "spoke them",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "29" }]
+    }
+  ]
+}

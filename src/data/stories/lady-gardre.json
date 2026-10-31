@@ -1,0 +1,43 @@
+{
+  "intro": [
+    {
+      "text": "A plump senator on the Elendel governor's select council: reasonable and level-headed, and much less eager for war than her fellow members.",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "38" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The select council",
+          "revealedIn": [
+            { "book": "lost-metal", "chapter": "38" },
+            { "book": "lost-metal", "chapter": "48" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "After Steris warned Governor Varlance of a threat to the city, he set up a select council that included Lady Gardre. Steris was sure one member was spying for the Set, and when the council agreed that war with Bilming could not be avoided, she judged Gardre the likeliest spy, her calm good sense a cover.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "38" }]
+        },
+        {
+          "text": "As the danger to Elendel neared its peak, Gardre excused herself from the council shortly before it chose to use the Bands of Mourning, and did not seem to come back.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "48" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Plump.",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "38" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "A reasonable, rational politician, far less of a war hawk than the others on the council.",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "38" }]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "intro": [
+    {
+      "text": "A bridge over a chasm in the Forests of Hell.",
+      "revealedIn": ["shadows-for-silence"]
+    }
+  ],
+  "description": [
+    {
+      "text": "It is run-down, with rickety planks, and from far off it resembles a huge jawbone. It stands near a waystop and close to some hills, and the wreck of the New Bridge can be seen in the chasm beneath it.",
+      "revealedIn": ["shadows-for-silence"]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Building and rebuilding",
+          "revealedIn": ["shadows-for-silence"]
+        }
+      ],
+      "items": [
+        {
+          "text": "The forest's inhabitants built it, and over many years it wore out. The fortfolk took it down and put the New Bridge in its place, but when that bridge fell into the chasm, homesteaders from the area set the Old Bridge back up.",
+          "revealedIn": ["shadows-for-silence"]
+        }
+      ]
+    }
+  ]
+}

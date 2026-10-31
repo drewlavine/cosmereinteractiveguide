@@ -1,0 +1,30 @@
+{
+  "intro": [
+    {
+      "text": "An area of central Alethkar near Inkwell.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "48" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "An important trade road linking Revolar and Kholinar runs through it.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "48" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Moash's travels",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "48" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "As a boy, Moash often traveled the route through Ishar's Field running caravans with his uncle. He followed it again hauling a supply sledge for the army marching on Kholinar.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "48" }]
+        }
+      ]
+    }
+  ]
+}

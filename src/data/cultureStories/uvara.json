@@ -1,0 +1,56 @@
+{
+  "intro": [
+    {
+      "text": "The Uvara, or People of the Great Abyss, appear in a Rosharan tale as a people of uncharted islands far out in the ocean.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "57" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "They are known only from the story of the Wandersail, which Wit told Kaladin. In it, the Uvara were long and limber, wore clothes and ornaments seen nowhere else, and seemed peaceful and kind.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "57" }]
+    },
+    {
+      "text": "They killed one another over any mistake, fearing their emperor, who was thought to demand perfection from his tower on the biggest island.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "57" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The Wandersail",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "57" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "King Derethil tried to sail through a highstorm to find where the Voidbringers came from. His ship was wrecked on a ring of islands around a vast whirlpool, where the Uvara nursed his crew and helped them rebuild.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "57" }]
+        },
+        {
+          "text": "Troubled by the killings, Derethil's crew stormed the tower and found the emperor long dead. Knowing they alone had caused the bloodshed, the Uvara fell into riot. One of them, Nafti, escaped with the crew and joined the Wandersail.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "57" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "derethil",
+      "role": "visitor",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "57" }]
+    },
+    {
+      "characterId": "nafti",
+      "role": "member",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "57" }]
+    },
+    {
+      "characterId": "wit",
+      "role": "storyteller",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "57" }]
+    }
+  ]
+}

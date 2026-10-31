@@ -1,0 +1,41 @@
+{
+  "intro": [
+    {
+      "text": "A center of learning in Svorden, a formerly independent nation of northeastern Opelon that the Fjordell Empire annexed.",
+      "revealedIn": [{ "book": "elantris", "chapter": "5" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Although Svorden belongs to the Fjordell Empire, the university accepts students from Arelon.",
+      "revealedIn": ["elantris"]
+    },
+    {
+      "text": "The university has a strong reputation. Svordish research and the rigour of Svordish schooling are cited in other nations, and Svordish books reach readers even in the distant Rose Empire. It keeps human bodies for study.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "elantris", "chapter": "33" },
+            { "book": "emperors-soul", "chapter": "day-2" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Students and visitors",
+          "revealedIn": [{ "book": "elantris", "chapter": "18" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Jalla and Lukel met while studying there, and Hrathen has visited the university.",
+          "revealedIn": [{ "book": "elantris", "chapter": "18" }]
+        }
+      ]
+    }
+  ]
+}

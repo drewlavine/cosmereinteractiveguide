@@ -1,0 +1,51 @@
+{
+  "intro": [
+    {
+      "text": "The manager of the Seran New District Cemetery in New Seran, apparently a man of some wealth.",
+      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "15" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The missing spike",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "15" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Templeton was given the task of recovering ReLuur's spike from the mass grave where it lay buried. He had it dug up and sent to Dulsing by courier, and left a note in the cemetery ledger telling the gravekeepers to alert him at once if anyone came asking about the grave.",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "15" }]
+        },
+        {
+          "text": "After Wayne and Marasi survived an attack by hired killers at the cemetery, they found his note in a hidden ledger in the gravekeeper's shack and went to his house. Wayne, posing as Death and using Dechamp's body, frightened him into revealing where the spike had gone. New Seran's constables then arrested him on the ledger's evidence of grave robbing.",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "15" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": [
+    {
+      "text": "Swears by Trell's soul, which suggests he worships Trell. He keeps a fussily arranged collection of stuffed albino animals, stuffs some himself, and can tell a true albino from a bleached fake.",
+      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "15" }]
+    }
+  ],
+  "relationships": [
+    {
+      "title": [
+        {
+          "text": "Destra",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "15" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Destra, a thin, worn-looking woman who is nervous around him, lives with him; the two appear to be a couple.",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "15" }]
+        }
+      ]
+    }
+  ]
+}

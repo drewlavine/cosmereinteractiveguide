@@ -1,0 +1,38 @@
+{
+  "intro": [
+    {
+      "text": "A wealthy lighteyed family of Alethkar who own a small palace in Kholinar called the Mausoleum.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "77" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "The family has its favourite servants Soulcast into statues after death and displays them in the grand hall, which gave the house its name. The Tenets are said to be extremely rich, with riches hidden throughout their home, and floorplans of it can be bought, probably illegally.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "77" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "In Kholinar",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "77" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Shallan and her group stole the Tenets' food to get into the Cult of Moments' revel.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "77" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "shallan-davar",
+      "role": "stole their food",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "77" }]
+    }
+  ]
+}

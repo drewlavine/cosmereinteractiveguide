@@ -1,0 +1,50 @@
+{
+  "intro": [
+    {
+      "text": "A religion of Sel. Its priests teach that the Elantrians are damned.",
+      "revealedIn": [{ "book": "elantris", "chapter": "1" }]
+    },
+    {
+      "text": "One of the oldest religions of Sel and Galladon's faith, all but wiped out when Hrathen overthrew the Duladel Republic.",
+      "revealedIn": [{ "book": "elantris", "chapter": "22" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "At the heart of Jesker is the Dor, an unseen force.",
+      "revealedIn": [{ "book": "elantris", "chapter": "19" }]
+    },
+    {
+      "text": "Galladon grieves for his lost faith and dismisses the Jeskeri Mysteries as a parody of it, with no real grasp of the Dor.",
+      "revealedIn": [{ "book": "elantris", "chapter": "19" }]
+    },
+    {
+      "text": "Many call Jesker primitive, which its followers find offensive.",
+      "revealedIn": [{ "book": "elantris", "chapter": "22" }]
+    },
+    {
+      "text": "Its followers call the Dor the overspirit and seek harmony with it, and through it with nature. They teach that all things know of the Dor except humans, who can be blind to it.",
+      "revealedIn": [{ "book": "elantris", "chapter": "41" }]
+    },
+    {
+      "text": "Jesker gives weight to the movements of the heavens; Hrathen says its followers worship the moon.",
+      "revealedIn": [{ "book": "elantris", "chapter": "41" }]
+    }
+  ],
+  "history": [],
+  "facts": [
+    {
+      "label": "Homeland",
+      "name": "Duladel",
+      "placeId": "duladel",
+      "revealedIn": [{ "book": "elantris", "chapter": "22" }]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "galladon",
+      "role": "follower",
+      "revealedIn": [{ "book": "elantris", "chapter": "16" }]
+    }
+  ]
+}

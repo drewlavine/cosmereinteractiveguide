@@ -389,5 +389,49 @@
         }
       ]
     }
+  ],
+  "description": [
+    {
+      "title": [
+        {
+          "text": "Reason and emotion",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "i-8" },
+            { "book": "wind-and-truth", "chapter": "i-18" },
+            { "book": "wind-and-truth", "chapter": "145" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "After becoming a Vessel, Taravangian sought decisions that joined emotion with reason rather than treating compassion and intelligence as opposites.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "i-8" }]
+        },
+        {
+          "text": "He admitted to himself that his ambition to rule the cosmere came from wanting power as well as wanting to protect people.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "i-18" }]
+        },
+        {
+          "text": "As Retribution, he found Honor questioning his ruthless choices and tried to justify them through the promises he had kept.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "145" }]
+        }
+      ]
+    }
+  ],
+  "abilities": [
+    {
+      "title": [
+        {
+          "text": "Odium's perception",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "i-2" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "As Odium, Taravangian felt suffering and passion throughout the cosmere and could observe distant worlds, although his binding prevented him from acting outside the Rosharan system.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "i-2" }]
+        }
+      ]
+    }
   ]
 }

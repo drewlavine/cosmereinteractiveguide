@@ -140,6 +140,26 @@
       ]
     }
   ],
+  "sections": [
+    {
+      "title": "Bonded capabilities",
+      "items": [
+        {
+          "text": "Their clothing in Shadesmar is part of their essence and needs Stormlight to change.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "10" }]
+        },
+        {
+          "text": "In Blade form, their awareness overlaps with their Radiant's.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "72" }]
+        },
+        {
+          "text": "A strong bond lets them lift objects as heavy as a brick and grasp people with force.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "82" }]
+        }
+      ],
+      "parts": []
+    }
+  ],
   "facts": [
     {
       "label": "Capital",

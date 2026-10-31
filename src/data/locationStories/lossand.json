@@ -1,0 +1,75 @@
+{
+  "intro": [
+    {
+      "text": "A nation that accepts sand mastery and was often at war with Kerzta in the past.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "3" }]
+    },
+    {
+      "text": "A Dayside nation governed by the Taishin and home to the Diem of sand masters. Because no dorim vines grow there, Kerztians regard it as desert.",
+      "revealedIn": ["white-sand-omnibus"]
+    }
+  ],
+  "description": [
+    {
+      "text": "The Field is the Profession of Lossand's farming industry, taking in both the owners of farmland and those who work it. Its Taisha, the Lord Farmer, is based at the Farmers Congress.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "7" }]
+    },
+    {
+      "text": "The Kelzin, wealthy landholders, make up the upper class and try to steer the Taisha of the Professions they belong to. In some, such as the Helm, they have more real power than the Taisha, whom they appoint as a tool against their rivals.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "15" }]
+    },
+    {
+      "text": "Lossand is wedge-shaped, reaching from Mount KraeDa south to the Southern Border Ocean, with deep sand to the east and Kerzta's Kerla to the west and north. The Ry'DoAli flows through its middle and is joined by the Nor'Tallon from the eastern mountains. Wells are unreliable, so people live on river islands and irrigable banks. The constant sun keeps it hot, though a steady breeze helps.",
+      "revealedIn": ["white-sand-omnibus"]
+    },
+    {
+      "text": "The Taishin is a council of the eight Taisha who lead the Professions; each is styled Lord or Lady, and the council's leader is called High. The population mixes Kerztian, Rim Kingdom and Darksider communities. Many believe in the Sand Lord but no organized faith dominates, and the Diem's sand masters once helped defend the nation and build its infrastructure.",
+      "revealedIn": ["white-sand-omnibus"]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        { "text": "Founding legend", "revealedIn": ["white-sand-omnibus"] }
+      ],
+      "items": [
+        {
+          "text": "Legend tells that the siblings Kerzt and Lossa each said the Sand Lord had sent them visions, but they disagreed over what those visions meant. Lossa, who said she had been granted sand mastery, escaped her brother's attempts to kill her by fleeing into the desert, and founded Lossand along the Ry'DoAli.",
+          "revealedIn": ["white-sand-omnibus"]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Relations with Kerzta",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "3" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Kerzta's clergy long declared that Lossand was desert because the Sand Lord had cursed it, and its priestly DaiKeen objected above all to Lossand's acceptance of sand mastery. The two nations were frequently at war.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "3" }]
+        },
+        {
+          "text": "Things calmed two centuries ago once Kerzta chose a king from the Merchant DaiKeen. Rising support for Kerzta's high priest has since thrown the peace into doubt.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "3" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Threat to the Diem",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "18" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "After most of the sand masters were killed in the Kerla, the rest of the Taishin set out to disband the Diem, each for reasons of their own, but Kenton succeeded in saving his Profession.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "18" }]
+        }
+      ]
+    }
+  ]
+}

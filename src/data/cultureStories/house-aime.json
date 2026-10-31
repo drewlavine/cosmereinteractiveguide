@@ -1,0 +1,27 @@
+{
+  "intro": [
+    {
+      "text": "A minor noble house of the Final Empire on Scadrial.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "28" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Its lord has several sons. Lady Kliss calls one of them, Fedren Aime, a buffoon.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "28" }]
+    },
+    {
+      "text": "Rumour has it that Lady Tren-Pedri Delouse's father wants to marry her into House Aime, though she herself is unwilling.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "28" }]
+    }
+  ],
+  "history": [],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "fedren-aime",
+      "role": "son",
+      "revealedIn": [{ "book": "final-empire", "chapter": "28" }]
+    }
+  ]
+}

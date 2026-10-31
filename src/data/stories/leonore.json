@@ -1,0 +1,138 @@
+{
+  "intro": [
+    {
+      "text": "A Malwish woman who flies the Dynamic as its pilot.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "25" }]
+    },
+    {
+      "text": "The Dynamic's pilot, a deserter from the Malwish military, which makes her hard to employ anywhere else.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "28" }],
+      "fallback": true
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Aboard the Dynamic",
+          "revealedIn": [
+            { "book": "isles-of-the-emberdark", "chapter": "42" },
+            { "book": "isles-of-the-emberdark", "chapter": "26" },
+            { "book": "isles-of-the-emberdark", "chapter": "28" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "She left the Malwish military and took a berth on the Dynamic. She can't go back to Scadrial without risking arrest, but she still hears from her mother, who tends to send her drink.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "42" }]
+        },
+        {
+          "text": "When Captain Crow chose to let an entity finish off a stranded Iriali family, Leonore helped the crew shut Crow off the bridge. She edged the ship towards the creature in spite of Ed's warnings, then dodged it while Starling got the family out.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "26" }]
+        },
+        {
+          "text": "Afterwards she made hot chocolate for everyone. She feared a court on Silverlight would break the crew up for defying their captain, but Aditil and Starling talked her round, and she raised her cup to the rescue.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "28" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "On the island",
+          "revealedIn": [
+            { "book": "isles-of-the-emberdark", "chapter": "46" },
+            { "book": "isles-of-the-emberdark", "chapter": "60" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Finding Malwish forces already on an island in the emberdark, she wanted to flee before anyone recognized her. Guards soon dragged her off as a deserter, but it was a trap: once Nazh came out to help her, they let her go and shut him in a shade prison.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "46" }]
+        },
+        {
+          "text": "Once the island's power failed, she crept back to the Dynamic and started it up. With soldiers firing on the ship she took off, but when Dajer's gunship launched she told Starling it was all but impossible to dodge at that range. Then the Dakwara struck the gunship, and Dajer died.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "60" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Afterwards",
+          "revealedIn": [
+            { "book": "isles-of-the-emberdark", "chapter": "epilogue" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The crew spent half a year ashore on First of the Sun. On leaving, she and the others vowed to make restoring Starling's draconic powers their next goal.",
+          "revealedIn": [
+            { "book": "isles-of-the-emberdark", "chapter": "epilogue" }
+          ]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Pale, with cool-toned skin, she wears a red wooden mask, which she leaves lowered among friends and pulls up only when she needs to focus.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "42" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Quick-witted and fond of teasing her crewmates, though prone to sulking. She has no love for the Malwish Empire and lives in constant worry that it will lock her up for deserting. Like the rest of the crew, she is loyal and will put herself at risk to do right.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "42" }]
+    }
+  ],
+  "abilities": [
+    {
+      "title": [
+        {
+          "text": "Skills",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "51" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "A superb pilot who flies by instinct. She trained on fighters but can throw a cargo ship like the Dynamic through hard manoeuvres, using a lodestar made from many metals. She also has some field-medic training and knows Malwish tactics and procedure well.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "51" }]
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "title": [
+        {
+          "text": "ZeetZi",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "46" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "They are close friends who rib each other constantly. She pokes fun at his lofty vocabulary and often calls him Zee.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "46" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Starling",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "51" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Having Starling around comforts her. She trusts Starling's captaincy and doesn't judge her in weak moments, while Starling rates her the finest pilot the Malwish ever had and lifts her spirits when she doubts herself.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "51" }]
+        }
+      ]
+    }
+  ]
+}

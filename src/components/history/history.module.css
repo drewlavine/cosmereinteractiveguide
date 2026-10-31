@@ -1,4 +1,4 @@
-/* A planet's History section (PlanetHistory.tsx) in its four styles. Panels,
+/* A planet's History section (PlanetHistory.tsx) in each style. Panels,
    gold hairlines and display type as on the rest of the planet page; each
    era's colour arrives as --tone. */
 
@@ -21,7 +21,6 @@
 }
 
 .tryOption,
-.filter,
 .controls button {
   min-height: 2.5rem;
   padding: 0.2rem 0.9rem;
@@ -34,8 +33,7 @@
   cursor: pointer;
 }
 
-.tryOption[aria-pressed='true'],
-.filter[aria-pressed='true'] {
+.tryOption[aria-pressed='true'] {
   border-color: var(--gold);
   background: #4a3b17;
   color: #fff;
@@ -294,15 +292,13 @@
   box-shadow: 0 8px 28px rgba(0, 0, 0, 0.5);
 }
 
-.art figcaption,
-.cardArt figcaption {
+.art figcaption {
   color: var(--text-muted, #9fb0bc);
   font-size: 0.7rem;
   text-align: center;
 }
 
-.art figcaption a,
-.cardArt figcaption a {
+.art figcaption a {
   color: inherit;
 }
 
@@ -429,26 +425,41 @@
   margin-bottom: 30vh;
 }
 
-.step:focus-visible,
-.cardToggle:focus-visible {
+.step:focus-visible {
   outline: 2px solid var(--gold);
   outline-offset: 2px;
 }
 
-/* Time scrubber: an era ribbon, a slider over every moment, one card. */
-.ribbon {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 3px;
-  margin-bottom: 0.8rem;
+/* Time scrubber: a column per moment, all the same width, so the dots sit
+   evenly apart; scrolls sideways when the columns don't fit. */
+.strip {
+  margin-bottom: 0.75rem;
+  padding: 3px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  scrollbar-width: thin;
 }
 
+.track {
+  display: grid;
+  grid-template-columns: repeat(var(--n), minmax(5rem, 1fr));
+  gap: 0.6rem 3px;
+  width: max-content;
+  min-width: 100%;
+}
+
+.ribbon,
+.ticks {
+  display: grid;
+  grid-column: 1 / -1;
+  grid-template-columns: subgrid;
+}
+
+/* Titles wrap rather than widen the columns. */
 .ribbonEra {
-  flex: 1 1 auto;
-  min-width: 0;
+  contain: inline-size;
   min-height: 2.5rem;
   padding: 0.35rem 0.5rem;
-  overflow: hidden;
   border: 0;
   border-top: 4px solid var(--tone);
   border-radius: 6px;
@@ -456,51 +467,56 @@
   color: var(--text);
   font: inherit;
   font-size: 0.78rem;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+  line-height: 1.2;
+  text-wrap: balance;
   cursor: pointer;
 }
 
+/* No bold here: it could rewrap the title. */
 .ribbonEra[aria-pressed='true'] {
   background: color-mix(in srgb, var(--tone) 35%, var(--slate-deep));
   color: #fff;
-  font-weight: 600;
 }
 
 .ribbonEra:focus-visible,
-.range:focus-visible,
+.ticks:focus-visible,
 .tryOption:focus-visible,
-.filter:focus-visible,
-.controls button:focus-visible,
-.linkChip:focus-visible {
+.controls button:focus-visible {
   outline: 2px solid var(--gold);
   outline-offset: 2px;
 }
 
-.range {
-  display: block;
-  width: 100%;
-  margin: 0;
-  accent-color: var(--gold);
-  cursor: pointer;
-}
-
 .ticks {
-  display: flex;
-  justify-content: space-between;
-  margin: 0.2rem 0 0.75rem;
-  padding: 0 5px;
+  align-items: center;
+  justify-items: center;
+  padding: 8px 0;
+  background: linear-gradient(
+      color-mix(in srgb, var(--gold) 30%, transparent) 0 0
+    )
+    center / 100% 2px no-repeat;
+  cursor: pointer;
+  touch-action: pan-y;
+  user-select: none;
 }
 
-.ticks span {
+.ticks [data-dot] {
   width: 6px;
   height: 6px;
   border-radius: 50%;
-  background: color-mix(in srgb, var(--tone) 30%, transparent);
+  background: color-mix(in srgb, var(--tone) 30%, var(--slate-deep));
 }
 
-.ticks span[data-past] {
+.ticks [data-past] {
   background: var(--tone);
+}
+
+.ticks [data-at] {
+  width: 14px;
+  height: 14px;
+  box-sizing: border-box;
+  border: 3px solid var(--slate-deep);
+  outline: 2px solid var(--gold);
+  background: var(--gold);
 }
 
 .controls {
@@ -542,264 +558,6 @@
   }
 }
 
-/* Codex: cards by era, filtered by kind, linked by cause. */
-.filters {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.35rem;
-  margin-bottom: 1.25rem;
-}
-
-.filter span {
-  margin-left: 0.2rem;
-  opacity: 0.7;
-  font-variant-numeric: tabular-nums;
-}
-
-.cards {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
-  gap: 0.9rem;
-  margin: 0.8rem 0 0;
-  padding: 0;
-  list-style: none;
-}
-
-.card {
-  padding: 0.9rem 1rem;
-  overflow: hidden;
-  border: 1px solid rgba(212, 165, 64, 0.3);
-  border-top: 4px solid var(--tone);
-  border-radius: 12px;
-  background: var(--panel);
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.25);
-  scroll-margin: 1rem;
-}
-
-.card[data-open] {
-  grid-column: 1 / -1;
-}
-
-.card[data-flash] {
-  animation: flash 1.6s ease-out;
-}
-
-@keyframes flash {
-  0%,
-  40% {
-    box-shadow:
-      0 0 0 3px var(--gold),
-      0 0 26px rgba(212, 165, 64, 0.6);
-  }
-}
-
-.thumb {
-  display: block;
-  width: calc(100% + 2rem);
-  height: 7rem;
-  margin: -0.9rem -1rem 0.7rem;
-  object-fit: cover;
-  object-position: center 12%;
-}
-
-.cardToggle {
-  padding: 0;
-  border: 0;
-  background: none;
-  color: inherit;
-  font: inherit;
-  text-align: left;
-  cursor: pointer;
-}
-
-.cardToggle::after {
-  content: ' +';
-  color: var(--gold);
-}
-
-.cardToggle[aria-expanded='true']::after {
-  content: ' −';
-}
-
-.teaser {
-  display: -webkit-box;
-  overflow: hidden;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 3;
-  line-clamp: 3;
-}
-
-.cardArt {
-  float: right;
-  width: min(32%, 13rem);
-  margin: 0 0 0.6rem 1rem;
-}
-
-.cardArt :global(.art-open) {
-  display: block;
-  width: 100%;
-  padding: 0;
-  border: 0;
-  background: none;
-  cursor: zoom-in;
-}
-
-.cardArt img {
-  display: block;
-  width: 100%;
-  border: 1px solid rgba(212, 165, 64, 0.35);
-  border-radius: 10px;
-}
-
-.links {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 0.3rem;
-  margin: 0.55rem 0 0;
-  color: var(--text-muted, #9fb0bc);
-  font-size: 0.65rem;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-}
-
-.linkChip {
-  padding: 0.2rem 0.6rem;
-  border: 1px dashed rgba(212, 165, 64, 0.55);
-  border-radius: 999px;
-  background: none;
-  color: var(--gold);
-  font: inherit;
-  font-size: 0.8rem;
-  letter-spacing: normal;
-  text-transform: none;
-  cursor: pointer;
-}
-
-/* As you read it: what the reader knew at each point in their books. */
-.retoldHead {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
-  gap: 0.5rem 1rem;
-  margin-bottom: 0.6rem;
-}
-
-.retoldHead .controls {
-  margin: 0;
-}
-
-.retoldNow {
-  margin: 0;
-  color: var(--gold-soft);
-  font-family: var(--display);
-  font-size: 1.2rem;
-}
-
-.retoldNow strong {
-  color: var(--gold);
-  font-weight: 400;
-}
-
-.retoldNow span {
-  display: block;
-  color: var(--text-muted, #9fb0bc);
-  font-family: system-ui, sans-serif;
-  font-size: 0.8rem;
-}
-
-.books {
-  display: flex;
-  gap: 3px;
-  margin: 0.3rem 0 1.4rem;
-}
-
-.books span {
-  flex-basis: 0;
-  min-width: 0;
-  padding-top: 0.25rem;
-  overflow: hidden;
-  border-top: 3px solid rgba(212, 165, 64, 0.45);
-  color: var(--text-muted, #9fb0bc);
-  font-size: 0.7rem;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-
-.retoldList {
-  display: grid;
-  gap: 0.6rem;
-  margin: 0.7rem 0 0;
-  padding: 0;
-  list-style: none;
-}
-
-.retoldItem {
-  padding: 0.75rem 1rem;
-  border: 1px solid rgba(212, 165, 64, 0.2);
-  border-left: 3px solid var(--tone);
-  border-radius: 10px;
-  background: var(--panel);
-  transition: opacity 0.3s;
-}
-
-.retoldItem[data-status='known'] {
-  opacity: 0.6;
-}
-
-.retoldItem[data-status='new'] {
-  border-color: var(--gold);
-  box-shadow:
-    0 0 0 1px var(--gold),
-    0 0 18px rgba(212, 165, 64, 0.25);
-  animation: rise 0.45s ease-out both;
-}
-
-.retoldItem[data-status='retold'] {
-  border-color: #84c5e6;
-  box-shadow: 0 0 0 1px #84c5e6;
-}
-
-.badge {
-  float: right;
-  margin-left: 0.5rem;
-  padding: 0.05rem 0.5rem;
-  border-radius: 999px;
-  background: var(--gold);
-  color: #1a1408;
-  font-size: 0.66rem;
-  font-weight: 700;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-}
-
-[data-status='retold'] .badge {
-  background: #84c5e6;
-}
-
-.before {
-  margin: 0;
-  padding-left: 0.6rem;
-  border-left: 2px solid rgba(255, 255, 255, 0.15);
-  color: var(--text-muted, #9fb0bc);
-  font-size: 0.85rem;
-}
-
-.before span,
-.was {
-  margin-right: 0.35rem;
-  font-size: 0.65rem;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-}
-
-.was {
-  display: block;
-  color: var(--text-muted, #9fb0bc);
-  font-family: system-ui, sans-serif;
-}
-
 @media (max-width: 760px) {
   .chronicle {
     grid-template-columns: minmax(0, 1fr);
@@ -833,11 +591,6 @@
   .scrubCard {
     grid-template-columns: minmax(0, 1fr);
   }
-
-  .cardArt {
-    width: 42%;
-    margin-left: 0.75rem;
-  }
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -846,9 +599,12 @@
   .map,
   .zoom,
   .step,
-  .scrubCard,
-  .retoldItem {
+  .scrubCard {
     transition: none;
+  }
+
+  .strip {
+    scroll-behavior: auto;
   }
 
   .pulse {
@@ -857,13 +613,7 @@
 
   .marks,
   .art,
-  .fadeIn,
-  .card[data-flash],
-  .retoldItem[data-status='new'] {
+  .fadeIn {
     animation: none;
-  }
-
-  .card[data-flash] {
-    box-shadow: 0 0 0 3px var(--gold);
   }
 }

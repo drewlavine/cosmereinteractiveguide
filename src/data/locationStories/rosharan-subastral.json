@@ -1,0 +1,41 @@
+{
+  "intro": [
+    {
+      "text": "The Cognitive Realm of the Rosharan system, home to the spren.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "89" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Land and water reverse their positions relative to the Physical Realm. Seas of beads represent physical objects.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "7" },
+            { "book": "oathbringer", "chapter": "89" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "The Shin call Shadesmar Makari Sin.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "53" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "After the contest",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "147" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Cultivation's departure closed her perpendicularity, leaving travelers such as Shallan searching for another route into the Physical Realm. Spren could now leave Roshar, while time dilation complicated communication with other worlds.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "147" }]
+        }
+      ]
+    }
+  ]
+}

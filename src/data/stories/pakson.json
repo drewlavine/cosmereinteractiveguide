@@ -1,0 +1,40 @@
+{
+  "intro": [
+    {
+      "text": "A crewman of the Crow's Song who helped haul Tress on deck on her first day, and who was killed on the Crimson Sea.",
+      "revealedIn": [{ "book": "tress", "chapter": "44" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Aboard the Crow's Song",
+          "revealedIn": [{ "book": "tress", "chapter": "45" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Pakson served on the Crow's Song along with his sister. He was among the crew who pulled Tress up from the spores, and while she hung on at a porthole waiting out the fifteen minutes Crow had set, he kept coming back to check on her.",
+          "revealedIn": [{ "book": "tress", "chapter": "45" }]
+        },
+        {
+          "text": "On the Crimson Sea a wave of crimson spores broke over the deck and burst into spikes where someone had been sick. Pakson was skewered against the wall of the captain's cabin and died within moments. The crew cut him free and gave his body to the sea, and Tress and Salay each felt his death was on them.",
+          "revealedIn": [{ "book": "tress", "chapter": "45" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Bald despite not being old enough for it, with a very weak chin. His legs look too long for his body, making him tall and gangly, above all on land.",
+      "revealedIn": [{ "book": "tress", "chapter": "44" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "A kind man who thanked Fort for every meal, however poor. He loved music and wished he had learned to play something.",
+      "revealedIn": [{ "book": "tress", "chapter": "44" }]
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "intro": [
+    {
+      "text": "Assistant foreman of Rivershore's mines, a brute who, in the life December remembers, becomes her husband, strikes silver and rises to be the town's mayor.",
+      "revealedIn": [{ "book": "fires-of-december", "chapter": "i" }]
+    },
+    {
+      "text": "Assistant foreman of Rivershore's mines, whom December turns down and exposes as the murderer of his friend Tap; he is hanged.",
+      "revealedIn": [{ "book": "fires-of-december", "chapter": "ii" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Rivershore's mines",
+          "revealedIn": [
+            { "book": "fires-of-december", "chapter": "ii" },
+            { "book": "fires-of-december", "chapter": "i" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Made assistant foreman because no one dared cross him, Bark killed his friend Tap when Tap showed him a silver vein, then lost his way back and never found it again. Years on, he told the innkeeper's wife he would ask for December's hand when she turned twenty-one.",
+          "revealedIn": [{ "book": "fires-of-december", "chapter": "ii" }]
+        },
+        {
+          "text": "In the life December remembers, she married him; after four years he hit her and she left. He then found Winter's Cache, became mayor, wed Isa and passed laws meant to ruin December. When the plague came, he died alone in his mansion.",
+          "revealedIn": [{ "book": "fires-of-december", "chapter": "i" }]
+        },
+        {
+          "text": "Waking young again, December refused him, showed the reeve Tap's body by the vein and tricked Bark into giving himself away. He was hanged soon after.",
+          "revealedIn": [{ "book": "fires-of-december", "chapter": "ii" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "A thick-armed brute whom few want to fight.",
+      "revealedIn": [{ "book": "fires-of-december", "chapter": "xxii" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Not clever, and a heavy gambler who overindulges when he wins and flies into rages when he loses. In his youth he was a welcome regular at the inn, as he always paid on time.",
+      "revealedIn": [{ "book": "fires-of-december", "chapter": "xxii" }]
+    }
+  ]
+}

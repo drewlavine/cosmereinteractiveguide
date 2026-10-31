@@ -1,0 +1,48 @@
+{
+  "intro": [
+    {
+      "text": "A religious text that the Derethi still study alongside their own scripture, the Do-Dereth.",
+      "revealedIn": [{ "book": "elantris", "chapter": "3" }]
+    },
+    {
+      "text": "The holy book of Shu-Keseg, holding the teachings of the JinDo teacher Keseg. One of the oldest surviving works of Selish literature, it is still studied by the Derethi alongside their Do-Dereth.",
+      "revealedIn": [{ "book": "elantris", "chapter": "43" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Dilaf tells Hrathen that a Derethi arteth handed him both books, the Do-Dereth along with the Do-Kando, and that he got through them in one night.",
+      "revealedIn": [{ "book": "elantris", "chapter": "3" }]
+    },
+    {
+      "text": "Of Sel's surviving writings, only the poem Wyrn the King is thought to be older.",
+      "revealedIn": [{ "book": "elantris", "chapter": "43" }]
+    }
+  ],
+  "history": [],
+  "facts": [
+    {
+      "label": "Religion",
+      "name": "Shu-Keseg",
+      "revealedIn": [{ "book": "elantris", "chapter": "43" }]
+    },
+    {
+      "label": "Teachings of",
+      "name": "Keseg",
+      "characterId": "keseg",
+      "revealedIn": [{ "book": "elantris", "chapter": "43" }]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "keseg",
+      "role": "teacher",
+      "revealedIn": [{ "book": "elantris", "chapter": "43" }]
+    },
+    {
+      "characterId": "dilaf",
+      "role": "reader",
+      "revealedIn": [{ "book": "elantris", "chapter": "3" }]
+    }
+  ]
+}

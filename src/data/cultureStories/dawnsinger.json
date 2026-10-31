@@ -1,0 +1,48 @@
+{
+  "intro": [
+    {
+      "text": "Figures in Vorin tradition said to have cared for humanity and originated its writing.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "45" }]
+    },
+    {
+      "text": "The ancient singers native to Roshar, whose history predates humanity's arrival.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "111" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "The listeners inherited songs preserving accounts of their ancestors and their relationships with humans and spren.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "34" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Human settlement",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "113" },
+            { "book": "wind-and-truth", "chapter": "55" },
+            { "book": "wind-and-truth", "chapter": "62" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The Dawnsingers gave the refugees from Ashyn land in what became Shinovar.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "113" }]
+        },
+        {
+          "text": "Relations deteriorated over settlement beyond Shinovar. A human robbery and killing of a singer led to retaliatory killings.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "55" }]
+        },
+        {
+          "text": "Odium offered immortality to singers angered by human incursions, creating the Fused. The Heralds' creation brought their defeat and imprisonment.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "62" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": []
+}

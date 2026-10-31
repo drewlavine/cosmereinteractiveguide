@@ -1,0 +1,38 @@
+{
+  "intro": [
+    {
+      "text": "The head of the ground-floor staff at House Ladrian's mansion in Elendel.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "2" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "House Ladrian",
+          "revealedIn": [
+            { "book": "alloy-of-law", "chapter": "2" },
+            { "book": "alloy-of-law", "chapter": "3" },
+            { "book": "alloy-of-law", "chapter": "9" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Limmi tried to warn Wax that it was Wayne, not the Harms family, waiting in the sitting room, but he walked in before she could tell him. When Lord Harms, Steris and Marasi did arrive, she could not stop them from interrupting Wax and Wayne's talk about the Vanishers.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "2" }]
+        },
+        {
+          "text": "While looking into the Vanishers, Wax had Limmi bring him Elendel Daily broadsheets covering the recent robberies.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "3" }]
+        },
+        {
+          "text": "Before his attempt on Wax's life, the butler Tillaume knocked Limmi out and hid her and Miss Grimes in a closet. After the explosion, Wax carried both women out to the back garden.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "9" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

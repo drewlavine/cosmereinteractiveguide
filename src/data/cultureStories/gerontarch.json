@@ -1,0 +1,45 @@
+{
+  "intro": [
+    {
+      "text": "A gerontarch is a kind of leader in lands that were once part of the old kingdom of Sela Tales.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "i-6" }]
+    }
+  ],
+  "description": [],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Szeth's list",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "i-6" },
+            { "book": "way-of-kings", "chapter": "71" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The list of targets Szeth received from his new master included a Selay gerontarch, along with the Veden king and six highprinces.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "i-6" }]
+        },
+        {
+          "text": "The master who handed Szeth that list turned out to be Taravangian.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "71" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "szeth",
+      "role": "assassin",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "i-6" }]
+    },
+    {
+      "characterId": "taravangian",
+      "role": "Szeth's master",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "71" }]
+    }
+  ]
+}

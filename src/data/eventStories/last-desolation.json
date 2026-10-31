@@ -70,6 +70,18 @@
       ]
     }
   ],
+  "sections": [
+    {
+      "title": "The meeting place",
+      "items": [
+        {
+          "text": "The surviving Heralds met in what became Shinovar before abandoning the Oathpact.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "129" }]
+        }
+      ],
+      "parts": []
+    }
+  ],
   "facts": [],
   "people": [
     {

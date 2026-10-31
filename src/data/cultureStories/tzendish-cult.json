@@ -1,0 +1,23 @@
+{
+  "intro": [
+    {
+      "text": "Religious cults that Hoid once joined, and which he remembers chiefly for their dreadful clothing.",
+      "revealedIn": [{ "book": "fires-of-december", "chapter": "xxxviii" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "He likens the robes worn by Mountaincrest's hexers to the garments of the cult's members.",
+      "revealedIn": [{ "book": "fires-of-december", "chapter": "xxxviii" }]
+    }
+  ],
+  "history": [],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "hoid",
+      "role": "former member",
+      "revealedIn": [{ "book": "fires-of-december", "chapter": "xxxviii" }]
+    }
+  ]
+}

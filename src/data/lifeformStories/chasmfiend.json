@@ -152,6 +152,85 @@
       ]
     }
   ],
+  "sections": [
+    {
+      "title": "Social behavior",
+      "items": [
+        {
+          "text": "Chasmfiends share mental images and impressions with one another and with singers.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "58" }]
+        },
+        {
+          "text": "They test strength by challenging rivals or stealing prey; a weaker animal usually yields without a deadly fight.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "58" }]
+        },
+        {
+          "text": "During highstorms, they form protective rings around smaller chasmfiends and listener allies.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "60" }]
+        },
+        {
+          "text": "Young chasmfiends pupate repeatedly as they grow. The tone of the Well of Control draws them to the Shattered Plains for their final pupation.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "128" }]
+        }
+      ],
+      "parts": []
+    },
+    {
+      "title": "Relations with people",
+      "items": [],
+      "parts": [
+        {
+          "title": [
+            {
+              "text": "The War of Reckoning",
+              "revealedIn": [{ "book": "wind-and-truth", "chapter": "58" }]
+            }
+          ],
+          "items": [
+            {
+              "text": "The first humans to kill a chasmfiend convinced the others that humans and listeners were rivals rather than insignificant smaller creatures.",
+              "revealedIn": [{ "book": "wind-and-truth", "chapter": "58" }]
+            },
+            {
+              "text": "Discovering that those rivals were killing their pupating young led the chasmfiends to regard them as dominant.",
+              "revealedIn": [{ "book": "wind-and-truth", "chapter": "58" }]
+            }
+          ]
+        },
+        {
+          "title": [
+            {
+              "text": "The listener alliance",
+              "revealedIn": [
+                { "book": "wind-and-truth", "chapter": "58" },
+                { "book": "wind-and-truth", "chapter": "78" },
+                { "book": "wind-and-truth", "chapter": "118" },
+                { "book": "wind-and-truth", "chapter": "146" }
+              ]
+            }
+          ],
+          "items": [
+            {
+              "text": "Chasmfiends allied with Thude's listeners, trading protection and shared food for grooming.",
+              "revealedIn": [{ "book": "wind-and-truth", "chapter": "58" }]
+            },
+            {
+              "text": "Five accompanied Venli's party toward Narak and helped the listeners traverse the chasms.",
+              "revealedIn": [{ "book": "wind-and-truth", "chapter": "78" }]
+            },
+            {
+              "text": "They carried listeners into the second battle at Narak and helped their deception.",
+              "revealedIn": [{ "book": "wind-and-truth", "chapter": "118" }]
+            },
+            {
+              "text": "They remained with the listeners after their allies made a truce with the humans.",
+              "revealedIn": [{ "book": "wind-and-truth", "chapter": "146" }]
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "facts": [],
   "people": [
     {

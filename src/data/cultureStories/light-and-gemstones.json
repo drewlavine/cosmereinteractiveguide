@@ -1,0 +1,33 @@
+{
+  "intro": [
+    {
+      "text": "A book by Chanosha kept in Navani Kholin's library.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "101" }]
+    }
+  ],
+  "description": [],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Navani's library",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "101" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Navani obtained a worn copy when she was young and kept it in her Kholinar study.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "101" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "navani-kholin",
+      "role": "reader",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "101" }]
+    }
+  ]
+}

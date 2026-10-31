@@ -1,0 +1,53 @@
+{
+  "intro": [
+    {
+      "text": "An Alethi family that opposed Gavilar Kholin's unification of Alethkar.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "19" }]
+    }
+  ],
+  "description": [],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The unification",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "19" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "In 1143 the Kholin armies camped for over four months at a highstorm shelter on the edge of Evavakh lands, threatening the house and taking tribute from nearby farms. Nobles came to dine with the Kholins there, among them Toh and Evi, and Dalinar met Evi at one such feast. During the meal Dalinar foiled an attempt on Gavilar's life, which Sadeas assumed House Evavakh was behind.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "19" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "gavilar-kholin",
+      "role": "opponent",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "19" }]
+    },
+    {
+      "characterId": "dalinar-kholin",
+      "role": "opponent",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "19" }]
+    },
+    {
+      "characterId": "toh",
+      "role": "feast guest",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "19" }]
+    },
+    {
+      "characterId": "evi-kholin",
+      "role": "feast guest",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "19" }]
+    },
+    {
+      "characterId": "torol-sadeas",
+      "role": "blamed them",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "19" }]
+    }
+  ]
+}

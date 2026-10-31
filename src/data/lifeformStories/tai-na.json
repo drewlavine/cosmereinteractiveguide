@@ -1,0 +1,68 @@
+{
+  "intro": [
+    {
+      "text": "Gigantic creatures of the Reshi Sea, hundreds of feet tall, whose legs reach the sea floor. Reshi islanders live on their backs and worship them as gods.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-3" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "A Tai-na's legs are at least sixty feet long. Its eye is the size of a house and its huge mouth has massive mandibles; it enjoys fruit as a snack. Its skin is plated with carapace, and islanders carve stairs into the shell without harming it.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-3" }]
+    },
+    {
+      "text": "A whole ecosystem of grass, trees and shalebark lives on a Tai-na's back, and larkin, thought extinct since Aimia's scouring, lived on at least one.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-3" }]
+    },
+    {
+      "text": "The islanders believe the Tai-na favor boldness and read their movements as divine will. When two islands draw near, sometimes good things happen and sometimes they go to war: each island's king leads its soldiers in skirmishes with little bloodshed, won by the bolder side.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-3" }]
+    },
+    {
+      "text": "Islanders won't discuss a Tai-na's spren, which they call the island's soul, with outsiders, and keep even simple facts to themselves, so many educated foreigners have never heard of the Tai-na. They trade only with people they trust, and foreigners who settle there must give all they own to the king.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-3" }]
+    },
+    {
+      "text": "Tai-na can grow so large thanks to a bond with spren. Axies the Collector thinks their spren must be spectacular, and the Reshi refuse to let outsiders study them.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "i-3" },
+            { "book": "oathbringer", "chapter": "99" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Notable Tai-na",
+          "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "i-3" },
+            { "book": "dawnshard", "chapter": "1" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Rysn owed her life to Relu-na, which also, in some way, gave her a larkin.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-3" }]
+        },
+        {
+          "text": "The larkin, after nearly dying out, were taken in by Na-Alind, one family of Tai-na.",
+          "revealedIn": [{ "book": "dawnshard", "chapter": "1" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "relu-na",
+      "role": "a Tai-na",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-3" }]
+    }
+  ]
+}

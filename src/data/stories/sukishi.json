@@ -1,0 +1,58 @@
+{
+  "intro": [
+    {
+      "text": "The foreman to whom the nightmare painter Nikaro turns in his paintings.",
+      "revealedIn": [{ "book": "yumi", "chapter": "5" }],
+      "fallback": true
+    },
+    {
+      "text": "An elderly foreman of nightmare painters in Kilahito, with a small office at the Nightmare Division headquarters.",
+      "revealedIn": [{ "book": "yumi", "chapter": "14" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Nikaro's foreman",
+          "revealedIn": [
+            { "book": "yumi", "chapter": "5" },
+            { "book": "yumi", "chapter": "11" },
+            { "book": "yumi", "chapter": "14" },
+            { "book": "yumi", "chapter": "30" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Nikaro turned in two bamboo paintings at Sukishi's office and collected his wage, while the foreman eyed him with suspicion and scolded him for not shaping his paintings to the nightmares.",
+          "revealedIn": [{ "book": "yumi", "chapter": "5" }]
+        },
+        {
+          "text": "When Nikaro missed work, Sukishi came to his apartment and was shocked when a young woman answered the door.",
+          "revealedIn": [{ "book": "yumi", "chapter": "11" }]
+        },
+        {
+          "text": "When Yumi came to his office to say that Nikaro was sick and had faced a stable nightmare, Sukishi dismissed the story as an invention and did not pass the report on.",
+          "revealedIn": [{ "book": "yumi", "chapter": "14" }]
+        },
+        {
+          "text": "Sukishi had other painters cover Nikaro's area once he stopped turning up for work. After the stable nightmare struck again, Tojin brought him to see the damage, and Sukishi called in the Dreamwatch.",
+          "revealedIn": [{ "book": "yumi", "chapter": "30" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "A large man with white hair and an old man's complexion, dressed in thick trousers and a button-up shirt.",
+      "revealedIn": [{ "book": "yumi", "chapter": "11" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Sukishi has a low opinion of Nikaro, knowing his record of skipped classes, and thinks his habit of painting bamboo is lazy. He was surprised to find a woman in Nikaro's apartment.",
+      "revealedIn": [{ "book": "yumi", "chapter": "14" }]
+    }
+  ]
+}

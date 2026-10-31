@@ -1,0 +1,128 @@
+{
+  "intro": [
+    {
+      "text": "Xisis, a dragon said to live beneath the Crimson Sea, whom Crow studied in search of a cure for the spores.",
+      "revealedIn": [{ "book": "tress", "chapter": "31" }],
+      "fallback": true
+    },
+    {
+      "text": "A huge dragon with black scales, silvery hair and dragonsteel horns, claws and ridges, who has spent centuries in a palace on the floor of the Crimson Sea.",
+      "revealedIn": [{ "book": "tress", "chapter": "51" }]
+    },
+    {
+      "text": "Xisis, the powerful figure on Silverlight to whom Captain Crow says Starling must answer for her actions.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "28" }],
+      "fallback": true
+    },
+    {
+      "text": "Xisisrefliel, or Xisis, an ancient dragon who walks Silverlight in a human body and a tailored suit, and who controls the Dynamic and holds Starling's debts.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "32" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Beneath the Crimson Sea",
+          "revealedIn": [{ "book": "tress", "chapter": "53" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "When Crow cast a letter to him into the spores, a tunnel opened down through them, and she led Tress to his great chamber to offer her as a servant. Tress offered Crow instead, and he chose Crow, gagging her with magic cloth when she protested. Pressed to name a boon, Tress asked for three small things: a new tablet for Fort, glasses for Ann and word of where Salay's father was.",
+          "revealedIn": [{ "book": "tress", "chapter": "53" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "On Silverlight",
+          "revealedIn": [
+            { "book": "isles-of-the-emberdark", "chapter": "32" },
+            { "book": "isles-of-the-emberdark", "chapter": "epilogue" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Xisis kept the Dynamic on merchant runs through Shadesmar under a captain of his choosing, Crow. After Starling defied Crow, he kept her waiting in his skyscraper, then scorned her care for her crew, saying dragons have no mortal friends. He meant her to rule a kingdom for him to pay her debts, but at the piano he accepted her counteroffer: six months to find the perpendicularity on the Iriali map, the Dynamic hers if she succeeded.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "32" }]
+        },
+        {
+          "text": "Once Patji's Eye was found, he agreed with Vathi's government to spread the news of the Navigators in return for better tariffs when the perpendicularity opens to trade.",
+          "revealedIn": [
+            { "book": "isles-of-the-emberdark", "chapter": "epilogue" }
+          ]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "In dragon form he is enormous, about four people tall, with black scales, silvery hair and ridges, claws and horns of dragonsteel.",
+      "revealedIn": [{ "book": "tress", "chapter": "51" }]
+    },
+    {
+      "text": "His human body has polished ebony skin and silvery eyes, and he keeps it bald to suit his well-cut business suits. Ancient as he is, he does not look old.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "32" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "He scorns the old-school dragons who pose as gods, preferring to wear suits and run governments, though he enjoys being worshipped. He jokes about eating mortals without doing it, and likes the misinformation about dragons.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "32" }]
+    },
+    {
+      "text": "Cunning and far-sighted, he is grouchy, though Starling thinks him less bad than he acts. He makes a fearsome enemy and finds a miserable life more amusing than a death.",
+      "revealedIn": [
+        { "book": "isles-of-the-emberdark", "chapter": "epilogue" }
+      ]
+    }
+  ],
+  "abilities": [
+    {
+      "title": [
+        {
+          "text": "Dragon",
+          "revealedIn": [
+            { "book": "tress", "chapter": "51" },
+            { "book": "tress", "chapter": "50" },
+            {
+              "all": [
+                { "book": "tress", "chapter": "52" },
+                { "book": "isles-of-the-emberdark", "chapter": "32" }
+              ]
+            },
+            { "book": "isles-of-the-emberdark", "chapter": "32" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Like other dragons, he lives for an extremely long time and can shift between his dragon body and a chosen human form.",
+          "revealedIn": [{ "book": "tress", "chapter": "51" }]
+        },
+        {
+          "text": "He can shape the spores of the Crimson Sea at will, forming tunnels down to his base, itself a warren of spore-walled passages.",
+          "revealedIn": [{ "book": "tress", "chapter": "50" }]
+        },
+        {
+          "text": "He can cure people of the spores, though he says the cure lasts only a year or two unless they stay near him.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "tress", "chapter": "52" },
+                { "book": "isles-of-the-emberdark", "chapter": "32" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "A gifted pianist, he improvises like a great composer and uses his playing to work on the feelings of those he is bargaining with.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "32" }]
+        }
+      ]
+    }
+  ]
+}

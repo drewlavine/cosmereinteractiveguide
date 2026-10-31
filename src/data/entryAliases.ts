@@ -9,6 +9,30 @@ export const entryAliases: Record<
   Record<string, EntryAlias[]>
 > = {
   culture: {
+    'bridge-four': [
+      {
+        name: 'Order of Bone',
+        role: 'Also called',
+        revealedIn: [
+          {
+            book: 'wind-and-truth',
+            chapter: '8',
+          },
+        ],
+      },
+    ],
+    'church-of-the-survivor': [
+      {
+        name: 'Survivorism',
+        role: 'Later form',
+        revealedIn: [
+          {
+            book: 'alloy-of-law',
+            chapter: '17',
+          },
+        ],
+      },
+    ],
     darkeyes: [
       {
         name: 'Darkborn',
@@ -17,6 +41,50 @@ export const entryAliases: Record<
           {
             book: 'words-of-radiance',
             chapter: '43',
+          },
+        ],
+      },
+    ],
+    'double-eye-of-the-almighty': [
+      {
+        name: 'Double Eye',
+        role: 'Short form',
+        revealedIn: [
+          {
+            all: [
+              {
+                book: 'way-of-kings',
+                chapter: '19',
+              },
+              {
+                book: 'words-of-radiance',
+                chapter: '6',
+              },
+            ],
+          },
+        ],
+      },
+    ],
+    firemoss: [
+      {
+        name: 'Moss',
+        role: 'Also called',
+        revealedIn: [
+          {
+            book: 'way-of-kings',
+            chapter: '41',
+          },
+        ],
+      },
+    ],
+    grindings: [
+      {
+        name: 'grinding coughs',
+        role: 'Also called',
+        revealedIn: [
+          {
+            book: 'way-of-kings',
+            chapter: '2',
           },
         ],
       },
@@ -43,6 +111,38 @@ export const entryAliases: Record<
         ],
       },
     ],
+    painter: [
+      {
+        name: 'Nightmare painter',
+        role: 'Also called',
+        revealedIn: [
+          {
+            book: 'yumi',
+            chapter: '3',
+          },
+        ],
+      },
+    ],
+    pilevine: [
+      {
+        name: 'Pile-vine',
+        role: 'Also spelled',
+        revealedIn: [
+          {
+            all: [
+              {
+                book: 'way-of-kings',
+                chapter: '57',
+              },
+              {
+                book: 'rhythm-of-war',
+                chapter: '64',
+              },
+            ],
+          },
+        ],
+      },
+    ],
     safehand: [
       {
         name: 'Freehand',
@@ -55,6 +155,50 @@ export const entryAliases: Record<
         ],
       },
     ],
+    sighted: [
+      {
+        name: "alaii'iku",
+        role: 'Unkalaki name',
+        revealedIn: [
+          {
+            all: [
+              {
+                book: 'words-of-radiance',
+                chapter: '46',
+              },
+              {
+                book: 'dawnshard',
+                chapter: '9',
+              },
+            ],
+          },
+        ],
+      },
+    ],
+    'southern-scadrian': [
+      {
+        name: 'Southlanders',
+        role: 'Also called',
+        revealedIn: [
+          {
+            book: 'bands-of-mourning',
+            chapter: '31',
+          },
+        ],
+      },
+    ],
+    sparkflicker: [
+      {
+        name: 'Spark-flicker',
+        role: 'Also spelled',
+        revealedIn: [
+          {
+            book: 'way-of-kings',
+            chapter: '26',
+          },
+        ],
+      },
+    ],
     spheres: [
       {
         name: 'Ends',
@@ -63,6 +207,50 @@ export const entryAliases: Record<
           {
             book: 'oathbringer',
             chapter: '40',
+          },
+        ],
+      },
+    ],
+    weeping: [
+      {
+        name: 'Lull',
+        role: 'Listener name',
+        revealedIn: [
+          {
+            all: [
+              {
+                book: 'way-of-kings',
+                chapter: '44',
+              },
+              {
+                book: 'words-of-radiance',
+                chapter: 'i-11',
+              },
+            ],
+          },
+        ],
+      },
+    ],
+    'yoki-hijo': [
+      {
+        name: 'Chosen',
+        role: 'Also called',
+        revealedIn: [
+          {
+            book: 'yumi',
+            chapter: '4',
+          },
+        ],
+      },
+    ],
+    yuanazixin: [
+      {
+        name: 'Imperial Yuanazixin',
+        role: 'Full name',
+        revealedIn: [
+          {
+            book: 'oathbringer',
+            chapter: '116',
           },
         ],
       },
@@ -97,6 +285,74 @@ export const entryAliases: Record<
           {
             book: 'final-empire',
             chapter: '3',
+          },
+        ],
+      },
+    ],
+    bendalloy: [
+      {
+        name: 'Slider',
+        role: 'Misting',
+        revealedIn: [
+          {
+            book: 'alloy-of-law',
+            chapter: 'prologue',
+          },
+        ],
+      },
+      {
+        name: 'Subsumer',
+        role: 'Ferring',
+        revealedIn: [
+          {
+            book: 'alloy-of-law',
+            chapter: 'prologue',
+          },
+        ],
+      },
+    ],
+    cadmium: [
+      {
+        name: 'Pulser',
+        role: 'Misting',
+        revealedIn: [
+          {
+            book: 'alloy-of-law',
+            chapter: 'prologue',
+          },
+        ],
+      },
+      {
+        name: 'Gasper',
+        role: 'Ferring',
+        revealedIn: [
+          {
+            book: 'alloy-of-law',
+            chapter: 'prologue',
+          },
+        ],
+      },
+    ],
+    chromium: [
+      {
+        name: 'Leecher',
+        role: 'Misting',
+        revealedIn: [
+          {
+            book: 'alloy-of-law',
+            chapter: 'prologue',
+          },
+        ],
+      },
+    ],
+    dakhor: [
+      {
+        name: 'Order of Bone',
+        role: 'Also called',
+        revealedIn: [
+          {
+            book: 'elantris',
+            chapter: '58',
           },
         ],
       },
@@ -183,6 +439,18 @@ export const entryAliases: Record<
         ],
       },
     ],
+    'father-machine': [
+      {
+        name: 'The machine',
+        role: 'Short form',
+        revealedIn: [
+          {
+            book: 'yumi',
+            chapter: '39',
+          },
+        ],
+      },
+    ],
     feruchemy: [
       {
         name: 'Feruchemist',
@@ -219,6 +487,30 @@ export const entryAliases: Record<
                 chapter: '3',
               },
             ],
+          },
+        ],
+      },
+    ],
+    grandbow: [
+      {
+        name: 'Shardbow',
+        role: 'Also called',
+        revealedIn: [
+          {
+            book: 'way-of-kings',
+            chapter: '12',
+          },
+        ],
+      },
+    ],
+    harmonium: [
+      {
+        name: 'Ettmetal',
+        role: 'Southern name',
+        revealedIn: [
+          {
+            book: 'bands-of-mourning',
+            chapter: '22',
           },
         ],
       },
@@ -315,6 +607,52 @@ export const entryAliases: Record<
           {
             book: 'rhythm-of-war',
             chapter: '104',
+          },
+        ],
+      },
+    ],
+    navigator: [
+      {
+        name: 'Navigation',
+        role: 'Also called',
+        revealedIn: [
+          {
+            book: 'isles-of-the-emberdark',
+            chapter: '33',
+          },
+        ],
+      },
+    ],
+    nicrosil: [
+      {
+        name: 'Nicroburst',
+        role: 'Misting',
+        revealedIn: [
+          {
+            book: 'alloy-of-law',
+            chapter: 'prologue',
+          },
+        ],
+      },
+      {
+        name: 'Soulbearer',
+        role: 'Ferring',
+        revealedIn: [
+          {
+            book: 'alloy-of-law',
+            chapter: 'prologue',
+          },
+        ],
+      },
+    ],
+    nightblood: [
+      {
+        name: 'Sword-nimi',
+        role: 'Also called',
+        revealedIn: [
+          {
+            book: 'oathbringer',
+            chapter: '90',
           },
         ],
       },
@@ -459,6 +797,42 @@ export const entryAliases: Record<
         ],
       },
     ],
+    'peacegivers-treasure': [
+      {
+        name: 'Light of Peace',
+        role: 'Also called',
+        revealedIn: [
+          {
+            book: 'warbreaker',
+            chapter: '55',
+          },
+        ],
+      },
+    ],
+    'sand-mastery': [
+      {
+        name: 'Sand master',
+        role: 'User',
+        revealedIn: [
+          {
+            book: 'white-sand-omnibus',
+            chapter: '1',
+          },
+        ],
+      },
+    ],
+    'shanay-im': [
+      {
+        name: 'Heavenly Ones',
+        role: 'Common name',
+        revealedIn: [
+          {
+            book: 'rhythm-of-war',
+            chapter: '5',
+          },
+        ],
+      },
+    ],
     shardblade: [
       {
         name: 'Shardbearer',
@@ -491,6 +865,13 @@ export const entryAliases: Record<
             chapter: '5',
           },
         ],
+      },
+    ],
+    starmark: [
+      {
+        name: 'Starcarved',
+        role: 'User',
+        revealedIn: ['white-sand-omnibus'],
       },
     ],
     surgebinding: [
@@ -693,6 +1074,40 @@ export const entryAliases: Record<
     ],
   },
   event: {
+    catacendre: [
+      {
+        name: 'Final Ascension',
+        role: 'other name',
+        revealedIn: [
+          {
+            book: 'bands-of-mourning',
+            chapter: '22',
+          },
+        ],
+      },
+      {
+        name: 'Ice Death',
+        role: 'southern name',
+        revealedIn: [
+          {
+            book: 'bands-of-mourning',
+            chapter: '22',
+          },
+        ],
+      },
+    ],
+    'heraldic-epochs': [
+      {
+        name: 'Silver Kingdoms Epoch',
+        role: 'Other name',
+        revealedIn: [
+          {
+            book: 'way-of-kings',
+            chapter: '45',
+          },
+        ],
+      },
+    ],
     'last-desolation': [
       {
         name: 'Last Desolation',
@@ -745,6 +1160,38 @@ export const entryAliases: Record<
         ],
       },
     ],
+    chasmfiend: [
+      {
+        name: 'Ulo mas vara',
+        role: 'Listener name',
+        revealedIn: [
+          {
+            book: 'wind-and-truth',
+            chapter: '55',
+          },
+        ],
+      },
+    ],
+    cremling: [
+      {
+        name: 'Sealing',
+        role: 'Sea kind',
+        revealedIn: [
+          {
+            all: [
+              {
+                book: 'way-of-kings',
+                chapter: '41',
+              },
+              {
+                book: 'dawnshard',
+                chapter: '8',
+              },
+            ],
+          },
+        ],
+      },
+    ],
     cryptic: [
       {
         name: 'Liespren',
@@ -753,6 +1200,74 @@ export const entryAliases: Record<
           {
             book: 'words-of-radiance',
             chapter: '3',
+          },
+        ],
+      },
+    ],
+    deepwalker: [
+      {
+        name: 'Shadow',
+        role: 'Also called',
+        revealedIn: [
+          {
+            book: 'isles-of-the-emberdark',
+            chapter: '2',
+          },
+        ],
+      },
+    ],
+    evil: [
+      {
+        name: 'Nephilim',
+        role: 'Also called',
+        revealedIn: [
+          {
+            book: 'isles-of-the-emberdark',
+            chapter: '39',
+          },
+        ],
+      },
+      {
+        name: 'Eidolith',
+        role: 'Also called',
+        revealedIn: [
+          {
+            book: 'isles-of-the-emberdark',
+            chapter: '39',
+          },
+        ],
+      },
+    ],
+    hijo: [
+      {
+        name: 'Spirits',
+        role: 'Also called',
+        revealedIn: [
+          {
+            book: 'yumi',
+            chapter: '4',
+          },
+        ],
+      },
+      {
+        name: 'Primal spirits',
+        role: 'Also called',
+        revealedIn: [
+          {
+            book: 'yumi',
+            chapter: 'another-epilogue',
+          },
+        ],
+      },
+    ],
+    lancer: [
+      {
+        name: 'Lanceryn',
+        role: 'Plural',
+        revealedIn: [
+          {
+            book: 'way-of-kings',
+            chapter: '36',
           },
         ],
       },
@@ -833,6 +1348,18 @@ export const entryAliases: Record<
         ],
       },
     ],
+    prickletac: [
+      {
+        name: 'Twisted Spine',
+        role: 'Also called',
+        revealedIn: [
+          {
+            book: 'way-of-kings',
+            chapter: '17',
+          },
+        ],
+      },
+    ],
     reacher: [
       {
         name: 'Lightspren',
@@ -866,6 +1393,16 @@ export const entryAliases: Record<
       },
     ],
     singer: [
+      {
+        name: 'Owners',
+        role: 'Iriali name',
+        revealedIn: [
+          {
+            book: 'wind-and-truth',
+            chapter: 'i-11',
+          },
+        ],
+      },
       {
         name: 'Parshmen',
         role: 'Also called',

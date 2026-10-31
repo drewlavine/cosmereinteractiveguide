@@ -1,0 +1,26 @@
+{
+  "intro": [
+    {
+      "text": "A man from Scadrial's distant past, named in the ancient logbook that Sazed translates.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "29" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The logbook",
+          "revealedIn": [{ "book": "final-empire", "chapter": "29" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "The writer of the logbook knew Braches, who told him stories of volcanic islands far to the south. Braches had a curious mind, and he once promised to look into the strange abilities of Rashek and the other Terris packmen travelling with the writer.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "29" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

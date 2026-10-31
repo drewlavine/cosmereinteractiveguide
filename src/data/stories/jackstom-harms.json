@@ -1,0 +1,111 @@
+{
+  "intro": [
+    {
+      "text": "Head of House Harms, an Elendel noble family that is rich but short on high connections and lacks a male heir, and father of Steris.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "2" }]
+    },
+    {
+      "text": "Head of House Harms, a stiffly proper Elendel lord who is father to Steris and, through an affair, to Marasi.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "9" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Early life",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "14" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Lord Harms married a cold, severe woman, probably for political reasons, and they had a daughter, Steris. An affair with another woman produced a second daughter, Marasi; ashamed of her, he had her raised in a cousin house as Marasi Colms, though she knew he was her father and spent time with him and Steris.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "14" }]
+        },
+        {
+          "text": "When Marasi proved to be an Allomancer he made her hide it, calling Allomancy unseemly, though really he feared she would outshine Steris as a match. He still paid for her studies at Elendel University and let her live in his house, claiming it was charity. His wife died at some point.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "14" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Dealings with House Ladrian",
+          "revealedIn": [
+            { "book": "alloy-of-law", "chapter": "2" },
+            { "book": "alloy-of-law", "chapter": "5" },
+            { "book": "alloy-of-law", "chapter": "7" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Jackstom Harms brought Steris and Marasi to Ladrian Mansion to settle an agreement for Steris to marry Wax, a match that would join his wealthy house to Wax's struggling but famous one.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "2" }]
+        },
+        {
+          "text": "At the Yomen-Ostlin wedding dinner Harms shared a table with Wax, Steris and Marasi and tried to keep Marasi quiet. When the talk drove Steris away he blamed the others, then went to join his friend Lord Alernath at the bar, too far off to help when the Vanishers seized Steris.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "5" }]
+        },
+        {
+          "text": "Shaken by the kidnapping, Harms dropped his lofty manner and pleaded with Wax to find Steris. The next day he agreed to fund Wax's search, including the equipment Wax had bought to study the Vanishers' aluminum alloy, since House Ladrian had little ready money.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "7" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The Bleeder",
+          "revealedIn": [{ "book": "shadows-of-self", "chapter": "12" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "With the Bleeder able to wear anyone's face, Wax flew to Harms' mansion, checked he was genuine by asking something only Harms would know, and hid him atop a tower chosen at random.",
+          "revealedIn": [{ "book": "shadows-of-self", "chapter": "12" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "A heavy man whose long mustaches hang to his neck, Lord Harms wears costly suits and often carries a mahogany cane handed down in his family.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "6" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Harms prides himself on punctuality and mops his face with a handkerchief when under strain.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "6" }]
+    },
+    {
+      "text": "He looks every inch the proper lord, yet he can be rude, barges into rooms if kept waiting, has a coarse sense of humor and needles Steris until she loses her temper. He talks down to others, Wax above all, but in a real crisis his bluster collapses into helplessness.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "9" }]
+    }
+  ],
+  "relationships": [
+    {
+      "title": [
+        {
+          "text": "Daughters",
+          "revealedIn": [
+            { "book": "alloy-of-law", "chapter": "9" },
+            { "book": "alloy-of-law", "chapter": "14" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Steris takes after his late wife, whom he likely never loved, and he teases her more than he should, though she keeps him firmly in hand. He loves her deeply despite being puzzled by her bluntness, and his own example taught her to expect affairs in marriage.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "9" }]
+        },
+        {
+          "text": "Harms treats Marasi as an embarrassment to be kept out of sight, brushes off her interests and studies, and insists that she keep both her powers and her parentage secret, leaving real bitterness between them.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "14" }]
+        }
+      ]
+    }
+  ]
+}

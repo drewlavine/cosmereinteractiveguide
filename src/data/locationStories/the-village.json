@@ -1,0 +1,30 @@
+{
+  "intro": [
+    {
+      "text": "A part of Elendel home to Terris people, where the Basin's fertile soil is left to grow wild, giving it the look of a forest.",
+      "revealedIn": [{ "book": "shadows-of-self", "chapter": "5" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Probably once an ordinary, if wide, street, it is now overgrown with trees whose dense canopy covers its whole length. It is no park: it is wild and untended, its cobbles so uneven and its grass so springy that carriages and motorcars cannot pass, and the air there feels and smells soft.",
+      "revealedIn": [{ "book": "shadows-of-self", "chapter": "5" }]
+    },
+    {
+      "text": "Under an agreement between the Synod and Elendel's government, the Terris residents may police themselves, free of interference from the city's constables.",
+      "revealedIn": [{ "book": "shadows-of-self", "chapter": "5" }]
+    },
+    {
+      "text": "Trees have grown so tall and thick that they swallow the buildings along the street. The Synod's lodge holds the offices of the Terris elders, and rustic thatched log huts hold furs, old-style paintings and huge fire pits for heating kettles. One way in, the Tin Gate, is little more than a street under a stone arch carved with the Terris symbols of the sixteen metals.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "shadows-of-self", "chapter": "5" },
+            { "book": "bands-of-mourning", "chapter": "prologue" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": []
+}

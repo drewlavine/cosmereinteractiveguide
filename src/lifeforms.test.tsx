@@ -2,6 +2,7 @@ import { cleanup, render, screen, within } from '@testing-library/react'
 import userEvent from '@testing-library/user-event'
 import { createMemoryRouter, RouterProvider } from 'react-router'
 import { afterEach, describe, expect, it } from 'vitest'
+import { books } from './data/books'
 import { cultureList } from './data/culture'
 import { entryRevealedIn } from './data/entryStories'
 import { lesserSpren, lifeformList, listedLifeforms } from './data/lifeforms'
@@ -30,10 +31,10 @@ const names = () =>
   [...list().querySelectorAll('.character-group li')].map((li) =>
     li.textContent?.trim(),
   )
-const headings = () =>
-  within(list())
-    .queryAllByRole('heading', { level: 2 })
-    .map((h) => h.textContent?.replace(/\s*\d+$/, ''))
+const typeCards = () =>
+  within(screen.getByRole('region', { name: 'Type' }))
+    .getAllByRole('link')
+    .map((a) => a.getAttribute('aria-label')?.replace(/, \d+ .+$/, ''))
 const shownAfter = (read: string[]) => {
   const canSee = readerCanSee({ read: new Set(read), reading: new Map() })
   return listedLifeforms.filter((e) => canSee(entryRevealedIn('lifeform', e)))
@@ -72,14 +73,12 @@ describe('lifeforms list', () => {
   })
 
   it('shows nothing before any book is read', () => {
-    renderAt('/lifeforms')
+    renderAt('/lifeforms?group=name')
     expect(names()).toEqual([])
   })
 
   it('lists true spren, one Lesser spren page, and hides unread books', () => {
-    renderAt('/lifeforms', ['way-of-kings'])
-    expect(headings().slice(0, 2)).toEqual(['Spren', 'True spren'])
-    expect(headings()).not.toContain('Lesser spren')
+    renderAt('/lifeforms?group=name', ['way-of-kings'])
     expect(names()).toEqual(
       expect.arrayContaining(['Lesser spren', 'Honorspren', 'Chasmfiend']),
     )
@@ -87,8 +86,28 @@ describe('lifeforms list', () => {
     expect(names()).not.toContain('Cryptic')
     expect(names()).toHaveLength(shownAfter(['way-of-kings']).length)
     cleanup()
-    renderAt('/lifeforms', ['way-of-kings', 'words-of-radiance'])
+    renderAt('/lifeforms?group=name', ['way-of-kings', 'words-of-radiance'])
     expect(names()).toContain('Cryptic')
+  })
+
+  it('has a card for each type the reader has met, and none for the lesser spren', () => {
+    renderAt('/lifeforms', ['way-of-kings'])
+    expect(typeCards().slice(0, 2)).toEqual(['Spren', 'True spren'])
+    expect(typeCards()).not.toContain('Lesser spren')
+  })
+
+  it("lists a group's names A–Z, though the data keeps the spren pages last", () => {
+    renderAt(
+      '/lifeforms?group=world&of=roshar',
+      books.map((b) => b.id),
+    )
+    const shown = [
+      ...screen
+        .getByRole('article', { name: 'Roshar' })
+        .querySelectorAll('.character-group li'),
+    ].map((li) => li.textContent!.trim())
+    expect(shown.length).toBeGreaterThan(10)
+    expect(shown).toEqual([...shown].sort((a, b) => a.localeCompare(b)))
   })
 })
 

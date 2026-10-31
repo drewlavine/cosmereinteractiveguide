@@ -1,0 +1,47 @@
+{
+  "intro": [
+    {
+      "text": "A food baked into large rolls called clemabread, common in Tashikk.",
+      "revealedIn": [{ "book": "edgedancer", "chapter": "6" }]
+    },
+    {
+      "text": "A Rosharan crop that takes hard work to grow, like tallew or lavis, and easily fails in floods. It is baked into large rolls called clemabread, common in Tashikk.",
+      "revealedIn": [{ "book": "edgedancer", "chapter": "12" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Clemabread is granular and crumbles easily, which makes it mushy to eat. Many rolls are filled with a spicy paste and may be served warm.",
+      "revealedIn": [{ "book": "edgedancer", "chapter": "6" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "In Yeddaw",
+          "revealedIn": [{ "book": "edgedancer", "chapter": "10" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "The Stump often served clemabread at Tashi's Light orphanage. Lift ranked it only a little above gruel.",
+          "revealedIn": [{ "book": "edgedancer", "chapter": "10" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "stump",
+      "role": "served it",
+      "revealedIn": [{ "book": "edgedancer", "chapter": "10" }]
+    },
+    {
+      "characterId": "lift",
+      "role": "ate it",
+      "revealedIn": [{ "book": "edgedancer", "chapter": "10" }]
+    }
+  ]
+}

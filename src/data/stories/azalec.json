@@ -1,0 +1,26 @@
+{
+  "intro": [
+    {
+      "text": "A wealthy man of the Rose Empire, known only from a letter Shai forged in the Bloodsealer's name.",
+      "revealedIn": [{ "book": "emperors-soul", "chapter": "day-97" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "In a forged letter",
+          "revealedIn": [{ "book": "emperors-soul", "chapter": "day-97" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Shai's letter, written to look like the Bloodsealer's and meant to turn her guards against him, described Azalec as famous in Dzhamar for making a fortune in the empire's Southern Provinces. She worked hard to make it convincing, so the detail is probably true.",
+          "revealedIn": [{ "book": "emperors-soul", "chapter": "day-97" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

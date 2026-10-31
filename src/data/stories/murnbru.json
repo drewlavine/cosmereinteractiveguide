@@ -1,0 +1,26 @@
+{
+  "intro": [
+    {
+      "text": "A doctor on Scadrial.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "15" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Studying Wax",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "15" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "After a visit to Weathering, Murnbru put together a profile of Wax's mind and character.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "15" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

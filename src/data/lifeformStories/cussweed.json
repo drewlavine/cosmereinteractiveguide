@@ -1,0 +1,28 @@
+{
+  "intro": [
+    {
+      "text": "A Rosharan plant whose ground roots help treat sores.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "6" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Gaz chews cussweed.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "27" }]
+    },
+    {
+      "text": "Jix chewed some on House Davar's visit to a menagerie.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "27" },
+            { "book": "words-of-radiance", "chapter": "45" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [],
+  "facts": [],
+  "people": []
+}

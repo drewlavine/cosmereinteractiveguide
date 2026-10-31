@@ -1,4 +1,5 @@
 import type { Reveal } from './types'
+import { generatedPortraits } from './characterPortraitsGenerated'
 
 /**
  * Art of a character, shown above their Key facts. Art belongs to its
@@ -3151,4 +3152,5 @@ export const characterPortraits: Record<string, Portrait[]> = {
       ],
     },
   ],
+  ...generatedPortraits,
 }

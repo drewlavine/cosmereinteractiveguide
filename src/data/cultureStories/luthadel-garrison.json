@@ -1,0 +1,89 @@
+{
+  "intro": [
+    {
+      "text": "Luthadel's standing army: twenty thousand soldiers, well trained and well armed, whose main duty is to keep order in the city.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "6" }]
+    },
+    {
+      "text": "Luthadel's standing army of twenty thousand soldiers, charged with keeping order in the city. When most of it marches north against the skaa rebellion, only a tenth stays behind to guard Luthadel.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "36" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Garrison soldiers patrol in full armour, with breastplate, cap and black cloak. On patrol they kick beggars to make sure they are really crippled, harass workers caught idle and make a general nuisance of themselves.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "10" }]
+    },
+    {
+      "text": "Most of its soldiers are skaa who traded their loyalty to the Lord Ruler for a better life, mainly men from outside mainstream society; when riots break out somewhere, the Garrison also hires part-time soldiers. As mercenaries they will attack friends, even relatives, if ordered, and the menacing face their work demands leaves them disliked.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "24" }]
+    },
+    {
+      "text": "Captains such as Sertes wear a few extra stripes of colour and gold-coloured bits of metal on the shoulder.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "24" }]
+    },
+    {
+      "text": "The Garrison's complex looks built for defence, with hostile-looking guards at the gates, large spikes along its wall and bulky, fortified buildings, since rioting skaa tend to hit a city's garrison hard.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "24" }]
+    },
+    {
+      "text": "Besides stopping rebels, which is what it was created for, the Garrison guards Luthadel's wall and gates, though no one has ever attacked the city in the Final Empire.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "26" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The skaa rebellion",
+          "revealedIn": [
+            { "book": "final-empire", "chapter": "6" },
+            { "book": "final-empire", "chapter": "24" },
+            { "book": "final-empire", "chapter": "26" },
+            { "book": "final-empire", "chapter": "36" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "To the skaa rebellion, which has hired Kelsier's crew to help it take Luthadel, the Garrison is one of the biggest obstacles: the city can't be taken while the Garrison is active.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "6" }]
+        },
+        {
+          "text": "Ham often visits the Garrison to spar with its men, and brings Vin along to show her some tricks with pewter, but the soldiers are too busy.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "24" }]
+        },
+        {
+          "text": "Arriving with Ham, Vin finds the Garrison marching out: she overhears Captain Sertes tell Ham that skaa rebels have struck the Holstep Garrison, north of the city, and that the Luthadel Garrison is going to reinforce it, as is the Valtroux Garrison.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "24" }]
+        },
+        {
+          "text": "By the time the Luthadel Garrison arrives, the Valtroux Garrison has already dealt with most of the rebels. The Luthadel Garrison takes over from it and stays to hunt the rest, sending home part-time soldiers like Ham.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "26" }]
+        },
+        {
+          "text": "With most of the Garrison away, only a tenth remains to guard Luthadel when the skaa rise up.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "36" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "sertes",
+      "role": "Captain",
+      "revealedIn": [{ "book": "final-empire", "chapter": "24" }]
+    },
+    {
+      "characterId": "bevidon",
+      "role": "Soldier",
+      "revealedIn": [{ "book": "final-empire", "chapter": "24" }]
+    },
+    {
+      "characterId": "hammond",
+      "role": "Part-time soldier",
+      "revealedIn": [{ "book": "final-empire", "chapter": "26" }]
+    }
+  ]
+}

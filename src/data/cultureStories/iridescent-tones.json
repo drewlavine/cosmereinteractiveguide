@@ -1,0 +1,280 @@
+{
+  "intro": [
+    {
+      "text": "The religion of Hallandren, which worships the Returned as gods.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "3" }]
+    },
+    {
+      "text": "The religion of Hallandren, which worships the Returned as gods and reveres Peacegiver the Blessed, held to have saved Hallandren from Kalad and ended the Manywar.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "40" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "The Hallandren say the dead leap across the Iridescent Wave; a person who chooses to Return leaps back to the living, though the crossing leaves their memory in pieces.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "12" }]
+    },
+    {
+      "text": "Those who die in a way that shows a great virtue, such as bravery or honesty, are sent back as Returned to serve as gods and examples to the living. Each god stands for an ideal linked to the manner of their death.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "14" }]
+    },
+    {
+      "text": "Beyond the Wave lies an afterlife where people are at peace and the future can be read like a scroll.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "23" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The Manywar",
+          "revealedIn": [
+            { "book": "warbreaker", "chapter": "32" },
+            { "book": "warbreaker", "chapter": "58" },
+            { "book": "warbreaker", "chapter": "epilogue" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The Hallandren believe that Kalad Returned around the year 0 and joined Hanald's royal family in seeking war with other nations, raising a fearsome Lifeless army, Kalad's Phantoms.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "32" }]
+        },
+        {
+          "text": "In their lore Kalad seized Hanald and made war on many nations, until Peacegiver Returned, defeated him, took his Phantoms and ended the war through diplomacy.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "58" }]
+        },
+        {
+          "text": "Feeling abandoned to Kalad by Austre, and moved by Peacegiver, the Hallandren turned to worshipping the Returned. The Cult of Returned, which already did so, rose to prominence and grew into the Iridescent Tones.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "epilogue" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The God Kings",
+          "revealedIn": [
+            { "book": "warbreaker", "chapter": "58" },
+            { "book": "warbreaker", "chapter": "32" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Peacegiver gave his Breaths to a priest named Susebron, the first God King, charging the priesthood to keep them safe and unused until he returned for them. To that end the priests cut out each God King's tongue for three hundred years.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "58" }]
+        },
+        {
+          "text": "Four more God Kings followed, all named Susebron, each holding the Light of Peace and adding to it.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "32" }]
+        }
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "title": "Peacegiver and Kalad",
+      "items": [],
+      "parts": [
+        {
+          "title": [
+            {
+              "text": "Peacegiver the Blessed",
+              "revealedIn": [{ "book": "warbreaker", "chapter": "40" }]
+            }
+          ],
+          "items": [
+            {
+              "text": "Peacegiver is the faith's central figure, called Peacegiver the Blessed or, by some priests, Lord Peacegiver. The Hallandren hold his name holy and credit him with giving them life.",
+              "revealedIn": [{ "book": "warbreaker", "chapter": "40" }]
+            },
+            {
+              "text": "They believe he Returned to end men's fighting and bring peace, protecting them from Kalad and driving him away. He left them the Light of Peace, his Breath, to guard and never use, in case he should Return and need it.",
+              "revealedIn": [{ "book": "warbreaker", "chapter": "40" }]
+            }
+          ]
+        },
+        {
+          "title": [
+            {
+              "text": "Kalad",
+              "revealedIn": [
+                { "book": "warbreaker", "chapter": "40" },
+                { "book": "warbreaker", "chapter": "32" }
+              ]
+            }
+          ],
+          "items": [
+            {
+              "text": "Kalad is remembered as evil and destructive. The Hallandren believe Hanald's royal family sided with him against the people's will, eager for war.",
+              "revealedIn": [{ "book": "warbreaker", "chapter": "40" }]
+            },
+            {
+              "text": "Kalad made Kalad's Phantoms, a new and stronger kind of Lifeless. No one remembers what they were like, but they are thought terrible, and many believe they still roam the jungle, waiting for him to return.",
+              "revealedIn": [{ "book": "warbreaker", "chapter": "32" }]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "The gods",
+      "items": [],
+      "parts": [
+        {
+          "title": [
+            {
+              "text": "Duties of the gods",
+              "revealedIn": [
+                { "book": "warbreaker", "chapter": "3" },
+                { "book": "warbreaker", "chapter": "42" },
+                { "book": "warbreaker", "chapter": "50" }
+              ]
+            }
+          ],
+          "items": [
+            {
+              "text": "Followers seeking a blessing send a god an offering, usually a painting or poem. Priests record the god's words and interpretation for the patron; the better the verdict, the more good fortune. Most patrons pay others to make their offerings.",
+              "revealedIn": [{ "book": "warbreaker", "chapter": "3" }]
+            },
+            {
+              "text": "The gods also hear petitions, mostly for healing, though people sometimes ask for other things, such as work.",
+              "revealedIn": [{ "book": "warbreaker", "chapter": "42" }]
+            },
+            {
+              "text": "The gods lead Hallandren by voting in assemblies, in subgroups that each oversee an area such as civic matters or treaties. A full assembly's result is the Will of the Pantheon, which a god may still defy.",
+              "revealedIn": [{ "book": "warbreaker", "chapter": "50" }]
+            }
+          ]
+        },
+        {
+          "title": [
+            {
+              "text": "What the gods are thought able to do",
+              "revealedIn": [
+                { "book": "warbreaker", "chapter": "14" },
+                { "book": "warbreaker", "chapter": "26" }
+              ]
+            }
+          ],
+          "items": [
+            {
+              "text": "People credit the Returned with many powers, some real and some imagined, from controlling the rain to being unable to go mad or get headaches, and believe each god has goals to fulfil.",
+              "revealedIn": [{ "book": "warbreaker", "chapter": "14" }]
+            },
+            {
+              "text": "Refusing a god's request is thought to put one's soul in danger, since the Returned are believed able to take souls. A god stooping is considered improper.",
+              "revealedIn": [{ "book": "warbreaker", "chapter": "26" }]
+            },
+            {
+              "text": "The Returned are held to be wise and to dream prophecy, which their high priests write down as soon as they wake. As oracles, they must not meddle with the subjects of their predictions.",
+              "revealedIn": [{ "book": "warbreaker", "chapter": "26" }]
+            }
+          ]
+        },
+        {
+          "title": [
+            {
+              "text": "The God King",
+              "revealedIn": [
+                { "book": "warbreaker", "chapter": "24" },
+                { "book": "warbreaker", "chapter": "34" },
+                { "book": "warbreaker", "chapter": "32" }
+              ]
+            }
+          ],
+          "items": [
+            {
+              "text": "The God King's will is law and needs no justification. Only the queen and a few devoted servants may touch him, and he is believed able to heal more than one person.",
+              "revealedIn": [{ "book": "warbreaker", "chapter": "24" }]
+            },
+            {
+              "text": "Doctrine sets him apart even from other Returned: the earth is too base for him, he transcended before he was born, and he embodies every Color. Each new God King gets an entirely new set of servants.",
+              "revealedIn": [{ "book": "warbreaker", "chapter": "34" }]
+            },
+            {
+              "text": "The faithful hold that Peacegiver gave the first God King his Breath and his life, and each since to have fathered a stillborn son who Returned to succeed him.",
+              "revealedIn": [{ "book": "warbreaker", "chapter": "32" }]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "The priesthood",
+      "items": [
+        {
+          "text": "Priests wear robes in their god's colors, the God King's priests changing color daily, and important priests wear miters. Each takes oaths on joining, including one to answer any god's questions.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "24" }]
+        },
+        {
+          "text": "Each god, the God King included, has a high priest who has studied theology; the one who serves the God King is addressed as Your Excellency.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "40" }]
+        },
+        {
+          "text": "Priests care for the gods, arrange their weekly Breath and daily petitions, argue in the arena, rule the empire in the king's name, and take no pay. They may say nothing of a god's life before Returning.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "49" }]
+        },
+        {
+          "text": "In a main assembly, high priests kneel to ask their god's view, then carry a green flag for approval or a red one for displeasure.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "50" }]
+        },
+        {
+          "text": "The God King's priests know he cannot father a child. Instead they declare the queen pregnant and present a baby who Returned elsewhere in the empire.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "55" }]
+        }
+      ],
+      "parts": []
+    },
+    {
+      "title": "Holidays and oaths",
+      "items": [
+        {
+          "text": "Holidays include Gods Feast, an evening of feasting, and the week-long Wedding Jubilation for the God King's marriage, after which the new queen is formally presented to the Court of Gods.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "22" }]
+        },
+        {
+          "text": "The Hallandren swear by the Colors or the Iridescent Tones, not by their gods' names, which most gods dislike hearing as oaths.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "38" }]
+        }
+      ],
+      "parts": []
+    }
+  ],
+  "facts": [
+    {
+      "label": "Practiced in",
+      "name": "Hallandren",
+      "placeId": "hallandren",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "3" }]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "lightsong",
+      "role": "god",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "3" }]
+    },
+    {
+      "characterId": "llarimar",
+      "role": "high priest",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "3" }]
+    },
+    {
+      "characterId": "treledees",
+      "role": "high priest",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "4" }]
+    },
+    {
+      "characterId": "blushweaver",
+      "role": "goddess",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "14" }]
+    },
+    {
+      "characterId": "susebron",
+      "role": "God King",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "32" }]
+    }
+  ]
+}

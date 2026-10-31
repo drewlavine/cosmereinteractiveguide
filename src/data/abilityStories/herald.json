@@ -17,7 +17,118 @@
     }
   ],
   "description": [],
-  "history": [],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Changes to the Oathpact",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "120" },
+            { "book": "wind-and-truth", "chapter": "77" },
+            { "book": "wind-and-truth", "chapter": "99" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Honor expanded the Heralds' access to the Surges after Natanatan's destruction, while keeping them bound by oaths.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "120" }]
+        },
+        {
+          "text": "When the nine abandoned Talenel, Ishar took their suffering onto himself. The Oathpact remained, but was damaged.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "77" }]
+        },
+        {
+          "text": "Chanarach's death at Shallan's hands returned her to Braize. She, rather than Talenel, broke and allowed the next Desolation.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "99" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "In Shinovar",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "6" },
+            { "book": "wind-and-truth", "chapter": "33" },
+            { "book": "wind-and-truth", "chapter": "110" },
+            { "book": "wind-and-truth", "chapter": "140" },
+            { "book": "wind-and-truth", "chapter": "144" },
+            { "book": "wind-and-truth", "chapter": "postlude" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Dalinar sent Kaladin with Szeth to try to help Ishar.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "6" }]
+        },
+        {
+          "text": "Ishar rejected Kaladin's offer of help and described carrying the other Heralds' pain.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "33" }]
+        },
+        {
+          "text": "After confronting Kaladin, Nale acknowledged that he was as damaged as the other Heralds.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "110" }]
+        },
+        {
+          "text": "Kaladin's Fifth Ideal cleared Odium's corruption from Ishar, restoring his clarity.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "140" }]
+        },
+        {
+          "text": "Kaladin replaced Jezrien in a renewed Oathpact that protected the spren and bound Retribution.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "144" }]
+        },
+        {
+          "text": "The Heralds returned bodily to Braize but sheltered their minds in a vision of Ashyn.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "postlude" }]
+        }
+      ]
+    }
+  ],
+  "mechanics": [
+    {
+      "title": [
+        {
+          "text": "Heraldic life and power",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "64" },
+            { "book": "wind-and-truth", "chapter": "108" },
+            { "book": "wind-and-truth", "chapter": "93" },
+            { "book": "wind-and-truth", "chapter": "88" },
+            { "book": "wind-and-truth", "chapter": "145" },
+            { "book": "wind-and-truth", "chapter": "147" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Vedel used Regrowth and their Connection to Honor to hold their bodies and souls at a fixed age.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "64" }]
+        },
+        {
+          "text": "Their immortality is related to the Oathpact but does not depend on it.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "108" }]
+        },
+        {
+          "text": "Heralds can enter a vision through a Connection to someone inside it.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "93" }]
+        },
+        {
+          "text": "Limited access to Fortune can guide a Herald toward where they are needed.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "88" }]
+        },
+        {
+          "text": "Their bodies are formed from Investiture according to how they see themselves, rather than taken from other people.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "145" }]
+        },
+        {
+          "text": "Oaths between Roshar's Shards help bind the Heralds to the system.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "147" }]
+        }
+      ]
+    }
+  ],
   "sections": [
     {
       "title": "Abilities",
@@ -62,6 +173,27 @@
       "title": "History",
       "items": [],
       "parts": [
+        {
+          "title": [
+            {
+              "text": "Before the Oathpact",
+              "revealedIn": [
+                { "book": "wind-and-truth", "chapter": "107" },
+                { "book": "wind-and-truth", "chapter": "64" }
+              ]
+            }
+          ],
+          "items": [
+            {
+              "text": "Jezrien led Odium's empire on Ashyn, while Nale served its opponents. The future Heralds fled the devastated world through Ishar's elsegate.",
+              "revealedIn": [{ "book": "wind-and-truth", "chapter": "107" }]
+            },
+            {
+              "text": "Vedel made the new Heralds ageless through their Connection to Honor.",
+              "revealedIn": [{ "book": "wind-and-truth", "chapter": "64" }]
+            }
+          ]
+        },
         {
           "title": [
             {
@@ -218,7 +350,13 @@
   ],
   "peopleTitle": "Heralds",
   "facts": [],
-  "people": [],
+  "people": [
+    {
+      "characterId": "kaladin",
+      "role": "Herald",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "144" }]
+    }
+  ],
   "members": [
     {
       "characterId": "jezrien",

@@ -1,0 +1,89 @@
+{
+  "intro": [
+    {
+      "text": "The Unkalaki family of Lunamor of Bridge Four, who arrived on the Shattered Plains by caravan.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "37" }]
+    }
+  ],
+  "description": [],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Reunited on the Plains",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "37" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "On the way to the Plains, the family's caravan was attacked. They held out behind a pile of furniture, and one of them brought down a Voidbringer with an Unkalaki arrow. Bridge Four, marching toward the smoke, found them there, and Lunamor introduced his family to the bridgemen. His wife told him that something was badly wrong back home.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "37" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Return to the Peaks",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "46" },
+                { "book": "oathbringer", "chapter": "37" },
+                { "book": "rhythm-of-war", "chapter": "12" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Shortly after Hearthstone was evacuated, most of the family travelled back to the Horneater Peaks, leaving Cord and Gift behind.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "46" },
+                { "book": "oathbringer", "chapter": "37" },
+                { "book": "rhythm-of-war", "chapter": "12" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "lunamor",
+      "role": "husband, father",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "37" }]
+    },
+    {
+      "characterId": "cord",
+      "role": "family member",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "46" },
+            { "book": "oathbringer", "chapter": "37" },
+            { "book": "rhythm-of-war", "chapter": "12" }
+          ]
+        }
+      ]
+    },
+    {
+      "characterId": "gift",
+      "role": "family member",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "46" },
+            { "book": "oathbringer", "chapter": "37" },
+            { "book": "rhythm-of-war", "chapter": "12" }
+          ]
+        }
+      ]
+    }
+  ]
+}

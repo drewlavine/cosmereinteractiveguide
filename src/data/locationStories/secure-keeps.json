@@ -1,0 +1,38 @@
+{
+  "intro": [
+    {
+      "text": "A former bank in Kholinar, used during the siege as a place to hand out food.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "67" }]
+    },
+    {
+      "text": "A Thaylen bank vault in Kholinar's Ringington market, used during the siege as a place to hand out food.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "72" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Its name appears twice across the top of its front: in Thaylen and in the women's script.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "72" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "During the siege",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "67" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "After the bank left the building, Velalant's men took it over during the siege to give out food and supplies.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "67" }]
+        },
+        {
+          "text": "Veil, watching the handout, saw that it was poorly run and favoured servants of lighteyed households over those in real need. There she met Grund, who told her how Velalant's charity was failing.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "67" }]
+        }
+      ]
+    }
+  ]
+}

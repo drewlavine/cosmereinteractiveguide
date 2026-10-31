@@ -1,0 +1,61 @@
+{
+  "intro": [
+    {
+      "text": "A gang of thugs in Kholinar.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "80" }]
+    }
+  ],
+  "description": [],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Veil's food deliveries",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "80" },
+            { "book": "oathbringer", "chapter": "82" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "When Shallan, in disguise, began bringing food to displaced people in Kholinar, among them Grund, Tai, Muri, Ma and Seland, her openness caught the Grips' attention. They made the refugees wait all day for her deliveries, beat Grund if he left his spot or kept food for himself, and blamed him whenever she brought little.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "80" }]
+        },
+        {
+          "text": "Sensing something was wrong, Shallan found the Grips eating while Grund watched. Startled, one of them smashed Grund's head before the gang fled. Dying, Grund told her he hated her, and that Tai was already dead, killed by the Grips over the attention her visits drew.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "82" }]
+        },
+        {
+          "text": "Wit told Shallan that others in the market had stood up to the Grips, forcing them to hand over Grund's killer and break up.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "82" }]
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Based in",
+      "name": "Kholinar",
+      "placeId": "kholinar",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "80" }]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "grund",
+      "role": "victim",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "80" }]
+    },
+    {
+      "characterId": "tai",
+      "role": "victim",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "82" }]
+    },
+    {
+      "characterId": "shallan-davar",
+      "role": "drew their notice",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "80" }]
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "intro": [
+    {
+      "text": "A board game Kiin and Raoden played every afternoon in King Iadon's throne room.",
+      "revealedIn": [{ "book": "elantris", "chapter": "8" }]
+    },
+    {
+      "text": "A popular board game from JinDo, played across Arelon and Teod.",
+      "revealedIn": [{ "book": "elantris", "chapter": "32" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Kiin and Raoden's games in the throne room made Iadon uneasy. Kiin had turned down a noble title to spite the king's system, but Iadon's own law welcomed every lord, and every guest of the crown prince, into the throne room.",
+      "revealedIn": [{ "book": "elantris", "chapter": "8" }]
+    },
+    {
+      "text": "In Teod, Eventeo played ShinDa against Lord Eoden every MaeDal.",
+      "revealedIn": [{ "book": "elantris", "chapter": "32" }]
+    }
+  ],
+  "history": [],
+  "facts": [
+    {
+      "label": "Origin",
+      "name": "JinDo",
+      "placeId": "jindo",
+      "revealedIn": [{ "book": "elantris", "chapter": "32" }]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "kiin",
+      "role": "player",
+      "revealedIn": [{ "book": "elantris", "chapter": "8" }]
+    },
+    {
+      "characterId": "raoden",
+      "role": "player",
+      "revealedIn": [{ "book": "elantris", "chapter": "8" }]
+    },
+    {
+      "characterId": "eventeo",
+      "role": "player",
+      "revealedIn": [{ "book": "elantris", "chapter": "32" }]
+    },
+    {
+      "characterId": "eoden",
+      "role": "player",
+      "revealedIn": [{ "book": "elantris", "chapter": "32" }]
+    }
+  ]
+}

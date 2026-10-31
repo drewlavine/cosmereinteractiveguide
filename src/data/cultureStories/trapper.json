@@ -1,0 +1,151 @@
+{
+  "intro": [
+    {
+      "text": "Hunter-priests of First of the Sun who live and work in the Pantheon.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "2" }]
+    },
+    {
+      "text": "Eelakin hunter-priests, nearly always men, who live alone in the Pantheon's jungles and shun civilization; a few hundred work at a time, and only they breed Aviar.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "8" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Training begins at age ten under an older mentor on Sori, the least dangerous island. Trainees learn to provide for themselves entirely, to know the islands' deadly plants and animals, to track, spot and set traps, to breed Aviar, and to wayfind across open sea in outrigger canoes for weeks at a time. Once trained, a trapper picks another island to hunt on for life.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "6" }]
+    },
+    {
+      "text": "Trappers live alone and often go weeks without a word. The few on any island keep to separate territories and ignore each other when they meet, yet set traps to kill their rivals, for reasons even they cannot fully explain.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "6" }]
+    },
+    {
+      "text": "They hold the Pantheon sacred and act as priests of its islands. Each sees a distinct personality in his chosen island, speaks to it, prays and burns offerings to it, and seldom visits others, though Sori, where all of them trained, always welcomes them.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "16" }]
+    },
+    {
+      "text": "Always at risk of death, a trapper carries a notebook listing his safecamps, traps and Aviar for whoever finds him. A rival will always take in a dead trapper's Aviar, even if his own trap did the killing.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "16" }]
+    },
+    {
+      "text": "In the homeisles trappers feel like outsiders: they find the smells and noise strange, think homeislers talk too much, stand too close and hide their feelings, and see little point in scholarship or industry. Homeislers in turn tend to think them eccentric, almost animal.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "20" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Settling the Pantheon",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "8" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Trappers first set out from the homeisles to the Pantheon centuries ago, and over time settled most of its more than forty islands.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "8" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Changing times",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "20" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "After the First Company changed the Pantheon, many trappers were left without work, and some cause enough trouble that the Eelakin police often take them into custody.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "20" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Navigators",
+          "revealedIn": [
+            { "book": "isles-of-the-emberdark", "chapter": "epilogue" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Some trappers who had proven themselves in the Pantheon and eaten luminist could feel the Grand Knell's Current and use it to steer through the Cognitive Realm, charting truer courses than a Seeker can; not every trapper has the gift.",
+          "revealedIn": [
+            { "book": "isles-of-the-emberdark", "chapter": "epilogue" }
+          ]
+        }
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "title": "Aviar",
+      "items": [
+        {
+          "text": "Breeding Aviar is a trapper's most vital skill. He raises the birds from chicks in nesting pairs at his safecamps, and though free to roam they keep coming back to their boxes. Catching wild chicks works far less well.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "8" }]
+        },
+        {
+          "text": "Aviar chicks, sold in the homeisles, are a trapper's only income. Long costly because so few trappers brave the Pantheon, chicks have grown cheaper even as demand rose, thanks largely to technology from the Ones Above, and trading firms, the Northern Interests Trading Company among them, have tried to set up in the Pantheon themselves despite trappers' warnings.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "10" }]
+        },
+        {
+          "text": "Unlike other people, a trapper can bond several Aviar. His companions lend him their talents and go nearly everywhere with him; one that hides his mind, as Kokerlii does, is almost essential among the Pantheon's mind-reading predators. Trappers know their companions' personalities well and can teach them tasks.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "12" }]
+        },
+        {
+          "text": "Only trappers understand where Aviar talents come from. They know of Patji's Eye but almost never go there, and keep the secret of talents and of Cakoban's fingers closely among themselves.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "18" }]
+        }
+      ],
+      "parts": []
+    },
+    {
+      "title": "Gear and safecamps",
+      "items": [
+        {
+          "text": "Early trappers had only wraps, sandals and simple weapons such as clubs. Modern ones carry sturdy clothes, steel machetes, packs and other gear for surviving, bought on trips to the homeisles, and since the Ones Above arrived some have taken up compasses, sea charts and diving masks.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "4" }]
+        },
+        {
+          "text": "Each keeps several safecamps around his island, heavily booby-trapped against rivals and intruders. Most are small, sealed treehouses with netted windows, lanterns, blankets and cooking gear, though insects still get in; some hold Aviar boxes.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "8" }]
+        }
+      ],
+      "parts": []
+    }
+  ],
+  "facts": [
+    {
+      "label": "Based in",
+      "name": "The Pantheon",
+      "placeId": "pantheon",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "2" }]
+    },
+    {
+      "label": "Trained on",
+      "name": "Sori",
+      "placeId": "sori",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "6" }]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "sixth-of-the-dusk",
+      "role": "trapper",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "1" }]
+    },
+    {
+      "characterId": "yaalani",
+      "role": "legendary trapper",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "8" }]
+    },
+    {
+      "characterId": "first-of-the-sky",
+      "role": "trapper",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "14" }]
+    }
+  ]
+}

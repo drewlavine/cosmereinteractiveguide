@@ -1,0 +1,58 @@
+{
+  "intro": [
+    {
+      "text": "A guide in Kezare who leads Khriss and her Darkside companions to Lonzare.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "5" }],
+      "fallback": true
+    },
+    {
+      "text": "A guide and translator from Lonzare, one of Loaten's best people, assigned to help Khriss during her stay in Kezare.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "6" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Khriss's guide",
+          "revealedIn": [
+            { "book": "white-sand-omnibus", "chapter": "6" },
+            { "book": "white-sand-omnibus", "chapter": "8" },
+            { "book": "white-sand-omnibus", "chapter": "14" },
+            { "book": "white-sand-omnibus", "chapter": "18" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "For a ten-lak fee N'Teese took Khriss to Loaten, who, to her annoyance, made her Khriss's guide and translator. She failed to set up meetings with seven of the Taishin, and the next day brought the group to the Diem to see Kenton.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "6" }]
+        },
+        {
+          "text": "After Kenton and Khriss quarrelled, she took the party back to Lonzare, then to meet Kenton at the Artisans' conference centre, and on to Lady Judge Heelis, who sent them to Nilto.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "8" }]
+        },
+        {
+          "text": "She moved into the Diem with Khriss and the professors and was sent to find Nilto to ask his help finding Baon. When word came that Nilto was leaving, she and Khriss caught him boarding a ship; after the fight on the docks she assured Khriss that Baon's wound was only a graze.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "14" }]
+        },
+        {
+          "text": "She came to the Diem to watch the duel and translated everything for Khriss.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "18" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Brown-eyed, with dark Kerztian skin and brown hair in a ponytail.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "5" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Calls herself half Darksider, half Kerztian and half Lossandin; arithmetic is not her strength.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "5" }]
+    }
+  ]
+}

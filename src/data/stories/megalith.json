@@ -1,0 +1,54 @@
+{
+  "intro": [
+    {
+      "text": "The great demon of Mountaincrest, which came eight centuries ago feeding on souls until the Prophet defeated it and left a sword in its heart.",
+      "revealedIn": [{ "book": "fires-of-december", "chapter": "x" }],
+      "fallback": true
+    },
+    {
+      "text": "The great demon of Mountaincrest, held for centuries by the Prophet's sword, until it is set loose in Kingseat.",
+      "revealedIn": [{ "book": "fires-of-december", "chapter": "xxxix" }],
+      "fallback": true
+    },
+    {
+      "text": "The great demon of Mountaincrest, set loose in Kingseat and then bonded by December, who reasons with it rather than trying to master it.",
+      "revealedIn": [{ "book": "fires-of-december", "chapter": "xlii" }],
+      "fallback": true
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The great demon",
+          "revealedIn": [
+            { "book": "fires-of-december", "chapter": "x" },
+            { "book": "fires-of-december", "chapter": "xl" },
+            { "book": "fires-of-december", "chapter": "xlii" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Some eight hundred years ago the Megalith appeared and devoured souls, driving people up into the mountains. Centuries on, the Prophet defeated it and left a sword in its heart, said to obey only his will and words.",
+          "revealedIn": [{ "book": "fires-of-december", "chapter": "x" }]
+        },
+        {
+          "text": "Freed through the river of blood in the palace, it gathered over the building amid fire and panic. Petva tried to bring it under her control and was killed.",
+          "revealedIn": [{ "book": "fires-of-december", "chapter": "xl" }]
+        },
+        {
+          "text": "December reasoned with it instead of trying to dominate it and showed it mercy; it stopped raging and bonded with her.",
+          "revealedIn": [{ "book": "fires-of-december", "chapter": "xlii" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "A giant, skeletal, humanoid body as large as a city, lying against a mountain with Kingseat built around it; its heart feeds the kingdom's rivers of blood.",
+      "revealedIn": ["fires-of-december"]
+    }
+  ],
+  "personality": []
+}

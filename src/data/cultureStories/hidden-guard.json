@@ -1,0 +1,105 @@
+{
+  "intro": [
+    {
+      "text": "An elite armed division of the Set, active in the Elendel Basin on Scadrial. Its soldiers wear red uniforms.",
+      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "29" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "It protects senior Set members like Telsin and Edwarn Ladrian, along with the Set's property and buildings. Its members number at least in the hundreds.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "bands-of-mourning", "chapter": "27" },
+            { "book": "lost-metal", "chapter": "61" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Its soldiers wear red uniforms with a mark on the breast, keep a clear chain of command and salute their superiors' orders. They are well drilled and carry modern rifles and even aluminum weapons. Besides infantry, it has scouts, mechanics and technicians who know the Metallic Arts.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "bands-of-mourning", "chapter": "29" },
+            { "book": "lost-metal", "chapter": "61" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "The Set's Allomancers sometimes back it up but take no orders from it. It is the Set's most elite force but not its only one: the Set also hires mercenaries for low-level guard duty.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "bands-of-mourning", "chapter": "29" },
+            { "book": "lost-metal", "chapter": "63" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Dulsing",
+          "revealedIn": [
+            { "book": "bands-of-mourning", "chapter": "20" },
+            { "book": "bands-of-mourning", "chapter": "29" }
+          ]
+        },
+        {
+          "text": "Dulsing and the Sovereign's temple",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "29" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Wax first saw its soldiers at the Set's compound in Dulsing, built around a wrecked ship. Many soldiers in red patrolled the warehouse, and they opened fire on Wax's group when the intruders were discovered.",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "20" }]
+        },
+        {
+          "text": "Telsin and Edwarn took some of its soldiers to the Sovereign's temple, where they examined the Hunter airship that had crashed there years before. Many were easily beaten when Marasi drew on the Bands of Mourning. A Guard technician who had helped restore the airship handed Edwarn a weight medallion for flying it.",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "29" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Bilming",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "63" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Under Telsin's command, many of its soldiers were posted in the Set's Bilming headquarters, Independence Tower. When Wax and Wayne stormed the building, the guards turned aluminum guns and other weapons on them to protect Telsin, but Wax, calling himself Harmony's Sword, beat them with only minor injuries.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "63" }]
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Commander",
+      "name": "Telsin Ladrian",
+      "characterId": "telsin-ladrian",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "63" }]
+    },
+    {
+      "label": "Headquarters",
+      "name": "Independence Tower",
+      "placeId": "independence-tower",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "63" }]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "telsin-ladrian",
+      "role": "commander",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "63" }]
+    }
+  ]
+}

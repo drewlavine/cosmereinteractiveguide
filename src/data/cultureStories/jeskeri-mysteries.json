@@ -1,0 +1,83 @@
+{
+  "intro": [
+    {
+      "text": "A religious cult of Sel known for the fervour of its followers.",
+      "revealedIn": [{ "book": "elantris", "chapter": "3" }]
+    },
+    {
+      "text": "A religious cult of Sel, tied to the Jesker faith, which Galladon dismisses as a parody of the true religion.",
+      "revealedIn": [{ "book": "elantris", "chapter": "16" }]
+    },
+    {
+      "text": "A religious cult of Sel whose rites include human sacrifice. It grew out of Jesker, though Galladon calls it a perversion with little real tie to that faith.",
+      "revealedIn": [{ "book": "elantris", "chapter": "32" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "When Hrathen first meets Dilaf, he finds the arteth's zeal more like that of a follower of the Mysteries than of a Derethi.",
+      "revealedIn": [{ "book": "elantris", "chapter": "3" }]
+    },
+    {
+      "text": "Hrathen remarks how quickly the Mysteries were expelled from the Duladel Republic.",
+      "revealedIn": [{ "book": "elantris", "chapter": "9" }]
+    },
+    {
+      "text": "Galladon grieves for his lost Jesker faith and dismisses the Mysteries as a parody of it.",
+      "revealedIn": [{ "book": "elantris", "chapter": "16" }]
+    },
+    {
+      "text": "Jesker gives weight to the movements of the heavens, and followers of the Mysteries often gather for their rites when the moon is full.",
+      "revealedIn": [{ "book": "elantris", "chapter": "33" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The king's sacrifices",
+          "revealedIn": [{ "book": "elantris", "chapter": "32" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Sarene trailed King Iadon from Roial's ball down into the sewers, where she found him and other worshippers killing a young woman in a Jeskeri sacrifice meant to call on the spirits to destroy her. Eondel arrived with guards to protect her, and Iadon was imprisoned.",
+          "revealedIn": [{ "book": "elantris", "chapter": "32" }]
+        },
+        {
+          "text": "She learned that Iadon had killed several female palace servants in such rites, asking the spirits to intervene for him.",
+          "revealedIn": [{ "book": "elantris", "chapter": "32" }]
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Offshoot of",
+      "name": "Jesker",
+      "revealedIn": [{ "book": "elantris", "chapter": "32" }]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "iadon",
+      "role": "follower",
+      "revealedIn": [{ "book": "elantris", "chapter": "32" }]
+    },
+    {
+      "characterId": "sarene",
+      "role": "discovers the rite",
+      "revealedIn": [{ "book": "elantris", "chapter": "32" }]
+    },
+    {
+      "characterId": "eondel",
+      "role": "protector",
+      "revealedIn": [{ "book": "elantris", "chapter": "32" }]
+    },
+    {
+      "characterId": "galladon",
+      "role": "critic",
+      "revealedIn": [{ "book": "elantris", "chapter": "16" }]
+    }
+  ]
+}

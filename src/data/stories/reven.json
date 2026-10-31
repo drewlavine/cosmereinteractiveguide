@@ -1,0 +1,26 @@
+{
+  "intro": [
+    {
+      "text": "The king of Seevis, one of the Rim Kingdoms.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "9" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Rim Kingdoms",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "9" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Raagent knew a mastrell had been in talks with one of the Rim Kingdoms. Suspecting that King Reven meant to hire the surviving sand masters, he tried to hire them himself first.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "9" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

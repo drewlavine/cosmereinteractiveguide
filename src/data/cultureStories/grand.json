@@ -1,0 +1,54 @@
+{
+  "intro": [
+    {
+      "text": "The people who rule the Rose Empire.",
+      "revealedIn": [{ "book": "emperors-soul", "chapter": "day-2" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Grands often live long, many still working into their nineties, and tend to have long fingers and features. The current fashion among them is robes or wraps in an ancient style, and the empire treats them with heavy favouritism.",
+      "revealedIn": [{ "book": "emperors-soul", "chapter": "day-42" }]
+    },
+    {
+      "text": "Grands deeply fear Forgery. They accept Rememberers, and resealers who heal, but see Forging a soul as an abomination; their tales cast Forgers as witches who stamp seals on people's feet to twist their minds, so few understand how it really works.",
+      "revealedIn": [{ "book": "emperors-soul", "chapter": "day-42" }]
+    },
+    {
+      "text": "Grands know little of the empire's other peoples. They value Strikers and promote them, yet still consider them lesser, and renamed them from Mulla'dil. They treat the MaiPon and the JinDo as one people, though the two split long ago.",
+      "revealedIn": [{ "book": "emperors-soul", "chapter": "day-76" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Government",
+          "revealedIn": [
+            { "book": "emperors-soul", "chapter": "day-42" },
+            "emperors-soul"
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Grands hold every important post in the government, nominally won by passing tests, though bribes and connections usually decide who is appointed. Officials wear robes coloured by rank, with blue and green for minor functionaries.",
+          "revealedIn": [{ "book": "emperors-soul", "chapter": "day-42" }]
+        },
+        {
+          "text": "Most Grands in government are members of one of the eighty factions (the Heritage and Glory Factions among them), each led by five arbiters. The emperor hands much of his work to the five arbiters of his own faction.",
+          "revealedIn": ["emperors-soul"]
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Rule",
+      "name": "Rose Empire",
+      "placeId": "rose-empire",
+      "revealedIn": [{ "book": "emperors-soul", "chapter": "day-2" }]
+    }
+  ],
+  "people": []
+}

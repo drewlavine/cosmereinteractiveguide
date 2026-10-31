@@ -1,0 +1,18 @@
+{
+  "intro": [
+    {
+      "text": "A beverage that Starling and the crew of her ship often drink.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "42" }]
+    }
+  ],
+  "description": [],
+  "history": [],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "illistandrista",
+      "role": "drinker",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "42" }]
+    }
+  ]
+}

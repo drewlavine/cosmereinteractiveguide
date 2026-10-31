@@ -1,0 +1,19 @@
+{
+  "intro": [
+    {
+      "text": "A language of the Emerald Sea, spoken on Diggen's Point and on a number of other islands in the Emerald and Sapphire Seas.",
+      "revealedIn": [{ "book": "tress", "chapter": "28" }]
+    }
+  ],
+  "description": [],
+  "history": [],
+  "facts": [
+    {
+      "label": "Spoken on",
+      "name": "Diggen's Point",
+      "placeId": "diggens-point",
+      "revealedIn": [{ "book": "tress", "chapter": "28" }]
+    }
+  ],
+  "people": []
+}

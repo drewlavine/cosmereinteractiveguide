@@ -1,0 +1,67 @@
+{
+  "intro": [
+    {
+      "text": "A monastery where Shin acolytes train under the Elsecaller Honorbearer.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "68" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Narrow-windowed corridors connect the great hall to shared sleeping rooms. Metal handles and stone floors accustom acolytes to materials other Shin avoid touching.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "66" }]
+    },
+    {
+      "text": "The monastery stands in Mokdown, a city on an island between two rivers. Its Honorbearer appoints officials in the city's government.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "73" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Szeth's training",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "68" },
+            { "book": "wind-and-truth", "chapter": "73" },
+            { "book": "wind-and-truth", "chapter": "102" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Pozen recruited Szeth as an acolyte and brought him to the monastery.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "68" }]
+        },
+        {
+          "text": "Szeth defeated the resident swordsmaster. Rather than remain in line for the Elsecaller Blade, he was sent on a pilgrimage to prepare for the Windrunner Blade.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "73" }]
+        },
+        {
+          "text": "After visiting the Voice, Szeth returned at night to confront Sivi about what he had seen.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "102" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The return to Shinovar",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "53" },
+            { "book": "wind-and-truth", "chapter": "66" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Pozen drew Szeth into Shadesmar and killed himself, leaving Szeth without an easy way back.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "53" }]
+        },
+        {
+          "text": "Szeth revisited the acolytes' rooms with Kaladin and Syl. Their search found that most of the shamans had been sent to the Bondsmith monastery.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "66" }]
+        }
+      ]
+    }
+  ]
+}

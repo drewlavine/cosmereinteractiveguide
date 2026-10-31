@@ -1,0 +1,23 @@
+{
+  "intro": [
+    {
+      "text": "A flowering tree of Sel with pink and white blossoms.",
+      "revealedIn": [{ "book": "elantris", "chapter": "32" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Duke Roial grows crosswood trees in his gardens, and Sarene finds them the most striking sight there.",
+      "revealedIn": [{ "book": "elantris", "chapter": "32" }]
+    }
+  ],
+  "history": [],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "roial",
+      "role": "grower",
+      "revealedIn": [{ "book": "elantris", "chapter": "32" }]
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "intro": [
+    {
+      "text": "Tress's mother on Diggen's Point, a kind, sensible and supportive woman.",
+      "revealedIn": [{ "book": "tress", "chapter": "5" }]
+    },
+    {
+      "text": "Tress's mother on Diggen's Point, who knits socks with her husband Lem to sell to sailors and is handy with a needle.",
+      "revealedIn": [{ "book": "tress", "chapter": "8" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Diggen's Point",
+          "revealedIn": [
+            { "book": "tress", "chapter": "6" },
+            { "book": "tress", "chapter": "8" },
+            { "book": "tress", "chapter": "epilogue" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Ulba used to go short so her children could eat more, and was painfully thin until Tress began doing the family's shopping and cooking. She called Tress's plan to rescue Charlie lunacy at first, but once Tress and Lem won her over she threw herself into helping, noting every ship that came and went and watching how outgoing cargo was searched.",
+          "revealedIn": [{ "book": "tress", "chapter": "6" }]
+        },
+        {
+          "text": "She took in a spare inspector's uniform so that it would fit Tress.",
+          "revealedIn": [{ "book": "tress", "chapter": "8" }]
+        },
+        {
+          "text": "When the king allowed the people of Diggen's Point to leave, Ulba sailed away with Tress on the Two Cups.",
+          "revealedIn": [{ "book": "tress", "chapter": "epilogue" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": [
+    {
+      "text": "Devoted to keeping her family safe, she is openly affectionate with Tress.",
+      "revealedIn": [{ "book": "tress", "chapter": "6" }]
+    }
+  ]
+}

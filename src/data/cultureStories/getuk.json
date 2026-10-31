@@ -1,0 +1,31 @@
+{
+  "intro": [
+    {
+      "text": "Footwear worn by Yumi and her attendants, who slip on their getuk when they step down from their wagon.",
+      "revealedIn": [{ "book": "yumi", "chapter": "2" }]
+    },
+    {
+      "text": "Heavy clogs of wood that the Torish wear to lift their feet some six inches clear of the hot ground.",
+      "revealedIn": [{ "book": "yumi", "chapter": "23" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Getuk come in several designs, among them a fashionable high-heeled style, and take practice to walk in. They slip on and off easily and are normally left outside the home. Their clatter on stone warns of anyone approaching, and a person bowing may rest a knee on one to kneel.",
+      "revealedIn": [{ "book": "yumi", "chapter": "23" }]
+    },
+    {
+      "text": "They block much of the heat but not all of it, so they help less in hotter places; out in the searing barrens the ground can even make the wood catch fire.",
+      "revealedIn": [{ "book": "yumi", "chapter": "23" }]
+    }
+  ],
+  "history": [],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "yumi",
+      "role": "wearer",
+      "revealedIn": [{ "book": "yumi", "chapter": "2" }]
+    }
+  ]
+}

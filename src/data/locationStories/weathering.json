@@ -1,0 +1,64 @@
+{
+  "intro": [
+    {
+      "text": "A remote town in the Northern Roughs.",
+      "revealedIn": ["alloy-of-law"]
+    },
+    {
+      "text": "A remote town on a flat grassland plain, at the western end of the railway line in the Northern Roughs.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "shadows-of-self", "chapter": "prologue" },
+            { "book": "bands-of-mourning", "chapter": "1" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "Dusty homes and shops line its dirt roads, and its Survivorist chapel is a plain wooden one. The town is rural enough that wild animals graze just beyond its edge.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "shadows-of-self", "chapter": "prologue" },
+            { "book": "bands-of-mourning", "chapter": "1" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Wax's years as lawman",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "alloy-of-law", "chapter": "4" },
+                { "book": "shadows-of-self", "chapter": "prologue" },
+                { "book": "bands-of-mourning", "chapter": "17" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "When Waxillium Ladrian and Wayne arrived, the outlaw Granite Joe ran half the town from its saloon. After Lessie killed Joe, Wax made Weathering his first step in taming the Roughs, keeping the law for six years before he got official credentials. The town of about 1,500 grew fast once a railway reached it. When Wax left for Elendel, Wayne kept order, and after Wayne left too, the job fell to Barl, whom Wax called a miscreant.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "alloy-of-law", "chapter": "4" },
+                { "book": "shadows-of-self", "chapter": "prologue" },
+                { "book": "bands-of-mourning", "chapter": "17" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

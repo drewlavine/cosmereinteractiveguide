@@ -1,0 +1,54 @@
+{
+  "intro": [
+    {
+      "text": "A killer in the Roughs and a mortician by trade, hunted by Wax and Lessie for the bounty on his head.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "prologue" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Feltrel",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "prologue" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "In 341 PC Tan killed at least eight people from a hiding place in the ghost town of Feltrel that proved very hard to find. When Feltrel's few remaining residents vanished, Wax, Lessie, Wayne and Barl went to search there, and so did the outlaw Donal, who had a grudge against Tan.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "prologue" }]
+        },
+        {
+          "text": "Wax found Tan's hideout, a tunnel where his mummified victims were posed and lit like exhibits. In a ruined chapel of the Survivor beyond it, Tan had shot, bound and gagged Lessie. When Wax fired at him, Tan yanked Lessie into the path of the bullet, killing her, and Wax shot Tan in the head.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "prologue" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Slender, with thinning, greased-back black hair, long thin fingers and a drawn, almost skeletal face. He usually wears fine suits.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "alloy-of-law", "chapter": "prologue" },
+            { "book": "shadows-of-self", "chapter": "2" }
+          ]
+        }
+      ]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Wax thinks him a psychopath. Believing that everyone is a puppet moved by some outside force, he places no value on human life, yet he is soft-spoken, with a mournful voice.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "alloy-of-law", "chapter": "prologue" },
+            { "book": "shadows-of-self", "chapter": "10" }
+          ]
+        }
+      ]
+    }
+  ]
+}

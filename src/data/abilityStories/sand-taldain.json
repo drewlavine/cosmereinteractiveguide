@@ -1,0 +1,113 @@
+{
+  "intro": [
+    {
+      "text": "White sand, which sand masters move about in ribbons.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "5" }]
+    },
+    {
+      "text": "Sand on Taldain comes in three forms: the white sand of Dayside that sand masters work, black sand that has been mastered or wetted, and plain tan sand found on both Dayside and Darkside.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "11" }]
+    },
+    {
+      "text": "Sand on Taldain: Dayside's white sand, whose whiteness comes from a microorganism that marks it as Invested; black sand that has gone stale; and ordinary tan sand.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "rhythm-of-war", "chapter": "63" },
+            { "book": "white-sand-omnibus", "chapter": "11" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "Sand masters work white sand as ribbons. The strongest can handle over two dozen at a time, and lifting oneself a storey off the ground takes at least three.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "5" }]
+    },
+    {
+      "text": "White sand becomes black once it has been mastered or touched by water. Sand that has passed through a sandling comes out a translucent tan, much like Darkside sand, because the creature digests the lichen-like film coating each grain.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "11" }]
+    },
+    {
+      "text": "In darkness, white sand touched by water flashes with light of every colour, matching the glow of mastered ribbons.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "11" }]
+    },
+    {
+      "text": "The white colour comes from a microorganism living on the grains, which shows the sand is Invested. In use the sand glows, yellowish-white in daylight but many-coloured in the dark, and then blackens; this is called going stale.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "rhythm-of-war", "chapter": "63" },
+            { "book": "white-sand-omnibus", "chapter": "11" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Black sand needs at least four hours under the Dayside sun to turn white again, which is why Khriss's party carried barrels of charged sand when they sailed for Darkside, hoping to find a way to recharge it there.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "epilogue" }]
+    }
+  ],
+  "history": [],
+  "mechanics": [
+    {
+      "title": [
+        {
+          "text": "Going stale",
+          "revealedIn": [
+            { "book": "white-sand-omnibus", "chapter": "10" },
+            { "book": "white-sand-omnibus", "chapter": "18" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "A ribbon hit from the side by another falls dead; when two ribbons collide head-on, both do.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "10" }]
+        },
+        {
+          "text": "Active mastered sand also goes stale when it touches another mastered ribbon or anything terken.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "18" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Sensing Investiture",
+          "revealedIn": [
+            { "book": "rhythm-of-war", "chapter": "102" },
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "67" },
+                { "book": "rhythm-of-war", "chapter": "104" },
+                { "book": "wind-and-truth", "chapter": "21" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Stale sand turns white again near Investiture, and how quickly it whitens shows how strong that Investiture is and whether it is being stored or used, so those across the cosmere who know of it prize it.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "102" }]
+        },
+        {
+          "text": "The change comes with kinetic Investiture. Spread over the ground, the sand can show where an unseen Invested being is, though it cannot single out one source in a strongly Invested place or among too many, and it ignores weak ones such as lesser spren.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "67" },
+                { "book": "rhythm-of-war", "chapter": "104" },
+                { "book": "wind-and-truth", "chapter": "21" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": []
+}

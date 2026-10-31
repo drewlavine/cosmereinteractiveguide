@@ -1,0 +1,123 @@
+{
+  "intro": [
+    {
+      "text": "The duke's son on Diggen's Point, who plays at being a groundskeeper whenever Tress climbs up to the mansion with a pie.",
+      "revealedIn": [{ "book": "tress", "chapter": "2" }]
+    },
+    {
+      "text": "The duke's son from Diggen's Point, taken away to be married off and then captured by the Sorceress.",
+      "revealedIn": [{ "book": "tress", "chapter": "5" }]
+    },
+    {
+      "text": "The duke's son from Diggen's Point, cursed by the Sorceress into the body of a rat, who has been travelling at Tress's side as Huck.",
+      "revealedIn": [{ "book": "tress", "chapter": "61" }]
+    },
+    {
+      "text": "The duke's son from Diggen's Point, free of his curse, who now sails with Tress aboard the Two Cups as valet, storyteller and musician.",
+      "revealedIn": [{ "book": "tress", "chapter": "epilogue" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Diggen's Point",
+          "revealedIn": [
+            { "book": "tress", "chapter": "2" },
+            { "book": "tress", "chapter": "4" },
+            { "book": "tress", "chapter": "5" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "When Tress brought pies up to the duke's mansion, Charlie would pose, never convincingly, as a groundskeeper. He amused her with his stories and odd ideas and wanted to hear everything about her day.",
+          "revealedIn": [{ "book": "tress", "chapter": "2" }]
+        },
+        {
+          "text": "His father, having seen him with Tress, carried him off to find a princess to marry. Charlie promised Tress he would bore every candidate into turning him down and send her a cup from each stop. Cups and letters arrived for months, then stopped.",
+          "revealedIn": [{ "book": "tress", "chapter": "4" }]
+        },
+        {
+          "text": "A year on, the duke came home with his nephew Dirk as his heir. Charlie's scheme had been discovered and he had been sent to the Midnight Sea, where the Sorceress took him; the duke called her ransom letter a trick.",
+          "revealedIn": [{ "book": "tress", "chapter": "5" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Under the curse",
+          "revealedIn": [{ "book": "tress", "chapter": "61" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "In the shape of a rat, Charlie stowed away on the Oot's Dream to get home, but was caught raiding its stores and caged in the hold, where Tress too ended up a prisoner. When pirates attacked the ship, she let him out. The curse turned his try at saying his name into \"Huck\", and she carried him over the spores to the Crow's Song.",
+          "revealedIn": [{ "book": "tress", "chapter": "61" }]
+        },
+        {
+          "text": "Riding on Tress's shoulder, he helped her dig out the crew's secrets: he saw Laggart hiding cannonballs and spied on a private talk between Laggart and Crow, which he insisted on acting out for her. Crow got a cat to deal with him, and it terrified him. He pressed Tress to abandon the ship but stayed when she chose the crew.",
+          "revealedIn": [{ "book": "tress", "chapter": "61" }]
+        },
+        {
+          "text": "When Tress decided he was an ordinary rat the Sorceress had given power to, he denied it, and found a gap in his curse that let him explain how her curses worked. Another time he cut Tress free of the midnight essence before it drained her, then dragged her waterskin over with his teeth.",
+          "revealedIn": [{ "book": "tress", "chapter": "61" }]
+        },
+        {
+          "text": "On the Crimson Sea he tried to scare Tress off with tales of the Sorceress's trials, claiming port rats had told him. Once she was captain, the officers adored him, and he said he knew a way into the tower; then he had Hoid dump food stores overboard to halt the voyage, and Tress shut him in a cage.",
+          "revealedIn": [{ "book": "tress", "chapter": "61" }]
+        },
+        {
+          "text": "He begged to go with Tress into the Midnight Sea. There he told the midnight essence it could pass freely, and the creatures carried them both to the Sorceress's island, which convinced Tress that he served the Sorceress.",
+          "revealedIn": [{ "book": "tress", "chapter": "61" }]
+        },
+        {
+          "text": "At the top of the tower the Sorceress gave Tress an illusion of Charlie in exchange for two cups. The real Charlie left, hurt that she had not known him, but Tress saw through the copy and realised that Huck was Charlie. He wept that he had failed to protect her. The Sorceress then told them his curse could only be broken by her cursing Tress.",
+          "revealedIn": [{ "book": "tress", "chapter": "61" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The Sorceress's tower",
+          "revealedIn": [
+            { "book": "tress", "chapter": "64" },
+            { "book": "tress", "chapter": "epilogue" }
+          ]
+        },
+        {
+          "text": "Breaking the curse",
+          "revealedIn": [{ "book": "tress", "chapter": "epilogue" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "When the crew arrived, Charlie raced down to open the tower door for Hoid. Cornered by the Sorceress's cat, he hid inside Tress's pewter cup and let the cat bat it down the stairs. The door opened in time for Hoid to stop Tress being cursed, and the Sorceress left Lumar.",
+          "revealedIn": [{ "book": "tress", "chapter": "64" }]
+        },
+        {
+          "text": "His curse would only lift if he brought Tress to the Sorceress to be cursed herself. Hoid changed the terms so that he had to bring her home to be versed instead, and he managed it easily and became human again. He joined the crew of the Two Cups as valet, storyteller and musician.",
+          "revealedIn": [{ "book": "tress", "chapter": "epilogue" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "His soft, uncalloused hands and neat haircut give him away as the duke's son. He smiles a great deal.",
+      "revealedIn": [{ "book": "tress", "chapter": "56" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Genuine and endearing, and so protective of Tress that he would wreck her voyage rather than see her reach the Sorceress.",
+      "revealedIn": [{ "book": "tress", "chapter": "61" }]
+    },
+    {
+      "text": "Hoid rates him an excellent valet, a middling storyteller and musician, and a hopeless liar.",
+      "revealedIn": [{ "book": "tress", "chapter": "epilogue" }]
+    }
+  ]
+}

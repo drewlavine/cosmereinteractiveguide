@@ -1,0 +1,38 @@
+{
+  "intro": [
+    {
+      "text": "A fruit of Roshar that can be made into jam.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "39" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "The book Palates of Personality claims a taste for bluebar jam marks someone as thoughtful, reserved and mysterious.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "39" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Kabsal's gift",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "39" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "In 1173 Kabsal sent Shallan Davar some bread with bluebar jam, plus a note repeating what Palates of Personality says of those who like it.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "39" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "kabsal",
+      "role": "gave it",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "39" }]
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "intro": [
+    {
+      "text": "A rare Kerztian spice that hastens dehydration and can drive people to act rashly. In Dayside's dry desert it serves as a poison, and it hits sand masters hardest, since their power already drains their water.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "18" }]
+    }
+  ],
+  "description": [],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Poisonings in the Diem",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "18" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "The spice explains why the Kerztians dared strike so large a gathering of sand masters in the Kerla: it left the Diem badly weakened, and almost every member who fought was killed or died of overmastery.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "18" }]
+        },
+        {
+          "text": "Before Drile and Kenton's duel, Elorin dosed the water bowls of both men. Kenton's eyes were already drying after the first exchange of sand, and Drile dried out unusually fast too, starting to overburn once Kenton began to fight back.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "18" }]
+        },
+        {
+          "text": "Afterwards the two mastrells reasoned that someone had poisoned them, either to leave the Diem with a weak leader or in the hope that an overburn would hurt the watching Taishin and throw Lossand into turmoil. Drile had seen such weakness only once before, during the Kerla attack, when, he remembered, Elorin was the one passing out water.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "18" }]
+        },
+        {
+          "text": "Confronted by Kenton, Elorin admitted to being a traitor and described how he had carried out the poisonings, then attacked with his zinkall and was killed by a ribbon of sand.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "18" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "elorin",
+      "role": "poisoner",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "18" }]
+    },
+    {
+      "characterId": "kenton",
+      "role": "poisoned",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "18" }]
+    },
+    {
+      "characterId": "drile",
+      "role": "poisoned",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "18" }]
+    }
+  ]
+}

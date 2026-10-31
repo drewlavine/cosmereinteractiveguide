@@ -1,0 +1,103 @@
+{
+  "intro": [
+    {
+      "text": "The oldest generation of kandra, who raised the Second Generation and then stepped back from the day-to-day rule of the kandra.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "9" }]
+    },
+    {
+      "text": "The first kandra, all Feruchemists, who were once Rashek's friends, Alendi's ten packmen. They raised the next generation of kandra, then left most of the ruling to it.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "68" }]
+    }
+  ],
+  "description": [],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Under the Lord Ruler",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "11" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "The Firsts set down their promises to the Lord Ruler as the first kandra laws, then took them to him for his approval.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "11" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "After the Lord Ruler's death",
+          "revealedIn": [
+            { "book": "hero-of-ages", "chapter": "33" },
+            { "book": "hero-of-ages", "chapter": "62" },
+            { "book": "hero-of-ages", "chapter": "68" },
+            { "book": "hero-of-ages", "chapter": "71" },
+            { "book": "hero-of-ages", "chapter": "75" },
+            { "book": "hero-of-ages", "chapter": "78" },
+            { "book": "hero-of-ages", "chapter": "79" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "At his trial, TenSoon speaks over KanPaar to address the First Generation, telling them how things stand in the world and warning that they may need to call for the Resolution.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "33" }]
+        },
+        {
+          "text": "TenSoon tells Sazed what became of Rashek's fellow packmen: they were turned into mistwraiths and then into kandra, and they are the First Generation.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "62" }]
+        },
+        {
+          "text": "When Sazed comes to the Homeland, the First Generation appear, send every other kandra away and speak with him alone, calling him a Worldbringer.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "68" }]
+        },
+        {
+          "text": "The Firsts go through Sazed's notes with him, hunting for Ruin's changes, and Haddek teaches him about Ruin and Preservation and the kandra's true god.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "71" }]
+        },
+        {
+          "text": "Haddek explains the Resolution to Sazed: on the First Generation's order, every kandra must remove their Blessings. Just then KanPaar arrives with followers to depose the Firsts, and they are imprisoned.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "75" }]
+        },
+        {
+          "text": "TenSoon breaks Sazed and the First Generation out of their prison.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "78" }]
+        },
+        {
+          "text": "Once the Firsts have recovered, the other kandra begin to tremble, and Haddek cries out that the Resolution has come.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "79" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "haddek",
+      "role": "spokesman",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "71" }]
+    },
+    {
+      "characterId": "rashek",
+      "role": "fellow packman",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "68" }]
+    },
+    {
+      "characterId": "tensoon",
+      "role": "appealed to them",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "33" }]
+    },
+    {
+      "characterId": "kanpaar",
+      "role": "deposed them",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "75" }]
+    },
+    {
+      "characterId": "sazed",
+      "role": "Worldbringer",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "68" }]
+    }
+  ]
+}

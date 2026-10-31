@@ -1,0 +1,57 @@
+{
+  "intro": [
+    {
+      "text": "An island that Alethkar claimed by conquest.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "56" },
+            { "book": "oathbringer", "chapter": "52" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "One of the Reshi Isles, lying just north of Alethkar, which claimed it by conquest.",
+      "revealedIn": [
+        { "all": [{ "book": "way-of-kings", "chapter": "56" }, "oathbringer"] }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "Akak is home to the zatalef, a kind of cephalopod.",
+      "revealedIn": ["oathbringer"]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Alethi conquest",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "56" },
+                { "book": "oathbringer", "chapter": "52" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Around 1155, Dalinar Kholin, then a general, fought and wiped out the Reshi of Akak and claimed the island for Alethkar.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "56" },
+                { "book": "oathbringer", "chapter": "52" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

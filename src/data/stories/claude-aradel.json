@@ -1,0 +1,82 @@
+{
+  "intro": [
+    {
+      "text": "Elendel's Constable-General, an older man who would rather run investigations himself than see to his paperwork.",
+      "revealedIn": [{ "book": "shadows-of-self", "chapter": "4" }]
+    },
+    {
+      "text": "Governor of Elendel, a former Constable-General who took office after Replar Innate's fall; he is the first commoner to lead since before the Lord Ruler's time.",
+      "revealedIn": [{ "book": "shadows-of-self", "chapter": "epilogue" }]
+    },
+    {
+      "text": "A former governor of Elendel, who stepped down in 346 PC and was succeeded by Varlance.",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "2" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Constable-General",
+          "revealedIn": [
+            { "book": "shadows-of-self", "chapter": "4" },
+            { "book": "shadows-of-self", "chapter": "12" },
+            { "book": "shadows-of-self", "chapter": "26" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Aradel looked into the massacre at Winsting Innate's mansion alongside Wax, confirming that many of the dead were notable criminals.",
+          "revealedIn": [{ "book": "shadows-of-self", "chapter": "4" }]
+        },
+        {
+          "text": "At the Church of the Survivor, Aradel had Marasi question the witnesses rather than Reddi, and listened to her idea that the murders and unrest were all Bleeder's doing. He resented Wax for doing as he pleased while others cleaned up after him.",
+          "revealedIn": [{ "book": "shadows-of-self", "chapter": "12" }]
+        },
+        {
+          "text": "With Elendel close to revolt, Replar Innate declared martial law and named Aradel Lord High Constable. After the kandra Paalm was found to have taken Innate's place, MeLaan stood in for him to calm the crowd; when she faltered, Aradel arrested the impostor for corruption and settled the crowd by promising to arrest other corrupt nobles.",
+          "revealedIn": [{ "book": "shadows-of-self", "chapter": "26" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Governor of Elendel",
+          "revealedIn": [
+            { "book": "shadows-of-self", "chapter": "epilogue" },
+            { "book": "bands-of-mourning", "chapter": "epilogue" },
+            { "book": "lost-metal", "chapter": "2" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "After Innate's downfall and death, Aradel reluctantly took the governorship, the first non-noble to lead since before the Lord Ruler.",
+          "revealedIn": [{ "book": "shadows-of-self", "chapter": "epilogue" }]
+        },
+        {
+          "text": "Criticized heavily after the events in New Seran, Aradel began preparing for war with the Outer Cities.",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "epilogue" }]
+        },
+        {
+          "text": "In 346 PC Aradel stepped down, and Varlance replaced him as governor.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "2" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "An older man, likely in his late sixties though no one knows his exact age, with leathery skin; he shaves when he feels like it.",
+      "revealedIn": [{ "book": "shadows-of-self", "chapter": "4" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "A keen constable, he tends to let his administrative duties gather dust while he leads investigations and daily operations in person.",
+      "revealedIn": [{ "book": "shadows-of-self", "chapter": "4" }]
+    }
+  ]
+}

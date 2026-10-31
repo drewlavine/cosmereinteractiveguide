@@ -1,0 +1,48 @@
+{
+  "intro": [
+    {
+      "text": "The traditional Alethi style of wrestling, perhaps the only one commonly practised there, since to the Alethi \"wrestling\" usually means vehah.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "16" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Wrestlers wear only sparring leggings, and grabbing an opponent's hair or leggings is forbidden. A match begins standing but ends up on the ground, so controlling how it gets there is an advantage.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "16" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Dalinar's match",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "16" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "After the Alethi moved to Urithiru, Dalinar, wanting a physical challenge, wrestled Aratin Khal, who had gone months without losing. Out of practice, Dalinar was pinned; he briefly thought of reaching for the Thrill or Stormlight but held back. He seemed close to breaking free when Navani interrupted. Dalinar granted Aratin the win, but quietly told Navani he had almost had him.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "16" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "dalinar-kholin",
+      "role": "wrestler",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "16" }]
+    },
+    {
+      "characterId": "aratin-khal",
+      "role": "wrestler",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "16" }]
+    },
+    {
+      "characterId": "navani-kholin",
+      "role": "interrupted",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "16" }]
+    }
+  ]
+}

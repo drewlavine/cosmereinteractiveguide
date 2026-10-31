@@ -1,0 +1,37 @@
+{
+  "intro": [
+    {
+      "text": "A two-player card game of war, played in Alethkar.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "14" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Players put cards into play from the barrack, which works much like a hand. Cards can capture and be captured, depending on their ranks: squires cannot capture without an allied card's support, while a king can take any card but another king and can be taken only by three cards of knight rank or higher acting together. Losing the king loses the game, so playing it is a gamble. Many moves need the cards to be touching.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "17" }]
+    },
+    {
+      "text": "Khen and Sah play it, as did some of their former masters, and Kaladin has played it too. Sah's lacquered wooden deck is of Herdazian make; cheaper cards exist, but they warp in the rain.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "17" }]
+    }
+  ],
+  "history": [],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "khen",
+      "role": "player",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "17" }]
+    },
+    {
+      "characterId": "sah",
+      "role": "player",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "17" }]
+    },
+    {
+      "characterId": "kaladin",
+      "role": "player",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "17" }]
+    }
+  ]
+}

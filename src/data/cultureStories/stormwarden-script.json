@@ -1,0 +1,40 @@
+{
+  "intro": [
+    {
+      "text": "Stormwarden script is a writing system used on Roshar by stormwardens, the scholars who forecast highstorms.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "52" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Unlike women's script, which is an alphabet, it is partly logographic and partly a syllabary. Glyphs, each standing for a word and used singly or in groups of up to three, are chained together into sentences, usually drawn plainly without proper calligraphy.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "52" }]
+    },
+    {
+      "text": "Words with no glyph of their own are spelled with glyphs chosen for their sounds, which are underlined to mark them; Parshendi, for example, is written with parap, shenesh and idi.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "52" }]
+    },
+    {
+      "text": "Stormwardens are mostly or entirely men, and Vorin custom in eastern Roshar forbids men to write. Men may use glyphs, though, so the stormwardens built their own script out of them.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "60" },
+            { "book": "words-of-radiance", "chapter": "52" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "People know stormwardens use glyphs heavily, but the sound-based use seems to be kept quiet, since some Vorins would call it reading rather than interpreting, which the church would treat as taboo.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "52" }]
+    },
+    {
+      "text": "Lands outside Vorinism have stormwardens of their own, but the rule against men writing does not hold there.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "96" }]
+    }
+  ],
+  "history": [],
+  "facts": [],
+  "people": []
+}

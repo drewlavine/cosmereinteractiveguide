@@ -1,0 +1,102 @@
+{
+  "intro": [
+    {
+      "text": "One of Dusk's Aviar, whose absence troubles Dusk and Sak.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "1" }],
+      "fallback": true
+    },
+    {
+      "text": "An Aviar who travels with the trapper Sixth of the Dusk on Patji, his talent hiding the minds around him from the island's predators.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "2" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "With Dusk on Patji",
+          "revealedIn": [
+            { "book": "isles-of-the-emberdark", "chapter": "14" },
+            { "book": "isles-of-the-emberdark", "chapter": "2" },
+            { "book": "isles-of-the-emberdark", "chapter": "16" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Dusk bred Aviar and most likely raised Kokerlii himself. The bird had a nesting box at Dusk's safecamp, and as other trappers prized his talent, Dusk took him everywhere.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "14" }]
+        },
+        {
+          "text": "Five years before, Kokerlii rode at the front of Dusk's boat on the way to Patji, and his talent hid them from a great shape that swam close beneath the waves.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "2" }]
+        },
+        {
+          "text": "On a perilous night walk through the jungle with Dusk and Vathi, Dusk thought he would have to give himself up to a nightmaw and tried to hand Kokerlii to Vathi, but they found another way and the bird stayed with him.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "16" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Afterwards",
+          "revealedIn": [
+            { "book": "isles-of-the-emberdark", "chapter": "7" },
+            { "book": "isles-of-the-emberdark", "chapter": "15" },
+            { "book": "isles-of-the-emberdark", "chapter": "24" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "In the years that followed, a plague swept through the Aviar and killed many of them, Kokerlii among them, until medicine from the Ones Above ended it within weeks.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "7" }]
+        },
+        {
+          "text": "When Vathi offered Dusk an Aviar of Kokerlii's breed for his journey, he turned her down at first, not ready to replace his old companion.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "15" }]
+        },
+        {
+          "text": "Dusk and Rokke came to grieve together, he for Kokerlii and she for the trapper she had lost.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "24" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Bright red and green feathers; about three fists tall, the usual size for an Aviar.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "8" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Cheerful and chirpy, a bird Dusk calls oblivious. Like Aviar raised by people, he stays close to his master and would not fit in among wild Aviar.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "8" }]
+    }
+  ],
+  "abilities": [
+    {
+      "title": [
+        {
+          "text": "Talent",
+          "revealedIn": [
+            { "book": "isles-of-the-emberdark", "chapter": "16" },
+            { "book": "isles-of-the-emberdark", "chapter": "32" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "He gained his talent visiting Patji's Eye as a chick: he hides all thought around him from predators that hunt by sensing minds, though the effect fades as he moves away.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "16" }]
+        },
+        {
+          "text": "Dusk never clipped his wings and trained him to come back at a whistle.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "32" }]
+        }
+      ]
+    }
+  ]
+}

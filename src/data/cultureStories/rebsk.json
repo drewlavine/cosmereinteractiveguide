@@ -1,0 +1,73 @@
+{
+  "intro": [
+    {
+      "text": "A term from Thaylen merchant ships for a ship's master or owner, capitalized when used as a title.",
+      "revealedIn": [{ "book": "dawnshard", "chapter": "4" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "A rebsk owns the ship on paper, but winning the crew's respect is another matter. The title sets the rebsk apart, and crews often find their rebsk \"more unapproachable than an officer.\" A rebsk who clashes with the captain before earning that respect can upset the balance of power aboard.",
+      "revealedIn": [{ "book": "dawnshard", "chapter": "5" }]
+    },
+    {
+      "text": "A rebsk hangs a captain's cord in their own colors to show their place. When the rebsk is aboard, the captain welcomes them and asks for their sign that the voyage may begin. The captain runs the ship but defers to the rebsk on the route and on trips ashore, keeps them told of any trouble, and accepts that the rebsk may give orders about the crew.",
+      "revealedIn": [{ "book": "dawnshard", "chapter": "epilogue" }]
+    },
+    {
+      "text": "By tradition a respected rebsk may start a voyage with a turn at the helm, though they do not otherwise sail the ship. The captain offers this only once the rebsk has earned the crew's esteem, which can take years.",
+      "revealedIn": [{ "book": "dawnshard", "chapter": "epilogue" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Known rebsk",
+          "revealedIn": [
+            { "book": "dawnshard", "chapter": "4" },
+            { "book": "dawnshard", "chapter": "epilogue" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "As a trading merchant, Vstim was rebsk of several ships.",
+          "revealedIn": [{ "book": "dawnshard", "chapter": "4" }]
+        },
+        {
+          "text": "Vstim gave the Wandersail to Rysn, making her its rebsk. She found out that Captain Drlwan had counted on getting the ship herself, and suspected the crew resented Rysn for it.",
+          "revealedIn": [{ "book": "dawnshard", "chapter": "4" }]
+        },
+        {
+          "text": "When the voyage to Akinah was over, Drlwan thanked Rysn for standing by the crew and asked her to take the helm at the start of their next expedition, a sign that Rysn had earned their respect as rebsk.",
+          "revealedIn": [{ "book": "dawnshard", "chapter": "epilogue" }]
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Origin",
+      "name": "Thaylen merchant ships",
+      "revealedIn": [{ "book": "dawnshard", "chapter": "4" }]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "vstim",
+      "role": "rebsk",
+      "revealedIn": [{ "book": "dawnshard", "chapter": "4" }]
+    },
+    {
+      "characterId": "rysn-ftori",
+      "role": "rebsk",
+      "revealedIn": [{ "book": "dawnshard", "chapter": "4" }]
+    },
+    {
+      "characterId": "drlwan",
+      "role": "captain",
+      "revealedIn": [{ "book": "dawnshard", "chapter": "4" }]
+    }
+  ]
+}

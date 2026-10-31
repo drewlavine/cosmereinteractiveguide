@@ -21,6 +21,10 @@
           ]
         }
       ]
+    },
+    {
+      "text": "A Makabaki kingdom that left the Azish Empire to join Odium's forces.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "126" }]
     }
   ],
   "description": [
@@ -114,6 +118,20 @@
         {
           "text": "The next year, the coalition's war in Emul stalled, with skirmishes and attacks by the Skybreakers, until the coalition agreed to push in and defeat the singers, and succeeded.",
           "revealedIn": [{ "book": "rhythm-of-war", "chapter": "112" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "A new allegiance",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "126" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Emul seceded from the Azish Empire alongside Tashikk and joined Odium, despite the coalition's recent campaign to defend it.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "126" }]
         }
       ]
     }

@@ -1,0 +1,36 @@
+{
+  "intro": [
+    {
+      "text": "A place on Roshar with a merchant who sold fine drawing supplies.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "19" }]
+    },
+    {
+      "text": "A city in northeastern Jah Keved, on a bay off the eastern Reshi Sea close to Herdaz, and northern Jah Keved's largest city.",
+      "revealedIn": ["oathbringer"]
+    }
+  ],
+  "description": [],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Ties to House Davar",
+          "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "19" },
+            { "book": "words-of-radiance", "chapter": "47" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Helaran Davar ordered expensive drawing supplies for his sister Shallan from a Northgrip merchant, and they were delivered to the Davar estate.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "19" }]
+        },
+        {
+          "text": "After reaching the Shattered Plains, Shallan sent a letter to her family by way of Northgrip, hoping that its distance from the fighting of the Veden civil war would help the letter get through.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "47" }]
+        }
+      ]
+    }
+  ]
+}

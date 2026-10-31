@@ -1,0 +1,125 @@
+{
+  "intro": [
+    {
+      "text": "An order of monks whose bodies are twisted into warrior forms. They burst out of the merchants' tents in Kae's market.",
+      "revealedIn": [{ "book": "elantris", "chapter": "57" }]
+    },
+    {
+      "text": "A Fjordell magic, also called the Order of Bone, that reaches the Dor through chants and bones grown into new shapes. Its monks gain huge strength, near-unbreakable bones and speed, and can move whole groups in an instant at the cost of one life.",
+      "revealedIn": [{ "book": "elantris", "chapter": "62" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Dakhor has a particular tie to the land of Fjorden.",
+      "revealedIn": [{ "book": "elantris", "chapter": "58" }]
+    },
+    {
+      "text": "Its practitioners seemingly must be Fjordell. They chant, and the chants probably decide how each body changes and what kind of bone growths form.",
+      "revealedIn": [{ "book": "elantris", "chapter": "58" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The monks strike",
+          "revealedIn": [
+            { "book": "elantris", "chapter": "57" },
+            { "book": "elantris", "chapter": "58" },
+            { "book": "elantris", "chapter": "60" },
+            { "book": "elantris", "chapter": "62" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Dakhor monks in twisted warrior forms burst from the merchants' tents in Kae's market.",
+          "revealedIn": [{ "book": "elantris", "chapter": "57" }]
+        },
+        {
+          "text": "Dilaf proves to be one of the monks, and a gragdet, head of a monastery. Hrathen remembers his own short training at their monastery.",
+          "revealedIn": [{ "book": "elantris", "chapter": "58" }]
+        },
+        {
+          "text": "The monks travel to Teod in an instant with Dilaf and Hrathen, using one of their own as fuel.",
+          "revealedIn": [{ "book": "elantris", "chapter": "60" }]
+        },
+        {
+          "text": "Hrathen blocks Dilaf's attack with an arm strengthened by the monks' art, and uses it to stop him.",
+          "revealedIn": [{ "book": "elantris", "chapter": "62" }]
+        }
+      ]
+    }
+  ],
+  "mechanics": [
+    {
+      "title": [
+        {
+          "text": "Bones and chants",
+          "revealedIn": [
+            { "book": "elantris", "chapter": "60" },
+            {
+              "all": [
+                { "book": "elantris", "chapter": "63" },
+                { "book": "alloy-of-law", "chapter": "prologue" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Dilaf's arms look like knotted branches, the skin stretched tight over odd ridges of bone, with lines and curves twisting under it like veins.",
+          "revealedIn": [{ "book": "elantris", "chapter": "60" }]
+        },
+        {
+          "text": "A user's bones grow and twist into the shapes of ancient Fjordell characters, and those shapes decide which powers the user can reach. The bones look carved, as if metal had been slipped under the skin, yet the growth is slight enough for a robe to hide, and the shapes have their own beauty. They glow when a user teleports or calls on great strength.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "elantris", "chapter": "63" },
+                { "book": "alloy-of-law", "chapter": "prologue" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Powers and their price",
+          "revealedIn": [{ "book": "elantris", "chapter": "62" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Every user gains enormous strength, and the monks' bones are so hard that swords and axes barely harm them. Users can gain speed as well. Some powers need living sacrifices.",
+          "revealedIn": [{ "book": "elantris", "chapter": "62" }]
+        },
+        {
+          "text": "Teleporting costs more: one person's death, body and spirit, can carry a large group anywhere at once.",
+          "revealedIn": [{ "book": "elantris", "chapter": "62" }]
+        },
+        {
+          "text": "Dakhor can change how a person looks, even their race. It can cancel Aons drawn by Elantrians, though AonDor can cancel Dakhor in turn. Resistance to attacks from the Dor costs fifty deaths, so it is seldom granted. Users also live longer than other people.",
+          "revealedIn": [{ "book": "elantris", "chapter": "62" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "dilaf",
+      "role": "Dakhor monk",
+      "revealedIn": [{ "book": "elantris", "chapter": "58" }]
+    },
+    {
+      "characterId": "hrathen",
+      "role": "briefly trained",
+      "revealedIn": [{ "book": "elantris", "chapter": "58" }]
+    }
+  ]
+}

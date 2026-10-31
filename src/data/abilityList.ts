@@ -14,6 +14,16 @@ export const abilityList: ListedAbility[] = [
     name: 'Aether',
     kind: 'investiture',
     revealedIn: ['tress'],
+    kindRevealedIn: [
+      {
+        book: 'lost-metal',
+        chapter: '42',
+      },
+      {
+        book: 'tress',
+        chapter: '28',
+      },
+    ],
     books: [
       'way-of-kings',
       'oathbringer',
@@ -121,39 +131,6 @@ export const abilityList: ListedAbility[] = [
     coppermindPage: 'Aluminum',
   },
   {
-    id: 'aon',
-    name: 'Aon',
-    kind: 'power',
-    world: 'sel',
-    systems: [
-      {
-        id: 'aondor',
-        revealedIn: ['elantris'],
-      },
-    ],
-    shards: [
-      {
-        name: 'Devotion',
-        revealedIn: [
-          {
-            all: ['elantris', 'arcanum-unbounded'],
-          },
-        ],
-      },
-      {
-        name: 'Dominion',
-        revealedIn: [
-          {
-            all: ['elantris', 'arcanum-unbounded'],
-          },
-        ],
-      },
-    ],
-    revealedIn: ['elantris'],
-    books: ['elantris', 'emperors-soul'],
-    coppermindPage: 'Aon',
-  },
-  {
     id: 'aondor',
     name: 'AonDor',
     kind: 'system',
@@ -177,7 +154,14 @@ export const abilityList: ListedAbility[] = [
       },
     ],
     revealedIn: ['elantris'],
-    books: ['elantris'],
+    books: [
+      'elantris',
+      'secret-history',
+      'lost-metal',
+      'tress',
+      'wind-and-truth',
+      'isles-of-the-emberdark',
+    ],
     coppermindPage: 'AonDor',
   },
   {
@@ -190,42 +174,73 @@ export const abilityList: ListedAbility[] = [
         id: 'allomancy',
         revealedIn: [
           {
-            all: ['final-empire', 'well-of-ascension'],
+            all: [
+              {
+                book: 'final-empire',
+                chapter: '5',
+              },
+              {
+                book: 'final-empire',
+                chapter: '13',
+              },
+            ],
           },
         ],
       },
       {
         id: 'feruchemy',
-        revealedIn: ['final-empire'],
+        revealedIn: [
+          {
+            all: [
+              {
+                book: 'final-empire',
+                chapter: '5',
+              },
+              'final-empire',
+            ],
+          },
+        ],
       },
       {
         id: 'hemalurgy',
         revealedIn: [
           {
-            all: ['final-empire', 'hero-of-ages'],
+            all: [
+              {
+                book: 'final-empire',
+                chapter: '5',
+              },
+              'hero-of-ages',
+            ],
           },
         ],
       },
     ],
     shards: [
       {
-        name: 'Preservation',
-        revealedIn: [
-          {
-            all: ['final-empire', 'well-of-ascension', 'hero-of-ages'],
-          },
-        ],
-      },
-      {
         name: 'Ruin',
         revealedIn: [
           {
-            all: ['final-empire', 'hero-of-ages'],
+            all: [
+              {
+                book: 'final-empire',
+                chapter: '5',
+              },
+              {
+                book: 'hero-of-ages',
+                chapter: '78',
+              },
+            ],
           },
         ],
       },
     ],
-    revealedIn: ['final-empire'],
+    revealedIn: [
+      {
+        book: 'final-empire',
+        chapter: '5',
+      },
+    ],
     books: [
       'final-empire',
       'well-of-ascension',
@@ -264,9 +279,32 @@ export const abilityList: ListedAbility[] = [
           },
         ],
       },
+      {
+        name: 'Virtuosity',
+        revealedIn: [
+          {
+            all: [
+              'warbreaker',
+              {
+                book: 'yumi',
+                chapter: '39',
+              },
+            ],
+          },
+        ],
+      },
     ],
     revealedIn: ['warbreaker'],
-    books: ['warbreaker'],
+    books: [
+      'warbreaker',
+      'rhythm-of-war',
+      'lost-metal',
+      'tress',
+      'yumi',
+      'sunlit-man',
+      'isles-of-the-emberdark',
+      'fires-of-december',
+    ],
     coppermindPage: 'Awakening',
   },
   {
@@ -274,6 +312,68 @@ export const abilityList: ListedAbility[] = [
     name: 'Bands of Mourning',
     kind: 'item',
     world: 'scadrial',
+    systems: [
+      {
+        id: 'allomancy',
+        revealedIn: [
+          {
+            all: [
+              'shadows-of-self',
+              {
+                book: 'bands-of-mourning',
+                chapter: '29',
+              },
+            ],
+          },
+        ],
+      },
+      {
+        id: 'feruchemy',
+        revealedIn: [
+          {
+            all: [
+              'shadows-of-self',
+              {
+                book: 'bands-of-mourning',
+                chapter: '29',
+              },
+            ],
+          },
+        ],
+      },
+    ],
+    shards: [
+      {
+        name: 'Preservation',
+        revealedIn: [
+          {
+            all: [
+              'shadows-of-self',
+              {
+                book: 'bands-of-mourning',
+                chapter: '29',
+              },
+              'hero-of-ages',
+            ],
+          },
+        ],
+      },
+      {
+        name: 'Ruin',
+        revealedIn: [
+          {
+            all: [
+              'shadows-of-self',
+              {
+                book: 'bands-of-mourning',
+                chapter: '29',
+              },
+              'hero-of-ages',
+            ],
+          },
+        ],
+      },
+    ],
     revealedIn: ['shadows-of-self'],
     books: ['shadows-of-self', 'bands-of-mourning', 'lost-metal'],
     coppermindPage: 'Bands of Mourning',
@@ -375,13 +475,24 @@ export const abilityList: ListedAbility[] = [
     systems: [
       {
         id: 'allomancy',
-        revealedIn: ['well-of-ascension'],
+        revealedIn: [
+          {
+            book: 'final-empire',
+            chapter: '18',
+          },
+        ],
       },
       {
         id: 'feruchemy',
         revealedIn: [
           {
-            all: ['well-of-ascension', 'alloy-of-law'],
+            all: [
+              {
+                book: 'final-empire',
+                chapter: '18',
+              },
+              'alloy-of-law',
+            ],
           },
         ],
       },
@@ -391,7 +502,13 @@ export const abilityList: ListedAbility[] = [
         name: 'Preservation',
         revealedIn: [
           {
-            all: ['well-of-ascension', 'hero-of-ages'],
+            all: [
+              {
+                book: 'final-empire',
+                chapter: '18',
+              },
+              'hero-of-ages',
+            ],
           },
         ],
       },
@@ -399,12 +516,24 @@ export const abilityList: ListedAbility[] = [
         name: 'Ruin',
         revealedIn: [
           {
-            all: ['well-of-ascension', 'alloy-of-law', 'hero-of-ages'],
+            all: [
+              {
+                book: 'final-empire',
+                chapter: '18',
+              },
+              'alloy-of-law',
+              'hero-of-ages',
+            ],
           },
         ],
       },
     ],
-    revealedIn: ['well-of-ascension'],
+    revealedIn: [
+      {
+        book: 'final-empire',
+        chapter: '18',
+      },
+    ],
     books: [
       'well-of-ascension',
       'hero-of-ages',
@@ -616,7 +745,7 @@ export const abilityList: ListedAbility[] = [
   {
     id: 'command',
     name: 'Command',
-    kind: 'power',
+    kind: 'concept',
     revealedIn: ['warbreaker'],
     books: [
       'warbreaker',
@@ -630,19 +759,19 @@ export const abilityList: ListedAbility[] = [
   {
     id: 'compounding',
     name: 'Compounding',
-    kind: 'power',
+    kind: 'concept',
     world: 'scadrial',
     systems: [
-      {
-        id: 'metallic-arts',
-        revealedIn: ['hero-of-ages'],
-      },
       {
         id: 'allomancy',
         revealedIn: ['hero-of-ages'],
       },
       {
         id: 'feruchemy',
+        revealedIn: ['hero-of-ages'],
+      },
+      {
+        id: 'metallic-arts',
         revealedIn: ['hero-of-ages'],
       },
     ],
@@ -826,11 +955,11 @@ export const abilityList: ListedAbility[] = [
     world: 'sel',
     systems: [
       {
-        id: 'bloodsealing',
+        id: 'aondor',
         revealedIn: ['elantris'],
       },
       {
-        id: 'aondor',
+        id: 'bloodsealing',
         revealedIn: ['elantris'],
       },
       {
@@ -857,7 +986,7 @@ export const abilityList: ListedAbility[] = [
       },
     ],
     revealedIn: ['elantris'],
-    books: ['elantris'],
+    books: ['elantris', 'secret-history', 'lost-metal', 'sunlit-man'],
     coppermindPage: 'Dor',
   },
   {
@@ -1012,7 +1141,7 @@ export const abilityList: ListedAbility[] = [
   {
     id: 'essence-mark',
     name: 'Essence Mark',
-    kind: 'power',
+    kind: 'item',
     world: 'sel',
     systems: [
       {
@@ -1039,7 +1168,7 @@ export const abilityList: ListedAbility[] = [
       },
     ],
     revealedIn: ['emperors-soul'],
-    books: ['emperors-soul'],
+    books: ['emperors-soul', 'lost-metal'],
     coppermindPage: 'Essence Mark',
   },
   {
@@ -1054,9 +1183,55 @@ export const abilityList: ListedAbility[] = [
   {
     id: 'excisor',
     name: 'Excisor',
-    kind: 'user',
+    kind: 'item',
     world: 'scadrial',
-    revealedIn: ['bands-of-mourning'],
+    systems: [
+      {
+        id: 'feruchemy',
+        revealedIn: [
+          {
+            book: 'bands-of-mourning',
+            chapter: '21',
+          },
+        ],
+      },
+    ],
+    shards: [
+      {
+        name: 'Preservation',
+        revealedIn: [
+          {
+            all: [
+              {
+                book: 'bands-of-mourning',
+                chapter: '21',
+              },
+              'hero-of-ages',
+            ],
+          },
+        ],
+      },
+      {
+        name: 'Ruin',
+        revealedIn: [
+          {
+            all: [
+              {
+                book: 'bands-of-mourning',
+                chapter: '21',
+              },
+              'hero-of-ages',
+            ],
+          },
+        ],
+      },
+    ],
+    revealedIn: [
+      {
+        book: 'bands-of-mourning',
+        chapter: '21',
+      },
+    ],
     books: ['bands-of-mourning', 'lost-metal'],
     coppermindPage: 'Excisor',
   },
@@ -1085,16 +1260,6 @@ export const abilityList: ListedAbility[] = [
       {
         id: 'awakening',
         revealedIn: ['yumi'],
-      },
-    ],
-    shards: [
-      {
-        name: 'Endowment',
-        revealedIn: [
-          {
-            all: ['yumi', 'arcanum-unbounded'],
-          },
-        ],
       },
     ],
     revealedIn: ['yumi'],
@@ -1161,13 +1326,13 @@ export const abilityList: ListedAbility[] = [
       },
     ],
     revealedIn: ['emperors-soul'],
-    books: ['emperors-soul'],
+    books: ['emperors-soul', 'lost-metal'],
     coppermindPage: 'Forgery',
   },
   {
     id: 'fortune',
     name: 'Fortune',
-    kind: 'power',
+    kind: 'concept',
     revealedIn: ['bands-of-mourning'],
     books: [
       'bands-of-mourning',
@@ -1187,24 +1352,6 @@ export const abilityList: ListedAbility[] = [
       {
         id: 'surgebinding',
         revealedIn: ['oathbringer'],
-      },
-    ],
-    shards: [
-      {
-        name: 'Cultivation',
-        revealedIn: [
-          {
-            all: ['oathbringer', 'arcanum-unbounded'],
-          },
-        ],
-      },
-      {
-        name: 'Honor',
-        revealedIn: [
-          {
-            all: ['oathbringer', 'arcanum-unbounded'],
-          },
-        ],
       },
     ],
     revealedIn: ['oathbringer'],
@@ -1235,7 +1382,7 @@ export const abilityList: ListedAbility[] = [
   {
     id: 'godsflame',
     name: 'Godsflame',
-    kind: 'item',
+    kind: 'investiture',
     revealedIn: ['wind-and-truth'],
     books: ['wind-and-truth'],
     coppermindPage: 'Godsflame',
@@ -1343,7 +1490,7 @@ export const abilityList: ListedAbility[] = [
   {
     id: 'heightening',
     name: 'Heightening',
-    kind: 'power',
+    kind: 'concept',
     world: 'nalthis',
     systems: [
       {
@@ -1434,14 +1581,6 @@ export const abilityList: ListedAbility[] = [
     ],
     shards: [
       {
-        name: 'Cultivation',
-        revealedIn: [
-          {
-            all: ['way-of-kings', 'words-of-radiance', 'arcanum-unbounded'],
-          },
-        ],
-      },
-      {
         name: 'Honor',
         revealedIn: [
           {
@@ -1464,7 +1603,7 @@ export const abilityList: ListedAbility[] = [
   {
     id: 'hion',
     name: 'Hion',
-    kind: 'power',
+    kind: 'investiture',
     world: 'komashi',
     revealedIn: ['yumi'],
     books: ['yumi'],
@@ -1475,6 +1614,39 @@ export const abilityList: ListedAbility[] = [
     name: 'Honorblade',
     kind: 'item',
     world: 'roshar',
+    systems: [
+      {
+        id: 'surgebinding',
+        revealedIn: [
+          {
+            all: [
+              'words-of-radiance',
+              {
+                book: 'words-of-radiance',
+                chapter: '87',
+              },
+            ],
+          },
+        ],
+      },
+    ],
+    shards: [
+      {
+        name: 'Honor',
+        revealedIn: [
+          {
+            all: [
+              'words-of-radiance',
+              {
+                book: 'words-of-radiance',
+                chapter: '87',
+              },
+              'arcanum-unbounded',
+            ],
+          },
+        ],
+      },
+    ],
     revealedIn: ['words-of-radiance'],
     books: [
       'way-of-kings',
@@ -1488,7 +1660,7 @@ export const abilityList: ListedAbility[] = [
   {
     id: 'ichor-alcohol',
     name: 'Ichor-alcohol',
-    kind: 'investiture',
+    kind: 'item',
     world: 'nalthis',
     systems: [
       {
@@ -1529,7 +1701,7 @@ export const abilityList: ListedAbility[] = [
   {
     id: 'initiation',
     name: 'Initiation',
-    kind: 'system',
+    kind: 'concept',
     revealedIn: ['elantris'],
     books: [
       'elantris',
@@ -1715,6 +1887,54 @@ export const abilityList: ListedAbility[] = [
     name: 'Knights Radiant',
     kind: 'order',
     world: 'roshar',
+    systems: [
+      {
+        id: 'surgebinding',
+        revealedIn: [
+          {
+            all: [
+              'way-of-kings',
+              {
+                book: 'way-of-kings',
+                chapter: '68',
+              },
+            ],
+          },
+        ],
+      },
+    ],
+    shards: [
+      {
+        name: 'Cultivation',
+        revealedIn: [
+          {
+            all: [
+              'way-of-kings',
+              {
+                book: 'way-of-kings',
+                chapter: '68',
+              },
+              'arcanum-unbounded',
+            ],
+          },
+        ],
+      },
+      {
+        name: 'Honor',
+        revealedIn: [
+          {
+            all: [
+              'way-of-kings',
+              {
+                book: 'way-of-kings',
+                chapter: '68',
+              },
+              'arcanum-unbounded',
+            ],
+          },
+        ],
+      },
+    ],
     revealedIn: ['way-of-kings'],
     books: [
       'way-of-kings',
@@ -1748,21 +1968,23 @@ export const abilityList: ListedAbility[] = [
           },
         ],
       },
+      {
+        id: 'allomancy',
+        revealedIn: ['shadows-of-self'],
+      },
     ],
     shards: [
       {
         name: 'Preservation',
         revealedIn: [
           {
-            all: ['shadows-of-self', 'lost-metal', 'hero-of-ages'],
-          },
-        ],
-      },
-      {
-        name: 'Ruin',
-        revealedIn: [
-          {
-            all: ['shadows-of-self', 'lost-metal', 'hero-of-ages'],
+            all: [
+              'shadows-of-self',
+              {
+                book: 'lost-metal',
+                chapter: '71',
+              },
+            ],
           },
         ],
       },
@@ -1822,7 +2044,7 @@ export const abilityList: ListedAbility[] = [
   {
     id: 'luminist',
     name: 'Luminist',
-    kind: 'user',
+    kind: 'investiture',
     world: 'first-of-the-sun',
     revealedIn: ['isles-of-the-emberdark'],
     books: ['isles-of-the-emberdark'],
@@ -1902,11 +2124,21 @@ export const abilityList: ListedAbility[] = [
       },
     ],
     revealedIn: ['final-empire'],
+    kindRevealedIn: [
+      {
+        book: 'final-empire',
+        chapter: '38',
+      },
+    ],
     books: [
       'final-empire',
       'well-of-ascension',
       'hero-of-ages',
+      'alloy-of-law',
+      'shadows-of-self',
+      'bands-of-mourning',
       'secret-history',
+      'lost-metal',
     ],
     coppermindPage: 'Mist',
   },
@@ -1915,6 +2147,54 @@ export const abilityList: ListedAbility[] = [
     name: 'Nahel bond',
     kind: 'bond',
     world: 'roshar',
+    systems: [
+      {
+        id: 'surgebinding',
+        revealedIn: [
+          {
+            all: [
+              'way-of-kings',
+              {
+                book: 'words-of-radiance',
+                chapter: '3',
+              },
+            ],
+          },
+        ],
+      },
+    ],
+    shards: [
+      {
+        name: 'Cultivation',
+        revealedIn: [
+          {
+            all: [
+              'way-of-kings',
+              {
+                book: 'words-of-radiance',
+                chapter: '3',
+              },
+              'arcanum-unbounded',
+            ],
+          },
+        ],
+      },
+      {
+        name: 'Honor',
+        revealedIn: [
+          {
+            all: [
+              'way-of-kings',
+              {
+                book: 'words-of-radiance',
+                chapter: '3',
+              },
+              'arcanum-unbounded',
+            ],
+          },
+        ],
+      },
+    ],
     revealedIn: ['way-of-kings'],
     books: [
       'way-of-kings',
@@ -1922,6 +2202,7 @@ export const abilityList: ListedAbility[] = [
       'edgedancer',
       'oathbringer',
       'rhythm-of-war',
+      'sunlit-man',
       'wind-and-truth',
     ],
     coppermindPage: 'Nahel bond',
@@ -1943,11 +2224,7 @@ export const abilityList: ListedAbility[] = [
     systems: [
       {
         id: 'allomancy',
-        revealedIn: [
-          {
-            all: ['alloy-of-law', 'well-of-ascension'],
-          },
-        ],
+        revealedIn: ['alloy-of-law'],
       },
       {
         id: 'feruchemy',
@@ -1967,7 +2244,7 @@ export const abilityList: ListedAbility[] = [
         name: 'Preservation',
         revealedIn: [
           {
-            all: ['alloy-of-law', 'well-of-ascension', 'hero-of-ages'],
+            all: ['alloy-of-law', 'hero-of-ages'],
           },
         ],
       },
@@ -2052,6 +2329,22 @@ export const abilityList: ListedAbility[] = [
     name: 'Old Magic',
     kind: 'system',
     world: 'roshar',
+    shards: [
+      {
+        name: 'Cultivation',
+        revealedIn: [
+          {
+            all: [
+              'way-of-kings',
+              {
+                book: 'oathbringer',
+                chapter: '114',
+              },
+            ],
+          },
+        ],
+      },
+    ],
     revealedIn: ['way-of-kings'],
     books: ['way-of-kings', 'oathbringer', 'rhythm-of-war', 'wind-and-truth'],
     coppermindPage: 'Old Magic',
@@ -2468,9 +2761,41 @@ export const abilityList: ListedAbility[] = [
   {
     id: 'peacegivers-treasure',
     name: "Peacegiver's Treasure",
-    kind: 'item',
+    kind: 'investiture',
     world: 'nalthis',
-    revealedIn: ['warbreaker'],
+    systems: [
+      {
+        id: 'awakening',
+        revealedIn: [
+          {
+            book: 'warbreaker',
+            chapter: '15',
+          },
+        ],
+      },
+    ],
+    shards: [
+      {
+        name: 'Endowment',
+        revealedIn: [
+          {
+            all: [
+              {
+                book: 'warbreaker',
+                chapter: '15',
+              },
+              'arcanum-unbounded',
+            ],
+          },
+        ],
+      },
+    ],
+    revealedIn: [
+      {
+        book: 'warbreaker',
+        chapter: '15',
+      },
+    ],
     books: ['warbreaker'],
     coppermindPage: "Peacegiver's Treasure",
   },
@@ -2558,39 +2883,6 @@ export const abilityList: ListedAbility[] = [
       'isles-of-the-emberdark',
     ],
     coppermindPage: 'Realmatic Theory',
-  },
-  {
-    id: 'reod',
-    name: 'Reod',
-    kind: 'power',
-    world: 'sel',
-    systems: [
-      {
-        id: 'aondor',
-        revealedIn: ['elantris'],
-      },
-    ],
-    shards: [
-      {
-        name: 'Devotion',
-        revealedIn: [
-          {
-            all: ['elantris', 'arcanum-unbounded'],
-          },
-        ],
-      },
-      {
-        name: 'Dominion',
-        revealedIn: [
-          {
-            all: ['elantris', 'arcanum-unbounded'],
-          },
-        ],
-      },
-    ],
-    revealedIn: ['elantris'],
-    books: ['elantris'],
-    coppermindPage: 'Reod',
   },
   {
     id: 'resonance',
@@ -2686,11 +2978,50 @@ export const abilityList: ListedAbility[] = [
     id: 'savant',
     name: 'Savant',
     kind: 'user',
-    world: 'roshar',
     systems: [
       {
+        id: 'allomancy',
+        revealedIn: [
+          {
+            book: 'hero-of-ages',
+            chapter: '16',
+          },
+          {
+            all: [
+              {
+                book: 'words-of-radiance',
+                chapter: '35',
+              },
+              {
+                book: 'hero-of-ages',
+                chapter: '16',
+              },
+            ],
+          },
+        ],
+      },
+      {
         id: 'surgebinding',
-        revealedIn: ['words-of-radiance'],
+        revealedIn: [
+          {
+            all: [
+              {
+                book: 'hero-of-ages',
+                chapter: '16',
+              },
+              'words-of-radiance',
+            ],
+          },
+          {
+            all: [
+              {
+                book: 'words-of-radiance',
+                chapter: '35',
+              },
+              'words-of-radiance',
+            ],
+          },
+        ],
       },
     ],
     shards: [
@@ -2698,7 +3029,24 @@ export const abilityList: ListedAbility[] = [
         name: 'Cultivation',
         revealedIn: [
           {
-            all: ['words-of-radiance', 'arcanum-unbounded'],
+            all: [
+              {
+                book: 'hero-of-ages',
+                chapter: '16',
+              },
+              'words-of-radiance',
+              'arcanum-unbounded',
+            ],
+          },
+          {
+            all: [
+              {
+                book: 'words-of-radiance',
+                chapter: '35',
+              },
+              'words-of-radiance',
+              'arcanum-unbounded',
+            ],
           },
         ],
       },
@@ -2706,26 +3054,73 @@ export const abilityList: ListedAbility[] = [
         name: 'Honor',
         revealedIn: [
           {
-            all: ['words-of-radiance', 'arcanum-unbounded'],
+            all: [
+              {
+                book: 'hero-of-ages',
+                chapter: '16',
+              },
+              'words-of-radiance',
+              'arcanum-unbounded',
+            ],
+          },
+          {
+            all: [
+              {
+                book: 'words-of-radiance',
+                chapter: '35',
+              },
+              'words-of-radiance',
+              'arcanum-unbounded',
+            ],
+          },
+        ],
+      },
+      {
+        name: 'Preservation',
+        revealedIn: [
+          {
+            all: [
+              {
+                book: 'hero-of-ages',
+                chapter: '16',
+              },
+              'hero-of-ages',
+            ],
+          },
+          {
+            all: [
+              {
+                book: 'words-of-radiance',
+                chapter: '35',
+              },
+              {
+                book: 'hero-of-ages',
+                chapter: '16',
+              },
+              'hero-of-ages',
+            ],
           },
         ],
       },
     ],
-    revealedIn: ['words-of-radiance'],
-    books: ['words-of-radiance', 'oathbringer'],
+    revealedIn: [
+      {
+        book: 'hero-of-ages',
+        chapter: '16',
+      },
+      {
+        book: 'words-of-radiance',
+        chapter: '35',
+      },
+    ],
+    books: ['hero-of-ages', 'alloy-of-law', 'words-of-radiance', 'oathbringer'],
     coppermindPage: 'Savant',
   },
   {
     id: 'seon',
     name: 'Seon',
-    kind: 'item',
+    kind: 'user',
     world: 'sel',
-    systems: [
-      {
-        id: 'aondor',
-        revealedIn: ['elantris'],
-      },
-    ],
     shards: [
       {
         name: 'Devotion',
@@ -2735,23 +3130,21 @@ export const abilityList: ListedAbility[] = [
           },
         ],
       },
-      {
-        name: 'Dominion',
-        revealedIn: [
-          {
-            all: ['elantris', 'arcanum-unbounded'],
-          },
-        ],
-      },
     ],
     revealedIn: ['elantris'],
-    books: ['elantris', 'hope-of-elantris'],
+    books: [
+      'elantris',
+      'hope-of-elantris',
+      'rhythm-of-war',
+      'lost-metal',
+      'wind-and-truth',
+    ],
     coppermindPage: 'Seon',
   },
   {
     id: 'shade-prison',
     name: 'Shade prison',
-    kind: 'concept',
+    kind: 'item',
     revealedIn: ['isles-of-the-emberdark'],
     books: ['isles-of-the-emberdark'],
     coppermindPage: 'Shade prison',
@@ -2767,24 +3160,6 @@ export const abilityList: ListedAbility[] = [
         revealedIn: ['oathbringer'],
       },
     ],
-    shards: [
-      {
-        name: 'Cultivation',
-        revealedIn: [
-          {
-            all: ['oathbringer', 'arcanum-unbounded'],
-          },
-        ],
-      },
-      {
-        name: 'Honor',
-        revealedIn: [
-          {
-            all: ['oathbringer', 'arcanum-unbounded'],
-          },
-        ],
-      },
-    ],
     revealedIn: ['oathbringer'],
     books: ['oathbringer', 'rhythm-of-war'],
     coppermindPage: 'Shanay-im',
@@ -2792,7 +3167,7 @@ export const abilityList: ListedAbility[] = [
   {
     id: 'shaod',
     name: 'Shaod',
-    kind: 'power',
+    kind: 'concept',
     world: 'sel',
     systems: [
       {
@@ -2863,19 +3238,18 @@ export const abilityList: ListedAbility[] = [
     coppermindPage: 'Shroud',
   },
   {
-    id: 'silajana',
-    name: 'Silajana',
-    kind: 'investiture',
-    revealedIn: ['lost-metal'],
-    books: ['lost-metal'],
-    coppermindPage: 'Silajana',
-  },
-  {
     id: 'silver',
     name: 'Silver',
     kind: 'metal',
     revealedIn: ['tress'],
-    books: ['tress'],
+    books: [
+      'hero-of-ages',
+      'shadows-for-silence',
+      'shadows-of-self',
+      'tress',
+      'isles-of-the-emberdark',
+      'fires-of-december',
+    ],
     coppermindPage: 'Silver',
   },
   {
@@ -2889,7 +3263,7 @@ export const abilityList: ListedAbility[] = [
   {
     id: 'skeletal',
     name: 'Skeletal',
-    kind: 'power',
+    kind: 'user',
     world: 'sel',
     systems: [
       {
@@ -2930,7 +3304,7 @@ export const abilityList: ListedAbility[] = [
   {
     id: 'soulcasting',
     name: 'Soulcasting',
-    kind: 'power',
+    kind: 'concept',
     world: 'roshar',
     systems: [
       {
@@ -3072,15 +3446,6 @@ export const abilityList: ListedAbility[] = [
     coppermindPage: 'Spiritweb',
   },
   {
-    id: 'sprouter',
-    name: 'Sprouter',
-    kind: 'investiture',
-    world: 'lumar',
-    revealedIn: ['tress'],
-    books: ['tress'],
-    coppermindPage: 'Sprouter',
-  },
-  {
     id: 'starmark',
     name: 'Starmark',
     kind: 'system',
@@ -3152,24 +3517,9 @@ export const abilityList: ListedAbility[] = [
     coppermindPage: 'Steel',
   },
   {
-    id: 'steel-alphabet',
-    name: 'Steel alphabet',
-    kind: 'power',
-    world: 'scadrial',
-    systems: [
-      {
-        id: 'metallic-arts',
-        revealedIn: ['bands-of-mourning'],
-      },
-    ],
-    revealedIn: ['bands-of-mourning'],
-    books: ['bands-of-mourning', 'isles-of-the-emberdark'],
-    coppermindPage: 'Steel alphabet',
-  },
-  {
     id: 'steelfield',
     name: 'Steelfield',
-    kind: 'power',
+    kind: 'concept',
     world: 'scadrial',
     revealedIn: ['isles-of-the-emberdark'],
     books: ['isles-of-the-emberdark'],
@@ -3180,6 +3530,22 @@ export const abilityList: ListedAbility[] = [
     name: 'Stormlight',
     kind: 'investiture',
     world: 'roshar',
+    shards: [
+      {
+        name: 'Honor',
+        revealedIn: [
+          {
+            all: [
+              'way-of-kings',
+              {
+                book: 'rhythm-of-war',
+                chapter: '42',
+              },
+            ],
+          },
+        ],
+      },
+    ],
     revealedIn: ['way-of-kings'],
     books: [
       'way-of-kings',
@@ -3346,24 +3712,6 @@ export const abilityList: ListedAbility[] = [
         revealedIn: ['shadows-of-self'],
       },
     ],
-    shards: [
-      {
-        name: 'Preservation',
-        revealedIn: [
-          {
-            all: ['shadows-of-self', 'lost-metal', 'hero-of-ages'],
-          },
-        ],
-      },
-      {
-        name: 'Ruin',
-        revealedIn: [
-          {
-            all: ['shadows-of-self', 'lost-metal', 'hero-of-ages'],
-          },
-        ],
-      },
-    ],
     revealedIn: ['shadows-of-self'],
     books: ['shadows-of-self', 'lost-metal'],
     coppermindPage: 'Trellium',
@@ -3375,15 +3723,15 @@ export const abilityList: ListedAbility[] = [
     world: 'scadrial',
     systems: [
       {
-        id: 'metallic-arts',
-        revealedIn: ['shadows-of-self'],
-      },
-      {
         id: 'allomancy',
         revealedIn: ['shadows-of-self'],
       },
       {
         id: 'feruchemy',
+        revealedIn: ['shadows-of-self'],
+      },
+      {
+        id: 'metallic-arts',
         revealedIn: ['shadows-of-self'],
       },
     ],
@@ -3428,6 +3776,22 @@ export const abilityList: ListedAbility[] = [
     name: 'Voidlight',
     kind: 'investiture',
     world: 'roshar',
+    shards: [
+      {
+        name: 'Odium',
+        revealedIn: [
+          {
+            all: [
+              'oathbringer',
+              {
+                book: 'oathbringer',
+                chapter: '57',
+              },
+            ],
+          },
+        ],
+      },
+    ],
     revealedIn: ['oathbringer'],
     books: ['oathbringer', 'rhythm-of-war'],
     coppermindPage: 'Voidlight',

@@ -1,0 +1,31 @@
+{
+  "intro": [
+    {
+      "text": "A young noble of Kingseat.",
+      "revealedIn": [{ "book": "fires-of-december", "chapter": "xxi" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Night Barges",
+          "revealedIn": [{ "book": "fires-of-december", "chapter": "xxi" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "One night on the Night Barges, Dłimi asked December to dance. She turned him down politely, and when he kept pushing, Flint insulted him and told him to go. Dłimi went for his sword to challenge Flint, only to find he wasn't carrying one, which suggests duelling is a habit of his.",
+          "revealedIn": [{ "book": "fires-of-december", "chapter": "xxi" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Taller than Flint but no beauty, with ears too big and a forehead too small.",
+      "revealedIn": [{ "book": "fires-of-december", "chapter": "xxi" }]
+    }
+  ],
+  "personality": []
+}

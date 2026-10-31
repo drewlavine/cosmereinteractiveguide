@@ -1,0 +1,57 @@
+{
+  "intro": [
+    {
+      "text": "An institute of Torio City's university. Its scholars come to Gongsha with a machine they say can stack stones to summon the spirits.",
+      "revealedIn": [{ "book": "yumi", "chapter": "20" }]
+    }
+  ],
+  "description": [],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The scholars in Gongsha",
+          "revealedIn": [
+            { "book": "yumi", "chapter": "20" },
+            { "book": "yumi", "chapter": "23" },
+            { "book": "yumi", "chapter": "38" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Having heard of the yoki-hijo's difficulties, scholars of the institute arrived in Gongsha with their stone-stacking machine.",
+          "revealedIn": [{ "book": "yumi", "chapter": "20" }]
+        },
+        {
+          "text": "Yumi spied on the scholars while they struggled with the machine. Sunjun blamed its power source, and the lead scholar, Gyundok, said they had never had this trouble with the father machine. The machine started once one scholar laid his hand on a plate at its heart.",
+          "revealedIn": [{ "book": "yumi", "chapter": "23" }]
+        },
+        {
+          "text": "The scholars told Yumi that they had switched the father machine on during the Festival of Reveals.",
+          "revealedIn": [{ "book": "yumi", "chapter": "38" }]
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Part of",
+      "name": "The university in Torio City",
+      "placeId": "torio-city",
+      "revealedIn": [{ "book": "yumi", "chapter": "20" }]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "gyundok",
+      "role": "lead scholar",
+      "revealedIn": [{ "book": "yumi", "chapter": "23" }]
+    },
+    {
+      "characterId": "sunjun",
+      "role": "scholar",
+      "revealedIn": [{ "book": "yumi", "chapter": "23" }]
+    }
+  ]
+}

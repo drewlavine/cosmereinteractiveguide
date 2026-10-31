@@ -1,0 +1,43 @@
+{
+  "intro": [
+    {
+      "text": "A kandra punishment, kept for the gravest crimes, in which the offender is imprisoned.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "33" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "The guilty kandra's bones are broken and they are shut in a pit whose only opening is a little hole for passing in food. After ten generations there, they are starved to death.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "33" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "TenSoon's sentence",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "33" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "KanPaar sentences TenSoon to ChanGaar for rebellion and for telling Vin the secret of how kandra can be controlled. Before it can be carried out, TenSoon escapes, using the strength and speed of his wolfhound body.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "33" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "tensoon",
+      "role": "sentenced",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "33" }]
+    },
+    {
+      "characterId": "kanpaar",
+      "role": "judge",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "33" }]
+    }
+  ]
+}

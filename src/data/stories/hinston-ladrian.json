@@ -1,0 +1,49 @@
+{
+  "intro": [
+    {
+      "text": "The son of Edwarn Ladrian, Wax's uncle, raised as heir to House Ladrian; a cousin of Wax and his sister Telsin.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "10" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Heir to House Ladrian",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "alloy-of-law", "chapter": "epilogue" },
+                { "book": "shadows-of-self", "chapter": "5" }
+              ]
+            },
+            { "book": "alloy-of-law", "chapter": "epilogue" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Edwarn had been raising Wax and Telsin as the house's heirs until Hinston, his only child, was born in 317 PC, when Wax was eighteen. From then on Edwarn prepared Hinston to inherit instead.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "alloy-of-law", "chapter": "epilogue" },
+                { "book": "shadows-of-self", "chapter": "5" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "By about 340 or 341 PC Edwarn judged Hinston ready to become High Lord, and had begun siphoning House Ladrian's money to the Set so that he could fake his death and vanish. Hinston then died young, at about 24, of an unknown illness. Edwarn went ahead with his plans regardless, faking his death and naming Wax his successor in the hope of manipulating him.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "epilogue" }]
+        },
+        {
+          "text": "Edwarn had meant to hand Hinston a house he knew was destitute, after offending most of Elendel's nobility, so his son was set up to fail; Hinston probably knew nothing of his father's secret dealings. Edwarn showed little grief, calling the death \"unfortunate\".",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "epilogue" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

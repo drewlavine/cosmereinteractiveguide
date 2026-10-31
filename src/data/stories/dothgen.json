@@ -1,0 +1,31 @@
+{
+  "intro": [
+    {
+      "text": "A Fjordell arteth in Kae, trained as an assassin at Rathbore Monastery.",
+      "revealedIn": [{ "book": "elantris", "chapter": "36" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Derethi chapel in Kae",
+          "revealedIn": [{ "book": "elantris", "chapter": "36" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "After Hrathen came back from Elantris, he summoned Dothgen before dawn, confirmed that he had trained at Rathbore, and said he had a use for those skills. Dothgen asked who the work was for, since only a gyorn or a ragnat could employ Rathbore priests without the Wyrn's leave.",
+          "revealedIn": [{ "book": "elantris", "chapter": "36" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Tall and powerfully built, his muscles straining against his Derethi robes.",
+      "revealedIn": [{ "book": "elantris", "chapter": "36" }]
+    }
+  ],
+  "personality": []
+}

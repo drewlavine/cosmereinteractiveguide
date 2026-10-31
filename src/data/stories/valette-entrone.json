@@ -1,0 +1,47 @@
+{
+  "intro": [
+    {
+      "text": "Lady Valette Entrone, a noblewoman in Elendel.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "alloy-of-law", "chapter": "2" },
+            { "book": "bands-of-mourning", "chapter": "12" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Suitors",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "alloy-of-law", "chapter": "2" },
+                { "book": "bands-of-mourning", "chapter": "12" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Wax courted her at one time. After him came a suitor Gave Entrone thought dreadful, but she eventually married a man the whole family was pleased with.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "alloy-of-law", "chapter": "2" },
+                { "book": "bands-of-mourning", "chapter": "12" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

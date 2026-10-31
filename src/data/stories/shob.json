@@ -57,6 +57,20 @@
           ]
         }
       ]
+    },
+    {
+      "title": [
+        {
+          "text": "Hunting the Ghostbloods",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "18" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Shob helped Shallan watch suspected Ghostbloods in Urithiru. When he complained of pain, she took his distress seriously and promised to find him proper help after the operation.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "18" }]
+        }
+      ]
     }
   ],
   "appearance": [],

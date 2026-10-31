@@ -1,0 +1,38 @@
+{
+  "intro": [
+    {
+      "text": "Saja, an officer of the Malwish military police, sent to the island to investigate Colonel Dajer.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "50" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Investigating Dajer",
+          "revealedIn": [
+            { "book": "isles-of-the-emberdark", "chapter": "54" },
+            { "book": "isles-of-the-emberdark", "chapter": "50" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "She had been assigned to watch Dajer after the Malwish made contact with the Eelakin, built up a strong case, and came to the island posing as an ordinary soldier. Dajer disliked her, even hoping the Dakwara had killed her.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "54" }]
+        },
+        {
+          "text": "Saja thought it far too convenient that a supposed primitive had rowed through the emberdark to the island. She took Dusk aside, told him his act did not fool her, and accused him of being Dajer's hireling. She offered him his freedom if he testified against Dajer; wanting to stall, he asked for time and promised not to tell Dajer.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "50" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Round-faced with auburn skin and long black hair. Her mask is a partial one, covering her chin and the sides of her head but leaving her face bare, and she wears rare insignia and stark white gloves.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "50" }]
+    }
+  ],
+  "personality": []
+}

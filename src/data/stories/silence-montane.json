@@ -1,0 +1,92 @@
+{
+  "intro": [
+    {
+      "text": "The owner of a waystop where travellers trade drinks for stories; Daggon, a regular, wonders whether to marry her, believing she is fond of him.",
+      "revealedIn": [{ "book": "shadows-for-silence", "chapter": "prologue" }],
+      "fallback": true
+    },
+    {
+      "text": "A waystop owner who, with William Ann, sees through a wanted gang's disguise and plans to poison and track them, needing their bounties to keep her creditors away.",
+      "revealedIn": [{ "book": "shadows-for-silence", "chapter": "1" }],
+      "fallback": true
+    },
+    {
+      "text": "Owner of a waystop deep in Threnody's Forests of Hell who secretly hunts bounties; her success has grown into the legend of the White Fox.",
+      "revealedIn": ["shadows-for-silence"]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        { "text": "The White Fox", "revealedIn": ["shadows-for-silence"] }
+      ],
+      "items": [
+        {
+          "text": "For about ten years she has turned in hundreds of bounties as the White Fox, killing anyone who saw her face. The stories about the White Fox draw suspicion away from her, since few would suspect a middle-aged waystop owner.",
+          "revealedIn": ["shadows-for-silence"]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Hunting Chesterton",
+          "revealedIn": [
+            { "book": "shadows-for-silence", "chapter": "1" },
+            { "book": "shadows-for-silence", "chapter": "2" },
+            { "book": "shadows-for-silence", "chapter": "3" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Spotting Chesterton's gang posing as merchants, she and William Ann planned to poison and track them. Theopolis interrupted to demand the money she owed, threatening to take her waystop. She also talked Sebruki out of shooting the man the girl knew as her family's killer; the crossbow fired its bolt out of the window.",
+          "revealedIn": [{ "book": "shadows-for-silence", "chapter": "1" }]
+        },
+        {
+          "text": "She and William Ann tracked the gang to their camp and killed them without spilling blood, but Red Young's band took Chesterton's body. Using a gunpowder trap to set the shades on them, she won it back and was hurt fighting off two shades. Then Red seized William Ann, and when a crossbow bolt hit him, blood was drawn and the shades swarmed.",
+          "revealedIn": [{ "book": "shadows-for-silence", "chapter": "2" }]
+        },
+        {
+          "text": "With the silver bolt Sebruki had fired, she cut a path through the shades back to the waystop and, close to death, poured silver over William Ann.",
+          "revealedIn": [{ "book": "shadows-for-silence", "chapter": "3" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "At the waystop",
+          "revealedIn": [
+            { "book": "shadows-for-silence", "chapter": "5" },
+            { "book": "shadows-for-silence", "chapter": "epilogue" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Dob saved her with silver and let slip that he had always known she was the White Fox. When Theopolis came to collect his debts, she accused him of following them through the night. He slapped her and drew blood, and the door behind her opened on her grandmother's shade, which killed him and then let her shut it away again.",
+          "revealedIn": [{ "book": "shadows-for-silence", "chapter": "5" }]
+        },
+        {
+          "text": "She found the cave where Theopolis had hidden Chesterton's body and brought it home. Claiming that Theopolis had been the White Fox, she collected the reward, and soon had seven offers of marriage.",
+          "revealedIn": [
+            { "book": "shadows-for-silence", "chapter": "epilogue" }
+          ]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "A stout woman with a noticeable limp, she is shorter than her daughter, to her delight. Her fingers shake when she is very nervous.",
+      "revealedIn": ["shadows-for-silence"]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Tough and usually scowling, she is said to show less warmth than a stone, though she scowls less at Daggon and often slips him extra venison.",
+      "revealedIn": ["shadows-for-silence"]
+    }
+  ]
+}

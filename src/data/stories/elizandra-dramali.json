@@ -1,0 +1,28 @@
+{
+  "intro": [
+    {
+      "text": "Allomancer Jak's Koloss-blooded girlfriend.",
+      "revealedIn": ["allomancer-jak"]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        { "text": "The Pits of Eltania", "revealedIn": ["allomancer-jak"] }
+      ],
+      "items": [
+        {
+          "text": "The revelation of her Koloss ancestry in the second-to-last installment of the Pits of Eltania nearly set off riots in Elendel's streets, so a special broadsheet with the finale came out the next day.",
+          "revealedIn": ["allomancer-jak"]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Slim, with long hair, glasses and bracelets; Jak calls her extremely beautiful. Her skin has a faint blue tint from her Koloss ancestry, which she hides under makeup and gloves.",
+      "revealedIn": ["allomancer-jak"]
+    }
+  ],
+  "personality": []
+}

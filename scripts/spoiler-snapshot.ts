@@ -10,16 +10,18 @@
 // prints, per snapshot, capitalised terms we use that the old page never
 // mentions. Those are leads to read, not verdicts: the old page may just be
 // shorter than ours. Fetches through headless Chrome (~/cig-characters/fetch.sh),
-// as the Coppermind's Cloudflare blocks plain requests.
+// as the Coppermind's Cloudflare blocks plain requests. CIG_FETCH can select
+// another compatible headless fetch helper.
 import { execFileSync } from 'node:child_process'
 import {
   existsSync,
   mkdirSync,
   readdirSync,
   readFileSync,
+  rmSync,
   writeFileSync,
 } from 'node:fs'
-import { homedir, tmpdir } from 'node:os'
+import { homedir } from 'node:os'
 import { join } from 'node:path'
 import { books } from '../src/data/books.ts'
 import { findPerson } from '../src/data/people.ts'
@@ -58,7 +60,8 @@ const snapshots = [
   { date: '2026-09-14', notYet: ['fires-of-december'] },
 ]
 
-const FETCH = join(homedir(), 'cig-characters', 'fetch.sh')
+const FETCH =
+  process.env.CIG_FETCH ?? join(homedir(), 'cig-characters', 'fetch.sh')
 const API = 'https://coppermind.net/w/api.php'
 const ROOT = join(import.meta.dirname, '..')
 
@@ -96,9 +99,14 @@ function revisionBefore(title: string, date: string) {
     format: 'json',
     formatversion: '2',
   }).toString()
-  const out = join(tmpdir(), `cig-tm-${process.pid}.html`)
-  execFileSync(FETCH, [url.toString(), out], { stdio: 'ignore', cwd: tmpdir() })
-  const dom = readFileSync(out, 'utf8')
+  const out = join(dir, `response-${process.pid}.html`)
+  let dom: string
+  try {
+    execFileSync(FETCH, [url.toString(), out], { stdio: 'ignore', cwd: dir })
+    dom = readFileSync(out, 'utf8')
+  } finally {
+    rmSync(out, { force: true })
+  }
   const json = dom
     .replace(/^[\s\S]*?<pre[^>]*>/, '')
     .replace(/<\/pre>[\s\S]*$/, '')

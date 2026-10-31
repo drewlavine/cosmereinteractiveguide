@@ -1,0 +1,33 @@
+{
+  "intro": [
+    {
+      "text": "A Rosharan fruit that can be kept by drying.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "86" }]
+    }
+  ],
+  "description": [],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "At the center of the Plains",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "86" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "While Dalinar's army fought the Parshendi at the heart of the Shattered Plains, Sebarial stayed clear of the fighting, nibbling dried sellafruit.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "86" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "turinad-sebarial",
+      "role": "ate it",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "86" }]
+    }
+  ]
+}

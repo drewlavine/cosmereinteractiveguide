@@ -1,0 +1,113 @@
+{
+  "intro": [
+    {
+      "text": "A noble house of the Final Empire on Scadrial, with enough standing to count as a major ally of House Tekiel.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "19" }]
+    },
+    {
+      "text": "A noble house of Scadrial, an important ally of House Tekiel in the Final Empire, that is still a noble family in the age after it.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "19" },
+            { "book": "shadows-of-self", "chapter": "1" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The house war",
+          "revealedIn": [{ "book": "final-empire", "chapter": "19" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "To sow chaos among the nobles, Kelsier killed Charrs Entrone and left his body in the gardens of Keep Tekiel.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "19" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "In Elendel",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "alloy-of-law", "chapter": "2" },
+                { "book": "shadows-of-self", "chapter": "1" },
+                { "book": "bands-of-mourning", "chapter": "12" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Entrones live on in Elendel. Valette Entrone once courted Waxillium Ladrian, and her cousin Gave Entrone lives in New Seran and works in textiles. Hughes Entrone is among those killed at Winsting Innate's auction.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "alloy-of-law", "chapter": "2" },
+                { "book": "shadows-of-self", "chapter": "1" },
+                { "book": "bands-of-mourning", "chapter": "12" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "charrs-entrone",
+      "role": "member",
+      "revealedIn": [{ "book": "final-empire", "chapter": "19" }]
+    },
+    {
+      "characterId": "hughes-entrone",
+      "role": "member",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "alloy-of-law", "chapter": "2" },
+            { "book": "shadows-of-self", "chapter": "1" },
+            { "book": "bands-of-mourning", "chapter": "12" }
+          ]
+        }
+      ]
+    },
+    {
+      "characterId": "valette-entrone",
+      "role": "member",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "alloy-of-law", "chapter": "2" },
+            { "book": "shadows-of-self", "chapter": "1" },
+            { "book": "bands-of-mourning", "chapter": "12" }
+          ]
+        }
+      ]
+    },
+    {
+      "characterId": "gave-entrone",
+      "role": "member",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "alloy-of-law", "chapter": "2" },
+            { "book": "shadows-of-self", "chapter": "1" },
+            { "book": "bands-of-mourning", "chapter": "12" }
+          ]
+        }
+      ]
+    }
+  ]
+}

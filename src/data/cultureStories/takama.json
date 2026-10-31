@@ -1,0 +1,200 @@
+{
+  "intro": [
+    {
+      "text": "A long, straight skirt reaching the calf. It was a common warrior's garment a generation ago but is rarely seen now.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "25" }]
+    },
+    {
+      "text": "A traditional Alethi warrior's garment: a long, straight skirt reaching the calf. Common a generation ago, it is rarely worn now.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "25" },
+            { "book": "words-of-radiance", "chapter": "38" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "When Dalinar Kholin was young, soldiers often wore long uniform jackets over their takamas.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "54" }]
+    },
+    {
+      "text": "A takama usually hangs loose and is cinched with a long belt, normally knotted twice so the ends dangle. Versions in fine cloth, sometimes golden, are worn on formal occasions.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "4" }]
+    },
+    {
+      "text": "Today it goes with a cloth belt and a light, loose overshirt cut specially to be worn with it.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "16" }]
+    },
+    {
+      "text": "In the time of the Heralds it was worn with a wide girdle and no shirt, a look Vaiu, an honorspren in Shadesmar, likes as well.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "54" },
+            { "book": "oathbringer", "chapter": "103" },
+            { "book": "rhythm-of-war", "chapter": "75" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "From ancient times to today",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "103" },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "54" },
+                { "book": "words-of-radiance", "chapter": "19" },
+                { "book": "oathbringer", "chapter": "16" }
+              ]
+            },
+            { "book": "way-of-kings", "chapter": "25" },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "25" },
+                { "book": "words-of-radiance", "chapter": "52" },
+                { "book": "oathbringer", "chapter": "107" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "In one of his visions of Nohadon's time, Dalinar saw people in takamas of an older cut, showing the garment is ancient.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "103" }]
+        },
+        {
+          "text": "In his youth Dalinar learned from his swordmaster Harth to knot the belt three times, as tradition. Seeing others knot it twice, he asked Harth's master, who tied it thrice only because he was so short the long ends tripped him. Dalinar never liked takamas after that, though he wore them as the Blackthorn.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "54" },
+                { "book": "words-of-radiance", "chapter": "19" },
+                { "book": "oathbringer", "chapter": "16" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Kaladin, who grew up in a small Alethi town, was twelve or thirteen when he first saw a takama, and was surprised it looked so like a woman's skirt.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "25" }]
+        },
+        {
+          "text": "Those who still wear takamas are mostly nobles or soldiers, among them Roshone, Sebarial and Elhokar. Amaram, a traditionalist, made them part of his soldiers' uniform, and Aladar began wearing a shorter, modern jacket over his, a look his officers copied.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "25" },
+                { "book": "words-of-radiance", "chapter": "52" },
+                { "book": "oathbringer", "chapter": "107" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "harth",
+      "role": "swordmaster",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "54" },
+            { "book": "words-of-radiance", "chapter": "19" },
+            { "book": "oathbringer", "chapter": "16" }
+          ]
+        }
+      ]
+    },
+    {
+      "characterId": "dalinar-kholin",
+      "role": "wearer",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "54" },
+            { "book": "words-of-radiance", "chapter": "19" },
+            { "book": "oathbringer", "chapter": "16" }
+          ]
+        }
+      ]
+    },
+    {
+      "characterId": "toralin-roshone",
+      "role": "wearer",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "25" },
+            { "book": "words-of-radiance", "chapter": "52" },
+            { "book": "oathbringer", "chapter": "107" }
+          ]
+        }
+      ]
+    },
+    {
+      "characterId": "turinad-sebarial",
+      "role": "wearer",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "25" },
+            { "book": "words-of-radiance", "chapter": "52" },
+            { "book": "oathbringer", "chapter": "107" }
+          ]
+        }
+      ]
+    },
+    {
+      "characterId": "elhokar-kholin",
+      "role": "wearer",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "25" },
+            { "book": "words-of-radiance", "chapter": "52" },
+            { "book": "oathbringer", "chapter": "107" }
+          ]
+        }
+      ]
+    },
+    {
+      "characterId": "meridas-amaram",
+      "role": "required it",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "25" },
+            { "book": "words-of-radiance", "chapter": "52" },
+            { "book": "oathbringer", "chapter": "107" }
+          ]
+        }
+      ]
+    },
+    {
+      "characterId": "aladar",
+      "role": "wearer",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "25" },
+            { "book": "words-of-radiance", "chapter": "52" },
+            { "book": "oathbringer", "chapter": "107" }
+          ]
+        }
+      ]
+    }
+  ]
+}

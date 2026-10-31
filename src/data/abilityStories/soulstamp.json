@@ -1,0 +1,169 @@
+{
+  "intro": [
+    {
+      "text": "A carved stamp a Forger uses to press a seal that rewrites an object's past. If the new history is believable, the seal takes and the object changes to match it.",
+      "revealedIn": [{ "book": "emperors-soul", "chapter": "day-3" }]
+    },
+    {
+      "text": "The carved stamp of Forgery, whose seal rewrites a thing's past. Its most powerful kind, the Essence Mark, works on people, and Bloodsealers use crude stamps of their own to track people and raise the dead.",
+      "revealedIn": [{ "book": "emperors-soul", "chapter": "day-42" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "The Forger designs the new history, and the stamp's intricate pattern sets it out. A history close to the object's real one makes the seal last almost forever; one too far-fetched fails after a while, sooner the less it resembles the truth.",
+      "revealedIn": [{ "book": "emperors-soul", "chapter": "day-3" }]
+    },
+    {
+      "text": "How well a stamp works depends partly on how plausible it is.",
+      "revealedIn": [{ "book": "emperors-soul", "chapter": "day-12" }]
+    },
+    {
+      "text": "The mark a stamp leaves is also called a soulstamp, or simply a seal.",
+      "revealedIn": [{ "book": "emperors-soul", "chapter": "day-42" }]
+    }
+  ],
+  "history": [],
+  "mechanics": [
+    {
+      "title": [
+        {
+          "text": "Carving and ink",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "emperors-soul", "chapter": "day-98" },
+                { "book": "lost-metal", "chapter": "42" }
+              ]
+            },
+            { "book": "emperors-soul", "chapter": "day-30" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "A stamp can be made of anything that can be carved and keep its shape; well-made stamps are works of art, though even poorly trained Forgers can cut simple, working ones. Harder, finer materials are prized, and soulstone above all, being soft to carve but hardened by flame.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "emperors-soul", "chapter": "day-98" },
+                { "book": "lost-metal", "chapter": "42" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Only fresh organic inks work, though they may be mixed with things like wax. Animal inks beat plant inks, and squid ink is well thought of. Seals are usually a bright red. On Scadrial, a stamp needs a special Invested ink to work.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "emperors-soul", "chapter": "day-98" },
+                { "book": "lost-metal", "chapter": "42" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "The back of a soulstamp carries a glyph of MaiPon.",
+          "revealedIn": [{ "book": "emperors-soul", "chapter": "day-30" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Applying a seal",
+          "revealedIn": [{ "book": "emperors-soul", "chapter": "epilogue" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "When pressed on, a stamp settles a little way into whatever it marks, and the Forger twists it half a turn to lock it, without smearing the ink. A failed seal vanishes at once and its ink wipes away; a successful one glows faintly and stays indented, with a texture of its own whatever the material.",
+          "revealedIn": [{ "book": "emperors-soul", "chapter": "epilogue" }]
+        },
+        {
+          "text": "Stamping something living feels like sinking in, and faint red smoke rises as the soul fights the change. A seal resists being destroyed, but if it is broken, the object returns to its real history and the seal is just ink again, so breaking a seal is a way to end a Forgery.",
+          "revealedIn": [{ "book": "emperors-soul", "chapter": "epilogue" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Essence Marks",
+          "revealedIn": [
+            { "book": "emperors-soul", "chapter": "day-42" },
+            { "book": "emperors-soul", "chapter": "day-98" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The most powerful soulstamp in Forgery is the Essence Mark, which works on people.",
+          "revealedIn": [{ "book": "emperors-soul", "chapter": "day-42" }]
+        },
+        {
+          "text": "An Essence Mark can rewrite someone's past, soul and personality, from their looks and beliefs to their athletic skill and knowledge. Each is tuned to one person, very intricate, and usually years in the making. Marks are meant to work only briefly, but renewing one daily keeps it going indefinitely.",
+          "revealedIn": [{ "book": "emperors-soul", "chapter": "day-98" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Universal stamps",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "42" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "A universal stamp works without being designed for one particular object, but it still has to be plausible (one that adds a door to a wall may not take on bare rock), and it is harder to make last.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "42" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Bloodsealers' stamps",
+          "revealedIn": [
+            { "book": "emperors-soul", "chapter": "day-3" },
+            { "book": "emperors-soul", "chapter": "day-76" },
+            { "book": "emperors-soul", "chapter": "day-98" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The Bloodsealer who guards Shai carries a rough stamp of bone.",
+          "revealedIn": [{ "book": "emperors-soul", "chapter": "day-3" }]
+        },
+        {
+          "text": "Shai cannot Forge an object that bears a Bloodseal.",
+          "revealedIn": [{ "book": "emperors-soul", "chapter": "day-76" }]
+        },
+        {
+          "text": "Bloodsealers' stamps, usually carved from bone, strike Forgers as crude and unnatural. They work only when inked with fresh human blood, which tunes the seal to the person it came from: that person feels pain where the blood was drawn whenever the seal is made or renewed, and the Bloodsealer and his creatures can track them while it lasts.",
+          "revealedIn": [{ "book": "emperors-soul", "chapter": "day-98" }]
+        },
+        {
+          "text": "Bloodseals also glow red and can go on many materials. Like Essence Marks they last about a day, dimming and then pulsing before they fade. Pressed onto the forehead of a skeleton, they bring it back as one of the Bloodsealer's pets.",
+          "revealedIn": [{ "book": "emperors-soul", "chapter": "day-98" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "wan-shailu",
+      "role": "Forger",
+      "revealedIn": [{ "book": "emperors-soul", "chapter": "day-12" }]
+    },
+    {
+      "characterId": "weedfingers",
+      "role": "Bloodsealer",
+      "revealedIn": [{ "book": "emperors-soul", "chapter": "day-17" }]
+    }
+  ]
+}

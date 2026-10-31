@@ -1,0 +1,56 @@
+{
+  "intro": [
+    {
+      "text": "A Rosharan nation whose lands once belonged to the Silver Kingdom of Makabakam.",
+      "revealedIn": ["way-of-kings"]
+    },
+    {
+      "text": "A Rosharan nation and a member state of the Azish Empire.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "65" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Deshi visitors were a familiar sight in Yeddaw, a city of Tashikk. Their dress has a rural look and lighter colours, similar to what is worn in Alm.",
+      "revealedIn": [{ "book": "edgedancer", "chapter": "4" }]
+    },
+    {
+      "text": "Desh formally recognises the Prime Aqasix as its emperor. In practice it governs itself, but follows Azir's lead in international affairs.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "122" }]
+    },
+    {
+      "text": "A small nation at the foot of Roshar's western mountains, bordering Azir to the east and Yezier to the south. Mountains separate it from Shinovar to the west and Babatharnam to the north.",
+      "revealedIn": [{ "all": ["way-of-kings", "oathbringer"] }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The Era of Solitude",
+          "revealedIn": [{ "book": "edgedancer", "chapter": "4" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Lift once visited Desh and enjoyed it, since few people there tried to kill her.",
+          "revealedIn": [{ "book": "edgedancer", "chapter": "4" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The True Desolation",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "65" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "A Deshi ambassador was in Azimir when Noura told Dalinar that the Azish empire would join his coalition.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "65" }]
+        }
+      ]
+    }
+  ]
+}

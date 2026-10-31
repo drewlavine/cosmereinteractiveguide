@@ -1,0 +1,101 @@
+{
+  "intro": [
+    {
+      "text": "The title of the emperor of Fjorden, who is also the head of the Derethi church.",
+      "revealedIn": [{ "book": "elantris", "chapter": "3" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "The Wyrn lives in Zigareth, a palace in Widor.",
+      "revealedIn": [{ "book": "elantris", "chapter": "prologue" }]
+    },
+    {
+      "text": "Each Wyrn issues decrees that are said to be Jaddeth's own words.",
+      "revealedIn": [{ "book": "elantris", "chapter": "3" }]
+    },
+    {
+      "text": "Shu-Dereth teaches that only the Wyrn can serve Jaddeth directly. Every other member of the church is bound to those above them in the hierarchy, with the gyorns just beneath the Wyrn.",
+      "revealedIn": [{ "book": "elantris", "chapter": "8" }]
+    },
+    {
+      "text": "Recent Wyrns have given each gyorn a seon so any gyorn can reach the Wyrn across great distances. This is kept utterly secret, as seons are thought to be Elantrian creations: they are locked in strongboxes when not in use, and a mute servant always tends the Wyrn's own.",
+      "revealedIn": [{ "book": "elantris", "chapter": "12" }]
+    },
+    {
+      "text": "The original Wyrn founded Fjorden; the ancient poem Wyrn the King centres on him.",
+      "revealedIn": [{ "book": "elantris", "chapter": "43" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Wulfden the Fourth",
+          "revealedIn": [
+            { "book": "elantris", "chapter": "3" },
+            { "book": "elantris", "chapter": "12" },
+            { "book": "elantris", "chapter": "63" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Wyrn Wulfden the Fourth sent Hrathen to Kae with his orders in a holy scroll.",
+          "revealedIn": [{ "book": "elantris", "chapter": "3" }]
+        },
+        {
+          "text": "Hrathen used a hidden seon to speak with Wyrn Wulfden during his mission.",
+          "revealedIn": [{ "book": "elantris", "chapter": "12" }]
+        },
+        {
+          "text": "Fjorden's campaign against Arelon and Teod, first through conversion and then by sending Dakhor monks against both, failed, and the two nations remained independent.",
+          "revealedIn": [{ "book": "elantris", "chapter": "63" }]
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Rules",
+      "name": "Fjorden",
+      "placeId": "fjorden",
+      "revealedIn": [{ "book": "elantris", "chapter": "3" }]
+    },
+    {
+      "label": "Palace",
+      "name": "Zigareth",
+      "placeId": "zigareth",
+      "revealedIn": [{ "book": "elantris", "chapter": "prologue" }]
+    },
+    {
+      "label": "Seat",
+      "name": "Widor",
+      "placeId": "widor",
+      "revealedIn": [{ "book": "elantris", "chapter": "prologue" }]
+    },
+    {
+      "label": "Current Wyrn",
+      "name": "Wulfden the Fourth",
+      "characterId": "wulfden-the-fourth",
+      "revealedIn": [{ "book": "elantris", "chapter": "3" }]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "wulfden-the-fourth",
+      "role": "current Wyrn",
+      "revealedIn": [{ "book": "elantris", "chapter": "3" }]
+    },
+    {
+      "characterId": "wyrn",
+      "role": "first Wyrn",
+      "revealedIn": [{ "book": "elantris", "chapter": "43" }]
+    },
+    {
+      "characterId": "hrathen",
+      "role": "gyorn",
+      "revealedIn": [{ "book": "elantris", "chapter": "3" }]
+    }
+  ]
+}

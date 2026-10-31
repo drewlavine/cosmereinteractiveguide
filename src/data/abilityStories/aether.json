@@ -176,6 +176,18 @@
       ]
     }
   ],
+  "sections": [
+    {
+      "title": "On Roshar",
+      "items": [
+        {
+          "text": "Iyatil keeps a piece of roseite in her collection.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "26" }]
+        }
+      ],
+      "parts": []
+    }
+  ],
   "facts": [
     {
       "label": "Effect",

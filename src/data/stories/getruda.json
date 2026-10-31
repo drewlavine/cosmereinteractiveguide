@@ -1,0 +1,64 @@
+{
+  "intro": [
+    {
+      "text": "A fighter in Bilming whose powers mirror Wayne's, working alongside the Coinshot Dumad.",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "24" }],
+      "fallback": true
+    },
+    {
+      "text": "A member of the Set, a Bloodmaker and Slider who serves as Dumad's partner.",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "26" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Clashes with Wax and Wayne",
+          "revealedIn": [
+            { "book": "lost-metal", "chapter": "24" },
+            { "book": "lost-metal", "chapter": "49" },
+            { "book": "lost-metal", "chapter": "65" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Getruda revealed herself during the failed sting in Bilming and fought Wayne, mimicking his accent and boasting of how she had prepared to beat him. Wayne pinned her with a wrestling hold her training had missed, and Dumad called her away as the gang retreated.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "24" }]
+        },
+        {
+          "text": "Getruda and Dumad ambushed Wax and Wayne underground, where she stabbed Wayne with a glass knife while he mocked her worsening accent. Wax shot her with an explosive Hemalurgist-killer round that tore away half her head, and she fled with Dumad through a street grate.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "49" }]
+        },
+        {
+          "text": "At the Shaw, Wax took Getruda on and battered her with a doorknob and other metal, breaking her bones. Her healing showed him where she kept her metalminds, so he blew off her arm with a hazekiller round to cut her off from them, then killed her with a shot to the head.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "65" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": [
+    {
+      "text": "Getruda is fixated on Wayne and practices his accent, though he thinks her attempts are poor.",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "49" }]
+    }
+  ],
+  "abilities": [
+    {
+      "title": [
+        {
+          "text": "Powers",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "65" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Getruda is a Bloodmaker and a Slider, and while she has her metalminds she can heal even broken bones quickly.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "65" }]
+        }
+      ]
+    }
+  ]
+}

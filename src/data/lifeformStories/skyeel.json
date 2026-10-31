@@ -1,0 +1,48 @@
+{
+  "intro": [
+    {
+      "text": "A Rosharan creature known to fight over its prey.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "1" }]
+    },
+    {
+      "text": "A flying Rosharan creature, often seen with small arrow-headed luckspren darting around it in flight. Skyeels will squabble over prey.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "1" },
+            { "book": "oathbringer", "chapter": "99" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "Sebarial's banner has its glyphs drawn in the shape of a skyeel.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "40" }]
+    },
+    {
+      "text": "Skyeels nest and guard their young closely, and have a name for being vicious and repellent.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "39" }]
+    },
+    {
+      "text": "Sailors call a ship's crow's nest the eel's nest.",
+      "revealedIn": [{ "book": "dawnshard", "chapter": "prologue" }]
+    },
+    {
+      "text": "Even so, the Wandersail's crew keep a female skyeel aboard as a rat-catching pet, and most of them like her.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "78" },
+            { "book": "oathbringer", "chapter": "39" },
+            { "book": "dawnshard", "chapter": "4" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [],
+  "facts": [],
+  "people": []
+}

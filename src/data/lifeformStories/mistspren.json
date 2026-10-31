@@ -31,6 +31,26 @@
     }
   ],
   "history": [],
+  "sections": [
+    {
+      "title": "Enlightened mistspren",
+      "items": [
+        {
+          "text": "They can hide inside their Radiant, dim their sight and leave a red afterimage around them in Shadesmar.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "31" }]
+        },
+        {
+          "text": "In Shadesmar, they resemble red mist around a ruby, with a shifting empty space in place of a face.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "44" }]
+        },
+        {
+          "text": "They share thoughts and emotions with their Radiants and help them understand rhythms.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "84" }]
+        }
+      ],
+      "parts": []
+    }
+  ],
   "facts": [],
   "people": []
 }

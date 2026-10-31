@@ -1,0 +1,101 @@
+{
+  "intro": [
+    {
+      "text": "The longtime butler of House Ladrian, who serves Wax after his return from the Roughs.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "2" }]
+    },
+    {
+      "text": "The longtime butler of House Ladrian, who tried to murder Wax and was killed by the bomb he set off.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "9" }]
+    },
+    {
+      "text": "The longtime butler of House Ladrian, who secretly served Edwarn Ladrian and died trying to kill Wax on his orders.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "epilogue" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Early life",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "epilogue" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Nothing is known of how Tillaume came to Ladrian Mansion, but he served High Lord Edwarn Ladrian for many years and knew of his secret dealings with the Set. When Edwarn faked his death, Tillaume went with him to the manor house where the family was staying, and stayed in contact with him afterwards.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "epilogue" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Serving Waxillium",
+          "revealedIn": [
+            { "book": "alloy-of-law", "chapter": "2" },
+            { "book": "alloy-of-law", "chapter": "3" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "When Wax, ashamed after a disastrous night in the city, gave him his guns to store safely, Tillaume spent the following months quietly steering him from his Roughs habits toward the model lord he wanted. He helped Wax dress for his meeting with Jackstom Harms and Lady Steris, served refreshments and saw the guests out.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "2" }]
+        },
+        {
+          "text": "Tillaume was taken aback when Wax began looking into the Vanishers. He tried to steer him back to his duties, reminding him that the house ledgers needed review and that his people relied on him: whatever Wax had been as a lawman, they now needed a great lord.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "3" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Assassination attempt",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "9" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "The day after the wedding dinner attack, Tillaume fretted over Wax's lavish spending on metallurgy equipment and showed Marasi up to his study, disapproving of the visit. He then prepared to poison Wax's tea and disguise the killing as an explosion of that equipment, sending the staff off on errands and drugging Limmi and Miss Grimes, whom he hid in the pantry.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "9" }]
+        },
+        {
+          "text": "A novice at murder, Tillaume nervously made only one cup of tea, which Wayne seized and drank. When Wayne felt the poison and raised the alarm, Tillaume tried to shoot Wax, who drove a metal button into him. While the others tended Wayne, Tillaume crawled to his hidden bomb and set it off, dying in the blast they escaped.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "9" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Legacy",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "epilogue" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Tillaume had moved Wax's guns and mistcoat to the foundry beneath the Ironspine, where Wax recovered them for his final clash with Miles. Wax also reasoned that a loyal servant of so many years would hardly take a Vanisher bribe, and the betrayal helped convince him that Edwarn was still alive.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "epilogue" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "An aging man with a long face, Tillaume usually wears a black butler's uniform with white gloves.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "7" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Tillaume adores tea and can blend almost any kind from a few base ingredients, tuning a mix for flavor or for effects such as alertness or a clear head. He will press his master until he picks a tea, whether or not he asked for one.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "3" }]
+    },
+    {
+      "text": "Trained as a servant in the old Terris tradition, Tillaume moves with unhurried certainty and keeps his feelings hidden. He is deeply conservative, devoted to duty, responsibility and decorum, worries over the house's finances and dislikes Wax spending money, and can convey his opinion with a single look, raised eyebrow or rolled eyes.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "7" }]
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "intro": [
+    {
+      "text": "A stretch of time in the middle of the Rosharan year, free of highstorms, when the Middlefest Fair is held.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "45" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "The Middlefest Fair is held each year during Midpeace, a time without highstorms.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "45" }]
+    },
+    {
+      "text": "The Rosharan year lasts 500 days and ends with the Weeping, four weeks of rain. Midpeace falls halfway between one Weeping and the next. Highstorms come more often as it nears and after it ends, but never during it.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "76" },
+            { "book": "oathbringer", "chapter": "58" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "It is the longest dry spell on Roshar. Ordinary storms are rare, so many rivers have dried up by the time it ends.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "76" },
+            { "book": "oathbringer", "chapter": "58" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Rosharans use its fair weather for festivals and travel; Yokska speaks of travelling to Liafor at Midpeace to catch the newest fashions.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "44" },
+            { "book": "words-of-radiance", "chapter": "45" },
+            { "book": "oathbringer", "chapter": "69" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [],
+  "facts": [
+    {
+      "label": "Falls between",
+      "name": "Two Weepings",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "76" },
+            { "book": "oathbringer", "chapter": "58" }
+          ]
+        }
+      ]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "yokska",
+      "role": "Dressmaker",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "44" },
+            { "book": "words-of-radiance", "chapter": "45" },
+            { "book": "oathbringer", "chapter": "69" }
+          ]
+        }
+      ]
+    }
+  ]
+}

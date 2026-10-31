@@ -1,0 +1,40 @@
+{
+  "intro": [
+    {
+      "text": "An elder and teacher in the Village, Elendel's Terris enclave.",
+      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "prologue" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Teaching in the Village",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "prologue" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Around 314 PC, Tellingdwar instructed young Terris pupils in the old traditions, and one evening gave a recitation on Preservation and metal. When fifteen-year-old Asinthew, as Wax was known there, asked about violence in the Village, Tellingdwar told him of a couple he had known: fifteen years before, the husband shot his wife with a gun of unknown origin. The Terris, he said, were no better than other people.",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "prologue" }]
+        },
+        {
+          "text": "He was one of the Terris who found the gruesome aftermath when Wax had no choice but to kill Forch.",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "prologue" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Short, with a shaved head and bright yellow and orange robes in the traditional style of a Terris steward.",
+      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "prologue" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Peaceable, frank and steeped in Terris tradition, with a steward's habit of turning any conversation into a lesson. Vwafendal relies on his reports of Asinthew's progress.",
+      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "prologue" }]
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "intro": [
+    {
+      "text": "A corrupt Elendel senator and Rioter, brother of Governor Replar Innate, who sells his vote to the highest bidder.",
+      "revealedIn": [{ "book": "shadows-of-self", "chapter": "1" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Senator",
+          "revealedIn": [
+            { "book": "shadows-of-self", "chapter": "6" },
+            { "book": "shadows-of-self", "chapter": "1" },
+            { "book": "shadows-of-self", "chapter": "5" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Winsting became a senator when his brother won the governorship. The constabulary knew he was corrupt, but his brother's protection and his family's popularity shielded him, and his small-time schemes seemed hardly worth the trouble.",
+          "revealedIn": [{ "book": "shadows-of-self", "chapter": "6" }]
+        },
+        {
+          "text": "He held a party to auction his senate vote to crime lords and nobles, passing it off as the sale of his latest painting. When gunfire broke out in the ballroom, his bodyguard Flog hurried him to his saferoom. Flog came back to say everyone upstairs was dead, and then someone grabbed Winsting by the hair and slit his throat.",
+          "revealedIn": [{ "book": "shadows-of-self", "chapter": "1" }]
+        },
+        {
+          "text": "The broadsheets covered his murder sensationally, and the many criminals at his party stirred fears of corruption in government. Wax, Wayne and Marasi took up the case.",
+          "revealedIn": [{ "book": "shadows-of-self", "chapter": "5" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Well dressed, in a stiff white shirt and cravat, with diamond cufflinks set in wood, presumably so they carry no metal.",
+      "revealedIn": [{ "book": "shadows-of-self", "chapter": "1" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Unscrupulous, cynical and materialistic, he calls the old tales of the Final Ascension fanciful legends. He is careful, Riots people even when there is no need, and keeps a Seeker to make sure no one else uses Allomancy around him. He paints, and thinks he is getting better.",
+      "revealedIn": [{ "book": "shadows-of-self", "chapter": "1" }]
+    }
+  ]
+}

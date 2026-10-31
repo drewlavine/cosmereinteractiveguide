@@ -1,0 +1,33 @@
+{
+  "intro": [
+    {
+      "text": "A religion of Nalthis centered on the Returned. After the Manywar it rose to prominence in Hallandren and grew into the Iridescent Tones.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "epilogue" }]
+    }
+  ],
+  "description": [],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "After the Manywar",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "epilogue" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "When the Manywar broke Hanald apart, Austrism turned against Awakening as an abomination and branded worship of the Returned pagan, as its followers still do. In Hallandren the Cult of Returned gained prominence and developed into the Iridescent Tones.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "epilogue" }]
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Became",
+      "name": "Iridescent Tones",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "epilogue" }]
+    }
+  ],
+  "people": []
+}

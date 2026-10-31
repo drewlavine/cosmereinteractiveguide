@@ -1,0 +1,43 @@
+{
+  "intro": [
+    {
+      "text": "A silver vein close to the village of Rivershore.",
+      "revealedIn": [{ "book": "fires-of-december", "chapter": "ii" }]
+    }
+  ],
+  "description": [],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Tap's discovery",
+          "revealedIn": [{ "book": "fires-of-december", "chapter": "ii" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Tap found the vein and at once told his friend Bark, who asked to be shown it. At the vein Bark killed Tap with his axe and piled rocks over the body so it would pass for a landslide. On the way home he got lost, and though he reached town, he could never find the vein again.",
+          "revealedIn": [{ "book": "fires-of-december", "chapter": "ii" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "December's claim",
+          "revealedIn": [{ "book": "fires-of-december", "chapter": "ii" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "In the life December first lived through, Bark spent ten years hunting for the cache, setting out whenever the tavern threw him out for rowdiness, and she doubted it was real. Three years after she left him he found it; the town celebrated and the king paid him a hundred gold. Long afterward she pieced together what had happened.",
+          "revealedIn": [{ "book": "fires-of-december", "chapter": "ii" }]
+        },
+        {
+          "text": "Once that life ended, December went to the reeve, told him of Tap's murder, showed him the vein and claimed the gold herself.",
+          "revealedIn": [{ "book": "fires-of-december", "chapter": "ii" }]
+        }
+      ]
+    }
+  ]
+}

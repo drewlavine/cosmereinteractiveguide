@@ -1,0 +1,145 @@
+{
+  "intro": [
+    {
+      "text": "The war in which the Sunmaker brought down the Hierocracy and ended its rule over Roshar.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "36" }]
+    }
+  ],
+  "description": [],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The Hierocracy",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "26" },
+                { "book": "words-of-radiance", "chapter": "3" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The Vorin church controlled much of the world and hid its doctrine from ordinary people, teaching them to follow the ardents rather than the Heralds or the Almighty. Its highest ardents claimed visions from the Almighty, a mystery no common person could share.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "26" },
+                { "book": "words-of-radiance", "chapter": "3" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "At its height the Hierocracy ruled most of eastern Roshar.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "26" },
+                { "book": "words-of-radiance", "chapter": "3" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The war",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "52" },
+                { "book": "words-of-radiance", "chapter": "1" },
+                { "book": "oathbringer", "chapter": "75" }
+              ]
+            },
+            { "book": "way-of-kings", "chapter": "36" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The Sunmaker led the fight against the Hierocracy before it could spread into western Roshar. He joined the ten princedoms of Alethkar into one nation for the first time since Alethela fell.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "52" },
+                { "book": "words-of-radiance", "chapter": "1" },
+                { "book": "oathbringer", "chapter": "75" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "His Alethi armies, driven by the Thrill and including a cavalry company famed for its speed, fought battles unmatched on Roshar ever since. The Hierocracy fell, and in the chaos many eastern cities were sacked, though Kholinar was spared.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "52" },
+                { "book": "words-of-radiance", "chapter": "1" },
+                { "book": "oathbringer", "chapter": "75" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "The Sunmaker questioned the surviving priests and read their letters himself, then announced there was no evidence for their visions and that the church had committed a vast fraud. Its central leadership was destroyed.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "36" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Aftermath",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "54" },
+            { "book": "oathbringer", "chapter": "42" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Vorinism was broken up into the devotaries. Ardents could teach the law but no longer enforce it, were barred from politics and from owning property, and became the property of lighteyes.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "54" }]
+        },
+        {
+          "text": "Ardents today are still embarrassed by these events and avoid talking about them.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "54" }]
+        },
+        {
+          "text": "Sadees, the Sunmaker, claimed a mandate from the Almighty, crowned himself king of a united Alethkar and set out to conquer the world, starting with Herdaz and reaching at least Azimir, where he killed a tenth of the Azish people.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "42" }]
+        },
+        {
+          "text": "He never chose an heir, so after his death his ten sons fought over the kingdom until they split it into ten princedoms, each ruled by a highprince.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "42" }]
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Led by",
+      "name": "The Sunmaker",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "36" }]
+    },
+    {
+      "label": "Opponent",
+      "name": "The Hierocracy",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "36" }]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "sadees",
+      "role": "Leader",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "42" }]
+    }
+  ]
+}

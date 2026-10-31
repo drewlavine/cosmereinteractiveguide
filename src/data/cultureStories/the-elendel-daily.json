@@ -1,0 +1,32 @@
+{
+  "intro": [
+    {
+      "text": "A broadsheet in Elendel. Marasi buys its afternoon edition to follow the story of the Winsting Innate killings.",
+      "revealedIn": [{ "book": "shadows-of-self", "chapter": "5" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "It is prone to sensationalism.",
+      "revealedIn": [{ "book": "shadows-of-self", "chapter": "5" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The Innate killings",
+          "revealedIn": [{ "book": "shadows-of-self", "chapter": "6" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "The Daily put out a late edition with more details of the killings at Winsting Innate's auction.",
+          "revealedIn": [{ "book": "shadows-of-self", "chapter": "6" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": []
+}

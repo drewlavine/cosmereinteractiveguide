@@ -178,6 +178,29 @@
       ]
     }
   ],
+  "mechanics": [
+    {
+      "title": [
+        {
+          "text": "Enclosing spren and Blades",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "129" },
+            { "book": "wind-and-truth", "chapter": "135" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "A completely aluminum-lined room prevents a Shardblade from being summoned.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "129" }]
+        },
+        {
+          "text": "Aluminum barriers keep spren out and interrupt the awareness between a Blade and its bearer.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "135" }]
+        }
+      ]
+    }
+  ],
   "facts": [
     {
       "label": "Allomancy",

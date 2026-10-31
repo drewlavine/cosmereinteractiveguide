@@ -1,0 +1,29 @@
+{
+  "intro": [
+    {
+      "text": "A sea on Roshar.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "i-4" }]
+    },
+    {
+      "text": "A large, deep channel of sea between the islands of Aimia and the coast of Shinovar, opening into the Endless Ocean.",
+      "revealedIn": ["oathbringer"]
+    }
+  ],
+  "description": [],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The voyage of the First Dreams",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "i-4" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Kaza sailed across it aboard the First Dreams, leaving Liafor in search of Akinah, where they hoped to make a fortune in gemhearts.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "i-4" }]
+        }
+      ]
+    }
+  ]
+}

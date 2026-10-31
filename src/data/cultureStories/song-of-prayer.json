@@ -1,0 +1,38 @@
+{
+  "intro": [
+    {
+      "text": "A song singers can use to make Voidlight spheres.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "67" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Odium's forces are not seen singing it in battle, even when they run short of Voidlight.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "67" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The occupation of Urithiru",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "67" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Because singing the Song of Prayer might catch Odium's attention, Venli did not dare make Voidlight spheres of her own during the occupation.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "67" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "venli",
+      "role": "avoided it",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "67" }]
+    }
+  ]
+}

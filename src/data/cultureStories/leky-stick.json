@@ -1,0 +1,48 @@
+{
+  "intro": [
+    {
+      "text": "A sport, and King Eventeo of Teod's favourite.",
+      "revealedIn": [{ "book": "elantris", "chapter": "2" }]
+    },
+    {
+      "text": "A sport invented in Svorden and still played in several nations, though Svorden has been annexed by the Fjordell Empire. It is King Eventeo of Teod's favourite.",
+      "revealedIn": [{ "book": "elantris", "chapter": "5" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "When Sarene was a girl, Eventeo nicknamed her \"leky stick\" because she was as tall and thin as the pole that marks the goal line.",
+      "revealedIn": [{ "book": "elantris", "chapter": "2" }]
+    },
+    {
+      "text": "Eventeo tells Raoden where the nickname comes from, and Raoden, delighted, uses it to tease Sarene all the time.",
+      "revealedIn": [{ "book": "elantris", "chapter": "epilogue" }]
+    }
+  ],
+  "history": [],
+  "facts": [
+    {
+      "label": "Origin",
+      "name": "Svorden",
+      "placeId": "svorden",
+      "revealedIn": [{ "book": "elantris", "chapter": "5" }]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "eventeo",
+      "role": "fan",
+      "revealedIn": [{ "book": "elantris", "chapter": "2" }]
+    },
+    {
+      "characterId": "sarene",
+      "role": "nicknamed for it",
+      "revealedIn": [{ "book": "elantris", "chapter": "2" }]
+    },
+    {
+      "characterId": "raoden",
+      "role": "uses the nickname",
+      "revealedIn": [{ "book": "elantris", "chapter": "epilogue" }]
+    }
+  ]
+}

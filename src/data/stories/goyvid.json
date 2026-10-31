@@ -1,0 +1,38 @@
+{
+  "intro": [
+    {
+      "text": "A royal Megalith guide in Kingseat, who shows visitors around the demon.",
+      "revealedIn": [{ "book": "fires-of-december", "chapter": "xxv" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Tour of the Megalith",
+          "revealedIn": [
+            { "book": "fires-of-december", "chapter": "xxv" },
+            { "book": "fires-of-december", "chapter": "xxviii" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Goyvid led the Megalith tour December joined, meaning to slip away and spy on Flint's meeting with the hexers. He had read up on her beforehand and told her he'd heard a great deal about her.",
+          "revealedIn": [{ "book": "fires-of-december", "chapter": "xxv" }]
+        },
+        {
+          "text": "December quizzed him at length about the Ever-Slaying Sword and the heart of the demon. Once the group reached the gallery, Amaal pulled him into a talk about the Prophet while December crept off. When she came back, she had Dmitrovik tell Goyvid she felt ill and had gone to her carriage, and she waved to him on her way out.",
+          "revealedIn": [{ "book": "fires-of-december", "chapter": "xxviii" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "A pleasant young man with fashionable black hair and a gap in his teeth. On the tour he wore a brilliant white suit streaked with red, with two folds at the back like the covers of an open book.",
+      "revealedIn": [{ "book": "fires-of-december", "chapter": "xxv" }]
+    }
+  ],
+  "personality": []
+}

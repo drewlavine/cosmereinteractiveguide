@@ -157,6 +157,27 @@
     {
       "title": [
         {
+          "text": "Deadeye partnerships",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "135" },
+            { "book": "wind-and-truth", "chapter": "147" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Maya brought deadeyes to help defend Azimir, where they willingly became Blades for its defenders.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "135" }]
+        },
+        {
+          "text": "The Unoathed can summon their Blades without gemstones or Stormlight. Their spren can make small changes to a Blade's dimensions or dull its edge.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "147" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
           "text": "Summoning and bonding",
           "revealedIn": [
             { "book": "way-of-kings", "chapter": "prologue" },

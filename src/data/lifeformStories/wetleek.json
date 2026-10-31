@@ -1,0 +1,23 @@
+{
+  "intro": [
+    {
+      "text": "A plant whose sap makes horses pass water, and which keeps its glow in their urine.",
+      "revealedIn": ["shadows-for-silence"]
+    }
+  ],
+  "description": [
+    {
+      "text": "When hunting a bounty, Silence mixes wetleek sap into the water of her quarry's horse, then follows the glowing trail with glowpaste.",
+      "revealedIn": ["shadows-for-silence"]
+    }
+  ],
+  "history": [],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "silence-montane",
+      "role": "tracker",
+      "revealedIn": ["shadows-for-silence"]
+    }
+  ]
+}

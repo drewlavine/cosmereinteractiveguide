@@ -1,0 +1,28 @@
+{
+  "intro": [
+    {
+      "text": "Allomancer Jak's Terrisman steward, a Duralumin Ferring.",
+      "revealedIn": ["allomancer-jak"]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        { "text": "Working with Jak", "revealedIn": ["allomancer-jak"] }
+      ],
+      "items": [
+        {
+          "text": "Handerwym followed the explorer Jak as steward and companion on his adventures in the Roughs, saving his life many times. He also edited and annotated the stories Jak published, no easy task: he once had to cut sixteen needless commas from one page, and Jak believed the word koloss was improved by spelling it Kol!oss.",
+          "revealedIn": ["allomancer-jak"]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": [
+    {
+      "text": "Often apart from Jak when the action happens, he doubts much of what Jak describes, and his notes are full of sarcasm. Jak's spelling and grammar exasperate him, as do readers who buy the stories unedited; he finds improving Jak's writing harder than any adventure in the Roughs. He left Elendel because its public's dimness was driving him mad.",
+      "revealedIn": ["allomancer-jak"]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "intro": [
+    {
+      "text": "A monastery cut into a ravine in western Shinovar.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "70" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Only a few keepers' homes surround it. A high skylight illuminates the grand hall, whose floor bears a mural of Shush.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "72" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The return to Shinovar",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "71" },
+            { "book": "wind-and-truth", "chapter": "72" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Szeth found the Honorbearer hiding among illusions of Shush. He defeated him and recovered the Lightweaver Honorblade, freeing the acolytes concealed by the illusions.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "71" }]
+        },
+        {
+          "text": "The Truthwatcher Honorbearer then attacked Szeth among the released acolytes. Kaladin stopped her, and the party continued toward the remaining monasteries.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "72" }]
+        }
+      ]
+    }
+  ]
+}

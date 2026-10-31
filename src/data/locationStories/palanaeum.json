@@ -59,6 +59,20 @@
           "revealedIn": [{ "book": "oathbringer", "chapter": "111" }]
         }
       ]
+    },
+    {
+      "title": [
+        {
+          "text": "Before the contest",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "i-6" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Odium visited Battar in the library and offered her stewardship of a world in exchange for her help.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "i-6" }]
+        }
+      ]
     }
   ]
 }

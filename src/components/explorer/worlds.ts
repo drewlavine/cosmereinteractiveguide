@@ -14,7 +14,9 @@ import { SKY, type WorldMap } from './sky'
 export const cityOn = (mapId: string, canSee: CanSee) => {
   const parent = journeyAtlas.map(mapId)?.parent
   const on = parent && journeyAtlas.map(parent.mapId)
-  return on && !on.overview && canSee(on.revealedIn) ? parent : undefined
+  return parent && on && !parent.whole && !on.overview && canSee(on.revealedIn)
+    ? parent
+    : undefined
 }
 
 /** The map a city's map sits on, and the one that sits on, and so on. */

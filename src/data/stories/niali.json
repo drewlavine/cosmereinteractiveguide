@@ -1,0 +1,26 @@
+{
+  "intro": [
+    {
+      "text": "A philosopher known as Niali the Just.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "5" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Philosophy",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "5" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Shallan Davar had read Niali's work and named the philosopher when Jasnah Kholin tested her skill in logic.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "5" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

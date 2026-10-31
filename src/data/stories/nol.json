@@ -1,0 +1,35 @@
+{
+  "intro": [
+    {
+      "text": "The father of an Iriali family stranded in the emberdark when their small ship goes down, and rescued by the Dynamic's crew.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "27" }],
+      "fallback": true
+    },
+    {
+      "text": "Nol, an Iriali man, likely of Zidorna, Crux's husband and the father of their son. He speaks Yolish, and his hair is the gold common among the Iriali.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "30" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Lost in the emberdark",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "30" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "A map passed down in Nol's family showed part of the Long Trail record and a hidden perpendicularity. Hoping to find it, the family sold all they had for a ship, but misread the coordinates because of a shifted character in old Iriali. When fire broke out in the cockpit in the wrong stretch of the emberdark, they set out Invested floats and a beacon, which drew both the Dynamic and an entity.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "30" }]
+        },
+        {
+          "text": "Rescued, the family hid the real reason for their voyage. Once they reached Silverlight, where relatives worked at the university, Nol told Starling the truth and handed her the map, in thanks and so he would not be tempted to try anything so foolish again.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "30" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

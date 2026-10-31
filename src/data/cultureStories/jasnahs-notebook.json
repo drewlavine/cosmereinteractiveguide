@@ -1,0 +1,93 @@
+{
+  "intro": [
+    {
+      "text": "Jasnah's notebooks hold the notes Jasnah Kholin has kept on many subjects over several years.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "42" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "In Kharbranth, Jasnah keeps three notebooks on particular subjects: one on Urithiru, one on the Voidbringers, and one on Natanatan and the Shattered Plains.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "42" }]
+    },
+    {
+      "text": "She jots quotes, notes and observations in general notebooks; once one is full she reviews it and copies the useful passages into the notebooks on specific subjects.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "42" },
+            { "book": "words-of-radiance", "chapter": "40" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Another notebook covers Alethi politics and notable people, though by the time Shallan reaches the Shattered Plains much of it is badly out of date or simply wrong.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "42" },
+            { "book": "words-of-radiance", "chapter": "40" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Her research",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "prologue" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "After her father, King Gavilar, was murdered, Jasnah spent much of her time learning all she could about the Voidbringers and Urithiru, hoping to understand the night of his death.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "prologue" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Lost at sea",
+          "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "11" },
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "11" },
+                { "book": "oathbringer", "chapter": "47" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "When the ship sank, Shallan found one of Jasnah's trunks washed ashore, with Jasnah's books and notes still dry inside.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "11" }]
+        },
+        {
+          "text": "The other two trunks of notebooks were lost at sea after the failed attempt on Jasnah's life. She had sent duplicates of her key papers by spanreed to people she trusted, and used them to rebuild the lost notebooks almost completely.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "11" },
+                { "book": "oathbringer", "chapter": "47" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "jasnah-kholin",
+      "role": "author",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "42" }]
+    }
+  ]
+}

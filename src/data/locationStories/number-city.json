@@ -1,0 +1,29 @@
+{
+  "intro": [
+    {
+      "text": "The only Cryptic city in Shadesmar, where most Cryptics live.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "oathbringer", "chapter": "47" },
+            { "book": "rhythm-of-war", "chapter": "26" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "The Cryptics have no wish to expand beyond what they already hold.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "oathbringer", "chapter": "47" },
+            { "book": "rhythm-of-war", "chapter": "26" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": []
+}

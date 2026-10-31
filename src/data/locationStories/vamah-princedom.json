@@ -1,0 +1,51 @@
+{
+  "intro": [
+    {
+      "text": "One of the ten princedoms of Alethkar.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "58" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Its grass grows far longer than in central Alethkar, reaching about waist height, and Ryshadium, rare in the eastern princedoms, are occasionally seen there.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "26" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Gavilar's war of unification",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "26" },
+            { "book": "oathbringer", "chapter": "45" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The princedom's leaders resisted Gavilar Kholin for most of his campaign to reunite Alethkar, though it was close to changing sides by the time the fighting reached it. The Kholin defeat of Highlord Kalanor's army was the turning point that ended the war.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "26" }]
+        },
+        {
+          "text": "After Dalinar killed Kalanor in 1145, Loradar Vamah, who favoured Gavilar's cause, became highprince and swore fealty to House Kholin, a handover Gavilar had arranged. When the Alethi marched to the Shattered Plains, Loradar's relative Highlord Paladar was left as regent.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "45" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The Vengeance Pact",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "24" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "After King Gavilar's death in 1167, Highprince Vamah called his people to arms to fulfil the Vengeance Pact. In Farcoast, one in every two men of age enlisted.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "24" }]
+        }
+      ]
+    }
+  ]
+}

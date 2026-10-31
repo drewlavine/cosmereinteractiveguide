@@ -1,0 +1,86 @@
+{
+  "intro": [
+    {
+      "text": "The defense of Narak against Odium's army during the countdown to the contest of champions.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "20" }]
+    }
+  ],
+  "description": [],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The defense",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "47" },
+            { "book": "wind-and-truth", "chapter": "67" },
+            { "book": "wind-and-truth", "chapter": "74" },
+            { "book": "wind-and-truth", "chapter": "81" },
+            { "book": "wind-and-truth", "chapter": "91" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Sigzil took command and planned to sacrifice the outer plateaus to buy time for Narak and its Oathgate.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "47" }]
+        },
+        {
+          "text": "The Fused attacked Narak Four, and Sigzil killed a thunderclast before El arrived with reinforcements.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "67" }]
+        },
+        {
+          "text": "The defenders abandoned Narak Four as losses mounted.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "74" }]
+        },
+        {
+          "text": "Moash suppressed the Radiants' powers and killed Leyten and his spren.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "81" }]
+        },
+        {
+          "text": "Narak Three fell, leaving the defenders short of Stormlight as Venli's listeners arrived.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "91" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The withdrawal and treaty",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "118" },
+            { "book": "wind-and-truth", "chapter": "137" },
+            { "book": "wind-and-truth", "chapter": "146" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The listeners pretended to join the attack while preserving the retreat; Sigzil escaped after renouncing his oaths to save Vienta.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "118" }]
+        },
+        {
+          "text": "The Alethi had transferred the Plains to the listeners before the deadline, forcing El's army to leave.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "137" }]
+        },
+        {
+          "text": "Retribution recognized listener autonomy, and some Fused asked to remain with them.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "146" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "sigzil",
+      "role": "commander",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "20" }]
+    },
+    {
+      "characterId": "venli",
+      "role": "listener negotiator",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "137" }]
+    }
+  ]
+}

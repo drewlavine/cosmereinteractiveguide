@@ -1,0 +1,186 @@
+{
+  "intro": [
+    {
+      "text": "A surprise attack on Kae and Elantris by Dakhor monks of the Derethi church.",
+      "revealedIn": [{ "book": "elantris", "chapter": "57" }]
+    },
+    {
+      "text": "A surprise attack on Kae and Elantris by Dakhor monks, sent by the Wyrn of Fjorden and led by Dilaf. It failed, and Arelon kept its independence.",
+      "revealedIn": [{ "book": "elantris", "chapter": "63" }]
+    }
+  ],
+  "description": [],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Background",
+          "revealedIn": [{ "book": "elantris", "chapter": "3" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Hrathen came to Arelon with orders from Wyrn Wulfden the Fourth: the Arelene and the Teo had three months to convert to Shu-Dereth, and those who refused were to be killed.",
+          "revealedIn": [{ "book": "elantris", "chapter": "3" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The attack on Kae",
+          "revealedIn": [
+            { "book": "elantris", "chapter": "57" },
+            { "book": "elantris", "chapter": "58" },
+            { "book": "elantris", "chapter": "59" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Dilaf led Hrathen to Kae's market, where Dakhor monks in their warped fighting forms burst from the traders' tents. They went on to attack Elantris as well as Kae, killing New Elantrians and townsfolk alike.",
+          "revealedIn": [{ "book": "elantris", "chapter": "57" }]
+        },
+        {
+          "text": "Monks broke into Roial's mansion, and Dilaf overpowered Raoden before he could arm himself. Kiin and Lukel saved Sarene from a monk after the attack caught her coach.",
+          "revealedIn": [{ "book": "elantris", "chapter": "58" }]
+        },
+        {
+          "text": "Hrathen confronted Dilaf over a slaughter aimed at wiping out a nation he had meant to convert, and Dilaf asserted his authority as gragdet of Dakhor.",
+          "revealedIn": [{ "book": "elantris", "chapter": "58" }]
+        },
+        {
+          "text": "The monks captured Sarene and Kiin at Kiin's house, where Raoden was already held. Dilaf ran Raoden through with his sword and ordered the Elantrians gathered for burning.",
+          "revealedIn": [{ "book": "elantris", "chapter": "59" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The pyres",
+          "revealedIn": [
+            { "book": "elantris", "chapter": "60" },
+            { "book": "elantris", "chapter": "61" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Kiin held off three monks before he was overcome, and the captives were marched to Elantris, where pyres had been built.",
+          "revealedIn": [{ "book": "elantris", "chapter": "60" }]
+        },
+        {
+          "text": "Shuden and Lukel fought back but were overwhelmed. Below the mountain, Galladon and Karata held off Fjordell soldiers while Raoden drew a long line in the ground. Karata was killed and Galladon speared, but Raoden finished the line.",
+          "revealedIn": [{ "book": "elantris", "chapter": "61" }]
+        },
+        {
+          "text": "Light burst from the ground. The Elantrians walked unharmed from the pyres, and Raoden ordered the Fjordell soldiers out of Arelon and drove off the Dakhor monks.",
+          "revealedIn": [{ "book": "elantris", "chapter": "61" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Aftermath",
+          "revealedIn": [
+            { "book": "elantris", "chapter": "63" },
+            { "book": "elantris", "chapter": "epilogue" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The attacks the Wyrn sent against Arelon and Teod both failed, and the two nations stayed independent.",
+          "revealedIn": [{ "book": "elantris", "chapter": "63" }]
+        },
+        {
+          "text": "The burial ground of Hrathen and others was set aside as a memorial honouring those who died or fought in the invasion and the battles of Elantris and Teoras.",
+          "revealedIn": [{ "book": "elantris", "chapter": "epilogue" }]
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Location",
+      "name": "Kae and Elantris",
+      "revealedIn": [{ "book": "elantris", "chapter": "57" }]
+    },
+    {
+      "label": "Attackers",
+      "name": "Dakhor monks",
+      "revealedIn": [{ "book": "elantris", "chapter": "57" }]
+    },
+    {
+      "label": "Led by",
+      "name": "Dilaf",
+      "characterId": "dilaf",
+      "revealedIn": [{ "book": "elantris", "chapter": "57" }]
+    },
+    {
+      "label": "Sent by",
+      "name": "The Wyrn",
+      "characterId": "wulfden-the-fourth",
+      "revealedIn": [{ "book": "elantris", "chapter": "63" }]
+    },
+    {
+      "label": "Outcome",
+      "name": "The attack failed",
+      "revealedIn": [{ "book": "elantris", "chapter": "63" }]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "dilaf",
+      "role": "leader",
+      "revealedIn": [{ "book": "elantris", "chapter": "57" }]
+    },
+    {
+      "characterId": "hrathen",
+      "role": "witness",
+      "revealedIn": [{ "book": "elantris", "chapter": "57" }]
+    },
+    {
+      "characterId": "raoden",
+      "role": "captive",
+      "revealedIn": [{ "book": "elantris", "chapter": "58" }]
+    },
+    {
+      "characterId": "sarene",
+      "role": "captive",
+      "revealedIn": [{ "book": "elantris", "chapter": "59" }]
+    },
+    {
+      "characterId": "kiin",
+      "role": "defender",
+      "revealedIn": [{ "book": "elantris", "chapter": "58" }]
+    },
+    {
+      "characterId": "lukel",
+      "role": "defender",
+      "revealedIn": [{ "book": "elantris", "chapter": "58" }]
+    },
+    {
+      "characterId": "shuden",
+      "role": "defender",
+      "revealedIn": [{ "book": "elantris", "chapter": "61" }]
+    },
+    {
+      "characterId": "galladon",
+      "role": "defender",
+      "revealedIn": [{ "book": "elantris", "chapter": "61" }]
+    },
+    {
+      "characterId": "karata",
+      "role": "defender",
+      "revealedIn": [{ "book": "elantris", "chapter": "61" }]
+    },
+    {
+      "characterId": "wulfden-the-fourth",
+      "role": "sent the monks",
+      "revealedIn": [{ "book": "elantris", "chapter": "63" }]
+    }
+  ]
+}

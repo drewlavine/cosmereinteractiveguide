@@ -1,0 +1,52 @@
+{
+  "intro": [
+    {
+      "text": "Patji, whom Dusk curses as the nightmaws close in, for always trying to kill him.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "16" }],
+      "fallback": true
+    },
+    {
+      "text": "A presence Dusk believes is Patji, which speaks to him in the dark; Navigation is said to be of Patji.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "33" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Eelakin belief",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "38" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "The Eelakin pray to Patji, calling it the Father or the Father island. They believe Patji made their world and gave power to its servant the Dakwara, who bore the homeisles, after which the other gods came down as islands to join Patji.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "38" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "With Dusk",
+          "revealedIn": [
+            { "book": "isles-of-the-emberdark", "chapter": "20" },
+            { "book": "isles-of-the-emberdark", "chapter": "33" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "When Vathi despaired, Dusk decided that Patji had been preparing them for exactly this all along.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "20" }]
+        },
+        {
+          "text": "A voice that Dusk took for Patji's told him he now had the tools he needed, and urged him to go and discover their will.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "33" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

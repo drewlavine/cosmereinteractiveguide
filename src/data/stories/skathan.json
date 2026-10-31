@@ -1,0 +1,33 @@
+{
+  "intro": [
+    {
+      "text": "The emperor who rules the Dynasty on Darkside.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "prologue" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Emperor",
+          "revealedIn": [
+            { "book": "white-sand-omnibus", "chapter": "11" },
+            { "book": "white-sand-omnibus", "chapter": "5" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Baon told Khriss that Skathan never seemed to age and was said to have lived for centuries, and hinted that he had other powers too. He lived in the Darkside nation of Iiaria.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "11" }]
+        },
+        {
+          "text": "Skathan had ruled the Dynasty with absolute power for at least a century, holding back new technology such as pistols, restricting rights like travel between provinces, and commanding an army of starcarved. He hid the fact that Darksiders lived in Kezare's Lonzare quarter, to keep traffic between the two sides secret.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "5" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

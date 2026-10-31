@@ -58,6 +58,7 @@ stays `/`. To check a Pages build on your machine, run
 src/
   components/Layout.tsx   App shell and animated route transitions
   navigation.ts           Main side-nav sections; add them here (`comingSoon` = placeholder page)
+  components/browse/      The list pages' shared cards, group page and A–Z page; each list (Characters, Magic, Culture, Locations, Lifeforms, Events) hands `BrowseList` its groupings
   routes/                 StarMap, SystemView, PlanetDetail, LocationDetail, AbilityList, CultureList, CharacterList, CharacterDetail, Books, BookDetail, SearchPage, ComingSoon, NotFound, RouteError
   routes.tsx              Route table (shared by app and tests)
   data/types.ts           StarSystem / Planet / Character schema

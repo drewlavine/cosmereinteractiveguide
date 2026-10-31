@@ -1,0 +1,38 @@
+{
+  "intro": [
+    {
+      "text": "A guard at the Rose Palace who watches over Shai while she crafts the emperor's Essence Mark.",
+      "revealedIn": [{ "book": "emperors-soul", "chapter": "day-97" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Guarding the Forger",
+          "revealedIn": [
+            { "book": "emperors-soul", "chapter": "day-97" },
+            { "book": "emperors-soul", "chapter": "day-98" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Shai forged a letter that seemed to come from the Bloodsealer, persuading him that the Bloodsealer was gathering the guards' nails, hair and belongings to take over their bodies. He and Yil went and beat the Bloodsealer.",
+          "revealedIn": [{ "book": "emperors-soul", "chapter": "day-97" }]
+        },
+        {
+          "text": "Afterwards the Bloodsealer drank too much and came too late to renew the seal on her room. Shai expected Hurli and her other guards to be sent off to some remote post, perhaps watching the passes to the Teo Peninsula.",
+          "revealedIn": [{ "book": "emperors-soul", "chapter": "day-98" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": [
+    {
+      "text": "A father of two small children, he is carrying on an affair with a fellow guard. In secret he would rather have been a carpenter like his father, and he plays dumber than he is to win at cards.",
+      "revealedIn": [{ "book": "emperors-soul", "chapter": "day-97" }]
+    }
+  ]
+}

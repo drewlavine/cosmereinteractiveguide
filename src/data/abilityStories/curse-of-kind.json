@@ -1,0 +1,23 @@
+{
+  "intro": [
+    {
+      "text": "A curse that Axies the Collector says follows him around, bringing bad luck to whoever deals with him.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "i-5" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Living with it has taught Axies to take whatever happens to him in stride and simply adjust.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "i-5" }]
+    }
+  ],
+  "history": [],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "axies",
+      "role": "Cursed",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "i-5" }]
+    }
+  ]
+}

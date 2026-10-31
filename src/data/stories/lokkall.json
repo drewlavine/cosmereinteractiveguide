@@ -1,0 +1,33 @@
+{
+  "intro": [
+    {
+      "text": "The head of the Shipowners' Circle in Lraezare, who is made Lord Admiral of the Helm, a post with no real power.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "15" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Lord Admiral",
+          "revealedIn": [
+            { "book": "white-sand-omnibus", "chapter": "15" },
+            { "book": "white-sand-omnibus", "chapter": "18" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "When Kenton and Delius came to his house, Lokkall denied knowing where Vey was and gloated that the Circle had sent Delius's ship away and voted to strip him of his post. Delius then produced a fleet of his own and threatened Kezare's port, and the Circle unanimously made Lokkall Lord Admiral, with Delius holding his ships until he voted for the Diem.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "15" }]
+        },
+        {
+          "text": "Lokkall kept the bargain and voted for the Diem at the final vote.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "18" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

@@ -1,0 +1,102 @@
+{
+  "intro": [
+    {
+      "text": "The shadowdays are the part of Roshar's past that lies before recorded history.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "57" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Renarin mentions an age, after the shadowdays had ended, in which the Knights Radiant still existed, while Dalinar says the Recreance is so old it nearly belongs to them.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "52" }]
+    },
+    {
+      "text": "The era is marked by legendary weapons and powers. Honor forged the Honorblades, which the Heralds used against the Voidbringers, and to most Rosharans the Radiants' Surgebinding and glowing Shardplate are the stuff of myth.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "26" },
+            { "book": "words-of-radiance", "chapter": "4" },
+            { "book": "oathbringer", "chapter": "16" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Little art or writing survives from them, and much of what is known is pieced together from scraps, like a mosaic known only through a copy of a copy. The carved pillars in the eastern hall of the palace in Kholinar are one surviving work.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "28" },
+            { "book": "words-of-radiance", "chapter": "i-12" },
+            { "book": "oathbringer", "chapter": "111" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "The Way of Kings, surviving only in translation, was the one complete text from the time until the Dawnchant was translated and lost works such as the Eila Stele came back to light.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "28" },
+            { "book": "words-of-radiance", "chapter": "i-12" },
+            { "book": "oathbringer", "chapter": "111" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Where the shadowdays end is uncertain and varies from person to person. Most seem to include the era of the Silver Kingdoms, when the Knights Radiant were at their peak, with the shadowdays ending after the Last Desolation.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "52" },
+            { "book": "rhythm-of-war", "chapter": "8" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "People of the shadowdays",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "57" },
+            { "book": "rhythm-of-war", "chapter": "76" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Derethil, a king, and Nohadon, who wrote The Way of Kings, are believed to have lived in the shadowdays.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "57" }]
+        },
+        {
+          "text": "Raboniel lived in those days too, and could tell Navani what her grandmother had said about seeing humans first arrive on Roshar from Ashyn.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "76" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "derethil",
+      "role": "king",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "57" }]
+    },
+    {
+      "characterId": "nohadon",
+      "role": "author",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "57" }]
+    },
+    {
+      "characterId": "raboniel",
+      "role": "witness",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "76" }]
+    }
+  ]
+}

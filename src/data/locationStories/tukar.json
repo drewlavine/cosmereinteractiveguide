@@ -114,6 +114,20 @@
           "revealedIn": [{ "book": "oathbringer", "chapter": "122" }]
         }
       ]
+    },
+    {
+      "title": [
+        {
+          "text": "Before the contest",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "114" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "After Ishar departed for Shinovar, Odium gained influence in Tukar.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "114" }]
+        }
+      ]
     }
   ]
 }

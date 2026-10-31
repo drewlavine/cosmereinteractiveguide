@@ -1,0 +1,114 @@
+{
+  "intro": [
+    {
+      "text": "A flower from before the Lord Ruler's Ascension, after which the world had no flowers. Kelsier's wife, Mare, who collected pictures of the old era, kept a picture of one that puzzled Kelsier and Vin.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "17" }]
+    },
+    {
+      "text": "A flower of Scadrial, once known only from a picture Kelsier's wife Mare kept, that now grows on the Field of Rebirth, on the hill that leads up to the tombs of the Ascendant Warrior and the Last Emperor.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "17" },
+            { "book": "alloy-of-law", "chapter": "10" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "The Ghostbloods' insignia of three overlapping diamonds is based on the marewill flower.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "64" },
+            { "book": "lost-metal", "chapter": "20" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Mare's picture",
+          "revealedIn": [
+            { "book": "final-empire", "chapter": "17" },
+            { "book": "final-empire", "chapter": "35" },
+            { "book": "hero-of-ages", "chapter": "10" },
+            { "book": "hero-of-ages", "chapter": "62" },
+            { "book": "hero-of-ages", "chapter": "epilogue" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Mare held on to a scrap of paper showing a flower, a plant neither Kelsier nor Vin had ever seen.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "17" }]
+        },
+        {
+          "text": "OreSeur gave Vin a bag holding atium beads, a note, the Eleventh Metal and the flower picture Mare had treasured.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "35" }]
+        },
+        {
+          "text": "Vin left the picture with Sazed. Mare had been a follower of the Larsta religion.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "10" }]
+        },
+        {
+          "text": "Sazed found Mare's drawing tucked inside the journal of prophecy notes he had put together with Tindwyl.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "62" }]
+        },
+        {
+          "text": "Sazed drew on the picture, along with other Larsta descriptions of plants, to help restore the world, and left the original in one of his books for Spook.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "epilogue" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Flowers again",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "10" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Marewill flowers bloom across the Field of Rebirth, on the slope climbing toward the tombs and statues of the Ascendant Warrior and the Last Emperor.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "10" }]
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Grows at",
+      "name": "Field of Rebirth",
+      "placeId": "field-of-rebirth",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "10" }]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "mare",
+      "role": "owner",
+      "revealedIn": [{ "book": "final-empire", "chapter": "17" }]
+    },
+    {
+      "characterId": "vin",
+      "role": "keeper",
+      "revealedIn": [{ "book": "final-empire", "chapter": "35" }]
+    },
+    {
+      "characterId": "sazed",
+      "role": "keeper",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "10" }]
+    },
+    {
+      "characterId": "spook",
+      "role": "heir",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "epilogue" }]
+    }
+  ]
+}

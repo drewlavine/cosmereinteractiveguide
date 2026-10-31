@@ -1,0 +1,171 @@
+{
+  "intro": [
+    {
+      "text": "A religion of Scadrial from before the Final Empire, followed mainly by the Nelazan people, that worshipped the god Trell.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "9" }]
+    },
+    {
+      "text": "A religion of Scadrial from before the Final Empire, followed mainly by the Nelazan, that worshipped the god Trell. Autonomy made it to plant a seed of herself on Scadrial.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "9" },
+            { "book": "lost-metal", "chapter": "20" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "A faith of two brothers. Its followers loved the night, when the stars, the Thousand Eyes of Trell, watched over them, and thought daylight profane. Jealous Nalt shone his single eye, the sun, by day to hide Trell's eyes, but Trell still watched over them.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "9" }]
+    },
+    {
+      "text": "Sazed calls its teachings on the afterlife almost whimsical. Its doctrine was left vague on purpose, so followers could find truth for themselves, and they were taught to pray to Trell, who would answer.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "46" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The Nelazan",
+          "revealedIn": [
+            { "book": "final-empire", "chapter": "9" },
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "9" },
+                { "book": "hero-of-ages", "chapter": "82" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Sazed offers Trelagism to Vin, the fifth faith he has suggested to her, hoping she will share its love of the night. Its Nelazan followers lived where winter days and summer nights were very short, and he does not count them very advanced.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "9" }]
+        },
+        {
+          "text": "Sazed calls the Nelazan determined: they charted all the planets and major stars of the night sky. The Lord Ruler wiped out the faith's followers, but Keepers recovered their star charts and recorded their beliefs.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "9" },
+                { "book": "hero-of-ages", "chapter": "82" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Sazed's search",
+          "revealedIn": [
+            { "book": "hero-of-ages", "chapter": "46" },
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "9" },
+                { "book": "hero-of-ages", "chapter": "82" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Testing the faiths in his portfolio, Sazed reviews Trelagism, which he has long favoured, finds its doctrine vague and puts off judging it.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "46" }]
+        },
+        {
+          "text": "With the power he took up, Sazed drew on the Trelagists' star charts to put Scadrial back in its old orbit.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "9" },
+                { "book": "hero-of-ages", "chapter": "82" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Trellism",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "alloy-of-law", "chapter": "11" },
+                { "book": "bands-of-mourning", "chapter": "29" },
+                { "book": "lost-metal", "chapter": "20" }
+              ]
+            },
+            { "book": "lost-metal", "chapter": "20" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Miles Dagouter, Edwarn Ladrian and others call themselves followers of Trellism, which they trace back to Trelagism through the Words of Founding.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "alloy-of-law", "chapter": "11" },
+                { "book": "bands-of-mourning", "chapter": "29" },
+                { "book": "lost-metal", "chapter": "20" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Both faiths worship Trell, who is Autonomy, though the Set understands far more about her nature and the danger she brings to Scadrial.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "20" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "sazed",
+      "role": "Keeper",
+      "revealedIn": [{ "book": "final-empire", "chapter": "9" }]
+    },
+    {
+      "characterId": "vin",
+      "role": "listener",
+      "revealedIn": [{ "book": "final-empire", "chapter": "9" }]
+    },
+    {
+      "characterId": "miles-dagouter",
+      "role": "Trellist",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "alloy-of-law", "chapter": "11" },
+            { "book": "bands-of-mourning", "chapter": "29" },
+            { "book": "lost-metal", "chapter": "20" }
+          ]
+        }
+      ]
+    },
+    {
+      "characterId": "edwarn-ladrian",
+      "role": "Trellist",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "alloy-of-law", "chapter": "11" },
+            { "book": "bands-of-mourning", "chapter": "29" },
+            { "book": "lost-metal", "chapter": "20" }
+          ]
+        }
+      ]
+    }
+  ]
+}

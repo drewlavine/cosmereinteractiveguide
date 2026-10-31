@@ -1,0 +1,30 @@
+{
+  "intro": [
+    {
+      "text": "A port city in eastern Thaylenah, the nearest port to New Natanan on its southern side.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "6" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Captain Tozbek says a great many greatshells can be found there.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "34" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Tozbek's ship",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "34" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Tozbek's ship called at Amydlatn and took on a new young sailor and several other men, who had been told by Tyn to assassinate Jasnah.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "34" }]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "intro": [
+    {
+      "text": "The night gravekeeper at Seran New District Cemetery in New Seran, who robs the bodies in his care.",
+      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "12" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Seran New District Cemetery",
+          "revealedIn": [
+            { "book": "bands-of-mourning", "chapter": "12" },
+            { "book": "bands-of-mourning", "chapter": "14" },
+            { "book": "bands-of-mourning", "chapter": "15" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Wayne and Marasi came to the cemetery in disguise, knowing Dechamp stole from corpses, and after Wayne paid him he began digging up a fresh grave for an item of supposed sentimental value.",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "12" }]
+        },
+        {
+          "text": "Dechamp had secretly sent his assistant off with a code phrase to warn the cemetery's manager, Templeton Fig, of the visitors. As he dug the mass grave of an explosion's victims, sipping from a flask he would not share with Wayne, a hit squad hired by the Set opened fire, and Dechamp died in the first volley.",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "14" }]
+        },
+        {
+          "text": "In Dechamp's hut Wayne found his hidden booze and a ledger exposing the whole staff as grave robbers and Fig's part in the attack. Wayne and Marasi then used Dechamp's body to scare Fig into admitting his ties to the Set and revealing where the spike had gone.",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "15" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Dechamp is a small, greasy man with a blonde ponytail.",
+      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "14" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "He talks in a casual dialect with a clipped, rhythmic accent. A grave robber with few scruples, he happily takes bribes and drags his young assistant into his schemes. He drinks plenty of brandy, even on the job, and keeps his shovel sharp with a whetstone.",
+      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "15" }]
+    }
+  ]
+}

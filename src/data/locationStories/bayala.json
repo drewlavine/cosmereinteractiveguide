@@ -1,0 +1,25 @@
+{
+  "intro": [
+    {
+      "text": "A historical nation of Roshar during the Era of Solitude.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "104" }]
+    }
+  ],
+  "description": [],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The Era of Solitude",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "104" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Hessi's Mythica blames the collapse of Bayala's dynasty in 480 on great debauchery at court, which it attributes to the influence of the Unmade Ashertmarn.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "104" }]
+        }
+      ]
+    }
+  ]
+}

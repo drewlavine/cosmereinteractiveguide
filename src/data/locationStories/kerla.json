@@ -1,0 +1,38 @@
+{
+  "intro": [
+    {
+      "text": "A region of Dayside near Mount KraeDa, where the Diem of sand masters gathers for training and ceremonies.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "2" }]
+    },
+    {
+      "text": "Any part of Dayside where the sand is moderately deep and dorim vines lie close to the surface. It covers most of Kerzta, the lands north of Lossand and the area around Mount KraeDa.",
+      "revealedIn": ["white-sand-omnibus"]
+    }
+  ],
+  "description": [
+    {
+      "text": "Plants and animals abound under its sand, but the depth of the sand and the dorim vines stop sandlings from reaching a dangerous size. Because the vines are there, Daysiders do not count the Kerla as desert.",
+      "revealedIn": ["white-sand-omnibus"]
+    },
+    {
+      "text": "The Mastrell's Path lies at the southwestern foot of Mount KraeDa. To the east, a mountain range divides this part of the Kerla from the Rim Kingdoms of Tallon, Seevis and Denka.",
+      "revealedIn": ["white-sand-omnibus"]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Attack on the Diem",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "2" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "During one of the Diem's advancement ceremonies near Mount KraeDa, Kerztian warriors struck without warning and killed many of the sand masters.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "2" }]
+        }
+      ]
+    }
+  ]
+}

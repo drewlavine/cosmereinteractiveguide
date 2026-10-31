@@ -1,0 +1,75 @@
+{
+  "intro": [
+    {
+      "text": "A violent member of the Vanishers who robbed guests and took Marasi hostage at the Yomen-Ostlin wedding dinner.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "6" }]
+    },
+    {
+      "text": "Second in command of the Vanishers under Miles Dagouter, who in practice serves as Miles's enforcer rather than a leader.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "11" }]
+    },
+    {
+      "text": "A koloss-blooded Pewterarm and pewter savant, the enforcer and nominal second in command of Miles Dagouter's Vanishers.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "17" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The Vanishers",
+          "revealedIn": [
+            { "book": "alloy-of-law", "chapter": "6" },
+            { "book": "alloy-of-law", "chapter": "19" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "At the Yomen-Ostlin wedding dinner Tarson stripped the guests of their valuables, Wax and Wayne among them, and took Wayne's lucky hat. Working from drawings of the targeted nobles, he groped Marasi and seized her at gunpoint, also grabbing her notebook, which described him and other Vanishers.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "6" }]
+        },
+        {
+          "text": "Tarson held Marasi as a hostage until she smashed her head into his chin just as he fired at Wax, who then shot him in the arm.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "6" }]
+        },
+        {
+          "text": "During the raid on the Vanishers' lair, Tarson knocked Vindication out of Wax's hand, but Wayne arrived and took him on alone. Neither could gain the upper hand, so Tarson set the other Vanishers on Wayne to drive him off.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "19" }]
+        },
+        {
+          "text": "As part of Miles's plan to make Wax give up, Tarson used Marasi as a human shield. Wax killed him with a bullet he had made deflect into Tarson's head, a shot that also ruined Wayne's lucky hat.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "19" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "At the wedding dinner Tarson carried a shotgun as well as one of the aluminum pistols, and had aluminum foil lining his hat.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "5" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Though nominally second in command, Tarson shows no initiative and leads no one; a captured Vanisher said all he does is hit things. He carries out Miles's orders, needs plans explained to him, and is more violent than most of the gang, perhaps owing to his koloss blood and a Pewterarm's urge to act directly.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "11" }]
+    }
+  ],
+  "abilities": [
+    {
+      "title": [
+        {
+          "text": "Allomancy",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "17" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Tarson is a Pewterarm with koloss blood, and his use of pewter is strong enough to make him a savant.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "17" }]
+        }
+      ]
+    }
+  ]
+}

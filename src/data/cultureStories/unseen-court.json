@@ -1,0 +1,160 @@
+{
+  "intro": [
+    {
+      "text": "An organization of Lightweavers led by Shallan, who is known within it as the Master Lightweaver.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "20" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Newcomers are squires until they bond a spren, and Agent Lightweavers after that. Cryptics are quicker than other spren to bond humans.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "20" }]
+    },
+    {
+      "text": "The court has twenty members, about half men and half women. Those who have earned their own Shardblades could leave to gather squires of their own, but they stay together, and Shallan considers the court complete.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "20" }]
+    },
+    {
+      "text": "They train in a chamber deep beneath Urithiru, using Lightweaving to distract opponents. They practice swordwork mostly to make their disguises convincing, since fighting is a last resort.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "20" }]
+    },
+    {
+      "text": "The court serves the coalition of monarchs. Shallan values it most for spying, while Jasnah prizes its members' ability to Soulcast food far more.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "21" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Pursuit of the Sons of Honor",
+          "revealedIn": [
+            { "book": "rhythm-of-war", "chapter": "2" },
+            { "book": "rhythm-of-war", "chapter": "5" },
+            { "book": "rhythm-of-war", "chapter": "7" },
+            { "book": "rhythm-of-war", "chapter": "115" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Disguised as Chanasha, a lowborn lighteyed merchant, Shallan spent a long time trying to get the Sons of Honor to kidnap her and initiate her into their cult, with Adolin's troops following in secret. At last she was drugged and carried off.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "2" }]
+        },
+        {
+          "text": "Red, one of Shallan's people, had already slipped into the cult in disguise, but was never thought important enough to meet Ialai Sadeas. While the cultists held Shallan, he quietly asked her for orders.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "5" }]
+        },
+        {
+          "text": "Brought before Ialai, Shallan questioned her. Adolin arrived with soldiers and Lightweaver squires, and Shallan chose not to kill Ialai, yet Ialai died of blackbane poison. Shallan came to suspect that a Ghostblood spy among her own squires had done it.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "7" }]
+        },
+        {
+          "text": "Shallan at last realized that she had killed Ialai herself with a blackbane needle, and had hidden the memory from herself.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "115" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Mission to Shadesmar",
+          "revealedIn": [
+            { "book": "rhythm-of-war", "chapter": "22" },
+            { "book": "rhythm-of-war", "chapter": "26" },
+            { "book": "rhythm-of-war", "chapter": "30" },
+            { "book": "rhythm-of-war", "chapter": "36" },
+            { "book": "rhythm-of-war", "chapter": "78" },
+            { "book": "rhythm-of-war", "chapter": "115" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The coalition sent a mission to the honorspren of Lasting Integrity, and Shallan was asked to bring three Lightweavers to Soulcast food and water. She chose Ishnah, Vathah and Stargyle, the three who had been keenest and seemed likeliest to be spies. When Stargyle's wife fell ill, Beryl took his place.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "22" }]
+        },
+        {
+          "text": "The group sailed for two weeks from Nohadon's Stairways to Nameless. On the way, Shallan found that someone had used the cube she used to talk to Mraize, and feared that a member of the court was reporting to him.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "22" }]
+        },
+        {
+          "text": "On the barge, Shallan gave each suspect a different invented sighting of a corrupted spren: windspren for Ishnah, gloryspren for Beryl and fearspren for Vathah.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "26" }]
+        },
+        {
+          "text": "Told by Mraize to keep an eye on the corrupted gloryspren, Shallan was sure Beryl was the spy.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "30" }]
+        },
+        {
+          "text": "After the fight with the Tukari, Shallan admitted to her Lightweavers that she no longer thought Beryl was the spy, and found that only Pattern could have used the cube. At Lasting Integrity, Adolin took Shallan and Pattern into the fortress while the others camped nearby.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "36" }]
+        },
+        {
+          "text": "Pattern had used the cube only to talk to Wit, and Shallan was relieved to find that none of her Lightweavers had betrayed her.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "78" }]
+        },
+        {
+          "text": "On arriving at Nameless, Shallan and Vathah scouted the town in the guise of cultivationspren. In the end Shallan and Adolin succeeded: the honorspren agreed to join the war and opened their fortress to outsiders.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "115" }]
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Leader",
+      "name": "Shallan (Master Lightweaver)",
+      "characterId": "shallan-davar",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "20" }]
+    },
+    {
+      "label": "Based in",
+      "name": "Urithiru",
+      "placeId": "urithiru",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "20" }]
+    },
+    {
+      "label": "Members",
+      "name": "Twenty",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "20" }]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "shallan-davar",
+      "role": "leader",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "20" }]
+    },
+    {
+      "characterId": "beryl",
+      "role": "Agent Lightweaver",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "20" }]
+    },
+    {
+      "characterId": "red-roshar",
+      "role": "Agent Lightweaver",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "20" }]
+    },
+    {
+      "characterId": "gaz",
+      "role": "Agent Lightweaver",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "20" }]
+    },
+    {
+      "characterId": "ishnah",
+      "role": "Agent Lightweaver",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "20" }]
+    },
+    {
+      "characterId": "vathah",
+      "role": "Agent Lightweaver",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "20" }]
+    },
+    {
+      "characterId": "stargyle",
+      "role": "Agent Lightweaver",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "20" }]
+    }
+  ]
+}

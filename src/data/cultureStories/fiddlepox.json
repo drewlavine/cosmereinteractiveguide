@@ -1,0 +1,28 @@
+{
+  "intro": [
+    {
+      "text": "Fiddlepox is a disease on Roshar, one of many that Lirin taught Kaladin to recognise while training him as a surgeon.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "10" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "A sufferer is easy to spot by their surplus of nervous energy. Other signs can include poor sleep, strong thirst and swelling under the arms.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "10" }]
+    }
+  ],
+  "history": [],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "lirin",
+      "role": "teacher",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "10" }]
+    },
+    {
+      "characterId": "kaladin",
+      "role": "student",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "10" }]
+    }
+  ]
+}

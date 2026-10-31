@@ -1,0 +1,30 @@
+{
+  "intro": [
+    {
+      "text": "An ancient nation of Nalthis that once ruled a large empire.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "32" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "In its day Chedesh dominated the world, yet it left few writings behind and has long since faded away, though its memory survives.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "32" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Voyages to the lowlands",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "32" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Chedesh explorers came upon the tropical jungle region where the Tears of Edgli grow, a land the Pahn Kahl already called home. Vo, who sailed on one of their ships, Returned off that coast, and the ship's company founded a kingdom named Hanald on the beach where T'Telir now stands.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "32" }]
+        }
+      ]
+    }
+  ]
+}

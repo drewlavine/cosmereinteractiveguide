@@ -1,0 +1,130 @@
+{
+  "intro": [
+    {
+      "text": "The Dynamic's engineer, a homesick young woman from Dhatri who misses her large family.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "22" }]
+    },
+    {
+      "text": "The Dynamic's engineer, a trained aetherbound from Dhatri whose own aether is broken, a sign of dreadful luck to her people, though she can still speak to spores.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "42" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Leaving Dhatri",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "22" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Her parents thought her too young to leave home, even though she had finished her training. When the aether in her palm cracked, she could no longer bear to stay on Dhatri and traded work for passage off the planet.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "22" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Aboard the Dynamic",
+          "revealedIn": [
+            { "book": "isles-of-the-emberdark", "chapter": "22" },
+            { "book": "isles-of-the-emberdark", "chapter": "28" },
+            { "book": "isles-of-the-emberdark", "chapter": "42" },
+            { "book": "isles-of-the-emberdark", "chapter": "60" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Homesick, she let the ship's upkeep slip. Starling caught her rushing to fix it and asked about her family, and Aditil showed her photos of them. Starling then handed her a ticket home to Dhatri, and Aditil was overjoyed.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "22" }]
+        },
+        {
+          "text": "During the rescue of an Iriali family she kept the ship running flat out before ZeetZi even asked, and afterwards she praised the crew for turning on Captain Crow. Rather than head straight home, she told Starling she would stay on for one more tour.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "28" }]
+        },
+        {
+          "text": "With the crew held by the Malwish, their first escape plan relied on her: she would put the aether that powers the Scadrian ships to sleep, stranding their engines.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "42" }]
+        },
+        {
+          "text": "She came up with a key part of the final escape plan, which used Nazh, and she was the one who set him free.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "60" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Afterwards",
+          "revealedIn": [
+            { "book": "isles-of-the-emberdark", "chapter": "epilogue" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Once they were safe, she pledged to help get Starling's manacles off and handed back the ticket home.",
+          "revealedIn": [
+            { "book": "isles-of-the-emberdark", "chapter": "epilogue" }
+          ]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Brown skin with golden undertones and black hair. The centre of her right palm is a clear, sky-coloured aether.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "22" }]
+    }
+  ],
+  "personality": [],
+  "abilities": [
+    {
+      "title": [
+        {
+          "text": "Aether",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "42" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "She completed her aetherbound apprenticeship, but her aether has since broken and she cannot do what aetherbounds normally do. She can still talk to spores, waking them or sending them to sleep.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "42" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Lodestar",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "22" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Her lodestar is modern, about ten inches wide and six tall, with smooth grips like a game controller; it pulls apart into two halves.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "22" }]
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "title": [
+        {
+          "text": "Family",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "22" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "The eldest of seven children, she keeps four photographs of her smiling family to look at when she misses them.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "22" }]
+        }
+      ]
+    }
+  ]
+}

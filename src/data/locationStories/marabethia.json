@@ -1,0 +1,123 @@
+{
+  "intro": [
+    {
+      "text": "A land of Roshar, off whose northern coast live the greatshells called yu-nerig.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "40" }]
+    },
+    {
+      "text": "A nation on the isthmus between the Purelake and the Reshi Sea, bordered by Tu Bayla to the east and Babatharnam to the west.",
+      "revealedIn": ["oathbringer"]
+    }
+  ],
+  "description": [
+    {
+      "text": "Yu-nerig are prized for their taste and their gemhearts. Marabethians love debate: pedestals stand at intersections for men to proclaim their arguments, and listeners are said to carry overripe fruit to discourage speakers they disagree with.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "40" }]
+    },
+    {
+      "text": "Those guilty of serious crimes are hung over a seaside cliff at high tide, cheeks cut, as bait for the yu-nerig, and freed if they survive a week. Nearly all prefer this false hope to the execution they could demand. Marabethians believe sarpenthyn are the vengeful spirits of murdered children.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "40" },
+            { "book": "words-of-radiance", "chapter": "55" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Marabethia has several local monarchs and is more a group of culturally similar states than a single nation; cities are led by high ministers. High judges wear a patterned shoulder cloak and a colourful skirt-like wrap, and men wear the Marabethian wrap. Many in the south follow the Purelaker religion.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "92" }]
+    },
+    {
+      "text": "The Skybreakers keep a stronghold on the southern edge along the Purelake, where they train acolytes. The government calls on them for help with enforcement and has granted them legal authority in the region.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "98" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Before human settlement",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "113" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Singers lived in the land before humans came to Roshar. Some time after settling in what is now Shinovar, humans invaded, killing or driving out the singers and taking the land. This history was forgotten until the Eila Stele was found.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "113" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The Silver Kingdoms",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "40" },
+                { "book": "oathbringer", "chapter": "i-1" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The land was ruled by the Silver Kingdom of Sela Tales, with its far eastern edge in Valhav, and it is still counted among the Selay lands.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "40" },
+                { "book": "oathbringer", "chapter": "i-1" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The Era of Solitude",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "92" },
+            { "book": "words-of-radiance", "chapter": "i-9" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "After Aharietiam, Sela Tales broke apart into many smaller states, some of which became Marabethia.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "92" }]
+        },
+        {
+          "text": "Lift spent time in Marabethia, where the man she called Darkness pursued her, before she moved on to Azir.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-9" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The True Desolation",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "24" },
+            { "book": "oathbringer", "chapter": "92" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The coalition of monarchs asked Marabethia for aid and alliance, but it did not respond.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "24" }]
+        },
+        {
+          "text": "In 1174, Szeth and his fellow acolytes were brought to a town on the southern border, which held prisoners from across the region, to hunt down inmates who had escaped its jail. The jail keeper was caught and found guilty of pocketing funds meant for the prison.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "92" }]
+        }
+      ]
+    }
+  ]
+}

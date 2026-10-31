@@ -1,0 +1,34 @@
+{
+  "intro": [
+    {
+      "text": "A teahouse in Kingseat, on the edge of a basin brimming with the Demon's blood, that stays open late into the evening.",
+      "revealedIn": [{ "book": "fires-of-december", "chapter": "xxviii" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Its back room is hung with beaded tapestries and set with a fine round wooden table. That room has a second door, where waiters knock before coming in, and gambling is one of its uses.",
+      "revealedIn": [{ "book": "fires-of-december", "chapter": "xxviii" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The raid",
+          "revealedIn": [{ "book": "fires-of-december", "chapter": "xxx" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "When Abrim Flint caught December spying on his talks with the hexers, he told her to meet him at the Concordance within the hour. She asked for 'the player' and was shown to the back room, where they talked until General Drakes raided the teahouse and arrested Flint for breaking the terms of his bail.",
+          "revealedIn": [{ "book": "fires-of-december", "chapter": "xxx" }]
+        },
+        {
+          "text": "The papers wrote up the raid the next day, giving the teahouse free publicity. One ran a drawing of December lounging on a couch there; the room has no couch, but otherwise the picture was accurate.",
+          "revealedIn": [{ "book": "fires-of-december", "chapter": "xxx" }]
+        }
+      ]
+    }
+  ]
+}

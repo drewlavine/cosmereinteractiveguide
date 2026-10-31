@@ -1,0 +1,7879 @@
+[
+  {
+    "id": "cosmere-adonalsium-creates-cosmere",
+    "world": "cosmere",
+    "title": [
+      {
+        "text": "Adonalsium creates the cosmere",
+        "revealedIn": [
+          {
+            "all": [
+              {
+                "book": "words-of-radiance",
+                "chapter": "66"
+              },
+              {
+                "book": "secret-history",
+                "chapter": "3-2"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "text": "Long before it is killed, the god Adonalsium makes the worlds of the cosmere.",
+        "revealedIn": [
+          {
+            "all": [
+              {
+                "book": "words-of-radiance",
+                "chapter": "66"
+              },
+              {
+                "book": "secret-history",
+                "chapter": "3-2"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "text": "It works through the four Dawnshards, the primal Commands of creation.",
+        "revealedIn": [
+          {
+            "book": "dawnshard",
+            "chapter": "19"
+          }
+        ]
+      }
+    ],
+    "tier": "major",
+    "kind": "cosmology",
+    "tags": ["adonalsium", "dawnshards"],
+    "revealedIn": [
+      {
+        "all": [
+          {
+            "book": "words-of-radiance",
+            "chapter": "66"
+          },
+          {
+            "book": "secret-history",
+            "chapter": "3-2"
+          }
+        ]
+      }
+    ],
+    "wob": false,
+    "sources": [
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Adonalsium"
+      },
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Dawnshard"
+      },
+      {
+        "label": "Word of Brandon",
+        "url": "https://wob.coppermind.net/events/549/#e16997"
+      }
+    ],
+    "year": -2000000,
+    "range": [-10000000, -1000000],
+    "certainty": "estimate",
+    "basis": "wob"
+  },
+  {
+    "id": "cosmere-rosharan-system-created",
+    "world": "roshar",
+    "title": [
+      {
+        "text": "Adonalsium creates Roshar",
+        "revealedIn": [
+          {
+            "all": [
+              {
+                "book": "words-of-radiance",
+                "chapter": "66"
+              },
+              {
+                "book": "secret-history",
+                "chapter": "3-2"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "text": "Adonalsium makes the world of Roshar, long before it is Shattered.",
+        "revealedIn": [
+          {
+            "all": [
+              {
+                "book": "words-of-radiance",
+                "chapter": "66"
+              },
+              {
+                "book": "secret-history",
+                "chapter": "3-2"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "text": "On it, Adonalsium makes the first great spren: the Wind, the Stone and the Night.",
+        "revealedIn": [
+          {
+            "book": "wind-and-truth",
+            "chapter": "100"
+          }
+        ]
+      }
+    ],
+    "tier": "minor",
+    "kind": "cosmology",
+    "tags": ["adonalsium"],
+    "revealedIn": [
+      {
+        "all": [
+          {
+            "book": "words-of-radiance",
+            "chapter": "66"
+          },
+          {
+            "book": "secret-history",
+            "chapter": "3-2"
+          }
+        ]
+      }
+    ],
+    "wob": true,
+    "sources": [
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Rosharan_system"
+      },
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Adonalsium"
+      },
+      {
+        "label": "Word of Brandon",
+        "url": "https://wob.coppermind.net/events/131/#e3952"
+      },
+      {
+        "label": "Word of Brandon",
+        "url": "https://wob.coppermind.net/events/324/#e9283"
+      },
+      {
+        "label": "Drew's sheet",
+        "url": "https://docs.google.com/spreadsheets/"
+      }
+    ],
+    "year": -1043.7,
+    "range": [-3417.5, -227.5],
+    "certainty": "estimate",
+    "basis": "community"
+  },
+  {
+    "id": "cosmere-earlier-plot-fails",
+    "world": "cosmere",
+    "title": [
+      {
+        "text": "An earlier plot against Adonalsium fails",
+        "revealedIn": [
+          {
+            "book": "secret-history",
+            "chapter": "3-2"
+          }
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "text": "Long before the Shattering, someone plots to destroy Adonalsium and fails.",
+        "revealedIn": [
+          {
+            "book": "secret-history",
+            "chapter": "3-2"
+          }
+        ]
+      }
+    ],
+    "tier": "minor",
+    "kind": "cosmology",
+    "tags": ["adonalsium"],
+    "revealedIn": [
+      {
+        "book": "secret-history",
+        "chapter": "3-2"
+      }
+    ],
+    "wob": true,
+    "sources": [
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Adonalsium"
+      },
+      {
+        "label": "Word of Brandon",
+        "url": "https://wob.coppermind.net/events/137/#e2648"
+      }
+    ],
+    "year": -200,
+    "range": [-5000, -1],
+    "certainty": "estimate",
+    "basis": "wob"
+  },
+  {
+    "id": "yolen-hoid-born",
+    "world": "yolen",
+    "worldRevealedIn": [
+      {
+        "book": "sunlit-man",
+        "chapter": "10"
+      }
+    ],
+    "title": [
+      {
+        "text": "Hoid is born",
+        "revealedIn": [
+          {
+            "book": "sunlit-man",
+            "chapter": "10"
+          }
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "text": "Hoid is born on Yolen, long before he starts wandering the cosmere.",
+        "revealedIn": [
+          {
+            "book": "sunlit-man",
+            "chapter": "10"
+          }
+        ]
+      }
+    ],
+    "tier": "minor",
+    "kind": "birth",
+    "tags": ["hoid"],
+    "characters": ["hoid"],
+    "revealedIn": [
+      {
+        "book": "sunlit-man",
+        "chapter": "10"
+      }
+    ],
+    "wob": false,
+    "sources": [
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Hoid"
+      },
+      {
+        "label": "Word of Brandon",
+        "url": "https://wob.coppermind.net/events/361/#e11070"
+      },
+      {
+        "label": "Drew's sheet",
+        "url": "https://docs.google.com/spreadsheets/"
+      }
+    ],
+    "year": -30,
+    "range": [-500, -15],
+    "certainty": "estimate",
+    "basis": "community"
+  },
+  {
+    "id": "cosmere-hoid-holds-dawnshard",
+    "world": "yolen",
+    "worldRevealedIn": ["wind-and-truth", "isles-of-the-emberdark"],
+    "title": [
+      {
+        "text": "Hoid comes to hold a Dawnshard",
+        "revealedIn": [
+          {
+            "book": "wind-and-truth",
+            "chapter": "127"
+          }
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "text": "Before Adonalsium dies, Hoid comes to hold one of the Dawnshards, almost by accident.",
+        "revealedIn": [
+          {
+            "book": "wind-and-truth",
+            "chapter": "127"
+          }
+        ]
+      }
+    ],
+    "tier": "minor",
+    "kind": "magic",
+    "tags": ["hoid", "dawnshards"],
+    "characters": ["hoid"],
+    "revealedIn": [
+      {
+        "book": "wind-and-truth",
+        "chapter": "127"
+      }
+    ],
+    "wob": false,
+    "sources": [
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Dawnshard"
+      },
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Hoid"
+      },
+      {
+        "label": "Word of Brandon",
+        "url": "https://wob.coppermind.net/events/406/#e14592"
+      },
+      {
+        "label": "Word of Brandon",
+        "url": "https://wob.coppermind.net/api/entry/14300/"
+      }
+    ],
+    "year": -5,
+    "range": [-200, 0],
+    "certainty": "estimate",
+    "basis": "text"
+  },
+  {
+    "id": "cosmere-shattering",
+    "world": "yolen",
+    "title": [
+      {
+        "text": "Adonalsium is killed",
+        "revealedIn": [
+          {
+            "book": "secret-history",
+            "chapter": "3-2"
+          }
+        ]
+      },
+      {
+        "text": "The Shattering of Adonalsium",
+        "revealedIn": ["secret-history"]
+      }
+    ],
+    "summary": [
+      {
+        "text": "Sixteen people kill Adonalsium, and each takes up one of the sixteen Shards of its power.",
+        "revealedIn": [
+          {
+            "book": "secret-history",
+            "chapter": "3-2"
+          }
+        ]
+      },
+      {
+        "text": "Hoid could have taken up a Shard himself, but chooses not to.",
+        "revealedIn": [
+          {
+            "all": [
+              {
+                "book": "rhythm-of-war",
+                "chapter": "99"
+              },
+              {
+                "book": "secret-history",
+                "chapter": "3-2"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "text": "The Dawnshards are the weapons that make the killing possible.",
+        "revealedIn": [
+          {
+            "book": "sunlit-man",
+            "chapter": "21"
+          },
+          {
+            "book": "wind-and-truth",
+            "chapter": "i-15"
+          }
+        ]
+      },
+      {
+        "text": "It happens on Yolen, the world where humans first appeared.",
+        "revealedIn": ["wind-and-truth", "isles-of-the-emberdark"]
+      }
+    ],
+    "tier": "headline",
+    "kind": "cosmology",
+    "tags": ["adonalsium", "shards", "dawnshards"],
+    "revealedIn": [
+      {
+        "book": "secret-history",
+        "chapter": "3-2"
+      }
+    ],
+    "wob": false,
+    "sources": [
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Shattering"
+      },
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Adonalsium"
+      },
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Dawnshard"
+      },
+      {
+        "label": "Word of Brandon",
+        "url": "https://wob.coppermind.net/events/31/#e9683"
+      },
+      {
+        "label": "Word of Brandon",
+        "url": "https://wob.coppermind.net/events/61/#e1292"
+      },
+      {
+        "label": "Word of Brandon",
+        "url": "https://wob.coppermind.net/events/358/#e10773"
+      },
+      {
+        "label": "Word of Brandon",
+        "url": "https://wob.coppermind.net/events/368/#e11602"
+      },
+      {
+        "label": "Word of Brandon",
+        "url": "https://wob.coppermind.net/events/355/#e10439"
+      }
+    ],
+    "year": 0,
+    "order": 1,
+    "certainty": "exact",
+    "basis": "text"
+  },
+  {
+    "id": "cosmere-vessels-agree-not-to-interfere",
+    "world": "cosmere",
+    "title": [
+      {
+        "text": "The Shards agree to leave one another alone",
+        "revealedIn": [
+          {
+            "book": "oathbringer",
+            "chapter": "39"
+          }
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "text": "The new Vessels agree not to interfere with one another, though few of them keep to it.",
+        "revealedIn": [
+          {
+            "book": "oathbringer",
+            "chapter": "39"
+          }
+        ]
+      },
+      {
+        "text": "Endowment later counts two Shards settling together as a breach of that pact.",
+        "revealedIn": [
+          {
+            "book": "oathbringer",
+            "chapter": "39"
+          }
+        ]
+      }
+    ],
+    "tier": "major",
+    "kind": "shard",
+    "tags": ["shards"],
+    "revealedIn": [
+      {
+        "book": "oathbringer",
+        "chapter": "39"
+      }
+    ],
+    "wob": false,
+    "sources": [
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Shard"
+      },
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Letters"
+      },
+      {
+        "label": "Word of Brandon",
+        "url": "https://wob.coppermind.net/events/397/#e13144"
+      }
+    ],
+    "year": 0,
+    "range": [0, 10],
+    "order": 2,
+    "certainty": "estimate",
+    "basis": "text"
+  },
+  {
+    "id": "cosmere-shards-scatter",
+    "world": "cosmere",
+    "title": [
+      {
+        "text": "The Shards scatter across the cosmere",
+        "revealedIn": [
+          {
+            "book": "secret-history",
+            "chapter": "3-2"
+          }
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "text": "The new Vessels carry their Shards away to different worlds; some settle, and others keep wandering.",
+        "revealedIn": [
+          {
+            "book": "secret-history",
+            "chapter": "3-2"
+          }
+        ]
+      }
+    ],
+    "tier": "major",
+    "kind": "journey",
+    "tags": ["shards"],
+    "revealedIn": [
+      {
+        "book": "secret-history",
+        "chapter": "3-2"
+      }
+    ],
+    "wob": false,
+    "sources": [
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Shard"
+      },
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Shattering"
+      },
+      {
+        "label": "Drew's sheet",
+        "url": "https://docs.google.com/spreadsheets/"
+      }
+    ],
+    "year": 1,
+    "range": [0, 100],
+    "certainty": "estimate",
+    "basis": "community"
+  },
+  {
+    "id": "cosmere-honor-cultivation-settle-roshar",
+    "world": "roshar",
+    "title": [
+      {
+        "text": "Honor and Cultivation settle on Roshar",
+        "revealedIn": [
+          {
+            "book": "wind-and-truth",
+            "chapter": "100"
+          }
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "text": "Honor and Cultivation come to Roshar together, and both Invest the world.",
+        "revealedIn": [
+          {
+            "book": "wind-and-truth",
+            "chapter": "100"
+          }
+        ]
+      }
+    ],
+    "tier": "major",
+    "kind": "shard",
+    "tags": ["shards", "settling"],
+    "revealedIn": [
+      {
+        "book": "wind-and-truth",
+        "chapter": "100"
+      }
+    ],
+    "wob": false,
+    "sources": [
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Honor"
+      },
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Cultivation"
+      },
+      {
+        "label": "Drew's sheet",
+        "url": "https://docs.google.com/spreadsheets/"
+      }
+    ],
+    "year": 2,
+    "range": [0, 1000],
+    "certainty": "estimate",
+    "basis": "text"
+  },
+  {
+    "id": "cosmere-ruin-preservation-make-scadrial",
+    "world": "scadrial",
+    "title": [
+      {
+        "text": "Ruin and Preservation make Scadrial",
+        "revealedIn": [
+          {
+            "all": [
+              "hero-of-ages",
+              {
+                "book": "secret-history",
+                "chapter": "3-2"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "text": "Ruin and Preservation settle on Scadrial and, working together, make the world and its people.",
+        "revealedIn": [
+          {
+            "all": [
+              "hero-of-ages",
+              {
+                "book": "secret-history",
+                "chapter": "3-2"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "tier": "major",
+    "kind": "shard",
+    "tags": ["shards", "settling"],
+    "revealedIn": [
+      {
+        "all": [
+          "hero-of-ages",
+          {
+            "book": "secret-history",
+            "chapter": "3-2"
+          }
+        ]
+      }
+    ],
+    "wob": false,
+    "sources": [
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Ruin"
+      },
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Preservation"
+      },
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Scadrial"
+      },
+      {
+        "label": "Drew's sheet",
+        "url": "https://docs.google.com/spreadsheets/"
+      }
+    ],
+    "year": 3,
+    "range": [0, 500],
+    "certainty": "estimate",
+    "basis": "community"
+  },
+  {
+    "id": "cosmere-devotion-dominion-settle-sel",
+    "world": "sel",
+    "title": [
+      {
+        "text": "Devotion and Dominion settle on Sel",
+        "revealedIn": [
+          {
+            "all": [
+              "arcanum-unbounded",
+              {
+                "book": "secret-history",
+                "chapter": "3-2"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "text": "Devotion and Dominion both make their home on Sel.",
+        "revealedIn": [
+          {
+            "all": [
+              "arcanum-unbounded",
+              {
+                "book": "secret-history",
+                "chapter": "3-2"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "text": "It breaks the Shards' agreement not to settle together.",
+        "revealedIn": [
+          {
+            "all": [
+              {
+                "book": "way-of-kings",
+                "chapter": "22"
+              },
+              {
+                "book": "oathbringer",
+                "chapter": "39"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "tier": "major",
+    "kind": "shard",
+    "tags": ["shards", "settling"],
+    "revealedIn": [
+      {
+        "all": [
+          "arcanum-unbounded",
+          {
+            "book": "secret-history",
+            "chapter": "3-2"
+          }
+        ]
+      }
+    ],
+    "wob": false,
+    "sources": [
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Devotion"
+      },
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Dominion"
+      },
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Selish_system"
+      },
+      {
+        "label": "Drew's sheet",
+        "url": "https://docs.google.com/spreadsheets/"
+      }
+    ],
+    "year": 4,
+    "range": [0, 500],
+    "certainty": "estimate",
+    "basis": "community"
+  },
+  {
+    "id": "cosmere-endowment-settles-nalthis",
+    "world": "nalthis",
+    "title": [
+      {
+        "text": "Endowment settles on Nalthis",
+        "revealedIn": [
+          {
+            "all": [
+              "warbreaker",
+              {
+                "book": "secret-history",
+                "chapter": "3-2"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "text": "The Shard Endowment makes its home on Nalthis.",
+        "revealedIn": [
+          {
+            "all": [
+              "warbreaker",
+              {
+                "book": "secret-history",
+                "chapter": "3-2"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "tier": "major",
+    "kind": "shard",
+    "tags": ["shards", "settling"],
+    "revealedIn": [
+      {
+        "all": [
+          "warbreaker",
+          {
+            "book": "secret-history",
+            "chapter": "3-2"
+          }
+        ]
+      }
+    ],
+    "wob": false,
+    "sources": [
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Endowment"
+      },
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Nalthis"
+      },
+      {
+        "label": "Drew's sheet",
+        "url": "https://docs.google.com/spreadsheets/"
+      }
+    ],
+    "year": 5,
+    "range": [0, 500],
+    "certainty": "estimate",
+    "basis": "community"
+  },
+  {
+    "id": "cosmere-autonomy-settles-taldain",
+    "world": "taldain",
+    "title": [
+      {
+        "text": "Autonomy settles on Taldain",
+        "revealedIn": [
+          {
+            "all": [
+              "arcanum-unbounded",
+              {
+                "book": "secret-history",
+                "chapter": "3-2"
+              }
+            ]
+          },
+          {
+            "all": [
+              "white-sand-omnibus",
+              {
+                "book": "secret-history",
+                "chapter": "3-2"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "text": "The Shard Autonomy makes its home on Taldain.",
+        "revealedIn": [
+          {
+            "all": [
+              "arcanum-unbounded",
+              {
+                "book": "secret-history",
+                "chapter": "3-2"
+              }
+            ]
+          },
+          {
+            "all": [
+              "white-sand-omnibus",
+              {
+                "book": "secret-history",
+                "chapter": "3-2"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "tier": "major",
+    "kind": "shard",
+    "tags": ["shards", "settling"],
+    "revealedIn": [
+      {
+        "all": [
+          "arcanum-unbounded",
+          {
+            "book": "secret-history",
+            "chapter": "3-2"
+          }
+        ]
+      },
+      {
+        "all": [
+          "white-sand-omnibus",
+          {
+            "book": "secret-history",
+            "chapter": "3-2"
+          }
+        ]
+      }
+    ],
+    "wob": false,
+    "sources": [
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Autonomy"
+      },
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Taldain"
+      },
+      {
+        "label": "Drew's sheet",
+        "url": "https://docs.google.com/spreadsheets/"
+      }
+    ],
+    "year": 6,
+    "range": [0, 500],
+    "certainty": "estimate",
+    "basis": "community"
+  },
+  {
+    "id": "sel-devotion-dominion-splintered",
+    "world": "sel",
+    "title": [
+      {
+        "text": "Odium Splinters Devotion and Dominion",
+        "revealedIn": [
+          {
+            "all": [
+              "arcanum-unbounded",
+              {
+                "book": "secret-history",
+                "chapter": "3-2"
+              },
+              {
+                "book": "rhythm-of-war",
+                "chapter": "14"
+              },
+              {
+                "book": "rhythm-of-war",
+                "chapter": "76"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "text": "Odium kills the Vessels of Devotion and Dominion and Splinters both Shards.",
+        "revealedIn": [
+          {
+            "all": [
+              "arcanum-unbounded",
+              {
+                "book": "secret-history",
+                "chapter": "3-2"
+              },
+              {
+                "book": "rhythm-of-war",
+                "chapter": "14"
+              },
+              {
+                "book": "rhythm-of-war",
+                "chapter": "76"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "text": "Odium draws their power into the Cognitive Realm, where it becomes the Dor.",
+        "revealedIn": ["arcanum-unbounded"]
+      }
+    ],
+    "tier": "headline",
+    "kind": "shard",
+    "revealedIn": [
+      {
+        "all": [
+          "arcanum-unbounded",
+          {
+            "book": "secret-history",
+            "chapter": "3-2"
+          },
+          {
+            "book": "rhythm-of-war",
+            "chapter": "14"
+          },
+          {
+            "book": "rhythm-of-war",
+            "chapter": "76"
+          }
+        ]
+      }
+    ],
+    "wob": false,
+    "sources": [
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Sel"
+      },
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Devotion"
+      },
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Dominion"
+      },
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Odium"
+      },
+      {
+        "label": "Word of Brandon",
+        "url": "https://wob.coppermind.net/api/entry/8928/"
+      },
+      {
+        "label": "Word of Brandon",
+        "url": "https://wob.coppermind.net/api/entry/5569/"
+      },
+      {
+        "label": "Word of Brandon",
+        "url": "https://wob.coppermind.net/api/entry/8358/"
+      },
+      {
+        "label": "Drew's sheet",
+        "url": "https://docs.google.com/spreadsheets/d/1JJtJhHwpKdow01n2-bsT3scVvqJd6lZh4uvpNwcslv8/edit"
+      },
+      {
+        "label": "17th Shard",
+        "url": "https://www.17thshard.com/forums/topic/131185-timeline-of-major-cosmere-events-based-on-the-shattering/"
+      }
+    ],
+    "tags": ["shards", "splintering"],
+    "worldRevealedIn": ["arcanum-unbounded"],
+    "year": 1642.5,
+    "range": [0, 3265],
+    "local": "more than 7,700 standard years before the True Desolation",
+    "certainty": "estimate",
+    "basis": "text"
+  },
+  {
+    "id": "threnody-odium-wounds-ambition",
+    "world": "threnody",
+    "worldRevealedIn": ["arcanum-unbounded"],
+    "title": [
+      {
+        "text": "Odium wounds Ambition in the Threnodite system",
+        "revealedIn": ["arcanum-unbounded"]
+      }
+    ],
+    "summary": [
+      {
+        "text": "Odium attacks Ambition there, grievously wounding her and scattering parts of her power across the system.",
+        "revealedIn": ["arcanum-unbounded"]
+      }
+    ],
+    "tier": "major",
+    "kind": "shard",
+    "tags": ["odium", "ambition", "splintering"],
+    "revealedIn": ["arcanum-unbounded"],
+    "wob": false,
+    "sources": [
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Odium"
+      },
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Threnody"
+      },
+      {
+        "label": "Drew's sheet",
+        "url": "https://docs.google.com/spreadsheets/d/1JJtJhHwpKdow01n2-bsT3scVvqJd6lZh4uvpNwcslv8/edit"
+      },
+      {
+        "label": "17th Shard",
+        "url": "https://www.17thshard.com/forums/topic/131185-timeline-of-major-cosmere-events-based-on-the-shattering/"
+      }
+    ],
+    "year": 2000,
+    "range": [1000, 3500],
+    "certainty": "estimate",
+    "basis": "community"
+  },
+  {
+    "id": "ashyn-odium-intervenes",
+    "world": "ashyn",
+    "worldRevealedIn": [
+      {
+        "book": "wind-and-truth",
+        "chapter": "104"
+      }
+    ],
+    "title": [
+      {
+        "text": "Odium intervenes in Ashyn’s human conflicts",
+        "revealedIn": [
+          {
+            "book": "wind-and-truth",
+            "chapter": "104"
+          }
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "text": "Odium grants powerful Surges to a city-state on Alaswha and backs its conquest of neighboring city-states.",
+        "revealedIn": [
+          {
+            "book": "wind-and-truth",
+            "chapter": "104"
+          }
+        ]
+      }
+    ],
+    "tier": "major",
+    "kind": "shard",
+    "tags": ["odium", "ashyn", "surges"],
+    "revealedIn": [
+      {
+        "book": "wind-and-truth",
+        "chapter": "104"
+      }
+    ],
+    "wob": false,
+    "sources": [
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Odium"
+      },
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Ashyn"
+      },
+      {
+        "label": "Word of Brandon",
+        "url": "https://wob.coppermind.net/events/297/#e9852"
+      },
+      {
+        "label": "Drew's sheet",
+        "url": "https://docs.google.com/spreadsheets/d/1JJtJhHwpKdow01n2-bsT3scVvqJd6lZh4uvpNwcslv8/edit"
+      },
+      {
+        "label": "Jofwu's timeline",
+        "url": "https://docs.google.com/spreadsheets/d/1zq5bJoKE83ggDCjH43i1hZi0CIpB2iAx7v37zQPVFK0/edit"
+      },
+      {
+        "label": "17th Shard",
+        "url": "https://www.17thshard.com/forums/topic/131185-timeline-of-major-cosmere-events-based-on-the-shattering/"
+      }
+    ],
+    "year": 2163.9,
+    "range": [1888.9, 3500],
+    "local": "c. 8,000 years before the Night of Sorrows",
+    "certainty": "estimate",
+    "basis": "text"
+  },
+  {
+    "id": "roshar-true-spren-created",
+    "world": "roshar",
+    "title": [
+      {
+        "text": "Honor and Cultivation create intelligent spren",
+        "revealedIn": [
+          {
+            "book": "wind-and-truth",
+            "chapter": "104"
+          }
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "text": "They create ten varieties of spren with independent thoughts and passions, including the true spren.",
+        "revealedIn": [
+          {
+            "book": "wind-and-truth",
+            "chapter": "104"
+          }
+        ]
+      }
+    ],
+    "tier": "major",
+    "kind": "magic",
+    "tags": ["spren", "honor", "cultivation"],
+    "revealedIn": [
+      {
+        "book": "wind-and-truth",
+        "chapter": "104"
+      }
+    ],
+    "sources": [
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Herald"
+      },
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Knights_Radiant"
+      }
+    ],
+    "year": 2438.9,
+    "range": [1888.9, 2988.9],
+    "local": "c. 8,000 years before the modern Rosharan era",
+    "certainty": "estimate",
+    "basis": "text"
+  },
+  {
+    "id": "roshar-ashyn-refugees-arrive",
+    "world": "roshar",
+    "title": [
+      {
+        "text": "Human refugees reach Roshar",
+        "revealedIn": [
+          {
+            "book": "wind-and-truth",
+            "chapter": "107"
+          }
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "text": "After a cataclysm devastates Ashyn, human refugees arrive on Roshar alongside Odium and are received by its singers.",
+        "revealedIn": [
+          {
+            "book": "wind-and-truth",
+            "chapter": "107"
+          }
+        ]
+      }
+    ],
+    "tier": "headline",
+    "kind": "journey",
+    "tags": ["ashyn", "migration", "humans", "singers"],
+    "revealedIn": [
+      {
+        "book": "wind-and-truth",
+        "chapter": "107"
+      }
+    ],
+    "sources": [
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Ashyn"
+      },
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Singer"
+      }
+    ],
+    "year": 3153.9,
+    "range": [3098.9, 3210],
+    "local": "c. 7,100 years before the modern Rosharan era",
+    "certainty": "estimate",
+    "basis": "text"
+  },
+  {
+    "id": "roshar-first-desolation-begins",
+    "world": "roshar",
+    "title": [
+      {
+        "text": "The First Desolation begins",
+        "revealedIn": [
+          {
+            "book": "wind-and-truth",
+            "chapter": "107"
+          }
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "text": "Human expansion beyond the land initially granted to the refugees brings humans and singers into open war.",
+        "revealedIn": [
+          {
+            "book": "wind-and-truth",
+            "chapter": "107"
+          }
+        ]
+      }
+    ],
+    "tier": "major",
+    "kind": "war",
+    "tags": ["first-desolation", "humans", "singers"],
+    "revealedIn": [
+      {
+        "book": "wind-and-truth",
+        "chapter": "107"
+      }
+    ],
+    "sources": [
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Desolation"
+      },
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Singer"
+      }
+    ],
+    "year": 3208.9,
+    "range": [3181.4, 3263.9],
+    "local": "c. 7,050 years before the modern Rosharan era",
+    "certainty": "estimate",
+    "basis": "text"
+  },
+  {
+    "id": "roshar-oathpact-founded",
+    "world": "roshar",
+    "title": [
+      {
+        "text": "The Heralds swear the Oathpact",
+        "revealedIn": [
+          {
+            "book": "wind-and-truth",
+            "chapter": "107"
+          }
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "text": "Forty-three years into the war, Honor and ten human leaders establish the Oathpact to hold the Fused on Braize.",
+        "revealedIn": [
+          {
+            "book": "wind-and-truth",
+            "chapter": "107"
+          }
+        ]
+      }
+    ],
+    "tier": "major",
+    "kind": "order",
+    "tags": ["heralds", "oathpact", "fused"],
+    "revealedIn": [
+      {
+        "book": "wind-and-truth",
+        "chapter": "107"
+      }
+    ],
+    "sources": [
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Oathpact"
+      },
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Heraldic_Epochs"
+      }
+    ],
+    "year": 3256.2,
+    "range": [3227.6, 3312.3],
+    "local": "c. 7,000 years before the modern Rosharan era",
+    "certainty": "derived",
+    "basis": "text"
+  },
+  {
+    "id": "taldain-diem-ambush",
+    "world": "taldain",
+    "title": [
+      {
+        "text": "A Kerztian ambush devastates the Diem",
+        "revealedIn": [
+          {
+            "book": "white-sand-omnibus",
+            "chapter": "3"
+          }
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "text": "Kerztian warriors attack during a Diem ceremony, leaving Kenton alive among the fallen sand masters.",
+        "revealedIn": [
+          {
+            "book": "white-sand-omnibus",
+            "chapter": "3"
+          }
+        ]
+      }
+    ],
+    "tier": "major",
+    "kind": "war",
+    "revealedIn": [
+      {
+        "book": "white-sand-omnibus",
+        "chapter": "3"
+      }
+    ],
+    "wob": false,
+    "sources": [
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/White_Sand"
+      },
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Diem"
+      },
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Kenton"
+      }
+    ],
+    "tags": ["diem", "kerzta"],
+    "inBook": {
+      "book": "white-sand-omnibus",
+      "chapter": "2"
+    },
+    "worldRevealedIn": ["white-sand-omnibus"],
+    "year": 8111,
+    "range": [6000, 10590],
+    "order": 1,
+    "local": "White Sand story",
+    "certainty": "estimate",
+    "basis": "community"
+  },
+  {
+    "id": "taldain-khriss-and-kenton-ally",
+    "world": "taldain",
+    "title": [
+      {
+        "text": "Khriss and Kenton join forces",
+        "revealedIn": [
+          {
+            "book": "white-sand-omnibus",
+            "chapter": "3"
+          }
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "text": "After finding Kenton alive, Khrissalla’s party accepts his help crossing Dayside, and the two begin cooperating on their investigations.",
+        "revealedIn": [
+          {
+            "book": "white-sand-omnibus",
+            "chapter": "3"
+          }
+        ]
+      }
+    ],
+    "tier": "minor",
+    "kind": "journey",
+    "revealedIn": [
+      {
+        "book": "white-sand-omnibus",
+        "chapter": "3"
+      }
+    ],
+    "wob": false,
+    "sources": [
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Khrissalla"
+      },
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Kenton"
+      },
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/White_Sand"
+      }
+    ],
+    "tags": ["worldhopping", "diem"],
+    "inBook": {
+      "book": "white-sand-omnibus",
+      "chapter": "3"
+    },
+    "worldRevealedIn": ["white-sand-omnibus"],
+    "year": 8111,
+    "range": [6000, 10590],
+    "order": 2,
+    "local": "White Sand story",
+    "certainty": "estimate",
+    "basis": "community"
+  },
+  {
+    "id": "taldain-kenton-becomes-lord-mastrell",
+    "world": "taldain",
+    "title": [
+      {
+        "text": "Kenton becomes Lord Mastrell",
+        "revealedIn": [
+          {
+            "book": "white-sand-omnibus",
+            "chapter": "4"
+          }
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "text": "After returning to the Diem, Kenton takes leadership and challenges the assumption that only the strongest sand masters can lead.",
+        "revealedIn": [
+          {
+            "book": "white-sand-omnibus",
+            "chapter": "4"
+          }
+        ]
+      }
+    ],
+    "tier": "minor",
+    "kind": "politics",
+    "revealedIn": [
+      {
+        "book": "white-sand-omnibus",
+        "chapter": "4"
+      }
+    ],
+    "wob": false,
+    "sources": [
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Kenton"
+      },
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Diem"
+      },
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/White_Sand"
+      }
+    ],
+    "tags": ["diem", "sand-mastery"],
+    "inBook": {
+      "book": "white-sand-omnibus",
+      "chapter": "4"
+    },
+    "worldRevealedIn": ["white-sand-omnibus"],
+    "year": 8111,
+    "range": [6000, 10590],
+    "order": 3,
+    "local": "White Sand story",
+    "certainty": "estimate",
+    "basis": "community"
+  },
+  {
+    "id": "taldain-diem-conspiracy-exposed",
+    "world": "taldain",
+    "title": [
+      {
+        "text": "Kenton preserves the Diem and exposes a conspiracy",
+        "revealedIn": [
+          {
+            "book": "white-sand-omnibus",
+            "chapter": "18"
+          }
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "text": "Kenton defeats Drile in the Diem’s challenge, secures support for the order, and uncovers Elorin’s role in the A’kar’s scheme.",
+        "revealedIn": [
+          {
+            "book": "white-sand-omnibus",
+            "chapter": "18"
+          }
+        ]
+      },
+      {
+        "text": "Two weeks later, families return to the Diem, though the A’kar remains intent on regaining influence.",
+        "revealedIn": [
+          {
+            "book": "white-sand-omnibus",
+            "chapter": "epilogue"
+          }
+        ]
+      }
+    ],
+    "tier": "major",
+    "kind": "politics",
+    "revealedIn": [
+      {
+        "book": "white-sand-omnibus",
+        "chapter": "18"
+      }
+    ],
+    "wob": false,
+    "sources": [
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/White_Sand"
+      },
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Diem"
+      },
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Kenton"
+      },
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Akar"
+      }
+    ],
+    "tags": ["diem", "kerzta", "politics"],
+    "inBook": {
+      "book": "white-sand-omnibus",
+      "chapter": "18"
+    },
+    "worldRevealedIn": ["white-sand-omnibus"],
+    "year": 8111,
+    "range": [6000, 10590],
+    "order": 4,
+    "local": "White Sand story",
+    "certainty": "estimate",
+    "basis": "community"
+  },
+  {
+    "id": "sel-elantris-built",
+    "world": "sel",
+    "title": [
+      {
+        "text": "Elantris is built",
+        "revealedIn": ["elantris"]
+      }
+    ],
+    "summary": [
+      {
+        "text": "The city is constructed centuries, possibly more than a millennium, before the Reod.",
+        "revealedIn": ["elantris"]
+      }
+    ],
+    "tier": "minor",
+    "kind": "politics",
+    "revealedIn": ["elantris"],
+    "wob": true,
+    "sources": [
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Elantris_(city)"
+      },
+      {
+        "label": "Word of Brandon",
+        "url": "https://wob.coppermind.net/api/entry/4638/"
+      }
+    ],
+    "tags": ["elantris", "founding"],
+    "worldRevealedIn": ["arcanum-unbounded"],
+    "year": 8401,
+    "range": [7901, 8901],
+    "local": "centuries to over a millennium before the Reod",
+    "certainty": "estimate",
+    "basis": "wob"
+  },
+  {
+    "id": "sel-original-fjordell-empire-falls",
+    "world": "sel",
+    "title": [
+      {
+        "text": "The original Fjordell Empire collapses",
+        "revealedIn": [
+          {
+            "book": "elantris",
+            "chapter": "5"
+          }
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "text": "The first Fjordell Empire collapses about three centuries before the events of Elantris.",
+        "revealedIn": [
+          {
+            "book": "elantris",
+            "chapter": "5"
+          }
+        ]
+      }
+    ],
+    "tier": "major",
+    "kind": "politics",
+    "revealedIn": [
+      {
+        "book": "elantris",
+        "chapter": "5"
+      }
+    ],
+    "wob": false,
+    "sources": [
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Sel"
+      },
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Fjordell"
+      },
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Elantris"
+      }
+    ],
+    "tags": ["fjordell", "empire", "fall"],
+    "worldRevealedIn": ["arcanum-unbounded"],
+    "year": 8811,
+    "range": [8791, 8831],
+    "local": "about three centuries before Elantris",
+    "certainty": "estimate",
+    "basis": "text"
+  },
+  {
+    "id": "sel-reod",
+    "world": "sel",
+    "title": [
+      {
+        "text": "The Reod",
+        "revealedIn": [
+          {
+            "book": "elantris",
+            "chapter": "4"
+          }
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "text": "An earthquake opens a great chasm in southern Arelon; the landform change disrupts the Aons on which Elantrian magic depends.",
+        "revealedIn": [
+          {
+            "book": "elantris",
+            "chapter": "61"
+          }
+        ]
+      }
+    ],
+    "tier": "headline",
+    "kind": "disaster",
+    "revealedIn": ["elantris"],
+    "wob": false,
+    "sources": [
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Reod"
+      },
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Elantris_(city)"
+      },
+      {
+        "label": "Word of Brandon",
+        "url": "https://wob.coppermind.net/api/entry/9883/"
+      }
+    ],
+    "tags": ["arelon", "aondor"],
+    "worldRevealedIn": ["arcanum-unbounded"],
+    "year": 9101,
+    "range": [8616, 10590],
+    "local": "year 0 of the Reod",
+    "certainty": "estimate",
+    "basis": "text"
+  },
+  {
+    "id": "sel-raoden-taken-by-shaod",
+    "world": "sel",
+    "title": [
+      {
+        "text": "Raoden is taken by the Shaod",
+        "revealedIn": [
+          {
+            "book": "elantris",
+            "chapter": "1"
+          }
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "text": "On the morning of his wedding, the crown prince is transformed and secretly sent to Elantris.",
+        "revealedIn": [
+          {
+            "book": "elantris",
+            "chapter": "1"
+          }
+        ]
+      }
+    ],
+    "tier": "minor",
+    "kind": "story",
+    "revealedIn": [
+      {
+        "book": "elantris",
+        "chapter": "1"
+      }
+    ],
+    "wob": false,
+    "sources": [
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Raoden"
+      },
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Elantris"
+      }
+    ],
+    "tags": ["elantris", "shaod"],
+    "inBook": {
+      "book": "elantris",
+      "chapter": "1"
+    },
+    "worldRevealedIn": ["arcanum-unbounded"],
+    "year": 9111,
+    "range": [8626, 10600],
+    "order": 1,
+    "local": "ten years after the Reod",
+    "certainty": "estimate",
+    "basis": "text"
+  },
+  {
+    "id": "sel-sarene-arrives-in-arelon",
+    "world": "sel",
+    "title": [
+      {
+        "text": "Sarene arrives in Arelon",
+        "revealedIn": [
+          {
+            "book": "elantris",
+            "chapter": "2"
+          }
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "text": "The princess of Teod arrives expecting to marry Raoden, only to be treated as his widow and drawn into Arelon’s court politics.",
+        "revealedIn": [
+          {
+            "book": "elantris",
+            "chapter": "2"
+          }
+        ]
+      }
+    ],
+    "tier": "minor",
+    "kind": "story",
+    "revealedIn": [
+      {
+        "book": "elantris",
+        "chapter": "2"
+      }
+    ],
+    "wob": false,
+    "sources": [
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Sarene"
+      },
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Elantris"
+      }
+    ],
+    "tags": ["arelon", "teod"],
+    "inBook": {
+      "book": "elantris",
+      "chapter": "2"
+    },
+    "worldRevealedIn": ["arcanum-unbounded"],
+    "year": 9111,
+    "range": [8626, 10600],
+    "order": 2,
+    "local": "ten years after the Reod",
+    "certainty": "estimate",
+    "basis": "text"
+  },
+  {
+    "id": "sel-hrathen-arrives-in-arelon",
+    "world": "sel",
+    "title": [
+      {
+        "text": "Hrathen begins his campaign to convert Arelon",
+        "revealedIn": [
+          {
+            "book": "elantris",
+            "chapter": "3"
+          }
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "text": "The Fjordell gyorn arrives with a short deadline to convert Arelon to Shu-Dereth, escalating the struggle over the kingdom’s future.",
+        "revealedIn": [
+          {
+            "book": "elantris",
+            "chapter": "3"
+          }
+        ]
+      }
+    ],
+    "tier": "minor",
+    "kind": "politics",
+    "revealedIn": [
+      {
+        "book": "elantris",
+        "chapter": "3"
+      }
+    ],
+    "wob": false,
+    "sources": [
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Hrathen"
+      },
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Fjordell"
+      },
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Elantris"
+      }
+    ],
+    "tags": ["arelon", "shu-dereth"],
+    "inBook": {
+      "book": "elantris",
+      "chapter": "3"
+    },
+    "worldRevealedIn": ["arcanum-unbounded"],
+    "year": 9111,
+    "range": [8626, 10600],
+    "order": 3,
+    "local": "ten years after the Reod",
+    "certainty": "estimate",
+    "basis": "text"
+  },
+  {
+    "id": "sel-elantris-restored",
+    "world": "sel",
+    "title": [
+      {
+        "text": "Raoden restores Elantris",
+        "revealedIn": [
+          {
+            "book": "elantris",
+            "chapter": "61"
+          }
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "text": "Raoden recognizes that the city’s great Aon is incomplete, adds the missing Chasm line, and restores AonDor and the Elantrians.",
+        "revealedIn": [
+          {
+            "book": "elantris",
+            "chapter": "61"
+          }
+        ]
+      }
+    ],
+    "tier": "major",
+    "kind": "story",
+    "revealedIn": [
+      {
+        "book": "elantris",
+        "chapter": "61"
+      }
+    ],
+    "wob": false,
+    "sources": [
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Elantris_(city)"
+      },
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Reod"
+      },
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Elantris"
+      }
+    ],
+    "tags": ["aondor", "restoration"],
+    "inBook": {
+      "book": "elantris",
+      "chapter": "61"
+    },
+    "worldRevealedIn": ["arcanum-unbounded"],
+    "year": 9111,
+    "range": [8626, 10600],
+    "order": 4,
+    "local": "ten years after the Reod",
+    "certainty": "estimate",
+    "basis": "text"
+  },
+  {
+    "id": "scadrial-e1-rashek-at-well",
+    "world": "scadrial",
+    "title": [
+      {
+        "text": "Alendi is stopped at the Well",
+        "revealedIn": [
+          {
+            "book": "well-of-ascension",
+            "chapter": "epilogue"
+          }
+        ]
+      },
+      {
+        "text": "Rashek takes the Well's power",
+        "revealedIn": ["hero-of-ages"]
+      }
+    ],
+    "summary": [
+      {
+        "text": "Rashek kills Alendi to prevent him from reaching the Well of Ascension.",
+        "revealedIn": [
+          {
+            "book": "well-of-ascension",
+            "chapter": "epilogue"
+          }
+        ]
+      },
+      {
+        "text": "Rashek takes the power himself, becomes the Lord Ruler, and uses it to alter Scadrial and establish the Final Empire.",
+        "revealedIn": ["hero-of-ages"]
+      }
+    ],
+    "tier": "major",
+    "kind": "politics",
+    "tags": ["magic", "final-empire"],
+    "revealedIn": ["hero-of-ages"],
+    "sources": [
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Ascension_of_the_Lord_Ruler"
+      },
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Rashek"
+      },
+      {
+        "label": "Drew's sheet",
+        "url": "https://docs.google.com/spreadsheets/d/1JJtJhHwpKdow01n2-bsT3scVvqJd6lZh4uvpNwcslv8/edit"
+      }
+    ],
+    "year": 9601,
+    "range": [9600, 9602],
+    "local": "c. FE 0",
+    "certainty": "estimate",
+    "basis": "community"
+  },
+  {
+    "id": "roshar-bayala-dynasty-collapses",
+    "world": "roshar",
+    "title": [
+      {
+        "text": "A dynasty collapses in Bayala",
+        "revealedIn": [
+          {
+            "book": "oathbringer",
+            "chapter": "104"
+          }
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "text": "Bayala's ruling dynasty collapses in year 480 of the Vorin calendar.",
+        "revealedIn": [
+          {
+            "book": "oathbringer",
+            "chapter": "104"
+          }
+        ]
+      }
+    ],
+    "tier": "minor",
+    "kind": "politics",
+    "tags": ["bayala", "dynasty"],
+    "revealedIn": [
+      {
+        "book": "oathbringer",
+        "chapter": "104"
+      }
+    ],
+    "wob": false,
+    "sources": [
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Bayala"
+      },
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Era_of_Solitude"
+      }
+    ],
+    "year": 10200.5,
+    "local": "480 on the Vorin calendar",
+    "certainty": "exact",
+    "basis": "text"
+  },
+  {
+    "id": "roshar-war-of-loss-hierocracy-ends",
+    "world": "roshar",
+    "title": [
+      {
+        "text": "The War of Loss ends the Hierocracy",
+        "revealedIn": [
+          {
+            "book": "way-of-kings",
+            "chapter": "36"
+          }
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "text": "The War of Loss brings down the Hierocracy and divides Vorinism into devotaries.",
+        "revealedIn": [
+          {
+            "book": "way-of-kings",
+            "chapter": "36"
+          }
+        ]
+      }
+    ],
+    "tier": "major",
+    "kind": "politics",
+    "tags": ["vorinism", "hierocracy", "war-of-loss"],
+    "revealedIn": [
+      {
+        "book": "way-of-kings",
+        "chapter": "36"
+      }
+    ],
+    "wob": false,
+    "sources": [
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/War_of_Loss"
+      },
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Hierocracy"
+      }
+    ],
+    "year": 10412.8,
+    "range": [10357.8, 10467.8],
+    "local": "c. 500 years before 1173",
+    "certainty": "estimate",
+    "basis": "text"
+  },
+  {
+    "id": "nalthis-manywar-begins",
+    "world": "nalthis",
+    "title": [
+      {
+        "text": "The Manywar begins",
+        "revealedIn": [
+          {
+            "all": [
+              {
+                "book": "warbreaker",
+                "chapter": "32"
+              },
+              {
+                "book": "warbreaker",
+                "chapter": "57"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "text": "A global conflict pits Hanald against a coalition of Nalthian nations after Awakening advances make larger Lifeless armies possible.",
+        "revealedIn": [
+          {
+            "all": [
+              {
+                "book": "warbreaker",
+                "chapter": "32"
+              },
+              {
+                "book": "warbreaker",
+                "chapter": "57"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "tier": "major",
+    "kind": "war",
+    "revealedIn": [
+      {
+        "all": [
+          {
+            "book": "warbreaker",
+            "chapter": "32"
+          },
+          {
+            "book": "warbreaker",
+            "chapter": "57"
+          }
+        ]
+      }
+    ],
+    "wob": false,
+    "sources": [
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Manywar"
+      },
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Nalthis"
+      },
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Five_Scholars"
+      },
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Warbreaker"
+      }
+    ],
+    "tags": ["hallandren", "awakening", "lifeless"],
+    "worldRevealedIn": ["warbreaker"],
+    "year": 10580,
+    "range": [10465, 10665],
+    "order": 1,
+    "local": "about three centuries before the Pahn Kahl rebellion",
+    "certainty": "estimate",
+    "basis": "text"
+  },
+  {
+    "id": "nalthis-nightblood-created",
+    "world": "nalthis",
+    "title": [
+      {
+        "text": "Vasher and Shashara create Nightblood",
+        "revealedIn": [
+          {
+            "all": [
+              {
+                "book": "warbreaker",
+                "chapter": "51"
+              },
+              {
+                "book": "warbreaker",
+                "chapter": "57"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "text": "During the Manywar, the two scholars create a sentient sword modeled on a Shardblade.",
+        "revealedIn": [
+          {
+            "all": [
+              {
+                "book": "warbreaker",
+                "chapter": "51"
+              },
+              {
+                "book": "warbreaker",
+                "chapter": "57"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "tier": "major",
+    "kind": "magic",
+    "revealedIn": [
+      {
+        "all": [
+          {
+            "book": "warbreaker",
+            "chapter": "51"
+          },
+          {
+            "book": "warbreaker",
+            "chapter": "57"
+          }
+        ]
+      }
+    ],
+    "wob": false,
+    "sources": [
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Nightblood"
+      },
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Manywar"
+      },
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Five_Scholars"
+      },
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Warbreaker"
+      }
+    ],
+    "tags": ["awakening", "five-scholars"],
+    "worldRevealedIn": ["warbreaker"],
+    "year": 10580,
+    "range": [10465, 10665],
+    "order": 2,
+    "local": "during the Manywar, about three centuries before the Pahn Kahl rebellion",
+    "certainty": "estimate",
+    "basis": "text"
+  },
+  {
+    "id": "nalthis-manywar-ends",
+    "world": "nalthis",
+    "title": [
+      {
+        "text": "The Battle of Twilight Falls ends the Manywar",
+        "revealedIn": [
+          {
+            "all": [
+              {
+                "book": "warbreaker",
+                "chapter": "57"
+              },
+              {
+                "book": "warbreaker",
+                "chapter": "58"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "text": "The final battle at Twilight Falls closes the conflict; the threat of Kalad’s Lifeless forces helps bring the fighting to an end.",
+        "revealedIn": [
+          {
+            "all": [
+              {
+                "book": "warbreaker",
+                "chapter": "57"
+              },
+              {
+                "book": "warbreaker",
+                "chapter": "58"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "text": "Afterward, Peacegiver establishes Hallandren under the God Kings, while the Idrian royal family remains in exile and forms Idris.",
+        "revealedIn": [
+          {
+            "book": "warbreaker",
+            "chapter": "epilogue"
+          }
+        ]
+      }
+    ],
+    "tier": "headline",
+    "kind": "war",
+    "revealedIn": [
+      {
+        "all": [
+          {
+            "book": "warbreaker",
+            "chapter": "57"
+          },
+          {
+            "book": "warbreaker",
+            "chapter": "58"
+          }
+        ]
+      }
+    ],
+    "wob": false,
+    "sources": [
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Manywar"
+      },
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Peacegiver"
+      },
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Hallandren"
+      },
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Idris"
+      },
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Warbreaker"
+      }
+    ],
+    "tags": ["hallandren", "idris", "peacegiver"],
+    "worldRevealedIn": ["warbreaker"],
+    "year": 10580,
+    "range": [10465, 10665],
+    "order": 3,
+    "local": "about three centuries before the Pahn Kahl rebellion",
+    "certainty": "estimate",
+    "basis": "text"
+  },
+  {
+    "id": "scadrial-e1-kelsier-trains-with-gemmel",
+    "world": "scadrial",
+    "title": [
+      {
+        "text": "Kelsier begins training with Gemmel",
+        "revealedIn": ["eleventh-metal"]
+      }
+    ],
+    "summary": [
+      {
+        "text": "Gemmel trains Kelsier in Allomancy while they investigate a nobleman's search for a new metal.",
+        "revealedIn": ["eleventh-metal"]
+      }
+    ],
+    "tier": "minor",
+    "kind": "magic",
+    "tags": ["allomancy"],
+    "inBook": {
+      "book": "eleventh-metal"
+    },
+    "revealedIn": ["eleventh-metal"],
+    "sources": [
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/The_Eleventh_Metal"
+      },
+      {
+        "label": "Drew's sheet",
+        "url": "https://docs.google.com/spreadsheets/d/1JJtJhHwpKdow01n2-bsT3scVvqJd6lZh4uvpNwcslv8/edit"
+      }
+    ],
+    "year": 10620,
+    "range": [10619, 10620],
+    "local": "c. FE 1,019",
+    "certainty": "estimate",
+    "basis": "community"
+  },
+  {
+    "id": "scadrial-e1-kelsier-rebellion",
+    "world": "scadrial",
+    "title": [
+      {
+        "text": "Kelsier's crew begins its revolt",
+        "revealedIn": [
+          {
+            "book": "final-empire",
+            "chapter": "3"
+          }
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "text": "Kelsier brings Vin into his crew's plan to overthrow the Lord Ruler.",
+        "revealedIn": [
+          {
+            "book": "final-empire",
+            "chapter": "3"
+          }
+        ]
+      }
+    ],
+    "tier": "major",
+    "kind": "war",
+    "tags": ["final-empire", "skaa-rebellion"],
+    "inBook": {
+      "book": "final-empire",
+      "chapter": "3"
+    },
+    "revealedIn": [
+      {
+        "book": "final-empire",
+        "chapter": "3"
+      }
+    ],
+    "sources": [
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Mistborn:_The_Final_Empire"
+      },
+      {
+        "label": "Drew's sheet",
+        "url": "https://docs.google.com/spreadsheets/d/1JJtJhHwpKdow01n2-bsT3scVvqJd6lZh4uvpNwcslv8/edit"
+      }
+    ],
+    "year": 10622,
+    "range": [10622, 10623],
+    "local": "c. FE 1,021–1,022",
+    "certainty": "estimate",
+    "basis": "community"
+  },
+  {
+    "id": "scadrial-e1-pits-destroyed",
+    "world": "scadrial",
+    "title": [
+      {
+        "text": "Kelsier destroys the Pits of Hathsin",
+        "revealedIn": [
+          {
+            "book": "final-empire",
+            "chapter": "33"
+          }
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "text": "Kelsier destroys the Pits of Hathsin, cutting off the Lord Ruler's source of atium.",
+        "revealedIn": [
+          {
+            "book": "final-empire",
+            "chapter": "33"
+          }
+        ]
+      }
+    ],
+    "tier": "major",
+    "kind": "war",
+    "tags": ["final-empire", "atium"],
+    "inBook": {
+      "book": "final-empire",
+      "chapter": "33"
+    },
+    "revealedIn": [
+      {
+        "book": "final-empire",
+        "chapter": "33"
+      }
+    ],
+    "sources": [
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Pits_of_Hathsin"
+      },
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Mistborn:_The_Final_Empire"
+      },
+      {
+        "label": "Drew's sheet",
+        "url": "https://docs.google.com/spreadsheets/d/1JJtJhHwpKdow01n2-bsT3scVvqJd6lZh4uvpNwcslv8/edit"
+      }
+    ],
+    "year": 10623,
+    "range": [10622, 10623],
+    "order": 5,
+    "local": "c. FE 1,022",
+    "certainty": "estimate",
+    "basis": "community"
+  },
+  {
+    "id": "scadrial-e1-kelsier-killed",
+    "world": "scadrial",
+    "title": [
+      {
+        "text": "Kelsier is killed in Luthadel",
+        "revealedIn": [
+          {
+            "book": "final-empire",
+            "chapter": "34"
+          }
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "text": "The Lord Ruler kills Kelsier during the uprising, and the skaa take up his cause.",
+        "revealedIn": [
+          {
+            "book": "final-empire",
+            "chapter": "34"
+          }
+        ]
+      }
+    ],
+    "tier": "major",
+    "kind": "death",
+    "tags": ["final-empire", "skaa-rebellion"],
+    "inBook": {
+      "book": "final-empire",
+      "chapter": "34"
+    },
+    "revealedIn": [
+      {
+        "book": "final-empire",
+        "chapter": "34"
+      }
+    ],
+    "sources": [
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Collapse"
+      },
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Kelsier"
+      },
+      {
+        "label": "Drew's sheet",
+        "url": "https://docs.google.com/spreadsheets/d/1JJtJhHwpKdow01n2-bsT3scVvqJd6lZh4uvpNwcslv8/edit"
+      }
+    ],
+    "year": 10623,
+    "range": [10622, 10623],
+    "order": 10,
+    "local": "c. FE 1,022",
+    "certainty": "estimate",
+    "basis": "community"
+  },
+  {
+    "id": "scadrial-e1-collapse",
+    "world": "scadrial",
+    "title": [
+      {
+        "text": "The Lord Ruler falls",
+        "revealedIn": [
+          {
+            "book": "final-empire",
+            "chapter": "38"
+          }
+        ]
+      },
+      {
+        "text": "The Final Empire collapses",
+        "revealedIn": [
+          {
+            "book": "final-empire",
+            "chapter": "epilogue"
+          }
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "text": "Vin kills the Lord Ruler, ending his rule.",
+        "revealedIn": [
+          {
+            "book": "final-empire",
+            "chapter": "38"
+          }
+        ]
+      },
+      {
+        "text": "The rebels establish a new government in Luthadel, where Elend is crowned king.",
+        "revealedIn": [
+          {
+            "book": "final-empire",
+            "chapter": "epilogue"
+          }
+        ]
+      }
+    ],
+    "tier": "major",
+    "kind": "politics",
+    "tags": ["final-empire", "skaa-rebellion"],
+    "inBook": {
+      "book": "final-empire",
+      "chapter": "38"
+    },
+    "revealedIn": [
+      {
+        "book": "final-empire",
+        "chapter": "38"
+      }
+    ],
+    "sources": [
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Collapse"
+      },
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Final_Empire"
+      },
+      {
+        "label": "Drew's sheet",
+        "url": "https://docs.google.com/spreadsheets/d/1JJtJhHwpKdow01n2-bsT3scVvqJd6lZh4uvpNwcslv8/edit"
+      }
+    ],
+    "year": 10623,
+    "range": [10622, 10623],
+    "order": 20,
+    "local": "c. FE 1,022",
+    "certainty": "estimate",
+    "basis": "community"
+  },
+  {
+    "id": "scadrial-e1-siege-of-luthadel",
+    "world": "scadrial",
+    "title": [
+      {
+        "text": "The Siege of Luthadel begins",
+        "revealedIn": [
+          {
+            "book": "well-of-ascension",
+            "chapter": "1"
+          }
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "text": "Rival rulers and their armies surround Luthadel, Elend's capital, after the Final Empire's collapse.",
+        "revealedIn": [
+          {
+            "book": "well-of-ascension",
+            "chapter": "1"
+          }
+        ]
+      }
+    ],
+    "tier": "minor",
+    "kind": "war",
+    "tags": ["final-empire", "luthadel"],
+    "inBook": {
+      "book": "well-of-ascension",
+      "chapter": "1"
+    },
+    "revealedIn": [
+      {
+        "book": "well-of-ascension",
+        "chapter": "1"
+      }
+    ],
+    "sources": [
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Siege_of_Luthadel"
+      },
+      {
+        "label": "Drew's sheet",
+        "url": "https://docs.google.com/spreadsheets/d/1JJtJhHwpKdow01n2-bsT3scVvqJd6lZh4uvpNwcslv8/edit"
+      }
+    ],
+    "year": 10624,
+    "range": [10624, 10624],
+    "order": 10,
+    "local": "c. FE 1,023",
+    "certainty": "estimate",
+    "basis": "community"
+  },
+  {
+    "id": "scadrial-e1-battle-of-luthadel",
+    "world": "scadrial",
+    "title": [
+      {
+        "text": "Vin turns the Battle of Luthadel",
+        "revealedIn": [
+          {
+            "book": "well-of-ascension",
+            "chapter": "55"
+          }
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "text": "Vin returns to Luthadel and turns the battle, allowing Elend to reclaim the city and rule as emperor.",
+        "revealedIn": [
+          {
+            "book": "well-of-ascension",
+            "chapter": "55"
+          }
+        ]
+      }
+    ],
+    "tier": "major",
+    "kind": "war",
+    "tags": ["luthadel", "koloss"],
+    "inBook": {
+      "book": "well-of-ascension",
+      "chapter": "55"
+    },
+    "revealedIn": [
+      {
+        "book": "well-of-ascension",
+        "chapter": "55"
+      }
+    ],
+    "sources": [
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Siege_of_Luthadel"
+      },
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Well_of_Ascension"
+      },
+      {
+        "label": "Drew's sheet",
+        "url": "https://docs.google.com/spreadsheets/d/1JJtJhHwpKdow01n2-bsT3scVvqJd6lZh4uvpNwcslv8/edit"
+      }
+    ],
+    "year": 10624,
+    "range": [10624, 10624],
+    "order": 20,
+    "local": "c. FE 1,023",
+    "certainty": "estimate",
+    "basis": "community"
+  },
+  {
+    "id": "scadrial-e1-well-power-released",
+    "world": "scadrial",
+    "title": [
+      {
+        "text": "The Well's power is released",
+        "revealedIn": [
+          {
+            "book": "well-of-ascension",
+            "chapter": "58"
+          }
+        ]
+      },
+      {
+        "text": "Ruin is freed",
+        "revealedIn": ["hero-of-ages"]
+      }
+    ],
+    "summary": [
+      {
+        "text": "Vin drains the Well's power, freeing a being that had been imprisoned there.",
+        "revealedIn": [
+          {
+            "book": "well-of-ascension",
+            "chapter": "58"
+          }
+        ]
+      },
+      {
+        "text": "The being is Ruin, whose escape begins a struggle that threatens Scadrial.",
+        "revealedIn": ["hero-of-ages"]
+      }
+    ],
+    "tier": "headline",
+    "kind": "magic",
+    "tags": ["well-of-ascension"],
+    "inBook": {
+      "book": "well-of-ascension",
+      "chapter": "58"
+    },
+    "revealedIn": [
+      {
+        "book": "well-of-ascension",
+        "chapter": "58"
+      }
+    ],
+    "sources": [
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Well_of_Ascension"
+      },
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Catacendre"
+      },
+      {
+        "label": "Drew's sheet",
+        "url": "https://docs.google.com/spreadsheets/d/1JJtJhHwpKdow01n2-bsT3scVvqJd6lZh4uvpNwcslv8/edit"
+      }
+    ],
+    "year": 10625,
+    "range": [10624, 10625],
+    "order": 10,
+    "local": "c. FE 1,024",
+    "certainty": "estimate",
+    "basis": "community"
+  },
+  {
+    "id": "scadrial-e1-elend-mistborn",
+    "world": "scadrial",
+    "title": [
+      {
+        "text": "Elend becomes a Mistborn",
+        "revealedIn": [
+          {
+            "book": "well-of-ascension",
+            "chapter": "59"
+          }
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "text": "Elend burns a metal bead from the Well and gains Allomantic powers.",
+        "revealedIn": [
+          {
+            "book": "well-of-ascension",
+            "chapter": "59"
+          }
+        ]
+      }
+    ],
+    "tier": "minor",
+    "kind": "magic",
+    "tags": ["allomancy", "well-of-ascension"],
+    "inBook": {
+      "book": "well-of-ascension",
+      "chapter": "59"
+    },
+    "revealedIn": [
+      {
+        "book": "well-of-ascension",
+        "chapter": "59"
+      }
+    ],
+    "sources": [
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Well_of_Ascension"
+      },
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Elend_Venture"
+      },
+      {
+        "label": "Drew's sheet",
+        "url": "https://docs.google.com/spreadsheets/d/1JJtJhHwpKdow01n2-bsT3scVvqJd6lZh4uvpNwcslv8/edit"
+      }
+    ],
+    "year": 10625,
+    "range": [10624, 10625],
+    "order": 20,
+    "local": "c. FE 1,024",
+    "certainty": "estimate",
+    "basis": "community"
+  },
+  {
+    "id": "scadrial-e1-catastrophe-escalates",
+    "world": "scadrial",
+    "title": [
+      {
+        "text": "Ashfall and eruptions intensify",
+        "revealedIn": [
+          {
+            "book": "hero-of-ages",
+            "chapter": "48"
+          }
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "text": "Ruin's influence drives worsening ashfall, earthquakes, and Ashmount eruptions across Scadrial.",
+        "revealedIn": [
+          {
+            "book": "hero-of-ages",
+            "chapter": "48"
+          }
+        ]
+      }
+    ],
+    "tier": "major",
+    "kind": "disaster",
+    "tags": ["ashmounts", "ruin"],
+    "inBook": {
+      "book": "hero-of-ages",
+      "chapter": "48"
+    },
+    "revealedIn": [
+      {
+        "book": "hero-of-ages",
+        "chapter": "48"
+      }
+    ],
+    "sources": [
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Catacendre"
+      },
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Ashmounts"
+      },
+      {
+        "label": "Drew's sheet",
+        "url": "https://docs.google.com/spreadsheets/d/1JJtJhHwpKdow01n2-bsT3scVvqJd6lZh4uvpNwcslv8/edit"
+      }
+    ],
+    "year": 10625,
+    "range": [10625, 10626],
+    "order": 30,
+    "local": "c. FE 1,024–1,025",
+    "certainty": "estimate",
+    "basis": "community"
+  },
+  {
+    "id": "scadrial-e1-battle-of-hathsin",
+    "world": "scadrial",
+    "title": [
+      {
+        "text": "The Battle of Hathsin",
+        "revealedIn": [
+          {
+            "book": "hero-of-ages",
+            "chapter": "81"
+          }
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "text": "Elend and his atium-burning soldiers destroy Ruin's atium supply in a last stand against the koloss, and Elend dies with them.",
+        "revealedIn": [
+          {
+            "book": "hero-of-ages",
+            "chapter": "81"
+          }
+        ]
+      }
+    ],
+    "tier": "major",
+    "kind": "war",
+    "tags": ["atium", "koloss", "pits-of-hathsin"],
+    "inBook": {
+      "book": "hero-of-ages",
+      "chapter": "81"
+    },
+    "revealedIn": [
+      {
+        "book": "hero-of-ages",
+        "chapter": "81"
+      }
+    ],
+    "sources": [
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Battle_of_Hathsin"
+      },
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Catacendre"
+      },
+      {
+        "label": "Drew's sheet",
+        "url": "https://docs.google.com/spreadsheets/d/1JJtJhHwpKdow01n2-bsT3scVvqJd6lZh4uvpNwcslv8/edit"
+      }
+    ],
+    "year": 10626,
+    "range": [10625, 10626],
+    "order": 10,
+    "local": "c. FE 1,025",
+    "certainty": "estimate",
+    "basis": "community"
+  },
+  {
+    "id": "scadrial-e1-scadrial-restored",
+    "world": "scadrial",
+    "title": [
+      {
+        "text": "Sazed takes up the two powers",
+        "revealedIn": [
+          {
+            "book": "hero-of-ages",
+            "chapter": "82"
+          }
+        ]
+      },
+      {
+        "text": "Scadrial is restored",
+        "revealedIn": [
+          {
+            "book": "hero-of-ages",
+            "chapter": "epilogue"
+          }
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "text": "Sazed takes up the powers of Preservation and Ruin as Harmony and begins restoring Scadrial.",
+        "revealedIn": [
+          {
+            "book": "hero-of-ages",
+            "chapter": "82"
+          }
+        ]
+      },
+      {
+        "text": "The survivors emerge beneath a clear sky onto restored land, ending the ash-covered world.",
+        "revealedIn": [
+          {
+            "book": "hero-of-ages",
+            "chapter": "epilogue"
+          }
+        ]
+      }
+    ],
+    "tier": "headline",
+    "kind": "shard",
+    "tags": ["disaster", "preservation", "ruin"],
+    "inBook": {
+      "book": "hero-of-ages",
+      "chapter": "82"
+    },
+    "revealedIn": [
+      {
+        "book": "hero-of-ages",
+        "chapter": "82"
+      }
+    ],
+    "sources": [
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Catacendre"
+      },
+      {
+        "label": "Drew's sheet",
+        "url": "https://docs.google.com/spreadsheets/d/1JJtJhHwpKdow01n2-bsT3scVvqJd6lZh4uvpNwcslv8/edit"
+      }
+    ],
+    "year": 10626,
+    "order": 20,
+    "local": "0 FA (FE 1,025)",
+    "certainty": "exact",
+    "basis": "community"
+  },
+  {
+    "id": "scadrial-ice-death",
+    "world": "scadrial",
+    "title": [
+      {
+        "text": "The Ice Death",
+        "revealedIn": [
+          {
+            "book": "bands-of-mourning",
+            "chapter": "21"
+          }
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "text": "When the world is remade, the far south turns cold, and the Southern peoples, unable to bear it, die in great numbers in what they call the Ice Death.",
+        "revealedIn": [
+          {
+            "book": "bands-of-mourning",
+            "chapter": "21"
+          }
+        ]
+      }
+    ],
+    "tier": "major",
+    "kind": "disaster",
+    "tags": ["southern-scadrians", "south"],
+    "characters": ["allik-neverfar"],
+    "revealedIn": [
+      {
+        "book": "bands-of-mourning",
+        "chapter": "21"
+      }
+    ],
+    "wob": false,
+    "sources": [
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Southern_Scadrian"
+      },
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Catacendre"
+      }
+    ],
+    "year": 10626.1,
+    "range": [10626, 10627],
+    "order": 5,
+    "certainty": "derived",
+    "basis": "text"
+  },
+  {
+    "id": "scadrial-elendel-founded",
+    "world": "scadrial",
+    "title": [
+      {
+        "text": "Founding of Elendel",
+        "revealedIn": [
+          {
+            "book": "alloy-of-law",
+            "chapter": "4"
+          }
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "text": "After the Catacendre, the Originators, about a fifth of them Terris, found the city of Elendel at the heart of the new Basin.",
+        "revealedIn": [
+          {
+            "book": "alloy-of-law",
+            "chapter": "4"
+          }
+        ]
+      },
+      {
+        "text": "They are the survivors Harmony sheltered in the storage caverns, and their city bears Elend Venture's name.",
+        "revealedIn": [
+          {
+            "all": [
+              "hero-of-ages",
+              {
+                "book": "alloy-of-law",
+                "chapter": "4"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "tier": "headline",
+    "kind": "politics",
+    "tags": ["elendel", "originators", "founding"],
+    "revealedIn": [
+      {
+        "book": "alloy-of-law",
+        "chapter": "4"
+      }
+    ],
+    "wob": false,
+    "sources": [
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Elendel"
+      },
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Originators"
+      },
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Field_of_Rebirth"
+      }
+    ],
+    "year": 10626.2,
+    "range": [10626, 10628],
+    "order": 10,
+    "certainty": "estimate",
+    "basis": "text"
+  },
+  {
+    "id": "scadrial-spook-crowned",
+    "world": "scadrial",
+    "title": [
+      {
+        "text": "Spook crowned emperor",
+        "revealedIn": [
+          {
+            "book": "secret-history",
+            "chapter": "epilogue"
+          }
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "text": "The survivors crown Spook emperor and build him a two-storey log house, while Breeze coaches him in ruling and Ham trains him to fight.",
+        "revealedIn": [
+          {
+            "book": "secret-history",
+            "chapter": "epilogue"
+          }
+        ]
+      }
+    ],
+    "tier": "minor",
+    "kind": "politics",
+    "tags": ["elendel", "lord-mistborn"],
+    "characters": ["spook", "edgard-ladrian", "hammond"],
+    "revealedIn": [
+      {
+        "book": "secret-history",
+        "chapter": "epilogue"
+      }
+    ],
+    "wob": false,
+    "sources": [
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Spook"
+      },
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Elendel"
+      }
+    ],
+    "year": 10626.3,
+    "range": [10626, 10628],
+    "order": 20,
+    "certainty": "estimate",
+    "basis": "text"
+  },
+  {
+    "id": "scadrial-kelsier-spook-pact",
+    "world": "scadrial",
+    "title": [
+      {
+        "text": "Kelsier and Spook start studying the Metallic Arts",
+        "revealedIn": [
+          {
+            "book": "secret-history",
+            "chapter": "epilogue"
+          }
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "text": "Kelsier reaches Spook in a dream, has him wear an Inquisitor spike as an earring so they can talk, and the two agree to study the Metallic Arts and the wider cosmere together.",
+        "revealedIn": [
+          {
+            "book": "secret-history",
+            "chapter": "epilogue"
+          }
+        ]
+      }
+    ],
+    "tier": "minor",
+    "kind": "magic",
+    "tags": ["hemalurgy", "cognitive-realm"],
+    "characters": ["kelsier", "spook"],
+    "inBook": {
+      "book": "secret-history",
+      "chapter": "epilogue"
+    },
+    "revealedIn": [
+      {
+        "book": "secret-history",
+        "chapter": "epilogue"
+      }
+    ],
+    "wob": false,
+    "sources": [
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Spook"
+      },
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Kelsier"
+      }
+    ],
+    "year": 10626.5,
+    "range": [10626, 10629],
+    "order": 30,
+    "certainty": "estimate",
+    "basis": "text"
+  },
+  {
+    "id": "scadrial-house-ladrian-founded",
+    "world": "scadrial",
+    "title": [
+      {
+        "text": "Founding of House Ladrian",
+        "revealedIn": [
+          {
+            "all": [
+              "final-empire",
+              "well-of-ascension",
+              {
+                "book": "shadows-of-self",
+                "chapter": "19"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "text": "Breeze, under his true name Edgard Ladrian, founds House Ladrian with Allrianne, who also teaches Elendel's women that they can work as men do while remaining ladies.",
+        "revealedIn": [
+          {
+            "all": [
+              "final-empire",
+              "well-of-ascension",
+              {
+                "book": "shadows-of-self",
+                "chapter": "19"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "tier": "minor",
+    "kind": "politics",
+    "tags": ["house-ladrian", "elendel", "originators"],
+    "characters": ["edgard-ladrian", "allrianne-cett"],
+    "revealedIn": [
+      {
+        "all": [
+          "final-empire",
+          "well-of-ascension",
+          {
+            "book": "shadows-of-self",
+            "chapter": "19"
+          }
+        ]
+      }
+    ],
+    "wob": false,
+    "sources": [
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/House_Ladrian"
+      },
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Allrianne_Cett"
+      },
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Edgard_Ladrian"
+      }
+    ],
+    "year": 10627,
+    "range": [10626, 10656],
+    "order": 40,
+    "certainty": "estimate",
+    "basis": "text"
+  },
+  {
+    "id": "scadrial-sovereign-saves-south",
+    "world": "scadrial",
+    "title": [
+      {
+        "text": "The Sovereign comes to the South",
+        "revealedIn": [
+          {
+            "book": "bands-of-mourning",
+            "chapter": "21"
+          }
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "text": "About ten years into the Ice Death, a stranger the Southerners call the Sovereign teaches them to make heat medallions, and they take him as king and god.",
+        "revealedIn": [
+          {
+            "book": "bands-of-mourning",
+            "chapter": "21"
+          }
+        ]
+      },
+      {
+        "text": "Memories kept in an old coin suggest the Sovereign was Kelsier, the Survivor.",
+        "revealedIn": [
+          {
+            "all": [
+              "final-empire",
+              {
+                "book": "bands-of-mourning",
+                "chapter": "epilogue"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "tier": "major",
+    "kind": "politics",
+    "tags": ["southern-scadrians", "south", "medallions", "feruchemy"],
+    "characters": ["allik-neverfar"],
+    "revealedIn": [
+      {
+        "book": "bands-of-mourning",
+        "chapter": "21"
+      }
+    ],
+    "wob": false,
+    "sources": [
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Southern_Scadrian"
+      },
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Bands_of_Mourning"
+      },
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Excisor"
+      },
+      {
+        "label": "Word of Brandon",
+        "url": "https://wob.coppermind.net/events/31/#e9667"
+      }
+    ],
+    "year": 10636,
+    "range": [10631, 10646],
+    "order": 10,
+    "certainty": "estimate",
+    "basis": "text"
+  },
+  {
+    "id": "scadrial-bands-hidden",
+    "world": "scadrial",
+    "title": [
+      {
+        "text": "The Bands of Mourning hidden in the north",
+        "revealedIn": [
+          {
+            "book": "bands-of-mourning",
+            "chapter": "21"
+          }
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "text": "The Sovereign carries the Bands of Mourning north with his priests and seals them in a trapped temple in the mountains beyond the Basin, and the priests take the legend home.",
+        "revealedIn": [
+          {
+            "book": "bands-of-mourning",
+            "chapter": "21"
+          }
+        ]
+      }
+    ],
+    "tier": "minor",
+    "kind": "magic",
+    "tags": ["bands-of-mourning", "southern-scadrians"],
+    "revealedIn": [
+      {
+        "book": "bands-of-mourning",
+        "chapter": "21"
+      }
+    ],
+    "wob": false,
+    "sources": [
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Bands_of_Mourning"
+      },
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Southern_Scadrian"
+      },
+      {
+        "label": "Word of Brandon",
+        "url": "https://wob.coppermind.net/events/314/#e8921"
+      }
+    ],
+    "year": 10641,
+    "range": [10631, 10726],
+    "order": 10,
+    "certainty": "estimate",
+    "basis": "text"
+  },
+  {
+    "id": "scadrial-lord-mistborn-steps-down",
+    "world": "scadrial",
+    "title": [
+      {
+        "text": "The Lord Mistborn steps down",
+        "revealedIn": [
+          {
+            "book": "bands-of-mourning",
+            "chapter": "5"
+          }
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "text": "After ruling the Basin as emperor for a century, the Lord Mistborn simply disappears, and Elendel stops claiming direct rule over the other cities.",
+        "revealedIn": [
+          {
+            "book": "bands-of-mourning",
+            "chapter": "5"
+          }
+        ]
+      },
+      {
+        "text": "The Lord Mistborn was Spook, made a Mistborn at the Catacendre, whose laws, housing for the poor and Eastern slang shaped Elendel for centuries.",
+        "revealedIn": [
+          {
+            "all": [
+              "hero-of-ages",
+              {
+                "book": "bands-of-mourning",
+                "chapter": "5"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "tier": "major",
+    "kind": "politics",
+    "tags": ["lord-mistborn", "elendel", "senate"],
+    "revealedIn": [
+      {
+        "book": "bands-of-mourning",
+        "chapter": "5"
+      }
+    ],
+    "wob": false,
+    "sources": [
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Spook"
+      },
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Elendel"
+      },
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/High_Imperial"
+      }
+    ],
+    "year": 10726,
+    "range": [10716, 10736],
+    "certainty": "estimate",
+    "basis": "text"
+  },
+  {
+    "id": "nalthis-siri-sent-to-hallandren",
+    "world": "nalthis",
+    "title": [
+      {
+        "text": "Siri is sent to marry the God King",
+        "revealedIn": [
+          {
+            "book": "warbreaker",
+            "chapter": "1"
+          }
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "text": "Siri takes her sister’s place and leaves Idris to become the God King’s bride in Hallandren.",
+        "revealedIn": [
+          {
+            "book": "warbreaker",
+            "chapter": "1"
+          }
+        ]
+      }
+    ],
+    "tier": "major",
+    "kind": "story",
+    "revealedIn": [
+      {
+        "book": "warbreaker",
+        "chapter": "1"
+      }
+    ],
+    "wob": false,
+    "sources": [
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Siri"
+      },
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Warbreaker"
+      }
+    ],
+    "tags": ["hallandren", "idris"],
+    "inBook": {
+      "book": "warbreaker",
+      "chapter": "1"
+    },
+    "worldRevealedIn": ["warbreaker"],
+    "year": 10880,
+    "range": [10815, 10915],
+    "order": 1,
+    "local": "Warbreaker era",
+    "certainty": "estimate",
+    "basis": "wob"
+  },
+  {
+    "id": "nalthis-lightsong-sacrifices-himself",
+    "world": "nalthis",
+    "title": [
+      {
+        "text": "Lightsong gives his life to save Susebron",
+        "revealedIn": [
+          {
+            "book": "warbreaker",
+            "chapter": "58"
+          }
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "text": "Lightsong returns his Divine Breath to restore Susebron’s tongue, dying in the act.",
+        "revealedIn": [
+          {
+            "book": "warbreaker",
+            "chapter": "58"
+          }
+        ]
+      }
+    ],
+    "tier": "major",
+    "kind": "death",
+    "revealedIn": [
+      {
+        "book": "warbreaker",
+        "chapter": "58"
+      }
+    ],
+    "wob": false,
+    "sources": [
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Lightsong"
+      },
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Susebron"
+      },
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Warbreaker"
+      }
+    ],
+    "tags": ["returned", "breath"],
+    "inBook": {
+      "book": "warbreaker",
+      "chapter": "58"
+    },
+    "worldRevealedIn": ["warbreaker"],
+    "year": 10880,
+    "range": [10815, 10916],
+    "order": 2,
+    "local": "Warbreaker era",
+    "certainty": "estimate",
+    "basis": "wob"
+  },
+  {
+    "id": "nalthis-pahn-kahl-rebellion-stopped",
+    "world": "nalthis",
+    "title": [
+      {
+        "text": "Siri and Susebron stop the Pahn Kahl rebellion",
+        "revealedIn": [
+          {
+            "book": "warbreaker",
+            "chapter": "58"
+          }
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "text": "After the Pahn Kahl scheme is exposed, Susebron and his allies prevent the Lifeless advance and preserve Hallandren’s rule.",
+        "revealedIn": [
+          {
+            "book": "warbreaker",
+            "chapter": "58"
+          }
+        ]
+      },
+      {
+        "text": "Vasher uses Kalad’s Phantoms to halt the army, and he and Vivenna leave Hallandren together.",
+        "revealedIn": [
+          {
+            "book": "warbreaker",
+            "chapter": "epilogue"
+          }
+        ]
+      }
+    ],
+    "tier": "major",
+    "kind": "politics",
+    "revealedIn": [
+      {
+        "book": "warbreaker",
+        "chapter": "58"
+      }
+    ],
+    "wob": false,
+    "sources": [
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Pahn_Kahl_rebellion"
+      },
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Vasher"
+      },
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Susebron"
+      },
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Warbreaker"
+      }
+    ],
+    "tags": ["hallandren", "pahn-kahl", "rebellion"],
+    "inBook": {
+      "book": "warbreaker",
+      "chapter": "58"
+    },
+    "worldRevealedIn": ["warbreaker"],
+    "year": 10880,
+    "range": [10815, 10916],
+    "order": 3,
+    "local": "Warbreaker era",
+    "certainty": "estimate",
+    "basis": "wob"
+  },
+  {
+    "id": "scadrial-birth-waxillium",
+    "world": "scadrial",
+    "title": [
+      {
+        "text": "Birth of Waxillium Ladrian",
+        "revealedIn": [
+          {
+            "book": "alloy-of-law",
+            "chapter": "4"
+          }
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "text": "Waxillium Ladrian is born into the noble House Ladrian of Elendel.",
+        "revealedIn": [
+          {
+            "book": "alloy-of-law",
+            "chapter": "4"
+          }
+        ]
+      }
+    ],
+    "tier": "minor",
+    "kind": "birth",
+    "tags": ["wax-and-wayne"],
+    "characters": ["waxillium-ladrian"],
+    "revealedIn": [
+      {
+        "book": "alloy-of-law",
+        "chapter": "4"
+      }
+    ],
+    "wob": false,
+    "sources": [
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Waxillium_Ladrian"
+      },
+      {
+        "label": "Word of Brandon",
+        "url": "https://wob.coppermind.net/events/7/#e7145"
+      }
+    ],
+    "year": 10925,
+    "range": [10923, 10928],
+    "certainty": "estimate",
+    "basis": "wob"
+  },
+  {
+    "id": "scadrial-birth-wayne",
+    "world": "scadrial",
+    "title": [
+      {
+        "text": "Birth of Wayne",
+        "revealedIn": [
+          {
+            "book": "lost-metal",
+            "chapter": "1"
+          }
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "text": "Wayne is born, and grows up poor with his mother in a mining town.",
+        "revealedIn": [
+          {
+            "book": "lost-metal",
+            "chapter": "1"
+          }
+        ]
+      }
+    ],
+    "tier": "minor",
+    "kind": "birth",
+    "tags": ["wax-and-wayne"],
+    "characters": ["wayne"],
+    "revealedIn": [
+      {
+        "book": "lost-metal",
+        "chapter": "1"
+      }
+    ],
+    "wob": false,
+    "sources": [
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Wayne"
+      }
+    ],
+    "year": 10934,
+    "range": [10933, 10935],
+    "certainty": "derived",
+    "basis": "text"
+  },
+  {
+    "id": "scadrial-birth-steris",
+    "world": "scadrial",
+    "title": [
+      {
+        "text": "Birth of Steris Harms",
+        "revealedIn": [
+          {
+            "book": "bands-of-mourning",
+            "chapter": "5"
+          }
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "text": "Steris Harms is born, the daughter of Lord Jackstom Harms.",
+        "revealedIn": [
+          {
+            "book": "bands-of-mourning",
+            "chapter": "5"
+          }
+        ]
+      }
+    ],
+    "tier": "minor",
+    "kind": "birth",
+    "tags": ["wax-and-wayne"],
+    "characters": ["steris-harms"],
+    "revealedIn": [
+      {
+        "book": "bands-of-mourning",
+        "chapter": "5"
+      }
+    ],
+    "wob": false,
+    "sources": [
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Steris_Harms"
+      }
+    ],
+    "year": 10939,
+    "range": [10938, 10940],
+    "certainty": "estimate",
+    "basis": "text"
+  },
+  {
+    "id": "scadrial-wax-village-forch",
+    "world": "scadrial",
+    "title": [
+      {
+        "text": "Wax kills Forch in the Terris Village",
+        "revealedIn": [
+          {
+            "book": "bands-of-mourning",
+            "chapter": "prologue"
+          }
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "text": "At fifteen, during a year in the Terris Village, Wax uncovers the young Twinborn Forch torturing a kidnapped boy and kills him, and the Terris elders' reaction drives him away from the Village.",
+        "revealedIn": [
+          {
+            "book": "bands-of-mourning",
+            "chapter": "prologue"
+          }
+        ]
+      }
+    ],
+    "tier": "minor",
+    "kind": "story",
+    "tags": ["terris", "wax-and-wayne"],
+    "characters": ["waxillium-ladrian", "forch"],
+    "inBook": {
+      "book": "bands-of-mourning",
+      "chapter": "prologue"
+    },
+    "revealedIn": [
+      {
+        "book": "bands-of-mourning",
+        "chapter": "prologue"
+      }
+    ],
+    "wob": false,
+    "sources": [
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Waxillium_Ladrian"
+      },
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Forch"
+      }
+    ],
+    "year": 10940,
+    "range": [10938, 10943],
+    "certainty": "estimate",
+    "basis": "text"
+  },
+  {
+    "id": "scadrial-birth-marasi",
+    "world": "scadrial",
+    "title": [
+      {
+        "text": "Birth of Marasi Colms",
+        "revealedIn": [
+          {
+            "book": "bands-of-mourning",
+            "chapter": "5"
+          }
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "text": "Marasi Colms is born, Lord Harms's illegitimate daughter and so Steris's younger half-sister.",
+        "revealedIn": [
+          {
+            "book": "bands-of-mourning",
+            "chapter": "5"
+          }
+        ]
+      }
+    ],
+    "tier": "minor",
+    "kind": "birth",
+    "tags": ["wax-and-wayne"],
+    "characters": ["marasi-colms", "steris-harms"],
+    "revealedIn": [
+      {
+        "book": "bands-of-mourning",
+        "chapter": "5"
+      }
+    ],
+    "wob": false,
+    "sources": [
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Marasi_Colms"
+      }
+    ],
+    "year": 10944,
+    "range": [10943, 10945],
+    "certainty": "estimate",
+    "basis": "text"
+  },
+  {
+    "id": "scadrial-wayne-mother-dies",
+    "world": "scadrial",
+    "title": [
+      {
+        "text": "Wayne's mother dies in a mine collapse",
+        "revealedIn": [
+          {
+            "book": "lost-metal",
+            "chapter": "1"
+          }
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "text": "When Wayne is eleven, his mother is killed in a collapse at the mine where she works, leaving him alone.",
+        "revealedIn": [
+          {
+            "book": "lost-metal",
+            "chapter": "1"
+          }
+        ]
+      }
+    ],
+    "tier": "minor",
+    "kind": "death",
+    "tags": ["wax-and-wayne"],
+    "characters": ["wayne"],
+    "inBook": {
+      "book": "lost-metal",
+      "chapter": "prologue"
+    },
+    "revealedIn": [
+      {
+        "book": "lost-metal",
+        "chapter": "1"
+      }
+    ],
+    "wob": false,
+    "sources": [
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Wayne"
+      },
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/The_Lost_Metal"
+      }
+    ],
+    "year": 10945,
+    "range": [10944, 10946],
+    "certainty": "derived",
+    "basis": "text"
+  },
+  {
+    "id": "scadrial-wax-to-roughs",
+    "world": "scadrial",
+    "title": [
+      {
+        "text": "Wax goes to the Roughs",
+        "revealedIn": [
+          {
+            "book": "alloy-of-law",
+            "chapter": "4"
+          }
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "text": "Wax leaves Elendel's high society for the lawless Roughs, where he teaches himself to be a lawman.",
+        "revealedIn": [
+          {
+            "book": "alloy-of-law",
+            "chapter": "4"
+          }
+        ]
+      }
+    ],
+    "tier": "minor",
+    "kind": "journey",
+    "tags": ["roughs", "wax-and-wayne"],
+    "characters": ["waxillium-ladrian"],
+    "revealedIn": [
+      {
+        "book": "alloy-of-law",
+        "chapter": "4"
+      }
+    ],
+    "wob": false,
+    "sources": [
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Waxillium_Ladrian"
+      },
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Roughs"
+      }
+    ],
+    "year": 10947,
+    "range": [10945, 10951],
+    "certainty": "derived",
+    "basis": "text"
+  },
+  {
+    "id": "scadrial-wax-spares-wayne",
+    "world": "scadrial",
+    "title": [
+      {
+        "text": "Wax spares Wayne",
+        "revealedIn": [
+          {
+            "book": "lost-metal",
+            "chapter": "1"
+          }
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "text": "In the Roughs, Wax catches a seventeen-year-old Wayne, who has killed a man in a robbery, spares him, and makes him his deputy.",
+        "revealedIn": [
+          {
+            "book": "lost-metal",
+            "chapter": "1"
+          }
+        ]
+      }
+    ],
+    "tier": "minor",
+    "kind": "story",
+    "tags": ["roughs", "wax-and-wayne"],
+    "characters": ["waxillium-ladrian", "wayne"],
+    "revealedIn": [
+      {
+        "book": "lost-metal",
+        "chapter": "1"
+      }
+    ],
+    "wob": false,
+    "sources": [
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Wayne"
+      },
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Waxillium_Ladrian"
+      }
+    ],
+    "year": 10950.5,
+    "range": [10950, 10951.5],
+    "certainty": "derived",
+    "basis": "text"
+  },
+  {
+    "id": "scadrial-wax-meets-lessie",
+    "world": "scadrial",
+    "title": [
+      {
+        "text": "Wax meets Lessie",
+        "revealedIn": [
+          {
+            "book": "shadows-of-self",
+            "chapter": "1"
+          }
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "text": "Hunting the outlaw Granite Joe in Weathering, Wax, with Wayne, teams up with the bounty hunter Lessie, who becomes his partner and later his wife.",
+        "revealedIn": [
+          {
+            "book": "shadows-of-self",
+            "chapter": "1"
+          }
+        ]
+      },
+      {
+        "text": "Lessie was really the kandra Paalm, whom Harmony had sent to guard Wax, and the romance was her own idea.",
+        "revealedIn": [
+          {
+            "book": "shadows-of-self",
+            "chapter": "26"
+          }
+        ]
+      }
+    ],
+    "tier": "minor",
+    "kind": "story",
+    "tags": ["roughs", "wax-and-wayne", "kandra"],
+    "characters": ["waxillium-ladrian", "wayne"],
+    "inBook": {
+      "book": "shadows-of-self",
+      "chapter": "prologue"
+    },
+    "revealedIn": [
+      {
+        "book": "shadows-of-self",
+        "chapter": "1"
+      }
+    ],
+    "wob": false,
+    "sources": [
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Paalm"
+      },
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Weathering"
+      }
+    ],
+    "year": 10951,
+    "range": [10950.5, 10951.5],
+    "certainty": "derived",
+    "basis": "text"
+  },
+  {
+    "id": "roshar-war-of-reckoning-begins",
+    "world": "roshar",
+    "title": [
+      {
+        "text": "The War of Reckoning begins",
+        "revealedIn": [
+          {
+            "book": "way-of-kings",
+            "chapter": "43"
+          }
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "text": "After Gavilar's assassination, Elhokar and the Alethi highprinces pledge vengeance, declaring war on the listeners.",
+        "revealedIn": [
+          {
+            "book": "oathbringer",
+            "chapter": "105"
+          }
+        ]
+      }
+    ],
+    "tier": "major",
+    "kind": "war",
+    "tags": ["alethkar", "listeners", "war-of-reckoning"],
+    "revealedIn": [
+      {
+        "book": "way-of-kings",
+        "chapter": "43"
+      }
+    ],
+    "wob": false,
+    "sources": [
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/War_of_Reckoning"
+      },
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Assassination_of_Gavilar"
+      },
+      {
+        "label": "Jofwu's timeline",
+        "url": "https://docs.google.com/spreadsheets/d/1zq5bJoKE83ggDCjH43i1hZi0CIpB2iAx7v37zQPVFK0/edit"
+      }
+    ],
+    "year": 10957.3,
+    "range": [10956.2, 10957.3],
+    "local": "1167 on the Vorin calendar",
+    "certainty": "derived",
+    "basis": "text"
+  },
+  {
+    "id": "roshar-wok-kaladin-recognizes-surgebinding",
+    "world": "roshar",
+    "title": [
+      {
+        "text": "Kaladin recognizes his Surgebinding",
+        "revealedIn": [
+          {
+            "book": "way-of-kings",
+            "chapter": "57"
+          }
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "text": "During a bridge run, Kaladin realizes that the strength and speed he has shown are Surgebinding.",
+        "revealedIn": [
+          {
+            "book": "way-of-kings",
+            "chapter": "57"
+          }
+        ]
+      }
+    ],
+    "tier": "major",
+    "kind": "magic",
+    "tags": ["stormlight-archive", "book-turning-point"],
+    "revealedIn": [
+      {
+        "book": "way-of-kings",
+        "chapter": "57"
+      }
+    ],
+    "inBook": {
+      "book": "way-of-kings",
+      "chapter": "57"
+    },
+    "wob": false,
+    "sources": [
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Summary:The_Way_of_Kings"
+      },
+      {
+        "label": "Jofwu's timeline",
+        "url": "https://docs.google.com/spreadsheets/d/1zq5bJoKE83ggDCjH43i1hZi0CIpB2iAx7v37zQPVFK0/edit"
+      }
+    ],
+    "year": 10963.7,
+    "order": 1,
+    "local": "1173.9.3.1",
+    "certainty": "estimate",
+    "basis": "community"
+  },
+  {
+    "id": "roshar-wok-shallan-reveals-soulcaster-theft",
+    "world": "roshar",
+    "title": [
+      {
+        "text": "Shallan reveals the Soulcaster theft",
+        "revealedIn": [
+          {
+            "book": "way-of-kings",
+            "chapter": "48"
+          }
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "text": "After her attempt to use the device fails, Shallan admits to Jasnah that she stole it.",
+        "revealedIn": [
+          {
+            "book": "way-of-kings",
+            "chapter": "48"
+          }
+        ]
+      }
+    ],
+    "tier": "minor",
+    "kind": "story",
+    "tags": ["stormlight-archive", "book-turning-point"],
+    "revealedIn": [
+      {
+        "book": "way-of-kings",
+        "chapter": "48"
+      }
+    ],
+    "inBook": {
+      "book": "way-of-kings",
+      "chapter": "48"
+    },
+    "wob": false,
+    "sources": [
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Summary:The_Way_of_Kings"
+      },
+      {
+        "label": "Jofwu's timeline",
+        "url": "https://docs.google.com/spreadsheets/d/1zq5bJoKE83ggDCjH43i1hZi0CIpB2iAx7v37zQPVFK0/edit"
+      }
+    ],
+    "year": 10963.7,
+    "order": 2,
+    "local": "1173.9.5.5",
+    "certainty": "estimate",
+    "basis": "community"
+  },
+  {
+    "id": "roshar-wok-kaladin-turns-back-at-the-tower",
+    "world": "roshar",
+    "title": [
+      {
+        "text": "Kaladin turns back at the Tower",
+        "revealedIn": [
+          {
+            "book": "way-of-kings",
+            "chapter": "68"
+          }
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "text": "After Sadeas abandons Dalinar’s force, Kaladin leads Bridge Four back into the battle to help the Kholin soldiers escape.",
+        "revealedIn": [
+          {
+            "book": "way-of-kings",
+            "chapter": "68"
+          }
+        ]
+      }
+    ],
+    "tier": "headline",
+    "kind": "war",
+    "tags": ["stormlight-archive", "book-turning-point"],
+    "revealedIn": [
+      {
+        "book": "way-of-kings",
+        "chapter": "68"
+      }
+    ],
+    "inBook": {
+      "book": "way-of-kings",
+      "chapter": "68"
+    },
+    "wob": false,
+    "sources": [
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Summary:The_Way_of_Kings"
+      },
+      {
+        "label": "Jofwu's timeline",
+        "url": "https://docs.google.com/spreadsheets/d/1zq5bJoKE83ggDCjH43i1hZi0CIpB2iAx7v37zQPVFK0/edit"
+      }
+    ],
+    "year": 10963.7,
+    "order": 3,
+    "local": "1173.9.6.4",
+    "certainty": "estimate",
+    "basis": "community"
+  },
+  {
+    "id": "roshar-wok-dalinar-trades-oathbringer",
+    "world": "roshar",
+    "title": [
+      {
+        "text": "Dalinar trades Oathbringer for the bridgemen",
+        "revealedIn": [
+          {
+            "book": "way-of-kings",
+            "chapter": "69"
+          }
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "text": "Dalinar gives Sadeas his Shardblade in exchange for the freedom of the surviving bridgemen.",
+        "revealedIn": [
+          {
+            "book": "way-of-kings",
+            "chapter": "69"
+          }
+        ]
+      }
+    ],
+    "tier": "minor",
+    "kind": "story",
+    "tags": ["stormlight-archive", "book-turning-point"],
+    "revealedIn": [
+      {
+        "book": "way-of-kings",
+        "chapter": "69"
+      }
+    ],
+    "inBook": {
+      "book": "way-of-kings",
+      "chapter": "69"
+    },
+    "wob": false,
+    "sources": [
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Summary:The_Way_of_Kings"
+      },
+      {
+        "label": "Jofwu's timeline",
+        "url": "https://docs.google.com/spreadsheets/d/1zq5bJoKE83ggDCjH43i1hZi0CIpB2iAx7v37zQPVFK0/edit"
+      }
+    ],
+    "year": 10963.7,
+    "order": 4,
+    "local": "1173.9.6.4",
+    "certainty": "estimate",
+    "basis": "community"
+  },
+  {
+    "id": "roshar-wor-everstorm-summoned",
+    "world": "roshar",
+    "title": [
+      {
+        "text": "The Everstorm is summoned",
+        "revealedIn": [
+          {
+            "book": "words-of-radiance",
+            "chapter": "84"
+          }
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "text": "As the battle at Narak reaches its crisis, the listeners summon the Everstorm while Shallan’s party works to open the Oathgate.",
+        "revealedIn": [
+          {
+            "book": "words-of-radiance",
+            "chapter": "84"
+          }
+        ]
+      }
+    ],
+    "tier": "headline",
+    "kind": "disaster",
+    "tags": ["stormlight-archive", "book-turning-point"],
+    "revealedIn": [
+      {
+        "book": "words-of-radiance",
+        "chapter": "84"
+      }
+    ],
+    "inBook": {
+      "book": "words-of-radiance",
+      "chapter": "84"
+    },
+    "wob": false,
+    "sources": [
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Summary:Words_of_Radiance"
+      },
+      {
+        "label": "Jofwu's timeline",
+        "url": "https://docs.google.com/spreadsheets/d/1zq5bJoKE83ggDCjH43i1hZi0CIpB2iAx7v37zQPVFK0/edit"
+      }
+    ],
+    "year": 10963.9,
+    "order": 1,
+    "local": "1173.10.10.3",
+    "certainty": "estimate",
+    "basis": "community"
+  },
+  {
+    "id": "roshar-wor-kaladin-defeats-szeth",
+    "world": "roshar",
+    "title": [
+      {
+        "text": "Kaladin confronts Szeth at Narak",
+        "revealedIn": [
+          {
+            "book": "words-of-radiance",
+            "chapter": "86"
+          }
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "text": "Kaladin intervenes to protect Dalinar and fights Szeth as the Alethi forces are caught in the storm.",
+        "revealedIn": [
+          {
+            "book": "words-of-radiance",
+            "chapter": "86"
+          }
+        ]
+      }
+    ],
+    "tier": "major",
+    "kind": "war",
+    "tags": ["stormlight-archive", "book-turning-point"],
+    "revealedIn": [
+      {
+        "book": "words-of-radiance",
+        "chapter": "86"
+      }
+    ],
+    "inBook": {
+      "book": "words-of-radiance",
+      "chapter": "86"
+    },
+    "wob": false,
+    "sources": [
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Summary:Words_of_Radiance"
+      },
+      {
+        "label": "Jofwu's timeline",
+        "url": "https://docs.google.com/spreadsheets/d/1zq5bJoKE83ggDCjH43i1hZi0CIpB2iAx7v37zQPVFK0/edit"
+      }
+    ],
+    "year": 10963.9,
+    "order": 2,
+    "local": "1173.10.10.3",
+    "certainty": "estimate",
+    "basis": "community"
+  },
+  {
+    "id": "roshar-wor-urithiru-rediscovered",
+    "world": "roshar",
+    "title": [
+      {
+        "text": "Urithiru is rediscovered",
+        "revealedIn": [
+          {
+            "book": "words-of-radiance",
+            "chapter": "88"
+          }
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "text": "The survivors pass through the Oathgate and reach the hidden city, giving the Radiants a base as the Desolation begins.",
+        "revealedIn": [
+          {
+            "book": "words-of-radiance",
+            "chapter": "88"
+          }
+        ]
+      }
+    ],
+    "tier": "major",
+    "kind": "journey",
+    "tags": ["stormlight-archive", "book-turning-point"],
+    "revealedIn": [
+      {
+        "book": "words-of-radiance",
+        "chapter": "88"
+      }
+    ],
+    "inBook": {
+      "book": "words-of-radiance",
+      "chapter": "88"
+    },
+    "wob": false,
+    "sources": [
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Summary:Words_of_Radiance"
+      },
+      {
+        "label": "Jofwu's timeline",
+        "url": "https://docs.google.com/spreadsheets/d/1zq5bJoKE83ggDCjH43i1hZi0CIpB2iAx7v37zQPVFK0/edit"
+      }
+    ],
+    "year": 10963.9,
+    "order": 3,
+    "local": "1173.10.10.3",
+    "certainty": "estimate",
+    "basis": "community"
+  },
+  {
+    "id": "roshar-wor-adolin-kills-sadeas",
+    "world": "roshar",
+    "title": [
+      {
+        "text": "Adolin kills Sadeas",
+        "revealedIn": [
+          {
+            "book": "words-of-radiance",
+            "chapter": "89"
+          }
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "text": "After Sadeas renews his threat against Dalinar, Adolin kills him in the newly rediscovered city.",
+        "revealedIn": [
+          {
+            "book": "words-of-radiance",
+            "chapter": "89"
+          }
+        ]
+      }
+    ],
+    "tier": "minor",
+    "kind": "death",
+    "tags": ["stormlight-archive", "book-turning-point"],
+    "revealedIn": [
+      {
+        "book": "words-of-radiance",
+        "chapter": "89"
+      }
+    ],
+    "inBook": {
+      "book": "words-of-radiance",
+      "chapter": "89"
+    },
+    "wob": false,
+    "sources": [
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Summary:Words_of_Radiance"
+      },
+      {
+        "label": "Jofwu's timeline",
+        "url": "https://docs.google.com/spreadsheets/d/1zq5bJoKE83ggDCjH43i1hZi0CIpB2iAx7v37zQPVFK0/edit"
+      }
+    ],
+    "year": 10963.9,
+    "order": 4,
+    "local": "1174.1.1.3",
+    "certainty": "estimate",
+    "basis": "community"
+  },
+  {
+    "id": "roshar-edgedancer-lift-protects-yeddaw-outcasts",
+    "world": "roshar",
+    "title": [
+      {
+        "text": "Lift protects Yeddaw’s outcasts",
+        "revealedIn": [
+          {
+            "book": "edgedancer",
+            "chapter": "19"
+          }
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "text": "Lift swears a new Ideal while protecting the overlooked people of Yeddaw from Nale.",
+        "revealedIn": [
+          {
+            "book": "edgedancer",
+            "chapter": "19"
+          }
+        ]
+      }
+    ],
+    "tier": "minor",
+    "kind": "order",
+    "tags": ["stormlight-archive", "book-turning-point"],
+    "revealedIn": [
+      {
+        "book": "edgedancer",
+        "chapter": "19"
+      }
+    ],
+    "inBook": {
+      "book": "edgedancer",
+      "chapter": "19"
+    },
+    "wob": false,
+    "sources": [
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Summary:Edgedancer"
+      },
+      {
+        "label": "Jofwu's timeline",
+        "url": "https://docs.google.com/spreadsheets/d/1zq5bJoKE83ggDCjH43i1hZi0CIpB2iAx7v37zQPVFK0/edit"
+      }
+    ],
+    "year": 10963.9,
+    "range": [10963.9, 10963.9],
+    "order": 5,
+    "local": "1174.1.1.5",
+    "certainty": "estimate",
+    "basis": "community"
+  },
+  {
+    "id": "roshar-ob-last-desolation-revealed",
+    "world": "roshar",
+    "title": [
+      {
+        "text": "The truth of the Last Desolation emerges",
+        "revealedIn": [
+          {
+            "book": "oathbringer",
+            "chapter": "38"
+          }
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "text": "Dalinar, Navani, and Jasnah learn that the final Desolation ended differently from the history they were taught.",
+        "revealedIn": [
+          {
+            "book": "oathbringer",
+            "chapter": "38"
+          }
+        ]
+      }
+    ],
+    "tier": "major",
+    "kind": "war",
+    "tags": ["stormlight-archive", "book-turning-point"],
+    "revealedIn": [
+      {
+        "book": "oathbringer",
+        "chapter": "38"
+      }
+    ],
+    "inBook": {
+      "book": "oathbringer",
+      "chapter": "38"
+    },
+    "wob": false,
+    "sources": [
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Summary:Oathbringer"
+      },
+      {
+        "label": "Jofwu's timeline",
+        "url": "https://docs.google.com/spreadsheets/d/1zq5bJoKE83ggDCjH43i1hZi0CIpB2iAx7v37zQPVFK0/edit"
+      }
+    ],
+    "year": 10964,
+    "order": 0,
+    "local": "1174.1.6.4",
+    "certainty": "estimate",
+    "basis": "community"
+  },
+  {
+    "id": "roshar-ob-kholinar-falls",
+    "world": "roshar",
+    "title": [
+      {
+        "text": "The Kholinar mission fails",
+        "revealedIn": [
+          {
+            "book": "oathbringer",
+            "chapter": "87"
+          }
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "text": "Elhokar is killed during the palace assault, and the surviving team escapes the fallen city through the Oathgate into Shadesmar.",
+        "revealedIn": [
+          {
+            "book": "oathbringer",
+            "chapter": "87"
+          }
+        ]
+      }
+    ],
+    "tier": "headline",
+    "kind": "war",
+    "tags": ["stormlight-archive", "book-turning-point"],
+    "revealedIn": [
+      {
+        "book": "oathbringer",
+        "chapter": "87"
+      }
+    ],
+    "inBook": {
+      "book": "oathbringer",
+      "chapter": "87"
+    },
+    "wob": false,
+    "sources": [
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Summary:Oathbringer"
+      },
+      {
+        "label": "Jofwu's timeline",
+        "url": "https://docs.google.com/spreadsheets/d/1zq5bJoKE83ggDCjH43i1hZi0CIpB2iAx7v37zQPVFK0/edit"
+      }
+    ],
+    "year": 10964,
+    "order": 1,
+    "local": "1174.2.3.3",
+    "certainty": "estimate",
+    "basis": "community"
+  },
+  {
+    "id": "roshar-ob-dalinar-opens-perpendicularity",
+    "world": "roshar",
+    "title": [
+      {
+        "text": "Dalinar rejects Odium and opens a Perpendicularity",
+        "revealedIn": [
+          {
+            "book": "oathbringer",
+            "chapter": "120"
+          }
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "text": "At Thaylen Field, Dalinar accepts responsibility for his past and opens a Perpendicularity that brings Stormlight to the defenders.",
+        "revealedIn": [
+          {
+            "book": "oathbringer",
+            "chapter": "120"
+          }
+        ]
+      }
+    ],
+    "tier": "major",
+    "kind": "magic",
+    "tags": ["stormlight-archive", "book-turning-point"],
+    "revealedIn": [
+      {
+        "book": "oathbringer",
+        "chapter": "120"
+      }
+    ],
+    "inBook": {
+      "book": "oathbringer",
+      "chapter": "120"
+    },
+    "wob": false,
+    "sources": [
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Summary:Oathbringer"
+      },
+      {
+        "label": "Jofwu's timeline",
+        "url": "https://docs.google.com/spreadsheets/d/1zq5bJoKE83ggDCjH43i1hZi0CIpB2iAx7v37zQPVFK0/edit"
+      }
+    ],
+    "year": 10964.1,
+    "order": 2,
+    "local": "1174.2.7.5",
+    "certainty": "estimate",
+    "basis": "community"
+  },
+  {
+    "id": "roshar-ob-thaylen-field-battle-resolves",
+    "world": "roshar",
+    "title": [
+      {
+        "text": "The Battle of Thaylen Field turns",
+        "revealedIn": [
+          {
+            "book": "oathbringer",
+            "chapter": "121"
+          }
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "text": "The coalition survives the battle, Odium’s assault is broken, and the survivors begin to rebuild their alliances.",
+        "revealedIn": [
+          {
+            "book": "oathbringer",
+            "chapter": "121"
+          }
+        ]
+      }
+    ],
+    "tier": "major",
+    "kind": "war",
+    "tags": ["stormlight-archive", "book-turning-point"],
+    "revealedIn": [
+      {
+        "book": "oathbringer",
+        "chapter": "121"
+      }
+    ],
+    "inBook": {
+      "book": "oathbringer",
+      "chapter": "121"
+    },
+    "wob": false,
+    "sources": [
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Summary:Oathbringer"
+      },
+      {
+        "label": "Jofwu's timeline",
+        "url": "https://docs.google.com/spreadsheets/d/1zq5bJoKE83ggDCjH43i1hZi0CIpB2iAx7v37zQPVFK0/edit"
+      }
+    ],
+    "year": 10964.1,
+    "order": 3,
+    "local": "1174.2.7.5",
+    "certainty": "estimate",
+    "basis": "community"
+  },
+  {
+    "id": "roshar-dawnshard-nikli-sabotage-exposed",
+    "world": "roshar",
+    "title": [
+      {
+        "text": "The sabotage aboard the Wandersail is exposed",
+        "revealedIn": [
+          {
+            "book": "dawnshard",
+            "chapter": "10"
+          }
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "text": "Rysn uncovers Nikli’s role in the voyage’s escalating dangers as the crew approaches Akinah.",
+        "revealedIn": [
+          {
+            "book": "dawnshard",
+            "chapter": "10"
+          }
+        ]
+      }
+    ],
+    "tier": "minor",
+    "kind": "story",
+    "tags": ["stormlight-archive", "book-turning-point"],
+    "revealedIn": [
+      {
+        "book": "dawnshard",
+        "chapter": "10"
+      }
+    ],
+    "inBook": {
+      "book": "dawnshard",
+      "chapter": "10"
+    },
+    "wob": false,
+    "sources": [
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Summary:Dawnshard"
+      },
+      {
+        "label": "Jofwu's timeline",
+        "url": "https://docs.google.com/spreadsheets/d/1zq5bJoKE83ggDCjH43i1hZi0CIpB2iAx7v37zQPVFK0/edit"
+      }
+    ],
+    "year": 10964.8,
+    "range": [10964.7, 10964.9],
+    "order": 1,
+    "local": "1174.9.2.5",
+    "certainty": "estimate",
+    "basis": "community"
+  },
+  {
+    "id": "roshar-dawnshard-rysn-guards-dawnshard",
+    "world": "roshar",
+    "title": [
+      {
+        "text": "Rysn agrees to guard the Dawnshard",
+        "revealedIn": [
+          {
+            "book": "dawnshard",
+            "chapter": "19"
+          }
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "text": "At Akinah, Rysn secures the crew’s safe return by promising to protect the Dawnshard and keep it from falling into the wrong hands.",
+        "revealedIn": [
+          {
+            "book": "dawnshard",
+            "chapter": "19"
+          }
+        ]
+      }
+    ],
+    "tier": "major",
+    "kind": "magic",
+    "tags": ["stormlight-archive", "book-turning-point"],
+    "revealedIn": [
+      {
+        "book": "dawnshard",
+        "chapter": "19"
+      }
+    ],
+    "inBook": {
+      "book": "dawnshard",
+      "chapter": "19"
+    },
+    "wob": false,
+    "sources": [
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Summary:Dawnshard"
+      },
+      {
+        "label": "Jofwu's timeline",
+        "url": "https://docs.google.com/spreadsheets/d/1zq5bJoKE83ggDCjH43i1hZi0CIpB2iAx7v37zQPVFK0/edit"
+      }
+    ],
+    "year": 10964.8,
+    "range": [10964.7, 10964.9],
+    "order": 2,
+    "local": "1174.9.3.4",
+    "certainty": "estimate",
+    "basis": "community"
+  },
+  {
+    "id": "roshar-row-urithiru-captured",
+    "world": "roshar",
+    "title": [
+      {
+        "text": "The singers capture Urithiru",
+        "revealedIn": [
+          {
+            "book": "rhythm-of-war",
+            "chapter": "43"
+          }
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "text": "Raboniel’s forces seize the tower; Navani activates its shield and surrenders, while Kaladin remains at large.",
+        "revealedIn": [
+          {
+            "book": "rhythm-of-war",
+            "chapter": "43"
+          }
+        ]
+      }
+    ],
+    "tier": "major",
+    "kind": "war",
+    "tags": ["stormlight-archive", "book-turning-point"],
+    "revealedIn": [
+      {
+        "book": "rhythm-of-war",
+        "chapter": "43"
+      }
+    ],
+    "inBook": {
+      "book": "rhythm-of-war",
+      "chapter": "43"
+    },
+    "wob": false,
+    "sources": [
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Summary:Rhythm_of_War"
+      },
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Odium"
+      },
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Taravangian"
+      },
+      {
+        "label": "Jofwu's timeline",
+        "url": "https://docs.google.com/spreadsheets/d/1zq5bJoKE83ggDCjH43i1hZi0CIpB2iAx7v37zQPVFK0/edit"
+      }
+    ],
+    "year": 10965.4,
+    "range": [10965.4, 10965.4],
+    "order": 1,
+    "local": "1175.4.6.4",
+    "certainty": "estimate",
+    "basis": "community"
+  },
+  {
+    "id": "roshar-row-antivoidlight-discovered",
+    "world": "roshar",
+    "title": [
+      {
+        "text": "Navani discovers anti-Voidlight",
+        "revealedIn": [
+          {
+            "book": "rhythm-of-war",
+            "chapter": "97"
+          }
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "text": "Navani finds the tone that can drive Voidlight from a gemstone, changing what the defenders can do against the Fused.",
+        "revealedIn": [
+          {
+            "book": "rhythm-of-war",
+            "chapter": "97"
+          }
+        ]
+      }
+    ],
+    "tier": "major",
+    "kind": "magic",
+    "tags": ["stormlight-archive", "book-turning-point"],
+    "revealedIn": [
+      {
+        "book": "rhythm-of-war",
+        "chapter": "97"
+      }
+    ],
+    "inBook": {
+      "book": "rhythm-of-war",
+      "chapter": "97"
+    },
+    "wob": false,
+    "sources": [
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Summary:Rhythm_of_War"
+      },
+      {
+        "label": "Jofwu's timeline",
+        "url": "https://docs.google.com/spreadsheets/d/1zq5bJoKE83ggDCjH43i1hZi0CIpB2iAx7v37zQPVFK0/edit"
+      }
+    ],
+    "year": 10965.4,
+    "order": 2,
+    "local": "1175.4.10.3",
+    "certainty": "estimate",
+    "basis": "community"
+  },
+  {
+    "id": "roshar-row-maya-testifies",
+    "world": "roshar",
+    "title": [
+      {
+        "text": "Maya speaks at Adolin’s trial",
+        "revealedIn": [
+          {
+            "book": "rhythm-of-war",
+            "chapter": "94"
+          }
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "text": "Maya communicates her choice to the honorspren, challenging their account of the Recreance and the deadeyes.",
+        "revealedIn": [
+          {
+            "book": "rhythm-of-war",
+            "chapter": "94"
+          }
+        ]
+      }
+    ],
+    "tier": "minor",
+    "kind": "magic",
+    "tags": ["stormlight-archive", "book-turning-point"],
+    "revealedIn": [
+      {
+        "book": "rhythm-of-war",
+        "chapter": "94"
+      }
+    ],
+    "inBook": {
+      "book": "rhythm-of-war",
+      "chapter": "94"
+    },
+    "wob": false,
+    "sources": [
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Summary:Rhythm_of_War"
+      },
+      {
+        "label": "Jofwu's timeline",
+        "url": "https://docs.google.com/spreadsheets/d/1zq5bJoKE83ggDCjH43i1hZi0CIpB2iAx7v37zQPVFK0/edit"
+      }
+    ],
+    "year": 10965.4,
+    "order": 3,
+    "local": "1175.4.10.4",
+    "certainty": "estimate",
+    "basis": "community"
+  },
+  {
+    "id": "roshar-row-kaladin-swears-fourth-ideal",
+    "world": "roshar",
+    "title": [
+      {
+        "text": "Kaladin swears the Fourth Ideal",
+        "revealedIn": [
+          {
+            "book": "rhythm-of-war",
+            "chapter": "108"
+          }
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "text": "After accepting that he cannot protect everyone, Kaladin speaks the Fourth Ideal of the Windrunners and hears it accepted in the storm.",
+        "revealedIn": [
+          {
+            "book": "rhythm-of-war",
+            "chapter": "108"
+          }
+        ]
+      }
+    ],
+    "tier": "minor",
+    "kind": "order",
+    "tags": ["stormlight-archive", "book-turning-point"],
+    "revealedIn": [
+      {
+        "book": "rhythm-of-war",
+        "chapter": "108"
+      }
+    ],
+    "inBook": {
+      "book": "rhythm-of-war",
+      "chapter": "108"
+    },
+    "wob": false,
+    "sources": [
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Summary:Rhythm_of_War"
+      },
+      {
+        "label": "Jofwu's timeline",
+        "url": "https://docs.google.com/spreadsheets/d/1zq5bJoKE83ggDCjH43i1hZi0CIpB2iAx7v37zQPVFK0/edit"
+      }
+    ],
+    "year": 10965.4,
+    "order": 4,
+    "local": "1175.4.10.4",
+    "certainty": "estimate",
+    "basis": "community"
+  },
+  {
+    "id": "roshar-row-navani-bonds-sibling",
+    "world": "roshar",
+    "title": [
+      {
+        "text": "Navani bonds the Sibling",
+        "revealedIn": [
+          {
+            "book": "rhythm-of-war",
+            "chapter": "110"
+          }
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "text": "Navani establishes a Bondsmith bond with the Sibling, restoring the tower’s defenses and helping free Urithiru.",
+        "revealedIn": [
+          {
+            "book": "rhythm-of-war",
+            "chapter": "110"
+          }
+        ]
+      }
+    ],
+    "tier": "major",
+    "kind": "order",
+    "tags": ["stormlight-archive", "book-turning-point"],
+    "revealedIn": [
+      {
+        "book": "rhythm-of-war",
+        "chapter": "110"
+      }
+    ],
+    "inBook": {
+      "book": "rhythm-of-war",
+      "chapter": "110"
+    },
+    "wob": false,
+    "sources": [
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Summary:Rhythm_of_War"
+      },
+      {
+        "label": "Jofwu's timeline",
+        "url": "https://docs.google.com/spreadsheets/d/1zq5bJoKE83ggDCjH43i1hZi0CIpB2iAx7v37zQPVFK0/edit"
+      }
+    ],
+    "year": 10965.4,
+    "order": 5,
+    "local": "1175.4.10.4",
+    "certainty": "estimate",
+    "basis": "community"
+  },
+  {
+    "id": "roshar-row-contest-of-champions-set",
+    "world": "roshar",
+    "title": [
+      {
+        "text": "The contest of champions is set",
+        "revealedIn": [
+          {
+            "book": "rhythm-of-war",
+            "chapter": "112"
+          }
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "text": "Dalinar and Odium agree to a contest that will decide the fate of the conflict, with ten days to prepare.",
+        "revealedIn": [
+          {
+            "book": "rhythm-of-war",
+            "chapter": "112"
+          }
+        ]
+      }
+    ],
+    "tier": "major",
+    "kind": "war",
+    "tags": ["stormlight-archive", "book-turning-point"],
+    "revealedIn": [
+      {
+        "book": "rhythm-of-war",
+        "chapter": "112"
+      }
+    ],
+    "inBook": {
+      "book": "rhythm-of-war",
+      "chapter": "112"
+    },
+    "wob": false,
+    "sources": [
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Summary:Rhythm_of_War"
+      },
+      {
+        "label": "Jofwu's timeline",
+        "url": "https://docs.google.com/spreadsheets/d/1zq5bJoKE83ggDCjH43i1hZi0CIpB2iAx7v37zQPVFK0/edit"
+      }
+    ],
+    "year": 10965.4,
+    "order": 6,
+    "local": "1175.4.10.4",
+    "certainty": "estimate",
+    "basis": "community"
+  },
+  {
+    "id": "roshar-row-taravangian-takes-up-odium",
+    "world": "roshar",
+    "title": [
+      {
+        "text": "Taravangian takes up Odium",
+        "revealedIn": [
+          {
+            "book": "rhythm-of-war",
+            "chapter": "114"
+          }
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "text": "After killing Rayse with Nightblood, Taravangian takes up the Shard of Odium.",
+        "revealedIn": [
+          {
+            "book": "rhythm-of-war",
+            "chapter": "114"
+          }
+        ]
+      }
+    ],
+    "tier": "major",
+    "kind": "shard",
+    "tags": [
+      "stormlight-archive",
+      "book-turning-point",
+      "odium",
+      "rayse",
+      "taravangian",
+      "vessel"
+    ],
+    "revealedIn": [
+      {
+        "book": "rhythm-of-war",
+        "chapter": "114"
+      }
+    ],
+    "inBook": {
+      "book": "rhythm-of-war",
+      "chapter": "114"
+    },
+    "wob": false,
+    "sources": [
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Summary:Rhythm_of_War"
+      },
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Odium"
+      },
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Taravangian"
+      },
+      {
+        "label": "Jofwu's timeline",
+        "url": "https://docs.google.com/spreadsheets/d/1zq5bJoKE83ggDCjH43i1hZi0CIpB2iAx7v37zQPVFK0/edit"
+      }
+    ],
+    "year": 10965.4,
+    "order": 7,
+    "local": "1175.4.10.4",
+    "certainty": "estimate",
+    "basis": "community"
+  },
+  {
+    "id": "roshar-wat-recreance-vision",
+    "world": "roshar",
+    "title": [
+      {
+        "text": "A vision reveals the Recreance’s beginning",
+        "revealedIn": [
+          {
+            "book": "wind-and-truth",
+            "chapter": "87"
+          }
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "text": "During the campaign, a vision lets the coalition witness the capture of Ba-Ado-Mishram and the first steps toward the Recreance.",
+        "revealedIn": [
+          {
+            "book": "wind-and-truth",
+            "chapter": "87"
+          }
+        ]
+      }
+    ],
+    "tier": "major",
+    "kind": "story",
+    "tags": ["stormlight-archive", "book-turning-point"],
+    "revealedIn": [
+      {
+        "book": "wind-and-truth",
+        "chapter": "87"
+      }
+    ],
+    "inBook": {
+      "book": "wind-and-truth",
+      "chapter": "87"
+    },
+    "wob": false,
+    "sources": [
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Summary:Wind_and_Truth"
+      },
+      {
+        "label": "Jofwu's timeline",
+        "url": "https://docs.google.com/spreadsheets/d/1zq5bJoKE83ggDCjH43i1hZi0CIpB2iAx7v37zQPVFK0/edit"
+      }
+    ],
+    "year": 10965.5,
+    "order": 8,
+    "local": "1175.5.2.2",
+    "certainty": "estimate",
+    "basis": "community"
+  },
+  {
+    "id": "roshar-wat-nale-confronted",
+    "world": "roshar",
+    "title": [
+      {
+        "text": "Kaladin’s story reaches Nale",
+        "revealedIn": [
+          {
+            "book": "wind-and-truth",
+            "chapter": "110"
+          }
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "text": "Kaladin tells Nale the story of the Wandersail, helping the Herald reconnect with the people he once tried to protect.",
+        "revealedIn": [
+          {
+            "book": "wind-and-truth",
+            "chapter": "110"
+          }
+        ]
+      }
+    ],
+    "tier": "minor",
+    "kind": "story",
+    "tags": ["stormlight-archive", "book-turning-point"],
+    "revealedIn": [
+      {
+        "book": "wind-and-truth",
+        "chapter": "110"
+      }
+    ],
+    "inBook": {
+      "book": "wind-and-truth",
+      "chapter": "110"
+    },
+    "wob": false,
+    "sources": [
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Summary:Wind_and_Truth"
+      },
+      {
+        "label": "Jofwu's timeline",
+        "url": "https://docs.google.com/spreadsheets/d/1zq5bJoKE83ggDCjH43i1hZi0CIpB2iAx7v37zQPVFK0/edit"
+      }
+    ],
+    "year": 10965.5,
+    "order": 9,
+    "local": "1175.5.2.4",
+    "certainty": "estimate",
+    "basis": "community"
+  },
+  {
+    "id": "roshar-wat-azir-remains-independent",
+    "world": "roshar",
+    "title": [
+      {
+        "text": "Azir remains independent",
+        "revealedIn": [
+          {
+            "book": "wind-and-truth",
+            "chapter": "136"
+          }
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "text": "Adolin and the Unoathed hold Azimir's throne room until the contest begins, securing Azir's independence from Odium.",
+        "revealedIn": [
+          {
+            "book": "wind-and-truth",
+            "chapter": "136"
+          }
+        ]
+      }
+    ],
+    "tier": "major",
+    "kind": "war",
+    "tags": ["stormlight-archive", "book-turning-point"],
+    "characters": ["adolin-kholin", "yanagawn"],
+    "inBook": {
+      "book": "wind-and-truth",
+      "chapter": "136"
+    },
+    "revealedIn": [
+      {
+        "book": "wind-and-truth",
+        "chapter": "136"
+      }
+    ],
+    "wob": false,
+    "sources": [
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Summary:Wind_and_Truth#Chapter_136:_Ten_People,_with_Shardblades_Alight"
+      },
+      {
+        "label": "Jofwu's timeline",
+        "url": "https://docs.google.com/spreadsheets/d/1zq5bJoKE83ggDCjH43i1hZi0CIpB2iAx7v37zQPVFK0/edit"
+      }
+    ],
+    "year": 10965.5,
+    "order": 10,
+    "local": "1175.5.2.5",
+    "certainty": "estimate",
+    "basis": "community"
+  },
+  {
+    "id": "roshar-wat-mishram-freed",
+    "world": "roshar",
+    "title": [
+      {
+        "text": "Ba-Ado-Mishram is freed",
+        "revealedIn": [
+          {
+            "book": "wind-and-truth",
+            "chapter": "141"
+          }
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "text": "Renarin and Rlain free Ba-Ado-Mishram, repairing the damage her imprisonment caused to Roshar.",
+        "revealedIn": [
+          {
+            "book": "wind-and-truth",
+            "chapter": "141"
+          }
+        ]
+      }
+    ],
+    "tier": "major",
+    "kind": "magic",
+    "tags": ["stormlight-archive", "book-turning-point"],
+    "characters": ["renarin-kholin", "rlain", "ba-ado-mishram"],
+    "inBook": {
+      "book": "wind-and-truth",
+      "chapter": "141"
+    },
+    "revealedIn": [
+      {
+        "book": "wind-and-truth",
+        "chapter": "141"
+      }
+    ],
+    "wob": false,
+    "sources": [
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Ba-Ado-Mishram"
+      },
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Summary:Wind_and_Truth"
+      },
+      {
+        "label": "Jofwu's timeline",
+        "url": "https://docs.google.com/spreadsheets/d/1zq5bJoKE83ggDCjH43i1hZi0CIpB2iAx7v37zQPVFK0/edit"
+      }
+    ],
+    "year": 10965.5,
+    "order": 11,
+    "local": "1175.5.2.5",
+    "certainty": "estimate",
+    "basis": "community"
+  },
+  {
+    "id": "roshar-odium-honor-become-retribution",
+    "world": "roshar",
+    "title": [
+      {
+        "text": "Dalinar takes up Honor",
+        "revealedIn": [
+          {
+            "book": "wind-and-truth",
+            "chapter": "143"
+          }
+        ]
+      },
+      {
+        "text": "Honor and Odium become Retribution",
+        "revealedIn": [
+          {
+            "book": "wind-and-truth",
+            "chapter": "145"
+          }
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "text": "Dalinar takes up the Shard Honor.",
+        "revealedIn": [
+          {
+            "book": "wind-and-truth",
+            "chapter": "143"
+          }
+        ]
+      },
+      {
+        "text": "Taravangian absorbs Honor into Odium, forming Retribution.",
+        "revealedIn": [
+          {
+            "book": "wind-and-truth",
+            "chapter": "145"
+          }
+        ]
+      }
+    ],
+    "tier": "major",
+    "kind": "shard",
+    "tags": ["odium", "honor", "retribution", "vessel"],
+    "inBook": {
+      "book": "wind-and-truth",
+      "chapter": "143"
+    },
+    "revealedIn": [
+      {
+        "book": "wind-and-truth",
+        "chapter": "143"
+      }
+    ],
+    "wob": false,
+    "sources": [
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Odium"
+      },
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Honor"
+      },
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Retribution"
+      },
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Taravangian"
+      },
+      {
+        "label": "Drew's sheet",
+        "url": "https://docs.google.com/spreadsheets/d/1JJtJhHwpKdow01n2-bsT3scVvqJd6lZh4uvpNwcslv8/edit"
+      }
+    ],
+    "year": 10965.5,
+    "order": 12,
+    "local": "1175.5.2.5",
+    "certainty": "estimate",
+    "basis": "community"
+  },
+  {
+    "id": "roshar-wat-contest-changes-the-war",
+    "world": "roshar",
+    "title": [
+      {
+        "text": "The final day changes the balance of power",
+        "revealedIn": [
+          {
+            "book": "wind-and-truth",
+            "chapter": "146"
+          }
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "text": "The confrontation at Urithiru ends with Dalinar and the Stormfather gone, a new Shard in play, and Kaladin bound to a new Oathpact.",
+        "revealedIn": [
+          {
+            "book": "wind-and-truth",
+            "chapter": "146"
+          }
+        ]
+      }
+    ],
+    "tier": "headline",
+    "kind": "shard",
+    "tags": ["stormlight-archive", "book-turning-point"],
+    "revealedIn": [
+      {
+        "book": "wind-and-truth",
+        "chapter": "146"
+      }
+    ],
+    "inBook": {
+      "book": "wind-and-truth",
+      "chapter": "145"
+    },
+    "wob": false,
+    "sources": [
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Summary:Wind_and_Truth"
+      },
+      {
+        "label": "Jofwu's timeline",
+        "url": "https://docs.google.com/spreadsheets/d/1zq5bJoKE83ggDCjH43i1hZi0CIpB2iAx7v37zQPVFK0/edit"
+      }
+    ],
+    "year": 10965.5,
+    "order": 13,
+    "local": "1175.5.2.5",
+    "certainty": "estimate",
+    "basis": "community"
+  },
+  {
+    "id": "roshar-wat-sigzil-receives-dawnshard",
+    "world": "roshar",
+    "title": [
+      {
+        "text": "Sigzil accepts a Dawnshard",
+        "revealedIn": [
+          {
+            "book": "wind-and-truth",
+            "chapter": "146"
+          }
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "text": "In the aftermath, Sigzil accepts Hoid’s Dawnshard and is cast into Shadesmar.",
+        "revealedIn": [
+          {
+            "book": "wind-and-truth",
+            "chapter": "146"
+          }
+        ]
+      }
+    ],
+    "tier": "major",
+    "kind": "journey",
+    "tags": ["stormlight-archive", "book-turning-point"],
+    "revealedIn": [
+      {
+        "book": "wind-and-truth",
+        "chapter": "146"
+      }
+    ],
+    "inBook": {
+      "book": "wind-and-truth",
+      "chapter": "146"
+    },
+    "wob": false,
+    "sources": [
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Summary:Wind_and_Truth"
+      },
+      {
+        "label": "Jofwu's timeline",
+        "url": "https://docs.google.com/spreadsheets/d/1zq5bJoKE83ggDCjH43i1hZi0CIpB2iAx7v37zQPVFK0/edit"
+      }
+    ],
+    "year": 10965.5,
+    "order": 14,
+    "local": "1175.5.2.5",
+    "certainty": "estimate",
+    "basis": "community"
+  },
+  {
+    "id": "scadrial-edwarn-fakes-death",
+    "world": "scadrial",
+    "title": [
+      {
+        "text": "Wax's uncle and sister reported dead",
+        "revealedIn": [
+          {
+            "book": "alloy-of-law",
+            "chapter": "1"
+          }
+        ]
+      },
+      {
+        "text": "Edwarn and Telsin fake their deaths",
+        "revealedIn": [
+          {
+            "book": "shadows-of-self",
+            "chapter": "17"
+          }
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "text": "Wax's uncle Edwarn and sister Telsin are reported killed in a carriage accident, and House Ladrian calls Wax home from the Roughs to be its High Lord.",
+        "revealedIn": [
+          {
+            "book": "alloy-of-law",
+            "chapter": "1"
+          }
+        ]
+      },
+      {
+        "text": "Edwarn faked his death; he's Mister Suit, a leader of the secretive Set.",
+        "revealedIn": [
+          {
+            "book": "alloy-of-law",
+            "chapter": "epilogue"
+          }
+        ]
+      },
+      {
+        "text": "Telsin is alive too, and Edwarn holds her life over Wax.",
+        "revealedIn": [
+          {
+            "book": "shadows-of-self",
+            "chapter": "17"
+          }
+        ]
+      }
+    ],
+    "tier": "minor",
+    "kind": "politics",
+    "tags": ["set", "house-ladrian"],
+    "characters": ["edwarn-ladrian", "telsin-ladrian", "waxillium-ladrian"],
+    "revealedIn": [
+      {
+        "book": "alloy-of-law",
+        "chapter": "1"
+      }
+    ],
+    "wob": false,
+    "sources": [
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/House_Ladrian"
+      },
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Edwarn_Ladrian"
+      },
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Telsin_Ladrian"
+      }
+    ],
+    "year": 10966.3,
+    "range": [10965.5, 10967],
+    "certainty": "estimate",
+    "basis": "text"
+  },
+  {
+    "id": "scadrial-lessie-dies",
+    "world": "scadrial",
+    "title": [
+      {
+        "text": "Lessie's death at Bloody Tan's",
+        "revealedIn": [
+          {
+            "book": "alloy-of-law",
+            "chapter": "1"
+          }
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "text": "Hunting the killer Bloody Tan, Wax fires to free the captured Lessie, but Tan pulls her into the shot and she dies; Wax kills Tan.",
+        "revealedIn": [
+          {
+            "book": "alloy-of-law",
+            "chapter": "1"
+          }
+        ]
+      },
+      {
+        "text": "Lessie was really the kandra Paalm and survived the shot, but with Wax gone back to Elendel her life as Lessie was over.",
+        "revealedIn": [
+          {
+            "book": "shadows-of-self",
+            "chapter": "26"
+          }
+        ]
+      }
+    ],
+    "tier": "major",
+    "kind": "death",
+    "tags": ["roughs", "wax-and-wayne"],
+    "characters": ["waxillium-ladrian", "bloody-tan"],
+    "inBook": {
+      "book": "alloy-of-law",
+      "chapter": "prologue"
+    },
+    "revealedIn": [
+      {
+        "book": "alloy-of-law",
+        "chapter": "1"
+      }
+    ],
+    "wob": false,
+    "sources": [
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Paalm"
+      },
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Bloody_Tan"
+      },
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/The_Alloy_of_Law"
+      }
+    ],
+    "year": 10966.4,
+    "range": [10966, 10967],
+    "certainty": "derived",
+    "basis": "text"
+  },
+  {
+    "id": "scadrial-wax-returns-elendel",
+    "world": "scadrial",
+    "title": [
+      {
+        "text": "Wax returns to Elendel",
+        "revealedIn": [
+          {
+            "book": "alloy-of-law",
+            "chapter": "1"
+          }
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "text": "Back in Elendel as High Lord of House Ladrian, Wax hangs up his guns and spends half a year saving the house's finances.",
+        "revealedIn": [
+          {
+            "book": "alloy-of-law",
+            "chapter": "1"
+          }
+        ]
+      }
+    ],
+    "tier": "minor",
+    "kind": "journey",
+    "tags": ["elendel", "house-ladrian", "wax-and-wayne"],
+    "characters": ["waxillium-ladrian"],
+    "inBook": {
+      "book": "alloy-of-law",
+      "chapter": "1"
+    },
+    "revealedIn": [
+      {
+        "book": "alloy-of-law",
+        "chapter": "1"
+      }
+    ],
+    "wob": false,
+    "sources": [
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Waxillium_Ladrian"
+      },
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/House_Ladrian"
+      }
+    ],
+    "year": 10966.8,
+    "range": [10966.4, 10967.3],
+    "certainty": "derived",
+    "basis": "text"
+  },
+  {
+    "id": "scadrial-vanishers-dismantled",
+    "world": "scadrial",
+    "title": [
+      {
+        "text": "The Vanishers are dismantled",
+        "revealedIn": [
+          {
+            "book": "alloy-of-law",
+            "chapter": "epilogue"
+          }
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "text": "After Wax and Wayne thwart the Vanishers’ robberies and kidnappings, the Elendel constabulary brings the gang to justice.",
+        "revealedIn": [
+          {
+            "book": "alloy-of-law",
+            "chapter": "epilogue"
+          }
+        ]
+      }
+    ],
+    "tier": "major",
+    "kind": "story",
+    "revealedIn": [
+      {
+        "book": "alloy-of-law",
+        "chapter": "epilogue"
+      }
+    ],
+    "wob": false,
+    "sources": [
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Elendel_Basin"
+      },
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/The_Alloy_of_Law"
+      }
+    ],
+    "tags": ["vanishers", "wax-and-wayne"],
+    "inBook": {
+      "book": "alloy-of-law",
+      "chapter": "epilogue"
+    },
+    "year": 10967,
+    "range": [10967, 10968],
+    "certainty": "estimate",
+    "basis": "text"
+  },
+  {
+    "id": "scadrial-bleeders-revolt-ended",
+    "world": "scadrial",
+    "title": [
+      {
+        "text": "Bleeder’s revolt ends",
+        "revealedIn": [
+          {
+            "book": "shadows-of-self",
+            "chapter": "26"
+          }
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "text": "Wax stops Bleeder’s attempt to destabilize Elendel and learns her identity as Lessie before she dies.",
+        "revealedIn": [
+          {
+            "book": "shadows-of-self",
+            "chapter": "26"
+          }
+        ]
+      }
+    ],
+    "tier": "minor",
+    "kind": "story",
+    "revealedIn": [
+      {
+        "book": "shadows-of-self",
+        "chapter": "26"
+      }
+    ],
+    "wob": false,
+    "sources": [
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Shadows_of_Self"
+      },
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Paalm"
+      }
+    ],
+    "tags": ["wax-and-wayne", "kandra"],
+    "inBook": {
+      "book": "shadows-of-self",
+      "chapter": "26"
+    },
+    "year": 10968,
+    "order": 10,
+    "certainty": "exact",
+    "basis": "text"
+  },
+  {
+    "id": "scadrial-aradel-elected-governor",
+    "world": "scadrial",
+    "title": [
+      {
+        "text": "Aradel becomes governor",
+        "revealedIn": [
+          {
+            "book": "shadows-of-self",
+            "chapter": "epilogue"
+          }
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "text": "After unrest and a corruption scandal, Governor Innate is arrested and the Senate later elects Aradel, Elendel’s first governor without noble ancestry.",
+        "revealedIn": [
+          {
+            "book": "shadows-of-self",
+            "chapter": "epilogue"
+          }
+        ]
+      }
+    ],
+    "tier": "minor",
+    "kind": "politics",
+    "revealedIn": [
+      {
+        "book": "shadows-of-self",
+        "chapter": "epilogue"
+      }
+    ],
+    "wob": false,
+    "sources": [
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Elendel_Basin"
+      },
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Shadows_of_Self"
+      }
+    ],
+    "tags": ["elendel", "governor", "riots"],
+    "inBook": {
+      "book": "shadows-of-self",
+      "chapter": "epilogue"
+    },
+    "year": 10968,
+    "order": 20,
+    "certainty": "exact",
+    "basis": "text"
+  },
+  {
+    "id": "scadrial-first-contact-southern-scadrians",
+    "world": "scadrial",
+    "title": [
+      {
+        "text": "The Basin makes contact with the South",
+        "revealedIn": [
+          {
+            "book": "bands-of-mourning",
+            "chapter": "31"
+          }
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "text": "A Malwish crew’s arrival introduces the Basin to the Southern peoples, and Wax later secures formal contact and an exchange of medallions.",
+        "revealedIn": [
+          {
+            "book": "bands-of-mourning",
+            "chapter": "31"
+          }
+        ]
+      }
+    ],
+    "tier": "major",
+    "kind": "journey",
+    "revealedIn": [
+      {
+        "book": "bands-of-mourning",
+        "chapter": "31"
+      }
+    ],
+    "wob": false,
+    "sources": [
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Elendel_Basin"
+      },
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/The_Bands_of_Mourning"
+      },
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Southern_Scadrian"
+      }
+    ],
+    "tags": ["southern-scadrians", "malwish", "medallions"],
+    "inBook": {
+      "book": "bands-of-mourning",
+      "chapter": "31"
+    },
+    "year": 10968,
+    "order": 30,
+    "certainty": "exact",
+    "basis": "text"
+  },
+  {
+    "id": "cosmere-fires-december-sets-out",
+    "world": "cosmere",
+    "title": [
+      {
+        "text": "December sets out to warn the capital",
+        "revealedIn": [
+          {
+            "book": "fires-of-december",
+            "chapter": "ii"
+          }
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "text": "After learning of an approaching plague, December leaves home to seek help from the king.",
+        "revealedIn": [
+          {
+            "book": "fires-of-december",
+            "chapter": "ii"
+          }
+        ]
+      }
+    ],
+    "tier": "minor",
+    "kind": "story",
+    "tags": ["fires-of-december", "secret-projects"],
+    "inBook": {
+      "book": "fires-of-december",
+      "chapter": "ii"
+    },
+    "revealedIn": [
+      {
+        "book": "fires-of-december",
+        "chapter": "ii"
+      }
+    ],
+    "wob": false,
+    "sources": [
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Summary:The_Fires_of_December"
+      },
+      {
+        "label": "Drew's sheet",
+        "url": "https://docs.google.com/spreadsheets/d/1JJtJhHwpKdow01n2-bsT3scVvqJd6lZh4uvpNwcslv8/edit"
+      }
+    ],
+    "year": 10970,
+    "range": [10965.5, 10977],
+    "order": 0,
+    "certainty": "estimate",
+    "basis": "wob"
+  },
+  {
+    "id": "cosmere-fires-december-threat-uncovered",
+    "world": "cosmere",
+    "title": [
+      {
+        "text": "December uncovers the threat's history",
+        "revealedIn": [
+          {
+            "book": "fires-of-december",
+            "chapter": "x"
+          }
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "text": "December's party learns that the danger confronting the kingdom has deep historical roots.",
+        "revealedIn": [
+          {
+            "book": "fires-of-december",
+            "chapter": "x"
+          }
+        ]
+      }
+    ],
+    "tier": "minor",
+    "kind": "story",
+    "tags": ["fires-of-december", "secret-projects"],
+    "inBook": {
+      "book": "fires-of-december",
+      "chapter": "x"
+    },
+    "revealedIn": [
+      {
+        "book": "fires-of-december",
+        "chapter": "x"
+      }
+    ],
+    "wob": false,
+    "sources": [
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Summary:The_Fires_of_December"
+      },
+      {
+        "label": "Drew's sheet",
+        "url": "https://docs.google.com/spreadsheets/d/1JJtJhHwpKdow01n2-bsT3scVvqJd6lZh4uvpNwcslv8/edit"
+      }
+    ],
+    "year": 10970,
+    "range": [10965.5, 10977],
+    "order": 1,
+    "certainty": "estimate",
+    "basis": "wob"
+  },
+  {
+    "id": "cosmere-fires-december-palace-crisis",
+    "world": "cosmere",
+    "title": [
+      {
+        "text": "The palace plan fails",
+        "revealedIn": [
+          {
+            "book": "fires-of-december",
+            "chapter": "xl"
+          }
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "text": "December's group enters the palace, but an attempt to control the threat goes badly.",
+        "revealedIn": [
+          {
+            "book": "fires-of-december",
+            "chapter": "xl"
+          }
+        ]
+      }
+    ],
+    "tier": "major",
+    "kind": "story",
+    "tags": ["fires-of-december", "secret-projects"],
+    "inBook": {
+      "book": "fires-of-december",
+      "chapter": "xl"
+    },
+    "revealedIn": [
+      {
+        "book": "fires-of-december",
+        "chapter": "xl"
+      }
+    ],
+    "wob": false,
+    "sources": [
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Summary:The_Fires_of_December"
+      },
+      {
+        "label": "Drew's sheet",
+        "url": "https://docs.google.com/spreadsheets/d/1JJtJhHwpKdow01n2-bsT3scVvqJd6lZh4uvpNwcslv8/edit"
+      }
+    ],
+    "year": 10970,
+    "range": [10965.5, 10977],
+    "order": 2,
+    "certainty": "estimate",
+    "basis": "wob"
+  },
+  {
+    "id": "cosmere-fires-december-crisis-resolved",
+    "world": "cosmere",
+    "title": [
+      {
+        "text": "December helps bring the crisis to an end",
+        "revealedIn": [
+          {
+            "book": "fires-of-december",
+            "chapter": "epilogue"
+          }
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "text": "December's choices help resolve the threat, and the kingdom's leadership changes.",
+        "revealedIn": [
+          {
+            "book": "fires-of-december",
+            "chapter": "epilogue"
+          }
+        ]
+      }
+    ],
+    "tier": "major",
+    "kind": "story",
+    "tags": ["fires-of-december", "secret-projects"],
+    "inBook": {
+      "book": "fires-of-december",
+      "chapter": "epilogue"
+    },
+    "revealedIn": [
+      {
+        "book": "fires-of-december",
+        "chapter": "epilogue"
+      }
+    ],
+    "wob": false,
+    "sources": [
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Summary:The_Fires_of_December"
+      },
+      {
+        "label": "Drew's sheet",
+        "url": "https://docs.google.com/spreadsheets/d/1JJtJhHwpKdow01n2-bsT3scVvqJd6lZh4uvpNwcslv8/edit"
+      }
+    ],
+    "year": 10970,
+    "range": [10965.5, 10977],
+    "order": 3,
+    "certainty": "estimate",
+    "basis": "wob"
+  },
+  {
+    "id": "scadrial-supremacy-bill-passed",
+    "world": "scadrial",
+    "title": [
+      {
+        "text": "Elendel asserts authority over the Basin",
+        "revealedIn": ["lost-metal"]
+      }
+    ],
+    "summary": [
+      {
+        "text": "The Senate passes the Elendel Supremacy Bill, granting Elendel authority over the Outer Cities and worsening the political divide.",
+        "revealedIn": ["lost-metal"]
+      }
+    ],
+    "tier": "major",
+    "kind": "politics",
+    "revealedIn": ["lost-metal"],
+    "wob": false,
+    "sources": [
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Elendel_Basin"
+      },
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/The_Lost_Metal"
+      }
+    ],
+    "tags": ["elendel", "outer-cities", "politics"],
+    "year": 10974,
+    "order": 10,
+    "certainty": "exact",
+    "basis": "text"
+  },
+  {
+    "id": "scadrial-elendel-attack-stopped",
+    "world": "scadrial",
+    "title": [
+      {
+        "text": "The attack on Elendel is stopped",
+        "revealedIn": [
+          {
+            "book": "lost-metal",
+            "chapter": "epilogue-1"
+          }
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "text": "Wax and Wayne keep a city-destroying bomb from reaching full strength, though its blast sends a tsunami into Elendel’s docks.",
+        "revealedIn": [
+          {
+            "book": "lost-metal",
+            "chapter": "epilogue-1"
+          }
+        ]
+      }
+    ],
+    "tier": "headline",
+    "kind": "disaster",
+    "revealedIn": [
+      {
+        "book": "lost-metal",
+        "chapter": "epilogue-1"
+      }
+    ],
+    "wob": false,
+    "sources": [
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Elendel_Basin"
+      },
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/The_Lost_Metal"
+      }
+    ],
+    "tags": ["elendel", "set", "autonomy"],
+    "inBook": {
+      "book": "lost-metal",
+      "chapter": "72"
+    },
+    "year": 10974,
+    "order": 20,
+    "certainty": "exact",
+    "basis": "text"
+  },
+  {
+    "id": "scadrial-basin-national-assembly",
+    "world": "scadrial",
+    "title": [
+      {
+        "text": "The Basin adopts shared representation",
+        "revealedIn": [
+          {
+            "book": "lost-metal",
+            "chapter": "epilogue-7"
+          }
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "text": "Elendel repeals the Supremacy Bill and the cities establish a National Assembly, bringing the Basin into a shared national government.",
+        "revealedIn": [
+          {
+            "book": "lost-metal",
+            "chapter": "epilogue-7"
+          }
+        ]
+      }
+    ],
+    "tier": "major",
+    "kind": "politics",
+    "revealedIn": [
+      {
+        "book": "lost-metal",
+        "chapter": "epilogue-7"
+      }
+    ],
+    "wob": false,
+    "sources": [
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Elendel_Basin"
+      },
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/The_Lost_Metal"
+      }
+    ],
+    "tags": ["elendel", "outer-cities", "national-assembly"],
+    "inBook": {
+      "book": "lost-metal",
+      "chapter": "epilogue-7"
+    },
+    "year": 10976,
+    "certainty": "exact",
+    "basis": "text"
+  },
+  {
+    "id": "yolen-isles-starling-transforms",
+    "world": "yolen",
+    "worldRevealedIn": [
+      {
+        "book": "isles-of-the-emberdark",
+        "chapter": "prologue"
+      }
+    ],
+    "title": [
+      {
+        "text": "Starling transforms into her dragon form",
+        "revealedIn": [
+          {
+            "book": "isles-of-the-emberdark",
+            "chapter": "prologue"
+          }
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "text": "At the age of thirty, Starling undergoes her first transformation into her dragon form.",
+        "revealedIn": [
+          {
+            "book": "isles-of-the-emberdark",
+            "chapter": "prologue"
+          }
+        ]
+      }
+    ],
+    "tier": "minor",
+    "kind": "story",
+    "tags": ["isles-of-the-emberdark", "secret-projects"],
+    "inBook": {
+      "book": "isles-of-the-emberdark",
+      "chapter": "prologue"
+    },
+    "revealedIn": [
+      {
+        "book": "isles-of-the-emberdark",
+        "chapter": "prologue"
+      }
+    ],
+    "wob": false,
+    "sources": [
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Summary:Isles_of_the_Emberdark"
+      },
+      {
+        "label": "Drew's sheet",
+        "url": "https://docs.google.com/spreadsheets/d/1JJtJhHwpKdow01n2-bsT3scVvqJd6lZh4uvpNwcslv8/edit"
+      }
+    ],
+    "year": 11248,
+    "range": [11093, 11843],
+    "certainty": "estimate",
+    "basis": "wob"
+  },
+  {
+    "id": "lumar-tress-sets-out",
+    "world": "lumar",
+    "worldRevealedIn": ["tress"],
+    "title": [
+      {
+        "text": "Tress sets out to find Charlie",
+        "revealedIn": [
+          {
+            "book": "tress",
+            "chapter": "5"
+          }
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "text": "After learning Charlie has been taken away, Tress leaves home to attempt a rescue.",
+        "revealedIn": [
+          {
+            "book": "tress",
+            "chapter": "5"
+          }
+        ]
+      }
+    ],
+    "tier": "major",
+    "kind": "story",
+    "tags": ["tress", "secret-projects"],
+    "inBook": {
+      "book": "tress",
+      "chapter": "5"
+    },
+    "revealedIn": [
+      {
+        "book": "tress",
+        "chapter": "5"
+      }
+    ],
+    "wob": false,
+    "sources": [
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Summary:Tress_of_the_Emerald_Sea"
+      },
+      {
+        "label": "Drew's sheet",
+        "url": "https://docs.google.com/spreadsheets/d/1JJtJhHwpKdow01n2-bsT3scVvqJd6lZh4uvpNwcslv8/edit"
+      }
+    ],
+    "year": 11260,
+    "range": [10970, 11900],
+    "order": 0,
+    "certainty": "estimate",
+    "basis": "community"
+  },
+  {
+    "id": "lumar-tress-faces-the-mutiny",
+    "world": "lumar",
+    "worldRevealedIn": ["tress"],
+    "title": [
+      {
+        "text": "Tress faces a mutiny",
+        "revealedIn": [
+          {
+            "book": "tress",
+            "chapter": "50"
+          }
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "text": "A challenge to the ship's command turns violent, leaving Tress and her allies to decide how to respond.",
+        "revealedIn": [
+          {
+            "book": "tress",
+            "chapter": "50"
+          }
+        ]
+      }
+    ],
+    "tier": "major",
+    "kind": "story",
+    "tags": ["tress", "secret-projects"],
+    "inBook": {
+      "book": "tress",
+      "chapter": "50"
+    },
+    "revealedIn": [
+      {
+        "book": "tress",
+        "chapter": "50"
+      }
+    ],
+    "wob": false,
+    "sources": [
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Summary:Tress_of_the_Emerald_Sea"
+      },
+      {
+        "label": "Drew's sheet",
+        "url": "https://docs.google.com/spreadsheets/d/1JJtJhHwpKdow01n2-bsT3scVvqJd6lZh4uvpNwcslv8/edit"
+      }
+    ],
+    "year": 11260,
+    "range": [10970, 11900],
+    "order": 1,
+    "certainty": "estimate",
+    "basis": "community"
+  },
+  {
+    "id": "lumar-tress-crew-joins-her",
+    "world": "lumar",
+    "worldRevealedIn": ["tress"],
+    "title": [
+      {
+        "text": "The crew sails to help Tress",
+        "revealedIn": [
+          {
+            "book": "tress",
+            "chapter": "63"
+          }
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "text": "When Tress is trapped at the tower, the crew sails in to help her reach the Sorceress.",
+        "revealedIn": [
+          {
+            "book": "tress",
+            "chapter": "63"
+          }
+        ]
+      }
+    ],
+    "tier": "minor",
+    "kind": "story",
+    "tags": ["tress", "secret-projects"],
+    "inBook": {
+      "book": "tress",
+      "chapter": "63"
+    },
+    "revealedIn": [
+      {
+        "book": "tress",
+        "chapter": "63"
+      }
+    ],
+    "wob": false,
+    "sources": [
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Summary:Tress_of_the_Emerald_Sea"
+      },
+      {
+        "label": "Drew's sheet",
+        "url": "https://docs.google.com/spreadsheets/d/1JJtJhHwpKdow01n2-bsT3scVvqJd6lZh4uvpNwcslv8/edit"
+      }
+    ],
+    "year": 11260,
+    "range": [10970, 11900],
+    "order": 2,
+    "certainty": "estimate",
+    "basis": "community"
+  },
+  {
+    "id": "lumar-tress-reunites-with-charlie",
+    "world": "lumar",
+    "worldRevealedIn": ["tress"],
+    "title": [
+      {
+        "text": "Tress breaks the curse and reunites with Charlie",
+        "revealedIn": [
+          {
+            "book": "tress",
+            "chapter": "64"
+          }
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "text": "Tress identifies how the curse has kept Charlie from her and finds a way to undo it.",
+        "revealedIn": [
+          {
+            "book": "tress",
+            "chapter": "64"
+          }
+        ]
+      }
+    ],
+    "tier": "major",
+    "kind": "story",
+    "tags": ["tress", "secret-projects"],
+    "inBook": {
+      "book": "tress",
+      "chapter": "64"
+    },
+    "revealedIn": [
+      {
+        "book": "tress",
+        "chapter": "64"
+      }
+    ],
+    "wob": false,
+    "sources": [
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Summary:Tress_of_the_Emerald_Sea"
+      },
+      {
+        "label": "Drew's sheet",
+        "url": "https://docs.google.com/spreadsheets/d/1JJtJhHwpKdow01n2-bsT3scVvqJd6lZh4uvpNwcslv8/edit"
+      }
+    ],
+    "year": 11260,
+    "range": [10970, 11900],
+    "order": 3,
+    "certainty": "estimate",
+    "basis": "community"
+  },
+  {
+    "id": "canticle-nomad-arrives",
+    "world": "canticle",
+    "worldRevealedIn": ["sunlit-man"],
+    "title": [
+      {
+        "text": "Nomad arrives on Canticle",
+        "revealedIn": [
+          {
+            "book": "sunlit-man",
+            "chapter": "1"
+          }
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "text": "Nomad arrives without enough Investiture to understand the people who capture him.",
+        "revealedIn": [
+          {
+            "book": "sunlit-man",
+            "chapter": "1"
+          }
+        ]
+      }
+    ],
+    "tier": "major",
+    "kind": "story",
+    "tags": ["sunlit-man", "secret-projects"],
+    "inBook": {
+      "book": "sunlit-man",
+      "chapter": "1"
+    },
+    "revealedIn": [
+      {
+        "book": "sunlit-man",
+        "chapter": "1"
+      }
+    ],
+    "wob": false,
+    "sources": [
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Summary:The_Sunlit_Man"
+      },
+      {
+        "label": "Drew's sheet",
+        "url": "https://docs.google.com/spreadsheets/d/1JJtJhHwpKdow01n2-bsT3scVvqJd6lZh4uvpNwcslv8/edit"
+      },
+      {
+        "label": "Word of Brandon",
+        "url": "https://wob.coppermind.net/events/494/#e15579"
+      }
+    ],
+    "year": 11265,
+    "range": [11050, 11900],
+    "order": 0,
+    "certainty": "estimate",
+    "basis": "wob"
+  },
+  {
+    "id": "canticle-beaconites-recaptured",
+    "world": "canticle",
+    "worldRevealedIn": ["sunlit-man"],
+    "title": [
+      {
+        "text": "The Beaconites are recaptured",
+        "revealedIn": [
+          {
+            "book": "sunlit-man",
+            "chapter": "18"
+          }
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "text": "Nomad's attempt to escape with the Beaconites fails, and the group is captured again.",
+        "revealedIn": [
+          {
+            "book": "sunlit-man",
+            "chapter": "18"
+          }
+        ]
+      }
+    ],
+    "tier": "major",
+    "kind": "story",
+    "tags": ["sunlit-man", "secret-projects"],
+    "inBook": {
+      "book": "sunlit-man",
+      "chapter": "18"
+    },
+    "revealedIn": [
+      {
+        "book": "sunlit-man",
+        "chapter": "18"
+      }
+    ],
+    "wob": false,
+    "sources": [
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Summary:The_Sunlit_Man"
+      },
+      {
+        "label": "Drew's sheet",
+        "url": "https://docs.google.com/spreadsheets/d/1JJtJhHwpKdow01n2-bsT3scVvqJd6lZh4uvpNwcslv8/edit"
+      }
+    ],
+    "year": 11265,
+    "range": [11050, 11900],
+    "order": 1,
+    "certainty": "estimate",
+    "basis": "wob"
+  },
+  {
+    "id": "canticle-beaconites-escape",
+    "world": "canticle",
+    "worldRevealedIn": ["sunlit-man"],
+    "title": [
+      {
+        "text": "The Beaconites' escape plan succeeds",
+        "revealedIn": [
+          {
+            "book": "sunlit-man",
+            "chapter": "32"
+          }
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "text": "Nomad's plan lets the Beaconites leave their sealed vessels without losing anyone.",
+        "revealedIn": [
+          {
+            "book": "sunlit-man",
+            "chapter": "32"
+          }
+        ]
+      }
+    ],
+    "tier": "major",
+    "kind": "story",
+    "tags": ["sunlit-man", "secret-projects"],
+    "inBook": {
+      "book": "sunlit-man",
+      "chapter": "32"
+    },
+    "revealedIn": [
+      {
+        "book": "sunlit-man",
+        "chapter": "32"
+      }
+    ],
+    "wob": false,
+    "sources": [
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Summary:The_Sunlit_Man"
+      },
+      {
+        "label": "Drew's sheet",
+        "url": "https://docs.google.com/spreadsheets/d/1JJtJhHwpKdow01n2-bsT3scVvqJd6lZh4uvpNwcslv8/edit"
+      }
+    ],
+    "year": 11265,
+    "range": [11050, 11900],
+    "order": 2,
+    "certainty": "estimate",
+    "basis": "wob"
+  },
+  {
+    "id": "canticle-beaconites-leave",
+    "world": "canticle",
+    "worldRevealedIn": ["sunlit-man"],
+    "title": [
+      {
+        "text": "The survivors depart Canticle",
+        "revealedIn": [
+          {
+            "book": "sunlit-man",
+            "chapter": "epilogue"
+          }
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "text": "The survivors leave Canticle aboard the ship after enduring the planet's dangerous cycle.",
+        "revealedIn": [
+          {
+            "book": "sunlit-man",
+            "chapter": "epilogue"
+          }
+        ]
+      }
+    ],
+    "tier": "headline",
+    "kind": "story",
+    "tags": ["sunlit-man", "secret-projects"],
+    "inBook": {
+      "book": "sunlit-man",
+      "chapter": "epilogue"
+    },
+    "revealedIn": [
+      {
+        "book": "sunlit-man",
+        "chapter": "epilogue"
+      }
+    ],
+    "wob": false,
+    "sources": [
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Summary:The_Sunlit_Man"
+      },
+      {
+        "label": "Drew's sheet",
+        "url": "https://docs.google.com/spreadsheets/d/1JJtJhHwpKdow01n2-bsT3scVvqJd6lZh4uvpNwcslv8/edit"
+      }
+    ],
+    "year": 11265,
+    "range": [11050, 11900],
+    "order": 3,
+    "certainty": "estimate",
+    "basis": "wob"
+  },
+  {
+    "id": "komashi-yumi-and-painter-connect",
+    "world": "komashi",
+    "worldRevealedIn": ["yumi"],
+    "title": [
+      {
+        "text": "Yumi and Painter's lives become linked",
+        "revealedIn": [
+          {
+            "book": "yumi",
+            "chapter": "8"
+          }
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "text": "Yumi and Painter begin waking in each other's worlds, disrupting their separate routines.",
+        "revealedIn": [
+          {
+            "book": "yumi",
+            "chapter": "8"
+          }
+        ]
+      }
+    ],
+    "tier": "major",
+    "kind": "story",
+    "tags": ["yumi", "secret-projects"],
+    "inBook": {
+      "book": "yumi",
+      "chapter": "8"
+    },
+    "revealedIn": [
+      {
+        "book": "yumi",
+        "chapter": "8"
+      }
+    ],
+    "wob": false,
+    "sources": [
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Summary:Yumi_and_the_Nightmare_Painter"
+      },
+      {
+        "label": "Drew's sheet",
+        "url": "https://docs.google.com/spreadsheets/d/1JJtJhHwpKdow01n2-bsT3scVvqJd6lZh4uvpNwcslv8/edit"
+      },
+      {
+        "label": "Word of Brandon",
+        "url": "https://wob.coppermind.net/events/526/#e16420"
+      }
+    ],
+    "year": 11275,
+    "range": [11050, 11900],
+    "order": 0,
+    "certainty": "estimate",
+    "basis": "wob"
+  },
+  {
+    "id": "komashi-yumi-investigates-the-connection",
+    "world": "komashi",
+    "worldRevealedIn": ["yumi"],
+    "title": [
+      {
+        "text": "Yumi and Painter investigate their connection",
+        "revealedIn": [
+          {
+            "book": "yumi",
+            "chapter": "32"
+          }
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "text": "With Design's help, Yumi and Painter examine the unusual connection between them.",
+        "revealedIn": [
+          {
+            "book": "yumi",
+            "chapter": "32"
+          }
+        ]
+      }
+    ],
+    "tier": "major",
+    "kind": "story",
+    "tags": ["yumi", "secret-projects"],
+    "inBook": {
+      "book": "yumi",
+      "chapter": "32"
+    },
+    "revealedIn": [
+      {
+        "book": "yumi",
+        "chapter": "32"
+      }
+    ],
+    "wob": false,
+    "sources": [
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Summary:Yumi_and_the_Nightmare_Painter"
+      },
+      {
+        "label": "Drew's sheet",
+        "url": "https://docs.google.com/spreadsheets/d/1JJtJhHwpKdow01n2-bsT3scVvqJd6lZh4uvpNwcslv8/edit"
+      }
+    ],
+    "year": 11275,
+    "range": [11050, 11900],
+    "order": 1,
+    "certainty": "estimate",
+    "basis": "wob"
+  },
+  {
+    "id": "komashi-yumi-frees-the-spirits",
+    "world": "komashi",
+    "worldRevealedIn": ["yumi"],
+    "title": [
+      {
+        "text": "Yumi draws the spirits away from the machine",
+        "revealedIn": [
+          {
+            "book": "yumi",
+            "chapter": "41"
+          }
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "text": "Yumi's towers pull spirits away from the machine and give them a chance to escape.",
+        "revealedIn": [
+          {
+            "book": "yumi",
+            "chapter": "41"
+          }
+        ]
+      }
+    ],
+    "tier": "headline",
+    "kind": "story",
+    "tags": ["yumi", "secret-projects"],
+    "inBook": {
+      "book": "yumi",
+      "chapter": "41"
+    },
+    "revealedIn": [
+      {
+        "book": "yumi",
+        "chapter": "41"
+      }
+    ],
+    "wob": false,
+    "sources": [
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Summary:Yumi_and_the_Nightmare_Painter"
+      },
+      {
+        "label": "Drew's sheet",
+        "url": "https://docs.google.com/spreadsheets/d/1JJtJhHwpKdow01n2-bsT3scVvqJd6lZh4uvpNwcslv8/edit"
+      }
+    ],
+    "year": 11275,
+    "range": [11050, 11900],
+    "order": 2,
+    "certainty": "estimate",
+    "basis": "wob"
+  },
+  {
+    "id": "komashi-yumi-and-painter-part",
+    "world": "komashi",
+    "worldRevealedIn": ["yumi"],
+    "title": [
+      {
+        "text": "Yumi and Painter's story reaches its resolution",
+        "revealedIn": [
+          {
+            "book": "yumi",
+            "chapter": "epilogue"
+          }
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "text": "After the crisis, Yumi and Painter settle into the lives they have chosen.",
+        "revealedIn": [
+          {
+            "book": "yumi",
+            "chapter": "epilogue"
+          }
+        ]
+      }
+    ],
+    "tier": "major",
+    "kind": "story",
+    "tags": ["yumi", "secret-projects"],
+    "inBook": {
+      "book": "yumi",
+      "chapter": "epilogue"
+    },
+    "revealedIn": [
+      {
+        "book": "yumi",
+        "chapter": "epilogue"
+      }
+    ],
+    "wob": false,
+    "sources": [
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Summary:Yumi_and_the_Nightmare_Painter"
+      },
+      {
+        "label": "Drew's sheet",
+        "url": "https://docs.google.com/spreadsheets/d/1JJtJhHwpKdow01n2-bsT3scVvqJd6lZh4uvpNwcslv8/edit"
+      }
+    ],
+    "year": 11275,
+    "range": [11050, 11900],
+    "order": 3,
+    "certainty": "estimate",
+    "basis": "wob"
+  },
+  {
+    "id": "first-of-the-sun-dusk-returns-to-patji",
+    "world": "first-of-the-sun",
+    "worldRevealedIn": [
+      {
+        "book": "isles-of-the-emberdark",
+        "chapter": "12"
+      }
+    ],
+    "title": [
+      {
+        "text": "Dusk returns to Patji on an expedition",
+        "revealedIn": [
+          {
+            "book": "isles-of-the-emberdark",
+            "chapter": "12"
+          }
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "text": "Five years before the present-day story, Dusk and Vathi venture into Patji's dangerous night.",
+        "revealedIn": [
+          {
+            "book": "isles-of-the-emberdark",
+            "chapter": "12"
+          }
+        ]
+      }
+    ],
+    "tier": "minor",
+    "kind": "journey",
+    "tags": ["isles-of-the-emberdark", "secret-projects"],
+    "inBook": {
+      "book": "isles-of-the-emberdark",
+      "chapter": "12"
+    },
+    "revealedIn": [
+      {
+        "book": "isles-of-the-emberdark",
+        "chapter": "12"
+      }
+    ],
+    "wob": false,
+    "sources": [
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Summary:Isles_of_the_Emberdark"
+      },
+      {
+        "label": "Drew's sheet",
+        "url": "https://docs.google.com/spreadsheets/d/1JJtJhHwpKdow01n2-bsT3scVvqJd6lZh4uvpNwcslv8/edit"
+      }
+    ],
+    "year": 11300,
+    "range": [11145, 11895],
+    "certainty": "estimate",
+    "basis": "wob"
+  },
+  {
+    "id": "first-of-the-sun-isles-expedition-reaches-the-emberdark",
+    "world": "first-of-the-sun",
+    "worldRevealedIn": ["isles-of-the-emberdark"],
+    "title": [
+      {
+        "text": "The Dynamic reaches the Emberdark",
+        "revealedIn": [
+          {
+            "book": "isles-of-the-emberdark",
+            "chapter": "35"
+          }
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "text": "Starling's crew finds an island in the Emberdark, where a Scadrian force is already guarding the site they seek.",
+        "revealedIn": [
+          {
+            "book": "isles-of-the-emberdark",
+            "chapter": "35"
+          }
+        ]
+      }
+    ],
+    "tier": "major",
+    "kind": "journey",
+    "tags": ["isles-of-the-emberdark", "secret-projects"],
+    "inBook": {
+      "book": "isles-of-the-emberdark",
+      "chapter": "35"
+    },
+    "revealedIn": [
+      {
+        "book": "isles-of-the-emberdark",
+        "chapter": "35"
+      }
+    ],
+    "wob": false,
+    "sources": [
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Summary:Isles_of_the_Emberdark"
+      },
+      {
+        "label": "Drew's sheet",
+        "url": "https://docs.google.com/spreadsheets/d/1JJtJhHwpKdow01n2-bsT3scVvqJd6lZh4uvpNwcslv8/edit"
+      }
+    ],
+    "year": 11305,
+    "range": [11150, 11900],
+    "order": 0,
+    "certainty": "estimate",
+    "basis": "wob"
+  },
+  {
+    "id": "first-of-the-sun-isles-leadership-crisis",
+    "world": "first-of-the-sun",
+    "worldRevealedIn": ["isles-of-the-emberdark"],
+    "title": [
+      {
+        "text": "The First Company faces a vote of no confidence",
+        "revealedIn": [
+          {
+            "book": "isles-of-the-emberdark",
+            "chapter": "61"
+          }
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "text": "Vathi waits for the result of a vote that could remove her from the First Company's presidency.",
+        "revealedIn": [
+          {
+            "book": "isles-of-the-emberdark",
+            "chapter": "61"
+          }
+        ]
+      }
+    ],
+    "tier": "minor",
+    "kind": "politics",
+    "tags": ["isles-of-the-emberdark", "secret-projects"],
+    "inBook": {
+      "book": "isles-of-the-emberdark",
+      "chapter": "61"
+    },
+    "revealedIn": [
+      {
+        "book": "isles-of-the-emberdark",
+        "chapter": "61"
+      }
+    ],
+    "wob": false,
+    "sources": [
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Summary:Isles_of_the_Emberdark"
+      },
+      {
+        "label": "Drew's sheet",
+        "url": "https://docs.google.com/spreadsheets/d/1JJtJhHwpKdow01n2-bsT3scVvqJd6lZh4uvpNwcslv8/edit"
+      }
+    ],
+    "year": 11305,
+    "range": [11150, 11900],
+    "order": 1,
+    "certainty": "estimate",
+    "basis": "wob"
+  },
+  {
+    "id": "first-of-the-sun-isles-navigators-return",
+    "world": "first-of-the-sun",
+    "worldRevealedIn": ["isles-of-the-emberdark"],
+    "title": [
+      {
+        "text": "The expeditionary navigators return",
+        "revealedIn": [
+          {
+            "book": "isles-of-the-emberdark",
+            "chapter": "epilogue"
+          }
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "text": "Six months later, Dusk and the officials witness the navigators return from their first excursion.",
+        "revealedIn": [
+          {
+            "book": "isles-of-the-emberdark",
+            "chapter": "epilogue"
+          }
+        ]
+      }
+    ],
+    "tier": "headline",
+    "kind": "journey",
+    "tags": ["isles-of-the-emberdark", "secret-projects"],
+    "inBook": {
+      "book": "isles-of-the-emberdark",
+      "chapter": "epilogue"
+    },
+    "revealedIn": [
+      {
+        "book": "isles-of-the-emberdark",
+        "chapter": "epilogue"
+      }
+    ],
+    "wob": false,
+    "sources": [
+      {
+        "label": "Coppermind",
+        "url": "https://coppermind.net/wiki/Summary:Isles_of_the_Emberdark"
+      },
+      {
+        "label": "Drew's sheet",
+        "url": "https://docs.google.com/spreadsheets/d/1JJtJhHwpKdow01n2-bsT3scVvqJd6lZh4uvpNwcslv8/edit"
+      }
+    ],
+    "year": 11305.5,
+    "range": [11150.5, 11900.5],
+    "certainty": "estimate",
+    "basis": "wob"
+  },
+  {
+    "id": "cosmere-fires-december-hoid-tells-the-story",
+    "world": "cosmere",
+    "title": [
+      {
+        "text": "Hoid tells the story after Yumi",
+        "revealedIn": [
+          {
+            "all": [
+              "yumi",
+              {
+                "book": "fires-of-december",
+                "chapter": "epilogue"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "text": "Hoid recounts this story in a later frame narrative set after the events of Yumi.",
+        "revealedIn": [
+          {
+            "all": [
+              "yumi",
+              {
+                "book": "fires-of-december",
+                "chapter": "epilogue"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "tier": "minor",
+    "kind": "story",
+    "tags": ["fires-of-december", "hoid", "secret-projects"],
+    "revealedIn": [
+      {
+        "all": [
+          "yumi",
+          {
+            "book": "fires-of-december",
+            "chapter": "epilogue"
+          }
+        ]
+      }
+    ],
+    "wob": true,
+    "sources": [
+      {
+        "label": "Word of Brandon",
+        "url": "https://wob.coppermind.net/api/entry/16984/"
+      },
+      {
+        "label": "Drew's sheet",
+        "url": "https://docs.google.com/spreadsheets/d/1JJtJhHwpKdow01n2-bsT3scVvqJd6lZh4uvpNwcslv8/edit"
+      }
+    ],
+    "year": 11320,
+    "range": [11150, 11950],
+    "certainty": "estimate",
+    "basis": "wob"
+  }
+]

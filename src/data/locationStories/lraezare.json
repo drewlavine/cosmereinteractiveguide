@@ -1,0 +1,38 @@
+{
+  "intro": [
+    {
+      "text": "A city on the delta of the Ry'DoAli, where the river flows into the Southern Border Ocean.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "15" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "A round trip to Kezare takes about three days. The climate looks fairly dry, and steep hills rise near the waterfront.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "15" }]
+    },
+    {
+      "text": "Among the biggest harbors south of Kezare, it is the seat of the Shipowners' Circle, the council that controls the Helm.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "15" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Visitors from Kezare",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "15" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Ahead of the Taishin's vote on the Diem, the Lord Merchant, Vey, went into hiding here to avoid Kenton. Kenton followed by ship with the Lord Admiral, Delius, who overruled the Kezare dockmaster's refusal to give him passage.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "15" }]
+        },
+        {
+          "text": "In the city Kenton secured Vey's vote by confronting him with his debt to the Diem. Delius tricked the Helm's leaders into removing him from the post of Lord Admiral, which let him own his fleet again, and used it to press his successor, Lokkall, into supporting the Diem. The party then sailed straight back to Kezare.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "15" }]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "intro": [
+    {
+      "text": "Artifabrians are the engineers of Roshar who design and build fabrials.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "60" }]
+    },
+    {
+      "text": "Artifabrians are the engineers of Roshar who design and build fabrials. In Vorin lands it is considered women's work.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "60" },
+            { "book": "oathbringer", "chapter": "44" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "Artifabrians have tried for centuries to recreate Shardplate. Their nearest success so far is half-shards, which work on a different design.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "60" }]
+    },
+    {
+      "text": "They sort fabrials into groups they call Altering, Pairing and Warning fabrials, and Altering and Pairing fabrials draw much of their research and theorising. They also install new fabrials.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "prelude" },
+            { "book": "words-of-radiance", "chapter": "47" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Their methods, including how spren are captured in gems, are closely guarded secrets, and Thaylen artifabrians have a secret way to fine-tune the Stormlight inside a fabrial.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "prelude" },
+            { "book": "dawnshard", "chapter": "2" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Notable artifabrians",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "60" },
+            { "book": "dawnshard", "chapter": "9" },
+            { "book": "rhythm-of-war", "chapter": "19" },
+            { "book": "rhythm-of-war", "chapter": "42" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Longshadow designed a type of painrial.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "60" }]
+        },
+        {
+          "text": "Navani Kholin helped create many fabrials, including the Grandbow, and helped refine Longshadow's painrial.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "60" }]
+        },
+        {
+          "text": "Rushu, an ardent in Navani's service, worked on new kinds of fabrial and helped make several discoveries about using aluminum with them.",
+          "revealedIn": [{ "book": "dawnshard", "chapter": "9" }]
+        },
+        {
+          "text": "Tomor, another ardent working for Navani, invented a fabrial worn on the wrist that can lift its wearer in one direction for a short time.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "19" }]
+        },
+        {
+          "text": "Ulvlk, a Thaylen scholar, revealed to Navani the secret of moving Stormlight between gemstones.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "42" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "longshadow",
+      "role": "artifabrian",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "60" }]
+    },
+    {
+      "characterId": "navani-kholin",
+      "role": "artifabrian",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "60" }]
+    },
+    {
+      "characterId": "rushu",
+      "role": "artifabrian",
+      "revealedIn": [{ "book": "dawnshard", "chapter": "9" }]
+    },
+    {
+      "characterId": "tomor",
+      "role": "artifabrian",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "19" }]
+    },
+    {
+      "characterId": "ulvlk",
+      "role": "artifabrian",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "42" }]
+    }
+  ]
+}

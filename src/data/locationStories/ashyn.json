@@ -1,0 +1,60 @@
+{
+  "intro": [
+    {
+      "text": "A world devastated by a catastrophe.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "115" }]
+    },
+    {
+      "text": "The innermost planet of the Rosharan system, formerly called Alaswha.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "104" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Before its devastation, Ashyn supported pigs, rats, minks, parrots and domestic dogs.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "49" }]
+    },
+    {
+      "text": "Its landscape included the Central Sea and floating stones. The planet has tones distinct from Roshar's.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "104" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The early world",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "104" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Adonalsium created the planet, and humans settled it before the Shards arrived in the system. Its inhabitants developed a collection of city-states.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "104" }]
+        },
+        {
+          "text": "Odium backed an expanding empire. Honor offered power to Nale and Makibak's opposing coalition.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "104" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "War and migration",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "107" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Centuries of warfare with unrestricted Surges devastated the world. Its name changed to Ashyn in reference to the burning.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "107" }]
+        },
+        {
+          "text": "Refugees escaped to Roshar through Elsecalling strengthened by Ishar's Bondsmith powers. Odium accompanied the migration.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "107" }]
+        }
+      ]
+    }
+  ]
+}

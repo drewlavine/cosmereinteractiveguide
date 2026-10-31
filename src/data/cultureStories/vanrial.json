@@ -1,0 +1,24 @@
+{
+  "intro": [
+    {
+      "text": "The Vanrial are an order of artists on Roshar, credited with keeping The Way of Kings whole through an age when many other classics vanished.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "45" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Their home was on the Silent Mount's slopes, in Jah Keved, where over centuries they kept singing a song in a language no one understood any more, which they said the Heralds had given them.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "60" }]
+    }
+  ],
+  "history": [],
+  "facts": [
+    {
+      "label": "Based at",
+      "name": "Silent Mount",
+      "placeId": "silent-mount",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "60" }]
+    }
+  ],
+  "people": []
+}

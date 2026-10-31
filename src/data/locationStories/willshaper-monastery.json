@@ -1,0 +1,48 @@
+{
+  "intro": [
+    {
+      "text": "A fortified Shin monastery near the southern coast, built to help repel coastal raiders.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "45" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Large gates open into a gemstone-lit hall with a ceremonial stone before an altar. A single great slab forms its roof.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "45" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Training",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "75" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Szeth began his training pilgrimage here under Sivi, the Willshaper Honorbearer.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "75" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The return to Shinovar",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "45" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Sivi resisted the influence corrupting Shinovar. The people of the district gathered in Koring, while the monastery was boarded shut.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "45" }]
+        },
+        {
+          "text": "Szeth and Kaladin entered through the roof and found Sivi dead beside a message of resistance. Szeth opened the gates and recovered the Willshaper Honorblade.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "45" }]
+        }
+      ]
+    }
+  ]
+}

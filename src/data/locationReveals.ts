@@ -10,6 +10,29 @@ export const locationReveals: Record<string, Reveal> = {
       chapter: '58',
     },
   ],
+  'abiding-light': [
+    {
+      all: ['oathbringer', 'rhythm-of-war'],
+    },
+  ],
+  abri: ['oathbringer'],
+  'ageless-beauty': [
+    {
+      all: ['oathbringer', 'rhythm-of-war'],
+    },
+  ],
+  aheleha: [
+    {
+      book: 'isles-of-the-emberdark',
+      chapter: '38',
+    },
+  ],
+  'ahlstrom-tower': [
+    {
+      book: 'bands-of-mourning',
+      chapter: '31',
+    },
+  ],
   aimia: [
     {
       all: [
@@ -28,6 +51,32 @@ export const locationReveals: Record<string, Reveal> = {
       ],
     },
   ],
+  'aimian-sea': [
+    {
+      book: 'oathbringer',
+      chapter: 'i-4',
+    },
+  ],
+  akak: [
+    {
+      all: [
+        {
+          book: 'way-of-kings',
+          chapter: '56',
+        },
+        {
+          book: 'oathbringer',
+          chapter: '52',
+        },
+      ],
+    },
+  ],
+  akanny: [
+    {
+      book: 'oathbringer',
+      chapter: '10',
+    },
+  ],
   akinah: [
     {
       book: 'oathbringer',
@@ -40,6 +89,7 @@ export const locationReveals: Record<string, Reveal> = {
       chapter: '64',
     },
   ],
+  alendel: ['alloy-of-law'],
   alethela: [
     {
       book: 'way-of-kings',
@@ -52,10 +102,72 @@ export const locationReveals: Record<string, Reveal> = {
       chapter: '16',
     },
   ],
+  alicago: [
+    {
+      book: 'lost-metal',
+      chapter: '70',
+    },
+  ],
+  'alls-alley': [
+    {
+      book: 'oathbringer',
+      chapter: '18',
+    },
+  ],
+  alm: ['way-of-kings'],
+  amydlatn: [
+    {
+      book: 'words-of-radiance',
+      chapter: '6',
+    },
+  ],
+  arak: ['oathbringer'],
+  'aredel-river': [
+    {
+      book: 'elantris',
+      chapter: '13',
+    },
+  ],
+  arelon: [
+    {
+      book: 'elantris',
+      chapter: '11',
+    },
+  ],
+  arguois: ['final-empire'],
   'arguois-caverns': [
     {
       book: 'final-empire',
       chapter: '21',
+    },
+  ],
+  ashyn: [
+    {
+      book: 'oathbringer',
+      chapter: '115',
+    },
+  ],
+  'astral-banks': [
+    {
+      all: ['oathbringer', 'rhythm-of-war'],
+    },
+  ],
+  'atad-mountains': [
+    {
+      book: 'elantris',
+      chapter: '3',
+    },
+  ],
+  austrex: [
+    {
+      book: 'secret-history',
+      chapter: '4-2',
+    },
+  ],
+  ayabiza: [
+    {
+      book: 'wind-and-truth',
+      chapter: '92',
     },
   ],
   azimir: [
@@ -76,10 +188,25 @@ export const locationReveals: Record<string, Reveal> = {
       chapter: '46',
     },
   ],
+  'basin-of-the-veiled-sun': ['rhythm-of-war'],
   basmardin: [
     {
       book: 'hero-of-ages',
       chapter: '32',
+    },
+  ],
+  'bastion-hill': ['shadows-for-silence'],
+  bavland: [
+    {
+      book: 'way-of-kings',
+      chapter: 'i-3',
+    },
+  ],
+  'bay-of-elibath': ['way-of-kings'],
+  bayala: [
+    {
+      book: 'oathbringer',
+      chapter: '104',
     },
   ],
   beacon: [
@@ -88,10 +215,61 @@ export const locationReveals: Record<string, Reveal> = {
       chapter: '13',
     },
   ],
+  benru: ['rhythm-of-war'],
+  berizhet: ['oathbringer'],
+  berqq: ['rhythm-of-war'],
+  'bethab-princedom': [
+    {
+      book: 'words-of-radiance',
+      chapter: '67',
+    },
+  ],
+  bevalis: [
+    {
+      book: 'warbreaker',
+      chapter: '1',
+    },
+  ],
+  bilming: [
+    {
+      all: [
+        {
+          book: 'shadows-of-self',
+          chapter: '5',
+        },
+        {
+          book: 'bands-of-mourning',
+          chapter: '21',
+        },
+        {
+          book: 'lost-metal',
+          chapter: '20',
+        },
+      ],
+    },
+  ],
   'black-lake': [
     {
       book: 'final-empire',
       chapter: '29',
+    },
+  ],
+  'bondsmith-monastery': [
+    {
+      book: 'wind-and-truth',
+      chapter: '92',
+    },
+  ],
+  'border-ocean': [
+    {
+      book: 'white-sand-omnibus',
+      chapter: '18',
+    },
+  ],
+  bornwater: [
+    {
+      book: 'way-of-kings',
+      chapter: 'i-6',
     },
   ],
   braize: [
@@ -108,6 +286,19 @@ export const locationReveals: Record<string, Reveal> = {
       ],
     },
   ],
+  'bricks-tavern': [
+    {
+      book: 'tress',
+      chapter: '7',
+    },
+  ],
+  'bright-sea': [
+    {
+      book: 'warbreaker',
+      chapter: '4',
+    },
+  ],
+  'brilliance-eternal': ['rhythm-of-war'],
   'broken-quill': [
     {
       book: 'final-empire',
@@ -120,10 +311,23 @@ export const locationReveals: Record<string, Reveal> = {
       chapter: 'i-9',
     },
   ],
+  'burning-gardens': ['oathbringer'],
   burnlands: [
     {
       book: 'well-of-ascension',
       chapter: '23',
+    },
+  ],
+  cabridar: [
+    {
+      book: 'wind-and-truth',
+      chapter: '80',
+    },
+  ],
+  callingfale: [
+    {
+      book: 'alloy-of-law',
+      chapter: '14',
     },
   ],
   'camons-safe-house': [
@@ -132,22 +336,55 @@ export const locationReveals: Record<string, Reveal> = {
       chapter: '5',
     },
   ],
+  candlemore: ['oathbringer'],
+  canticle: [
+    {
+      book: 'sunlit-man',
+      chapter: '12',
+    },
+  ],
+  'caretaker-of-laughter': ['oathbringer'],
+  'carlos-bend': [
+    {
+      book: 'alloy-of-law',
+      chapter: '15',
+    },
+  ],
   celebrant: [
     {
       book: 'oathbringer',
       chapter: '102',
     },
   ],
+  'celebrant-channel': ['oathbringer'],
   chakath: [
     {
       book: 'final-empire',
       chapter: '9',
     },
   ],
+  'channerel-range': [
+    {
+      all: ['final-empire', 'alloy-of-law'],
+    },
+  ],
   chardees: [
     {
       book: 'hero-of-ages',
       chapter: '5',
+    },
+  ],
+  chedesh: [
+    {
+      book: 'warbreaker',
+      chapter: '32',
+    },
+  ],
+  'clarvonnes-theater': ['shadows-of-self'],
+  clearmount: [
+    {
+      book: 'wind-and-truth',
+      chapter: '24',
     },
   ],
   'clubss-shop': [
@@ -162,6 +399,12 @@ export const locationReveals: Record<string, Reveal> = {
       chapter: '8',
     },
   ],
+  concordance: [
+    {
+      book: 'fires-of-december',
+      chapter: 'xxviii',
+    },
+  ],
   'conventical-of-seran': [
     {
       book: 'well-of-ascension',
@@ -174,22 +417,71 @@ export const locationReveals: Record<string, Reveal> = {
       chapter: '25',
     },
   ],
+  'coolerim-playhouse': [
+    {
+      book: 'alloy-of-law',
+      chapter: '2',
+    },
+  ],
+  corbeau: [
+    {
+      all: [
+        'alloy-of-law',
+        {
+          book: 'shadows-of-self',
+          chapter: '6',
+        },
+      ],
+    },
+  ],
+  'core-archipelago': [
+    {
+      book: 'tress',
+      chapter: '8',
+    },
+  ],
+  'counselors-cup': [
+    {
+      book: 'shadows-of-self',
+      chapter: '11',
+    },
+  ],
+  'court-of-gods': [
+    {
+      book: 'warbreaker',
+      chapter: '3',
+    },
+  ],
   courteline: [
     {
       book: 'final-empire',
       chapter: '6',
     },
   ],
+  covingtar: ['alloy-of-law'],
   'crescent-dominance': [
     {
       book: 'final-empire',
       chapter: '18',
     },
   ],
+  'crimson-sea': [
+    {
+      book: 'tress',
+      chapter: '23',
+    },
+  ],
+  'crossroads-garden': ['warbreaker'],
   'cultivations-perpendicularity': [
     {
       book: 'words-of-radiance',
       chapter: '46',
+    },
+  ],
+  'dakwaras-island': [
+    {
+      book: 'isles-of-the-emberdark',
+      chapter: '52',
     },
   ],
   dalilak: [
@@ -198,24 +490,150 @@ export const locationReveals: Record<string, Reveal> = {
       chapter: '37',
     },
   ],
+  'dampmere-park': [
+    {
+      book: 'alloy-of-law',
+      chapter: '10',
+    },
+  ],
+  danidan: ['oathbringer'],
+  darkhill: ['oathbringer'],
   darrelnai: [
     {
       book: 'well-of-ascension',
       chapter: '37',
     },
   ],
+  davinar: ['oathbringer'],
+  dawncity: [
+    {
+      book: 'way-of-kings',
+      chapter: '54',
+    },
+  ],
+  'dawns-shadow': [
+    {
+      all: [
+        {
+          book: 'words-of-radiance',
+          chapter: '60',
+        },
+        {
+          book: 'oathbringer',
+          chapter: '67',
+        },
+      ],
+    },
+  ],
+  dazarlomue: ['alloy-of-law'],
+  'ddenir-garden': [
+    {
+      book: 'warbreaker',
+      chapter: '29',
+    },
+  ],
+  'deathbend-river': [
+    {
+      book: 'way-of-kings',
+      chapter: '28',
+    },
+  ],
+  'deep-sand': [
+    {
+      book: 'white-sand-omnibus',
+      chapter: '3',
+    },
+  ],
+  defiance: [
+    {
+      book: 'oathbringer',
+      chapter: 'i-1',
+    },
+  ],
+  'demoux-city': [
+    {
+      book: 'lost-metal',
+      chapter: '19',
+    },
+  ],
+  denka: ['white-sand-omnibus'],
   derytatith: [
     {
       book: 'well-of-ascension',
       chapter: '48',
     },
   ],
+  desh: ['way-of-kings'],
   devanex: [
     {
       book: 'final-empire',
       chapter: '18',
     },
   ],
+  dhatri: [
+    {
+      book: 'lost-metal',
+      chapter: '47',
+    },
+  ],
+  'diggens-point': [
+    {
+      book: 'tress',
+      chapter: '1',
+    },
+  ],
+  'disons-valley': [
+    {
+      book: 'wind-and-truth',
+      chapter: '27',
+    },
+  ],
+  domistar: ['rhythm-of-war'],
+  'doriel-town': ['alloy-of-law'],
+  'dosha-harken': [
+    {
+      book: 'white-sand-omnibus',
+      chapter: 'prologue',
+    },
+  ],
+  doxonar: [
+    {
+      book: 'alloy-of-law',
+      chapter: '15',
+    },
+  ],
+  'dromatory-isles': [
+    {
+      book: 'tress',
+      chapter: '35',
+    },
+  ],
+  'drominad-system': ['arcanum-unbounded'],
+  'drunken-spur': [
+    {
+      book: 'lost-metal',
+      chapter: '14',
+    },
+  ],
+  'drunmu-basin': [
+    {
+      book: 'rhythm-of-war',
+      chapter: '64',
+    },
+  ],
+  'drying-sea': [
+    {
+      book: 'way-of-kings',
+      chapter: '28',
+    },
+  ],
+  dryport: [
+    {
+      book: 'alloy-of-law',
+      chapter: 'epilogue',
+    },
+  ],
+  drypost: ['alloy-of-law'],
   'dueling-arena': [
     {
       all: [
@@ -230,6 +648,110 @@ export const locationReveals: Record<string, Reveal> = {
       ],
     },
   ],
+  duladel: [
+    {
+      book: 'elantris',
+      chapter: '3',
+    },
+  ],
+  'dulouis-building': [
+    {
+      book: 'lost-metal',
+      chapter: '39',
+    },
+  ],
+  dulsing: [
+    {
+      book: 'bands-of-mourning',
+      chapter: '15',
+    },
+  ],
+  dumadari: [
+    {
+      book: 'way-of-kings',
+      chapter: '5',
+    },
+  ],
+  'dustbringer-monastery': [
+    {
+      book: 'wind-and-truth',
+      chapter: '90',
+    },
+  ],
+  dynasty: [
+    {
+      book: 'white-sand-omnibus',
+      chapter: '4',
+    },
+  ],
+  dzhamar: [
+    {
+      book: 'emperors-soul',
+      chapter: 'day-42',
+    },
+  ],
+  eastbridge: [
+    {
+      book: 'shadows-of-self',
+      chapter: '18',
+    },
+  ],
+  'eastern-crownlands': [
+    {
+      book: 'oathbringer',
+      chapter: '11',
+    },
+  ],
+  'edgedancer-monastery': ['wind-and-truth'],
+  eila: ['oathbringer'],
+  eiliz: [
+    {
+      book: 'way-of-kings',
+      chapter: '60',
+    },
+  ],
+  elanar: ['oathbringer'],
+  elantris: [
+    {
+      book: 'elantris',
+      chapter: '5',
+    },
+  ],
+  elendel: ['alloy-of-law'],
+  'elendel-basin': [
+    {
+      book: 'alloy-of-law',
+      chapter: '11',
+    },
+  ],
+  'elendel-university': [
+    {
+      book: 'alloy-of-law',
+      chapter: '4',
+    },
+  ],
+  elis: [
+    {
+      book: 'white-sand-omnibus',
+      chapter: '5',
+    },
+  ],
+  elmsdel: ['alloy-of-law'],
+  'elsecaller-monastery': [
+    {
+      book: 'wind-and-truth',
+      chapter: '68',
+    },
+  ],
+  'emberdark-channel': ['oathbringer'],
+  'emberdark-settlement': ['oathbringer'],
+  'emerald-sea': [
+    {
+      book: 'tress',
+      chapter: '14',
+    },
+  ],
+  'empyrean-gulf': ['rhythm-of-war'],
   emul: [
     {
       all: [
@@ -250,10 +772,44 @@ export const locationReveals: Record<string, Reveal> = {
       chapter: '57',
     },
   ],
+  'erik-island': [
+    {
+      book: 'tress',
+      chapter: '2',
+    },
+  ],
+  eshkerlosh: [
+    {
+      book: 'white-sand-omnibus',
+      chapter: '1',
+    },
+  ],
+  'evergall-trainyards': ['alloy-of-law'],
+  'expanse-of-the-broken-sky': ['way-of-kings'],
+  'expanse-of-the-vapors': ['way-of-kings'],
+  'expanse-of-vibrance': ['way-of-kings'],
   'fadrex-city': [
     {
       book: 'well-of-ascension',
       chapter: '3',
+    },
+  ],
+  'faleast-range': [
+    {
+      all: ['final-empire', 'alloy-of-law'],
+    },
+  ],
+  'fallen-tower': [
+    {
+      book: 'oathbringer',
+      chapter: '51',
+    },
+  ],
+  'fallen-world': ['shadows-for-silence'],
+  'far-dorest': [
+    {
+      book: 'alloy-of-law',
+      chapter: '11',
     },
   ],
   'far-peninsula': [
@@ -262,6 +818,45 @@ export const locationReveals: Record<string, Reveal> = {
       chapter: '4',
     },
   ],
+  faradana: [
+    {
+      book: 'alloy-of-law',
+      chapter: '9',
+    },
+  ],
+  farcoast: [
+    {
+      book: 'words-of-radiance',
+      chapter: '24',
+    },
+  ],
+  'farthing-mansion': [
+    {
+      book: 'bands-of-mourning',
+      chapter: '10',
+    },
+  ],
+  'feasting-basin': [
+    {
+      book: 'way-of-kings',
+      chapter: '22',
+    },
+  ],
+  'feder-tower': [
+    {
+      all: [
+        {
+          book: 'alloy-of-law',
+          chapter: '12',
+        },
+        {
+          book: 'shadows-of-self',
+          chapter: '11',
+        },
+      ],
+    },
+  ],
+  fellavoo: ['elantris'],
   fellise: [
     {
       book: 'final-empire',
@@ -274,10 +869,28 @@ export const locationReveals: Record<string, Reveal> = {
       chapter: '37',
     },
   ],
+  feltrel: [
+    {
+      book: 'alloy-of-law',
+      chapter: 'prologue',
+    },
+  ],
   'feverstone-keep': [
     {
       book: 'way-of-kings',
       chapter: '52',
+    },
+  ],
+  'field-of-rebirth': [
+    {
+      book: 'alloy-of-law',
+      chapter: '10',
+    },
+  ],
+  'filistrate-city': [
+    {
+      book: 'tress',
+      chapter: '53',
     },
   ],
   'final-empire': [
@@ -286,10 +899,54 @@ export const locationReveals: Record<string, Reveal> = {
       chapter: '2',
     },
   ],
+  'first-central-bank': [
+    {
+      book: 'shadows-of-self',
+      chapter: '8',
+    },
+  ],
+  'first-dukeseat': [
+    {
+      book: 'fires-of-december',
+      chapter: 'v',
+    },
+  ],
+  'first-insurance-bank': [
+    {
+      book: 'shadows-of-self',
+      chapter: '12',
+    },
+  ],
+  'first-of-the-sun': [
+    {
+      book: 'isles-of-the-emberdark',
+      chapter: '40',
+    },
+  ],
+  'first-union-bank-elendel': [
+    {
+      book: 'shadows-of-self',
+      chapter: '2',
+    },
+  ],
+  fjorden: [
+    {
+      book: 'elantris',
+      chapter: '2',
+    },
+  ],
+  'forests-of-hell': ['shadows-for-silence'],
+  'fortress-town': ['shadows-for-silence'],
   'fourwell-crossroads': [
     {
       book: 'final-empire',
       chapter: '11',
+    },
+  ],
+  freelight: [
+    {
+      book: 'oathbringer',
+      chapter: '102',
     },
   ],
   frostlands: [
@@ -298,10 +955,92 @@ export const locationReveals: Record<string, Reveal> = {
       chapter: '1',
     },
   ],
+  'fu-abra': [
+    {
+      book: 'way-of-kings',
+      chapter: 'i-1',
+    },
+  ],
+  'fu-albast': [
+    {
+      book: 'way-of-kings',
+      chapter: 'i-1',
+    },
+  ],
+  'fu-moorin': [
+    {
+      book: 'way-of-kings',
+      chapter: 'i-1',
+    },
+  ],
+  'fu-namir': [
+    {
+      book: 'way-of-kings',
+      chapter: 'i-1',
+    },
+  ],
+  'fu-ralis': [
+    {
+      book: 'way-of-kings',
+      chapter: 'i-1',
+    },
+  ],
+  fuhima: [
+    {
+      book: 'yumi',
+      chapter: '7',
+    },
+  ],
+  futinoro: [
+    {
+      book: 'yumi',
+      chapter: '7',
+    },
+  ],
+  'gallery-of-maps': [
+    {
+      book: 'way-of-kings',
+      chapter: '24',
+    },
+  ],
+  garmet: ['alloy-of-law'],
   garthwood: [
     {
       book: 'hero-of-ages',
       chapter: '1',
+    },
+  ],
+  geant: ['elantris'],
+  'glasswater-deep': ['oathbringer'],
+  'glimmering-point': [
+    {
+      book: 'bands-of-mourning',
+      chapter: '4',
+    },
+  ],
+  gmordsom: ['elantris'],
+  godforge: [
+    {
+      book: 'wind-and-truth',
+      chapter: '144',
+    },
+  ],
+  gofi: [
+    {
+      book: 'isles-of-the-emberdark',
+      chapter: '24',
+    },
+  ],
+  'gongsha-town': [
+    {
+      book: 'yumi',
+      chapter: '6',
+    },
+  ],
+  'grand-apparatus': [
+    {
+      book: 'isles-of-the-emberdark',
+      chapter: '25',
     },
   ],
   'grand-indicium': [
@@ -310,12 +1049,75 @@ export const locationReveals: Record<string, Reveal> = {
       chapter: '15',
     },
   ],
+  'grand-knell': [
+    {
+      book: 'wind-and-truth',
+      chapter: '11',
+    },
+  ],
+  'great-concourse-of-kharbranth': [
+    {
+      book: 'way-of-kings',
+      chapter: '17',
+    },
+  ],
+  'greater-hexi': ['way-of-kings'],
+  gys: [
+    {
+      book: 'warbreaker',
+      chapter: '32',
+    },
+  ],
+  haiko: [
+    {
+      book: 'elantris',
+      chapter: '5',
+    },
+  ],
+  hakaalaku: [
+    {
+      book: 'wind-and-truth',
+      chapter: '147',
+    },
+  ],
+  'hall-of-judgment': [
+    {
+      book: 'white-sand-omnibus',
+      chapter: '4',
+    },
+  ],
+  hallandren: [
+    {
+      book: 'warbreaker',
+      chapter: 'prologue',
+    },
+  ],
+  'hammondar-bay': ['alloy-of-law'],
+  hanald: [
+    {
+      book: 'warbreaker',
+      chapter: '32',
+    },
+  ],
+  hannerdam: [
+    {
+      book: 'isles-of-the-emberdark',
+      chapter: '38',
+    },
+  ],
+  'hatham-princedom': [
+    {
+      book: 'oathbringer',
+      chapter: '107',
+    },
+  ],
   haverfrex: [
     {
       book: 'well-of-ascension',
       chapter: '16',
     },
   ],
+  hazzel: ['rhythm-of-war'],
   hearthstone: [
     {
       book: 'way-of-kings',
@@ -328,12 +1130,40 @@ export const locationReveals: Record<string, Reveal> = {
       chapter: '52',
     },
   ],
+  hobbleken: [
+    {
+      book: 'oathbringer',
+      chapter: '5',
+    },
+  ],
+  'hobbles-brook': [
+    {
+      book: 'oathbringer',
+      chapter: '5',
+    },
+  ],
+  'hoel-bay': ['oathbringer'],
+  holiqqil: ['rhythm-of-war'],
+  hollavesi: ['elantris'],
   holstep: [
     {
       book: 'final-empire',
       chapter: '25',
     },
   ],
+  'holy-grotto': [
+    {
+      book: 'way-of-kings',
+      chapter: 'i-1',
+    },
+  ],
+  homeisles: [
+    {
+      book: 'isles-of-the-emberdark',
+      chapter: '1',
+    },
+  ],
+  homeland: ['shadows-for-silence'],
   'honor-chasm': [
     {
       book: 'way-of-kings',
@@ -344,6 +1174,12 @@ export const locationReveals: Record<string, Reveal> = {
     {
       book: 'oathbringer',
       chapter: '120',
+    },
+  ],
+  'horneater-oceans': [
+    {
+      book: 'words-of-radiance',
+      chapter: '46',
     },
   ],
   'horneater-peaks': [
@@ -364,6 +1200,115 @@ export const locationReveals: Record<string, Reveal> = {
       ],
     },
   ],
+  hornhollow: [
+    {
+      book: 'oathbringer',
+      chapter: '10',
+    },
+  ],
+  'house-of-proceedings': [
+    {
+      book: 'lost-metal',
+      chapter: '2',
+    },
+  ],
+  hraggen: [
+    {
+      book: 'elantris',
+      chapter: '35',
+    },
+  ],
+  hrovell: [
+    {
+      book: 'elantris',
+      chapter: '15',
+    },
+  ],
+  hudres: [
+    {
+      book: 'warbreaker',
+      chapter: '1',
+    },
+  ],
+  'human-river': [
+    {
+      book: 'lost-metal',
+      chapter: 'prologue',
+    },
+  ],
+  huth: [
+    {
+      book: 'warbreaker',
+      chapter: '32',
+    },
+  ],
+  iald: [
+    {
+      book: 'elantris',
+      chapter: '11',
+    },
+  ],
+  icewater: [
+    {
+      book: 'oathbringer',
+      chapter: 'i-13',
+    },
+  ],
+  'icingway-river': [
+    {
+      book: 'oathbringer',
+      chapter: '108',
+    },
+  ],
+  idris: [
+    {
+      book: 'warbreaker',
+      chapter: '1',
+    },
+  ],
+  ifaba: ['rhythm-of-war'],
+  ihosen: [
+    {
+      book: 'yumi',
+      chapter: '35',
+    },
+  ],
+  iiaria: [
+    {
+      book: 'white-sand-omnibus',
+      chapter: '11',
+    },
+  ],
+  'imperial-seat': [
+    {
+      book: 'emperors-soul',
+      chapter: 'day-17',
+    },
+  ],
+  'impossible-falls': [
+    {
+      book: 'way-of-kings',
+      chapter: '26',
+    },
+  ],
+  'independence-tower': [
+    {
+      book: 'lost-metal',
+      chapter: '58',
+    },
+  ],
+  'inkling-lane': [
+    {
+      book: 'lost-metal',
+      chapter: 'epilogue-3',
+    },
+  ],
+  'inkwell-town': [
+    {
+      book: 'oathbringer',
+      chapter: '48',
+    },
+  ],
   iri: [
     {
       all: [
@@ -378,16 +1323,111 @@ export const locationReveals: Record<string, Reveal> = {
       ],
     },
   ],
+  'iron-seven-waystation': [
+    {
+      book: 'yumi',
+      chapter: 'another-epilogue',
+    },
+  ],
+  'irongate-river': ['alloy-of-law'],
+  'ironspine-building': [
+    {
+      book: 'alloy-of-law',
+      chapter: '1',
+    },
+  ],
+  ironstand: [
+    {
+      book: 'bands-of-mourning',
+      chapter: '8',
+    },
+  ],
+  ironsway: [
+    {
+      book: 'way-of-kings',
+      chapter: 'i-3',
+    },
+  ],
+  'isaeucs-bend': ['alloy-of-law'],
+  'ishars-field': [
+    {
+      book: 'oathbringer',
+      chapter: '48',
+    },
+  ],
+  'islands-of-lobu': [
+    {
+      book: 'tress',
+      chapter: '15',
+    },
+  ],
+  'ja-dran': ['rhythm-of-war'],
+  jaador: [
+    {
+      book: 'elantris',
+      chapter: '15',
+    },
+  ],
+  jabom: ['rhythm-of-war'],
   'jah-keved': [
     {
       book: 'way-of-kings',
       chapter: '33',
     },
   ],
+  jindo: [
+    {
+      book: 'elantris',
+      chapter: '5',
+    },
+  ],
+  jito: [
+    {
+      book: 'yumi',
+      chapter: '30',
+    },
+  ],
+  'jokasha-monastery': [
+    {
+      book: 'oathbringer',
+      chapter: 'i-2',
+    },
+  ],
+  'justice-untarnished': [
+    {
+      all: ['oathbringer', 'rhythm-of-war'],
+    },
+  ],
+  kadrix: [
+    {
+      book: 'way-of-kings',
+      chapter: '36',
+    },
+  ],
+  kae: [
+    {
+      book: 'elantris',
+      chapter: '3',
+    },
+  ],
+  'kalomo-river': [
+    {
+      book: 'elantris',
+      chapter: '49',
+    },
+  ],
+  kaltii: ['elantris'],
   'kandra-homeland': [
     {
       book: 'hero-of-ages',
       chapter: '66',
+    },
+  ],
+  karanak: ['oathbringer'],
+  kasitor: [
+    {
+      book: 'way-of-kings',
+      chapter: 'i-5',
     },
   ],
   'keep-orielle': [
@@ -396,10 +1436,31 @@ export const locationReveals: Record<string, Reveal> = {
       chapter: '30',
     },
   ],
+  'keep-shezler': ['eleventh-metal'],
+  kelathar: ['oathbringer'],
   'kenton-street': [
     {
       book: 'final-empire',
       chapter: '17',
+    },
+  ],
+  'ker-kedasha': ['white-sand-omnibus'],
+  kerla: [
+    {
+      book: 'white-sand-omnibus',
+      chapter: '2',
+    },
+  ],
+  kerzta: [
+    {
+      book: 'white-sand-omnibus',
+      chapter: '3',
+    },
+  ],
+  kezare: [
+    {
+      book: 'white-sand-omnibus',
+      chapter: '4',
     },
   ],
   kharbranth: [
@@ -408,6 +1469,7 @@ export const locationReveals: Record<string, Reveal> = {
       chapter: '7',
     },
   ],
+  khathazan: ['rhythm-of-war'],
   khlennium: [
     {
       book: 'final-empire',
@@ -432,16 +1494,74 @@ export const locationReveals: Record<string, Reveal> = {
       chapter: 'prologue',
     },
   ],
+  khrishji: ['rhythm-of-war'],
+  kilahito: [
+    {
+      book: 'yumi',
+      chapter: '1',
+    },
+  ],
+  kingsport: [
+    {
+      book: 'tress',
+      chapter: '19',
+    },
+  ],
+  kjaard: ['elantris'],
+  'klna-city': [
+    {
+      book: 'oathbringer',
+      chapter: 'i-13',
+    },
+  ],
+  kneespike: [
+    {
+      book: 'way-of-kings',
+      chapter: 'i-6',
+    },
+  ],
+  komashi: [
+    {
+      book: 'yumi',
+      chapter: 'another-epilogue',
+    },
+  ],
+  kondeon: ['elantris'],
   kordel: [
     {
       book: 'final-empire',
       chapter: '16',
     },
   ],
+  koring: [
+    {
+      book: 'wind-and-truth',
+      chapter: '45',
+    },
+  ],
+  kraeda: ['white-sand-omnibus'],
   'kredik-shaw': [
     {
       book: 'final-empire',
       chapter: '26',
+    },
+  ],
+  kurth: [
+    {
+      book: 'way-of-kings',
+      chapter: '16',
+    },
+  ],
+  kuth: [
+    {
+      book: 'warbreaker',
+      chapter: '32',
+    },
+  ],
+  'laio-quarry': [
+    {
+      book: 'emperors-soul',
+      chapter: 'day-2',
     },
   ],
   lait: [
@@ -450,10 +1570,42 @@ export const locationReveals: Record<string, Reveal> = {
       chapter: 'i-6',
     },
   ],
+  'lake-alonoe': [
+    {
+      book: 'elantris',
+      chapter: '46',
+    },
+  ],
+  'lake-iri': ['oathbringer'],
   'lake-luthadel': [
     {
       book: 'secret-history',
       chapter: '3-2',
+    },
+  ],
+  'lake-tyrian': ['final-empire'],
+  lamio: [
+    {
+      book: 'emperors-soul',
+      chapter: 'day-2',
+    },
+  ],
+  laqqi: [
+    {
+      book: 'rhythm-of-war',
+      chapter: '101',
+    },
+  ],
+  larcal: [
+    {
+      book: 'isles-of-the-emberdark',
+      chapter: '40',
+    },
+  ],
+  lark: [
+    {
+      book: 'fires-of-december',
+      chapter: 'xvi',
     },
   ],
   'lasting-integrity': [
@@ -462,10 +1614,81 @@ export const locationReveals: Record<string, Reveal> = {
       chapter: '102',
     },
   ],
+  lastport: ['shadows-for-silence'],
   'lekal-city': [
     {
       book: 'hero-of-ages',
       chapter: '4',
+    },
+  ],
+  lexili: ['rhythm-of-war'],
+  liafor: ['way-of-kings'],
+  'lifeless-enclave': [
+    {
+      book: 'warbreaker',
+      chapter: '47',
+    },
+  ],
+  'lightweaver-monastery': [
+    {
+      book: 'wind-and-truth',
+      chapter: '70',
+    },
+  ],
+  'lilting-abyss': [
+    {
+      book: 'tress',
+      chapter: '51',
+    },
+  ],
+  'linder-mar': ['rhythm-of-war'],
+  'little-herdaz': [
+    {
+      book: 'words-of-radiance',
+      chapter: '87',
+    },
+  ],
+  longard: [
+    {
+      book: 'alloy-of-law',
+      chapter: '10',
+    },
+  ],
+  'longbrows-straits': [
+    {
+      book: 'words-of-radiance',
+      chapter: '1',
+    },
+  ],
+  longsfollow: [
+    {
+      book: 'secret-history',
+      chapter: '4-2',
+    },
+  ],
+  lossand: [
+    {
+      book: 'white-sand-omnibus',
+      chapter: '3',
+    },
+  ],
+  lraezare: [
+    {
+      book: 'white-sand-omnibus',
+      chapter: '15',
+    },
+  ],
+  lumar: [
+    {
+      book: 'tress',
+      chapter: '60',
+    },
+  ],
+  'luminous-shallows': ['oathbringer'],
+  lunagree: [
+    {
+      book: 'tress',
+      chapter: '1',
     },
   ],
   'luth-davn-canal': [
@@ -480,17 +1703,173 @@ export const locationReveals: Record<string, Reveal> = {
       chapter: '9',
     },
   ],
+  'madion-ways': [
+    {
+      book: 'alloy-of-law',
+      chapter: '16',
+    },
+  ],
+  mainland: [
+    {
+      book: 'isles-of-the-emberdark',
+      chapter: '9',
+    },
+  ],
+  maipon: [
+    {
+      book: 'emperors-soul',
+      chapter: 'day-2',
+    },
+  ],
+  makabak: [
+    {
+      book: 'oathbringer',
+      chapter: '12',
+    },
+  ],
+  makabakam: [
+    {
+      all: [
+        {
+          book: 'way-of-kings',
+          chapter: '60',
+        },
+        {
+          book: 'oathbringer',
+          chapter: '87',
+        },
+      ],
+    },
+  ],
+  'malwish-consortium': [
+    {
+      book: 'lost-metal',
+      chapter: '9',
+    },
+  ],
+  'malwish-empire': [
+    {
+      book: 'isles-of-the-emberdark',
+      chapter: '36',
+    },
+  ],
   mantiz: ['eleventh-metal'],
+  marabethia: [
+    {
+      book: 'way-of-kings',
+      chapter: '40',
+    },
+  ],
   marat: [
     {
       book: 'oathbringer',
       chapter: '65',
     },
   ],
+  'margothian-district': [
+    {
+      book: 'alloy-of-law',
+      chapter: '16',
+    },
+  ],
   marketpit: [
     {
       book: 'hero-of-ages',
       chapter: '16',
+    },
+  ],
+  mausoleum: [
+    {
+      book: 'oathbringer',
+      chapter: '77',
+    },
+  ],
+  mazzu: [
+    {
+      all: ['oathbringer', 'rhythm-of-war'],
+    },
+  ],
+  merrytown: [
+    {
+      book: 'fires-of-december',
+      chapter: 'xvii',
+    },
+  ],
+  'mevan-bay': ['oathbringer'],
+  'midnight-sea': [
+    {
+      book: 'tress',
+      chapter: '23',
+    },
+  ],
+  mikhan: ['rhythm-of-war'],
+  miral: [
+    {
+      book: 'fires-of-december',
+      chapter: 'iii',
+    },
+  ],
+  'misted-mountains': [
+    {
+      book: 'way-of-kings',
+      chapter: 'i-4',
+    },
+  ],
+  mokdown: [
+    {
+      book: 'wind-and-truth',
+      chapter: '73',
+    },
+  ],
+  'monastery-of-the-final-word': [
+    {
+      book: 'fires-of-december',
+      chapter: 'xxxix',
+    },
+  ],
+  'monastery-of-truth': [
+    {
+      book: 'wind-and-truth',
+      chapter: '75',
+    },
+  ],
+  'mountains-of-ur': ['rhythm-of-war'],
+  'mourns-vault': [
+    {
+      book: 'oathbringer',
+      chapter: '112',
+    },
+  ],
+  mulladil: [
+    {
+      book: 'emperors-soul',
+      chapter: 'day-42',
+    },
+  ],
+  mycondwel: ['alloy-of-law'],
+  naen: [
+    {
+      book: 'elantris',
+      chapter: '3',
+    },
+  ],
+  nagadan: [
+    {
+      book: 'yumi',
+      chapter: '39',
+    },
+  ],
+  'nalthian-system': ['arcanum-unbounded'],
+  nalthis: [
+    {
+      book: 'tress',
+      chapter: '15',
+    },
+  ],
+  nameless: [
+    {
+      book: 'rhythm-of-war',
+      chapter: '29',
     },
   ],
   natanatan: [
@@ -507,6 +1886,13 @@ export const locationReveals: Record<string, Reveal> = {
       ],
     },
   ],
+  'national-archives': [
+    {
+      book: 'shadows-of-self',
+      chapter: '6',
+    },
+  ],
+  'new-bridge': ['shadows-for-silence'],
   'new-empire': [
     {
       book: 'well-of-ascension',
@@ -531,6 +1917,97 @@ export const locationReveals: Record<string, Reveal> = {
       ],
     },
   ],
+  'new-seran': ['alloy-of-law'],
+  'nexus-of-imagination': [
+    {
+      book: 'oathbringer',
+      chapter: '102',
+    },
+  ],
+  'nexus-of-transition': ['way-of-kings'],
+  'nexus-of-truth': ['way-of-kings'],
+  'night-barges': [
+    {
+      book: 'fires-of-december',
+      chapter: 'xx',
+    },
+  ],
+  'nightstream-sea': ['oathbringer'],
+  'nirovah-valley': [
+    {
+      book: 'wind-and-truth',
+      chapter: '40',
+    },
+  ],
+  'nohadons-stairways': ['rhythm-of-war'],
+  'noodle-pupil': [
+    {
+      book: 'yumi',
+      chapter: '5',
+    },
+  ],
+  'nor-channel': ['oathbringer'],
+  nortallon: ['white-sand-omnibus'],
+  'nortallon-river': ['white-sand-omnibus'],
+  'north-hallen-channel': ['oathbringer'],
+  'north-seran': ['final-empire'],
+  'northern-depths': ['oathbringer'],
+  'northern-roughs': [
+    {
+      all: [
+        {
+          book: 'alloy-of-law',
+          chapter: '7',
+        },
+        {
+          book: 'shadows-of-self',
+          chapter: 'prologue',
+        },
+        {
+          book: 'bands-of-mourning',
+          chapter: '6',
+        },
+      ],
+    },
+  ],
+  northgrip: [
+    {
+      book: 'words-of-radiance',
+      chapter: '19',
+    },
+  ],
+  'number-city': [
+    {
+      all: [
+        {
+          book: 'oathbringer',
+          chapter: '47',
+        },
+        {
+          book: 'rhythm-of-war',
+          chapter: '26',
+        },
+      ],
+    },
+  ],
+  'oathbound-spires': [
+    {
+      all: ['oathbringer', 'rhythm-of-war'],
+    },
+  ],
+  'ocean-of-origins': [
+    {
+      book: 'way-of-kings',
+      chapter: '16',
+    },
+  ],
+  'odiums-empire': [
+    {
+      book: 'wind-and-truth',
+      chapter: '104',
+    },
+  ],
+  'old-bridge': ['shadows-for-silence'],
   'old-terris': [
     {
       book: 'final-empire',
@@ -551,10 +2028,30 @@ export const locationReveals: Record<string, Reveal> = {
       ],
     },
   ],
+  'ornery-chull': [
+    {
+      book: 'words-of-radiance',
+      chapter: '46',
+    },
+  ],
+  'ornisaur-quarry': ['lost-metal'],
+  'outer-estates': [
+    {
+      book: 'alloy-of-law',
+      chapter: '4',
+    },
+  ],
   'outer-market': [
     {
       book: 'way-of-kings',
       chapter: '58',
+    },
+  ],
+  owd: ['rhythm-of-war'],
+  'pahn-kahl': [
+    {
+      book: 'warbreaker',
+      chapter: '15',
     },
   ],
   palanaeum: [
@@ -563,18 +2060,44 @@ export const locationReveals: Record<string, Reveal> = {
       chapter: '29',
     },
   ],
+  panatham: [
+    {
+      book: 'oathbringer',
+      chapter: '107',
+    },
+  ],
+  pantheon: ['sixth-of-the-dusk'],
+  'patji-island': [
+    {
+      book: 'isles-of-the-emberdark',
+      chapter: '2',
+    },
+  ],
+  'patjis-eye': [
+    {
+      book: 'isles-of-the-emberdark',
+      chapter: '16',
+    },
+  ],
+  'perpetual-sobriety': [
+    {
+      all: ['oathbringer', 'rhythm-of-war'],
+    },
+  ],
   pinnacle: [
     {
       book: 'way-of-kings',
       chapter: '18',
     },
   ],
+  'pits-of-eltania': ['alloy-of-law'],
   'pits-of-hathsin': [
     {
       book: 'final-empire',
       chapter: '4',
     },
   ],
+  'plains-of-kaermeron': ['shadows-of-self'],
   purelake: [
     {
       all: [
@@ -587,6 +2110,19 @@ export const locationReveals: Record<string, Reveal> = {
           chapter: '98',
         },
       ],
+    },
+  ],
+  quili: ['oathbringer'],
+  'radiant-depths': [
+    {
+      book: 'rhythm-of-war',
+      chapter: '26',
+    },
+  ],
+  ralinsa: [
+    {
+      book: 'way-of-kings',
+      chapter: '36',
     },
   ],
   'rall-elorim': [
@@ -603,10 +2139,25 @@ export const locationReveals: Record<string, Reveal> = {
       ],
     },
   ],
+  rashekin: ['alloy-of-law'],
+  rashir: ['oathbringer'],
   rathalas: [
     {
       book: 'oathbringer',
       chapter: '11',
+    },
+  ],
+  ravizadth: ['oathbringer'],
+  'raymar-place': [
+    {
+      book: 'warbreaker',
+      chapter: '22',
+    },
+  ],
+  relanas: ['oathbringer'],
+  'reliqqs-channel': [
+    {
+      all: ['oathbringer', 'rhythm-of-war'],
     },
   ],
   'reshi-isles': [
@@ -623,28 +2174,87 @@ export const locationReveals: Record<string, Reveal> = {
       ],
     },
   ],
+  'reshi-sea': [
+    {
+      book: 'words-of-radiance',
+      chapter: 'i-3',
+    },
+  ],
+  reveln: ['white-sand-omnibus'],
   revolar: [
     {
       book: 'oathbringer',
       chapter: '31',
     },
   ],
+  revv: [
+    {
+      book: 'words-of-radiance',
+      chapter: '43',
+    },
+  ],
+  rianal: [
+    {
+      book: 'way-of-kings',
+      chapter: '49',
+    },
+  ],
+  'riinos-lighthouse': [
+    {
+      book: 'oathbringer',
+      chapter: '97',
+    },
+  ],
+  'riqu-mar': ['rhythm-of-war'],
   'rira-country': [
     {
       book: 'way-of-kings',
       chapter: 'i-5',
     },
   ],
+  rishir: ['way-of-kings'],
   'river-channerel': [
     {
       book: 'final-empire',
       chapter: '8',
     },
   ],
+  'river-longsfollow': ['final-empire'],
   'river-seran': [
     {
       book: 'bands-of-mourning',
       chapter: '15',
+    },
+  ],
+  'river-vandonas': ['way-of-kings'],
+  rockfall: [
+    {
+      book: 'oathbringer',
+      chapter: '72',
+    },
+  ],
+  'roion-princedom': [
+    {
+      book: 'way-of-kings',
+      chapter: '24',
+    },
+  ],
+  'rose-empire': [
+    {
+      book: 'emperors-soul',
+      chapter: 'day-3',
+    },
+  ],
+  'rose-palace': [
+    {
+      book: 'emperors-soul',
+      chapter: 'day-59',
+    },
+  ],
+  'rose-sea': [
+    {
+      book: 'tress',
+      chapter: '23',
     },
   ],
   roshar: [
@@ -653,17 +2263,123 @@ export const locationReveals: Record<string, Reveal> = {
       chapter: '27',
     },
   ],
+  'rosharan-subastral': [
+    {
+      book: 'oathbringer',
+      chapter: '89',
+    },
+  ],
+  'rosharan-system': [
+    {
+      book: 'wind-and-truth',
+      chapter: '100',
+    },
+  ],
+  'rossen-dar': ['rhythm-of-war'],
+  rousseaus: [
+    {
+      book: 'shadows-of-self',
+      chapter: '14',
+    },
+  ],
+  'royal-sanctuaries': [
+    {
+      book: 'fires-of-december',
+      chapter: 'xxxi',
+    },
+  ],
+  'ru-parat': ['oathbringer'],
+  'ruthar-princedom': [
+    {
+      all: [
+        {
+          book: 'words-of-radiance',
+          chapter: '67',
+        },
+        {
+          book: 'oathbringer',
+          chapter: '46',
+        },
+      ],
+    },
+  ],
+  rydoali: ['white-sand-omnibus'],
   'sadeas-princedom': [
     {
       book: 'way-of-kings',
       chapter: '16',
     },
   ],
+  safecamp: [
+    {
+      book: 'isles-of-the-emberdark',
+      chapter: '8',
+    },
+  ],
+  'salavashi-trench': ['oathbringer'],
+  salumon: ['oathbringer'],
+  'sapphire-sea': [
+    {
+      book: 'tress',
+      chapter: '42',
+    },
+  ],
+  savalashi: ['oathbringer'],
+  'scadrian-system': [
+    {
+      book: 'lost-metal',
+      chapter: 'epilogue-4',
+    },
+  ],
   scar: ['shadows-for-silence'],
+  'school-of-storms': [
+    {
+      book: 'oathbringer',
+      chapter: '122',
+    },
+  ],
+  'sea-of-fjorden': [
+    {
+      book: 'elantris',
+      chapter: '2',
+    },
+  ],
+  'sea-of-lennes': ['alloy-of-law'],
   'sea-of-lost-lights': [
     {
       book: 'oathbringer',
       chapter: '108',
+    },
+  ],
+  'sea-of-oracles': ['oathbringer'],
+  'sea-of-regret': [
+    {
+      all: ['way-of-kings', 'oathbringer'],
+    },
+  ],
+  'sea-of-souls': [
+    {
+      all: ['way-of-kings', 'rhythm-of-war'],
+    },
+  ],
+  'sea-of-spears': [
+    {
+      all: [
+        {
+          book: 'way-of-kings',
+          chapter: '46',
+        },
+        {
+          book: 'oathbringer',
+          chapter: '97',
+        },
+      ],
+    },
+  ],
+  'sea-of-yomend': [
+    {
+      book: 'final-empire',
+      chapter: '29',
     },
   ],
   'sebarial-princedom': [
@@ -672,10 +2388,35 @@ export const locationReveals: Record<string, Reveal> = {
       chapter: '40',
     },
   ],
+  'secure-keeps': [
+    {
+      book: 'oathbringer',
+      chapter: '67',
+    },
+  ],
+  seevis: [
+    {
+      book: 'white-sand-omnibus',
+      chapter: '9',
+    },
+  ],
   'sela-tales': [
     {
       book: 'way-of-kings',
       chapter: '52',
+    },
+  ],
+  'seran-range': ['alloy-of-law'],
+  'seran-river': [
+    {
+      book: 'bands-of-mourning',
+      chapter: '7',
+    },
+  ],
+  seraven: [
+    {
+      book: 'elantris',
+      chapter: '32',
     },
   ],
   'sesemalex-dar': [
@@ -690,12 +2431,20 @@ export const locationReveals: Record<string, Reveal> = {
       chapter: '17',
     },
   ],
+  shamel: ['oathbringer'],
   'shattered-plains': [
     {
       book: 'way-of-kings',
       chapter: '23',
     },
   ],
+  shimmerbay: [
+    {
+      book: 'tress',
+      chapter: '21',
+    },
+  ],
+  'shin-kak-nish': ['way-of-kings'],
   shinovar: [
     {
       all: [
@@ -710,10 +2459,36 @@ export const locationReveals: Record<string, Reveal> = {
       ],
     },
   ],
+  'shinzua-shopping-center': [
+    {
+      book: 'yumi',
+      chapter: '15',
+    },
+  ],
+  shorsebroon: [
+    {
+      book: 'way-of-kings',
+      chapter: '10',
+    },
+  ],
+  'shrouded-isles': ['lost-metal'],
+  shulin: ['oathbringer'],
+  'silent-mount': [
+    {
+      book: 'way-of-kings',
+      chapter: '60',
+    },
+  ],
   silnasen: [
     {
       book: 'words-of-radiance',
       chapter: '54',
+    },
+  ],
+  'silver-house': [
+    {
+      book: 'lost-metal',
+      chapter: '37',
     },
   ],
   'silver-kingdoms': [
@@ -722,10 +2497,80 @@ export const locationReveals: Record<string, Reveal> = {
       chapter: '19',
     },
   ],
+  silverlight: [
+    {
+      book: 'isles-of-the-emberdark',
+      chapter: '30',
+    },
+  ],
+  'simulacrum-of-paralet': [
+    {
+      book: 'oathbringer',
+      chapter: '59',
+    },
+  ],
+  'skybreaker-monastery': [
+    {
+      book: 'wind-and-truth',
+      chapter: '108',
+    },
+  ],
+  smallport: [
+    {
+      book: 'fires-of-december',
+      chapter: 'vii',
+    },
+  ],
+  'smolderbrand-channel': ['oathbringer'],
+  'sogdian-forest': ['emperors-soul'],
+  'sorceresss-island': [
+    {
+      book: 'tress',
+      chapter: '23',
+    },
+  ],
+  sori: [
+    {
+      book: 'isles-of-the-emberdark',
+      chapter: '2',
+    },
+  ],
+  'south-hallen-channel': ['oathbringer'],
+  'south-seran': ['final-empire'],
+  'southern-depths': [
+    {
+      book: 'words-of-radiance',
+      chapter: '11',
+    },
+  ],
   'southern-islands': [
     {
       book: 'final-empire',
       chapter: '12',
+    },
+  ],
+  'southern-plains': [
+    {
+      book: 'fires-of-december',
+      chapter: 'x',
+    },
+  ],
+  'sovereigns-temple': [
+    {
+      book: 'bands-of-mourning',
+      chapter: '23',
+    },
+  ],
+  'stansel-belt': [
+    {
+      book: 'alloy-of-law',
+      chapter: '4',
+    },
+  ],
+  staplind: [
+    {
+      book: 'way-of-kings',
+      chapter: 'i-6',
     },
   ],
   'statlin-city': [
@@ -742,6 +2587,31 @@ export const locationReveals: Record<string, Reveal> = {
       ],
     },
   ],
+  'steamwater-ocean': [
+    {
+      book: 'oathbringer',
+      chapter: '66',
+    },
+  ],
+  steamwell: [
+    {
+      book: 'yumi',
+      chapter: '4',
+    },
+  ],
+  steen: [
+    {
+      book: 'oathbringer',
+      chapter: '65',
+    },
+  ],
+  steinel: ['alloy-of-law'],
+  'stoneward-monastery': [
+    {
+      book: 'wind-and-truth',
+      chapter: '51',
+    },
+  ],
   'storage-cavern': [
     {
       book: 'well-of-ascension',
@@ -754,22 +2624,88 @@ export const locationReveals: Record<string, Reveal> = {
       chapter: '60',
     },
   ],
+  stormshelter: [
+    {
+      book: 'oathbringer',
+      chapter: '61',
+    },
+  ],
+  stringken: [
+    {
+      book: 'oathbringer',
+      chapter: '7',
+    },
+  ],
   suisna: [
     {
       book: 'well-of-ascension',
       chapter: '34',
     },
   ],
+  suluko: [
+    {
+      book: 'isles-of-the-emberdark',
+      chapter: '14',
+    },
+  ],
+  sumi: ['oathbringer'],
   'summer-hill': [
     {
       book: 'final-empire',
       chapter: '21',
     },
   ],
+  'sunmaker-mountains': [
+    {
+      book: 'way-of-kings',
+      chapter: '24',
+    },
+  ],
+  sur: [
+    {
+      book: 'way-of-kings',
+      chapter: '60',
+    },
+  ],
   suringshath: [
     {
       book: 'well-of-ascension',
       chapter: '56',
+    },
+  ],
+  svorden: [
+    {
+      book: 'elantris',
+      chapter: '5',
+    },
+  ],
+  'svordish-university': [
+    {
+      book: 'elantris',
+      chapter: '5',
+    },
+  ],
+  sween: ['rhythm-of-war'],
+  taldain: [
+    {
+      book: 'white-sand-omnibus',
+      chapter: '11',
+    },
+  ],
+  'taldain-system': ['white-sand-omnibus'],
+  talinar: [
+    {
+      book: 'rhythm-of-war',
+      chapter: '91',
+    },
+  ],
+  tallon: ['white-sand-omnibus'],
+  'tarat-sea': ['oathbringer'],
+  tarier: ['alloy-of-law'],
+  tarma: [
+    {
+      book: 'way-of-kings',
+      chapter: '60',
     },
   ],
   tashikk: [
@@ -786,10 +2722,48 @@ export const locationReveals: Record<string, Reveal> = {
       ],
     },
   ],
+  tathingdwel: ['alloy-of-law'],
   tathingdwen: [
     {
       book: 'well-of-ascension',
       chapter: '51',
+    },
+  ],
+  tedradel: [
+    {
+      book: 'warbreaker',
+      chapter: '9',
+    },
+  ],
+  'tekiel-tower': [
+    {
+      book: 'alloy-of-law',
+      chapter: '17',
+    },
+  ],
+  teod: [
+    {
+      book: 'elantris',
+      chapter: '2',
+    },
+  ],
+  teoras: [
+    {
+      book: 'elantris',
+      chapter: '41',
+    },
+  ],
+  teullu: [
+    {
+      book: 'emperors-soul',
+      chapter: 'day-98',
+    },
+  ],
+  thalath: ['way-of-kings'],
+  'thanadal-princedom': [
+    {
+      book: 'way-of-kings',
+      chapter: '28',
     },
   ],
   'thaylen-city': [
@@ -810,10 +2784,28 @@ export const locationReveals: Record<string, Reveal> = {
       ],
     },
   ],
+  'thaylen-gemstone-reserve': [
+    {
+      book: 'oathbringer',
+      chapter: 'i-13',
+    },
+  ],
+  'thaylen-sea': ['oathbringer'],
   thaylenah: [
     {
       book: 'way-of-kings',
       chapter: '3',
+    },
+  ],
+  'the-chasm': [
+    {
+      all: [
+        {
+          book: 'elantris',
+          chapter: '61',
+        },
+        'hope-of-elantris',
+      ],
     },
   ],
   'the-valley': [
@@ -830,6 +2822,56 @@ export const locationReveals: Record<string, Reveal> = {
       ],
     },
   ],
+  'the-village': [
+    {
+      book: 'shadows-of-self',
+      chapter: '5',
+    },
+  ],
+  thermoli: [
+    {
+      book: 'shadows-of-self',
+      chapter: '9',
+    },
+  ],
+  'threnodite-system': [
+    {
+      book: 'rhythm-of-war',
+      chapter: '27',
+    },
+  ],
+  threnody: [
+    {
+      book: 'rhythm-of-war',
+      chapter: '27',
+    },
+  ],
+  'tiaoc-states': [
+    {
+      book: 'white-sand-omnibus',
+      chapter: '5',
+    },
+  ],
+  'tinweight-settlement': [
+    {
+      book: 'lost-metal',
+      chapter: 'prologue',
+    },
+  ],
+  tomat: ['oathbringer'],
+  torio: [
+    {
+      book: 'yumi',
+      chapter: '4',
+    },
+  ],
+  'torio-city': [
+    {
+      book: 'yumi',
+      chapter: '40',
+    },
+  ],
+  torriqqam: ['rhythm-of-war'],
   tougier: [
     {
       book: 'final-empire',
@@ -854,6 +2896,38 @@ export const locationReveals: Record<string, Reveal> = {
       chapter: 'prologue',
     },
   ],
+  triax: ['way-of-kings'],
+  triplets: [
+    {
+      book: 'oathbringer',
+      chapter: '43',
+    },
+  ],
+  'true-madil': [
+    {
+      book: 'alloy-of-law',
+      chapter: '11',
+    },
+  ],
+  'truthwatcher-monastery': [
+    {
+      book: 'wind-and-truth',
+      chapter: '86',
+    },
+  ],
+  ttelir: [
+    {
+      book: 'warbreaker',
+      chapter: '4',
+    },
+  ],
+  'tu-bayla': [
+    {
+      book: 'wind-and-truth',
+      chapter: 'i-2',
+    },
+  ],
+  'tu-fallia': ['way-of-kings'],
   tukar: [
     {
       all: [
@@ -874,6 +2948,14 @@ export const locationReveals: Record<string, Reveal> = {
       chapter: '19',
     },
   ],
+  'tyrian-sea': ['alloy-of-law'],
+  'uarr-dion': ['rhythm-of-war'],
+  ukurgi: [
+    {
+      book: 'emperors-soul',
+      chapter: 'day-12',
+    },
+  ],
   'ulutu-dynasty': [
     {
       book: 'sunlit-man',
@@ -892,6 +2974,12 @@ export const locationReveals: Record<string, Reveal> = {
       chapter: '12',
     },
   ],
+  'unyielding-fidelity': [
+    {
+      book: 'oathbringer',
+      chapter: '108',
+    },
+  ],
   urbene: [
     {
       book: 'well-of-ascension',
@@ -902,6 +2990,12 @@ export const locationReveals: Record<string, Reveal> = {
     {
       book: 'way-of-kings',
       chapter: '45',
+    },
+  ],
+  'urithiru-gem-archive': [
+    {
+      book: 'oathbringer',
+      chapter: '53',
     },
   ],
   urtan: [
@@ -916,10 +3010,46 @@ export const locationReveals: Record<string, Reveal> = {
       chapter: '3',
     },
   ],
+  utol: [
+    {
+      book: 'yumi',
+      chapter: 'another-epilogue',
+    },
+  ],
+  'utol-system': [
+    {
+      book: 'yumi',
+      chapter: 'another-epilogue',
+    },
+  ],
+  'valam-princedom': [
+    {
+      book: 'words-of-radiance',
+      chapter: '45',
+    },
+  ],
   valath: [
     {
       book: 'words-of-radiance',
       chapter: '65',
+    },
+  ],
+  valhav: [
+    {
+      book: 'way-of-kings',
+      chapter: '33',
+    },
+  ],
+  'valley-of-truth': [
+    {
+      book: 'way-of-kings',
+      chapter: 'i-6',
+    },
+  ],
+  'valors-temple': [
+    {
+      book: 'fires-of-december',
+      chapter: 'epilogue',
     },
   ],
   valtroux: [
@@ -928,10 +3058,42 @@ export const locationReveals: Record<string, Reveal> = {
       chapter: '24',
     },
   ],
+  'vamah-princedom': [
+    {
+      book: 'way-of-kings',
+      chapter: '58',
+    },
+  ],
+  'vapor-firmament-corridor': [
+    {
+      book: 'isles-of-the-emberdark',
+      chapter: '36',
+    },
+  ],
+  varikev: ['oathbringer'],
+  vedelliar: [
+    {
+      book: 'oathbringer',
+      chapter: '75',
+    },
+  ],
   vedenar: [
     {
       book: 'way-of-kings',
       chapter: '33',
+    },
+  ],
+  velding: [
+    {
+      book: 'elantris',
+      chapter: '17',
+    },
+  ],
+  velf: ['elantris'],
+  vendis: [
+    {
+      book: 'warbreaker',
+      chapter: '1',
     },
   ],
   vennias: [
@@ -946,10 +3108,75 @@ export const locationReveals: Record<string, Reveal> = {
       chapter: '5',
     },
   ],
+  'vindiel-cameux': ['alloy-of-law'],
+  'vtlar-cove': [
+    {
+      book: 'oathbringer',
+      chapter: '116',
+    },
+  ],
+  wayfarer: [
+    {
+      book: 'lost-metal',
+      chapter: '57',
+    },
+  ],
+  waystop: ['shadows-for-silence'],
+  weathering: ['alloy-of-law'],
   'westbrook-lane': [
     {
       book: 'hero-of-ages',
       chapter: '35',
+    },
+  ],
+  'wests-haven': [
+    {
+      book: 'lost-metal',
+      chapter: '46',
+    },
+  ],
+  widor: ['elantris'],
+  wiestlow: [
+    {
+      book: 'bands-of-mourning',
+      chapter: '22',
+    },
+  ],
+  'willshaper-monastery': [
+    {
+      book: 'wind-and-truth',
+      chapter: '45',
+    },
+  ],
+  'windrunner-monastery': [
+    {
+      book: 'wind-and-truth',
+      chapter: '83',
+    },
+  ],
+  'windrunner-river': [
+    {
+      book: 'oathbringer',
+      chapter: '61',
+    },
+  ],
+  'winters-cache': [
+    {
+      book: 'fires-of-december',
+      chapter: 'ii',
+    },
+  ],
+  wyllion: ['alloy-of-law'],
+  xaka: [
+    {
+      book: 'warbreaker',
+      chapter: '1',
+    },
+  ],
+  'yarn-dred': [
+    {
+      book: 'warbreaker',
+      chapter: '19',
     },
   ],
   yeddaw: [
@@ -964,4 +3191,39 @@ export const locationReveals: Record<string, Reveal> = {
       chapter: '6',
     },
   ],
+  yezier: ['way-of-kings'],
+  'yian-dion': ['rhythm-of-war'],
+  yolen: ['oathbringer'],
+  'yomen-manor': [
+    {
+      book: 'alloy-of-law',
+      chapter: '4',
+    },
+  ],
+  yulay: [
+    {
+      book: 'way-of-kings',
+      chapter: '43',
+    },
+  ],
+  zawfix: [
+    {
+      book: 'edgedancer',
+      chapter: '4',
+    },
+  ],
+  'zephyr-islands': [
+    {
+      book: 'tress',
+      chapter: '28',
+    },
+  ],
+  zigareth: ['elantris'],
+  'zobell-tower': [
+    {
+      book: 'shadows-of-self',
+      chapter: '8',
+    },
+  ],
+  zodruf: ['rhythm-of-war'],
 }

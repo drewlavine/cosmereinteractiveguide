@@ -1,0 +1,53 @@
+{
+  "intro": [
+    {
+      "text": "A nation known for its spicy cooking and a major exporter of spices such as RaiDel peppers.",
+      "revealedIn": [{ "book": "elantris", "chapter": "5" }]
+    },
+    {
+      "text": "A nation under Fjordell rule, known for its spicy cooking and a major exporter of spices such as RaiDel peppers.",
+      "revealedIn": [{ "book": "elantris", "chapter": "14" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "The JinDo eat with MaiPon sticks and take a strict view of health: being overweight is frowned upon, even though some JinDo dishes, such as HaiKo, are greasy.",
+      "revealedIn": [{ "book": "elantris", "chapter": "5" }]
+    },
+    {
+      "text": "JinDo people are dark brown of skin, with fine features. The people of Jaador are ethnically JinDo, and the Dula descend from both JinDo and Aonic stock.",
+      "revealedIn": [{ "book": "elantris", "chapter": "19" }]
+    },
+    {
+      "text": "ChayShan, a meditative martial art that helps practitioners focus the mind, comes from JinDo.",
+      "revealedIn": [{ "book": "elantris", "chapter": "61" }]
+    },
+    {
+      "text": "The work of JinDo philosophers, mathematicians and artists is famous abroad. One such artist, Atsuko, once visited the Rose Empire.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "elantris", "chapter": "8" },
+            { "book": "emperors-soul", "chapter": "day-76" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Fjordell expansion",
+          "revealedIn": [{ "book": "elantris", "chapter": "14" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Following Shu-Keseg, which values peace, openness and unity through acceptance, the JinDo chose not to fight when the Fjordell Empire spread. They accepted Fjordell rule and outwardly converted to Shu-Dereth.",
+          "revealedIn": [{ "book": "elantris", "chapter": "14" }]
+        }
+      ]
+    }
+  ]
+}

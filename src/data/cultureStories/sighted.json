@@ -1,0 +1,155 @@
+{
+  "intro": [
+    {
+      "text": "The Sighted are Rosharans who can see spren that are partly or wholly invisible to others, even spren that have not chosen to show themselves. Rock is one of them.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "21" }]
+    },
+    {
+      "text": "The Sighted, or alaii'iku in the Unkalaki tongue, are Rosharans who can see spren that are partly or wholly invisible to others. The best known are Rock and his daughter Cord.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "21" },
+            { "book": "words-of-radiance", "chapter": "46" },
+            { "book": "dawnshard", "chapter": "9" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "The Sighted see both lesser spren and sapient spren, even spren trying to stay hidden, and spren usually don't realise they are being watched unless acknowledged.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "21" },
+            { "book": "words-of-radiance", "chapter": "46" },
+            { "book": "oathbringer", "chapter": "37" },
+            { "book": "dawnshard", "chapter": "9" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "The ability is always on and needs no Stormlight, so the Sighted see spren everywhere and can't tell whether others do. They regard spren as gods, sapient spren above lesser ones, with certain other beings, such as the Sleepless, ranked higher still.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "21" },
+            { "book": "words-of-radiance", "chapter": "46" },
+            { "book": "oathbringer", "chapter": "37" },
+            { "book": "dawnshard", "chapter": "9" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "The Sleepless call the Sighted the guardians of the pool and hold them in higher regard than even Radiants. Cord says her grandmother held the post of \"watcher of the pool\".",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "46" },
+            { "book": "dawnshard", "chapter": "19" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "They can glimpse only shadows of a spren's true form, and cannot look into the Cognitive Realm the way Radiants or Fused with the right Surges can.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "oathbringer", "chapter": "37" },
+            { "book": "rhythm-of-war", "chapter": "56" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Rock",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "21" },
+            { "book": "words-of-radiance", "chapter": "46" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Rock told Kaladin he could see Syl, even though she had not shown herself to him.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "21" }]
+        },
+        {
+          "text": "Speaking of his homeland, Rock called the Horneater hot springs a link to the gods, but would not explain why he could see spren.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "46" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Rock and Cord",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "46" },
+                { "book": "dawnshard", "chapter": "9" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Rock and Cord treated their gift as part of everyday life, often forgetting how amazed lowlanders were that anyone could see hidden spren. They did not hide being alaii'iku, but said little about the Unkalaki traditions behind it.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "46" },
+                { "book": "dawnshard", "chapter": "9" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Cord",
+          "revealedIn": [
+            { "book": "dawnshard", "chapter": "3" },
+            { "book": "dawnshard", "chapter": "16" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Cord, who can see spren, was brought along on Rysn's expedition.",
+          "revealedIn": [{ "book": "dawnshard", "chapter": "3" }]
+        },
+        {
+          "text": "Being Sighted was why Cord was chosen for the voyage to Akinah, and her gift helped unlock the island's secrets.",
+          "revealedIn": [{ "book": "dawnshard", "chapter": "16" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "lunamor",
+      "role": "Sighted",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "21" }]
+    },
+    {
+      "characterId": "cord",
+      "role": "Sighted",
+      "revealedIn": [{ "book": "dawnshard", "chapter": "3" }]
+    }
+  ]
+}

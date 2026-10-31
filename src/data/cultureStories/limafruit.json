@@ -1,0 +1,33 @@
+{
+  "intro": [
+    {
+      "text": "A small fruit of Roshar with a green rind, eaten whole and without preparation.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "6" }]
+    }
+  ],
+  "description": [],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "In Urithiru",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "i-5" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Following a red chicken through Urithiru, Lift swiped a limafruit from a young lighteyed man's table.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "i-5" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "lift",
+      "role": "stole one",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "i-5" }]
+    }
+  ]
+}

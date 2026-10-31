@@ -1,0 +1,31 @@
+{
+  "intro": [
+    {
+      "text": "A Rivershore man who, in the life December remembers, turns out to have been killed by Bark.",
+      "revealedIn": [{ "book": "fires-of-december", "chapter": "i" }],
+      "fallback": true
+    },
+    {
+      "text": "A Rivershore man who stumbled on a rich silver vein and was murdered for it by his friend Bark.",
+      "revealedIn": [{ "book": "fires-of-december", "chapter": "ii" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Winter's Cache",
+          "revealedIn": [{ "book": "fires-of-december", "chapter": "ii" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Out exploring, Tap came upon Winter's Cache, a great seam of silver, and rushed to tell his friend Bark. When he took Bark out to see it, Bark killed him with an axe and heaped stones over the body to fake a rockslide, then lost his way home and never found the vein again. After waking in the past, December told the reeve about the killing and led him to the silver, with Tap's remains still close by.",
+          "revealedIn": [{ "book": "fires-of-december", "chapter": "ii" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

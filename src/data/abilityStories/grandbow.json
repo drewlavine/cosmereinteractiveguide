@@ -1,0 +1,198 @@
+{
+  "intro": [
+    {
+      "text": "A huge steel bow, as tall as a man and fitted with a fabrial, so hard to draw that its user usually needs the strength of Shardplate. That is why it is also called a Shardbow.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "12" }]
+    },
+    {
+      "text": "A huge steel bow, as tall as a man and fitted with a fabrial, so hard to draw that its user usually needs the strength of Shardplate. Lunamor is the only person known to have drawn one without it.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "12" },
+            { "book": "oathbringer", "chapter": "121" },
+            { "book": "dawnshard", "chapter": "16" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "The Alethi made the first grandbows, fitting an augmenter fabrial onto a big bow.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "12" }]
+    },
+    {
+      "text": "A grandbow is a steel bow roughly a man's height. A small gemstone, fitted by an artifabrian, feeds it Stormlight and keeps the metal from warping as it is drawn. Its arrows are long and as thick as three fingers.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "12" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Hunts and practice",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "13" },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "13" },
+                { "book": "oathbringer", "chapter": "64" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "When a chasmfiend surprised the Alethi during a hunt, Highprince Sadeas weakened it from a distance with his grandbow while Dalinar and Adolin went for its legs and King Elhokar distracted it.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "13" }]
+        },
+        {
+          "text": "Navani Kholin led the Alethi artifabrians who designed grandbows during the War of Reckoning, and they were often used to wound chasmfiends before the hunters closed in. Shardbearers with Plate but no Blade, such as Rust Elthal and Serugiadis, sometimes practised with them instead of a hammer.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "13" },
+                { "book": "oathbringer", "chapter": "64" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Thaylen Field",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "121" },
+                { "book": "dawnshard", "chapter": "16" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "At the Battle of Thaylen Field, Meridas Amaram shot at Kaladin with a grandbow, but lost it when Kaladin scared off his horse. Lunamor took up the bow, drew it without Shardplate and killed Amaram, by then the host of Yelig-nar, with arrows to the head and chest.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "121" },
+                { "book": "dawnshard", "chapter": "16" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Lunamor would not talk about how he did it, though his daughter Cord said spren had lent strength to his arm in the Horneater Peaks, the day he pulled the Bow of Hours.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "121" },
+                { "book": "dawnshard", "chapter": "16" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Cord's bow",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "47" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Amaram's grandbow passed to Cord, herself a skilled archer. She killed the Fused Leshwi with it once, and in a Skybreaker attack during the Battle of Emul she put an arrow straight into Nale's face, though he healed easily and even caught another she shot from a few feet away.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "47" }]
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Designed by",
+      "name": "Navani Kholin",
+      "characterId": "navani-kholin",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "13" },
+            { "book": "oathbringer", "chapter": "64" }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Fabrial",
+      "name": "Augmenter",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "12" }]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "torol-sadeas",
+      "role": "Hunter",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "13" }]
+    },
+    {
+      "characterId": "rust-elthal",
+      "role": "Practised with one",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "13" },
+            { "book": "oathbringer", "chapter": "64" }
+          ]
+        }
+      ]
+    },
+    {
+      "characterId": "serugiadis",
+      "role": "Practised with one",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "13" },
+            { "book": "oathbringer", "chapter": "64" }
+          ]
+        }
+      ]
+    },
+    {
+      "characterId": "meridas-amaram",
+      "role": "Archer",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "oathbringer", "chapter": "121" },
+            { "book": "dawnshard", "chapter": "16" }
+          ]
+        }
+      ]
+    },
+    {
+      "characterId": "lunamor",
+      "role": "Drew it unaided",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "oathbringer", "chapter": "121" },
+            { "book": "dawnshard", "chapter": "16" }
+          ]
+        }
+      ]
+    },
+    {
+      "characterId": "cord",
+      "role": "Archer",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "47" }]
+    }
+  ]
+}

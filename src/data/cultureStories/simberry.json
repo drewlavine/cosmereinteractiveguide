@@ -1,0 +1,52 @@
+{
+  "intro": [
+    {
+      "text": "A fruit of Roshar, made into a red jam. Palates of Personality says those who like the jam are spontaneous and impulsive and love the outdoors.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "33" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Its flesh is clear. Fermented, it makes a sweet wine that stays clear if the rinds are removed with care.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "33" },
+            { "book": "rhythm-of-war", "chapter": "7" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Shared with Shallan",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "33" },
+            { "book": "rhythm-of-war", "chapter": "7" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Kabsal brought Shallan simberry jam while she studied at the Palanaeum in Kharbranth. It was supposedly a gift for Jasnah, but he knew Shallan loved jam.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "33" }]
+        },
+        {
+          "text": "When Shallan confronted Ialai Sadeas, Ialai offered her a simberry wine of Alethi vintage from her collection, one Shallan had never tasted.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "7" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "kabsal",
+      "role": "gave it",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "33" }]
+    }
+  ]
+}

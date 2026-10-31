@@ -1,0 +1,59 @@
+{
+  "intro": [
+    {
+      "text": "Crystal implants that let their bearer see Investiture.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "i-7" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "The spikes let Moash recognize differences between Investiture's rhythms.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "i-7" }]
+    },
+    {
+      "text": "Crystal spikes can also pin spren to a wall in the Physical Realm.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "94" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Use on Roshar",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "i-7" },
+            { "book": "wind-and-truth", "chapter": "81" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Odium recruited Battar to help supply the spikes and had them placed in Moash's eyes.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "i-7" }]
+        },
+        {
+          "text": "Moash used his new sight with anti-Investiture to hunt spren on the Shattered Plains.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "81" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "moash",
+      "role": "bearer",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "i-7" }]
+    },
+    {
+      "characterId": "battar",
+      "role": "maker",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "i-7" }]
+    },
+    {
+      "characterId": "ishar",
+      "role": "user",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "94" }]
+    }
+  ]
+}

@@ -10,6 +10,7 @@ export function CultureList() {
       title="Culture"
       path="culture"
       noun="culture"
+      entry={{ one: 'entry', many: 'entries' }}
     />
   )
 }

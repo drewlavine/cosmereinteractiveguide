@@ -1,0 +1,30 @@
+{
+  "intro": [
+    {
+      "text": "A world whose Dayside is covered in pale sand and rock.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "11" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Lichen on the sand gives it its white color and causes its changes in color when Investiture is used.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "11" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Contact with other worlds",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "147" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Taldain remained isolated from the wider cosmere when the Night of Sorrows began on Roshar.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "147" }]
+        }
+      ]
+    }
+  ]
+}

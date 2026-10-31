@@ -1,0 +1,21 @@
+{
+  "intro": [
+    {
+      "text": "An arbiter of the Heritage Faction in the Rose Empire, one of the council of five behind the plan to have Shai restore Emperor Ashravan's soul.",
+      "revealedIn": ["emperors-soul"]
+    }
+  ],
+  "history": [
+    {
+      "title": [{ "text": "Arbiter", "revealedIn": ["emperors-soul"] }],
+      "items": [
+        {
+          "text": "He sat on the council of five arbiters that set the Forger Shai to rebuild the emperor's soul through Forgery.",
+          "revealedIn": ["emperors-soul"]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

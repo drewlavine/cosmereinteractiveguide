@@ -1,0 +1,24 @@
+{
+  "intro": [
+    { "text": "A city in the northern Roughs.", "revealedIn": ["alloy-of-law"] }
+  ],
+  "description": [
+    {
+      "text": "The city has Pathian gardens. Lessie, who otherwise never wore dresses, put one on when she and Waxillium Ladrian went to see them.",
+      "revealedIn": [{ "book": "shadows-of-self", "chapter": "4" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        { "text": "A lawman's past", "revealedIn": ["shadows-of-self"] }
+      ],
+      "items": [
+        {
+          "text": "Wax killed the brother of the outlaw known as Mustaches near the city.",
+          "revealedIn": ["shadows-of-self"]
+        }
+      ]
+    }
+  ]
+}

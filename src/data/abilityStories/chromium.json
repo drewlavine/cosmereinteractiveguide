@@ -1,0 +1,60 @@
+{
+  "intro": [
+    {
+      "text": "An Allomantic metal. A Leecher burning it wipes out the metal reserves of any other Allomancer they touch.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "prologue" }]
+    },
+    {
+      "text": "A metal whose Allomancers drain the metal reserves of anyone they touch, and in which Feruchemists store Fortune.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "prologue" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Feruchemists can store Fortune in chromium, though even the Terris have only a partial grasp of what Fortune is.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "prologue" }]
+    },
+    {
+      "text": "Alonoe of the Ire says that drawing on Fortune can bring about coincidences.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "secret-history", "chapter": "5-2" },
+            { "book": "oathbringer", "chapter": "122" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Inside the body chromium behaves like aluminum, so any Allomancer a Leecher touches loses their metals. Being leeched brings a sudden feeling of cold.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "alloy-of-law", "chapter": "prologue" },
+            { "book": "lost-metal", "chapter": "63" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [],
+  "facts": [
+    {
+      "label": "Allomancy",
+      "name": "Drains others' metal reserves",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "prologue" }]
+    },
+    {
+      "label": "Feruchemy",
+      "name": "Stores Fortune",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "prologue" }]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "edwarn-ladrian",
+      "role": "Leecher",
+      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "29" }]
+    }
+  ]
+}

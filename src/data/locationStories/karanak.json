@@ -1,0 +1,30 @@
+{
+  "intro": [
+    {
+      "text": "A major city in the Bethab princedom of southern Alethkar.",
+      "revealedIn": ["oathbringer"]
+    }
+  ],
+  "description": [
+    {
+      "text": "It lies near Mevan Bay, by the Deathbend River's delta on the Tarat Sea.",
+      "revealedIn": ["oathbringer"]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The coalition in Alethkar",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "50" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "During the year that followed the Battle of Thaylen Field, the coalition seized southwestern Alethkar along the Tarat Sea coast, bringing Karanak under its control. Coalition troops in southern Alethkar regrouped there with few losses.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "50" }]
+        }
+      ]
+    }
+  ]
+}

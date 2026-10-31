@@ -1,0 +1,60 @@
+{
+  "intro": [
+    {
+      "text": "A duke whose fury over a count's courtship of his daughter lies behind the tension gripping the capital.",
+      "revealedIn": [{ "book": "fires-of-december", "chapter": "xv" }],
+      "fallback": true
+    },
+    {
+      "text": "A duke of Mountaincrest whose broad lands along the River Orange earn him the name Orange Duke; only the king holds more power in the kingdom.",
+      "revealedIn": [{ "book": "fires-of-december", "chapter": "xxix" }]
+    },
+    {
+      "text": "A duke of Mountaincrest, called the Orange Duke for his lands along the River Orange, who takes the throne for himself.",
+      "revealedIn": [{ "book": "fires-of-december", "chapter": "epilogue" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Duke of the River Orange",
+          "revealedIn": [
+            { "book": "fires-of-december", "chapter": "xxxiv" },
+            { "book": "fires-of-december", "chapter": "xli" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Kird was known in Kingseat for bringing his warships up to the city to force his will on it. When the king sent Flint, his spymaster, to keep an eye on him, Kird saw through Flint's show of being an idle party-goer and instead asked him to teach his daughter Melsi the spy's trade. Flint, who had come to respect Kird and to doubt the king, said yes.",
+          "revealedIn": [{ "book": "fires-of-december", "chapter": "xxxiv" }]
+        },
+        {
+          "text": "Kird welcomed it when Flint and Melsi became a couple, reckoning it would keep Flint on his side, and the two men started planning real change. When Flint broke it off and left, Kird claimed he had robbed the family and used that as his excuse to sail his warships up the River Orange to Kingseat and demand demonstone, which the king would never dare give him.",
+          "revealedIn": [{ "book": "fires-of-december", "chapter": "xxxiv" }]
+        },
+        {
+          "text": "In the second future December lived through, Kird turned Geoffrim away when he came seeking him, and the dukes kept on fighting one another for years.",
+          "revealedIn": [{ "book": "fires-of-december", "chapter": "xli" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "King of Mountaincrest",
+          "revealedIn": [{ "book": "fires-of-december", "chapter": "epilogue" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Once December had kept the demon from wrecking the city, Kird marched into Kingseat and crowned himself king. He and Flint stayed wary of one another, but with December's help they made peace, and the new king named Matin his Minister of Finance and Melsi his Minister of Espionage.",
+          "revealedIn": [{ "book": "fires-of-december", "chapter": "epilogue" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

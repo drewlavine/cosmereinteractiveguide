@@ -1,0 +1,49 @@
+{
+  "intro": [
+    {
+      "text": "The wife of Matin, Rivershore's reeve. In the life December remembers, Matin is a widower.",
+      "revealedIn": [{ "book": "fires-of-december", "chapter": "i" }],
+      "fallback": true
+    },
+    {
+      "text": "The wife of Matin, Rivershore's reeve, whose life December saves when she chokes.",
+      "revealedIn": [{ "book": "fires-of-december", "chapter": "ii" }],
+      "fallback": true
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The reeve's wife",
+          "revealedIn": [
+            { "book": "fires-of-december", "chapter": "ii" },
+            { "book": "fires-of-december", "chapter": "xli" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "On December's twenty-first birthday, Rema started to choke, and December's quick action saved her.",
+          "revealedIn": [{ "book": "fires-of-december", "chapter": "ii" }]
+        },
+        {
+          "text": "In the life December first remembered, Rema died choking, leaving Matin grieving and their sons without a mother. In another of December's lives, Rema and Matin sheltered her for some years, and the two women grew close.",
+          "revealedIn": [{ "book": "fires-of-december", "chapter": "xli" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Blonde, with curly hair.",
+      "revealedIn": [{ "book": "fires-of-december", "chapter": "xli" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Gentle and quietly wise, and fond of meddling in other people's romances and marriages.",
+      "revealedIn": [{ "book": "fires-of-december", "chapter": "xli" }]
+    }
+  ]
+}

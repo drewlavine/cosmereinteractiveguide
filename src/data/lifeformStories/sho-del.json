@@ -1,0 +1,49 @@
+{
+  "intro": [
+    {
+      "text": "A rare people, seldom seen in the Cognitive Realm. They are skilled navigators and much sought after as guides through the Cognitive Realm.",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "epilogue-6" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Little is known of their culture.",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "epilogue-6" }]
+    },
+    {
+      "text": "Tall and limber, they are roughly human in shape, but have four arms and the eyes of a reptile. Their skin and hair are chalk-white, the hair broad and flat, more like blades of grass than human hair.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "lost-metal", "chapter": "epilogue-6" },
+            { "book": "yumi", "chapter": "30" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "On UTol",
+          "revealedIn": [{ "book": "yumi", "chapter": "30" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Sho Del at some point settled the planet UTol, and in time human explorers from Komashi, its twin planet, came upon them there.",
+          "revealedIn": [{ "book": "yumi", "chapter": "30" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "jan-ven",
+      "role": "guide",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "epilogue-6" }]
+    }
+  ]
+}

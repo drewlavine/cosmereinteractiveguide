@@ -1,0 +1,50 @@
+{
+  "intro": [
+    {
+      "text": "A faith of old Scadrial, spread across many lands, which held that there is one God and that making art is the only true way to worship.",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "50" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Artists ranked above priests. Followers loved colour and shade, and prized poetry that described them.",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "50" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Sazed and Dadradah",
+          "revealedIn": [
+            { "book": "well-of-ascension", "chapter": "50" },
+            { "book": "hero-of-ages", "chapter": "82" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "As Luthadel prepares for battle, Sazed suggests the faith to Clubs, since his woodworking is a kind of art, and gives him its symbol: a plain wooden disk carved with a brush.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "50" }]
+        },
+        {
+          "text": "When Sazed remakes the world, he uses Dadradah poems as a guide to restore its plants, sky and landscape.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "82" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "sazed",
+      "role": "advocate",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "50" }]
+    },
+    {
+      "characterId": "clubs",
+      "role": "offered the faith",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "50" }]
+    }
+  ]
+}

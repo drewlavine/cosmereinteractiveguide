@@ -1,0 +1,90 @@
+{
+  "intro": [
+    {
+      "text": "Creatures of Dayside's deep sand, often called deep sandlings.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "1" }]
+    },
+    {
+      "text": "Creatures that dwell in Dayside's deep sand: blind hunters armoured in segmented carapace, many of them far bigger than a person.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "9" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Their acrid blood is a gas that can thicken into a sticky liquid in the air. Water is poison to them and can dissolve them.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "1" }]
+    },
+    {
+      "text": "Sandlings vary in size, and several kinds dwarf a human. They look like arthropods, with hard, jointed shells, though parts of the body carry interlocking scales like a reptile's. Unlike arthropods they have long-toothed mouths, tongues and wet saliva. They seem to have eyelids but are blind, finding prey by feel; Kerztians believe they even talk to the sand. Most are grey.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "9" }]
+    },
+    {
+      "text": "Groups of people can hunt the smaller kinds with ordinary spears and swords, and carved carapace is put to many uses, such as arrowheads.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "9" }]
+    },
+    {
+      "text": "Some have terken shells that sand mastery cannot affect; sand that touches them turns black and dead. The shell can be made into an oily paste that protects whatever it covers, prized by assassins hunting sand masters, though it cannot stop sand masters moving anything left uncoated.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "10" }]
+    },
+    {
+      "text": "They stay deep in the sand and come up only to hunt, eating nearly anything and moving through sand at speed. They swallow sand for the thin film of microflora coating it, then pass the grains out tan, just like Darkside sand. Usually all but indestructible, they can be pierced by guns, and dorim vines hold water to keep them away.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "11" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Khrissalla's experiments",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "12" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Curious about their carapace and the sand they leave behind, Khrissalla ran experiments that turned up some odd properties, and worked out that sandlings feed on a microflora the sand picks up.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "12" }]
+        }
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "title": "Kinds of sandling",
+      "items": [
+        {
+          "text": "An unnamed kind small enough to hold in the hand.",
+          "revealedIn": [
+            { "book": "white-sand-omnibus", "chapter": "prologue" }
+          ]
+        },
+        {
+          "text": "A'keldar: a great sand wolf, cousin to the Keldarin.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "1" }]
+        },
+        {
+          "text": "Marken: a vast terken sandling with clawed legs, a long tail, a spiked shell and a huge round mouth ringed with cone-shaped teeth. One guards the Mastrell's Path, far from its usual home.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "2" }]
+        },
+        {
+          "text": "Tonk: a tame sandling used on Dayside as a beast of burden.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "3" }]
+        },
+        {
+          "text": "DelRak, or DelRak Naisha: not aggressive, it lies buried with only its triangular head showing, like a trap, and eats whatever brushes against it.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "9" }]
+        },
+        {
+          "text": "KaRak: shaped like a wingless four-legged dragon with a forked tongue, a frilled neck and a long tail. Its young are as big as elephants; adults stand about seventy feet tall.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "9" }]
+        },
+        {
+          "text": "An unnamed tiny kind that moves and feeds in coordinated groups, like a school of fish.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "9" }]
+        }
+      ],
+      "parts": []
+    }
+  ],
+  "facts": [],
+  "people": []
+}

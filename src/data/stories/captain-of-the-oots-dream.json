@@ -1,0 +1,52 @@
+{
+  "intro": [
+    {
+      "text": "Captain of the Oot's Dream, a ship that calls at Diggen's Point to buy a load of ale.",
+      "revealedIn": [{ "book": "tress", "chapter": "7" }]
+    },
+    {
+      "text": "Captain of the Oot's Dream, a smuggling ship that Tress, posing as a royal inspector, talks her way aboard.",
+      "revealedIn": [{ "book": "tress", "chapter": "9" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The Oot's Dream",
+          "revealedIn": [
+            { "book": "tress", "chapter": "8" },
+            { "book": "tress", "chapter": "9" },
+            { "book": "tress", "chapter": "19" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "When the Oot's Dream docked at Diggen's Point, its captain insisted the ale he was buying be inspected. Tress, in an inspector's uniform, turned up a girl hidden in one of the barrels and demanded a berth so she could report the escape attempt to the king, and the ship sailed with her aboard.",
+          "revealedIn": [{ "book": "tress", "chapter": "8" }]
+        },
+        {
+          "text": "His crew were smugglers, and believing Tress meant to expose them, they drugged her and shut her in a cage in the hold.",
+          "revealedIn": [{ "book": "tress", "chapter": "9" }]
+        },
+        {
+          "text": "He had been dodging the king's tariffs with forged mercantile writs. When the Crow's Song attacked, he let Dorp try using Tress in her uniform to stop the shooting. The pirates kept firing, and the captain died with his crew.",
+          "revealedIn": [{ "book": "tress", "chapter": "19" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Tanned, with matted hair and foul breath.",
+      "revealedIn": [{ "book": "tress", "chapter": "8" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "He rates himself highly and never notices that nobody else does.",
+      "revealedIn": [{ "book": "tress", "chapter": "8" }]
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "intro": [
+    {
+      "text": "A device that examines a person's spiritweb and Connections. Design uses one to read Yumi and Nikaro while they try to work out where Yumi comes from.",
+      "revealedIn": [{ "book": "yumi", "chapter": "32" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "It takes the form of a big black box, glass on top, with a screen set into one side. Its dials have to be set correctly, and it needs a power source, such as hion.",
+      "revealedIn": [{ "book": "yumi", "chapter": "32" }]
+    }
+  ],
+  "history": [],
+  "mechanics": [
+    {
+      "title": [
+        {
+          "text": "Taking a reading",
+          "revealedIn": [{ "book": "yumi", "chapter": "32" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "The subject rests a hand on the glass, a light glows inside the box while it works, and the findings appear as text on the screen.",
+          "revealedIn": [{ "book": "yumi", "chapter": "32" }]
+        },
+        {
+          "text": "It can show how Invested someone is, spot damage to the spiritweb, such as memories that have been cut away, and pick out Connections to other people or places. The subject does not even have to be in the Physical Realm.",
+          "revealedIn": [{ "book": "yumi", "chapter": "32" }]
+        },
+        {
+          "text": "It is made for people with ordinary amounts of Investiture, so its readings of someone as heavily Invested as a yoki-hijo are hard to make sense of.",
+          "revealedIn": [{ "book": "yumi", "chapter": "32" }]
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Power",
+      "name": "Hion, for example",
+      "revealedIn": [{ "book": "yumi", "chapter": "32" }]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "design",
+      "role": "reads spiritwebs",
+      "revealedIn": [{ "book": "yumi", "chapter": "32" }]
+    }
+  ]
+}

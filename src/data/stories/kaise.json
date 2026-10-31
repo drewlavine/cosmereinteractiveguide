@@ -1,0 +1,111 @@
+{
+  "intro": [
+    {
+      "text": "Kiin and Daora's young daughter in Kae, and Sarene's cousin.",
+      "revealedIn": [{ "book": "elantris", "chapter": "5" }]
+    },
+    {
+      "text": "Kiin and Daora's young daughter and Sarene's cousin, a clever, bossy girl who swears in foreign languages whenever she loses an argument.",
+      "revealedIn": [{ "book": "elantris", "chapter": "8" }]
+    },
+    {
+      "text": "Codenames, a Ghostblood agent met at one of their safehouses, translating a letter written in Thaylen.",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "39" }],
+      "fallback": true
+    },
+    {
+      "text": "Codenames, a Ghostblood philologist who keeps the records and messages for her cell's safehouse in Bilming.",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "40" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Kiin's daughter",
+          "revealedIn": [
+            { "book": "elantris", "chapter": "5" },
+            { "book": "elantris", "chapter": "8" },
+            { "book": "elantris", "chapter": "17" },
+            { "book": "elantris", "chapter": "60" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Kaise, born around the time of the Reod, is the daughter of Kiin and Daora. When Sarene came to dinner in Kae, Kaise grumbled that her tall cousin didn't look like a princess.",
+          "revealedIn": [{ "book": "elantris", "chapter": "5" }]
+        },
+        {
+          "text": "Kaise and Daorn took Sarene up onto the wall of Elantris, where they found a crowd gathered to hear Hrathen preach.",
+          "revealedIn": [{ "book": "elantris", "chapter": "8" }]
+        },
+        {
+          "text": "Kaise and Daorn tagged along to Sarene's fencing lesson. When Sarene worried she had taught badly, Kaise said she could have done better, listing riposting, proper form and tournament rules, all learned from a book. Sarene called her the cleverest little girl she had ever met; Lukel agreed but reminded her that Kaise was still a child, and a domineering one.",
+          "revealedIn": [{ "book": "elantris", "chapter": "17" }]
+        },
+        {
+          "text": "When Dilaf's monks attacked Kae, Kaise sheltered in Kiin's mansion with Daorn, Adien and Jalla. Once Sarene was captured, the family was marched towards Elantris with those who were to be burned, and Kaise and Daorn clung to Lukel in terror.",
+          "revealedIn": [{ "book": "elantris", "chapter": "60" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Ghostblood agent",
+          "revealedIn": [
+            { "book": "lost-metal", "chapter": "39" },
+            { "book": "lost-metal", "chapter": "40" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Codenames worked at a Ghostblood safehouse, where Marasi met her translating a letter written in Thaylen.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "39" }]
+        },
+        {
+          "text": "Codenames introduced the group to her invested companion, through whom they could speak with Kelsier.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "40" }]
+        },
+        {
+          "text": "Going by the codename 'Codenames Are Stupid', she worked against the threat of Trell from the safehouse in Bilming, with Moonlight, TwinSoul and her dog Lily. When the others set off on a mission she stayed behind to meet Maraga and warn Steris Harms and the Ghostbloods around Elendel that the city should prepare to evacuate.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "40" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Codenames is somewhat plump, with blonde hair cut in a bob.",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "39" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Kaise is always hungry and hangs about the kitchen pestering Kiin, a fine cook, for food. Very clever, even more so than her brother, she argues with Daorn constantly and swears in foreign languages whenever she loses. She scolds Sarene for her clumsy table manners.",
+      "revealedIn": [{ "book": "elantris", "chapter": "8" }]
+    }
+  ],
+  "abilities": [
+    {
+      "title": [
+        {
+          "text": "Ghostblood skills",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "40" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "As a Ghostblood, Codenames can draw on the group's considerable resources and information.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "40" }]
+        },
+        {
+          "text": "Codenames has worked or studied as a philologist in some way, and seems to look after records and communications for her Ghostblood cell.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "40" }]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "intro": [
+    {
+      "text": "A listener song that describes how to make paper from dried rockbud pulp after a harvest.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "i-1" },
+            { "book": "rhythm-of-war", "chapter": "45" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "Jaxlim is one of only a handful of listeners in any family who know the song, so paper is rare and precious to the listeners. Using it, Jaxlim helped Eshonai perfect the process.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "i-1" },
+            { "book": "rhythm-of-war", "chapter": "45" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "jaxlim",
+      "role": "knew the song",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "i-1" },
+            { "book": "rhythm-of-war", "chapter": "45" }
+          ]
+        }
+      ]
+    },
+    {
+      "characterId": "eshonai",
+      "role": "papermaker",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "i-1" },
+            { "book": "rhythm-of-war", "chapter": "45" }
+          ]
+        }
+      ]
+    }
+  ]
+}

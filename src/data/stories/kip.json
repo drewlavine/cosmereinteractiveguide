@@ -1,0 +1,26 @@
+{
+  "intro": [
+    {
+      "text": "A young servant of House Ladrian.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "2" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "House Ladrian",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "2" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Kip delivered Wax's mail, which held an invitation to dine at the Yomen-Ostlin wedding.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "2" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

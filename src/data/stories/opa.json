@@ -1,0 +1,40 @@
+{
+  "intro": [
+    {
+      "text": "Duke Roial's formal, rather aloof seon.",
+      "revealedIn": [{ "book": "elantris", "chapter": "32" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Roial's seon",
+          "revealedIn": ["elantris", { "book": "elantris", "chapter": "32" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Once seons fell out of favour after the Reod, Roial kept Opa at home instead of taking him everywhere. There, fittingly for a seon whose Aon means flower, Opa oversaw the gardeners on Roial's large estate in Kae.",
+          "revealedIn": ["elantris"]
+        },
+        {
+          "text": "At Roial's eclipse-viewing party, Opa reported that Lord Redeen had got drunk and fallen into a pond, and Roial told him to get Redeen dry and send him home. Never having heard Roial speak of a seon, Sarene was surprised, and put Opa's coolness down to how people had come to view seons since the Reod.",
+          "revealedIn": [{ "book": "elantris", "chapter": "32" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Like any seon, a melon-sized ball of light. He speaks in a stern, flat voice.",
+      "revealedIn": [{ "book": "elantris", "chapter": "32" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Formal in manner and unemotional.",
+      "revealedIn": [{ "book": "elantris", "chapter": "32" }]
+    }
+  ]
+}

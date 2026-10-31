@@ -52,5 +52,21 @@
       "text": "She wants to break and burn the world. Even Odium considers her too dangerous to unleash, and the spren believed he would never do so again.",
       "revealedIn": [{ "book": "wind-and-truth", "chapter": "67" }]
     }
+  ],
+  "abilities": [
+    {
+      "title": [
+        {
+          "text": "Elsegates",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "67" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Dai-Gonarthis combines Connection and Transportation to open violet Elsegates between highly Invested locations. Their use incurs a cost that need not be paid immediately.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "67" }]
+        }
+      ]
+    }
   ]
 }

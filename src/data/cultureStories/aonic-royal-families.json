@@ -1,0 +1,37 @@
+{
+  "intro": [
+    {
+      "text": "The royal houses of Teod and Arelon, tied together by a marriage contract between Princess Sarene and Prince Raoden to seal an alliance against Fjorden.",
+      "revealedIn": [{ "book": "elantris", "chapter": "2" }]
+    },
+    {
+      "text": "The royal houses of Teod and Arelon. Arelon's line came to power after the Reod brought down the old government; the two lines were joined to seal their alliance against the Fjordell Empire.",
+      "revealedIn": [{ "book": "elantris", "chapter": "16" }]
+    }
+  ],
+  "description": [],
+  "history": [],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "eventeo",
+      "role": "king of Teod",
+      "revealedIn": [{ "book": "elantris", "chapter": "2" }]
+    },
+    {
+      "characterId": "sarene",
+      "role": "Teo princess",
+      "revealedIn": [{ "book": "elantris", "chapter": "2" }]
+    },
+    {
+      "characterId": "iadon",
+      "role": "king of Arelon",
+      "revealedIn": [{ "book": "elantris", "chapter": "2" }]
+    },
+    {
+      "characterId": "raoden",
+      "role": "Arelene prince",
+      "revealedIn": [{ "book": "elantris", "chapter": "2" }]
+    }
+  ]
+}

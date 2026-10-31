@@ -1,0 +1,201 @@
+{
+  "intro": [
+    {
+      "text": "The way a person is chosen to gain access to a magic, or the act of gaining that access.",
+      "revealedIn": [{ "book": "elantris", "chapter": "prologue" }]
+    },
+    {
+      "text": "The way a person is chosen to gain access to a magic, or the act of gaining that access. For the Elantrians it is the Shaod, and how it picks people is still a mystery.",
+      "revealedIn": [{ "book": "elantris", "chapter": "1" }]
+    }
+  ],
+  "description": [],
+  "history": [],
+  "mechanics": [
+    {
+      "title": [
+        {
+          "text": "Navigators",
+          "revealedIn": [
+            { "book": "isles-of-the-emberdark", "chapter": "epilogue" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Patji appears to control who may become a Navigator: Navigating is open only to people who survive its test. It seems trappers alone are eligible, yet some trappers who eat Luminist still cannot, for reasons no one knows; one former trapper wonders whether they have a different Invested Art. Arcanists think living long near the perpendicularity is the cause. Navigating and Aviar talents can both be shared through the Nahel bond, and Aviar gain their talents by eating glowing worms.",
+          "revealedIn": [
+            { "book": "isles-of-the-emberdark", "chapter": "epilogue" }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Allomancy",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "elantris", "chapter": "prologue" },
+                { "book": "final-empire", "chapter": "17" },
+                { "book": "hero-of-ages", "chapter": "epilogue" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Allomancy is unlocked by Snapping. A person's potential is fixed at birth by their Physical, Cognitive and Spiritual aspects, and enough trauma, in life or even at birth, damages the soul and releases it. Much of that potential is inherited, and Allomancy is known to run in families.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "elantris", "chapter": "prologue" },
+                { "book": "final-empire", "chapter": "17" },
+                { "book": "hero-of-ages", "chapter": "epilogue" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Feruchemy",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "68" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Feruchemy is inherited too, but whether it needs anything like Snapping is not known.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "68" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Hemalurgy",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "38" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Hemalurgy gives powers that were first stolen from someone else with a metal spike.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "38" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Surgebinding",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "67" },
+                { "book": "words-of-radiance", "chapter": "84" },
+                { "book": "rhythm-of-war", "chapter": "115" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Unlike Snapping, Surgebinding is granted one person at a time by thinking beings, the spren of the Nahel bond, judging how the person behaves. Perhaps uniquely, Surgebinders grow stronger by swearing oaths, and breaking those oaths or acting against their spirit can cost them power or end the bond.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "67" },
+                { "book": "words-of-radiance", "chapter": "84" },
+                { "book": "rhythm-of-war", "chapter": "115" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Awakening",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "prologue" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Awakening is the easiest to reach: anyone given Breath can use it, and everyone is born with one Breath.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "prologue" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The Shaod",
+          "revealedIn": [{ "book": "elantris", "chapter": "1" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "The moment someone becomes an Elantrian and gains access to AonDor is the Shaod. It is one of the least understood kinds of Initiation: little is known of how Elantrians are chosen, and chance may simply play a part.",
+          "revealedIn": [{ "book": "elantris", "chapter": "1" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Forgery",
+          "revealedIn": [{ "book": "emperors-soul", "chapter": "day-5" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Becoming a Forger takes more than one condition, and despite what some believe, not everyone who meets the requirements of place can use the art.",
+          "revealedIn": [{ "book": "emperors-soul", "chapter": "day-5" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Sand mastery and starmarks",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "elantris", "chapter": "prologue" },
+                { "book": "white-sand-omnibus", "chapter": "prologue" }
+              ]
+            },
+            { "book": "white-sand-omnibus", "chapter": "prologue" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Exactly how sand mastery is gained is unknown, but it differs from AonDor: sand mastery has to be taught and never appears on its own.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "elantris", "chapter": "prologue" },
+                { "book": "white-sand-omnibus", "chapter": "prologue" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "No one knows how starmarks are gained, though only a few people are picked to wield them.",
+          "revealedIn": [
+            { "book": "white-sand-omnibus", "chapter": "prologue" }
+          ]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": []
+}

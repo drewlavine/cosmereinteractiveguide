@@ -14,6 +14,10 @@
           ]
         }
       ]
+    },
+    {
+      "text": "A region of chasms and plateaus returned to the surviving listeners by treaty with Alethkar.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "137" }]
     }
   ],
   "description": [
@@ -40,6 +44,8 @@
         {
           "text": "Ancient times",
           "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "120" },
+            { "book": "wind-and-truth", "chapter": "128" },
             {
               "all": [
                 { "book": "words-of-radiance", "chapter": "83" },
@@ -50,6 +56,14 @@
         }
       ],
       "items": [
+        {
+          "text": "The Plains' pattern formed when Honor and Odium clashed above buried fragments of Roshar's fallen fourth moon.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "120" }]
+        },
+        {
+          "text": "The moon fragments concealed the area from the Shards' sight. The Well of Control also lay beneath the plateaus.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "128" }]
+        },
         {
           "text": "The ruins of the city of Stormseat lie at the centre of the Plains, with satellite towns and outbuildings around it. Its Oathgate stood on a circular plateau there, hidden under centuries of crem.",
           "revealedIn": [
@@ -101,6 +115,10 @@
           "revealedIn": [
             { "book": "oathbringer", "chapter": "50" },
             { "book": "oathbringer", "chapter": "122" },
+            { "book": "wind-and-truth", "chapter": "47" },
+            { "book": "wind-and-truth", "chapter": "74" },
+            { "book": "wind-and-truth", "chapter": "88" },
+            { "book": "wind-and-truth", "chapter": "118" },
             { "book": "wind-and-truth", "chapter": "137" }
           ]
         }
@@ -117,6 +135,22 @@
         {
           "text": "The Natans wanted the Plains and the Oathgate for themselves. Elhokar proposed that Dalinar be made High King of Urithiru and the Shattered Plains.",
           "revealedIn": [{ "book": "oathbringer", "chapter": "122" }]
+        },
+        {
+          "text": "Sigzil organized the defense around four Narak plateaus, using the outer positions to delay the Fused before they could reach the city and Oathgate.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "47" }]
+        },
+        {
+          "text": "The defenders withdrew from Narak Four as the assault continued.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "74" }]
+        },
+        {
+          "text": "Narak Three fell, forcing the defenders back toward the remaining plateaus.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "88" }]
+        },
+        {
+          "text": "The human defense evacuated to Urithiru.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "118" }]
         },
         {
           "text": "In 1175, Jasnah Kholin granted the Shattered Plains to the surviving listeners as part of a peace treaty.",

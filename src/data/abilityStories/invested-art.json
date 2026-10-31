@@ -64,6 +64,50 @@
       ]
     }
   ],
+  "mechanics": [
+    {
+      "title": [
+        {
+          "text": "Life sense",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "33" },
+            { "book": "wind-and-truth", "chapter": "i-15" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Powerful life sense can detect germs, but an intensely Invested person can obscure nearby life signs.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "33" }]
+        },
+        {
+          "text": "Dawnshards also grant life sense.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "i-15" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Healing",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "95" },
+            { "book": "wind-and-truth", "chapter": "147" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "A wound accepted as part of oneself can resist healing even when it is recent.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "95" }]
+        },
+        {
+          "text": "Healing powerful enough to reconstruct a body works from its largest surviving piece.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "147" }]
+        }
+      ]
+    }
+  ],
   "facts": [
     {
       "label": "Requires",

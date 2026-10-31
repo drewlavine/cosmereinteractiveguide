@@ -1,0 +1,42 @@
+{
+  "intro": [
+    {
+      "text": "A sport played on Scadrial that grew popular early in the third century PC.",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "16" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Mayor Gave Entrone banned noseball in Bilming.",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "16" }]
+    },
+    {
+      "text": "In Elendel, local leagues hand out flyers to recruit players.",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "16" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Wayne's league",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "16" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Wayne put some of his money into a city-wide league in Elendel, with one team per octant and a stadium of its own. He asked his accountants to rename the sport and alter some of its rules.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "16" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "wayne",
+      "role": "league backer",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "16" }]
+    }
+  ]
+}

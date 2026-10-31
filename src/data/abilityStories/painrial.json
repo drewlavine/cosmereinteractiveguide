@@ -1,0 +1,129 @@
+{
+  "intro": [
+    {
+      "text": "A fabrial that dulls pain. An early model, designed by Longshadow and refined by Navani Kholin, clamps around the sore spot, and surgeons use it so they can operate without hurting their patients.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "60" }]
+    },
+    {
+      "text": "A fabrial that dulls pain, used by surgeons so they can operate without hurting their patients. Turned the other way, as an augmenter, it causes pain instead, and Navani Kholin has used one to bring down soldiers who meant to kill her.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "60" },
+            { "book": "oathbringer", "chapter": "118" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "A fabrial that can take away someone's pain while leaving them able to feel, or, as an augmenter, cause pain and drive it up to unbearable levels.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "60" },
+            { "book": "oathbringer", "chapter": "118" },
+            { "book": "rhythm-of-war", "chapter": "105" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "Longshadow's painrial is a fist-sized device of polished brass, powered by a ruby. Its clawed legs wrap around the hurt area and are locked in place with a clip.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "60" }]
+    },
+    {
+      "text": "It does not heal wounds, but surgeons can use it to operate without fear of causing pain.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "60" }]
+    },
+    {
+      "text": "A painrial can lessen or even remove pain while the person keeps their sense of touch. Augmenter painrials work the opposite way, creating pain and raising it to agonising levels.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "60" },
+            { "book": "oathbringer", "chapter": "118" },
+            { "book": "rhythm-of-war", "chapter": "105" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Easing pain",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "60" },
+            { "book": "oathbringer", "chapter": "118" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "During a highstorm in Dalinar's chambers, Navani showed Dalinar, Adolin and Renarin an early painrial, trying it on Adolin's aching hand. She had refined Longshadow's design and hoped to make it less bulky, seeing it as a step in the right direction even though it could not heal.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "60" }]
+        },
+        {
+          "text": "Navani built a painrial into the vambrace timepieces she made for herself and Dalinar. It gave light pain relief, but a switch made of gems could turn it into a defence that shocked someone instead.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "118" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "As a weapon",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "118" },
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "118" },
+                { "book": "rhythm-of-war", "chapter": "105" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "When Amaram's soldiers, driven by the Thrill, were about to kill Navani, Kmakl and Fen, Navani turned an augmenter painrial on them and disabled them.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "118" }]
+        },
+        {
+          "text": "Navani used another painrial, hidden as a trap, to freeze Raboniel just long enough to stab her with a knife. Both times the painrial could not be controlled and hurt Navani as well as her target.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "118" },
+                { "book": "rhythm-of-war", "chapter": "105" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Early design",
+      "name": "Longshadow",
+      "characterId": "longshadow",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "60" }]
+    },
+    {
+      "label": "Gemstone",
+      "name": "Ruby",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "60" }]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "navani-kholin",
+      "role": "Artifabrian",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "60" }]
+    }
+  ]
+}

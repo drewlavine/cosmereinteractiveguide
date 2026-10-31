@@ -1,0 +1,23 @@
+{
+  "intro": [
+    {
+      "text": "An Alethi accent of the region around the Sunmaker Mountains, in central Alethkar, spoken in a slow drawl.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "16" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "In a Koron accent, \"to\" sounds like \"ta\". No town or region near the mountains has a name like Koron. Rial speaks with the accent.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "16" }]
+    }
+  ],
+  "history": [],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "rial",
+      "role": "speaker",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "16" }]
+    }
+  ]
+}

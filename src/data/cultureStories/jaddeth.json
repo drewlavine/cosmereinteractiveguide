@@ -1,0 +1,77 @@
+{
+  "intro": [
+    {
+      "text": "The god of Shu-Dereth, an unforgiving deity said to rule from a throne beneath the earth.",
+      "revealedIn": [{ "book": "elantris", "chapter": "3" }]
+    },
+    {
+      "text": "The god of Shu-Dereth, an unforgiving deity said to rule from a throne beneath the earth. Sel's oldest known text, the poem Wyrn the King, names him only as a minor god caring for the rocks underground.",
+      "revealedIn": [{ "book": "elantris", "chapter": "43" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "The Derethi hold that Jaddeth is asleep beneath the earth. Once all mankind is united under one nation, he will wake and rise to rule.",
+      "revealedIn": [{ "book": "elantris", "chapter": "3" }]
+    },
+    {
+      "text": "The souls of those who hated Jaddeth in life are believed to become Svrakiss.",
+      "revealedIn": [{ "book": "elantris", "chapter": "6" }]
+    },
+    {
+      "text": "The Wyrn is held to be his prophet, the only person who serves him and speaks with him directly, and each Wyrn's decrees are said to be Jaddeth's own words.",
+      "revealedIn": [{ "book": "elantris", "chapter": "8" }]
+    },
+    {
+      "text": "Jaddeth is said to reward ambition and to have no tolerance for ignorance.",
+      "revealedIn": [{ "book": "elantris", "chapter": "19" }]
+    },
+    {
+      "text": "The Derethi call him Lord Jaddeth; cutting his name down to Ja is thought vulgar. They believe him to be the only god, all-powerful, the maker of mankind and still able to work miracles.",
+      "revealedIn": [{ "book": "elantris", "chapter": "45" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Origins",
+          "revealedIn": [{ "book": "elantris", "chapter": "43" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "In Wyrn the King, Jaddeth is only a minor god who looks after the rocks beneath the earth. Dereth read Keseg's teaching to mean mankind should serve a single monarch, and over the following centuries Fjordell Wyrns and priests reworked historical texts so that Fjorden seemed always to have served Jaddeth with holy purpose.",
+          "revealedIn": [{ "book": "elantris", "chapter": "43" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Grounds for conquest",
+          "revealedIn": [{ "book": "elantris", "chapter": "45" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "His promised return is the reason given for the Fjordell Empire's aim of conquering all mankind. Arelon and Teod, heathen nations that have used AonDor and resisted Fjorden, count as dangers to the empire and to what Jaddeth wants.",
+          "revealedIn": [{ "book": "elantris", "chapter": "45" }]
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Worshipped in",
+      "name": "Shu-Dereth",
+      "revealedIn": [{ "book": "elantris", "chapter": "3" }]
+    },
+    {
+      "label": "Prophet",
+      "name": "The Wyrn",
+      "revealedIn": [{ "book": "elantris", "chapter": "8" }]
+    }
+  ],
+  "people": []
+}

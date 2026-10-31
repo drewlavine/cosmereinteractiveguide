@@ -1,0 +1,68 @@
+{
+  "intro": [
+    {
+      "text": "A game of throws played on Roshar. Kaladin and his family played it during his youth in Hearthstone.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "25" }]
+    },
+    {
+      "text": "A Vorin betting game played with stones, common in gambling dens and among darkeyes. Players bet only on the hand they hold once all the throws and draws are done.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "i-6" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Three throws are known: the tower, three pairs, which loses outright; the queen, two trios, which wins outright; and the butcher, a trio and a pair, which may win or lose depending on the other throws.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "25" }]
+    },
+    {
+      "text": "The game uses stones, with throws, tosses and draws. Because Vorins fear foretelling the future, nobody bets on the parts left to chance, only on the hand they end with.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "i-6" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Players",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "25" },
+            { "book": "way-of-kings", "chapter": "i-6" },
+            { "book": "rhythm-of-war", "chapter": "12" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Kaladin played breakneck with his family as a boy in Hearthstone.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "25" }]
+        },
+        {
+          "text": "In a Bornwater firemoss den, Szeth watched people play breakneck and thought the Vorin attitude to the game odd.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "i-6" }]
+        },
+        {
+          "text": "In disguise, Shallan was so good at breakneck, played for chips in Urithiru's bars, that few would face her. She got caught up in a game at Jez's Duty during a wedding celebration.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "12" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "kaladin",
+      "role": "player",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "25" }]
+    },
+    {
+      "characterId": "szeth",
+      "role": "observer",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "i-6" }]
+    },
+    {
+      "characterId": "shallan-davar",
+      "role": "player",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "12" }]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "intro": [
+    {
+      "text": "A plant native to Idris.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "1" }]
+    }
+  ],
+  "description": [],
+  "history": [],
+  "facts": [
+    {
+      "label": "Native to",
+      "name": "Idris",
+      "placeId": "idris",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "1" }]
+    }
+  ],
+  "people": []
+}

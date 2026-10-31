@@ -1,0 +1,62 @@
+{
+  "intro": [
+    {
+      "text": "A Rosharan guessing game in which players bet on who can best work out how one player, the mink, has laid out a set of hidden tiles.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "40" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "The mink lays out ten distinct tiles or tokens: nine face down in a triangle and the tenth, the seed, face up. The others try to copy the hidden pattern by asking questions, peeking and guessing, and some rules force the mink to give away clues. A player's call ends the round, and the layout is turned over. The mink and the closest guesser split the pot, the mink's share depending partly on how long the round lasted.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "40" }]
+    },
+    {
+      "text": "With nothing left to chance, pieces involves no attempt to guess the future, so it is one of the few betting games the Vorin church allows. Alethi soldiers often play it, and one version uses the ten Alethi highprinces as its tokens.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "40" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "In Urithiru",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "40" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "In the common room of Sebarial's barracks, Veil came upon a game of pieces among Vathah, Gaz, Red and Shob, with Vathah as mink. After just a few rounds Shob called the finish, to Gaz and Red's annoyance, and Vathah was amazed when Veil easily worked out the exact layout. When Gaz ran out of spheres, the men started playing for ends instead.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "40" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "vathah",
+      "role": "player",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "40" }]
+    },
+    {
+      "characterId": "gaz",
+      "role": "player",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "40" }]
+    },
+    {
+      "characterId": "red-roshar",
+      "role": "player",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "40" }]
+    },
+    {
+      "characterId": "shob",
+      "role": "player",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "40" }]
+    },
+    {
+      "characterId": "shallan-davar",
+      "role": "as Veil",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "40" }]
+    }
+  ]
+}

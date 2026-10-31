@@ -1,0 +1,47 @@
+{
+  "intro": [
+    {
+      "text": "An old fisherman who works the bay of T'Telir by night.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "53" }],
+      "fallback": true
+    },
+    {
+      "text": "A half-mad old fisherman from the Idrian dock slums of T'Telir, who pulls a strange sword from the bay.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "54" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Fishing the bay",
+          "revealedIn": [
+            { "book": "warbreaker", "chapter": "53" },
+            { "book": "warbreaker", "chapter": "54" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Chapps fished the bay at night to avoid paying a tariff, and slumlords sometimes paid him to weigh down bodies and sink them there.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "53" }]
+        },
+        {
+          "text": "One night a voice in his head, which he took for the sea talking to him as it often did, told him where to cast his net. He hauled up a black sword in a silver sheath; it easily swayed his unsteady mind, asking whether he wanted to destroy evil, and he brought it ashore.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "54" }]
+        },
+        {
+          "text": "Vivenna tracked the sword down in a slum tenement, where she found it among several bodies, Chapps's among them.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "54" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": [
+    {
+      "text": "Not quite sane, he often hears the sea 'talking' to him.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "54" }]
+    }
+  ]
+}

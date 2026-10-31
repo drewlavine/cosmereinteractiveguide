@@ -89,6 +89,31 @@
           ]
         }
       ]
+    },
+    {
+      "title": [
+        {
+          "text": "The imprisonment",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "87" },
+            { "book": "wind-and-truth", "chapter": "129" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Melishi brought a gemstone to a meeting between Ba-Ado-Mishram and Radiants seeking peace. He hesitated, but Honor urged him to proceed, and the capture stripped the singers of their forms. Melishi said Honor had promised lasting peace.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "87" }]
+        },
+        {
+          "text": "After the capture, Melishi entered a perpendicularity into the Spiritual Realm with the prison and became lost there.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "87" }]
+        },
+        {
+          "text": "Shallan, Renarin and Rlain found Melishi's body beside Ba-Ado-Mishram's gemstone prison in a room within the Spiritual Realm.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "129" }]
+        }
+      ]
     }
   ],
   "appearance": [],

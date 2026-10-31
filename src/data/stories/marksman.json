@@ -1,0 +1,61 @@
+{
+  "intro": [
+    {
+      "text": "A bank robber in Elendel, also called Marks, with known ties to the Set.",
+      "revealedIn": [{ "book": "shadows-of-self", "chapter": "2" }]
+    },
+    {
+      "text": "A showy bank robber in Elendel, also called Marks: a self-styled gentleman rogue in a demon mask whom the poor treat as a hero, with known ties to the Set.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "alloy-of-law", "chapter": "17" },
+            { "book": "shadows-of-self", "chapter": "3" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The First Union Bank",
+          "revealedIn": [
+            { "book": "shadows-of-self", "chapter": "2" },
+            { "book": "shadows-of-self", "chapter": "3" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Three days after the date Wax had predicted, Marks robbed the First Union Bank in broad daylight and fled with a sack of banknotes. Wax chased him across the city with Allomancy, shielding bystanders from his gunfire, and shot him in the shoulder. Near the Breakouts Wax was thrown by the sight of someone who looked like Bloody Tan in the crowd, and Marks got away.",
+          "revealedIn": [{ "book": "shadows-of-self", "chapter": "2" }]
+        },
+        {
+          "text": "Marks hid with friends in the slums, but Wayne, disguised as a local, followed one of them to the hideout, knocked Marks out inside a speed bubble and carried him off. As they prepared to take him in, a hidden assassin killed him with crossbow bolts; Marasi shot the assassin when he tried to take her hostage.",
+          "revealedIn": [{ "book": "shadows-of-self", "chapter": "3" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Bushy eyebrows and large lips. On a job he wears red clothes and an old painted wooden busker's mask of a black-faced, white-tusked demon, and carries no metal an Allomancer could Push.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "alloy-of-law", "chapter": "17" },
+            { "book": "shadows-of-self", "chapter": "3" }
+          ]
+        }
+      ]
+    }
+  ],
+  "personality": [
+    {
+      "text": "He sees himself as a gentleman rogue and loves his fame, robbing in daylight and escaping along the busiest streets. The poor of the Breakouts call him a hero, though some quietly squeeze him for their silence.",
+      "revealedIn": [{ "book": "shadows-of-self", "chapter": "3" }]
+    }
+  ]
+}

@@ -507,6 +507,10 @@ function Timeline({
   const worldOpen = !!cardWorld && worldDialog
   const cardState =
     cardWorld && worldStateAt(events, canSee, current, cardWorld.id)
+  const zoomIntoWorld = () => {
+    setWorldDialog(false)
+    setZoomIn((n) => n + 1)
+  }
   if (worldDialog && !cardWorld) setWorldDialog(false)
   // The cards over the scene would show through the dialog's globe window.
   const underDialog = worldOpen ? { visibility: 'hidden' as const } : undefined
@@ -619,6 +623,7 @@ function Timeline({
                     setPanel(undefined)
                     setWorldDialog(true)
                   }}
+                  onZoom={cardMap ? zoomIntoWorld : undefined}
                 />
               )
             }
@@ -865,14 +870,7 @@ function Timeline({
           onClose={() => setWorldDialog(false)}
           dockRef={setDockEl}
           credit={cardMap?.credit}
-          onZoom={
-            cardMap
-              ? () => {
-                  setWorldDialog(false)
-                  setZoomIn((n) => n + 1)
-                }
-              : undefined
-          }
+          onZoom={cardMap ? zoomIntoWorld : undefined}
         />
       )}
 

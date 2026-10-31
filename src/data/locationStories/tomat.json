@@ -1,0 +1,42 @@
+{
+  "intro": [
+    {
+      "text": "A city of Alethkar, in the Sadeas princedom.",
+      "revealedIn": ["oathbringer"]
+    }
+  ],
+  "description": [
+    {
+      "text": "It stands in northwestern Alethkar, close to where the Alethi, Veden and Herdazian borders meet, at the Sadeas princedom's southwestern tip with the Vamah princedom just to the south. A large river runs past it from the Sunmaker Mountains, forming stretches of the border between Jah Keved and both Alethkar and Herdaz before reaching the sea at a bay in Herdaz close to the Reshi Isles.",
+      "revealedIn": ["oathbringer"]
+    },
+    {
+      "text": "Tomat's city wall had been broken for generations by the time of the True Desolation, and the gap was notorious among the townsfolk.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "i-10" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Under singer occupation",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "i-10" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Singers occupied Tomat during the invasion of Alethkar that began in 1174, and its people put up little resistance.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "i-10" }]
+        },
+        {
+          "text": "In 1175, the coalition sent scouts across Alethkar. Kara surveyed the area around Tomat, noting where singer troops were placed and the state of the buildings. She reported the city in good shape after its quick surrender, and saw that the singers had begun mending the wall.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "i-10" }]
+        },
+        {
+          "text": "Hesina's father lived in Tomat and ran a business there, and she feared his stubborn nature might have made him defy the singers.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "i-10" }]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "intro": [
+    {
+      "text": "A small mining region of Jah Keved, on Roshar. Its people are called Bav or Bavlanders.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "i-3" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "A dusty land rich in ore, where mining villages with large numbers of transient workers provide most of the work. Even so, its towns are small: Ironsway, one of the bigger ones, has only a few hundred homes and three taverns.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "i-3" }]
+    },
+    {
+      "text": "Outsiders call its people Bavlanders, but they call themselves Bav. Though Vorin, they have a culture distinct from the Veden one, with their own language in several dialects.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "i-6" }]
+    },
+    {
+      "text": "Spoken Bav sounds as though the speaker's mouth is full of pebbles. Tyn trained Shallan in the accent, which is a good one for anyone hoping to avoid notice.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "28" }]
+    },
+    {
+      "text": "The rest of Jah Keved largely ignores Bavland, and even the highprince with authority over it stays away; the Alethi dismiss it as a backwater.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "i-3" },
+            { "book": "rhythm-of-war", "chapter": "29" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": []
+}

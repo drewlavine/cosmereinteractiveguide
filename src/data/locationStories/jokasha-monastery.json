@@ -1,0 +1,52 @@
+{
+  "intro": [
+    {
+      "text": "A monastery in Jah Keved that houses the Devotary of the Mind, an order of scholarly ardents.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "i-2" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "It is seen as a peaceful and desirable post, and many ardents spend half their lives seeking a transfer there.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "i-2" }]
+    },
+    {
+      "text": "It stands in forest on the Horneater Peaks' western slopes, shielded from the worst highstorms. The milder storms keep the area lush and humid, though rain falls only when a highstorm passes.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "i-2" }]
+    },
+    {
+      "text": "It has a lower and an upper building joined by a tree-lined path, both beside the forest, where ardents may study outdoors. The upper building holds a library off a long hallway open to the air, with open windows and reading desks.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "i-2" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The Everstorm",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "i-2" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Despite its calm reputation, Jokasha's ardents squabbled and jockeyed for position more than outsiders imagined. The Everstorm made things worse: it struck the once-sheltered site and destroyed part of the forest, setting off heated debate among the ardents and master scholars. Some, like Bettam, argued for moving the monastery before the whole area was lost, and the ardents measured the new storm's wind and travel speeds.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "i-2" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Dawnchant research",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "i-2" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Ardents at Jokasha studied and translated the Dawnchant, work that began before the Everstorm when Navani sent a key drawn from Dalinar's visions. Ellista showed that the Dawnchant books did not all come from one place, as Fiksin claimed, but used a scholars' script common across Roshar, and Urv saw that the Covad Fragment used Dawnchant to spell out another language by sound.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "i-2" }]
+        }
+      ]
+    }
+  ]
+}

@@ -24,6 +24,26 @@
     }
   ],
   "history": [],
+  "sections": [
+    {
+      "title": "Lightweaver armor",
+      "items": [
+        {
+          "text": "Creationspren form Lightweaver Shardplate.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "13" }]
+        },
+        {
+          "text": "Once bonded as armor, they can convey feelings and impressions to their Radiant.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "28" }]
+        },
+        {
+          "text": "They change shape freely, often resembling Shadesmar's beads, and can model a form for ordinary beads to follow.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "31" }]
+        }
+      ],
+      "parts": []
+    }
+  ],
   "facts": [],
   "people": []
 }

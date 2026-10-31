@@ -1,0 +1,98 @@
+{
+  "intro": [
+    {
+      "text": "A noble house of Elendel headed by Jackstom Harms, father of Steris.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "2" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "The family is descended from the Lord Mistborn, and Allomancy runs strong in its blood. That is why the Vanishers went after Steris, Marasi and Armal.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "7" }]
+    },
+    {
+      "text": "Steris has several cousins besides Armal.",
+      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "4" }]
+    },
+    {
+      "text": "Under Jackstom the house became rich enough to shore up one of Elendel's largest houses, yet its name carried little weight among the city's elite. With no male heir, the family looked to marriage to raise its standing.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "alloy-of-law", "chapter": "2" },
+            { "book": "bands-of-mourning", "chapter": "31" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Besides its wealth, the family has land in the Outer Estates south of Elendel and a mansion in the city, home to Steris and her father.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "shadows-of-self", "chapter": "12" },
+            { "book": "lost-metal", "chapter": "31" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Alliance with House Ladrian",
+          "revealedIn": [
+            { "book": "alloy-of-law", "chapter": "2" },
+            {
+              "all": [
+                { "book": "alloy-of-law", "chapter": "2" },
+                { "book": "bands-of-mourning", "chapter": "31" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Lord Harms met Wax to settle a marriage between him and Steris, bringing along her cousin Marasi. Steris saw the match as good for both sides: House Ladrian needed money, and House Harms would gain from the Ladrian name.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "2" }]
+        },
+        {
+          "text": "The alliance became official when Wax and Steris married in 342.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "alloy-of-law", "chapter": "2" },
+                { "book": "bands-of-mourning", "chapter": "31" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "jackstom-harms",
+      "role": "house lord",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "2" }]
+    },
+    {
+      "characterId": "steris-harms",
+      "role": "member",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "2" }]
+    },
+    {
+      "characterId": "marasi-colms",
+      "role": "member",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "7" }]
+    },
+    {
+      "characterId": "armal",
+      "role": "member",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "7" }]
+    }
+  ]
+}

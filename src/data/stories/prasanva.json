@@ -1,0 +1,185 @@
+{
+  "intro": [
+    {
+      "text": "An elderly Ghostblood in Bilming, code-named TwinSoul: an aetherbound who can form objects and who helps work out Autonomy's plans.",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "40" }]
+    },
+    {
+      "text": "Shri Prasanva, a Ghostblood code-named TwinSoul, and aetherbound of Silajana; a former ruler on the world of Dhatri, exiled for his safety.",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "51" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Exile from Dhatri",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "51" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Prasanva once lived on Dhatri, where he bonded the aether Silajana and held the high titles of Grand Aetherbound of the twelve kingdoms and Raj of the Coriander Court. After a being called the dark aether struck his world, Silajana sent him into exile for his safety, and he joined the Ghostbloods to gather allies and resources against it.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "51" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Bilming",
+          "revealedIn": [
+            { "book": "lost-metal", "chapter": "40" },
+            { "book": "lost-metal", "chapter": "42" },
+            { "book": "lost-metal", "chapter": "51" },
+            { "book": "lost-metal", "chapter": "epilogue-1" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "In 348 PC Prasanva was in Bilming, trying to uncover Autonomy's plans. When Moonlight brought Marasi to the Ghostbloods' hideout, he served her tea and snacks and used records of underground blasts and enemy activity to pick three ways into the caverns. He urged them to consult Kelsier, explaining that Autonomy's main plan was an invasion, with the Set's bomb a gambit.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "40" }]
+        },
+        {
+          "text": "Kelsier sent him, Marasi and Moonlight to stop the Set, granting them the Ghostbloods' stores of purified Dor. Prasanva traded his Bilming suit for a loose uniform with a yellow sash, took a curved sword and a backpack of water for his powers, and hid under a fisherman's raincloak. On the train he explained his limits to Marasi, and they planned their way in.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "42" }]
+        },
+        {
+          "text": "Inside, they found a projector showing a moving image of a ruined Elendel, part of a hoax. Prasanva formed a ladder down an elevator shaft into the caverns, where they watched Set scientists, Gave Entrone among them, make a spike without killing the victim. He disagreed with Marasi's choice to save the captives but helped anyway, and was caught in a slowness bubble during the fight.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "51" }]
+        },
+        {
+          "text": "With soldiers closing in, Prasanva used a jar of Dor to grow a roseite wall, then a towering roseite construct around himself. He gave the soldiers a chance to surrender; when they refused, he charged through them with a roseite mace and led the captives out to freedom.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "51" }]
+        },
+        {
+          "text": "After the Set's defeat, Prasanva offered to bring Marasi into the Ghostbloods and mentor her. She turned him down, though she offered to help find the missing Moonlight.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "epilogue-1" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Prasanva looks like a man in his eighties, with deep tan, liver-spotted skin, a short powder-white beard and long moustaches. Still tall and unbowed, he is a little unsteady and often grips nearby things for balance, and he needs glasses to read.",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "44" }]
+    },
+    {
+      "text": "Part of one palm has been replaced by roseite, leaving the bones visible, and like every Ghostblood he bears a tattoo of three interlocking diamonds. In Bilming he wore suits in the local fashion, but he also dresses in a loose uniform with a bright yellow sash.",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "44" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "He worships the aethers, Silajana above all, and holds them equal to Adonalsium or even older. He preaches his faith openly, and it requires him to offer even his enemies a chance to repent before a fight.",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "51" }]
+    },
+    {
+      "text": "Prasanva is kind and unfailingly polite, even to those who refuse him, and admires people who keep to their own codes. A fine mathematician, he likes to show off his powers, toys with his moustaches when deep in thought, and dislikes being unable to see someone's face. He keeps the Ghostbloods' tenets: hide their knowledge, protect Scadrial, and trust one another.",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "epilogue-1" }]
+    }
+  ],
+  "abilities": [
+    {
+      "title": [
+        {
+          "text": "Equipment",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "40" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "He sometimes carries a slightly curved sword in a golden sheath, though how well he uses it is unknown. On missions he wears a backpack full of the water his abilities need.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "40" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Aetherbound",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "51" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "As Silajana's aetherbound, Prasanva shapes roseite into constructs: spectacles, a pen, a three-dimensional map, simple objects and, fueled by purified Dor, a twelve-foot suit of armor. He cannot make guns, not understanding how they work. On worlds like Scadrial his constructs must stay in contact with him or crumble to powder and mist, and forming them draws water from his body.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "51" }]
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "title": [
+        {
+          "text": "Silajana",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "epilogue-1" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Prasanva reveres Silajana as a god and sees himself as his agent. Silajana often speaks directly into his mind, guiding his choices and missions, and Prasanva values Silajana's praise above all else.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "epilogue-1" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Kelsier",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "epilogue-1" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Kelsier counts Prasanva an old friend and is respectful toward Silajana; Prasanva calls him \"my Lord\" and greatly respects him. He joined Kelsier to win allies and resources for his coming fight against the dark aether.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "epilogue-1" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Moonlight",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "epilogue-1" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Prasanva is very fond of Moonlight, who has shared many missions with him, and he delights in her wisecracks. She once offered to help him return to Dhatri, but he refused it as too dangerous. After she was changed, he resolved to try to restore her old self.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "epilogue-1" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Other Ghostbloods",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "epilogue-1" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "He gets on well with most of the Scadrian Ghostbloods and likes Kaise, who worked with him in Bilming. He has little liking for Dlavil, whose brutality he disapproves of and whose face he cannot read.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "epilogue-1" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Marasi",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "epilogue-1" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Though they knew each other only briefly, Prasanva grew fond of Marasi and enjoyed showing her his powers, while she liked him but thought him somewhat fragile. Saddened yet impressed by her refusal to join, he argued against killing her for what she had seen.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "epilogue-1" }]
+        }
+      ]
+    }
+  ]
+}

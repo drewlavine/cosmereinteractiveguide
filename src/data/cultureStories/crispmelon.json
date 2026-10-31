@@ -1,0 +1,23 @@
+{
+  "intro": [
+    {
+      "text": "A fruit that grows on Roshar.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "15" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Gallant, Dalinar Kholin's Ryshadium, is given crispmelons as a reward for good behaviour, but eats them only when he thinks he has earned them.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "15" }]
+    }
+  ],
+  "history": [],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "gallant",
+      "role": "eats them",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "15" }]
+    }
+  ]
+}

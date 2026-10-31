@@ -1,0 +1,49 @@
+{
+  "intro": [
+    {
+      "text": "The capital of Idris: a quiet place of just a few thousand people, hardly more than a village beside the great cities of other lands.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "1" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Only a short stretch of summer is warm; the rest of the year is cold. Homes are thatched cottages built with sturdy whitewashed stone, and the dirt roads turn to mud.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "1" }]
+    },
+    {
+      "text": "The royal palace is a broad building of one storey, with squat walls under a peaked wooden roof. Its stables open onto a courtyard of packed earth with a gate to the outside, and crowds often haggle near the main door. It is big enough to seem a little showy, which people forgive because it also serves as a meeting hall.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "1" }]
+    },
+    {
+      "text": "Besides housing the royal family, the palace is where the kingdom's leaders gather and its affairs are run.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "2" }]
+    },
+    {
+      "text": "The town lies in a valley among the Idrian mountains, several weeks' travel from the southern farms, which some call the lower farms.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "28" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The treaty with Hallandren",
+          "revealedIn": [
+            { "book": "warbreaker", "chapter": "1" },
+            { "book": "warbreaker", "chapter": "2" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Some three centuries after the Manywar, General Yarda brought a bright pink letter to Bevalis: Idris was expected to send a princess south to wed the God King of Hallandren.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "1" }]
+        },
+        {
+          "text": "King Dedelin chose his youngest daughter, Siri, and sent her off with soldiers, a steward, a few serving boys and the finest carriage Idris owned.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "2" }]
+        }
+      ]
+    }
+  ]
+}

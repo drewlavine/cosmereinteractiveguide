@@ -146,6 +146,27 @@
           "revealedIn": [{ "book": "rhythm-of-war", "chapter": "90" }]
         }
       ]
+    },
+    {
+      "title": [
+        {
+          "text": "Helping without a bond",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "67" },
+            { "book": "wind-and-truth", "chapter": "136" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Notum followed Adolin into the Physical Realm to help defend Azimir without bonding a Radiant. He recovered his awareness unusually quickly, and Adolin put him in charge of the messenger corps.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "67" }]
+        },
+        {
+          "text": "In the final defense of Azimir's throne room, Notum fought in Shardplate and came to Adolin's aid against a Fused.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "136" }]
+        }
+      ]
     }
   ],
   "appearance": [

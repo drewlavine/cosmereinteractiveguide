@@ -1,0 +1,29 @@
+{
+  "intro": [
+    {
+      "text": "A region of Shadesmar.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "102" }]
+    },
+    {
+      "text": "A region of Shadesmar between the Sea of Souls and the Sea of Lost Lights, matching the Southern Depths in the Physical Realm.",
+      "revealedIn": [{ "all": ["way-of-kings", "oathbringer"] }]
+    }
+  ],
+  "description": [],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "History",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "102" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Early in the True Desolation, Voidspren warships emerged to the west of the Nexus of Imagination and sailed northeast to seize Cultivation's Perpendicularity.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "102" }]
+        }
+      ]
+    }
+  ]
+}

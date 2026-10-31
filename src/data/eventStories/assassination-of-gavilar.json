@@ -1,0 +1,117 @@
+{
+  "intro": [
+    {
+      "text": "The killing of King Gavilar by Szeth on the listener leaders' orders, which led to the War of Reckoning.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "1" }]
+    }
+  ],
+  "description": [],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Gavilar's preparations",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "prologue" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Gavilar sought immortality as a Herald, using the Sons of Honor and dealings with offworld powers to pursue it.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "prologue" }]
+        },
+        {
+          "text": "Before the feast, he searched the Stormfather's visions for the words he thought would make him a Herald.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "prologue" }]
+        },
+        {
+          "text": "He steered Dalinar toward drinking to keep him out of his plans.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "prologue" }]
+        },
+        {
+          "text": "Thaidakar confronted him through a seon, demanding that he hand over Restares.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "prologue" }]
+        },
+        {
+          "text": "Gavilar threatened Restares and learned that Thaidakar wanted Ba-Ado-Mishram; he also showed the Heralds his successful experiments with Light.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "prologue" }]
+        },
+        {
+          "text": "He welcomed Taravangian among new Sons of Honor recruits and discussed bringing the Voidbringers back.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "prologue" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The listeners' decision",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "prologue" },
+            { "book": "way-of-kings", "chapter": "prologue" },
+            { "book": "wind-and-truth", "chapter": "prologue" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Eshonai told the Five that Gavilar intended to restore their gods, and they ordered his death.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "prologue" }]
+        },
+        {
+          "text": "Szeth fought Gavilar and brought down the balcony beneath him.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "prologue" }]
+        },
+        {
+          "text": "Gavilar's final request about the most important words was directed at the Stormfather, but Szeth believed it was meant for him.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "prologue" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The Vengeance Pact",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "15" },
+                { "book": "oathbringer", "chapter": "105" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Elhokar and the highprinces swore vengeance, beginning a war against the listeners that lasted years.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "15" },
+                { "book": "oathbringer", "chapter": "105" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "gavilar-kholin",
+      "role": "victim",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "1" }]
+    },
+    {
+      "characterId": "szeth",
+      "role": "assassin",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "prologue" }]
+    },
+    {
+      "characterId": "eshonai",
+      "role": "witness",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "prologue" }]
+    }
+  ]
+}

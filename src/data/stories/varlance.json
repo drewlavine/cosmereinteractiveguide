@@ -1,0 +1,71 @@
+{
+  "intro": [
+    {
+      "text": "Governor of Elendel, a former military man with several medals whose origins few people know.",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "2" }]
+    },
+    {
+      "text": "Governor of Elendel after Claude Aradel, who dismissed his vice governor Adawathwyn after the Set's attack on the city.",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "epilogue-2" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Early life",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "2" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Before becoming governor, Varlance served in the military and was awarded several medals, though few people knew what they were for or how he had earned them.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "2" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Governor of Elendel",
+          "revealedIn": [
+            { "book": "lost-metal", "chapter": "31" },
+            { "book": "lost-metal", "chapter": "67" },
+            { "book": "lost-metal", "chapter": "73" },
+            { "book": "lost-metal", "chapter": "epilogue-2" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "When Steris asked for a select council, the governor checked with his vice governor before agreeing, then invited three of his cronies but not her, and saw nothing wrong with letting Admiral Daal sit in in return for the use of a pleasure cruiser.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "31" }]
+        },
+        {
+          "text": "During the evacuation of Elendel, Varlance brought Steris word that Bilming had sent a single warship toward the city. He wanted to flee, but she talked him into staying to help clear the areas nearest the bay and prepare for a tsunami.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "67" }]
+        },
+        {
+          "text": "Directing the work at the docks beside Steris, Varlance marveled at how thoroughly she had planned and told her that her talents had been wasted until now. From the city center the two watched the distant explosion.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "73" }]
+        },
+        {
+          "text": "Once the danger had passed and rebuilding began, Varlance dismissed Adawathwyn and offered Steris the post of Elendel's Disaster Preparation Officer, thanking her for making him look like a hero.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "epilogue-2" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "A military man who wears a cravat and, following the fashion of 348 PC, powders his face a ghostly white.",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "epilogue-2" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Some find him haughty and too taken with his war medals, others a pushover, and he pictures constables as gruff types. For much of his term he leaned on Adawathwyn and others and seemed unsure of his own powers, but he grew decisive about handing work to capable people.",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "epilogue-2" }]
+    }
+  ]
+}

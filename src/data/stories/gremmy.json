@@ -1,0 +1,43 @@
+{
+  "intro": [
+    {
+      "text": "One of three islanders on Diggen's Point whose help Tress's plan to get off the island cannot do without.",
+      "revealedIn": [{ "book": "tress", "chapter": "6" }],
+      "fallback": true
+    },
+    {
+      "text": "A squat, sometimes nervous man of Diggen's Point who works under Sor and is often found at Brick's Tavern.",
+      "revealedIn": [{ "book": "tress", "chapter": "7" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Diggen's Point",
+          "revealedIn": [
+            { "book": "tress", "chapter": "7" },
+            { "book": "tress", "chapter": "epilogue" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Like nearly everyone on Diggen's Point, Gremmy was forbidden to leave. When Lem quietly called in old favours, Gremmy, Sor and Brick turned up at Tress's door insisting on helping. Gremmy rolled a sixth keg out with the five barrels of ale, with Gret and a lining of feathers inside, and burst into tears when the inspector found her, though all of them knew the inspector was Tress.",
+          "revealedIn": [{ "book": "tress", "chapter": "7" }]
+        },
+        {
+          "text": "When Tress came back to the island as captain of the Two Cups, she made a point of thanking Gremmy and the others who had helped her escape.",
+          "revealedIn": [{ "book": "tress", "chapter": "epilogue" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Short and squat with a flat face, and a haircut that looks chosen for being cheap. He and his tall boss Sor are as different as can be.",
+      "revealedIn": [{ "book": "tress", "chapter": "7" }]
+    }
+  ],
+  "personality": []
+}

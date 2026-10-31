@@ -1,0 +1,148 @@
+{
+  "intro": [
+    {
+      "text": "An Elendel constable who brings the casualty report after bandits raid a wedding dinner.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "6" }],
+      "fallback": true
+    },
+    {
+      "text": "A senior Elendel constable who leads the hunt for the Marksman and is quick to scold Marasi for overstepping her post.",
+      "revealedIn": [{ "book": "shadows-of-self", "chapter": "4" }]
+    },
+    {
+      "text": "An Elendel constable and Marasi's bitter rival, resentful that she got the post of Aradel's assistant he had hoped to fill.",
+      "revealedIn": [{ "book": "shadows-of-self", "chapter": "14" }]
+    },
+    {
+      "text": "A constable-general in Elendel, who took over the post from Aradel on Marasi's recommendation.",
+      "revealedIn": [{ "book": "shadows-of-self", "chapter": "epilogue" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Under Brettin",
+          "revealedIn": [
+            { "book": "alloy-of-law", "chapter": "6" },
+            { "book": "alloy-of-law", "chapter": "20" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "After bandits raided a wedding dinner, Reddi delivered the casualty report, which showed Lord Peterus as the only civilian killed.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "6" }]
+        },
+        {
+          "text": "Once the Vanishers were finally dealt with, Reddi let Wax know that Brettin had decided not to charge Wayne with posing as an officer of the law.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "20" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Rivalry with Marasi",
+          "revealedIn": [
+            { "book": "shadows-of-self", "chapter": "14" },
+            { "book": "shadows-of-self", "chapter": "4" },
+            { "book": "shadows-of-self", "chapter": "12" },
+            { "book": "shadows-of-self", "chapter": "26" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "In the years that followed, Brettin retired and Aradel replaced him. Reddi hoped to become Aradel's assistant, but Aradel chose Marasi, wanting someone for paperwork. Many constables took it as a snub to Reddi, and a deep hostility grew between him and Marasi, made worse because he had been her superior and his friends took his side.",
+          "revealedIn": [{ "book": "shadows-of-self", "chapter": "14" }]
+        },
+        {
+          "text": "Reddi led the investigation into the Marksman, wrongly expecting him to fall back to a Seventh Octant hideout after hitting the First Union. When the governor's brother was murdered, Reddi was sent to secure the scene and went at once to find Wax.",
+          "revealedIn": [{ "book": "shadows-of-self", "chapter": "4" }]
+        },
+        {
+          "text": "With the Marksman dead, Reddi's men handled the cleanup and he told Wax about the murder. He scolded Marasi for joining a chase her post did not allow, but she talked him into letting her report to Aradel, and so went with them to the crime scene.",
+          "revealedIn": [{ "book": "shadows-of-self", "chapter": "4" }]
+        },
+        {
+          "text": "At one interrogation Marasi stopped Reddi from roughing up a witness, warning it would wreck their case; he tried to brand her disloyal and was rebuked by Aradel. Afterward Aradel had Marasi lead the questioning at the Church of the Survivor and sent Reddi off to fetch warm drinks, deliberately needling him.",
+          "revealedIn": [{ "book": "shadows-of-self", "chapter": "12" }]
+        },
+        {
+          "text": "Reddi encouraged Aradel after his appointment as Lord High Constable and helped hold back the crowd at the governor's speech. Warned by Marasi of a Soother in the crowd, he led a squad to seize him, but they were swamped; Marasi then took the Soother and a Rioter hostage, and Reddi's interrogation methods proved useful.",
+          "revealedIn": [{ "book": "shadows-of-self", "chapter": "26" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Constable-general",
+          "revealedIn": [
+            { "book": "shadows-of-self", "chapter": "epilogue" },
+            { "book": "bands-of-mourning", "chapter": "11" },
+            { "book": "bands-of-mourning", "chapter": "31" },
+            { "book": "bands-of-mourning", "chapter": "epilogue" },
+            { "book": "lost-metal", "chapter": "10" },
+            { "book": "lost-metal", "chapter": "38" },
+            { "book": "lost-metal", "chapter": "67" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "When Aradel became governor in place of Replar Innate, Reddi succeeded him as constable-general on Marasi's recommendation.",
+          "revealedIn": [{ "book": "shadows-of-self", "chapter": "epilogue" }]
+        },
+        {
+          "text": "When Marasi and Wayne sought a suspect gravekeeper's bank records, the banker telegraphed Reddi to check they were really constables. Reddi vouched for them and told the banker to check his pockets once Wayne had left.",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "11" }]
+        },
+        {
+          "text": "Reddi led the constables who took the captured members of the Set into custody to await trial.",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "31" }]
+        },
+        {
+          "text": "For two weeks afterward he and Marasi worked side by side on the Set prisoners' files, notes and interviews, so closely that she sometimes forgot how bad things had once been between them.",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "epilogue" }]
+        },
+        {
+          "text": "As constable-general of the Fourth Octant, Reddi heard Marasi's report on her latest case. He filed complaints about Wayne but thanked her for keeping him in line, and took the smuggling ledger and spikes she brought as she laid out a plan for a sting.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "10" }]
+        },
+        {
+          "text": "Steris gained entry to the governor's select council by hiring Reddi as a paid expert. When the politicians proposed drafting constables as soldiers, Reddi asked who would arrest the ones who refused.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "38" }]
+        },
+        {
+          "text": "During the evacuation of Elendel, Reddi warned Steris that the warship sent from Bilming was only hours away.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "67" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "A short, lean man with a large drooping moustache, always in a tidy constable's uniform on duty.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "alloy-of-law", "chapter": "6" },
+            { "book": "shadows-of-self", "chapter": "12" }
+          ]
+        }
+      ]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Reddi is scrupulously polite to Wax's face but sneers at him behind his back, and makes no secret of disliking some people, Marasi among them. He is known for beating confessions out of suspects and has little use for statistics, though he admits Marasi puts witnesses more at ease than he can.",
+      "revealedIn": [{ "book": "shadows-of-self", "chapter": "12" }]
+    },
+    {
+      "text": "Aradel considers him of little use unless he is irritated and eager to prove himself, and so quietly encouraged his rivalry with Marasi.",
+      "revealedIn": [{ "book": "shadows-of-self", "chapter": "12" }]
+    }
+  ]
+}

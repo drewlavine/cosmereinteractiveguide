@@ -1,0 +1,187 @@
+{
+  "intro": [
+    {
+      "text": "A lawnark aboard the ship Dynamic who is meant to be checking life support, and who deeply distrusts the ship's doctor, Chrysalis.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "22" }],
+      "fallback": true
+    },
+    {
+      "text": "A lawnark from the Grand Apparatus who serves as technician aboard the Dynamic.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "25" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Early life",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "25" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "On the Grand Apparatus he lived out of a trunk, moving from room to room. He has also visited Yolen.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "25" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Aboard the Dynamic",
+          "revealedIn": [
+            { "book": "isles-of-the-emberdark", "chapter": "22" },
+            { "book": "isles-of-the-emberdark", "chapter": "26" },
+            { "book": "isles-of-the-emberdark", "chapter": "30" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "He complained to Starling that he had once again found one of Chrysalis's spies in his room.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "22" }]
+        },
+        {
+          "text": "From the operations seat he tracked a distress beacon using the Knell and spotted an entity near the downed ship. He helped lock Captain Crow off the bridge, then worked with Leonore to bring the ship in for the rescue.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "26" }]
+        },
+        {
+          "text": "At Silverlight he got the ship landing clearance, and Starling sent him to guide the rescued Iriali family to their destination.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "30" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Captives of the Malwish",
+          "revealedIn": [
+            { "book": "isles-of-the-emberdark", "chapter": "38" },
+            { "book": "isles-of-the-emberdark", "chapter": "42" },
+            { "book": "isles-of-the-emberdark", "chapter": "46" },
+            { "book": "isles-of-the-emberdark", "chapter": "53" },
+            { "book": "isles-of-the-emberdark", "chapter": "55" },
+            { "book": "isles-of-the-emberdark", "chapter": "60" },
+            { "book": "isles-of-the-emberdark", "chapter": "epilogue" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "When Malwish guards seized Leonore as a deserter, he stood up to them.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "38" }]
+        },
+        {
+          "text": "Being of Invention's people, he could switch off the guards' cameras for a while. He was disturbed to learn Chrysalis could fake their voices, and begged Starling to do something about her, though her answer softened his hatred a little.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "42" }]
+        },
+        {
+          "text": "Among the crew's rejected escape plans was drugging the Scadrian pilots with his cooking. He and Leonore traded gentle teasing.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "46" }]
+        },
+        {
+          "text": "He suggested using the power-hungry Intensifier to cause a blackout that could set the crew free.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "53" }]
+        },
+        {
+          "text": "He was first to learn that Chrysalis had been caught, and told the others.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "55" }]
+        },
+        {
+          "text": "When the crew realised Chrysalis had been left behind, ZeetZi decided they had to go back for her, not from fondness but because she was crew. He gave covering fire during the rescue and was wounded.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "60" }]
+        },
+        {
+          "text": "After six months on Drominad, he told Starling the crew had resolved to free her from her manacles, and he was there when Dusk joined them as Navigator.",
+          "revealedIn": [
+            { "book": "isles-of-the-emberdark", "chapter": "epilogue" }
+          ]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Humanoid except for the white and yellow feathers on his head, brows and arms. Mostly bald, with dark brown skin, he wears trousers and suspenders with his shirtsleeves rolled up. His lodestar is shiny and barely marked.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "22" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Calm and formal in speech.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "42" }]
+    }
+  ],
+  "abilities": [
+    {
+      "title": [
+        {
+          "text": "Skills",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "60" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "He can work Scadrian technology without a lodestar, through electricity running into his body. He thinks himself a poor navigator, but is highly skilled with the rest of the ship. He can cook, mix poisons and fire a rifle.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "60" }]
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "title": [
+        {
+          "text": "Starling",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "42" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Her presence comforts him and he trusts her decisions; once the mutiny was over, no one named her captain sooner than he did. She presses him to treat Chrysalis as a person, not just one of the Sleepless.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "42" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Chrysalis",
+          "revealedIn": [
+            { "book": "isles-of-the-emberdark", "chapter": "23" },
+            { "book": "isles-of-the-emberdark", "chapter": "42" },
+            { "book": "isles-of-the-emberdark", "chapter": "60" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "He distrusts Chrysalis because the Sleepless once enslaved and experimented on the lawnarks of the Grand Apparatus.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "23" }]
+        },
+        {
+          "text": "Seeing one of her horde terrifies him, and he believes the Sleepless do not understand people.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "42" }]
+        },
+        {
+          "text": "He still distrusts her, but counts her as a fellow member of the crew.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "60" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Leonore",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "46" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "She teases him playfully about his vocabulary.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "46" }]
+        }
+      ]
+    }
+  ]
+}

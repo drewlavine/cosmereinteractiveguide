@@ -1,0 +1,134 @@
+{
+  "intro": [
+    {
+      "text": "A party Kelesina Shores held at her home in New Seran. Wax and Steris attended, sent to look into Kelesina and the nobles around her.",
+      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "13" }]
+    },
+    {
+      "text": "A party Kelesina Shores held at her New Seran home in 342 PC. There Wax learned more about the Set's doings and came away with both an unkeyed and an unsealed metalmind.",
+      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "16" }]
+    }
+  ],
+  "description": [],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Background",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "4" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "ReLuur, a kandra searching for the Bands of Mourning, fixed on several New Seran nobles, Kelesina among them, whom he thought had dealings with Edwarn Ladrian. ReLuur lost his wits before his notes were done, so VenDell sent Wax to investigate, starting with the party. Wax went by train with Wayne, Steris, Marasi and MeLaan.",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "4" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The party",
+          "revealedIn": [
+            { "book": "bands-of-mourning", "chapter": "13" },
+            { "book": "bands-of-mourning", "chapter": "15" },
+            { "book": "bands-of-mourning", "chapter": "16" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Marasi and Wayne skipped it to hunt for clues about ReLuur, while MeLaan came as a muscular man. Steris had prepared a notebook on every known guest. On the way in, a beggar handed Wax an odd coin, and a local noble, Gave Entrone, aimed thinly veiled insults at the couple.",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "13" }]
+        },
+        {
+          "text": "A woman on the dance floor quizzed Wax on the physics of his powers, then vanished. The informant Devlin Airs told him of other strange coins, the Set's work in Dulsing and feeling against Elendel in the outer Basin. Shown the coin, Kelesina fled, and Steris made herself vomit on the table as a distraction.",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "13" }]
+        },
+        {
+          "text": "While Steris recovered, Wax heard Bilming's mayor, Bastien Severington, denounce Elendel, and feared civil war was near. Taking a gun Steris had smuggled in, he flew to a balcony and overheard Kelesina talking with his uncle Edwarn, the Set's Mister Suit. Her steward rushed in to say a Seeker had sensed Allomancy nearby, and Wax came out.",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "15" }]
+        },
+        {
+          "text": "Suit was not there, only speaking through an advanced communication device. The steward, a Brute, attacked Wax, took his gun and shot Kelesina to frame him. Fleeing, Wax met a Set kill squad with aluminum weapons, and with MeLaan's help they beat it. Seeing that Suit had always meant Kelesina to die, Wax took her gold unkeyed metalmind and the device, to send to Elendel.",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "16" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Afterwards",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "31" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Wax pointed to the party as proof that Steris was helpful, against her belief that she did not matter to his adventures.",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "31" }]
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Host",
+      "name": "Kelesina Shores",
+      "characterId": "kelesina-shores",
+      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "13" }]
+    },
+    {
+      "label": "Place",
+      "name": "New Seran",
+      "placeId": "new-seran",
+      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "13" }]
+    },
+    {
+      "label": "Year",
+      "name": "342 PC",
+      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "16" }]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "kelesina-shores",
+      "role": "host",
+      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "13" }]
+    },
+    {
+      "characterId": "waxillium-ladrian",
+      "role": "guest",
+      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "13" }]
+    },
+    {
+      "characterId": "steris-harms",
+      "role": "guest",
+      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "13" }]
+    },
+    {
+      "characterId": "melaan",
+      "role": "guest",
+      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "13" }]
+    },
+    {
+      "characterId": "gave-entrone",
+      "role": "guest",
+      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "13" }]
+    },
+    {
+      "characterId": "devlin-airs",
+      "role": "informant",
+      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "13" }]
+    },
+    {
+      "characterId": "bastien-severington",
+      "role": "speaker",
+      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "15" }]
+    },
+    {
+      "characterId": "edwarn-ladrian",
+      "role": "by device",
+      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "16" }]
+    }
+  ]
+}

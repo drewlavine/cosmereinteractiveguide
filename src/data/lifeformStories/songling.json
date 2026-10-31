@@ -1,0 +1,70 @@
+{
+  "intro": [
+    {
+      "text": "A Rosharan creature that is hard to catch: Shallan likens the elusive Jasnah to one.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "3" }]
+    },
+    {
+      "text": "A fist-sized Rosharan creature shaped like a peaked disc. It scrapes four arms over its ridged shell to make a percussive, rattling sound, and clings to rock with four squat legs.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "i-2" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Songlings are hard to catch; Shallan likens the elusive Jasnah to one.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "3" }]
+    },
+    {
+      "text": "Each songling keeps up its own repeating beat and tone.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "i-2" }]
+    },
+    {
+      "text": "Songlings live in the brush. Shallan remembers wild songlings near her Jah Keved home singing in rival choruses.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "i-2" },
+            { "book": "words-of-radiance", "chapter": "epilogue" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Encounters",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "i-2" },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "i-2" },
+                { "book": "words-of-radiance", "chapter": "epilogue" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Balat's axehound Scrak caught a songling and ate part of it.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "i-2" }]
+        },
+        {
+          "text": "Wit tried and failed to copy a songling's sound on his pipes, but the songlings answered his music and his voice, and he held a conversation with them.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "i-2" },
+                { "book": "words-of-radiance", "chapter": "epilogue" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": []
+}

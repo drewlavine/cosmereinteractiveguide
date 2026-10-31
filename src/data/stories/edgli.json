@@ -1,0 +1,27 @@
+{
+  "intro": [
+    {
+      "text": "The namesake of the Tears of Edgli, which, the storyteller Hoid tells Siri, most people believe the Manywar was fought over.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "32" }],
+      "fallback": true
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "In Hallandren's history",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "32" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "When Siri asks about Hallandren's past, the storyteller Hoid says the Manywar is commonly thought to have been fought over the Tears of Edgli, though he tells her Breath was at stake as well.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "32" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

@@ -1,0 +1,33 @@
+{
+  "intro": [
+    {
+      "text": "Nearer the Flame is a Rosharan novel, told in the first person, about a man who loses his mind after watching his children starve.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "8" }]
+    }
+  ],
+  "description": [],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "In Kharbranth",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "8" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "The book is sold at Artmyrn's shop in Kharbranth. When Artmyrn kept offering Shallan romances instead of the books she wanted, she sarcastically asked him for this one.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "8" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "artmyrn",
+      "role": "bookseller",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "8" }]
+    }
+  ]
+}

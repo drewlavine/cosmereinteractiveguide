@@ -1,0 +1,38 @@
+{
+  "intro": [
+    {
+      "text": "The governess of Wax and Steris's children, Max and Tindwyl.",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "2" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Governess",
+          "revealedIn": [
+            { "book": "lost-metal", "chapter": "7" },
+            { "book": "lost-metal", "chapter": "31" },
+            { "book": "lost-metal", "chapter": "epilogue-2" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "When young Max wanted to fly over Elendel with his father, Wax asked Kath for the harness that straps the boy to his back. Max's love of heights makes her uneasy.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "7" }]
+        },
+        {
+          "text": "With Elendel in danger, Steris sent Kath away with Max and Tindwyl to her father's estate south of the city, where she thought they would be safer.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "31" }]
+        },
+        {
+          "text": "Once Wax was out of hospital, Kath brought the children home from Lord Harms's estate. She also handed Steris a letter from the governor asking her to become Elendel's Disaster Preparations Officer.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "epilogue-2" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

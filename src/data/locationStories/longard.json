@@ -1,0 +1,64 @@
+{
+  "intro": [
+    {
+      "text": "A part of Elendel where the Vanishers kept a foundry as a base.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "10" }]
+    },
+    {
+      "text": "A district in Elendel's Fifth Octant, where the Vanishers kept a foundry as a base.",
+      "revealedIn": ["alloy-of-law"]
+    }
+  ],
+  "description": [
+    {
+      "text": "The foundry is a two-story building with a flat roof full of chimneys and ash and slag heaped against one wall. Its windows look sooty but were blackened on purpose to hide the work inside, and one whole side is a huge wheeled door that slides open onto the canal.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "10" }]
+    },
+    {
+      "text": "Inside, half the building rises to double height; the other half has a loft, reached by back stairs, with room for about fifty men to sleep, now cluttered with broken cupboards, boxes and junk. The forging gear is gone, leaving dark patches on the floor beside puddles of cooled, melted aluminum. It is dim and smells of coal and fire.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "10" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The Vanishers' foundry",
+          "revealedIn": [
+            { "book": "alloy-of-law", "chapter": "14" },
+            { "book": "alloy-of-law", "chapter": "17" },
+            { "book": "alloy-of-law", "chapter": "epilogue" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "About fifty Vanishers lived and worked in the foundry, passing as ordinary laborers. They kept their gear there, including the crane rig used to swap out stolen train cars, and forged stolen aluminum into guns and bullets meant to defeat Allomancy.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "14" }]
+        },
+        {
+          "text": "After several of the gang were caught in their raid on the Yomen-Ostlin wedding dinner, the Vanishers cleared out the foundry, moved their equipment elsewhere and rigged both floors with dynamite to kill anyone who came looking.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "17" }]
+        },
+        {
+          "text": "Tipped off by a captured Vanisher, Waxillium Ladrian, Wayne and Marasi Colms searched the building. They questioned beggars nearby, made the explosives safe and found the place almost bare, apart from an empty, numbered Citizen Magistrate cigar box, the brand Miles Dagouter smoked. It confirmed Wax's suspicion that Miles led the Vanishers.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "epilogue" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Protests",
+          "revealedIn": [{ "book": "shadows-of-self", "chapter": "6" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "About a year on, angry picketers lined Longard Street during a speech by Governor Replar Innate, protesting corruption among other grievances.",
+          "revealedIn": [{ "book": "shadows-of-self", "chapter": "6" }]
+        }
+      ]
+    }
+  ]
+}

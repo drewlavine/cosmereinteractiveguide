@@ -1,0 +1,33 @@
+{
+  "intro": [
+    {
+      "text": "A House Ladrian servant who travels with Wax's party to New Seran.",
+      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "5" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The train to New Seran",
+          "revealedIn": [
+            { "book": "bands-of-mourning", "chapter": "5" },
+            { "book": "bands-of-mourning", "chapter": "7" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Before boarding, Wax saw Herve struggling with boxes Steris wanted loaded, full of House Ladrian's financial ledgers. Herve was meant to share a train room with Wayne, but Wayne, knowing he snored, climbed out the window onto the roof instead, alarming him.",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "5" }]
+        },
+        {
+          "text": "When the robbers uncoupled their car, Herve was puzzled by Wax's order to hold on to something, not realizing Wax would soon use the Metallic Arts to speed the car back up.",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "7" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

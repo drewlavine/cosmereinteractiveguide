@@ -1,0 +1,448 @@
+{
+  "intro": [
+    {
+      "text": "A thinking ball of light about the size of a melon, with an Aon glowing at its centre; Sarene's seon Ashe is one. A seon bonded to someone taken by the Shaod loses its mind, and many wander Elantris without purpose.",
+      "revealedIn": [{ "book": "elantris", "chapter": "4" }]
+    },
+    {
+      "text": "A thinking ball of light with an Aon glowing at its centre, bonded to a person, as Ashe is to Sarene. Linked seons let people talk across great distances. A seon whose owner is taken by the Shaod loses its mind.",
+      "revealedIn": [{ "book": "elantris", "chapter": "12" }]
+    },
+    {
+      "text": "A thinking ball of light with an Aon glowing at its centre, bonded to a person as companion and messenger. Seons maddened when their owners were taken by the Shaod recover once Elantris is restored. No one knows where seons come from.",
+      "revealedIn": [{ "book": "elantris", "chapter": "63" }]
+    }
+  ],
+  "description": [],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Origins",
+          "revealedIn": [{ "book": "elantris", "chapter": "63" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "No one in Opelon or Teod knows where seons come from. Most assume the Elantrians made them with their magic, though nothing records it, and Raoden doubts this and means to look into it.",
+          "revealedIn": [{ "book": "elantris", "chapter": "63" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "After the Reod",
+          "revealedIn": [
+            { "book": "elantris", "chapter": "4" },
+            { "book": "elantris", "chapter": "10" },
+            { "book": "elantris", "chapter": "28" },
+            { "book": "elantris", "chapter": "12" },
+            {
+              "all": [
+                { "book": "elantris", "chapter": "32" },
+                "hope-of-elantris"
+              ]
+            },
+            { "book": "elantris", "chapter": "63" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Seons whose owners were taken by the Shaod wander Elantris mindlessly; Raoden thinks of his own seon, Ien.",
+          "revealedIn": [{ "book": "elantris", "chapter": "4" }]
+        },
+        {
+          "text": "Raoden comes upon Ien, who floats toward his raised hand out of habit but shows no other sign of knowing him.",
+          "revealedIn": [{ "book": "elantris", "chapter": "10" }]
+        },
+        {
+          "text": "The maddened seons move slowly and unsteadily, avoid people and never speak. Now and then one acts on old habit toward its Elantrian, but never talks to them, and up close its Aon looks patchy and incomplete.",
+          "revealedIn": [{ "book": "elantris", "chapter": "28" }]
+        },
+        {
+          "text": "Many Fjordell either doubt that seons exist or shun them as heathen magic. Seons with no Elantrian owner were untouched by the Reod, and the Wyrn secretly uses them to talk with his gyorns, though no one knows how the Derethi got them.",
+          "revealedIn": [{ "book": "elantris", "chapter": "12" }]
+        },
+        {
+          "text": "Elantris was once full of seons, and almost every Elantrian had one. Since the Reod they have grown rarer, and many fear them as a reminder of the city's fall, more in Arelon than in Teod. With Elantris restored under King Raoden and Queen Sarene, Arelenes want seons again.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "elantris", "chapter": "32" },
+                "hope-of-elantris"
+              ]
+            }
+          ]
+        },
+        {
+          "text": "When Elantris is restored, the mad seons regain their minds, but they remember nothing of the lost years and may have been changed by them.",
+          "revealedIn": [{ "book": "elantris", "chapter": "63" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "On other worlds",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "rhythm-of-war", "chapter": "115" },
+                { "book": "wind-and-truth", "chapter": "147" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "rhythm-of-war", "chapter": "115" },
+                { "book": "lost-metal", "chapter": "40" },
+                { "book": "wind-and-truth", "chapter": "147" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Away from their home, seons are very rare and prized, and their services fetch high prices.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "rhythm-of-war", "chapter": "115" },
+                { "book": "wind-and-truth", "chapter": "147" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "The Ghostbloods brought at least two seons to Roshar. They kept Ala captive and gave her, in a special cube, to Shallan so she could talk with Mraize, who had a seon of his own. With Kalak's help Shallan freed the troubled Ala, who stayed with her. Hoid had a seon too, and told Shallan how rare an unbonded one is. Another seon, Dao, served the Ghostbloods on Scadrial.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "rhythm-of-war", "chapter": "115" },
+                { "book": "lost-metal", "chapter": "40" },
+                { "book": "wind-and-truth", "chapter": "147" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "mechanics": [
+    {
+      "title": [
+        {
+          "text": "Appearance and nature",
+          "revealedIn": [
+            { "book": "elantris", "chapter": "2" },
+            { "book": "elantris", "chapter": "32" },
+            {
+              "all": [
+                { "book": "elantris", "chapter": "32" },
+                { "book": "rhythm-of-war", "chapter": "115" },
+                { "book": "lost-metal", "chapter": "40" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "elantris", "chapter": "10" },
+                { "book": "rhythm-of-war", "chapter": "115" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "elantris", "chapter": "45" },
+                "hope-of-elantris"
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Sarene's seon Ashe is a ball of light roughly the size of a melon, with Aon Ashe shining at his heart. He thinks and talks for himself, in a deep voice that sounds out every word.",
+          "revealedIn": [{ "book": "elantris", "chapter": "2" }]
+        },
+        {
+          "text": "Roial's seon Opa is formal and stern, unlike the seons Sarene knew in Teod.",
+          "revealedIn": [{ "book": "elantris", "chapter": "32" }]
+        },
+        {
+          "text": "A seon's light is a pure white with a pearly sheen, bright enough that its Aon is hard to make out without looking closely. Seons can dim or brighten at will and often pulse as they talk or laugh. They look much the same in the Cognitive Realm. They are solid but almost weightless, cannot pass through walls, so they can be held prisoner, and they need some sleep, though less than people.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "elantris", "chapter": "32" },
+                { "book": "rhythm-of-war", "chapter": "115" },
+                { "book": "lost-metal", "chapter": "40" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Each seon has its own personality, much like a person's. Seons show feeling easily, may even hold superstitions, and are usually easy-going, though stress or ill-treatment can harm them. Raoden and Sarene both find their seons very wise.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "elantris", "chapter": "10" },
+                { "book": "rhythm-of-war", "chapter": "115" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Most seons have calming voices: Ien's is indulgent and Dio's musical, and the seon Mai tells Riika a story at bedtime. Some sound like men and some like women, though whether seons have a gender is unclear.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "elantris", "chapter": "45" },
+                "hope-of-elantris"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Powers",
+          "revealedIn": [
+            { "book": "elantris", "chapter": "12" },
+            {
+              "all": [
+                { "book": "elantris", "chapter": "62" },
+                { "book": "wind-and-truth", "chapter": "prologue" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "elantris", "chapter": "12" },
+                { "book": "rhythm-of-war", "chapter": "115" },
+                { "book": "lost-metal", "chapter": "40" },
+                { "book": "wind-and-truth", "chapter": "147" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Seons can link with one another so that their owners can talk at once over long distances: Hrathen keeps one hidden to speak with the Wyrn, who has his own.",
+          "revealedIn": [{ "book": "elantris", "chapter": "12" }]
+        },
+        {
+          "text": "Seons make their own light and can dim it until they are almost invisible. They float, changing speed and height quickly and outpacing a galloping horse, and can shrink enough to slip under a shut door. They copy human speech and manners, sense more keenly than people, and can find the way back to anywhere they have been.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "elantris", "chapter": "62" },
+                { "book": "wind-and-truth", "chapter": "prologue" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "During a link, a seon can take the shape of a 3D likeness of the speaker's features at the other end; sounds come through as well. Seons can record such talks and play them back faster or slower. Links work between the Physical and Cognitive Realms too, making seons one of the few ways to talk instantly across them.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "elantris", "chapter": "12" },
+                { "book": "rhythm-of-war", "chapter": "115" },
+                { "book": "lost-metal", "chapter": "40" },
+                { "book": "wind-and-truth", "chapter": "147" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Bonds",
+          "revealedIn": [
+            { "book": "elantris", "chapter": "5" },
+            { "book": "elantris", "chapter": "16" },
+            {
+              "all": [
+                { "book": "elantris", "chapter": "34" },
+                "hope-of-elantris",
+                { "book": "rhythm-of-war", "chapter": "115" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Ashe was handed down to Sarene by her mother.",
+          "revealedIn": [{ "book": "elantris", "chapter": "5" }]
+        },
+        {
+          "text": "A seon bonds with a single person, who need not be an Elantrian, and loves them, serving as a loyal companion and adviser. Seon and master are usually close: to Raoden, Ien is more than a friend, a sign of his god's love.",
+          "revealedIn": [{ "book": "elantris", "chapter": "16" }]
+        },
+        {
+          "text": "A seon can be Passed to someone new when its master tells it to bond with them, even a baby, and families often keep one for centuries. Raoden thinks seons need to serve and would find a new master if theirs died. An authority can also assign them: the Wyrn gives Hrathen one, and Raoden gives Dashe two. Seons without a bond are rare.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "elantris", "chapter": "34" },
+                "hope-of-elantris",
+                { "book": "rhythm-of-war", "chapter": "115" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "ashe",
+      "role": "seon",
+      "revealedIn": [{ "book": "elantris", "chapter": "2" }]
+    },
+    {
+      "characterId": "sarene",
+      "role": "bonded",
+      "revealedIn": [{ "book": "elantris", "chapter": "2" }]
+    },
+    {
+      "characterId": "ien",
+      "role": "seon",
+      "revealedIn": [{ "book": "elantris", "chapter": "4" }]
+    },
+    {
+      "characterId": "raoden",
+      "role": "bonded",
+      "revealedIn": [{ "book": "elantris", "chapter": "4" }]
+    },
+    {
+      "characterId": "hrathen",
+      "role": "bonded",
+      "revealedIn": [{ "book": "elantris", "chapter": "12" }]
+    },
+    {
+      "characterId": "wyrn",
+      "role": "bonded",
+      "revealedIn": [{ "book": "elantris", "chapter": "12" }]
+    },
+    {
+      "characterId": "opa",
+      "role": "seon",
+      "revealedIn": [{ "book": "elantris", "chapter": "32" }]
+    },
+    {
+      "characterId": "roial",
+      "role": "bonded",
+      "revealedIn": [{ "book": "elantris", "chapter": "32" }]
+    },
+    {
+      "characterId": "dio",
+      "role": "seon",
+      "revealedIn": [{ "book": "elantris", "chapter": "45" }]
+    },
+    {
+      "characterId": "eventeo",
+      "role": "bonded",
+      "revealedIn": [{ "book": "elantris", "chapter": "45" }]
+    },
+    {
+      "characterId": "mai",
+      "role": "seon",
+      "revealedIn": [
+        { "all": [{ "book": "elantris", "chapter": "45" }, "hope-of-elantris"] }
+      ]
+    },
+    {
+      "characterId": "riika",
+      "role": "bonded",
+      "revealedIn": [
+        { "all": [{ "book": "elantris", "chapter": "45" }, "hope-of-elantris"] }
+      ]
+    },
+    {
+      "characterId": "dashe",
+      "role": "given seons",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "elantris", "chapter": "34" },
+            "hope-of-elantris",
+            { "book": "rhythm-of-war", "chapter": "115" }
+          ]
+        }
+      ]
+    },
+    {
+      "characterId": "ala",
+      "role": "seon",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "rhythm-of-war", "chapter": "115" },
+            { "book": "lost-metal", "chapter": "40" },
+            { "book": "wind-and-truth", "chapter": "147" }
+          ]
+        }
+      ]
+    },
+    {
+      "characterId": "shallan-davar",
+      "role": "Ala's keeper",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "rhythm-of-war", "chapter": "115" },
+            { "book": "lost-metal", "chapter": "40" },
+            { "book": "wind-and-truth", "chapter": "147" }
+          ]
+        }
+      ]
+    },
+    {
+      "characterId": "mraize",
+      "role": "owner",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "rhythm-of-war", "chapter": "115" },
+            { "book": "lost-metal", "chapter": "40" },
+            { "book": "wind-and-truth", "chapter": "147" }
+          ]
+        }
+      ]
+    },
+    {
+      "characterId": "hoid",
+      "role": "owner",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "rhythm-of-war", "chapter": "115" },
+            { "book": "lost-metal", "chapter": "40" },
+            { "book": "wind-and-truth", "chapter": "147" }
+          ]
+        }
+      ]
+    },
+    {
+      "characterId": "dao",
+      "role": "seon",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "rhythm-of-war", "chapter": "115" },
+            { "book": "lost-metal", "chapter": "40" },
+            { "book": "wind-and-truth", "chapter": "147" }
+          ]
+        }
+      ]
+    }
+  ]
+}

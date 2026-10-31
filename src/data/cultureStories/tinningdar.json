@@ -1,0 +1,142 @@
+{
+  "intro": [
+    {
+      "text": "The traditional robes of the Terris people.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "8" },
+            { "book": "shadows-of-self", "chapter": "5" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "Its most recognisable feature is a colourful embroidered pattern of overlapping Vs down the front. It is usually worn belted, often with wide sleeves that leave room for metalmind bracers. A steward may own several, including more ornate ones for formal occasions.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "18" },
+            { "book": "bands-of-mourning", "chapter": "prologue" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The Final Empire",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "8" },
+                { "book": "well-of-ascension", "chapter": "19" },
+                { "book": "hero-of-ages", "chapter": "18" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "33" },
+                { "book": "well-of-ascension", "chapter": "7" }
+              ]
+            },
+            { "book": "hero-of-ages", "chapter": "18" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Terris stewards wore tinningdar in the three colours of the noble house they served, so the robes were sometimes called steward's robes, and a steward could be recognised by them.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "8" },
+                { "book": "well-of-ascension", "chapter": "19" },
+                { "book": "hero-of-ages", "chapter": "18" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Sazed wore his even for humble work like digging a grave. To him the robes were part of Terris history, though they also stood for the life the Lord Ruler had forced on his people, and he wondered whether Terrismen to come would still wear them.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "33" },
+                { "book": "well-of-ascension", "chapter": "7" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Sazed and other former stewards kept wearing tinningdar after the Final Empire fell, though the colours no longer stood for any noble house.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "18" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "After the Catacendre",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "shadows-of-self", "chapter": "5" },
+                { "book": "bands-of-mourning", "chapter": "prologue" }
+              ]
+            },
+            { "book": "bands-of-mourning", "chapter": "28" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Three centuries on, the Terris still wear the tinningdar. Teenage students in the Village, among them a young Waxillium Ladrian, wore them, though Wax never found them comfortable.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "shadows-of-self", "chapter": "5" },
+                { "book": "bands-of-mourning", "chapter": "prologue" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "When Wax, near death, met Harmony, he saw his own clothes as a tinningdar whose layers were made of time rather than colour.",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "28" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "sazed",
+      "role": "wore one",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "33" },
+            { "book": "well-of-ascension", "chapter": "7" }
+          ]
+        }
+      ]
+    },
+    {
+      "characterId": "waxillium-ladrian",
+      "role": "wore one",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "shadows-of-self", "chapter": "5" },
+            { "book": "bands-of-mourning", "chapter": "prologue" }
+          ]
+        }
+      ]
+    }
+  ]
+}

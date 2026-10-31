@@ -1,0 +1,38 @@
+{
+  "intro": [
+    {
+      "text": "A mining town in Bavland, in the southwest of Jah Keved. It is the biggest town in its area, though still something of a backwater.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "i-6" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Nearby is the smaller town of Staplind; the nearest sizeable city is Kneespike. A high cliff east of town forms a natural lait that shields it from highstorms, yet its buildings still have the usual long, flat roofs angled gently east.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "i-6" }]
+    },
+    {
+      "text": "The citylord keeps a well-guarded three-storey mansion with gardens on the wealthier east side, but he lives in Kneespike and mostly leaves the industrial town to itself. Prominent lighteyes rarely spend time there.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "i-6" }]
+    },
+    {
+      "text": "The town is Vorin but lax. Its biggest gambling den serves alcohol and firemoss, and women there often leave the safehand bare, which still counts as flirtatious. Even so, gamblers avoid any game that might look like foretelling the future.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "i-6" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Szeth in Bornwater",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "i-6" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Makkek, a Bav criminal who held Szeth's Oathstone, used him to seize Staplind and then ran Bornwater's biggest gambling den. The citylord sent another criminal, Gavashaw, to rival him. Ordered to kill Gavashaw, Szeth went to the mansion where he stayed, but a masked stranger there showed him both men's severed heads, held his Oathstone, and handed him fresh targets, among them King Hanavanar of Jah Keved.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "i-6" }]
+        }
+      ]
+    }
+  ]
+}

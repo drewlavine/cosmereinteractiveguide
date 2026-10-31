@@ -1,0 +1,51 @@
+{
+  "intro": [
+    {
+      "text": "A Veden fabrial that reinforces a shield against Shardblade blows.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "i-9" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "A gemstone fixed behind a diamond-shaped metal shield increases its durability.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "i-9" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The defense of Azimir",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "40" },
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "65" },
+                { "book": "wind-and-truth", "chapter": "63" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Some of Odium's troops attacking Azimir carried half-shards.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "40" }]
+        },
+        {
+          "text": "Azish artifabrians could not reproduce Taravangian's design. Neziham suspected the plans were misleading and the shields were simply aluminum.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "65" },
+                { "book": "wind-and-truth", "chapter": "63" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": []
+}

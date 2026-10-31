@@ -1,0 +1,36 @@
+{
+  "intro": [
+    {
+      "text": "An older noblewoman of House Cett who hosts a party at Cett Mansion.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "1" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The Cett party",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "1" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "At House Cett's party in 341 PC, Aving found Wax on a balcony and urged him to come inside, where people wanted to meet him. He promised to follow shortly but instead slipped away using Allomancy without telling anyone, and he then agreed with his butler Tillaume that he should send Lady Cett a letter of apology.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "1" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Older, with gray hair worn in a bun and expensive jewelry.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "1" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Like most nobles, she is puzzled by Wax's lack of decorum.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "1" }]
+    }
+  ]
+}

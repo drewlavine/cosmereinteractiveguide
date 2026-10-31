@@ -1,0 +1,44 @@
+{
+  "intro": [
+    {
+      "text": "A romantic drama shown on hion viewers, about Sir Ashinata and Lady Hinobi, lovers kept apart because he is a ronin. Yumi and Nikaro watch its final episode together.",
+      "revealedIn": [{ "book": "yumi", "chapter": "25" }]
+    },
+    {
+      "text": "A historical romance shown on hion viewers in the evenings, set in an old-fashioned age and following Sir Ashinata and Lady Hinobi, lovers kept apart because he is a ronin.",
+      "revealedIn": [{ "book": "yumi", "chapter": "33" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "It is Yumi's favourite programme and the most scandalous of the three she watches, and Nikaro also ranks it among the best.",
+      "revealedIn": [{ "book": "yumi", "chapter": "25" }]
+    },
+    {
+      "text": "The final episode ends sadly, after the couple share a kiss that shocks Yumi.",
+      "revealedIn": [{ "book": "yumi", "chapter": "25" }]
+    },
+    {
+      "text": "In what was meant to be the last episode, Ashinata tells Hinobi he must leave her for good because of a danger set loose by his dead, wicked brother. A surprise finale then brings him back to her.",
+      "revealedIn": [{ "book": "yumi", "chapter": "33" }]
+    },
+    {
+      "text": "Yumi and Nikaro miss the surprise finale, and Izzy tells them how it went. Some Dreamwatch members are watching the show when Nikaro calls at their Kilahito headquarters.",
+      "revealedIn": [{ "book": "yumi", "chapter": "37" }]
+    }
+  ],
+  "history": [],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "yumi",
+      "role": "fan",
+      "revealedIn": [{ "book": "yumi", "chapter": "25" }]
+    },
+    {
+      "characterId": "nikaro",
+      "role": "fan",
+      "revealedIn": [{ "book": "yumi", "chapter": "25" }]
+    }
+  ]
+}

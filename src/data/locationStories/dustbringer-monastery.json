@@ -1,0 +1,58 @@
+{
+  "intro": [
+    {
+      "text": "A Shin monastery on a hill near the Misted Mountains, surrounded by a town and pine trees.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "90" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Its stone walls and narrow windows serve a defensive purpose. Gemstones light the interior, and a pond nearby freezes over.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "90" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Training",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "120" },
+                { "book": "wind-and-truth", "chapter": "90" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Szeth trained here during his pilgrimage to become an Honorbearer, practicing Division and Abrasion. He used the frozen pond to practice moving with little friction.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "120" },
+                { "book": "wind-and-truth", "chapter": "90" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The return to Shinovar",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "90" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "On returning to the monastery, Szeth faced its Honorbearer without striking back. Their confrontation ended without a killing, and his party continued to the Skybreaker monastery.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "90" }]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "intro": [
+    {
+      "text": "A Rosharan land that was once part of the Silver Kingdom of Makabakam.",
+      "revealedIn": ["way-of-kings"]
+    },
+    {
+      "text": "A Makabaki kingdom on a peninsula in southwestern Roshar, known as a centre of fashion.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "49" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Together with Yezier, Liafor leads Rosharan fashion. Its folios are read as far away as the Shattered Plains and are tailored to local markets with local models. Those sent to the Shattered Plains deliberately showed out-of-date styles to sell military uniforms, which appalled Adolin.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "49" },
+            { "book": "oathbringer", "chapter": "69" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Liaforans, like many Makabaki peoples, are deep brown of skin, with dark brown eyes. Products from Liafor include fine boots, handicrafts and word puzzles.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "edgedancer", "chapter": "4" },
+            { "book": "oathbringer", "chapter": "i-13" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "It borders Tashikk to the east, Yezier and Alm to the north and Steen to the southwest, with the Aimian Sea to the northwest. A major river runs west from near the city of Berizhet to the Aimian Sea.",
+      "revealedIn": [{ "all": ["way-of-kings", "oathbringer"] }]
+    },
+    {
+      "text": "Liafor is ruled by a prince. It eagerly joins any council Azir sits on, and likes to cater the meetings itself.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "oathbringer", "chapter": "65" },
+            { "book": "dawnshard", "chapter": "2" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The True Desolation",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "65" },
+                { "book": "dawnshard", "chapter": "2" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "When the True Desolation began, Dalinar judged Liafor and Yezier the only Makabaki states stable enough to approach about joining his coalition.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "65" },
+                { "book": "dawnshard", "chapter": "2" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

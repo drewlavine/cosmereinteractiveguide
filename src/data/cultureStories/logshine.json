@@ -1,0 +1,38 @@
+{
+  "intro": [
+    {
+      "text": "A beer from Scadrial, usually brewed in the Roughs.",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "55" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Wax considers it the finest beer around.",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "55" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "A gift for Wayne",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "55" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Wax sent a truck tire through a Bilming liquor store's window by accident, then bought two bottles of Logshine there and took them to Wayne, who hadn't tasted it in years and was grateful.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "55" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "waxillium-ladrian",
+      "role": "fan",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "55" }]
+    }
+  ]
+}

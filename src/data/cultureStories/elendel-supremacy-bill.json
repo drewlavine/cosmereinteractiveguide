@@ -1,0 +1,91 @@
+{
+  "intro": [
+    {
+      "text": "A law the Elendel Senate passed in 348 PC, making Elendel's governor the highest authority over every other city of the Basin and the Roughs.",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "2" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Supporters hoped one leader would unite the Basin and give it a stronger hand against the southern Scadrians. Because their people cannot vote for Elendel's governor, the outer cities strongly opposed it.",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "2" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Debate in the Senate",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "2" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Debate in the Senate lasted several days. The outer cities' mayors boycotted, and the Malwish ambassador, Admiral Jonnes, took a seat reserved for them. Vice Governor Adawathwyn opened in favor, warning that the southern Scadrians would soon make war and the Basin must stand behind a strong leader.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "2" }]
+        },
+        {
+          "text": "Wax, an opponent, arranged to speak last. He warned the bill could bring civil war, presented letters from sixty outer-city politicians hoping for a compromise, and proposed a national assembly, with the outer cities represented, to choose the Basin's highest official.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "2" }]
+        },
+        {
+          "text": "When Senator Dupon Melstrom broke in, claiming the outer cities should answer to Elendel, Wax read a letter proving Houses Hasting and Erikell had paid him. Governor Varlance had Melstrom and those houses' senators sit out the vote, with hearings to follow. The bill passed, 122 to 118.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "2" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "After it passed",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "9" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Soon after, word reached Elendel that the southern Scadrians had united as the Malwish Consortium. Steris worried this would make more senators think the bill necessary.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "9" }]
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Passed",
+      "name": "348 PC",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "2" }]
+    },
+    {
+      "label": "Vote",
+      "name": "122 to 118",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "2" }]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "adawathwyn",
+      "role": "supporter",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "2" }]
+    },
+    {
+      "characterId": "jonnes",
+      "role": "observer",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "2" }]
+    },
+    {
+      "characterId": "waxillium-ladrian",
+      "role": "opponent",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "2" }]
+    },
+    {
+      "characterId": "dupon-melstrom",
+      "role": "supporter",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "2" }]
+    },
+    {
+      "characterId": "varlance",
+      "role": "governor",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "2" }]
+    }
+  ]
+}

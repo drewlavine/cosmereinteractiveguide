@@ -654,6 +654,10 @@ export const groupMembers: Record<
       revealedIn: [{ book: 'warbreaker', chapter: '9' }],
     },
     {
+      characterId: 'jewels',
+      revealedIn: [{ book: 'warbreaker', chapter: '13' }],
+    },
+    {
       characterId: 'tonk-fah',
       revealedIn: [{ book: 'warbreaker', chapter: '9' }],
     },
@@ -720,8 +724,59 @@ export const groupMembers: Record<
   ],
   'culture:diem': [
     {
+      characterId: 'dirin',
+      revealedIn: [{ book: 'white-sand-omnibus', chapter: '2' }],
+    },
+    {
+      characterId: 'doril',
+      revealedIn: [{ book: 'white-sand-omnibus', chapter: '13' }],
+    },
+    {
+      characterId: 'drile',
+      revealedIn: [{ book: 'white-sand-omnibus', chapter: 'prologue' }],
+    },
+    {
+      characterId: 'elorin',
+      revealedIn: [{ book: 'white-sand-omnibus', chapter: '1' }],
+    },
+    {
       characterId: 'kenton',
       revealedIn: [{ book: 'white-sand-omnibus', chapter: 'prologue' }],
+    },
+    {
+      characterId: 'mastrell-rile',
+      revealedIn: [{ book: 'white-sand-omnibus', chapter: '1' }],
+    },
+    {
+      characterId: 'moril',
+      revealedIn: [{ book: 'white-sand-omnibus', chapter: 'prologue' }],
+    },
+    {
+      characterId: 'praxton',
+      revealedIn: [{ book: 'white-sand-omnibus', chapter: '1' }],
+    },
+    {
+      characterId: 'reendel',
+      revealedIn: [{ book: 'white-sand-omnibus', chapter: '2' }],
+    },
+    {
+      characterId: 'tendel',
+      revealedIn: [{ book: 'white-sand-omnibus', chapter: '1' }],
+    },
+    {
+      characterId: 'traiben',
+      revealedIn: [{ book: 'white-sand-omnibus', chapter: 'prologue' }],
+    },
+    {
+      characterId: 'yeeden',
+      revealedIn: [{ book: 'white-sand-omnibus', chapter: 'prologue' }],
+    },
+  ],
+  'culture:dreamwatch': [
+    { characterId: 'hikiri', revealedIn: [{ book: 'yumi', chapter: '37' }] },
+    {
+      characterId: 'tesuaka-tatomi',
+      revealedIn: [{ book: 'yumi', chapter: '37' }],
     },
   ],
   'culture:envisagers': [
@@ -737,6 +792,10 @@ export const groupMembers: Record<
     },
   ],
   'culture:five-scholars': [
+    {
+      characterId: 'arsteel',
+      revealedIn: [{ book: 'warbreaker', chapter: 'epilogue' }],
+    },
     {
       characterId: 'denth',
       revealedIn: [{ book: 'warbreaker', chapter: 'epilogue' }],
@@ -772,6 +831,19 @@ export const groupMembers: Record<
       revealedIn: [{ book: 'wind-and-truth', chapter: '25' }],
     },
     {
+      characterId: 'codenames',
+      revealedIn: [{ book: 'lost-metal', chapter: '39' }],
+    },
+    { characterId: 'dao', revealedIn: [{ book: 'lost-metal', chapter: '40' }] },
+    {
+      characterId: 'darkwater',
+      revealedIn: [{ book: 'lost-metal', chapter: '36' }],
+    },
+    {
+      characterId: 'dean',
+      revealedIn: [{ book: 'lost-metal', chapter: '40' }],
+    },
+    {
       characterId: 'dlavil',
       revealedIn: [{ book: 'lost-metal', chapter: 'epilogue-1' }],
     },
@@ -800,12 +872,20 @@ export const groupMembers: Record<
       revealedIn: [{ book: 'way-of-kings', chapter: '74' }],
     },
     {
+      characterId: 'kaise',
+      revealedIn: [{ book: 'lost-metal', chapter: '39' }],
+    },
+    {
       characterId: 'kelsier',
       revealedIn: [
         { book: 'rhythm-of-war', chapter: '64' },
         { book: 'lost-metal', chapter: '40' },
         { book: 'wind-and-truth', chapter: '147' },
       ],
+    },
+    {
+      characterId: 'kelsiers-seon',
+      revealedIn: [{ book: 'lost-metal', chapter: '40' }],
     },
     {
       characterId: 'lieke',
@@ -823,8 +903,20 @@ export const groupMembers: Record<
       revealedIn: [{ book: 'way-of-kings', chapter: '74' }],
     },
     {
+      characterId: 'moonlight',
+      revealedIn: [{ book: 'lost-metal', chapter: '20' }],
+    },
+    {
       characterId: 'mraize',
       revealedIn: [{ book: 'words-of-radiance', chapter: '43' }],
+    },
+    {
+      characterId: 'mraizes-aviar',
+      revealedIn: [{ book: 'oathbringer', chapter: '22' }],
+    },
+    {
+      characterId: 'prasanva',
+      revealedIn: [{ book: 'lost-metal', chapter: '40' }],
     },
     {
       characterId: 'shade',
@@ -840,6 +932,10 @@ export const groupMembers: Record<
         { book: 'rhythm-of-war', chapter: '64' },
         { book: 'wind-and-truth', chapter: '147' },
       ],
+    },
+    {
+      characterId: 'wan-shailu',
+      revealedIn: [{ book: 'lost-metal', chapter: '20' }],
     },
     {
       characterId: 'zora',
@@ -858,6 +954,28 @@ export const groupMembers: Record<
     {
       characterId: 'contemplation',
       revealedIn: [{ book: 'sunlit-man', chapter: '8' }],
+    },
+  ],
+  'culture:heritage-faction': [
+    {
+      characterId: 'ashravan',
+      revealedIn: [{ book: 'emperors-soul', chapter: 'day-2' }],
+    },
+    {
+      characterId: 'frava',
+      revealedIn: [{ book: 'emperors-soul', chapter: 'prologue' }],
+    },
+    {
+      characterId: 'gaotona',
+      revealedIn: [{ book: 'emperors-soul', chapter: 'prologue' }],
+    },
+    {
+      characterId: 'stivient',
+      revealedIn: [{ book: 'emperors-soul', chapter: 'epilogue' }],
+    },
+    {
+      characterId: 'ushnaka',
+      revealedIn: [{ book: 'emperors-soul', chapter: 'epilogue' }],
     },
   ],
   'culture:highprince': [
@@ -965,6 +1083,21 @@ export const groupMembers: Record<
     { characterId: 'adolin-kholin', revealedIn: ['wind-and-truth'] },
     { characterId: 'renarin-kholin', revealedIn: ['wind-and-truth'] },
   ],
+  'culture:house-lekal': [
+    {
+      characterId: 'audil-lekal',
+      revealedIn: [{ book: 'hero-of-ages', chapter: '4' }],
+    },
+  ],
+  'culture:institute-of-mechanical-solutions': [
+    {
+      characterId: 'fourth-torish-scholar',
+      revealedIn: [{ book: 'yumi', chapter: '23' }],
+    },
+    { characterId: 'gyundok', revealedIn: [{ book: 'yumi', chapter: '23' }] },
+    { characterId: 'honam', revealedIn: [{ book: 'yumi', chapter: '23' }] },
+    { characterId: 'sunjun', revealedIn: [{ book: 'yumi', chapter: '23' }] },
+  ],
   'culture:ire': [
     {
       characterId: 'alonoe',
@@ -982,6 +1115,9 @@ export const groupMembers: Record<
       characterId: 'riina',
       revealedIn: [{ book: 'secret-history', chapter: '5-3' }],
     },
+  ],
+  'culture:jaddeth': [
+    { characterId: 'wulfden-the-fourth', revealedIn: ['elantris'] },
   ],
   'culture:kaladins-squad': [
     {
@@ -1055,6 +1191,10 @@ export const groupMembers: Record<
     { characterId: 'mare', revealedIn: ['final-empire'] },
     { characterId: 'marsh', revealedIn: ['lost-metal'] },
     { characterId: 'oreseur', revealedIn: ['well-of-ascension'] },
+    {
+      characterId: 'redd',
+      revealedIn: [{ book: 'final-empire', chapter: '31' }],
+    },
     {
       characterId: 'sazed',
       revealedIn: [{ book: 'well-of-ascension', chapter: '9' }],
@@ -1165,12 +1305,19 @@ export const groupMembers: Record<
       characterId: 'lord-habren',
       revealedIn: [{ book: 'well-of-ascension', chapter: '38' }],
     },
-    { characterId: 'lord-hue', revealedIn: ['well-of-ascension'] },
+    {
+      characterId: 'lord-hue',
+      revealedIn: [{ book: 'well-of-ascension', chapter: '38' }],
+    },
     {
       characterId: 'philen-frandeu',
       revealedIn: [{ book: 'well-of-ascension', chapter: '10' }],
     },
     { characterId: 'thurts', revealedIn: ['well-of-ascension'] },
+    {
+      characterId: 'vet-scadrial',
+      revealedIn: [{ book: 'well-of-ascension', chapter: '38' }],
+    },
   ],
   'culture:luthadel-garrison': [
     { characterId: 'bevidon', revealedIn: ['final-empire'] },
@@ -1187,7 +1334,29 @@ export const groupMembers: Record<
     },
   ],
   'culture:nightmare-division': [
+    { characterId: 'akane', revealedIn: [{ book: 'yumi', chapter: '14' }] },
+    { characterId: 'hikiri', revealedIn: ['yumi'] },
+    { characterId: 'ikonora', revealedIn: [{ book: 'yumi', chapter: '39' }] },
+    { characterId: 'ito', revealedIn: [{ book: 'yumi', chapter: '26' }] },
+    { characterId: 'izumakamo', revealedIn: [{ book: 'yumi', chapter: '21' }] },
+    { characterId: 'masaka', revealedIn: [{ book: 'yumi', chapter: '16' }] },
+    { characterId: 'nanakai', revealedIn: [{ book: 'yumi', chapter: '40' }] },
     { characterId: 'nikaro', revealedIn: ['yumi'] },
+    { characterId: 'sukishi', revealedIn: [{ book: 'yumi', chapter: '14' }] },
+    { characterId: 'takanda', revealedIn: [{ book: 'yumi', chapter: '39' }] },
+    { characterId: 'tesuaka-tatomi', revealedIn: ['yumi'] },
+    { characterId: 'tojin', revealedIn: [{ book: 'yumi', chapter: '14' }] },
+    {
+      characterId: 'usasha',
+      revealedIn: [{ book: 'yumi', chapter: 'another-epilogue' }],
+    },
+    { characterId: 'yuinshi', revealedIn: [{ book: 'yumi', chapter: '39' }] },
+  ],
+  'culture:nightstreet-gang': [
+    {
+      characterId: 'donny',
+      revealedIn: [{ book: 'bands-of-mourning', chapter: '9' }],
+    },
   ],
   'culture:originators': [
     {
@@ -1214,13 +1383,85 @@ export const groupMembers: Record<
     },
   ],
   'culture:set': [
+    { characterId: 'dip', revealedIn: [{ book: 'lost-metal', chapter: '21' }] },
+    {
+      characterId: 'dumad',
+      revealedIn: [{ book: 'lost-metal', chapter: '26' }],
+    },
     {
       characterId: 'edwarn-ladrian',
       revealedIn: [{ book: 'alloy-of-law', chapter: 'epilogue' }],
     },
     {
+      characterId: 'embrier',
+      revealedIn: [{ book: 'lost-metal', chapter: '26' }],
+    },
+    {
+      characterId: 'fed',
+      revealedIn: [{ book: 'bands-of-mourning', chapter: '29' }],
+    },
+    {
+      characterId: 'fion',
+      revealedIn: [{ book: 'lost-metal', chapter: '47' }],
+    },
+    {
+      characterId: 'gabria',
+      revealedIn: [{ book: 'lost-metal', chapter: '69' }],
+    },
+    {
+      characterId: 'gave-entrone',
+      revealedIn: [{ book: 'lost-metal', chapter: '47' }],
+    },
+    {
+      characterId: 'getruda',
+      revealedIn: [{ book: 'lost-metal', chapter: '26' }],
+    },
+    {
+      characterId: 'granks',
+      revealedIn: [{ book: 'lost-metal', chapter: '21' }],
+    },
+    {
+      characterId: 'irich',
+      revealedIn: [{ book: 'bands-of-mourning', chapter: '18' }],
+    },
+    {
+      characterId: 'javie',
+      revealedIn: [{ book: 'bands-of-mourning', chapter: '18' }],
+    },
+    {
       characterId: 'miles-dagouter',
       revealedIn: [{ book: 'alloy-of-law', chapter: 'epilogue' }],
+    },
+    {
+      characterId: 'pull',
+      revealedIn: [{ book: 'alloy-of-law', chapter: '17' }],
+    },
+    {
+      characterId: 'push',
+      revealedIn: [{ book: 'alloy-of-law', chapter: '17' }],
+    },
+    {
+      characterId: 'stanoux',
+      revealedIn: [{ book: 'bands-of-mourning', chapter: '18' }],
+    },
+    {
+      characterId: 'stansi',
+      revealedIn: [{ book: 'bands-of-mourning', chapter: '18' }],
+    },
+    {
+      characterId: 'telsin-ladrian',
+      revealedIn: [
+        { book: 'bands-of-mourning', chapter: '27' },
+        { book: 'lost-metal', chapter: '19' },
+      ],
+    },
+    {
+      characterId: 'templeton-fig',
+      revealedIn: [{ book: 'bands-of-mourning', chapter: '18' }],
+    },
+    {
+      characterId: 'wellid',
+      revealedIn: [{ book: 'lost-metal', chapter: '69' }],
     },
   ],
   'culture:seventeenth-shard': [
@@ -1233,6 +1474,9 @@ export const groupMembers: Record<
       characterId: 'galladon',
       revealedIn: [{ book: 'wind-and-truth', chapter: 'i-11' }],
     },
+  ],
+  'culture:shu-dereth': [
+    { characterId: 'wulfden-the-fourth', revealedIn: ['elantris'] },
   ],
   'culture:skaa-rebellion': [
     { characterId: 'marsh', revealedIn: ['final-empire'] },
@@ -1287,11 +1531,63 @@ export const groupMembers: Record<
       characterId: 'tindwyl',
       revealedIn: [{ book: 'well-of-ascension', chapter: '16' }],
     },
+    {
+      characterId: 'vwafendal',
+      revealedIn: [{ book: 'bands-of-mourning', chapter: 'prologue' }],
+    },
   ],
   'culture:taishin': [
     {
+      characterId: 'aarik',
+      revealedIn: [{ book: 'white-sand-omnibus', chapter: '16' }],
+    },
+    {
+      characterId: 'delius',
+      revealedIn: [{ book: 'white-sand-omnibus', chapter: '7' }],
+    },
+    {
+      characterId: 'gennel',
+      revealedIn: [{ book: 'white-sand-omnibus', chapter: '15' }],
+    },
+    {
+      characterId: 'gevalden',
+      revealedIn: [{ book: 'white-sand-omnibus', chapter: '5' }],
+    },
+    {
+      characterId: 'heelis',
+      revealedIn: [{ book: 'white-sand-omnibus', chapter: '4' }],
+    },
+    {
+      characterId: 'hennin',
+      revealedIn: [{ book: 'white-sand-omnibus', chapter: '15' }],
+    },
+    {
       characterId: 'kenton',
       revealedIn: [{ book: 'white-sand-omnibus', chapter: '5' }],
+    },
+    {
+      characterId: 'lokkall',
+      revealedIn: [{ book: 'white-sand-omnibus', chapter: '15' }],
+    },
+    {
+      characterId: 'nilto',
+      revealedIn: [{ book: 'white-sand-omnibus', chapter: '5' }],
+    },
+    {
+      characterId: 'praxton',
+      revealedIn: [{ book: 'white-sand-omnibus', chapter: '5' }],
+    },
+    {
+      characterId: 'raagent',
+      revealedIn: [{ book: 'white-sand-omnibus', chapter: '7' }],
+    },
+    {
+      characterId: 'rite',
+      revealedIn: [{ book: 'white-sand-omnibus', chapter: '7' }],
+    },
+    {
+      characterId: 'vey',
+      revealedIn: [{ book: 'white-sand-omnibus', chapter: '4' }],
     },
   ],
   'culture:takers': [
@@ -1302,6 +1598,20 @@ export const groupMembers: Record<
     {
       characterId: 'tukks',
       revealedIn: [{ book: 'way-of-kings', chapter: '27' }],
+    },
+  ],
+  'culture:tower': [
+    {
+      characterId: 'aarik',
+      revealedIn: [{ book: 'white-sand-omnibus', chapter: '16' }],
+    },
+    {
+      characterId: 'gremt',
+      revealedIn: [{ book: 'white-sand-omnibus', chapter: '16' }],
+    },
+    {
+      characterId: 'raagent',
+      revealedIn: [{ book: 'white-sand-omnibus', chapter: '7' }],
     },
   ],
   'culture:tower-guard': [
@@ -1412,8 +1722,28 @@ export const groupMembers: Record<
   ],
   'culture:vanishers': [
     {
+      characterId: 'clamps',
+      revealedIn: [{ book: 'alloy-of-law', chapter: '8' }],
+    },
+    {
       characterId: 'miles-dagouter',
       revealedIn: [{ book: 'alloy-of-law', chapter: '11' }],
+    },
+    {
+      characterId: 'pull',
+      revealedIn: [{ book: 'alloy-of-law', chapter: 'epilogue' }],
+    },
+    {
+      characterId: 'push',
+      revealedIn: [{ book: 'alloy-of-law', chapter: '18' }],
+    },
+    {
+      characterId: 'sindren',
+      revealedIn: [{ book: 'alloy-of-law', chapter: '8' }],
+    },
+    {
+      characterId: 'tarson',
+      revealedIn: [{ book: 'alloy-of-law', chapter: '5' }],
     },
   ],
   'culture:veristitalian': [
@@ -1454,6 +1784,13 @@ export const groupMembers: Record<
       revealedIn: [{ book: 'way-of-kings', chapter: '46' }],
     },
   ],
+  'culture:wyrn': [
+    { characterId: 'wulfden-the-first', revealedIn: ['elantris'] },
+    {
+      characterId: 'wulfden-the-fourth',
+      revealedIn: [{ book: 'elantris', chapter: '3' }],
+    },
+  ],
   'lifeform:unmade': [
     {
       characterId: 'ashertmarn',
@@ -1462,6 +1799,10 @@ export const groupMembers: Record<
     {
       characterId: 'ba-ado-mishram',
       revealedIn: [{ book: 'oathbringer', chapter: '97' }],
+    },
+    {
+      characterId: 'chemoarish',
+      revealedIn: [{ book: 'oathbringer', chapter: '108' }],
     },
     {
       characterId: 'dai-gonarthis',

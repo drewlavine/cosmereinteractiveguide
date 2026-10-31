@@ -1,0 +1,43 @@
+{
+  "intro": [
+    {
+      "text": "An ocean on Roshar.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "66" }]
+    },
+    {
+      "text": "An ocean to the northeast of Roshar's main continent.",
+      "revealedIn": ["oathbringer"]
+    }
+  ],
+  "description": [],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "A proposed holiday",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "66" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Dalinar Kholin once suggested that he, Evi and Adolin take a holiday at the Steamwater Ocean, since Evi had grown tired of Alethkar's wind and cold.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "66" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Airship trials",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "3" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "For several weeks the airship Fourth Bridge flew over the Steamwater Ocean to test its endurance, taking shelter in coves and laits when highstorms came.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "3" }]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "intro": [
+    {
+      "text": "Defenders of Azimir who fight alongside deadeye spren as partners rather than swearing Radiant oaths.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "147" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Their relationship with deadeyes lets them bond Shardblades and regrow Plate after ordinary Stormlight disappears.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "147" }]
+    },
+    {
+      "text": "Maya brought thirty-seven deadeyes, but the group chose to expand cautiously.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "147" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Defending Azimir",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "136" },
+            { "book": "wind-and-truth", "chapter": "147" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Maya brought deadeyes and armor spren to Azimir. Their Blades and Plate helped Adolin, Yanagawn and the defenders hold the throne room until the contest began.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "136" }]
+        },
+        {
+          "text": "Yanagawn allowed the Unoathed to speak to him directly, giving him companions outside the usual imperial formalities.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "147" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "adolin-kholin",
+      "role": "member",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "136" }]
+    },
+    {
+      "characterId": "yanagawn",
+      "role": "member",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "136" }]
+    }
+  ]
+}

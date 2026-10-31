@@ -1,0 +1,64 @@
+{
+  "intro": [
+    {
+      "text": "A pungent antiseptic oil of Roshar, spread over wounds to prevent infection. It drives off rotspren.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "10" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Surgeons prefer it to larmic mucus, knobweed sap or soap and water.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "48" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "In the surgeon's hands",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "48" },
+            { "book": "way-of-kings", "chapter": "10" },
+            { "book": "way-of-kings", "chapter": "17" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "It was used in the hospitals of Kharbranth, where the surgeon Vathe had studied at the Great Concourse.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "48" }]
+        },
+        {
+          "text": "Vathe taught his apprentice Lirin to use it, and Lirin used it often, including on Sani's injury.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "10" }]
+        },
+        {
+          "text": "Lirin passed what he knew to Kaladin, who used it when he could and often wished for more. On the Shattered Plains an apothecary charged two sapphire marks a bottle, about five times the price of larmic mucus.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "17" }]
+        },
+        {
+          "text": "Shallan Davar was treated with it in Kharbranth after cutting herself on broken glass.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "48" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "vathe",
+      "role": "taught its use",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "10" }]
+    },
+    {
+      "characterId": "lirin",
+      "role": "surgeon",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "10" }]
+    },
+    {
+      "characterId": "kaladin",
+      "role": "user",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "17" }]
+    }
+  ]
+}

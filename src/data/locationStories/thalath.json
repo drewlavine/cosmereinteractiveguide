@@ -1,0 +1,61 @@
+{
+  "intro": [
+    {
+      "text": "One of the Silver Kingdoms, in southeastern Roshar. Its capital, Thaylen City, stood on a large southern island.",
+      "revealedIn": ["way-of-kings"]
+    }
+  ],
+  "description": [
+    {
+      "text": "Thalath bordered Alethela to the north and Natanatan to the east, and reached the Southern Depths and the Tarat Sea, taking in Longbrow's Straits.",
+      "revealedIn": ["way-of-kings"]
+    },
+    {
+      "text": "Its people wrote in the Dawnchant, first using it to transcribe their own language and in time developing a script of their own.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "i-2" }]
+    },
+    {
+      "text": "Its former lands are now divided between Thaylenah, Alethkar and the Frostlands, and include the city of Kharbranth.",
+      "revealedIn": [{ "all": ["way-of-kings", "oathbringer"] }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Before human settlement",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "113" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Singers lived in the land before humans came to Roshar.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "113" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The Silver Kingdom",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "107" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Thaylen City, founded very early in the kingdom's history, served as Thalath's capital and held its Oathgate.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "107" }]
+        }
+      ]
+    },
+    {
+      "title": [{ "text": "After Aharietiam", "revealedIn": ["oathbringer"] }],
+      "items": [
+        {
+          "text": "In the millennia after Aharietiam, Thalath fell apart. Much of its old land lies abandoned and unclaimed, but Thaylenah has kept much of its culture and ideals.",
+          "revealedIn": ["oathbringer"]
+        }
+      ]
+    }
+  ]
+}

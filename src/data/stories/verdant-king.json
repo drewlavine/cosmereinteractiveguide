@@ -1,0 +1,47 @@
+{
+  "intro": [
+    {
+      "text": "The king to whom Tress, disguised as a royal inspector, says she must report an attempted escape from Diggen's Point.",
+      "revealedIn": [{ "book": "tress", "chapter": "7" }],
+      "fallback": true
+    },
+    {
+      "text": "The king whose writs govern trade, and who is pressing merchant ships into his navy for a war with the Sorceress.",
+      "revealedIn": [{ "book": "tress", "chapter": "23" }]
+    },
+    {
+      "text": "King of the Emerald Sea and perhaps more, with a palace on the king's island; Salay calls him the Verdant King.",
+      "revealedIn": [{ "book": "tress", "chapter": "57" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Reign",
+          "revealedIn": [
+            { "book": "tress", "chapter": "9" },
+            { "book": "tress", "chapter": "23" },
+            { "book": "tress", "chapter": "epilogue" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Trade under the king requires a royal mercantile writ, and a tariff is still charged. His writs of purchase also oblige captains to carry officials who need to leave Diggen's Point.",
+          "revealedIn": [{ "book": "tress", "chapter": "9" }]
+        },
+        {
+          "text": "The king opposes the Sorceress and the tolls she charges on trade through the Midnight Sea, and nearly everything he is said to do is aimed against her: he sent Charlie to her and has been seizing merchant ships for his navy to fight her.",
+          "revealedIn": [{ "book": "tress", "chapter": "23" }]
+        },
+        {
+          "text": "His law kept the people of Diggen's Point from leaving their island. Once the Sorceress had been beaten, he changed it: they may now go as they please, and those who stay twenty years are paid handsomely.",
+          "revealedIn": [{ "book": "tress", "chapter": "epilogue" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

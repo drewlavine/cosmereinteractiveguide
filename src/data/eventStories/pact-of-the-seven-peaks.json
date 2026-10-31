@@ -1,0 +1,61 @@
+{
+  "intro": [
+    {
+      "text": "An ancient treaty on Roshar between the Unkalaki and beings they call gods.",
+      "revealedIn": [{ "book": "dawnshard", "chapter": "18" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "When Cord feared for her life on the Akinah expedition, she told the Sleepless Nikli that, as the daughter of Lunamor, who had drawn the Bow of Hours, the pact kept her safe from the gods. Nikli had no idea what she meant, and Cord afterwards admitted to Rysn that the old pacts had been made with other gods, not the Sleepless.",
+      "revealedIn": [{ "book": "dawnshard", "chapter": "18" }]
+    },
+    {
+      "text": "The only party to the pact known for certain is the Unkalaki, the people of the Horneater Peaks. It was one of several such agreements their people made long ago. The Unkalaki use the word god for many kinds of beings, including spren, so who stood on the other side is unclear.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "oathbringer", "chapter": "37" },
+            { "book": "dawnshard", "chapter": "18" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [],
+  "facts": [
+    {
+      "label": "Known party",
+      "name": "The Unkalaki",
+      "revealedIn": [{ "book": "dawnshard", "chapter": "18" }]
+    },
+    {
+      "label": "Invoked by",
+      "name": "Cord",
+      "characterId": "cord",
+      "revealedIn": [{ "book": "dawnshard", "chapter": "18" }]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "cord",
+      "role": "Invoked the pact",
+      "revealedIn": [{ "book": "dawnshard", "chapter": "18" }]
+    },
+    {
+      "characterId": "nikliasorm",
+      "role": "Sleepless",
+      "revealedIn": [{ "book": "dawnshard", "chapter": "18" }]
+    },
+    {
+      "characterId": "lunamor",
+      "role": "Cord's father",
+      "revealedIn": [{ "book": "dawnshard", "chapter": "18" }]
+    },
+    {
+      "characterId": "rysn-ftori",
+      "role": "Expedition leader",
+      "revealedIn": [{ "book": "dawnshard", "chapter": "18" }]
+    }
+  ]
+}

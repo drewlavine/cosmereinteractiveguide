@@ -1,0 +1,97 @@
+{
+  "intro": [
+    {
+      "text": "Highprince of Information is an Alethi title that gives its holder authority over criminal investigations, especially those that concern the Crown.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "22" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "The holder may enter another highprince's lands and question his servants and soldiers, and refusing that access can be taken as defying the king.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "22" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Sadeas",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "22" },
+            { "book": "way-of-kings", "chapter": "54" },
+            { "book": "words-of-radiance", "chapter": "29" },
+            { "book": "words-of-radiance", "chapter": "50" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "At a feast, Elhokar named Sadeas Highprince of Information to investigate the cut girth strap. The appointment was a snub to Dalinar, whom the king believed was not taking the matter seriously.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "22" }]
+        },
+        {
+          "text": "Sadeas announced that the strap had indeed been cut, but while the horse was within the palace grounds, and called Dalinar an unlikely suspect.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "54" }]
+        },
+        {
+          "text": "Sadeas said he would give up the post in protest at whatever moment would do the most harm to Dalinar's plans.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "29" }]
+        },
+        {
+          "text": "By the time he taunted Adolin about it, Sadeas had renounced the title.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "50" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Aladar",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "18" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "After the move to Urithiru and Sadeas's murder, Dalinar named Aladar Highprince of Information, charging him with keeping law and order in the tower and making sure each highprince knew his area of control. Aladar turned his scribes and soldiers into a police force and investigators.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "18" }]
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Held by",
+      "name": "Torol Sadeas",
+      "characterId": "torol-sadeas",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "22" }]
+    },
+    {
+      "label": "Held by",
+      "name": "Aladar",
+      "characterId": "aladar",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "18" }]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "torol-sadeas",
+      "role": "holder",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "22" }]
+    },
+    {
+      "characterId": "elhokar-kholin",
+      "role": "king",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "22" }]
+    },
+    {
+      "characterId": "aladar",
+      "role": "holder",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "18" }]
+    },
+    {
+      "characterId": "dalinar-kholin",
+      "role": "appointer",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "18" }]
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "intro": [
+    {
+      "text": "A young guide recommended by his uncle, a Dosha-Har'Ken merchant, to lead Duchess Khrissalla's party to Kezare.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "prologue" }]
+    },
+    {
+      "text": "A young Kerztian guide hired by Duchess Khrissalla's party, who is shot dead by Flennid.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "3" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Guide",
+          "revealedIn": [
+            { "book": "white-sand-omnibus", "chapter": "prologue" },
+            { "book": "white-sand-omnibus", "chapter": "1" },
+            { "book": "white-sand-omnibus", "chapter": "3" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Daazk met Khriss's party as they bargained with his uncle, the one merchant in Dosha-Har'Ken who had learned Dynastic and outfitted Darkside travellers, and the uncle put him forward as their guide to Kezare.",
+          "revealedIn": [
+            { "book": "white-sand-omnibus", "chapter": "prologue" }
+          ]
+        },
+        {
+          "text": "Crossing the Kerla, he tried to show Khriss where dorim vines could be found, but his Dynastic was too poor to make it clear; she took it for wasted water and had him lead them on to Mount KraeDa.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "1" }]
+        },
+        {
+          "text": "At the Diem's tents they found the sand masters massacred. Shown a sash, Daazk panicked and fled crying out the Kerztian word for sand masters, and Flennid, thinking he was summoning an ambush, shot him in the back.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "3" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "A cheerful young Kerztian with warm brown skin, not yet in a DaiKeen and so wearing no symbol; he dresses in a white kaffiyeh, yellow shirt, mauve robes and tan vest.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "1" }]
+    }
+  ],
+  "personality": []
+}

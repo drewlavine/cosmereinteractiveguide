@@ -1,0 +1,56 @@
+{
+  "intro": [
+    {
+      "text": "The Makabaki peoples of Roshar tell the myth of Parasaphi and Nadris as the story of their creation.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "61" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "In the tale, Parasaphi's people had nearly been wiped out in a Desolation. She climbed the peaks of Dara to gather seedstones touched by the Heralds and brought them to the dying Nadris, whose seed gave the stones life. Ten children emerged, and with them she founded the nation of Marnah.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "61" }]
+    },
+    {
+      "text": "By the legend, every Makabaki descends from those children. Tellings differ over which mountains are the peaks of Dara.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "61" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The Kholins' discussion",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "61" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Renarin first heard the story from his mother, Evi Kholin, as a child. He and Navani talked it over while trying to make sense of Dalinar's visions and the Desolations.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "61" }]
+        },
+        {
+          "text": "Dalinar thought the idea of people born from rocks ridiculous.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "61" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "evi-kholin",
+      "role": "storyteller",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "61" }]
+    },
+    {
+      "characterId": "renarin-kholin",
+      "role": "discussed it",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "61" }]
+    },
+    {
+      "characterId": "navani-kholin",
+      "role": "discussed it",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "61" }]
+    }
+  ]
+}

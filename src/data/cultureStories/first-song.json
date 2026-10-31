@@ -1,0 +1,38 @@
+{
+  "intro": [
+    {
+      "text": "One of the songs that keep the listeners' oral history. Closer to a chant than a song, it is often performed to the Rhythm of Memories, and is the original account of how the listeners left Odium and his war.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "73" }]
+    }
+  ],
+  "description": [],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Venli and Jaxlim",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "73" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Venli once prompted Jaxlim to sing it to calm her agitation.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "73" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "jaxlim",
+      "role": "singer",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "73" }]
+    },
+    {
+      "characterId": "venli",
+      "role": "prompted it",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "73" }]
+    }
+  ]
+}

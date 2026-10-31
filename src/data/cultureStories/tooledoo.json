@@ -1,0 +1,23 @@
+{
+  "intro": [
+    {
+      "text": "A game Lukel loves to win. Raoden often played him and lost on purpose, knowing how much Lukel enjoyed the victory.",
+      "revealedIn": [{ "book": "elantris", "chapter": "8" }]
+    }
+  ],
+  "description": [],
+  "history": [],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "lukel",
+      "role": "player",
+      "revealedIn": [{ "book": "elantris", "chapter": "8" }]
+    },
+    {
+      "characterId": "raoden",
+      "role": "player",
+      "revealedIn": [{ "book": "elantris", "chapter": "8" }]
+    }
+  ]
+}

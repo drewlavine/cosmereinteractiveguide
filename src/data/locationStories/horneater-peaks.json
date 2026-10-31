@@ -117,6 +117,20 @@
           ]
         }
       ]
+    },
+    {
+      "title": [
+        {
+          "text": "Before the contest",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "11" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "A large singer fleet left the Peaks' side of Shadesmar carrying an army toward Azimir's Oathgate.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "11" }]
+        }
+      ]
     }
   ]
 }

@@ -1,0 +1,40 @@
+{
+  "intro": [
+    {
+      "text": "An author of the Final Empire.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "12" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Writings",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "12" },
+                { "book": "hero-of-ages", "chapter": "32" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "He wrote Trials of Monument, a well-known book across the Final Empire. Elend was reading it at the ball where he first met Vin, and while his army besieged Fadrex City, he borrowed a copy from the library of Keep Orielle when he and Vin attended a ball there.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "12" },
+                { "book": "hero-of-ages", "chapter": "32" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

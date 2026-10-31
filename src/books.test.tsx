@@ -77,7 +77,7 @@ describe('books pages', () => {
     expect(
       await screen.findByRole('heading', { level: 1, name: 'Warbreaker' }),
     ).toBeInTheDocument()
-    expect(screen.getByText('Standalones · Novel · 2009')).toBeInTheDocument()
+    expect(screen.getByText('Warbreaker · Novel · 2009')).toBeInTheDocument()
     expect(screen.getByText('Details coming soon.')).toBeInTheDocument()
     expect(
       screen.getByRole('link', {

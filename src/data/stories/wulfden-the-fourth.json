@@ -1,0 +1,129 @@
+{
+  "intro": [
+    {
+      "text": "The Wyrn, whose holy scroll sends the gyorn Hrathen to Arelon with orders to win its people to Shu-Dereth within three months.",
+      "revealedIn": [{ "book": "elantris", "chapter": "3" }],
+      "fallback": true
+    },
+    {
+      "text": "The Wyrn: ruler of the Fjordell Empire and head of the Shu-Dereth religion.",
+      "revealedIn": [{ "book": "elantris", "chapter": "15" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Becoming Wyrn",
+          "revealedIn": [{ "book": "elantris", "chapter": "38" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Wulfden became Wyrn roughly five years before the Reod. He was fairly young for the role and seen as full of energy. Feeling threatened soon after his rise, the Korathi church named a younger man, Seinalan, as its new Patriarch. Fjordell coins called wyrnings carry his face.",
+          "revealedIn": [{ "book": "elantris", "chapter": "38" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Designs on Arelon",
+          "revealedIn": [
+            { "book": "elantris", "chapter": "58" },
+            { "book": "elantris", "chapter": "3" },
+            { "book": "elantris", "chapter": "50" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "After the Reod the empire kept growing, taking in Duladel among others, until Arelon and Teod were the only nearby nations still outside Fjorden's grip. Arelon, robbed of Elantrian magic, was badly weakened.",
+          "revealedIn": [{ "book": "elantris", "chapter": "58" }]
+        },
+        {
+          "text": "Wulfden's holy scroll sent the gyorn Hrathen to Arelon: unless the Arelene and Teo peoples converted to Shu-Dereth within three months, they would be slain.",
+          "revealedIn": [{ "book": "elantris", "chapter": "3" }]
+        },
+        {
+          "text": "He was suspected of having some Teo ships sunk. He kept a close eye on how Hrathen's mission went and knew of Telrii's treachery.",
+          "revealedIn": [{ "book": "elantris", "chapter": "50" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Invasion of Arelon",
+          "revealedIn": [
+            { "book": "elantris", "chapter": "63" },
+            { "book": "elantris", "chapter": "62" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Hrathen's mission was only a ruse: Wulfden never meant to convert the Arelene, only to destroy them. Hrathen served as a distraction while Dilaf, one of Wulfden's warrior-monks in disguise, followed his secret orders to slip into Arelon unnoticed.",
+          "revealedIn": [{ "book": "elantris", "chapter": "63" }]
+        },
+        {
+          "text": "During the invasion he ordered Fjon to go to Teoras and kill Hrathen, although he had no ordinary way of knowing Hrathen would be there.",
+          "revealedIn": [{ "book": "elantris", "chapter": "62" }]
+        },
+        {
+          "text": "The invasion was stopped after Hrathen turned against him and Raoden restored Elantris, but Wulfden kept his hold on the Empire.",
+          "revealedIn": [{ "book": "elantris", "chapter": "63" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "One of the best-looking men ever to be Wyrn, with a square-jawed face that is proud and noble.",
+      "revealedIn": [{ "book": "elantris", "chapter": "38" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "The Arelene see him as a brutal, overbearing tyrant, ready to slaughter the people of Arelon and Teod if they refuse to join his empire. His own subjects mostly fear him, and he is willing to lie to them or throw their lives away if it serves the Empire. He is impatient and has little patience for fools.",
+      "revealedIn": [{ "book": "elantris", "chapter": "63" }]
+    }
+  ],
+  "abilities": [
+    {
+      "title": [
+        {
+          "text": "Authority",
+          "revealedIn": [{ "book": "elantris", "chapter": "53" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "As ruler of the whole Fjordell Empire, Wulfden stands at the top of Shu-Dereth's Great Chain, and his subjects treat his word as holy. He is thought to be extremely rich. He relies on seons to send messages, even though they are believed to come from Sycla, in the 'heathen' Aonic lands.",
+          "revealedIn": [{ "book": "elantris", "chapter": "53" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Military",
+          "revealedIn": [
+            { "book": "elantris", "chapter": "60" },
+            { "book": "elantris", "chapter": "62" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "He commands Fjorden's forces: a fairly small army for defence and a capable fleet that cannot match Teod's navy. His real strength lies in the monasteries, which train Derethi as warriors, spies and assassins; he, or priests he chooses, decides where the monks go.",
+          "revealedIn": [{ "book": "elantris", "chapter": "60" }]
+        },
+        {
+          "text": "Chief among them is the Dakhor monastery, whose monks endure savage training and draw power from the Dor. Wulfden prefers them above all his warriors and expects total obedience, even ordering them to give up their lives to fuel a means of instant travel.",
+          "revealedIn": [{ "book": "elantris", "chapter": "62" }]
+        }
+      ]
+    }
+  ]
+}

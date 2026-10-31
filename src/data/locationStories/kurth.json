@@ -1,0 +1,45 @@
+{
+  "intro": [
+    {
+      "text": "A city on Roshar, famous enough to be talked about even in rural Alethkar.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "16" }]
+    },
+    {
+      "text": "An island city in Rira, known as the City of Lightning, and the site of one of the ten Oathgates linked to Urithiru.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "16" },
+            { "book": "oathbringer", "chapter": "8" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "As a boy, Kaladin heard tales of Kurth, Rall Elorim and other exotic places, and they fed his wish to see other lands.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "16" }]
+    },
+    {
+      "text": "Kurth lies on the west side of a Reshi Sea island just off the Riran mainland, in northwestern Roshar. In the age of the Silver Kingdoms it was the capital of Rishir; today its island belongs to Rira rather than to the Reshi Isles.",
+      "revealedIn": [{ "all": ["way-of-kings", "oathbringer"] }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The True Desolation",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "107" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "As Dalinar's coalition took shape after the Everstorm, its members hoped to open and hold Kurth's Oathgate, but Rira never answered Dalinar's approaches. The Iriali, who count Rira as a vassal, refused to deal with him, resenting that he had married Evi after she left Rira bringing a set of Shardplate with her. Rira and Iri sided with Odium's forces.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "107" }]
+        }
+      ]
+    }
+  ]
+}

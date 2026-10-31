@@ -1,0 +1,25 @@
+{
+  "intro": [
+    {
+      "text": "A kingdom of Roshar in the time of the Desolations.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "60" }]
+    }
+  ],
+  "description": [],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The Desolations",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "60" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "In one of Dalinar's visions, King Nohadon told him that Sur had almost certainly dropped out of the war.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "60" }]
+        }
+      ]
+    }
+  ]
+}

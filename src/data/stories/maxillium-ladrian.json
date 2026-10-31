@@ -1,0 +1,71 @@
+{
+  "intro": [
+    {
+      "text": "The elder child of Wax and Steris, and brother of Tindwyl Ladrian.",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "2" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Childhood",
+          "revealedIn": [
+            { "book": "lost-metal", "chapter": "2" },
+            { "book": "lost-metal", "chapter": "7" },
+            { "book": "lost-metal", "chapter": "9" },
+            { "book": "lost-metal", "chapter": "epilogue-2" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "As Wax got ready to address the Elendel senate, his son handed him two drawings to carry into the chamber.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "2" }]
+        },
+        {
+          "text": "Using an accent Wayne had taught him, Max asked his father to take him flying. Strapped into a special harness on Wax's back, he went up to their home atop Ahlstrom Tower, where he dropped twirly-seeds over the edge and played a fetch game of his own invention with a weighted wicker ball.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "7" }]
+        },
+        {
+          "text": "Max was still on Wax's back when his father flew up to inspect a Malwish warship hanging over the city, and he cut into Wax's tense talk with Admiral Daal by announcing that he needed the bathroom.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "9" }]
+        },
+        {
+          "text": "When Wax came home after the danger to Elendel had passed, Max met him at their suite and congratulated him on saving the world.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "epilogue-2" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": [
+    {
+      "text": "Max is eager and adventurous, loves drawing and playing with a Soonie pup, and has always been drawn to heights, so flying with his father is his favorite thing. He shows real sympathy for his parents' troubles even when he doesn't quite follow them, and he has picked up his own form of Wayne's habit of trading.",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "19" }]
+    }
+  ],
+  "relationships": [
+    {
+      "title": [
+        {
+          "text": "Family and friends",
+          "revealedIn": [
+            { "book": "lost-metal", "chapter": "52" },
+            { "book": "lost-metal", "chapter": "61" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Max and Wax are very close, flying together and playing Max's wicker-ball game. Max is a big part of why Wax can settle into being a senator and a father without missing the thrill of the chase.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "52" }]
+        },
+        {
+          "text": "Wayne acts as an uncle to Max, teaching him accents, including one meant for annoying senators, and sometimes reading books with him.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "61" }]
+        }
+      ]
+    }
+  ]
+}

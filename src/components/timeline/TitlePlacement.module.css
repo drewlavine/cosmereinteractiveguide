@@ -390,6 +390,167 @@
   scale: 1.1;
 }
 
+/* Curved actions: always-visible info and zoom nodes, following the
+   globe's tilted elliptical edge. */
+.actions {
+  --edge: calc(var(--globe-r, 0px) * 1.06);
+  --rx: min(calc(var(--globe-r, 0px) * 1.06 + 24px), calc(50vw - 24px));
+  --ry: calc(var(--globe-r, 0px) * 0.36 + 16px);
+  --tilt: -14deg;
+  position: absolute;
+  top: calc(100% + 6px + var(--globe-r, 0px));
+  left: 50%;
+  width: 0;
+  height: 0;
+  rotate: var(--tilt);
+  pointer-events: none;
+}
+
+.actionsRing {
+  position: absolute;
+  top: calc(-1 * var(--ry));
+  left: calc(-1 * var(--rx));
+  width: calc(2 * var(--rx));
+  height: calc(2 * var(--ry));
+  border: 1.5px solid rgba(232, 190, 96, 0.72);
+  border-radius: 50%;
+  filter: drop-shadow(0 0 2px rgba(212, 165, 64, 0.5));
+  opacity: 0.75;
+  mask-image: radial-gradient(
+    circle var(--edge) at center,
+    transparent calc(var(--edge) - 0.5px),
+    #000 calc(var(--edge) + 0.5px)
+  );
+  pointer-events: none;
+}
+
+.actions .action {
+  position: absolute;
+  top: 0;
+  translate: -50% -50%;
+  pointer-events: auto;
+}
+
+.action {
+  display: grid;
+  place-items: center;
+  width: 2.75rem;
+  height: 2.75rem;
+  padding: 0;
+  border: 1px solid rgba(232, 190, 96, 0.82);
+  border-radius: 50%;
+  background: radial-gradient(circle at 35% 30%, #40361f, #16212b 62%, #0d151c);
+  box-shadow:
+    0 0 0 3px rgba(212, 165, 64, 0.14),
+    0 0 14px 2px rgba(212, 165, 64, 0.36),
+    0 2px 8px rgba(0, 0, 0, 0.6);
+  color: var(--gold);
+  cursor: pointer;
+  transition:
+    scale 0.2s ease,
+    box-shadow 0.2s ease,
+    background 0.2s ease;
+}
+
+.actions .stateAction {
+  left: calc(-1 * var(--rx));
+  rotate: calc(-1 * var(--tilt));
+}
+
+.actions .zoomAction {
+  left: var(--rx);
+  rotate: calc(-1 * var(--tilt));
+}
+
+.action svg {
+  width: 1.15rem;
+  height: 1.15rem;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2.2;
+  stroke-linecap: round;
+}
+
+.action:focus-visible {
+  outline: 2px solid var(--gold);
+  outline-offset: 4px;
+}
+
+.action:active {
+  scale: 0.94;
+}
+
+@media (hover: hover) {
+  .action:hover {
+    scale: 1.12;
+    background: radial-gradient(
+      circle at 35% 30%,
+      #5a4a22,
+      #1e2b36 62%,
+      #101921
+    );
+    box-shadow:
+      0 0 0 4px rgba(212, 165, 64, 0.2),
+      0 0 22px 4px rgba(232, 190, 96, 0.48),
+      0 2px 8px rgba(0, 0, 0, 0.6);
+  }
+}
+
+@media (max-width: 639px) {
+  .actions {
+    --rx: min(calc(var(--globe-r, 0px) * 1.03 + 10px), calc(50vw - 22px));
+    --ry: calc(var(--globe-r, 0px) * 0.32 + 12px);
+    --tilt: -24deg;
+  }
+}
+
+/* Hover actions: the two buttons stacked beside the globe, there while the
+   pointer is over it (the explorer's data-planet-hover), on them, or on
+   keyboard focus. Not :focus-within, which a click leaves on. */
+.pair {
+  position: absolute;
+  top: calc(100% + 6px + var(--globe-r, 0px));
+  left: min(
+    calc(50% + var(--globe-r, 0px) * 1.06 - 6px),
+    calc(50% + 50vw - 86px)
+  );
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  /* Reaches back into the globe's hover zone, so the pointer is always over
+     one or the other on its way to a button. */
+  padding-left: 18px;
+  translate: -6px -50%;
+  opacity: 0;
+  pointer-events: none;
+  transition:
+    opacity 0.18s ease,
+    translate 0.18s ease;
+}
+
+[data-planet-hover] .pair,
+.pair:hover,
+.pair:has(:focus-visible) {
+  translate: 0 -50%;
+  opacity: 1;
+  pointer-events: auto;
+}
+
+/* Touch: no hover to reveal them by, so they stay. */
+@media (hover: none), (any-pointer: coarse) {
+  .pair {
+    translate: 0 -50%;
+    opacity: 1;
+    pointer-events: auto;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .pair {
+    transition: none;
+  }
+}
+
 /* Touch: no hover to find the label by, so it shows. */
 @media (hover: none), (any-pointer: coarse) {
   .moonLabel {
@@ -465,6 +626,7 @@
   .chip,
   .chev,
   .disc,
+  .action,
   .moonLabel,
   .ring {
     transition: none;

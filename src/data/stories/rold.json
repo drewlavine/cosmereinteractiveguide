@@ -1,0 +1,26 @@
+{
+  "intro": [
+    {
+      "text": "A Rivershore baker who supplies the town's inn.",
+      "revealedIn": [{ "book": "fires-of-december", "chapter": "ii" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Rivershore",
+          "revealedIn": [{ "book": "fires-of-december", "chapter": "ii" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Rold was at the inn the day Rema nearly choked to death on a sausage.",
+          "revealedIn": [{ "book": "fires-of-december", "chapter": "ii" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

@@ -1,0 +1,280 @@
+{
+  "intro": [
+    {
+      "text": "The magic of the Elantrians, worked by drawing Aons. Since Elantris fell it no longer works: the lines still glow, but nothing happens.",
+      "revealedIn": [{ "book": "elantris", "chapter": "7" }]
+    },
+    {
+      "text": "The magic of the Elantrians, worked by drawing Aons, which has failed since Elantris fell. Raoden comes to believe it is bound up with the land of Arelon and the Dor, and that fixing it would fix Elantris.",
+      "revealedIn": [{ "book": "elantris", "chapter": "19" }]
+    },
+    {
+      "text": "The magic of the Elantrians, who draw Aons that channel power from the Dor. Every Aon mirrors the land of Arelon, so when a chasm changed the land the magic failed, until Raoden found the missing line.",
+      "revealedIn": [{ "book": "elantris", "chapter": "61" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Only Elantrians can work it. Before the fall, those taken by the Shaod gained glowing skin, white hair and the power to draw Aons that worked.",
+      "revealedIn": [{ "book": "elantris", "chapter": "7" }]
+    },
+    {
+      "text": "Every Aon is built on the shape of Arelon. The base Aon is a map of the land, its lines and dot marking the coast, the Atad Mountains and Lake Alonoe, and the others add features, such as the circles in Aon Dii for the forests. As the land changes, the Aons must change with it: the chasm left every Aon needing a new line.",
+      "revealedIn": [{ "book": "elantris", "chapter": "49" }]
+    },
+    {
+      "text": "Its power fades the further an Elantrian goes from Elantris.",
+      "revealedIn": [{ "book": "elantris", "chapter": "62" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The Reod",
+          "revealedIn": [
+            { "book": "elantris", "chapter": "49" },
+            { "book": "elantris", "chapter": "61" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "For centuries AonDor worked, and the Elantrians ruled Arelon from Elantris. When an earthquake opened the chasm, the Elantrians were cursed with a foul look and cut off from their magic, since no one knew where the new line belonged. The terrified people slaughtered most of them.",
+          "revealedIn": [{ "book": "elantris", "chapter": "49" }]
+        },
+        {
+          "text": "The curse came from the city itself: Elantris and the Outer Cities form one vast Aon Rao aimed at the Elantrians, and once the land changed, its now-flawed shape turned on them.",
+          "revealedIn": [{ "book": "elantris", "chapter": "61" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Raoden's search",
+          "revealedIn": [
+            { "book": "elantris", "chapter": "7" },
+            { "book": "elantris", "chapter": "19" },
+            { "book": "elantris", "chapter": "34" },
+            { "book": "elantris", "chapter": "46" },
+            { "book": "elantris", "chapter": "49" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "In Elantris, Galladon shows Raoden that he can draw Aons. After a few lessons Raoden spends a day drawing them, but though they glow they do nothing, and the two discuss how the Reod, the failure of the magic and the city's decay might be linked.",
+          "revealedIn": [{ "book": "elantris", "chapter": "7" }]
+        },
+        {
+          "text": "Studying a book of advanced case studies, Raoden notes that the magic only works in certain places. He links the Arelenes, their land and the Dor, and decides that fixing the magic would fix Elantris and its people.",
+          "revealedIn": [{ "book": "elantris", "chapter": "19" }]
+        },
+        {
+          "text": "Raoden has Galladon and Karata learn the magic too, so they can carry on his studies if he falls.",
+          "revealedIn": [{ "book": "elantris", "chapter": "34" }]
+        },
+        {
+          "text": "Sarene remarks that the base Aon looks like Arelon. Checked against a map, it matches the land down to its exact proportions.",
+          "revealedIn": [{ "book": "elantris", "chapter": "46" }]
+        },
+        {
+          "text": "Raoden draws a modified Aon Ehe and it works, setting part of the library alight. His Aons are still weaker than the books describe and cannot affect people, but Aon Shao lets him disguise himself as a healthy man.",
+          "revealedIn": [{ "book": "elantris", "chapter": "49" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Restoration of Elantris",
+          "revealedIn": [
+            { "book": "elantris", "chapter": "61" },
+            { "book": "elantris", "chapter": "62" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Below the mountain Raoden draws a long line in the ground. Elantris and its outer cities form one great Aon that lacked that line; once it is finished, the Dor's power returns and the Elantrians are restored.",
+          "revealedIn": [{ "book": "elantris", "chapter": "61" }]
+        },
+        {
+          "text": "With the distance in steps from Adien, Raoden adjusts Aon Tia to carry himself to Teod, and finds that Aons weaken away from Elantris. Galladon then brings a group of Elantrians there the same way to fight the monks.",
+          "revealedIn": [{ "book": "elantris", "chapter": "62" }]
+        },
+        {
+          "text": "Raoden, now an Elantrian, becomes king of Arelon and rules from Elantris.",
+          "revealedIn": [{ "book": "elantris", "chapter": "62" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The Sorceress of Lumar",
+          "revealedIn": [{ "book": "tress", "chapter": "64" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Riina made her home on Lumar, where people feared her as the Sorceress, not least for the curses she laid on people with intricate AonDor arrays.",
+          "revealedIn": [{ "book": "tress", "chapter": "64" }]
+        }
+      ]
+    }
+  ],
+  "mechanics": [
+    {
+      "title": [
+        {
+          "text": "Drawing Aons",
+          "revealedIn": [
+            { "book": "elantris", "chapter": "60" },
+            { "book": "elantris", "chapter": "52" },
+            {
+              "all": [
+                { "book": "elantris", "chapter": "49" },
+                { "book": "wind-and-truth", "chapter": "i-11" },
+                { "book": "isles-of-the-emberdark", "chapter": "39" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Each Aon's shape decides its effect, and the Aon called Aon is the root of all the others. A wrongly shaped Aon just flashes once and fades. One that lacks basic lines starts working but stalls for want of power; aimed at people, it can leave them looking like the Elantrians after the Reod. Line widths that match the right places in Arelon give an Aon more control or strength.",
+          "revealedIn": [{ "book": "elantris", "chapter": "60" }]
+        },
+        {
+          "text": "Only an Elantrian can destroy an Aon. Otherwise it keeps working even if it is scuffed or rubbed away.",
+          "revealedIn": [{ "book": "elantris", "chapter": "52" }]
+        },
+        {
+          "text": "The Elantrian must mean to draw an Aon, or its glowing lines won't appear. Each finger makes a line of a different width, and a quill or stick works too. Aons can also be shaped from stone, wire or Light to make charms with real effects. An Aon left unfinished for a short while vanishes without doing anything.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "elantris", "chapter": "49" },
+                { "book": "wind-and-truth", "chapter": "i-11" },
+                { "book": "isles-of-the-emberdark", "chapter": "39" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Modifiers",
+          "revealedIn": [{ "book": "elantris", "chapter": "25" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Extra lines drawn around an Aon fine-tune it, setting things like how long the column of fire from Aon Ehe lasts or where Aon Tia sends its user.",
+          "revealedIn": [{ "book": "elantris", "chapter": "25" }]
+        },
+        {
+          "text": "Linking Aons join parts of a chain of Aons together and control when each one takes effect.",
+          "revealedIn": [{ "book": "elantris", "chapter": "25" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Aon equations and curses",
+          "revealedIn": [
+            { "book": "tress", "chapter": "64" },
+            { "book": "tress", "chapter": "epilogue" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Elaborate Aon equations can lay detailed curses on people, with set effects and conditions. A curse can turn someone into another kind of creature, change their personality, dull their mind, and stop them speaking of the curse or how to lift it.",
+          "revealedIn": [{ "book": "tress", "chapter": "64" }]
+        },
+        {
+          "text": "A cursed person is circled by a ring of Aons that spells out the curse. Those without access to AonDor find it hard or impossible to see.",
+          "revealedIn": [{ "book": "tress", "chapter": "64" }]
+        },
+        {
+          "text": "Meeting its conditions is the only known way to lift a curse. Even its maker struggles to undo it otherwise, though unknown methods or changes to the conditions can work.",
+          "revealedIn": [{ "book": "tress", "chapter": "epilogue" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Beyond Arelon",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "lost-metal", "chapter": "54" },
+                { "book": "tress", "chapter": "64" }
+              ]
+            },
+            { "book": "secret-history", "chapter": "5-2" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "AonDor does not normally work away from its own world, but the system can be hacked to make it work on other planets.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "lost-metal", "chapter": "54" },
+                { "book": "tress", "chapter": "64" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Access can also come through invitation into certain groups, such as the Ire, though how this works is unclear, and a person can even stamp themselves into an Elantrian.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "lost-metal", "chapter": "54" },
+                { "book": "tress", "chapter": "64" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "On Scadrial, the Ire built a stand-in for Arelon in the Cognitive Realm, though it only works with Investiture piped in from Sel.",
+          "revealedIn": [{ "book": "secret-history", "chapter": "5-2" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "galladon",
+      "role": "Elantrian",
+      "revealedIn": [{ "book": "elantris", "chapter": "4" }]
+    },
+    {
+      "characterId": "raoden",
+      "role": "Elantrian",
+      "revealedIn": [{ "book": "elantris", "chapter": "7" }]
+    },
+    {
+      "characterId": "karata",
+      "role": "student",
+      "revealedIn": [{ "book": "elantris", "chapter": "34" }]
+    },
+    {
+      "characterId": "riina",
+      "role": "curse-maker",
+      "revealedIn": [{ "book": "tress", "chapter": "64" }]
+    }
+  ]
+}

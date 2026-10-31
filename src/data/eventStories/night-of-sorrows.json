@@ -1,0 +1,69 @@
+{
+  "intro": [
+    {
+      "text": "A catastrophe foretold in the Almighty's visions.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "75" }]
+    },
+    {
+      "text": "The darkness covering Roshar when the Everstorm spread after Retribution's formation.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "146" }]
+    }
+  ],
+  "description": [],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Warnings",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "prologue" },
+            { "book": "way-of-kings", "chapter": "75" },
+            { "book": "wind-and-truth", "chapter": "74" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Gavilar received warnings of it in the Stormfather's visions.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "prologue" }]
+        },
+        {
+          "text": "The visions warned Dalinar of it alongside the Everstorm and True Desolation.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "75" }]
+        },
+        {
+          "text": "Deti's Death Rattle repeated the warning.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "74" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The spreading storm",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "144" },
+            { "book": "wind-and-truth", "chapter": "146" },
+            { "book": "wind-and-truth", "chapter": "147" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Ishar declared its arrival after Retribution formed.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "144" }]
+        },
+        {
+          "text": "The Everstorm spread across Roshar, leaving Urithiru outside its cover.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "146" }]
+        },
+        {
+          "text": "The storm cleared over Azir.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "147" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": []
+}

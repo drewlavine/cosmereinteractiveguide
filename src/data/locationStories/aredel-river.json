@@ -1,0 +1,38 @@
+{
+  "intro": [
+    {
+      "text": "A river that runs beneath Elantris and can be reached from a well inside the city.",
+      "revealedIn": [{ "book": "elantris", "chapter": "13" }]
+    },
+    {
+      "text": "A river of Arelon. It flows out of Lake Alonoe, passes beneath Elantris and meets the Sea of Fjorden in a bay near Kae.",
+      "revealedIn": [{ "book": "elantris", "chapter": "32" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Since Kae's plumbing failed with the Reod, the river has sometimes been turned aside to flush out the city's sewers.",
+      "revealedIn": [{ "book": "elantris", "chapter": "32" }]
+    },
+    {
+      "text": "Aon Eno, the Aon for water, includes the river.",
+      "revealedIn": [{ "book": "elantris", "chapter": "49" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "A way out of Elantris",
+          "revealedIn": [{ "book": "elantris", "chapter": "13" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Raoden and Karata climbed down into the river through a well in Elantris and let the current sweep them out of the city.",
+          "revealedIn": [{ "book": "elantris", "chapter": "13" }]
+        }
+      ]
+    }
+  ]
+}

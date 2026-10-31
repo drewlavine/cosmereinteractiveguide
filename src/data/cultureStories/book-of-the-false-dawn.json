@@ -1,0 +1,36 @@
+{
+  "intro": [
+    {
+      "text": "A subversive book of the Final Empire that Vin finds among Elend Venture's books, disguised as a volume about the weather.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "18" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "A small black volume with no title page and no author's name; its cover calls it Weather Patterns of the Northern Dominance.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "18" }]
+    },
+    {
+      "text": "Its topics include metalminds, the Massacre at Devanex, changes to the Deepness Doctrine and the resettling of the Renates peoples.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "18" }]
+    },
+    {
+      "text": "Kelsier tells Vin it is an older book that stops short of calling for rebellion. Any Keeper can recite all of it, though most copies were thought destroyed. The Ministry never banned it, counting on its stuffy style to keep it obscure.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "19" }]
+    }
+  ],
+  "history": [],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "elend-venture",
+      "role": "owner",
+      "revealedIn": [{ "book": "final-empire", "chapter": "18" }]
+    },
+    {
+      "characterId": "vin",
+      "role": "reader",
+      "revealedIn": [{ "book": "final-empire", "chapter": "18" }]
+    }
+  ]
+}

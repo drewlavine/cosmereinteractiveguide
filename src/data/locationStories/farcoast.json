@@ -1,0 +1,40 @@
+{
+  "intro": [
+    {
+      "text": "Red's home town. Highprince Vamah called on it to send men to the Shattered Plains for the War of Reckoning.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "24" }]
+    },
+    {
+      "text": "A city in Alethkar's Vamah princedom, which sent many of its men to Highprince Vamah's war on the Shattered Plains.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "24" },
+            "oathbringer"
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The War of Reckoning",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "24" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "After the Parshendi killed King Gavilar, Highprince Vamah summoned Farcoast to the war on the Shattered Plains. Up to half its men of fighting age joined up; the mood was eager, and those who stayed behind often had their courage doubted by their neighbours.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "24" }]
+        },
+        {
+          "text": "Red enlisted along with five of his friends. He was the only one of the six to survive the fighting.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "24" }]
+        }
+      ]
+    }
+  ]
+}

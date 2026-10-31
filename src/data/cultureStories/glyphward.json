@@ -1,0 +1,142 @@
+{
+  "intro": [
+    {
+      "text": "A glyphward is a Vorin prayer, widely believed to turn away evil.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "25" }]
+    },
+    {
+      "text": "A glyphward is a Vorin prayer written in glyphs and usually burned to send it to the Almighty. Glyphwards are widely believed to turn away evil.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "62" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Most Vorins rely on glyphwards as their chief way of addressing the Almighty, and an unanswered prayer is simply His will. A minority of scientific thinkers dismiss them as superstition, asking why an all-knowing god would need a prayer burned before helping.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "43" }]
+    },
+    {
+      "text": "Burning sends the prayer to the Almighty, often with an added appeal to a Herald or the Stormfather. Some glyphwards are worn unburned for protection or luck, some people even have them tattooed, and they can be bought from luckmerches or apothecaries.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "62" }]
+    },
+    {
+      "text": "If there is nothing to burn, a person may still sketch one and bow their head for ten heartbeats, trusting the Almighty to understand. Less formal prayers may just be traced with a finger.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "11" }]
+    },
+    {
+      "text": "Most are drawn on long paper strips or sewn into cloth, usually white, in red or black ink, or in chalk if ink will not hold; some are drawn in burn ink on a surface and set alight. Drawing them neatly is an admired skill.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "69" },
+            { "book": "words-of-radiance", "chapter": "86" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Making them is usually women's work, though any man who can draw glyphs may do it. Ardents burn prayers for the people they serve or in return for an offering, and those concerned bow their heads while one burns.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "69" },
+            { "book": "words-of-radiance", "chapter": "14" },
+            { "book": "oathbringer", "chapter": "83" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Kinds of prayer",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "44" },
+            { "book": "way-of-kings", "chapter": "61" },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "69" },
+                { "book": "words-of-radiance", "chapter": "i-14" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "49" },
+                { "book": "words-of-radiance", "chapter": "56" },
+                { "book": "oathbringer", "chapter": "89" }
+              ]
+            },
+            { "book": "oathbringer", "chapter": "89" },
+            { "book": "oathbringer", "chapter": "49" },
+            { "book": "oathbringer", "chapter": "122" },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "8" },
+                { "book": "oathbringer", "chapter": "104" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "A woman who is to marry sews a bride's prayer, a glyphpair, onto her sleeve, and burns it once the engagement is formally announced.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "44" }]
+        },
+        {
+          "text": "A Vorin who has sinned, for example by visiting the Nightwatcher, burns glyphwards asking the Almighty's forgiveness.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "61" }]
+        },
+        {
+          "text": "If someone has died or may die, his wife or daughters make glyphwards praying for him in this life or the next, and some keep burning them for years. Prayers may also ask protection for something greater, such as a nation.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "69" },
+                { "book": "words-of-radiance", "chapter": "i-14" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Glyphwards are often burned before an important act such as a duel, asking for things like safety, glory, fortune or determination.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "49" },
+                { "book": "words-of-radiance", "chapter": "56" },
+                { "book": "oathbringer", "chapter": "89" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "For protection, a person may wear an unburned glyphward around the arm, and it is thought wise to carry one near people of doubtful morals, stormwardens and Knights Radiant among them.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "89" }]
+        },
+        {
+          "text": "When a child is born, several glyphwards are burned, some bearing the baby's name.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "49" }]
+        },
+        {
+          "text": "A bride receives a number of glyphwards at her wedding.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "122" }]
+        },
+        {
+          "text": "Others are burned in thanks, after a stroke of luck or once a hard task is done.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "8" },
+                { "book": "oathbringer", "chapter": "104" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": []
+}

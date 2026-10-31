@@ -1,0 +1,37 @@
+{
+  "intro": [
+    {
+      "text": "A member of Elendel's House Yomen, raised as a Sliverist.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "4" }]
+    },
+    {
+      "text": "A wealthy, powerful lord of House Yomen in Elendel.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "9" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Elendel",
+          "revealedIn": [
+            { "book": "alloy-of-law", "chapter": "5" },
+            { "book": "alloy-of-law", "chapter": "9" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Joshin married Lady Mi'chelle Ostlin at the Yomen mansion. The Vanishers attacked the wedding dinner and, to his fury, robbed him, his bride and his family of their jewelry and money, the bridal necklace included.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "5" }]
+        },
+        {
+          "text": "Joshin invested in Elendel property, buying up and renovating buildings in a run-down district, which cut the area's crime sharply.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "9" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

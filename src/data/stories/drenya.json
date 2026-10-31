@@ -1,0 +1,31 @@
+{
+  "intro": [
+    {
+      "text": "A woman living in the underground Community, one of the residents who gather at Armal Harms's house when Marasi arrives.",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "56" }],
+      "fallback": true
+    },
+    {
+      "text": "A woman kidnapped by the Set and kept in its underground Community, one of the residents who gather at Armal Harms's house when Marasi arrives.",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "68" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The Community",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "68" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Drenya had been taken by the Set and made part of its Community. She was probably freed along with the others after the perpendicularity was drained.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "68" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

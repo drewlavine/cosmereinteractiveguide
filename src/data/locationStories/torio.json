@@ -1,0 +1,57 @@
+{
+  "intro": [
+    {
+      "text": "A land whose people deeply revere the yoki-hijo as religious figures who provide many of the devices they need to live and prosper.",
+      "revealedIn": [{ "book": "yumi", "chapter": "4" }]
+    },
+    {
+      "text": "A kingdom of scorching ground, ruled by a queen from Torio City, whose villages are built around steamwells.",
+      "revealedIn": [{ "book": "yumi", "chapter": "22" }]
+    },
+    {
+      "text": "A kingdom destroyed when the father machine was switched on during a festival in its capital.",
+      "revealedIn": [{ "book": "yumi", "chapter": "39" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "People dress in bright colours. Women wear bulky bell-shaped dresses cut so the hot updrafts cannot lift them too far; men wear loose pastel clothes tied at the ankle, sometimes with black hats, and often short tidy beards. Everyone walks on getuk, wooden clogs about six inches tall that keep feet off the burning ground.",
+      "revealedIn": [{ "book": "yumi", "chapter": "10" }]
+    },
+    {
+      "text": "Food can be cooked straight on the ground: stews, a blue-purple grain called mingo, nuts from floating orchards and tiny side dishes, eaten with spoons and maipon sticks. People bathe in cool springs on high ground or else in bathhouses. A week lasts eleven days. Devices from the spirits are handed out by need and water is shared, but money buys other goods.",
+      "revealedIn": [{ "book": "yumi", "chapter": "23" }]
+    },
+    {
+      "text": "Heat rises from the stone everywhere. Water gathers in only a few places, so villages sit by steamwells, while the searing barrens between them can set clogs alight and are crossed at night in floating wagons; higher up lie the cold wastes. Updrafts carry floating plants, from wide-leaved flowers to heavy trees chained outside houses, and support field mice, huge crows tended by corviders and hawks up to fifteen feet across.",
+      "revealedIn": [{ "book": "yumi", "chapter": "25" }]
+    },
+    {
+      "text": "People pray to the spirits living underground and build shrines in their villages to seek their favour, believing that unworthy souls are left drifting in the cold sky, shut out from the ground's warmth. Over about two centuries a reform movement has spread among the yoki-hijo: twelve of the fourteen now see to their own meals and clothing and rest when they choose, yet still serve the people.",
+      "revealedIn": [{ "book": "yumi", "chapter": "36" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Destruction",
+          "revealedIn": [
+            { "book": "yumi", "chapter": "39" },
+            { "book": "yumi", "chapter": "epilogue" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "At the yearly Festival of Reveals in Torio City, scholars unveiled a machine meant to harness spiritual power. Its badly written Commands mistook human souls for spirits, so it drew in both across the planet, wiping out Torio's people and creating the shroud. Only nomads on the fringes and a few heavily Invested yoki-hijo survived.",
+          "revealedIn": [{ "book": "yumi", "chapter": "39" }]
+        },
+        {
+          "text": "For 1,763 years the kingdom lingered only as copies of small areas, made of Investiture and hidden within the shroud, where the surviving yoki-hijo relived a single day again and again with their memories of it wiped. When the machine fell and the shroud lifted, nothing of Torio remained but crumbling ruins.",
+          "revealedIn": [{ "book": "yumi", "chapter": "epilogue" }]
+        }
+      ]
+    }
+  ]
+}

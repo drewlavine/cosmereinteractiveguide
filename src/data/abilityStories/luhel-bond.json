@@ -1,0 +1,96 @@
+{
+  "intro": [
+    {
+      "text": "A give-and-take link, close to the way aethers ought to work, through which Midnight Essence draws water from a person. In return that person can control the creature, and with more water can even put their awareness into it.",
+      "revealedIn": [{ "book": "tress", "chapter": "31" }]
+    },
+    {
+      "text": "A give-and-take link through which Midnight Essence draws water from a person in return for control of the creature. The more control, the more water it drains. The link can show as black lines, and a silver knife can cut it.",
+      "revealedIn": [{ "book": "tress", "chapter": "58" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "What the bond trades is physical matter, usually water, in return for the power to direct the bonded aether.",
+      "revealedIn": [{ "book": "tress", "chapter": "31" }]
+    },
+    {
+      "text": "Among the spores, only midnight spores are known to form it, once they have grown into Midnight Essence.",
+      "revealedIn": [{ "book": "tress", "chapter": "58" }]
+    }
+  ],
+  "history": [],
+  "mechanics": [
+    {
+      "title": [
+        {
+          "text": "Forming and feeding",
+          "revealedIn": [
+            { "book": "tress", "chapter": "55" },
+            { "book": "tress", "chapter": "31" },
+            { "book": "tress", "chapter": "58" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Midnight Essence bonds with someone close by who has watered its spores, and it will switch to a person who offers it more water.",
+          "revealedIn": [{ "book": "tress", "chapter": "55" }]
+        },
+        {
+          "text": "Drinking more water and passing more of it to the aether can strengthen the bond.",
+          "revealedIn": [{ "book": "tress", "chapter": "31" }]
+        },
+        {
+          "text": "Someone bonded feels a fierce thirst as water is pulled from their body. The more direct control they take over the creature, the more water it drains.",
+          "revealedIn": [{ "book": "tress", "chapter": "58" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Breaking the bond",
+          "revealedIn": [
+            { "book": "tress", "chapter": "58" },
+            { "book": "tress", "chapter": "62" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "For some, the bond shows as black lines, and a silver knife can cut through it.",
+          "revealedIn": [{ "book": "tress", "chapter": "58" }]
+        },
+        {
+          "text": "Midnight Essence can also drop a bond by itself in order to join a new host.",
+          "revealedIn": [{ "book": "tress", "chapter": "62" }]
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Trades",
+      "name": "Water for control",
+      "revealedIn": [{ "book": "tress", "chapter": "31" }]
+    },
+    {
+      "label": "Cut by",
+      "name": "A silver knife",
+      "revealedIn": [{ "book": "tress", "chapter": "58" }]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "tress",
+      "role": "bonded Essence",
+      "revealedIn": [{ "book": "tress", "chapter": "31" }]
+    },
+    {
+      "characterId": "fort",
+      "role": "bonded briefly",
+      "revealedIn": [{ "book": "tress", "chapter": "55" }]
+    }
+  ]
+}

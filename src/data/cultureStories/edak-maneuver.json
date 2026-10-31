@@ -1,0 +1,32 @@
+{
+  "intro": [
+    {
+      "text": "A way of saving someone who is choking, by heaving them upward again and again until whatever is stuck flies out.",
+      "revealedIn": [{ "book": "fires-of-december", "chapter": "xii" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "December was taught it by a travelling doctor and rescued a choking Rema with it. When she tells Lord Geoffrim, he knows it by the name Edak maneuver.",
+      "revealedIn": [{ "book": "fires-of-december", "chapter": "xii" }]
+    },
+    {
+      "text": "Flint learned it once he had watched a man nearly die on a tomato. Talking it over with December one evening, he called it the Gorge maneuver to test whether she truly knew it.",
+      "revealedIn": [{ "book": "fires-of-december", "chapter": "xxi" }]
+    }
+  ],
+  "history": [],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "december",
+      "role": "used it",
+      "revealedIn": [{ "book": "fires-of-december", "chapter": "xii" }]
+    },
+    {
+      "characterId": "rema",
+      "role": "saved by it",
+      "revealedIn": [{ "book": "fires-of-december", "chapter": "xii" }]
+    }
+  ]
+}

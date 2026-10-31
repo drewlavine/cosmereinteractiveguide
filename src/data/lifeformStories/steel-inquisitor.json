@@ -1,0 +1,209 @@
+{
+  "intro": [
+    {
+      "text": "Inquisitors of the Steel Ministry. Rumours in the skaa underground say they are immortal, can see into people's souls and have no equal as warriors.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "3" }]
+    },
+    {
+      "text": "Inquisitors of the Steel Ministry, dreaded by the skaa underground. They fight with obsidian axes, can Push metal as Allomancers do, and can follow a fleeing target's trail.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "14" }]
+    },
+    {
+      "text": "Steel Ministry Inquisitors with steel spikes driven through their heads. They seem nearly unstoppable, but pulling out the linchpin spike in an Inquisitor's back kills them, and so does cutting off the head.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "38" }]
+    },
+    {
+      "text": "Steel Ministry Inquisitors remade by metal spikes, each hammered through a Misting or Feruchemist and then into the Inquisitor to carry that person's power across. Spikes in their eye sockets let them see by Allomantic lines; removing the linchpin spike kills them.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "36" },
+            { "book": "hero-of-ages", "chapter": "41" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "Most Inquisitors could burn atium. For all their power, they still age, and can die of old age.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "epilogue" }]
+    },
+    {
+      "text": "Ordinary people made into Inquisitors kept full memories of who they had been and of their lives before.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "40" }]
+    },
+    {
+      "text": "Making Inquisitors is painful for both people involved. The process shifts the new Inquisitor's organs, so spikes can go almost anywhere without killing.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "41" }]
+    },
+    {
+      "text": "Their spikes give them many Allomantic powers and some Feruchemical ones, on top of any they had before. The Ministry liked to make Inquisitors from Mistborn and Seekers, since their spiked bronze sense became strong enough to pierce copperclouds.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "45" }]
+    },
+    {
+      "text": "Inquisitors are bald, like the obligators they are made from, with tattoos spreading from their eye sockets that show rank and what kind of Allomancer each once was. Big steel spikes fill their eye sockets and jut several inches out the back of the head. Most have nine to eleven spikes: two through the eyes, one mid-spine, and the rest, six to eight, in the chest and belly.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "epilogue" },
+            { "book": "hero-of-ages", "chapter": "72" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Hunting Kelsier's crew",
+          "revealedIn": [
+            { "book": "final-empire", "chapter": "2" },
+            { "book": "final-empire", "chapter": "14" },
+            { "book": "final-empire", "chapter": "33" },
+            { "book": "final-empire", "chapter": "34" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "After Camon met with the Ministry, an Inquisitor began trailing his crew, and Kelsier went off to lead it away.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "2" }]
+        },
+        {
+          "text": "When Vin broke into Kredik Shaw, Inquisitors attacked her. One Pushed sharpened metal at her, and the Inquisitor that had trailed Camon's crew cut her with an obsidian axe, then kept tracking her after she got away.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "14" }]
+        },
+        {
+          "text": "Kelsier fought the Inquisitor Bendal while setting prisoners free in Luthadel.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "33" }]
+        },
+        {
+          "text": "Kelsier slammed the spike points jutting from the back of Bendal's skull into an overturned cart, then cut off his head with one of Bendal's own obsidian axes. More Inquisitors soon rode up on black horses.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "34" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Taking over the Ministry",
+          "revealedIn": [
+            { "book": "final-empire", "chapter": "36" },
+            { "book": "final-empire", "chapter": "38" },
+            { "book": "final-empire", "chapter": "epilogue" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The Inquisitor Kar asked the Lord Ruler to hand control of the Steel Ministry from the obligators of the Canton of Orthodoxy to the Inquisitors' own Canton of Inquisition.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "36" }]
+        },
+        {
+          "text": "The Lord Ruler gave the Ministry to the Inquisitors under Kar. Marsh, by then an Inquisitor himself, killed the others as they slept and then Kar, pulling out their linchpin spikes, and found that the Lord Ruler had no such spike.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "38" }]
+        },
+        {
+          "text": "Marsh called the way Inquisitors are made a messy process.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "epilogue" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Ruin's Inquisitors",
+          "revealedIn": [
+            { "book": "hero-of-ages", "chapter": "6" },
+            { "book": "hero-of-ages", "chapter": "13" },
+            { "book": "hero-of-ages", "chapter": "72" },
+            { "book": "hero-of-ages", "chapter": "73" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Once the Collapse came, Ruin granted his Inquisitors advantages the Lord Ruler had always denied them for fear they would grow too strong: extra spikes for more Feruchemical powers, and a metal plate shielding the linchpin spike between the shoulder blades.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "6" }]
+        },
+        {
+          "text": "The Inquisitor at Vetitan gained a new pewter spike through his heart, letting him store physical speed.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "13" }]
+        },
+        {
+          "text": "Marsh had eleven spikes before the Collapse; Ruin gave him ten more, making him the strongest Inquisitor. A few, Marsh among them, got electrum spikes taken from Mistborn, granting powers such as duralumin.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "72" }]
+        },
+        {
+          "text": "Aradan Yomen noted that the Lord Ruler had first made sixteen Inquisitors, and that Ruin used sixteen too: thirteen at the final battle, after Elend and Vin had already dealt with three.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "73" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Three centuries on",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "shadows-of-self", "chapter": "13" },
+                { "book": "bands-of-mourning", "chapter": "3" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "alloy-of-law", "chapter": "epilogue" },
+                { "book": "bands-of-mourning", "chapter": "12" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Harmony melted down Inquisitor spikes into earrings, which kandra handed out to followers of the Path. MeLaan gave Wax his.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "shadows-of-self", "chapter": "13" },
+                { "book": "bands-of-mourning", "chapter": "3" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Art of Wax's day often shows Inquisitors as ravens, and people call them the wraiths of the Lord Ruler. Marsh, the only one still alive, has come to be seen as death in person.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "alloy-of-law", "chapter": "epilogue" },
+                { "book": "bands-of-mourning", "chapter": "12" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "bendal",
+      "role": "Inquisitor",
+      "revealedIn": [{ "book": "final-empire", "chapter": "33" }]
+    },
+    {
+      "characterId": "kar",
+      "role": "Inquisitor leader",
+      "revealedIn": [{ "book": "final-empire", "chapter": "36" }]
+    },
+    {
+      "characterId": "marsh",
+      "role": "Inquisitor",
+      "revealedIn": [{ "book": "final-empire", "chapter": "38" }]
+    }
+  ]
+}

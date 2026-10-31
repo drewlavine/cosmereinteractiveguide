@@ -290,5 +290,49 @@
         }
       ]
     }
+  ],
+  "abilities": [
+    {
+      "title": [
+        {
+          "text": "Abrasion",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "i-13" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Lift learned to increase friction rather than only reducing it, using this reverse application of Abrasion in a fight.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "i-13" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Entering visions",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "42" },
+                { "book": "wind-and-truth", "chapter": "33" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "When Lift enters a vision, her body stays behind. She used her Connection to Dalinar to find her way into his visions.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "42" },
+                { "book": "wind-and-truth", "chapter": "33" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
   ]
 }

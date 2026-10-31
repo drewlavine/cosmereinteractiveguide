@@ -356,5 +356,42 @@
         }
       ]
     }
+  ],
+  "abilities": [
+    {
+      "title": [
+        {
+          "text": "Before the Oathpact",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "104" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "On Ashyn, Odium granted Jezrien unrestricted Surges that also greatly slowed his aging.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "104" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The Heralds' power",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "64" },
+            { "book": "wind-and-truth", "chapter": "122" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "His Connection to Honor continually supplied Investiture that held his body and soul at the age he became a Herald.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "64" }]
+        },
+        {
+          "text": "Honor loosened the Heralds' restrictions, increasing their access to the Surges and to Roshar's own powers.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "122" }]
+        }
+      ]
+    }
   ]
 }

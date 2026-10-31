@@ -1,0 +1,26 @@
+{
+  "intro": [
+    {
+      "text": "A noblewoman of New Seran and owner of Farthing Mansion.",
+      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "10" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The robbery",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "10" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "In 342 PC thieves broke into her mansion and made off with some of her jewelry. Together with the Uptown Precinct she offered a reward for getting it back, as a broadsheet reported.",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "10" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

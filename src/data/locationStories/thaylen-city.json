@@ -15,6 +15,10 @@
     {
       "text": "The capital of Thaylenah on Roshar, a great trading and banking city, and the site of the Battle of Thaylen Field.",
       "revealedIn": [{ "book": "oathbringer", "chapter": "121" }]
+    },
+    {
+      "text": "Thaylenah's trading capital, surrendered to Odium by agreement rather than captured by an invading army.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "123" }]
     }
   ],
   "description": [
@@ -153,6 +157,20 @@
         {
           "text": "The battle left the city in shambles, with a thunderclast's corpse among the ruins. Surgeon stations were set up in the Low Ward, and the allies helped rebuild what they could.",
           "revealedIn": [{ "book": "oathbringer", "chapter": "122" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Before the contest",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "123" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "The fleet threatening the city proved to be a diversion. After Odium debated Jasnah before Queen Fen, Fen agreed to bring the city and Thaylenah under his rule.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "123" }]
         }
       ]
     }

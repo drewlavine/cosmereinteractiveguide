@@ -1,0 +1,46 @@
+{
+  "intro": [
+    {
+      "text": "A private in Duchess Khrissalla's escort on her voyage to Dayside.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "prologue" }]
+    },
+    {
+      "text": "A private in Duchess Khrissalla's escort who deserts with Flennid.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "3" }]
+    },
+    {
+      "text": "An Elisian private in Duchess Khrissalla's escort who deserts with Flennid.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "8" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Khriss's escort",
+          "revealedIn": [
+            { "book": "white-sand-omnibus", "chapter": "1" },
+            { "book": "white-sand-omnibus", "chapter": "3" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Torth was chatting with Flennid on deck when Baon told the soldiers to keep their guns out of sight. At Dosha-Har'Ken he guarded the unloaded supplies on the dock, and on the Kerla Flennid told him to keep an eye on the warriors they passed.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "1" }]
+        },
+        {
+          "text": "At the Diem's tents he showed Daazk a sand master's sash; Daazk fled and Flennid shot him. Sent to help recover the body, Torth instead ran off with Flennid toward the port, taking the tonk that carried the water and food.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "3" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Wears a military tricorne, a grey soldier's jacket, khaki trousers and brown calf-high boots.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "1" }]
+    }
+  ],
+  "personality": []
+}

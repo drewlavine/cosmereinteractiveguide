@@ -1,0 +1,53 @@
+{
+  "intro": [
+    {
+      "text": "A kind of rock used in Forgery, the ideal material for carving soulstamps.",
+      "revealedIn": [{ "book": "emperors-soul", "chapter": "day-3" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "In its raw state soulstone is almost chalk-soft, but scraping it does not chip it. Held in a fire, it hardens until it is as tough as quartz, taking on a grey and red marbled look.",
+      "revealedIn": [{ "book": "emperors-soul", "chapter": "day-30" }]
+    },
+    {
+      "text": "Forgers prefer it because a stamp must be cut exactly: soft stone that never chips can be carved with great precision, and hardening it in flame makes the stamp last, which matters for stamps used often or as complex as Essence Marks. Only crystal makes a better stamp, but it is extremely hard to carve.",
+      "revealedIn": [{ "book": "emperors-soul", "chapter": "day-30" }]
+    },
+    {
+      "text": "It is a fine-grained stone, much like soapstone, white with flecks of blood red.",
+      "revealedIn": [{ "book": "emperors-soul", "chapter": "day-98" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Shai and soulstone",
+          "revealedIn": [
+            { "book": "emperors-soul", "chapter": "day-30" },
+            { "book": "emperors-soul", "chapter": "day-98" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Shai learned to carve soulstone as an apprentice Forger, after an early stretch of training in which she was not allowed to touch it.",
+          "revealedIn": [{ "book": "emperors-soul", "chapter": "day-30" }]
+        },
+        {
+          "text": "Imprisoned in the Rose Palace, Shai asked for a large supply of soulstone for the emperor's Essence Mark. Frava was reluctant to hand over so potent a material but agreed, since Shai could not finish in time without it. Shai took some spare soulstone with her when she escaped.",
+          "revealedIn": [{ "book": "emperors-soul", "chapter": "day-98" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "wan-shailu",
+      "role": "Forger",
+      "revealedIn": [{ "book": "emperors-soul", "chapter": "day-30" }]
+    }
+  ]
+}

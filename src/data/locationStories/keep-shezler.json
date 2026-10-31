@@ -1,0 +1,37 @@
+{
+  "intro": [
+    {
+      "text": "Antillius Shezler's keep, one of Mantiz's four main keeps, near the middle of the city.",
+      "revealedIn": ["eleventh-metal"]
+    }
+  ],
+  "description": [
+    {
+      "text": "A tall, slender building, it rivals the keeps of Luthadel in height. Four tapering spires with tin-clad roofs rise at its front, and a guarded wall roughly fifteen feet high surrounds it.",
+      "revealedIn": ["eleventh-metal"]
+    },
+    {
+      "text": "As with most Western Dominance architecture, it looks organic and unfinished rather than blocky: stone frames are covered in sculpted, hardened mud, glazed statues in many colours are scattered over the outside, and its windows vary in shape and size, many of them stained glass.",
+      "revealedIn": ["eleventh-metal"]
+    }
+  ],
+  "history": [
+    {
+      "title": [{ "text": "Kelsier's raid", "revealedIn": ["eleventh-metal"] }],
+      "items": [
+        {
+          "text": "Kelsier and Gemmel broke into the keep as part of Kelsier's training. They first climbed to the roof to look around, then reached the basement through a garden shed, killing guards on the way.",
+          "revealedIn": ["eleventh-metal"]
+        },
+        {
+          "text": "In the basement they found Shezler's fine metallurgy equipment and the skaa prisoners he used to test his work toward the Eleventh Metal.",
+          "revealedIn": ["eleventh-metal"]
+        },
+        {
+          "text": "Shezler, a Mistborn himself, came down and attacked Kelsier, who killed him without help from Gemmel. Kelsier freed the prisoners and left with Shezler's notebook before the guards understood what had happened.",
+          "revealedIn": ["eleventh-metal"]
+        }
+      ]
+    }
+  ]
+}

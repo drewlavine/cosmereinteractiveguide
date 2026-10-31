@@ -1,0 +1,95 @@
+{
+  "intro": [
+    {
+      "text": "The Veristitalians are an order of Rosharan scholars who try to write unbiased, factual histories, to make sense of the present and prepare for the future.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "33" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Unusually for historians, they treat folktales and superstitions as places where scraps of real history can survive.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "33" }]
+    },
+    {
+      "text": "They hold that most historians care less about truth than about flattering themselves and their motives. Members choose events they feel are misunderstood and try to reconstruct what really happened.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "45" }]
+    },
+    {
+      "text": "Jasnah counts her fellow members among the finest minds on Roshar and calls them her \"sisters\", though at least one, Jochi, is a man who writes under a woman's name.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "45" },
+            { "book": "oathbringer", "chapter": "53" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Members keep in touch by spanreed, trading news from around Roshar, following the doings of Heralds, Radiants and Siah Aimians, and working out theories about strange events past and present.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "oathbringer", "chapter": "53" },
+            { "book": "rhythm-of-war", "chapter": "99" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Jasnah",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "33" },
+            { "book": "way-of-kings", "chapter": "52" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Jasnah, a Veristitalian, was researching in the Palanaeum when Shallan first met her.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "33" }]
+        },
+        {
+          "text": "The order was no secret, and Jasnah talked about it openly with Dalinar, Renarin and other people.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "52" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "jasnah-kholin",
+      "role": "member",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "33" }]
+    },
+    {
+      "characterId": "ethid",
+      "role": "member",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "45" },
+            { "book": "oathbringer", "chapter": "53" }
+          ]
+        }
+      ]
+    },
+    {
+      "characterId": "jochi",
+      "role": "member",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "45" },
+            { "book": "oathbringer", "chapter": "53" }
+          ]
+        }
+      ]
+    }
+  ]
+}

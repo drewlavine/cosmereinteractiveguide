@@ -1,7 +1,23 @@
 import { useMemo } from 'react'
-import { Link, useSearchParams } from 'react-router'
-import { FeatureLegend, FeatureLinks } from '../components/PageFeatures'
+import { Link } from 'react-router'
+import {
+  namedEntryArt,
+  seriesArt,
+  useVisiblePlanets,
+  worldArt,
+} from '../components/browse/art'
+import { BrowseList } from '../components/browse/BrowseList'
+import { Monogram } from '../components/browse/GroupCard'
+import type { Category, Grouping } from '../components/browse/types'
+import {
+  FeatureIcon,
+  FeatureLegend,
+  FeatureLinks,
+} from '../components/PageFeatures'
+import { abilityList } from '../data/abilities'
 import { bookSeries, seriesOf } from '../data/books'
+import { entryRevealedIn } from '../data/entryStories'
+import { lifeformList } from '../data/lifeforms'
 import {
   featureGroups,
   featuresFor,
@@ -18,13 +34,9 @@ import {
 } from '../data/reveal'
 import type { Character } from '../data/types'
 import { useCanSee, useShownSystems } from '../state/reveal'
-import { GroupJump, LetterJump } from '../components/ListJump'
-import { anchorFor, byLetter, fold, plural } from './listHelpers'
+import { fold, plural } from './listHelpers'
 
-const anchor = (id: string) => anchorFor('characters', id)
-
-interface Entry {
-  character: Character
+interface Entry extends Character {
   /** Every name the reader may know them by, folded for matching. */
   names: string[]
   /** What the reader knows about them, for grouping. */
@@ -33,33 +45,10 @@ interface Entry {
   features: FoundFeature[]
 }
 
-interface Group {
-  id: string
-  name: string
-  items: Character[]
-}
-
-/** Ways to group the list, besides A–Z; each gives an entry's categories. */
-const groupings = [
-  { id: 'series', label: 'Series' },
-  { id: 'world', label: 'World' },
-  { id: 'species', label: 'Species' },
-  { id: 'ability', label: 'Ability' },
-  { id: 'books', label: 'Number of books' },
-  { id: 'feature', label: 'Page feature' },
-] as const
-type GroupingId = (typeof groupings)[number]['id']
-
-const isGrouping = (id: string | null): id is GroupingId =>
-  groupings.some((g) => g.id === id)
-
 export function CharacterList() {
   const canSee = useCanSee()
   const systems = useShownSystems()
-  const [params, setParams] = useSearchParams()
-  const query = fold(params.get('q') ?? '').trim()
-  const groupParam = params.get('group')
-  const grouping = isGrouping(groupParam) ? groupParam : undefined
+  const planets = useVisiblePlanets()
 
   // A persona the reader has seen through is listed as the character.
   const listed = useMemo(
@@ -77,7 +66,7 @@ export function CharacterList() {
         .map((character): Entry => {
           const shown = revealCharacter(character.id, canSee)
           return {
-            character,
+            ...character,
             names: [
               character.name,
               ...shown.aliases,
@@ -89,10 +78,6 @@ export function CharacterList() {
         }),
     [listed, canSee],
   )
-  const featuresById = useMemo(
-    () => new Map(met.map((e) => [e.character.id, e.features])),
-    [met],
-  )
   // The legend explains the icons any listed character has.
   const legend = useMemo(
     () =>
@@ -102,154 +87,115 @@ export function CharacterList() {
     [met],
   )
 
-  const matches = met.filter(
-    (e) => !query || e.names.some((n) => n.includes(query)),
-  )
-  const hidden = listed.length - met.length
-
-  // Categories an entry falls under, as [id, name, order]; a character can be
-  // under several (e.g. two abilities). Only what the reader knows is used.
-  const planetName = (id: string) =>
-    systems.flatMap((s) => s.planets).find((p) => p.id === id)?.name ?? id
-  const categories = (e: Entry): [string, string, number][] => {
-    const { shown } = e
-    switch (grouping) {
-      case 'series': {
-        const ids = new Set(shown.appearsIn.map((a) => seriesOf(a.bookId)?.id))
-        return bookSeries
-          .map((s, i): [string, string, number] => [s.id, s.name, i])
-          .filter(([id]) => ids.has(id))
-      }
-      case 'world':
-        return shown.world ? [[shown.world, planetName(shown.world), 0]] : []
-      case 'species':
-        return shown.species.map((n) => [n, n, 0])
-      case 'ability':
-        return shown.abilities.map((n) => [n, n, 0])
-      case 'books': {
-        const n = shown.appearsIn.length
-        return n > 0 ? [[String(n), `In ${plural(n, 'book')}`, -n]] : []
-      }
-      case 'feature':
-        return featureGroups('character', e.features)
-      default:
-        return []
-    }
-  }
-
-  let groups: Group[]
-  let unsorted = 0
-  if (grouping) {
-    const byId = new Map<string, Group & { order: number }>()
-    for (const e of matches) {
-      const cats = categories(e)
-      if (cats.length === 0) unsorted++
-      for (const [id, name, order] of cats) {
-        const group = byId.get(id) ?? { id, name, order, items: [] }
-        group.items.push(e.character)
-        byId.set(id, group)
-      }
-    }
-    // Series, book counts and features in their own order; the rest
-    // biggest first.
-    groups = [...byId.values()].sort(
-      (a, b) =>
-        a.order - b.order ||
-        (grouping === 'series' || grouping === 'books' || grouping === 'feature'
-          ? 0
-          : b.items.length - a.items.length) ||
-        a.name.localeCompare(b.name),
+  const groupings = useMemo((): Grouping<Entry>[] => {
+    const planetNames = new Map(
+      systems.flatMap((s) => s.planets).map((p) => [p.id, p.name]),
     )
-  } else
-    groups = byLetter(matches.map((e) => e.character)).map((g) => ({
-      id: g.letter,
-      name: g.letter,
-      items: g.items,
-    }))
-
-  const setParam = (key: string, value: string) =>
-    setParams(
-      (prev) => {
-        const next = new URLSearchParams(prev)
-        if (value) next.set(key, value)
-        else next.delete(key)
-        return next
+    // A group is named for an entry (a species, an Order) only when the
+    // reader may see that entry's own page, so its art never runs ahead.
+    const lifeforms = lifeformList.filter((e) =>
+      canSee(entryRevealedIn('lifeform', e)),
+    )
+    const abilities = abilityList.filter((a) =>
+      canSee(entryRevealedIn('ability', a)),
+    )
+    // A Radiant goes by their Order's name in the singular.
+    const orders = abilities
+      .filter((a) => a.kind === 'order')
+      .map((a) => ({
+        id: a.id,
+        name: a.name.replace(/^Order of (.+)s$/, '$1'),
+      }))
+    return [
+      {
+        id: 'series',
+        label: 'Series',
+        all: 'All series',
+        categories: ({ shown }) => {
+          const ids = new Set(
+            shown.appearsIn.map((a) => seriesOf(a.bookId)?.id),
+          )
+          return bookSeries
+            .map((s, i): Category => [s.id, s.name, i])
+            .filter(([id]) => ids.has(id))
+        },
+        art: seriesArt,
       },
-      { replace: true, preventScrollReset: true },
-    )
-  const label = groupings.find((g) => g.id === grouping)?.label.toLowerCase()
+      {
+        id: 'world',
+        label: 'World',
+        all: 'All worlds',
+        biggestFirst: true,
+        categories: ({ shown }) =>
+          shown.world
+            ? [[shown.world, planetNames.get(shown.world) ?? shown.world, 0]]
+            : [],
+        art: worldArt(planets),
+      },
+      {
+        id: 'species',
+        label: 'Species',
+        all: 'All species',
+        biggestFirst: true,
+        categories: ({ shown }) =>
+          shown.species.map((n): Category => [n, n, 0]),
+        art: namedEntryArt('lifeform', lifeforms, canSee),
+      },
+      {
+        id: 'ability',
+        label: 'Ability',
+        all: 'All abilities',
+        biggestFirst: true,
+        categories: ({ shown }) =>
+          shown.abilities.map((n): Category => [n, n, 0]),
+        art: namedEntryArt('ability', [...abilities, ...orders], canSee),
+      },
+      {
+        id: 'books',
+        label: 'Number of books',
+        all: 'All book counts',
+        categories: ({ shown }) => {
+          const n = shown.appearsIn.length
+          return n > 0 ? [[String(n), `In ${plural(n, 'book')}`, -n]] : []
+        },
+        symbol: ({ id }) => <Monogram>{id}</Monogram>,
+      },
+      {
+        id: 'feature',
+        label: 'Page feature',
+        all: 'All page features',
+        categories: (e) => featureGroups('character', e.features),
+        symbol: ({ id }) => {
+          const feature = featuresFor('character').find((f) => f.id === id)
+          return feature && <FeatureIcon id={feature.id} />
+        },
+      },
+    ]
+  }, [canSee, planets, systems])
 
   return (
-    <article className="character-list" aria-labelledby="characters-title">
-      <h1 id="characters-title">Characters</h1>
-      <p className="character-count">
-        {matches.length < met.length
-          ? `${matches.length} of ${met.length} characters`
-          : `${met.length} characters`}
-        {hidden > 0 && ` · ${hidden} hidden based on what you've read so far`}
-      </p>
-
-      <div className="character-filters">
-        <input
-          type="search"
-          className="character-filter-input"
-          placeholder="Filter by name…"
-          aria-label="Filter characters by name"
-          value={params.get('q') ?? ''}
-          onChange={(event) => setParam('q', event.target.value)}
-          autoComplete="off"
-          spellCheck={false}
-        />
-        <label className="character-group-by">
-          Group by
-          <select
-            value={grouping ?? ''}
-            onChange={(event) => setParam('group', event.target.value)}
-          >
-            <option value="">Name (A–Z)</option>
-            {groupings.map((g) => (
-              <option key={g.id} value={g.id}>
-                {g.label}
-              </option>
-            ))}
-          </select>
-        </label>
-        {grouping && label && (
-          <GroupJump groups={groups} anchor={anchor} label={label} />
-        )}
-      </div>
-      <FeatureLegend features={legend} />
-
-      {!grouping && <LetterJump groups={groups} anchor={anchor} />}
-      {unsorted > 0 && (
-        <p className="character-count">
-          {plural(unsorted, 'more character')} not sorted by {label} yet.
-        </p>
+    <BrowseList
+      path="/characters"
+      title="Characters"
+      noun={{ one: 'character', many: 'characters' }}
+      icon="character"
+      items={met}
+      hidden={listed.length - met.length}
+      groupings={groupings}
+      match={(e, needle) => e.names.some((n) => n.includes(needle))}
+      row={(e) => (
+        <>
+          <Link to={`/characters/${e.id}`}>{e.name}</Link>
+          <FeatureLinks
+            name={e.name}
+            href={`/characters/${e.id}`}
+            features={e.features}
+          />
+        </>
       )}
-      {matches.length === 0 && <p>No characters match.</p>}
-      {groups.map(({ id, name, items }) => (
-        <section
-          key={id}
-          className="character-group"
-          aria-labelledby={anchor(id)}
-        >
-          <h2 id={anchor(id)} data-count={grouping ? items.length : undefined}>
-            {name}
-          </h2>
-          <ul>
-            {items.map((character) => (
-              <li key={character.id}>
-                <Link to={`/characters/${character.id}`}>{character.name}</Link>
-                <FeatureLinks
-                  name={character.name}
-                  href={`/characters/${character.id}`}
-                  features={featuresById.get(character.id) ?? []}
-                />
-              </li>
-            ))}
-          </ul>
-        </section>
-      ))}
-    </article>
+      legend={<FeatureLegend features={legend} />}
+      filterLabel="Filter characters by name"
+      noMatch="No characters match."
+    />
   )
 }

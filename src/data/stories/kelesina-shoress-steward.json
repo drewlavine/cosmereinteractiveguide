@@ -1,0 +1,47 @@
+{
+  "intro": [
+    {
+      "text": "A Terriswoman who works as an assistant house steward at Kelesina Shores's mansion in New Seran.",
+      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "14" }]
+    },
+    {
+      "text": "An elderly Terriswoman who works as a steward at Kelesina Shores's mansion in New Seran: a Brute who reports on Wax and secretly works with the Set behind her mistress's back.",
+      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "16" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Kelesina's party",
+          "revealedIn": [
+            { "book": "bands-of-mourning", "chapter": "14" },
+            { "book": "bands-of-mourning", "chapter": "16" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "When Steris fell ill at Kelesina's party, the steward looked after her and Wax and was relieved to hear the food was not to blame, then went back to the ballroom to hear Bastien Severington's speech.",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "14" }]
+        },
+        {
+          "text": "Rushing to report Allomancy near Kelesina's rooms, she passed right under Wax, who was hiding against the ceiling. When he burst in on Kelesina's talk with his uncle through a speaking box, the steward tapped pewter, knocked him down, shot Kelesina with his own gun and took a gold bracelet metalmind from the body. She chased Wax until MeLaan intervened; the steward shattered her hand on MeLaan's aluminum skull and died on a sharpened bone.",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "16" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Elderly, in the traditional Terris tinningdar. She looks slight while filling her pewtermind, but tapping it swells her until her neck is as thick as a man's thigh.",
+      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "16" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Trusted by Kelesina, she knows a great deal about her mistress's dealings with the Set. In a fight she is fast, shrugs off pain, and keeps attacking even with a broken nose and a shattered hand.",
+      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "16" }]
+    }
+  ]
+}

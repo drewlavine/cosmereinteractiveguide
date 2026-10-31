@@ -220,5 +220,21 @@
       "text": "Time means nothing to it, and it struggles to grasp how people change, yet it can learn and grow, even coming to make its own moral choices.",
       "revealedIn": [{ "book": "wind-and-truth", "chapter": "143" }]
     }
+  ],
+  "abilities": [
+    {
+      "title": [
+        {
+          "text": "Surgebinding",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "140" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "After learning from the Honorblades, Nightblood could use all ten Surges and grant them to its wielder. It could also form Connections to nearby people and draw their Investiture to sustain the wielder.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "140" }]
+        }
+      ]
+    }
   ]
 }

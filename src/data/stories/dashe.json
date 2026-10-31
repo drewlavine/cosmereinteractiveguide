@@ -1,0 +1,57 @@
+{
+  "intro": [
+    {
+      "text": "Karata's second-in-command in Elantris, who helps keep her gang's home, the Roost, safe.",
+      "revealedIn": [{ "book": "elantris", "chapter": "16" }]
+    },
+    {
+      "text": "Karata's second-in-command in Elantris, who helps Matisse protect the children of New Elantris when Arelon is invaded.",
+      "revealedIn": [
+        { "all": [{ "book": "elantris", "chapter": "16" }, "hope-of-elantris"] }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Karata's second",
+          "revealedIn": [
+            { "book": "elantris", "chapter": "16" },
+            { "book": "elantris", "chapter": "34" },
+            { "book": "elantris", "chapter": "40" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "As Karata's second-in-command, Dashe helped guard the Roost. Hearing that Aanden's followers meant to attack the children Karata protected, he led many of her men out to strike first, against the wishes of both Karata and Raoden. Raoden went with them and talked both sides into standing down.",
+          "revealedIn": [{ "book": "elantris", "chapter": "16" }]
+        },
+        {
+          "text": "Dashe brought Raoden the news that Hrathen had been 'healed' of the Shaod.",
+          "revealedIn": [{ "book": "elantris", "chapter": "34" }]
+        },
+        {
+          "text": "Dashe was on hand when Sarene was thrown into Elantris.",
+          "revealedIn": [{ "book": "elantris", "chapter": "40" }]
+        }
+      ]
+    },
+    {
+      "title": [{ "text": "The invasion", "revealedIn": ["hope-of-elantris"] }],
+      "items": [
+        {
+          "text": "When Arelon was invaded, Dashe helped Matisse keep the children of New Elantris safe.",
+          "revealedIn": ["hope-of-elantris"]
+        },
+        {
+          "text": "Dashe was rewarded with two seons, and gave one of them, Aeo, to Matisse.",
+          "revealedIn": ["hope-of-elantris"]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

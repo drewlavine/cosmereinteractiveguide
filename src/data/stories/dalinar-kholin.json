@@ -567,6 +567,37 @@
     {
       "title": [
         {
+          "text": "Seeking answers",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "33" },
+            { "book": "wind-and-truth", "chapter": "87" },
+            { "book": "wind-and-truth", "chapter": "126" },
+            { "book": "wind-and-truth", "chapter": "129" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Dalinar and Navani became stranded in the Spiritual Realm after their Connections were severed, with Gavinor pulled in after them.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "33" }]
+        },
+        {
+          "text": "Through Garith's eyes, Dalinar witnessed the betrayal and imprisonment of Ba-Ado-Mishram and the damage to the singers. Honor's warning about the Radiants destroying Roshar helped him understand the Recreance.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "87" }]
+        },
+        {
+          "text": "After experiencing Tanavast's memories, Dalinar accepted that Gavilar had not been the man he admired. The Stormfather explained that Honor's power had become sentient, but it refused Dalinar when he first tried to take it.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "126" }]
+        },
+        {
+          "text": "Dalinar returned to Urithiru and reunited with Navani before going to face Odium.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "129" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
           "text": "Contest of champions",
           "revealedIn": [
             { "book": "wind-and-truth", "chapter": "139" },
@@ -577,7 +608,7 @@
       ],
       "items": [
         {
-          "text": "Taravangian chose Gavinor as Odium's champion, forcing Dalinar to either kill a defenseless member of his own family or forfeit the contest. Approaching the power of Honor and telling it he understood it, Dalinar Ascended as its new Vessel.",
+          "text": "Taravangian chose Gavinor as Odium's champion, forcing Dalinar to either kill his own grandson or forfeit the contest. Approaching the power of Honor and telling it he understood it, Dalinar Ascended as its new Vessel.",
           "revealedIn": [{ "book": "wind-and-truth", "chapter": "139" }]
         },
         {

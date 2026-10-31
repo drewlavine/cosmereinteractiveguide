@@ -1,0 +1,86 @@
+{
+  "intro": [
+    {
+      "text": "Arts and Majesty is an old Rosharan work that came to define what Vorins see as the masculine and feminine arts.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "25" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "The feminine arts include reading and writing, painting and drawing, the sciences and playing music, while combat, carpentry and commerce count as masculine. Pursuits it leaves unassigned, such as riding and caring for horses, are open to anyone.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "25" }]
+    },
+    {
+      "text": "The divide is strictly kept: even an interest in the other gender's arts is thought unnatural, and for some it carries religious weight, so a man who can write may be seen as blasphemous.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "33" },
+            { "book": "words-of-radiance", "chapter": "44" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Ardents count as genderless and may in principle take up either set of arts, though custom still shapes them; a female ardent who practises swordsmanship is rare.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "33" },
+            { "book": "words-of-radiance", "chapter": "44" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Logic and mathematics are also counted among the feminine arts.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "45" }]
+    },
+    {
+      "text": "Tactics and politics are also counted among the masculine arts.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "65" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "In Vorin life",
+          "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "55" },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "28" },
+                { "book": "words-of-radiance", "chapter": "25" }
+              ]
+            },
+            { "book": "oathbringer", "chapter": "73" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Wit joked that the woman who wrote it made sure the enjoyable pursuits went to women and left the dangerous ones to men.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "55" }]
+        },
+        {
+          "text": "Old as it was, the work stayed well known among upper-class lighteyes. The split of duties was one reason the Alethi built warcamps on the Shattered Plains big enough for families, since women ran many essential household tasks.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "28" },
+                { "book": "words-of-radiance", "chapter": "25" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "The return of female Knights Radiant who wield Shardblades ably challenged Vorin ideas of proper female conduct, though some lighteyes soon grew used to a woman commanding troops.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "73" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": []
+}

@@ -1,0 +1,33 @@
+{
+  "intro": [
+    {
+      "text": "A Rosharan ingredient that is crushed to flavour food.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "37" }]
+    }
+  ],
+  "description": [],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Lunamor's cooking",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "37" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Tasting a pot of longroot stew he was cooking, Lunamor decided it needed more crushed limm.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "37" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "lunamor",
+      "role": "cook",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "37" }]
+    }
+  ]
+}

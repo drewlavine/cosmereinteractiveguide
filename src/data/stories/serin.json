@@ -1,0 +1,30 @@
+{
+  "intro": [
+    {
+      "text": "Lady Judge Heelis's secretary in Kezare.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "epilogue" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The Hall",
+          "revealedIn": [
+            { "book": "white-sand-omnibus", "chapter": "epilogue" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Serin brought Heelis news from Ker Kedasha that the A'kar's support was crumbling now the Diem had been restored.",
+          "revealedIn": [
+            { "book": "white-sand-omnibus", "chapter": "epilogue" }
+          ]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

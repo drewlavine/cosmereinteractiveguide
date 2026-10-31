@@ -1,0 +1,34 @@
+{
+  "intro": [
+    {
+      "text": "A garden in T'Telir filled with D'Denir statues.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "29" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Every statue is carved in remarkable detail. By Hallandren custom, people dress them up in colourful cloth and costumes.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "29" }]
+    },
+    {
+      "text": "It is a wide stretch of open grass with a little greenery and some benches, but no flowers, no trees and no bustling crowds; it feels hushed and reverent next to the rest of the city. Its hundreds of weathered statues are T'Telir's oldest D'Denir, which Hallandren believe Peacegiver left as a memorial to the Manywar's dead and a warning against war. The D'Denir found elsewhere in the city are modelled on them.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "epilogue" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Meetings among the statues",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "29" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Vivenna and her hired mercenaries met groups of forgers and thieves in the garden. Returning the next day, they found several members of one of those thieving crews lying dead there.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "29" }]
+        }
+      ]
+    }
+  ]
+}

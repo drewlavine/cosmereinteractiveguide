@@ -1,0 +1,26 @@
+{
+  "intro": [
+    {
+      "text": "Ensign Biord, a Scadrian special operative under Colonel Dajer, whose remains Dusk and Starling find in the caves.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "43" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The caves",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "43" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Dajer sent Biord and another soldier through the island's cave system, where both died of masher wasp stings after stirring up the hive. Fast-growing moss hid her body from the drones sent to search for them, until Dusk uncovered it, impressed she had survived so long.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "43" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

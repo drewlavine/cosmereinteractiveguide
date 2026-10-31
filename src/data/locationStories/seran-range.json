@@ -1,0 +1,26 @@
+{
+  "intro": [
+    {
+      "text": "A mountain range in the Elendel Basin.",
+      "revealedIn": ["alloy-of-law"]
+    },
+    {
+      "text": "A snow-capped mountain range in the Elendel Basin, with New Seran close to its foothills and the Seran River cutting through it.",
+      "revealedIn": [
+        {
+          "all": [
+            "alloy-of-law",
+            { "book": "bands-of-mourning", "chapter": "22" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "Its cold, stormy weather leaves it mostly uninhabited. A major railway loosely follows the river through the mountains.",
+      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "22" }]
+    }
+  ],
+  "history": []
+}

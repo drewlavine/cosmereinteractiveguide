@@ -1,0 +1,48 @@
+{
+  "intro": [
+    {
+      "text": "An Idrian spy in T'Telir whom Vivenna means to meet when she reaches the city.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "9" }],
+      "fallback": true
+    },
+    {
+      "text": "An Idrian merchant living in T'Telir who heads King Dedelin's spies in Hallandren. Apart from the king, he alone knows every agent in the network and what each one is doing.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "10" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "In T'Telir",
+          "revealedIn": [
+            { "book": "warbreaker", "chapter": "10" },
+            { "book": "warbreaker", "chapter": "17" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "When Vivenna arrives, Lemex is lying feverish and confused in bed with a nurse looking after him. Rather than tell her how to reach the spy network, he dwells on the great store of Breath he has gathered and insists on passing it on before he dies. Vivenna takes it, much against her will.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "10" }]
+        },
+        {
+          "text": "Searching his house, the mercenaries turn up five thousand gold marks hidden in various places, plus papers setting out his plans and his letters to King Dedelin; the records bear out Denth's claim that he had been siphoning off Idris's money. Vivenna decides to carry on his work.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "17" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "A man in his fifties, counted as old, though his many Breaths have kept him livelier than his age suggests. By the time Vivenna meets him he is bedridden, pale, clammy and thin with fever.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "17" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Crafty and clever. Though a follower of Austre, he kept buying Breaths, excusing it because his aura opened doors to parties and court sessions where he could learn things. He seems to have worked honestly for Idris while also skimming from the king, and his greed and wish to live longer leave some doubt about where his loyalty finally lay.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "17" }]
+    }
+  ]
+}

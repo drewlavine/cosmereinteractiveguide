@@ -1,0 +1,40 @@
+{
+  "intro": [
+    {
+      "text": "A one-eyed beggar in the slums of T'Telir who leaves his empty eye socket uncovered.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "54" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Vivenna on the streets",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "54" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "While Vivenna is living rough, Tuft drives her away from the corner where he begs on three occasions. He is gruff with her, claiming he owes nobody anything and calling her a plant for begging when she has no need to.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "54" }]
+        },
+        {
+          "text": "When she comes back for news, he says nothing until she hands him a bright handkerchief, then sends her to the slums by the Third Dock, where she finds Nightblood.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "54" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Missing an eye, with no patch over the socket.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "54" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Usually among the first beggars on the street corners each morning, and gruff with anyone who crosses him.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "54" }]
+    }
+  ]
+}

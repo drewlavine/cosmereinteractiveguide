@@ -1,0 +1,62 @@
+{
+  "intro": [
+    {
+      "text": "The islands that form the homeland of the Eelakin people.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "1" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "The group includes many islands of very different sizes, from large ones down to small bare rocks, plus several atolls, and people live on most of them. From a distance they look rather like the Pantheon, about three weeks away by rowing. Summers here are warm and humid, unlike the frozen mainland.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "34" }]
+    },
+    {
+      "text": "Little is recorded of their plants and animals, which differ greatly from those of the Pantheon. Birds live here, bright coral reefs grow offshore, and the Eelakin keep domesticated dogs.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "34" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Origins",
+          "revealedIn": [
+            { "book": "isles-of-the-emberdark", "chapter": "epilogue" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Eelakin myth tells that the hero Cakoban, chasing a bright shooting star, came past the cave of the Dakwara and beat the beast, forcing it to protect his family, his daughter among them, for a century. Having learned respect for people, it granted Patji's wish and made the islands.",
+          "revealedIn": [
+            { "book": "isles-of-the-emberdark", "chapter": "epilogue" }
+          ]
+        },
+        {
+          "text": "In truth, Cakoban led the Eelakin to First of the Sun, where they came through the perpendicularity into the Pantheon and in time moved on to the homeisles.",
+          "revealedIn": [
+            { "book": "isles-of-the-emberdark", "chapter": "epilogue" }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Contact with outsiders",
+          "revealedIn": [
+            { "book": "isles-of-the-emberdark", "chapter": "epilogue" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The Eelakin lived on the isles for thousands of years and had reached their industrial age when, to their surprise, the Ones Above arrived. With outside help they were soon flying to the stars, and the homeisles grew into a busy hub.",
+          "revealedIn": [
+            { "book": "isles-of-the-emberdark", "chapter": "epilogue" }
+          ]
+        }
+      ]
+    }
+  ]
+}

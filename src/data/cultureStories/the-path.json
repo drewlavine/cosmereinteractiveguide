@@ -1,0 +1,69 @@
+{
+  "intro": [
+    {
+      "text": "A religion on Scadrial whose followers accept Harmony's ways without worshipping him. Its symbol is ten interlocking rings.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "3" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Pathians meditate for fifteen minutes each day, in whatever posture they like, wearing a single earring.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "3" }]
+    },
+    {
+      "text": "Followers learn from the moral codes of three hundred ancient religions, and doing good is held to be a form of worship in itself.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "3" }]
+    },
+    {
+      "text": "The Path has no formal clergy, only missionaries who explain its teachings. Its sanctuaries are small, built like the Terris huts of old, with one chair for a visitor and one said to be for Harmony, and large doorways left open to let the mists in.",
+      "revealedIn": [{ "book": "shadows-of-self", "chapter": "14" }]
+    },
+    {
+      "text": "Pathians are taught that the mists are Harmony's own body.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "bands-of-mourning", "chapter": "21" },
+            { "book": "isles-of-the-emberdark", "chapter": "30" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "In Elendel",
+          "revealedIn": [
+            { "book": "alloy-of-law", "chapter": "3" },
+            { "book": "shadows-of-self", "chapter": "7" },
+            { "book": "shadows-of-self", "chapter": "14" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Seeking answers, Wax prayed to Harmony in the Pathian way, meditating on his duty to his house.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "3" }]
+        },
+        {
+          "text": "With his earring in, Wax heard Harmony speak to him, and Harmony could read his thoughts while he wore it.",
+          "revealedIn": [{ "book": "shadows-of-self", "chapter": "7" }]
+        },
+        {
+          "text": "After a Survivorist priest was murdered, a mob gathered outside a Pathian church. Wax scattered it and urged the missionary there to take her colleagues to the Village. The trouble had begun when two people in Pathian robes cursed the Survivor in a pub.",
+          "revealedIn": [{ "book": "shadows-of-self", "chapter": "14" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "waxillium-ladrian",
+      "role": "Pathian",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "3" }]
+    }
+  ]
+}

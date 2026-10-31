@@ -133,6 +133,32 @@
           "revealedIn": [{ "book": "rhythm-of-war", "chapter": "101" }]
         }
       ]
+    },
+    {
+      "title": [
+        {
+          "text": "The defense of Azimir",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "54" },
+            { "book": "wind-and-truth", "chapter": "129" },
+            { "book": "wind-and-truth", "chapter": "136" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Noura worried that Adolin's influence would lead Yanagawn to reject the throne, and urged Adolin not to draw him away from his duty.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "54" }]
+        },
+        {
+          "text": "Though she feared for Yanagawn's life, Noura accompanied his attempt to retake the palace, bringing a key that helped the group get inside.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "129" }]
+        },
+        {
+          "text": "As the defenders held the throne room, Noura announced that the contest had begun and Azir had remained free of Odium.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "136" }]
+        }
+      ]
     }
   ],
   "appearance": [

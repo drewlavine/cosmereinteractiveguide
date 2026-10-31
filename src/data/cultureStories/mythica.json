@@ -1,0 +1,79 @@
+{
+  "intro": [
+    {
+      "text": "A recent book about the Unmade by the scholar Hessi. Shallan notes that it was not well received.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "77" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Hessi argues that the Unmade were not vague spirits of the void, but each a particular kind of spren holding enormous power.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "89" }]
+    },
+    {
+      "text": "Although people give them personalities and motives, she holds that they were still spren: embodiments of ideas or divine forces as much as individuals.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "91" }]
+    },
+    {
+      "text": "Her main claim is that some Unmade remain in the world today, their effects so common that people mistake them for ordinary spren.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "92" }]
+    },
+    {
+      "text": "The book is new and hard to find; the few Kholinar shops that stocked it had their copies stolen. In places it disagrees with Jasnah Kholin's work.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "93" }]
+    },
+    {
+      "text": "Hessi writes that the Radiants feared Sja-anat most of the Unmade, for corrupting what they called 'lesser' spren, and that Sja-anat was often spoken of as an individual where others were treated as forces. Old lore advised leaving a city whose spren began acting strangely.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "98" }]
+    },
+    {
+      "text": "She believes the three mindless Unmade are still about: Nergaoul as the Thrill, the battle rage that grips both sides; Moelach as the Death Rattles; and Ashertmarn, Heart of the Revel, whose hand she suspects in the excesses of Bayala in 480.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "104" }]
+    },
+    {
+      "text": "The last section turns to the ninth Unmade, about which Hessi can only guess, asking whether it was Dai-Gonarthis and whether it truly destroyed Aimia. She knows little of Ba-Ado-Mishram beyond its command of the enemy's forces, or of Chemoarish except that it is not the Nightwatcher.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "113" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "In Kholinar",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "77" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Shallan finds a copy in Kholinar and uses it to work out that two Unmade are in the city: Sja-anat and Ashertmarn.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "77" }]
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Author",
+      "name": "Hessi",
+      "characterId": "hessi",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "77" }]
+    },
+    {
+      "label": "Subject",
+      "name": "The Unmade",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "77" }]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "hessi",
+      "role": "author",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "77" }]
+    },
+    {
+      "characterId": "shallan-davar",
+      "role": "reader",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "77" }]
+    }
+  ]
+}

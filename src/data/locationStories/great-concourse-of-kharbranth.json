@@ -1,0 +1,37 @@
+{
+  "intro": [
+    {
+      "text": "A school in Kharbranth that trains surgeons.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "17" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Its tuition is very costly, and it admits no students under the age of sixteen.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "17" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Ties to Hearthstone",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "17" },
+            { "book": "way-of-kings", "chapter": "31" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Vathe trained as a surgeon at the Concourse before settling in Shorsebroon, where Lirin became his apprentice.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "17" }]
+        },
+        {
+          "text": "Before he joined the army, Kaladin meant to study at the Concourse. After Roshone came to Hearthstone and turned on Kaladin's family, Lirin and Hesina wrote asking that Kaladin be allowed to sit the entrance exams early, but the surgeons refused.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "31" }]
+        }
+      ]
+    }
+  ]
+}

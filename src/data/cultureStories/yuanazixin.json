@@ -1,0 +1,23 @@
+{
+  "intro": [
+    {
+      "text": "The Imperial Yuanazixin, the Prime Aqasix's broad hat with sweeping sides.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "116" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Yanagawn finds the hat heavy and burdensome, but wears it when he needs to lend himself extra authority.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "116" }]
+    }
+  ],
+  "history": [],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "yanagawn",
+      "role": "wearer",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "116" }]
+    }
+  ]
+}

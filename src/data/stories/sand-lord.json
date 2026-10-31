@@ -1,0 +1,38 @@
+{
+  "intro": [
+    {
+      "text": "A deity worshipped on Dayside.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "3" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Worship",
+          "revealedIn": [
+            { "book": "white-sand-omnibus", "chapter": "5" },
+            { "book": "white-sand-omnibus", "chapter": "10" },
+            { "book": "white-sand-omnibus", "chapter": "13" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Many of Lossand's kelzin are Kerztian-born followers of Ker'reen, but worship is not universal there, and the Diem's sand masters are agnostic. Still, every Daysider feels tied to the sun, and Lossandins, Heelis and Praxton among them, swear by the Sand Lord in everyday speech.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "5" }]
+        },
+        {
+          "text": "Kerztians see sand mastery as an abomination and Lossandins as infidels, a clash behind many wars. Lokmlen and Vey both told Ais, as a traitor to Kerzta, that the Sand Lord would judge her soul.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "10" }]
+        },
+        {
+          "text": "In Kerzta's Ker'reen faith the Sand Lord is embodied in the sun: the sand is his body and the sun his eye, so mastering sand is heresy for corrupting it. Ais prays to the \"Sun Lord\", perhaps a Kerztian name for the same god.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "13" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

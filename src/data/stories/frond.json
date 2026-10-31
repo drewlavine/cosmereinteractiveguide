@@ -1,0 +1,31 @@
+{
+  "intro": [
+    {
+      "text": "Mother Frond, a loremother from the outer isles who lives in the homeisles' capital, though her duty of reciting histories for chiefs and kingmakers often takes her away.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "3" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Loremother",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "3" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Frond told a group of children the story of Cakoban the Navigator. Afterwards she talked with Dusk about Vathi and the Ones Above, and when he lamented that he could not help, she urged him to speak with Vathi.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "3" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": [
+    {
+      "text": "Uneasy about the Ones Above, she believes they should be faced by someone like Dusk, a man straight out of her tales.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "3" }]
+    }
+  ]
+}

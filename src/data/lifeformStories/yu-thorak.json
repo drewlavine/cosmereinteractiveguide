@@ -1,0 +1,32 @@
+{
+  "intro": [
+    {
+      "text": "A kind of greatshell that can grow as tall as a building and looks somewhat like a slug.",
+      "revealedIn": [{ "book": "dawnshard", "chapter": "18" }]
+    },
+    {
+      "text": "A slug-like greatshell, as tall as a building when fully grown, that lives on the beaches and coastal shallows of Roshar, especially around Aimia.",
+      "revealedIn": [{ "book": "dawnshard", "chapter": "epilogue" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Beneath its carapace, a yu-thorak is pinkish white.",
+      "revealedIn": [{ "book": "dawnshard", "chapter": "18" }]
+    },
+    {
+      "text": "The Sleepless seem able to control them, and use them to guard Aimia against unwanted visitors.",
+      "revealedIn": [{ "book": "dawnshard", "chapter": "epilogue" }]
+    }
+  ],
+  "history": [],
+  "facts": [
+    {
+      "label": "Found around",
+      "name": "Aimia",
+      "placeId": "aimia",
+      "revealedIn": [{ "book": "dawnshard", "chapter": "epilogue" }]
+    }
+  ],
+  "people": []
+}

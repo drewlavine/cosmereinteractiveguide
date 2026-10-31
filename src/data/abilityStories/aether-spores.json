@@ -1,0 +1,176 @@
+{
+  "intro": [
+    {
+      "text": "Coloured spores that rain down from the twelve moons in columns called lunagrees and gather into seas that ships sail across. The people who live beside those seas have to be wary of them.",
+      "revealedIn": [{ "book": "tress", "chapter": "1" }]
+    },
+    {
+      "text": "Coloured spores that rain down from the twelve moons in columns called lunagrees, gathering into seas that ships sail. A touch of water makes them burst into growth, verdant spores into vines and roseite into crystal. Silver kills them.",
+      "revealedIn": [{ "book": "tress", "chapter": "10" }]
+    },
+    {
+      "text": "Spores that rain from the twelve moons in columns called lunagrees, piling into seas that ships sail. Water makes each colour grow in its own way, into vines, crystal, gusts of air, light and heat, or red spikes. Silver kills them.",
+      "revealedIn": [{ "book": "tress", "chapter": "41" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "The spores fall from the moons in columns called lunagrees and build up into seas deep enough to sail on.",
+      "revealedIn": [{ "book": "tress", "chapter": "1" }]
+    },
+    {
+      "text": "Each kind has its own colour and its own sea, such as the Sapphire Sea for zephyr spores and the Rose Sea for roseite.",
+      "revealedIn": [{ "book": "tress", "chapter": "17" }]
+    }
+  ],
+  "history": [],
+  "mechanics": [
+    {
+      "title": [
+        {
+          "text": "Water and growth",
+          "revealedIn": [
+            { "book": "tress", "chapter": "10" },
+            { "book": "tress", "chapter": "26" },
+            { "book": "tress", "chapter": "48" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Water sets spores off at once. Verdant spores that reach water erupt into a tangle of vines in an instant.",
+          "revealedIn": [{ "book": "tress", "chapter": "10" }]
+        },
+        {
+          "text": "Steel pushes growing roseite away and iron draws it in, which lets a sprouter shape where it grows.",
+          "revealedIn": [{ "book": "tress", "chapter": "26" }]
+        },
+        {
+          "text": "Someone feeding water to verdant vines can give them simple orders, such as to hold something without crushing it.",
+          "revealedIn": [{ "book": "tress", "chapter": "48" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Silver and salt",
+          "revealedIn": [
+            { "book": "tress", "chapter": "16" },
+            { "book": "tress", "chapter": "26" },
+            { "book": "tress", "chapter": "59" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Silver and salt kill spores, which go grey and stop reacting to water. Anything they have already grown also greys and dies if silver touches it. Dead spores cling to nearly everything but come off with soap.",
+          "revealedIn": [{ "book": "tress", "chapter": "16" }]
+        },
+        {
+          "text": "Roseite holds out against silver better than most kinds.",
+          "revealedIn": [{ "book": "tress", "chapter": "26" }]
+        },
+        {
+          "text": "Midnight spores that have grown into Midnight Essence stand up well to silver.",
+          "revealedIn": [{ "book": "tress", "chapter": "59" }]
+        }
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "title": "Kinds of spores",
+      "items": [
+        {
+          "text": "Roseite spores grow into crystal, which sprouters use to plug holes in a ship's hull. They are less deadly than crimson or midnight spores, and people live on the Rose Sea.",
+          "revealedIn": [{ "book": "tress", "chapter": "10" }]
+        },
+        {
+          "text": "Zephyr spores are a crystal-like sapphire blue and come from the Sapphire Sea. Wet, they let out a gust of air, fairly harmless unless put to work.",
+          "revealedIn": [{ "book": "tress", "chapter": "17" }]
+        },
+        {
+          "text": "Sailors tell of bone spores, a thirteenth kind, though the tales cannot agree whether they are black, white or both, and some think they are only a legend.",
+          "revealedIn": [{ "book": "tress", "chapter": "23" }]
+        },
+        {
+          "text": "Rain over the Crimson Sea falls at no set time or place, and where it lands the red spores shoot up into spikes some thirty feet tall.",
+          "revealedIn": [{ "book": "tress", "chapter": "38" }]
+        },
+        {
+          "text": "Sunlight spores give off light and heat when wet. They are used for signal flares and to heat ovens.",
+          "revealedIn": [{ "book": "tress", "chapter": "41" }]
+        },
+        {
+          "text": "Zephyr charges fire cannons, leaving a blue puff behind, and burst open cannonballs. Tress also packs them into flare charges of her own design that can both fire a flare and spray verdant spores to snare a target.",
+          "revealedIn": [{ "book": "tress", "chapter": "44" }]
+        },
+        {
+          "text": "Verdant spores grow into vines. Breathing them in is often fatal, as they sprout in the mouth and throat and block the airways.",
+          "revealedIn": [{ "book": "tress", "chapter": "48" }]
+        },
+        {
+          "text": "Fully grown verdant vines can be eaten after soaking for a day, but they give little nourishment, and nobody can live on them alone for more than a few weeks.",
+          "revealedIn": [{ "book": "tress", "chapter": "56" }]
+        },
+        {
+          "text": "Water turns midnight spores into Midnight Essence, which draws water from the person who fed it through a link between them. More water gives that person more control, and someone who offers it more water than its current host can break the link. It can speak into the minds of those linked to it.",
+          "revealedIn": [{ "book": "tress", "chapter": "62" }]
+        },
+        {
+          "text": "Crimson spines are needle-sharp and can wall in a ship or rip it apart, which has long made the Crimson Sea nearly impossible to cross or settle. Breathing in crimson spores kills at once, as spines burst out from within.",
+          "revealedIn": [{ "book": "tress", "chapter": "epilogue" }]
+        },
+        {
+          "text": "Zephyr spores are also used to drive ships through space.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "38" }]
+        }
+      ],
+      "parts": []
+    },
+    {
+      "title": "Spore cannonballs",
+      "items": [
+        {
+          "text": "Some cannonballs hold a small spore mechanism. At the centre sits a roseite sphere full of water, sealed off with wax and packed round with zephyr spores.",
+          "revealedIn": [{ "book": "tress", "chapter": "37" }]
+        },
+        {
+          "text": "On firing, a glass vial of water breaks over a verdant clipping, which grows down a tube and drives a silver-tipped plug into the roseite. The dead roseite lets its water reach the zephyr, and the ball bursts, showering the target with water and fragments.",
+          "revealedIn": [{ "book": "tress", "chapter": "37" }]
+        }
+      ],
+      "parts": []
+    }
+  ],
+  "facts": [
+    {
+      "label": "Source",
+      "name": "The twelve moons",
+      "revealedIn": [{ "book": "tress", "chapter": "1" }]
+    },
+    {
+      "label": "Killed by",
+      "name": "Silver and salt",
+      "revealedIn": [{ "book": "tress", "chapter": "16" }]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "dorp",
+      "role": "sprouter",
+      "revealedIn": [{ "book": "tress", "chapter": "10" }]
+    },
+    {
+      "characterId": "weev",
+      "role": "former sprouter",
+      "revealedIn": [{ "book": "tress", "chapter": "16" }]
+    },
+    {
+      "characterId": "tress",
+      "role": "sprouter",
+      "revealedIn": [{ "book": "tress", "chapter": "16" }]
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "intro": [
+    {
+      "text": "An old Alethi royal tradition, long neglected but still known among lighteyes, by which the king grants a favour; King Gavilar Kholin revived it.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "55" }]
+    },
+    {
+      "text": "A favour the King of Alethkar may grant a lighteyes who has done something impressive before him, such as winning a difficult duel.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "58" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Its origins are unknown. Like the Right of Challenge, it had gone largely unused for centuries before Gavilar's day.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "55" }]
+    },
+    {
+      "text": "If the boon granted touches another of the king's subjects, that person is bound by it as well.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "58" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Gavilar's unification",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "55" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Gavilar revived the boon to be rid of Yenev, a rebellious highprince. Torol Sadeas fought a showy duel to awe the crowd, and on his victory Gavilar offered him a boon. Sadeas used it to invoke the Right of Challenge, made Yenev duel him to the death and killed him, clearing the way for Aladar to take his place.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "55" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Adolin's challenge",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "58" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "House Kholin tried to trap Sadeas the same way. After Adolin won a four-on-one duel, King Elhokar granted him a boon, and he used it to challenge Sadeas. But Kaladin, who had come to his aid in the duel, demanded a boon too, to challenge Amaram. As a darkeyes he was arrested for slander, and in the uproar Sadeas slipped out of his duel.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "58" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "gavilar-kholin",
+      "role": "revived it",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "55" }]
+    },
+    {
+      "characterId": "torol-sadeas",
+      "role": "granted one",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "55" }]
+    },
+    {
+      "characterId": "yenev",
+      "role": "challenged",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "55" }]
+    },
+    {
+      "characterId": "aladar",
+      "role": "gained lands",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "55" }]
+    },
+    {
+      "characterId": "adolin-kholin",
+      "role": "granted one",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "58" }]
+    },
+    {
+      "characterId": "elhokar-kholin",
+      "role": "granted it",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "58" }]
+    },
+    {
+      "characterId": "kaladin",
+      "role": "demanded one",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "58" }]
+    }
+  ]
+}

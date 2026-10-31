@@ -1,0 +1,87 @@
+{
+  "intro": [
+    {
+      "text": "A woman taken by the Vanishers during one of their robberies.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "2" }],
+      "fallback": true
+    },
+    {
+      "text": "A woman of House Harms and a distant cousin of Steris and Marasi, taken by the Vanishers seven years ago and kept ever since in a hidden underground town.",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "56" }]
+    },
+    {
+      "text": "A Rioter of House Harms and a distant cousin of Steris and Marasi, taken by the Vanishers seven years ago and kept by the Set in the underground town of Wayfarer.",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "60" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Taken",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "alloy-of-law", "chapter": "7" },
+                { "book": "lost-metal", "chapter": "56" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Armal grew up in comfort in House Harms and knew her cousin Steris, though not Marasi. In 341 PC the Vanishers seized her during a play at the Coolerim Playhouse, leaving her family with no idea what had become of her; she was chosen as a descendant of Spook, and so likelier to bear Allomancer children.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "alloy-of-law", "chapter": "7" },
+                { "book": "lost-metal", "chapter": "56" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The Community",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "57" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "The Vanishers handed her over to the Set, who told her she had been picked by lottery to survive an ashmount eruption and kept up the lie with actors and projections. After two years in small caverns she was moved to Wayfarer, where she married and had at least two children. The Set meant to claim any of the town's children who showed Allomancy.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "57" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Meeting Marasi",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "60" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "When Marasi slipped into Wayfarer, Armal recognized her and, with friends who disliked the mayor Gave Entrone, hid her. Half convinced but wary, she would not join a revolt, yet she led Marasi to Entrone's mansion and took a jar of purified Dor from her. When Entrone attacked Marasi, Armal broke the jar, Rioted him with crushing shame and tied him up.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "60" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Blonde, with a stately air and fine clothes.",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "60" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Well-mannered and devoted to her family, with a leader's calm, courage and quick decisions.",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "60" }]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "intro": [
+    { "text": "A city in the Elendel Basin.", "revealedIn": ["alloy-of-law"] }
+  ],
+  "description": [
+    {
+      "text": "One of the branch lines from the rail interchange at Doriel runs through it.",
+      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "5" }]
+    }
+  ],
+  "history": []
+}

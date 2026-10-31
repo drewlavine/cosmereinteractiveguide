@@ -1,0 +1,160 @@
+{
+  "intro": [
+    {
+      "text": "A gathering at Winsting Innate's Elendel mansion where he sold his Senate vote to nobles and crime lords, pretending to auction a painting. It ended in a gunfight that left his guests dead and Winsting murdered.",
+      "revealedIn": [{ "book": "shadows-of-self", "chapter": "1" }]
+    },
+    {
+      "text": "A gathering at Winsting Innate's Elendel mansion where he sold his Senate vote to nobles and crime lords. It ended in a massacre, and Winsting's murder, set in motion by the kandra Bleeder.",
+      "revealedIn": [{ "book": "shadows-of-self", "chapter": "7" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Half the guests were crooked members of noble houses and half were figures from Elendel's underworld. They had spent weeks posturing over the meeting but came anyway, wanting a say in coming Senate votes. Winsting had tried to lure Edwarn Ladrian there, but he stayed away.",
+      "revealedIn": [{ "book": "shadows-of-self", "chapter": "1" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The auction",
+          "revealedIn": [
+            { "book": "shadows-of-self", "chapter": "1" },
+            { "book": "shadows-of-self", "chapter": "5" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Winsting expected a large payment. Among those he chatted with were Hughes Entrone and Dowser Maline, and he hinted that his brother Replar could be bought too. One guest, a tall woman with cropped blonde hair, was a stranger to him, and he took her for a spy.",
+          "revealedIn": [{ "book": "shadows-of-self", "chapter": "1" }]
+        },
+        {
+          "text": "Shots rang out from different parts of the room almost at once, and in the chaos the guests turned their guns on one another. Afterwards Winsting's guards could not agree whether Dowser or Darm had fired first.",
+          "revealedIn": [{ "book": "shadows-of-self", "chapter": "1" }]
+        },
+        {
+          "text": "Flog took Winsting down to a saferoom while two guards watched the stairs. Upstairs, every guest died. Winsting was worrying about his reputation when he let Flog back in, and his throat was cut.",
+          "revealedIn": [{ "book": "shadows-of-self", "chapter": "5" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The investigation",
+          "revealedIn": [
+            { "book": "shadows-of-self", "chapter": "4" },
+            { "book": "shadows-of-self", "chapter": "5" },
+            { "book": "shadows-of-self", "chapter": "6" },
+            { "book": "shadows-of-self", "chapter": "7" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Wax found close to thirty prominent criminals among the dead. He judged that the fighting had started from the middle of the room, and that a Steelrunner whom Winsting trusted had killed him in the saferoom and the guards on the way out.",
+          "revealedIn": [{ "book": "shadows-of-self", "chapter": "4" }]
+        },
+        {
+          "text": "Wayne noticed that the opening four shots were each fired from where the victim's enemies stood, turning the factions on each other.",
+          "revealedIn": [{ "book": "shadows-of-self", "chapter": "5" }]
+        },
+        {
+          "text": "The only Steelrunner Vwafendal could name was Idashwy. Wax and Wayne found her dead and concluded that the killer had taken her power through Hemalurgy to use at the auction.",
+          "revealedIn": [{ "book": "shadows-of-self", "chapter": "6" }]
+        },
+        {
+          "text": "Harmony told Wax that the killings were the work of a kandra called Bleeder, also named Paalm, who was wearing Bloody Tan's body.",
+          "revealedIn": [{ "book": "shadows-of-self", "chapter": "7" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "In the press",
+          "revealedIn": [{ "book": "shadows-of-self", "chapter": "6" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Elendel's broadsheets seized on the story, and the mix of high society and criminals among the dead raised fears of corruption in government. The Elendel Daily put out a late edition with more details, and Replar had to defend his brother's name.",
+          "revealedIn": [{ "book": "shadows-of-self", "chapter": "6" }]
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Host",
+      "name": "Winsting Innate",
+      "characterId": "winsting-innate",
+      "revealedIn": [{ "book": "shadows-of-self", "chapter": "1" }]
+    },
+    {
+      "label": "On sale",
+      "name": "Winsting's Senate vote",
+      "revealedIn": [{ "book": "shadows-of-self", "chapter": "1" }]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "winsting-innate",
+      "role": "host",
+      "revealedIn": [{ "book": "shadows-of-self", "chapter": "1" }]
+    },
+    {
+      "characterId": "flog",
+      "role": "bodyguard",
+      "revealedIn": [{ "book": "shadows-of-self", "chapter": "1" }]
+    },
+    {
+      "characterId": "hughes-entrone",
+      "role": "guest",
+      "revealedIn": [{ "book": "shadows-of-self", "chapter": "1" }]
+    },
+    {
+      "characterId": "dowser-maline",
+      "role": "guest",
+      "revealedIn": [{ "book": "shadows-of-self", "chapter": "1" }]
+    },
+    {
+      "characterId": "darm",
+      "role": "guest",
+      "revealedIn": [{ "book": "shadows-of-self", "chapter": "1" }]
+    },
+    {
+      "characterId": "waxillium-ladrian",
+      "role": "investigator",
+      "revealedIn": [{ "book": "shadows-of-self", "chapter": "4" }]
+    },
+    {
+      "characterId": "wayne",
+      "role": "investigator",
+      "revealedIn": [{ "book": "shadows-of-self", "chapter": "4" }]
+    },
+    {
+      "characterId": "marasi-colms",
+      "role": "investigator",
+      "revealedIn": [{ "book": "shadows-of-self", "chapter": "4" }]
+    },
+    {
+      "characterId": "claude-aradel",
+      "role": "investigator",
+      "revealedIn": [{ "book": "shadows-of-self", "chapter": "4" }]
+    },
+    {
+      "characterId": "replar-innate",
+      "role": "Winsting's brother",
+      "revealedIn": [{ "book": "shadows-of-self", "chapter": "6" }]
+    },
+    {
+      "characterId": "paalm",
+      "role": "killer",
+      "revealedIn": [{ "book": "shadows-of-self", "chapter": "7" }]
+    }
+  ]
+}

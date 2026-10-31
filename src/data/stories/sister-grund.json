@@ -1,0 +1,26 @@
+{
+  "intro": [
+    {
+      "text": "A monk of the Monastery of the Final Word, Amaal's monastery.",
+      "revealedIn": [{ "book": "fires-of-december", "chapter": "iii" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The Monastery of the Final Word",
+          "revealedIn": [{ "book": "fires-of-december", "chapter": "iii" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Sister Grund holds that the monastery's earliest priests never wrote down the words the Prophet gave for summoning him. Despite the shared name, she is no relation of Brother Grund.",
+          "revealedIn": [{ "book": "fires-of-december", "chapter": "iii" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

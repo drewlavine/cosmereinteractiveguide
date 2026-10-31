@@ -1,0 +1,70 @@
+{
+  "intro": [
+    {
+      "text": "A tree of Roshar whose bark is taken to bring down swelling of the brain.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "38" }]
+    },
+    {
+      "text": "A tree of Roshar whose bark reduces swelling inside the skull and also eases pain.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "38" },
+            { "book": "words-of-radiance", "chapter": "76" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Kaladin and fathom bark",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "38" },
+            { "book": "words-of-radiance", "chapter": "76" },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "38" },
+                { "book": "words-of-radiance", "chapter": "76" },
+                { "book": "rhythm-of-war", "chapter": "49" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Having survived a highstorm strung up outside, a half-conscious Kaladin thought he should take fathom bark for the swelling of his brain.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "38" }]
+        },
+        {
+          "text": "Kaladin also took it for leg pain after a chasmfiend injured him down in the Shattered Plains chasms.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "76" }]
+        },
+        {
+          "text": "While secretly caring for an unresponsive Teft in Urithiru, Kaladin got fathom bark among other medical supplies with Kuno's help.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "38" },
+                { "book": "words-of-radiance", "chapter": "76" },
+                { "book": "rhythm-of-war", "chapter": "49" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "kaladin",
+      "role": "user",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "38" }]
+    }
+  ]
+}

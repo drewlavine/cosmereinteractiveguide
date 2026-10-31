@@ -1,0 +1,72 @@
+{
+  "intro": [
+    {
+      "text": "Elantrians who, since the Reod, have suffered so many unhealed injuries that the pain has left them almost entirely unresponsive.",
+      "revealedIn": [{ "book": "elantris", "chapter": "4" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Since the Reod, Elantrians do not heal, so every hurt, however small, stays as painful as when it was received. Unable to die, some are crushed under the pain and lose their minds.",
+      "revealedIn": [{ "book": "elantris", "chapter": "4" }]
+    },
+    {
+      "text": "Many Hoed repeat a phrase or a few words over and over.",
+      "revealedIn": [{ "book": "elantris", "chapter": "4" }]
+    },
+    {
+      "text": "Galladon tells Raoden about them as the two cross the city, passing many Hoed on the way.",
+      "revealedIn": [{ "book": "elantris", "chapter": "4" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The Hall of the Fallen",
+          "revealedIn": [
+            { "book": "elantris", "chapter": "19" },
+            { "book": "elantris", "chapter": "25" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Raoden's group gathered as many Hoed as it could find into the Hall of the Fallen, a simple hospice where they were looked after.",
+          "revealedIn": [{ "book": "elantris", "chapter": "19" }]
+        },
+        {
+          "text": "Raoden hoped care might bring some of them back. Those in the Hall were noticeably calmer than the Hoed left on the streets.",
+          "revealedIn": [{ "book": "elantris", "chapter": "25" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The mountain pool",
+          "revealedIn": [{ "book": "elantris", "chapter": "25" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Raoden realised one of the Hoed had been an Elantrian before the Reod. At the Hoed's request, Raoden, Galladon and Karata followed his directions out of the city to a pool on the mountainside, where he dissolved once placed in the water. Raoden asked for the same if he ever became Hoed.",
+          "revealedIn": [{ "book": "elantris", "chapter": "25" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "galladon",
+      "role": "explains them",
+      "revealedIn": [{ "book": "elantris", "chapter": "4" }]
+    },
+    {
+      "characterId": "raoden",
+      "role": "carer",
+      "revealedIn": [{ "book": "elantris", "chapter": "19" }]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "intro": [
+    {
+      "text": "A town with a large population but only one lawkeeper, Jon Deadfinger, who worked alongside Miles Dagouter and Waxillium Ladrian.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "11" }]
+    },
+    {
+      "text": "A city in the northern Roughs, north of Faradana and east of True Madil. For all its many people, it had just one lawkeeper, Jon Deadfinger, a partner of Miles Dagouter and Waxillium Ladrian.",
+      "revealedIn": ["alloy-of-law"]
+    }
+  ],
+  "description": [],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Wayne's sentence",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "11" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Jon once had Wayne set to hang here for a murder Wayne had committed.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "11" }]
+        }
+      ]
+    }
+  ]
+}

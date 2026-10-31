@@ -1,0 +1,40 @@
+{
+  "intro": [
+    {
+      "text": "Dialogues is a famous old work of political theory from Roshar. The Palanaeum in Kharbranth keeps a copy.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "33" }]
+    }
+  ],
+  "description": [],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "In the Palanaeum",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "33" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Jasnah sent Shallan into the Palanaeum to fetch Dialogues and read it. It was shelved beside Shadows Remembered, which Jasnah had been reading, so Shallan spent some of her time there reading that one as well.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "33" }]
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Copy held at",
+      "name": "Palanaeum",
+      "placeId": "palanaeum",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "33" }]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "shallan-davar",
+      "role": "reader",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "33" }]
+    }
+  ]
+}

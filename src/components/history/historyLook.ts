@@ -1,6 +1,7 @@
 // ponytail: temporary, to compare ways of telling a planet's history. Once
 // Drew picks, delete this file and the switcher in PlanetHistory.tsx, and
-// keep only the chosen view.
+// keep only the chosen view. An old pick that's gone (`codex`, `retold`)
+// falls back to the Chronicle.
 import { useEffect } from 'react'
 import { useSearchParams } from 'react-router'
 
@@ -15,15 +16,26 @@ export const historyStyles = [
     label: 'Time scrubber',
     tip: 'Drag through the ages one moment at a time',
   },
+  // The scrubber's four alternative looks (ScrubLooks.tsx).
   {
-    id: 'codex',
-    label: 'Codex',
-    tip: 'Cards by era, with causes and consequences',
+    id: 'chapters',
+    label: 'Chapters',
+    tip: 'A video player’s chapter bar, one segment per era',
   },
   {
-    id: 'retold',
-    label: 'As you read it',
-    tip: 'Replay how the history grew as you read',
+    id: 'metro',
+    label: 'Metro line',
+    tip: 'Ride the line: every moment is a stop, named on the map',
+  },
+  {
+    id: 'stars',
+    label: 'Star chart',
+    tip: 'Moments as stars, set high or low by kind',
+  },
+  {
+    id: 'dial',
+    label: 'Tuning dial',
+    tip: 'Tune a glowing dial through the ages',
   },
 ] as const
 

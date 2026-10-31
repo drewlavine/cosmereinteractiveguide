@@ -1,0 +1,43 @@
+{
+  "intro": [
+    {
+      "text": "The owner of the Copper Gate, a hotel in New Seran where Wax and his companions stay.",
+      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "10" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The Copper Gate",
+          "revealedIn": [
+            { "book": "bands-of-mourning", "chapter": "10" },
+            { "book": "bands-of-mourning", "chapter": "16" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Gin showed Wax's group to the top-floor suite and grew more and more flustered: Wax tore open windows she had painted shut, Wayne kept trying to trade her for her hat, Steris handed her a list of seventeen disasters that might strike, and MeLaan chatted about picking a body for the party. Gin begged Marasi to get away from these people; Marasi asked her for a list of local graveyard workers and steered her out.",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "10" }]
+        },
+        {
+          "text": "When the group fled New Seran, they left Gin a large sum of cash. As constables' bells sounded in the distance, Steris called back that being \"framed for murder\" was something her list covered, on page seventeen.",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "16" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Elderly, with a rather masculine face and an oversized hat covered in flowers.",
+      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "10" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Easily flustered by her guests' antics.",
+      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "10" }]
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "intro": [
+    {
+      "text": "A noble house of the Final Empire, headed by Lord Teven Renoux, a western lord with power in the Farmost Dominance.",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "6" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "House Renoux aims, within ten years, to have the wealth and contacts to raise a keep in Luthadel, which would make it a Great House.",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "6" }]
+    },
+    {
+      "text": "In Mansion Renoux, a room furnished and draped in maroon lies to the right of the entryway.",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "8" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "In Fellise",
+          "revealedIn": [
+            { "book": "well-of-ascension", "chapter": "6" },
+            { "book": "final-empire", "chapter": "8" },
+            { "book": "final-empire", "chapter": "12" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The real Teven Renoux was killed and replaced by OreSeur, an impostor working with Kelsier. Playing Lord Renoux under Kelsier's direction, he moved to Fellise, supposedly to expand a trade in Southern weapons; in truth the trade armed the skaa rebellion.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "6" }]
+        },
+        {
+          "text": "Kelsier and his crew work out of Lord Renoux's estate at Fellise, an hour outside Luthadel. Renoux has Vin pose as the daughter of a favoured cousin, whom he presents to the noble houses to raise his family's standing.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "8" }]
+        },
+        {
+          "text": "At her first ball, Vin realises the nobles are looking at Valette Renoux, the part she plays, rather than at her.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "12" }]
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Head",
+      "name": "Teven Renoux",
+      "characterId": "teven-renoux",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "6" }]
+    },
+    {
+      "label": "Seat",
+      "name": "Fellise",
+      "placeId": "fellise",
+      "revealedIn": [{ "book": "final-empire", "chapter": "8" }]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "teven-renoux",
+      "role": "head",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "6" }]
+    },
+    {
+      "characterId": "oreseur",
+      "role": "plays Lord Renoux",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "6" }]
+    },
+    {
+      "characterId": "kelsier",
+      "role": "behind the ruse",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "6" }]
+    },
+    {
+      "characterId": "vin",
+      "role": "plays Valette",
+      "revealedIn": [{ "book": "final-empire", "chapter": "8" }]
+    }
+  ]
+}

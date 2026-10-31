@@ -1,0 +1,33 @@
+{
+  "intro": [
+    {
+      "text": "A legendary bow in Unkalaki culture. When someone manages to draw it, that is said to herald \"years of change\".",
+      "revealedIn": [{ "book": "dawnshard", "chapter": "16" }]
+    }
+  ],
+  "description": [],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Lunamor and the bow",
+          "revealedIn": [{ "book": "dawnshard", "chapter": "18" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Spren helped give Lunamor the strength he needed to draw the bow.",
+          "revealedIn": [{ "book": "dawnshard", "chapter": "18" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "lunamor",
+      "role": "drew it",
+      "revealedIn": [{ "book": "dawnshard", "chapter": "18" }]
+    }
+  ]
+}

@@ -112,6 +112,27 @@
     {
       "title": [
         {
+          "text": "Swearing new Ideals",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "129" },
+            { "book": "wind-and-truth", "chapter": "133" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "A new Ideal briefly opens a miniature perpendicularity and supplies Investiture.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "129" }]
+        },
+        {
+          "text": "Szeth reached the Fifth Ideal before completing the quest for his Fourth.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "133" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
           "text": "The Ideals",
           "revealedIn": [
             { "book": "words-of-radiance", "chapter": "84" },
@@ -186,6 +207,70 @@
                 { "book": "oathbringer", "chapter": "90" },
                 { "book": "rhythm-of-war", "chapter": "69" }
               ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "title": "The Radiant orders",
+      "items": [],
+      "parts": [
+        {
+          "title": [
+            {
+              "text": "Origins of the oaths",
+              "revealedIn": [
+                { "book": "wind-and-truth", "chapter": "120" },
+                { "book": "wind-and-truth", "chapter": "21" }
+              ]
+            }
+          ],
+          "items": [
+            {
+              "text": "Honor and Cultivation shaped the oath system with Ishar's advice after spren began choosing human partners.",
+              "revealedIn": [{ "book": "wind-and-truth", "chapter": "120" }]
+            },
+            {
+              "text": "Early Bondsmiths bonded the Wind, Stone and Night before their modern counterparts.",
+              "revealedIn": [{ "book": "wind-and-truth", "chapter": "21" }]
+            }
+          ]
+        },
+        {
+          "title": [
+            {
+              "text": "Mishram and the Recreance",
+              "revealedIn": [
+                { "book": "wind-and-truth", "chapter": "87" },
+                { "book": "wind-and-truth", "chapter": "124" }
+              ]
+            }
+          ],
+          "items": [
+            {
+              "text": "Melishi and Honor used a false offer of peace to trap Ba-Ado-Mishram in a perfect heliodor and carry her into the Spiritual Realm.",
+              "revealedIn": [{ "book": "wind-and-truth", "chapter": "87" }]
+            },
+            {
+              "text": "The damage to singers and spren, and fear of their own destructive power, drove most Radiants to abandon their oaths.",
+              "revealedIn": [{ "book": "wind-and-truth", "chapter": "124" }]
+            }
+          ]
+        },
+        {
+          "title": [
+            {
+              "text": "After the contest",
+              "revealedIn": [{ "book": "wind-and-truth", "chapter": "147" }]
+            }
+          ],
+          "items": [
+            {
+              "text": "With Stormlight withdrawn, the Radiants could use their powers inside Urithiru by drawing on Towerlight.",
+              "revealedIn": [{ "book": "wind-and-truth", "chapter": "147" }]
             }
           ]
         }

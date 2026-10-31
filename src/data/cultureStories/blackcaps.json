@@ -1,0 +1,94 @@
+{
+  "intro": [
+    {
+      "text": "The personal guard of Highprince Aladar, an elite force in black uniforms and helms. Darkeyes may join, but the Blackcaps are very selective.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "46" }]
+    }
+  ],
+  "description": [],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Skar's attempt to join",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "76" },
+                { "book": "oathbringer", "chapter": "46" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "When Skar came to the Shattered Plains he tried to join the Blackcaps. They turned him down for his size but said they might reconsider if he found his own weapons and armour. He stole them from the Blackcap quartermaster, hoping they would admire his cleverness; instead they branded him a slave, and he was then sold to Sadeas as a bridgeman.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "76" },
+                { "book": "oathbringer", "chapter": "46" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The True Desolation",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "76" },
+                { "book": "oathbringer", "chapter": "46" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "After the True Desolation began, the Blackcaps shared plateau runs with other troops, harvesting gemhearts from chasmfiends.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "76" },
+                { "book": "oathbringer", "chapter": "46" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Serve",
+      "name": "Highprince Aladar",
+      "characterId": "aladar",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "46" }]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "aladar",
+      "role": "commander",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "46" }]
+    },
+    {
+      "characterId": "skar",
+      "role": "rejected recruit",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "76" },
+            { "book": "oathbringer", "chapter": "46" }
+          ]
+        }
+      ]
+    }
+  ]
+}

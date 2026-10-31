@@ -1,0 +1,33 @@
+{
+  "intro": [
+    {
+      "text": "An Elisian captain who set out with Duchess Khrissalla's party on the journey from Elis.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "8" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The journey",
+          "revealedIn": [
+            { "book": "white-sand-omnibus", "chapter": "12" },
+            { "book": "white-sand-omnibus", "chapter": "14" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Deral and his lieutenant died while scouting ahead with Baon. Baon blamed a border patrol, but after Acron questioned his story and Khriss recognised Deral's pistols on Baon, he admitted killing them.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "12" }]
+        },
+        {
+          "text": "Once Acron's true purpose was exposed, Baon said Deral had planned to sell Khriss to the Dynasty's border patrol, and that he had killed the two men, without any pleasure, to protect both their missions.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "14" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

@@ -54,6 +54,22 @@
     }
   ],
   "history": [],
+  "mechanics": [
+    {
+      "title": [
+        {
+          "text": "Invested targets",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "14" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Invested metal resists an Allomantic Steelpush.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "14" }]
+        }
+      ]
+    }
+  ],
   "facts": [
     {
       "label": "Allomancy",

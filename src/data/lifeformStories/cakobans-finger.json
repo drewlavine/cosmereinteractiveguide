@@ -1,0 +1,54 @@
+{
+  "intro": [
+    {
+      "text": "A massive tree found only on Patji, in the Pantheon.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "14" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Its large drooping fronds each end in a blossom as long as two hands, and after flowering the tree drops its fruit to the ground.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "14" }]
+    },
+    {
+      "text": "When its flowers bloom they mimic the mind of a hurt, frightened animal. Mind-sensing predators such as tuskrun gather expecting easy prey and kill each other instead, their bodies feeding the soil beneath the tree. A trapper can usually steer clear, but one who stumbles on a freshly bloomed tree can be caught off guard.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "14" }]
+    },
+    {
+      "text": "A grove of about a dozen surrounds Patji's Eye, which all young Aviar visit. The birds eat the fallen fruit, and with it a parasite inside that gives them their talents.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "18" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Encounters",
+          "revealedIn": [
+            { "book": "isles-of-the-emberdark", "chapter": "14" },
+            { "book": "isles-of-the-emberdark", "chapter": "18" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "First of the Sky, a trapper, walked into a tuskrun pack drawn by a tree in fresh bloom and was killed.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "14" }]
+        },
+        {
+          "text": "Hiding from nightmaws near Patji's Eye, Vathi and Dusk fastened a blossom to one of Vathi's spear-gun spears and fired it off; drawn by the blossom's thoughts, the nightmaws followed it and the pair got away.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "18" }]
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Grove at",
+      "name": "Patji's Eye",
+      "placeId": "patjis-eye",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "18" }]
+    }
+  ],
+  "people": []
+}

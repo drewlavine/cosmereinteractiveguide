@@ -1,0 +1,56 @@
+{
+  "intro": [
+    {
+      "text": "A nearly bankrupt Arelene baron, lord of Tii Plantation, who had backed Raoden against King Iadon.",
+      "revealedIn": [{ "book": "elantris", "chapter": "11" }]
+    },
+    {
+      "text": "A former Arelene baron, once lord of Tii Plantation, who fled the country when his estate failed.",
+      "revealedIn": [{ "book": "elantris", "chapter": "26" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Baron of Tii Plantation",
+          "revealedIn": [
+            { "book": "elantris", "chapter": "11" },
+            { "book": "elantris", "chapter": "20" },
+            { "book": "elantris", "chapter": "26" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Edan held Tii Plantation, a potato estate covering most of the Chasm and its barren surroundings, and had never been rich. Because Iadon ranked nobles by wealth, Edan supported Raoden's push against the king. Bad investments left him close to losing his title within months, though he kept up a lavish show to hide it.",
+          "revealedIn": [{ "book": "elantris", "chapter": "11" }]
+        },
+        {
+          "text": "Edan came to the meeting of Raoden's former supporters anxious about his future, and Ahan mocked him without mercy. He doubted Sarene's plans but went along with them for lack of any other choice, and when she proposed siding with Elantris he was shaken but could not fault her reasoning.",
+          "revealedIn": [{ "book": "elantris", "chapter": "20" }]
+        },
+        {
+          "text": "When rain sent mudslides through the newly planted fields of Tii, Edan fled toward Duladel. Lukel remarked that the Dulas would not care about his title, and he would probably end up farming.",
+          "revealedIn": [{ "book": "elantris", "chapter": "26" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Lean and balding, fidgety and nervous, with a habit of blurting things out and breaking into conversations.",
+      "revealedIn": ["elantris"]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Mostly concerned with saving himself, he admits to beating his peasants to squeeze out bigger harvests. He looks down on Sarene, and Kiin, Lukel and Ahan all dislike him as spineless and arrogant.",
+      "revealedIn": [{ "book": "elantris", "chapter": "26" }]
+    },
+    {
+      "text": "Wasteful with money, he swings between fretting over his debts and ignoring them in the hope that they will vanish.",
+      "revealedIn": ["elantris"]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "intro": [
+    {
+      "text": "A three-story stone mansion on Blossom Way in New Seran, owned by Lady Farthing.",
+      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "10" }]
+    }
+  ],
+  "description": [],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "A reported robbery",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "10" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "In 342 PC a broadsheet reported that the mansion had been robbed overnight, with a reversed gold symbol painted in red on a wall: the mark of Ape Manton, an old foe Waxillium Ladrian had put behind bars years before.",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "10" }]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "intro": [
+    {
+      "text": "Ants that nest underground and pour out to attack anything that disturbs their nest; trappers of the Pantheon know to beware of them.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "1" }]
+    },
+    {
+      "text": "Tiny black insects of the island of Patji, no bigger than a pinhead, whose single bite can kill a horse. They nest underground and pour out to attack anything that disturbs their nest.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "39" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "A nest can sometimes be spotted as a bulge in the ground, and bigger nests may have lasting cracks that let the ants come and go faster. Disturbed ants stream out through the cracks with an audible hiss. Trappers and others who study the Pantheon's dangers know that smoke set by the entrance can keep the ants from attacking.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "1" }]
+    },
+    {
+      "text": "Sixth of the Dusk regards them as a constant, deadly nuisance. They turn up almost everywhere on Patji, on leaves and branches and across the forest floor, and are easy to overlook because they are so small, above all at night. Now and then they even get into a trapper's safecamp.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "12" }]
+    }
+  ],
+  "history": [],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "sixth-of-the-dusk",
+      "role": "wary trapper",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "12" }]
+    }
+  ]
+}

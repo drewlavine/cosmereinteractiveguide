@@ -1,0 +1,94 @@
+{
+  "intro": [
+    {
+      "text": "Soldiers in Elend's army who stayed sick longest after the mists struck them, shunned by their comrades and gathered into a division of their own.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "40" }]
+    },
+    {
+      "text": "Soldiers in Elend's army who stayed sick longest after the mists struck them, gathered into a division of their own. Their long sickness marks them as atium Mistings, the most powerful kind.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "81" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Noorden works out that exactly sixteen percent of any group meeting the mists for the first time falls sick.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "21" }]
+    },
+    {
+      "text": "One in sixteen of those who fall sick either stay ill for sixteen days or die.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "36" }]
+    },
+    {
+      "text": "The sickness was part of Preservation's plan: the mists struck people to snap them, raising their Allomantic potential, and Ruin's meddling made them deadly to the weak. Sixteen, matching the number of Allomantic metals, was a clue Preservation left where Ruin could not change it.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "hero-of-ages", "chapter": "21" },
+            { "book": "secret-history", "chapter": "1-2" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "In Elend's army",
+          "revealedIn": [
+            { "book": "hero-of-ages", "chapter": "40" },
+            { "book": "hero-of-ages", "chapter": "47" },
+            { "book": "hero-of-ages", "chapter": "70" },
+            { "book": "hero-of-ages", "chapter": "79" },
+            { "book": "hero-of-ages", "chapter": "81" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Those whose sickness lasted longest are shunned by the rest of the army, so Elend has Demoux gather them into a division of their own.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "40" }]
+        },
+        {
+          "text": "Other soldiers call the mistfallen cursed, and brawls break out; a soldier named Bilg even attacks Demoux and is executed for it. Elend sends Demoux and the mistfallen back to Luthadel to help King Penrod.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "47" }]
+        },
+        {
+          "text": "In Fadrex, Elend sees that the mist sickness resembles the beatings that snap Allomancers. He has a mistfallen soldier drink a vial of metals, and the man burns metal: the mists have been making Allomancers, not harming them.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "70" }]
+        },
+        {
+          "text": "Reaching the Pits of Hathsin, Elend comes upon Demoux and his mistfallen division.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "79" }]
+        },
+        {
+          "text": "Elend realises they were sick longest because they are atium Mistings. Demoux and his men fight the attacking koloss with atium, buying Elend time and burning away Ruin's body.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "81" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "elend-venture",
+      "role": "formed them",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "40" }]
+    },
+    {
+      "characterId": "demoux",
+      "role": "commander",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "40" }]
+    },
+    {
+      "characterId": "noorden",
+      "role": "found the pattern",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "21" }]
+    },
+    {
+      "characterId": "bilg",
+      "role": "attacked Demoux",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "47" }]
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "intro": [
+    {
+      "text": "One of the Silver Kingdoms of Roshar, in the north and east of the continent, stretching from Kurth in the west to Akak in the east.",
+      "revealedIn": ["way-of-kings"]
+    }
+  ],
+  "description": [
+    {
+      "text": "Rishir bordered Alethela to the east and southeast and Valhav to the south, with the Steamwater Ocean and the Northern Depths to the north. It held most of the islands of the Reshi Sea, and its capital, Kurth, lay close to Iri.",
+      "revealedIn": ["way-of-kings"]
+    },
+    {
+      "text": "Its people wrote in the Dawnchant, at first using it to spell out their own languages and in time adapting it into a script of their own.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "i-2" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Before human settlement",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "113" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Singers lived in the land before humans came to Roshar.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "113" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The Silver Kingdom",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "107" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Kurth, founded very early in the kingdom's history, served as Rishir's capital and held its Oathgate.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "107" }]
+        }
+      ]
+    },
+    {
+      "title": [{ "text": "After Aharietiam", "revealedIn": ["oathbringer"] }],
+      "items": [
+        {
+          "text": "In the millennia after Aharietiam, Rishir broke apart into many kingdoms and tribes. Its lands now include Herdaz, Kurth is held by Rira, and the Reshi Isles are independent, each island under its own king.",
+          "revealedIn": ["oathbringer"]
+        }
+      ]
+    }
+  ]
+}

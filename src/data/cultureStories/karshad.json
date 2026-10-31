@@ -1,0 +1,28 @@
+{
+  "intro": [
+    {
+      "text": "A holy language spoken by the priest DaiKeen, the clergy of Kerzta's Ker'reen faith.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "prologue" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Khriss and Cynder learned some Karshad from Daysider books before arriving. When Cynder spoke it, the locals seemed to understand but quickly ran off in fear; only on hearing a priest use it did the party realise they had picked up a sacred tongue rather than the common one.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "prologue" }]
+    }
+  ],
+  "history": [],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "khrissalla",
+      "role": "learned some",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "prologue" }]
+    },
+    {
+      "characterId": "allstren-cynder",
+      "role": "learned some",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "prologue" }]
+    }
+  ]
+}

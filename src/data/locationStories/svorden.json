@@ -1,0 +1,81 @@
+{
+  "intro": [
+    {
+      "text": "A nation occupying a peninsula at Opelon's northeastern tip.",
+      "revealedIn": [{ "book": "elantris", "chapter": "5" }]
+    },
+    {
+      "text": "A nation occupying a peninsula at Opelon's northeastern tip. Still called a kingdom, it is in practice a province of Fjorden, and politically second only to Fjorden among the eastern nations.",
+      "revealedIn": [{ "book": "elantris", "chapter": "9" }]
+    },
+    {
+      "text": "A culturally important nation occupying a peninsula at Opelon's northeastern tip, with its capital at Seraven. Still called a kingdom, it is in practice a province of Fjorden.",
+      "revealedIn": [{ "book": "elantris", "chapter": "32" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "It has a long coastline. Its southwestern land border runs mostly along Fjorden, which keeps fortifications just on the other side, and a short river border in the south divides it from Geant.",
+      "revealedIn": [{ "book": "elantris", "chapter": "5" }]
+    },
+    {
+      "text": "Its people are fairly prosperous and its craftspeople highly skilled, including the empire's best locksmiths, so merchants from the west send goods there despite the long journey. Leky stick, a Svordish game, has spread to several nations, and shark fights are held there for entertainment.",
+      "revealedIn": [{ "book": "elantris", "chapter": "32" }]
+    },
+    {
+      "text": "As part of the empire its people must follow Shu-Dereth. The svrakiss come from Svordish belief and were absorbed into Shu-Dereth as a symbol of pure evil.",
+      "revealedIn": ["elantris"]
+    },
+    {
+      "text": "Svorden is eastern Opelon's chief center of culture and scholarship. Its scholars lead in fields such as anatomy, art and astronomy, and their theories, such as the idea that an eclipse happens when the moon passes into the planet's shadow, tend to spread across the continent. Educated people elsewhere read Svordish for its rich literature, even in the Rose Empire, though some find the language hard.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "elantris", "chapter": "42" },
+            { "book": "emperors-soul", "chapter": "day-2" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Fjordell rule",
+          "revealedIn": [
+            { "book": "elantris", "chapter": "33" },
+            {
+              "all": [
+                { "book": "elantris", "chapter": "32" },
+                { "book": "emperors-soul", "chapter": "day-12" }
+              ]
+            },
+            { "book": "elantris", "chapter": "62" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The Fjordell Empire occupied and annexed Svorden at least a century before the Reod. As a vassal state it took up Shu-Dereth, and the Wyrn directly controls its government and military. Its standing as a center of learning let it keep more of its way of life than other vassal states: it went on making discoveries and kept up diplomacy and trade with many nations.",
+          "revealedIn": [{ "book": "elantris", "chapter": "33" }]
+        },
+        {
+          "text": "Svorden kept a strong national identity and its own language. Sarene served there as an envoy of Teod, and Svorden once sent gifts, among them a table, to the Rose Empire, though relations between the two soured.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "elantris", "chapter": "32" },
+                { "book": "emperors-soul", "chapter": "day-12" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "The Wyrn readily took over Svorden's strong navy, as Fjorden had little sea power of its own, and the Svordish fleet is a serious threat to Teod's armada. Svorden also has soldiers, but the Wyrn has mostly left them unused.",
+          "revealedIn": [{ "book": "elantris", "chapter": "62" }]
+        }
+      ]
+    }
+  ]
+}

@@ -42,6 +42,30 @@
     }
   ],
   "history": [],
+  "sections": [
+    {
+      "title": "Primeval spren",
+      "items": [
+        {
+          "text": "The earliest Bondsmiths bonded the Wind, Stone and Night.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "21" }]
+        },
+        {
+          "text": "The Nightwatcher was made from the Night's essence, and the Sibling from the Stone's.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "21" }]
+        },
+        {
+          "text": "The Wind watches much of Roshar but has limited power to act; the Stone remembers events within it.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "85" }]
+        },
+        {
+          "text": "Adonalsium created these three primeval spren alongside Roshar.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "100" }]
+        }
+      ],
+      "parts": []
+    }
+  ],
   "facts": [],
   "people": []
 }

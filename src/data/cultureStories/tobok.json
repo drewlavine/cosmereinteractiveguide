@@ -1,0 +1,31 @@
+{
+  "intro": [
+    {
+      "text": "The garment Yumi wears for her rituals, put on her by her attendants after her ritual bath.",
+      "revealedIn": [{ "book": "yumi", "chapter": "2" }]
+    },
+    {
+      "text": "A traditional overgarment made from a double layer of heavy cloth, usually long-sleeved and found in many colours.",
+      "revealedIn": [{ "book": "yumi", "chapter": "23" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "At the Shinzua Shopping Center, Yumi buys a dressy cardigan that reminds her of the top half of her usual tobok, though it is stiffer, shorter in body and sleeve, and closer fitting.",
+      "revealedIn": [{ "book": "yumi", "chapter": "15" }]
+    },
+    {
+      "text": "The yoki-hijo owns several bright ceremonial toboks and changes which one she wears according to the weekday, over a sash at the bust, a white wrap across the chest and loose leggings. Her attendants dress her in it.",
+      "revealedIn": [{ "book": "yumi", "chapter": "23" }]
+    }
+  ],
+  "history": [],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "yumi",
+      "role": "wearer",
+      "revealedIn": [{ "book": "yumi", "chapter": "2" }]
+    }
+  ]
+}

@@ -215,5 +215,28 @@
         }
       ]
     }
+  ],
+  "abilities": [
+    {
+      "title": [
+        {
+          "text": "Before the Oathpact",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "58" },
+            { "book": "wind-and-truth", "chapter": "104" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Shalash's Surges slowed her aging for decades before she became a Herald.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "58" }]
+        },
+        {
+          "text": "Those early Surges came from Odium and lacked many of the restrictions Honor imposed on the Heralds.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "104" }]
+        }
+      ]
+    }
   ]
 }

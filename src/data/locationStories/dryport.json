@@ -1,0 +1,30 @@
+{
+  "intro": [
+    {
+      "text": "A city in the Elendel Basin, served by its own branch of the railway.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "epilogue" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "It lies a short way east of Elendel on the Irongate River.",
+      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "15" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The train from Dryport",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "epilogue" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Having worked out from Miles Dagouter's coded notes where Edwarn Ladrian was, Waxillium Ladrian caught a train at Dryport to confront him.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "epilogue" }]
+        }
+      ]
+    }
+  ]
+}

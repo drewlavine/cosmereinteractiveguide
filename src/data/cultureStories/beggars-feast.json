@@ -1,0 +1,55 @@
+{
+  "intro": [
+    {
+      "text": "A feast held for beggars. Szeth walked through one on his way to assassinate King Gavilar.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "prologue" }]
+    }
+  ],
+  "description": [],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Over the years",
+          "revealedIn": [
+            { "book": "rhythm-of-war", "chapter": "prologue" },
+            { "book": "words-of-radiance", "chapter": "i-12" },
+            { "book": "rhythm-of-war", "chapter": "50" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The feast on the night Szeth came for Gavilar was twice its usual size.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "prologue" }]
+        },
+        {
+          "text": "Queen Aesudan cancelled the Beggars' Feast during the War of Reckoning.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-12" }]
+        },
+        {
+          "text": "When Queen Jasnah Kholin stripped Ruthar of his title, she let him choose between taking the queen's charity at the Beggars' Feasts and enlisting as a new recruit.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "50" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "szeth",
+      "role": "passed through",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "prologue" }]
+    },
+    {
+      "characterId": "aesudan-kholin",
+      "role": "cancelled it",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-12" }]
+    },
+    {
+      "characterId": "ruthar",
+      "role": "offered charity",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "50" }]
+    }
+  ]
+}

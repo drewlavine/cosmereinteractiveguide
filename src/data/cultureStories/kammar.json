@@ -1,0 +1,23 @@
+{
+  "intro": [
+    {
+      "text": "An ancient unarmed fighting style of Roshar, meant to beat opponents without harming them. Using only the hands, the fighter grabs people and pins them with their own weight.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "i-9" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Szeth was trained in kammar. Its grabs suit infusing people with Stormlight, so he is dangerous with it alone, even without a Shardblade.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "71" }]
+    }
+  ],
+  "history": [],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "szeth",
+      "role": "trained",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "71" }]
+    }
+  ]
+}

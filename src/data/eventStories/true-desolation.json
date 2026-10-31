@@ -1,0 +1,48 @@
+{
+  "intro": [
+    {
+      "text": "The Desolation that began when Chanarach broke on Braize, allowing the Fused to return.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "99" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "The Night of Sorrows is one part of the conflict, not another name for all of it.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "144" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Return of the Fused",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "99" },
+            { "book": "words-of-radiance", "chapter": "87" },
+            { "book": "oathbringer", "chapter": "38" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Shallan's killing of her mother Chanarach returned the Herald to Braize.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "99" }]
+        },
+        {
+          "text": "Chanarach broke under torture, allowing the Fused to return after Talenel had held alone for millennia.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "99" }]
+        },
+        {
+          "text": "The stormform listeners summoned the Everstorm at Narak.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "87" }]
+        },
+        {
+          "text": "The storm restored the singers' minds and allowed Fused to return in singer bodies.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "38" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": []
+}

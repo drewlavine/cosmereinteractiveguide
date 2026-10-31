@@ -220,6 +220,63 @@
       ]
     }
   ],
+  "sections": [
+    {
+      "title": "Form and identity",
+      "items": [
+        {
+          "text": "A Nahel bond lets a singer retain a sense of self regardless of form.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "30" }]
+        },
+        {
+          "text": "The Iriali call singers the Owners.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "i-11" }]
+        }
+      ],
+      "parts": []
+    },
+    {
+      "title": "Worship and allegiance",
+      "items": [],
+      "parts": [
+        {
+          "title": [
+            {
+              "text": "Before the Desolations",
+              "revealedIn": [
+                { "book": "wind-and-truth", "chapter": "55" },
+                { "book": "wind-and-truth", "chapter": "113" }
+              ]
+            }
+          ],
+          "items": [
+            {
+              "text": "Singers worshipped the Wind and Stone before Honor's arrival, and some kept those beliefs after adopting him.",
+              "revealedIn": [{ "book": "wind-and-truth", "chapter": "55" }]
+            },
+            {
+              "text": "Feeling abandoned during Honor's long absence helped drive them toward Odium when the Shards sided with humans.",
+              "revealedIn": [{ "book": "wind-and-truth", "chapter": "113" }]
+            }
+          ]
+        },
+        {
+          "title": [
+            {
+              "text": "After the contest",
+              "revealedIn": [{ "book": "wind-and-truth", "chapter": "146" }]
+            }
+          ],
+          "items": [
+            {
+              "text": "Retribution offered Warlight to singers who placed spheres under the midnight sky and asked his blessing, supplying power for their crops and abilities.",
+              "revealedIn": [{ "book": "wind-and-truth", "chapter": "146" }]
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "facts": [],
   "people": [
     {

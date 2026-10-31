@@ -100,6 +100,58 @@
     {
       "text": "He came to love the mathematics in nature, finding Honor in them, and believed that oaths too could be written as equations.",
       "revealedIn": [{ "book": "wind-and-truth", "chapter": "104" }]
+    },
+    {
+      "text": "He came to think of himself as God and tried to replace the singers' gods, while knowing that he was still the same person underneath.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "122" }]
+    },
+    {
+      "text": "He eventually regretted the decision to Shatter Adonalsium, which he had once believed necessary.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "122" }]
+    }
+  ],
+  "relationships": [
+    {
+      "title": [
+        {
+          "text": "Koravellium Avast",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "100" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "He had loved Koravellium even as a mortal, when they were forbidden to be together.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "100" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Aona",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "113" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Aona's kindness earned his affection, and her death hurt him deeply.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "113" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The Wind",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "100" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "The Wind's song resonated with him and drew him to it, though he could not explain why.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "100" }]
+        }
+      ]
     }
   ]
 }

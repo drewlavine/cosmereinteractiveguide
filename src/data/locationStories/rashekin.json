@@ -1,0 +1,16 @@
+{
+  "intro": [
+    { "text": "A city in the Elendel Basin.", "revealedIn": ["alloy-of-law"] },
+    {
+      "text": "A city in the Elendel Basin beside a small river, served by a railway running northeast from Elendel toward the Faleast Range.",
+      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "epilogue" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "It is seen as lying beyond the direct reach of Elendel's government, and the Set kept a compound there for training new recruits.",
+      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "epilogue" }]
+    }
+  ],
+  "history": []
+}

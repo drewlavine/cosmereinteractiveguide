@@ -1,0 +1,60 @@
+{
+  "intro": [
+    {
+      "text": "An essay Jasnah Kholin wrote in 1174, one of three arguments the coalition of monarchs put to the Azish government to win the empire to its side.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "65" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "The shortest of the three, it fills a single page written on both sides, all in single rhythmic meter. Using the Grand Orientation and Aqqu's seven Logical Forms, it starts from a quote by Prime Kasimarlix and climbs through three stages of Superior Understanding.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "65" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Before the Azish court",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "65" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Dalinar Kholin presented the essay to the Azish viziers and scions, the last of the three, hoping Azir would join the alliance fighting Odium and the Fused. The officials were impressed and found it worthy of Jasnah's name as a scholar, and Vizier Noura agreed at least to consider the alliance and take the arguments to the Prime.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "65" }]
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Author",
+      "name": "Jasnah Kholin",
+      "characterId": "jasnah-kholin",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "65" }]
+    },
+    {
+      "label": "Written",
+      "name": "1174",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "65" }]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "jasnah-kholin",
+      "role": "author",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "65" }]
+    },
+    {
+      "characterId": "dalinar-kholin",
+      "role": "presented it",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "65" }]
+    },
+    {
+      "characterId": "noura",
+      "role": "heard it",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "65" }]
+    }
+  ]
+}

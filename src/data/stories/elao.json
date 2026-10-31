@@ -1,0 +1,31 @@
+{
+  "intro": [
+    {
+      "text": "A servant in the royal palace of Arelon who brings Raoden his fruit on the morning the Shaod takes him.",
+      "revealedIn": [{ "book": "elantris", "chapter": "1" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Royal palace",
+          "revealedIn": [{ "book": "elantris", "chapter": "1" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Bringing Raoden fruit that morning, Elao was the first to see what the Shaod had done to him. She swore by Domi, trembling and clutching her Korathi pendant, then hurried away.",
+          "revealedIn": [{ "book": "elantris", "chapter": "1" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "An old woman who wears a Korathi pendant.",
+      "revealedIn": ["elantris"]
+    }
+  ],
+  "personality": []
+}

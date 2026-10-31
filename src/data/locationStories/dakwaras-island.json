@@ -1,0 +1,61 @@
+{
+  "intro": [
+    {
+      "text": "An island in the darkness of the Cognitive Realm where, long ago, the explorer Cakoban faced the Dakwara. The Malwish have built a base on it.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "52" }]
+    },
+    {
+      "text": "An island in the subastral of Drominad, the place where Cakoban fought the Dakwara and bound it to keep watch over his grave.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "60" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "The ground is rough black rock, like coral, swelling into textured lumps. The Dakwara and a host of skullsnakes guard the inner island. On the outer ring a tunnel slopes down into a hillside, crowded with Patji's plants and creatures, from deathants to a nightmaw, and even one of Sixth of the Dusk's own signposts. All of it is Investiture shaped by generations of trappers' fears, now bending to Dusk's memories too, and the tunnel goes nowhere.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "57" }]
+    },
+    {
+      "text": "The island is flat and shaped like a ring. In the hole at its centre sits a tiny island of black rock with a cave, Cakoban's grave. Dragon runes on its wall, signed with Frost's mark, say that he came too late to help but laid the hero to rest there, and that Cakoban died with honour.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "61" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Cakoban and the Dakwara",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "52" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Long ago, soon after the Eelakin arrived, Cakoban and a few explorers were hunted through the Cognitive Realm by an entity. After days of fleeing they reached this island, and Cakoban, knowing they could not outrun it much longer, leapt from the ship to draw it off so the rest could escape. It struck him down, but as he lay dying he bound the creature, the Dakwara, to his will, and Frost found him there.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "52" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The Malwish base",
+          "revealedIn": [
+            { "book": "isles-of-the-emberdark", "chapter": "35" },
+            { "book": "isles-of-the-emberdark", "chapter": "epilogue" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The Malwish set up a base on the island. A Jagged Star gunship dropped pods to house its crew and powered the camp, while MW-232 ships stood guard.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "35" }]
+        },
+        {
+          "text": "Sure a perpendicularity was hidden in the system, the Malwish took the cave and the Dakwara as signs of it, but every man sent into the tunnel died, and the Dakwara wrecked an MW-232. Sixth of the Dusk and the Dynamic's crew were caught there. Dusk survived the tunnel, then beat the Dakwara by getting onto the inner island alive, and set it on the Malwish. He and the crew left with it; a Silverlight ship rescued the stranded Malwish.",
+          "revealedIn": [
+            { "book": "isles-of-the-emberdark", "chapter": "epilogue" }
+          ]
+        }
+      ]
+    }
+  ]
+}

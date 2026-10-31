@@ -1,0 +1,28 @@
+{
+  "intro": [
+    {
+      "text": "A religion that outlasted every other faith the Lord Ruler persecuted after the Final Empire rose, holding on even once all its leaders had been killed.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "29" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "It is one of the old religions Sazed, a Keeper, knows. Kelsier asks him about the Valla, saying he wants to be reminded of how they persevered.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "29" }]
+    }
+  ],
+  "history": [],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "sazed",
+      "role": "Keeper",
+      "revealedIn": [{ "book": "final-empire", "chapter": "29" }]
+    },
+    {
+      "characterId": "kelsier",
+      "role": "listener",
+      "revealedIn": [{ "book": "final-empire", "chapter": "29" }]
+    }
+  ]
+}

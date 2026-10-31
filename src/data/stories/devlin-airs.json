@@ -1,0 +1,47 @@
+{
+  "intro": [
+    {
+      "text": "An informant living in New Seran.",
+      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "12" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "New Seran",
+          "revealedIn": [
+            { "book": "bands-of-mourning", "chapter": "12" },
+            { "book": "bands-of-mourning", "chapter": "13" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Devlin had met the kandra ReLuur during ReLuur's stay in New Seran, and after the attack that left ReLuur badly hurt, Devlin's name was among those he kept repeating.",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "12" }]
+        },
+        {
+          "text": "At Lady Kelesina Shores's party in 342, Wax found him by the fish tanks. Devlin made clear he expected payment. Asked about the beggar's strange coin, he said such coins were changing hands fast in the underworld and that Lord Gave Entrone had bought several, though they had since vanished from his displays.",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "13" }]
+        },
+        {
+          "text": "For a hundred notes sent by direct transfer, he told Wax that a quarter of New Seran's nobles were hiding something tied to a building project in Dulsing and to Allomancers. Now frightened, he urged Wax to leave it alone, said the Set posed no real danger for decades, and warned that civil war between Elendel and the outer cities was close.",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "13" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "A short, handsome man in his thirties with a hint of mustache and beard, who wears his jacket open in a studied, careless way.",
+      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "13" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "A close observer of people who usually reads their motives well. Cautious and opportunistic, he trades in rumors while keeping clear of real danger, and prefers hinting to speaking plainly.",
+      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "13" }]
+    }
+  ]
+}

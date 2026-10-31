@@ -1,0 +1,61 @@
+{
+  "intro": [
+    {
+      "text": "A religion of Scadrial from before the Final Empire, wiped out soon after the Lord Ruler's Ascension.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "10" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Its followers believed their happiness grew with how openly they showed their devotion. They ended almost every sentence with \"Praise the Ja\", which wore out anyone outside the faith who tried to talk with them.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "10" }]
+    },
+    {
+      "text": "Sazed tells Kelsier of Jaism when Kelsier asks for a religion with power, though Sazed judges its teachings too simple for him.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "10" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Founding and growth",
+          "revealedIn": [{ "book": "final-empire", "chapter": "10" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Its founder, whom his followers called the Ja, was murdered by a local king for preaching discord. His death only won him more followers, and made them especially zealous.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "10" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Under the Lord Ruler",
+          "revealedIn": [{ "book": "final-empire", "chapter": "10" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "The Jaists refused to worship the Lord Ruler, so the Steel Ministry killed every one of them. They were easy to find, since they would not hide their faith even on pain of death.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "10" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "sazed",
+      "role": "Keeper",
+      "revealedIn": [{ "book": "final-empire", "chapter": "10" }]
+    },
+    {
+      "characterId": "kelsier",
+      "role": "listener",
+      "revealedIn": [{ "book": "final-empire", "chapter": "10" }]
+    }
+  ]
+}

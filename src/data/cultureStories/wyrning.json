@@ -1,0 +1,34 @@
+{
+  "intro": [
+    {
+      "text": "A coin stamped on one side with the head of Wyrn Wulfden the Fourth.",
+      "revealedIn": [{ "book": "elantris", "chapter": "15" }]
+    },
+    {
+      "text": "A gold coin minted in Fjorden, stamped on one side with the head of Wyrn Wulfden the Fourth.",
+      "revealedIn": [{ "book": "elantris", "chapter": "45" }]
+    }
+  ],
+  "description": [],
+  "history": [],
+  "facts": [
+    {
+      "label": "Metal",
+      "name": "Gold",
+      "revealedIn": [{ "book": "elantris", "chapter": "45" }]
+    },
+    {
+      "label": "Minted in",
+      "name": "Fjorden",
+      "placeId": "fjorden",
+      "revealedIn": [{ "book": "elantris", "chapter": "45" }]
+    },
+    {
+      "label": "Portrait",
+      "name": "Wyrn Wulfden the Fourth",
+      "characterId": "wulfden-the-fourth",
+      "revealedIn": [{ "book": "elantris", "chapter": "15" }]
+    }
+  ],
+  "people": []
+}

@@ -1,0 +1,219 @@
+{
+  "intro": [
+    {
+      "text": "A masked man from a foreign airship who flies Wax's party away in its small craft. He knows the place on Marasi's map as the Sovereign's temple and wants to find his captured crewmates.",
+      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "21" }],
+      "fallback": true
+    },
+    {
+      "text": "A Malwish pilot from Scadrial's south pole who flew north on the airship Brunstell, only for the Set to capture him and its crew.",
+      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "22" }]
+    },
+    {
+      "text": "A Malwish junior goodwill ambassador living in Elendel, who has been courting Marasi formally for two years.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "bands-of-mourning", "chapter": "31" },
+            { "book": "lost-metal", "chapter": "11" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "From the south",
+          "revealedIn": [
+            { "book": "bands-of-mourning", "chapter": "22" },
+            { "book": "bands-of-mourning", "chapter": "21" },
+            { "book": "bands-of-mourning", "chapter": "23" },
+            { "book": "bands-of-mourning", "chapter": "29" },
+            { "book": "bands-of-mourning", "chapter": "31" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Allik grew up in Wiestlow, a Malwish town at Scadrial's south pole. He came north aboard the airship Brunstell under Captain Jordis as pilot of its shuttle, the Wilg. When the Brunstell crashed in the Seran Range, the Set took him prisoner along with the rest of the crew.",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "22" }]
+        },
+        {
+          "text": "During Wax's raid on the Set's stronghold, Marasi insisted on bringing Allik along. He took a medallion from a safe, led the group to his ship's small craft and, once Wax had Pushed it aloft, flew them all to safety.",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "21" }]
+        },
+        {
+          "text": "Allik recognized the Sovereign's temple on Marasi's map and guessed Suit had taken his crewmates there. He explained to Wax how his people's medallions work, and told Marasi about their mask customs, the Hunters, and how some of his people might eye the Basin as a target for invasion.",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "22" }]
+        },
+        {
+          "text": "Allik flew the party to the temple and landed nearby, where they found his people's ship and the dead of their expedition. Inside, he lit the halls with the cube and followed Wax and MeLaan through the traps.",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "23" }]
+        },
+        {
+          "text": "Captured by the Set with Marasi and Steris, Allik nearly froze once his warming medallion was taken, until Steris handed him one she had hidden in her notebook. He then brought warming medallions to his imprisoned crewmates, who rallied to fight back.",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "29" }]
+        },
+        {
+          "text": "With the Set beaten, Allik went home with his surviving crewmates, leaving Marasi his old, cracked mask as a parting gift.",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "31" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Goodwill ambassador",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "bands-of-mourning", "chapter": "31" },
+                { "book": "lost-metal", "chapter": "11" }
+              ]
+            },
+            { "book": "lost-metal", "chapter": "11" },
+            { "book": "lost-metal", "chapter": "epilogue-1" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Over the years that followed, Allik and Marasi gradually fell in love. When he landed the post of junior goodwill ambassador to the Basin, which let him stay there for good, the two began courting formally.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "bands-of-mourning", "chapter": "31" },
+                { "book": "lost-metal", "chapter": "11" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "With Wax and Steris living in a penthouse, Allik stayed at Ladrian Manor, where Wax kept a lab. He made tea and cookies for the group when they met there to share what they had learned.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "11" }]
+        },
+        {
+          "text": "When Marasi uncovered the Set's plan to bomb Elendel, she sent word telling Allik to leave the city. Once he heard it was safe, he hurried back and was waiting at the train station when she arrived from Bilming.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "epilogue-1" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "A short, spindly man of twenty-two with a toothy grin and a thin, wispy beard and moustache that make him look younger. Like every Malwish he always wears a mask, though not always the same one.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "bands-of-mourning", "chapter": "19" },
+            { "book": "lost-metal", "chapter": "11" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "In 348 PC his mask was bright red, with flecks of yellow paint spreading out from the middle.",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "11" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Allik keeps to his people's customs in dealing with Allomancers, though a few of his names for Wax, like \"O Great Impetuous One\" and \"Unobservant Master\", show little reverence.",
+      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "24" }]
+    },
+    {
+      "text": "A free spirit who says whatever comes into his head, he is the most at ease of the Brunstell's crew around the northerners and is less bothered than the other southerners by their bare faces.",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "11" }]
+    }
+  ],
+  "abilities": [
+    {
+      "title": [
+        {
+          "text": "Medallions",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "20" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Allik has no Allomancy or Feruchemy of his own, but uses the Metallic Arts through the medallions his people make. He can tell Wax's powers at a glance, yet knows less of temporal Allomancy and at first misses that Marasi and Wayne are Allomancers.",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "20" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Other skills",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "bands-of-mourning", "chapter": "29" },
+                { "book": "lost-metal", "chapter": "18" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "He is a superb baker and well versed in Malwish politics, though his dancing fails to impress his captain. In 346 PC he became a junior goodwill ambassador to the Elendel Basin by agreeing to live there semipermanently.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "bands-of-mourning", "chapter": "29" },
+                { "book": "lost-metal", "chapter": "18" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "title": [
+        {
+          "text": "Marasi",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "bands-of-mourning", "chapter": "31" },
+                { "book": "lost-metal", "chapter": "11" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Marasi let Allik out of his cage and comforted him when he found how the Set had tortured his crewmates. When he gave her his mask on leaving, Wayne suspected he had a crush on her. Even after two years of formal courtship, the pair can still act like schoolchildren.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "bands-of-mourning", "chapter": "31" },
+                { "book": "lost-metal", "chapter": "11" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Wax",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "11" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Raised to revere the Metalborn, Allik treats Wax with awe, which irritates Wax, who keeps telling him to stop. Wax has mostly cured him of the grand titles, though Allik still slips back into them. Wax let him live in the Ladrian mansion and thinks highly of his pastries.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "11" }]
+        }
+      ]
+    }
+  ]
+}

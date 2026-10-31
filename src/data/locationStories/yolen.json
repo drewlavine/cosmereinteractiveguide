@@ -1,0 +1,41 @@
+{
+  "intro": [
+    {
+      "text": "An ancient inhabited world and the site of the Shattering of Adonalsium.",
+      "revealedIn": ["oathbringer"]
+    }
+  ],
+  "description": [
+    {
+      "text": "Many of its trees are bone-white.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "epilogue" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Before the Shattering",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "128" },
+            { "book": "wind-and-truth", "chapter": "104" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Yolen's old gods predated its dragons, and dragons predated humanity.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "128" }]
+        },
+        {
+          "text": "Humans developed separate city-states, while dragons maintained a more technologically advanced civilization.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "104" }]
+        },
+        {
+          "text": "In one city-state, a ruler tested whether a boy of low birth could match the accomplishments of the upper classes. The experiment became entangled with a coup against the city's barons.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "128" }]
+        }
+      ]
+    }
+  ]
+}

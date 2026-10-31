@@ -1,0 +1,82 @@
+{
+  "intro": [
+    {
+      "text": "A Rosharan nation whose lands once belonged to the Silver Kingdom of Makabakam.",
+      "revealedIn": ["way-of-kings"]
+    },
+    {
+      "text": "A kingdom in southwestern Roshar and a member nation of the Azish Empire.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "65" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Its people are Makabaki, generally dark of skin and hair. Alm and neighbouring Desh are more rural than the other Azish lands, and local clothing is plainer and lighter than their neighbours' fashions.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "19" },
+            { "book": "edgedancer", "chapter": "4" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Like the other Azish member states, Alm governs itself but recognises the Prime Aqasix as emperor and generally follows Azir's lead abroad.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "65" }]
+    },
+    {
+      "text": "A small nation that borders Yezier and Liafor, with the Misted Mountains standing between it and Shinovar. The bulk of its territory sits between the mountains and a broad river, and it has a short stretch of coast on a bay that opens onto the Aimian Sea.",
+      "revealedIn": ["oathbringer"]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The Era of Solitude",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "12" },
+            { "book": "dawnshard", "chapter": "9" },
+            { "book": "edgedancer", "chapter": "4" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Alm joined other Makabaki nations in forming the Azish Empire.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "12" }]
+        },
+        {
+          "text": "Refugees from Aimia settled in Alm at some point after the Recreance; how many came, and when, is unclear.",
+          "revealedIn": [{ "book": "dawnshard", "chapter": "9" }]
+        },
+        {
+          "text": "Lift once visited Alm and liked it there, since few people tried to kill her.",
+          "revealedIn": [{ "book": "edgedancer", "chapter": "4" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The True Desolation",
+          "revealedIn": [
+            { "book": "edgedancer", "chapter": "14" },
+            { "book": "oathbringer", "chapter": "65" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Because Alm sits on Roshar's western edge, it and Steen were the earliest nations to send word that the Everstorm had come.",
+          "revealedIn": [{ "book": "edgedancer", "chapter": "14" }]
+        },
+        {
+          "text": "Alm had an ambassador in Azimir when Prime Aqasix Yanagawn agreed to visit Urithiru.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "65" }]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "intro": [
+    {
+      "text": "Nilto, the Lord Beggar: a face-wrapped figure whose influence among Kezare's poor makes him an unofficial Taisha.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "5" }],
+      "fallback": true
+    },
+    {
+      "text": "Prince Gevin of Elis, Khriss's former fiancé, believed dead, who lives in Kezare as Nilto, the Lord Beggar.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "14" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The Lord Beggar",
+          "revealedIn": [
+            { "book": "white-sand-omnibus", "chapter": "5" },
+            { "book": "white-sand-omnibus", "chapter": "8" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Known as Nilto, the Lord Beggar, he held such sway among Kezare's poor that he counted as an unofficial Taisha. While Khriss met Loaten, Nilto came in, his face wrapped, and told Loaten to send her away.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "5" }]
+        },
+        {
+          "text": "When Khriss asked him to back the Diem, Nilto told her never to beg a beggar, doubting a mastrell would help the poor. He then gave her the pistol and signet ring that had belonged to her fiancé, but refused to say how he had them.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "8" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Gevin",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "14" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "When Nilto slipped and used Khriss's pet name, she realised he was Gevin, the Elisian prince who had come to Dayside seeking the sand mages. She caught him boarding a ship, and he said he owed Elis nothing now. After Acron, a Dynasty assassin sent to kill him, was dealt with, Gevin said he would choose his own path and could never go back after the shot that ruined his face two years before.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "14" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Keeps his face wrapped in cloth.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "5" }],
+      "fallback": true
+    },
+    {
+      "text": "His face is wrapped because a pistol shot destroyed his features.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "14" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "A leading voice in Elis against the Dynasty, he holds that every person has rights and works hard to help others.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "14" }]
+    }
+  ]
+}

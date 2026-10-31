@@ -1,0 +1,51 @@
+{
+  "intro": [
+    {
+      "text": "A swordsman whom Vasher killed in a duel in Yarn Dred, even though Arsteel was the better fighter of the two.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "19" }]
+    },
+    {
+      "text": "One of the Five Scholars and the brother of Yesteel, a skilled swordsman whom Vasher killed in a duel in Yarn Dred.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "epilogue" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The Five Scholars",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "epilogue" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Arsteel was one of the Five Scholars, together with Vasher, Denth, Shashara and his brother Yesteel, and probably studied Awakening with them.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "epilogue" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Duel with Vasher",
+          "revealedIn": [
+            { "book": "warbreaker", "chapter": "19" },
+            { "book": "warbreaker", "chapter": "57" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Though Arsteel was the stronger swordsman, Vasher killed him in a duel in Yarn Dred.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "19" }]
+        },
+        {
+          "text": "Vasher won by suddenly pouring a large amount of Breath into him. The rush of it overwhelmed Arsteel for a moment, and that was long enough for Vasher to kill him.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "57" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

@@ -1,0 +1,68 @@
+{
+  "intro": [
+    {
+      "text": "A Lossandin mastrell of the Diem who races Kenton down the dunes to the Diem's camp near Mount KraeDa.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "prologue" }]
+    },
+    {
+      "text": "A Lossandin mastrell of the Diem and one of Kenton's oldest friends, who never looks down on him for his weakness.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "2" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Mastrell",
+          "revealedIn": [
+            { "book": "white-sand-omnibus", "chapter": "6" },
+            { "book": "white-sand-omnibus", "chapter": "2" },
+            { "book": "white-sand-omnibus", "chapter": "18" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Traiben had known Kenton since boyhood, remembered his old sand fox Scooch, and entered the Diem alongside him, showing early promise. He rose to mastrell while Kenton stayed an acolent, but they remained close.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "6" }]
+        },
+        {
+          "text": "After Kenton ran the Path, Traiben admitted he had found only three spheres on his own run, and argued that Praxton would now have to make Kenton a mastrell.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "2" }]
+        },
+        {
+          "text": "Traiben drank from the ceremonial bowl, which Elorin had poisoned with KaDo. In the Kerztian attack it made him overmaster within minutes, and he died with most of the Diem.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "18" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Short black hair and light Daysider skin; he wears a sand master's robes.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "2" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Friendly; he knows how weak Kenton is but never scorns him for it, though other mastrells see the friendship as a failing.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "2" }]
+    }
+  ],
+  "abilities": [
+    {
+      "title": [
+        {
+          "text": "Sand mastery",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "2" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "A strong sand master who can work fifteen ribbons at once, and usually comes prepared for danger.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "2" }]
+        }
+      ]
+    }
+  ]
+}

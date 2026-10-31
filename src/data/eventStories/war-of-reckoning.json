@@ -1,0 +1,719 @@
+{
+  "intro": [
+    {
+      "text": "A war between Alethkar and the Parshendi, given its name by Brightness Hashal for the Alethi aim of making the Parshendi answer for King Gavilar Kholin's assassination.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "43" }]
+    },
+    {
+      "text": "A war on the Shattered Plains between Alethkar and the listeners, whom the Alethi call Parshendi, fought to avenge the assassination of King Gavilar Kholin.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "45" },
+            { "book": "words-of-radiance", "chapter": "i-1" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Background",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "prologue" },
+            { "book": "way-of-kings", "chapter": "45" },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "prologue" },
+                { "book": "oathbringer", "chapter": "prologue" }
+              ]
+            },
+            { "book": "words-of-radiance", "chapter": "prologue" },
+            { "book": "oathbringer", "chapter": "105" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "During a celebration in Kholinar of a peace treaty between Alethkar and the Parshendi, the Shin assassin Szeth, sent by the Parshendi, killed King Gavilar Kholin.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "prologue" }]
+        },
+        {
+          "text": "Dalinar Kholin came upon a people much like parshmen in a forest to the Shattered Plains' south. Gavilar's stormwardens named them Parshendi, roughly parshmen who can think, and the name spread from Alethkar to other countries.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "45" }]
+        },
+        {
+          "text": "That night, Gavilar told Eshonai, a delegate who spoke Alethi, that he meant to bring back the listeners' old gods so the Heralds would return. Their ancestors had given up those gods to be free, and they did not want them back.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "prologue" },
+                { "book": "oathbringer", "chapter": "prologue" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Fearing his plans, the Council of Five had Gavilar killed that same night by their new slave, Szeth, a Shin Truthless who carried Jezrien's Honorblade.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "prologue" },
+                { "book": "oathbringer", "chapter": "prologue" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "As the rest of the delegation fled Kholinar, three of its leaders, Gangnah, Klade and Varnali, stayed to claim the killing, and the Alethi hanged them.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "prologue" }]
+        },
+        {
+          "text": "At Gavilar's funeral, the new king Elhokar made the highprinces swear to avenge his father. This Vengeance Pact was Alethkar's declaration of war on the Parshendi.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "105" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The siege",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "18" },
+            { "book": "way-of-kings", "chapter": "43" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The Alethi fought to fulfil the Vengeance Pact, and King Elhokar was shocked when Dalinar suggested ending it.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "18" }]
+        },
+        {
+          "text": "The Shattered Plains are vast, and an army must bridge chasm after chasm, caught in the open if a highstorm comes. So the highprinces chose a siege, expecting hunger to drive the Parshendi out to fight.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "43" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Gemhearts",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "15" },
+            { "book": "way-of-kings", "chapter": "40" },
+            { "book": "way-of-kings", "chapter": "17" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Settled at the edge of the Plains, the Alethi began hunting chasmfiends for their gemhearts, which hold huge amounts of Stormlight and suit Soulcasting. With them the armies made metal for weapons, wood for bridges, stone barracks and food.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "15" }]
+        },
+        {
+          "text": "The safest method was letting a chasmfiend climb a plateau and pupate, then cut into the chrysalis using a Shardblade, or hammers and chisels, which took longer.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "40" }]
+        },
+        {
+          "text": "Both sides used the gems to sustain their armies, which drew the war out. Whenever a chrysalis was seen on a plateau, they raced for it; the first to arrive had to cut out the gemheart before the other came, or there was a battle.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "15" }]
+        },
+        {
+          "text": "Each highprince acted alone, so several Alethi armies might race for the same chasmfiend, and whoever came second went home. Gemhearts meant wealth and the king's favour, which bred rivalry.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "17" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The Battle of the Tower",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "65" },
+            { "book": "way-of-kings", "chapter": "69" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "When Dalinar began working with Sadeas, a chasmfiend was sighted on the Tower. Sadeas's faster army was to clear ground for Dalinar's better-trained troops, and the plan held until Sadeas abandoned Dalinar and left him trapped.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "65" }]
+        },
+        {
+          "text": "Bridge Four, led by Kaladin, saved Dalinar and what was left of his army. Dalinar then had King Elhokar name him Highprince of War, meaning to unite the armies and at last fulfil the Vengeance Pact.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "69" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Hopes for peace",
+          "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "i-1" },
+            { "book": "words-of-radiance", "chapter": "i-4" },
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "i-4" },
+                { "book": "oathbringer", "chapter": "i-3" }
+              ]
+            },
+            { "book": "words-of-radiance", "chapter": "i-5" },
+            { "book": "words-of-radiance", "chapter": "i-11" },
+            { "book": "words-of-radiance", "chapter": "78" }
+          ]
+        },
+        {
+          "text": "Stormform and the failed peace",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-11" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Watching her people dwindle and weary of war, Eshonai wanted to approach Dalinar Kholin and ask for peace. Her sister Venli, a scholar, thought this would fail and argued for using a form of power to defeat the Alethi.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-1" }]
+        },
+        {
+          "text": "Venli had a gemstone holding a captured stormspren, which she believed would let the listeners rediscover stormform. Eshonai feared angering the old gods, but agreed before the Five, on condition that she try the form first.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-4" }]
+        },
+        {
+          "text": "Venli had been secretly guided by the voidspren Ulim, and stormform was believed to let its bearers summon and control storms.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "i-4" },
+                { "book": "oathbringer", "chapter": "i-3" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Before taking the form, Eshonai, with help from Adolin and the listener warrior Thude, arranged to meet Dalinar in seven days to talk about ending the war.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-5" }]
+        },
+        {
+          "text": "Stormform gave Eshonai new armour, an easier leap across chasms and harsher rhythms, and made her arrogant and hostile. She dropped the talks, dared the Alethi to destroy her people, and planned to lure their army away and destroy it with a summoned storm.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-11" }]
+        },
+        {
+          "text": "With Venli, Eshonai had their whole people take stormform, though a few refused and escaped. Rlain, a listener spy who had joined Bridge Four, came back, saw the new army and chose not to join it.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "78" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The Battle of Narak",
+          "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "78" },
+            { "book": "words-of-radiance", "chapter": "81" },
+            { "book": "words-of-radiance", "chapter": "82" },
+            { "book": "words-of-radiance", "chapter": "86" },
+            { "book": "oathbringer", "chapter": "i-6" },
+            { "book": "rhythm-of-war", "chapter": "115" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "With talks ended, Dalinar proposed a joint attack on the listeners' camp to finish the war. Of the highprinces, just Aladar, Roion and Sebarial came. The armies left as the Weeping began, when no highstorm was expected, and met Rlain on the way, who told Dalinar what had become of his people.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "78" }]
+        },
+        {
+          "text": "When the Alethi reached Narak, many stormform listeners began singing to call a storm, and the rest fought. Aladar, Roion and Adolin each led troops on their own plateau, with Sebarial's army reinforcing them and Dalinar commanding from a fourth.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "81" }]
+        },
+        {
+          "text": "The stormforms turned red lightning on the Alethi. Roion's army was beaten, but Adolin and Aladar held their plateaus.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "82" }]
+        },
+        {
+          "text": "Warned by Rlain that the song would bring ruin, Dalinar sent Adolin to stop the singers. Adolin killed many and beat Eshonai when she attacked, but the song was finished. It called the Everstorm from the west, with red lightning, while an unexpected highstorm came from the east.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "86" }]
+        },
+        {
+          "text": "Szeth came to kill Dalinar on Taravangian's orders, but Kaladin stopped him. Shallan Davar found and opened the ancient Oathgate in the city, carrying the surviving Alethi to Urithiru before the two storms destroyed Narak.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "86" }]
+        },
+        {
+          "text": "The surviving stormform listeners became vessels for the Fused, the immortal leaders of Odium's army who returned through the Everstorm. Odium spared Venli for his own purposes.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "i-6" }]
+        },
+        {
+          "text": "Listeners who had refused stormform escaped into the chasms and survived with a chasmfiend's help.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "115" }]
+        }
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "title": "Participants",
+      "items": [],
+      "parts": [
+        {
+          "title": [
+            {
+              "text": "Alethkar",
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "way-of-kings", "chapter": "prologue" },
+                    { "book": "words-of-radiance", "chapter": "76" }
+                  ]
+                },
+                {
+                  "all": [
+                    { "book": "way-of-kings", "chapter": "45" },
+                    { "book": "words-of-radiance", "chapter": "i-1" }
+                  ]
+                },
+                {
+                  "all": [
+                    { "book": "way-of-kings", "chapter": "52" },
+                    { "book": "words-of-radiance", "chapter": "5" }
+                  ]
+                }
+              ]
+            }
+          ],
+          "items": [
+            {
+              "text": "Most Alethi soldiers were darkeyed spearmen in battalions under lighteyed officers. Darkeyes could carry only spears, so every Alethi archer and swordsman was a lighteyes.",
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "way-of-kings", "chapter": "prologue" },
+                    { "book": "words-of-radiance", "chapter": "76" }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Each of the ten highprinces (Aladar, Bethab, Hatham, Kholin, Roion, Ruthar, Sadeas, Sebarial, Thanadal and Vamah) led his own army and sent part of it to the Plains, each warcamp filling a crater-shaped rock formation on the leeward edge.",
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "way-of-kings", "chapter": "45" },
+                    { "book": "words-of-radiance", "chapter": "i-1" }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "The Alethi had around twenty Shardblades, and more than thirty official Shardbearers served in the warcamps, a few holding both Plate and Blade.",
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "way-of-kings", "chapter": "52" },
+                    { "book": "words-of-radiance", "chapter": "5" }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": [
+            {
+              "text": "The Parshendi",
+              "revealedIn": [
+                { "book": "way-of-kings", "chapter": "28" },
+                {
+                  "all": [
+                    { "book": "way-of-kings", "chapter": "55" },
+                    { "book": "words-of-radiance", "chapter": "i-1" }
+                  ]
+                },
+                { "book": "words-of-radiance", "chapter": "i-1" },
+                { "book": "words-of-radiance", "chapter": "i-4" },
+                {
+                  "all": [
+                    { "book": "way-of-kings", "chapter": "68" },
+                    { "book": "words-of-radiance", "chapter": "i-4" }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "The listeners",
+              "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-1" }]
+            }
+          ],
+          "items": [
+            {
+              "text": "Besides archers, the Parshendi fought in warpairs: two warriors side by side who leapt about the battlefield together and struck from several directions with heavy weapons.",
+              "revealedIn": [{ "book": "way-of-kings", "chapter": "28" }]
+            },
+            {
+              "text": "Warform gave listener warriors carapace armour and great strength. It was no match for Shardplate but a real danger to ordinary soldiers, letting them swing battleaxes and hammers and jump chasms, which only Shardbearers could do on the Alethi side.",
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "way-of-kings", "chapter": "55" },
+                    { "book": "words-of-radiance", "chapter": "i-1" }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "At the war's start the listeners settled in the ruins of Stormseat at the centre of the Plains, which they called Narak, meaning Exile. It was both their army's base and their people's refuge.",
+              "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-1" }]
+            },
+            {
+              "text": "Unlike the Alethi, the listeners fought as one army. The Council of Five ruled them, each member speaking for one of their five forms, and the member in warform, the form of their soldiers, led the army.",
+              "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-4" }]
+            },
+            {
+              "text": "Eshonai rose to be the Five's warform member during the war and led her people's fight to survive. She held their only remaining Shardblade and Shardplate.",
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "way-of-kings", "chapter": "68" },
+                    { "book": "words-of-radiance", "chapter": "i-4" }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Warfare",
+      "items": [],
+      "parts": [
+        {
+          "title": [
+            {
+              "text": "Bridges",
+              "revealedIn": [
+                { "book": "way-of-kings", "chapter": "6" },
+                { "book": "way-of-kings", "chapter": "17" },
+                {
+                  "all": [
+                    { "book": "way-of-kings", "chapter": "32" },
+                    { "book": "words-of-radiance", "chapter": "8" }
+                  ]
+                },
+                { "book": "way-of-kings", "chapter": "55" },
+                { "book": "way-of-kings", "chapter": "59" },
+                { "book": "way-of-kings", "chapter": "65" }
+              ]
+            }
+          ],
+          "items": [
+            {
+              "text": "Lighter bridges took at least twenty-five men to carry, with room for forty. They could be run across the plateaus, far faster than bridge towers, but left the bridgemen open to archers on the final approach.",
+              "revealedIn": [{ "book": "way-of-kings", "chapter": "6" }]
+            },
+            {
+              "text": "Parshendi warriors could jump between plateaus, but an Alethi army needed a wooden bridge for every chasm, and no plateau could be climbed from below. Permanent bridges stood only near the warcamps, since Parshendi raids wrecked any built farther out.",
+              "revealedIn": [{ "book": "way-of-kings", "chapter": "17" }]
+            },
+            {
+              "text": "Sadeas pioneered light bridges carried by unarmoured, untrained bridgemen, who drew the enemy's fire away from his soldiers. Seeing his success, other highprinces copied him.",
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "way-of-kings", "chapter": "32" },
+                    { "book": "words-of-radiance", "chapter": "8" }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Bridge towers, pulled by chulls like siege towers, were heavy and slow, but sheltered the army until they were lowered over the chasm.",
+              "revealedIn": [{ "book": "way-of-kings", "chapter": "55" }]
+            },
+            {
+              "text": "Kaladin became the first to drill a bridge crew. Bridge Four grew faster than the others, and he devised carrying the bridge on its side so it shielded the men from arrows.",
+              "revealedIn": [{ "book": "way-of-kings", "chapter": "59" }]
+            },
+            {
+              "text": "The Parshendi archers then shot at Sadeas's soldiers instead, costing him trained troops. Other crews that tried the method clumsily failed, a battle was lost; as punishment Lamaril was put to death and Kaladin was strung up in a highstorm.",
+              "revealedIn": [{ "book": "way-of-kings", "chapter": "59" }]
+            },
+            {
+              "text": "Dalinar would not use bridgemen that way: officers should not ask of soldiers what they would not do themselves. When he and Sadeas joined forces, Sadeas's light bridges took a foothold first, Dalinar crossed on bridges Sadeas lent him, and used his own at the last chasm.",
+              "revealedIn": [{ "book": "way-of-kings", "chapter": "65" }]
+            }
+          ]
+        },
+        {
+          "title": [
+            {
+              "text": "Shardbearers",
+              "revealedIn": [
+                { "book": "way-of-kings", "chapter": "26" },
+                { "book": "way-of-kings", "chapter": "54" }
+              ]
+            }
+          ],
+          "items": [
+            {
+              "text": "If the enemy was already formed up when an army arrived, a slaughter followed unless Shardbearers leapt the chasm to clear room for the bridges. It was a great risk, and not every highprince took it.",
+              "revealedIn": [{ "book": "way-of-kings", "chapter": "26" }]
+            },
+            {
+              "text": "Only Alethi Shardbearers could stand against Parshendi ones, so a highprince lacking both Plate and Blade often had to fall back when he met one. Shardblades were also the best tool for opening a chrysalis.",
+              "revealedIn": [{ "book": "way-of-kings", "chapter": "54" }]
+            }
+          ]
+        },
+        {
+          "title": [
+            {
+              "text": "Chasm duty",
+              "revealedIn": [{ "book": "way-of-kings", "chapter": "27" }]
+            }
+          ],
+          "items": [
+            {
+              "text": "Many on both sides died falling into the chasms, and highstorms swept the dead off the plateaus into them, where floods carried the bodies along the chasm floors.",
+              "revealedIn": [{ "book": "way-of-kings", "chapter": "27" }]
+            },
+            {
+              "text": "Teams of soldiers or bridgemen were sent down now and then to salvage weapons, armour, spheres and other valuables from the dead. Flash floods and chasmfiends made the work dangerous.",
+              "revealedIn": [{ "book": "way-of-kings", "chapter": "27" }]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Location",
+      "name": "Shattered Plains",
+      "placeId": "shattered-plains",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "43" }]
+    },
+    {
+      "label": "Named by",
+      "name": "Brightness Hashal",
+      "characterId": "hashal",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "43" }]
+    },
+    {
+      "label": "Cause",
+      "name": "King Gavilar's assassination",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "43" }]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "gavilar-kholin",
+      "role": "Assassinated king",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "43" }]
+    },
+    {
+      "characterId": "hashal",
+      "role": "Named the war",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "43" }]
+    },
+    {
+      "characterId": "szeth",
+      "role": "Assassin",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "prologue" }]
+    },
+    {
+      "characterId": "elhokar-kholin",
+      "role": "King",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "18" }]
+    },
+    {
+      "characterId": "dalinar-kholin",
+      "role": "Highprince of War",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "69" }]
+    },
+    {
+      "characterId": "torol-sadeas",
+      "role": "Highprince",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "32" },
+            { "book": "words-of-radiance", "chapter": "8" }
+          ]
+        }
+      ]
+    },
+    {
+      "characterId": "roion",
+      "role": "Highprince",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "45" },
+            { "book": "words-of-radiance", "chapter": "i-1" }
+          ]
+        }
+      ]
+    },
+    {
+      "characterId": "aladar",
+      "role": "Highprince",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "45" },
+            { "book": "words-of-radiance", "chapter": "i-1" }
+          ]
+        }
+      ]
+    },
+    {
+      "characterId": "loradar-vamah",
+      "role": "Highprince",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "45" },
+            { "book": "words-of-radiance", "chapter": "i-1" }
+          ]
+        }
+      ]
+    },
+    {
+      "characterId": "ruthar",
+      "role": "Highprince",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "45" },
+            { "book": "words-of-radiance", "chapter": "i-1" }
+          ]
+        }
+      ]
+    },
+    {
+      "characterId": "thanadal",
+      "role": "Highprince",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "45" },
+            { "book": "words-of-radiance", "chapter": "i-1" }
+          ]
+        }
+      ]
+    },
+    {
+      "characterId": "hatham",
+      "role": "Highprince",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "45" },
+            { "book": "words-of-radiance", "chapter": "i-1" }
+          ]
+        }
+      ]
+    },
+    {
+      "characterId": "bethab",
+      "role": "Highprince",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "45" },
+            { "book": "words-of-radiance", "chapter": "i-1" }
+          ]
+        }
+      ]
+    },
+    {
+      "characterId": "turinad-sebarial",
+      "role": "Highprince",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "45" },
+            { "book": "words-of-radiance", "chapter": "i-1" }
+          ]
+        }
+      ]
+    },
+    {
+      "characterId": "kaladin",
+      "role": "Bridge Four leader",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "59" }]
+    },
+    {
+      "characterId": "lamaril",
+      "role": "Executed officer",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "59" }]
+    },
+    {
+      "characterId": "adolin-kholin",
+      "role": "Commander",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "81" }]
+    },
+    {
+      "characterId": "eshonai",
+      "role": "Listener general",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "68" },
+            { "book": "words-of-radiance", "chapter": "i-4" }
+          ]
+        }
+      ]
+    },
+    {
+      "characterId": "venli",
+      "role": "Listener scholar",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-1" }]
+    },
+    {
+      "characterId": "thude",
+      "role": "Listener warrior",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-5" }]
+    },
+    {
+      "characterId": "rlain",
+      "role": "Listener spy",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "78" }]
+    },
+    {
+      "characterId": "gangnah",
+      "role": "Delegation leader",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "prologue" }]
+    },
+    {
+      "characterId": "klade",
+      "role": "Delegation leader",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "prologue" }]
+    },
+    {
+      "characterId": "varnali",
+      "role": "Delegation leader",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "prologue" }]
+    },
+    {
+      "characterId": "ulim",
+      "role": "Voidspren",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "i-4" },
+            { "book": "oathbringer", "chapter": "i-3" }
+          ]
+        }
+      ]
+    },
+    {
+      "characterId": "shallan-davar",
+      "role": "Opened the Oathgate",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "86" }]
+    }
+  ]
+}

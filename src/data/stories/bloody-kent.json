@@ -1,0 +1,23 @@
+{
+  "intro": [
+    {
+      "text": "A legendary bounty hunter of Threnody.",
+      "revealedIn": ["shadows-for-silence"]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        { "text": "In Daggon's stories", "revealedIn": ["shadows-for-silence"] }
+      ],
+      "items": [
+        {
+          "text": "Once the White Fox was thought dead, Daggon began telling the travellers at Silence's waystop stories about Bloody Kent instead.",
+          "revealedIn": ["shadows-for-silence"]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

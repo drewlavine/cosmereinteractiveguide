@@ -1,0 +1,36 @@
+{
+  "intro": [
+    {
+      "text": "Lord Shewrman, notorious in Elendel's high society as a dreadful party guest.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "4" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The wedding dinner",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "4" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Shewrman was invited to the Yomen-Ostlin wedding dinner, his invitation meant as a snub to everyone who did not get one.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "4" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Stocky, with long hair.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "4" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Dull when sober, and usually a drunken fool; Steris counts him the least likable member of Elendel's upper class.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "4" }]
+    }
+  ]
+}

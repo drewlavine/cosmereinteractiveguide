@@ -136,9 +136,58 @@
           "revealedIn": [{ "book": "rhythm-of-war", "chapter": "104" }]
         }
       ]
+    },
+    {
+      "title": [
+        {
+          "text": "After the contest",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "147" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Retribution supplied Warlight to his followers after withdrawing Stormlight.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "147" }]
+        }
+      ]
     }
   ],
   "mechanics": [
+    {
+      "title": [
+        {
+          "text": "Towerlight away from the tower",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "14" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Towerlight sustains Surgebinding for longer inside Urithiru but drains almost immediately outside it.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "14" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Anti-Stormlight reactions",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "32" },
+            { "book": "wind-and-truth", "chapter": "134" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Anti-Stormlight can collapse Honor's perpendicularity.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "32" }]
+        },
+        {
+          "text": "It can destroy an exposed Lightweaving with sparks, but reacts fatally when injected into a Radiant holding Stormlight.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "134" }]
+        }
+      ]
+    },
     {
       "title": [
         {

@@ -1,0 +1,63 @@
+{
+  "intro": [
+    {
+      "text": "A boy of eleven or twelve serving as a messenger in Meridas Amaram's army, in the same reserve squad as Tien.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "67" },
+            { "book": "rhythm-of-war", "chapter": "108" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Amaram's army",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "67" },
+                { "book": "rhythm-of-war", "chapter": "108" }
+              ]
+            },
+            { "book": "rhythm-of-war", "chapter": "108" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Dem ran messages for Sheler's company. Because recruits were scarce, he, Tien and other messenger boys were put in a deep reserve squad that was never meant to see battle, and they got hardly any combat training.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "67" },
+                { "book": "rhythm-of-war", "chapter": "108" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "In a battle against Hallaw, Sheler's company suffered badly but was ordered to hold. Dem and another boy were sent to reinforce Varth's squad, given old leather armor and spears they could scarcely lift. Seeing they were no use, Varth put them at the front as a distraction, and Tien volunteered to join them.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "108" }]
+        },
+        {
+          "text": "When the enemy charged, the squad fell back and left the three boys exposed, and they were cut down at once. The disruption let Amaram's cavalry sweep in and win, and Varth saw that the boys, like many of the men, had been spent to make Amaram look good.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "67" },
+                { "book": "rhythm-of-war", "chapter": "108" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

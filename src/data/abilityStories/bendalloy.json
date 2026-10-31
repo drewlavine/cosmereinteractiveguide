@@ -1,0 +1,112 @@
+{
+  "intro": [
+    {
+      "text": "An Allomantic metal. A Slider burning it pushes on time, making it run faster inside a bubble around them, so that events outside seem to crawl.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "prologue" }]
+    },
+    {
+      "text": "An alloy of cadmium and bismuth. Allomancers burn it to speed up time in a bubble around themselves, and Feruchemists store nutrition in it.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "10" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "A Subsumer stores nutrition and calories in bendalloy. While filling a bendalloymind they can eat great amounts without feeling full, and tapping it lets them go without food. Another bendalloymind can hold fluid intake.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "prologue" }]
+    },
+    {
+      "text": "Compounding bendalloy would let someone survive without food or water.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "11" }]
+    },
+    {
+      "text": "A bullet leaving a speed bubble is thrown off its course.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "19" }]
+    },
+    {
+      "text": "A Slider's bubble stays put relative to the ground beneath them. A Slider riding something small and moving, or stepping to the bubble's edge, slips out of it and pops it. Anything crossing the edge veers wildly, and overlapping bubbles multiply their effect.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "alloy-of-law", "chapter": "2" },
+            { "book": "bands-of-mourning", "chapter": "17" },
+            { "book": "lost-metal", "chapter": "23" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "A bendalloy bubble is roughly five to fifteen feet across, smaller than a cadmium bubble, and a close look can show the air shimmering at its edge. Anyone even partly inside is caught in it. Where bendalloy and cadmium bubbles overlap they cancel out, though both metals are still used up.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "alloy-of-law", "chapter": "12" },
+            { "book": "lost-metal", "chapter": "49" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Burning a huge amount of bendalloy with duralumin speeds time to an extreme. The bubble seems to set like crystal and then crack as it fades, light behaves strangely inside and out, and the speed is beyond even what a Shard can follow.",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "71" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "A costly metal",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "alloy-of-law", "chapter": "12" },
+                { "book": "lost-metal", "chapter": "71" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Only advances in technology after the Catacendre made bendalloy available, and it stayed very expensive: in the fourth century PC a single nugget cost about five hundred notes, so most Sliders had little practice with their power.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "alloy-of-law", "chapter": "12" },
+                { "book": "lost-metal", "chapter": "71" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Alloy",
+      "name": "Cadmium and bismuth",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "10" }]
+    },
+    {
+      "label": "Paired metal",
+      "name": "Cadmium",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "10" }]
+    },
+    {
+      "label": "Allomancy",
+      "name": "Speeds up time in a bubble",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "prologue" }]
+    },
+    {
+      "label": "Feruchemy",
+      "name": "Stores nutrition",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "prologue" }]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "wayne",
+      "role": "Slider",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "2" }]
+    }
+  ]
+}

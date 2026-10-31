@@ -1,0 +1,61 @@
+{
+  "intro": [
+    {
+      "text": "A traditional Veden men's garment: a knee-length skirt, sometimes of silk, usually worn with a plain shirt and a long coat or robe.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "19" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Veden fashion now follows Alethkar's, so the ulatu is out of date. Shallan noted her great-grandfathers would have paired theirs with mink pelts.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "19" }]
+    },
+    {
+      "text": "It resembles the Alethi takama but is usually shorter.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "25" },
+            { "book": "words-of-radiance", "chapter": "48" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Wearers",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "48" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Lin Davar wore one, as did the three toughs led by Mill who came to him to collect Jushu's debts.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "48" }]
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Worn in",
+      "name": "Jah Keved",
+      "placeId": "jah-keved",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "19" }]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "lin-davar",
+      "role": "wearer",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "48" }]
+    },
+    {
+      "characterId": "mill",
+      "role": "wearer",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "48" }]
+    }
+  ]
+}

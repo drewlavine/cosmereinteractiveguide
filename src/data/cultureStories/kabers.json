@@ -1,0 +1,33 @@
+{
+  "intro": [
+    {
+      "text": "A card game of Roshar played for stakes.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "8" }]
+    }
+  ],
+  "description": [],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Yalb's winnings",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "8" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Waiting outside the Palanaeum in Kharbranth, Yalb played kabers with four guards and, though they watched him suspiciously, cheated his way to about eighty gemstone chips.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "8" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "yalb",
+      "role": "player",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "8" }]
+    }
+  ]
+}

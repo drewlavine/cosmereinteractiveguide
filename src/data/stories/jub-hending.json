@@ -1,0 +1,26 @@
+{
+  "intro": [
+    {
+      "text": "A whiskey distiller in the Roughs.",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "9" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Whiskey",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "9" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Jub brewed his whiskey in a tub, and Wax found the result rather harsh.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "9" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

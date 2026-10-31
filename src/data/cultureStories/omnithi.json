@@ -1,0 +1,23 @@
+{
+  "intro": [
+    {
+      "text": "A people who believe that each person's existence ends when they fall asleep, and that whoever wakes is someone new who inherits their memories and beliefs.",
+      "revealedIn": [{ "book": "edgedancer", "chapter": "18" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Arclo mentioned the Omnithi to Lift. He wondered how their society keeps going if each of them lasts only a day, and remarked how hard their idea is to disprove.",
+      "revealedIn": [{ "book": "edgedancer", "chapter": "18" }]
+    }
+  ],
+  "history": [],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "arclomedarian",
+      "role": "described them",
+      "revealedIn": [{ "book": "edgedancer", "chapter": "18" }]
+    }
+  ]
+}

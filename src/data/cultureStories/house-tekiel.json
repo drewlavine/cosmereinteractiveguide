@@ -1,0 +1,102 @@
+{
+  "intro": [
+    {
+      "text": "A noble house of the Final Empire, fourth in power among the ten Great Houses of Luthadel.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "9" }]
+    },
+    {
+      "text": "A noble house of Scadrial: fourth of Luthadel's Great Houses in the Final Empire, and rebuilt as a great house of Elendel.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "9" },
+            { "book": "alloy-of-law", "chapter": "16" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "Its political rival is House Izenry, and it buys its arms from House Erikell.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "19" }]
+    },
+    {
+      "text": "A rich and powerful house from the east, with canal routes over the eastern plains and a large keep in Luthadel. Like every Great House, it can call on Mistborn and buy atium from the Lord Ruler.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "23" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The house war",
+          "revealedIn": [
+            { "book": "final-empire", "chapter": "19" },
+            { "book": "final-empire", "chapter": "23" },
+            { "book": "final-empire", "chapter": "28" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "To stir up a house war, Kelsier leaves the plainly murdered body of Charrs Entrone, a Tekiel ally, in the gardens of Keep Tekiel.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "19" }]
+        },
+        {
+          "text": "Tekiel comes to believe House Geffenry killed Entrone to frighten it into wanting more allies, and Ardous and Callins Geffenry are killed by Tekiel in return.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "23" }]
+        },
+        {
+          "text": "As the war goes on, Tekiel loses business and sinks into debt until its name and finances collapse. To save face it tries to pull out of Luthadel, but the evening before it leaves, many of its members are assassinated, and the rest are said to be attacked by bandits on the canals. Elend tells Valette that House Hasting killed the Tekiels.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "28" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "In Elendel",
+          "revealedIn": [
+            { "book": "alloy-of-law", "chapter": "2" },
+            { "book": "alloy-of-law", "chapter": "epilogue" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Thieves have stolen five shipments from House Tekiel.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "2" }]
+        },
+        {
+          "text": "Rebuilt as a great house, Tekiel owns much of the First Octant, including Madion Ways, and is putting up Tekiel Tower. It runs aluminium smelters, but its main business is banking, which depends on keeping its clients' wealth safe. Its house guards wear yellow and brown uniforms.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "epilogue" }]
+        },
+        {
+          "text": "For two years, Lord Augustin Tekiel dodges taxes by having railway workers smuggle his aluminium into the city disguised as wool, until the Vanishers put an end to it.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "epilogue" }]
+        },
+        {
+          "text": "The Vanishers' thefts make people doubt Tekiel can keep their wealth safe, and the house loses much of its business. As a last gamble it builds a new vault-like railway car and launches it with great fanfare.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "epilogue" }]
+        },
+        {
+          "text": "After a disturbance at the launch, the train leaves for Doxonar, but the Vanishers attack it and steal a whole car. The goods are returned once the Vanishers are arrested, but the harm is done: Tekiel seems ruined, and its shareholders sell for pennies.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "epilogue" }]
+        },
+        {
+          "text": "A secret group had used the Vanishers to drive House Tekiel into bankruptcy.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "epilogue" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "augustin-tekiel",
+      "role": "head of house",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "16" }]
+    }
+  ]
+}

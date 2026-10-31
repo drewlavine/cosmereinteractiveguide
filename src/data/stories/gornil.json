@@ -1,0 +1,53 @@
+{
+  "intro": [
+    {
+      "text": "One of the innkeeper's family in Rivershore who took in the orphaned December.",
+      "revealedIn": [{ "book": "fires-of-december", "chapter": "i" }],
+      "fallback": true
+    },
+    {
+      "text": "The wife of Yorduk, Rivershore's innkeeper, a practical mother of many who raised December as one of her own.",
+      "revealedIn": [{ "book": "fires-of-december", "chapter": "ii" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The inn at Rivershore",
+          "revealedIn": [
+            { "book": "fires-of-december", "chapter": "ii" },
+            { "book": "fires-of-december", "chapter": "xviii" },
+            { "book": "fires-of-december", "chapter": "epilogue" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "She and Yorduk fostered December from the age of five and set her to serving tables, since she drew customers. When Bark said he would propose, Gornil pressed December to accept a man with wealth and a house of his own.",
+          "revealedIn": [{ "book": "fires-of-december", "chapter": "ii" }]
+        },
+        {
+          "text": "In the life December remembers, Gornil fed her and gave her coins but turned her away after she left Bark, afraid for the other young women in the house. Years on, December helped revive the failing inn. Gornil died of a long illness when December was fifty.",
+          "revealedIn": [{ "book": "fires-of-december", "chapter": "xviii" }]
+        },
+        {
+          "text": "When December refused Bark this time, Gornil was baffled, and more so that December could suddenly read. She attended December's wedding to Flint.",
+          "revealedIn": [{ "book": "fires-of-december", "chapter": "epilogue" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Broad-hipped and strong-armed, with curly red hair.",
+      "revealedIn": [{ "book": "fires-of-december", "chapter": "ii" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Loves December like her own child but remains thoroughly practical.",
+      "revealedIn": [{ "book": "fires-of-december", "chapter": "ii" }]
+    }
+  ]
+}

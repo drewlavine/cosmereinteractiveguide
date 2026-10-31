@@ -1,0 +1,61 @@
+{
+  "intro": [
+    {
+      "text": "A fruit that grows in the highland regions of Duladel and JinDo.",
+      "revealedIn": [{ "book": "elantris", "chapter": "25" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Sourmelons are bright red and small enough to carry in a pocket.",
+      "revealedIn": [{ "book": "elantris", "chapter": "26" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Lukel's early shipment",
+          "revealedIn": [{ "book": "elantris", "chapter": "32" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Through a contact, Lukel got a shipment of sourmelons a month before the harvest season began. He went into partnership with Roial, who sent his half to Svorden, to the annoyance of Ahan, whose own shipments would arrive late and overripe.",
+          "revealedIn": [{ "book": "elantris", "chapter": "32" }]
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Grown in",
+      "name": "Duladel",
+      "placeId": "duladel",
+      "revealedIn": [{ "book": "elantris", "chapter": "25" }]
+    },
+    {
+      "label": "Grown in",
+      "name": "JinDo",
+      "placeId": "jindo",
+      "revealedIn": [{ "book": "elantris", "chapter": "25" }]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "lukel",
+      "role": "merchant",
+      "revealedIn": [{ "book": "elantris", "chapter": "32" }]
+    },
+    {
+      "characterId": "roial",
+      "role": "partner",
+      "revealedIn": [{ "book": "elantris", "chapter": "32" }]
+    },
+    {
+      "characterId": "ahan",
+      "role": "rival seller",
+      "revealedIn": [{ "book": "elantris", "chapter": "32" }]
+    }
+  ]
+}

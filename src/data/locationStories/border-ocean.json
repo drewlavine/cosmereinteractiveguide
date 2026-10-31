@@ -1,0 +1,38 @@
+{
+  "intro": [
+    {
+      "text": "The ocean lying between Dayside and Darkside.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "18" }]
+    },
+    {
+      "text": "A vast ocean covering much of the planet. It rings the Dayside continent and cuts it off from Darkside, and its northern and southern halves have no clear dividing line.",
+      "revealedIn": ["white-sand-omnibus"]
+    }
+  ],
+  "description": [
+    {
+      "text": "Besides being hard, the voyage from Darkside to Dayside is banned by Emperor Skathan of the Dynasty. Some Darksiders make it anyway, and can be found in places such as Lonzare.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "18" }]
+    },
+    {
+      "text": "Seasoned sailors can cross it, but a ship caught in the wrong currents may never reach the far continent. Down the middle of the ocean, between the two sides, runs the terminal storm, a permanent tempest of thunder and ceaseless heavy rain; getting through it can take several days, depending on the wind.",
+      "revealedIn": ["white-sand-omnibus"]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "A Darkside expedition",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "18" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Duchess Khrissalla led a party across from Darkside in search of the sand masters. The crossing was not easy, and the terminal storm fascinated her.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "18" }]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "intro": [
+    {
+      "text": "The founding law of the kandra: promises their First Generation made to the Lord Ruler, cast in steel and signed by him.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "11" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "It sets out the rights of every kandra, including the right to plead their case before the First Generation before being executed.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "9" }]
+    },
+    {
+      "text": "It bound the kandra to serve the Lord Ruler, whom they call the Father. Each generation learns it first on awakening, and lesser Contracts with humans who hire kandra are made under it.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "11" }]
+    },
+    {
+      "text": "Its clauses cover respect for elder kandra, the rights of each kandra, how new kandra are made, and total devotion to the Lord Ruler. One provision, if ever invoked, would require the whole kandra people to end their own lives.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "11" }]
+    },
+    {
+      "text": "The First Generation may pass sentence on kandra who break it, and killing a human is punishable by death.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "33" }]
+    },
+    {
+      "text": "Besides being a legal code, it was meant as instructions for when Ruin returned and the world began to end: when the mists vanished, kandra were to go to the Lord Ruler himself. Its duties include guarding atium. Over the centuries its meaning faded into something abstract, and the Firsts revere the steel sheet less than other kandra do.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "75" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Creation",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "11" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Uneasy about ruling themselves apart from the Lord Ruler, the First Generation wrote their promises down as the first kandra laws and took them to him for approval. He had them cast in steel and signed them himself.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "11" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "After the Lord Ruler's death",
+          "revealedIn": [
+            { "book": "hero-of-ages", "chapter": "11" },
+            { "book": "hero-of-ages", "chapter": "68" },
+            { "book": "hero-of-ages", "chapter": "39" },
+            { "book": "hero-of-ages", "chapter": "75" },
+            { "book": "hero-of-ages", "chapter": "79" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Questioned by KanPaar, TenSoon argues that in serving Vin he kept a greater contract, the First Contract itself, because Vin, the Mother, killed the Father and took his place.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "11" }]
+        },
+        {
+          "text": "The Lord Ruler's death leaves the Contract's standing unclear, as it never said what should happen if he died, and the other kandra reject TenSoon's claim that Vin inherits it.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "68" }]
+        },
+        {
+          "text": "After escaping, TenSoon recovers two spikes he had hidden before his trial, absorbs them, and sets out to serve Vin, in the Lord Ruler's place, under the First Contract.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "39" }]
+        },
+        {
+          "text": "Haddek explains the Resolution to Sazed: a clause the Lord Ruler added, which every kandra learns at birth, requiring all kandra to remove their Blessings, and so become mistwraiths again, when the First Generation give the order.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "75" }]
+        },
+        {
+          "text": "When the moment comes, kandra across the Homeland begin to shake, and Haddek cries that the Resolution is upon them.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "79" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "After the Catacendre",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "shadows-of-self", "chapter": "20" },
+                { "book": "bands-of-mourning", "chapter": "4" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Some kandra still follow the First Contract after the world is remade, though not always to the letter.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "shadows-of-self", "chapter": "20" },
+                { "book": "bands-of-mourning", "chapter": "4" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "lord-ruler",
+      "role": "the Father",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "11" }]
+    },
+    {
+      "characterId": "tensoon",
+      "role": "invoked it",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "11" }]
+    },
+    {
+      "characterId": "vin",
+      "role": "the Mother",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "11" }]
+    },
+    {
+      "characterId": "kanpaar",
+      "role": "prosecutor",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "11" }]
+    },
+    {
+      "characterId": "haddek",
+      "role": "explained it",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "75" }]
+    }
+  ]
+}

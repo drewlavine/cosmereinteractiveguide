@@ -1,0 +1,30 @@
+{
+  "intro": [
+    {
+      "text": "A Shin monastery associated with the Windrunner Honorblade and the Herald Yesoran.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "83" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "A mural of Yesoran covers the floor of its great hall.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "83" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Szeth's pilgrimage",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "83" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Szeth defeated Tuko in a duel to become the Windrunner Honorbearer. He then received instructions to visit the Voice near Ayabiza.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "83" }]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "intro": [
+    {
+      "text": "Reshi raids along Alethkar's northern coast in the early years of Gavilar Kholin's reign.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "16" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Jost's father fought in them. He claims he won a Shardblade there, but another man took both the credit and the Blade.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "16" }]
+    }
+  ],
+  "history": [],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "jost",
+      "role": "Veteran's son",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "16" }]
+    }
+  ]
+}

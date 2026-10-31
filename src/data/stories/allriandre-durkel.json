@@ -1,0 +1,76 @@
+{
+  "intro": [
+    {
+      "text": "An Elendel University student to whom Wayne brings a stipend every month; she makes sure he knows he is not forgiven for killing her father.",
+      "revealedIn": [{ "book": "shadows-of-self", "chapter": "5" }],
+      "fallback": true
+    },
+    {
+      "text": "A woman in Elendel to whom Wayne insists on delivering money in person every month.",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "14" }],
+      "fallback": true
+    },
+    {
+      "text": "A single mother in Elendel whose father Wayne killed before he became a lawman. After Wayne's death she inherited his fortune, letting her provide for her daughter.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "shadows-of-self", "chapter": "5" },
+            { "book": "lost-metal", "chapter": "epilogue-3" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Her father",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "alloy-of-law", "chapter": "10" },
+                { "book": "shadows-of-self", "chapter": "5" }
+              ]
+            },
+            { "book": "shadows-of-self", "chapter": "5" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Her father, a bookkeeper in Far Dorest known for his charity work, was killed by Wayne at sixteen in a mugging gone wrong. At his trial Wayne learned about the man's family, Allriandre and her two siblings among them, and began sending them half his earnings as atonement. The children sometimes wrote back angrily to tell him he was not forgiven.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "alloy-of-law", "chapter": "10" },
+                { "book": "shadows-of-self", "chapter": "5" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "While she studied at Elendel University, Wayne came to her dormitory on the first of each month to hand over a stipend. She made him look at a picture of her father and say again what he had done, and let him know, without a trace of feeling, that she had not forgiven him.",
+          "revealedIn": [{ "book": "shadows-of-self", "chapter": "5" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "After university",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "epilogue-3" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "After university her art studio failed, leaving her deep in debt, raising her daughter Ruri alone and sorting metal at a forge, with Wayne's payments covering her rent. After Wayne died stopping the Set's bomb, his accountants told her she had inherited his fortune, making her one of Elendel's richest people, and gave her his note: \"Sorry.\" She found she was sorry he was gone.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "epilogue-3" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

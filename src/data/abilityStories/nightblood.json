@@ -1,0 +1,122 @@
+{
+  "intro": [
+    {
+      "text": "A sentient sword created by Vasher and Shashara through Awakening.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "51" }]
+    },
+    {
+      "text": "Szeth's talking sword, which consumes Investiture when drawn.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "90" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "It can sense people who have formed a strong bond with it, often through supplying it with Investiture.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "55" }]
+    },
+    {
+      "text": "In Shadesmar, Nightblood and its sheath appear as bright light.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "53" }]
+    },
+    {
+      "text": "People aligned with its Intent, or who do not want to use it, can resist its influence.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "147" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Creation",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "51" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Shashara and Vasher Awakened a steel sword with a thousand Breaths.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "51" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "In Shinovar",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "53" },
+            { "book": "wind-and-truth", "chapter": "143" },
+            { "book": "wind-and-truth", "chapter": "147" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Szeth used Nightblood to destroy the Edgedancer Honorbearer in Shadesmar.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "53" }]
+        },
+        {
+          "text": "Nightblood fought the returning Honorbearers, then chose to stop feeding rather than kill its friends.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "143" }]
+        },
+        {
+          "text": "Nightblood remained with Szeth after the Oathpact was renewed.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "147" }]
+        }
+      ]
+    }
+  ],
+  "mechanics": [
+    {
+      "title": [
+        {
+          "text": "Learning Surgebinding",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "140" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "The Honorblades taught Nightblood Surgebinding. It used Connection to draw power from someone beside its wielder.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "140" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "old-chapps",
+      "role": "wielder",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "56" }]
+    },
+    {
+      "characterId": "vasher",
+      "role": "creator and wielder",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "56" }]
+    },
+    {
+      "characterId": "shashara",
+      "role": "creator",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "51" }]
+    },
+    {
+      "characterId": "vivenna",
+      "role": "wielder",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "56" }]
+    },
+    {
+      "characterId": "szeth",
+      "role": "wielder",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "90" }]
+    },
+    {
+      "characterId": "taravangian",
+      "role": "wielder",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "113" }]
+    },
+    {
+      "characterId": "lift",
+      "role": "Investiture source",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "118" }]
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "intro": [
+    {
+      "text": "A noble house of Luthadel whose lord, Ferson Penrod, is made chancellor of the Luthadel Assembly once Elend Venture loses the throne.",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "31" }]
+    },
+    {
+      "text": "One of the lesser noble houses of the Final Empire. Its lord, Ferson Penrod, stays in Luthadel after the Lord Ruler dies, becomes one of the most influential nobles under King Elend Venture, and succeeds him as king.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "well-of-ascension", "chapter": "10" },
+            { "book": "hero-of-ages", "chapter": "12" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "The house lives in a richly decorated mansion in Luthadel, whose lounge can hold the whole Luthadel Assembly and a crowd of guards.",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "38" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Penrod and the throne",
+          "revealedIn": [
+            { "book": "well-of-ascension", "chapter": "31" },
+            { "book": "well-of-ascension", "chapter": "38" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "After Elend is deposed, he proposes Lord Ferson Penrod as chancellor of the Assembly, to preside while there is no king, and the Assembly agrees. Penrod is then one of three men put forward for the throne.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "31" }]
+        },
+        {
+          "text": "The final vote for king is held in the lounge of the Penrod mansion, and Penrod is elected.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "38" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "ferson-penrod",
+      "role": "lord",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "31" }]
+    }
+  ]
+}

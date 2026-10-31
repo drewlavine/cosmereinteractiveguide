@@ -1,0 +1,177 @@
+{
+  "intro": [
+    {
+      "text": "A war between the neighbouring kingdoms of Emul and Tukar over Sesemalex Dar, a city on their shared border.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-14" }]
+    },
+    {
+      "text": "A war between the neighbouring kingdoms of Emul and Tukar over the border city of Sesemalex Dar, fought from about 1167 to 1174, alongside the Alethi War of Reckoning.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "i-14" },
+            { "book": "oathbringer", "chapter": "96" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "Emul holds Sesemalex Dar as its capital, while the Tukari want the city for themselves.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-14" }]
+    },
+    {
+      "text": "Au-nak thinks the Tukari only use religion as cover for economic ambitions.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-14" }]
+    },
+    {
+      "text": "To the Emuli the city is a gift from the Heralds and their ancestral home, its patterned streets central to their faith; it is held to be one of the Dawncities, named by Jezrien. It is also a major port and trading centre.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "55" },
+            { "book": "words-of-radiance", "chapter": "i-14" },
+            { "book": "edgedancer", "chapter": "3" },
+            { "book": "oathbringer", "chapter": "106" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "The Tukari follow Tezim, a god-priest called a warlord and a tyrant, who claims to be an aspect of the Almighty.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "55" },
+            { "book": "words-of-radiance", "chapter": "i-14" },
+            { "book": "edgedancer", "chapter": "3" },
+            { "book": "oathbringer", "chapter": "106" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Years of fighting",
+          "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "i-14" },
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "i-14" },
+                { "book": "edgedancer", "chapter": "2" },
+                { "book": "oathbringer", "chapter": "8" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The fighting dragged on for years, though it was never as fierce or ruinous as the short Veden civil war.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-14" }]
+        },
+        {
+          "text": "The war was known across Roshar. Lift reckoned Sesemalex Dar had been a battlefield for ages, and Navani wondered whether the True Desolation would be enough to stop the two kingdoms fighting.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "i-14" },
+                { "book": "edgedancer", "chapter": "2" },
+                { "book": "oathbringer", "chapter": "8" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Tezim",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "64" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Dalinar suspected Tezim and had the Stormfather confirm that he was Ishar, one of the ten Heralds. The Stormfather could give no reason for the attack on Emul beyond Ishar's madness, and believed the Herald wanted his own death, maybe along with all of humankind's.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "64" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The True Desolation",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "107" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Once the parshmen awoke, armies passing from the region of Azimir toward Marat struck Emul, which lost most of its land. Its ruler, Vexil the Wise, begged for help while still talking of conquering Tukar.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "107" }]
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Fought over",
+      "name": "Sesemalex Dar",
+      "placeId": "sesemalex-dar",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-14" }]
+    },
+    {
+      "label": "Side",
+      "name": "Emul",
+      "placeId": "emul",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-14" }]
+    },
+    {
+      "label": "Side",
+      "name": "Tukar",
+      "placeId": "tukar",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-14" }]
+    },
+    {
+      "label": "Tukari leader",
+      "name": "Tezim",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "55" },
+            { "book": "words-of-radiance", "chapter": "i-14" },
+            { "book": "edgedancer", "chapter": "3" },
+            { "book": "oathbringer", "chapter": "106" }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Emuli leader",
+      "name": "Vexil the Wise",
+      "characterId": "vexil",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "107" }]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "au-nak",
+      "role": "Observer",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-14" }]
+    },
+    {
+      "characterId": "ishar",
+      "role": "Tukari leader",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "64" }]
+    },
+    {
+      "characterId": "vexil",
+      "role": "Emuli ruler",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "107" }]
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "intro": [
+    {
+      "text": "General Drakes, who stands in the king's throne room at Kingseat and strikes December as a man much like Bark.",
+      "revealedIn": [{ "book": "fires-of-december", "chapter": "xi" }],
+      "fallback": true
+    },
+    {
+      "text": "Mountaincrest's Minister of Defense, a general in charge of the army at Kingseat and, to an extent, across the kingdom.",
+      "revealedIn": [{ "book": "fires-of-december", "chapter": "xv" }]
+    },
+    {
+      "text": "Mountaincrest's Minister of Defense and the king's most outspoken critic, a stern general killed after being tied to December's supposed plot.",
+      "revealedIn": [{ "book": "fires-of-december", "chapter": "xxxiii" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "General of Kingseat",
+          "revealedIn": [
+            { "book": "fires-of-december", "chapter": "xxix" },
+            { "book": "fires-of-december", "chapter": "xxxi" },
+            { "book": "fires-of-december", "chapter": "xxxiii" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Drakes broke up a meeting at the Concordance teahouse and arrested Count Flint, who had been talking with December.",
+          "revealedIn": [{ "book": "fires-of-december", "chapter": "xxix" }]
+        },
+        {
+          "text": "Soon after, he brought December to his office to ask about her public defence of Flint. He admitted he had once believed in Flint too, suspected the arrest was a setup, and rushed off when he heard Geoffrim and Petva were involved.",
+          "revealedIn": [{ "book": "fires-of-december", "chapter": "xxxi" }]
+        },
+        {
+          "text": "Geoffrim tied him to December's supposed plot against the king, and Drakes was killed.",
+          "revealedIn": [{ "book": "fires-of-december", "chapter": "xxxiii" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "A huge, broad-chested man with light tan skin and a heavy brow that gives him an angry look, though he is mostly squinting from poor sight. He wears the palace guard's layered black and red, with a white cape and many medals.",
+      "revealedIn": [{ "book": "fires-of-december", "chapter": "xxxi" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Known for sternness with his troops and open criticism of the king, he is kinder and sharper than his scowl suggests, and thinks Flint a decent man at heart.",
+      "revealedIn": [{ "book": "fires-of-december", "chapter": "xxxi" }]
+    }
+  ]
+}

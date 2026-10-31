@@ -1,0 +1,153 @@
+/* The Spanish Civil War page; the strip, card, pin and words are the history
+   scrubber's (components/history/history.module.css). */
+
+.card {
+  align-items: start;
+}
+
+.card [data-kind='politics'] {
+  --kind: #e2b552;
+}
+
+.card [data-kind='terror'] {
+  --kind: #c792ea;
+}
+
+.card [data-kind='abroad'] {
+  --kind: #67b7e6;
+}
+
+.card [data-kind='exile'] {
+  --kind: #67d3c4;
+}
+
+.map {
+  margin: 0;
+}
+
+.map svg {
+  display: block;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  border: 1px solid rgba(212, 165, 64, 0.3);
+  border-radius: 12px;
+  background: #c6ecff;
+}
+
+.layer {
+  transition: opacity 0.6s;
+}
+
+.legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem 0.9rem;
+  margin-top: 0.4rem;
+  color: var(--text-muted, #9fb0bc);
+  font-size: 0.75rem;
+}
+
+.legend a {
+  color: inherit;
+}
+
+.legend [data-side]::before {
+  content: '';
+  display: inline-block;
+  width: 0.7rem;
+  height: 0.7rem;
+  margin-right: 0.3rem;
+  border-radius: 3px;
+  vertical-align: -0.05rem;
+}
+
+.legend [data-side='nationalist']::before {
+  background: rgb(244, 154, 193);
+}
+
+.legend [data-side='republican']::before {
+  background: rgb(131, 147, 202);
+}
+
+.legend [data-side='place'] {
+  color: var(--text);
+  font-weight: 700;
+}
+
+.legend [data-side='place']::before {
+  border-radius: 50%;
+  background: var(--tone);
+}
+
+.photo {
+  margin: 0 0 0.75rem;
+}
+
+.photo :global(.art-open) {
+  position: relative;
+  display: block;
+  padding: 0;
+  border: 0;
+  background: none;
+  cursor: zoom-in;
+}
+
+.photo img {
+  display: block;
+  max-width: 100%;
+  max-height: 15rem;
+  border: 1px solid rgba(212, 165, 64, 0.35);
+  border-radius: 10px;
+}
+
+.photo figcaption {
+  margin-top: 0.3rem;
+  color: var(--text-muted, #9fb0bc);
+  font-size: 0.7rem;
+}
+
+.photo figcaption a {
+  color: inherit;
+}
+
+.facts {
+  display: grid;
+  gap: 0.2rem;
+  margin: 0 0 0.6rem;
+  font-size: 0.85rem;
+}
+
+.facts div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0 0.5rem;
+}
+
+.facts dt {
+  color: var(--text-muted, #9fb0bc);
+}
+
+.facts dt::after {
+  content: ':';
+}
+
+.facts dd {
+  margin: 0;
+}
+
+.credits {
+  margin-top: 1.5rem;
+  color: var(--text-muted, #9fb0bc);
+  font-size: 0.75rem;
+}
+
+.credits a {
+  color: inherit;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .layer {
+    transition: none;
+  }
+}

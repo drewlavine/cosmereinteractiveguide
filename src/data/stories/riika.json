@@ -1,0 +1,21 @@
+{
+  "intro": [
+    {
+      "text": "An Elantrian girl at the Roost in New Elantris, whose seon Mai used to tell her bedtime stories.",
+      "revealedIn": ["hope-of-elantris"]
+    }
+  ],
+  "history": [
+    {
+      "title": [{ "text": "The Roost", "revealedIn": ["hope-of-elantris"] }],
+      "items": [
+        {
+          "text": "Riika had always fallen asleep to Mai's stories, but once the Shaod took her, Mai lost her wits and nobody told Riika stories any more, so sleep came hard. On the night Fjordell soldiers attacked, she could not sleep, so Matisse had Ashe tell her a story, which sent her and all the other children to sleep.",
+          "revealedIn": ["hope-of-elantris"]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

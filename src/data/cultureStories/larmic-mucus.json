@@ -1,0 +1,33 @@
+{
+  "intro": [
+    {
+      "text": "A foul-smelling antiseptic of Roshar, cheaper than knobweed sap or lister's oil but weaker.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "17" }]
+    }
+  ],
+  "description": [],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Kaladin's search",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "27" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Seeking antiseptics for his bridge crew, Kaladin was offered larmic mucus as a cheaper choice, yet even a small jar cost a bridgeman ten days' pay. The prices led him to gather knobweed sap, using some and selling the rest.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "27" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "kaladin",
+      "role": "sought it",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "27" }]
+    }
+  ]
+}

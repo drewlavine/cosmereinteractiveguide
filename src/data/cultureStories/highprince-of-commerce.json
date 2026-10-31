@@ -1,0 +1,120 @@
+{
+  "intro": [
+    {
+      "text": "A title the Alethi king grants to one of his highprinces, held by Highprince Sebarial.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "29" },
+            { "book": "oathbringer", "chapter": "2" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "A title the Alethi king grants to one of his highprinces, with charge of securing and regulating Alethi trade. It is held by Highprince Sebarial.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "29" },
+            { "book": "oathbringer", "chapter": "27" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "The Highprince of Commerce can patrol trade routes and markets, set up new marketplaces and make laws for them, and levy taxes on routes and goods. He oversees the nation's supplies and economy and has some say over the use of the crown's gemstones.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "29" },
+            { "book": "oathbringer", "chapter": "27" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Sebarial's tenure",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "29" },
+                { "book": "oathbringer", "chapter": "18" }
+              ]
+            },
+            { "book": "oathbringer", "chapter": "96" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Alethkar had no Highprince of Commerce between Gavilar's unification and the True Desolation. After the Alethi moved into Urithiru, Dalinar gave the title to Sebarial to help make the tower livable. Ordered to set up a new market, Sebarial gave in to merchants who wanted it larger and harder to regulate, against Navani's wish for an orderly one, and cut taxes on alcohol to ease tensions.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "29" },
+                { "book": "oathbringer", "chapter": "18" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Sebarial devised a profitable tax on travel through the Oathgate to support the tower's people. His authority covers only Urithiru and the warcamps; Queen Fen of Thaylenah handles commerce for the wider coalition, partly for diplomacy and partly to rebuke Sebarial for his attitude.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "96" }]
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Holder",
+      "name": "Turinad Sebarial",
+      "characterId": "turinad-sebarial",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "29" },
+            { "book": "oathbringer", "chapter": "2" }
+          ]
+        }
+      ]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "turinad-sebarial",
+      "role": "holder",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "29" },
+            { "book": "oathbringer", "chapter": "2" }
+          ]
+        }
+      ]
+    },
+    {
+      "characterId": "dalinar-kholin",
+      "role": "appointed Sebarial",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "29" },
+            { "book": "oathbringer", "chapter": "18" }
+          ]
+        }
+      ]
+    },
+    {
+      "characterId": "fen-rnamdi",
+      "role": "coalition commerce",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "96" }]
+    }
+  ]
+}

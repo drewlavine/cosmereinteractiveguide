@@ -1,0 +1,43 @@
+{
+  "intro": [
+    {
+      "text": "The young daughter of Senior Trackt Ais and her husband, Mellis.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "6" }],
+      "fallback": true
+    },
+    {
+      "text": "The young daughter of Senior Trackt Ais and her husband, Mellis, often called Melly.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "11" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Ais's daughter",
+          "revealedIn": [
+            { "book": "white-sand-omnibus", "chapter": "14" },
+            { "book": "white-sand-omnibus", "chapter": "17" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Melloni knew her mother's work was dangerous and sometimes feared Ais would not come home. When Ais urged Mellis to take her south for safety, he kept her in Kezare.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "14" }]
+        },
+        {
+          "text": "Sharezan came to the house to kill Melloni and her father, but Kenton was there and threw him through a wall.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "17" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "A girl of about seven with brown pigtails and tan skin, dressed in purple; she sleeps under a purple blanket with a teddy bear.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "18" }]
+    }
+  ],
+  "personality": []
+}

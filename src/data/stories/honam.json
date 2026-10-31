@@ -1,0 +1,66 @@
+{
+  "intro": [
+    {
+      "text": "A laid-back scholar from the Institute of Mechanical Solutions, part of the team that brings a machine to Gongsha to summon spirits.",
+      "revealedIn": [{ "book": "yumi", "chapter": "23" }]
+    },
+    {
+      "text": "A Torish scholar of the Institute of Mechanical Solutions, one of those who switched on the father machine, which keeps Yumi prisoner.",
+      "revealedIn": [{ "book": "yumi", "chapter": "38" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The father machine",
+          "revealedIn": [{ "book": "yumi", "chapter": "40" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "He was among the scholars who designed and switched on the father machine. It consumed them, but held his soul in reserve to defend itself, though he still became a nightmare. When Yumi's mind began resisting the machine's tampering, he was one of four scholars sent under Gyundok's lead to Gongsha Town to look into it.",
+          "revealedIn": [{ "book": "yumi", "chapter": "40" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "In Gongsha",
+          "revealedIn": [
+            { "book": "yumi", "chapter": "23" },
+            { "book": "yumi", "chapter": "34" },
+            { "book": "yumi", "chapter": "40" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "When Gyundok grumbled that the machine had never failed like this, Honam, lounging on pillows with a piece of fruit, said it had. He suggested waiting for Yumi to summon a spirit, and refused Gyundok's order to prime the machine with his own essence, leaving the fourth scholar to volunteer.",
+          "revealedIn": [{ "book": "yumi", "chapter": "23" }]
+        },
+        {
+          "text": "When Nikaro and Yumi came to destroy the prototype, Honam emerged from the tent with special goggles that let the scholars see Yumi. Like the other scholars, he was a nightmare.",
+          "revealedIn": [{ "book": "yumi", "chapter": "34" }]
+        },
+        {
+          "text": "After Yumi and Nikaro were separated, he and the other scholars worked to fix the trouble in Gongsha and keep Yumi contained. When she escaped, they chased her to Torio City, where the force of her will made them stand down.",
+          "revealedIn": [{ "book": "yumi", "chapter": "40" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Honam has the bearded chin and mustache typical of Torish scholars, and dresses in white with a black, winged tanggeon.",
+      "revealedIn": [{ "book": "yumi", "chapter": "23" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Honam is relaxed and listless compared with his colleagues.",
+      "revealedIn": [{ "book": "yumi", "chapter": "23" }]
+    }
+  ]
+}

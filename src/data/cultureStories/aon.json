@@ -1,0 +1,178 @@
+{
+  "intro": [
+    {
+      "text": "A kind of symbol. Sarene's seon Ashe bears one, Aon Ashe, which glows at his centre.",
+      "revealedIn": [{ "book": "elantris", "chapter": "2" }]
+    },
+    {
+      "text": "Symbols that each stand for an idea, such as Aon Rao for spirit. They serve as a script, Elantrians draw them to work their magic, and Sarene's seon Ashe bears Aon Ashe at his centre.",
+      "revealedIn": [{ "book": "elantris", "chapter": "13" }]
+    },
+    {
+      "text": "Symbols that each stand for an idea, such as Aon Rao for spirit. They serve as a script, and Elantrians draw them to work their magic; the base Aon turns out to match the shape of Arelon.",
+      "revealedIn": [{ "book": "elantris", "chapter": "46" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Each Aon has a meaning. Aon Rao means spirit, which is why Raoden goes by Spirit inside Elantris.",
+      "revealedIn": [{ "book": "elantris", "chapter": "7" }]
+    },
+    {
+      "text": "Aons are also a script. Raoden finds a book written wholly in them that seems to deal with the Elantrians' magic, and sets out to translate it with the help of a dictionary.",
+      "revealedIn": [{ "book": "elantris", "chapter": "13" }]
+    },
+    {
+      "text": "Checked against a map, the base Aon matches the outline of Arelon down to its exact proportions.",
+      "revealedIn": [{ "book": "elantris", "chapter": "46" }]
+    }
+  ],
+  "history": [],
+  "tables": [
+    {
+      "title": "Known Aons",
+      "columns": ["Aon", "Use or meaning"],
+      "rows": [
+        {
+          "key": "Ashe",
+          "cells": ["Ashe", "Glows at the centre of Sarene's seon"],
+          "revealedIn": [{ "book": "elantris", "chapter": "2" }]
+        },
+        {
+          "key": "Ashe",
+          "cells": [
+            "Ashe",
+            "Gives bright light without heat; plates lit Elantris's rooms"
+          ],
+          "revealedIn": [{ "book": "elantris", "chapter": "49" }]
+        },
+        {
+          "key": "Daa",
+          "cells": [
+            "Daa",
+            "The Elantrians' favoured weapon, an explosive burst of light"
+          ],
+          "revealedIn": [{ "book": "elantris", "chapter": "62" }]
+        },
+        {
+          "key": "Dii",
+          "cells": [
+            "Dii",
+            "Its circles stand for the forests of southern Arelon"
+          ],
+          "revealedIn": [{ "book": "elantris", "chapter": "49" }]
+        },
+        {
+          "key": "Edo",
+          "cells": [
+            "Edo",
+            "A thin wall of light that pushes back with equal force"
+          ],
+          "revealedIn": [{ "book": "elantris", "chapter": "62" }]
+        },
+        {
+          "key": "Ehe",
+          "cells": [
+            "Ehe",
+            "A column of fire; the first Aon fixed with the chasm line"
+          ],
+          "revealedIn": [{ "book": "elantris", "chapter": "49" }]
+        },
+        {
+          "key": "Eno",
+          "cells": [
+            "Eno",
+            "A wavy line that follows the course of the Aredel River"
+          ],
+          "revealedIn": [{ "book": "elantris", "chapter": "49" }]
+        },
+        {
+          "key": "Ien",
+          "cells": [
+            "Ien",
+            "The basis of healing, with modifiers aimed at the body"
+          ],
+          "revealedIn": [{ "book": "elantris", "chapter": "53" }]
+        },
+        {
+          "key": "Nae",
+          "cells": [
+            "Nae",
+            "Magnifies whatever lies beyond its rippling central circle"
+          ],
+          "revealedIn": [{ "book": "elantris", "chapter": "55" }]
+        },
+        {
+          "key": "Rao",
+          "cells": ["Rao", "Means spirit; the source of Raoden's name Spirit"],
+          "revealedIn": [{ "book": "elantris", "chapter": "7" }]
+        },
+        {
+          "key": "Rao",
+          "cells": [
+            "Rao",
+            "Means spirit; also a constellation in Arelon's night sky"
+          ],
+          "revealedIn": [{ "book": "elantris", "chapter": "32" }]
+        },
+        {
+          "key": "Rao",
+          "cells": [
+            "Rao",
+            "Amplifies power; Elantris and its Gate Cities form one"
+          ],
+          "revealedIn": [{ "book": "elantris", "chapter": "61" }]
+        },
+        {
+          "key": "Reo",
+          "cells": ["Reo", "Means punishment; the Reod is named for it"],
+          "revealedIn": [{ "book": "elantris", "chapter": "4" }]
+        },
+        {
+          "key": "Reo",
+          "cells": ["Reo", "Means punishment; engraved on Kiin's axe"],
+          "revealedIn": [{ "book": "elantris", "chapter": "58" }]
+        },
+        {
+          "key": "Reo",
+          "cells": [
+            "Reo",
+            "Means punishment; on Kiin's axe and the Ever-Slaying Sword"
+          ],
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "elantris", "chapter": "58" },
+                "emperors-soul",
+                "fires-of-december"
+              ]
+            }
+          ]
+        },
+        {
+          "key": "Shao",
+          "cells": [
+            "Shao",
+            "Weaves illusions tied to clothing, with many modifiers"
+          ],
+          "revealedIn": [{ "book": "elantris", "chapter": "49" }]
+        },
+        {
+          "key": "Tae",
+          "cells": [
+            "Tae",
+            "Marks the hidden library's entrance, which opens when pushed"
+          ],
+          "revealedIn": [{ "book": "elantris", "chapter": "25" }]
+        },
+        {
+          "key": "Tia",
+          "cells": ["Tia", "Carries an Elantrian a set distance and direction"],
+          "revealedIn": [{ "book": "elantris", "chapter": "62" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": []
+}

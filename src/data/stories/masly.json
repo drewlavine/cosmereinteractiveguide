@@ -1,0 +1,27 @@
+{
+  "intro": [
+    {
+      "text": "A scholar on Roshar.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "42" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Writings",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "29" }],
+          "fallback": true
+        }
+      ],
+      "items": [
+        {
+          "text": "One of Masly's writings describes the Voidbringers as \"ones of ash and fire\" who killed like a swarm before the Heralds.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "29" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

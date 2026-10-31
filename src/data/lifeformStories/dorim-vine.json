@@ -1,0 +1,44 @@
+{
+  "intro": [
+    {
+      "text": "Plants of Dayside, found mostly in the Kerla, that Daysiders depend on for water.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "prologue" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Pouring water on the sand brings the vines up to drink it, and a cut vine lets water run out into a canteen. Though much of Dayside is sand, only places without reachable vines, including deep sand, count as desert.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "3" }]
+    },
+    {
+      "text": "Like most Kerla plants, they live beneath the sand, thriving on the region's high water table and moving quickly through the sand towards any water. They also grow in deep sand, but far down, and not at all in Lossand's shallow sands.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "4" }]
+    },
+    {
+      "text": "The vines hold plenty of water as a defence against sandlings and other creatures whose shells or skin dissolve in water, even terken ones. Where the vines are common, sandlings stay smaller so as not to blunder into them.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "9" }]
+    },
+    {
+      "text": "Kerztians rely on them most, since their land is largely Kerla, and the vines let them live and travel freely while Lossandin life stays in the Ry'DoAli basin. Kerztians call Lossand a desert and think rivers cursed, so much water in one place being unholy; Ry'DoAli means \"the vein of cursed waters\". Any Lossandin who travels to trade or hunt elsewhere has to know them to survive.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "9" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Showing the Darksiders",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "3" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Daazk tried to show Khrissalla's party how to find dorim vines but lacked the Dynastic to explain why he poured water on the sand. Kenton showed the vines to the Darksiders, who were fascinated, having nothing like them at home.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "3" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": []
+}

@@ -1,0 +1,285 @@
+{
+  "intro": [
+    {
+      "text": "The legendary inner circle who led humanity to overthrow the Lord Ruler and then to defeat Ruin, as they are remembered in northern Scadrial after the Catacendre.",
+      "revealedIn": [{ "book": "shadows-of-self", "chapter": "11" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Some of them came to hold Shards: Vin held Preservation, and Sazed took up both Preservation and Ruin to become Harmony.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "82" }]
+    },
+    {
+      "text": "Vin and Elend are honoured as a couple, and a statue of the two stands in the Field of Rebirth.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "alloy-of-law", "chapter": "10" },
+            { "book": "shadows-of-self", "chapter": "14" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Some of Elendel's major religions centre on members of the group: Survivorism worships Kelsier, and the Path follows Harmony, who was once Sazed.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "well-of-ascension", "chapter": "5" },
+            { "book": "hero-of-ages", "chapter": "82" },
+            { "book": "alloy-of-law", "chapter": "4" },
+            { "book": "bands-of-mourning", "chapter": "21" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Some Preservers were among the Originators who lived through the Catacendre, and some are still alive three centuries on, but all of them now belong to the myths of northern Scadrial.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "alloy-of-law", "chapter": "epilogue" },
+            { "book": "shadows-of-self", "chapter": "19" },
+            { "book": "bands-of-mourning", "chapter": "epilogue" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Overthrowing the Final Empire",
+          "revealedIn": [
+            { "book": "final-empire", "chapter": "4" },
+            { "book": "final-empire", "chapter": "21" },
+            { "book": "final-empire", "chapter": "25" },
+            { "book": "final-empire", "chapter": "35" },
+            { "book": "final-empire", "chapter": "38" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Wanting vengeance for his wife Mare's death and for what he had suffered in the Pits of Hathsin, Kelsier gathered a skaa crew of Breeze, Clubs, Hammond, Dockson and his new recruit Vin, and made a deal with Yeden, leader of the skaa rebellion, to overthrow the Lord Ruler.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "4" }]
+        },
+        {
+          "text": "The plan was to raise a skaa army of about twenty thousand, stir the nobility into a house war, lure the Luthadel Garrison away to the Pits, then take the city and the Lord Ruler's atium.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "4" }]
+        },
+        {
+          "text": "Breeze led Soothers and Rioters in recruiting skaa workers, Hammond trained the recruits in the caves, and Kelsier taught Vin to be a Mistborn while attacking noble houses.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "21" }]
+        },
+        {
+          "text": "Yeden took command of the army against Hammond's wishes and attacked too early. After a first victory it was ambushed and slaughtered, though Demoux and around two thousand soldiers had stayed behind in the caves.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "25" }]
+        },
+        {
+          "text": "After Kelsier destroyed the atium geodes at the Pits, the Lord Ruler held a public execution of captured rebels, and the crew fought to free them. Kelsier killed an Inquisitor but was himself killed by the Lord Ruler.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "35" }]
+        },
+        {
+          "text": "Kelsier's death rallied the skaa, as he had intended. The kandra OreSeur, wearing Kelsier's bones, passed on his instructions; the crew armed the people, and Vin resolved to kill the Lord Ruler.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "35" }]
+        },
+        {
+          "text": "Captured and then freed with Sazed's help, Vin faced the Lord Ruler. Marsh killed the Inquisitor Kar, and Vin drew on the mists to tear the atium bracers from the Lord Ruler's arms, killing him.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "38" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "After the Collapse",
+          "revealedIn": [
+            { "book": "well-of-ascension", "chapter": "25" },
+            { "book": "well-of-ascension", "chapter": "51" },
+            { "book": "well-of-ascension", "chapter": "56" },
+            { "book": "well-of-ascension", "chapter": "58" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The surviving crew joined the new government. Elend Venture became King of the Central Dominance, with Breeze as an adviser and Hammond as his general, while Tindwyl taught Elend how to rule and Sazed travelled south.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "25" }]
+        },
+        {
+          "text": "Believing Luthadel would fall, Sazed, Dockson, Breeze and Clubs sent Vin and Elend away. The two married before they left, with Sazed officiating.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "51" }]
+        },
+        {
+          "text": "When koloss stormed Luthadel, Tindwyl, Clubs and Dockson were killed. Vin returned, took control of koloss and forced the rival lords to accept Elend as emperor.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "56" }]
+        },
+        {
+          "text": "At the Well of Ascension, Vin gave up its power rather than use it, believing that the selfless choice, and in doing so set Ruin free.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "58" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The end of the world",
+          "revealedIn": [
+            { "book": "hero-of-ages", "chapter": "73" },
+            { "book": "hero-of-ages", "chapter": "82" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Marsh, wholly under Ruin's control, tortured Vin but resisted Ruin long enough to pull out her earring, a Hemalurgic spike. The mists filled her, she destroyed the Inquisitors and then Ascended.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "73" }]
+        },
+        {
+          "text": "Elend's army fought Ruin's koloss at the Pits of Hathsin while burning the atium there. Ruin, through Marsh, killed Elend; Vin gave her life to kill Ruin's Vessel, and Sazed took up both Shards and remade the world.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "82" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "After the Catacendre",
+          "revealedIn": [
+            { "book": "alloy-of-law", "chapter": "20" },
+            {
+              "all": [
+                { "book": "hero-of-ages", "chapter": "epilogue" },
+                { "book": "alloy-of-law", "chapter": "epilogue" },
+                { "book": "bands-of-mourning", "chapter": "5" },
+                { "book": "secret-history", "chapter": "epilogue" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "well-of-ascension", "chapter": "53" },
+                { "book": "shadows-of-self", "chapter": "19" }
+              ]
+            },
+            { "book": "lost-metal", "chapter": "2" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Sazed left the Words of Founding to the Originators, and its hints of new technology helped them advance quickly. TenSoon still serves him.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "20" }]
+        },
+        {
+          "text": "Sazed made Spook a Mistborn, and Spook went on to rule the Elendel Basin for a century as the Lord Mistborn. Breeze, the Counselor of Gods, advised him and founded House Ladrian, and Aradan Yomen founded House Yomen.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "hero-of-ages", "chapter": "epilogue" },
+                { "book": "alloy-of-law", "chapter": "epilogue" },
+                { "book": "bands-of-mourning", "chapter": "5" },
+                { "book": "secret-history", "chapter": "epilogue" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "The Docksithium is said to be Dockson's work, though he died before the Catacendre, so the book must somehow have come through the end of the world.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "well-of-ascension", "chapter": "53" },
+                { "book": "shadows-of-self", "chapter": "19" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Waxillium and Steris named their younger child Tindwyl, as Steris likes traditional names.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "2" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "kelsier",
+      "role": "leader",
+      "revealedIn": [{ "book": "final-empire", "chapter": "4" }]
+    },
+    {
+      "characterId": "vin",
+      "role": "member",
+      "revealedIn": [{ "book": "final-empire", "chapter": "4" }]
+    },
+    {
+      "characterId": "breeze",
+      "role": "member",
+      "revealedIn": [{ "book": "final-empire", "chapter": "4" }]
+    },
+    {
+      "characterId": "clubs",
+      "role": "member",
+      "revealedIn": [{ "book": "final-empire", "chapter": "4" }]
+    },
+    {
+      "characterId": "hammond",
+      "role": "member",
+      "revealedIn": [{ "book": "final-empire", "chapter": "4" }]
+    },
+    {
+      "characterId": "dockson",
+      "role": "member",
+      "revealedIn": [{ "book": "final-empire", "chapter": "4" }]
+    },
+    {
+      "characterId": "marsh",
+      "role": "member",
+      "revealedIn": [{ "book": "final-empire", "chapter": "4" }]
+    },
+    {
+      "characterId": "yeden",
+      "role": "employer",
+      "revealedIn": [{ "book": "final-empire", "chapter": "4" }]
+    },
+    {
+      "characterId": "spook",
+      "role": "member",
+      "revealedIn": [{ "book": "final-empire", "chapter": "33" }]
+    },
+    {
+      "characterId": "oreseur",
+      "role": "member",
+      "revealedIn": [{ "book": "final-empire", "chapter": "35" }]
+    },
+    {
+      "characterId": "sazed",
+      "role": "member",
+      "revealedIn": [{ "book": "final-empire", "chapter": "38" }]
+    },
+    {
+      "characterId": "demoux",
+      "role": "member",
+      "revealedIn": [{ "book": "final-empire", "chapter": "25" }]
+    },
+    {
+      "characterId": "elend-venture",
+      "role": "member",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "25" }]
+    },
+    {
+      "characterId": "tindwyl",
+      "role": "member",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "25" }]
+    },
+    {
+      "characterId": "tensoon",
+      "role": "member",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "62" }]
+    }
+  ]
+}

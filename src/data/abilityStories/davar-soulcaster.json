@@ -1,0 +1,133 @@
+{
+  "intro": [
+    {
+      "text": "A Soulcaster held in secret by House Davar of Jah Keved, thought to have been stolen from Alethkar. With it broken and their father dead, Shallan Davar plans to swap it for Jasnah Kholin's.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "29" }]
+    },
+    {
+      "text": "A Soulcaster held in secret by House Davar of Jah Keved, thought to have been stolen from Alethkar. Once it broke, Shallan Davar swapped it for Jasnah Kholin's, and lost it at sea when the Wind's Pleasure sank.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "70" },
+            { "book": "words-of-radiance", "chapter": "13" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "Like other Soulcasters it is worn on the hand: two rings and a bracelet, with chains looping round the fingers to a three-gem setting shaped like a triangle. At least one of its stones is a smokestone. It looks just like Jasnah's Soulcaster, though its gems are a little smaller.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "36" }]
+    },
+    {
+      "text": "After it was damaged, one chain and one setting were skilfully mended, but it still did not work, and its gemstones were taken out.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "36" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "House Davar",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "29" },
+            { "book": "way-of-kings", "chapter": "74" },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "8" },
+                { "book": "words-of-radiance", "chapter": "73" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "No one knows where the Soulcaster came from. It was thought to have been stolen from Alethkar, which made it illegal to own in Jah Keved, and it reached Lin Davar around 1172, lent to him by Luesh or his associates.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "29" }]
+        },
+        {
+          "text": "Luesh, the house steward, had been trained to make marble and other stone with it. He, Lin and a surveyor passed the stone off as newly found deposits on Davar lands, lifting the house back from the edge of bankruptcy. Luesh would show no one else how to work the device.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "74" }]
+        },
+        {
+          "text": "The wealth did not stop Lin's slide into violence, and the device took damage when he and his son Balat came to blows. After Lin's death, his children found it along with some strange maps.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "8" },
+                { "book": "words-of-radiance", "chapter": "73" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "The children kept their father's death quiet, but without a working Soulcaster they would soon be broke. After Luesh died, some of Lin's \"friends\" came asking for it back. Shallan and her brothers planned for her to take Jasnah Kholin's Soulcaster, use it to make more stone, and hand it over in place of the broken one.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "29" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "With Jasnah",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "36" },
+            { "book": "way-of-kings", "chapter": "39" },
+            { "book": "way-of-kings", "chapter": "48" },
+            { "book": "way-of-kings", "chapter": "70" },
+            { "book": "words-of-radiance", "chapter": "13" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "As Jasnah's ward in Kharbranth, Shallan nearly stole her Soulcaster while attending her bath but could not do it. Back in their rooms, shaken, she decided Jasnah did not deserve so holy a thing and swapped in the broken one.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "36" }]
+        },
+        {
+          "text": "With Luesh gone, no one could show Shallan how to use the stolen Soulcaster, and she tried to puzzle it out alone.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "39" }]
+        },
+        {
+          "text": "When she was poisoned, Shallan, sure that Jasnah could not save her with the broken Soulcaster, emptied her safepouch to reveal the stolen one.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "48" }]
+        },
+        {
+          "text": "Jasnah had worn the broken Soulcaster without noticing, because her own was only a decoy. Shallan came to understand that she and Jasnah could both Soulcast without any fabrial.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "70" }]
+        },
+        {
+          "text": "Jasnah asked Navani about mending it, so that Shallan's brothers could return it to the Ghostbloods, but it went to the bottom of the ocean when the Wind's Pleasure sank.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "13" }]
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Gemstone",
+      "name": "Smokestone",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "36" }]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "luesh",
+      "role": "Trained user",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "39" }]
+    },
+    {
+      "characterId": "shallan-davar",
+      "role": "Would-be user",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "39" }]
+    },
+    {
+      "characterId": "jasnah-kholin",
+      "role": "Wore it",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "70" }]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "intro": [
+    {
+      "text": "Creatures of the island of Patji, tiny enough to sit in a cup or bowl.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "8" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Like most of Patji's wildlife they are a danger to people. Each time Sixth of the Dusk comes back to a safecamp, he searches the blankets and dishes for bloodscratches and other small, deadly animals.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "8" }]
+    }
+  ],
+  "history": [],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "sixth-of-the-dusk",
+      "role": "checks for them",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "8" }]
+    }
+  ]
+}

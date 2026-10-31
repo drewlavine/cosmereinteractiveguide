@@ -1,0 +1,30 @@
+{
+  "intro": [
+    {
+      "text": "A powerful senator in Elendel from House Hasting.",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "33" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "In the Senate",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "46" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "House Hasting usually stood against Wax's politics. In 348 PC Wax and Steris exposed Vennis bribing other senators, using several handwriting experts to confirm the letters were in his distinctive looping hand, yet he kept his power.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "46" }]
+        },
+        {
+          "text": "Soon after, Maraga produced a letter Vennis had written nearly a year before, describing a powerful bomb and naming other senators in a scheme to dominate the Basin. It seemed to back Wax's suspicions about the Set but puzzled him, since with so many senators the Set could simply take power politically.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "46" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

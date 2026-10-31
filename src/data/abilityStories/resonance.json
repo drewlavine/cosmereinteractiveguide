@@ -1,0 +1,54 @@
+{
+  "intro": [
+    {
+      "text": "An effect that comes from two powers combining in one person. Twinborn, who are both Ferrings and Mistings, have resonances.",
+      "revealedIn": [{ "book": "shadows-of-self", "chapter": "prologue" }]
+    },
+    {
+      "text": "An effect that comes from two powers combining. Every order of Knights Radiant has access to two Surges, so each order has a resonance of its own.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "prologue" }]
+    },
+    {
+      "text": "An effect that comes from two powers combining. Each order of Knights Radiant has one from its two Surges, and Twinborn, who are both Ferrings and Mistings, have resonances too, usually subtler than the Radiants'.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "shadows-of-self", "chapter": "prologue" },
+            { "book": "oathbringer", "chapter": "prologue" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "Shallan Davar's order's resonance is a heightened memory. She can take a Memory of a scene and recall it perfectly whenever she likes; once she draws or paints it, the Memory is gone from her mind.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "7" },
+            { "book": "words-of-radiance", "chapter": "49" },
+            { "book": "oathbringer", "chapter": "prologue" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "shallan-davar",
+      "role": "Memories",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "7" },
+            { "book": "words-of-radiance", "chapter": "49" },
+            { "book": "oathbringer", "chapter": "prologue" }
+          ]
+        }
+      ]
+    }
+  ]
+}

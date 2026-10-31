@@ -1,0 +1,89 @@
+{
+  "intro": [
+    {
+      "text": "The most feared kind of pirate on the Emerald Sea: crews that kill their victims, sometimes an entire ship's company, rather than simply robbing them.",
+      "revealedIn": [{ "book": "tress", "chapter": "17" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Piracy is a normal risk of sea travel, and the King's Marshals keep a record of every known pirate. Ordinary pirates who are caught tend to be jailed, but a known deadrunner can expect to hang. A deadrunner crew that leaves nobody alive to report it may stay unknown.",
+      "revealedIn": [{ "book": "tress", "chapter": "17" }]
+    },
+    {
+      "text": "Pirate ships often trade or bargain for one another's sailors, yet no one will take on hands from a deadrunner ship. Ann says such crews are shown no mercy and are hated even by other pirates.",
+      "revealedIn": [{ "book": "tress", "chapter": "23" }]
+    },
+    {
+      "text": "Captain Crow says deadrunners live in lavish bursts, spending fast because their lives are likely to be short, and that to be one is to stand a step from death.",
+      "revealedIn": [{ "book": "tress", "chapter": "35" }]
+    },
+    {
+      "text": "Only the Verdant King can pardon a deadrunner, and only in an extreme case: for example, if a King's Mask speaks up for the crew.",
+      "revealedIn": [{ "book": "tress", "chapter": "epilogue" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The crew of the Crow's Song",
+          "revealedIn": [
+            { "book": "tress", "chapter": "17" },
+            { "book": "tress", "chapter": "23" },
+            { "book": "tress", "chapter": "32" },
+            { "book": "tress", "chapter": "epilogue" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The crew of the Crow's Song gave up steady merchant work to follow Captain Crow into piracy, with no wish to become deadrunners. Then their attack on the Oot's Dream used cannonballs that burst only after piercing the hull, so the water set off the verdant spores inside. The ship sank and its crew died, and Laggart had hidden the cannonball that did it.",
+          "revealedIn": [{ "book": "tress", "chapter": "17" }]
+        },
+        {
+          "text": "Tress secretly swapped the cannonballs Laggart had hidden for ordinary ones.",
+          "revealedIn": [{ "book": "tress", "chapter": "23" }]
+        },
+        {
+          "text": "Tress brought the hidden cannonballs out before the crew and told them that Captain Crow had wanted them branded deadrunners so they would be bound to her.",
+          "revealedIn": [{ "book": "tress", "chapter": "32" }]
+        },
+        {
+          "text": "The crew, now sailing the Two Cups, received the rare pardon.",
+          "revealedIn": [{ "book": "tress", "chapter": "epilogue" }]
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Punishment",
+      "name": "Hanging",
+      "revealedIn": [{ "book": "tress", "chapter": "17" }]
+    },
+    {
+      "label": "Pardoned by",
+      "name": "The Verdant King",
+      "characterId": "verdant-king",
+      "revealedIn": [{ "book": "tress", "chapter": "epilogue" }]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "crow",
+      "role": "captain",
+      "revealedIn": [{ "book": "tress", "chapter": "17" }]
+    },
+    {
+      "characterId": "laggart",
+      "role": "hid the cannonball",
+      "revealedIn": [{ "book": "tress", "chapter": "17" }]
+    },
+    {
+      "characterId": "ann",
+      "role": "crew",
+      "revealedIn": [{ "book": "tress", "chapter": "23" }]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "intro": [
+    {
+      "text": "A game played on Roshar. Dalinar once beat Tanalan at pawns, and their wager was settled with a hundred glowing ruby flakes, each placed in its own bottle of wine.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "11" }]
+    }
+  ],
+  "description": [],
+  "history": [],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "dalinar-kholin",
+      "role": "winner",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "11" }]
+    },
+    {
+      "characterId": "tanalan",
+      "role": "opponent",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "11" }]
+    }
+  ]
+}

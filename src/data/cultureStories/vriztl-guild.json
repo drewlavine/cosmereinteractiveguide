@@ -1,0 +1,73 @@
+{
+  "intro": [
+    {
+      "text": "A secretive guild of artifabrians from Thaylenah. Its huge gemstone fabrials show that it knows a way of moving Stormlight that others do not, and it keeps that method to itself.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "4" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Drawing on knowledge handed down for centuries, the guild found a way to move Light from one gemstone to another by vibrating the gems at the right frequency with a tuning fork. It guarded this secret closely.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "42" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Navani's request",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "4" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Lecturing the coalition of monarchs on fabrials, Navani pointed to the guild's work as proof of another method, and asked the Thaylen queen to repeat her request that the guild share its secret, which she called vital to the war.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "4" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The occupation of Urithiru",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "42" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "While singers held Urithiru, Navani took two guild members, Vrandl and Ulvlk, along as her group headed for one of the tower's nodes.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "42" }]
+        },
+        {
+          "text": "Stuck at a door that opened only once its gemstone held Light, Navani urged the two Thaylens to hurry, and Ulvlk at last shared the guild's secret with her. Vrandl thought Ulvlk would be expelled for giving it away to the Alethi.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "42" }]
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Based in",
+      "name": "Thaylenah",
+      "placeId": "thaylenah",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "4" }]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "ulvlk",
+      "role": "member",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "42" }]
+    },
+    {
+      "characterId": "vrandl",
+      "role": "member",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "42" }]
+    },
+    {
+      "characterId": "navani-kholin",
+      "role": "learned secret",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "42" }]
+    }
+  ]
+}

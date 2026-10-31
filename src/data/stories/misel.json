@@ -1,0 +1,41 @@
+{
+  "intro": [
+    {
+      "text": "The young daughter of Nanrovah, a Hallandren high priest, kept in a cage by thieves until Vasher and Vivenna free her.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "49" }]
+    },
+    {
+      "text": "The young daughter of Nanrovah, a Hallandren high priest, kidnapped so that Denth could force her father to argue for war with Idris.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "50" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Kidnapped",
+          "revealedIn": [
+            { "book": "warbreaker", "chapter": "49" },
+            { "book": "warbreaker", "chapter": "50" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Thieves snatch Misel from her carriage in T'Telir under cover of distractions staged by Denth's crew, and lock her in a filthy cage in their den. When Vasher and Vivenna find her, she shrinks away from Vivenna but runs straight to Vasher once his fight is over.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "49" }]
+        },
+        {
+          "text": "On the walk home she is too shaken to speak, until Vasher has her repeat a Command that seems to wipe the ordeal from her mind. She then talks normally and asks for her parents, who are overjoyed to have her back.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "49" }]
+        },
+        {
+          "text": "With his daughter safe, Nanrovah withdraws his support for the war.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "50" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

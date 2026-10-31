@@ -1,0 +1,171 @@
+{
+  "intro": [
+    {
+      "text": "The Elendel reception celebrating Joshin Yomen's marriage to Mi'chelle Ostlin, to which nearly all of the city's upper class was invited.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "4" }]
+    },
+    {
+      "text": "The Elendel reception celebrating Joshin Yomen's marriage to Mi'chelle Ostlin, where Vanishers robbed the guests and carried off Steris Harms as a hostage.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "6" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "The marriage joined two well-connected noble houses and was a major event for Elendel society. House Yomen deliberately left some political enemies off the guest list to mark them as outsiders, and invited unpopular people such as Lord Shewrman only to make the snub sting more.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "4" }]
+    },
+    {
+      "text": "It was held in Yomen Manor's grand ballroom, which had more than a hundred tables of guests in their best clothes and jewels.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "7" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The guests",
+          "revealedIn": [
+            { "book": "alloy-of-law", "chapter": "4" },
+            { "book": "alloy-of-law", "chapter": "7" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Wax came with Steris Harms, marking the official start of their courtship. Her father, Lord Harms, and Marasi came with her, and Wayne slipped in disguised as a waiter.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "4" }]
+        },
+        {
+          "text": "Talking over the Vanishers with Marasi and Wayne, Wax saw that a room full of rich nobles, now afraid to travel by train, made an ideal target for a robbery.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "7" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The robbery",
+          "revealedIn": [
+            { "book": "alloy-of-law", "chapter": "5" },
+            { "book": "alloy-of-law", "chapter": "6" },
+            { "book": "alloy-of-law", "chapter": "11" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Armed Vanishers burst in and stripped the guests of their valuables. Their leader checked faces against drawings and picked Steris and Marasi as hostages, then shot Lord Peterus for calling him a coward.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "5" }]
+        },
+        {
+          "text": "When Wayne's speed bubble dropped, Wax struck. Marasi was freed and most of the bandits were killed or driven off, but the leader got away with Steris before the constables arrived. Lord Peterus was the only guest killed.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "6" }]
+        },
+        {
+          "text": "The leader who shot Lord Peterus was Miles Hundredlives.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "11" }]
+        },
+        {
+          "text": "Twenty-five bandits died and six were taken alive. Wayne was badly hurt, and the constables scolded Wax for acting on his own even though he had saved many lives.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "11" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Aftermath",
+          "revealedIn": [
+            { "book": "alloy-of-law", "chapter": "7" },
+            { "book": "alloy-of-law", "chapter": "19" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Lord Harms offered to pay for Steris's rescue, and Wax and Marasi concluded that the women were being taken to breed Allomancers.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "7" }]
+        },
+        {
+          "text": "Pursuing the Vanishers, Wax rescued Steris.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "19" }]
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Venue",
+      "name": "Yomen Manor",
+      "placeId": "yomen-manor",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "7" }]
+    },
+    {
+      "label": "Couple",
+      "name": "Joshin Yomen and Mi'chelle Ostlin",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "4" }]
+    },
+    {
+      "label": "Attacked by",
+      "name": "The Vanishers",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "5" }]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "joshin-yomen",
+      "role": "groom",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "4" }]
+    },
+    {
+      "characterId": "michelle-yomen",
+      "role": "bride",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "4" }]
+    },
+    {
+      "characterId": "waxillium-ladrian",
+      "role": "guest",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "4" }]
+    },
+    {
+      "characterId": "steris-harms",
+      "role": "guest",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "4" }]
+    },
+    {
+      "characterId": "jackstom-harms",
+      "role": "guest",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "4" }]
+    },
+    {
+      "characterId": "marasi-colms",
+      "role": "guest",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "4" }]
+    },
+    {
+      "characterId": "wayne",
+      "role": "disguised waiter",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "4" }]
+    },
+    {
+      "characterId": "shewrman",
+      "role": "guest",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "4" }]
+    },
+    {
+      "characterId": "peterus",
+      "role": "guest",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "5" }]
+    },
+    {
+      "characterId": "tarson",
+      "role": "Vanisher",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "6" }]
+    },
+    {
+      "characterId": "miles-dagouter",
+      "role": "Vanisher leader",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "11" }]
+    }
+  ]
+}

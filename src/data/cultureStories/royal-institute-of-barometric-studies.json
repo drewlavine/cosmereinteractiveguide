@@ -1,0 +1,42 @@
+{
+  "intro": [
+    {
+      "text": "An organization on Roshar. Before the occupation of Urithiru, Navani's scholars studied the Cloudwalk's weather with one of the institute's Thaylen vacuum tubes.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "97" }]
+    }
+  ],
+  "description": [],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The vacuum tube",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "97" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Brother Benneh led a team of Navani Kholin's scholars that took weather readings on the Cloudwalk with the institute's tube. Early readings showed air pressure and temperature there rising ahead of a highstorm, and the Cloudwalk generally a few degrees warmer than the plateaus at the foot of the tower.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "97" }]
+        },
+        {
+          "text": "During the occupation, Navani had the tube brought from the Cloudwalk to her lab for her anti-Voidlight work. Raboniel found the request strange but allowed it. The tube proved vital: with it Navani separated Voidlight from Odium's pure tone, then used his opposite tone to turn it into anti-Voidlight.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "97" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "benneh",
+      "role": "used its tube",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "97" }]
+    },
+    {
+      "characterId": "navani-kholin",
+      "role": "used its tube",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "97" }]
+    }
+  ]
+}

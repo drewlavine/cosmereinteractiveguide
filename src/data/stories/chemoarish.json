@@ -1,0 +1,47 @@
+{
+  "intro": [
+    {
+      "text": "One of the Unmade, an ancient spren of Odium, often called the Dustmother.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "i-3" },
+            { "book": "oathbringer", "chapter": "108" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Legends",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "i-3" },
+                { "book": "oathbringer", "chapter": "108" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Little is known of Chemoarish, and she was not known to have been active since Aharietiam. Over the centuries many myths grew up around her and clouded the truth, and some tales mistook her for the Nightwatcher. In Bavland people swore by the Dustmother's name.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "i-3" },
+                { "book": "oathbringer", "chapter": "108" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

@@ -1,0 +1,124 @@
+{
+  "intro": [
+    {
+      "text": "A vast darkness lying beyond the edge of the city of Kilahito. Nightmares come out of it into the city, leaving its surface stirred where they pass through.",
+      "revealedIn": [{ "book": "yumi", "chapter": "3" }]
+    },
+    {
+      "text": "An endless, inky blackness that gives back no light. Hion lines keep it from cities, which sit in bubbles beneath it, and nightmares emerge from it. A yoki-hijo can push it back by stacking stones.",
+      "revealedIn": [{ "book": "yumi", "chapter": "35" }]
+    },
+    {
+      "text": "A black haze covering the planet, made from what was left of the souls of Torio's people after the father machine consumed them. Hion lines keep it from cities, and nightmares are fragments of it given shape.",
+      "revealedIn": [{ "book": "yumi", "chapter": "39" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "The shroud looks like an endless black, like ink or tar that reflects no light. Its surface seems to churn slowly, though this is sensed more than seen.",
+      "revealedIn": [{ "book": "yumi", "chapter": "32" }]
+    },
+    {
+      "text": "A nightmare leaving the shroud leaves ripples on its surface for some time. The shroud is not even everywhere: once, Nagadan had to delay sending up a spaceship because it had grown too dense.",
+      "revealedIn": [{ "book": "yumi", "chapter": "32" }]
+    },
+    {
+      "text": "Hion lines hold the shroud off, so cities built on networks of them sit inside a bubble, with the shroud arching over them like a dome.",
+      "revealedIn": [{ "book": "yumi", "chapter": "35" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Origin",
+          "revealedIn": [{ "book": "yumi", "chapter": "39" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "When the father machine was switched on, it fed on the souls of Torio's people for power. The unused parts were cast into the air and settled over the whole planet, shutting out the light, so plants and animals came to depend on hion instead.",
+          "revealedIn": [{ "book": "yumi", "chapter": "39" }]
+        },
+        {
+          "text": "In those early days nightmares were uncommon, but there were no developed hion lines either.",
+          "revealedIn": [{ "book": "yumi", "chapter": "39" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "After the machine",
+          "revealedIn": [{ "book": "yumi", "chapter": "40" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "The machine had partly kept the shroud in being. Once Yumi destroyed it, the shroud dissolved for good.",
+          "revealedIn": [{ "book": "yumi", "chapter": "40" }]
+        }
+      ]
+    }
+  ],
+  "mechanics": [
+    {
+      "title": [
+        {
+          "text": "Pushing it back",
+          "revealedIn": [{ "book": "yumi", "chapter": "35" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "A yoki-hijo can make the shroud draw back by stacking stones beside it, though it resists to a degree. Nikaro, who is not one, cannot do this.",
+          "revealedIn": [{ "book": "yumi", "chapter": "35" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Its true nature",
+          "revealedIn": [
+            { "book": "yumi", "chapter": "39" },
+            { "book": "yumi", "chapter": "40" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The shroud is loose Investiture: the leftovers of the souls of Torio's people after the father machine consumed them. Most of who those people were has worn away from them, though a little remains.",
+          "revealedIn": [{ "book": "yumi", "chapter": "39" }]
+        },
+        {
+          "text": "The machine can force the shroud into other shapes, such as copies of Torish villages and their countryside, used as prisons for the yoki-hijo and ringed by walls of solid shroud. Nightmares are, in a sense, pieces of the shroud given form.",
+          "revealedIn": [{ "book": "yumi", "chapter": "39" }]
+        },
+        {
+          "text": "The shroud blocks almost all light, hiding the sky from the ground. The domes over the yoki-hijo's prisons let sunlight in but none out, and through them Yumi can make out the Connection linking her to her fellow yoki-hijo.",
+          "revealedIn": [{ "book": "yumi", "chapter": "40" }]
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Gives rise to",
+      "name": "Nightmares",
+      "revealedIn": [{ "book": "yumi", "chapter": "3" }]
+    },
+    {
+      "label": "Held back by",
+      "name": "Hion lines",
+      "revealedIn": [{ "book": "yumi", "chapter": "35" }]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "yumi",
+      "role": "pushes it back",
+      "revealedIn": [{ "book": "yumi", "chapter": "35" }]
+    }
+  ]
+}

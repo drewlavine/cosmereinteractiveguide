@@ -1,0 +1,56 @@
+{
+  "intro": [
+    {
+      "text": "A kind of scholar who records what they observe and shares reports with fellow arcanists, as Ed does aboard the Dynamic.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "25" }]
+    },
+    {
+      "text": "A scholar who studies how the cosmere works and shares findings with fellow arcanists.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "30" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Many are tied to the university in Silverlight, which Khriss, a respected arcanist, helped to found.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "30" }]
+    },
+    {
+      "text": "Professor Lake, an arcanist, teaches at the university.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "32" }]
+    }
+  ],
+  "history": [],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "eddlin",
+      "role": "arcanist",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "25" }]
+    },
+    {
+      "characterId": "khrissalla",
+      "role": "arcanist",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "30" }]
+    },
+    {
+      "characterId": "huio",
+      "role": "arcanist",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "30" }]
+    },
+    {
+      "characterId": "jess-silverlight",
+      "role": "arcanist",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "30" }]
+    },
+    {
+      "characterId": "argent",
+      "role": "arcanist",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "30" }]
+    },
+    {
+      "characterId": "professor-lake",
+      "role": "professor",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "32" }]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "intro": [
+    {
+      "text": "A village in the Purelake.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "i-1" }]
+    }
+  ],
+  "description": [],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Ishikk's search",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "i-1" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "In 1173, Ishikk searched Fu Albast for a man named Hoid on behalf of a group of foreigners.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "i-1" }]
+        }
+      ]
+    }
+  ]
+}

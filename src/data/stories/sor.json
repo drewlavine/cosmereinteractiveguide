@@ -1,0 +1,43 @@
+{
+  "intro": [
+    {
+      "text": "One of three islanders on Diggen's Point whose help Tress's plan to get off the island cannot do without.",
+      "revealedIn": [{ "book": "tress", "chapter": "6" }],
+      "fallback": true
+    },
+    {
+      "text": "The dockmaster of Diggen's Point, a tall, straight-backed man who is Gremmy's boss.",
+      "revealedIn": [{ "book": "tress", "chapter": "7" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Diggen's Point",
+          "revealedIn": [
+            { "book": "tress", "chapter": "7" },
+            { "book": "tress", "chapter": "epilogue" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Sor lived on the island with his daughter Gret and, like nearly everyone there, was not allowed to leave. When Lem quietly called in his favours, Sor, Gremmy and Brick came to Tress's house and insisted on helping. Using his post as dockmaster, Sor had Gremmy roll out a sixth keg with Gret hidden inside, for the disguised Tress to discover.",
+          "revealedIn": [{ "book": "tress", "chapter": "7" }]
+        },
+        {
+          "text": "When Tress came back to the island as captain of the Two Cups, she made a point of thanking Sor and the others who had helped her escape.",
+          "revealedIn": [{ "book": "tress", "chapter": "epilogue" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": [
+    {
+      "text": "He seldom reminds anyone that he is Gremmy's boss, in case he ends up paying Gremmy's tab. He could afford the tavern's wine but sticks to beer so as not to look rich enough to buy it.",
+      "revealedIn": [{ "book": "tress", "chapter": "7" }]
+    }
+  ]
+}

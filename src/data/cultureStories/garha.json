@@ -1,0 +1,23 @@
+{
+  "intro": [
+    {
+      "text": "A drink Sarene knows will help keep her awake.",
+      "revealedIn": [{ "book": "elantris", "chapter": "32" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Sarene drinks garha with Roial and Lukel while recovering from her encounter with the Jeskeri Mysteries.",
+      "revealedIn": [{ "book": "elantris", "chapter": "32" }]
+    }
+  ],
+  "history": [],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "sarene",
+      "role": "drinker",
+      "revealedIn": [{ "book": "elantris", "chapter": "32" }]
+    }
+  ]
+}

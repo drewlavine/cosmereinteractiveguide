@@ -1,0 +1,29 @@
+{
+  "intro": [
+    {
+      "text": "A city on Roshar with one of the ten Oathgates linked to Urithiru.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "107" }]
+    },
+    {
+      "text": "A city west of the Purelake in central Babatharnam, with one of the ten Oathgates linked to Urithiru.",
+      "revealedIn": ["oathbringer"]
+    }
+  ],
+  "description": [],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The True Desolation",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "107" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Before the battle for Thaylen City, Dalinar feared that the armies of Iri and Rira, now allied with the Voidbringers, might have seized Panatham and its Oathgate.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "107" }]
+        }
+      ]
+    }
+  ]
+}

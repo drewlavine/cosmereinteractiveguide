@@ -1,0 +1,93 @@
+{
+  "intro": [
+    {
+      "text": "What the Terris call luck. A chromium Ferring, known as a Spinner, can store it, though most Terris count it among the spiritual powers of Feruchemy that lie beyond their understanding.",
+      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "3" }]
+    },
+    {
+      "text": "Something more than plain luck, in the eyes of those who know the wider cosmere. Drawing on Fortune can bring about events that look like coincidence, and it is closely bound to the Spiritual Realm.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "bands-of-mourning", "chapter": "prologue" },
+            { "book": "secret-history", "chapter": "5-2" },
+            { "book": "oathbringer", "chapter": "122" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "In Feruchemy it is stored in chromium; a Ferring who does so is called a Spinner. Most Terris regard it, like the other spiritual metals' powers, as beyond their grasp.",
+      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "3" }]
+    },
+    {
+      "text": "Drawing on Fortune can lead to events that seem to be coincidence.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "bands-of-mourning", "chapter": "prologue" },
+            { "book": "secret-history", "chapter": "5-2" },
+            { "book": "oathbringer", "chapter": "122" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "It is closely tied to the Spiritual Realm.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "122" }]
+    }
+  ],
+  "history": [],
+  "sections": [
+    {
+      "title": "Mentions",
+      "items": [],
+      "parts": [
+        {
+          "title": [
+            {
+              "text": "Among the Ire",
+              "revealedIn": [{ "book": "secret-history", "chapter": "5-2" }]
+            }
+          ],
+          "items": [
+            {
+              "text": "When the Ire spotted an agent, Alonoe thought it no coincidence, but Elrao answered that Fortune was not behind every coincidence.",
+              "revealedIn": [{ "book": "secret-history", "chapter": "5-2" }]
+            }
+          ]
+        },
+        {
+          "title": [
+            {
+              "text": "On Roshar",
+              "revealedIn": [
+                { "book": "oathbringer", "chapter": "120" },
+                { "book": "oathbringer", "chapter": "122" },
+                { "book": "rhythm-of-war", "chapter": "77" }
+              ]
+            }
+          ],
+          "items": [
+            {
+              "text": "Azure told Shallan that on their trip through the Cognitive Realm, Kaladin had sensed danger ahead by Fortune. Shallan grew wary, having been told to trust nobody who sees the future.",
+              "revealedIn": [{ "book": "oathbringer", "chapter": "120" }]
+            },
+            {
+              "text": "Odium told Taravangian that his great plan was impressive, since he had built it with no way to reach Fortune or the Spiritual Realm.",
+              "revealedIn": [{ "book": "oathbringer", "chapter": "122" }]
+            },
+            {
+              "text": "Venli speaks of the Rhythm of Fortune where a human might speak of luck.",
+              "revealedIn": [{ "book": "rhythm-of-war", "chapter": "77" }]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": []
+}

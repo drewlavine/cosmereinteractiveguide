@@ -90,6 +90,22 @@
       ]
     }
   ],
+  "sections": [
+    {
+      "title": "Nature and origins",
+      "items": [
+        {
+          "text": "They can curl their vines into a face and hands.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "29" }]
+        },
+        {
+          "text": "Cultivation created the cultivationspren.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "104" }]
+        }
+      ],
+      "parts": []
+    }
+  ],
   "facts": [],
   "people": [
     {

@@ -1,0 +1,62 @@
+{
+  "intro": [
+    {
+      "text": "An arbiter of the Rose Empire who, with three others, debates using a captured Forger in a plan to keep their power.",
+      "revealedIn": [{ "book": "emperors-soul", "chapter": "prologue" }],
+      "fallback": true
+    },
+    {
+      "text": "The seniormost arbiter and head of the Heritage Faction, counted the second most powerful person in the Rose Empire under Emperor Ashravan. She curates the Imperial Gallery.",
+      "revealedIn": [{ "book": "emperors-soul", "chapter": "day-2" }]
+    },
+    {
+      "text": "The seniormost arbiter of the Heritage Faction, who pressed the imprisoned Forger for her notes so that her own Forgers could try to copy the work.",
+      "revealedIn": ["emperors-soul"]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Senior arbiter",
+          "revealedIn": [
+            { "book": "emperors-soul", "chapter": "day-17" },
+            { "book": "emperors-soul", "chapter": "day-59" },
+            "emperors-soul",
+            { "book": "emperors-soul", "chapter": "epilogue" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "She came to the Forger offering her control of the city's smuggling, and raised the idea of building a back door into the emperor's new soul.",
+          "revealedIn": [{ "book": "emperors-soul", "chapter": "day-17" }]
+        },
+        {
+          "text": "She took away the Forger's notes, claiming they were to be copied, but really so her own Forger could judge Shai's progress and whether Shai could be killed. She brought them back the next day.",
+          "revealedIn": [{ "book": "emperors-soul", "chapter": "day-59" }]
+        },
+        {
+          "text": "She may have ties to the Imperial Seat's underworld and enough pull to place people there; the post she offered the Forger was likely never meant to be honoured.",
+          "revealedIn": ["emperors-soul"]
+        },
+        {
+          "text": "After the emperor spoke to the assembled Factions, Gaotona told her it was just what the old Ashravan would have done. She then found that the forged painting had been taken from her office.",
+          "revealedIn": [{ "book": "emperors-soul", "chapter": "epilogue" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "She has a long face, long fingers and a sharp, nasal voice, and moves gracefully. She seldom smiles.",
+      "revealedIn": ["emperors-soul"]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Confrontational, manipulative and quick to seize the initiative, she has a long rivalry with Gaotona and has tried before to have him removed from his post.",
+      "revealedIn": ["emperors-soul"]
+    }
+  ]
+}

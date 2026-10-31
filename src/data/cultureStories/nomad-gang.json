@@ -1,0 +1,27 @@
+{
+  "intro": [
+    {
+      "text": "A gang on Scadrial that the constables have raided.",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "15" }]
+    }
+  ],
+  "description": [],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The raid",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "15" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Constable Cassileux was killed in a raid on the gang, and the kandra LeeMar took his place.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "15" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": []
+}

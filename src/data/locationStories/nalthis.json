@@ -1,0 +1,128 @@
+{
+  "intro": [
+    {
+      "text": "A world whose Awakeners build devices such as circuitry that responds to its user's Connection to predict text.",
+      "revealedIn": [{ "book": "tress", "chapter": "15" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Its known lands hold dozens of kingdoms, but little is known of its wider geography. Hallandren is the only known jungle and the one place the Tears of Edgli grow. East of it lies an inland sea with several islands, and Hallandren holds at least a third of that coast.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "32" }]
+    },
+    {
+      "text": "Mountains rise north of Hallandren and toward the sunrise; Idris holds the northern range, which has the only known copper mines, and more nations lie beyond it. Pahn Kahl is to the south. Panthers, parrots, monkeys and crocodiles live in the jungle, and elephants and zebras are exotic beasts from \"the south\".",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "55" }]
+    },
+    {
+      "text": "Everyone is born with one Breath, the energy behind Awakening and Returning. Some of the newly dead come back as Returned with a single divine Breath, and must take in an ordinary Breath each week to stay alive. Returned are believed to come back to fulfil some divine purpose.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "57" }]
+    },
+    {
+      "text": "Its Awakened technology has spread to other worlds, such as Lumar, while people elsewhere look down on the trading of Breaths.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "tress", "chapter": "15" },
+            { "book": "sunlit-man", "chapter": "13" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Hanald",
+          "revealedIn": [
+            { "book": "warbreaker", "chapter": "32" },
+            { "book": "warbreaker", "chapter": "epilogue" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Long ago the Chedesh were the leading power. Their sailors reached a distant valley, found the Tears of Edgli, and on the voyage one of them, Vo, died and became the First Returned. He proclaimed the Five Visions and died again a week on.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "32" }]
+        },
+        {
+          "text": "His shipmates founded the kingdom of Hanald, whose royal house, the forebears of the Idrian kings, descended from Vo. Its monopoly on dyes from the Tears quickly made it rich and powerful.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "32" }]
+        },
+        {
+          "text": "For most of history people knew nothing of Awakening. Vo's death helped spur its study, and the art was found only about four hundred years ago.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "32" }]
+        },
+        {
+          "text": "Austrism was Hanald's main faith from the start, and the royal family held to it. A Cult of the Returned also arose, believing each Returned was sent by Austre with a mission.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "epilogue" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The Manywar",
+          "revealedIn": [
+            { "book": "warbreaker", "chapter": "32" },
+            { "book": "warbreaker", "chapter": "epilogue" },
+            { "book": "warbreaker", "chapter": "53" },
+            { "book": "warbreaker", "chapter": "46" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "In the years before the Manywar, the Five Scholars made rapid discoveries about Awakening.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "32" }]
+        },
+        {
+          "text": "Tensions grew over Hanald's plentiful dyes and the way to Awaken Lifeless with one Breath instead of fifty, which doubled many armies; ichor-alcohol made Lifeless tougher and longer-lasting. Things worsened when Shashara shared both secrets with every nation.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "epilogue" }]
+        },
+        {
+          "text": "A Returned's vision of coming war set off the conflict. When the royal family would not strike first, Kalad overthrew them, took power in Hanald and attacked the kingdoms of Kuth and Huth to the north.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "32" }]
+        },
+        {
+          "text": "Other nations joined Kuth and Huth in the Pahn Unity against Hanald, and the Five Scholars split, taking different sides.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "epilogue" }]
+        },
+        {
+          "text": "It was the first war fought with Awakening and Lifeless, and among the deadliest ever. New Awakened inventions made the fighting ever worse, and Kalad created his infamous Phantoms.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "53" }]
+        },
+        {
+          "text": "Legend says Peacegiver ended the war by negotiation, though the threat of the Phantoms helped. By then Kuth and Huth had been destroyed. He founded Hallandren and its line of God Kings, passing his Breaths down to them, and hid the Phantoms in the city as the D'Denir.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "epilogue" }]
+        },
+        {
+          "text": "The Idrian royal family stayed in the northern mountains and formed Idris. Austrism turned against Awakening and called the worship of the Returned pagan, and Tedradel stayed hostile to Hallandren.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "46" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "After the Manywar",
+          "revealedIn": [
+            { "book": "warbreaker", "chapter": "32" },
+            { "book": "warbreaker", "chapter": "57" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Over three centuries Hallandren prospered, though corruption crept in. It coveted the northern passes Idris held and saw Idris as a rebel province, but Idris kept strong allies in the north. To ease relations, King Dedelin agreed to send his eldest daughter to the Court of Gods.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "32" }]
+        },
+        {
+          "text": "The Pahn Kahl were oppressed more and more, until many thought their culture gone, and some began to talk of revolt.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "57" }]
+        }
+      ]
+    }
+  ]
+}

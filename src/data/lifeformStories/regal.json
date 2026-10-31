@@ -72,6 +72,29 @@
     }
   ],
   "history": [],
+  "sections": [
+    {
+      "title": "Direform soldiers",
+      "items": [
+        {
+          "text": "Direforms are stronger, faster and tougher than humans, but cannot match Shardplate.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "63" }]
+        },
+        {
+          "text": "They serve as heavy infantry as well as guards and jailers.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "rhythm-of-war", "chapter": "102" },
+                { "book": "wind-and-truth", "chapter": "74" }
+              ]
+            }
+          ]
+        }
+      ],
+      "parts": []
+    }
+  ],
   "tables": [
     {
       "title": "Forms of power",

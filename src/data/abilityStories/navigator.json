@@ -1,0 +1,95 @@
+{
+  "intro": [
+    {
+      "text": "Someone who hears a faint thrumming in the dark and reads the breaks in it to find islands, making it possible to steer across the emberdark.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "33" }]
+    },
+    {
+      "text": "Someone who can feel the Grand Knell's Current and whatever blocks it, charting courses through the emberdark more accurately than any other known magic or technology.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "57" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Birds bonded to a Navigator hear the thrumming too.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "33" }]
+    },
+    {
+      "text": "Obstacles strengthen the pulse rather than weakening it, the reverse of what a wayfinder sees in waves.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "34" }]
+    },
+    {
+      "text": "A Navigator must hold Investiture, usually by eating luminist; the more they hold, the keener their sense, and it lasts until the Investiture runs out.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "52" }]
+    },
+    {
+      "text": "A Seeker can only find the Grand Knell's direction, but a Navigator senses obstructions to the Current from far away and understands what causes them, both in the unsea and in the air. Striking the chest makes a tuning-fork note that works like sonar.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "57" }]
+    },
+    {
+      "text": "Only trappers who have survived the Pantheon have shown the ability, and not all of them.",
+      "revealedIn": [
+        { "book": "isles-of-the-emberdark", "chapter": "epilogue" }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Dusk's discovery",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "33" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Adrift in the dark, Dusk first heard the thrumming after eating glowing meat, then more clearly after eating worm paste; a voice he took for Patji's told him he now had the tools he needed.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "33" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "A dream of Cakoban",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "52" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "In a dream, Dusk lived as Cakoban the Navigator, steering a ship through the emberdark while the Current filled its sails.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "52" }]
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Fuelled by",
+      "name": "Eating luminist",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "52" }]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "sixth-of-the-dusk",
+      "role": "hears the thrumming",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "33" }]
+    },
+    {
+      "characterId": "sak",
+      "role": "bonded bird",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "33" }]
+    },
+    {
+      "characterId": "rokke",
+      "role": "bonded Aviar",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "33" }]
+    },
+    {
+      "characterId": "cakoban",
+      "role": "legendary Navigator",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "52" }]
+    }
+  ]
+}

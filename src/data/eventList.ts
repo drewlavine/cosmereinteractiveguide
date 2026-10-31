@@ -397,6 +397,15 @@ export const eventList: ListedEvent[] = [
     coppermindPage: 'Patji expedition',
   },
   {
+    id: 'reod',
+    name: 'Reod',
+    kind: 'cataclysm',
+    world: 'sel',
+    revealedIn: ['elantris'],
+    books: ['elantris'],
+    coppermindPage: 'Reod',
+  },
+  {
     id: 'scouring-of-aimia',
     name: 'Scouring of Aimia',
     kind: 'war',

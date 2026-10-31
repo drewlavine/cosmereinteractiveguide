@@ -1,0 +1,32 @@
+{
+  "intro": [
+    {
+      "text": "A game played in Kingseat in which balls are thrown through floating rings, usually with bets riding on it.",
+      "revealedIn": [{ "book": "fires-of-december", "chapter": "xx" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "A triple bet is three times the stake, but betting triple downed means cubing it.",
+      "revealedIn": [{ "book": "fires-of-december", "chapter": "xx" }]
+    },
+    {
+      "text": "One evening on the Night Barges, December, pretending to flirt, joined Will Kartov and his friends at a game, and he explained the rules. She bet triple downed when she meant triple bets, and Flint had to step in to get her out of it.",
+      "revealedIn": [{ "book": "fires-of-december", "chapter": "xx" }]
+    }
+  ],
+  "history": [],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "will-kartov",
+      "role": "player",
+      "revealedIn": [{ "book": "fires-of-december", "chapter": "xx" }]
+    },
+    {
+      "characterId": "december",
+      "role": "player",
+      "revealedIn": [{ "book": "fires-of-december", "chapter": "xx" }]
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "intro": [
+    {
+      "text": "A bird found mainly in Shinovar. The Thaylen trademaster Vstim buys chickens from the Shin and sells them in the east at high prices.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "i-4" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Chicken is eaten in Shinovar and exported east. In the Vorin nations it is an uncommon dish, fit even for a royal feast.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "22" }]
+    },
+    {
+      "text": "Adolin Kholin counts chicken as lucky food and makes a point of eating some before every duel.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "i-4" },
+            { "book": "words-of-radiance", "chapter": "14" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Geese live wild in the Horneater Peaks, so Unkalaki arrows are often fletched with their feathers, and the Unkalaki language has its own word for goose.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "37" }]
+    },
+    {
+      "text": "Most easterners know little about how chickens look or behave. Even as more people learn to tell different birds apart, \"chicken\" stays the everyday Vorin word for them.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "55" },
+            { "book": "rhythm-of-war", "chapter": "i-5" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Notable birds",
+          "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "45" },
+            { "book": "words-of-radiance", "chapter": "55" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "At the Middlefest Fair a Thaylen merchant showed Jeksonofnone, a bright green chicken that said its own name on command.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "45" }]
+        },
+        {
+          "text": "At the menagerie on the Shattered Plains, Shallan saw a \"chicken\" with red, blue and green feathers while out with Adolin and Kaladin.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "55" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "vstim",
+      "role": "trader",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "i-4" }]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "intro": [
+    {
+      "text": "A domed, Soulcast building on the Shattered Plains, part of the king's complex and home to the Prime Map.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "24" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "It stands east of Elhokar's palace. Big skylights in the dome light shalebark growths inside, and its size and smooth finish made it costly to Soulcast. Besides many maps, it keeps a parchment tallying the gemhearts each highprince has won under the Vengeance Pact.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "24" }]
+    },
+    {
+      "text": "Urithiru has its own Gallery of Maps, a quiet, windowless room on the tower's second-highest floor named in honour of this one.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "107" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "On the Shattered Plains",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "24" },
+                { "book": "words-of-radiance", "chapter": "52" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Dalinar met Highprince Roion there to try to win him over to a joint assault.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "24" },
+                { "book": "words-of-radiance", "chapter": "52" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Before the expedition into the heart of the Plains, Shallan came to study the Prime Map.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "24" },
+                { "book": "words-of-radiance", "chapter": "52" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The room in Urithiru",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "107" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "In the Urithiru room of the same name, Dalinar met Taravangian, Queen Fen, several Alethi leaders and the Azish generals, each with a delegation.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "107" }]
+        }
+      ]
+    }
+  ]
+}

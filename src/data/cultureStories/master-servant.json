@@ -1,0 +1,98 @@
+{
+  "intro": [
+    {
+      "text": "Master-servants are uniformed Vorin servants who wear a crisp white shirt marked with an emblem over black trousers or a black skirt.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "8" }]
+    },
+    {
+      "text": "Master-servant is a Vorin calling open to darkeyes of the second nahn, whom well-off lighteyes hire to see to their needs.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "54" },
+            { "book": "words-of-radiance", "chapter": "prologue" },
+            { "book": "rhythm-of-war", "chapter": "prologue" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "Those with long hair usually tie it back, and trainees wear plain black with no emblem. Most take pride in their polished manners, which members of other classes tend to mock.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "8" }]
+    },
+    {
+      "text": "Master-servants staff the Conclave in Kharbranth and the Palanaeum.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "39" }]
+    },
+    {
+      "text": "Their work includes bringing food and drink, carrying messages, staffing events and institutions and acting as guides. Employers can use a set of hand signals to show what they need or simply to call one over.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "54" },
+            { "book": "words-of-radiance", "chapter": "prologue" },
+            { "book": "rhythm-of-war", "chapter": "prologue" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "They also wear white gloves, sometimes tucked into their belts.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "8" },
+            { "book": "rhythm-of-war", "chapter": "43" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "In Kharbranth",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "71" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Szeth disguised himself as a master-servant to break into the Conclave in Kharbranth and kill Taravangian.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "71" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "In Urithiru",
+          "revealedIn": [
+            { "book": "rhythm-of-war", "chapter": "43" },
+            { "book": "rhythm-of-war", "chapter": "74" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "While Urithiru was under invasion, master-servants often doubled as messengers.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "43" }]
+        },
+        {
+          "text": "In Urithiru the master-servants had quarters of their own, where they kept maps of the tower's lower floors.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "74" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "szeth",
+      "role": "impersonator",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "71" }]
+    }
+  ]
+}

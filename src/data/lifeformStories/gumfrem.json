@@ -1,0 +1,30 @@
+{
+  "intro": [
+    {
+      "text": "An uncommon pasture animal of Roshar, similar to a chull, raised in Alethkar for its small gemhearts, which can be used to Soulcast meat.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "10" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "There were gumfrem farms in Akanny, in the Sadeas princedom. Enough gumfrems to fill several rooms were brought to Urithiru.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "10" }]
+    }
+  ],
+  "history": [],
+  "facts": [
+    {
+      "label": "Raised in",
+      "name": "Alethkar",
+      "placeId": "alethkar",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "10" }]
+    },
+    {
+      "label": "Farms in",
+      "name": "Akanny",
+      "placeId": "akanny",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "10" }]
+    }
+  ],
+  "people": []
+}

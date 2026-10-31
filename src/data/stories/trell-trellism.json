@@ -1,0 +1,50 @@
+{
+  "intro": [
+    {
+      "text": "The god of Trellism, a little-known faith whose followers see Trell as their creator.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "epilogue" }]
+    },
+    {
+      "text": "An avatar of Autonomy, worshipped on Scadrial as Trell, that has set itself against Harmony.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "alloy-of-law", "chapter": "11" },
+            { "book": "bands-of-mourning", "chapter": "28" },
+            { "book": "lost-metal", "chapter": "19" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Faith and influence",
+          "revealedIn": [
+            { "book": "alloy-of-law", "chapter": "epilogue" },
+            { "book": "shadows-of-self", "chapter": "epilogue" },
+            { "book": "bands-of-mourning", "chapter": "epilogue" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Trellists trace their faith to Trelagism as the Words of Founding describe it, though the two share little beyond the god's name. Believers hold Trell to be their creator, and some expect men of gold and red, carrying the final metal, to come and rule Elendel.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "epilogue" }]
+        },
+        {
+          "text": "A silvery metal flecked with dark red is tied to Trell. A spike of it kept Paalm hidden from Harmony, and MeLaan suspected it let Paalm use stolen Allomancy and Feruchemy.",
+          "revealedIn": [{ "book": "shadows-of-self", "chapter": "epilogue" }]
+        },
+        {
+          "text": "Few in northern Scadrial know of Trellism, and Marasi struggled to find anyone willing to talk about it. Members of the Set, high and low, follow the faith and have been heard swearing by Trell and giving him thanks.",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "epilogue" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

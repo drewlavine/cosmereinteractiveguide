@@ -1,0 +1,159 @@
+{
+  "intro": [
+    {
+      "text": "The ruler of the Azish, chosen by an assembly of viziers and scions. Azish belief holds that there is always a Prime, so the election really serves to discover who the Prime already is.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-9" }]
+    },
+    {
+      "text": "The ruler of the Azish Empire, chosen by an assembly of viziers and scions. The Prime's power is absolute in theory, but in practice the Prime must heed the viziers.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "i-9" },
+            { "book": "oathbringer", "chapter": "116" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "Candidates submit essays to convince the vizierate that they are worthy. Only the scions, the priests, cannot apply, as they are traditionally away blessing the nation's settlements. Symbolically, the new Prime is held to be present at the election.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-9" }]
+    },
+    {
+      "text": "The gathered viziers and scions read every essay, then debate the candidates' merits, with the scions offering a religious view. Viziers who applied may attend and argue for themselves. A vote ends the debate, and the winner is proclaimed Prime.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-9" }]
+    },
+    {
+      "text": "On rare occasions a person is held to have applied through their deeds, or through a sign from the Kadasixes, instead of by essay.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-9" }]
+    },
+    {
+      "text": "The Prime is considered public property, owned by the people. People win places by lottery to watch the Prime eat or sleep, and onlookers may keep hair or nail clippings. Pieces of ancient Primes are sometimes kept as relics.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "i-9" },
+            { "book": "oathbringer", "chapter": "65" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "The Prime leads the empire's foreign policy, diplomacy and other affairs of state. Together the viziers can force their view on the Prime, and when the Prime issues a public decree, citizens have a month to comply, during which they may protest it.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "116" }]
+    },
+    {
+      "text": "The rulers of the empire's member states need the Prime's permission to marry.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "122" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Past Primes",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "65" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "The office dates back at least to the Sunmaker's conquests, during the reign of Prime Snoxil. Snoxil's finger survives as a holy relic, at times produced during debates.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "65" }]
+        },
+        {
+          "text": "Kasimarlix was a Prime of some earlier age whose writings Jasnah cited in an essay while negotiating with the Azish.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "65" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Yanagawn's election",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "i-9" },
+                { "book": "oathbringer", "chapter": "65" }
+              ]
+            },
+            { "book": "words-of-radiance", "chapter": "i-9" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "In recent times the office was stable until Szeth killed two Primes one after the other, setting off a succession crisis. It ended after Lift healed Gawx, a young thief nearly killed in the palace; the viziers took his healing as a miracle, since a Prime with such a gift could survive assassins.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "i-9" },
+                { "book": "oathbringer", "chapter": "65" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "An illiterate young thief was robbing the palace when he seemed to return from the dead. The scions judged it a sign that he was the right ruler for troubled times, after several Primes had been assassinated, and he was proclaimed Prime as Yanagawn the First.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-9" }]
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Symbol of office",
+      "name": "Imperial Yuanazixin",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "116" }]
+    },
+    {
+      "label": "Holder",
+      "name": "Yanagawn the First",
+      "characterId": "yanagawn",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-9" }]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "yanagawn",
+      "role": "Prime",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-9" }]
+    },
+    {
+      "characterId": "snoxil",
+      "role": "past Prime",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "65" }]
+    },
+    {
+      "characterId": "kasimarlix",
+      "role": "past Prime",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "65" }]
+    },
+    {
+      "characterId": "lift",
+      "role": "healed Gawx",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "i-9" },
+            { "book": "oathbringer", "chapter": "65" }
+          ]
+        }
+      ]
+    },
+    {
+      "characterId": "szeth",
+      "role": "assassin",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "i-9" },
+            { "book": "oathbringer", "chapter": "65" }
+          ]
+        }
+      ]
+    }
+  ]
+}

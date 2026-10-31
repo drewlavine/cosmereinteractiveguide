@@ -1,0 +1,59 @@
+{
+  "intro": [
+    {
+      "text": "A means through which dragons and their followers can communicate.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "56" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "An interference cloud can cut this link, so that dragons cannot reach their followers through a tamukek.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "56" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Hoid's tamukeks",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "wind-and-truth", "chapter": "147" },
+                { "book": "isles-of-the-emberdark", "chapter": "56" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Hoid used one tamukek to contact Frost, and another to reach the dragons' meditative realm and seek the wisdom of the ancient dead.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "wind-and-truth", "chapter": "147" },
+                { "book": "isles-of-the-emberdark", "chapter": "56" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "hoid",
+      "role": "user",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "wind-and-truth", "chapter": "147" },
+            { "book": "isles-of-the-emberdark", "chapter": "56" }
+          ]
+        }
+      ]
+    }
+  ]
+}

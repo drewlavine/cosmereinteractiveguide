@@ -1,0 +1,80 @@
+{
+  "intro": [
+    {
+      "text": "A young inventor in Elendel, fiercely protective of the work of her father, the inventor Remmingtel Tarcsel.",
+      "revealedIn": [{ "book": "shadows-of-self", "chapter": "10" }]
+    },
+    {
+      "text": "An inventor in Elendel and the founder of Tarcsel Electric, a highly profitable company that Wayne has backed heavily.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "shadows-of-self", "chapter": "10" },
+            { "book": "lost-metal", "chapter": "16" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Her father's name",
+          "revealedIn": [{ "book": "shadows-of-self", "chapter": "10" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Sophi says her father invented the incandescent light bulb and that Professor Hanlanaze stole the credit, and she wrote opinion pieces in the broadsheets saying so. When Wayne turned up disguised as Hanlanaze, she slapped him and told him to remember what he had done to her father, which shook Wayne.",
+          "revealedIn": [{ "book": "shadows-of-self", "chapter": "10" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Electrics",
+          "revealedIn": [
+            { "book": "shadows-of-self", "chapter": "epilogue" },
+            {
+              "all": [
+                { "book": "bands-of-mourning", "chapter": "23" },
+                { "book": "lost-metal", "chapter": "16" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Set on succeeding where her father had failed, Sophi knew selling mattered as much as inventing. Her sound amplifiers were used at one of Governor Replar Innate's speeches, and she advertised for investors in electrics. At a party after the city was saved, Wayne asked if she needed money, and she eagerly accepted.",
+          "revealedIn": [{ "book": "shadows-of-self", "chapter": "epilogue" }]
+        },
+        {
+          "text": "Her amplifiers soon turned up as far away as New Seran. Within a few years she founded Tarcsel Electric, which became highly profitable; Wayne invested heavily, and its success made up much of his wealth.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "bands-of-mourning", "chapter": "23" },
+                { "book": "lost-metal", "chapter": "16" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Short, with long straight blonde hair and a lean face. Wayne thinks she looks about fifteen.",
+      "revealedIn": [{ "book": "shadows-of-self", "chapter": "10" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Intelligent, ambitious and very determined, and fierce in defending her father's work and legacy.",
+      "revealedIn": [{ "book": "shadows-of-self", "chapter": "10" }]
+    }
+  ]
+}

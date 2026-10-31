@@ -1,0 +1,55 @@
+{
+  "intro": [
+    {
+      "text": "A sea on Roshar that opens into Longbrow's Straits. Its shores include Kharbranth, the northern coast of the Frostlands and the southern shores of Greater Hexi, Tu Fallia, Triax, Jah Keved and Alethkar.",
+      "revealedIn": ["oathbringer"]
+    }
+  ],
+  "description": [
+    {
+      "text": "There are islands near the Greater Hexi, Tu Fallia and Triax shores, and many of the southern rivers of Alethkar and Jah Keved, the Deathbend among them, run into it.",
+      "revealedIn": ["oathbringer"]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The coalition's war",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "122" },
+                { "book": "rhythm-of-war", "chapter": "17" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "A map of the sea in the war room before the Battle of Thaylen Field showed where parts of the Azish and Kharbranthian fleets lay. After the battle, Kaladin flew across it from Kharbranth.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "122" },
+                { "book": "rhythm-of-war", "chapter": "17" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "In the following year, the coalition's push to win back Alethkar retook only the land along the sea, a front that was easy to supply and helped support the coalition navy there. The Mink then persuaded the coalition to leave Alethkar for the time being.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "122" },
+                { "book": "rhythm-of-war", "chapter": "17" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

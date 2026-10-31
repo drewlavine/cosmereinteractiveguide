@@ -1,0 +1,18 @@
+{
+  "intro": [
+    {
+      "text": "A cloth worn by the Parshendi when Gavilar Kholin first encountered them. Matain could tell what it was at once.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "45" }]
+    }
+  ],
+  "description": [],
+  "history": [],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "matain",
+      "role": "recognized it",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "45" }]
+    }
+  ]
+}

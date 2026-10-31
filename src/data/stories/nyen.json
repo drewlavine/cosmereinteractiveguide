@@ -1,0 +1,21 @@
+{
+  "intro": [
+    {
+      "text": "A Forger hired by Frava to reverse-engineer, and perhaps finish, the soulstamps Shai made for Emperor Ashravan.",
+      "revealedIn": ["emperors-soul"]
+    }
+  ],
+  "history": [
+    {
+      "title": [{ "text": "Frava's Forger", "revealedIn": ["emperors-soul"] }],
+      "items": [
+        {
+          "text": "Frava set him to work out Shai's soulstamps for the emperor and possibly complete them. He is thought to be a seasoned Forger and code-breaker, though no match for Shai.",
+          "revealedIn": ["emperors-soul"]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

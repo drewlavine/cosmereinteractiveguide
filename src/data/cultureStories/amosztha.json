@@ -1,0 +1,45 @@
+{
+  "intro": [
+    {
+      "text": "A burgundy wine made from grapes that come from Shinovar, sweeter than traditional Alethi wines.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "76" }]
+    }
+  ],
+  "description": [],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "In Urithiru",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "76" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Navani Kholin had a favorite vintage of amosztha, and shared a bottle of it with Raboniel in Urithiru.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "76" }]
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Grapes from",
+      "name": "Shinovar",
+      "placeId": "shinovar",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "76" }]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "navani-kholin",
+      "role": "drinker",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "76" }]
+    },
+    {
+      "characterId": "raboniel",
+      "role": "drinker",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "76" }]
+    }
+  ]
+}

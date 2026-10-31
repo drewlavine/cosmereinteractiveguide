@@ -1,0 +1,91 @@
+{
+  "intro": [
+    {
+      "text": "A Torish woman who serves as an attendant to the yoki-hijo Yumi.",
+      "revealedIn": [{ "book": "yumi", "chapter": "2" }]
+    },
+    {
+      "text": "A Torish attendant of the yoki-hijo Yumi, who is herself a nightmare.",
+      "revealedIn": [{ "book": "yumi", "chapter": "34" }]
+    },
+    {
+      "text": "A Torish attendant of the yoki-hijo Yumi. The father machine consumed her centuries ago, and she lives on as a nightmare that still serves Yumi.",
+      "revealedIn": [{ "book": "yumi", "chapter": "38" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Attending Yumi",
+          "revealedIn": [
+            { "book": "yumi", "chapter": "2" },
+            { "book": "yumi", "chapter": "34" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Each morning Chaeyung and Hwanji served Yumi breakfast, hid her from onlookers with fans on the way to the cold spring, and washed her there in a set sequence.",
+          "revealedIn": [{ "book": "yumi", "chapter": "2" }]
+        },
+        {
+          "text": "Chaeyung came from Torio and attended Yumi under Liyun, feeding, bathing, dressing and escorting her. She had a knack for working the knots from Yumi's hair painlessly.",
+          "revealedIn": [{ "book": "yumi", "chapter": "34" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The father machine",
+          "revealedIn": [{ "book": "yumi", "chapter": "38" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Like the other Torish people, Chaeyung was consumed when the father machine was switched on. She lived on as a nightmare and, as the machine directed, kept attending Yumi through the centuries that followed.",
+          "revealedIn": [{ "book": "yumi", "chapter": "38" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Nikaro in Yumi's place",
+          "revealedIn": [
+            { "book": "yumi", "chapter": "10" },
+            { "book": "yumi", "chapter": "22" },
+            { "book": "yumi", "chapter": "31" },
+            { "book": "yumi", "chapter": "34" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The first morning Nikaro woke in Yumi's place, Chaeyung and Hwanji came in with breakfast, sensed something was wrong and fled. When they bathed him at the cold spring, they noticed nothing odd.",
+          "revealedIn": [{ "book": "yumi", "chapter": "10" }]
+        },
+        {
+          "text": "Once Nikaro began insisting on doing things for himself, Chaeyung simply handed him his nightgown, assuming he would want to dress on his own.",
+          "revealedIn": [{ "book": "yumi", "chapter": "22" }]
+        },
+        {
+          "text": "Seeing a man's flyer misbehave, Nikaro asked why. Chaeyung quietly told him that what the Institute of Mechanical Solutions produced never worked as well as what a yoki-hijo made.",
+          "revealedIn": [{ "book": "yumi", "chapter": "31" }]
+        },
+        {
+          "text": "At the scholars' tent, Chaeyung was among the people who began turning into nightmares before Nikaro's eyes.",
+          "revealedIn": [{ "book": "yumi", "chapter": "34" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "A willowy woman who looks to be in her thirties, with very short hair worn in a bun.",
+      "revealedIn": [{ "book": "yumi", "chapter": "18" }]
+    }
+  ],
+  "personality": []
+}

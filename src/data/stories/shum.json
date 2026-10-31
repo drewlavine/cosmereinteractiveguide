@@ -1,0 +1,27 @@
+{
+  "intro": [
+    {
+      "text": "A young skaa on the Tresting plantation.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "prologue" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Tresting plantation",
+          "revealedIn": [{ "book": "final-empire", "chapter": "prologue" }],
+          "fallback": true
+        }
+      ],
+      "items": [
+        {
+          "text": "The morning after Kelsier burned the Tresting manor and killed the nobles and staff, he helped Mennis.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "prologue" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

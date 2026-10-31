@@ -1,0 +1,60 @@
+{
+  "intro": [
+    {
+      "text": "The abandonment of Shards by the Knights Radiant.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "52" }]
+    }
+  ],
+  "description": [],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The decision",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "87" },
+            { "book": "oathbringer", "chapter": "113" },
+            { "book": "wind-and-truth", "chapter": "124" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Honor broke his promise to Mishram by ordering her capture during an offered peace meeting, damaging Roshar's tones and bonds.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "87" }]
+        },
+        {
+          "text": "Fear that Surgebinding would destroy Roshar helped convince most Radiants to give up their powers.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "113" }]
+        },
+        {
+          "text": "Radiants and spren chose together to renounce their oaths, not knowing it would create deadeyes.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "124" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Abandoned Shards",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "52" },
+            { "book": "oathbringer", "chapter": "121" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "At Feverstone Keep, men seized the discarded Blades and turned them on one another.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "52" }]
+        },
+        {
+          "text": "The loss devastated spren societies, leaving surviving children to rebuild and deep distrust of humans.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "121" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": []
+}

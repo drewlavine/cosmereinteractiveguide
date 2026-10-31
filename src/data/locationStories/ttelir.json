@@ -1,0 +1,99 @@
+{
+  "intro": [
+    {
+      "text": "A port city curving in a crescent around a sheltered bay of the Bright Sea.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "4" }]
+    },
+    {
+      "text": "A port city curving around a sheltered bay of the Bright Sea, and home to the walled Court of Gods, from which Hallandren is ruled.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "14" }]
+    },
+    {
+      "text": "The capital of Hallandren: a port city curving around a sheltered bay of the Bright Sea, famous for its blaze of colour and home to the walled Court of Gods.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "25" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Stands of palms on sandy soil surround the city before the land turns to jungle. With the sea guarding one side, the immense wall only has to circle the landward half. It looks more like art than defence, its top rising and falling in vast curves rimmed with gold, and its gateway is formed by two twisting sea creatures arching overhead.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "4" }]
+    },
+    {
+      "text": "There is no nobility. A small, very rich class, mostly the most successful merchants, sits above a large middle class and a bigger peasant class. That middle class supports things rare elsewhere, such as restaurants, where locals often eat at midday rather than going home, wiping their fingers on the tablecloth. Street boys deliver restaurant meals for a fee, and the local taste runs to spicy seafood.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "22" }]
+    },
+    {
+      "text": "Buildings, furniture and clothes are painted or dyed in vivid colours, and many people dye their hair. Gardens, open spaces and palm-lined streets show off a love of greenery. Most roads are dirt with slate walkways and lanterns, and walkers keep to the walkways since carriages are everywhere. Residents enjoy music, dance, painting, puppetry, sandpainting and many other arts; a sword draws stares, and few people own timepieces.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "25" }]
+    },
+    {
+      "text": "The city has many slums, where colours are faded, parks are dirty, D'Denir statues are broken or defaced, and soup kitchens sell meals for two bits. Best known is the Highlands, the Idrian quarter: less colourful than elsewhere, ruled by three slumlords, with brothels clustered just beyond its edge.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "41" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "An outpost on the bay",
+          "revealedIn": [
+            { "book": "warbreaker", "chapter": "32" },
+            { "book": "warbreaker", "chapter": "51" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The Pahn Kahl first lived around the bay in scattered fishing villages. Chedesh sent ships to explore the lowlands, and on one of them, in this bay, Vo died and Returned. After his second death his crewmates founded a kingdom, crowning his wife queen of Hanald; the spot where they came ashore became T'Telir.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "32" }]
+        },
+        {
+          "text": "The God King's palace was the city's first building: an outpost over the bay put up by Vo's crewmates. It became the home of Hanald's royal family, which made T'Telir the capital.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "51" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Statues for the city",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "epilogue" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "After the Manywar, Peacegiver ordered the Phantoms into T'Telir to stand still like statues, calling them a gift to the city, and in time people forgot they were Lifeless. Hallandren lore holds that he commissioned these D'Denir as memorials and warnings against war. The Returned still add new statues across the city each year, though these are not Phantoms.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "epilogue" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The plague",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "27" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "A plague of distrentia struck the city. Susebron the Fourth gave his Breath to end it, and Susebron the Fifth began his reign.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "27" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Treaty and unrest",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "epilogue" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "The priesthood signed a treaty promising Idris peace in return for a royal bride for the God King. When it was honoured twenty years on, the city was in turmoil: a dye worker named Vahr had tried to rouse his fellow Pahn Kahl, and guards stepped up slum patrols. Then the steward Bluefingers forced two gods to yield their Command phrases and sent the Lifeless army toward Idris; Vasher gave Susebron the Phantoms' command phrase to send after it.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "epilogue" }]
+        }
+      ]
+    }
+  ]
+}

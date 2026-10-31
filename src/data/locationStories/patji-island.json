@@ -1,0 +1,56 @@
+{
+  "intro": [
+    {
+      "text": "An island at the heart of the Pantheon archipelago.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "2" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "In Eelakin myth, their god Patji raised the islands of the Pantheon as a home for the people after the hero Cakoban overcame the Dakwara.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "3" }]
+    },
+    {
+      "text": "Thick jungle covers the island, and many of the world's most violent land animals live here. Most of its plants and animals can sense other minds or even talk to them, and some plants eat flesh: one flowering tree lures predators by mimicking the mind of an injured animal, which die and feed it.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "14" }]
+    },
+    {
+      "text": "Its fiercest hunters are large birdlike creatures that stalk at night and screech as they hunt. Almost blind and deaf, they find prey by its mind and by a keen sense of smell.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "16" }]
+    },
+    {
+      "text": "Cliffs and dangerous rocky beaches make the island one of the hardest in the Pantheon to land on. Inland, inside a caldera, lies a green-tinted lake, Patji's Eye. A parasite from the lake infects the wildlife and gives it its mental gifts, and the Aviar gain their talents from glowing worms they eat in the fruit of Cakoban's fingers, not from any power of their own.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "18" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "A trapper's island",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "12" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "The trapper Sixth of the Dusk chose Patji as the one island he would work, kept several safecamps around it and bred Aviar there to sell in the homeisles.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "12" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Company development",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "15" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "After an expedition by the Northern Interests Trading Company, Patji was turned into a settlement for breeding Aviar. Much of the dangerous wildlife was killed off, wooden docks were built for easier landing, large Aviaries went up to raise birds in bulk, and many trees were felled to lay a train line to Patji's Eye. Trappers no longer work Patji or any other island of the Pantheon.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "15" }]
+        }
+      ]
+    }
+  ]
+}

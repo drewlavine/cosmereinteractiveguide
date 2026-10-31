@@ -1,0 +1,43 @@
+{
+  "intro": [
+    {
+      "text": "One of three islanders on Diggen's Point whose help Tress's plan to get off the island cannot do without.",
+      "revealedIn": [{ "book": "tress", "chapter": "6" }],
+      "fallback": true
+    },
+    {
+      "text": "Owner of Brick's Tavern on Diggen's Point, and brewer of some of the best ale on the Emerald Sea.",
+      "revealedIn": [{ "book": "tress", "chapter": "7" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Diggen's Point",
+          "revealedIn": [
+            { "book": "tress", "chapter": "7" },
+            { "book": "tress", "chapter": "epilogue" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Lem drank at Brick's Tavern often, and Brick knew Tress well. When Lem quietly called in what he was owed, Brick was glad to help: he supplied five barrels of ale for the Oot's Dream plus a sixth with Gret inside, so that a staged failed inspection could get Tress aboard.",
+          "revealedIn": [{ "book": "tress", "chapter": "7" }]
+        },
+        {
+          "text": "When Tress came back to Diggen's Point, she took care to thank Brick and the others who had helped her escape.",
+          "revealedIn": [{ "book": "tress", "chapter": "epilogue" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "A short man who stands on a stool to look his customers in the eye.",
+      "revealedIn": [{ "book": "tress", "chapter": "7" }]
+    }
+  ],
+  "personality": []
+}

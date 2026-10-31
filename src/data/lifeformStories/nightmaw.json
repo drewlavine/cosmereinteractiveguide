@@ -1,0 +1,77 @@
+{
+  "intro": [
+    {
+      "text": "A creature of the island of Patji whose call can be heard at night.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "10" }]
+    },
+    {
+      "text": "Enormous bird-like predators of Patji, one of the Pantheon islands of First of the Sun. Their groups are known as flocks.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "16" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Nightmaws stand on two powerful hind legs carrying most of their weight, looking like giant birds or feathered dinosaurs. Their long necks could reach the treetops if they stood upright, but they lean forward in a hunting crouch, and they are fast for their size. Two clawed forelimbs hang low and rip up the ground. The head is gruesome, with a razor beak as tall as a door, and their bumpy, leathery hide looks like a plucked bird's.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "16" }]
+    },
+    {
+      "text": "They hunt at night. Nearly deaf and blind, they make up for it with a superb sense of smell and the ability to track prey by the activity of its mind, which makes them extremely dangerous. They are clever for animals, and some think they have started to grasp that people guarded by mind-shielding Aviar can only be followed by scent. Like other birds, they build nests and lay eggs.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "16" }]
+    },
+    {
+      "text": "A trapper caught out at night must avoid them or die. Ordinary blades barely mark their thick hide, but large gunpowder weapons such as Vathi's spear cannon can wound them. Their skill as hunters makes them the top predator on Patji, at least.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "16" }]
+    },
+    {
+      "text": "A nightmaw lets out a dreadful screech when it detects prey or wants to frighten it, and the noise can scare roosting Aviar away from the nell sleeping beneath them. A dying nightmaw may give a different cry, quieter but more chilling, which can summon others nearby.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "16" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Crossing Patji at night",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "18" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Vathi and Sixth of the Dusk were crossing Patji at night to stop company staff from switching on the device from the Ones Above when a nightmaw picked up their trail and burst out of the trees at them. Vathi mortally wounded it with her spear cannon, but its dying cry brought other nightmaws from all over the island.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "18" }]
+        },
+        {
+          "text": "Chased by several of them, the pair escaped through the canyon to Patji's Eye and were trapped in the pool. They lashed a blooming Cakoban's finger flower onto a spear and shot it from the gun; since the flowers imitate the activity of a mind, the nightmaws went after it, and Dusk and Vathi got away.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "18" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Captive nightmaws",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "57" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "The Eelakin hoped to keep nightmaws in one of the parks of their capital and built them an enclosure, though Sixth of the Dusk told them it was not fit to hold them. There was also a nightmaw in the cavern on the island where the Dakwara lives.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "57" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "vathi",
+      "role": "shot one",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "18" }]
+    },
+    {
+      "characterId": "sixth-of-the-dusk",
+      "role": "escaped them",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "18" }]
+    }
+  ]
+}

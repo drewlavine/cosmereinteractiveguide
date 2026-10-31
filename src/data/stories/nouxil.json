@@ -1,0 +1,51 @@
+{
+  "intro": [
+    {
+      "text": "A well-known Elendel gunsmith whose distinctive work Ranette recognizes from their correspondence.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "14" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The Vanishers' gunsmith",
+          "revealedIn": [
+            { "book": "alloy-of-law", "chapter": "14" },
+            { "book": "alloy-of-law", "chapter": "20" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "A skilled gunsmith, Nouxil traded letters with Ranette about their craft, and she came to know his way of shaping barrels and inner workings. Around 340 PC the Vanishers kidnapped him and forced him to make their aluminum guns and bullets, probably at their Longard foundry. Held prisoner for about a year, he hid a plea for help, written in High Imperial, inside the grips of the guns.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "14" }]
+        },
+        {
+          "text": "When Wax, Wayne and Marasi sheltered at Ranette's house with an aluminum gun taken at the wedding dinner robbery, she recognized Nouxil's hand in its make and found the message he had hidden.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "14" }]
+        },
+        {
+          "text": "During Wax's assault on the Vanishers' hideout, Nouxil was locked in a barracks room with Steris and hid there through most of the fight. Wax freed them, gave Nouxil a shotgun, then Pushed on the gun to hurl him through the second-story window and into the canal. Constables fished him out alive, if not pleased about it.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "20" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "A short, balding man with a fearful air, though whether that is his nature or the result of his long captivity is unclear.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "19" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Clever and highly skilled: even the sharp-tongued Ranette thinks him worth writing to, and he found a way to smuggle out a call for help.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "14" }]
+    },
+    {
+      "text": "For a gunsmith, a surprisingly poor shot.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "19" }]
+    }
+  ]
+}

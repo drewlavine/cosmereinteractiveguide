@@ -1,0 +1,26 @@
+{
+  "intro": [
+    {
+      "text": "An outlaw caught by Wax.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "9" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Captured",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "9" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Wax went after Harrisel because of a bet with Wayne, and captured him.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "9" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

@@ -1,0 +1,19 @@
+{
+  "intro": [
+    {
+      "text": "A lighthouse in Shadesmar's Sea of Souls, on a peninsula west of the Radiant Depths that Reliqq's Channel cuts across.",
+      "revealedIn": [{ "all": ["oathbringer", "rhythm-of-war"] }]
+    }
+  ],
+  "description": [
+    {
+      "text": "In the Physical Realm, the lighthouse's peninsula is the river dividing Tukar from Marat.",
+      "revealedIn": [{ "all": ["oathbringer", "rhythm-of-war"] }]
+    },
+    {
+      "text": "A note on the map says only a few attendants keep the lighthouse, and praises its quiche.",
+      "revealedIn": ["rhythm-of-war"]
+    }
+  ],
+  "history": []
+}

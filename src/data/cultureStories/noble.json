@@ -1,0 +1,129 @@
+{
+  "intro": [
+    {
+      "text": "The ruling class of the Final Empire on Scadrial, who hold the plantations and estates the skaa work.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "prologue" }]
+    },
+    {
+      "text": "The ruling class of the Final Empire on Scadrial, led by the ten Great Houses of Luthadel.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "9" }]
+    },
+    {
+      "text": "One of the two peoples the Lord Ruler made when he altered mankind: taller, stronger and smarter than the skaa, but less fertile. Allomancy runs in their bloodlines.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "3" },
+            { "book": "hero-of-ages", "chapter": "25" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "Luthadel's inner-city nobles hold a nightly round of balls in their keeps.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "6" }]
+    },
+    {
+      "text": "The Great Houses may buy a monthly ration of atium, one of the Lord Ruler's main holds over them. Nearly all Mistborn come from the Great Houses or Luthadel's lesser houses, and the houses have an unspoken pact not to send Mistborn to kill each other.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "13" }]
+    },
+    {
+      "text": "Imperial trade is in the hands of the Great Houses, which also hold most of the skaa, and country nobles resent their grip on the canals.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "23" }]
+    },
+    {
+      "text": "Every couple of centuries a house war breaks out among the Great Houses, fought mostly through politics. The last one was devastating.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "24" }]
+    },
+    {
+      "text": "A Great House must build a keep in Luthadel and keep up a grand presence there despite the Lord Ruler's keep tax. Nothing shames the nobility more than a Great House that cannot keep itself up.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "28" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Origins",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "3" },
+                { "book": "hero-of-ages", "chapter": "25" }
+              ]
+            },
+            { "book": "hero-of-ages", "chapter": "22" },
+            { "book": "hero-of-ages", "chapter": "62" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "When the Lord Ruler altered mankind to survive the ash, he split people into nobles and skaa. Nobles were made taller, stronger and smarter, but less fertile. The changes were slight, and interbreeding had mostly erased them by the end of his reign.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "3" },
+                { "book": "hero-of-ages", "chapter": "25" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "The first Mistborn were made by metal beads discovered at the Well, and their strength was inherited through noble bloodlines, growing slightly weaker with every generation.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "22" }]
+        },
+        {
+          "text": "Today's Allomancers come from the men who swallowed those beads. Those men became the nobility's core, and they first hailed the Lord Ruler as emperor.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "62" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The balls of Luthadel",
+          "revealedIn": [
+            { "book": "final-empire", "chapter": "9" },
+            { "book": "final-empire", "chapter": "6" },
+            { "book": "final-empire", "chapter": "13" },
+            { "book": "final-empire", "chapter": "18" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "When Vin begins infiltrating noble society, the Great Houses, from most to least powerful, are Venture, Hasting, Elariel, Tekiel, Lekal, Erikeller, Erikell, Haught, Urbain and Buvidas.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "9" }]
+        },
+        {
+          "text": "Posing as a young noblewoman, Vin attends many balls to spy on the nobles and spread rumours among them.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "6" }]
+        },
+        {
+          "text": "She goes to her first ball at Keep Venture and meets Elend Venture there.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "13" }]
+        },
+        {
+          "text": "A month after that, at a ball at Keep Elariel, Valette dances for the first time.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "18" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "vin",
+      "role": "posed as noble",
+      "revealedIn": [{ "book": "final-empire", "chapter": "6" }]
+    },
+    {
+      "characterId": "elend-venture",
+      "role": "nobleman",
+      "revealedIn": [{ "book": "final-empire", "chapter": "13" }]
+    }
+  ]
+}

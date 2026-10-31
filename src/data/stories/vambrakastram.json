@@ -1,0 +1,32 @@
+{
+  "intro": [
+    {
+      "text": "Someone who took on Frost's prayers for a day so he could be with his niece Starling.",
+      "revealedIn": [
+        { "book": "isles-of-the-emberdark", "chapter": "prologue" }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Starling's birthday",
+          "revealedIn": [
+            { "book": "isles-of-the-emberdark", "chapter": "prologue" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "When Starling turned thirty, Vambrakastram covered Frost's prayers that day so he could stay with his niece as she transformed for the first time.",
+          "revealedIn": [
+            { "book": "isles-of-the-emberdark", "chapter": "prologue" }
+          ]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

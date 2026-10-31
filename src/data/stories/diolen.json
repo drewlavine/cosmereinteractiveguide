@@ -1,0 +1,26 @@
+{
+  "intro": [
+    {
+      "text": "A baron among the nobility of Arelon.",
+      "revealedIn": [{ "book": "elantris", "chapter": "14" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Baron of Arelon",
+          "revealedIn": [{ "book": "elantris", "chapter": "14" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "A decade after the Reod, Diolen held the rank of baron in Arelon.",
+          "revealedIn": [{ "book": "elantris", "chapter": "14" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

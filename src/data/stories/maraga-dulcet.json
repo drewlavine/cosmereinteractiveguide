@@ -1,0 +1,52 @@
+{
+  "intro": [
+    {
+      "text": "The owner of a Bilming broadsheet office who recognizes Wax and wants to reach the hero of the Allomancer Jak stories.",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "32" }],
+      "fallback": true
+    },
+    {
+      "text": "Editor-in-chief of the Bilming broadsheet the Sentinel of Truth, who gathered evidence of the Set's schemes with her informant Tobal Copper.",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "33" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The Sentinel of Truth",
+          "revealedIn": [
+            { "book": "lost-metal", "chapter": "33" },
+            { "book": "lost-metal", "chapter": "36" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "After learning her trade at the Bilming Times, Maraga rose to edit the Sentinel of Truth. In about 344 PC Tobal Copper came to her claiming that his employers were building a bomb; doubtful at first, she was won over by his growing evidence, and by 348 PC they met nightly in the basement, recording the Set's bunkers, rocket and bombs on metal sheets.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "33" }]
+        },
+        {
+          "text": "Tobal had warned that one night he might simply not come. When he vanished, Maraga hid in the office, until two weeks on Wax, Wayne, Marasi and Moonlight found her address among his belongings and she showed them everything in the basement.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "33" }]
+        },
+        {
+          "text": "When Telsin interrupted their meeting, Maraga was advised to take refuge with family, but her only relatives lived in Elendel or Bilming, so Marasi asked Moonlight for help and Moonlight gave her an address in Bilming that would be safe from the Set.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "36" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Maraga is short, with a husky voice, graying frizzy black hair and rumpled clothes she pays little attention to. Worry after Tobal Copper's death made her lose weight and left her looking haggard, with bags under her eyes.",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "32" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Maraga is thrilled to meet Wax because of his supposed friendship with Allomancer Jak, and is not at all overawed by him. She adores larger-than-life tales and gladly prints the sensational stories other papers ignore.",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "33" }]
+    }
+  ]
+}

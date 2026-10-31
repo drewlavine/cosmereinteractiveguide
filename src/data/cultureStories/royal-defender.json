@@ -1,0 +1,36 @@
+{
+  "intro": [
+    {
+      "text": "A title in Thanadal's princedom of Alethkar, held by a full Shardbearer whose Shardplate is painted yellow.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "58" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "The custom goes back centuries. Thanadal's princedom had other Shards, but the Royal Defender alone held both Blade and Plate.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "58" }]
+    }
+  ],
+  "history": [],
+  "facts": [
+    {
+      "label": "Princedom",
+      "name": "Thanadal princedom",
+      "placeId": "thanadal-princedom",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "58" }]
+    },
+    {
+      "label": "Holder in 1173",
+      "name": "Resi",
+      "characterId": "resi",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "58" }]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "resi",
+      "role": "holder",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "58" }]
+    }
+  ]
+}

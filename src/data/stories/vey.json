@@ -1,0 +1,73 @@
+{
+  "intro": [
+    {
+      "text": "The Lord Merchant, who disputes Kenton's rank before the Taishin.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "4" }],
+      "fallback": true
+    },
+    {
+      "text": "The Lord Merchant, head of the Guild and one of the Taishin, who votes to dissolve the Diem even though his Profession still pays it tribute.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "5" }]
+    },
+    {
+      "text": "The Lord Merchant, head of the Guild, who goes from bitter opponent of the Diem to Kenton's friend.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "18" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Opposing the Diem",
+          "revealedIn": [
+            { "book": "white-sand-omnibus", "chapter": "5" },
+            { "book": "white-sand-omnibus", "chapter": "10" },
+            { "book": "white-sand-omnibus", "chapter": "13" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "In the Taishin's first vote, Vey voted to dissolve the Diem, though the Guild was the only Profession still paying it tribute.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "5" }]
+        },
+        {
+          "text": "When Kenton, bored after two hours in his waiting room, began playing with his sand, Vey stormed out to scold him for practising an unholy art. As a Kerztian, he refused Kenton's offer of sand masters working for the Guild.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "10" }]
+        },
+        {
+          "text": "Kenton came back and, through the clerk Grelin, hinted loudly that he knew why Vey still paid the tribute. Vey called the bluff and shrugged off Kenton's attempt at blackmail.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "13" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The debt",
+          "revealedIn": [
+            { "book": "white-sand-omnibus", "chapter": "15" },
+            { "book": "white-sand-omnibus", "chapter": "18" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Before the final vote, Vey left for Lraezare, telling his nephew NaiMeer to keep Kenton from following, and hid at Lokkall's house. Kenton found him and confirmed that the 700,000 lak in the Diem's ledger was owed to the Diem, a debt dating from Lord Merchant Hennin that each new Lord Merchant inherited.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "15" }]
+        },
+        {
+          "text": "Kenton forgave the debt, earning Vey's respect, and asked for a Guild loan to clear the Diem's own debts, to be repaid from its work for the artisans. Vey agreed and promised his vote, which he cast for the Diem after the duel; Gennel seemingly followed his lead.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "18" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Long brown hair and tan skin; he wears the Guild's purple and white.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "5" }]
+    }
+  ],
+  "personality": []
+}

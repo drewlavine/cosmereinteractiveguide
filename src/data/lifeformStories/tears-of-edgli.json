@@ -1,0 +1,39 @@
+{
+  "intro": [
+    {
+      "text": "A plant of Hallandren's valley jungle whose prized dyes are the foundation of Hallandren's wealth.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "9" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Though Hallandren is remote, the dyes were rare and sought after across Nalthis, making T'Telir a major port and anchoring trade between Hallandren and other kingdoms.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "9" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The Manywar",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "32" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "The wealth the Tears brought was among the causes of the Manywar.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "32" }]
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Grows in",
+      "name": "Hallandren",
+      "placeId": "hallandren",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "9" }]
+    }
+  ],
+  "people": []
+}

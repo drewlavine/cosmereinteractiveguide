@@ -1,0 +1,140 @@
+{
+  "intro": [
+    {
+      "text": "A crop of Roshar planted in the calm after the Weeping. The kind grown in Hearthstone has polyps bigger than a man's head that ripen in about four months.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "4" }]
+    },
+    {
+      "text": "An important, ancient cereal crop of Roshar, grown as polyps and planted while the highstorms are weak after the Weeping.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "19" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Farmers spread a mix of seed and stumpweight sap across hillsides. While the dark brown polyps grow, each is searched for worm burrows, which can take weeks per field; a reed tipped with sugar draws out the worm and the hole is patched with crem. One missed worm ruins the whole polyp.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "16" }]
+    },
+    {
+      "text": "It is a staple food, and its grain supports small towns such as Hearthstone.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "16" }]
+    },
+    {
+      "text": "Its fibres can make simple clothing, as Dalinar saw in one of his visions.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "38" }]
+    },
+    {
+      "text": "There are several strains; smaller, hardier ones survive where highstorms are stronger. It is farmed near the Shattered Plains warcamps too; after the coalition moved to Urithiru, Dalinar began large-scale farming on the Plains, one reason he agreed to bring Hearthstone's farmers.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "4" },
+            { "book": "words-of-radiance", "chapter": "55" },
+            { "book": "rhythm-of-war", "chapter": "18" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "It is cooked many ways: mixed with flangria in fried chouta, crushed with spices into kuma, steamed beside broths and curries or in leaf wraps, or bound with sugar into ration bars. It is also brewed into lavis ale and distilled into the hard liquor honu.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "25" },
+            { "book": "words-of-radiance", "chapter": "81" },
+            { "book": "oathbringer", "chapter": "121" },
+            { "book": "rhythm-of-war", "chapter": "34" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "In wartime",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "27" },
+                { "book": "oathbringer", "chapter": "67" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "During the siege of Kholinar, lavis was handed out as a ration.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "27" },
+                { "book": "oathbringer", "chapter": "67" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "title": "Economy",
+      "items": [
+        {
+          "text": "Armies with Soulcasters live largely on Soulcast food, lavis among it.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "15" }]
+        },
+        {
+          "text": "Lavis passes through several merchants between farm and city, where it costs four or five times what the farmers were paid.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "27" }]
+        },
+        {
+          "text": "Sebarial made lavis a key part of the economy he built in his warcamp. The Akanny region of Sadeas princedom, home to Hearthstone, grows so much lavis and tallew it could feed half of Alethkar.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "16" },
+                { "book": "words-of-radiance", "chapter": "40" },
+                { "book": "oathbringer", "chapter": "10" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Ships carry barrels of lavis to feed their crews. Sometimes dormant larvae hatch and spoil a barrel for humans, but the Hexi nomads prize such wormy grain and buy it gladly.",
+          "revealedIn": [{ "book": "dawnshard", "chapter": "6" }]
+        },
+        {
+          "text": "Soulcasting true grains is hard, so lesser Soulcasters usually make a hard block of lavis pulp, which is chipped off and cooked into mush.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "15" },
+                { "book": "rhythm-of-war", "chapter": "26" }
+              ]
+            }
+          ]
+        }
+      ],
+      "parts": []
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "turinad-sebarial",
+      "role": "grower",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "16" },
+            { "book": "words-of-radiance", "chapter": "40" },
+            { "book": "oathbringer", "chapter": "10" }
+          ]
+        }
+      ]
+    }
+  ]
+}

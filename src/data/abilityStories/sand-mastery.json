@@ -1,0 +1,227 @@
+{
+  "intro": [
+    {
+      "text": "The power sand masters use to send white sand flying through the air in ribbons.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "prologue" }]
+    },
+    {
+      "text": "The Dayside art of moving white sand, paid for with water drawn from the user's own body. Sand masters are found and taught by the Diem, and sand once mastered turns black and no longer responds.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "1" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Strength is counted in ribbons: Traiben, a Mastrell, can control over fifteen, while Kenton has only one, though he can make it move very fast.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "prologue" }]
+    },
+    {
+      "text": "The power draws water from the body, so the first lesson is to track one's water and keep a qido at hand. Careful sand masters can go over half an hour without drinking; using too much is overmastery, which can kill.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "2" }]
+    },
+    {
+      "text": "Some Dayside creatures have terken shells that sand mastery cannot touch, and mastered sand that meets them turns black. Kerztian assassins sent against sand masters wear the carapace as armour or smear themselves with a paste made from it.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "8" }]
+    },
+    {
+      "text": "Only white sand answers. It glows while mastered, iridescent in darkness and yellow-white in daylight, then turns black; water and other liquids blacken it as well.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "11" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Praxton's last stand",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "2" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "When Kerztian warriors ambushed the Diem in the Kerla, Lord Mastrell Praxton overburned, releasing a last huge wave of sand that cost him his life.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "2" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Kenton grows stronger",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "4" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Kenton's power came back stronger than before, and he could now control three ribbons.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "4" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Drile's attack",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "5" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "In front of the Diem, and against its law, Drile turned his sand on Kenton, who knocked him out of the air.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "5" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Testing Darksiders",
+          "revealedIn": [
+            { "book": "white-sand-omnibus", "chapter": "13" },
+            { "book": "white-sand-omnibus", "chapter": "epilogue" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Kenton gave Khriss the test; she did not pass, but said she had mostly wanted to learn how it was done.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "13" }]
+        },
+        {
+          "text": "On the voyage to Darkside, Baon held sand and offered it his body's water as the test describes, and set off a stronger reaction than anyone had yet seen.",
+          "revealedIn": [
+            { "book": "white-sand-omnibus", "chapter": "epilogue" }
+          ]
+        }
+      ]
+    }
+  ],
+  "mechanics": [
+    {
+      "title": [
+        {
+          "text": "The test",
+          "revealedIn": [
+            { "book": "white-sand-omnibus", "chapter": "18" },
+            { "book": "white-sand-omnibus", "chapter": "epilogue" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Nobody becomes a sand master without being tested by one. The candidate holds sand to feel its grains and tries to turn its flow, as one might divert water; whether it stirs, and how strongly, hints at their potential.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "18" }]
+        },
+        {
+          "text": "Some think the potential runs in families and belongs only to Daysiders, yet the Diem had never tested a full Darksider until Khriss and Baon came, and Baon's result was positive.",
+          "revealedIn": [
+            { "book": "white-sand-omnibus", "chapter": "epilogue" }
+          ]
+        },
+        {
+          "text": "After the test, the number of ribbons a sand master can hold grows for a time and then stops at their full potential, though overmastery can still push it higher.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "18" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Ribbons",
+          "revealedIn": [
+            { "book": "white-sand-omnibus", "chapter": "18" },
+            { "book": "white-sand-omnibus", "chapter": "10" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The number of ribbons shows a sand master's power, from one for the young or weak to over two dozen for the strongest. Holding several expands the mind to steer them all. More sand gives a ribbon more force, training makes it faster and more precise, and its energy gathers at the tip. Each added ribbon drains water faster.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "18" }]
+        },
+        {
+          "text": "A ribbon struck from the side collapses, and two that meet head-on both fall.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "10" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Uses",
+          "revealedIn": [
+            { "book": "white-sand-omnibus", "chapter": "9" },
+            { "book": "white-sand-omnibus", "chapter": "7" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Sand masters fly on whirlwinds of sand, which usually takes three ribbons, and shape sand into platforms, staffs or poles. In battle they hurl ribbons or sheets of sand, or heavy objects; a ribbon can pierce a skull or a Karak's shell. The strongest can sweep a battlefield with a wave of sand that strikes only chosen foes, and sand can also wrap its master in a protective bubble.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "9" }]
+        },
+        {
+          "text": "Sand masters can also raise buildings, though the Diem has not done so for a long time. Alcohol has odd effects on them.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "7" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Overmastery and overburning",
+          "revealedIn": [
+            { "book": "white-sand-omnibus", "chapter": "16" },
+            { "book": "white-sand-omnibus", "chapter": "18" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Overmastering dries the mouth and burns the eyes. Afterwards the power vanishes for up to a week, and any sand the sand master tries to move turns black at once; on recovery they are stronger, like a sore muscle, though each time the gain shrinks. Taken too far it kills, drying the skin and eyes.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "16" }]
+        },
+        {
+          "text": "Under extreme strain, a skilled sand master can go beyond overmastery to overburning, as the Diem names it: giving the sand the last of their water and then their life for one final explosive command.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "18" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "kenton",
+      "role": "sand master",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "prologue" }]
+    },
+    {
+      "characterId": "traiben",
+      "role": "Mastrell",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "prologue" }]
+    },
+    {
+      "characterId": "yeeden",
+      "role": "Lestrell",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "prologue" }]
+    },
+    {
+      "characterId": "praxton",
+      "role": "Lord Mastrell",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "2" }]
+    },
+    {
+      "characterId": "drile",
+      "role": "sand master",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "5" }]
+    },
+    {
+      "characterId": "dirin",
+      "role": "sand master",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "10" }]
+    },
+    {
+      "characterId": "baon",
+      "role": "tested Darksider",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "epilogue" }]
+    }
+  ]
+}

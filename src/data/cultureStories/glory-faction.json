@@ -1,0 +1,38 @@
+{
+  "intro": [
+    {
+      "text": "A faction of the Rose Empire whose assassins attacked Emperor Ashravan, killing his wife and leaving him alive but without a mind.",
+      "revealedIn": [{ "book": "emperors-soul", "chapter": "day-2" }]
+    },
+    {
+      "text": "One of the eighty factions that govern the Rose Empire, behind the attack that killed Emperor Ashravan's wife and left him without a mind.",
+      "revealedIn": ["emperors-soul"]
+    }
+  ],
+  "description": [],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Attack on the emperor",
+          "revealedIn": [
+            { "book": "emperors-soul", "chapter": "day-2" },
+            "emperors-soul"
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The faction's assassins struck at Emperor Ashravan. His wife died; his body survived, but his mind was gone, and the Heritage Faction forced the Forger Shai to try to make him a new soul.",
+          "revealedIn": [{ "book": "emperors-soul", "chapter": "day-2" }]
+        },
+        {
+          "text": "While the emperor stayed hidden for the mourning period, the faction spread rumours that he was dead, thinking the Heritage Faction was only buying time. When Ashravan appeared before the factions, the gamble cost the Glory Faction much of its power.",
+          "revealedIn": ["emperors-soul"]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": []
+}

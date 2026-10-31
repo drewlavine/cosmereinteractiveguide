@@ -1,0 +1,136 @@
+{
+  "intro": [
+    {
+      "text": "The guild of sand masters, ordered in strict ranks by skill and led by the Lord Mastrell, who also sits as Taisha for the Sand Profession.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "prologue" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Every sand master wears a coloured sash showing their rank, and rank is permanent once past acolent. Advancement depends only on skill, usually counted in ribbons. Those seeking to join wear brown robes and sashes.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "prologue" }]
+    },
+    {
+      "text": "Lossandin children who want to join face a hard entrance exam. By law any talent at all earns entry as an acolent, though the very weak are discouraged. Acolents train until the Lord Mastrell moves them into one of seven permanent ranks, usually after about four years.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "1" }]
+    },
+    {
+      "text": "The guild's home, also called the Diem, is older than the sand masters themselves: a building cut from one block of white sandstone, thought to last forever.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "4" }]
+    },
+    {
+      "text": "It stands on the edge of Kezare and houses every member. It has no stairs, so the upper floors could be reached only by sand mastery until Kenton had ladders put up.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "6" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The Kerla ambush",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "2" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Kerztian warriors attacked the Diem's ceremony in the Kerla, killing Lord Mastrell Praxton and most of the strongest sand masters.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "2" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Threat of dissolution",
+          "revealedIn": [
+            { "book": "white-sand-omnibus", "chapter": "5" },
+            { "book": "white-sand-omnibus", "chapter": "7" },
+            { "book": "white-sand-omnibus", "chapter": "18" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The Taishin's first vote went six to one against the Diem, but Kenton, as Acting Lord Mastrell, had the vote set aside. Saving the Diem then needed a unanimous vote within two weeks, and Heelis told him he must unite its leaders, pay its debts and win back the nation's trust in sand mastery.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "5" }]
+        },
+        {
+          "text": "Kenton and Aarik found the Diem owed 7,000,000 lak, while Dirin reported that stairs were going in throughout the building so anyone could reach every floor.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "7" }]
+        },
+        {
+          "text": "After Kenton's duel with Drile, the Taishin held their vote inside the Diem, and every vote was cast to keep it.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "18" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "A new direction",
+          "revealedIn": [
+            { "book": "white-sand-omnibus", "chapter": "epilogue" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Kenton made Drile the Diem's Second, and sand masters' families, now permitted to live there, began moving in.",
+          "revealedIn": [
+            { "book": "white-sand-omnibus", "chapter": "epilogue" }
+          ]
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Leader",
+      "name": "The Lord Mastrell",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "prologue" }]
+    },
+    {
+      "label": "Headquarters",
+      "name": "The Diem, outside Kezare",
+      "placeId": "kezare",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "6" }]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "kenton",
+      "role": "sand master",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "prologue" }]
+    },
+    {
+      "characterId": "traiben",
+      "role": "mastrell",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "prologue" }]
+    },
+    {
+      "characterId": "drile",
+      "role": "mastrell",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "prologue" }]
+    },
+    {
+      "characterId": "yeeden",
+      "role": "lestrell",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "prologue" }]
+    },
+    {
+      "characterId": "moril",
+      "role": "underlestrell",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "prologue" }]
+    },
+    {
+      "characterId": "praxton",
+      "role": "Lord Mastrell",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "2" }]
+    },
+    {
+      "characterId": "dirin",
+      "role": "sand master",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "7" }]
+    }
+  ]
+}

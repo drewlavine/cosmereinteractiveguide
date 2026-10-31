@@ -1,0 +1,59 @@
+{
+  "intro": [
+    {
+      "text": "A metal of Allomancy and Feruchemy. A Nicroburst who touches another Allomancer makes that person's burning metals go off in one huge burst of power, and a Soulbearer stores Investiture in it.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "prologue" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Touching another Allomancer while burning nicrosil, a Nicroburst empties that person's reserves of whatever metals they are burning, all at once, in an enormous surge of power.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "prologue" }]
+    },
+    {
+      "text": "A Soulbearer stores Investiture in nicrosil. The Terris understand this power poorly, even those who have it.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "prologue" }]
+    },
+    {
+      "text": "If a nicrosilmind is left unkeyed, a Soulbearer can store the ability to use Feruchemy in it, and someone else tapping it becomes a Feruchemist for a while, able to fill a metalmind.",
+      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "21" }]
+    },
+    {
+      "text": "Each medallion contains nicrosil, which makes its wearer Invested and able to use the medallion's other metal. A medallion fails if it holds four metals or more.",
+      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "21" }]
+    },
+    {
+      "text": "Boosted by nicrosil, an Allomancer's pushes and pulls on metal become far stronger, enough to move very heavy or Invested objects, and can feel as if they will tear the Allomancer apart. A single boosted push can fling a Coinshot a huge distance.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "well-of-ascension", "chapter": "57" },
+            { "book": "lost-metal", "chapter": "25" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "A spike can carry Investiture taken from one Scadrian, and someone stabbed with it may briefly gain Allomantic powers.",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "47" }]
+    },
+    {
+      "text": "A nicrosil boost to a bendalloy bubble compresses the time inside it so far that, from within, time outside seems to stop.",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "71" }]
+    }
+  ],
+  "history": [],
+  "facts": [
+    {
+      "label": "Allomancy",
+      "name": "Bursts another's burning metals",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "prologue" }]
+    },
+    {
+      "label": "Feruchemy",
+      "name": "Stores Investiture",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "prologue" }]
+    }
+  ],
+  "people": []
+}

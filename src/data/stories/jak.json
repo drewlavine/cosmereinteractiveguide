@@ -1,0 +1,78 @@
+{
+  "intro": [
+    {
+      "text": "Allomancer Jak, also called Gentleman Jak: a nobleman and celebrated explorer whose adventures appear in the broadsheets.",
+      "revealedIn": ["allomancer-jak"]
+    },
+    {
+      "text": "An adventurer who, like Wax, started out collecting bounties in the Roughs, about six years before him. Wax finds his stories ridiculous and calls him a fop rather than a real lawman.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "shadows-of-self", "chapter": "prologue" },
+            { "book": "bands-of-mourning", "chapter": "11" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Allomancer Jak, or Gentleman Jak: a nobleman and explorer whose adventures fill the broadsheets. He began hunting bounties in the Roughs some years before Wax, who finds his stories ridiculous and calls him a fop.",
+      "revealedIn": [
+        {
+          "all": [
+            "allomancer-jak",
+            { "book": "shadows-of-self", "chapter": "prologue" },
+            { "book": "bands-of-mourning", "chapter": "11" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Allomancer Jak, or Gentleman Jak: a nobleman and explorer whose widely read broadsheet adventures now claim Wax as his old comrade.",
+      "revealedIn": [
+        { "all": ["allomancer-jak", { "book": "lost-metal", "chapter": "32" }] }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [{ "text": "Adventures", "revealedIn": ["allomancer-jak"] }],
+      "items": [
+        {
+          "text": "In the Roughs, Jak saved Handerwym from drowning in a lake, and Handerwym became his companion and assistant, correcting his accounts and adding biting notes. His travels took him to ever more distant and dangerous places: in one tale he was flung into the sea bound to a bust of the Survivor, and he has been taken captive many times and knocked on the head no fewer than eighteen times.",
+          "revealedIn": ["allomancer-jak"]
+        },
+        {
+          "text": "In the Pits of Eltania, Jak shot a koloss who challenged him, part of a plan to win the tribe's acceptance that Handerwym thought foolish. Then, trapped in a canyon cave, he burned tin from the rock, met his guide Lyndip, and escaped by riding a flooding river. Recaptured, he declared himself a koloss and proved it by diving into a lake for the Survivor's Treasure: an aluminum box of spikes.",
+          "revealedIn": ["allomancer-jak"]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Publishing and Wax",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "32" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Jak kept publishing his adventures and stumbled on a great many Survivor artifacts. He also warmed to Wax, writing him into his tales as an old comrade; Wax denies it, but plays along when it helps comfort someone or get information.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "32" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "His broadsheets show a well-groomed man in his early thirties with a big mustache, long hair and glasses, usually in a suit with a mistcloak, and a cowboy hat when out exploring.",
+      "revealedIn": ["allomancer-jak"]
+    }
+  ],
+  "personality": [
+    {
+      "text": "In his own tales Jak is clever, bold and unflappable, escaping every danger by his wits, and he rates honesty as his greatest virtue. Handerwym's notes tell another story: a careless man who rarely checks his facts, misreads situations and tends to make them worse.",
+      "revealedIn": ["allomancer-jak"]
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "intro": [
+    {
+      "text": "A nobleman at Kelesina Shores' party whose name appears in ReLuur's notebook among people who may be linked to the Bands of Mourning.",
+      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "12" }]
+    },
+    {
+      "text": "The mayor of Bilming, elected in 346 PC, and a figurehead for the Outer Cities.",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "27" }]
+    },
+    {
+      "text": "The mayor of Bilming and a figurehead for the Outer Cities, who secretly oversees experiments to draw Investiture out of ordinary people in the hope of impressing Autonomy.",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "47" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "History",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "bands-of-mourning", "chapter": "13" },
+                { "book": "lost-metal", "chapter": "27" }
+              ]
+            },
+            { "book": "bands-of-mourning", "chapter": "12" },
+            { "book": "lost-metal", "chapter": "27" },
+            { "book": "lost-metal", "chapter": "47" },
+            { "book": "lost-metal", "chapter": "59" },
+            { "book": "lost-metal", "chapter": "epilogue-1" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Born and raised in New Seran, Gave went into textiles and at one time did business with House Ladrian. In 342 PC he bought some of the medallions salvaged from the Southern Scadrian airship Brunstell.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "bands-of-mourning", "chapter": "13" },
+                { "book": "lost-metal", "chapter": "27" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "At Kelesina Shores' party Wax wanted to steer clear of Gave, having once courted his cousin Valette, but Steris pointed out that he was on ReLuur's list. When Wax asked him about archaeology, Gave insulted him to provoke a reason to leave; when that failed, he insulted Steris, and Wax angrily reached for his gun.",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "12" }]
+        },
+        {
+          "text": "Elected mayor of Bilming in 346 PC, Gave became a figurehead for the Outer Cities, and the city grew and was rebuilt under him, though local constables ignored his ban on noseball. When Wax's team were held after a failed sting, he argued that overriding Bilming's sovereignty would make Wax a hypocrite, and dismissed VenDell as a puppet.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "27" }]
+        },
+        {
+          "text": "At a factory, Entrone watched scientists demonstrate drawing Investiture out of people with no powers. Judging it not yet good enough to impress Autonomy, he resigned himself to helping the red-eyed army arrive and ordered the test subjects killed.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "47" }]
+        },
+        {
+          "text": "In his underground mansion, Gave saw through Marasi's attempt to trick him into confessing over the public address system. They fought, and his gold and pewter nearly killed her before she knocked off his aluminum-lined hat.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "59" }]
+        },
+        {
+          "text": "Though allied with the Set, Gave had planned to take Telsin's place if she failed to win the Basin. He abducted political opponents in Bilming, among them Kyndlip Ternavyl and Pielle Fromed, for Hemalurgic experiments meant to mass-produce Metalborn. Once Autonomy's army started to appear he stopped the work and retreated to the Community with his loyalists; the captives were rescued.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "epilogue-1" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Gave wears a near-constant smug smile, has a sharp chin and slicked-back black hair, and dresses in formalwear with diamond cufflinks.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "bands-of-mourning", "chapter": "12" },
+            { "book": "lost-metal", "chapter": "27" }
+          ]
+        }
+      ]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Known as dynamic, he was broadly well regarded before he became mayor.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "bands-of-mourning", "chapter": "12" },
+            { "book": "lost-metal", "chapter": "27" }
+          ]
+        }
+      ]
+    }
+  ],
+  "abilities": [
+    {
+      "title": [
+        {
+          "text": "Hemalurgy",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "60" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Gave is a Hemalurgist; his spikes give him the powers of a Lurcher, a Coinshot, a Pewterarm and a Bloodmaker.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "60" }]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "intro": [
+    {
+      "text": "One of Winsting Innate's bodyguards in Elendel.",
+      "revealedIn": [{ "book": "shadows-of-self", "chapter": "1" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Winsting's auction",
+          "revealedIn": [
+            { "book": "shadows-of-self", "chapter": "1" },
+            { "book": "shadows-of-self", "chapter": "10" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Flog ran security at Winsting's auction and stayed at his side throughout. He had checked every guest's background because of the crimes planned for the night, so the slender blond woman with Dowser Maline baffled him.",
+          "revealedIn": [{ "book": "shadows-of-self", "chapter": "1" }]
+        },
+        {
+          "text": "When the shooting began, Flog hurried Winsting down to his basement saferoom, then went back up to look. Winsting let him in on his return, and he reported that everyone upstairs was dead. Moments afterwards someone cut Winsting's throat.",
+          "revealedIn": [{ "book": "shadows-of-self", "chapter": "1" }]
+        },
+        {
+          "text": "The man who came back was not Flog. Bleeder, a kandra and the unknown guest, had killed him upstairs and taken his shape to get to Winsting.",
+          "revealedIn": [{ "book": "shadows-of-self", "chapter": "10" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Wears a hat and duster in the Roughs style, though he has never been outside the Elendel Basin.",
+      "revealedIn": [{ "book": "shadows-of-self", "chapter": "1" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Loyal and obedient, partly because of Winsting's Rioting. Unlike his employer, he believes the mists are supernatural and sometimes keeps out of them.",
+      "revealedIn": [{ "book": "shadows-of-self", "chapter": "1" }]
+    }
+  ]
+}

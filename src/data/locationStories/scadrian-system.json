@@ -1,0 +1,30 @@
+{
+  "intro": [
+    {
+      "text": "The star system that holds the planet Scadrial.",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "epilogue-4" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Ruin and Preservation made its planet. That planet's orbit has not stayed fixed: Rashek drew it nearer the sun to burn away the Deepness, which forced him to raise the ashmounts against the heat, and Sazed set it back on its old course when he remade the world.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "82" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Autonomy and the system",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "epilogue-4" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "The Shard Autonomy tried to invade the system, but the attempt was stopped.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "epilogue-4" }]
+        }
+      ]
+    }
+  ]
+}

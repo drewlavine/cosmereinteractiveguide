@@ -1,0 +1,42 @@
+{
+  "intro": [
+    {
+      "text": "The national bank of Thaylenah, in Thaylen City, by the wall just beyond the Ancient Ward. It keeps gemstones safe in its vaults so they need not be moved and risk theft.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "i-13" }]
+    },
+    {
+      "text": "The national bank of Thaylenah, in Thaylen City by the Ancient Ward, whose building was wrecked by a thunderclast during the battle for the city.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "116" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Many of its gems never leave the vaults and are kept uncharged. Famous stones include the King's Drop, a huge ruby that has held its Stormlight for centuries, and the Benval Diamond, which once belonged to Vstim.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "i-13" }]
+    },
+    {
+      "text": "Rysn works there, with an office in the building, managing Queen Fen's personal finances and looking after the queen's own vault.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "i-13" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The battle for Thaylen City",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "116" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Before the battle, a Fused disguised as one of the guards joined an inspection of the vaults and tried to steal the King's Drop, but failed.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "116" }]
+        },
+        {
+          "text": "During the battle, a thunderclast tore the Reserve apart searching for the King's Drop, scattering its contents across the city.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "116" }]
+        }
+      ]
+    }
+  ]
+}

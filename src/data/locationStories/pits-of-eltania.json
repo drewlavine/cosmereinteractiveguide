@@ -1,0 +1,27 @@
+{
+  "intro": [
+    {
+      "text": "An area somewhere in the Roughs.",
+      "revealedIn": ["alloy-of-law"]
+    }
+  ],
+  "description": [
+    {
+      "text": "Several koloss tribes live here, making it very dangerous to enter, and red dust coats everything. There is a cave, and a small river in a canyon that swells after heavy rain and runs into the Rancid. The Elendel Daily claims precious, unknown metals can be found here.",
+      "revealedIn": ["allomancer-jak"]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        { "text": "The Survivor's Treasure", "revealedIn": ["allomancer-jak"] }
+      ],
+      "items": [
+        {
+          "text": "Jak ventured in, ran into the koloss and found the Survivor's Treasure: a big aluminum chest full of spikes, lying in a pool of water.",
+          "revealedIn": ["allomancer-jak"]
+        }
+      ]
+    }
+  ]
+}

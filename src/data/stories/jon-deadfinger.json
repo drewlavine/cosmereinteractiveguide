@@ -1,0 +1,62 @@
+{
+  "intro": [
+    {
+      "text": "A lawman from Far Dorest in the Roughs, and a hard one, willing to beat a confession out of a suspect.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "11" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Lawman of Far Dorest",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "alloy-of-law", "chapter": "4" },
+                { "book": "shadows-of-self", "chapter": "6" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "alloy-of-law", "chapter": "10" },
+                { "book": "shadows-of-self", "chapter": "6" }
+              ]
+            },
+            { "book": "alloy-of-law", "chapter": "11" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Deadfinger was already a lawman when Wax came to the Roughs, and he taught Wax the basics of the job. As the only lawman in a crowded town, he was kept busy in Far Dorest and seldom worked beyond it.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "alloy-of-law", "chapter": "4" },
+                { "book": "shadows-of-self", "chapter": "6" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Deadfinger easily caught Wayne, then sixteen, after Wayne accidentally killed the innocent man he was robbing. He and Wax found the boy hiding in a crawlspace under a house, and Deadfinger hauled him out while Wayne complained of gunfire only he could hear.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "alloy-of-law", "chapter": "10" },
+                { "book": "shadows-of-self", "chapter": "6" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "For a few years after Wax left to become Weathering's lawman, he, Deadfinger and Miles Dagouter kept up a loose alliance of lawkeepers, which seems to have fallen apart in time.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "11" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

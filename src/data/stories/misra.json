@@ -1,0 +1,60 @@
+{
+  "intro": [
+    {
+      "text": "Ranette's girlfriend, in Elendel.",
+      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "4" }],
+      "fallback": true
+    },
+    {
+      "text": "A woman in Elendel who used to be Ranette's girlfriend.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "shadows-of-self", "chapter": "19" },
+            { "book": "bands-of-mourning", "chapter": "4" },
+            { "book": "lost-metal", "chapter": "14" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "With Ranette",
+          "revealedIn": [
+            { "book": "bands-of-mourning", "chapter": "4" },
+            {
+              "all": [
+                { "book": "shadows-of-self", "chapter": "19" },
+                { "book": "bands-of-mourning", "chapter": "4" },
+                { "book": "lost-metal", "chapter": "epilogue-5" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Wayne's last-ditch suggestion of a romantic evening that would include Ranette and her girlfriend got a stern no from Ranette.",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "4" }]
+        },
+        {
+          "text": "Misra and Ranette were a couple in 342 PC; during the Elendel riots, Ranette joked that drinking with Wayne could get her shot by Misra. The two later parted, and by 348 PC Ranette was with Jaxy.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "shadows-of-self", "chapter": "19" },
+                { "book": "bands-of-mourning", "chapter": "4" },
+                { "book": "lost-metal", "chapter": "epilogue-5" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

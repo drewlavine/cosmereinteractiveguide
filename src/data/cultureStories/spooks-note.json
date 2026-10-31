@@ -1,0 +1,108 @@
+{
+  "intro": [
+    {
+      "text": "A message Spook carves into a thin sheet of metal for Vin, since words written in metal can't be read or changed by Ruin.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "64" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "The note warns Vin that Ruin can sway anyone whose body is pierced by metal.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "69" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Delivering the note",
+          "revealedIn": [
+            { "book": "hero-of-ages", "chapter": "64" },
+            { "book": "hero-of-ages", "chapter": "69" },
+            {
+              "all": [
+                { "book": "hero-of-ages", "chapter": "69" },
+                { "book": "secret-history", "chapter": "6-6" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "hero-of-ages", "chapter": "72" },
+                { "book": "secret-history", "chapter": "6-7" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Prompted by a voice while he lies wounded in Urteau, Spook writes the note but is too badly hurt to carry it. Captain Goradel offers to take it, since Vin saved his life on the night the Lord Ruler fell.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "64" }]
+        },
+        {
+          "text": "Goradel sets out from Urteau toward Luthadel, but Marsh intercepts him, kills him and takes the note, then reads it aloud so that Ruin can learn what it says.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "69" }]
+        },
+        {
+          "text": "The voice was Kelsier's: holding Preservation's power, he had spoken to the wounded Spook and urged him to write the note.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "hero-of-ages", "chapter": "69" },
+                { "book": "secret-history", "chapter": "6-6" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Kelsier had expected Ruin to seize the note and meant Marsh to read it. After Marsh took Vin captive in Luthadel, Kelsier distracted Ruin just long enough for Marsh to take back control of himself and pull out Vin's earring.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "hero-of-ages", "chapter": "72" },
+                { "book": "secret-history", "chapter": "6-7" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Addressed to",
+      "name": "Vin",
+      "characterId": "vin",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "64" }]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "spook",
+      "role": "writer",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "64" }]
+    },
+    {
+      "characterId": "goradel",
+      "role": "courier",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "64" }]
+    },
+    {
+      "characterId": "marsh",
+      "role": "intercepted it",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "69" }]
+    },
+    {
+      "characterId": "kelsier",
+      "role": "prompted it",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "hero-of-ages", "chapter": "69" },
+            { "book": "secret-history", "chapter": "6-6" }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "intro": [
+    {
+      "text": "A southern religion of old Scadrial, devoted to a god of farming, that died out a thousand years ago.",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "4" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "At a HaDah funeral a branch is driven into the bottom of the grave beside the dead person's head, so that once the grave is filled only its tip shows above the ground.",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "4" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Jed's funeral",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "4" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "After Teur tells him Jed collapsed and died in the mists, Sazed buries Jed with HaDah funeral rites.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "4" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "jed",
+      "role": "buried by rite",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "4" }]
+    },
+    {
+      "characterId": "sazed",
+      "role": "officiant",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "4" }]
+    },
+    {
+      "characterId": "teur",
+      "role": "witness",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "4" }]
+    }
+  ]
+}

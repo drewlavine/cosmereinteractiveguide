@@ -1,0 +1,29 @@
+{
+  "intro": [
+    {
+      "text": "A place on Roshar, one of those where Ishikk looked for a man named Hoid.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "i-1" }]
+    },
+    {
+      "text": "A city on the southern shore of the Purelake, on the border between Yulay and Tu Bayla.",
+      "revealedIn": ["oathbringer"]
+    }
+  ],
+  "description": [],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Ishikk's search",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "i-1" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "In 1173, a group of foreigners hired Ishikk to look for a man named Hoid in Fu Namir.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "i-1" }]
+        }
+      ]
+    }
+  ]
+}

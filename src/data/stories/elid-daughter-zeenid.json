@@ -78,5 +78,21 @@
       "text": "Direct and personable, she swears casually and doubts that stones are holy. She cares deeply for her family but holds grudges against her father and Szeth.",
       "revealedIn": [{ "book": "wind-and-truth", "chapter": "90" }]
     }
+  ],
+  "abilities": [
+    {
+      "title": [
+        {
+          "text": "The Honorblade",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "128" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "The Dustbringer Honorblade grants Elid Division and Abrasion. Ishar turned her into a Cognitive Shadow capable of taking another human body after death.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "128" }]
+        }
+      ]
+    }
   ]
 }

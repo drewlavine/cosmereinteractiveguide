@@ -1,0 +1,39 @@
+{
+  "intro": [
+    {
+      "text": "A popular ride at Kilahito's carnival, in which two-person pods are carried up a tall steel post, over the top and down the far side.",
+      "revealedIn": [{ "book": "yumi", "chapter": "28" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "The ride moves slowly and stops now and then, giving riders at the top time to take in the view while others climb aboard below.",
+      "revealedIn": [{ "book": "yumi", "chapter": "28" }]
+    },
+    {
+      "text": "When Yumi and Nikaro go on the Jotun Line, they are waved to the front of the long queue because Yumi is taken for a working painter.",
+      "revealedIn": [{ "book": "yumi", "chapter": "28" }]
+    }
+  ],
+  "history": [],
+  "facts": [
+    {
+      "label": "Location",
+      "name": "Kilahito",
+      "placeId": "kilahito",
+      "revealedIn": [{ "book": "yumi", "chapter": "28" }]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "yumi",
+      "role": "rider",
+      "revealedIn": [{ "book": "yumi", "chapter": "28" }]
+    },
+    {
+      "characterId": "nikaro",
+      "role": "rider",
+      "revealedIn": [{ "book": "yumi", "chapter": "28" }]
+    }
+  ]
+}

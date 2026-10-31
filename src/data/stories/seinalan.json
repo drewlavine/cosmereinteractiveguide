@@ -1,0 +1,47 @@
+{
+  "intro": [
+    {
+      "text": "The patriarch of the Korathi church, who is travelling to Arelon for reasons nobody knows.",
+      "revealedIn": [{ "book": "elantris", "chapter": "35" }],
+      "fallback": true
+    },
+    {
+      "text": "The patriarch and head of the Korathi church, who comes to Arelon carrying a decree from the late King Iadon.",
+      "revealedIn": [{ "book": "elantris", "chapter": "38" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Patriarch",
+          "revealedIn": [
+            { "book": "elantris", "chapter": "38" },
+            { "book": "elantris", "chapter": "56" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Seinalan became patriarch after Wulfden the Fourth was made Wyrn, as the Korathi leaders wanted someone just as young to lead them, whether or not he was suited to the post.",
+          "revealedIn": [{ "book": "elantris", "chapter": "38" }]
+        },
+        {
+          "text": "Early in his reign, Iadon had given Seinalan a sealed decree on inheritance, to be read at Iadon's funeral or after fifteen years. A patriarch's word was beyond question, and on arriving in Arelon he revealed that noble titles would now pass by inheritance instead of wealth.",
+          "revealedIn": [{ "book": "elantris", "chapter": "38" }]
+        },
+        {
+          "text": "Seinalan came to Sarene and Roial's wedding, though he was annoyed not to be asked to perform it. He did preside over Raoden's coronation, but was so stunned when Raoden's disguise fell away that Sarene had to finish the ceremony.",
+          "revealedIn": [{ "book": "elantris", "chapter": "56" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "A tall man of about forty, with long golden hair and delicate features.",
+      "revealedIn": [{ "book": "elantris", "chapter": "38" }]
+    }
+  ],
+  "personality": []
+}

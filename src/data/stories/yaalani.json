@@ -1,0 +1,30 @@
+{
+  "intro": [
+    {
+      "text": "Yaalani the Brave, a legendary Eelakin woman.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "6" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The legend",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "6" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Legend tells that Yaalani was the only woman trapper in Eelakin history, defying custom to go to the Pantheon and catch Aviar. Her tale is well known and often told to young girls.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "6" }]
+        },
+        {
+          "text": "Vathi grew up on stories of Yaalani, and has since found similar myths in many cultures of a remarkable woman taking a man's role. She believes parents tell them to teach girls that breaking tradition is the exception, not the rule.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "6" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

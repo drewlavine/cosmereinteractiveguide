@@ -3,6 +3,10 @@
     {
       "text": "An island kingdom in the south of Roshar, with its capital at Thaylen City. Its people and their language are called Thaylen.",
       "revealedIn": [{ "book": "way-of-kings", "chapter": "3" }]
+    },
+    {
+      "text": "An island kingdom that joined Odium by agreement before the contest of champions.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "123" }]
     }
   ],
   "description": [
@@ -87,6 +91,20 @@
         {
           "text": "The Everstorm devastated Thaylen City, and its parshmen stole the ships and left, crippling the famous navy. With no other choice, the Thaylens allied with Urithiru and stayed even after the alliance broke apart.",
           "revealedIn": [{ "book": "oathbringer", "chapter": "113" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Before the contest",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "123" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "A supposed invasion fleet drew coalition forces toward Thaylen City. The threat was a diversion, and Odium secured Queen Fen's agreement to join him after debating Jasnah.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "123" }]
         }
       ]
     }

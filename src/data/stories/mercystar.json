@@ -1,0 +1,62 @@
+{
+  "intro": [
+    {
+      "text": "A goddess of Hallandren's Court of Gods.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "21" }],
+      "fallback": true
+    },
+    {
+      "text": "A goddess of Hallandren who commands ten thousand Lifeless, and whose palace opens onto tunnels that run beneath the Court. She dabbles in politics but carries little weight, and gods with more skill at persuasion can talk her round easily.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "23" }]
+    },
+    {
+      "text": "Hallandren's goddess of kindness and benevolence, who commands ten thousand Lifeless and whose palace opens onto tunnels beneath the Court. She dabbles in politics but carries little weight, and is easily talked round.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "31" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "In the Court of Gods",
+          "revealedIn": [
+            { "book": "warbreaker", "chapter": "23" },
+            { "book": "warbreaker", "chapter": "30" },
+            { "book": "warbreaker", "chapter": "38" },
+            { "book": "warbreaker", "chapter": "52" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "When Vasher breaks into her palace, Blushweaver uses it as a reason to call on her, bringing Lightsong along. Comforting the rattled goddess, Blushweaver convinces her that an Idrian was behind it and that she should join them in getting ready for war.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "23" }]
+        },
+        {
+          "text": "She gives her Lifeless Commands to Blushweaver, swayed partly by Lightsong's curiosity about the break-in, which he had come to her palace to look into.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "30" }]
+        },
+        {
+          "text": "She sends her priests through the tunnels to the God King's palace, which helps Lightsong see that the passages exist and why they matter.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "38" }]
+        },
+        {
+          "text": "Lightsong and Llarimar sneak into her palace and down into the tunnels beneath it, where they find Blushweaver being held captive.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "52" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Voluptuous and very beautiful, as nearly all Returned are; Lightsong calls her curvy, even plump. Her colours are orange and gold, and her clothes tend to be gaudy.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "30" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "A good woman, but vain, theatrical and fond of luxury: Lightsong finds her reclining on a couch while male servants wave great palm fronds over her. Gods with a better gift for rhetoric can sway her without much trouble.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "23" }]
+    }
+  ]
+}

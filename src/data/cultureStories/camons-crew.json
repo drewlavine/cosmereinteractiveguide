@@ -1,0 +1,87 @@
+{
+  "intro": [
+    {
+      "text": "A crew of thieves in Luthadel led by Camon, who poses as a lord to swindle the Steel Ministry. Vin is one of its members.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "1" }]
+    },
+    {
+      "text": "A crew of thieves in Luthadel, formed and led by Camon until Kelsier removes him and makes Milev crewleader.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "3" }]
+    },
+    {
+      "text": "A crew of thieves in Luthadel, led by Camon and then Milev, which the Steel Ministry wipes out after Vin uses Allomancy on an obligator during one of its jobs.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "11" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "The crew's lair is well placed: in a slum, but close to wealthy areas.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "1" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Camon's last job",
+          "revealedIn": [
+            { "book": "final-empire", "chapter": "1" },
+            { "book": "final-empire", "chapter": "2" },
+            { "book": "final-empire", "chapter": "3" },
+            { "book": "final-empire", "chapter": "11" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "With Camon posing as Lord Jedue, head of a house hungry for new contracts, the crew tries to con the Steel Ministry. Ulef fetches Vin, who uses her Luck on the obligator Prelan Laird to keep him from turning Camon away.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "1" }]
+        },
+        {
+          "text": "Vin turns her Luck on the High Prelan, and he grants Camon three thousand boxings, but he and a Steel Inquisitor then have Camon's party followed.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "2" }]
+        },
+        {
+          "text": "Ulef tells Camon that Vin plans to leave the lair. Kelsier steps in to save her, removes Camon and puts Milev in charge, takes the three thousand boxings as his fee for dealing with the obligator and the Inquisitor, and rents the crew's den for a meeting.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "3" }]
+        },
+        {
+          "text": "The job had been a joint one with Theron's crew, and because Vin turned Allomancy on an obligator, an Inquisitor was sent after them. Kelsier draws the Inquisitor off and the Ministry loses the trail, but it finds the crew anyway and kills them all.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "11" }]
+        },
+        {
+          "text": "At the ruined lair Vin finds the bodies of Ulef, torn apart, and Milev, tied to a chair and tortured. Kelsier finds Camon among the beggars, tortured and hung from a hook, the execution kept for those who abuse Allomancy.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "11" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "camon",
+      "role": "Crewleader",
+      "revealedIn": [{ "book": "final-empire", "chapter": "1" }]
+    },
+    {
+      "characterId": "vin",
+      "role": "Crew member",
+      "revealedIn": [{ "book": "final-empire", "chapter": "1" }]
+    },
+    {
+      "characterId": "ulef",
+      "role": "Crew member",
+      "revealedIn": [{ "book": "final-empire", "chapter": "1" }]
+    },
+    {
+      "characterId": "milev",
+      "role": "Crewleader",
+      "revealedIn": [{ "book": "final-empire", "chapter": "3" }]
+    },
+    {
+      "characterId": "theron",
+      "role": "Partner crewleader",
+      "revealedIn": [{ "book": "final-empire", "chapter": "11" }]
+    }
+  ]
+}

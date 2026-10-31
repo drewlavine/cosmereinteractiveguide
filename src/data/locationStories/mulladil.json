@@ -1,0 +1,34 @@
+{
+  "intro": [
+    {
+      "text": "A mountainous region of the Rose Empire. Its people, also called Mulla'dil, have been commonly known as Strikers since joining the empire.",
+      "revealedIn": [{ "book": "emperors-soul", "chapter": "day-42" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Though part of the empire, its people keep their own culture and still speak the Mulla'dil language. It borders the swamps of Dzhamar, and Strikers and Dzhamarians hate one another; the Strikers find the Dzhamarian practice of Bloodsealing revolting and unnatural.",
+      "revealedIn": [{ "book": "emperors-soul", "chapter": "day-76" }]
+    },
+    {
+      "text": "Mulla'dil people tend to be tall, lean and athletic, with pale skin and dark, curly hair.",
+      "revealedIn": [{ "book": "emperors-soul", "chapter": "day-97" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Under the Rose Empire",
+          "revealedIn": [{ "book": "emperors-soul", "chapter": "day-98" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "The empire absorbed Mulla'dil long before Emperor Ashravan's reign, and its name is now rarely heard. The Grands think highly of its people, whom they renamed Strikers. Strikers are often Elevated and commonly serve the empire as guards or soldiers, and those working at the Rose Palace must be able to read.",
+          "revealedIn": [{ "book": "emperors-soul", "chapter": "day-98" }]
+        }
+      ]
+    }
+  ]
+}

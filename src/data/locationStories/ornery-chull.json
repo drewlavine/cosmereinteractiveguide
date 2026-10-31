@@ -1,0 +1,34 @@
+{
+  "intro": [
+    {
+      "text": "A wooden tavern in the warcamps on the Shattered Plains.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "46" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "It is built against a bigger stone building, on its leeward side, and is lit by firelight, since drunk customers might pocket spheres. The main room is packed, smoky and loud; private dining rooms down a back hallway mostly serve rich merchants. Wines and lavis ale are popular, but it refuses Horneater lager, which melts its cups.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "46" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Regulars",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "46" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Once released from bridge duty, Kaladin's bridgemen often drank there. It was a favourite of Moash and above all of Peet, who was smitten with a barmaid named Ka, though Rock preferred taverns that served Horneater lager.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "46" }]
+        },
+        {
+          "text": "Graves and his associates met Moash and Kaladin in one of its private rooms to talk about King Elhokar.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "46" }]
+        }
+      ]
+    }
+  ]
+}

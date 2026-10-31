@@ -1,0 +1,147 @@
+{
+  "intro": [
+    {
+      "text": "Quartermaster of the Crow's Song, a deaf man who talks through a board on which words appear.",
+      "revealedIn": [{ "book": "tress", "chapter": "14" }],
+      "fallback": true
+    },
+    {
+      "text": "Cook, trader and quartermaster of the Crow's Song, who is deaf and talks through a board he got in a trade with a wizard from another world.",
+      "revealedIn": [{ "book": "tress", "chapter": "15" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Early life",
+          "revealedIn": [
+            { "book": "tress", "chapter": "40" },
+            { "book": "tress", "chapter": "15" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Fort comes from the Islands of Lobu in the Sapphire Sea, where his family held the tradition of the Hunt in deep respect. When he came of age he chose trading as his hunt, and he keeps a record of his deals to send home for his family's hall.",
+          "revealedIn": [{ "book": "tress", "chapter": "40" }]
+        },
+        {
+          "text": "Growing up he got by with sign language and lip reading, until he traded with a visitor from another world for a board that shows him what people say and writes out his replies.",
+          "revealedIn": [{ "book": "tress", "chapter": "15" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Aboard the Crow's Song",
+          "revealedIn": [
+            { "book": "tress", "chapter": "14" },
+            { "book": "tress", "chapter": "15" },
+            { "book": "tress", "chapter": "21" },
+            { "book": "tress", "chapter": "23" },
+            { "book": "tress", "chapter": "32" },
+            { "book": "tress", "chapter": "37" },
+            { "book": "tress", "chapter": "40" },
+            { "book": "tress", "chapter": "49" },
+            { "book": "tress", "chapter": "53" },
+            { "book": "tress", "chapter": "54" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Fort and Ann were looking over the cannonballs for faults after the Oot's Dream went down; the sinking was not what either of them had signed on for. Spotting Tress sneaking about, Fort called her over.",
+          "revealedIn": [{ "book": "tress", "chapter": "14" }]
+        },
+        {
+          "text": "Fort told Tress she was a pirate now, or had better not deny it, and fed her, insisting it was a trade and not a kindness. He warned her that his board worked only for him, and swapped Salay a pocket watch for four gold earrings she had won at cards.",
+          "revealedIn": [{ "book": "tress", "chapter": "15" }]
+        },
+        {
+          "text": "He would hear no talk of mutiny, but his board admitted that he thought the captain could kill every one of them.",
+          "revealedIn": [{ "book": "tress", "chapter": "21" }]
+        },
+        {
+          "text": "Fort had sailed ten of Lumar's seas, every one but the Crimson and the Midnight. He explained to Tress how the Sorceress's grip on trade was pushing the king toward war, traded her the truth about Ann's dreadful aim, and mentioned that Crow had made a special trade to get Hoid aboard.",
+          "revealedIn": [{ "book": "tress", "chapter": "23" }]
+        },
+        {
+          "text": "At a secret meeting with Ann and Salay about Crow, Fort doubted that Tress was a royal agent, and suggested coaxing the captain onto a quieter sea such as the Crimson.",
+          "revealedIn": [{ "book": "tress", "chapter": "32" }]
+        },
+        {
+          "text": "Fort brought Tress a missed dinner and admitted he had been giving her the first helpings all along, not scraps. When Weev died, everyone aboard had tried cooking, and Fort was the least bad at it. He had also grown fond of Hoid and fed him first, though no one had told him to.",
+          "revealedIn": [{ "book": "tress", "chapter": "37" }]
+        },
+        {
+          "text": "Tress cooked him a meal that made him weep, and they haggled their way to six of his meals for each of hers, plus a flare gun in exchange for desserts. He told her he had been raised a hunter and wrote home about his best trades.",
+          "revealedIn": [{ "book": "tress", "chapter": "40" }]
+        },
+        {
+          "text": "Fort's rope hauled Tress back aboard after she saved the ship from a crimson storm. When she wondered aloud whether to let herself be traded to the dragon, he insisted they could not follow a captain willing to kill.",
+          "revealedIn": [{ "book": "tress", "chapter": "49" }]
+        },
+        {
+          "text": "When Crow caught the mutineers, she put Fort down first with a crushing blow to the face and smashed his board on purpose. Tress came back from the dragon with a new board for him, and he was deeply grateful.",
+          "revealedIn": [{ "book": "tress", "chapter": "53" }]
+        },
+        {
+          "text": "He suggested turning Tress's vine-growing shot into a spore cannonball to stop the Sorceress's metal men.",
+          "revealedIn": [{ "book": "tress", "chapter": "54" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "On the Midnight Sea",
+          "revealedIn": [
+            { "book": "tress", "chapter": "62" },
+            { "book": "tress", "chapter": "64" },
+            { "book": "tress", "chapter": "epilogue" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "When Tress was carried off, Fort thought of a way to follow. Standing among barrels of water with kegs of spores hung over them, he bargained with the midnight essences that came aboard: guard the ship across the sea and the water was theirs. Tress reached him through his board and asked the officers to get Hoid to the island.",
+          "revealedIn": [{ "book": "tress", "chapter": "62" }]
+        },
+        {
+          "text": "Inside the tower he helped Tress up and drew his pistol on the Sorceress alongside Salay until she fled. Back aboard, he brought out drink he had been saving for just such a day.",
+          "revealedIn": [{ "book": "tress", "chapter": "64" }]
+        },
+        {
+          "text": "The crew sold the Crow's Song for a new ship, the Two Cups, and Fort taught them some sign language so they could talk without shouting over the wind and spores.",
+          "revealedIn": [{ "book": "tress", "chapter": "epilogue" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Enormous, not fat but simply built bigger than everyone else, large enough to hold a ceramic cannonball in one hand.",
+      "revealedIn": [{ "book": "tress", "chapter": "15" }]
+    },
+    {
+      "text": "His fingers are gnarled and his hands shake when he picks things up, which makes fine shapes hard, so he cannot write. He finds his own ways to manage, and the board makes talking far easier.",
+      "revealedIn": [{ "book": "tress", "chapter": "15" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Though a pirate, he wants no one's death on his conscience.",
+      "revealedIn": [{ "book": "tress", "chapter": "14" }]
+    },
+    {
+      "text": "He believes sailors' legends easily, such as tales of bone spores he has never seen.",
+      "revealedIn": [{ "book": "tress", "chapter": "23" }]
+    },
+    {
+      "text": "He loves to haggle and treats every trade as a hunt, as his upbringing taught him.",
+      "revealedIn": [{ "book": "tress", "chapter": "40" }]
+    }
+  ]
+}

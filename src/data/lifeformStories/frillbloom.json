@@ -1,0 +1,43 @@
+{
+  "intro": [
+    {
+      "text": "A family of Rosharan plants that thrive in the Shattered Plains chasms, growing bigger there than elsewhere.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "49" }]
+    },
+    {
+      "text": "A family of Rosharan plants with fanlike fronds that fold up like a fist when startled. Frillbloom is common in the Shattered Plains chasms, where it grows larger than elsewhere.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "49" },
+            { "book": "words-of-radiance", "chapter": "12" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "In the chasms, Kaladin sees lifespren dancing about the frillbloom.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "9" }]
+    },
+    {
+      "text": "Species come in yellow, orange, red and violet. Some have veined fronds; others have spines at the leaf tips.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "55" },
+            { "book": "words-of-radiance", "chapter": "71" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Frillbloom also closes up when a storm is coming.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "72" }]
+    }
+  ],
+  "history": [],
+  "facts": [],
+  "people": []
+}

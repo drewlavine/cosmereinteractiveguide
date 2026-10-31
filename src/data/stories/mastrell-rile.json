@@ -1,0 +1,27 @@
+{
+  "intro": [
+    {
+      "text": "A mastrell of the Diem and the father of Drile.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "1" }],
+      "fallback": true
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The Diem",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "5" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Rile's son Drile showed rare power as a recruit. Since Kenton was the only mastrell to survive the warrior-priests' attack on the Diem, Rile presumably died during it or before.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "5" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

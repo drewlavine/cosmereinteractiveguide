@@ -1,0 +1,122 @@
+{
+  "intro": [
+    {
+      "text": "A religion tolerated in Arelon, though few Arelene converted while the Elantrians held their godlike power.",
+      "revealedIn": [{ "book": "elantris", "chapter": "4" }]
+    },
+    {
+      "text": "The parent religion of Shu-Korath and Shu-Dereth, centred on unity of mind and acceptance; the two sects split from it when Keseg's students disagreed on how to unite mankind.",
+      "revealedIn": [{ "book": "elantris", "chapter": "14" }]
+    },
+    {
+      "text": "The parent religion of Shu-Korath and Shu-Dereth, founded by Keseg, a JinDo teacher who preached the power of unity. Its teachings are kept in the Do-Kando.",
+      "revealedIn": [{ "book": "elantris", "chapter": "43" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Its core ideals are unity, above all unity of mind, and acceptance.",
+      "revealedIn": [{ "book": "elantris", "chapter": "14" }]
+    },
+    {
+      "text": "To avoid war, JinDo took up Shu-Dereth as its official religion, but most of its people still follow Shu-Keseg.",
+      "revealedIn": [{ "book": "elantris", "chapter": "14" }]
+    },
+    {
+      "text": "Its founder, Keseg, was a man of JinDo who preached the power of unity. Honoured as a great teacher, he was given the name KeHwo. His teachings are kept in the Do-Kando.",
+      "revealedIn": [{ "book": "elantris", "chapter": "43" }]
+    },
+    {
+      "text": "Shu-Keseg is still seen as the forerunner of both sects, but it is practised, unofficially, only in JinDo.",
+      "revealedIn": [{ "book": "elantris", "chapter": "43" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The two sects",
+          "revealedIn": [
+            { "book": "elantris", "chapter": "14" },
+            { "book": "elantris", "chapter": "6" },
+            { "book": "elantris", "chapter": "prologue" },
+            { "book": "elantris", "chapter": "53" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Two of Keseg's students, Korath and Dereth, left their homeland of JinDo to carry Shu-Keseg abroad, but disagreed on how to reach its central goal of unity. Korath taught that love should bring mankind together, Dereth that obedience should, and the rift produced Shu-Korath and Shu-Dereth, two rival sects.",
+          "revealedIn": [{ "book": "elantris", "chapter": "14" }]
+        },
+        {
+          "text": "Korath's teachings caught on in Teod, which is seen as the home of Shu-Korath.",
+          "revealedIn": [{ "book": "elantris", "chapter": "6" }]
+        },
+        {
+          "text": "After the fall of Fjorden's First Empire, about three centuries ago, its ruler converted to Shu-Dereth.",
+          "revealedIn": [{ "book": "elantris", "chapter": "prologue" }]
+        },
+        {
+          "text": "Fjorden then used the new faith as an excuse to conquer its neighbours in the name of divine unification, building the modern Fjordell Empire.",
+          "revealedIn": [{ "book": "elantris", "chapter": "53" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "In Arelon",
+          "revealedIn": [{ "book": "elantris", "chapter": "4" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Arelon tolerated Shu-Keseg, but few converted while the Elantrians held their godlike power.",
+          "revealedIn": [{ "book": "elantris", "chapter": "4" }]
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Founded by",
+      "name": "Keseg",
+      "characterId": "keseg",
+      "revealedIn": [{ "book": "elantris", "chapter": "43" }]
+    },
+    {
+      "label": "Scripture",
+      "name": "Do-Kando",
+      "revealedIn": [{ "book": "elantris", "chapter": "43" }]
+    },
+    {
+      "label": "Practised in",
+      "name": "JinDo",
+      "placeId": "jindo",
+      "revealedIn": [{ "book": "elantris", "chapter": "14" }]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "keseg",
+      "role": "founder",
+      "revealedIn": [{ "book": "elantris", "chapter": "43" }]
+    },
+    {
+      "characterId": "korath",
+      "role": "student",
+      "revealedIn": [{ "book": "elantris", "chapter": "14" }]
+    },
+    {
+      "characterId": "dereth",
+      "role": "student",
+      "revealedIn": [{ "book": "elantris", "chapter": "14" }]
+    },
+    {
+      "characterId": "shuden",
+      "role": "follower",
+      "revealedIn": [{ "book": "elantris", "chapter": "14" }]
+    }
+  ]
+}

@@ -1,0 +1,222 @@
+{
+  "intro": [
+    {
+      "text": "A secretive organization on Scadrial, which Wax travels to New Seran to confront.",
+      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "13" }]
+    },
+    {
+      "text": "A secretive organization on Scadrial whose members include Wax's uncle Edwarn and his sister Telsin.",
+      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "27" }]
+    },
+    {
+      "text": "A secretive organization on Scadrial, led by Telsin Ladrian, that serves Trell, an avatar of Autonomy. It aims to overthrow the Basin's government and rule Scadrial, proving to Autonomy that life there can go on.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "alloy-of-law", "chapter": "15" },
+            { "book": "bands-of-mourning", "chapter": "27" },
+            { "book": "lost-metal", "chapter": "35" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "Telsin held the rank of Sequence.",
+      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "27" }]
+    },
+    {
+      "text": "Its lowest rank is Cycle, who commands the local hired muscle; the hired men hold no rank themselves.",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "3" }]
+    },
+    {
+      "text": "Its highest rank, the Key, is the organization's leader.",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "21" }]
+    },
+    {
+      "text": "Its military wing, the Hidden Guard, wears red uniforms.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "bands-of-mourning", "chapter": "29" },
+            { "book": "lost-metal", "chapter": "35" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The Vanishers",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "alloy-of-law", "chapter": "epilogue" },
+                { "book": "lost-metal", "chapter": "56" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "alloy-of-law", "chapter": "epilogue" },
+                { "book": "lost-metal", "chapter": "57" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Edwarn Ladrian faked his own death to join the Set and funded Miles Dagouter's Vanishers, who staged eerie train robberies to abduct people descended from the Lord Mistborn so the Set could breed more Mistings. After catching Miles, Wax learned his uncle was alive and took Edwarn's pocketbook of notes and appointments.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "alloy-of-law", "chapter": "epilogue" },
+                { "book": "lost-metal", "chapter": "56" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "The Set held the people it took in caverns for two years, then for five more in Wayfarer, a hidden town beneath Bilming. It told them the world above had ended and that they had been chosen to carry on civilization, and hired actors to play survivors to make the lie convincing.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "alloy-of-law", "chapter": "epilogue" },
+                { "book": "lost-metal", "chapter": "57" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The Bands of Mourning",
+          "revealedIn": [
+            { "book": "bands-of-mourning", "chapter": "16" },
+            { "book": "bands-of-mourning", "chapter": "27" },
+            { "book": "bands-of-mourning", "chapter": "29" },
+            { "book": "bands-of-mourning", "chapter": "30" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The kandra told Wax the Set was active in New Seran, where Telsin had been seen. On the way, a Set train robbery struck his party, with Professor Irich present. In New Seran, Wax learned of Set activity near Dulsing and caught Lady Kelesina Shores talking to Suit through a strange metal box, shortly before a servant killed her.",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "16" }]
+        },
+        {
+          "text": "At the Sovereign's temple, the Set wanted the Bands of Mourning, but its main goal was the Hunter airship left there, along with its bombs.",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "27" }]
+        },
+        {
+          "text": "Marasi found that the real Bands were a spear tip Wayne had taken from a statue, and used them to save Wax. Wax then took the Bands aboard the departing airship and beat Suit in a duel.",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "29" }]
+        },
+        {
+          "text": "The Set's soldiers on the airship surrendered and were imprisoned, and the airship went to the Malwish. Telsin escaped.",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "30" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "A faster plan",
+          "revealedIn": [
+            { "book": "bands-of-mourning", "chapter": "epilogue" },
+            { "book": "lost-metal", "chapter": "59" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The Set had meant to reach its goals a century on, but the Bands, the southern Scadrians and their technology hastened its plans. In his Elendel cell, Suit was visited by a red-eyed creature, who said the Set had decided to end life on the planet instead and then set off an explosive that killed him.",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "epilogue" }]
+        },
+        {
+          "text": "Telsin persuaded Autonomy to give the Set another chance to take Scadrial. Autonomy, who admires bold ambition, made her an avatar but set a deadline: on a fixed date, an artificial perpendicularity would open to let Autonomy's armies in.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "59" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Bilming",
+          "revealedIn": [
+            { "book": "lost-metal", "chapter": "66" },
+            { "book": "lost-metal", "chapter": "74" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "In the six years after Edwarn's death, the Set took full control of Bilming for Autonomy, rebuilding the city to suit her philosophy. Its plan to impress her rested on a self-propelled rocket to carry its bomb, a device Autonomy herself had not worked out.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "66" }]
+        },
+        {
+          "text": "Wax's team and a group of Ghostbloods uncovered the plan. Marasi beat Gave Entrone with help from the Community's captives and led them to the surface. When Wax confronted Telsin, Harmony briefly cut her link to Autonomy, who then abandoned her. Wax and Wayne destroyed the bomb and Marasi the perpendicularity, and Autonomy grudgingly withdrew from Scadrial.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "74" }]
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Leader",
+      "name": "Telsin Ladrian",
+      "characterId": "telsin-ladrian",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "33" }]
+    },
+    {
+      "label": "Serves",
+      "name": "Trell",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "alloy-of-law", "chapter": "15" },
+            { "book": "bands-of-mourning", "chapter": "27" },
+            { "book": "lost-metal", "chapter": "35" }
+          ]
+        }
+      ]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "irich",
+      "role": "member",
+      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "18" }]
+    },
+    {
+      "characterId": "edwarn-ladrian",
+      "role": "member",
+      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "27" }]
+    },
+    {
+      "characterId": "telsin-ladrian",
+      "role": "member",
+      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "27" }]
+    },
+    {
+      "characterId": "fed",
+      "role": "member",
+      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "29" }]
+    },
+    {
+      "characterId": "dumad",
+      "role": "Sequence",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "23" }]
+    },
+    {
+      "characterId": "telsin-ladrian",
+      "role": "leader",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "33" }]
+    }
+  ]
+}

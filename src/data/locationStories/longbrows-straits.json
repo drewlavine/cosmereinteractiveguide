@@ -1,0 +1,59 @@
+{
+  "intro": [
+    {
+      "text": "A sea passage between the Frostlands and Thaylenah.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "1" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Tall, slender lighthouses line the straits to guide ships. Its waters hold santhidyn, khornaks, redwaters and shoals of small fish. The passage narrows near Klna City, but in places it is so wide that land is hard to make out.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "1" },
+            { "book": "oathbringer", "chapter": "i-1" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "In Shadesmar, the straits appear as land covered by a deserted forest of glass.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "112" }]
+    },
+    {
+      "text": "This Shadesmar landmass sits where the Sea of Lost Lights ends in the south, bordered by the Luminous Shallows and the Glasswater Deep, and holds the Shadesmar counterpart of Thaylen City.",
+      "revealedIn": ["oathbringer"]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The Wind's Pleasure",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "1" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "In 1173, the Wind's Pleasure carried Shallan Davar and Jasnah Kholin through the straits on their voyage toward the Shattered Plains from Kharbranth. The sea was fairly calm, though Captain Tozbek hinted that the passage could be hard. Shallan saw the dark Frostlands in the distance and cliffs on Thaylenah, and when she spotted a rare santhid she had the crew lower her into the water to sketch it.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "1" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "In Shadesmar",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "112" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Stranded in Shadesmar in 1174, Kaladin hoped the Honor's Path would pass near the straits so the group could make for the Oathgate at Thaylen City. When they sighted the straits, he flew the party onto the land, and after a long trek through a glass forest they reached Thaylen City, where thousands of enemy spren guarded the Oathgate.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "112" }]
+        }
+      ]
+    }
+  ]
+}

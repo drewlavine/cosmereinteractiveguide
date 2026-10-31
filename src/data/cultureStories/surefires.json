@@ -1,0 +1,37 @@
+{
+  "intro": [
+    {
+      "text": "A criminal gang in the Roughs.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "4" }]
+    }
+  ],
+  "description": [],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "In the Roughs",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "4" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Waxillium Ladrian ran into the gang while working as a lawman in the Roughs and put a stop to them. He thought of them as an unusual case.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "4" }]
+        },
+        {
+          "text": "Accounts of how Wax dealt with them slowly reached Elendel, where Lady Marasi Colms read them.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "4" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "waxillium-ladrian",
+      "role": "stopped them",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "4" }]
+    }
+  ]
+}

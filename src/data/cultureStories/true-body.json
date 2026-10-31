@@ -1,0 +1,61 @@
+{
+  "intro": [
+    {
+      "text": "An artificial skeleton made by kandra artisans, which kandra wear while they are in their Homeland.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "9" }]
+    },
+    {
+      "text": "An artificial skeleton made by kandra artisans for kandra to wear in their Homeland. Only the First Generation go without: they wear their own skeletons from when they were human, which the Lord Ruler gave back to them.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "68" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Kandra of younger generations, the Sevenths among them, often choose True Bodies that aren't human in shape: oddly thin or blocky, with triangular faces, huge eyes, scraps of cloth for hair, or extra limbs. Many older kandra find such bodies improper.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "9" }]
+    },
+    {
+      "text": "Most True Bodies follow the human form, with four limbs and a face much like a person's, and their heights vary. In the Homeland kandra usually keep their skin clear and wear little clothing, so that their True Bodies show.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "75" }]
+    }
+  ],
+  "history": [],
+  "sections": [
+    {
+      "title": "Materials",
+      "items": [
+        {
+          "text": "Crystal, the choice of Seconds like KanPaar: beautiful but fragile, and it can be tinted, for example red.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "9" }]
+        },
+        {
+          "text": "Wood, the choice of Sevenths like MeLaan, and often carved into unusual shapes.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "9" }]
+        },
+        {
+          "text": "Quartzite, the choice of Fifths like VarSell: strong, and often paired with the Blessing of Potency to make formidable warriors, though a heavy weight can crack it. It is thought lavish and sparkles faintly in the light.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "78" }]
+        }
+      ],
+      "parts": []
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "kanpaar",
+      "role": "crystal body",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "9" }]
+    },
+    {
+      "characterId": "varsell",
+      "role": "quartzite body",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "78" }]
+    },
+    {
+      "characterId": "melaan",
+      "role": "wooden body",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "9" }]
+    }
+  ]
+}

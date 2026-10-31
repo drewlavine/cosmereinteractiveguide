@@ -1,0 +1,119 @@
+{
+  "intro": [
+    {
+      "text": "A metal that kills spores. After patching a hole in a ship's hull, a sprouter uses silver to finish off the spores left over.",
+      "revealedIn": [{ "book": "tress", "chapter": "10" }]
+    },
+    {
+      "text": "A metal deadly to spores: near silver they turn a dull grey, die and stop reacting to water. Ships carry it for protection, aluminum shields against it, and a silver knife can cut a Luhel bond.",
+      "revealedIn": [{ "book": "tress", "chapter": "31" }]
+    },
+    {
+      "text": "A metal that kills spores, turning them grey and inert. In the Forests of Hell it also drives back shades and heals the harm their touch does.",
+      "revealedIn": [
+        { "all": ["shadows-for-silence", { "book": "tress", "chapter": "31" }] }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "Aluminum shields things from silver: the sprouter's cabin on the Crow's Song is lined with it so the stored spores survive.",
+      "revealedIn": [{ "book": "tress", "chapter": "22" }]
+    },
+    {
+      "text": "Spores that come close to silver go a dull grey, die and no longer react to water.",
+      "revealedIn": [{ "book": "tress", "chapter": "31" }]
+    }
+  ],
+  "history": [],
+  "sections": [
+    {
+      "title": "Against spores",
+      "items": [
+        {
+          "text": "Once a hull is mended with roseite, a sprouter kills the spores left over with silver.",
+          "revealedIn": [{ "book": "tress", "chapter": "10" }]
+        },
+        {
+          "text": "A silver knife can cut a Luhel bond.",
+          "revealedIn": [{ "book": "tress", "chapter": "31" }]
+        },
+        {
+          "text": "Ships are partly plated with silver on the deck and rails, often with strips set between the planks. Spore cannonballs use it to time when they let out spores and water, and crews keep silver-edged axes to hack free of verdant vines.",
+          "revealedIn": [{ "book": "tress", "chapter": "48" }]
+        },
+        {
+          "text": "Silver does not act at once: spores can take a few seconds to die, longer in large amounts. Roseite holds out against it, more so once hardened. Midnight Essence must actually touch silver to be harmed, where spores need only come near.",
+          "revealedIn": [{ "book": "tress", "chapter": "59" }]
+        },
+        {
+          "text": "The Sorceress's tower is clad entirely in silver, which guards it against spores and against other sprouters.",
+          "revealedIn": [{ "book": "tress", "chapter": "64" }]
+        }
+      ],
+      "parts": []
+    },
+    {
+      "title": "Against shades",
+      "items": [
+        {
+          "text": "In the Forests of Hell silver is precious, both as money and because it drives off shades. A shade that touches it is thrown back, though its touch blackens and spoils the metal. Every house is ringed with silver that must be kept up.",
+          "revealedIn": ["shadows-for-silence"]
+        },
+        {
+          "text": "Silver dust put straight onto a shade's wound reverses the rot its touch causes, but it does nothing if put on too late.",
+          "revealedIn": ["shadows-for-silence"]
+        },
+        {
+          "text": "Some warships carry a layer of silver in the hull as a routine guard against shades.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "59" }]
+        }
+      ],
+      "parts": []
+    },
+    {
+      "title": "Elsewhere",
+      "items": [
+        {
+          "text": "Silver alone gives no Allomantic power, but it makes up most of electrum, an alloy with gold. Like most metals, it can be pushed or pulled by Coinshots and Lurchers.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "hero-of-ages", "chapter": "31" },
+                { "book": "shadows-of-self", "chapter": "2" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Silver lines the cave in which the dragons guarded a Dawnshard, and the manacles that cut Illistandrista off from her powers are made of it.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "40" }]
+        },
+        {
+          "text": "The Prophet bound the Megalith's soul to its body using a silver spike together with an Aon. People also scatter silver dust to ward off the huge demons that roam the southern plains.",
+          "revealedIn": [{ "book": "fires-of-december", "chapter": "xli" }]
+        }
+      ],
+      "parts": []
+    }
+  ],
+  "facts": [
+    {
+      "label": "Kills",
+      "name": "Spores",
+      "revealedIn": [{ "book": "tress", "chapter": "10" }]
+    },
+    {
+      "label": "Blocked by",
+      "name": "Aluminum",
+      "revealedIn": [{ "book": "tress", "chapter": "22" }]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "dorp",
+      "role": "kills spores",
+      "revealedIn": [{ "book": "tress", "chapter": "10" }]
+    }
+  ]
+}

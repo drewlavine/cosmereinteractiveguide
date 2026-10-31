@@ -1,0 +1,30 @@
+{
+  "intro": [
+    {
+      "text": "A Purelaker village out on the Purelake, the only one for miles around.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "i-1" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Its houses stand on stilts that lift them only partway, so a few inches of water cover the floors, and their domed roofs make them look like rockbuds. Maib's house is near the middle of the village. A rare fish, the kolgril, lives nearby.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "i-1" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The foreigners' search",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "i-1" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "At Maib's house, Ishikk told a group of foreigners that Hoid had not been around.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "i-1" }]
+        }
+      ]
+    }
+  ]
+}

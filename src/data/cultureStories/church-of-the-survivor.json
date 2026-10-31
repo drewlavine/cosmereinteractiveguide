@@ -1,0 +1,149 @@
+{
+  "intro": [
+    {
+      "text": "A religion, followed mostly by skaa, centred on Kelsier.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "21" },
+            { "book": "well-of-ascension", "chapter": "5" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "Some of the miracles its believers tell of were really tricks, some done with Allomancy and some by a kandra, as part of Kelsier's plan to unsettle the Final Empire's balance of power.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "21" },
+            { "book": "well-of-ascension", "chapter": "5" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "In time it becomes Survivorism, which honours Kelsier as Lord of the Mists, said to appear on misty nights to bless those who stand on their own. Its main rule is simply to survive, which some find ironic in a faith founded on a death. Scars are a mark of devotion, and it distrusts nobles and politics.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "17" }]
+    },
+    {
+      "text": "After remaking the world, Sazed left books of his knowledge, known as the Words of Founding. Survivorists and Pathians both use them, though Survivorists dislike Pathians, who don't return the feeling.",
+      "revealedIn": [{ "book": "shadows-of-self", "chapter": "12" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "In Luthadel",
+          "revealedIn": [
+            { "book": "well-of-ascension", "chapter": "5" },
+            { "book": "well-of-ascension", "chapter": "25" },
+            { "book": "well-of-ascension", "chapter": "36" },
+            { "book": "well-of-ascension", "chapter": "38" },
+            { "book": "well-of-ascension", "chapter": "52" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Believers follow Vin through Luthadel's streets, calling her the Lady Heir and begging for her protection and blessing, which leaves her flustered.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "5" }]
+        },
+        {
+          "text": "When believers gather outside a dress shop where Vin is, Tindwyl pushes her to go out and say a few words to them.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "25" }]
+        },
+        {
+          "text": "Vin learns that Demoux is secretly a member. Preaching to a crowd, he says Vin will help remake the world into a paradise, and urges the skaa to press their Assembly representatives to make Elend king again.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "36" }]
+        },
+        {
+          "text": "To sway the skaa members of the Assembly, Elend joins the church and declares his devotion to the Survivor before the vote for king.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "38" }]
+        },
+        {
+          "text": "As koloss break into Luthadel, a crowd of believers refuses to go home. With Vin gone, they stay to watch Sazed instead, calling him the Holy First Witness.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "52" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "In Urteau",
+          "revealedIn": [
+            { "book": "hero-of-ages", "chapter": "38" },
+            { "book": "hero-of-ages", "chapter": "41" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Skaa in Urteau tell Sazed and Breeze they don't need outside help: they have the Survivor of the Flames, who will deal with Quellion.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "38" }]
+        },
+        {
+          "text": "Sazed wonders how the church is changing. At an execution he, Breeze and Allrianne watch Spook come out of a burning building carrying a young girl.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "41" }]
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Centred on",
+      "name": "Kelsier",
+      "characterId": "kelsier",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "21" },
+            { "book": "well-of-ascension", "chapter": "5" }
+          ]
+        }
+      ]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "kelsier",
+      "role": "the Survivor",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "21" },
+            { "book": "well-of-ascension", "chapter": "5" }
+          ]
+        }
+      ]
+    },
+    {
+      "characterId": "vin",
+      "role": "Lady Heir",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "5" }]
+    },
+    {
+      "characterId": "demoux",
+      "role": "preacher",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "36" }]
+    },
+    {
+      "characterId": "elend-venture",
+      "role": "convert",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "38" }]
+    },
+    {
+      "characterId": "sazed",
+      "role": "Holy First Witness",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "52" }]
+    },
+    {
+      "characterId": "spook",
+      "role": "the new Survivor",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "41" }]
+    }
+  ]
+}

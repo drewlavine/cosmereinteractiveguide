@@ -1,0 +1,42 @@
+{
+  "intro": [
+    {
+      "text": "A Pathian who often turns up at community events to speak for his faith.",
+      "revealedIn": [{ "book": "shadows-of-self", "chapter": "12" }]
+    },
+    {
+      "text": "A Pathian missionary from Elendel, killed by the kandra Bleeder so she could wear his bones and pin a Survivorist priest's murder on him.",
+      "revealedIn": [{ "book": "shadows-of-self", "chapter": "15" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "A Pathian in Elendel",
+          "revealedIn": [
+            { "book": "shadows-of-self", "chapter": "12" },
+            { "book": "shadows-of-self", "chapter": "15" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Larskpur made a habit of attending community functions on behalf of Pathism, even though the crowds were mostly Survivorists.",
+          "revealedIn": [{ "book": "shadows-of-self", "chapter": "12" }]
+        },
+        {
+          "text": "Before about a thousand people at an Elendel chapel, someone in Larskpur's shape took the dais, denounced the Survivor, dropped a curtain to reveal the murdered priest Father Bin, and slipped away. Wax confirmed it had been Bleeder, who shed the disguise in a coach and left Larskpur's bones on the seat; the real Larskpur had evidently been killed some time before.",
+          "revealedIn": [{ "book": "shadows-of-self", "chapter": "15" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "A small man who barely fills his robes, dressed in a plain Pathian smock.",
+      "revealedIn": [{ "book": "shadows-of-self", "chapter": "12" }]
+    }
+  ],
+  "personality": []
+}

@@ -1,0 +1,24 @@
+{
+  "intro": [
+    {
+      "text": "Seld is a Rosharan work of at least fourteen volumes, not written in Alethi, that touches on the Voidbringers. A passage from it is quoted in an epigraph.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "38" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Its author is unknown. Gashash-son-Navammis, thought a reliable translator, is one of those who rendered it into Alethi, though the note beside the quoted passage doubts that translation and considers redoing it.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "38" }]
+    }
+  ],
+  "history": [],
+  "facts": [
+    {
+      "label": "Translator",
+      "name": "Gashash-son-Navammis",
+      "characterId": "gashash-son-navammis",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "38" }]
+    }
+  ],
+  "people": []
+}

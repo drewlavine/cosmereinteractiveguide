@@ -1,0 +1,38 @@
+{
+  "intro": [
+    {
+      "text": "A Bilming broadsheet editor of Terris descent.",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "50" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The captives",
+          "revealedIn": [
+            { "book": "lost-metal", "chapter": "50" },
+            { "book": "lost-metal", "chapter": "epilogue-1" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Kyndlip was among the non-Metalborn captives Marasi and Moonlight set free after a struggle with guards and scientists. Marasi recognized her, and she gave them notes on where to look for Entrone.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "50" }]
+        },
+        {
+          "text": "The Set had kidnapped her and held her with other political dissidents in the caverns under Bilming, where she noted down all she saw and heard. Once freed she handed Marasi her notebook, warned of an army the Set had raised and told them to find the Community. TwinSoul then led the freed captives back to Bilming.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "epilogue-1" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Dark-skinned with kinky hair, from her Terris heritage.",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "50" }]
+    }
+  ],
+  "personality": []
+}

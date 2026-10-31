@@ -1,0 +1,35 @@
+{
+  "intro": [
+    {
+      "text": "An ancient Dawnchant inscription preserving an account of humanity's arrival on Roshar.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "15" },
+            { "book": "oathbringer", "chapter": "111" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "Its translation identifies humans as the original Voidbringers and its author as a Dawnsinger.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "15" },
+            { "book": "oathbringer", "chapter": "111" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "The migration it describes brought the future Heralds from Ashyn, except Talenel, who was born on Roshar.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "107" }]
+    }
+  ],
+  "history": [],
+  "facts": [],
+  "people": []
+}

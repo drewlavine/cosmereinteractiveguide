@@ -2,6 +2,7 @@ import { describe, expect, it } from 'vitest'
 import { findBook } from './books'
 import { chapters } from './chapters'
 import { characterPortraits } from './characterPortraits'
+import data from './chronology.json'
 import { entryArt } from './entryArt'
 import { findLocation } from './locations'
 import { planetHistory, revealPlanetHistory, sinceLabel } from './planetHistory'
@@ -47,7 +48,8 @@ const moment = (planetId: string, id: string, read: string[], at = {}) =>
     .find((m) => m.id === id)
 
 describe('planet history data', () => {
-  it('only points at books, chapters, places, art and moments that exist', () => {
+  it('only points at books, chapters, places, art, events and moments that exist', () => {
+    const events = new Set((data as { id: string }[]).map((e) => e.id))
     const bad: string[] = []
     const checkReveal = (where: string, reveal: Reveal) => {
       for (const point of reveal.flatMap((p) =>
@@ -71,6 +73,8 @@ describe('planet history data', () => {
         era.when?.forEach((t) => checkReveal(era.id, t.revealedIn))
         for (const m of era.moments) {
           const where = `${planetId}/${m.id}`
+          if (m.chrono && !events.has(m.chrono))
+            bad.push(`${where}: ${m.chrono}`)
           if (!m.told[0].title || !m.told[0].text)
             bad.push(`${where}: untitled`)
           for (const told of m.told) {

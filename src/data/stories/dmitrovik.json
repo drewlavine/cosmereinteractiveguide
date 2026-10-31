@@ -1,0 +1,87 @@
+{
+  "intro": [
+    {
+      "text": "A valet at a Kingseat hotel whom December chooses as her footman.",
+      "revealedIn": [{ "book": "fires-of-december", "chapter": "xvi" }],
+      "fallback": true
+    },
+    {
+      "text": "A valet in Kingseat and the single father of a young daughter, Irinek, whom December takes on as her footman and then makes head butler of the hotel she buys.",
+      "revealedIn": [{ "book": "fires-of-december", "chapter": "xxiii" }]
+    },
+    {
+      "text": "December's loyal butler from Kingseat, who manages the many hotels she now owns.",
+      "revealedIn": [{ "book": "fires-of-december", "chapter": "epilogue" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Valet and footman",
+          "revealedIn": [
+            { "book": "fires-of-december", "chapter": "xvi" },
+            { "book": "fires-of-december", "chapter": "xxi" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "December picked Dmitrovik over the other valets to be her footman, which displeased Miss Greenwares, and he drove her to the gambling parlour where she found Count Flint.",
+          "revealedIn": [{ "book": "fires-of-december", "chapter": "xvi" }]
+        },
+        {
+          "text": "He kept watch on Flint for her, tracking him to the Night Barges, and helped her catch up with him there.",
+          "revealedIn": [{ "book": "fires-of-december", "chapter": "xxi" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Head butler",
+          "revealedIn": [{ "book": "fires-of-december", "chapter": "xxiii" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Raised on Kingseat's streets, he had been bringing up his daughter Irinek alone since her mother died. Miss Greenwares, who disdained him for that, dismissed him; December bought the hotel, rehired him as head butler and let Irinek stay there with him.",
+          "revealedIn": [{ "book": "fires-of-december", "chapter": "xxiii" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "In the fighting",
+          "revealedIn": [
+            { "book": "fires-of-december", "chapter": "xlii" },
+            { "book": "fires-of-december", "chapter": "epilogue" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "He went on helping December's investigations and kept near her as the capital erupted, though he had never learned the sword. When the demon was freed he went for Geoffrim but was struck down by flying debris, coming round as December bonded it.",
+          "revealedIn": [{ "book": "fires-of-december", "chapter": "xlii" }]
+        },
+        {
+          "text": "In the years after, he ran the hotels December owned, and Irinek found a friend in Beautiful.",
+          "revealedIn": [{ "book": "fires-of-december", "chapter": "epilogue" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Tall and lanky, with a long, boxy face and square chin; he keeps a rigidly straight posture, often with one hand behind his back.",
+      "revealedIn": [{ "book": "fires-of-december", "chapter": "xxxix" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Formal and never quite at ease, he says little and speaks in a clipped manner with a slight accent. He is fiercely loyal and protective toward December, and his coworkers like him for his kindness.",
+      "revealedIn": [{ "book": "fires-of-december", "chapter": "xxvi" }]
+    }
+  ]
+}

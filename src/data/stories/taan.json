@@ -1,0 +1,61 @@
+{
+  "intro": [
+    {
+      "text": "A celebrated sculptor of Kae who, inside Elantris, calls himself Aanden, the Baron of Elantris, and rules a third of the city's people.",
+      "revealedIn": [{ "book": "elantris", "chapter": "10" }]
+    },
+    {
+      "text": "A celebrated sculptor of Kae, once the self-styled Baron of Elantris, who gives up his gang to join Raoden and study the city's art.",
+      "revealedIn": [{ "book": "elantris", "chapter": "16" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Gang leader",
+          "revealedIn": [
+            { "book": "elantris", "chapter": "10" },
+            { "book": "elantris", "chapter": "16" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Once among Kae's finest sculptors, Taan reinvented himself in Elantris as Aanden, a former baron with a long fake mustache, and proclaimed himself Baron of Elantris. Kept from the palace by Karata's gang, he held court in the university. He won followers by boiling the library's vellum scrolls for food, promising an attack on Kae, and staging mock trials and executions.",
+          "revealedIn": [{ "book": "elantris", "chapter": "10" }]
+        },
+        {
+          "text": "When Dashe led Karata's people against Aanden, Raoden stopped the fight by showing him the carvings hidden under the grime and reminding him of his art. Taan joined Raoden, mostly gave up leading, and spent his days studying the city's frescoes, rediscovering techniques forgotten since the Reod.",
+          "revealedIn": [{ "book": "elantris", "chapter": "16" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Sculptor",
+          "revealedIn": [{ "book": "elantris", "chapter": "63" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Taan carved the jade pendant, an Aon Omi overlaid with bands of gold, that Raoden gave Sarene at their wedding.",
+          "revealedIn": [{ "book": "elantris", "chapter": "63" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "A short man with a sizeable belly.",
+      "revealedIn": [{ "book": "elantris", "chapter": "10" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Cunning and politically shrewd, though widely thought to be not entirely sane.",
+      "revealedIn": [{ "book": "elantris", "chapter": "10" }]
+    }
+  ]
+}

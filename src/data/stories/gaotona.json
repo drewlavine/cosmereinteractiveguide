@@ -1,0 +1,110 @@
+{
+  "intro": [
+    {
+      "text": "One of the five arbiters of the Rose Empire, who studies a Forger's near-perfect copy of a famous painting and wonders why such a talent would choose Forgery over real art.",
+      "revealedIn": [{ "book": "emperors-soul", "chapter": "prologue" }],
+      "fallback": true
+    },
+    {
+      "text": "An arbiter of the Heritage Faction in the Rose Empire, counted the least influential of the five since he fell out of the emperor's favour.",
+      "revealedIn": [{ "book": "emperors-soul", "chapter": "day-2" }]
+    },
+    {
+      "text": "An arbiter of the Heritage Faction who takes personal charge of the imprisoned Forger, visiting her every day as she works on the emperor's soul.",
+      "revealedIn": [{ "book": "emperors-soul", "chapter": "day-17" }]
+    },
+    {
+      "text": "The oldest arbiter of the Heritage Faction, who watched over the Forger's work on Emperor Ashravan's soul, tested her stamps on himself and kept the arbiters' side of the bargain.",
+      "revealedIn": [{ "book": "emperors-soul", "chapter": "epilogue" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Early life",
+          "revealedIn": [{ "book": "emperors-soul", "chapter": "day-30" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Born in the same region as Ashravan, he studied the art of past cultures and became the young man's mentor, pushing him to seek the throne. When assassins left the emperor's body healed but his mind gone, the arbiters weighed hiring the imprisoned Forger; Gaotona voted yes, for once siding with Frava, because he wanted to understand her.",
+          "revealedIn": [{ "book": "emperors-soul", "chapter": "day-30" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Watching the Forger",
+          "revealedIn": [
+            { "book": "emperors-soul", "chapter": "day-17" },
+            { "book": "emperors-soul", "chapter": "day-70" },
+            { "book": "emperors-soul", "chapter": "day-76" },
+            { "book": "emperors-soul", "chapter": "epilogue" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "He oversaw her work himself, forbade her to tell her guards about it and hired a Bloodsealer to stop her escaping. He visited daily, read in her room and asked how Forgery worked, dismissing Realmatic Theory as superstition while keeping an open mind. On her advice he tightened security around the emperor.",
+          "revealedIn": [{ "book": "emperors-soul", "chapter": "day-17" }]
+        },
+        {
+          "text": "Rather than inflict Soul Forgery on his own people, he offered himself as the test subject for her stamps. When he saw that the painting in Frava's office was a copy, she admitted burning the original, and he walked out in anger, though he soon went back to testing. He began learning to read soulstamps, and one stamp shook him by showing the shame the emperor had felt toward him.",
+          "revealedIn": [{ "book": "emperors-soul", "chapter": "day-70" }]
+        },
+        {
+          "text": "He brought her Essence Marks to her room to ask about them, found her Forging patterns onto the wall, and heard the truth about her escape Mark and the painter's request. He still disagreed with her, but came to understand how she saw things.",
+          "revealedIn": [{ "book": "emperors-soul", "chapter": "day-76" }]
+        },
+        {
+          "text": "When she broke out, he hurried to the emperor's rooms with her Essence Marks, gave them back as the arbiters had promised and told her to go. The new Ashravan amazed him. The book she left him held the emperor's soulstamp and the changes she had made; seeing they could only work in secret, he burned it.",
+          "revealedIn": [{ "book": "emperors-soul", "chapter": "epilogue" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "The oldest of the arbiters, he is an elderly man who stands straight and thoughtful, hands clasped at his back.",
+      "revealedIn": [{ "book": "emperors-soul", "chapter": "epilogue" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Clever and deeply honest, he expects the same truthfulness from others and hopes for the best in them, so people around him often feel they have let him down. He prizes art and beauty, holds that art belongs to those who look at it, and can be moved to tears by a masterpiece.",
+      "revealedIn": [{ "book": "emperors-soul", "chapter": "epilogue" }]
+    }
+  ],
+  "relationships": [
+    {
+      "title": [
+        {
+          "text": "Ashravan",
+          "revealedIn": [{ "book": "emperors-soul", "chapter": "epilogue" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "He loves Ashravan like a son, mentored him and always believed the best of him. Ashravan's shame at falling short of that belief turned into resentment, and he drifted away from his old teacher. Gaotona missed the man, not just the emperor, and never knew of the resentment until a stamp showed it to him.",
+          "revealedIn": [{ "book": "emperors-soul", "chapter": "epilogue" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Frava",
+          "revealedIn": [{ "book": "emperors-soul", "chapter": "epilogue" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "He and Frava almost never agree. She sees him as an obstacle, the one arbiter willing to oppose her, and wants him removed; she mistakes his sincerity for naivety and tries to use it against him.",
+          "revealedIn": [{ "book": "emperors-soul", "chapter": "epilogue" }]
+        }
+      ]
+    }
+  ]
+}

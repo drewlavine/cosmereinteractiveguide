@@ -1,0 +1,42 @@
+{
+  "intro": [
+    {
+      "text": "A humanlike people with feathers in place of hair; ZeetZi of the Dynamic is one.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "22" }]
+    },
+    {
+      "text": "A humanlike people with feathers instead of hair, from the Grand Apparatus, whom others tend to avoid for their foreign policy and their ties to the Sleepless.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "28" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "They descend from humans whose hair, after a long isolation, turned into something like feathers.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "22" }]
+    },
+    {
+      "text": "Contrary to popular belief, arcanists have found that lawnarks are not descended from birds, and they cannot fly.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "25" }]
+    },
+    {
+      "text": "They look almost exactly like humans. Their scalps are largely bare apart from a crest of feathers on top, tiny, nearly invisible feathers grow on their arms, and some have dark brown skin. A worried lawnark's feathers often flatten against the head.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "28" }]
+    }
+  ],
+  "history": [],
+  "facts": [
+    {
+      "label": "Origin",
+      "name": "Grand Apparatus",
+      "placeId": "grand-apparatus",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "28" }]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "zeetzi",
+      "role": "lawnark",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "22" }]
+    }
+  ]
+}

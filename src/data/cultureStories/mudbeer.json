@@ -1,0 +1,62 @@
+{
+  "intro": [
+    {
+      "text": "An alcoholic drink served in taverns across western Roshar, popular in the depths of winter.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "25" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "The Unkalaki use it to settle arguments: the two compete to drink the most while still able to sing, and usually both get too drunk to recall the quarrel.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "27" }]
+    },
+    {
+      "text": "Even the winehouses of Urithiru serve it.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "25" },
+            { "book": "rhythm-of-war", "chapter": "12" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Among the bridgemen",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "49" },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "49" },
+                { "book": "rhythm-of-war", "chapter": "12" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Kaladin told his bridgemen, as he resolved to help them escape, that within a few weeks they'd all be sharing mudbeer in a tavern.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "49" }]
+        },
+        {
+          "text": "The evening Rock told Kaladin he would return home to the Horneater Peaks, Rock's family drank mudbeer with him at Jez's Duty.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "49" },
+                { "book": "rhythm-of-war", "chapter": "12" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": []
+}

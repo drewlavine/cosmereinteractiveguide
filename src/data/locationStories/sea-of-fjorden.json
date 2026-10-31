@@ -1,0 +1,34 @@
+{
+  "intro": [
+    {
+      "text": "The sea between Opelon and the northern continent where Teod lies. Sailing across it from Teod to Kae takes about five days.",
+      "revealedIn": [{ "book": "elantris", "chapter": "2" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Small islands are scattered across it between Arelon and Teod and near Svorden. Long stretches of the Arelene, Svordish and Fjordell coasts face the sea.",
+      "revealedIn": [{ "book": "elantris", "chapter": "2" }]
+    },
+    {
+      "text": "The sea serves both travel and trade, and Teoras and Widor are among its ports. Its salty waters smell of brine and sea life, and trike, a fish eaten as food, is abundant. Merchant fleets, among them those of King Iadon and Duke Telrii, sail it in spite of raids by pirates.",
+      "revealedIn": [{ "book": "elantris", "chapter": "21" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Naval power",
+          "revealedIn": [{ "book": "elantris", "chapter": "47" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Teod was long regarded as having the strongest armada in the region, but the Fjordell Empire's fleets grew much stronger once it annexed Svorden and took over the Svordish navy.",
+          "revealedIn": [{ "book": "elantris", "chapter": "47" }]
+        }
+      ]
+    }
+  ]
+}

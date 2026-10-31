@@ -1,0 +1,118 @@
+{
+  "intro": [
+    {
+      "text": "A God Metal. An ordinary person who burns it becomes a Mistborn of undiluted power.",
+      "revealedIn": [{ "book": "shadows-of-self", "chapter": "epilogue" }]
+    },
+    {
+      "text": "A God Metal: the power of the Shard Preservation in condensed form. An ordinary person who burns it becomes a Mistborn of undiluted power.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "shadows-of-self", "chapter": "epilogue" },
+            { "book": "lost-metal", "chapter": "71" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "As a Hemalurgic spike, lerasium steals every kind of ability, such as strength, senses or mental sharpness.",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "prologue" }]
+    },
+    {
+      "text": "Atium and lerasium can't be joined to make harmonium, and harmonium can't be split into the two by ordinary mechanical means. They can be separated by supernatural means, for instance by reacting harmonium with trellium.",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "71" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The beads at the Well",
+          "revealedIn": [
+            { "book": "lost-metal", "chapter": "71" },
+            {
+              "all": [
+                { "book": "well-of-ascension", "chapter": "59" },
+                { "book": "secret-history", "chapter": "2-4" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The only lerasium known came as a few beads at the Well of Ascension.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "71" }]
+        },
+        {
+          "text": "Two beads lay near the Well, unused before the Final Empire fell. One was fed to Elend Venture to save his life after he was mortally wounded.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "well-of-ascension", "chapter": "59" },
+                { "book": "secret-history", "chapter": "2-4" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "New lerasium",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "epilogue-4" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Wax split harmonium with trellium to make more lerasium. He and Wayne used it, becoming the first Mistborn known since the Lord Mistborn soon after the Catacendre.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "epilogue-4" }]
+        },
+        {
+          "text": "Kelsier wanted the new lerasium to raise an army against Autonomy's forces, but Harmony refused.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "epilogue-4" }]
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Allomancy",
+      "name": "Makes the burner Mistborn",
+      "revealedIn": [{ "book": "shadows-of-self", "chapter": "epilogue" }]
+    },
+    {
+      "label": "Hemalurgy",
+      "name": "Steals all abilities",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "prologue" }]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "elend-venture",
+      "role": "Mistborn",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "well-of-ascension", "chapter": "59" },
+            { "book": "secret-history", "chapter": "2-4" }
+          ]
+        }
+      ]
+    },
+    {
+      "characterId": "waxillium-ladrian",
+      "role": "Mistborn",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "epilogue-4" }]
+    },
+    {
+      "characterId": "wayne",
+      "role": "Mistborn",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "epilogue-4" }]
+    }
+  ]
+}

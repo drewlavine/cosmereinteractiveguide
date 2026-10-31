@@ -1,0 +1,82 @@
+{
+  "intro": [
+    {
+      "text": "Writings that followers of the Path regard as holy doctrine.",
+      "revealedIn": ["alloy-of-law"]
+    },
+    {
+      "text": "A body of writings by the Originators that followers of the Path regard as holy doctrine, and that many other believers respect too.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "alloy-of-law", "chapter": "11" },
+            { "book": "shadows-of-self", "chapter": "19" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "Believers of other faiths respect the Words as well. Some sects treat other Originators' writings as holy alongside them, though the Docksithium is ignored almost everywhere.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "alloy-of-law", "chapter": "11" },
+            { "book": "shadows-of-self", "chapter": "19" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "The eightieth volume is written at least partly in verse, with verses on Harmony's quest for Truth.",
+      "revealedIn": [{ "book": "shadows-of-self", "chapter": "20" }]
+    },
+    {
+      "text": "One volume, Beliefs Reborn, records religions of the old world such as Larstaism.",
+      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "1" }]
+    },
+    {
+      "text": "The Words fill at least eighty volumes, so shortened editions are common. They range from religion to plans for Elendel itself, and hold knowledge people would not otherwise have: a detailed chart of Feruchemical powers, writings on the kandra, hints of electricity and powered flight, and four new metals.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "hero-of-ages", "chapter": "epilogue" },
+            { "book": "alloy-of-law", "chapter": "15" },
+            { "book": "shadows-of-self", "chapter": "25" },
+            { "book": "bands-of-mourning", "chapter": "20" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "The Historica tells Scadrial's history before the Catacendre, including how the kandra hid the atium from Ruin, Vin's Ascension, and Kelsier's real reason for overthrowing the Lord Ruler: revenge, not the selfless heroism the Survivorists believe in. Wax finds its chapters on the kandra dull.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "shadows-of-self", "chapter": "17" },
+            { "book": "bands-of-mourning", "chapter": "24" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "In the Homeland",
+          "revealedIn": [{ "book": "shadows-of-self", "chapter": "20" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "TenSoon led Wax to a room in the kandra Homeland where Paalm had left an old copy of the Words, with pages ripped out and words and curses scrawled on them in blood. Wax decided it was only a distraction.",
+          "revealedIn": [{ "book": "shadows-of-self", "chapter": "20" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": []
+}

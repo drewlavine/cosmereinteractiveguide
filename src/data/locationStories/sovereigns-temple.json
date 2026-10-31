@@ -1,0 +1,34 @@
+{
+  "intro": [
+    {
+      "text": "A temple hidden in high mountains, built by the Sovereign's elite priests, who were told to guard the Bands of Mourning there until he came back.",
+      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "23" }]
+    },
+    {
+      "text": "A bleak, one-storey fortress of fieldstone close to the Seran Range's tallest peaks, southeast of Dulsing, built by the Sovereign's priests to guard the Bands of Mourning until his return.",
+      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "24" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "At the entrance stands a big statue of the Sovereign gripping a wooden spear. Inside, a long hall lit by an ettmetal-powered device is crowded with traps: spikes, spiked logs, spike-lined pits, poison darts and acid. Past them, a door ringed with strange symbols opens when three of them, in a script only the Sovereign knows, are pressed.",
+      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "24" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The Hunters' expedition",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "23" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Some of the priests returned south and spread word of the temple, and many Southern Scadrians took it as the Sovereign's challenge to find the Bands. A band of Hunters set out to destroy it, but some mutinied to take the Bands for themselves; after its traps killed many of their men they turned back, and they were executed on reaching home.",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "23" }]
+        }
+      ]
+    }
+  ]
+}

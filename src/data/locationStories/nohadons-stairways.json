@@ -1,0 +1,80 @@
+{
+  "intro": [
+    {
+      "text": "A place in the Sea of Souls in Shadesmar that corresponds to the tower city of Urithiru, with ten huge pillars holding the Shadesmar side of Urithiru's Oathgates.",
+      "revealedIn": ["rhythm-of-war"]
+    }
+  ],
+  "description": [
+    {
+      "text": "Its chief feature is a vast tower rising from the sea of beads, Urithiru's counterpart. It is tiered like Urithiru but looks like a brilliant mountain of light and color that casts no shadows, ringed by a crystalline, mother-of-pearl glow, the hue of Shadesmar's sky in a highstorm. Emotion spren drawn by Urithiru's people swarm there, but the tower calms them so they pose no threat to travelers.",
+      "revealedIn": ["rhythm-of-war"]
+    },
+    {
+      "text": "Near the tower stand ten raised pillars, one for each Oathgate, laid out like Urithiru's Oathgate platforms. A long spiral ramp runs from each pillar down to the beads, and two Oathgate spren hover above each as gatekeepers. Pillars and tower stand high because Urithiru sits at high altitude. At least one pillar has a small building and a dock at its base where barges pick up passengers.",
+      "revealedIn": ["rhythm-of-war"]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Ancient times",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "46" },
+                { "book": "words-of-radiance", "chapter": "89" },
+                { "book": "oathbringer", "chapter": "116" },
+                "rhythm-of-war"
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "While the Knights Radiant controlled the Oathgates, the Stairways were central to Urithiru's role as a hub of trade and travel between nations. At some point the Sibling, a spren embodying Urithiru, told the gatekeepers to bar travel through the Oathgates, which were also locked, though the lock could fail.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "46" },
+                { "book": "words-of-radiance", "chapter": "89" },
+                { "book": "oathbringer", "chapter": "116" },
+                "rhythm-of-war"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The True Desolation",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "86" },
+                "rhythm-of-war"
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "When the new Knights Radiant learned to work the Oathgates, they could at first travel only to and from Urithiru. Some gatekeeper spren, including those of the Narak Oathgate, thought the Sibling dead after its long silence and agreed to obey the Stormfather, who had them let people pass into Shadesmar. Shallan and Adolin began their expedition to Lasting Integrity here, entering Shadesmar through the Narak Oathgate.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "86" },
+                "rhythm-of-war"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

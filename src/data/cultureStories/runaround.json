@@ -1,0 +1,38 @@
+{
+  "intro": [
+    {
+      "text": "A Rosharan card game. Rlain enjoyed it, along with towers, and Bisig praised how well he bluffed.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "79" }]
+    }
+  ],
+  "description": [],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The occupation of Urithiru",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "79" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Noticing some women gossiping about him, Rlain tried to find common ground by telling them he liked card games such as runaround. It didn't work, and their gossip took a darker turn.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "79" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "rlain",
+      "role": "player",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "79" }]
+    },
+    {
+      "characterId": "bisig",
+      "role": "player",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "79" }]
+    }
+  ]
+}

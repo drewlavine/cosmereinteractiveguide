@@ -1,0 +1,38 @@
+{
+  "intro": [
+    {
+      "text": "A city in Shadesmar near the former site of Cultivation's Perpendicularity.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "147" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Wooden platforms connect its seven islands. Tents and makeshift dwellings are more common than permanent buildings.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "147" }]
+    },
+    {
+      "text": "Peakspren govern the city, but long-term residents can become citizens, and humans serve in its senate.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "147" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The True Desolation",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "147" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "The Fused occupied the city while allowing its local government to continue.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "147" }]
+        },
+        {
+          "text": "Shallan visited after the Night of Sorrows to confirm that Cultivation's Perpendicularity had vanished.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "147" }]
+        }
+      ]
+    }
+  ]
+}

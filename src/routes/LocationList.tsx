@@ -1,257 +1,176 @@
 import { useMemo } from 'react'
-import { Link, useSearchParams } from 'react-router'
-import { FeatureLegend, FeatureLinks } from '../components/PageFeatures'
-import { books, bookSeries, seriesOf } from '../data/books'
+import { Link } from 'react-router'
+import {
+  bookArt,
+  entryArtOf,
+  seriesArt,
+  useVisiblePlanets,
+  worldArt,
+} from '../components/browse/art'
+import { BrowseList } from '../components/browse/BrowseList'
+import type { Category, Grouping } from '../components/browse/types'
+import {
+  FeatureIcon,
+  FeatureLegend,
+  FeatureLinks,
+} from '../components/PageFeatures'
+import { bookSeries, books, seriesOf } from '../data/books'
 import { shownBooks } from '../data/entryStories'
 import {
+  findListed,
   listedKindLabels,
-  listedLocations as locationList,
+  listedLocations,
   placeHref,
   placeKnownIn,
   placeRevealedIn,
 } from '../data/listedLocations'
-import { featureGroups, featuresFor, featuresOf } from '../data/pageFeatures'
-import { systems } from '../data/systems'
+import {
+  featureGroups,
+  featuresFor,
+  featuresOf,
+  type FoundFeature,
+} from '../data/pageFeatures'
 import type { ListedLocation } from '../data/types'
 import { useCanSee } from '../state/reveal'
-import { GroupJump, LetterJump } from '../components/ListJump'
-import { anchorFor, byLetter, fold, plural } from './listHelpers'
-
-const anchor = (id: string) => anchorFor('locations', id)
+import { fold } from './listHelpers'
 
 const kindOrder = Object.keys(listedKindLabels)
 
-const groupings = [
-  { id: 'type', label: 'Type' },
-  { id: 'book', label: 'Book' },
-  { id: 'world', label: 'World' },
-  { id: 'series', label: 'Series' },
-  { id: 'inside', label: 'Inside' },
-  { id: 'feature', label: 'Page feature' },
-] as const
-type GroupingId = (typeof groupings)[number]['id']
-
-const isGrouping = (id: string | null): id is GroupingId =>
-  groupings.some((g) => g.id === id)
-
-interface Group {
-  id: string
-  name: string
-  items: ListedLocation[]
+/** A place the reader may see, with what they may know of it worked out once. */
+interface Place extends ListedLocation {
+  /** Whether the reader knows what it is, not only that a chapter named it. */
+  known: boolean
+  /** The books it is listed under: those read, plus the one being read. */
+  listedUnder: string[]
+  features: FoundFeature[]
+  /** The place it lies within, if the reader can see that place. */
+  parent?: ListedLocation
+  href: string
 }
 
-const byId = new Map(locationList.map((l) => [l.id, l]))
+/** A place only named so far isn't sorted by what it is or where. */
+const whenKnown =
+  (categories: (place: Place) => readonly Category[]) =>
+  (place: Place): readonly Category[] =>
+    place.known ? categories(place) : []
 
 export function LocationList() {
   const canSee = useCanSee()
-  const [params, setParams] = useSearchParams()
-  const query = fold(params.get('q') ?? '').trim()
-  const groupParam = params.get('group')
-  const grouping = isGrouping(groupParam) ? groupParam : undefined
+  const planets = useVisiblePlanets()
 
-  const shown = useMemo(
-    () => locationList.filter((l) => canSee(placeRevealedIn(l))),
-    [canSee],
-  )
-  const shownIds = useMemo(() => new Set(shown.map((l) => l.id)), [shown])
-  const featuresById = useMemo(
-    () =>
-      new Map(shown.map((l) => [l.id, featuresOf('location', l, { canSee })])),
-    [shown, canSee],
-  )
+  const places = useMemo(() => {
+    const seen = listedLocations.filter((l) => canSee(placeRevealedIn(l)))
+    const seenIds = new Set(seen.map((l) => l.id))
+    return seen.map((l): Place => {
+      const parent = findListed(l.parentId)
+      return {
+        ...l,
+        known: canSee(placeKnownIn(l)),
+        listedUnder: shownBooks(l.books, placeRevealedIn(l), canSee),
+        features: featuresOf('location', l, { canSee }),
+        parent: parent && seenIds.has(parent.id) ? parent : undefined,
+        href: placeHref(l, (id) => planets.has(id)),
+      }
+    })
+  }, [canSee, planets])
+
   // The legend explains the icons any listed place has.
-  const legend = useMemo(() => {
-    const found = [...featuresById.values()].flat()
+  const iconsShown = useMemo(() => {
+    const found = places.flatMap((p) => p.features)
     return featuresFor('location').filter((f) =>
       found.some((x) => x.feature === f),
     )
-  }, [featuresById])
-  const planets = useMemo(
-    () =>
-      new Map(
-        systems
-          .flatMap((s) => s.planets)
-          .filter((p) => canSee(p.revealedIn))
-          .map((p) => [p.id, p.name]),
-      ),
-    [canSee],
-  )
+  }, [places])
 
-  const booksById = useMemo(
-    () =>
-      new Map(
-        shown.map((l) => [
-          l.id,
-          shownBooks(l.books, placeRevealedIn(l), canSee),
+  const groupings = useMemo(
+    (): Grouping<Place>[] => [
+      {
+        id: 'type',
+        label: 'Type',
+        all: 'All types',
+        categories: whenKnown((p) => [
+          [p.kind, listedKindLabels[p.kind], kindOrder.indexOf(p.kind)],
         ]),
-      ),
-    [shown, canSee],
-  )
-  const matches = shown.filter((l) => !query || fold(l.name).includes(query))
-  const hidden = locationList.length - shown.length
-
-  const parentOf = (l: ListedLocation) => {
-    const parent = l.parentId ? byId.get(l.parentId) : undefined
-    return parent && shownIds.has(parent.id) ? parent : undefined
-  }
-  // Categories a place falls under, as [id, name, order]; only what the
-  // reader may see is used.
-  const categories = (l: ListedLocation): [string, string, number][] => {
-    // A place only named so far isn't sorted by what it is or where.
-    const known = canSee(placeKnownIn(l))
-    if (!known && grouping !== 'book' && grouping !== 'series') return []
-    switch (grouping) {
-      case 'type':
-        return [[l.kind, listedKindLabels[l.kind], kindOrder.indexOf(l.kind)]]
-      case 'book': {
-        const read = booksById.get(l.id) ?? []
-        return books
-          .map((b, i): [string, string, number] => [b.id, b.title, i])
-          .filter(([id]) => read.includes(id))
-      }
-      case 'world': {
-        const name = l.world && planets.get(l.world)
-        return name && l.world ? [[l.world, name, 0]] : []
-      }
-      case 'series': {
-        const ids = new Set(
-          l.books.filter((b) => canSee([b])).map((b) => seriesOf(b)?.id),
-        )
-        return bookSeries
-          .map((s, i): [string, string, number] => [s.id, s.name, i])
-          .filter(([id]) => ids.has(id))
-      }
-      case 'inside': {
-        const parent = parentOf(l)
-        return parent ? [[parent.id, parent.name, 0]] : []
-      }
-      case 'feature':
-        return featureGroups('location', featuresById.get(l.id) ?? [])
-      default:
-        return []
-    }
-  }
-
-  let groups: Group[]
-  let unsorted = 0
-  if (grouping) {
-    const groupsById = new Map<string, Group & { order: number }>()
-    for (const l of matches) {
-      const cats = categories(l)
-      if (cats.length === 0) unsorted++
-      for (const [id, name, order] of cats) {
-        const group = groupsById.get(id) ?? { id, name, order, items: [] }
-        group.items.push(l)
-        groupsById.set(id, group)
-      }
-    }
-    // Types, books, series and features in their own order; the rest biggest first.
-    groups = [...groupsById.values()].sort(
-      (a, b) =>
-        a.order - b.order ||
-        (grouping === 'type' ||
-        grouping === 'book' ||
-        grouping === 'series' ||
-        grouping === 'feature'
-          ? 0
-          : b.items.length - a.items.length) ||
-        a.name.localeCompare(b.name),
-    )
-  } else
-    groups = byLetter(matches).map((g) => ({
-      id: g.letter,
-      name: g.letter,
-      items: g.items,
-    }))
-
-  const hrefOf = (l: ListedLocation) => placeHref(l, (id) => planets.has(id))
-
-  const setParam = (key: string, value: string) =>
-    setParams(
-      (prev) => {
-        const next = new URLSearchParams(prev)
-        if (value) next.set(key, value)
-        else next.delete(key)
-        return next
       },
-      { replace: true, preventScrollReset: true },
-    )
-  const label = groupings.find((g) => g.id === grouping)?.label.toLowerCase()
+      {
+        id: 'book',
+        label: 'Book',
+        all: 'All books',
+        categories: (p) =>
+          books
+            .map((b, i): Category => [b.id, b.title, i])
+            .filter(([id]) => p.listedUnder.includes(id)),
+        art: bookArt,
+      },
+      {
+        id: 'world',
+        label: 'World',
+        all: 'All worlds',
+        biggestFirst: true,
+        categories: whenKnown((p) => {
+          const planet = p.world ? planets.get(p.world) : undefined
+          return planet ? [[planet.id, planet.name, 0]] : []
+        }),
+        art: worldArt(planets),
+      },
+      {
+        id: 'series',
+        label: 'Series',
+        all: 'All series',
+        categories: (p) => {
+          const ids = new Set(
+            p.books.filter((b) => canSee([b])).map((b) => seriesOf(b)?.id),
+          )
+          return bookSeries
+            .map((s, i): Category => [s.id, s.name, i])
+            .filter(([id]) => ids.has(id))
+        },
+        art: seriesArt,
+      },
+      {
+        id: 'inside',
+        label: 'Inside',
+        all: 'All places that hold others',
+        biggestFirst: true,
+        categories: whenKnown((p) =>
+          p.parent ? [[p.parent.id, p.parent.name, 0]] : [],
+        ),
+        // The place's own art, as its page shows it.
+        art: (group) => entryArtOf(`place:${group.id}`, canSee),
+      },
+      {
+        id: 'feature',
+        label: 'Page feature',
+        all: 'All page features',
+        categories: whenKnown((p) => featureGroups('location', p.features)),
+        symbol: (group) => {
+          const feature = featuresFor('location').find((f) => f.id === group.id)
+          return feature && <FeatureIcon id={feature.id} />
+        },
+      },
+    ],
+    [canSee, planets],
+  )
 
   return (
-    <article
-      className="character-list location-list"
-      aria-labelledby="locations-title"
-    >
-      <h1 id="locations-title">Locations</h1>
-      <p className="character-count">
-        {matches.length < shown.length
-          ? `${matches.length} of ${shown.length} places`
-          : `${shown.length} places`}
-        {hidden > 0 && ` · ${hidden} hidden based on what you've read so far`}
-      </p>
-
-      <div className="character-filters">
-        <input
-          type="search"
-          className="character-filter-input"
-          placeholder="Filter by name…"
-          aria-label="Filter locations by name"
-          value={params.get('q') ?? ''}
-          onChange={(event) => setParam('q', event.target.value)}
-          autoComplete="off"
-          spellCheck={false}
-        />
-        <label className="character-group-by">
-          Group by
-          <select
-            value={grouping ?? ''}
-            onChange={(event) => setParam('group', event.target.value)}
-          >
-            <option value="">Name (A–Z)</option>
-            {groupings.map((g) => (
-              <option key={g.id} value={g.id}>
-                {g.label}
-              </option>
-            ))}
-          </select>
-        </label>
-        {grouping && label && (
-          <GroupJump groups={groups} anchor={anchor} label={label} />
-        )}
-      </div>
-      <FeatureLegend features={legend} />
-
-      {!grouping && <LetterJump groups={groups} anchor={anchor} />}
-      {unsorted > 0 && (
-        <p className="character-count">
-          {plural(unsorted, 'more place')} not sorted by {label}.
-        </p>
+    <BrowseList
+      path="/locations"
+      title="Locations"
+      noun={{ one: 'place', many: 'places' }}
+      icon="place"
+      items={places}
+      hidden={listedLocations.length - places.length}
+      groupings={groupings}
+      match={(p, needle) => fold(p.name).includes(needle)}
+      row={(p) => (
+        <>
+          <Link to={p.href}>{p.name}</Link>
+          <FeatureLinks name={p.name} href={p.href} features={p.features} />
+        </>
       )}
-      {matches.length === 0 && <p>No places match.</p>}
-      {groups.map(({ id, name, items }) => (
-        <section
-          key={id}
-          className="character-group"
-          aria-labelledby={anchor(id)}
-        >
-          <h2 id={anchor(id)} data-count={grouping ? items.length : undefined}>
-            {name}
-          </h2>
-          <ul>
-            {items.map((l) => (
-              <li key={l.id}>
-                <Link to={hrefOf(l)}>{l.name}</Link>
-                <FeatureLinks
-                  name={l.name}
-                  href={hrefOf(l)}
-                  features={featuresById.get(l.id) ?? []}
-                />
-              </li>
-            ))}
-          </ul>
-        </section>
-      ))}
-    </article>
+      legend={<FeatureLegend features={iconsShown} />}
+      filterLabel="Filter locations by name"
+      noMatch="No places match."
+    />
   )
 }

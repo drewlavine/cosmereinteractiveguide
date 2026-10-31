@@ -1,0 +1,38 @@
+{
+  "intro": [
+    {
+      "text": "A former housewife taken by the Shaod, one of the first newcomers Raoden recruits in Elantris.",
+      "revealedIn": [{ "book": "elantris", "chapter": "10" }],
+      "fallback": true
+    },
+    {
+      "text": "An Elantrian, once a housewife, who weaves and sews for Raoden's people.",
+      "revealedIn": [{ "book": "elantris", "chapter": "41" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "In Elantris",
+          "revealedIn": [
+            { "book": "elantris", "chapter": "10" },
+            { "book": "elantris", "chapter": "41" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Raoden recruited Maare in the courtyard while Galladon caused a distraction, and gave her and Riil the job of putting a roof on their headquarters, an old Korathi chapel.",
+          "revealedIn": [{ "book": "elantris", "chapter": "10" }]
+        },
+        {
+          "text": "Though Maare first said she had no useful skills, Raoden found she could weave, among other things. She sewed outfits from the cloth Sarene sent in, and dressed Sarene herself when Sarene was cast into Elantris.",
+          "revealedIn": [{ "book": "elantris", "chapter": "41" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

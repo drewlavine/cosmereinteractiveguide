@@ -1,0 +1,105 @@
+{
+  "intro": [
+    {
+      "text": "A deadly trial of the Diem's sand masters. Drile laughs at Kenton for thinking an acolent could come through it alive.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "prologue" }]
+    },
+    {
+      "text": "A trial meant only for sand masters of the Diem's highest rank, mastrell. The most powerful and proud of them devised it to show off their superiority, so it is exceptionally hard and dangerous.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "1" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "No one has to run it; its real purpose is to let the most powerful mastrells boast. Several have died trying and most never attempt it. Any member may try, but lower ranks need a stronger sponsor, which hardly ever happens since they would be expected to die. It is held yearly with other contests, before the ceremony that grants new ranks.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "1" }]
+    },
+    {
+      "text": "Five red spheres are hidden around the Kerla, and the challenger has one Dayside hour, ninety minutes, to find them, timed by the moon passing behind Mount KraeDa. A group of mastrells watches; asking for help ends the run. Only one qido of water is allowed, so overmastery is a real danger. There is no pass or fail, only the count of spheres found.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "2" }]
+    },
+    {
+      "text": "The course lies in a remote stretch of desert at KraeDa's foot, far from water and dotted with deep sand. The Diem holds it sacred and its details are kept secret. A watching mastrell hides the spheres just before each run, with flags marking the area; the first four are well hidden but within reach of a strong sand master.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "2" }]
+    },
+    {
+      "text": "The last sphere is guarded by a Marken, a huge terken creature normally found only in deep sand. This one was somehow cut off on the Kerla, and the mastrells have fed it for centuries.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "2" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Traiben's attempt",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "2" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Before Kenton, Mastrell Traiben ran the Path and found only three spheres. He saved some water to the end and poured it on the deep sandling to drive it off, but its digging buried the last sphere out of reach.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "2" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Kenton's run",
+          "revealedIn": [
+            { "book": "white-sand-omnibus", "chapter": "1" },
+            { "book": "white-sand-omnibus", "chapter": "2" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Relying on skill rather than raw strength, Kenton found four spheres. A terken Marken rose from the deep sand to guard the fifth; he slipped past it, took that sphere and a sixth he noticed under the beast, then fell unconscious from lack of water.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "1" }]
+        },
+        {
+          "text": "Kenton hoped that finishing the Path would force his father Praxton, head of the Diem, to raise his rank despite his weak power. Many tried to stop him, but Elorin agreed to be his sponsor, and Kenton turned down Praxton's offer of the rank of fen to call it off.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "2" }]
+        },
+        {
+          "text": "Bringing a sword, which the rules did not forbid, he weakened the Marken's carapace and drove a ribbon of sand into its brain. The sixth sphere had probably been left from an earlier attempt.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "2" }]
+        },
+        {
+          "text": "The Diem was amazed and some hailed him a hero, but Praxton was furious that his son had defied him and spoiled the Path by slaying its guardian. His next offer, underfen, was lower still; Kenton turned it down, and Praxton had to grant him mastrell, warning that others would call it favouritism.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "2" }]
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Location",
+      "name": "The Kerla",
+      "placeId": "kerla",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "2" }]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "kenton",
+      "role": "challenger",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "prologue" }]
+    },
+    {
+      "characterId": "traiben",
+      "role": "challenger",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "2" }]
+    },
+    {
+      "characterId": "elorin",
+      "role": "sponsor",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "2" }]
+    },
+    {
+      "characterId": "praxton",
+      "role": "Lord Mastrell",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "2" }]
+    }
+  ]
+}

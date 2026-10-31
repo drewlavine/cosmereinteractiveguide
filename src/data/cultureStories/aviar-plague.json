@@ -1,0 +1,37 @@
+{
+  "intro": [
+    {
+      "text": "A sickness that killed great numbers of Aviar on First of the Sun.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "7" }]
+    }
+  ],
+  "description": [],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Outbreak in the homeisles",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "7" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "The plague spread across the homeisles, and was stamped out within weeks once the Ones Above supplied medicine. The Eelakin concluded that the Ones Above had held the medicine back on purpose, as a display of their power.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "7" }]
+        },
+        {
+          "text": "Dusk's Aviar Kokerlii was one of the birds it killed.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "7" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "kokerlii",
+      "role": "victim",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "7" }]
+    }
+  ]
+}

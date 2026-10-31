@@ -481,5 +481,58 @@
         }
       ]
     }
+  ],
+  "abilities": [
+    {
+      "title": [
+        {
+          "text": "Before the Oathpact",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "104" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Honor gave Nale Surges before he became a Herald. He used Transportation, could hear Roshar's tones, and aged very slowly over centuries.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "104" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Combat",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "109" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Nale can move faster than ordinary humans and break Shardplate barehanded even without Stormlight.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "109" }]
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "title": [
+        {
+          "text": "His highspren",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "95" },
+            { "book": "wind-and-truth", "chapter": "postlude" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Nale's bonded highspren, 121, accompanied him to Braize when the Oathpact required his return.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "95" }]
+        },
+        {
+          "text": "Although 121 departed during Nale's breakdown in Shinovar, the spren appeared with him in the vision entered under the restored Oathpact.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "postlude" }]
+        }
+      ]
+    }
   ]
 }

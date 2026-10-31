@@ -107,6 +107,27 @@
           "revealedIn": [{ "book": "rhythm-of-war", "chapter": "1" }]
         }
       ]
+    },
+    {
+      "title": [
+        {
+          "text": "The occupation",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "21" },
+            "wind-and-truth"
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "After conquering Herdaz, the Fused moved most of their military forces elsewhere.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "21" }]
+        },
+        {
+          "text": "Dieno's attempt to restore the country's independence failed, and Herdaz remained under Retribution after the contest.",
+          "revealedIn": ["wind-and-truth"]
+        }
+      ]
     }
   ]
 }

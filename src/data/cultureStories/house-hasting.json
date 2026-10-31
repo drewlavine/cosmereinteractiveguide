@@ -1,0 +1,115 @@
+{
+  "intro": [
+    {
+      "text": "A noble house of the Final Empire, second in power among the ten Great Houses of Luthadel, behind House Venture.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "9" }]
+    },
+    {
+      "text": "A noble house of Scadrial: second only to House Venture in the Final Empire, and still a large and powerful house in Elendel three centuries on.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "9" },
+            { "book": "shadows-of-self", "chapter": "19" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "It is a political rival of House Venture, though one young Hasting is a friend of Elend Venture.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "18" }]
+    },
+    {
+      "text": "The house has a name for heavy use of subterfuge. It is a big player in the arms trade, with its own steel mills and smithies, and holds plantations in the Southern Dominance.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "28" }]
+    },
+    {
+      "text": "One of the richest noble houses, it is a merchant house that lives on its contracts, which leaves it badly exposed. Like every Great House, it can call on Mistborn and buy atium from the Lord Ruler.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "32" }]
+    },
+    {
+      "text": "Keep Hasting, a venue for many balls, is a tall, wide tower joined by walltop walkways to six others, all patterned with stained glass. Skaa work the pulley platforms that lift guests to the square ballroom at the top of the main tower, which is ringed by balconies.",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "23" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The house war",
+          "revealedIn": [
+            { "book": "final-empire", "chapter": "28" },
+            { "book": "final-empire", "chapter": "30" },
+            { "book": "final-empire", "chapter": "32" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Guided by Kelsier, House Renoux spreads rumours, backed by forged papers, that Hasting is getting ready to leave Luthadel. Hasting's allies begin planning for its departure, some start leaving themselves, and arms buyers look elsewhere, fearing Hasting can't honour its contracts.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "28" }]
+        },
+        {
+          "text": "Elend tells Valette that House Hasting killed the Tekiels, and Straff Venture seeks an alliance with Lord Tegas so as to crush Hasting faster if a house war starts.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "28" }]
+        },
+        {
+          "text": "When Elariel assassins attack Elend Venture during the last ball at Keep Venture, they also try to kill a Hasting with him; Vin stops them.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "30" }]
+        },
+        {
+          "text": "Keep Hasting is attacked more than a dozen times, six of them in a single week. With its allies gone and its money ruined, the house falls.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "32" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "After the fall",
+          "revealedIn": [
+            { "book": "well-of-ascension", "chapter": "35" },
+            { "book": "hero-of-ages", "chapter": "32" },
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "9" },
+                { "book": "shadows-of-self", "chapter": "19" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Keep Hasting stands empty until Ashweather Cett moves in during the siege of Luthadel.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "35" }]
+        },
+        {
+          "text": "Most surviving Hastings move to BasMardin, far from Luthadel. After Yomen's coup a few, including Telden, move to Fadrex City; the house is on excellent terms with Yomen, and Hastings are in the city during its siege.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "32" }]
+        },
+        {
+          "text": "In Elendel, three centuries on, House Hasting remains a big, powerful noble family.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "9" },
+                { "book": "shadows-of-self", "chapter": "19" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "telden-hasting",
+      "role": "member",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "32" }]
+    }
+  ]
+}

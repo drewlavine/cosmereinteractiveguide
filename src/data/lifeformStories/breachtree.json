@@ -1,0 +1,55 @@
+{
+  "intro": [
+    {
+      "text": "A Rosharan plant used to make textiles.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "25" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Jah Keved grows breachtrees for textiles, and their cotton is traded as a commodity.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "45" }]
+    },
+    {
+      "text": "Breachtree cotton is spun into fabric, sometimes scratchy, that can be dyed and made into anything from coats to robes.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "25" },
+            { "book": "rhythm-of-war", "chapter": "15" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Breachtree cloth and trade",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "25" },
+            { "book": "words-of-radiance", "chapter": "45" },
+            { "book": "rhythm-of-war", "chapter": "15" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "As a young man, Kaladin had a padded brown coat of breachtree cloth.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "25" }]
+        },
+        {
+          "text": "In 1170 Lin Davar had to sell breachtree cotton and raw shum to Revilar at a huge discount to gain influence with him.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "45" }]
+        },
+        {
+          "text": "In his fight with Kaladin in Urithiru, Zahel had on a worn tan robe of breachtree cotton, belted with a rope.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "15" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": []
+}

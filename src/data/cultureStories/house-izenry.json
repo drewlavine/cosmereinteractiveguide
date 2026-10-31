@@ -1,0 +1,32 @@
+{
+  "intro": [
+    {
+      "text": "A noble house of the Final Empire on Scadrial, known as the rival of House Tekiel.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "19" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "It is strong enough that the murder of one of Tekiel's allies could plausibly be laid at its door.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "19" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The house war",
+          "revealedIn": [{ "book": "final-empire", "chapter": "19" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "To sow discord among the nobles, Kelsier left the body of Charrs Entrone, a Tekiel ally, at Keep Tekiel. He expected Izenry to be suspected first, and any deeper inquiry to muddy things further, as if someone wanted to stoke the feud between the two houses.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "19" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": []
+}

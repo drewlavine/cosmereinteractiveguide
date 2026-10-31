@@ -1,0 +1,111 @@
+{
+  "intro": [
+    {
+      "text": "An Aviar of the same breed as Kokerlii, left without an owner when the trapper who kept her died, whom Vathi offers to Dusk.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "15" }],
+      "fallback": true
+    },
+    {
+      "text": "An Aviar bonded to the trapper Dusk, whose talent hides his mind from predators in the endless dark.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "31" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "A new companion",
+          "revealedIn": [
+            { "book": "isles-of-the-emberdark", "chapter": "15" },
+            { "book": "isles-of-the-emberdark", "chapter": "21" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Rokke belonged to a trapper on one of the Pantheon islands until he died. Before Dusk's journey, Vathi offered her to him; he saw she was Kokerlii's breed but refused, not ready to replace his lost friend.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "15" }]
+        },
+        {
+          "text": "As he set out into the dark, Dusk changed his mind and took Rokke along, since her talent veils minds from certain predators.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "21" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Into the dark",
+          "revealedIn": [
+            { "book": "isles-of-the-emberdark", "chapter": "24" },
+            { "book": "isles-of-the-emberdark", "chapter": "31" },
+            { "book": "isles-of-the-emberdark", "chapter": "33" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Rokke hid in the boat until Dusk's voice and an old song drew her out, and the two shared their grief, each having lost a companion. When she sensed a serpent below, Dusk had her drop her shield to lure it, but it was big enough to swallow the boat, and her shield hid them again as they fled.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "24" }]
+        },
+        {
+          "text": "When Dusk hunted a smaller skullsnake, she lowered her shield again to draw it in. As he tired in the long struggle, she perched on his shoulder for the first time, and she cried out in triumph at the kill.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "31" }]
+        },
+        {
+          "text": "After Dusk began hearing a thrumming in the dark by eating worm paste, Rokke and Sak heard it as well, through their bonds with him.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "33" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "On the island",
+          "revealedIn": [
+            { "book": "isles-of-the-emberdark", "chapter": "46" },
+            { "book": "isles-of-the-emberdark", "chapter": "59" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "When a being named Chrysalis spoke into Dusk's mind, he had Rokke raise her shield, ending the contact.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "46" }]
+        },
+        {
+          "text": "In Dusk's quarters on the island he set out toys and food bowls for his birds. Rokke went with him on his trips down the island's tunnel and across its lake to the island at its centre.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "59" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "A little black and white bird with a red head, belonging to one of the five Aviar breeds the Eelakin rely on to shield their minds.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "59" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Skittish and shy at first, she grew bolder through Dusk's encouragement and the dangers they faced together.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "59" }]
+    }
+  ],
+  "abilities": [
+    {
+      "title": [
+        {
+          "text": "Mind shield",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "50" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Like Kokerlii, she grants her bonded human a talent that hides the mind from attack and intrusion, gained by visiting Patji's Eye when young. It even keeps the Sleepless from reading a mind or speaking into it. Through her bond with Dusk she can also sense the Grand Knell.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "50" }]
+        }
+      ]
+    }
+  ]
+}

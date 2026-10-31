@@ -1,0 +1,58 @@
+{
+  "intro": [
+    {
+      "text": "An officer in Duchess Khrissalla's escort on her voyage to Dayside, who flouts orders to keep his pistol hidden.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "prologue" }]
+    },
+    {
+      "text": "An officer in Duchess Khrissalla's escort who shoots the party's guide and then deserts with Private Torth.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "3" }]
+    },
+    {
+      "text": "An Elisian noble and officer in Duchess Khrissalla's escort who shoots the party's guide and deserts.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "8" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Khriss's escort",
+          "revealedIn": [
+            { "book": "white-sand-omnibus", "chapter": "prologue" },
+            { "book": "white-sand-omnibus", "chapter": "1" },
+            { "book": "white-sand-omnibus", "chapter": "3" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "When Baon rebuked him for showing his pistol, Flennid argued that Daysiders would not know a gun if they saw one, then sulkily obeyed. At Dosha-Har'Ken he went with Khriss to find supplies and saw the A'kar preaching in the market.",
+          "revealedIn": [
+            { "book": "white-sand-omnibus", "chapter": "prologue" }
+          ]
+        },
+        {
+          "text": "On the Kerla he glared at the armed Kerztians they passed and told Torth to watch them; Khriss thought he was itching for a fight.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "1" }]
+        },
+        {
+          "text": "Riding ahead with Torth to the Diem's tents, he found the slain sand masters. When Daazk fled shouting, Flennid took it for a call to ambush and shot him. Baon took his gun, and soon afterwards he and Torth slipped away toward the port with the tonk carrying the water and food.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "3" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Wears a military tricorne and a maroon officer's jacket trimmed with gold, khaki trousers and brown calf-high boots.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "1" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Sullen and pessimistic.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "1" }]
+    }
+  ]
+}

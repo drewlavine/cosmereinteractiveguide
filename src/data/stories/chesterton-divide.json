@@ -1,0 +1,52 @@
+{
+  "intro": [
+    {
+      "text": "A wanted outlaw whose gang stops at Silence's waystop disguised as merchants; he is also the man who murdered Sebruki's family.",
+      "revealedIn": [{ "book": "shadows-for-silence", "chapter": "1" }],
+      "fallback": true
+    },
+    {
+      "text": "A highwayman of Threnody with a huge bounty from Lastport on his head, who hides in the Forests of Hell with his gang posing as merchants.",
+      "revealedIn": ["shadows-for-silence"]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Outlaw",
+          "revealedIn": [
+            "shadows-for-silence",
+            { "book": "shadows-for-silence", "chapter": "2" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "A successful highway robber, he slaughtered Sebruki's family in their homestead after ringing the room with silver against the shades; her mother hid her under the floor. When he killed the governor of Lastport, the city put a huge price on him, and he and four men vanished into the forest dressed as merchants, evading capture for months.",
+          "revealedIn": ["shadows-for-silence"]
+        },
+        {
+          "text": "After his gang left the waystop, Silence and William Ann tracked them to their camp and killed them one by one. He woke and tried to run, but they caught and killed him without spilling blood.",
+          "revealedIn": [{ "book": "shadows-for-silence", "chapter": "2" }]
+        },
+        {
+          "text": "Red Young's band took his body for the reward, and in the struggle that followed it ended up in Theopolis's hideout. Silence recovered it there and turned it in for the bounty.",
+          "revealedIn": ["shadows-for-silence"]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "He and his men pass as merchants, in black coats with lace down the front and tall, wide-brimmed hats.",
+      "revealedIn": ["shadows-for-silence"]
+    }
+  ],
+  "personality": [
+    {
+      "text": "A vicious man likened to a rabid dog, he will bribe, threaten or kill to get his way. He is cunning too: travelling as a merchant lets him move freely and gather information.",
+      "revealedIn": ["shadows-for-silence"]
+    }
+  ]
+}

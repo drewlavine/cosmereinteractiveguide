@@ -1,0 +1,204 @@
+{
+  "intro": [
+    {
+      "text": "A period on Roshar after which the highstorms return, weak at first; the calm that follows is the best time for planting.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "4" }]
+    },
+    {
+      "text": "A four-week season of steady rain without highstorm winds that closes Roshar's five-hundred-day year. Lightday, the new year, falls at its midpoint.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "44" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Highstorms grow rarer in the weeks before it, then stop; the rain begins a few days after the last one. Lightday is calm at the start of even-numbered years, called Light Years, but brings a highstorm in odd ones. When the rain ends, the storms come back weaker than usual.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "44" },
+            { "book": "words-of-radiance", "chapter": "76" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "The rain falls slow and steady and leaves no crem. There are no fierce winds, the sky stays overcast in a constant twilight, and rainspren are everywhere.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "44" },
+            { "book": "words-of-radiance", "chapter": "81" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Vorinism treats the Weeping as a time to reflect and think on the Almighty. Yeddaw celebrates with its ten famous pancakes, and Urithiru, standing above the clouds, is untouched by it.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "87" },
+            { "book": "edgedancer", "chapter": "2" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Midpeace, halfway between Weepings, is another long stretch without highstorms, but with little or no rain; storms come more often before and after it.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "45" },
+            { "book": "oathbringer", "chapter": "58" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "An unusual Weeping",
+          "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "83" },
+            {
+              "all": [
+                { "book": "edgedancer", "chapter": "19" },
+                { "book": "oathbringer", "chapter": "22" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The Weeping at the end of 1173 broke its pattern because of the Battle of Narak, fought two days before Lightday. Strong winds blew even before the fighting, and during it the listeners called up the Everstorm and the Stormfather sent a highstorm to meet it.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "83" }]
+        },
+        {
+          "text": "Elsewhere the rain stopped, started and stopped again. The out-of-season highstorm struck without warning, so only some spheres were renewed, and the Everstorm came a few days after. A drought lasted until the highstorms returned in Jesevan 1174.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "edgedancer", "chapter": "19" },
+                { "book": "oathbringer", "chapter": "22" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "title": "Influence",
+      "items": [],
+      "parts": [
+        {
+          "title": [
+            {
+              "text": "Everyday life",
+              "revealedIn": [
+                { "book": "way-of-kings", "chapter": "29" },
+                {
+                  "all": [
+                    { "book": "way-of-kings", "chapter": "29" },
+                    { "book": "words-of-radiance", "chapter": "79" },
+                    { "book": "oathbringer", "chapter": "10" }
+                  ]
+                },
+                {
+                  "all": [
+                    { "book": "words-of-radiance", "chapter": "81" },
+                    { "book": "oathbringer", "chapter": "99" }
+                  ]
+                }
+              ]
+            }
+          ],
+          "items": [
+            {
+              "text": "People sometimes count their age in Weepings.",
+              "revealedIn": [{ "book": "way-of-kings", "chapter": "29" }]
+            },
+            {
+              "text": "Rosharans are used to it. They wear long coats and wide-brimmed hats yet expect everyone and everything to stay soaked, and most bear it calmly, glad of the break from highstorms.",
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "way-of-kings", "chapter": "29" },
+                    { "book": "words-of-radiance", "chapter": "79" },
+                    { "book": "oathbringer", "chapter": "10" }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "With no storms, Stormlight runs short. People keep it in huge gems with a special many-faceted cut, but few stay lit until the next storm; only a perfect gem would. Singers cannot change forms until the storms return.",
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "words-of-radiance", "chapter": "81" },
+                    { "book": "oathbringer", "chapter": "99" }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": [
+            {
+              "text": "Military",
+              "revealedIn": [{ "book": "words-of-radiance", "chapter": "82" }]
+            }
+          ],
+          "items": [
+            {
+              "text": "Without highstorms, armies need no stormshelters, so they can resupply and cover long distances quickly; Alethi armies sometimes launch short campaigns then. Fighting itself is harder, as the rain hampers archers.",
+              "revealedIn": [{ "book": "words-of-radiance", "chapter": "82" }]
+            }
+          ]
+        },
+        {
+          "title": [
+            {
+              "text": "Industry",
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "way-of-kings", "chapter": "4" },
+                    { "book": "edgedancer", "chapter": "12" },
+                    { "book": "oathbringer", "chapter": "i-1" }
+                  ]
+                },
+                { "book": "words-of-radiance", "chapter": "81" }
+              ]
+            }
+          ],
+          "items": [
+            {
+              "text": "Farmers rarely work in the Weeping, since the rain would wash away seed and can drown some plants, but fishermen work hard because their boats keep flooding.",
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "way-of-kings", "chapter": "4" },
+                    { "book": "edgedancer", "chapter": "12" },
+                    { "book": "oathbringer", "chapter": "i-1" }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Some places use the rain to wash areas that would otherwise be hard to clean.",
+              "revealedIn": [{ "book": "words-of-radiance", "chapter": "81" }]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": []
+}

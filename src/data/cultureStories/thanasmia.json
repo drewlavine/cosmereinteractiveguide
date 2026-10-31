@@ -1,0 +1,18 @@
+{
+  "intro": [
+    {
+      "text": "A name heard in a sailor's saying: Flik talks of sailing under \"Thanasmia's own moon\" while telling Tress how Charlie was sent across the Midnight Sea.",
+      "revealedIn": [{ "book": "tress", "chapter": "5" }]
+    }
+  ],
+  "description": [],
+  "history": [],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "flik",
+      "role": "used the phrase",
+      "revealedIn": [{ "book": "tress", "chapter": "5" }]
+    }
+  ]
+}

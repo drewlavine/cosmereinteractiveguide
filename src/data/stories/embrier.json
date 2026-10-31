@@ -1,0 +1,36 @@
+{
+  "intro": [
+    {
+      "text": "One of the gangsters at a Bilming warehouse where Wayne and VenDell arrive in disguise.",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "21" }],
+      "fallback": true
+    },
+    {
+      "text": "A member of the Set in Bilming.",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "26" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The warehouse",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "21" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Wayne, posing as Franis, talked Embrier into bringing out the Sequence. As he came back with it, Bilming's city constables flooded into the building.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "21" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Stouter, by Wayne's description, than the gang member standing beside him.",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "21" }]
+    }
+  ],
+  "personality": []
+}

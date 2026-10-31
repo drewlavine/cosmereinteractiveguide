@@ -1,0 +1,57 @@
+{
+  "intro": [
+    {
+      "text": "A place on Roshar that Jasnah Kholin visited in 1173.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "5" }]
+    },
+    {
+      "text": "A city on Roshar, on the border between Jah Keved and Alethkar.",
+      "revealedIn": ["oathbringer"]
+    }
+  ],
+  "description": [],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "After Gavilar's death",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "105" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "In 1168, soon after Gavilar Kholin's death, Dalinar planned to march an army through Dumadari and then sail to New Natanan, where he would establish a base on the Shattered Plains ahead of the other Alethi armies.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "105" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Jasnah's visit",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "5" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Jasnah Kholin was in Dumadari in 1173. When Shallan Davar wrote asking to become her ward, Jasnah told her to come there in two weeks, but she had moved on by the time Shallan arrived, leaving a note asking Shallan to follow.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "5" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The True Desolation",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "107" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "At a coalition strategy meeting, Fen warned that the enemy fleet could easily strike ports such as Kharbranth and Dumadari.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "107" }]
+        }
+      ]
+    }
+  ]
+}

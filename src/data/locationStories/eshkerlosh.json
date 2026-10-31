@@ -1,0 +1,29 @@
+{
+  "intro": [
+    {
+      "text": "A settlement on Dayside, on the way inland from Dosha-Har'Ken.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "1" }]
+    },
+    {
+      "text": "A tent city on Dayside, in the Kerla of Kerzta.",
+      "revealedIn": ["white-sand-omnibus"]
+    }
+  ],
+  "description": [],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Darkside travelers",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "1" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Duchess Khrissalla's party skirted its outskirts on the road to Lossand. Put off by the menacing Kerztian guards, they did not stop for supplies.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "1" }]
+        }
+      ]
+    }
+  ]
+}

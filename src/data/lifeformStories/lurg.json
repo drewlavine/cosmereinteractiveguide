@@ -1,0 +1,75 @@
+{
+  "intro": [
+    {
+      "text": "A Rosharan amphibian with slick brown and green skin that gets about in quick jumps.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "16" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "A lurg clings to rock with six legs, at least two of them ending in tiny hands. Its eyes sit near the middle of its back, and it leaves spots of mucus where it lands.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "16" }]
+    },
+    {
+      "text": "A lurg spins itself a round cocoon of white silk in a crevice and seals it with mucus. Rain dissolves the cocoon, and the lurg comes out to hunt the insects that rainstorms bring out.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "16" }]
+    },
+    {
+      "text": "Children pour water on cocoons to trick lurgs into hopping about; they soon tire when they find no food. Some keep lurgs for pranks, such as dropping one into someone's bath.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "16" }]
+    },
+    {
+      "text": "Lurgs are about the size of a fist.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "16" },
+            { "book": "oathbringer", "chapter": "5" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Encounters",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "16" },
+                { "book": "edgedancer", "chapter": "15" }
+              ]
+            },
+            { "book": "oathbringer", "chapter": "5" },
+            { "book": "rhythm-of-war", "chapter": "6" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Growing up in Hearthstone, Kaladin and his brother Tien loved playing with lurgs, Tien most of all. Lift also liked to catch them.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "16" },
+                { "book": "edgedancer", "chapter": "15" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Hiking to Hearthstone after the Everstorm, Kaladin and Syl came across a lurg. Syl was delighted and briefly took on its shape.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "5" }]
+        },
+        {
+          "text": "Fighting Leshwi outside Hearthstone, Kaladin used cocooned lurgs to distract her and win a moment's advantage.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "6" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": []
+}

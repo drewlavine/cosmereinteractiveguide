@@ -1,0 +1,46 @@
+{
+  "intro": [
+    {
+      "text": "Small rodents of the island of Patji with a simple form of telepathy.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "6" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Meekers are tiny and mouse-like, with sharp teeth and a lone fang in front whose venom can kill a man with one bite.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "6" }]
+    },
+    {
+      "text": "They are fairly clever: they can follow basic instructions and send out thoughts, mostly simple requests for food or expressions of thanks. They can be trained a little but cannot handle complicated questions. They appear to live in groups, with several sharing a den.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "6" }]
+    },
+    {
+      "text": "They are roughly as clever as nightmaws, and can read simple scripts.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "18" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Living alongside trappers",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "6" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "When the first trappers came to the isles, meekers were a danger to them, but over the centuries they grew used to trappers and no longer posed any danger. Sixth of the Dusk is trying to teach them to bite other trappers again, rewarding them with bits of dried meat.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "6" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "sixth-of-the-dusk",
+      "role": "trains them",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "6" }]
+    }
+  ]
+}

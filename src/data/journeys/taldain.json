@@ -1,41 +1,48 @@
 {
-  "id": "taldain",
-  "credits": [
+ "id": "taldain",
+ "credits": [
+  {
+   "text": "Taldain journey events written for this guide from the Coppermind's chapter summaries",
+   "url": "https://coppermind.net/wiki/Summary:White_Sand",
+   "source": "taldain-hand"
+  }
+ ],
+ "events": [
+  {
+   "id": "tlh-41593873",
+   "characters": [
+    "hoid"
+   ],
+   "mapId": "dayside",
+   "path": [
+    [
+     622,
+     1356
+    ]
+   ],
+   "placeId": "border-ocean",
+   "placeName": "the Southern Border Ocean",
+   "revealedIn": [
     {
-      "text": "Taldain journey events written for this guide from the Coppermind's chapter summaries",
-      "url": "https://coppermind.net/wiki/Summary:White_Sand",
-      "source": "taldain-hand"
+     "book": "white-sand-omnibus",
+     "chapter": "epilogue"
     }
-  ],
-  "events": [
+   ],
+   "approximate": true,
+   "title": "Hoid appears aboard Khriss's ship",
+   "summary": [
     {
-      "id": "tlh-41593873",
-      "characters": ["hoid"],
-      "mapId": "dayside",
-      "path": [[622, 1356]],
-      "placeId": "border-ocean",
-      "placeName": "the Southern Border Ocean",
-      "revealedIn": [
-        {
-          "book": "white-sand-omnibus",
-          "chapter": "epilogue"
-        }
-      ],
-      "approximate": true,
-      "title": "Hoid appears aboard Khriss's ship",
-      "summary": [
-        {
-          "text": "Hoid left Dayside aboard Khriss's ship, bound for Darkside.",
-          "revealedIn": [
-            {
-              "book": "white-sand-omnibus",
-              "chapter": "epilogue"
-            }
-          ]
-        }
-      ],
-      "source": "taldain-hand",
-      "order": 1
+     "text": "Hoid left Dayside aboard Khriss's ship, bound for Darkside.",
+     "revealedIn": [
+      {
+       "book": "white-sand-omnibus",
+       "chapter": "epilogue"
+      }
+     ]
     }
-  ]
+   ],
+   "source": "taldain-hand",
+   "order": 1
+  }
+ ]
 }

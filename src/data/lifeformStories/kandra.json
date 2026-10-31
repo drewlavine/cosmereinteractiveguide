@@ -1,0 +1,221 @@
+{
+  "intro": [
+    {
+      "text": "Shapeshifters who can take on the bodies of others. Vin's kandra, OreSeur, copies a wolfhound she buys for him, though he grumbles that he wanted a human body.",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "6" }]
+    },
+    {
+      "text": "Shapeshifters who copy the bodies of the dead and leave the bones behind. They serve humans only under Contract. The Lord Ruler created them after his Ascension; they are not immortal, and he built in a way to control them.",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "40" }]
+    },
+    {
+      "text": "Shapeshifters made by the Lord Ruler from mistwraiths: his Terris packmen became the First Generation, and each kandra since is a mistwraith given a pair of spikes called a Blessing. For centuries they served humans under Contract.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "well-of-ascension", "chapter": "13" },
+            { "book": "hero-of-ages", "chapter": "62" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "No kandra may enter human society without a Contract. Kandra cannot use Allomancy, and mental Allomancy normally has no effect on them, yet a strong enough Soothing, boosted by duralumin, can take over a kandra's body.",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "40" }]
+    },
+    {
+      "text": "Each Blessing brings an extra gift. Tin spikes sharpen the senses; iron spikes give strength rather like pewter's; copper spikes give a focused mind, sharp memory and resistance to madness; zinc spikes make a kandra much harder to sway with emotional Allomancy.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "38" }]
+    },
+    {
+      "text": "To copy a particular person, a kandra takes that person's bones and reshapes its body around them. In the Homeland most wear True Bodies, false bones crafted by kandra artisans from stone, wood, glass, metal or crystal and usually human-shaped. The First Generation instead use the bones they had in life, before becoming kandra.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "68" }]
+    },
+    {
+      "text": "Kandra spent ten centuries serving humankind under Contracts, and most hate humans for it, even though most of their True Bodies are human-shaped. Contracts are paid in atium, which the kandra stockpile in a vault called the Trust, keeping it out of Ruin's reach.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "71" }]
+    },
+    {
+      "text": "In a fight, a kandra can grow powerful muscles, heal most wounds at once and switch off pain. Some build bodies for combat, with metal bones, bones sharpened into knives or hidden weapons.",
+      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "24" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Kandra in Luthadel",
+          "revealedIn": [
+            { "book": "well-of-ascension", "chapter": "6" },
+            { "book": "well-of-ascension", "chapter": "11" },
+            { "book": "well-of-ascension", "chapter": "33" },
+            { "book": "well-of-ascension", "chapter": "40" },
+            { "book": "well-of-ascension", "chapter": "47" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Vin bought a wolfhound as a new body for OreSeur, who protested that he wanted a human one, then finished copying the hound.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "6" }]
+        },
+        {
+          "text": "Palace guards found skeletons left behind by kandra, one of them very fresh, and Vin realised a kandra was probably posing as someone close to Elend.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "11" }]
+        },
+        {
+          "text": "OreSeur let slip that the kandra have their own religion, with prophecies about the end of humankind, and spoke of a bond between kandra and koloss.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "33" }]
+        },
+        {
+          "text": "OreSeur told Vin that the Lord Ruler had made the kandra with a built-in way to control them. Vin then took control of him with a Soothing boosted by duralumin.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "40" }]
+        },
+        {
+          "text": "The kandra Vin knew as OreSeur obeyed Zane, his real master, who called him TenSoon; Vin realised he had been the spy. After Zane's death, TenSoon set out for the kandra Homeland.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "47" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Under the Final Empire",
+          "revealedIn": [
+            { "book": "hero-of-ages", "chapter": "62" },
+            { "book": "hero-of-ages", "chapter": "11" },
+            {
+              "all": [
+                { "book": "well-of-ascension", "chapter": "40" },
+                { "book": "hero-of-ages", "chapter": "11" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "While taking the power at the Well, the Lord Ruler offered his closest friends, his fellow Terris packmen, immortality in exchange for their Feruchemy. Every other living Feruchemist became a mistwraith, but he gave the packmen spikes, making them the First Generation, his spies and informants.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "62" }]
+        },
+        {
+          "text": "The First Generation's promises to the Lord Ruler were written down as the first kandra laws, the First Contract. Every kandra is taught it first, on waking from life as a mistwraith.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "11" }]
+        },
+        {
+          "text": "At first kandra tried to live hidden among humans, but people feared them as monsters and hunted them with Allomancy until they were nearly extinct. In desperation, they agreed to serve humans and to leave the Homeland only on Contract.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "well-of-ascension", "chapter": "40" },
+                { "book": "hero-of-ages", "chapter": "11" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "To arrange a Contract, a client left word at a set place in Luthadel; a kandra under Contract to the Lord Ruler then met the client to see the papers signed and payment collected.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "11" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The Resolution",
+          "revealedIn": [
+            { "book": "hero-of-ages", "chapter": "75" },
+            { "book": "hero-of-ages", "chapter": "80" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Haddek told Sazed of the Resolution: every kandra must remove its Blessing if the First Generation commands it.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "75" }]
+        },
+        {
+          "text": "When the Resolution was called, nearly all kandra pulled out their spikes and became mistwraiths, so Ruin could not take them. A few, led by KanPaar, kept their spikes and tried to bring the atium to Ruin.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "80" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Harmony's agents",
+          "revealedIn": [
+            { "book": "shadows-of-self", "chapter": "13" },
+            { "book": "shadows-of-self", "chapter": "20" },
+            { "book": "lost-metal", "chapter": "11" },
+            { "book": "tress", "chapter": "28" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Three centuries on, kandra serve Harmony as his agents, blending in among people to carry out his tasks. In Elendel they are called the Faceless Immortals, and people are split between reverence and dismissing them as an urban legend.",
+          "revealedIn": [{ "book": "shadows-of-self", "chapter": "13" }]
+        },
+        {
+          "text": "After Ruin nearly seized them, the surviving kandra learned how to die by choice whenever they wished, and many of the Second Generation did so. They also made an injection that briefly makes a disguised kandra droop, though it kills humans.",
+          "revealedIn": [{ "book": "shadows-of-self", "chapter": "20" }]
+        },
+        {
+          "text": "The Homeland has long been abandoned and is revered as a holy place, but kandra still gather, in human guise among human society.",
+          "revealedIn": [{ "book": "shadows-of-self", "chapter": "20" }]
+        },
+        {
+          "text": "After Harmony's clash with Trell, he began sending kandra to other planets as his agents.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "11" }]
+        },
+        {
+          "text": "On several planets, kandra lie behind folk tales of talking animals.",
+          "revealedIn": [{ "book": "tress", "chapter": "28" }]
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Home",
+      "name": "Kandra Homeland",
+      "placeId": "kandra-homeland",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "47" }]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "oreseur",
+      "role": "kandra",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "6" }]
+    },
+    {
+      "characterId": "tensoon",
+      "role": "kandra",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "47" }]
+    },
+    {
+      "characterId": "haddek",
+      "role": "First Generation",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "75" }]
+    },
+    {
+      "characterId": "kanpaar",
+      "role": "rebel leader",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "80" }]
+    },
+    {
+      "characterId": "melaan",
+      "role": "kandra",
+      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "24" }]
+    },
+    {
+      "characterId": "paalm",
+      "role": "kandra",
+      "revealedIn": [{ "book": "shadows-of-self", "chapter": "epilogue" }]
+    }
+  ]
+}

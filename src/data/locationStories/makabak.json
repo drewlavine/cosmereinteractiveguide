@@ -1,0 +1,30 @@
+{
+  "intro": [
+    {
+      "text": "A region of southwestern Roshar whose nations share related cultures and ethnicities, covering much of the old Silver Kingdom of Makabakam.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "12" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Mountains enclose much of the region, while its southern edge meets the Southern Depths. Its only Oathgate is in Azimir.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "65" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The region's name",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "58" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Makabak inherited its name from Makabakam, whose name came from Makibak, a leader of early humanity on Roshar.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "58" }]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "intro": [
+    {
+      "text": "A basin in Shadesmar's Sea of Souls, north of Perpetual Sobriety and the Azimir Oathgate.",
+      "revealedIn": ["rhythm-of-war"]
+    }
+  ],
+  "description": [
+    {
+      "text": "In the Physical Realm, it matches part of Azir.",
+      "revealedIn": [{ "all": ["oathbringer", "rhythm-of-war"] }]
+    },
+    {
+      "text": "A note on the map marks something strange in the basin north of the Oathgate.",
+      "revealedIn": ["rhythm-of-war"]
+    }
+  ],
+  "history": []
+}

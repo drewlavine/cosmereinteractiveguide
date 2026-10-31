@@ -51,6 +51,16 @@
   "facts": [],
   "people": [
     {
+      "characterId": "colot",
+      "role": "second-in-command",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "15" }]
+    },
+    {
+      "characterId": "notum",
+      "role": "captain",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "67" }]
+    },
+    {
       "characterId": "dalinar-kholin",
       "role": "protected by them",
       "revealedIn": [{ "book": "way-of-kings", "chapter": "73" }]

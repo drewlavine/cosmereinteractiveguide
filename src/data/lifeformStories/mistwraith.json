@@ -1,0 +1,148 @@
+{
+  "intro": [
+    {
+      "text": "A huge, shapeless creature that builds its body from the bones of the dead, mixing many kinds of creature at random. For all its unnerving look, it is harmless and feeds only on bodies that are already dead.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "8" }]
+    },
+    {
+      "text": "A mindless, shapeless creature that builds its body from the bones of the dead. After his Ascension, the Lord Ruler turned the Terris Feruchemists into mistwraiths, and kandra are made from them.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "8" },
+            { "book": "hero-of-ages", "chapter": "68" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "A mistwraith absorbs the bones and flesh of the dead it eats. With no mind to guide it, its shape comes out random, many species jumbled into one body.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "8" }]
+    },
+    {
+      "text": "Skaa folklore fears mistwraiths, along with the mists themselves. People believe one can steal a person's face or pass as that person; walking someone out into sunlight to check that they don't vanish is one test.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "9" }]
+    },
+    {
+      "text": "New kandra are made from mistwraiths, not from humans. Their spikes change the body only a little, but let the mind begin to work.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "41" }]
+    },
+    {
+      "text": "Three centuries on, mistwraith statues stand in cemeteries to scare off mistwraiths thought to be territorial.",
+      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "12" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "A night outside Luthadel",
+          "revealedIn": [{ "book": "final-empire", "chapter": "8" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Walking outside Luthadel at night, Vin noticed something following her and Kelsier; Kelsier showed her it was a mistwraith.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "8" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Origins",
+          "revealedIn": [
+            { "book": "hero-of-ages", "chapter": "68" },
+            { "book": "hero-of-ages", "chapter": "62" },
+            { "book": "hero-of-ages", "chapter": "11" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Once he held the Well's power, the Lord Ruler turned the Terris Feruchemists into mistwraiths.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "68" }]
+        },
+        {
+          "text": "He made his Feruchemist friends into kandra but left the others as mindless mistwraiths, who bred more of their kind; the kandra made since then came from their offspring.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "68" }]
+        },
+        {
+          "text": "TenSoon explained that the Lord Ruler's fellow Terris packmen had been made into mistwraiths and then into kandra, the First Generation.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "62" }]
+        },
+        {
+          "text": "A kandra's first lesson on awakening from its life as a mistwraith is the First Contract.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "11" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The Resolution",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "80" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "When the kandra pulled out their spikes, Sazed woke to find himself among a large group of mistwraiths.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "80" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Back to the primal state",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "hero-of-ages", "chapter": "62" },
+                { "book": "shadows-of-self", "chapter": "13" },
+                { "book": "bands-of-mourning", "chapter": "29" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "A kandra with both spikes removed returns to a mistwraith's primal state, as MeLaan describes. When Wayne puts her spikes back, she recovers quickly.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "hero-of-ages", "chapter": "62" },
+                { "book": "shadows-of-self", "chapter": "13" },
+                { "book": "bands-of-mourning", "chapter": "29" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "lord-ruler",
+      "role": "creator",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "68" }]
+    },
+    {
+      "characterId": "melaan",
+      "role": "reverted kandra",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "hero-of-ages", "chapter": "62" },
+            { "book": "shadows-of-self", "chapter": "13" },
+            { "book": "bands-of-mourning", "chapter": "29" }
+          ]
+        }
+      ]
+    }
+  ]
+}

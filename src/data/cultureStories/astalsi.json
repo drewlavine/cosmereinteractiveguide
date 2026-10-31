@@ -1,0 +1,32 @@
+{
+  "intro": [
+    {
+      "text": "An ancient religion of Scadrial that did not survive the Lord Ruler's reign. Sazed, a Keeper, still carries knowledge of it.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "9" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Its followers blended faith with science. They drew up a detailed scale of colours and read each colour as a sign of a different kind of fortune.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "29" }]
+    },
+    {
+      "text": "They held that everyone is born with a fixed amount of bad luck, so a hard life means good fortune still to come. Sazed offers the faith to Vin for that reason, given all she has suffered, and she wonders whether good luck might be limited too.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "29" }]
+    }
+  ],
+  "history": [],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "sazed",
+      "role": "Keeper",
+      "revealedIn": [{ "book": "final-empire", "chapter": "9" }]
+    },
+    {
+      "characterId": "vin",
+      "role": "listener",
+      "revealedIn": [{ "book": "final-empire", "chapter": "29" }]
+    }
+  ]
+}

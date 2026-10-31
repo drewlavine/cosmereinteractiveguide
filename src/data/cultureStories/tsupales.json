@@ -1,0 +1,53 @@
+{
+  "intro": [
+    {
+      "text": "A food made of thin strips of lavis dough wrapped around seasoned cremling mash, rolled shut and cooked on hot stones in a fire.",
+      "revealedIn": ["king-lopen"]
+    }
+  ],
+  "description": [
+    {
+      "text": "The mash is kneaded by hand and comes out rather greasy. A tsupale is eaten in a couple of bites.",
+      "revealedIn": ["king-lopen"]
+    },
+    {
+      "text": "They are a lot of work. By tradition they are eaten on feastday and to celebrate a storm's end.",
+      "revealedIn": ["king-lopen"]
+    }
+  ],
+  "history": [
+    {
+      "title": [{ "text": "Elhokar in hiding", "revealedIn": ["king-lopen"] }],
+      "items": [
+        {
+          "text": "When Elhokar Kholin hid among the Herdazians after an attempt on his life, Lopen's family, his mother included, put him to work rolling tsupales with them. Most of them laughed at how badly his first tries went, though he improved.",
+          "revealedIn": ["king-lopen"]
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Main ingredient",
+      "name": "Cremling mash",
+      "revealedIn": ["king-lopen"]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "elhokar-kholin",
+      "role": "learned to roll",
+      "revealedIn": ["king-lopen"]
+    },
+    {
+      "characterId": "lopen",
+      "role": "rolled them",
+      "revealedIn": ["king-lopen"]
+    },
+    {
+      "characterId": "lopens-mother",
+      "role": "rolled them",
+      "revealedIn": ["king-lopen"]
+    }
+  ]
+}

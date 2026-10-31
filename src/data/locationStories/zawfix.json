@@ -1,0 +1,34 @@
+{
+  "intro": [
+    {
+      "text": "A place known for shanties built inside old mines to shelter from highstorms.",
+      "revealedIn": [{ "book": "edgedancer", "chapter": "4" }]
+    },
+    {
+      "text": "A city in northeastern Azir, at the foot of the mountains between Azir and Yulay.",
+      "revealedIn": [{ "all": ["oathbringer", "rhythm-of-war"] }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Shanties there are built inside old mines for shelter from highstorms. Lift remembered them when she came upon similar shanties in Yeddaw.",
+      "revealedIn": [{ "book": "edgedancer", "chapter": "4" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The Sunmaker's invasion",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "42" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "According to tradition, the Sunmaker's invasion of Azir killed a tenth of its people, and in Zawfix the highstorms heaped the bones as high as buildings. Yanagawn raised this with Dalinar Kholin during one of Dalinar's visions, as they discussed forming a coalition.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "42" }]
+        }
+      ]
+    }
+  ]
+}

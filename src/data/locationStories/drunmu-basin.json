@@ -1,0 +1,60 @@
+{
+  "intro": [
+    {
+      "text": "A region in southern Emul, contested between the coalition of monarchs and Odium's armies during the True Desolation.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "64" }]
+    },
+    {
+      "text": "A wide region in southern Emul where the coalition of monarchs defeated Odium's forces and took control of Emul.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "112" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "The basin is vast and mostly flat, with a few low hills and slopes. It covers much of southern Emul along the borders with Tukar and Marat, and its eastern end runs up to the foothills of the mountains of Ur. Grass covers most of it, and pilevines grow tall there.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "64" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Singer occupation",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "96" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Emul was badly damaged late in its long war and again after the Everstorm woke the singers. The basin had no large towns, but its place on the border with Tukar, where Tezim's armies were stationed, made it important. Within months, singers loyal to Odium held much of Emul, the basin included, and the Emuli asked the new coalition of monarchs for help.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "96" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The coalition campaign",
+          "revealedIn": [
+            { "book": "rhythm-of-war", "chapter": "17" },
+            { "book": "rhythm-of-war", "chapter": "112" },
+            { "book": "rhythm-of-war", "chapter": "64" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "By early 1175 the coalition had won back part of Emul, but the front stalled short of the basin, since the coalition feared Ishar's army in Marat. The Mink planned an offensive there, reasoning that the singers would stand and fight and could be beaten, which would lift morale and help steady Makabak.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "17" }]
+        },
+        {
+          "text": "The fighting peaked in a series of big battles on the basin's plains. About forty thousand singers, Fused and Regals among them, faced Azish troops reinforced by Dalinar with reserves from Urithiru and Knights Radiant. Jasnah fought as a soldier for the first time. Thousands died on each side before the coalition won and took Emul, though the Mink and Dalinar saw that Odium had held back. Dalinar then set out from the basin to visit Ishar's camp.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "112" }]
+        },
+        {
+          "text": "While in the basin, Hoid realized that a Sleepless allied with the Ghostbloods had been watching him.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "64" }]
+        }
+      ]
+    }
+  ]
+}

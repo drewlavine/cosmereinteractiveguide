@@ -1,0 +1,200 @@
+{
+  "intro": [
+    {
+      "text": "Shai's Essence Marks are what she asks for in return for working for the arbiters.",
+      "revealedIn": [{ "book": "emperors-soul", "chapter": "day-2" }]
+    },
+    {
+      "text": "A highly complex soulstamp that briefly Forges someone's memories, past and soul, among the most powerful stamps a Forger can make.",
+      "revealedIn": [{ "book": "emperors-soul", "chapter": "day-12" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Realmatically, the Mark reshapes the person's spiritual aspect so it fits the history written for them.",
+      "revealedIn": [{ "book": "emperors-soul", "chapter": "day-12" }]
+    },
+    {
+      "text": "The people of MaiPon use Essence Marks on themselves to gain skills, adopt disguises, change their personality or body, or rewrite their memories.",
+      "revealedIn": [{ "book": "emperors-soul", "chapter": "day-76" }]
+    },
+    {
+      "text": "Several peoples, including the Grands, the Mulla'dil Strikers and the Dzhamarians, hold Essence Marks to be blasphemy.",
+      "revealedIn": [{ "book": "emperors-soul", "chapter": "day-76" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The emperor's soul",
+          "revealedIn": [
+            { "book": "emperors-soul", "chapter": "day-30" },
+            { "book": "emperors-soul", "chapter": "day-70" },
+            { "book": "emperors-soul", "chapter": "day-76" },
+            { "book": "emperors-soul", "chapter": "day-98" },
+            { "book": "emperors-soul", "chapter": "epilogue" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Gaotona volunteered as a test subject, and Shai tried pieces of her work on him. The stamp explaining why Ashravan became emperor failed.",
+          "revealedIn": [{ "book": "emperors-soul", "chapter": "day-30" }]
+        },
+        {
+          "text": "That stamp finally took once Shai grounded it in Ashravan's bond with Gaotona.",
+          "revealedIn": [{ "book": "emperors-soul", "chapter": "day-70" }]
+        },
+        {
+          "text": "Shai reached the final stage, merging all her earlier stamps into one.",
+          "revealedIn": [{ "book": "emperors-soul", "chapter": "day-76" }]
+        },
+        {
+          "text": "Shai finished the Essence Mark and stamped Ashravan with it, and it took.",
+          "revealedIn": [{ "book": "emperors-soul", "chapter": "day-98" }]
+        },
+        {
+          "text": "A copy of the Mark, left with Gaotona as a book, showed Shai had added touches to steer Ashravan toward the ruler he had once meant to be.",
+          "revealedIn": [{ "book": "emperors-soul", "chapter": "epilogue" }]
+        }
+      ]
+    }
+  ],
+  "mechanics": [
+    {
+      "title": [
+        {
+          "text": "Building a Mark",
+          "revealedIn": [
+            { "book": "emperors-soul", "chapter": "day-58" },
+            {
+              "all": [
+                { "book": "emperors-soul", "chapter": "day-58" },
+                { "book": "lost-metal", "chapter": "epilogue-1" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "A Mark is made of hundreds of stamps, each covering a small piece of the history or personality to change. Each is tested to make sure it takes, then all are linked in a lattice on another object and tied to one final keystone stamp, the only one that needs pressing. Making them requires deep knowledge of the person and of the new history.",
+          "revealedIn": [{ "book": "emperors-soul", "chapter": "day-58" }]
+        },
+        {
+          "text": "Essence Marks are the hardest soulstamps to make, often taking years, and work only when tuned to one particular person.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "emperors-soul", "chapter": "day-58" },
+                { "book": "lost-metal", "chapter": "epilogue-1" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Wearing a Mark",
+          "revealedIn": [
+            { "book": "emperors-soul", "chapter": "day-76" },
+            {
+              "all": [
+                { "book": "emperors-soul", "chapter": "day-58" },
+                { "book": "lost-metal", "chapter": "epilogue-1" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Faint red smoke rises as the soul resists the stamp. A Mark holds for a day at most, so it must be reapplied every twenty-four hours; after years of steady use, the stamp may no longer be needed. A Mark can be built to let its wearer remember, grow and change, but memories from a Mark fade within an hour of stopping.",
+          "revealedIn": [{ "book": "emperors-soul", "chapter": "day-76" }]
+        },
+        {
+          "text": "With practice and study, Marks can be made that last much longer than a day.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "emperors-soul", "chapter": "day-58" },
+                { "book": "lost-metal", "chapter": "epilogue-1" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "title": "Shai's Essence Marks",
+      "items": [],
+      "parts": [
+        {
+          "title": [
+            {
+              "text": "The scholar",
+              "revealedIn": [{ "book": "emperors-soul", "chapter": "day-76" }]
+            }
+          ],
+          "items": [
+            {
+              "text": "One Mark makes Shai a scholar who speaks a dozen languages, from Fen to Mulla'dil, and knows many cultures, the sciences, mathematics and the world's political factions.",
+              "revealedIn": [{ "book": "emperors-soul", "chapter": "day-76" }]
+            }
+          ]
+        },
+        {
+          "title": [
+            {
+              "text": "The woodsman",
+              "revealedIn": [{ "book": "emperors-soul", "chapter": "day-76" }]
+            }
+          ],
+          "items": [
+            {
+              "text": "Another gives her the skills of a woodsman and hunter for surviving in the wild.",
+              "revealedIn": [{ "book": "emperors-soul", "chapter": "day-76" }]
+            }
+          ]
+        },
+        {
+          "title": [
+            {
+              "text": "Shaizan",
+              "revealedIn": [{ "book": "emperors-soul", "chapter": "day-98" }]
+            }
+          ],
+          "items": [
+            {
+              "text": "A Mark that turns Shai into Shaizan, a warrior trained for fifteen years by the Teullu. It took her two years to make.",
+              "revealedIn": [{ "book": "emperors-soul", "chapter": "day-98" }]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "wan-shailu",
+      "role": "Forger",
+      "revealedIn": [{ "book": "emperors-soul", "chapter": "day-2" }]
+    },
+    {
+      "characterId": "gaotona",
+      "role": "test subject",
+      "revealedIn": [{ "book": "emperors-soul", "chapter": "day-30" }]
+    },
+    {
+      "characterId": "ashravan",
+      "role": "stamped",
+      "revealedIn": [{ "book": "emperors-soul", "chapter": "day-98" }]
+    }
+  ]
+}

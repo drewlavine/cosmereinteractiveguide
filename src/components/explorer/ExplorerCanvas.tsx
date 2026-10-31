@@ -1915,17 +1915,27 @@ export function ExplorerCanvas({
 
   const world = worlds.find((w) => w.id === anchor)
 
-  /** Over the globe of a world with a map, so a click would open the map. */
-  const overGlobe = (e: { clientX: number; clientY: number }) => {
+  /** Over the planet in the current world view. */
+  const overPlanet = (
+    e: { clientX: number; clientY: number },
+    radiusScale = 1,
+    margin = 0,
+  ) => {
     const h = host.current
     const f = fade.current
-    if (!h || !world?.map || cam.level !== 'world' || cam.flight) return false
+    if (!h || cam.level !== 'world' || cam.flight) return false
     if (planetOpacity(f) < 0.5 || f.map > 0.5) return false
     const r = h.getBoundingClientRect()
     const [cx, cy] = cam.toScreen(0, 0, 0)
-    const [ex] = cam.toScreen(PLANET_R, 0, 0)
-    return Math.hypot(e.clientX - r.left - cx, e.clientY - r.top - cy) < ex - cx
+    const [ex] = cam.toScreen(PLANET_R * radiusScale, 0, 0)
+    return (
+      Math.hypot(e.clientX - r.left - cx, e.clientY - r.top - cy) <
+      ex - cx + margin
+    )
   }
+  /** Over a map-bearing globe, so a click would open its map. */
+  const overGlobe = (e: { clientX: number; clientY: number }) =>
+    !!world?.map && overPlanet(e)
   const pressed = useRef<{ x: number; y: number }>(undefined)
   const detach = useRef<() => void>(undefined)
   useEffect(() => () => detach.current?.(), [])
@@ -1935,9 +1945,17 @@ export function ExplorerCanvas({
       ref={host}
       className={styles.explorer}
       onPointerMove={(e) => {
-        const on = overGlobe(e)
+        // Over the globe implies in its (slightly larger) hover zone.
+        const hover = overPlanet(e, 1.06, 4)
+        const on = hover && overGlobe(e)
         if ((host.current!.dataset.zoom === '') !== on)
           host.current!.toggleAttribute('data-zoom', on)
+        if ((host.current!.dataset.planetHover === '') !== hover)
+          host.current!.toggleAttribute('data-planet-hover', hover)
+      }}
+      onPointerLeave={() => {
+        host.current?.removeAttribute('data-zoom')
+        host.current?.removeAttribute('data-planet-hover')
       }}
       onPointerDown={(e) => (pressed.current = { x: e.clientX, y: e.clientY })}
       onPointerUp={(e) => {
@@ -1950,6 +1968,7 @@ export function ExplorerCanvas({
         onBackground?.()
         if (overGlobe(e)) {
           host.current!.removeAttribute('data-zoom')
+          host.current!.removeAttribute('data-planet-hover')
           cam.planTo(targetFor({ world: world!.id, key: '' }, worlds, cam))
         }
       }}

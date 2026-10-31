@@ -1,0 +1,157 @@
+{
+  "intro": [
+    {
+      "text": "A woman who studies under a Vorin scholar as her apprentice.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "5" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "A woman scholar may take on students and teach them subjects such as mathematics, logic, art and natural history. She can't be made to accept a ward and may set conditions a candidate must meet first. In return for her education, the ward works as her teacher's scribe and assistant.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "28" },
+            { "book": "oathbringer", "chapter": "25" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Either side may break off a wardship at any time, but it formally ends only when the teacher judges that her student has reached at least the minimum standard of a professional scholar.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "121" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Known wards",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "8" },
+            { "book": "way-of-kings", "chapter": "26" },
+            { "book": "way-of-kings", "chapter": "28" },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "18" },
+                { "book": "words-of-radiance", "chapter": "81" },
+                { "book": "oathbringer", "chapter": "44" }
+              ]
+            },
+            { "book": "oathbringer", "chapter": "122" },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "8" },
+                { "book": "oathbringer", "chapter": "44" },
+                { "book": "rhythm-of-war", "chapter": "21" }
+              ]
+            },
+            { "book": "rhythm-of-war", "chapter": "39" },
+            { "book": "rhythm-of-war", "chapter": "46" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Shallan Davar followed Jasnah Kholin from city to city asking to be her ward. Impressed that Shallan had taught herself and kept on studying, Jasnah accepted her.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "8" }]
+        },
+        {
+          "text": "Litima brought her single ward with her when she read from The Way of Kings to Dalinar.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "26" }]
+        },
+        {
+          "text": "Navani Kholin had no wards of her own but sometimes borrowed them from other lighteyes in the warcamps.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "28" }]
+        },
+        {
+          "text": "Teshav Khal kept many wards, two of them senior, and at least one went with her as she carried out her duties.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "18" },
+                { "book": "words-of-radiance", "chapter": "81" },
+                { "book": "oathbringer", "chapter": "44" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Karavangia, granddaughter of King Taravangian, became the ward of a scholar soon after her grandfather became king of Jah Keved.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "122" }]
+        },
+        {
+          "text": "Many women sought to be Jasnah's ward, twelve in 1173 alone, and Shallan was the only one she took. The wardship went on after Shallan became a Lightweaver and ended some eight months after she married Adolin.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "8" },
+                { "book": "oathbringer", "chapter": "44" },
+                { "book": "rhythm-of-war", "chapter": "21" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Kalami had several wards with her when the Sibling sent Navani a spanreed message that the tower was under attack.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "39" }]
+        },
+        {
+          "text": "Neshan and both of Neshan's wards were killed early in the invasion of Urithiru.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "46" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "shallan-davar",
+      "role": "ward",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "8" }]
+    },
+    {
+      "characterId": "jasnah-kholin",
+      "role": "teacher",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "8" }]
+    },
+    {
+      "characterId": "litima",
+      "role": "teacher",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "26" }]
+    },
+    {
+      "characterId": "navani-kholin",
+      "role": "borrows wards",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "28" }]
+    },
+    {
+      "characterId": "teshav-khal",
+      "role": "teacher",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "18" },
+            { "book": "words-of-radiance", "chapter": "81" },
+            { "book": "oathbringer", "chapter": "44" }
+          ]
+        }
+      ]
+    },
+    {
+      "characterId": "karavangia",
+      "role": "ward",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "122" }]
+    },
+    {
+      "characterId": "kalami",
+      "role": "teacher",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "39" }]
+    },
+    {
+      "characterId": "neshan",
+      "role": "teacher",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "46" }]
+    }
+  ]
+}

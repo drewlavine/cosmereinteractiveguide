@@ -1,0 +1,92 @@
+{
+  "intro": [
+    {
+      "text": "A long, brown tuber of Roshar with a sticky sap. It grows in rock crevices where storm runoff collects, so it is dug up caked in dirt and crem.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "37" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Cheap and faintly mineral in taste, longroots tend to be eaten only when nothing better is to hand. They are usually peeled, chopped and stewed for a long time.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "37" }]
+    },
+    {
+      "text": "Though edible raw, they are nearly always cooked, often in stew. Rock tried several longroot stews, one with shelled finger crab.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "37" },
+            { "book": "words-of-radiance", "chapter": "41" },
+            { "book": "edgedancer", "chapter": "19" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "They are easy to grow and eaten in many regions. As tubers they keep well, so they can be boxed for storage or carried by caravan.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "72" },
+            { "book": "oathbringer", "chapter": "23" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Where longroots were eaten",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "37" },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "37" },
+                { "book": "words-of-radiance", "chapter": "41" },
+                { "book": "edgedancer", "chapter": "19" },
+                { "book": "oathbringer", "chapter": "72" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "When Roshone's hostility left Kaladin's family struggling, they lived partly on longroots and other food Hearthstone's townspeople secretly gave them. Hesina and Kaladin once peeled longroots while talking with Tien about spren.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "37" }]
+        },
+        {
+          "text": "Longroots turned up as food in many places, from the Shattered Plains warcamps and Narak to Yeddaw, the Alethi countryside and Rockfall, a mansion in Kholinar.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "37" },
+                { "book": "words-of-radiance", "chapter": "41" },
+                { "book": "edgedancer", "chapter": "19" },
+                { "book": "oathbringer", "chapter": "72" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "lunamor",
+      "role": "cook",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "37" },
+            { "book": "words-of-radiance", "chapter": "41" },
+            { "book": "edgedancer", "chapter": "19" }
+          ]
+        }
+      ]
+    }
+  ]
+}

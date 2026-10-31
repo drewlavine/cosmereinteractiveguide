@@ -1,0 +1,48 @@
+{
+  "intro": [
+    {
+      "text": "A large city of Mountaincrest, also called Dukeseat, and the seat of the Violet Duke. It is the city farthest down the River Violet from Kingseat. The locals' accent makes its name sound like Duck Seat.",
+      "revealedIn": [{ "book": "fires-of-december", "chapter": "v" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Though not grand, the city is very colorful, with many painted buildings and brightly dressed people. Its residents try to outdo Kingseat in fashion, but their clothes rarely match garments made from the Demon's blood. It is smaller than Kingseat but bigger than Smallport, and has a busy river port.",
+      "revealedIn": [{ "book": "fires-of-december", "chapter": "xli" }]
+    },
+    {
+      "text": "It has a fashion district, a timepiece shop, a rarity in the kingdom, the Violet Duke's library and several cafes, a fairly new kind of business that sells food without renting out rooms. Its newspapers often report on politics in the capital.",
+      "revealedIn": [{ "book": "fires-of-december", "chapter": "xli" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "December's journey",
+          "revealedIn": [{ "book": "fires-of-december", "chapter": "xli" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "December's boat called at First Dukeseat on her way to Kingseat, and its captain had everyone eat aboard so they could arrive before noon to deliver supplies. She showily bought a new wardrobe and was soon famous in the city, and from then on Geoffrim Satin kept track of her.",
+          "revealedIn": [{ "book": "fires-of-december", "chapter": "xli" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "A second life",
+          "revealedIn": [{ "book": "fires-of-december", "chapter": "xli" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "In the second life December lived through, refugees from Kingseat fled to the city and formed a large camp outside it, where the Demon's light could still be seen. When the wars started the Duke imposed a curfew. After nine years of fighting Dukes Kird and Heninsk, Heninsk's soldiers reached the gates and the Violet Duke was defeated.",
+          "revealedIn": [{ "book": "fires-of-december", "chapter": "xli" }]
+        }
+      ]
+    }
+  ]
+}

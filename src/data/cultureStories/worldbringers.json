@@ -1,0 +1,134 @@
+{
+  "intro": [
+    {
+      "text": "An ancient gathering, the Conclave of Worldbringers. Before it, the Terris philosopher Kwaan denounced the logbook's writer, the man he himself had first called the Hero of Ages.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "29" }]
+    },
+    {
+      "text": "Terris scholars of long ago who kept records of the prophecies and looked for the Hero of Ages. Not all were religious men. One of them, Kwaan, proclaimed Alendi the Hero.",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "20" }]
+    },
+    {
+      "text": "Terris scholars and holy men, mostly Feruchemists, who kept the prophecies and looked for the Hero of Ages, until Rashek, as the Lord Ruler, all but wiped them out. The Keepers carry on their legacy.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "29" },
+            { "book": "well-of-ascension", "chapter": "45" },
+            { "book": "hero-of-ages", "chapter": "68" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "Worldbringers are seen as holy men and sometimes preach courses of action in religion or politics. Not all are religious, though, and those who study other things, such as nature, draw criticism from their brethren.",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "32" }]
+    },
+    {
+      "text": "Most Worldbringers are Terris Feruchemists who use copperminds in their work.",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "45" }]
+    },
+    {
+      "text": "Worldbringers gather tales of history and folk tradition from any source, hunting for the most interesting stories they can find.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "15" },
+            { "book": "well-of-ascension", "chapter": "32" },
+            { "book": "tress", "chapter": "24" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Kwaan's Hero",
+          "revealedIn": [
+            { "book": "final-empire", "chapter": "29" },
+            { "book": "well-of-ascension", "chapter": "13" },
+            { "book": "well-of-ascension", "chapter": "33" },
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "29" },
+                { "book": "well-of-ascension", "chapter": "45" },
+                { "book": "hero-of-ages", "chapter": "68" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "After a long struggle to convince his colleagues, Kwaan, a Terris philosopher and holy man, first called the logbook's writer the Hero of Ages. Then he turned against the writer and denounced him to the whole Conclave of Worldbringers.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "29" }]
+        },
+        {
+          "text": "Over time the Worldbringers took up philosophy and religion, kept records of the Terris prophecies and looked for the Hero of Ages. When Kwaan saw that Alendi matched every sign of the Anticipation and told the other Worldbringers, they met him with scorn.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "13" }]
+        },
+        {
+          "text": "As the man who found Alendi, Kwaan becomes foremost among the Worldbringers, though his brethren had paid him little attention before, thinking his study of nature unsuited to a Worldbringer.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "33" }]
+        },
+        {
+          "text": "Kwaan came to see that an unknown force had deceived him, and recanted before the Conclave, but too late to stop what he had set in motion. Rashek, his nephew, Ascended to become the Lord Ruler, and he turned all the living Feruchemists into mistwraiths, which all but ended the Worldbringers on Scadrial.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "29" },
+                { "book": "well-of-ascension", "chapter": "45" },
+                { "book": "hero-of-ages", "chapter": "68" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Their legacy",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "68" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Feruchemists keep being born among the Terris, and the Keepers carry on the Worldbringers' work, preserving knowledge of religion and other studies from before the Ascension. The kandra First Generation even call Sazed a Worldbringer.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "68" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Elsewhere",
+          "revealedIn": [{ "book": "tress", "chapter": "24" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Telling Tress's story, Hoid claims to be a Worldbringer.",
+          "revealedIn": [{ "book": "tress", "chapter": "24" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "kwaan",
+      "role": "Worldbringer",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "20" }]
+    },
+    {
+      "characterId": "hoid",
+      "role": "Claims membership",
+      "revealedIn": [{ "book": "tress", "chapter": "24" }]
+    }
+  ]
+}

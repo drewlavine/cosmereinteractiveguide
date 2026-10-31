@@ -1,0 +1,74 @@
+{
+  "intro": [
+    {
+      "text": "A planet whose twelve moons harbour a strain of aether found nowhere else. Lumar is the name outsiders use, though some local names for the world mean much the same.",
+      "revealedIn": [{ "book": "tress", "chapter": "60" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Spores burst into their element at the touch of water, even sweat or blood, so breathing in a single one is usually fatal. Silver and salt kill them: ships carry plenty of silver on their decks and rails, some people wear salted masks, and salt mining is a major industry. Where islands cannot be farmed, food is grown in compost vats or soil is shipped in.",
+      "revealedIn": [{ "book": "tress", "chapter": "8" }]
+    },
+    {
+      "text": "Twelve moons hang evenly spaced in fixed orbits, looming close above the surface. Each holds one of the twelve aethers, whose spores fall without end in great streams called lunagrees, so the world is covered by seas of spores. Once a day one of the moons blocks the sun, and its shadow, called a moonshadow, cools the land by a few degrees.",
+      "revealedIn": [{ "book": "tress", "chapter": "41" }]
+    },
+    {
+      "text": "Rain falls from narrow ribbons of cloud along routes so regular that rain maps can predict them for centuries. With no fixed borders, islands show allegiance by flying a ruler's flag, and each sea seems to be a state of its own. Travelling preachers of the moonschools teach on moondays. Pirates disable ships and take an agreed ransom without killing, while deadrunners, who leave no survivors, are shunned.",
+      "revealedIn": [{ "book": "tress", "chapter": "41" }]
+    },
+    {
+      "text": "Each sea is roughly the same size and pentagonal shape, heaped highest beneath its lunagree on a slope too gentle to notice. Ships sail while the spores churn like liquid, a state called the seethe; when a stilling halts it, ships are sporelocked and the surface can be walked on with care. The seas are only a few hundred yards deep.",
+      "revealedIn": [{ "book": "tress", "chapter": "51" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The Iriali",
+          "revealedIn": [{ "book": "tress", "chapter": "31" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "The golden-haired Iriali once lived on one of its islands, until roughly three centuries before Tress's time the whole people disappeared almost overnight, leaving some of their belongings behind. Locals do not know what became of them. The dragon Xisis became known there at about the same time.",
+          "revealedIn": [{ "book": "tress", "chapter": "31" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Visitors from the stars",
+          "revealedIn": [{ "book": "tress", "chapter": "64" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Some three centuries after the Iriali vanished, tales of people from the stars spread among sailors, and locals could trade with these 'wizards', so some of their technology came into local hands.",
+          "revealedIn": [{ "book": "tress", "chapter": "64" }]
+        },
+        {
+          "text": "A newcomer took control of the Midnight Sea as the Sorceress, feared for her guards and her curses. She taxed all trade crossing her sea, the only route to the far side of the planet, until the Verdant king refused to pay and prepared for war; in the end she was driven away.",
+          "revealedIn": [{ "book": "tress", "chapter": "64" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Mining the moons",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "36" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Once aethers were widely burned as fuel, several large powers started to mine its moons for spores, which are cheaper and less regulated than aethers from elsewhere, though less potent.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "36" }]
+        }
+      ]
+    }
+  ]
+}

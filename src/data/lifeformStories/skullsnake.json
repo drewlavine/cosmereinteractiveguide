@@ -1,0 +1,72 @@
+{
+  "intro": [
+    {
+      "text": "Huge, eyeless, snake-like beasts of the not-water, which Dusk names skullsnakes.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "31" }]
+    },
+    {
+      "text": "Huge, eyeless, snake-like animals of the unsea in the emberdark, which hunt shoals of glowing fish.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "34" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Their bodies are long and thin like a snake's, and they can grow big enough to swallow a small canoe whole, with everyone in it. The skin is mostly leathery, but bony plates tough enough to turn bullets cover the head and run down the spine. The mouth is somewhat beak-shaped; they have no eyes and seem to hear poorly. When wounded they give a shrill, layered cry, as if several snakes were screaming together.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "31" }]
+    },
+    {
+      "text": "Their bodies glow with the Investiture they depend on to swim the unsea, though no organ visibly holds it, and the meat loses it soon after death. The meat is safe to eat and tastes like pork. The blood is salty and has to be distilled before it can be drunk.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "33" }]
+    },
+    {
+      "text": "Instead of sight, they hunt by sensing Investiture, which the locals call searching for minds.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "34" }]
+    },
+    {
+      "text": "They range much closer to land than the glowing fish they prey on.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "34" }]
+    },
+    {
+      "text": "Those able to sense the waves of the unsea can detect skullsnakes, but they are easy to miss, since they show up only when directly opposite in a wave.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "34" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Dusk's hunt",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "31" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Out in the endless dark, Dusk named the snake-like beasts of the not-water skullsnakes. He harpooned one about ten feet long, let it tow his boat until it tired, and killed it with his revolver.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "31" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "On land",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "60" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Skullsnakes can also climb onto land and slither across the ground after prey. The Dakwara has a following of them, and can order them to carry out tasks.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "60" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "sixth-of-the-dusk",
+      "role": "hunted one",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "31" }]
+    }
+  ]
+}

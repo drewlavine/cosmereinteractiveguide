@@ -1,0 +1,388 @@
+{
+  "intro": [
+    {
+      "text": "The art of using BioChromatic Breath to bring objects to life. The Awakener speaks a Command, part of their Breath passes into the object, which then carries the Command out, and color drains from things nearby as fuel.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "prologue" }]
+    },
+    {
+      "text": "The art of combining Breath, color and a spoken Command to bring an object to life, first discovered some four hundred years ago. Ropes and cloth are the usual choices; Awakened corpses become Lifeless.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "46" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "An Awakener can take back the Breath from someone or something they Awakened by touching it and saying \"Your Breath to mine.\"",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "prologue" }]
+    },
+    {
+      "text": "Awakening joins color, Breath and a Command to bring an object to life. It was discovered about four hundred years ago.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "32" }]
+    },
+    {
+      "text": "The Awakener releases some of their Breath into an object through a Command, nearly always while touching a source of color such as dyed cloth. When the Command is sound and clearly pictured, the color drains away and the object does as it was told; if not, it is Awakened but does nothing.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "35" }]
+    },
+    {
+      "text": "Organic things such as rope and cloth are the most commonly Awakened, though other kinds of host can be more powerful.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "46" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "In the story",
+          "revealedIn": [
+            { "book": "warbreaker", "chapter": "prologue" },
+            { "book": "warbreaker", "chapter": "33" },
+            { "book": "warbreaker", "chapter": "35" },
+            { "book": "warbreaker", "chapter": "49" },
+            { "book": "warbreaker", "chapter": "58" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Locked in a cell, Vasher Awakens a little straw figure and sends it to fetch the keys.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "prologue" }]
+        },
+        {
+          "text": "Denth tells Vivenna that each Command must first be formed in the mind.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "33" }]
+        },
+        {
+          "text": "Tied up, Vivenna manages her first Awakening once she pictures what she wants, and her rope unties itself.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "35" }]
+        },
+        {
+          "text": "Vasher marvels at how fast Vivenna is learning to Awaken.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "49" }]
+        },
+        {
+          "text": "After rescuing a priest's kidnapped daughter, Vasher does something to her with Breath, and she seems to forget the whole ordeal.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "49" }]
+        },
+        {
+          "text": "Once his tongue is healed, Susebron can Awaken with the fifty thousand Breaths of Peacegiver's Treasure, and uses them to break the attack on the palace.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "58" }]
+        }
+      ]
+    }
+  ],
+  "mechanics": [
+    {
+      "title": [
+        {
+          "text": "Color as fuel",
+          "revealedIn": [
+            { "book": "warbreaker", "chapter": "57" },
+            { "book": "warbreaker", "chapter": "46" },
+            { "book": "warbreaker", "chapter": "56" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Color is the fuel of Awakening. Things drained of color usually turn grey, but an Awakener with Perfect Invocation can drain them to white.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "57" }]
+        },
+        {
+          "text": "If the color source is small or dull, a Command takes far more Breath.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "46" }]
+        },
+        {
+          "text": "The color of living things can't usually be used, but color taken from them can: spilled blood, for example.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "56" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Commands",
+          "revealedIn": [
+            { "book": "warbreaker", "chapter": "46" },
+            { "book": "warbreaker", "chapter": "49" },
+            { "book": "warbreaker", "chapter": "10" },
+            { "book": "warbreaker", "chapter": "51" },
+            { "book": "fires-of-december", "chapter": "xxxviii" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "A Command has to be stated clearly, pictured properly in the mind, spoken crisply without mumbling, and given in the Awakener's native language.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "46" }]
+        },
+        {
+          "text": "Many Commands are short, plain orders of a verb and a general subject, such as \"Grab things\". Longer Commands are possible but harder to picture, and Awakeners guard their advanced Commands closely.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "46" }]
+        },
+        {
+          "text": "Advanced Commands are often whole phrases, and the more precise they are, the clearer the picture in the Awakener's mind has to be. Even short ones like \"Fetch keys\" or \"Find tunnels\" can call for a complex picture.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "46" }]
+        },
+        {
+          "text": "A mumbled or unfinished Command still uses up Breath but does nothing. Awakeners sometimes do this on purpose, or use Commands meant to do nothing, to store Breath in an object.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "49" }]
+        },
+        {
+          "text": "Breath is passed to another person or object with a basic Command that gives away the speaker's life and Breath.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "10" }]
+        },
+        {
+          "text": "The Command that makes a Lifeless allows further Commands, or security phrases, to be added afterwards at no extra cost in Breath.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "51" }]
+        },
+        {
+          "text": "The Command given to a thinking Awakened object such as Nightblood gains nuance and great power, and becomes the heart of its personality.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "51" }]
+        },
+        {
+          "text": "A third basic Command, which scatters Breaths entirely, is known on Roshar in the era of the True Desolation.",
+          "revealedIn": [{ "book": "fires-of-december", "chapter": "xxxviii" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The Heightenings",
+          "revealedIn": [
+            { "book": "warbreaker", "chapter": "49" },
+            { "book": "warbreaker", "chapter": "8" },
+            { "book": "warbreaker", "chapter": "51" },
+            { "book": "warbreaker", "chapter": "58" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "At the Sixth Heightening, around three and a half thousand Breaths, many Commands come by instinct and new ones are much easier to learn.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "49" }]
+        },
+        {
+          "text": "At the Eighth Heightening, around ten thousand Breaths, an Awakener can overrule the Commands in things that another person has Awakened.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "8" }]
+        },
+        {
+          "text": "At the Ninth Heightening, around twenty thousand Breaths, an Awakener can Awaken things that were never alive.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "51" }]
+        },
+        {
+          "text": "At the Tenth Heightening, around fifty thousand Breaths, an Awakener can drain more color to fuel stronger Awakenings and can give Commands in their mind.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "58" }]
+        },
+        {
+          "text": "Overriding Commands is exhausting. At the Ninth Heightening, special Commands let an Awakener work on stone and metal and Awaken things they are not touching; giving Commands without speaking takes much training. Those with the Royal Locks find Awakening much easier to learn.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "58" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "What can be Awakened",
+          "revealedIn": [
+            { "book": "warbreaker", "chapter": "46" },
+            { "book": "warbreaker", "chapter": "5" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Things that were never part of anything living are very hard to Awaken and need huge amounts of Breath. Organic things are much easier, especially when shaped like something alive.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "46" }]
+        },
+        {
+          "text": "Breath spent on a corpse usually can't be taken back. An Awakened host that is cut or broken doesn't die but keeps trying to do its task, as well as the damage allows.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "46" }]
+        },
+        {
+          "text": "Organic objects sit between metal and corpses: they take less Breath than metal, often over a hundred but more than a corpse, and the Breath can be taken back. They are strong enough to strangle a person, and the more lifelike they are, the easier they are to Awaken. Once Awakened they tend to imitate living things, forming muscle-like cords or hand shapes.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "5" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Dead bodies",
+          "revealedIn": [
+            { "book": "warbreaker", "chapter": "46" },
+            { "book": "warbreaker", "chapter": "33" },
+            { "book": "warbreaker", "chapter": "32" },
+            { "book": "warbreaker", "chapter": "58" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Very rarely, a dead body Awakens by itself into a thinking being, one of the Returned.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "46" }]
+        },
+        {
+          "text": "Lifeless are mindless Awakened corpses of people or animals. They still have working brains, so they can follow old Commands and take new ones.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "46" }]
+        },
+        {
+          "text": "Lifeless are cheap to make even with clumsy Commands, since a body is so close to a living form, but the Breath sticks to them and can never be taken out. They obey any order that comes with their set Command phrase, and keep the skills they had in life, so a soldier makes a better Lifeless warrior than a farmer.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "46" }]
+        },
+        {
+          "text": "A Lifeless can last a long time if it is looked after: its wounds must be sewn up, or too much damage will stop it and it will need a new Breath. Ichor-alcohol, used in place of blood, keeps them going far longer.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "33" }]
+        },
+        {
+          "text": "A way was found to make a Lifeless from a single Breath, which made the Lifeless armies of the Manywar possible.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "32" }]
+        },
+        {
+          "text": "Bones encased in stone make Lifeless that are almost indestructible and need no ichor-alcohol. Kalad's Phantoms were made this way.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "58" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Metal and stone",
+          "revealedIn": [
+            { "book": "warbreaker", "chapter": "51" },
+            { "book": "tress", "chapter": "64" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Awakening metal or stone takes at least the Ninth Heightening and creates a thinking object. The sword Nightblood is one; making it took a thousand Breaths, with \"Destroy evil\" as its Command.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "51" }]
+        },
+        {
+          "text": "Shashara discovered how to Awaken steel into a thinking object, which led to the making of Nightblood.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "51" }]
+        },
+        {
+          "text": "The Sorceress commands an army of metal soldiers Awakened in some unknown way. They are partly aware of themselves and follow their first instructions, but can also take new orders.",
+          "revealedIn": [{ "book": "tress", "chapter": "64" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Awakened technology",
+          "revealedIn": [
+            { "book": "tress", "chapter": "60" },
+            { "book": "tress", "chapter": "62" },
+            {
+              "all": [
+                { "book": "lost-metal", "chapter": "40" },
+                { "book": "tress", "chapter": "23" }
+              ]
+            },
+            { "book": "lost-metal", "chapter": "40" },
+            { "book": "yumi", "chapter": "39" },
+            {
+              "all": [
+                { "book": "sunlit-man", "chapter": "45" },
+                { "book": "isles-of-the-emberdark", "chapter": "39" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Fort's tablet is an Awakened device. He taps letters on the back and it suggests whole words, showing what he writes on the front; it also listens to people nearby and displays what they say, marking each speaker. It only works for Fort, and must be left in the sun each week to charge.",
+          "revealedIn": [{ "book": "tress", "chapter": "60" }]
+        },
+        {
+          "text": "Fort's second tablet improves on the first, with different fonts, smoother conversation and even video calls.",
+          "revealedIn": [{ "book": "tress", "chapter": "62" }]
+        },
+        {
+          "text": "Awakened tablets with predictive circuits suggest words as their user types, though not always useful ones, and some locks can read a person's Intent and refuse to open.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "lost-metal", "chapter": "40" },
+                { "book": "tress", "chapter": "23" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Awakened objects can sense what people intend, and may refuse to act because of it.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "40" }]
+        },
+        {
+          "text": "Hoid describes the machine that Komashi's scholars built to draw hion from the hijo as Awakened with Commands.",
+          "revealedIn": [{ "book": "yumi", "chapter": "39" }]
+        },
+        {
+          "text": "In the age of space travel, some militaries use Awakened deflection shields, and some ships carry Awakened steelminds that serve as their computers.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "sunlit-man", "chapter": "45" },
+                { "book": "isles-of-the-emberdark", "chapter": "39" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Other uses of Breath",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "epilogue" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Memories can be stored in Breaths, though if those Breaths are lost the memories go with them.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "epilogue" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Elsewhere in the cosmere",
+          "revealedIn": [{ "book": "yumi", "chapter": "39" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Awakening on Komashi works much like Awakening with Breath, using Commands, but draws its power from the hijo instead.",
+          "revealedIn": [{ "book": "yumi", "chapter": "39" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "vasher",
+      "role": "Skilled Awakener",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "prologue" }]
+    },
+    {
+      "characterId": "vivenna",
+      "role": "Idrian princess",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "35" }]
+    },
+    {
+      "characterId": "shashara",
+      "role": "Awakened steel",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "51" }]
+    },
+    {
+      "characterId": "susebron",
+      "role": "God King",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "58" }]
+    }
+  ]
+}

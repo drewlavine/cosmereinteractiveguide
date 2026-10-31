@@ -1,0 +1,88 @@
+{
+  "intro": [
+    {
+      "text": "A rural princedom of Jah Keved, whose highprince lived in Vedenar.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "45" }]
+    },
+    {
+      "text": "A princedom of Jah Keved. With House Valam gone, its lands are under Taravangian's control.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "3" },
+            { "book": "words-of-radiance", "chapter": "i-14" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "House Davar's backcountry estates lie in the princedom, bordering Revilar's lands; crossing them takes at least half a day. Shallan describes them as nowhere near Vedenar.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "7" },
+            { "book": "words-of-radiance", "chapter": "45" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "The land is largely rural with plenty of farmland. Its economy rests on crops such as breachtree cotton and shum, and on cloth made from them.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "45" }]
+    },
+    {
+      "text": "The landowners who served the highprince ran their lands almost as independent rulers, since he lived in Vedenar and seldom visited much of the princedom.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "45" }]
+    },
+    {
+      "text": "The climate is temperate, with distinct seasons. Rockbuds, shalebark and jella trees grow there, cremlings thrive, and people keep axehounds and horses.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "77" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "House Valam",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "3" },
+                { "book": "words-of-radiance", "chapter": "i-14" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "House Valam held the princedom, headed by Highprince Valam. Ten leading lighteyed landowners answered directly to him, Lin Davar and Revilar among them. Redin, his illegitimate son, acted as his enforcer, and his other children, including Sudi, all died before he did.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "3" },
+                { "book": "words-of-radiance", "chapter": "i-14" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The Veden succession war",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-14" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Valam won the bloody Veden succession war of 1173, helped by Taravangian, who had Szeth assassinate the six other highprinces bidding for the throne. Seeing that Taravangian had arranged it, but gravely ill and without heirs, King Valam handed Jah Keved to him anyway, then had Redin kill him.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-14" }]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "intro": [
+    {
+      "text": "A young woman of Diggen's Point who is found hiding in an ale barrel bound for the Oot's Dream.",
+      "revealedIn": [{ "book": "tress", "chapter": "7" }]
+    },
+    {
+      "text": "Sor's daughter on Diggen's Point, who helped Tress escape the island by letting herself be caught in an ale barrel.",
+      "revealedIn": [{ "book": "tress", "chapter": "8" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Diggen's Point",
+          "revealedIn": [
+            { "book": "tress", "chapter": "8" },
+            { "book": "tress", "chapter": "epilogue" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Like almost everyone on Diggen's Point, Gret was barred from leaving. To get Tress aboard the Oot's Dream, she hid in an ale barrel padded with feathers and let the inspector catch her; the inspector loudly vowed to report her to the king. Gret, her father Sor, Brick and Gremmy all knew the inspector was Tress, and Gret quietly slipped off once the ship had sailed.",
+          "revealedIn": [{ "book": "tress", "chapter": "8" }]
+        },
+        {
+          "text": "When Tress returned to the island, she made a point of thanking Gret and the others who had helped her escape.",
+          "revealedIn": [{ "book": "tress", "chapter": "epilogue" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Young, with black hair, and small enough to curl up in an ale barrel with room to spare for a lining of feathers.",
+      "revealedIn": [{ "book": "tress", "chapter": "7" }]
+    }
+  ],
+  "personality": []
+}

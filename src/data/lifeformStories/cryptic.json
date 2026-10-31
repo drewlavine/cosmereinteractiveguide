@@ -121,6 +121,32 @@
       ]
     }
   ],
+  "sections": [
+    {
+      "title": "Origins",
+      "items": [
+        {
+          "text": "Honor and Cultivation deliberately created the Cryptics.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "108" }]
+        }
+      ],
+      "parts": []
+    },
+    {
+      "title": "Enlightened Cryptics",
+      "items": [
+        {
+          "text": "They retain Illumination, but the effect on Transformation is unclear.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "134" }]
+        },
+        {
+          "text": "Their bodies become bone-white and their head patterns resemble loose scribbles. They can shelter inside their Radiant.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "138" }]
+        }
+      ],
+      "parts": []
+    }
+  ],
   "facts": [
     {
       "label": "Home",

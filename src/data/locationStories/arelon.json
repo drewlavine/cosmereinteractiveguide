@@ -1,0 +1,70 @@
+{
+  "intro": [
+    {
+      "text": "A nation whose capital has been Kae since the Reod brought down Elantris, the former seat of government.",
+      "revealedIn": [{ "book": "elantris", "chapter": "11" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Rank among the nobility rests directly on wealth. Besides barons, counts and dukes there are lesser titles such as Kimeon (Kimess for a woman) and Tore. The land is divided into plantations, each named for an Aon, and the peasants are bound to them much like serfs. Because nobles must keep up their wealth to keep their titles, the peasants are often treated harshly.",
+      "revealedIn": [{ "book": "elantris", "chapter": "11" }]
+    },
+    {
+      "text": "The Shaod sometimes struck people of Aonic descent living in Arelon, letting them draw Aons that had magical effects when drawn correctly. Aons were strongest near Elantris and within Arelon's borders, and each echoed part of its landscape: the central Aon, needed to draw all the rest, is a simple map of the country.",
+      "revealedIn": [{ "book": "elantris", "chapter": "46" }]
+    },
+    {
+      "text": "Its currency is the deo, named after Aon Deo.",
+      "revealedIn": ["elantris"]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Rule of the Elantrians",
+          "revealedIn": [{ "book": "elantris", "chapter": "46" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Before the Reod, the Elantrians governed Arelon as a theocracy. Many citizens worshipped them as gods because of their magical powers, but they did not oppose other religions.",
+          "revealedIn": [{ "book": "elantris", "chapter": "46" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "After the Reod",
+          "revealedIn": [{ "book": "elantris", "chapter": "11" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Once the Reod had brought Elantris down, the richest and most powerful merchants took control of the nation and became its new nobility. The capital moved to Kae, and Iadon, head of the merchants' guild, was crowned king.",
+          "revealedIn": [{ "book": "elantris", "chapter": "11" }]
+        },
+        {
+          "text": "Iadon set up the plantation system to keep control of the country, binding the peasants to the land.",
+          "revealedIn": [{ "book": "elantris", "chapter": "11" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "A new king",
+          "revealedIn": [{ "book": "elantris", "chapter": "epilogue" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "On taking the throne, King Raoden named the nobles lords of Elantris and put them in charge of distributing food and caring for remote areas.",
+          "revealedIn": [{ "book": "elantris", "chapter": "epilogue" }]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "intro": [
+    {
+      "text": "A member of the crew of the pirate ship Crow's Song.",
+      "revealedIn": [{ "book": "tress", "chapter": "12" }]
+    },
+    {
+      "text": "A crew member of the Crow's Song whose name really is Doug, unlike the many sailors the story simply calls Doug.",
+      "revealedIn": [{ "book": "tress", "chapter": "14" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Aboard the Crow's Song",
+          "revealedIn": [{ "book": "tress", "chapter": "25" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Doug was busy sewing the ship's pirate flag when the Crow's Song attacked the Oot's Dream. The flag was finished in time for a raid on a merchant ship, and when Doug ran it up at Crow's order, the merchant surrendered.",
+          "revealedIn": [{ "book": "tress", "chapter": "25" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

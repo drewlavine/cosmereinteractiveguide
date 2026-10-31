@@ -1,0 +1,137 @@
+{
+  "intro": [
+    {
+      "text": "Kaladin and Szeth's mission to help Shinovar and seek Ishar's aid before the contest of champions.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "6" }]
+    }
+  ],
+  "description": [],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The pilgrimage",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "33" },
+            { "book": "wind-and-truth", "chapter": "42" },
+            { "book": "wind-and-truth", "chapter": "45" },
+            { "book": "wind-and-truth", "chapter": "53" },
+            { "book": "wind-and-truth", "chapter": "72" },
+            { "book": "wind-and-truth", "chapter": "90" },
+            { "book": "wind-and-truth", "chapter": "110" },
+            { "book": "wind-and-truth", "chapter": "119" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Ishar directed Szeth to make a pilgrimage through the Shin monasteries.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "33" }]
+        },
+        {
+          "text": "Szeth defeated Rit and took Talenel's Honorblade.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "42" }]
+        },
+        {
+          "text": "He found Sivi dead at the Willshaper monastery and recovered her Blade.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "45" }]
+        },
+        {
+          "text": "Pozen drew him into Shadesmar to fight the Elsecaller and Edgedancer Honorbearers.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "53" }]
+        },
+        {
+          "text": "Nale joined them, and the Lightweaver and Truthwatcher Honorbearers died in the next confrontation.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "72" }]
+        },
+        {
+          "text": "Szeth refused to kill his sister Elid and learned that Ishar wanted him to become a Herald.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "90" }]
+        },
+        {
+          "text": "Kaladin's account of the Wandersail helped Nale question blind obedience and end their fight.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "110" }]
+        },
+        {
+          "text": "Nale revealed that the influence they sought to remove was Ishar himself, not an Unmade.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "119" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Confronting Ishar",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "130" },
+            { "book": "wind-and-truth", "chapter": "133" },
+            { "book": "wind-and-truth", "chapter": "140" },
+            { "book": "wind-and-truth", "chapter": "141" },
+            { "book": "wind-and-truth", "chapter": "143" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Ishar confronted Szeth with the Honorbearers reborn as human Fused.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "130" }]
+        },
+        {
+          "text": "Szeth swore the Fifth Ideal, choosing his own law instead of obedience.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "133" }]
+        },
+        {
+          "text": "Kaladin's Fifth Ideal healed Ishar while they were Connected.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "140" }]
+        },
+        {
+          "text": "Szeth used Nightblood to destroy the returning Honorbearers, drawing on Kaladin's Stormlight.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "141" }]
+        },
+        {
+          "text": "Kaladin persuaded Nightblood to stop feeding before it killed them all.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "143" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The renewed Oathpact",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "144" },
+            { "book": "wind-and-truth", "chapter": "147" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Kaladin accepted Jezrien's place in the reforged Oathpact.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "144" }]
+        },
+        {
+          "text": "The Heralds departed, leaving Kaladin's mortal body behind; Szeth and Masha buried it.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "147" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "kaladin",
+      "role": "participant",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "6" }]
+    },
+    {
+      "characterId": "szeth",
+      "role": "participant",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "6" }]
+    },
+    {
+      "characterId": "ishar",
+      "role": "Herald",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "6" }]
+    }
+  ]
+}

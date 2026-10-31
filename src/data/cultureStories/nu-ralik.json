@@ -1,0 +1,82 @@
+{
+  "intro": [
+    {
+      "text": "Nu Ralik is a god the people of the Purelake worship in secret.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "i-1" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Purelakers keep Nu Ralik hidden from his jealous, spiteful younger brother, Vun Makak. Every public oath they make invokes Vun Makak, hoping to fool him into thinking he is the one worshipped, and they say Nu Ralik's name only in their holy grottos.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "i-1" }]
+    },
+    {
+      "text": "Ishikk credits Nu Ralik with the size of his daily catch and with Maib's aching fingers, believes the god guides his fate, and often appeals to him in his thoughts.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "i-1" }]
+    },
+    {
+      "text": "Ishikk has little time for kingdoms or borders, believing Nu Ralik cares more for natural boundaries.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "i-1" }]
+    },
+    {
+      "text": "Rysn finds that every Purelaker she meets cares deeply about their gods, and Purelakers believe Nu Ralik shapes much of their lives.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "i-1" },
+            { "book": "words-of-radiance", "chapter": "i-3" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Purelakers love the sun and like to stand with their feet in the lake, feeling its tides. Ishikk's reaction to the idea of wearing a shirt is \"Nu Ralik forbid!\"",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "i-1" },
+            { "book": "oathbringer", "chapter": "92" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "An open secret",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "i-1" },
+                { "book": "words-of-radiance", "chapter": "3" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The worship is not fully hidden: Jasnah knows that Nu Ralik is the Purelakers' real god.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "i-1" },
+                { "book": "words-of-radiance", "chapter": "3" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "ishikk",
+      "role": "worshipper",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "i-1" }]
+    }
+  ]
+}

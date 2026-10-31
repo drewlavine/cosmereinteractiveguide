@@ -1,0 +1,189 @@
+{
+  "intro": [
+    {
+      "text": "An elder kandra of the Sixth Generation who asks Marasi to recover the missing spike of ReLuur, a kandra who may have found the Bands of Mourning.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "shadows-of-self", "chapter": "16" },
+            { "book": "bands-of-mourning", "chapter": "3" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "An elder kandra of the Sixth Generation who works alongside Wax's team on Harmony's behalf, joining their experiments and a sting in Bilming.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "shadows-of-self", "chapter": "16" },
+            { "book": "bands-of-mourning", "chapter": "3" },
+            { "book": "lost-metal", "chapter": "21" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The ReLuur case",
+          "revealedIn": [
+            { "book": "bands-of-mourning", "chapter": "2" },
+            { "book": "bands-of-mourning", "chapter": "3" },
+            { "book": "bands-of-mourning", "chapter": "4" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "VenDell tried to arrange a meeting with Wax about recovering ReLuur's missing spike, but Wax turned him away twice, so VenDell went to Marasi for help instead.",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "2" }]
+        },
+        {
+          "text": "Wayne had VenDell hold the meeting with Marasi at Wax's mansion. Coming home to unexpected guests, Wax almost shot VenDell, but stayed to listen. VenDell used an image projector to show a picture of Elendel's Field of Rebirth, to the others' surprise.",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "3" }]
+        },
+        {
+          "text": "VenDell spoke about Investiture and Identity, suggesting that a Feruchemist stripped of all Identity could fill an unkeyed metalmind anyone might use, and that bracers might grant both Allomancy and Feruchemy. Wax called it impossible with no Mistborn or Full Feruchemists left; VenDell thought it might be done someday, though he would not use Hemalurgy to test it.",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "3" }]
+        },
+        {
+          "text": "He explained that the Bands of Mourning were the Lord Ruler's metalminds and that ReLuur, of the Third Generation, might have found them, photographing a mural in a script no one could read. ReLuur had come back without his second spike, unstable and with little memory of the trip. VenDell asked Marasi to recover the spike.",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "3" }]
+        },
+        {
+          "text": "When Wax would not help, VenDell showed him a picture with his sister Telsin in it, and the group agreed to go to New Seran. VenDell arranged the journey but flatly refused to come into the field, sending MeLaan instead. Wax would not accept the Hemalurgic earring VenDell offered, so he gave it to Marasi.",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "4" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Helping Wax's team",
+          "revealedIn": [
+            { "book": "lost-metal", "chapter": "17" },
+            { "book": "lost-metal", "chapter": "23" },
+            { "book": "lost-metal", "chapter": "27" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "VenDell delivered Marasi a note from the Ghostbloods, which Harmony had forbidden him to explain, and joined an experiment on harmonium and trellium. After the blast wrecked the lab, he suggested that some matter or Investiture had become energy, then went to consult Harmony.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "17" }]
+        },
+        {
+          "text": "In a sting in Bilming, VenDell posed as the gangster called the Cycle while Wayne played another role, and grumbled about Wayne's disguise. When Bilming constables burst in and the gang fought back, Marasi had him use his invulnerability to fetch her an aluminum gun.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "23" }]
+        },
+        {
+          "text": "Held with the others at the Bilming station after the failed sting, VenDell suggested Harmony might be hiding how much he was declining. He appealed to the city's mayor as a Faceless Immortal, but the mayor called him a puppet and left.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "27" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "He takes the form of a slender man in a brown suit and bow tie; the suit turns a lighter brown three times.",
+      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "1" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Courteous and well mannered, VenDell likes a witty remark and often answers questions vaguely. A pistol to his head does not make him flinch, but he refuses to go into the field, honoring the First Contract.",
+      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "4" }]
+    }
+  ],
+  "abilities": [
+    {
+      "title": [
+        {
+          "text": "Kandra",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "4" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Like other kandra, VenDell cannot be killed by ordinary violence and can take almost any creature's shape by digesting it and using its bones. Very small animals are hard, since he needs enough mass to hold his mind, though he could manage a bunny if he truly had to.",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "4" }]
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "title": [
+        {
+          "text": "MeLaan",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "4" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "VenDell thinks of MeLaan as his sister and trusts her with field work, though he wishes she showed more tact as Harmony's representative. She talks back to him freely, and the two trade quips.",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "4" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Waxillium Ladrian",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "6" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Wax keeps cutting VenDell off before he can even raise the mission. They are on speaking terms, but Wax has neither forgotten nor forgiven what happened to Lessie, and there is much tension between them.",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "6" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Wayne",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "4" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Used to humans treating Harmony's servants with deep respect, VenDell is put out by Wayne's suspicion and the walnut thrown at his head. Even so, he politely asks for Wayne's skeleton once he is dead, since years of storing weakness and sickness to heal himself leave odd marks on a man's joints and bones.",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "4" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Marasi Colms",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "6" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Rebuffed by Wax a second time, VenDell asks Marasi to help recover ReLuur's spike. Puzzled at first by the request, she agrees, and afterward passes Wax the earring VenDell could not give him.",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "6" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Harmony",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "3" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Like all kandra, VenDell is one of the Faceless Immortals, Harmony's representatives. He and other kandra have tried, without success, to get Harmony to tell them more about future inventions.",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "3" }]
+        }
+      ]
+    }
+  ]
+}

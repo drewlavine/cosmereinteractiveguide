@@ -1,0 +1,63 @@
+{
+  "intro": [
+    {
+      "text": "Captain Brettin, constable-general of the Fourth Octant constabulary precinct in Elendel.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "6" }]
+    },
+    {
+      "text": "Former constable-general of the Fourth Octant, who retired early and was succeeded by Claude Aradel.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "alloy-of-law", "chapter": "6" },
+            { "book": "shadows-of-self", "chapter": "4" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Constable-general",
+          "revealedIn": [
+            { "book": "alloy-of-law", "chapter": "6" },
+            { "book": "alloy-of-law", "chapter": "8" },
+            { "book": "alloy-of-law", "chapter": "20" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "With several Vanisher robberies happening on his watch, Brettin was under heavy pressure to catch those responsible. Among the first to arrive after the attack on the Yomen-Ostlin wedding dinner, he questioned Wax and told him to keep out of police business and stop undermining his authority.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "6" }]
+        },
+        {
+          "text": "Wayne, posing as the invented Captain Guffont Trenchant of the Seventh Octant, talked Brettin into letting him question Vanisher prisoners. Because Wayne used a speed bubble, Brettin missed the real conversation and assumed he had learned nothing useful.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "8" }]
+        },
+        {
+          "text": "To Wax's surprise, Brettin then granted him a citywide deputized forbearance, behavior quite unlike his earlier hostility.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "20" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Brettin's face turns noticeably red when he grows angry.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "8" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Terse and protective of his turf, Brettin will not tolerate civilians meddling in police work or dangerous situations, even when Wax ended a gunfight without a single civilian casualty. He cares deeply about the safety of Elendel's people and knows how much trouble the powerful can cause an investigation.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "6" }]
+    },
+    {
+      "text": "He carries himself with authority and readily clashes with other constables over jurisdiction, but he is argumentative and short-tempered, and he has a poor memory for names, constantly confusing people.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "8" }]
+    }
+  ]
+}

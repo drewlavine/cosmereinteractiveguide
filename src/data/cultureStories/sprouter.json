@@ -1,0 +1,43 @@
+{
+  "intro": [
+    {
+      "text": "The crew member on every ship who deals with spores, a job that includes using roseite to mend holes in the hull. On the Crow's Song the sprouter ranks as an officer.",
+      "revealedIn": [{ "book": "tress", "chapter": "16" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "A sprouter can steer how spores grow with a shield-like iron plate, which draws spores to it, and a steel trowel, which pushes them away. The usual aim is to fill a hole in a ship's hull.",
+      "revealedIn": [{ "book": "tress", "chapter": "26" }]
+    },
+    {
+      "text": "A splintbox is packed with roseite spores that sprout out of its front once water is added, plugging a hole in the hull. It is a newer tool, and some old-fashioned sprouters stick with the shield and trowel.",
+      "revealedIn": [{ "book": "tress", "chapter": "26" }]
+    }
+  ],
+  "history": [],
+  "facts": [
+    {
+      "label": "Rank",
+      "name": "Officer, on the Crow's Song",
+      "revealedIn": [{ "book": "tress", "chapter": "16" }]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "dorp",
+      "role": "patched hull",
+      "revealedIn": [{ "book": "tress", "chapter": "10" }]
+    },
+    {
+      "characterId": "weev",
+      "role": "former sprouter",
+      "revealedIn": [{ "book": "tress", "chapter": "16" }]
+    },
+    {
+      "characterId": "tress",
+      "role": "ship's sprouter",
+      "revealedIn": [{ "book": "tress", "chapter": "21" }]
+    }
+  ]
+}

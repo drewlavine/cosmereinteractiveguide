@@ -1,0 +1,30 @@
+{
+  "intro": [
+    {
+      "text": "A village on a canal in the Southern Dominance of the Final Empire.",
+      "revealedIn": [{ "book": "secret-history", "chapter": "4-2" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Canalmasters and their skaa crews stop here to rest, and plantation lords come to trade and send their goods on to Luthadel, which keeps the village busy. Two crumbling towers stand on the far side of the canal.",
+      "revealedIn": [{ "book": "secret-history", "chapter": "4-2" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Kelsier and Mare",
+          "revealedIn": [{ "book": "secret-history", "chapter": "4-2" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Kelsier and his wife Mare once lived here. They had to leave in haste after Kelsier killed seven nobles to avenge a young skaa maid, put to death for spilling tea.",
+          "revealedIn": [{ "book": "secret-history", "chapter": "4-2" }]
+        }
+      ]
+    }
+  ]
+}

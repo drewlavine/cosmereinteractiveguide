@@ -1,0 +1,27 @@
+{
+  "intro": [
+    {
+      "text": "A highprince of Jah Keved.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "31" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Feast in Vedenar",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "31" }],
+          "fallback": true
+        }
+      ],
+      "items": [
+        {
+          "text": "He was a guest at King Hanavanar's feast in Vedenar when Szeth attacked it. He was thought to be among the highprinces killed, though early reports couldn't confirm it.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "31" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

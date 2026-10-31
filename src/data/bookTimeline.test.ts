@@ -1,6 +1,7 @@
 import { describe, expect, it } from 'vitest'
 import { bookTimeline, layoutBooks } from './bookTimeline'
 import { bookSeries } from './books'
+import chronology from './chronology.json'
 import { systems } from './systems'
 
 const covers = Object.keys(
@@ -47,6 +48,42 @@ describe('bookTimeline', () => {
     )
   })
 
+  it('agrees with the researched chronology on when each book happens', () => {
+    // Each book against a turning point of its own in chronology.json (the
+    // validated cross-world order): the same order, and within a year.
+    const pairs = [
+      ['white-sand-3', 'taldain-diem-conspiracy-exposed'],
+      ['elantris', 'sel-elantris-restored'],
+      ['hero-of-ages', 'scadrial-e1-scadrial-restored'],
+      ['warbreaker', 'nalthis-pahn-kahl-rebellion-stopped'],
+      ['way-of-kings', 'roshar-wok-dalinar-trades-oathbringer'],
+      ['oathbringer', 'roshar-ob-thaylen-field-battle-resolves'],
+      ['rhythm-of-war', 'roshar-row-urithiru-captured'],
+      ['wind-and-truth', 'roshar-wat-sigzil-receives-dawnshard'],
+      ['alloy-of-law', 'scadrial-vanishers-dismantled'],
+      ['fires-of-december', 'cosmere-fires-december-crisis-resolved'],
+      ['lost-metal', 'scadrial-elendel-attack-stopped'],
+      ['tress', 'lumar-tress-reunites-with-charlie'],
+      ['sunlit-man', 'canticle-beaconites-leave'],
+      ['yumi', 'komashi-yumi-and-painter-part'],
+      ['sixth-of-the-dusk', 'first-of-the-sun-dusk-returns-to-patji'],
+      [
+        'isles-of-the-emberdark',
+        'first-of-the-sun-isles-expedition-reaches-the-emberdark',
+      ],
+    ].map(([id, event]) => ({
+      book: bookTimeline.find((b) => b.id === id)!,
+      year: chronology.find((e) => e.id === event)!.year,
+    }))
+    const byBook = [...pairs].sort((a, b) => a.book.start - b.book.start)
+    const byEvent = [...pairs].sort((a, b) => a.year - b.year)
+    expect(byBook.map((p) => p.book.id)).toEqual(byEvent.map((p) => p.book.id))
+    for (const { book, year } of pairs) {
+      expect(year, book.id).toBeGreaterThanOrEqual(book.start - 1)
+      expect(year, book.id).toBeLessThanOrEqual(book.end + 1)
+    }
+  })
+
   it('runs side stories above the main row and shrinks the long gaps', () => {
     const pick = (...ids: string[]) =>
       bookTimeline.filter((b) => ids.includes(b.id))
@@ -76,8 +113,8 @@ describe('bookTimeline', () => {
       [novellas[1], novellas[2]],
     ])
       expect(b.x - a.x).toBeGreaterThanOrEqual(30)
-    // Two hundred years to Warbreaker, drawn as one short break.
-    expect(breaks[0]).toEqual(expect.objectContaining({ years: 200 }))
+    // About 250 years to Warbreaker, drawn as one short break.
+    expect(breaks[0]).toEqual(expect.objectContaining({ years: 254 }))
     expect(row('warbreaker').x - row('well-of-ascension').x).toBeLessThan(400)
     // Main covers never crowd each other.
     const main = rows.filter((r) => !r.side).map((r) => r.x)

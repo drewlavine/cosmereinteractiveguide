@@ -1,0 +1,62 @@
+{
+  "intro": [
+    {
+      "text": "A seon that the gyorn Hrathen keeps in secret and uses to speak with Wyrn across any distance.",
+      "revealedIn": [{ "book": "elantris", "chapter": "12" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Background",
+          "revealedIn": [{ "book": "elantris", "chapter": "12" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Shu-Dereth calls Aonic magic heathen, and many Fjordell doubt that seons are real at all. Hrathen always believed in them, though he wrongly thought the Elantrians had made them. On becoming a gyorn, he was startled to find that Wyrn and every other gyorn kept a seon for messages, and Wyrn needed years to persuade him that this was justified.",
+          "revealedIn": [{ "book": "elantris", "chapter": "12" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Kept by Hrathen",
+          "revealedIn": [
+            { "book": "elantris", "chapter": "16" },
+            { "book": "elantris", "chapter": "36" },
+            { "book": "elantris", "chapter": "59" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Hrathen locks the seon in a steel box with an elaborate lock and keeps the box well hidden, fearing the church would be shamed if people learned it used the magic it condemns. She never tries to escape when he opens it and stays obedient, yet he distrusts and dislikes her, seldom lets her speak, and sometimes leaves the box shut for months.",
+          "revealedIn": [{ "book": "elantris", "chapter": "16" }]
+        },
+        {
+          "text": "Through her, Hrathen reported to Wyrn on his plans for Duke Telrii, and also reached the Hroven apothecary Forton, a use the church had never approved but never quite forbidden. He stored the potions Forton sent inside her box; when someone searched his rooms and damaged it, the seon herself went unnoticed.",
+          "revealedIn": [{ "book": "elantris", "chapter": "36" }]
+        },
+        {
+          "text": "Dilaf had known about the seon all along, and made Hrathen give her up so that he could threaten King Eventeo through her.",
+          "revealedIn": [{ "book": "elantris", "chapter": "59" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Like other seons, a small glowing sphere that floats in the air. Her Aon, and so her name, is unknown. She speaks in a soft, sad, feminine voice.",
+      "revealedIn": [{ "book": "elantris", "chapter": "36" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Patient and obedient.",
+      "revealedIn": [{ "book": "elantris", "chapter": "36" }]
+    }
+  ]
+}

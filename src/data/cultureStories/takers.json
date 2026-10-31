@@ -1,0 +1,62 @@
+{
+  "intro": [
+    {
+      "text": "The Takers seems to be what Tukks's squad, a unit of Alethi soldiers in Amaram's army, was called.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "2" }]
+    },
+    {
+      "text": "The Takers appears to be the name of Tukks's squad in Amaram's army, the first squad Kaladin served in after joining up late in 1168.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "27" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Their sergeant, Tukks, taught that a soldier has to keep caring while he fights instead of shutting his feelings away.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "27" }]
+    },
+    {
+      "text": "The squad was made up of darkeyed spearmen. Away from battle they trained new recruits with spear and quarterstaff, keeping discipline through cleaning duty and corporal punishment.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "62" },
+            { "book": "oathbringer", "chapter": "91" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Kaladin's first squad",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "27" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "With the Takers, Kaladin turned his natural talent with the spear into real skill.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "27" }]
+        },
+        {
+          "text": "Most or all of the squad died, and Kaladin was moved elsewhere. He regretted being unable to save them and often thought back on Tukks's ideas about fighting with purpose.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "27" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "tukks",
+      "role": "sergeant",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "2" }]
+    },
+    {
+      "characterId": "kaladin",
+      "role": "recruit",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "27" }]
+    }
+  ]
+}

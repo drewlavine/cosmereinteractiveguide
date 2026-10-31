@@ -18,9 +18,16 @@ export interface HistoryProps {
   link: LinkTextFn
 }
 
-export interface Step {
-  era: ShownEra
-  moment: ShownMoment
+/** What the scrubber needs of an era (the Spanish Civil War page has its own). */
+export interface ScrubEra {
+  title: string
+  tone: string
+  moments: { id: string; title: string }[]
+}
+
+export interface Step<E extends ScrubEra = ShownEra> {
+  era: E
+  moment: E['moments'][number]
 }
 
 export const kindLabels: Record<MomentKind, string> = {
@@ -31,8 +38,13 @@ export const kindLabels: Record<MomentKind, string> = {
 }
 
 /** Every moment in order, with its era. */
-export const stepsOf = (eras: ShownEra[]): Step[] =>
-  eras.flatMap((era) => era.moments.map((moment) => ({ era, moment })))
+export const stepsOf = <E extends ScrubEra>(eras: E[]): Step<E>[] =>
+  eras.flatMap((era) =>
+    era.moments.map((moment) => ({
+      era,
+      moment: moment as E['moments'][number],
+    })),
+  )
 
 /** The tellings that changed what a moment says, oldest first. */
 export const retellings = (moment: ShownMoment) =>
@@ -51,10 +63,6 @@ export function sourceLine(moment: ShownMoment) {
     last.book === first.book && last.chapter ? last.chapter : sinceLabel(last)
   return `From ${sinceLabel(first)} · updated in ${later}`
 }
-
-export const reducedMotion = () =>
-  typeof matchMedia === 'function' &&
-  matchMedia('(prefers-reduced-motion: reduce)').matches
 
 export const placePath = (props: HistoryProps, placeId: string) =>
   `/systems/${props.systemId}/planets/${props.planet.id}/locations/${placeId}`

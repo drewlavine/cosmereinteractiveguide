@@ -1,0 +1,30 @@
+{
+  "intro": [
+    {
+      "text": "The Shin monasteries that house shaman acolytes.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "75" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Some monasteries have meditation gardens and ceremonial stones on altars, as well as sleeping quarters for acolytes.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "75" }]
+    },
+    {
+      "text": "Their stone walls have narrow windows. A large gate opens into a great hall, whose floor bears a mural of the monastery's patron Herald.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "i-6" },
+            { "book": "wind-and-truth", "chapter": "90" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "The Bondsmith monastery is different: a natural alcove among rocks rather than a constructed fortress.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "94" }]
+    }
+  ],
+  "history": []
+}

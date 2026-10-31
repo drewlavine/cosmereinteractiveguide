@@ -1,0 +1,70 @@
+{
+  "intro": [
+    {
+      "text": "A device the southern Scadrians use to make Feruchemical medallions.",
+      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "21" }]
+    },
+    {
+      "text": "A device the southern Scadrians say their Sovereign gave them. With it, Metalborn make medallions that let anyone, Metalborn or not, tap a Feruchemical power.",
+      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "21" }]
+    }
+  ],
+  "description": [],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Gift of the Sovereign",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "21" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "The Sovereign is said to have made the Excisors and handed them to his people. A Metalborn makes a medallion with one through a process that is not described.",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "21" }]
+        },
+        {
+          "text": "As Allik tells it, the Sovereign trained Firemothers and Firefathers to make medallions of nicrosil and brass. These were unsealed metalminds that gave brief Feruchemy to whoever tapped them. The first served as brassminds that could be passed around, giving the warmth people needed to survive after the Ice Death.",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "21" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Wider use",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "21" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "In time the southerners experimented and learned to make medallions holding other Feruchemical powers, among them weight and Connection.",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "21" }]
+        },
+        {
+          "text": "After many years they found a way to put several powers in one medallion, with one Metalborn making it and handing it on for another to add theirs. Allik carried medallions with two powers; three is very rare, and every attempt at four has failed.",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "21" }]
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Origin",
+      "name": "Gift of the Sovereign",
+      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "21" }]
+    },
+    {
+      "label": "Makes",
+      "name": "Feruchemical medallions",
+      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "21" }]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "allik-neverfar",
+      "role": "medallion wearer",
+      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "21" }]
+    }
+  ]
+}

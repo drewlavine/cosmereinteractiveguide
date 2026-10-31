@@ -1,0 +1,26 @@
+{
+  "intro": [
+    {
+      "text": "A Terrisman living in the Village.",
+      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "prologue" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The arson",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "prologue" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "When a constable visited the Village to talk with Elder Vwafendal about a recent arson, Idashwy heard Tathed asking about it, and she afterwards passed this on to Wax.",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "prologue" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

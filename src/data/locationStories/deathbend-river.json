@@ -1,0 +1,52 @@
+{
+  "intro": [
+    {
+      "text": "A river on Roshar.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "28" }]
+    },
+    {
+      "text": "A river in southern Alethkar that runs through the Eastern Crownlands and into Mevan Bay.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "58" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "It is among the steadiest rivers on Roshar, never running dry even in the Midpeace, and it lies on a good caravan route.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "58" }]
+    },
+    {
+      "text": "Six or seven villages, one of them a town of some note, sit along its southern fork.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "58" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "First contact with the Parshendi",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "28" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Gavilar and Dalinar Kholin were exploring one of the Deathbend's tributaries when they came upon the Parshendi.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "28" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Land for Kaladin",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "58" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Dalinar Kholin and Elhokar granted Kaladin, now a Shardbearer ranked in the fourth dahn, a stretch of land along the southern fork. It had passed back to the crown when its local brightlord died.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "58" }]
+        }
+      ]
+    }
+  ]
+}

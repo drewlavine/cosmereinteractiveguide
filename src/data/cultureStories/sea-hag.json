@@ -1,0 +1,38 @@
+{
+  "intro": [
+    {
+      "text": "Creatures of Thaylen myth, never clearly described. Most Rosharan scholars and modern Thaylens consider them fictional, along with gloomdancers and living heaps of cremlings.",
+      "revealedIn": [{ "book": "dawnshard", "chapter": "9" }]
+    }
+  ],
+  "description": [],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Old legends reconsidered",
+          "revealedIn": [{ "book": "dawnshard", "chapter": "9" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Vstim mentioned sea hags to Rysn while talking about Queen Jasnah's research into creatures of old legend.",
+          "revealedIn": [{ "book": "dawnshard", "chapter": "9" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "vstim",
+      "role": "mentioned them",
+      "revealedIn": [{ "book": "dawnshard", "chapter": "9" }]
+    },
+    {
+      "characterId": "rysn-ftori",
+      "role": "heard of them",
+      "revealedIn": [{ "book": "dawnshard", "chapter": "9" }]
+    }
+  ]
+}

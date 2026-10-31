@@ -1,0 +1,311 @@
+{
+  "intro": [
+    {
+      "text": "A religion whose followers, the Derethi, worship the unforgiving god Jaddeth and hold that all mankind should be united under the rule of a single nation.",
+      "revealedIn": [{ "book": "elantris", "chapter": "3" }]
+    },
+    {
+      "text": "The religion of the Derethi, who worship the unforgiving god Jaddeth and seek to bring all mankind together under one nation. It is the official faith of every nation east of the Dathreki mountains; only Arelon and Teod hold out.",
+      "revealedIn": [{ "book": "elantris", "chapter": "9" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "In Derethi belief, once every man is united under one nation, Jaddeth will wake and come back to the world. A letter from Wyrn Wulfden the Fourth, presented as Jaddeth's own words, calls that moment the Day of Empire.",
+      "revealedIn": [{ "book": "elantris", "chapter": "3" }]
+    },
+    {
+      "text": "Derethi scripture is the Do-Dereth; the Do-Kando, the text of Shu-Keseg from which Shu-Dereth grew, is studied as well.",
+      "revealedIn": [{ "book": "elantris", "chapter": "3" }]
+    },
+    {
+      "text": "They worship in tall stone chapels with towering spires, where it is not the custom to mill about laughing and joking.",
+      "revealedIn": [{ "book": "elantris", "chapter": "3" }]
+    },
+    {
+      "text": "All are welcome in Jaddeth's empire, but none more than the Fjordell.",
+      "revealedIn": [{ "book": "elantris", "chapter": "3" }]
+    },
+    {
+      "text": "Fjordell is held to be Jaddeth's chosen tongue and so holy; every other language counts as profane.",
+      "revealedIn": [{ "book": "elantris", "chapter": "12" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Origins",
+          "revealedIn": [
+            { "book": "elantris", "chapter": "14" },
+            { "book": "elantris", "chapter": "53" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Shu-Dereth began when Dereth, a student of Keseg, left JinDo to spread Shu-Keseg's central teaching, the unity of all mankind, holding that it should come through gathering everyone into one nation.",
+          "revealedIn": [{ "book": "elantris", "chapter": "14" }]
+        },
+        {
+          "text": "Fjorden's warlike society took up Shu-Dereth as a tool of conquest, bringing every country east of the Dathreki mountains under its rule through its priests' military might and political sabotage, in pursuit of the Day of Empire.",
+          "revealedIn": [{ "book": "elantris", "chapter": "53" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The mission to Arelon",
+          "revealedIn": [
+            { "book": "elantris", "chapter": "3" },
+            { "book": "elantris", "chapter": "63" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Hrathen, a gyorn whose imposing plate armour stirred Kae, arrived to convert Arelon. His orders, a scroll from Wyrn Wulfden the Fourth, gave him three months; Arelene and Teo who had not converted by then were to be killed.",
+          "revealedIn": [{ "book": "elantris", "chapter": "3" }]
+        },
+        {
+          "text": "Hrathen sent Fjon, Kae's head arteth, back to Fjorden and took his place, making Dilaf, an Arelene convert, an arteth and his own odiv.",
+          "revealedIn": [{ "book": "elantris", "chapter": "3" }]
+        },
+        {
+          "text": "Fjorden's campaign against Arelon and Teod, first through conversion and then by sending Dakhor monks against both, failed, and the two nations remained independent.",
+          "revealedIn": [{ "book": "elantris", "chapter": "63" }]
+        }
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "title": "Beliefs",
+      "items": [
+        {
+          "text": "The souls of those who hated Jaddeth in life become Svrakiss, evil beings shut out of heaven and said to be able to seize and control the bodies of the living.",
+          "revealedIn": [{ "book": "elantris", "chapter": "6" }]
+        },
+        {
+          "text": "Only people can worship Jaddeth, and that is what sets them apart from animals: beasts can only serve their lusts, while people can devote themselves to a higher purpose.",
+          "revealedIn": [{ "book": "elantris", "chapter": "8" }]
+        },
+        {
+          "text": "Service to Jaddeth is rewarded in this life and the next, and he is said to reward ambition.",
+          "revealedIn": [{ "book": "elantris", "chapter": "9" }]
+        },
+        {
+          "text": "Seons, being tied to Elantris, count as heathen magic; only chosen Derethi of the strongest faith and self-control may use them.",
+          "revealedIn": [{ "book": "elantris", "chapter": "12" }]
+        },
+        {
+          "text": "Jaddeth is said to have no tolerance for ignorance.",
+          "revealedIn": [{ "book": "elantris", "chapter": "19" }]
+        },
+        {
+          "text": "The Derethi see the Elantrians as vile, blasphemous and wholly unholy.",
+          "revealedIn": [{ "book": "elantris", "chapter": "42" }]
+        }
+      ],
+      "parts": []
+    },
+    {
+      "title": "Hierarchy",
+      "items": [
+        {
+          "text": "Shu-Dereth is strictly ordered, likened to a feudal government. Followers must obey their superiors, and a priest's role is to command rather than to lead others gently to faith.",
+          "revealedIn": [{ "book": "elantris", "chapter": "8" }]
+        }
+      ],
+      "parts": [
+        {
+          "title": [
+            {
+              "text": "The chain to Jaddeth",
+              "revealedIn": [{ "book": "elantris", "chapter": "12" }]
+            }
+          ],
+          "items": [
+            {
+              "text": "Only the Wyrn, Fjorden's ruler, serves Jaddeth directly. Everyone else serves only the person just above them in a chain reaching from all people up to Jaddeth, so those lower down need not wrestle with commands of Jaddeth beyond their understanding.",
+              "revealedIn": [{ "book": "elantris", "chapter": "12" }]
+            },
+            {
+              "text": "The Wyrn commands every follower of Shu-Dereth. He may approve the use of heathen magic for the empire's good, and let chosen followers use it too.",
+              "revealedIn": [{ "book": "elantris", "chapter": "12" }]
+            }
+          ]
+        },
+        {
+          "title": [
+            {
+              "text": "Ranks",
+              "revealedIn": [
+                { "book": "elantris", "chapter": "5" },
+                {
+                  "all": [
+                    { "book": "elantris", "chapter": "48" },
+                    { "book": "emperors-soul", "chapter": "day-98" }
+                  ]
+                },
+                { "book": "elantris", "chapter": "36" },
+                { "book": "elantris", "chapter": "12" },
+                { "book": "elantris", "chapter": "3" },
+                { "book": "elantris", "chapter": "58" }
+              ]
+            }
+          ],
+          "items": [
+            {
+              "text": "Sarene notes that there are only twenty gyorns in the whole Fjordell Empire.",
+              "revealedIn": [{ "book": "elantris", "chapter": "5" }]
+            },
+            {
+              "text": "Gyorns are among the most noble of men; where Shu-Dereth is followed, kings bow to them. They serve as ambassadors abroad and wear ornate red armour with billowing crimson cloaks. Most are old; Hrathen, in his forties, is young for one.",
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "elantris", "chapter": "48" },
+                    { "book": "emperors-soul", "chapter": "day-98" }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "A ragnat, one rank below gyorn, usually oversees a region of worshippers. Only priests of at least this rank may command Rathbore-trained priests without the Wyrn's leave.",
+              "revealedIn": [{ "book": "elantris", "chapter": "36" }]
+            },
+            {
+              "text": "Gradors, below the ragnats, generally lead the chapels of large cities.",
+              "revealedIn": [{ "book": "elantris", "chapter": "12" }]
+            },
+            {
+              "text": "An arteth is a full priest; a chapel may have many, led by a head arteth.",
+              "revealedIn": [{ "book": "elantris", "chapter": "3" }]
+            },
+            {
+              "text": "Dorven are the lowest priests. Arteths may have some authority over them, but officially they serve the gradors.",
+              "revealedIn": [{ "book": "elantris", "chapter": "12" }]
+            },
+            {
+              "text": "Common people sit at the bottom of the chain, serving the arteths and dorven, and become part of it by pledging themselves to one of them as odiv or krondet.",
+              "revealedIn": [{ "book": "elantris", "chapter": "12" }]
+            },
+            {
+              "text": "Gragdets lead the monasteries and usually stand outside the chain, keeping to their own monastery's affairs. But a gyorn is outranked by the heads of the three strongest: Rathbore, Dakhor and Fjeldor.",
+              "revealedIn": [{ "book": "elantris", "chapter": "58" }]
+            }
+          ]
+        },
+        {
+          "title": [
+            {
+              "text": "Masters and servants",
+              "revealedIn": [{ "book": "elantris", "chapter": "21" }]
+            }
+          ],
+          "items": [
+            {
+              "text": "A priest may become a hroden, or master, and take on odivs or krondets. A krondet heeds his hroden's advice but need not follow it; an odiv must obey, serving almost as a slave. Many choose to be an odiv to gain power through their hroden.",
+              "revealedIn": [{ "book": "elantris", "chapter": "21" }]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Monasteries",
+      "items": [
+        {
+          "text": "The Fjeldor monastery trains spies.",
+          "revealedIn": [{ "book": "elantris", "chapter": "17" }]
+        },
+        {
+          "text": "Every new Derethi priest must train at a monastery in both religion and combat. Most monasteries, such as Ghajan, train ordinary soldiers; others give more specialised training.",
+          "revealedIn": [{ "book": "elantris", "chapter": "36" }]
+        },
+        {
+          "text": "The Rathbore monastery trains assassins, such as Dothgen. Priests below the rank of ragnat need the Wyrn's permission to use Rathbore priests.",
+          "revealedIn": [{ "book": "elantris", "chapter": "36" }]
+        },
+        {
+          "text": "The Dakhor monastery, known as the Order of Bone, trains fearsome warriors. Bony patterns growing beneath their skin give its monks greater speed and strength.",
+          "revealedIn": [{ "book": "elantris", "chapter": "58" }]
+        }
+      ],
+      "parts": []
+    }
+  ],
+  "facts": [
+    {
+      "label": "God",
+      "name": "Jaddeth",
+      "revealedIn": [{ "book": "elantris", "chapter": "3" }]
+    },
+    {
+      "label": "Scripture",
+      "name": "Do-Dereth",
+      "revealedIn": [{ "book": "elantris", "chapter": "3" }]
+    },
+    {
+      "label": "Leader",
+      "name": "The Wyrn",
+      "revealedIn": [{ "book": "elantris", "chapter": "12" }]
+    },
+    {
+      "label": "Current Wyrn",
+      "name": "Wulfden the Fourth",
+      "characterId": "wulfden-the-fourth",
+      "revealedIn": [{ "book": "elantris", "chapter": "3" }]
+    },
+    {
+      "label": "Holy language",
+      "name": "Fjordell",
+      "revealedIn": [{ "book": "elantris", "chapter": "12" }]
+    },
+    {
+      "label": "Heartland",
+      "name": "Fjorden",
+      "placeId": "fjorden",
+      "revealedIn": [{ "book": "elantris", "chapter": "12" }]
+    },
+    {
+      "label": "Parent religion",
+      "name": "Shu-Keseg",
+      "revealedIn": [{ "book": "elantris", "chapter": "3" }]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "hrathen",
+      "role": "gyorn",
+      "revealedIn": [{ "book": "elantris", "chapter": "3" }]
+    },
+    {
+      "characterId": "dilaf",
+      "role": "arteth",
+      "revealedIn": [{ "book": "elantris", "chapter": "3" }]
+    },
+    {
+      "characterId": "fjon",
+      "role": "head arteth",
+      "revealedIn": [{ "book": "elantris", "chapter": "3" }]
+    },
+    {
+      "characterId": "wulfden-the-fourth",
+      "role": "Wyrn",
+      "revealedIn": [{ "book": "elantris", "chapter": "3" }]
+    },
+    {
+      "characterId": "dothgen",
+      "role": "Rathbore assassin",
+      "revealedIn": [{ "book": "elantris", "chapter": "36" }]
+    },
+    {
+      "characterId": "dereth",
+      "role": "founder",
+      "revealedIn": [{ "book": "elantris", "chapter": "14" }]
+    }
+  ]
+}

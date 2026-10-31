@@ -1,0 +1,139 @@
+{
+  "intro": [
+    {
+      "text": "Ed, an arcanist on the Dynamic, born on Silverlight to a family of Vaxilian descent, who jots down notes on whatever catches his interest.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "25" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Aboard the Dynamic",
+          "revealedIn": [
+            { "book": "isles-of-the-emberdark", "chapter": "28" },
+            { "book": "isles-of-the-emberdark", "chapter": "30" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Raised on Silverlight, Ed had served on the Dynamic for years, writing up what he saw for arcanists back home. When an entity attacked an Iriali family's ship, he warned that its negative Investiture could harm the ship and even their souls. He backed Starling against Captain Crow, his knowledge helped the rescue, and afterwards he helped the family settle in.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "28" }]
+        },
+        {
+          "text": "Back on Silverlight, Starling showed him the family's map. He was stunned to find it a missing part of the Iriali Long Trail record, pointing to a perpendicularity in Drominad, and took it to his colleagues.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "30" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "On the island",
+          "revealedIn": [
+            { "book": "isles-of-the-emberdark", "chapter": "38" },
+            { "book": "isles-of-the-emberdark", "chapter": "53" },
+            { "book": "isles-of-the-emberdark", "chapter": "60" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Following the map, the crew fell into Malwish hands on an island in the emberdark. When soldiers threatened Leonore, Ed went at them with nothing but a heavy book, but the scuffle only served the Malwish plan to trap Nazh.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "38" }]
+        },
+        {
+          "text": "He cheered a gloomy Leonore with talk of a strange planet, told the others what he knew of the Eelakin, and argued that the Scadrians would only free Starling once a contract bound her. When the crew's first plan fell through, his knowledge of the Intensifier helped them make a new one.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "53" }]
+        },
+        {
+          "text": "When the Intensifier cut the island's power, Ed and Aditil freed Nazh, and Ed joined Starling in guiding Chrysalis back to the ship through bursts of gunfire.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "60" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Afterwards",
+          "revealedIn": [
+            { "book": "isles-of-the-emberdark", "chapter": "epilogue" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Dusk took the crew to Patji's Eye, and they spent six months on First of the Sun. When Chrysalis proposed asking for help on the Grand Apparatus to free Starling from her manacles, Ed offered to ask his arcanist friends too.",
+          "revealedIn": [
+            { "book": "isles-of-the-emberdark", "chapter": "epilogue" }
+          ]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Dark-skinned with curly black hair, he wears robes and a big floppy hat and carries the large bag arcanists favour.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "26" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "He follows the Path, a Scadrian faith, because he finds its Shard 'nice', and carries a Pathian earring.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "30" }]
+    },
+    {
+      "text": "Chatty, curious and always hunting for new facts about the cosmere, he rambles about his favourite subjects, the Grand Apparatus above all, and notes down anything odd aboard ship. Friendly, witty and sometimes overeager, he is loyal to Starling's crew and brave enough to face soldiers armed only with a book.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "53" }]
+    }
+  ],
+  "abilities": [
+    {
+      "title": [
+        {
+          "text": "Skills",
+          "revealedIn": [
+            { "book": "isles-of-the-emberdark", "chapter": "32" },
+            { "book": "isles-of-the-emberdark", "chapter": "42" },
+            { "book": "isles-of-the-emberdark", "chapter": "60" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "A gifted arcanist, well versed in Realmatic Theory, Investiture and the worlds of the cosmere. He can recite facts on the spot, teaches the crew about Threnodite entities, and authenticates old Iriali artifacts with ease. He keeps in touch with other arcanists on Silverlight.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "32" }]
+        },
+        {
+          "text": "He speaks several languages, among them a formal religious draconic from Yolen that surfaces when he is drunk.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "42" }]
+        },
+        {
+          "text": "He can fire a gun, though he rarely hits anything.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "60" }]
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "title": [
+        {
+          "text": "Starling",
+          "revealedIn": [
+            { "book": "isles-of-the-emberdark", "chapter": "epilogue" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "He respects Starling deeply as his captain, and she counts him a remarkably capable arcanist. Like the others, he means to help free her from her manacles and win back her powers.",
+          "revealedIn": [
+            { "book": "isles-of-the-emberdark", "chapter": "epilogue" }
+          ]
+        }
+      ]
+    }
+  ]
+}

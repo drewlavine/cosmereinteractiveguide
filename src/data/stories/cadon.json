@@ -1,0 +1,27 @@
+{
+  "intro": [
+    {
+      "text": "A steward in Elend Venture's palace in Luthadel.",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "21" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Palace steward",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "21" }],
+          "fallback": true
+        }
+      ],
+      "items": [
+        {
+          "text": "Still up when Allrianne Cett came to King Elend asking for asylum, he was told to show her to her rooms.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "21" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

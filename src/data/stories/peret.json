@@ -1,0 +1,45 @@
+{
+  "intro": [
+    {
+      "text": "Peret the Black, a dangerous Pewterarm outlaw in the Roughs and the first criminal Wax brought in.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "9" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Wax's first bounty",
+          "revealedIn": [
+            { "book": "alloy-of-law", "chapter": "9" },
+            {
+              "all": [
+                { "book": "alloy-of-law", "chapter": "9" },
+                { "book": "shadows-of-self", "chapter": "prologue" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Some twenty years before Wax came back to Elendel, Peret was a feared Thug with a large price on his head. Wax went after him and within days returned to the lawkeeper station with Peret's body slung over his horse.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "9" }]
+        },
+        {
+          "text": "The deed won Wax respect, but he later admitted to Marasi that he had chosen Peret only for the money: he was broke, and Peret carried the biggest bounty. Meeting Lessie, he confessed that he had shot Peret in the back while the outlaw was relieving himself, and joked that it was as brave as any shot in the back.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "alloy-of-law", "chapter": "9" },
+                { "book": "shadows-of-self", "chapter": "prologue" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

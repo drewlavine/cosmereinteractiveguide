@@ -1,0 +1,95 @@
+{
+  "intro": [
+    {
+      "text": "A nation on a peninsula, home of the Teo. Although it is not part of Opelon, it falls within Opelon's cultural sphere.",
+      "revealedIn": [{ "book": "elantris", "chapter": "2" }]
+    },
+    {
+      "text": "A kingdom on a peninsula, home of the Teo and ruled by King Eventeo. Although it is not part of Opelon, it falls within Opelon's cultural sphere. Its royal crest is a gold Aon Teo on a blue field.",
+      "revealedIn": [{ "book": "elantris", "chapter": "38" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Its climate is fairly cold, though not unbearably so, and snow and frost are frequent.",
+      "revealedIn": [{ "book": "elantris", "chapter": "17" }]
+    },
+    {
+      "text": "The state religion is Shu-Korath, whose followers worship Domi, a merciful and kindly god, and center their faith on love's power to unite. Teo women often spar with the syre but insist on calling it fencing. Many Teo men are uneasy with a wife cleverer than themselves, so women often play down their intelligence until married; nearly all are engaged by eighteen, and an unmarried woman of twenty-five is mocked as an old maid.",
+      "revealedIn": [{ "book": "elantris", "chapter": "17" }]
+    },
+    {
+      "text": "Most Teo are of pure Aonic descent, so they tend to be tall and blond. They speak Aonic, a language that grew out of the Aons and has since drifted from them. The Aons were also the basis of a logographic script used in Arelon and Teod before the phonetic alphabet they write with today.",
+      "revealedIn": ["elantris"]
+    },
+    {
+      "text": "Teod lies on the northern continent, toward its southern end, with the Sea of Fjorden between it and Opelon. Large mountain ranges rise in the north and south of the country, with passes through to the Rose Empire, and forests cover much of the land.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "elantris", "chapter": "17" },
+            { "book": "emperors-soul", "chapter": "day-98" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The throne",
+          "revealedIn": [{ "book": "elantris", "chapter": "58" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "The crown is meant to go to the monarch's eldest child, though another child may take it if the eldest is away from Teod. On the death of the previous ruler, Eventeo became king instead of his brother Kiin, who stood ahead of him in the succession.",
+          "revealedIn": [{ "book": "elantris", "chapter": "58" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Relations with Arelon",
+          "revealedIn": [
+            { "book": "elantris", "chapter": "3" },
+            { "book": "elantris", "chapter": "2" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The Teo and the Arelene get on well, sharing both the Korathi faith and Aonic ancestry.",
+          "revealedIn": [{ "book": "elantris", "chapter": "3" }]
+        },
+        {
+          "text": "Ties cooled after the new government came to power in Arelon, as Eventeo never troubled to build closer links with it. With the Fjordell Empire pressing on both countries, Eventeo and Iadon sought to renew the alliance by marrying Sarene to Raoden.",
+          "revealedIn": [{ "book": "elantris", "chapter": "2" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Rivalry with Fjorden",
+          "revealedIn": [
+            { "book": "elantris", "chapter": "6" },
+            { "book": "elantris", "chapter": "62" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The Fjordell are the old rivals and sworn enemies of the Teo, and religion deepens the divide: Teod is the homeland of Shu-Korath, while Fjorden is Derethi. Even so, Fjorden keeps an ambassador in Teod.",
+          "revealedIn": [{ "book": "elantris", "chapter": "6" }]
+        },
+        {
+          "text": "Ten years after the Reod, Fjorden began closing its borders to Teo merchants, and several Teo ambassadors vanished. Its fleet then sailed straight for Teoras. Teod's strength lies in its navy, which rules the northern sea, as it has almost no land army. The attack was driven back once Elantris was restored and Elantrians, allies of Teod, came to Teoras.",
+          "revealedIn": [{ "book": "elantris", "chapter": "62" }]
+        }
+      ]
+    }
+  ]
+}

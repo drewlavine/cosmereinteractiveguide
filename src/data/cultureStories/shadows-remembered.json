@@ -1,0 +1,47 @@
+{
+  "intro": [
+    {
+      "text": "Shadows Remembered is a Rosharan book of children's tales about the Voidbringers, collected over many years by an unnamed woman curious about darkeyed folklore.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "33" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "It is a thin red book bound in hogshide. The Palanaeum keeps a copy in the same room as Dialogues.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "33" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Shallan's search",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "43" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Having seen Jasnah reading it, Shallan went to the Palanaeum to find it, expecting philosophy about some killing from the past. She was let down by its plain folktales.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "43" }]
+        },
+        {
+          "text": "Jasnah's notes showed that she did not dismiss Voidbringer legends, since folktales might hold some truth.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "43" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "jasnah-kholin",
+      "role": "reader",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "43" }]
+    },
+    {
+      "characterId": "shallan-davar",
+      "role": "reader",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "43" }]
+    }
+  ]
+}

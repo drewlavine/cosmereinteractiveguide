@@ -1,0 +1,28 @@
+{
+  "intro": [
+    {
+      "text": "An illness of Sel. After the Shaod takes Prince Raoden, King Iadon claims the coughing shivers killed him.",
+      "revealedIn": [{ "book": "elantris", "chapter": "2" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "The illness disfigures those it strikes. It seldom kills young, healthy men, though it can.",
+      "revealedIn": [{ "book": "elantris", "chapter": "11" }]
+    }
+  ],
+  "history": [],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "iadon",
+      "role": "blames it",
+      "revealedIn": [{ "book": "elantris", "chapter": "2" }]
+    },
+    {
+      "characterId": "raoden",
+      "role": "claimed victim",
+      "revealedIn": [{ "book": "elantris", "chapter": "2" }]
+    }
+  ]
+}

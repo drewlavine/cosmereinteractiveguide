@@ -1,0 +1,90 @@
+{
+  "intro": [
+    {
+      "text": "A common reed of Roshar that grows outside the Alethi warcamps on the Shattered Plains. Its sap is a strong antiseptic.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "23" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Its sturdy stems could be woven into hats.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "23" }]
+    },
+    {
+      "text": "It grows on rocky plains in the lee of boulders. The stalk, up to a forearm long, is fixed to the rock and topped by a frond that pulls in during highstorms; storms tear some loose and carry them off to root elsewhere. It also gives off fluff.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "30" }]
+    },
+    {
+      "text": "Pressing along the stalk yields two or three drops of creamy white sap, sometimes called milk, used to clean wounds and a surgeon's hands.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "41" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Gathering the sap",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "23" },
+            { "book": "way-of-kings", "chapter": "27" },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "27" },
+                { "book": "words-of-radiance", "chapter": "5" }
+              ]
+            },
+            { "book": "words-of-radiance", "chapter": "17" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Kaladin had Rock and Teft collect knobweed and squeeze its sap into discarded liquor bottles.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "23" }]
+        },
+        {
+          "text": "Apothecaries supplying the warcamps charged two skymarks a jar for the sap, as the highprinces did not recognize the reeds. Kaladin sold some to one apothecary, who agreed because he could deny knowing its source and knobweed was getting scarce; the money fed his bridge crew.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "27" }]
+        },
+        {
+          "text": "Surgeons in Dalinar's warcamp and their servants collected knobweed.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "27" },
+                { "book": "words-of-radiance", "chapter": "5" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Travelling with Tvlakv's caravan without proper shoes, Shallan collected knobweed sap to treat her feet.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "17" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "kaladin",
+      "role": "gathered it",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "23" }]
+    },
+    {
+      "characterId": "lunamor",
+      "role": "gathered it",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "23" }]
+    },
+    {
+      "characterId": "teft",
+      "role": "gathered it",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "23" }]
+    },
+    {
+      "characterId": "shallan-davar",
+      "role": "used it",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "17" }]
+    }
+  ]
+}

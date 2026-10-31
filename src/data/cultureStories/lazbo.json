@@ -1,0 +1,23 @@
+{
+  "intro": [
+    {
+      "text": "A spice Huio added to a batch of Lunamor's shiki. Surprised at how well it suited the drink, Lunamor had him add it to all of it.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "37" }]
+    }
+  ],
+  "description": [],
+  "history": [],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "huio",
+      "role": "added it",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "37" }]
+    },
+    {
+      "characterId": "lunamor",
+      "role": "approved it",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "37" }]
+    }
+  ]
+}

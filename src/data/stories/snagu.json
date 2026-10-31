@@ -1,0 +1,26 @@
+{
+  "intro": [
+    {
+      "text": "One of the soldiers guarding the duke's mansion on Diggen's Point.",
+      "revealedIn": [{ "book": "tress", "chapter": "2" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Diggen's Point",
+          "revealedIn": [{ "book": "tress", "chapter": "2" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Snagu and Lead let Tress onto the mansion grounds to see Charlie in exchange for her home-made pies.",
+          "revealedIn": [{ "book": "tress", "chapter": "2" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

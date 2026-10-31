@@ -1,0 +1,35 @@
+{
+  "intro": [
+    {
+      "text": "Allriandre's landlady in Elendel.",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "epilogue-3" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Allriandre's apartment",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "epilogue-3" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Miss Coussaint sometimes minds Allriandre's daughter Ruri. When Ruri drew on the walls in toothpaste, she shouted at the little girl until she cried.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "epilogue-3" }]
+        },
+        {
+          "text": "She collects the rent on the first of each month and has plans to renovate.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "epilogue-3" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "She has several chins, one much bigger than the others.",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "epilogue-3" }]
+    }
+  ],
+  "personality": []
+}

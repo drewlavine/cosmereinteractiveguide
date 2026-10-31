@@ -1,0 +1,26 @@
+{
+  "intro": [
+    {
+      "text": "Someone at Maxillium Ladrian's school.",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "epilogue-2" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Advice for Max",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "epilogue-2" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Jennid told Max that whoever saves the world is also meant to get the girl.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "epilogue-2" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

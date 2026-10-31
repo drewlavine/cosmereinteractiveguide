@@ -1,0 +1,142 @@
+{
+  "intro": [
+    {
+      "text": "The job of Nikaro and of Akane and Tojin: nightmare painters who walk rounds through Kilahito at night.",
+      "revealedIn": [{ "book": "yumi", "chapter": "1" }]
+    },
+    {
+      "text": "A civil servant of Nagadan who protects people from nightmares. Painters patrol for nightmares that have come out of the shroud and make them harmless by painting them as something benign, in black ink on canvas, under the Nightmare Division.",
+      "revealedIn": [{ "book": "yumi", "chapter": "3" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "In Kilahito, painters practise on the blank outer walls of buildings at the city's edge. Each claims one wall for a mural known as their capstone painting.",
+      "revealedIn": [{ "book": "yumi", "chapter": "3" }]
+    },
+    {
+      "text": "Outside their own circle, painters are often just called by their job title. The work counts as lower class, yet painters are widely respected: people thank them in the street, and they get perks such as discounts.",
+      "revealedIn": [{ "book": "yumi", "chapter": "28" }]
+    }
+  ],
+  "history": [],
+  "sections": [
+    {
+      "title": "Job description",
+      "items": [],
+      "parts": [
+        {
+          "title": [
+            {
+              "text": "Training",
+              "revealedIn": [
+                { "book": "yumi", "chapter": "25" },
+                { "book": "yumi", "chapter": "31" }
+              ]
+            }
+          ],
+          "items": [
+            {
+              "text": "Newly qualified painters are hired by the Nightmare Division and at first shadow experienced painters before working alone.",
+              "revealedIn": [{ "book": "yumi", "chapter": "25" }]
+            },
+            {
+              "text": "Would-be painters spend two years in upper school after leaving lower school at about sixteen or seventeen. The course is about art, above all painting nightmares, and starts with copying the styles of great masters. Those picked for the Dreamwatch train apart in the second year.",
+              "revealedIn": [{ "book": "yumi", "chapter": "31" }]
+            }
+          ]
+        },
+        {
+          "title": [
+            {
+              "text": "Equipment",
+              "revealedIn": [{ "book": "yumi", "chapter": "37" }]
+            }
+          ],
+          "items": [
+            {
+              "text": "On patrol a painter carries a big bag holding brushes, black ink in jars, and empty canvases. Practice brushes can be as long as a broom, but most painting is done with brushes roughly two feet long. The ink allows fine control of shading, and the canvases are thick cloth on square frames three feet across.",
+              "revealedIn": [{ "book": "yumi", "chapter": "37" }]
+            },
+            {
+              "text": "Many also carry an umbrella to keep rain off their canvases, and newer painters carry a bell that rings loudly over and over to call nearby painters for help. There is a formal uniform for occasions, but most patrol in plain clothes of their own.",
+              "revealedIn": [{ "book": "yumi", "chapter": "37" }]
+            }
+          ]
+        },
+        {
+          "title": [
+            {
+              "text": "Duties",
+              "revealedIn": [
+                { "book": "yumi", "chapter": "5" },
+                { "book": "yumi", "chapter": "25" },
+                { "book": "yumi", "chapter": "40" }
+              ]
+            }
+          ],
+          "items": [
+            {
+              "text": "At the end of a shift, painters hand in their paintings at the foreman's office as proof of their work. They are expected to catch about one nightmare a shift, though days can pass without seeing any.",
+              "revealedIn": [{ "book": "yumi", "chapter": "5" }]
+            },
+            {
+              "text": "The foreman sets each painter's shifts, which change now and then and fall mostly at night; on holidays such as Ashday they work half a shift, and painters often swap shifts with one another.",
+              "revealedIn": [{ "book": "yumi", "chapter": "25" }]
+            },
+            {
+              "text": "Each painter patrols a set part of the city, mostly near its edge, to catch nightmares soon after they leave the shroud. They watch for ripples on the shroud's surface and for traces a nightmare leaves on what it touches.",
+              "revealedIn": [{ "book": "yumi", "chapter": "25" }]
+            },
+            {
+              "text": "On finding a nightmare, a trained painter stays quiet and keeps their feelings in check so as not to draw its notice, then sets out their supplies and looks for something harmless the creature's shape suggests, which makes the picture easier to impose. Skill and will can paint it into any form, but stable nightmares are harder and may not stay changed. Painters prefer not to tell a person a nightmare was feeding on.",
+              "revealedIn": [{ "book": "yumi", "chapter": "40" }]
+            }
+          ]
+        },
+        {
+          "title": [
+            {
+              "text": "Pay",
+              "revealedIn": [{ "book": "yumi", "chapter": "37" }]
+            }
+          ],
+          "items": [
+            {
+              "text": "Ordinary painters earn little, receiving their pay each day when their shift ends, plus a one-room apartment. A painter who neglects their duty gets a warning, then a month's suspension without pay, which other painters are told is medical leave.",
+              "revealedIn": [{ "book": "yumi", "chapter": "37" }]
+            },
+            {
+              "text": "Places in the Dreamwatch tend to go to those related to politicians, major investors or past members, rather than to the most skilled.",
+              "revealedIn": [{ "book": "yumi", "chapter": "37" }]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Overseen by",
+      "name": "The Nightmare Division",
+      "revealedIn": [{ "book": "yumi", "chapter": "3" }]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "nikaro",
+      "role": "painter",
+      "revealedIn": [{ "book": "yumi", "chapter": "1" }]
+    },
+    {
+      "characterId": "akane",
+      "role": "painter",
+      "revealedIn": [{ "book": "yumi", "chapter": "1" }]
+    },
+    {
+      "characterId": "tojin",
+      "role": "painter",
+      "revealedIn": [{ "book": "yumi", "chapter": "1" }]
+    }
+  ]
+}

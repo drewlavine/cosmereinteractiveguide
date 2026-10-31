@@ -295,5 +295,49 @@
         }
       ]
     }
+  ],
+  "abilities": [
+    {
+      "title": [
+        {
+          "text": "Connection in Shinovar",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "129" },
+            { "book": "wind-and-truth", "chapter": "140" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "After taking part of the Well of Control, Ishar could speak into the minds of people Connected to Shinovar, heal them and read their thoughts after a prolonged Connection. People who rejected him escaped his mental access.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "129" }]
+        },
+        {
+          "text": "The corruption spread through Shinovar and through his Connection to the other Heralds.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "140" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Human Cognitive Shadows",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "132" },
+            { "book": "wind-and-truth", "chapter": "133" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Ishar made willing humans into beings able to return in new bodies after death. Without a storm, taking a body was slow and painful; Nightblood could kill them permanently.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "132" }]
+        },
+        {
+          "text": "He could command their movements, kill them, and make them share his emotions.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "133" }]
+        }
+      ]
+    }
   ]
 }

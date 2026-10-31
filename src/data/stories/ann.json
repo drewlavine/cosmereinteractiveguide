@@ -1,0 +1,147 @@
+{
+  "intro": [
+    {
+      "text": "The carpenter of the Crow's Song, whom Tress first comes across checking a cannonball with Fort.",
+      "revealedIn": [{ "book": "tress", "chapter": "14" }],
+      "fallback": true
+    },
+    {
+      "text": "Carpenter and assistant cannonmaster of the Crow's Song, who is besotted with the ship's guns.",
+      "revealedIn": [{ "book": "tress", "chapter": "17" }],
+      "fallback": true
+    },
+    {
+      "text": "Carpenter and assistant cannonmaster of the Crow's Song, whose lifelong trouble with aiming turns out to have a cause in her eyesight.",
+      "revealedIn": [{ "book": "tress", "chapter": "53" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Before the Crow's Song",
+          "revealedIn": [{ "book": "tress", "chapter": "63" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "As a girl Ann raised chickens on a farm. As soon as she was old enough she enlisted in a force she calls the militia, training as a cadet gunner, but within a month she was thrown out after a shot of hers struck her own sergeant in the barracks at her back. Such accidents went on dogging her whenever she fired a gun, until she came to think she was cursed.",
+          "revealedIn": [{ "book": "tress", "chapter": "63" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Aboard the Crow's Song",
+          "revealedIn": [
+            { "book": "tress", "chapter": "14" },
+            { "book": "tress", "chapter": "17" },
+            { "book": "tress", "chapter": "32" },
+            { "book": "tress", "chapter": "23" },
+            { "book": "tress", "chapter": "39" },
+            { "book": "tress", "chapter": "50" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Ann and Fort were looking over the cannonballs for faults after the Oot's Dream went down. She took the sinking for an accident and was unhappy about it, but reckoned it still beat being conscripted.",
+          "revealedIn": [{ "book": "tress", "chapter": "14" }]
+        },
+        {
+          "text": "Ann told Tress she was assistant cannonmaster as well as carpenter, and how Crow had argued the crew into piracy rather than wait to be dragged into the king's war. She was sorry they had become deadrunners on their very first voyage.",
+          "revealedIn": [{ "book": "tress", "chapter": "17" }]
+        },
+        {
+          "text": "She had signed on as the ship's carpenter to stay out of the king's army, and offered to be assistant cannonmaster when the previous one died.",
+          "revealedIn": [{ "book": "tress", "chapter": "32" }]
+        },
+        {
+          "text": "When a speck of zephyr spore went off in Tress's face, Ann laughed and took her to Ulaam for a salve. When she asked Tress for practice charges, she wilted at the condition that the captain agree, and Fort explained to Tress that Ann's aim was dreadful.",
+          "revealedIn": [{ "book": "tress", "chapter": "23" }]
+        },
+        {
+          "text": "After an enemy shot holed the ship, Crow sent Ann and Tress below to fix it. Ann went to a hidden meeting with Fort and Salay about the captain, doubtful of Salay's idea that Tress was a King's Mask, a secret agent of the king.",
+          "revealedIn": [{ "book": "tress", "chapter": "32" }]
+        },
+        {
+          "text": "On the Crimson Sea, Ann showed Tress how to aim the cannon. When Tress urged her to fire it herself, Ann's shot went far wide of the buoy, yet she was grateful: she had begun to think everyone's fear of her shooting meant she was cursed, when really her aim was just poor. They agreed to practise together every day.",
+          "revealedIn": [{ "book": "tress", "chapter": "39" }]
+        },
+        {
+          "text": "Ann joined the officers in planning a mutiny. When Crow caught them and dared them to shoot Laggart, Ann grabbed a pistol and missed him by half the length of the ship.",
+          "revealedIn": [{ "book": "tress", "chapter": "50" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Toward the Midnight Sea",
+          "revealedIn": [
+            { "book": "tress", "chapter": "54" },
+            { "book": "tress", "chapter": "63" },
+            { "book": "tress", "chapter": "epilogue" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Tress came back from the dragon with a pair of spectacles for Ann. Ann, Fort and Salay then went to Tress with their own ideas for getting past the Sorceress's defences.",
+          "revealedIn": [{ "book": "tress", "chapter": "54" }]
+        },
+        {
+          "text": "At the Sorceress's island, Ann's first spore cannonball at the metal men missed, but with Laggart calling out where to aim, she hit them.",
+          "revealedIn": [{ "book": "tress", "chapter": "63" }]
+        },
+        {
+          "text": "Once Tress was safe, Ann sailed on with her aboard their new ship, the Two Cups.",
+          "revealedIn": [{ "book": "tress", "chapter": "epilogue" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Gangly, with short hair and a nose shaped like a dart. She wears a vest and trousers with three pistols strapped about her, and spectacles after the dragon's gift.",
+      "revealedIn": [{ "book": "tress", "chapter": "53" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Easygoing and kind to Tress. She is mad about guns and cannons for no deeper reason than that she finds them nifty.",
+      "revealedIn": [{ "book": "tress", "chapter": "53" }]
+    }
+  ],
+  "abilities": [
+    {
+      "title": [
+        {
+          "text": "Gunner",
+          "revealedIn": [{ "book": "tress", "chapter": "63" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Her aim was hopeless for years, thanks to a problem with her eyes and the pressure everyone's fear put on her. With spectacles and Laggart's directions, she brought down the metal men guarding the Sorceress's tower.",
+          "revealedIn": [{ "book": "tress", "chapter": "63" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Cooking",
+          "revealedIn": [{ "book": "tress", "chapter": "37" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "A terrible cook: Fort recalls one of her dishes leaving the crew ill for three days.",
+          "revealedIn": [{ "book": "tress", "chapter": "37" }]
+        }
+      ]
+    }
+  ]
+}

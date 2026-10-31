@@ -1,0 +1,53 @@
+{
+  "intro": [
+    {
+      "text": "A smuggler from Elendel's criminal world.",
+      "revealedIn": [{ "book": "shadows-of-self", "chapter": "1" }],
+      "fallback": true
+    },
+    {
+      "text": "A well-known Elendel criminal, long suspected of smuggling ore into the city.",
+      "revealedIn": [{ "book": "shadows-of-self", "chapter": "5" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Winsting's auction",
+          "revealedIn": [
+            { "book": "shadows-of-self", "chapter": "1" },
+            { "book": "shadows-of-self", "chapter": "5" },
+            { "book": "shadows-of-self", "chapter": "9" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Dowser was among the first guests to approach Winsting Innate at the auction of his Senate vote, bringing a tall, slender woman with short golden hair. Winsting took her for a spy, perhaps from the constables, and had her watched. About an hour on, gunfire broke out from several parts of the room, and everyone upstairs died.",
+          "revealedIn": [{ "book": "shadows-of-self", "chapter": "1" }]
+        },
+        {
+          "text": "His reputation had earned him the invitation, since the auction was really a way of passing bribes to Winsting. Dowser perked up when Winsting hinted that his brother, the governor, could be bought as well. His companion asked Winsting some pointed questions.",
+          "revealedIn": [{ "book": "shadows-of-self", "chapter": "5" }]
+        },
+        {
+          "text": "One of Winsting's guards thought Dowser had fired first; another blamed Darm. Wax worked out that Bleeder, a kandra, had used Feruchemical steel to shoot from several spots in quick succession, setting the guests against one another.",
+          "revealedIn": [{ "book": "shadows-of-self", "chapter": "9" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Keeps his bowler hat on and skips shaving even on formal occasions.",
+      "revealedIn": [{ "book": "shadows-of-self", "chapter": "1" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Blunt, crude and devious, and wary of situations he doesn't know.",
+      "revealedIn": [{ "book": "shadows-of-self", "chapter": "1" }]
+    }
+  ]
+}

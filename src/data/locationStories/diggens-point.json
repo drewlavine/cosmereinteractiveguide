@@ -1,0 +1,63 @@
+{
+  "intro": [
+    {
+      "text": "An island near the Verdant Lunagree, called the Rock by its people and ruled by a duke.",
+      "revealedIn": [{ "book": "tress", "chapter": "1" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "The island is almost entirely crumbly black saltstone, shaped like an old man's bent finger reaching up from beneath the sea toward the horizon. It holds a small town and the duke's mansion. Most water is drawn from a deep aquifer, and with no farmland, food has to be grown in compost vats or bought in.",
+      "revealedIn": [{ "book": "tress", "chapter": "1" }]
+    },
+    {
+      "text": "The machines that pump up water from below leave a thick pall of black smoke over the island, heaviest around the duke's mansion near the top. The air is so salty that it kills the spores, which drift about as harmless grey specks.",
+      "revealedIn": [{ "book": "tress", "chapter": "2" }]
+    },
+    {
+      "text": "Islanders are used to salty food and water, even salty tea, and welcome it as a guard against the spores. Food not grown in the compost vats comes by trade from other islands, such as fish from Erik Island.",
+      "revealedIn": [{ "book": "tress", "chapter": "2" }]
+    },
+    {
+      "text": "The duke governs the island for the king, and royal officials such as tax collectors, messengers and cargo inspectors call there. Its salt, which makes spores inert as silver does, is in demand, along with Brick's ale and gull down and feathers, but any sale to a docked ship needs a royal writ of commission.",
+      "revealedIn": [{ "book": "tress", "chapter": "6" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Naming the island",
+          "revealedIn": [{ "book": "tress", "chapter": "1" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "A man named Diggen found the island, which locals simply call the Rock, and gave it his name, which outsiders mostly use. He left soon afterward and never came back.",
+          "revealedIn": [{ "book": "tress", "chapter": "1" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Leaving the island",
+          "revealedIn": [
+            { "book": "tress", "chapter": "6" },
+            { "book": "tress", "chapter": "epilogue" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Because the island was so unpleasant to live on, the king made it illegal for its people to leave, and a cargo inspector posted there checked docked ships for stowaways.",
+          "revealedIn": [{ "book": "tress", "chapter": "6" }]
+        },
+        {
+          "text": "In time the king issued a writ letting the islanders leave. To keep the island from emptying, anyone who stayed and worked there for twenty years was promised a generous payout, which drew so many newcomers that jobs there became harder to get.",
+          "revealedIn": [{ "book": "tress", "chapter": "epilogue" }]
+        }
+      ]
+    }
+  ]
+}

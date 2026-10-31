@@ -1,0 +1,112 @@
+{
+  "intro": [
+    {
+      "text": "A name covering a wide variety of creatures on Roshar rather than one species. It comes from crem, a kind of sediment.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "4" }]
+    },
+    {
+      "text": "Scavenging crustaceans found almost everywhere on Roshar. The name, from crem (a kind of sediment), covers many different creatures rather than a single species.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "41" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "They feed on the flesh and blood of the dead: humans, Parshendi and creatures such as chasmfiends. After a highstorm they also eat plants that open up to drink the rain. Some keep shalebark clean by eating what builds up on it, and take on colors that hide them against it.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "56" }]
+    },
+    {
+      "text": "Most cremlings are tiny, thin and many-legged, with long bodies, claws, a carapace and purple blood. Colors vary by place: reddish and see-through in the Plains chasms, shaded like shalebark's feelers in Kharbranth, many-hued in the Purelake.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "57" }]
+    },
+    {
+      "text": "Cremlings grow from larvae that mature in stagnant pools, and adults burrow into cracks in the rock. Graspers seize them and drag them down into their holes.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "57" }]
+    },
+    {
+      "text": "Some cremlings, called hordelings, are part of Sleepless swarms that share one mind. Each is highly specialized: some act as eyes or ears, others take on skin-like colors so the swarm can pass as a human.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "edgedancer", "chapter": "18" },
+            { "book": "oathbringer", "chapter": "i-4" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Poisonous kinds, such as the listeners' \"sigs cremlings\", warn of it with vivid red claws or bright colors on their backs.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "39" },
+            { "book": "oathbringer", "chapter": "18" },
+            { "book": "rhythm-of-war", "chapter": "62" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Hordelings at war",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "edgedancer", "chapter": "18" },
+                { "book": "oathbringer", "chapter": "42" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "In past Desolations hordelings fought alongside the Knights Radiant. In one of his visions Dalinar sees a burnt heap of them.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "edgedancer", "chapter": "18" },
+                { "book": "oathbringer", "chapter": "42" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "title": "Cremlings and people",
+      "items": [
+        {
+          "text": "\"Cremling\" is one of the most common insults on Roshar.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "6" }]
+        },
+        {
+          "text": "Most people treat cremlings as disgusting pests, and in idioms they usually stand for caution or cowardice.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "6" },
+                { "book": "oathbringer", "chapter": "52" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Some people collect different kinds of cremling, pinning them to boards.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "i-4" }]
+        },
+        {
+          "text": "Cremlings are edible. They are not fine food, but they are plentiful, and a good cook can make a fine dish of them. They are usually boiled and taste somewhat like crab; Horneaters also drink the water they were boiled in.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "68" }]
+        }
+      ],
+      "parts": []
+    }
+  ],
+  "facts": [],
+  "people": []
+}

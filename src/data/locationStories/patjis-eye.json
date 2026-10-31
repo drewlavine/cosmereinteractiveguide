@@ -1,0 +1,69 @@
+{
+  "intro": [
+    {
+      "text": "An emerald-coloured lake in the east of the island of Patji.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "16" }]
+    },
+    {
+      "text": "An emerald-coloured lake in eastern Patji that is also a perpendicularity, a gateway into the Cognitive Realm.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "36" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Glowing worms live in the lake. Birds from across the Pantheon come here to feed on Cakoban's fingers, whose fruit the worms infest, and that is how Aviar gain their talents. No mind can be sensed here, whether or not the right Aviar are present, and the water is only two or three feet deep.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "18" }]
+    },
+    {
+      "text": "The still green lake lies in a large canyon, sometimes called Patji's throat, closed in by sheer cliffs except to the south. There a small stream, strangely icy and known as the Father's tears, flows out into the jungle. The First Company has put a waystation at the head of the canyon, with a small railway running back to the docks.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "61" }]
+    },
+    {
+      "text": "On the Cognitive side the same lake is edged by only a narrow strip of land in the dark unsea. The Eelakin have raised a few small buildings there, including a watchtower, beside old coral-textured stones carved with boats, men and a giant serpent. The Dakwara and its skullsnakes now stay close by to guard the way.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "61" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Ancient crossings",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "52" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Long ago Cakoban led his people through the lake, and they left writings on the rocks beside it. Cakoban then set out again across the unsea with a few others and died on that voyage, though his shipmates made it back.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "52" }]
+        },
+        {
+          "text": "In time the Eelakin forgot what the lake was. Only trappers still knew of it and of how it gave Aviar their talents; each was brought here once his training ended and was not meant to come back often.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "52" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Eelakin exploration",
+          "revealedIn": [
+            { "book": "isles-of-the-emberdark", "chapter": "36" },
+            { "book": "isles-of-the-emberdark", "chapter": "epilogue" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "After the First Company's first expedition to Patji, Vathi found the lake and saw it was why Aviar gain talents. When the Malwish asked about a pool that makes people vanish, Eelakin tried willing themselves to vanish while standing in it and arrived in the Cognitive Realm. They set up an outpost on the far side, learned the talent-giving worms float on the unsea, and made a paste from them to send out an expedition.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "36" }]
+        },
+        {
+          "text": "The first Eelakin expedition was lost, while the Malwish, seeing the Dakwara by Cakoban's tomb, wrongly thought the perpendicularity lay there. Sixth of the Dusk set out on a second voyage and returned nearly two months on with the cargo ship Dynamic. The First Company spent six months training Navigators close to the portal, then opened it to all, boosting trade in this part of the cosmere.",
+          "revealedIn": [
+            { "book": "isles-of-the-emberdark", "chapter": "epilogue" }
+          ]
+        }
+      ]
+    }
+  ]
+}

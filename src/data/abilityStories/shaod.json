@@ -1,0 +1,70 @@
+{
+  "intro": [
+    {
+      "text": "A transformation that turns ordinary people into Elantrians: white-haired, silver-skinned and seeming to shine, quick to heal, and stronger, faster and sharper than others, with access to AonDor.",
+      "revealedIn": [{ "book": "elantris", "chapter": "prologue" }]
+    },
+    {
+      "text": "A transformation that once made people into shining, powerful Elantrians. Since Elantris fell it leaves them grey, blotched and bald, with no heartbeat and wounds that never heal, and those it takes are treated as dead and shut inside Elantris.",
+      "revealedIn": [{ "book": "elantris", "chapter": "1" }]
+    },
+    {
+      "text": "A transformation that makes people into shining, powerful Elantrians. For years after the Reod it stalled halfway, leaving its victims grey and unable to heal, until Raoden fixed the great Aon of Elantris and the Dor could finish the change.",
+      "revealedIn": [{ "book": "elantris", "chapter": "61" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "While the Shaod could not finish, those it took turned grey, marked with dark, sickly blotches, and their hair fell out. Their bodies could no longer heal, so every injury stayed and added to the last.",
+      "revealedIn": [{ "book": "elantris", "chapter": "1" }]
+    },
+    {
+      "text": "It seems to choose at random, taking people of any age or class, though only from Arelon or Teod and now and then Duladel. Living close to Elantris or to Elantrians does not make it more likely.",
+      "revealedIn": [{ "book": "elantris", "chapter": "19" }]
+    },
+    {
+      "text": "Raoden reads of a badly drawn Aon whose effects looked like the post-Reod change, and concludes that the Elantrians' transformation has been stopped partway and held there.",
+      "revealedIn": [{ "book": "elantris", "chapter": "25" }]
+    },
+    {
+      "text": "Its look can be imitated. Hrathen fakes it with a crafted poison, and after five days in Elantris the signs fade.",
+      "revealedIn": [{ "book": "elantris", "chapter": "36" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "After the Reod",
+          "revealedIn": [
+            { "book": "elantris", "chapter": "1" },
+            { "book": "elantris", "chapter": "61" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "After the fall of Elantris, those the Shaod took were treated as dead. When it took Raoden, the crown prince, his father sent him into Elantris with a small funeral offering; there Galladon, a Dula also taken, told him their wounds would never heal because they were dead.",
+          "revealedIn": [{ "book": "elantris", "chapter": "1" }]
+        },
+        {
+          "text": "Being chosen had come to be seen as a curse. The change could not complete because the land had shifted: a chasm now cut across it, so it no longer fitted the great Aon Rao made by the layout of Elantris and the cities around it. When Raoden added a line for the chasm, the Dor finished the transformation and those the Shaod had taken became true Elantrians.",
+          "revealedIn": [{ "book": "elantris", "chapter": "61" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "raoden",
+      "role": "taken",
+      "revealedIn": [{ "book": "elantris", "chapter": "1" }]
+    },
+    {
+      "characterId": "galladon",
+      "role": "taken",
+      "revealedIn": [{ "book": "elantris", "chapter": "1" }]
+    }
+  ]
+}

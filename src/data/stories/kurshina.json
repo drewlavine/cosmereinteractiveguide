@@ -1,0 +1,47 @@
+{
+  "intro": [
+    {
+      "text": "Emperor Ashravan's red-haired wife, killed by Glory Faction assassins in the attack that destroyed her husband's mind.",
+      "revealedIn": [{ "book": "emperors-soul", "chapter": "day-85" }]
+    },
+    {
+      "text": "The late Empress of the Rose Empire, wife of Emperor Ashravan, killed by Glory Faction assassins.",
+      "revealedIn": [{ "book": "emperors-soul", "chapter": "day-98" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Empress",
+          "revealedIn": [
+            { "book": "emperors-soul", "chapter": "day-2" },
+            { "book": "emperors-soul", "chapter": "day-85" },
+            "emperors-soul"
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Glory Faction assassins killed her in the attack that left Ashravan brain-dead. Her death let the arbiters hide his state, claiming he had withdrawn for the traditional hundred days of mourning while Shai worked to Forge him a new mind.",
+          "revealedIn": [{ "book": "emperors-soul", "chapter": "day-2" }]
+        },
+        {
+          "text": "Researching Ashravan's life, Shai found that his first love, a girl from a storybook, had red hair, which she thought drew him to Kurshina. She also learned he had once come close to an affair.",
+          "revealedIn": [{ "book": "emperors-soul", "chapter": "day-85" }]
+        },
+        {
+          "text": "Woken by Shai's stamp, Ashravan remembered her death and showed a flash of deep grief before hiding it, and he vowed to punish her killers.",
+          "revealedIn": ["emperors-soul"]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "She has red hair, and is probably close in age to her husband, who is forty.",
+      "revealedIn": [{ "book": "emperors-soul", "chapter": "day-85" }]
+    }
+  ],
+  "personality": []
+}

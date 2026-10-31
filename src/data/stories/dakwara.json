@@ -1,0 +1,103 @@
+{
+  "intro": [
+    {
+      "text": "A giant serpent of Eelakin legend, which the hero Cakoban outwitted so that it served him and his kin for a century.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "3" }]
+    },
+    {
+      "text": "A colossal serpent guarding an island in the emberdark, which Dusk takes at first sight for the Dakwara of his people's tales.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "37" }],
+      "fallback": true
+    },
+    {
+      "text": "A Threnodite entity of the Drominad subastral, a remnant of the god Ambition, which Eelakin beliefs have shaped into the serpent of their stories.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "54" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "In legend",
+          "revealedIn": [
+            { "book": "isles-of-the-emberdark", "chapter": "3" },
+            { "book": "isles-of-the-emberdark", "chapter": "60" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "In Eelakin legend, Cakoban followed a shooting star to the Dakwara's cave, dazzled it with torchlight and tricked it into knotting its own body. Beaten, it agreed to serve him and guard his family, and his people went on to find Patji's Eye and First of the Sun.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "3" }]
+        },
+        {
+          "text": "No one knows whether the entity gave rise to the legend or whether Eelakin belief made it the Dakwara; Dusk thought Cakoban himself may have shaped it. Ever since their struggle, it had guarded Cakoban's bones on its island.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "60" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The island in Drominad",
+          "revealedIn": [
+            { "book": "isles-of-the-emberdark", "chapter": "39" },
+            { "book": "isles-of-the-emberdark", "chapter": "56" },
+            { "book": "isles-of-the-emberdark", "chapter": "60" },
+            { "book": "isles-of-the-emberdark", "chapter": "epilogue" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "In the Drominad subastral a huge serpent circled an island where the Malwish believed a perpendicularity lay. No Scadrian craft had got by it, since it bit through hulls and every shield they tried. Arriving there, Dusk knew it at once for the Dakwara.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "39" }]
+        },
+        {
+          "text": "It attacked the Malwish camp with hundreds of skullsnakes. Guns tore the snakes apart but could not touch it, and it killed a soldier and shrugged off harpoon ropes. Dusk walked out to face it, saying it despises those who run, and Starling told him it was a remnant of a god, Ambition, destroyed by another, Odium. Even the Intensifier, which Dajer fired at it on both settings, had no effect.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "56" }]
+        },
+        {
+          "text": "With his boat and paddle smeared in worm paste, Dusk challenged it in Cakoban's name and dodged its lunges until he reached the central island, leaving it only his boat to crush, and declared it beaten. Now at his command, it struck Dajer's gunship as it closed on the Dynamic, destroying the front half with Dajer aboard, then caught the back half before it fell into the abyss.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "60" }]
+        },
+        {
+          "text": "By Eelakin legend it must serve whoever bests it, so it was bound to Dusk's will for at least a hundred years. Dusk proudly showed it to Vathi and the Eelakin, set it to guard the Drominad perpendicularity against outsiders like the Malwish, and before leaving with the Dynamic ordered it to serve Vathi and whoever holds her office after her.",
+          "revealedIn": [
+            { "book": "isles-of-the-emberdark", "chapter": "epilogue" }
+          ]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": [],
+  "description": [
+    {
+      "title": [
+        {
+          "text": "Form",
+          "revealedIn": [
+            { "book": "isles-of-the-emberdark", "chapter": "54" },
+            { "book": "isles-of-the-emberdark", "chapter": "52" },
+            { "book": "isles-of-the-emberdark", "chapter": "61" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "A snake more than a hundred feet tall, made almost entirely of anti-Investiture and very hard to hurt with ordinary or Invested weapons. Eelakin belief sets it apart from other entities of its type.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "54" }]
+        },
+        {
+          "text": "Old Eelakin tradition counts it among a class of beings called the daccwaga.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "52" }]
+        },
+        {
+          "text": "It swam in circles in a moat around a ring-shaped island, surrounded by skullsnakes, guarding a cave at the centre. Unlike others of its kind, it moves smoothly, with no afterimages.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "61" }]
+        }
+      ]
+    }
+  ]
+}

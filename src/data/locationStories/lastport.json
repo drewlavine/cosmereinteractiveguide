@@ -1,0 +1,34 @@
+{
+  "intro": [
+    {
+      "text": "A city, one of the Fortress Towns close to the Forests of Hell.",
+      "revealedIn": ["shadows-for-silence"]
+    }
+  ],
+  "description": [
+    {
+      "text": "It is the strongest city on its continent. Being a fort, it is among the few places where people can live without constant dread of shades, and its fashionably dressed residents think of themselves as civilized next to the forest homesteaders.",
+      "revealedIn": ["shadows-for-silence"]
+    },
+    {
+      "text": "Bounties can be claimed there, and silver has been getting more expensive in Lastport as in Bastion Hill. Its elite have grown uneasy that an important waystop in the forest belongs to someone unknown to them.",
+      "revealedIn": ["shadows-for-silence"]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The governor's murder",
+          "revealedIn": ["shadows-for-silence"]
+        }
+      ],
+      "items": [
+        {
+          "text": "A highwayman killed the city's governor. Lastport put a huge price on his head, denouncing him as an anarchist, a psychopath and a menace.",
+          "revealedIn": ["shadows-for-silence"]
+        }
+      ]
+    }
+  ]
+}

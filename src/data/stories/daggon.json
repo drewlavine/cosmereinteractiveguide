@@ -1,0 +1,48 @@
+{
+  "intro": [
+    {
+      "text": "A man of the Forests of Hell on Threnody who trades stories about the bounty hunter called the White Fox for drinks at Silence's waystop.",
+      "revealedIn": [{ "book": "shadows-for-silence", "chapter": "prologue" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "At the waystop",
+          "revealedIn": [
+            { "book": "shadows-for-silence", "chapter": "prologue" },
+            { "book": "shadows-for-silence", "chapter": "epilogue" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "At Silence's waystop he told a traveller stories of the White Fox in return for drinks, then ate his dinner wondering whether he should marry Silence, who he believed was fond of him.",
+          "revealedIn": [
+            { "book": "shadows-for-silence", "chapter": "prologue" }
+          ]
+        },
+        {
+          "text": "He knows how to cross the Forests of Hell safely by keeping to the Simple Rules, and sometimes makes the trip to Lastport.",
+          "revealedIn": [
+            { "book": "shadows-for-silence", "chapter": "epilogue" }
+          ]
+        },
+        {
+          "text": "He finally made up his mind to court Silence, only to learn she had several suitors since collecting the bounty on Chesterton Divide. With the White Fox's tale seemingly over, he turned to stories of Bloody Kent.",
+          "revealedIn": [
+            { "book": "shadows-for-silence", "chapter": "epilogue" }
+          ]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": [
+    {
+      "text": "Friendly and perceptive, he tells stories shrewdly enough that the merchants usually end up buying all his beer. He believes in the God Beyond.",
+      "revealedIn": [{ "book": "shadows-for-silence", "chapter": "epilogue" }]
+    }
+  ]
+}

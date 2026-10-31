@@ -1,0 +1,43 @@
+{
+  "intro": [
+    {
+      "text": "The stable hand at Silence's waystop, whom she sends off on his break so she can water the guests' horses herself.",
+      "revealedIn": [{ "book": "shadows-for-silence", "chapter": "1" }],
+      "fallback": true
+    },
+    {
+      "text": "An elderly and loyal stable hand who has worked at Silence's waystop, deep in Threnody's Forests of Hell, since before her husband died.",
+      "revealedIn": ["shadows-for-silence"]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Stable hand",
+          "revealedIn": [
+            "shadows-for-silence",
+            { "book": "shadows-for-silence", "chapter": "5" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "He tends the guests' horses and sleeps in the stable with them. He has standing orders to water them last, in case Silence wants to dose their water with wetleek sap to track a bounty.",
+          "revealedIn": ["shadows-for-silence"]
+        },
+        {
+          "text": "When Silence staggered home, he covered her in silver powder and undid the withering. His questions about her night showed he had known all along that she was the White Fox.",
+          "revealedIn": [{ "book": "shadows-for-silence", "chapter": "5" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": [
+    {
+      "text": "Loyal, if not especially bright, he likes to smoke his pipe on the porch once his chores are done.",
+      "revealedIn": ["shadows-for-silence"]
+    }
+  ]
+}

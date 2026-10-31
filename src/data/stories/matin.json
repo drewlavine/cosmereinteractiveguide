@@ -1,0 +1,58 @@
+{
+  "intro": [
+    {
+      "text": "The reeve of Rivershore. In the life December remembers, he is a widower whom she marries for convenience and comes to love.",
+      "revealedIn": [{ "book": "fires-of-december", "chapter": "i" }],
+      "fallback": true
+    },
+    {
+      "text": "The reeve of Rivershore, who gives December a letter of introduction to the king and the reward for a silver vein she finds.",
+      "revealedIn": [{ "book": "fires-of-december", "chapter": "ii" }],
+      "fallback": true
+    },
+    {
+      "text": "The reeve of Rivershore, married to Rema with three sons, who becomes the kingdom's Minister of Finance.",
+      "revealedIn": [{ "book": "fires-of-december", "chapter": "epilogue" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Reeve of Rivershore",
+          "revealedIn": [
+            { "book": "fires-of-december", "chapter": "i" },
+            { "book": "fires-of-december", "chapter": "ii" },
+            { "book": "fires-of-december", "chapter": "epilogue" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "In the life December remembers, the widowed reeve accepted her proposal of a marriage of convenience. In time they came to love each other, and she grew devoted to his children and grandchildren.",
+          "revealedIn": [{ "book": "fires-of-december", "chapter": "i" }]
+        },
+        {
+          "text": "Back at twenty-one, December saved his wife from choking and exposed Bark as a murderer. At her request Matin wrote her a letter of introduction to the king and paid her the reward for the silver vein.",
+          "revealedIn": [{ "book": "fires-of-december", "chapter": "ii" }]
+        },
+        {
+          "text": "Once the danger in Kingseat had passed, he was made Minister of Finance under the new king.",
+          "revealedIn": [{ "book": "fires-of-december", "chapter": "epilogue" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Wears glasses and usually a suit.",
+      "revealedIn": [{ "book": "fires-of-december", "chapter": "xli" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "The one man in Rivershore unafraid of Bark, whom he dislikes. As reeve he collects taxes, keeps records and judges serious crimes, and takes no pleasure in the punishments his duty demands.",
+      "revealedIn": [{ "book": "fires-of-december", "chapter": "v" }]
+    }
+  ]
+}

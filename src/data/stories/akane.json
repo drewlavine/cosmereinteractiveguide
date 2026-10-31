@@ -1,0 +1,181 @@
+{
+  "intro": [
+    {
+      "text": "A nightmare painter in Kilahito who works the same schedule as her fellow painter Tojin.",
+      "revealedIn": [{ "book": "yumi", "chapter": "1" }],
+      "fallback": true
+    },
+    {
+      "text": "A nightmare painter in Kilahito who lives in the apartment across the hall from Nikaro.",
+      "revealedIn": [{ "book": "yumi", "chapter": "11" }]
+    },
+    {
+      "text": "A nightmare painter in Kilahito and Nikaro's neighbour across the hall, who befriends Yumi and draws her into her circle of friends.",
+      "revealedIn": [{ "book": "yumi", "chapter": "21" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Upper school",
+          "revealedIn": [{ "book": "yumi", "chapter": "27" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Akane trained as a nightmare painter at upper school, where she was the heart of a group of friends with Nikaro, Tojin, Masaka and Izzy. They all believed Nikaro had a place in the Dreamwatch and would take them as his companions; learning he had lied broke the friendship, though Akane stayed civil to him. After graduating she patrolled with Tojin.",
+          "revealedIn": [{ "book": "yumi", "chapter": "27" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Befriending Yumi",
+          "revealedIn": [
+            { "book": "yumi", "chapter": "11" },
+            { "book": "yumi", "chapter": "15" },
+            { "book": "yumi", "chapter": "16" },
+            { "book": "yumi", "chapter": "21" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Akane first met Yumi in the hallway outside Nikaro's apartment. Told that Yumi was his sister, she walked off in disgust when Yumi took her for one of his concubines.",
+          "revealedIn": [{ "book": "yumi", "chapter": "11" }]
+        },
+        {
+          "text": "Running into Yumi again, Akane offered to help and took her shopping. She helped her pick out several outfits, paid on the understanding that Nikaro would repay her, and invited her to lunch with friends.",
+          "revealedIn": [{ "book": "yumi", "chapter": "15" }]
+        },
+        {
+          "text": "At the Noodle Pupil, Akane introduced Yumi to Tojin, Masaka and Izzy as Nikaro's sister.",
+          "revealedIn": [{ "book": "yumi", "chapter": "16" }]
+        },
+        {
+          "text": "When Yumi kept turning down invitations, claiming she was busy studying for exams, Akane rounded up the group to stage an intervention and bring her to dinner, where she kept attention on the others to put Yumi at ease.",
+          "revealedIn": [{ "book": "yumi", "chapter": "21" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The stable nightmare",
+          "revealedIn": [
+            { "book": "yumi", "chapter": "26" },
+            { "book": "yumi", "chapter": "30" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Akane and Tojin found Yumi doing Nikaro's job while he was on leave. They took her to the Noodle Pupil, where the friends told her that Nikaro was a liar.",
+          "revealedIn": [{ "book": "yumi", "chapter": "26" }]
+        },
+        {
+          "text": "Suspecting Yumi would go out again, Akane and Tojin trailed her and found her after the stable nightmare struck. When it came at them and Tojin fell, Akane tried to haul him up, but Nikaro drove the creature off first. Back at the Noodle Pupil, Akane stayed with Yumi while she recovered.",
+          "revealedIn": [{ "book": "yumi", "chapter": "30" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Yumi's goodbye",
+          "revealedIn": [
+            { "book": "yumi", "chapter": "33" },
+            { "book": "yumi", "chapter": "35" },
+            { "book": "yumi", "chapter": "39" },
+            { "book": "yumi", "chapter": "40" },
+            { "book": "yumi", "chapter": "epilogue" }
+          ]
+        },
+        {
+          "text": "Defending Kilahito",
+          "revealedIn": [{ "book": "yumi", "chapter": "39" }],
+          "fallback": true
+        }
+      ],
+      "items": [
+        {
+          "text": "Yumi came to the friends to say goodbye and rebuked them for the way they had treated Nikaro. They were not wholly convinced, but her words gave them pause.",
+          "revealedIn": [{ "book": "yumi", "chapter": "33" }]
+        },
+        {
+          "text": "Akane came across Nikaro by the shroud and asked after Yumi, but he could not explain and ran off.",
+          "revealedIn": [{ "book": "yumi", "chapter": "35" }]
+        },
+        {
+          "text": "When Nikaro apologised to his old friends and asked for help against a coming attack, Akane pointed out that their group alone would not be enough, and they listed other painters to ask.",
+          "revealedIn": [{ "book": "yumi", "chapter": "39" }]
+        },
+        {
+          "text": "As the painters waited at the city's edge, Akane asked after Yumi and urged Nikaro to face the chance that he had imagined the threat; he agreed to get help if no nightmares came. Then the attack began.",
+          "revealedIn": [{ "book": "yumi", "chapter": "40" }]
+        },
+        {
+          "text": "Akane fought in the Battle of Kilahito. Afterwards, Nikaro used her ink in helping to bring Yumi back.",
+          "revealedIn": [{ "book": "yumi", "chapter": "epilogue" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "A striking woman of about twenty with glossy black hair. Off duty she dresses fashionably in skirts and blouses and wears makeup; Nikaro finds her work clothes plainer.",
+      "revealedIn": [{ "book": "yumi", "chapter": "16" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Akane is warm and has a gift for making friends and bringing different people together so they feel comfortable. Yumi thinks of her as tender and helpful for the care she took over Yumi's clothes.",
+      "revealedIn": [{ "book": "yumi", "chapter": "30" }]
+    }
+  ],
+  "description": [
+    {
+      "title": [
+        {
+          "text": "Capstone painting",
+          "revealedIn": [{ "book": "yumi", "chapter": "3" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Akane's capstone painting, a large flower, covers the outside wall of a windowless building in Kilahito.",
+          "revealedIn": [{ "book": "yumi", "chapter": "3" }]
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "title": [
+        { "text": "Tojin", "revealedIn": [{ "book": "yumi", "chapter": "21" }] }
+      ],
+      "items": [
+        {
+          "text": "Akane and Tojin are close friends who usually partner on their rounds. Their friends don't see them as a couple, but Yumi notices that Akane seems attracted to him.",
+          "revealedIn": [{ "book": "yumi", "chapter": "21" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Nikaro",
+          "revealedIn": [{ "book": "yumi", "chapter": "27" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Nikaro's Dreamwatch lie badly hurt their friendship, yet Akane kept trying to stay on good terms with him. His odd behaviour while bonded to Yumi caused further misunderstandings, and though he is attracted to her, she shows no sign of feeling the same.",
+          "revealedIn": [{ "book": "yumi", "chapter": "27" }]
+        }
+      ]
+    }
+  ]
+}

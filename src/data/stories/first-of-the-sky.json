@@ -1,0 +1,38 @@
+{
+  "intro": [
+    {
+      "text": "Sky, an older Eelakin trapper of Patji known to Dusk, whose remains Dusk and Vathi come upon in the jungle.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "14" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Trapper of Patji",
+          "revealedIn": [
+            { "book": "isles-of-the-emberdark", "chapter": "14" },
+            { "book": "isles-of-the-emberdark", "chapter": "16" },
+            { "book": "isles-of-the-emberdark", "chapter": "50" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Sky made his living trapping Aviar on Patji and, like other trappers, kept a notebook of his work, his safecamps and their traps. A tuskrun pack, drawn off its usual paths by Cakoban's fingers in bloom, caught him unawares, and within days the jungle had left little more than bones.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "14" }]
+        },
+        {
+          "text": "Dusk thought his death terribly unlucky. On the notebook's last page, Sky said goodbye, mentioned a brother on Suluko, and asked whoever found him to keep to tradition and care for his Aviar. When Dusk feared he and Vathi might have to separate, he gave her Sky's notebook and his own to keep safe.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "16" }]
+        },
+        {
+          "text": "Dusk gave Vathi his own medallion and kept Sky's.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "50" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

@@ -1,0 +1,49 @@
+{
+  "intro": [
+    {
+      "text": "The agency that employs Kilahito's painters, hundreds of them in that city alone. Foreman Sukishi has his office at its Kilahito headquarters.",
+      "revealedIn": [{ "book": "yumi", "chapter": "14" }]
+    },
+    {
+      "text": "The government agency of Nagadan charged with protecting the public from nightmares, through its painters and the Dreamwatch.",
+      "revealedIn": [{ "book": "yumi", "chapter": "21" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Painters are grouped into departments, each with its own shift. A foreman runs the painters of each area: he records the nightmares they meet, disciplines those who neglect their duties and calls in the Dreamwatch.",
+      "revealedIn": [{ "book": "yumi", "chapter": "21" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Disbanding",
+          "revealedIn": [{ "book": "yumi", "chapter": "another-epilogue" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Once the nightmares stopped coming, the Nightmare Division was disbanded, and the Dreamwatch with it.",
+          "revealedIn": [{ "book": "yumi", "chapter": "another-epilogue" }]
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Headquarters",
+      "name": "Kilahito",
+      "placeId": "kilahito",
+      "revealedIn": [{ "book": "yumi", "chapter": "14" }]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "sukishi",
+      "role": "foreman",
+      "revealedIn": [{ "book": "yumi", "chapter": "14" }]
+    }
+  ]
+}

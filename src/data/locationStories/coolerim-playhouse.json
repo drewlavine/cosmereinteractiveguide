@@ -1,0 +1,30 @@
+{
+  "intro": [
+    {
+      "text": "A popular theater in Elendel.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "2" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Lady Steris Harms counted it among her favorite places to watch a play.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "2" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "A raid during a show",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "2" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "The Vanishers struck the Coolerim in the middle of a performance, robbing the audience and carrying off several people, among them Lady Armal, a cousin of Steris.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "2" }]
+        }
+      ]
+    }
+  ]
+}

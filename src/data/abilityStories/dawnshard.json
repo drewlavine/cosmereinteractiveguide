@@ -179,6 +179,29 @@
       ]
     }
   ],
+  "mechanics": [
+    {
+      "title": [
+        {
+          "text": "Bearers and attraction",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "146" },
+            { "book": "wind-and-truth", "chapter": "i-15" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "A Dawnshard can be drawn to a particular person.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "146" }]
+        },
+        {
+          "text": "Hoid gave up his Dawnshard centuries before secretly reclaiming it. Its lasting effects helped him conceal that he held it again.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "i-15" }]
+        }
+      ]
+    }
+  ],
   "facts": [
     {
       "label": "Commands of",

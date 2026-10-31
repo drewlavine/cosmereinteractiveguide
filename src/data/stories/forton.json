@@ -1,0 +1,52 @@
+{
+  "intro": [
+    {
+      "text": "A highly skilled apothecary from Hrovell, whom the gyorn Hrathen contacts by seon whenever he needs a potion made.",
+      "revealedIn": [{ "book": "elantris", "chapter": "18" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Hrathen's apothecary",
+          "revealedIn": [
+            { "book": "elantris", "chapter": "45" },
+            { "book": "elantris", "chapter": "18" },
+            { "book": "elantris", "chapter": "27" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Years earlier, Forton had cured Hrathen of a poison that nobody else could counter. Since then Hrathen had ordered potions and antidotes from him by seon, valuing him too much to mind that he was a heathen.",
+          "revealedIn": [{ "book": "elantris", "chapter": "45" }]
+        },
+        {
+          "text": "Reaching Forton through his seon, Hrathen asked him to brew a special elixir and send it to Arelon as fast as possible.",
+          "revealedIn": [{ "book": "elantris", "chapter": "18" }]
+        },
+        {
+          "text": "When Forton's package of vials arrived in Kae, Hrathen, who had meant them for Dilaf, swallowed them himself instead.",
+          "revealedIn": [{ "book": "elantris", "chapter": "27" }]
+        },
+        {
+          "text": "Forton's potion made whoever took it look as if the Shaod had taken them. Hrathen used it on himself and on Sarene to stage miraculous healings and gain a hold over King Eventeo. It did exactly what he had asked for, though its effects lasted a little longer than Hrathen expected.",
+          "revealedIn": [{ "book": "elantris", "chapter": "45" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "A mouse-faced man with big ears and a persistent cough, who likes to smoke. He speaks the thick, harsh Fjordell dialect of Hrovell.",
+      "revealedIn": [{ "book": "elantris", "chapter": "18" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Thoroughly content with life, thanks partly to what he smokes. A follower of the Jeskeri Mysteries and something of a mystic at home, he still claims to be firmly Derethi; his grasp of doctrine is good but patchy, and Hrathen sees the piety as a show.",
+      "revealedIn": [{ "book": "elantris", "chapter": "18" }]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "intro": [
+    {
+      "text": "A settlement on a Sea of Souls peninsula in Shadesmar, with Perpetual Sobriety to its north and the Azimir Oathgate to its west.",
+      "revealedIn": [{ "all": ["oathbringer", "rhythm-of-war"] }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Its peninsula is the river between Azir and Emul in the Physical Realm.",
+      "revealedIn": [{ "all": ["oathbringer", "rhythm-of-war"] }]
+    },
+    {
+      "text": "A note on the map remarks that its name must date back a thousand years.",
+      "revealedIn": ["rhythm-of-war"]
+    }
+  ],
+  "history": []
+}

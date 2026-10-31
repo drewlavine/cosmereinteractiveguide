@@ -115,6 +115,35 @@
       ]
     }
   ],
+  "sections": [
+    {
+      "title": "The contest",
+      "items": [],
+      "parts": [
+        {
+          "title": [
+            {
+              "text": "The Kholin family",
+              "revealedIn": [
+                { "book": "wind-and-truth", "chapter": "136" },
+                { "book": "wind-and-truth", "chapter": "145" }
+              ]
+            }
+          ],
+          "items": [
+            {
+              "text": "Odium made Gavinor his champion after keeping him in the Spiritual Realm and turning him against Dalinar.",
+              "revealedIn": [{ "book": "wind-and-truth", "chapter": "136" }]
+            },
+            {
+              "text": "Dalinar briefly took up Honor, then relinquished it. Taravangian claimed the power and killed him.",
+              "revealedIn": [{ "book": "wind-and-truth", "chapter": "145" }]
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "facts": [],
   "people": [
     {

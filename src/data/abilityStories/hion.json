@@ -1,0 +1,130 @@
+{
+  "intro": [
+    {
+      "text": "Lines that run through the air above the streets of the city of Kilahito.",
+      "revealedIn": [{ "book": "yumi", "chapter": "1" }]
+    },
+    {
+      "text": "Lines of power that hang above city streets and hold back the shroud. They can be grown and extended, and when two are joined across a piece of metal they give heat and light. They also run hion viewers.",
+      "revealedIn": [{ "book": "yumi", "chapter": "21" }]
+    },
+    {
+      "text": "Lines of power that hold back the shroud and run nearly all technology. They first rose from the ground after scholars of the Institute of Mechanical Solutions built a machine that drew on the spirits to power Torio.",
+      "revealedIn": [{ "book": "yumi", "chapter": "39" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Main lines a few inches across float about twenty feet above every major street, while thin branches wind down side streets and through poorer districts.",
+      "revealedIn": [{ "book": "yumi", "chapter": "21" }]
+    },
+    {
+      "text": "Lines range from wire-thin to as thick as a wrist. They rise from stubs in the ground and branch through the air with nothing holding them up, humming softly in vivid cyan and magenta. Touching one is an overwhelming, electric jolt.",
+      "revealedIn": [{ "book": "yumi", "chapter": "39" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Beginnings",
+          "revealedIn": [{ "book": "yumi", "chapter": "39" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Scholars of the Institute of Mechanical Solutions first conceived of hion, and their machine tapped the hijo so that Torio would have power. Whatever else came of it, the machine did produce hion: stubs of it rose as bright lights from the ground around Torio, the only places within the shroud where plants could grow.",
+          "revealedIn": [{ "book": "yumi", "chapter": "39" }]
+        },
+        {
+          "text": "People settled at these spots and learned to grow and branch the lines. Because hion holds back the shroud, it became the base of all infrastructure, and over the next seventeen centuries hion technology advanced a great deal.",
+          "revealedIn": [{ "book": "yumi", "chapter": "39" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "After the machine",
+          "revealedIn": [{ "book": "yumi", "chapter": "another-epilogue" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Once the machine was gone, the hijo kept supplying the hion lines, now by choice, in return for viewer dramas.",
+          "revealedIn": [{ "book": "yumi", "chapter": "another-epilogue" }]
+        }
+      ]
+    }
+  ],
+  "mechanics": [
+    {
+      "title": [
+        {
+          "text": "Uses",
+          "revealedIn": [
+            { "book": "yumi", "chapter": "21" },
+            { "book": "yumi", "chapter": "19" },
+            { "book": "yumi", "chapter": "25" },
+            { "book": "yumi", "chapter": "another-epilogue" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Lines can be grown and extended, letting cities push out into the shroud or join up with one another. They are shaped into street and shop signs, bring power into homes and help crops grow on farms.",
+          "revealedIn": [{ "book": "yumi", "chapter": "21" }]
+        },
+        {
+          "text": "The simplest use is to join two lines across a piece of metal, which heats up. This warms rooms and can easily give light as well. Telephones send signals along hion lines, though they cost a great deal.",
+          "revealedIn": [{ "book": "yumi", "chapter": "19" }]
+        },
+        {
+          "text": "Hion viewers show moving pictures with one fine line of each colour behind glass, bending and twisting into images detailed enough to show eyelashes. A knob controls the set.",
+          "revealedIn": [{ "book": "yumi", "chapter": "25" }]
+        },
+        {
+          "text": "Characters in the drama Seasons of Regret talk of a hion blade.",
+          "revealedIn": [{ "book": "yumi", "chapter": "25" }]
+        },
+        {
+          "text": "Trains, buses, trolleys and boats all run on hion. Nagadan's space bus travels by quickly stretching a movable hion line out in the direction it means to go.",
+          "revealedIn": [{ "book": "yumi", "chapter": "another-epilogue" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Source",
+          "revealedIn": [{ "book": "yumi", "chapter": "another-epilogue" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Hion is a form of Investiture provided by the spirits, the hijo. For most of history the father machine directed this, though the hijo can also give hion directly and of their own accord.",
+          "revealedIn": [{ "book": "yumi", "chapter": "another-epilogue" }]
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Colours",
+      "name": "Cyan and magenta",
+      "revealedIn": [{ "book": "yumi", "chapter": "39" }]
+    },
+    {
+      "label": "Holds back",
+      "name": "The shroud",
+      "revealedIn": [{ "book": "yumi", "chapter": "21" }]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "nikaro",
+      "role": "heats rooms",
+      "revealedIn": [{ "book": "yumi", "chapter": "19" }]
+    }
+  ]
+}

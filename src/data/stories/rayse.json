@@ -44,6 +44,51 @@
     {
       "title": [
         {
+          "text": "Ashyn and Roshar",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "62" },
+            { "book": "wind-and-truth", "chapter": "107" },
+            { "book": "wind-and-truth", "chapter": "113" },
+            { "book": "wind-and-truth", "chapter": "120" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Rayse introduced himself as Passion to the people of Ashyn.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "62" }]
+        },
+        {
+          "text": "Odium and Honor empowered opposing human factions. Their escalating conflict devastated Ashyn's surface, and the surviving humans fled to Roshar.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "107" }]
+        },
+        {
+          "text": "To avoid another destructive battle between Shards, Rayse accepted an agreement with Honor and Cultivation that bound all three to the Rosharan system.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "113" }]
+        },
+        {
+          "text": "Odium created the Unmade as part of his struggle against Honor and the Heralds.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "120" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The False Desolation",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "122" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "When Ba-Ado-Mishram absorbed his perpendicularity and protected herself from him, Rayse made a new bargain with Honor: Honor would stop Mishram, and their dispute would be settled by champions rather than a direct attack.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "122" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
           "text": "The death of Honor",
           "revealedIn": [
             {

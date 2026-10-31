@@ -1,0 +1,16 @@
+{
+  "intro": [
+    {
+      "text": "A place on Roshar whose people ride greatshells.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "36" }]
+    },
+    {
+      "text": "The largest of the Reshi Isles, whose people ride greatshells.",
+      "revealedIn": [
+        { "all": [{ "book": "way-of-kings", "chapter": "36" }, "oathbringer"] }
+      ]
+    }
+  ],
+  "description": [],
+  "history": []
+}

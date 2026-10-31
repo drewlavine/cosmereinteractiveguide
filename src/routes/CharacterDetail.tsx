@@ -500,22 +500,14 @@ export function CharacterDetail() {
       {shown.personas.map(({ name, books }) => (
         <p key={name} className="character-persona">
           Known as <strong>{name}</strong> in{' '}
-          {[
-            ...new Set(
-              books.map((b) => {
-                const series = seriesOf(b)
-                // A standalone is named by its own title, not "Standalones".
-                return series?.id === 'standalones'
-                  ? (findBook(b)?.title ?? b)
-                  : (series?.name ?? b)
-              }),
+          {[...new Set(books.map((b) => seriesOf(b)?.name ?? b))].map(
+            (series, i) => (
+              <span key={series}>
+                {i > 0 && ', '}
+                <cite>{series}</cite>
+              </span>
             ),
-          ].map((series, i) => (
-            <span key={series}>
-              {i > 0 && ', '}
-              <cite>{series}</cite>
-            </span>
-          ))}
+          )}
         </p>
       ))}
       {shown.aliases.length > 0 && (

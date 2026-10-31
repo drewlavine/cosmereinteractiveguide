@@ -1,0 +1,73 @@
+{
+  "intro": [
+    {
+      "text": "The Terris vice governor of Elendel, serving under Governor Varlance.",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "2" }]
+    },
+    {
+      "text": "A Terris Sparker who was vice governor of Elendel under Varlance until he dismissed her once the Set's attack on the city was over.",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "epilogue-2" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Vice governor of Elendel",
+          "revealedIn": [
+            { "book": "lost-metal", "chapter": "31" },
+            { "book": "lost-metal", "chapter": "38" },
+            { "book": "lost-metal", "chapter": "48" },
+            { "book": "lost-metal", "chapter": "epilogue-2" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Told by Steris of a bomb threat against Elendel, Adawathwyn set up a council to look into it while working to keep House Ladrian off it. Its only members were three senators: Lord Cett, Lady Hammondess and Lady Gardre.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "31" }]
+        },
+        {
+          "text": "Adawathwyn was displeased when Constable-General Reddi brought Steris to the council regardless, as a paid expert. When the council settled on war over Reddi's objections, she planned a draft to compel the constables. Steris judged that her moves helped the Set, which she thought quietly encouraged her without directly controlling her.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "38" }]
+        },
+        {
+          "text": "Once TenSoon revealed himself, the council accepted Steris's warnings, and Adawathwyn hoped to use the Bands of Mourning to deal with the bomb safely. She put them on only to find them drained, and with the city's ruin seemingly certain she fled with the other council senators, leaving Steris and Varlance to run the evacuation.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "48" }]
+        },
+        {
+          "text": "After the crisis had passed, Governor Varlance dismissed her.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "epilogue-2" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Adawathwyn has curly brown hair and dark brown eyes.",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "38" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "She seems at first glance to be a mere token voice for the Terris, but for most of his term Governor Varlance is under her thumb: he leans on her for nearly everything, and she often steers him on major decisions.",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "38" }]
+    }
+  ],
+  "abilities": [
+    {
+      "title": [
+        {
+          "text": "Feruchemy",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "48" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Adawathwyn is a Sparker, a Terris Feruchemist whose metal is zinc.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "48" }]
+        }
+      ]
+    }
+  ]
+}

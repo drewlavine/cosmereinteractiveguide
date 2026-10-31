@@ -1,0 +1,43 @@
+{
+  "intro": [
+    {
+      "text": "A common poison in the Final Empire.",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "1" }]
+    }
+  ],
+  "description": [],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "An attempt on Straff",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "18" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "A serving girl tries to poison Straff Venture with birchbane. Straff suspects Zane is behind it, and Amaranta is called in to make an antidote.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "18" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "straff-venture",
+      "role": "target",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "18" }]
+    },
+    {
+      "characterId": "amaranta",
+      "role": "antidote maker",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "18" }]
+    },
+    {
+      "characterId": "zane-venture",
+      "role": "suspected poisoner",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "18" }]
+    }
+  ]
+}

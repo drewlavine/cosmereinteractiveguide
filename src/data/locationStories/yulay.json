@@ -1,0 +1,42 @@
+{
+  "intro": [
+    {
+      "text": "One of the Selay lands of Roshar, which Sigzil told Bridge Four stories about.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "43" }]
+    },
+    {
+      "text": "A Selay land of Roshar that was part of Sela Tales in the time of the Silver Kingdoms.",
+      "revealedIn": ["way-of-kings"]
+    },
+    {
+      "text": "A nation near the Purelake that was part of Sela Tales in the time of the Silver Kingdoms.",
+      "revealedIn": [{ "all": ["way-of-kings", "oathbringer"] }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Most of Yulay is a thin band of land running between the Purelake's southern shore and the mountains. Tu Bayla lies to its east and Babatharnam to its west. Mountains form much of its southern border with Azir, except for one wide pass where the border towns of Benru and Berqq stand.",
+      "revealedIn": [{ "all": ["oathbringer", "rhythm-of-war"] }]
+    },
+    {
+      "text": "Yian Dion, Domistar and Uarr Dion lie on its stretch of the Purelake shore.",
+      "revealedIn": ["rhythm-of-war"]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "After the Recreance",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "43" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Some while after the Recreance, the Knights Radiant became a topic of talk in Yulay, where people hoped for their return.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "43" }]
+        }
+      ]
+    }
+  ]
+}

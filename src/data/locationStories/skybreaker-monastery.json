@@ -1,0 +1,37 @@
+{
+  "intro": [
+    {
+      "text": "A monastery in eastern Shinovar at the foot of the Misted Mountains.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "108" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "The surrounding town occupies a ridge above barren ground. The monastery's walls survive, but its roof and chimney are damaged.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "108" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The return to Shinovar",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "108" },
+            { "book": "wind-and-truth", "chapter": "110" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Nin waited at the monastery and demanded Szeth's obedience. Szeth refused both the oath and the fight Nin offered instead.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "108" }]
+        },
+        {
+          "text": "Kaladin fought in Szeth's place. His retelling of the Wandersail story reached Nin, who confronted his responsibility for the acts he had committed in the name of law.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "110" }]
+        }
+      ]
+    }
+  ]
+}

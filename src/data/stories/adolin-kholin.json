@@ -368,13 +368,45 @@
       "title": [
         {
           "text": "The defense of Azimir",
-          "revealedIn": [{ "book": "wind-and-truth", "chapter": "85" }]
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "34" },
+            { "book": "wind-and-truth", "chapter": "85" },
+            { "book": "wind-and-truth", "chapter": "123" },
+            { "book": "wind-and-truth", "chapter": "130" },
+            { "book": "wind-and-truth", "chapter": "135" },
+            { "book": "wind-and-truth", "chapter": "136" },
+            { "book": "wind-and-truth", "chapter": "147" }
+          ]
         }
       ],
       "items": [
         {
+          "text": "Adolin brought the Cobalt Guard to defend Azimir's Oathgate and worked with the Imperial Guard to prepare for the approaching army. He and Maya could now communicate mentally.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "34" }]
+        },
+        {
           "text": "During the Battle of Azimir, Adolin lost his right leg below the knee.",
           "revealedIn": [{ "book": "wind-and-truth", "chapter": "85" }]
+        },
+        {
+          "text": "Despite his injury, Adolin served alongside ordinary soldiers in the pike line and refused to use his rank to avoid his turn.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "123" }]
+        },
+        {
+          "text": "Adolin entered the palace with Yanagawn's group but was trapped alone with Abidi, who wore Adolin's stolen Plate. Unable to summon Maya through the room's aluminum lining, Adolin used an aluminum candelabra and his training to survive.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "130" }]
+        },
+        {
+          "text": "Maya returned with deadeyes willing to fight. Adolin asked them to arm his companions and named the group the Unoathed.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "135" }]
+        },
+        {
+          "text": "The Unoathed held the throne room until the contest began, securing Azir's independence from Odium under the agreement.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "136" }]
+        },
+        {
+          "text": "After Stormfall, Adolin and the Unoathed still had their Blades and Plate. Maya brought news from Urithiru, while Adolin remained separated from Shallan in Shadesmar.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "147" }]
         }
       ]
     }

@@ -1,0 +1,79 @@
+{
+  "intro": [
+    {
+      "text": "A veteran soldier of Count Eondel's legion, newly thrown into Elantris, who pledges his sword to Raoden after Raoden leads him safely away from the gate.",
+      "revealedIn": [{ "book": "elantris", "chapter": "10" }]
+    },
+    {
+      "text": "A veteran soldier of Count Eondel's legion who captains the guard of Raoden's settlement in Elantris.",
+      "revealedIn": [{ "book": "elantris", "chapter": "19" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "New Elantris",
+          "revealedIn": [
+            { "book": "elantris", "chapter": "10" },
+            { "book": "elantris", "chapter": "19" },
+            { "book": "elantris", "chapter": "22" },
+            { "book": "elantris", "chapter": "28" },
+            { "book": "elantris", "chapter": "31" },
+            { "book": "elantris", "chapter": "epilogue" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "A soldier in Count Eondel's legion, Saolin was taken by the Shaod shortly after Raoden and thrown into Elantris with Maare and Riil. Raoden sent Galladon running off, claiming he had a cure, to lure Shaor's gang away, and guided the three to safety. Realizing he had been rescued, and hearing Raoden praise Eondel, Saolin swore his sword to him.",
+          "revealedIn": [{ "book": "elantris", "chapter": "10" }]
+        },
+        {
+          "text": "Saolin guarded the chapel the group used as its base, building a rough watchtower, and Raoden brought him a real sword from outside the city in place of his makeshift spear. As the group grew he formed a squad, became its captain and insisted on an honour guard for Raoden. When Shaor's men attacked by surprise he kept Raoden safe until Dashe and three others joined him, and they beat the larger force.",
+          "revealedIn": [{ "book": "elantris", "chapter": "19" }]
+        },
+        {
+          "text": "Once New Elantris was marked out, with sentries at every crossing, Saolin shared with Karata the job of bringing new arrivals from the gate to the settlement. He also taught simple self-defence, using only the gentlest drills so nobody would be hurt.",
+          "revealedIn": [{ "book": "elantris", "chapter": "22" }]
+        },
+        {
+          "text": "Saolin took a serious wound to his arm fighting Shaor's gang, which was now better armed and fighting more cleverly. With his men being worn down, he proposed a trap to wipe out Shaor's followers, and Raoden let him try. It failed, and Raoden found Saolin badly wounded, lost to his pain.",
+          "revealedIn": [{ "book": "elantris", "chapter": "28" }]
+        },
+        {
+          "text": "As a Hoed, Saolin believed he had failed, though no one could have held off every threat. After three days of his suffering, Raoden and Galladon carried him to the pool to release him.",
+          "revealedIn": [{ "book": "elantris", "chapter": "31" }]
+        },
+        {
+          "text": "Once Elantris was restored, Raoden had a gravestone set up for Saolin, though his body had dissolved, in a place of honour beside Karata, Eondel, Roial and Hrathen.",
+          "revealedIn": [{ "book": "elantris", "chapter": "epilogue" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Saolin is old for a soldier and likely near retirement, yet still burly and muscular even after the Shaod. His nose seems to have been broken more than once, and some of his teeth are gone.",
+      "revealedIn": [{ "book": "elantris", "chapter": "19" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Like all of Count Eondel's soldiers, Saolin is disciplined and honourable, and proud to count among Arelon's best troops. He doubts Raoden at first, but Mareshe persuades him to trust him, and he then swears loyalty.",
+      "revealedIn": [{ "book": "elantris", "chapter": "10" }]
+    },
+    {
+      "text": "In Elantris every wound hurts forever, yet Saolin does not grieve over the ones he takes defending his people; he wears them proudly as marks of honour.",
+      "revealedIn": [{ "book": "elantris", "chapter": "19" }]
+    },
+    {
+      "text": "Strong and an excellent swordsman, Saolin can lead a team well, though he has no talent at all for stealth.",
+      "revealedIn": [{ "book": "elantris", "chapter": "22" }]
+    },
+    {
+      "text": "Saolin is fiercely loyal and hard to rattle. He insists on guarding his leader, frets when Raoden leaves the protected area without warning, and will not let him fight, since a leader is too valuable to risk.",
+      "revealedIn": [{ "book": "elantris", "chapter": "28" }]
+    }
+  ]
+}

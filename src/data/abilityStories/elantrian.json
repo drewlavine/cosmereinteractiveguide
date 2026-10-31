@@ -1,0 +1,241 @@
+{
+  "intro": [
+    {
+      "text": "Someone transformed by the Shaod: white-haired and silver-skinned, seeming to shine, quick to heal, and stronger, faster and sharper of mind than other people, with the power to work AonDor.",
+      "revealedIn": [{ "book": "elantris", "chapter": "prologue" }]
+    },
+    {
+      "text": "Someone taken by the Shaod. Elantrians once shone, but those taken now turn grey and blotched, lose their hair and are shut in Elantris as if dead, with no heartbeat and wounds that never heal.",
+      "revealedIn": [{ "book": "elantris", "chapter": "1" }]
+    },
+    {
+      "text": "Someone taken by the Shaod. For years those taken turned grey and blotched and were shut in Elantris as if dead, until the Dor's power returned and the Elantrians rose whole again.",
+      "revealedIn": [{ "book": "elantris", "chapter": "61" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "The Shaod seems to choose people at random, though not entirely, from any age or walk of life, but only in Arelon and Teod, and now and then Duladel. Living close to Elantris or its people does not make it likelier to strike.",
+      "revealedIn": [{ "book": "elantris", "chapter": "19" }]
+    },
+    {
+      "text": "Elantrians have ruled Arelon nearly always, apart from a break after the Reod. They were worshipped as gods, and people came from across the land for blessings and cures. For centuries they held up the economy, their cheap food feeding huge cities, and because they frowned on anything like violence, fencing never caught on in Arelon.",
+      "revealedIn": [{ "book": "elantris", "chapter": "60" }]
+    },
+    {
+      "text": "Connection to the magic can also come from being invited into certain groups, such as the Ire, though how this works is not known.",
+      "revealedIn": [{ "book": "tress", "chapter": "64" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Notable Elantrians",
+          "revealedIn": [
+            { "book": "elantris", "chapter": "1" },
+            { "book": "elantris", "chapter": "25" },
+            { "book": "elantris", "chapter": "60" },
+            { "book": "elantris", "chapter": "61" },
+            { "book": "elantris", "chapter": "62" },
+            { "book": "tress", "chapter": "64" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Raoden is taken by the Shaod and sent into Elantris with funeral offerings, as though dead. Galladon, a Dula also taken, tells him their wounds won't heal because they are dead, and Raoden finds he has no heartbeat.",
+          "revealedIn": [{ "book": "elantris", "chapter": "1" }]
+        },
+        {
+          "text": "Galladon grew up in Elantris, the son of an Elantrian, before leaving to farm in Duladel.",
+          "revealedIn": [{ "book": "elantris", "chapter": "25" }]
+        },
+        {
+          "text": "When a Fjordell soldier slashes Adien across the chest and the wound does not bleed, it shows that he too is an Elantrian.",
+          "revealedIn": [{ "book": "elantris", "chapter": "60" }]
+        },
+        {
+          "text": "When Raoden completes the chasm line, the Dor's power returns, and Elantrians all around Elantris rise unharmed from the pyres.",
+          "revealedIn": [{ "book": "elantris", "chapter": "61" }]
+        },
+        {
+          "text": "Galladon leads a group of Elantrians who teleport onto the docks of Teod and strike the monks with their Aons.",
+          "revealedIn": [{ "book": "elantris", "chapter": "62" }]
+        },
+        {
+          "text": "Riina, an Elantrian, settles on Lumar, where people fear her as the Sorceress for the curses she lays with AonDor.",
+          "revealedIn": [{ "book": "tress", "chapter": "64" }]
+        }
+      ]
+    }
+  ],
+  "mechanics": [
+    {
+      "title": [
+        {
+          "text": "Body and mind",
+          "revealedIn": [
+            { "book": "elantris", "chapter": "prologue" },
+            {
+              "all": [
+                { "book": "elantris", "chapter": "62" },
+                { "book": "lost-metal", "chapter": "54" },
+                { "book": "yumi", "chapter": "32" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Elantrians gain sharper insight and greater mental powers.",
+          "revealedIn": [{ "book": "elantris", "chapter": "prologue" }]
+        },
+        {
+          "text": "Elantrians have bright white hair and silvery skin and seem lit from within. The Dor fuels and renews their bodies, which waste quickly if it is cut off. They bleed silvery-white, are stronger and faster than others, and can still die of natural causes unless treated. They hold more Investiture even than a Returned.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "elantris", "chapter": "62" },
+                { "book": "lost-metal", "chapter": "54" },
+                { "book": "yumi", "chapter": "32" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Since the Reod",
+          "revealedIn": [
+            { "book": "elantris", "chapter": "13" },
+            { "book": "elantris", "chapter": "49" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Elantrians taken since the Reod need neither breath nor food.",
+          "revealedIn": [{ "book": "elantris", "chapter": "13" }]
+        },
+        {
+          "text": "They cannot heal, yet only beheading or fire can kill them, and they burn far more easily than others; the Dor keeps their bodies going through hunger and most wounds. Pain from each injury never fades and can build until they become Hoed, able only to moan. Their change was left unfinished for want of a complete Aon, so their bodies stay frozen in time: pain lingers, and hair does not grow.",
+          "revealedIn": [{ "book": "elantris", "chapter": "49" }]
+        },
+        {
+          "text": "Their hold on AonDor is weak, and they cannot make strong effects with it. AonDor cannot be aimed at them directly.",
+          "revealedIn": [{ "book": "elantris", "chapter": "49" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "AonDor",
+          "revealedIn": [
+            { "book": "elantris", "chapter": "4" },
+            {
+              "all": [
+                { "book": "lost-metal", "chapter": "54" },
+                { "book": "tress", "chapter": "64" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Elantrians work AonDor by drawing symbols, usually in the air: a magic with seemingly endless uses, from healing to making light.",
+          "revealedIn": [{ "book": "elantris", "chapter": "4" }]
+        },
+        {
+          "text": "With some tinkering, the magic can be made to work on other planets.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "lost-metal", "chapter": "54" },
+                { "book": "tress", "chapter": "64" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "raoden",
+      "role": "Elantrian",
+      "revealedIn": [{ "book": "elantris", "chapter": "1" }]
+    },
+    {
+      "characterId": "galladon",
+      "role": "Elantrian",
+      "revealedIn": [{ "book": "elantris", "chapter": "1" }]
+    },
+    {
+      "characterId": "karata",
+      "role": "Elantrian",
+      "revealedIn": [{ "book": "elantris", "chapter": "4" }]
+    },
+    {
+      "characterId": "shaor",
+      "role": "Elantrian",
+      "revealedIn": [{ "book": "elantris", "chapter": "4" }]
+    },
+    {
+      "characterId": "mareshe",
+      "role": "Elantrian",
+      "revealedIn": [{ "book": "elantris", "chapter": "7" }]
+    },
+    {
+      "characterId": "maare",
+      "role": "Elantrian",
+      "revealedIn": [{ "book": "elantris", "chapter": "10" }]
+    },
+    {
+      "characterId": "riil",
+      "role": "Elantrian",
+      "revealedIn": [{ "book": "elantris", "chapter": "10" }]
+    },
+    {
+      "characterId": "saolin",
+      "role": "Elantrian",
+      "revealedIn": [{ "book": "elantris", "chapter": "10" }]
+    },
+    {
+      "characterId": "taan",
+      "role": "Elantrian",
+      "revealedIn": [{ "book": "elantris", "chapter": "10" }]
+    },
+    {
+      "characterId": "loren",
+      "role": "Elantrian",
+      "revealedIn": [{ "book": "elantris", "chapter": "13" }]
+    },
+    {
+      "characterId": "kahar",
+      "role": "Elantrian",
+      "revealedIn": [{ "book": "elantris", "chapter": "13" }]
+    },
+    {
+      "characterId": "dashe",
+      "role": "Elantrian",
+      "revealedIn": [{ "book": "elantris", "chapter": "16" }]
+    },
+    {
+      "characterId": "adien",
+      "role": "Elantrian",
+      "revealedIn": [{ "book": "elantris", "chapter": "60" }]
+    },
+    {
+      "characterId": "riina",
+      "role": "Elantrian",
+      "revealedIn": [{ "book": "tress", "chapter": "64" }]
+    }
+  ]
+}

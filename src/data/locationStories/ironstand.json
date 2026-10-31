@@ -1,0 +1,37 @@
+{
+  "intro": [
+    {
+      "text": "A town in the Elendel Basin, on the railway between Elendel and New Seran.",
+      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "8" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "A small, rural place: Wax guessed its doctor treated more cows than people, and its constables mostly dealt with petty cases. The Nightstreet Gang is well known around the town, if barely heard of elsewhere.",
+      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "15" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "An attack on the train",
+          "revealedIn": [
+            { "book": "bands-of-mourning", "chapter": "8" },
+            { "book": "bands-of-mourning", "chapter": "15" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Just short of Ironstand, the Nightstreet Gang boarded a train carrying Wax, Wayne, Steris, Marasi and MeLaan to New Seran, and tried to rob it and its passengers.",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "8" }]
+        },
+        {
+          "text": "Afterward the train halted in Ironstand, where the town's doctor saw to Wax's wounds and local constables took charge of the captured bandits.",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "15" }]
+        }
+      ]
+    }
+  ]
+}

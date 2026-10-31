@@ -7,6 +7,10 @@
     {
       "text": "The ancient tower-city of the Knights Radiant, high in the mountains of Ur at the centre of Roshar, rediscovered by the Alethi as the Everstorm came.",
       "revealedIn": [{ "book": "words-of-radiance", "chapter": "89" }]
+    },
+    {
+      "text": "The Radiants' tower-city, sealed behind a dome of light after the contest, with its Oathgates inactive but its Towerlight-powered systems still working.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "146" }]
     }
   ],
   "description": [
@@ -33,6 +37,7 @@
         {
           "text": "Ancient times",
           "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "21" },
             {
               "all": [
                 { "book": "way-of-kings", "chapter": "46" },
@@ -49,6 +54,10 @@
         }
       ],
       "items": [
+        {
+          "text": "The Stone sought a legacy in a child of Honor and Cultivation, and Urithiru was constructed about six thousand years before the Night of Sorrows.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "21" }]
+        },
         {
           "text": "Urithiru was the headquarters of the Knights Radiant and the centre of the Silver Kingdoms, with ten thrones, one for each king. Besides Radiants it was home to many ordinary people: servants, traders and craftsmen. At one point the Unmade Re-Shephir invaded the tower and was sealed away by a Lightweaver.",
           "revealedIn": [
@@ -70,6 +79,20 @@
               ]
             }
           ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The tower's decline",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "82" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "As the tower failed, Melishi withdrew from the Sibling. The Sibling linked that withdrawal to his experiments in imprisoning spren.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "82" }]
         }
       ]
     },
@@ -175,6 +198,57 @@
         {
           "text": "During the occupation, the Sibling revealed their powers to Kaladin, Dabbid and Navani, and bonded Navani, making her a Bondsmith and bringing the tower fully back to life.",
           "revealedIn": [{ "book": "rhythm-of-war", "chapter": "110" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The awakened tower",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "104" },
+                { "book": "wind-and-truth", "chapter": "30" }
+              ]
+            },
+            { "book": "wind-and-truth", "chapter": "31" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Working fabrials restored plumbing, ventilation and temperature control. Lights and warmth supported crops intended to make the city self-sufficient.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "104" },
+                { "book": "wind-and-truth", "chapter": "30" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "In Shadesmar, the awakened tower appeared as a glowing crystalline structure known as Nohadon's Stairways.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "31" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "After the contest",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "146" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "A dome of solid light enclosed Urithiru, cutting it off from the rest of Roshar. The Oathgates stopped working, but Towerlight and the city's fabrials remained available.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "146" }]
+        },
+        {
+          "text": "With Navani unconscious and the Sibling unresponsive, Renarin and Jasnah began working toward representative government instead of a monarchy.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "146" }]
         }
       ]
     }

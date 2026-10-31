@@ -1,0 +1,30 @@
+{
+  "intro": [
+    {
+      "text": "A nation whose people are short, with dark brown skin and fine features.",
+      "revealedIn": [{ "book": "emperors-soul", "chapter": "day-2" }]
+    },
+    {
+      "text": "The homeland of Forgery, whose people are short, with dark brown skin and fine features.",
+      "revealedIn": [{ "book": "emperors-soul", "chapter": "day-98" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "The MaiPon and the JinDo come from a single people that split long ago, and other cultures often take them for the same. The MaiPon eat with chopsticks, called MaiPon sticks, which the JinDo adopted too.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "elantris", "chapter": "5" },
+            { "book": "emperors-soul", "chapter": "day-76" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "The early MaiPon worshipped meteors as the souls of broken gods and carved them to bring out the gods' forms. This tradition of carving is thought to have given rise to Forgery and driven its development.",
+      "revealedIn": [{ "book": "emperors-soul", "chapter": "day-98" }]
+    }
+  ],
+  "history": []
+}

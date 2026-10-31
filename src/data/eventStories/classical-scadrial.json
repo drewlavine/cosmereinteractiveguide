@@ -1,0 +1,210 @@
+{
+  "intro": [
+    {
+      "text": "Scadrial's ancient past, when the great city of Khlennium stood on flat northern lands and the Terris people lived among the northern mountains.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "3" }]
+    },
+    {
+      "text": "Scadrial's ancient era, the age of Khlennium and old Terris, before the Final Empire. It ended when Rashek killed Alendi on the way to the Well of Ascension, took its power himself and reshaped the world.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "23" },
+            { "book": "well-of-ascension", "chapter": "55" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "Many nations of the time were ruled by kings or queens, Khlennium among them, as was a realm remembered as \"the fiery empire of the West\". Terris had no monarch, though how its people governed themselves is unknown.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "16" }]
+    },
+    {
+      "text": "Peoples across the world held the same prophecies of a coming Hero of Ages, a saviour of the world, though each gave him its own name; to the Khlenni he was Rabzeen.",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "17" }]
+    },
+    {
+      "text": "Darrelnai, a city or kingdom of the north, outlasted the Deepness, only to be conquered by the Lord Ruler. Far to the south lay a large group of islands thick with volcanoes.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "29" },
+            { "book": "well-of-ascension", "chapter": "37" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Allomancy was almost unknown. Near the end of the era the Deepness began snapping people into Mistings, but Mistborn did not exist until Rashek found the metal at the Well of Ascension and handed it out.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "62" }]
+    },
+    {
+      "text": "Civilizations of the era included Khlennium, ancient Terris, Urtan, Darrelnai, the Astalsi, the Canzi, the Bennet, the Hallant, the Larsta, \"the fiery empire of the West\" and \"the isles in the south\".",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "29" },
+            { "book": "well-of-ascension", "chapter": "48" },
+            { "book": "hero-of-ages", "chapter": "82" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Alendi and Kwaan",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "46" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Thousands of years after Scadrial's creation, a young man named Alendi fled his village and came to Khlennium, hoping to live unnoticed. There Kwaan, a Worldbringer from Terris, took him on as an assistant.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "46" }]
+        },
+        {
+          "text": "In time Kwaan tied every sign of the Anticipation to Alendi. The other Worldbringers doubted him at first, so Kwaan travelled with Alendi to witness his journeys, and at length they too accepted Alendi as the one the prophecies foretold. Alendi fed the rumours to win the world to his cause.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "46" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The Deepness",
+          "revealedIn": [
+            { "book": "well-of-ascension", "chapter": "18" },
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "16" },
+                { "book": "well-of-ascension", "chapter": "23" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Around this time the Deepness came, laying waste to the land, its plants and its animals, and driving people to desperate deeds and beliefs.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "18" }]
+        },
+        {
+          "text": "Alendi became king of Khlennium. As the Deepness grew, he united several nations, Terris among them, some by diplomacy and some by conquest, until most of the world stood together under Khlennium.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "16" },
+                { "book": "well-of-ascension", "chapter": "23" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The road to the Well",
+          "revealedIn": [
+            { "book": "well-of-ascension", "chapter": "59" },
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "34" },
+                { "book": "well-of-ascension", "chapter": "42" },
+                { "book": "hero-of-ages", "chapter": "62" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "23" },
+                { "book": "well-of-ascension", "chapter": "55" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "5" },
+                { "book": "hero-of-ages", "chapter": "6" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "After Alendi had led armies for a decade, the Worldbringers decided he should travel to the Well of Ascension and surrender its power for the good of all. Kwaan came to see that some being had fooled them all by changing the prophecies, but could not persuade Alendi or the others, and Alendi set off anyway.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "59" }]
+        },
+        {
+          "text": "In Terris, Alendi swapped his usual attendants for packmen led by Rashek, who could carry his gear through the cold mountains. He kept a logbook of the quest, recording the pulses from the Well that he heard as a Seeker, his regrets, his doubts about his own sanity and his fear of the Deepness.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "34" },
+                { "book": "well-of-ascension", "chapter": "42" },
+                { "book": "hero-of-ages", "chapter": "62" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Kwaan had secretly told Rashek to keep Alendi from the Well at any cost, even by killing him. Drawn on by the pulses, Alendi could not be led astray, so Rashek killed him just short of the Well, then went in and Ascended. He remade the world in the moments before the power faded from him, and the era ended.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "23" },
+                { "book": "well-of-ascension", "chapter": "55" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Between them, the Deepness and the Lord Ruler's Ascension wiped out many of the world's plants and animals, flowers among them.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "5" },
+                { "book": "hero-of-ages", "chapter": "6" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Great city",
+      "name": "Khlennium",
+      "placeId": "khlennium",
+      "revealedIn": [{ "book": "final-empire", "chapter": "3" }]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "alendi",
+      "role": "Kwaan's assistant",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "46" }]
+    },
+    {
+      "characterId": "kwaan",
+      "role": "Worldbringer",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "46" }]
+    },
+    {
+      "characterId": "rashek",
+      "role": "packman",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "23" },
+            { "book": "well-of-ascension", "chapter": "55" }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "intro": [
+    {
+      "text": "A Rosharan predator that lives in packs, in dens strewn with the bones of its kills, and picks off travelers on roads near its dens.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "31" }]
+    },
+    {
+      "text": "A dangerous predator of Alethkar that lives in packs, in bone-strewn dens. One can kill several armed men, impaling them on long white tusks that may snap off in the wound.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "41" }]
+    },
+    {
+      "text": "A horse-sized predator of Alethkar with a row of stark white spikes along its back. Whitespines live in packs, and one can kill several armed men with its long white tusks.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "41" },
+            { "book": "words-of-radiance", "chapter": "55" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "Whitespines hunt by scent, sniffing through flat, angular noses over a large nasal cavity.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "31" }]
+    },
+    {
+      "text": "A whitespine's back is covered in carapace, and it stands on two strong legs, looking somewhat reptilian. Big white spikes run from its head down its back, with smaller spines elsewhere. Beneath its long tusks is a second, smaller pair, along with large, sharp mandibles.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "41" },
+            { "book": "words-of-radiance", "chapter": "55" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "A water-soluble crystal builds up on the carapace; once it grows thick enough, the animal goes dormant to save energy. Wet whitespines smell bad.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "22" },
+            { "book": "words-of-radiance", "chapter": "55" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Many Rosharans have never seen a live whitespine, and captive ones draw crowds, but they do poorly in cages, growing confused and lethargic.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "39" },
+            { "book": "words-of-radiance", "chapter": "64" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Lighteyes hunt whitespines with darkeyed attendants, trying to corner them with spears. These hunts are very dangerous, since whitespines can stalk and ambush the hunters.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "41" },
+            { "book": "words-of-radiance", "chapter": "56" },
+            { "book": "oathbringer", "chapter": "22" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The hunt near Hearthstone",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "41" },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "44" },
+                { "book": "oathbringer", "chapter": "6" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Brightlord Roshone and his son Rillir went hunting a whitespine that was preying on travelers near Hearthstone. They were ambushed and badly wounded, and Lirin could not save Rillir.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "41" }]
+        },
+        {
+          "text": "Roshone lived, though a tusk cost him part of his right leg. The townsmen Alds and Milp, also hurt, were left behind as he rushed Rillir back to town.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "44" },
+                { "book": "oathbringer", "chapter": "6" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "title": "In Alethi culture",
+      "items": [
+        {
+          "text": "Brightlord Amaram's glyphpair, made from the glyphs merem and khakh, is drawn as a whitespine with raised tusks.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "47" }]
+        },
+        {
+          "text": "Alethi idioms often call on whitespines for their fearsome look and unpredictable danger.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "81" }]
+        },
+        {
+          "text": "Whitespine ivory is a prized trophy that artisans engrave and carve. A favorite knife of Dalinar's had a grip of whitespine ivory.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "43" },
+                { "book": "oathbringer", "chapter": "19" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Adolin and Dalinar both suggest they have hunted whitespines, and Adolin says he has seen the harm they do to people.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "55" },
+                { "book": "rhythm-of-war", "chapter": "48" }
+              ]
+            }
+          ]
+        }
+      ],
+      "parts": []
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "toralin-roshone",
+      "role": "hunter",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "41" }]
+    },
+    {
+      "characterId": "rillir-roshone",
+      "role": "hunter",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "41" }]
+    }
+  ]
+}

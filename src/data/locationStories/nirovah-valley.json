@@ -1,0 +1,26 @@
+{
+  "intro": [
+    {
+      "text": "A valley in southeastern Shinovar containing Clearmount and scattered homesteads.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "40" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Sheep graze its grasslands.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "40" }]
+    },
+    {
+      "text": "The Stoneward monastery overlooks the valley.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "i-6" },
+            { "book": "wind-and-truth", "chapter": "40" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": []
+}

@@ -1,0 +1,133 @@
+{
+  "intro": [
+    {
+      "text": "In the Jesker religion of the Dulas, an unseen force that fills the world and drives everything in nature. Raoden comes to think it also powers the Elantrians' magic, and still partly works in them.",
+      "revealedIn": [{ "book": "elantris", "chapter": "19" }]
+    },
+    {
+      "text": "An unseen force that, in the Jesker religion, drives everything in nature. It powers the Elantrians' magic, and Raoden comes to see that there are other ways to reach it, such as ChayShan and Dakhor.",
+      "revealedIn": [{ "book": "elantris", "chapter": "63" }]
+    },
+    {
+      "text": "An unseen force that, in the Jesker religion, drives everything in nature. It fuels every magic of its world, among them AonDor, ChayShan, Dakhor, Forgery and Bloodsealing.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "elantris", "chapter": "63" },
+            { "book": "emperors-soul", "chapter": "day-76" },
+            { "book": "lost-metal", "chapter": "53" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "To followers of Jesker, a faith of many Dulas, the Dor is an over-spirit that steers the world and keeps nature in balance. It gives every natural event its motive, from why water runs downhill to how a caged young bird knows to fly. An offshoot, the Jeskeri Mysteries, treat it as fate instead, and hold rituals to bend it, calling down good or bad luck on others.",
+      "revealedIn": [{ "book": "elantris", "chapter": "19" }]
+    },
+    {
+      "text": "Raoden reasons that the Dor still partly works, keeping Elantrians alive without food, and that mending the Elantrians' magic would mend Elantris. Since that magic works only in certain places, he links the Dor with the Arelenes and their land.",
+      "revealedIn": [{ "book": "elantris", "chapter": "19" }]
+    },
+    {
+      "text": "Raoden comes to see that drawing Aons is only one way to reach the Dor: ChayShan and Dakhor draw on it as well.",
+      "revealedIn": [{ "book": "elantris", "chapter": "63" }]
+    },
+    {
+      "text": "Forgery and Bloodsealing draw their power from it too.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "elantris", "chapter": "63" },
+            { "book": "emperors-soul", "chapter": "day-76" },
+            { "book": "lost-metal", "chapter": "53" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [],
+  "mechanics": [
+    {
+      "title": [
+        {
+          "text": "Channelling the Dor",
+          "revealedIn": [
+            { "book": "elantris", "chapter": "37" },
+            { "book": "elantris", "chapter": "56" },
+            { "book": "elantris", "chapter": "61" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Raoden is found glowing while unconscious after a wave of pain, and believes the Dor was seeking an outlet through him for a huge build-up of pressure.",
+          "revealedIn": [{ "book": "elantris", "chapter": "37" }]
+        },
+        {
+          "text": "Those who use the Dor can feel when someone else is using it.",
+          "revealedIn": [{ "book": "elantris", "chapter": "56" }]
+        },
+        {
+          "text": "When Raoden completes the chasm line, light bursts from the ground and the Dor's power floods through him, sweeping away his pain, while Elantrians all around the city are restored.",
+          "revealedIn": [{ "book": "elantris", "chapter": "61" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Seeing and storing it",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "secret-history", "chapter": "5-3" },
+                { "book": "lost-metal", "chapter": "40" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "secret-history", "chapter": "5-3" },
+                { "book": "lost-metal", "chapter": "42" },
+                { "book": "sunlit-man", "chapter": "44" }
+              ]
+            },
+            { "book": "lost-metal", "chapter": "51" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The Dor usually reveals itself as a bright glow: in seons and Aons, in the twisted bones of Dakhor, in the trail of a ChayShan user's movements, and in the purified Dor held by the Ghostbloods and the Ire.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "secret-history", "chapter": "5-3" },
+                { "book": "lost-metal", "chapter": "40" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Stored in the Physical Realm, it looks like a brightly glowing liquid.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "secret-history", "chapter": "5-3" },
+                { "book": "lost-metal", "chapter": "42" },
+                { "book": "sunlit-man", "chapter": "44" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "It can be purified and carried elsewhere. Unkeyed, it makes very effective fuel for anyone with powers, and gets around the way its arts are tied to particular lands. Once spent by the arts, its Investiture goes back to the Spiritual Realm, not the Cognitive Realm.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "51" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": []
+}

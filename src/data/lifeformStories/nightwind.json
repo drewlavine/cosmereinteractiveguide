@@ -1,0 +1,39 @@
+{
+  "intro": [
+    {
+      "text": "A fungus on Patji's trees with dangerous spores, which trappers sometimes grow to guard their camps; water keeps the spores from escaping.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "6" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Touched, it bursts out deadly spores to defend itself; smothering it in water keeps them in.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "39" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Encounters",
+          "revealedIn": [
+            { "book": "isles-of-the-emberdark", "chapter": "6" },
+            { "book": "isles-of-the-emberdark", "chapter": "44" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Dusk cultivated a patch for years; on her way to his safecamp, Vathi recognized it and doused it with water, making its spores harmless.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "6" }]
+        },
+        {
+          "text": "Nightwind near the mouth of the cave on Dakwara's island helped Dusk see the pattern in the cave's dangers.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "44" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": []
+}

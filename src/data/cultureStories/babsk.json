@@ -1,0 +1,70 @@
+{
+  "intro": [
+    {
+      "text": "Babsk is a Thaylen word for a teacher or master. A babsk's apprentices follow them around, help with their trade and learn from them.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "i-4" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Vstim, Rysn's babsk, treats her kindly and hopes to make a good merchant of her.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "i-4" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Known babsk",
+          "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "i-3" },
+            { "book": "way-of-kings", "chapter": "i-4" },
+            { "book": "rhythm-of-war", "chapter": "9" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Vstim was babsk to Talik before Rysn; Talik became a trademaster under him and then moved to the Reshi Isles.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-3" }]
+        },
+        {
+          "text": "Vstim brought Rysn to far-off places like Shinovar and the Reshi Isles to learn trading.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "i-4" }]
+        },
+        {
+          "text": "Iyatil was babsk and master to Mraize, and both belonged to the Ghostbloods.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "9" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "vstim",
+      "role": "babsk",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "i-4" }]
+    },
+    {
+      "characterId": "rysn-ftori",
+      "role": "apprentice",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "i-4" }]
+    },
+    {
+      "characterId": "talik",
+      "role": "apprentice",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-3" }]
+    },
+    {
+      "characterId": "iyatil",
+      "role": "babsk",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "9" }]
+    },
+    {
+      "characterId": "mraize",
+      "role": "apprentice",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "9" }]
+    }
+  ]
+}

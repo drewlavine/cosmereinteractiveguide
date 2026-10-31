@@ -1,0 +1,152 @@
+/* ponytail: temporary, to gather opinions on how the group cards are laid out
+   and drawn (TryLayout.tsx); remove once Drew picks. On the glass and gold
+   hairline of the timeline's style switcher. */
+
+/* Floats at the foot of the window while the page scrolls, but sits in the
+   page's flow at its end, so it never covers the last cards or the footer. */
+.dock {
+  position: sticky;
+  bottom: 0.75rem;
+  z-index: 5;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 1.5rem;
+  pointer-events: none;
+}
+
+.switcher {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 0.3rem;
+  max-width: 100%;
+  padding: 0.25rem;
+  border: 1px solid rgba(212, 165, 64, 0.45);
+  border-radius: 16px;
+  background: rgba(17, 27, 35, 0.9);
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
+  font-size: 0.75rem;
+  pointer-events: auto;
+}
+
+.head,
+.option {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+  width: 100%;
+  border: 1px solid transparent;
+  border-radius: 999px;
+  background: none;
+  color: var(--gold-soft);
+  font: inherit;
+  white-space: nowrap;
+  cursor: pointer;
+  transition:
+    background 0.15s,
+    border-color 0.15s,
+    color 0.15s;
+}
+
+.head {
+  min-height: 2.75rem;
+  padding: 0.15rem 0.6rem 0.15rem 0.55rem;
+  color: rgba(241, 230, 200, 0.85);
+  font-size: 0.68rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.mark {
+  width: 0.9rem;
+  height: 0.9rem;
+  fill: var(--gold);
+}
+
+.now {
+  padding-left: 0.45rem;
+  border-left: 1px solid rgba(212, 165, 64, 0.35);
+  color: var(--gold);
+  font-size: 0.78rem;
+  letter-spacing: 0.01em;
+  text-transform: none;
+}
+
+.caret {
+  width: 0.9rem;
+  height: 0.9rem;
+  margin-left: auto;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  transition: rotate 0.15s;
+}
+
+.head[aria-expanded='true'] .caret {
+  rotate: 180deg;
+}
+
+.groups {
+  display: grid;
+  gap: 0.2rem;
+  padding: 0.1rem 0 0.25rem;
+  border-bottom: 1px solid rgba(212, 165, 64, 0.22);
+}
+
+.label {
+  margin: 0.2rem 0 0.2rem;
+  padding: 0 0.5rem;
+  color: rgba(212, 165, 64, 0.85);
+  font-size: 0.6rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.2rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.option {
+  width: auto;
+  min-height: 2.75rem;
+  padding: 0.25rem 0.9rem;
+  font-size: 0.85rem;
+}
+
+@media (hover: hover) {
+  .head:hover,
+  .option:hover {
+    background: rgba(212, 165, 64, 0.14);
+    color: #fff;
+  }
+}
+
+.head:focus-visible,
+.option:focus-visible {
+  outline: 2px solid var(--gold);
+  outline-offset: 1px;
+}
+
+.option[aria-pressed='true'] {
+  border-color: var(--gold);
+  background: #4a3b17;
+  color: #fff;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .head,
+  .option,
+  .caret {
+    transition: none;
+  }
+}

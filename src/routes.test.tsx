@@ -278,4 +278,65 @@ describe('routes', () => {
     renderAt('/systems/nope')
     expect(screen.getByText(/Lost in the Cognitive Realm/)).toBeInTheDocument()
   })
+
+  it('opens the secret chronology with ??, but not while typing', async () => {
+    renderAt('/books')
+    const input = document.body.appendChild(document.createElement('input'))
+    input.focus()
+    await userEvent.keyboard('??')
+    expect(screen.queryByRole('heading', { name: 'Chronology' })).toBeNull()
+    input.remove()
+    await userEvent.keyboard('??')
+    expect(
+      await screen.findByRole('heading', { name: 'Chronology' }),
+    ).toBeInTheDocument()
+  })
+
+  it('opens the secret chronology after five taps on the site title', async () => {
+    renderAt('/books')
+    const title = screen.getByRole('link', {
+      name: 'Cosmere Interactive Guide',
+    })
+    for (let i = 0; i < 4; i++) await userEvent.click(title)
+    expect(screen.queryByRole('heading', { name: 'Chronology' })).toBeNull()
+    await userEvent.click(title)
+    expect(
+      await screen.findByRole('heading', { name: 'Chronology' }),
+    ).toBeInTheDocument()
+  })
+
+  it('opens the secret Spanish Civil War timeline with >>', async () => {
+    renderAt('/books')
+    await userEvent.keyboard('>>')
+    expect(
+      await screen.findByRole(
+        'heading',
+        { name: 'The Republic is proclaimed' },
+        { timeout: 5000 },
+      ),
+    ).toBeInTheDocument()
+    expect(
+      screen.getByRole('img', { name: /before the war, marking Madrid/ }),
+    ).toBeInTheDocument()
+    await userEvent.click(screen.getByRole('button', { name: 'Later ›' }))
+    expect(
+      screen.getByRole('heading', { name: 'A new constitution' }),
+    ).toBeInTheDocument()
+    expect(screen.getByRole('slider')).toHaveAttribute('aria-valuenow', '1')
+  })
+
+  it('opens the Spanish Civil War after three taps on the title and a pause', async () => {
+    renderAt('/books')
+    const title = screen.getByRole('link', {
+      name: 'Cosmere Interactive Guide',
+    })
+    for (let i = 0; i < 3; i++) await userEvent.click(title)
+    expect(
+      await screen.findByRole(
+        'heading',
+        { name: 'The Spanish Civil War' },
+        { timeout: 2000 },
+      ),
+    ).toBeInTheDocument()
+  })
 })

@@ -1,0 +1,42 @@
+{
+  "intro": [
+    {
+      "text": "A crewman of the Oot's Dream who seals the hull with roseite when the ship comes under fire.",
+      "revealedIn": [{ "book": "tress", "chapter": "10" }]
+    },
+    {
+      "text": "The sprouter of the Oot's Dream, who seals the hull with roseite when the ship comes under fire.",
+      "revealedIn": [{ "book": "tress", "chapter": "11" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The Oot's Dream",
+          "revealedIn": [
+            { "book": "tress", "chapter": "10" },
+            { "book": "tress", "chapter": "11" },
+            { "book": "tress", "chapter": "19" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "When a cannonball punched through the hull of the Oot's Dream, Dorp came below to plug the hole with roseite and finished off the stray spores with silver. Tress shouted for him to bring her up on deck, thinking the attackers must be a royal ship that would hold fire once they saw her inspector's uniform.",
+          "revealedIn": [{ "book": "tress", "chapter": "10" }]
+        },
+        {
+          "text": "Dorp sold the idea to the captain as his own and got the go-ahead, but the attack went on. When Tress tried to escape through a fresh hole in the hull, he knocked her down and tried to strip off her jacket for himself, until she struck him with her pewter cup.",
+          "revealedIn": [{ "book": "tress", "chapter": "11" }]
+        },
+        {
+          "text": "His patching could not save the ship: when the seethe set in it sank, and Dorp died with the rest of its crew.",
+          "revealedIn": [{ "book": "tress", "chapter": "19" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

@@ -1,0 +1,34 @@
+{
+  "intro": [
+    {
+      "text": "The land from which many of the people now living in the Forests of Hell originally came.",
+      "revealedIn": ["shadows-for-silence"]
+    }
+  ],
+  "description": [
+    {
+      "text": "Little is known of life there. People recall it fondly and tell fanciful tales about it, but almost everyone who saw it is dead, and many feel that love and justice were lost along with it and do not belong in the forests.",
+      "revealedIn": ["shadows-for-silence"]
+    },
+    {
+      "text": "Its people followed a faith devoted to the God Beyond, whose rites, teachings and even name have been forgotten. A dagger was its symbol, and some owned silver daggers carved with holy signs as wards. A few in the forests still worship Him at small altars.",
+      "revealedIn": ["shadows-for-silence"]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Leaving the Homeland",
+          "revealedIn": ["shadows-for-silence"]
+        }
+      ],
+      "items": [
+        {
+          "text": "Three or more generations back, the first people set out from Homeland to explore the forests, taking the surname Forescout. Afterwards the Evil arose in Homeland and began killing its people, and the few survivors escaped to the forests. Some say the Forescouts will one day go back and defeat it.",
+          "revealedIn": ["shadows-for-silence"]
+        }
+      ]
+    }
+  ]
+}

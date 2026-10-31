@@ -1,0 +1,178 @@
+{
+  "intro": [
+    {
+      "text": "A highly addictive drug of Roshar that alters the mind.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "38" }]
+    },
+    {
+      "text": "A plant of Roshar, often just called moss, used as a highly addictive drug that alters the mind.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "41" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Users rub it between thumb and forefinger until it glows like an ember and gives off crackling wisps of smoke. The heat can blister the fingers until calluses form.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "41" }]
+    },
+    {
+      "text": "Surgeons can use it against pain and severe brain swelling, but only when fathom bark fails, since patients easily become addicted; Lirin hates using it.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "38" },
+            { "book": "words-of-radiance", "chapter": "76" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "The smoke relaxes users and brings euphoria, pushing their worries aside and opening them to new ideas. The effect fades with regular use, which often leads to addiction, and some get headaches. Using it is called grinding moss.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "41" },
+            { "book": "oathbringer", "chapter": "49" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Dried moss is red-brown with a distinct smell. In Alethkar it grows on rockbuds, and in summer it can dry out and catch fire on its own, drawing flamespren. Shallan had never seen it before reaching the Shattered Plains.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "41" },
+            { "book": "words-of-radiance", "chapter": "31" },
+            { "book": "oathbringer", "chapter": "49" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Heavy, frequent use can waste the body and glaze the eyes. Some users have seizures during withdrawal, and its aftereffects can return years after they stop.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "63" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Known users",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "49" },
+            { "book": "way-of-kings", "chapter": "i-6" },
+            { "book": "words-of-radiance", "chapter": "73" },
+            { "book": "words-of-radiance", "chapter": "31" },
+            { "book": "words-of-radiance", "chapter": "76" },
+            { "book": "oathbringer", "chapter": "41" },
+            { "book": "oathbringer", "chapter": "104" },
+            { "book": "oathbringer", "chapter": "121" },
+            { "book": "rhythm-of-war", "chapter": "39" },
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "121" },
+                { "book": "rhythm-of-war", "chapter": "91" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "After Alethkar was unified, Dalinar Kholin sometimes used firemoss when he wanted to forget politics and war, though he found it weaker than the Thrill.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "49" }]
+        },
+        {
+          "text": "Szeth tried firemoss once but felt nothing except a headache, and never used it again.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "i-6" }]
+        },
+        {
+          "text": "Shallan once noticed Jushu, her brother, working a plant between his fingers, though she didn't know then what it was.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "73" }]
+        },
+        {
+          "text": "Tyn used firemoss openly in front of Shallan.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "31" }]
+        },
+        {
+          "text": "Recovering in the chasms after a chasmfiend attack, Kaladin was offered firemoss for the pain. He refused, knowing it was addictive and remembering how his father hated using it.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "76" }]
+        },
+        {
+          "text": "Teft had become addicted in Sadeas's army, though lack of money kept him from serious trouble. In Urithiru he relapsed and needed the moss just to feel normal, and his shame led him to turn away an honorspren trying to bond him.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "41" }]
+        },
+        {
+          "text": "Teft was arrested for being publicly intoxicated on firemoss, but Aladar quietly had Navani order him freed.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "104" }]
+        },
+        {
+          "text": "After swearing the Third Ideal at the Battle of Thaylen Field, Teft found his addiction still there, and Kaladin promised to help him.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "121" }]
+        },
+        {
+          "text": "When Teft collapsed while Urithiru was occupied, Kaladin feared he had been using firemoss and was in withdrawal.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "39" }]
+        },
+        {
+          "text": "Waking from his coma, Teft assumed he had used firemoss; learning he had not, he was proud to have gone nearly seven months without it.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "121" },
+                { "book": "rhythm-of-war", "chapter": "91" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "title": "Trade and the law",
+      "items": [
+        {
+          "text": "Firemoss is common in gambling and wrestling dens. The Alethi treat public intoxication on it as a crime, and nobles such as Gavilar and Toh scorned its use. Though it grows wild, dried moss is sold in cities and warcamps from discreet shops that never close, and addicts can be ruined by the cost.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "i-6" },
+                { "book": "oathbringer", "chapter": "104" }
+              ]
+            }
+          ]
+        }
+      ],
+      "parts": []
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "dalinar-kholin",
+      "role": "user",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "49" }]
+    },
+    {
+      "characterId": "szeth",
+      "role": "tried it",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "i-6" }]
+    },
+    {
+      "characterId": "jushu-davar",
+      "role": "user",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "73" }]
+    },
+    {
+      "characterId": "tyn",
+      "role": "user",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "31" }]
+    },
+    {
+      "characterId": "teft",
+      "role": "addict",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "41" }]
+    }
+  ]
+}

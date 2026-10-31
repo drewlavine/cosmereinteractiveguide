@@ -1,0 +1,59 @@
+{
+  "intro": [
+    {
+      "text": "A scholarly book by Jasnah Kholin arguing that all the Silver Kingdoms of Roshar wrote in one shared script, the Dawnchant, though they spoke many languages.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "i-2" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Jasnah's case is that during the Heraldic Epochs every Silver Kingdom used the Dawnchant as its writing system, whatever language its people spoke.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "i-2" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "At Jokasha Monastery",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "i-2" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "At the Jokasha Monastery, the ardents Ellista and Urv discuss the book in connection with their work on ancient Dawnchant texts.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "i-2" }]
+        },
+        {
+          "text": "Ellista agrees with Jasnah. She thinks the shared script broke down once people began spelling out their own spoken languages in it, which gave rise to new writing systems, while knowledge of the Dawnchant faded through time and the Desolations.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "i-2" }]
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Author",
+      "name": "Jasnah Kholin",
+      "characterId": "jasnah-kholin",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "i-2" }]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "jasnah-kholin",
+      "role": "author",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "i-2" }]
+    },
+    {
+      "characterId": "ellista",
+      "role": "reader",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "i-2" }]
+    },
+    {
+      "characterId": "urv",
+      "role": "reader",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "i-2" }]
+    }
+  ]
+}

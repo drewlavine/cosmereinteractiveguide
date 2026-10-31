@@ -1,0 +1,43 @@
+{
+  "intro": [
+    {
+      "text": "A lieutenant in the Elendel constabulary: one of its few women constables, and one of the few people there who treat Marasi with respect.",
+      "revealedIn": [{ "book": "shadows-of-self", "chapter": "5" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Constable",
+          "revealedIn": [
+            { "book": "shadows-of-self", "chapter": "5" },
+            { "book": "shadows-of-self", "chapter": "7" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Caberel works in the Fourth Octant precinct under Constable-General Aradel. When Aradel wanted more constables near the pubs at night, where striking workers gathered, she agreed to step up patrols.",
+          "revealedIn": [{ "book": "shadows-of-self", "chapter": "5" }]
+        },
+        {
+          "text": "After the attempt on Governor Replar Innate's life, Caberel helped question Rian, hoping to tie him to Winsting Innate's murder. When he would not talk, she proposed beating him or threatening his daughter, and Marasi had to remind her that both were illegal.",
+          "revealedIn": [{ "book": "shadows-of-self", "chapter": "7" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Stout.",
+      "revealedIn": [{ "book": "shadows-of-self", "chapter": "7" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "She rolls her eyes at Aradel's micromanaging, though Marasi thinks she is fond of him. Her principles bend easily.",
+      "revealedIn": [{ "book": "shadows-of-self", "chapter": "7" }]
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "intro": [
+    {
+      "text": "A village in the Sadeas princedom of Alethkar near Hearthstone, in the farming region of Akanny.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "10" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Akanny is prized farmland that supplies grain, meat and other goods to much of Alethkar. Hornhollow is fairly large by local standards and keeps a small militia. It stands on the highprince's lands, and the fields around it are worked by high-ranking darkeyes.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "10" }]
+    },
+    {
+      "text": "The village sits in a hollow, sheltered from highstorms by a large hill to its east. It has about two dozen buildings, including two storm shelters open to travelers, with more structures outside the village proper. A cistern at its center gathers and filters rainwater.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "10" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "After the Everstorm",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "10" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Kaladin stopped at Hornhollow after leaving Hearthstone and learned that runaway parshmen had raided one of its grain stores. The villagers had expected him, hoping for news and a profitable trade, and the town's brightlord was disappointed that he could not swap two dun chips for one infused sphere, as some earlier villages had.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "10" }]
+        },
+        {
+          "text": "A village ardent reckoned that about fifty raiders had taken nearly all the grain, enough to have fed the village until the next harvest. Villagers had seen strange red lights, and the village trapper told Kaladin the group had headed toward Kholinar.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "10" }]
+        }
+      ]
+    }
+  ]
+}

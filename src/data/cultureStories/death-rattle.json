@@ -1,0 +1,44 @@
+{
+  "intro": [
+    {
+      "text": "Prophetic utterances spoken by some people as they die.",
+      "revealedIn": ["words-of-radiance"]
+    }
+  ],
+  "description": [
+    {
+      "text": "The futures they describe are not inevitable: Sigzil escaped the ending foretold for him.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "118" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "During Narak's defense",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "74" },
+            { "book": "wind-and-truth", "chapter": "81" },
+            { "book": "wind-and-truth", "chapter": "118" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Deti spoke a Death Rattle as he died during the defense.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "74" }]
+        },
+        {
+          "text": "Leyten's final words foretold Sigzil and Vienta dying at Moash's hands.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "81" }]
+        },
+        {
+          "text": "Sigzil broke his oaths to keep Moash from killing Vienta, then escaped with Bridge Four's help.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "118" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": []
+}

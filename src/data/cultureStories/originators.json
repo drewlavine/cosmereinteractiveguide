@@ -1,0 +1,96 @@
+{
+  "intro": [
+    {
+      "text": "A group of people from Scadrial's past, almost a fifth of whom were Terris.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "4" }]
+    },
+    {
+      "text": "The survivors who rebuilt society after the world was remade, founding Elendel and many settlements beyond the Basin.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "hero-of-ages", "chapter": "10" },
+            { "book": "shadows-of-self", "chapter": "19" },
+            { "book": "bands-of-mourning", "chapter": "19" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "Many regard them as figures from an age of myth and legend. They carried a few relics out of the world of ash and wrote many books besides the Words of Founding, among them religious texts such as the Docksithium that various groups came to treat as holy.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "hero-of-ages", "chapter": "10" },
+            { "book": "shadows-of-self", "chapter": "19" },
+            { "book": "bands-of-mourning", "chapter": "19" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Each had their own idea of how the new world should be, and they bickered constantly; MeLaan, a young kandra when the world ended, remembers them as quarrelsome city people. While they chased their own ideals, many settlements outside Elendel were left neglected, the root of much of Scadrial's present trouble.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "hero-of-ages", "chapter": "10" },
+            { "book": "shadows-of-self", "chapter": "19" },
+            { "book": "bands-of-mourning", "chapter": "19" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "The Lord Mistborn wanted Elendel to be as equal as possible and built good, durable homes so that the city would have no slums. Lady Allrianne Ladrian taught women they could do almost anything men could, while still expecting them to be models of ladylike conduct, a double standard many have noted.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "shadows-of-self", "chapter": "19" },
+            { "book": "lost-metal", "chapter": "2" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Their influence is still felt in the towns their settlements became, and people still quote their proverbs centuries on, \"No two seasons are alike\" among them.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "shadows-of-self", "chapter": "19" },
+            { "book": "lost-metal", "chapter": "2" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "spook",
+      "role": "Originator",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "shadows-of-self", "chapter": "19" },
+            { "book": "lost-metal", "chapter": "2" }
+          ]
+        }
+      ]
+    },
+    {
+      "characterId": "allrianne-cett",
+      "role": "Originator",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "shadows-of-self", "chapter": "19" },
+            { "book": "lost-metal", "chapter": "2" }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "intro": [
+    {
+      "text": "The leader of a team of scholars from the Institute of Mechanical Solutions in Torio City, who bring a machine to Gongsha to summon spirits.",
+      "revealedIn": [{ "book": "yumi", "chapter": "23" }]
+    },
+    {
+      "text": "A Torish scholar of the Institute of Mechanical Solutions, one of those who switched on the father machine, which keeps Yumi prisoner.",
+      "revealedIn": [{ "book": "yumi", "chapter": "38" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The father machine",
+          "revealedIn": [{ "book": "yumi", "chapter": "40" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "He was among the scholars who designed and switched on the father machine. It consumed them, but held his soul in reserve to defend itself, though he still became a nightmare. When Yumi's mind began resisting the machine's tampering, he led the team to Gongsha Town to look into it.",
+          "revealedIn": [{ "book": "yumi", "chapter": "40" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "In Gongsha",
+          "revealedIn": [
+            { "book": "yumi", "chapter": "23" },
+            { "book": "yumi", "chapter": "34" },
+            { "book": "yumi", "chapter": "40" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Arriving in Gongsha, Gyundok told the townsfolk that his team had heard of their troubles and brought a machine to summon the hijo. When it would not run, he doubted Sunjun's finding that the power source was at fault, then accepted it and ordered Sunjun and Honam to prime the machine, until the fourth scholar volunteered.",
+          "revealedIn": [{ "book": "yumi", "chapter": "23" }]
+        },
+        {
+          "text": "When Nikaro and Yumi came to destroy the prototype, Gyundok met them first and told Sunjun it was time for the confrontation, then chatted with amusement about Nikaro's guesses. He too was a nightmare, and the scholars flipped the switch that cut Yumi off from Nikaro.",
+          "revealedIn": [{ "book": "yumi", "chapter": "34" }]
+        },
+        {
+          "text": "After Yumi and Nikaro were separated, Gyundok and the other scholars worked to fix the trouble in Gongsha and keep Yumi contained. He told her that wrecking the prototype achieved nothing, and when she escaped he chased her to Torio City, where the force of her will made him stand down.",
+          "revealedIn": [{ "book": "yumi", "chapter": "40" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Gyundok has a pinched face and a pointed head, a bowl haircut, and the bearded chin and mustache common to Torish scholars. He dresses in white with a black, winged tanggeon.",
+      "revealedIn": [{ "book": "yumi", "chapter": "23" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "A commanding man who takes charge in most situations, Gyundok prefers to have his subordinates take the risks he avoids himself. He spoke persuasively to the town when his team first arrived.",
+      "revealedIn": [{ "book": "yumi", "chapter": "23" }]
+    }
+  ]
+}

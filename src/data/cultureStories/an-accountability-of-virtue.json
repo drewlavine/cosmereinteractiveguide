@@ -1,0 +1,53 @@
+{
+  "intro": [
+    {
+      "text": "An Alethi romance epic in which Wema must choose between two lords, Vadam and Sterling.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "i-2" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Wema is so slow to answer Sterling's affection that she nearly loses him. When he tells her he is leaving for the Shattered Plains, she sees both how exposed he has made himself and how much he respects her. She calls on him to wait and runs to him, picking Sterling over Vadam.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "i-2" }]
+    },
+    {
+      "text": "In a sequel, Wema's shy sister catches the court's eye and must pick between a navy officer, a banker from Thaylenah and the King's Wit.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "i-2" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "At Jokasha Monastery",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "i-2" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "The ardent Ellista, a gifted researcher, read the novel in secret when she wanted to get away from the busy monastery. Urv caught her with it in the forest. To her surprise he had read it too, and said she could borrow the sequel from him if she helped translate a fragment of Dawnchant.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "i-2" }]
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Genre",
+      "name": "Romance epic",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "i-2" }]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "ellista",
+      "role": "reader",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "i-2" }]
+    },
+    {
+      "characterId": "urv",
+      "role": "reader",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "i-2" }]
+    }
+  ]
+}

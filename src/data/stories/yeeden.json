@@ -1,0 +1,31 @@
+{
+  "intro": [
+    {
+      "text": "A lestrell of the Diem who bets against Kenton in a game of Zo'Ken.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "prologue" }],
+      "fallback": true
+    },
+    {
+      "text": "A lestrell of the Diem, able to work nine ribbons, who picks on Kenton.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "3" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The Diem",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "3" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Yeeden challenged Kenton to Zo'Ken and lost when Kenton destroyed all twenty-five targets with his single, very fast ribbon. Drile then arrived and scolded Yeeden for sparring with lowly acolents.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "3" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

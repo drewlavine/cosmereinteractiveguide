@@ -1,0 +1,29 @@
+{
+  "intro": [
+    {
+      "text": "A park near the Ladrian mansion in Elendel.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "10" }]
+    },
+    {
+      "text": "A park in Elendel's Fourth Octant, along the 4th-5th Canal, near the Ladrian mansion.",
+      "revealedIn": ["alloy-of-law"]
+    }
+  ],
+  "description": [],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Escape through the park",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "10" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "After an attempt on their lives at the Ladrian mansion, Waxillium Ladrian and his companions slipped away through the park and hailed a carriage.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "10" }]
+        }
+      ]
+    }
+  ]
+}

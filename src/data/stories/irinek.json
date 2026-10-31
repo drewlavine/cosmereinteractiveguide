@@ -1,0 +1,43 @@
+{
+  "intro": [
+    {
+      "text": "Dmitrovik's young daughter, who stays at December's hotel in Kingseat instead of with a babysitter.",
+      "revealedIn": [{ "book": "fires-of-december", "chapter": "xxiii" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Dmitrovik's daughter",
+          "revealedIn": [
+            { "book": "fires-of-december", "chapter": "xxii" },
+            { "book": "fires-of-december", "chapter": "xxiii" },
+            { "book": "fires-of-december", "chapter": "epilogue" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Irinek was six when December came to Kingseat. Her mother had recently died, leaving her father to raise her alone while working as a valet, and his employer held it against him that she was born out of wedlock.",
+          "revealedIn": [{ "book": "fires-of-december", "chapter": "xxii" }]
+        },
+        {
+          "text": "When December bought the hotel and sent for them, Irinek bowed just like her father and happily drew with the chalk she was given. December made her father head butler and let Irinek stay at the hotel.",
+          "revealedIn": [{ "book": "fires-of-december", "chapter": "xxiii" }]
+        },
+        {
+          "text": "With her father managing December's hotels, she had all the drawing supplies she wanted, and Beautiful became her companion.",
+          "revealedIn": [{ "book": "fires-of-december", "chapter": "epilogue" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": [
+    {
+      "text": "Very sweet and not at all shy with strangers; she loves stuffed animals and drawing.",
+      "revealedIn": [{ "book": "fires-of-december", "chapter": "xxiii" }]
+    }
+  ]
+}

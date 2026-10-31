@@ -1,0 +1,91 @@
+{
+  "intro": [
+    {
+      "text": "A people of Scadrial's past whose religion used death chants to free the spirits of the dead. Sazed, a Keeper, knows their prayers.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "11" }]
+    },
+    {
+      "text": "A people of Scadrial before the Final Empire, known for a culture and religion centred on death and mortality.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "11" },
+            { "book": "hero-of-ages", "chapter": "4" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "The Cazzi held that death chants release the dead's spirits from their corpses so they can go back to the mountain of souls.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "11" }]
+    },
+    {
+      "text": "They taught that mortality is beautiful and death important, and that the body plays a vital part in a greater divine whole.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "11" },
+            { "book": "hero-of-ages", "chapter": "4" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Each body was held to be a work of art made by a spirit living in the world. Those with disabilities of mind or body were said to be punished by that spirit for their wickedness, and a spirit stayed in its body until a death chant freed it.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "11" },
+            { "book": "hero-of-ages", "chapter": "4" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "They kept a caste of slaves, and the Lord Ruler modelled the lives of the skaa on them.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "27" }]
+    },
+    {
+      "text": "Valuing the body as part of the divine whole, they kept detailed drawings and descriptions of it.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "82" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "In Sazed's keeping",
+          "revealedIn": [
+            { "book": "final-empire", "chapter": "11" },
+            { "book": "hero-of-ages", "chapter": "4" },
+            { "book": "hero-of-ages", "chapter": "82" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Sazed recites a Cazzi prayer over the dead of Camon's crew.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "11" }]
+        },
+        {
+          "text": "Sazed reviews the tenets of the Cazzi faith and rejects them as contradicting themselves.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "4" }]
+        },
+        {
+          "text": "With the power he took up, Sazed used Cazzi teachings on the body to restore people to the form they had before the Lord Ruler's Ascension.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "82" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "sazed",
+      "role": "Keeper",
+      "revealedIn": [{ "book": "final-empire", "chapter": "11" }]
+    }
+  ]
+}

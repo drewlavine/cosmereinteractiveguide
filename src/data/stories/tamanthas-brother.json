@@ -1,0 +1,38 @@
+{
+  "intro": [
+    {
+      "text": "A dressmaker in a river town who mistreats his sister after putting a dress she designed in his shop.",
+      "revealedIn": [{ "book": "fires-of-december", "chapter": "v" }],
+      "fallback": true
+    },
+    {
+      "text": "A dressmaker in First Dukeseat who struck his sister Tamantha after her designs nearly cost him his shop.",
+      "revealedIn": [{ "book": "fires-of-december", "chapter": "vi" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The dress shop",
+          "revealedIn": [
+            { "book": "fires-of-december", "chapter": "vi" },
+            { "book": "fires-of-december", "chapter": "vii" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "He bought Tamantha's designs and displayed them instead of famous dressmakers' work, which almost ruined him. In a rage he hit her and told her she deserved it. December overheard, and had Amaal announce that she would visit the shop.",
+          "revealedIn": [{ "book": "fires-of-december", "chapter": "vi" }]
+        },
+        {
+          "text": "December found fault with all his wares, then asked for Tamantha's dress. To keep his sister from earning a commission he gave it away free, so December tipped Tamantha its price; she used it to buy back her designs and left to join December.",
+          "revealedIn": [{ "book": "fires-of-december", "chapter": "vii" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

@@ -55,6 +55,18 @@ export const titleStyles = [
     label: 'Orbiting node',
     tip: 'A small node on a gold orbit around the globe',
   },
+  {
+    id: 'curved-actions',
+    group: 'elsewhere',
+    label: 'Curved actions',
+    tip: 'State and zoom icons on opposite sides of the globe',
+  },
+  {
+    id: 'hover-actions',
+    group: 'elsewhere',
+    label: 'Hover actions',
+    tip: 'Two buttons beside the globe when you hover over it (always shown on touch)',
+  },
 ] as const
 
 export const titleGroups = [

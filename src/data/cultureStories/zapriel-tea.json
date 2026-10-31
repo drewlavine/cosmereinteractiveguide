@@ -1,0 +1,30 @@
+{
+  "intro": [
+    {
+      "text": "A tea from the Dromatory Isles, so prized that it is worth more than its weight in gold.",
+      "revealedIn": [{ "book": "tress", "chapter": "35" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Captain Crow drinks stolen zapriel tea aboard the Crow's Song.",
+      "revealedIn": [{ "book": "tress", "chapter": "35" }]
+    }
+  ],
+  "history": [],
+  "facts": [
+    {
+      "label": "Origin",
+      "name": "Dromatory Isles",
+      "placeId": "dromatory-isles",
+      "revealedIn": [{ "book": "tress", "chapter": "35" }]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "crow",
+      "role": "drinker",
+      "revealedIn": [{ "book": "tress", "chapter": "35" }]
+    }
+  ]
+}

@@ -243,5 +243,75 @@
       "text": "He struggles to understand human feelings and distrusts their instability. Bonded to a human, he slowly gains empathy and a sense of morality, though he still sees the storms as his alone.",
       "revealedIn": [{ "book": "oathbringer", "chapter": "86" }]
     }
+  ],
+  "description": [
+    {
+      "title": [
+        {
+          "text": "Origins",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "107" },
+                { "book": "wind-and-truth", "chapter": "21" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "89" },
+                { "book": "wind-and-truth", "chapter": "127" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Honor formed the Stormfather from the Wind, an entity that predated the Shattering.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "107" },
+                { "book": "wind-and-truth", "chapter": "21" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "The Stormfather was merged with an incomplete Cognitive Shadow of Tanavast, preserving some of the Vessel's memories and enabling him to sense a Herald's death.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "89" },
+                { "book": "wind-and-truth", "chapter": "127" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "abilities": [
+    {
+      "title": [
+        {
+          "text": "In the Spiritual Realm",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "87" },
+            { "book": "wind-and-truth", "chapter": "131" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The Stormfather could conceal his Bondsmith from Shards in the Spiritual Realm and speak to another Bondsmith when his own was nearby.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "87" }]
+        },
+        {
+          "text": "He could see threads of Connection and had access to Fortune.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "131" }]
+        }
+      ]
+    }
   ]
 }

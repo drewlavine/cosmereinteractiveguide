@@ -142,6 +142,32 @@
           "revealedIn": [{ "book": "rhythm-of-war", "chapter": "111" }]
         }
       ]
+    },
+    {
+      "title": [
+        {
+          "text": "Shared visions",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "30" },
+            { "book": "wind-and-truth", "chapter": "63" },
+            { "book": "wind-and-truth", "chapter": "76" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "When Rlain joined Renarin in a vision, Glys explained that swells in Roshar's rhythms prompted the possible futures they saw.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "30" }]
+        },
+        {
+          "text": "Glys and Tumi guided their companions through Spiritual Realm visions in secret, fearing both Honor and Odium. Glys could supply the words originally spoken in a vision, helping Renarin avoid exposing himself.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "63" }]
+        },
+        {
+          "text": "Glys warned the group when Odium found them and helped them leave a dangerous vision.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "76" }]
+        }
+      ]
     }
   ],
   "appearance": [

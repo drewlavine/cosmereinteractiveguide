@@ -1,0 +1,36 @@
+{
+  "intro": [
+    {
+      "text": "A guard at a pub in Elendel. Blue may be his real name, or just what Wayne calls him.",
+      "revealedIn": [{ "book": "shadows-of-self", "chapter": "13" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The pub",
+          "revealedIn": [{ "book": "shadows-of-self", "chapter": "13" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Blue keeps order at the pub with a stick for clubbing rowdy customers. He knows Wayne from earlier visits and seems prepared, more or less, to put up with his antics.",
+          "revealedIn": [{ "book": "shadows-of-self", "chapter": "13" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Wears a cap and overalls as his guard's uniform.",
+      "revealedIn": [{ "book": "shadows-of-self", "chapter": "13" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "A plain, straightforward man while he is on duty.",
+      "revealedIn": [{ "book": "shadows-of-self", "chapter": "13" }]
+    }
+  ]
+}

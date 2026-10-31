@@ -1,0 +1,41 @@
+{
+  "intro": [
+    {
+      "text": "A man Count Flint points out to December as an easy target.",
+      "revealedIn": [{ "book": "fires-of-december", "chapter": "xviii" }],
+      "fallback": true
+    },
+    {
+      "text": "A rich, dim young noble of Kingseat who thinks himself a ladies' man.",
+      "revealedIn": [{ "book": "fires-of-december", "chapter": "xx" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Kingseat",
+          "revealedIn": [{ "book": "fires-of-december", "chapter": "xx" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "December and Flint once found themselves at the same gambling house as Will and made fun of his hair, his gold clothes and his manner. Another night, on the Night Barges, December sought Will out and flirted with him to draw Flint's attention. They played bobs until Flint cut in, stopping her from losing a hundred and twenty-five gold to Will on a bet.",
+          "revealedIn": [{ "book": "fires-of-december", "chapter": "xx" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Broad in the chest, with an unfortunate mouth and a famous hairstyle shaped like a larch tree.",
+      "revealedIn": [{ "book": "fires-of-december", "chapter": "xx" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Talks endlessly but seldom says anything worth hearing. He can't keep a relationship going, to his parents' irritation, and his father keeps pressing him to get serious. What he lacks in brains he makes up in money, half of it sunk into property schemes that drive up rents for the river workers. He is confident and loves to gamble.",
+      "revealedIn": [{ "book": "fires-of-december", "chapter": "xx" }]
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "intro": [
+    {
+      "text": "Prince Raoden's seon.",
+      "revealedIn": [{ "book": "elantris", "chapter": "4" }],
+      "fallback": true
+    },
+    {
+      "text": "Raoden's seon and dear friend, who no longer seems to know him once Raoden is thrown into Elantris.",
+      "revealedIn": [{ "book": "elantris", "chapter": "16" }]
+    },
+    {
+      "text": "A wise, thoughtful seon bonded to King Raoden of Arelon, named for the Aon that means wisdom.",
+      "revealedIn": ["elantris"]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Raoden's seon",
+          "revealedIn": [
+            { "book": "elantris", "chapter": "34" },
+            { "book": "elantris", "chapter": "28" },
+            { "book": "elantris", "chapter": "63" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Ien bonded with Raoden when Raoden was a young boy. Who passed the seon to him is not known, though families commonly kept their seons among themselves.",
+          "revealedIn": [{ "book": "elantris", "chapter": "34" }]
+        },
+        {
+          "text": "Ien was rarely far from Raoden. When the Shaod took Raoden, the prince could not find his seon, and once in Elantris he tried not to dwell on Ien's fate. When he did find him, Ien had lost his mind and could barely stay aloft; at times he seemed to know Raoden, but only for a moment. Unlike most mad seons he stayed close to Raoden, which Galladon found creepy.",
+          "revealedIn": [{ "book": "elantris", "chapter": "28" }]
+        },
+        {
+          "text": "When the Elantrians regained their powers, the mad seons recovered as well. Ien said he remembered nothing of his madness, but Raoden noticed he had become quieter and even more thoughtful.",
+          "revealedIn": [{ "book": "elantris", "chapter": "63" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Ien looks like a ball of light about the size of a melon, with his Aon glowing faintly at its centre. Like other seons he can brighten or dim, and often pulses as he speaks or laughs.",
+      "revealedIn": [{ "book": "elantris", "chapter": "32" }]
+    },
+    {
+      "text": "After Raoden is taken by the Shaod, Ien's Aon has new breaks in its lines and blotchy colours, rather like an Elantrian's skin before the restoration. He drifts near Raoden with slow, lurching movements, and nothing said to him gets through. Once Raoden regains the power of the Dor, Ien returns to his old self.",
+      "revealedIn": [{ "book": "elantris", "chapter": "63" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Ien is exceptionally wise and thoughtful, with an indulgent, stoic voice. He cares deeply for Raoden and serves him purely out of love.",
+      "revealedIn": [{ "book": "elantris", "chapter": "63" }]
+    }
+  ],
+  "abilities": [
+    {
+      "title": [
+        {
+          "text": "Seon",
+          "revealedIn": [{ "book": "elantris", "chapter": "10" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Since Raoden was taken by the Shaod, Ien has lost his mind. He still glows and can fly, but his powers are badly weakened.",
+          "revealedIn": [{ "book": "elantris", "chapter": "10" }]
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "title": [
+        {
+          "text": "Raoden",
+          "revealedIn": [
+            { "book": "elantris", "chapter": "16" },
+            { "book": "elantris", "chapter": "19" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Raoden thinks of Ien as a friend, and as a reflection of his god's love, for Ien loves him without condition.",
+          "revealedIn": [{ "book": "elantris", "chapter": "16" }]
+        },
+        {
+          "text": "When Raoden was eight he badly broke his leg; the doctors could not help, so his parents took him to Elantris, where an Elantrian woman healed him with a complex form of Aon Ien. As a youth Raoden learned about slavery and tried to free Ien, but Ien assured him that he served willingly and wanted no payment.",
+          "revealedIn": [{ "book": "elantris", "chapter": "19" }]
+        }
+      ]
+    }
+  ]
+}

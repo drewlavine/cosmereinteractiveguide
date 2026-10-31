@@ -1,0 +1,68 @@
+{
+  "intro": [
+    {
+      "text": "A small spren town that serves as a busy trading stop for caravans and ships.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "29" }]
+    },
+    {
+      "text": "A small, independent trading outpost on the coast of Shadesmar, on a barren obsidian plain that neither the Fused nor the honorspren control.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "30" }]
+    },
+    {
+      "text": "A small, independent trading outpost in Shadesmar, on the southern Sea of Souls at the edge of the Radiant Depths, on obsidian land that neither the Fused nor the honorspren control.",
+      "revealedIn": ["rhythm-of-war"]
+    }
+  ],
+  "description": [
+    {
+      "text": "A walk along all four of its streets takes under half an hour. Caravans camp just outside, and ships tie up at a simple stone dock. Nearly everyone living there is a merchant, some settled for good and some only for a time.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "29" }]
+    },
+    {
+      "text": "Its small buildings are made from manifested materials, a patchwork of colored stone with a loose Azish leaning. Candles light the homes, and the spren there dress in a mix of human fashions.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "29" }]
+    },
+    {
+      "text": "The market sells books, weapons, food and water. Cultivationspren run most stalls, alongside some highspren and inkspren; many merchants speak Alethi or Azish, and some stock supplies for human travelers.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "29" }]
+    },
+    {
+      "text": "Most of its many kinds of spren stay only briefly, as caravaneers or sailors. Humans travelling with caravans are common enough to draw little notice, unlike in Celebrant, though some spren are still hostile to them.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "oathbringer", "chapter": "102" },
+            { "book": "rhythm-of-war", "chapter": "29" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "History",
+          "revealedIn": [
+            { "book": "rhythm-of-war", "chapter": "30" },
+            { "book": "rhythm-of-war", "chapter": "29" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "After losing his command, the honorspren Notum began calling at Nameless on his patrols. The townsfolk tolerated him but avoided him when they could.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "30" }]
+        },
+        {
+          "text": "In 1175, Adolin and the delegation from Urithiru stopped at Nameless en route to Lasting Integrity, camping outside the town and trading the rest of their Stormlight for supplies.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "29" }]
+        },
+        {
+          "text": "Tukari caravaneers camped outside the town turned away Adolin's attempt to speak with them.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "30" }]
+        }
+      ]
+    }
+  ]
+}

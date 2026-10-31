@@ -1,0 +1,30 @@
+{
+  "intro": [
+    {
+      "text": "A battle in which Dirk led troops. Ten thousand of his men were killed, and the duke of Diggen's Point hailed him as a \"war hero\" for it.",
+      "revealedIn": [{ "book": "tress", "chapter": "5" }]
+    }
+  ],
+  "description": [],
+  "history": [],
+  "facts": [
+    {
+      "label": "Commander",
+      "name": "Dirk",
+      "characterId": "dirk",
+      "revealedIn": [{ "book": "tress", "chapter": "5" }]
+    },
+    {
+      "label": "Losses",
+      "name": "Ten thousand of Dirk's men",
+      "revealedIn": [{ "book": "tress", "chapter": "5" }]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "dirk",
+      "role": "commander",
+      "revealedIn": [{ "book": "tress", "chapter": "5" }]
+    }
+  ]
+}

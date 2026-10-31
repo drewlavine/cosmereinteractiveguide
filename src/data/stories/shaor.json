@@ -1,0 +1,41 @@
+{
+  "intro": [
+    {
+      "text": "The leader of one of the three gangs inside Elantris, whose followers are known for their savage brutality.",
+      "revealedIn": [{ "book": "elantris", "chapter": "4" }]
+    },
+    {
+      "text": "A young girl who leads one of the three gangs in Elantris, worshipped by her crazed followers for her golden hair. Raoden recognizes her as Soine, Duke Telrii's daughter.",
+      "revealedIn": [{ "book": "elantris", "chapter": "22" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Gang leader in Elantris",
+          "revealedIn": [
+            { "book": "elantris", "chapter": "22" },
+            { "book": "elantris", "chapter": "34" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Worried by mounting raids from Shaor's gang, Raoden and Galladon went to its base in an old bank to talk. They were surprised to find a young girl in charge, and had to run when she ordered her followers to attack.",
+          "revealedIn": [{ "book": "elantris", "chapter": "22" }]
+        },
+        {
+          "text": "Raoden knew her as Soine, the daughter Duke Telrii said had died of dionia. She was bald and had worn a golden wig, which the priests left on when she was cast into Elantris, thinking it was her own hair. Her maddened followers worshipped her for that hair.",
+          "revealedIn": [{ "book": "elantris", "chapter": "22" }]
+        },
+        {
+          "text": "Once Raoden's people took in the newcomers whose food Shaor's men had been seizing, the gang killed her and brought her wig to Raoden as a sign that they now followed him.",
+          "revealedIn": [{ "book": "elantris", "chapter": "34" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

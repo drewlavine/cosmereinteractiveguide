@@ -7,6 +7,10 @@
     {
       "text": "The largest country on Roshar and the most prominent Vorin nation, in the east of the continent, famed for its militarism. Its royal colours are blue and gold.",
       "revealedIn": [{ "book": "way-of-kings", "chapter": "69" }]
+    },
+    {
+      "text": "An eastern Rosharan kingdom lost to Odium's forces, with its surviving leadership at Urithiru.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "146" }]
     }
   ],
   "description": [
@@ -35,6 +39,20 @@
     }
   ],
   "history": [
+    {
+      "title": [
+        {
+          "text": "Early settlement",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "62" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "About a century after humanity reached Roshar, the people of an early kingdom here were called Althmen. They lived as nomadic hunters.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "62" }]
+        }
+      ]
+    },
     {
       "title": [
         {
@@ -196,6 +214,27 @@
         {
           "text": "After the battle at Thaylen City, the Alethi crowned Jasnah Kholin, and a week later Adolin married Shallan Davar.",
           "revealedIn": [{ "book": "oathbringer", "chapter": "122" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Reform and war",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "61" },
+            { "book": "wind-and-truth", "chapter": "146" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Jasnah abolished slavery, but emancipation did not end mistreatment or social exclusion. Some freed people remained in their old work for little or no pay.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "61" }]
+        },
+        {
+          "text": "After the contest, Jasnah accepted that Alethkar had been lost. The Oathgates no longer offered a route to reclaim it, and her treaty had ceded the Shattered Plains to the listeners.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "146" }]
         }
       ]
     }

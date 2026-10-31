@@ -1,0 +1,31 @@
+{
+  "intro": [
+    {
+      "text": "A kandra explorer whose photographs and missing spike prompt a search for the Bands of Mourning.",
+      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "3" }],
+      "fallback": true
+    },
+    {
+      "text": "A Third Generation kandra, one of the few of his generation still alive after the Catacendre, and an honored elder among his people.",
+      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "3" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The expedition",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "3" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "ReLuur photographed murals showing bracers on a pedestal, a statue like the Lord Ruler and writing in an unknown script. He came back from his expedition with a spike missing, unable to say what he had seen or what had happened to him.",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "3" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

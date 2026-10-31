@@ -1,0 +1,49 @@
+{
+  "intro": [
+    {
+      "text": "One of the two accountants handling Wayne's money, working at the Elendel firm of Call and Son and Daughters Accounting and Estate.",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "14" }],
+      "fallback": true
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Managing Wayne's money",
+          "revealedIn": [
+            { "book": "lost-metal", "chapter": "epilogue-3" },
+            { "book": "lost-metal", "chapter": "16" },
+            { "book": "lost-metal", "chapter": "epilogue-7" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "In 348 PC, Call and his colleague Garisel Daring handled Wayne's finances, but Wayne found them dull and dodged them at every turn, and when they asked Reddi where to find him she took them for debt collectors. Wayne's investments had in fact made him enormously rich, and the firm also kept his store of bendalloy.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "epilogue-3" }]
+        },
+        {
+          "text": "Call and Garisel finally caught Wayne and brought him to their office, \"trading\" him a hat and glasses to make him look at his ledgers. Call warned that noseball arenas in every octant would be costly, nudged him into investing in a new carmaker, and arranged for Wayne's payments to Allriandre to be made for him.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "16" }]
+        },
+        {
+          "text": "After Wayne's death, Call and Garisel became executors of his estate, meeting Allriandre, the main heir, and giving Jaxy money to renovate Ranette's shop.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "epilogue-7" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Call is fairly short and usually wears a bowler hat, a suit with a vest, and spectacles, probably for reading.",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "16" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Call has a businesslike manner that earns him Wayne's nickname \"Short Boring Guy\". He is seeing someone.",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "16" }]
+    }
+  ]
+}

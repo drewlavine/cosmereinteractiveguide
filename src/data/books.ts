@@ -249,34 +249,64 @@ export const bookSeries: BookSeries[] = [
     ],
   },
   {
-    id: 'standalones',
-    name: 'Standalones',
+    id: 'warbreaker',
+    name: 'Warbreaker',
     books: [
       { id: 'warbreaker', title: 'Warbreaker', year: 2009, kind: 'Novel' },
+    ],
+  },
+  {
+    id: 'emperors-soul',
+    name: 'The Emperor’s Soul',
+    books: [
       {
         id: 'emperors-soul',
         title: 'The Emperor’s Soul',
         year: 2012,
         kind: 'Novella',
       },
+    ],
+  },
+  {
+    id: 'shadows-for-silence',
+    name: 'Shadows for Silence in the Forests of Hell',
+    books: [
       {
         id: 'shadows-for-silence',
         title: 'Shadows for Silence in the Forests of Hell',
         year: 2013,
         kind: 'Novella',
       },
+    ],
+  },
+  {
+    id: 'sixth-of-the-dusk',
+    name: 'Sixth of the Dusk',
+    books: [
       {
         id: 'sixth-of-the-dusk',
         title: 'Sixth of the Dusk',
         year: 2014,
         kind: 'Novella',
       },
+    ],
+  },
+  {
+    id: 'sunlit-man',
+    name: 'The Sunlit Man',
+    books: [
       {
         id: 'sunlit-man',
         title: 'The Sunlit Man',
         year: 2023,
         kind: 'Novel',
       },
+    ],
+  },
+  {
+    id: 'isles-of-the-emberdark',
+    name: 'Isles of the Emberdark',
+    books: [
       {
         id: 'isles-of-the-emberdark',
         title: 'Isles of the Emberdark',

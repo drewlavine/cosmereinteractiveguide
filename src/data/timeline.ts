@@ -1,3 +1,4 @@
+import { localYear, sharedYear } from './bookTimeline'
 import { findCharacter } from './characters'
 import type { MapPoint } from './journey'
 import { COSMERE_MAP, journeyAtlas, journeyMapPlanet } from './journeyAtlas'
@@ -220,7 +221,7 @@ export const timelineEvents: TimelineEvent[] = [
   {
     id: 'roshar-created',
     world: 'roshar',
-    year: -1050,
+    year: sharedYear('rosharan', -9742),
     date: { year: -9742, circa: true, calendar: 'rosharan' },
     title: [
       line('Adonalsium creates Roshar', { all: [ch(WOR, '66'), SHARDS] }),
@@ -274,7 +275,7 @@ export const timelineEvents: TimelineEvent[] = [
     id: 'honor-cultivation-settle',
     world: 'roshar',
     year: 1,
-    date: { year: -8788, circa: true, calendar: 'rosharan' },
+    date: { year: localYear('rosharan', 0), circa: true, calendar: 'rosharan' },
     title: [line('Honor and Cultivation settle on Roshar', SHARDS)],
     blurb: [
       line(
@@ -295,7 +296,7 @@ export const timelineEvents: TimelineEvent[] = [
     id: 'ruin-preservation-scadrial',
     world: 'scadrial',
     year: 2,
-    date: { year: -9601, circa: true, calendar: 'fe' },
+    date: { year: localYear('fe', 0), circa: true, calendar: 'fe' },
     title: [
       line('Ruin and Preservation make Scadrial', {
         all: ['hero-of-ages', SHARDS],
@@ -321,7 +322,7 @@ export const timelineEvents: TimelineEvent[] = [
     id: 'devotion-dominion-settle',
     world: 'sel',
     year: 3,
-    date: { year: -9101, circa: true, calendar: 'selish' },
+    date: { year: localYear('selish', 0), circa: true, calendar: 'selish' },
     title: [line('Devotion and Dominion settle on Sel', { all: [AU, SHARDS] })],
     blurb: [
       line('Devotion and Dominion both make their home on Sel.', {
@@ -345,7 +346,7 @@ export const timelineEvents: TimelineEvent[] = [
     id: 'endowment-settles',
     world: 'nalthis',
     year: 4,
-    date: { year: -10826, circa: true, calendar: 'nalthian' },
+    date: { year: localYear('nalthian', 0), circa: true, calendar: 'nalthian' },
     title: [line('Endowment settles on Nalthis', { all: [WB, SHARDS] })],
     blurb: [
       line('The Shard Endowment makes its home on Nalthis.', {
@@ -365,7 +366,7 @@ export const timelineEvents: TimelineEvent[] = [
     id: 'autonomy-settles',
     world: 'taldain',
     year: 5,
-    date: { year: -8111, circa: true, calendar: 'taldain' },
+    date: { year: localYear('taldain', 0), circa: true, calendar: 'taldain' },
     title: [
       line(
         'Autonomy settles on Taldain',
@@ -395,7 +396,7 @@ export const timelineEvents: TimelineEvent[] = [
   {
     id: 'spren-created',
     world: 'roshar',
-    year: 96.3,
+    year: sharedYear('rosharan', -8700),
     date: { year: -8700, circa: true, calendar: 'rosharan' },
     map: { mapId: 'silver-kingdoms' },
     title: [line('The first thinking spren', { all: [WOK, SHARDS] })],
@@ -417,7 +418,7 @@ export const timelineEvents: TimelineEvent[] = [
     id: 'devotion-dominion-splintered',
     world: 'sel',
     year: 1000,
-    date: { year: -8101, circa: true, calendar: 'selish' },
+    date: { year: localYear('selish', 1000), circa: true, calendar: 'selish' },
     title: [line('Odium splinters Devotion and Dominion', AU)],
     blurb: [
       line(
@@ -436,7 +437,11 @@ export const timelineEvents: TimelineEvent[] = [
     id: 'ambition-wounded',
     world: 'threnody',
     year: 2000,
-    date: { year: -8850, circa: true, calendar: 'threnodite' },
+    date: {
+      year: localYear('threnodite', 2000),
+      circa: true,
+      calendar: 'threnodite',
+    },
     title: [line('Odium mortally wounds Ambition', AU)],
     blurb: [
       line(
@@ -454,7 +459,7 @@ export const timelineEvents: TimelineEvent[] = [
   {
     id: 'odium-ashyn',
     world: 'ashyn',
-    year: 2158.8,
+    year: sharedYear('rosharan', -6825),
     date: { year: -6825, circa: true, calendar: 'rosharan' },
     title: [line('Odium comes to Ashyn', WAT)],
     blurb: [
@@ -472,7 +477,7 @@ export const timelineEvents: TimelineEvent[] = [
   {
     id: 'humans-arrive',
     world: 'roshar',
-    year: 2960.7,
+    year: sharedYear('rosharan', -6096),
     date: { year: -6096, circa: true, calendar: 'rosharan' },
     map: { mapId: 'silver-kingdoms' },
     title: [line('Humans arrive on Roshar', ch(OB, '111'), AU, 'sunlit-man')],
@@ -498,7 +503,7 @@ export const timelineEvents: TimelineEvent[] = [
   {
     id: 'first-desolation',
     world: 'roshar',
-    year: 2982.7,
+    year: sharedYear('rosharan', -6076),
     date: { year: -6076, circa: true, calendar: 'rosharan' },
     map: { mapId: 'silver-kingdoms' },
     title: [line('The First Desolation', WOK)],
@@ -518,7 +523,7 @@ export const timelineEvents: TimelineEvent[] = [
   {
     id: 'oathpact-abandoned',
     world: 'roshar',
-    year: 6000,
+    year: sharedYear('rosharan', -3333),
     date: {
       year: -3333,
       circa: true,
@@ -557,7 +562,7 @@ export const timelineEvents: TimelineEvent[] = [
   {
     id: 'reod',
     world: 'sel',
-    year: 9101,
+    year: sharedYear('selish', 0),
     date: {
       year: 0,
       calendar: 'selish',
@@ -584,7 +589,7 @@ export const timelineEvents: TimelineEvent[] = [
   {
     id: 'manywar',
     world: 'nalthis',
-    year: 10526,
+    year: sharedYear('nalthian', -300),
     date: {
       year: -300,
       circa: true,
@@ -610,7 +615,7 @@ export const timelineEvents: TimelineEvent[] = [
   {
     id: 'catacendre',
     world: 'scadrial',
-    year: 10626,
+    year: sharedYear('fe', 1025),
     date: { year: 1025, calendar: 'fe' },
     title: [line('Sazed becomes Harmony', ch(HOA, '82'))],
     blurb: [
@@ -672,9 +677,7 @@ export const timelineEvents: TimelineEvent[] = [
   {
     id: 'dalinar-born',
     world: 'roshar',
-    // Rosharan years sit 9791 years after the Shattering here, as Gavilar's
-    // assassination (1167) does.
-    year: 10911,
+    year: sharedYear('rosharan', 1120),
     date: { year: 1120, circa: true, calendar: 'rosharan' },
     // Coppermind gives only "the Kholin princedom in Alethkar", no town.
     map: {
@@ -705,7 +708,8 @@ export const timelineEvents: TimelineEvent[] = [
   {
     id: 'kaladin-born',
     world: 'roshar',
-    year: 10944.9,
+    // Late in the year.
+    year: sharedYear('rosharan', 1153.9),
     date: { year: 1153, calendar: 'rosharan' },
     map: {
       mapId: 'roshar',
@@ -729,7 +733,8 @@ export const timelineEvents: TimelineEvent[] = [
   {
     id: 'gavilar-assassinated',
     world: 'roshar',
-    year: 10958,
+    // 1167.10.8.4 on Jofwu's Stormlight timeline.
+    year: sharedYear('rosharan', 1167.976),
     date: {
       year: 1167,
       parts: [10],
@@ -803,7 +808,7 @@ export const timelineEvents: TimelineEvent[] = [
     // A snapshot of the Cosmere: who is where, on every world, at this moment.
     id: 'eshonai-takes-control',
     world: 'roshar',
-    year: 10964.9,
+    year: sharedYear('rosharan', 1173.95),
     date: {
       year: 1173,
       parts: [10, 6],

@@ -1,0 +1,58 @@
+{
+  "intro": [
+    {
+      "text": "A farming town in southeastern Shinovar, where Szeth grew up.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "24" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Clearmount stands near the southern coast in the Nirovah Valley. Sheep graze the surrounding grasslands, and the nearby coast is vulnerable to raids.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "rhythm-of-war", "chapter": "i-7" },
+            { "book": "wind-and-truth", "chapter": "40" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Szeth's family",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "48" },
+            { "book": "wind-and-truth", "chapter": "51" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Szeth's family lived on a homestead about an hour's walk from town. They visited Clearmount for monthly devotions, and his mother taught painting there.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "48" }]
+        },
+        {
+          "text": "The family left the homestead to live at the Stoneward monastery.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "51" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The return to Shinovar",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "51" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Szeth and Kaladin visited the old homestead while investigating the troubles in Shinovar.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "51" }]
+        }
+      ]
+    }
+  ]
+}

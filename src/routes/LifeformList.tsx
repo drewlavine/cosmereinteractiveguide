@@ -10,6 +10,7 @@ export function LifeformList() {
       title="Lifeforms"
       path="lifeforms"
       noun="lifeforms"
+      entry={{ one: 'lifeform', many: 'lifeforms' }}
     />
   )
 }

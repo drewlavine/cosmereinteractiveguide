@@ -1,0 +1,33 @@
+{
+  "intro": [
+    {
+      "text": "A warrior of the distant past who tried and failed to become a Lightweaver.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "57" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Legend",
+          "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "57" },
+            { "book": "words-of-radiance", "chapter": "87" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Malchin was said to have no equal in war, yet he was unsuited to the Lightweavers. He wanted his oaths to be simple, while their path meant speaking truths that called for a self-awareness he never reached.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "57" }]
+        },
+        {
+          "text": "The Lightweavers' spren, the Cryptics, ask their Radiants to speak personal truths before going beyond the First Ideal. Whether the Cryptics turned Malchin away or he bonded one and could not advance is unclear.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "87" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

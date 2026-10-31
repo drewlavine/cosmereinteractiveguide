@@ -27,7 +27,12 @@
       ]
     }
   ],
-  "description": [],
+  "description": [
+    {
+      "text": "The Rosharan cell learned to overcome the obstacle to carrying Stormlight offworld by blanking its Identity.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "25" }]
+    }
+  ],
   "history": [],
   "sections": [
     {
@@ -74,6 +79,24 @@
       "title": "History",
       "items": [],
       "parts": [
+        {
+          "title": [
+            {
+              "text": "Dealings with Gavilar",
+              "revealedIn": [
+                { "book": "wind-and-truth", "chapter": "prologue" }
+              ]
+            }
+          ],
+          "items": [
+            {
+              "text": "Thaidakar supplied Gavilar with information about the Heralds in exchange for delivery of Kalak to his agents.",
+              "revealedIn": [
+                { "book": "wind-and-truth", "chapter": "prologue" }
+              ]
+            }
+          ]
+        },
         {
           "title": [
             {
@@ -233,6 +256,42 @@
             {
               "text": "Shallan spares Kelek, quits the Ghostbloods and orders them out of Urithiru.",
               "revealedIn": [{ "book": "rhythm-of-war", "chapter": "115" }]
+            }
+          ]
+        },
+        {
+          "title": [
+            {
+              "text": "Seeking Mishram",
+              "revealedIn": [
+                { "book": "wind-and-truth", "chapter": "25" },
+                { "book": "wind-and-truth", "chapter": "32" },
+                { "book": "wind-and-truth", "chapter": "65" },
+                { "book": "wind-and-truth", "chapter": "119" },
+                { "book": "wind-and-truth", "chapter": "137" }
+              ]
+            }
+          ],
+          "items": [
+            {
+              "text": "Mraize left Zora in charge of the Rosharan cell before departing with Iyatil.",
+              "revealedIn": [{ "book": "wind-and-truth", "chapter": "25" }]
+            },
+            {
+              "text": "Mraize and Iyatil infiltrated the party entering the Spiritual Realm. Mraize collapsed Dalinar's perpendicularity with anti-Stormlight, cutting off the way back.",
+              "revealedIn": [{ "book": "wind-and-truth", "chapter": "32" }]
+            },
+            {
+              "text": "They pursued Ba-Ado-Mishram's prison to gain leverage over Odium.",
+              "revealedIn": [{ "book": "wind-and-truth", "chapter": "65" }]
+            },
+            {
+              "text": "Mraize used the visions to follow Shallan while Iyatil searched for the prison.",
+              "revealedIn": [{ "book": "wind-and-truth", "chapter": "119" }]
+            },
+            {
+              "text": "Shallan killed Mraize and Iyatil when they tried to reach the prison, sparing their spren.",
+              "revealedIn": [{ "book": "wind-and-truth", "chapter": "137" }]
             }
           ]
         },

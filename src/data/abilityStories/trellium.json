@@ -1,0 +1,182 @@
+{
+  "intro": [
+    {
+      "text": "A metal found in one of the Cycle's Hemalurgic spikes. It pulls away from other spikes when they come near.",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "8" }]
+    },
+    {
+      "text": "A God Metal, first found in one of the Cycle's Hemalurgic spikes, that pushes away from harmonium and from other spikes.",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "13" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Its hardness is just over nine: diamond scratches it, but it barely marks corundum. It is very brittle and melts above 3,000 degrees. Heated, it gives off the full spectrum of light, with the red going off the scale.",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "13" }]
+    },
+    {
+      "text": "Silvery, with a reddish cast and dark, rust-like red spots. It repels other Investiture, more strongly the closer it gets, so it tries to roll away from harmonium, from Hemalurgic spikes, or from an Allomancer who is burning metals.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "shadows-of-self", "chapter": "epilogue" },
+            { "book": "lost-metal", "chapter": "15" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "An unknown metal",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "shadows-of-self", "chapter": "epilogue" },
+                { "book": "lost-metal", "chapter": "13" }
+              ]
+            },
+            { "book": "lost-metal", "chapter": "8" },
+            { "book": "lost-metal", "chapter": "11" },
+            { "book": "lost-metal", "chapter": "13" },
+            { "book": "lost-metal", "chapter": "19" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The metal first turned up in spikes no one could identify: TenSoon pulled one with a reddish cast from a creature that attacked him and Wax, and Marasi showed Wax a red-spotted one from Paalm's body. MeLaan said even Harmony did not know what it was.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "shadows-of-self", "chapter": "epilogue" },
+                { "book": "lost-metal", "chapter": "13" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Marasi took a trellium spike from the Cycle; it pulled away from his other spikes.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "8" }]
+        },
+        {
+          "text": "Marasi suggested the trellium spike was why the Cycle could carry four spikes without being controlled. Wax guessed Harmony meant him to make his second earring from it.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "11" }]
+        },
+        {
+          "text": "Tested with a spectroscope, it proved to be a God Metal, and Steris saw it pushing away from harmonium.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "13" }]
+        },
+        {
+          "text": "Wax realised the Set was building a bomb of harmonium and trellium big enough to destroy a city. Harmony confirmed that the second earring should be trellium.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "19" }]
+        }
+      ]
+    }
+  ],
+  "mechanics": [
+    {
+      "title": [
+        {
+          "text": "As a spike",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "shadows-of-self", "chapter": "epilogue" },
+                { "book": "lost-metal", "chapter": "8" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "shadows-of-self", "chapter": "10" },
+                { "book": "lost-metal", "chapter": "epilogue-1" }
+              ]
+            },
+            { "book": "lost-metal", "chapter": "55" },
+            {
+              "all": [
+                { "book": "shadows-of-self", "chapter": "21" },
+                { "book": "lost-metal", "chapter": "8" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "A trellium spike can take Allomantic and Feruchemical powers and give them to a kandra.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "shadows-of-self", "chapter": "epilogue" },
+                { "book": "lost-metal", "chapter": "8" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Someone with a trellium spike can talk to others who carry Hemalurgic spikes, though not hear their thoughts, and is Connected to Autonomy's avatars, so they can speak to and sense each other. Autonomy can also act and speak through them.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "shadows-of-self", "chapter": "10" },
+                { "book": "lost-metal", "chapter": "epilogue-1" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Some people spiked with trellium have glowing red eyes at times. Granks's eyes glowed faintly as he fought Marasi, then vividly as he neared death, and faded when she pulled out his trellium spike.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "55" }]
+        },
+        {
+          "text": "Hemalurgic chimeras are made by setting a trellium spike in a living human in a particular way.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "shadows-of-self", "chapter": "21" },
+                { "book": "lost-metal", "chapter": "8" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "With harmonium",
+          "revealedIn": [
+            { "book": "lost-metal", "chapter": "69" },
+            { "book": "lost-metal", "chapter": "epilogue-4" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "An electric current softens harmonium and polarises its Investiture, one end growing more like atium and the other more like lerasium. Trellium placed between the poles sets off a violent reaction that turns some harmonium into pure energy: under half a gram wrecked a thick safe and the reinforced room around it. Such bombs work in a new way, and neither Autonomy nor Harmony fully grasps their power.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "69" }]
+        },
+        {
+          "text": "Detonating harmonium against trellium also yields a little atium and lerasium; Harmony uses this mainly to make atium.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "epilogue-4" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "granks",
+      "role": "spiked",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "55" }]
+    },
+    {
+      "characterId": "waxillium-ladrian",
+      "role": "wore an earring",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "61" }]
+    }
+  ]
+}

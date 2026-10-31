@@ -1,0 +1,26 @@
+{
+  "intro": [
+    {
+      "text": "A fishmonger on Diggen's Point who brings in some of his fish from other islands of the Emerald Sea.",
+      "revealedIn": [{ "book": "tress", "chapter": "2" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Diggen's Point",
+          "revealedIn": [{ "book": "tress", "chapter": "2" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Poloni once marked down a pound of salmon from Erik Island, thinking it was going bad, and Tress bought it; in fact it was the fish in the next barrel that were spoiling.",
+          "revealedIn": [{ "book": "tress", "chapter": "2" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

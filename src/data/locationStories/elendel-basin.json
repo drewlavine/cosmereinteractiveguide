@@ -1,0 +1,115 @@
+{
+  "intro": [
+    {
+      "text": "The region around Elendel, which sits near its centre. Its rivers, the great Irongate among them, run through the city like the spokes of a wheel, and nearly every railway follows them into the capital.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "11" }]
+    },
+    {
+      "text": "A nearly circular land ringed by mountains except along its western coast. It works as a nation in all but name, with Elendel as its capital.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "shadows-of-self", "chapter": "5" },
+            { "book": "bands-of-mourning", "chapter": "5" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "Its edge is marked by the Channerel Range to the northwest, the Faleast Range to the northeast and the Seran Range to the southeast, with passes leading out to the rugged frontier of the Roughs. To the west lie the Sea of Yomend and the Sea of Lennes. Inside, the land is mostly flat and open, with some woods.",
+      "revealedIn": [{ "book": "shadows-of-self", "chapter": "5" }]
+    },
+    {
+      "text": "Its people descend from the Originators who lived through the Catacendre, about a fifth of them Terris and the rest skaa or noble. Harmony returned their bodies to how they had been before the Lord Ruler, yet people still know their lineage, and many noble houses carried on. Some people in the east speak with thick accents.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "hero-of-ages", "chapter": "82" },
+            { "book": "alloy-of-law", "chapter": "4" },
+            { "book": "bands-of-mourning", "chapter": "3" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Harmony laid out the canals and rivers to run toward Elendel, and the first railways copied them, so trade between cities on different spokes must pass through the capital and pay its tariffs. Each outer city governs itself, but only Elendel can afford railways, and it keeps refusing the cities' requests for connecting lines; they complain of being taxed twice, once for upkeep and again in tariffs.",
+      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "5" }]
+    },
+    {
+      "text": "The land is remarkably lush: plants grow fast with no irrigation, the soil never wears out, and farmers' main struggle is harvesting quickly enough. Orchards are common, alongside wheat, carrots, potatoes and tomatoes, and the mists carry water and nourishment over the soil. People keep horses, cats and dogs and raise cows, pigs and chickens, while wolves, rabbits, boar, birds, fish and octopuses live in the wild.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "alloy-of-law", "chapter": "4" },
+            { "book": "shadows-of-self", "chapter": "17" },
+            { "book": "bands-of-mourning", "chapter": "17" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Beyond the Basin",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "alloy-of-law", "chapter": "4" },
+                { "book": "shadows-of-self", "chapter": "19" },
+                { "book": "bands-of-mourning", "chapter": "21" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Few people lived in northern Scadrial outside the Basin: Terris fundamentalists in the northwestern mountains and a handful of small towns in the Roughs. The Basin knew nothing of Southern Scadrians until the airship Brunstell crashed in Dulsing.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "alloy-of-law", "chapter": "4" },
+                { "book": "shadows-of-self", "chapter": "19" },
+                { "book": "bands-of-mourning", "chapter": "21" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "From rivalry to union",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "alloy-of-law", "chapter": "12" },
+                { "book": "bands-of-mourning", "chapter": "13" },
+                { "book": "lost-metal", "chapter": "epilogue-7" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Many in Elendel knew little of the outer cities and sometimes scoffed at their inventions. Heavy taxes and that scorn fed bitter resentment and talk of a civil war that could split the Basin into city-states. Between 348 and 350 PC, however, the Basin came together, with a National Assembly giving every city an equal voice.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "alloy-of-law", "chapter": "12" },
+                { "book": "bands-of-mourning", "chapter": "13" },
+                { "book": "lost-metal", "chapter": "epilogue-7" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

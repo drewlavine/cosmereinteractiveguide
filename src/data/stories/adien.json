@@ -1,0 +1,119 @@
+{
+  "intro": [
+    {
+      "text": "Daora's son and Lukel's brother, who lives with his family in Kiin's home in Kae.",
+      "revealedIn": [{ "book": "elantris", "chapter": "5" }],
+      "fallback": true
+    },
+    {
+      "text": "A thin-faced young man of Kae, Daora's son and Lukel's brother, who often mumbles to himself.",
+      "revealedIn": [{ "book": "elantris", "chapter": "29" }]
+    },
+    {
+      "text": "An Elantrian from Kae, son of Daora and stepson of Kiin, and brother to Lukel, Kaise and Daorn.",
+      "revealedIn": [{ "book": "elantris", "chapter": "60" }]
+    },
+    {
+      "text": "An Elantrian from Kae, Daora's son and Kiin's stepson, whose uncanny sense of distance helps Raoden reach Teod.",
+      "revealedIn": [{ "book": "elantris", "chapter": "62" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Kiin's household",
+          "revealedIn": [
+            { "book": "elantris", "chapter": "62" },
+            { "book": "elantris", "chapter": "5" },
+            "elantris",
+            { "book": "elantris", "chapter": "29" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Adien was born to Daora some seven or eight years before the Reod. Nobody knows who his father was or why he and Daora parted. As a child Adien visited Teoras.",
+          "revealedIn": [{ "book": "elantris", "chapter": "62" }]
+        },
+        {
+          "text": "Adien and his brother Lukel live in Kae with their mother Daora, her husband Kiin and their younger half-siblings Kaise and Daorn. Adien was at the family dinner when Sarene first came to the house.",
+          "revealedIn": [{ "book": "elantris", "chapter": "5" }]
+        },
+        {
+          "text": "When Kiin gave up fighting and married Daora, he adopted Adien and Lukel. About five years after the Reod, in his early teens, Adien was taken by the Shaod. His family would not let him be thrown into Elantris, so they hid his condition with makeup and kept him at home. He had never been sociable, so nobody found his absence odd. With their care he went five years without becoming Hoed, which no one had ever managed before.",
+          "revealedIn": ["elantris"]
+        },
+        {
+          "text": "Sarene quickly saw that Adien, a thin-faced boy in his late teens, had some kind of mental impairment. His family were used to his ways and paid no attention when he turned up late to meals or mumbled to himself. He was nearly always around when she visited.",
+          "revealedIn": [{ "book": "elantris", "chapter": "29" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The invasion",
+          "revealedIn": [
+            { "book": "elantris", "chapter": "60" },
+            { "book": "elantris", "chapter": "62" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "When Arelon was invaded, Adien sheltered with his family until they were captured and marched towards Elantris. He paid little attention to what was going on. Near the pyres where the Fjordell meant to burn Elantrians, he walked off towards the heap of bodies. A soldier slashed his chest, and when the cut did not bleed, everyone saw that Adien was an Elantrian. He calmly lay down among the others.",
+          "revealedIn": [{ "book": "elantris", "chapter": "60" }]
+        },
+        {
+          "text": "When Raoden restored Elantris, Adien's wounds healed and he became a true Elantrian, his skin turning silver. His old life felt like a dream: he had always known what was going on but had struggled to respond. He kept his knack for exact distances, and told Raoden how far it was to Teod so that Raoden could use Aon Tia to go to Sarene's aid.",
+          "revealedIn": [{ "book": "elantris", "chapter": "62" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Adien is a thin-faced young man in his late teens.",
+      "revealedIn": [{ "book": "elantris", "chapter": "29" }]
+    },
+    {
+      "text": "Once Elantris is restored, Adien has an Elantrian's white hair and silver skin, and looks very like Lukel.",
+      "revealedIn": [{ "book": "elantris", "chapter": "62" }]
+    },
+    {
+      "text": "Adien moves in a stiff, awkward, poorly controlled way, and has a pale face and haunted eyes. Much of what Sarene saw was shaped by the Shaod and the makeup that hid it.",
+      "revealedIn": [{ "book": "elantris", "chapter": "epilogue" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Adien often mumbles to himself and drifts in late to meals, and his family is used to his ways.",
+      "revealedIn": [{ "book": "elantris", "chapter": "29" }]
+    },
+    {
+      "text": "After Elantris is restored, Adien thinks clearly and speaks easily.",
+      "revealedIn": [{ "book": "elantris", "chapter": "62" }]
+    },
+    {
+      "text": "He can speak in full sentences, but often mutters numbers and words under his breath.",
+      "revealedIn": [{ "book": "elantris", "chapter": "epilogue" }]
+    }
+  ],
+  "abilities": [
+    {
+      "title": [
+        {
+          "text": "Sense of distance",
+          "revealedIn": [{ "book": "elantris", "chapter": "62" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Adien has a natural gift for numbers. He counts every step he takes, and the figures he mumbles are often distances. He seems to know by instinct how many strides separate any two places he has been, even if he never walked between them. As a true Elantrian he also shares their heightened body and mind, and their magic.",
+          "revealedIn": [{ "book": "elantris", "chapter": "62" }]
+        }
+      ]
+    }
+  ]
+}

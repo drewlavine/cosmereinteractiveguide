@@ -62,12 +62,14 @@ export function WorldTitle({
   state,
   hidden,
   onOpen,
+  onZoom,
 }: {
   world: WorldCardProps['world']
   state?: ShownWorldState
   /** While its dialog is open (kept, to take the focus back). */
   hidden?: boolean
   onOpen: () => void
+  onZoom?: () => void
 }) {
   // ponytail: the style being tried (worldTitleStyle.ts); with no state
   // for the chip, the name is the way in.
@@ -88,6 +90,7 @@ export function WorldTitle({
           state={state && { label: state.label, since: since(state) }}
           hidden={hidden}
           onOpen={onOpen}
+          onZoom={onZoom}
         />
       </div>
     )

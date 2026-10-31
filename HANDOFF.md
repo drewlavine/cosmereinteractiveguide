@@ -159,7 +159,35 @@ OK.
   page's alias; a name shared by two pages links nowhere; book titles and a
   `commonWords` stoplist are skipped; each page is linked once per section
   and never to itself. Tests: `src/data/textLinks.test.ts`.
-- **Stormlight Archive mass population (uncommitted, awaiting Drew's review).**
+- **Wind and Truth follow-up (uncommitted).**
+  Reconciled the 169 chapter/interlude/end sections with the existing content
+  rather than replacing the earlier batch.
+  - Character stories: 53 touched (52 expanded, one former stub populated).
+    Magic: 31 pages; Culture: 40; Lifeforms/groups: 40; Events: 11;
+    Locations: 62. Across these categories, 98 pages are newly populated.
+  - Added 18 journey turning points for ten existing journeys and two
+    chronology events. Existing chronology records and each character's
+    existing journey order are preserved. Unplaced journey events use the
+    existing empty-path representation, not invented coordinates.
+  - Provenance, per-target dispositions, source backups, input ownership and
+    validation receipts:
+    `~/.copilot/session-state/249c4643-7828-45de-8cc7-b2b80b8ed4c4/files/wind-truth-population/coverage.json`.
+    This is a finite sourced inventory, not a novel transcript.
+  - Time Machine checked all 55 affected characters, including two whose
+    journeys alone changed. Earlier character prose is unchanged across
+    64,342 renderer comparisons; location preservation checks cover another
+    32,724 reader views. Chapter/interlude boundaries, unknown chapters,
+    other-series-only readers and a reviewed name gate have focused tests.
+  - Two location passages remain conservatively gated to finishing the book;
+    speculative claims, later-book material and incidental repetitions were
+    excluded. No new art or unreviewed identity merges.
+  - Pipeline inputs remain in the established external projects. Location
+    source supplements and reviewed book additions now survive ordinary
+    regeneration. `spoiler:snapshot` accepts `CIG_FETCH` for an alternative
+    compatible headless helper and keeps response files in its existing
+    ignored output directory, cleaning them afterward.
+
+- **Earlier Stormlight Archive mass population (uncommitted, awaiting Drew's review).**
   Done by parallel agents with the brief `~/cig-char-data/SA_BATCH_BRIEF.md`;
   each wrote only its own `overrides.d/sa-*.json` and `story/<id>.json`.
   - Characters: 1,236 emitted (was 219), 1,219 with stories. Tiers by
@@ -269,7 +297,8 @@ OK.
   places). Dating: earliest book the page cites, limited to the page's own
   series; maps count as their book; world guides, Arcanum, comics and
   broadsheets don't (24 such pages left out). Checked: no Era 2 place dated
-  to Era 1. Group by A–Z, Type, World, Series, Inside; types are a first
+  to Era 1. Shown as group cards (Type, Book, World, Series, Inside, Page
+  feature) with a **List all A–Z** button; types are a first
   guess for Drew to adjust ("Other places" is broad). Tests in
   `src/locations.test.tsx` and `src/data/locationList.test.ts`.
 - **Location maps**: `LocationMaps.tsx` shows a place's own map (Luthadel),
@@ -332,17 +361,35 @@ OK.
   category rules; spoiler fixes in `overrides.json` (`revealedIn`, `kind`
   incl. `skip`, `name`, `world`, `why`) on top of `review/*.json` from an
   independent review (`review_sheet.py` makes the sheets). Dating = earliest
-  cited book, as for abilities; uncited pages are left out. Group by Type,
-  Book, World, Series; A–Z default. Not in search (Abilities aren't
+  cited book, as for abilities; uncited pages are left out. Group cards by
+  Type, Book, World, Series; **List all A–Z** is a button. Not in search
+  (Abilities aren't
   either). No entry pages yet. Tests: `src/culture.test.tsx`,
   `src/data/cultureList.test.ts`.
+
+- **List cards** (`src/components/browse/`): every list page (Characters,
+  Magic, Culture, Locations, Lifeforms, Events) is a card per group of every
+  grouping, with only the selected grouping's cards shown; the chips switch
+  groupings. One `BrowseList` takes the groupings, categories, nouns and row
+  renderer each route file hands it. URLs: no params or
+  `?group=<grouping>` the cards; `&of=<group>` that group's names
+  (`of=unsorted` is the "Not sorted yet" card); `?group=name` or a non-blank
+  `?q=` the flat A–Z list. A card's art only ever describes the group
+  (planet, cover, Shard or entry art, each gated like the page it comes
+  from), else a symbol panel whose hue depends only on the card's place in
+  the visible list, so locked art looks the same as none. Counts and "Not
+  sorted yet" count visible entries only. `listLook.ts` and `TryLayout.*`
+  are a temporary "Try a style" switcher (`?cards=poster|banner|tile`):
+  delete them, the mount in `BrowseList.tsx`
+  and hard-code the pick. Tests: each list's own test file plus
+  `src/components/browse/browse.test.ts`.
 
 - **Page feature icons** on the Characters and Locations lists
   (`src/data/pageFeatures.ts` registry, `src/components/PageFeatures.tsx`
   icons/links/legend): Travels (characters) and Map (places: own map,
   "Where it is", or a planet's interactive map / maps). Each icon links to
   `<page>#<section>`; tooltips from `data-tip` via CSS; legend under the
-  filters; **Group by → Page feature**. Gated by books alone with the
+  filters; the **Page feature** cards. Gated by books alone with the
   page's own reveal helpers (`revealCharacterTravels`, `placeMaps`,
   `interactiveMaps` were extracted for this). Hash links now keep the
   section in view while the page fades in; in Kaladin's tabbed trial the
@@ -412,8 +459,8 @@ OK.
   guesses (myths include creatures the Coppermind files as myths); 34 pages
   cited only by world guides or Words of Brandon are left out; a handful of
   late dates from the review were marked unsure (see
-  `~/cig-cult-data/review/*.json`). The list groups by Type by default
-  (Name (A–Z) is `?group=name`).
+  `~/cig-cult-data/review/*.json`). The list shows a card per Type first
+  (A–Z is `?group=name`, behind the **List all A–Z** button).
 
 - Abilities: scope, groupings and dating were my defaults while Drew was away.
   Least sure of first-naming books for Hemalurgy, Malatium, Lerasium,

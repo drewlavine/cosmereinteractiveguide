@@ -1,0 +1,34 @@
+{
+  "intro": [
+    {
+      "text": "A statue in Thaylen City that stands near the temple of Battah.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "59" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "It shows a human figure whose identity is unknown. It is so big that each of its parts takes several people to carry and ropes to haul up.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "59" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Toppled and restored",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "59" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "On Dalinar's first tour of Thaylen City, he saw that the statue had toppled from a ledge down into the Loft Wards, leaving only its feet. Queen Fen called it one of the city's sights before she noticed the damage.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "59" }]
+        },
+        {
+          "text": "After mending the temple of Talenelat, Dalinar went back with Fen's son Kdralk and ten men and healed the broken pieces back into one statue.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "59" }]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,397 @@
+{
+  "intro": [
+    {
+      "text": "A Forger whom the arbiters of the Rose Empire weigh using in a scheme to keep their power; her copy of a famous painting is almost impossible to tell from the original.",
+      "revealedIn": [{ "book": "emperors-soul", "chapter": "prologue" }],
+      "fallback": true
+    },
+    {
+      "text": "Shai, one of the finest Forgers alive, held for execution until the arbiters offer her freedom if she can Forge a new soul for the stricken Emperor Ashravan.",
+      "revealedIn": [{ "book": "emperors-soul", "chapter": "day-2" }]
+    },
+    {
+      "text": "A master Forger who, as the arbiters' prisoner, built a new soul for Emperor Ashravan and then broke out of the palace.",
+      "revealedIn": [{ "book": "emperors-soul", "chapter": "epilogue" }]
+    },
+    {
+      "text": "Moonlight, a Ghostblood who poses as Marasi Colms's driver in Bilming and tells her about Trell and Autonomy.",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "20" }]
+    },
+    {
+      "text": "Shai, one of the finest Forgers alive, who left the Rose Empire behind and now works on Scadrial with the Ghostbloods against Trell, under the codename Moonlight.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "emperors-soul", "chapter": "day-2" },
+            { "book": "lost-metal", "chapter": "36" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Moonlight, a Ghostblood agent working alongside Marasi, Wax and Wayne against the Set in Bilming.",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "40" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Training as a Forger",
+          "revealedIn": [
+            { "book": "emperors-soul", "chapter": "day-76" },
+            { "book": "emperors-soul", "chapter": "day-98" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "She began asking about becoming a Forger at eight. Her first teacher, Tao, taught her to respect the people whose perceptions she altered. As an apprentice she learned ordinary forgery of art and writing, how to tell kinds of stone apart, and above all human nature, and only after that did other mentors teach her the finer craft of making and applying soulstamps. Much of the training was half hidden, as is usual among the MaiPon.",
+          "revealedIn": [{ "book": "emperors-soul", "chapter": "day-76" }]
+        },
+        {
+          "text": "Across the years she made five Essence Marks, each the work of years and impossible to replace. For one she spent a year training among the secretive Teullu and came close to death many times.",
+          "revealedIn": [{ "book": "emperors-soul", "chapter": "day-98" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "In the Rose Palace",
+          "revealedIn": [
+            { "book": "emperors-soul", "chapter": "day-76" },
+            { "book": "emperors-soul", "chapter": "day-30" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The old painter Han ShuXen, who had tutored her as a girl, asked her to destroy Lily of the Spring Pond, his masterpiece, made for a woman he once loved, so that the Rose Empire he hated would never own it. He helped her paint a copy.",
+          "revealedIn": [{ "book": "emperors-soul", "chapter": "day-76" }]
+        },
+        {
+          "text": "She burned the original in Arbiter Frava's office, hung the copy in its place and left a weaker copy in her own room to hide the swap. Dressed as a noblewoman, she also slipped into the Imperial Gallery with the Imperial Fool to take the Moon Scepter, but he switched in her copy, kept the real one and gave her up to the guards. She was condemned to a public execution.",
+          "revealedIn": [{ "book": "emperors-soul", "chapter": "day-30" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Forging the emperor's soul",
+          "revealedIn": [
+            { "book": "emperors-soul", "chapter": "day-2" },
+            { "book": "emperors-soul", "chapter": "day-17" },
+            { "book": "emperors-soul", "chapter": "day-30" },
+            { "book": "emperors-soul", "chapter": "day-76" },
+            { "book": "emperors-soul", "chapter": "day-58" },
+            { "book": "emperors-soul", "chapter": "day-98" },
+            { "book": "emperors-soul", "chapter": "epilogue" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The day before her execution the five arbiters offered her freedom if she would Forge a new soul for Emperor Ashravan. Glory Faction assassins had put a crossbow bolt in his head, and though the wound was resealed his mind was gone. Thinking a whole soul impossible in a hundred days, she agreed anyway, hoping for the time to escape.",
+          "revealedIn": [{ "book": "emperors-soul", "chapter": "day-2" }]
+        },
+        {
+          "text": "Frava came to offer her control of the city's smuggling, and floated the idea of a back door into the emperor's new soul. Shai realised the arbiters might have her killed at any moment, not only when her hundred days ran out.",
+          "revealedIn": [{ "book": "emperors-soul", "chapter": "day-17" }]
+        },
+        {
+          "text": "Gaotona offered himself as the subject for her test stamps. When he saw that the painting she had been caught swapping was a copy, she admitted burning the original, and he walked out in anger.",
+          "revealedIn": [{ "book": "emperors-soul", "chapter": "day-30" }]
+        },
+        {
+          "text": "Over the weeks she Forged her shabby room into the finest in the palace. Gaotona tried her stamps on himself, and the two grew fond of each other until they were friends.",
+          "revealedIn": [{ "book": "emperors-soul", "chapter": "day-76" }]
+        },
+        {
+          "text": "Sure the arbiters meant to kill her and let another Forger, Nyen, finish the work, she threaded her notes with warnings about how hard the task was, to scare him off. Every arbiter but Gaotona urged her to build in a back door that would let them control the emperor, and she let them think she would.",
+          "revealedIn": [{ "book": "emperors-soul", "chapter": "day-58" }]
+        },
+        {
+          "text": "She told Gaotona the painter himself had asked her to destroy his painting, and started the last stage of the work, merging all her earlier stamps into one.",
+          "revealedIn": [{ "book": "emperors-soul", "chapter": "day-76" }]
+        },
+        {
+          "text": "On day ninety-seven she set her escape going with a letter she had forged to look as if the Bloodsealer had dropped it. The next day she finished the Mark. Zu sent her guards away and tried to kill her but fell into a trap she had laid, and with the Bloodsealer's ward broken she reached the emperor and stamped him. The new soul held.",
+          "revealedIn": [{ "book": "emperors-soul", "chapter": "day-98" }]
+        },
+        {
+          "text": "Gaotona gave back her Essence Marks and she left him a book. As Shaizan she beat Zu, smashed the Bloodsealer's Skeletals, told him to go home to the woman who loved him and took some of his blood as a safeguard.",
+          "revealedIn": [{ "book": "emperors-soul", "chapter": "day-98" }]
+        },
+        {
+          "text": "Her copy of the painting vanished from Frava's office, a rune left in the frame, and she stamped herself with her survival Mark. The book she left Gaotona held the emperor's soulstamp, with small changes meant to steer Ashravan toward the ruler he had once hoped to be.",
+          "revealedIn": [{ "book": "emperors-soul", "chapter": "epilogue" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Ghostblood agent",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "emperors-soul", "chapter": "epilogue" },
+                { "book": "lost-metal", "chapter": "36" }
+              ]
+            },
+            { "book": "lost-metal", "chapter": "20" },
+            { "book": "lost-metal", "chapter": "40" },
+            { "book": "lost-metal", "chapter": "epilogue-1" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "After leaving the Rose Empire she joined the Ghostbloods and went to work on Scadrial against the coming threat of Trell, under the codename Moonlight.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "emperors-soul", "chapter": "epilogue" },
+                { "book": "lost-metal", "chapter": "36" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Masked, she ran into Marasi Colms while Marasi broke up a Set smuggling ring in tunnels underground, and slipped her a note saying the Ghostbloods admired her work. A few days afterward she drove Marasi to a sting on the Set in Bilming, named herself Moonlight and explained Trell and Autonomy.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "20" }]
+        },
+        {
+          "text": "She helped Marasi, Wax and Wayne chase the Set until Telsin spotted her. When the group split, Marasi tricked her into leading the way to the Ghostbloods' hideout in Bilming, perhaps as she had wanted all along, and the crew there took Marasi for her new apprentice.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "40" }]
+        },
+        {
+          "text": "With the Ghostbloods' help she and Marasi found a way into the Set's tunnels. She went in with TwinSoul, carrying three jars of purified Dor that filled her with awe.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "40" }]
+        },
+        {
+          "text": "Cornered, she used a stamp to rewrite her past and became an Elantrian. With AonDor she cast an illusion of Marasi so the real Marasi could get away, then disappeared, and the Ghostbloods sent a team to find her.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "epilogue-1" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "She is small, like most MaiPon, with long straight black hair, high cheekbones and spectacles for her poor sight. Her arms carry shallow cuts where the Bloodsealer takes her blood. Her voice is low for a woman, and she swears by saying \"Nights!\"",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "emperors-soul", "chapter": "day-5" },
+            { "book": "lost-metal", "chapter": "20" }
+          ]
+        }
+      ]
+    }
+  ],
+  "personality": [
+    {
+      "text": "She delights in the thrill and craft of Forgery and counts her Forgeries as true art, bristling when anyone says otherwise. Still, a quiet life without lies sometimes tempts her. She often quotes an Uncle Won and an Aunt Sol, relatives invented for one of her Essence Marks.",
+      "revealedIn": [{ "book": "emperors-soul", "chapter": "day-76" }]
+    },
+    {
+      "text": "She follows the Unknown God. She loathes Autonomy so deeply that the hatred can cloud her judgement.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "emperors-soul", "chapter": "day-2" },
+            { "book": "lost-metal", "chapter": "20" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "title": [
+        {
+          "text": "Elantrian form",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "53" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Her skin glows in this form and her hair is pinned into a bun. She sees herself as a goddess, owed praise and offerings.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "53" }]
+        }
+      ]
+    }
+  ],
+  "abilities": [
+    {
+      "title": [
+        {
+          "text": "Forgery",
+          "revealedIn": [
+            { "book": "emperors-soul", "chapter": "day-2" },
+            { "book": "emperors-soul", "chapter": "day-70" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "She ranks among the greatest Forgers who have ever lived, above all in Soul Forgery. Flesh Forgery is one branch she has left mostly alone, since an error there tends to kill the subject.",
+          "revealedIn": [{ "book": "emperors-soul", "chapter": "day-2" }]
+        },
+        {
+          "text": "She is a gifted painter, though she mostly turns that gift to copying. She reads people well, manipulates them expertly and keeps her own feelings in check, and she knows art history and Realmatic Theory deeply.",
+          "revealedIn": [{ "book": "emperors-soul", "chapter": "day-70" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Essence Marks",
+          "revealedIn": [
+            { "book": "emperors-soul", "chapter": "day-76" },
+            { "book": "emperors-soul", "chapter": "day-98" },
+            { "book": "emperors-soul", "chapter": "epilogue" },
+            {
+              "all": [
+                { "book": "emperors-soul", "chapter": "day-98" },
+                { "book": "lost-metal", "chapter": "epilogue-1" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "One of her Essence Marks makes her a scholar who speaks a dozen tongues and knows many cultures, the sciences, mathematics and the world's main political factions. Another turns her into a seasoned woodsman and hunter who can live off the wild.",
+          "revealedIn": [{ "book": "emperors-soul", "chapter": "day-76" }]
+        },
+        {
+          "text": "Shaizan, meaning Shai of the Fist, is a warrior who spent fifteen years with the Teullu, who adopted her and taught her their fighting arts, nearly killing her many times over. Lean, hard and scarred across one cheek, she needs no spectacles, cannot make soulstamps and acts on instinct. The Mark took two years to build.",
+          "revealedIn": [{ "book": "emperors-soul", "chapter": "day-98" }]
+        },
+        {
+          "text": "A further Mark wipes out her years as a Forger and gives her a simple life of cooking, farming and sewing. In it she thinks the daily stamp is a cure from a resealer, fears travel, and gets letters from Aunt Sol and Uncle Won, hundreds of which she has already written. She vows to add Gaotona to it as a kindly grandfather.",
+          "revealedIn": [{ "book": "emperors-soul", "chapter": "day-98" }]
+        },
+        {
+          "text": "Another Mark makes her a creature of the streets: a matchless lockpick and trained contortionist who knows how to survive a city's underworld, gaunt and scarred with thinning hair. Shai dislikes thinking like a beggar.",
+          "revealedIn": [{ "book": "emperors-soul", "chapter": "epilogue" }]
+        },
+        {
+          "text": "In the long years since her escape her skill with Essence Marks has grown, and she can now make Marks that hold far longer than a single day, perhaps for good, though they might still fade.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "emperors-soul", "chapter": "day-98" },
+                { "book": "lost-metal", "chapter": "epilogue-1" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Stamps",
+          "revealedIn": [
+            { "book": "lost-metal", "chapter": "42" },
+            { "book": "lost-metal", "chapter": "54" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "She carries two stamps that work on any object for a short while: one opens a doorway, the other mends broken things. A change too far-fetched to be believable will not take.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "42" }]
+        },
+        {
+          "text": "She keeps one more stamp for the worst danger. It changes her history so that she was born in Arelon to parents who settled there, and so turns her into an Elantrian. She treats it as dangerous, because the change could stick for good.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "54" }]
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "title": [
+        {
+          "text": "Gaotona",
+          "revealedIn": [
+            { "book": "emperors-soul", "chapter": "day-30" },
+            { "book": "emperors-soul", "chapter": "day-98" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Gaotona at first disliked her, thinking her Forgery an abomination and her talent wasted.",
+          "revealedIn": [{ "book": "emperors-soul", "chapter": "day-30" }]
+        },
+        {
+          "text": "She slowly changed how he saw art, and he came to care for her. Though he would not call himself her ally, he gave back her Marks and let her go free.",
+          "revealedIn": [{ "book": "emperors-soul", "chapter": "day-98" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The Imperial Fool",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "emperors-soul", "chapter": "day-2" },
+                { "book": "lost-metal", "chapter": "20" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "She despises the Imperial Fool for tricking her and running off with the Moon Scepter. After her escape she hunted him down, and since then each has kept watch on the other, though she suspects they are really both watching the same third parties.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "emperors-soul", "chapter": "day-2" },
+                { "book": "lost-metal", "chapter": "20" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Marasi Colms",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "29" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "She takes a strong interest in Marasi and is the one who draws her toward the Ghostbloods, laying out what membership would ask of her.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "29" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Prasanva",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "42" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "She works with Prasanva in Bilming and offers to help him reach his home world, but he refuses, judging it too risky.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "42" }]
+        }
+      ]
+    }
+  ]
+}

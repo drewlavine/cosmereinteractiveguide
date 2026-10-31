@@ -1,0 +1,22 @@
+{
+  "intro": [
+    {
+      "text": "An ancient Rosharan kingdom whose capital and Oathgate were at Azimir.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "60" },
+            { "book": "oathbringer", "chapter": "87" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "Its early inhabitants were known as Makibaki.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "107" }]
+    }
+  ],
+  "history": []
+}

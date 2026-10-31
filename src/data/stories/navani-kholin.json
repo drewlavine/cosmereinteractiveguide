@@ -543,5 +543,28 @@
         }
       ]
     }
+  ],
+  "abilities": [
+    {
+      "title": [
+        {
+          "text": "Working with the Sibling",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "14" },
+            { "book": "wind-and-truth", "chapter": "105" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Through her bond, Navani could generate Towerlight, operate Urithiru's fabrials and understand their workings instinctively, without needing sleep.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "14" }]
+        },
+        {
+          "text": "Navani could find the pure tones of Roshar.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "105" }]
+        }
+      ]
+    }
   ]
 }

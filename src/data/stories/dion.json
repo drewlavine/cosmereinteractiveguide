@@ -1,0 +1,31 @@
+{
+  "intro": [
+    {
+      "text": "A young Elantrian who stands guard with a spear on the edge of New Elantris.",
+      "revealedIn": [{ "book": "elantris", "chapter": "22" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "New Elantris",
+          "revealedIn": [{ "book": "elantris", "chapter": "22" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Taken by the Shaod while still young, Dion joined Raoden's guard under Captain Saolin and kept armed watch on the borders of New Elantris.",
+          "revealedIn": [{ "book": "elantris", "chapter": "22" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Blotchy-skinned and balding like other Elantrians, but young enough that he still looks fairly sturdy.",
+      "revealedIn": [{ "book": "elantris", "chapter": "22" }]
+    }
+  ],
+  "personality": []
+}

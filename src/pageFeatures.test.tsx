@@ -90,7 +90,7 @@ describe('page feature icons', () => {
 
   it('links a traveller to their Journey, with a legend', () => {
     const [c] = travellers
-    renderAt('/characters', allBooks)
+    renderAt('/characters?group=name', allBooks)
     expect(featureLinks(c.name)).toEqual([
       [`${c.name}: Journey`, `/characters/${c.id}#journey`],
     ])
@@ -110,13 +110,13 @@ describe('page feature icons', () => {
   it('shows no Journey icon until the Journey section would show', () => {
     expect(travelHidden).toBeDefined()
     const { c, read } = travelHidden!
-    renderAt('/characters', read)
+    renderAt('/characters?group=name', read)
     expect(screen.getByRole('link', { name: c.name })).toBeInTheDocument()
     expect(featureLinks(c.name)).toEqual([])
   })
 
   it('shows no legend when no listed entry has a feature', () => {
-    renderAt('/characters')
+    renderAt('/characters?group=name')
     expect(screen.queryByRole('group', { name: 'Icon legend' })).toBeNull()
   })
 
@@ -126,7 +126,7 @@ describe('page feature icons', () => {
       scrolled.push(this.id)
     }
     const [c] = travellers
-    renderAt('/characters', allBooks)
+    renderAt('/characters?group=name', allBooks)
     await userEvent.click(
       screen.getByRole('link', { name: `${c.name}: Journey` }),
     )
@@ -152,10 +152,10 @@ describe('page feature icons', () => {
   it('links Kaladin to his Journey once its first stop is reached', async () => {
     const journeyLink = () =>
       featureLinks('Kaladin').filter(([label]) => label === 'Kaladin: Journey')
-    renderAt('/characters', [], { 'way-of-kings': 'prologue' })
+    renderAt('/characters?group=name', [], { 'way-of-kings': 'prologue' })
     expect(journeyLink()).toEqual([])
     cleanup()
-    renderAt('/characters', [], { 'way-of-kings': '1' })
+    renderAt('/characters?group=name', [], { 'way-of-kings': '1' })
     expect(journeyLink()).toEqual([
       ['Kaladin: Journey', '/characters/kaladin#journey'],
     ])
@@ -171,7 +171,7 @@ describe('page feature icons', () => {
   })
 
   it('links a place to its map, once its map’s book is read', () => {
-    renderAt('/locations', ['final-empire'])
+    renderAt('/locations?group=name', ['final-empire'])
     expect(featureLinks('Luthadel')).toEqual([
       [
         'Luthadel: Map',
@@ -227,37 +227,53 @@ describe('page feature icons', () => {
 })
 
 describe('grouping by page feature', () => {
-  const headings = () =>
-    screen.getAllByRole('heading', { level: 2 }).map((h) => h.textContent)
-  const region = (name: string) => screen.queryByRole('region', { name })
-  const inGroup = (group: string, name: string) => {
-    const r = region(group)
-    return !!r && !!within(r).queryByRole('link', { name })
+  // The group names on the cards, without the "Not sorted yet" card.
+  const cards = () =>
+    within(screen.getByRole('region', { name: 'Page feature' }))
+      .getAllByRole('link')
+      .map((a) => a.getAttribute('aria-label')?.replace(/, \d+ .+$/, ''))
+      .filter((name) => name !== 'Not sorted yet')
+  const inGroup = (
+    list: string,
+    group: string,
+    name: string,
+    read: string[],
+  ) => {
+    cleanup()
+    renderAt(`/${list}?group=feature&of=${group}`, read)
+    return !!within(screen.getByRole('article')).queryByRole('link', { name })
   }
 
   it('groups characters under each feature their page shows', () => {
     renderAt('/characters?group=feature', allBooks)
-    expect(headings()).toEqual(['Journey', 'No special features'])
-    for (const c of travellers) expect(inGroup('Journey', c.name)).toBe(true)
-    expect(inGroup('Journey', 'Kaladin')).toBe(true)
-    expect(inGroup('No special features', 'Kaladin')).toBe(false)
-    expect(screen.queryByText(/not sorted by/)).toBeNull()
+    expect(cards()).toEqual(['Journey', 'No special features'])
+    expect(
+      within(screen.getByRole('region', { name: 'Page feature' })).queryByRole(
+        'link',
+        { name: /^Not sorted yet/ },
+      ),
+    ).toBeNull()
+    for (const c of travellers) {
+      expect(inGroup('characters', 'journey', c.name, allBooks)).toBe(true)
+    }
+    expect(inGroup('characters', 'journey', 'Kaladin', allBooks)).toBe(true)
+    expect(inGroup('characters', 'no-features', 'Kaladin', allBooks)).toBe(
+      false,
+    )
   })
 
   it('keeps a hidden feature out of the groups', () => {
     renderAt('/characters?group=feature')
-    expect(headings()).toEqual(['No special features'])
-    cleanup()
+    expect(cards()).toEqual(['No special features'])
     const { c, read } = travelHidden!
-    renderAt('/characters?group=feature', read)
-    expect(inGroup('Journey', c.name)).toBe(false)
-    expect(inGroup('No special features', c.name)).toBe(true)
+    expect(inGroup('characters', 'journey', c.name, read)).toBe(false)
+    expect(inGroup('characters', 'no-features', c.name, read)).toBe(true)
   })
 
   it('groups places by their maps', () => {
     renderAt('/locations?group=feature', ['final-empire'])
-    expect(headings()).toEqual(['Map', 'No special features'])
-    expect(inGroup('Map', 'Luthadel')).toBe(true)
+    expect(cards()).toEqual(['Map', 'No special features'])
+    expect(inGroup('locations', 'map', 'Luthadel', ['final-empire'])).toBe(true)
   })
 
   it('names no group for a feature still hidden', () => {
@@ -272,6 +288,6 @@ describe('grouping by page feature', () => {
       )
     expect(found).toBeDefined()
     renderAt('/locations?group=feature', found)
-    expect(headings()).toEqual(['No special features'])
+    expect(cards()).toEqual(['No special features'])
   })
 })

@@ -1,0 +1,47 @@
+{
+  "intro": [
+    {
+      "text": "A movement among Torio's yoki-hijo toward running more of their own lives, born of a split between liberal and orthodox views of their role. Twelve of the fourteen yoki-hijo follow it.",
+      "revealedIn": [{ "book": "yumi", "chapter": "22" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Reformed yoki-hijo often eat, bathe and make other choices for themselves. They take time off to rest or see to their own affairs, and demand to retire at seventy. Orthodox wardens keep news of the movement from their yoki-hijo.",
+      "revealedIn": [{ "book": "yumi", "chapter": "23" }]
+    },
+    {
+      "text": "Opponents think it dangerous to give up tradition and see the freer way of life as weak and petulant.",
+      "revealedIn": [{ "book": "yumi", "chapter": "23" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Members and news",
+          "revealedIn": [{ "book": "yumi", "chapter": "22" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Dwookim was a very active member before she retired. Yumi knew nothing of the movement until Hwanji told her about it.",
+          "revealedIn": [{ "book": "yumi", "chapter": "22" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "dwookim",
+      "role": "active member",
+      "revealedIn": [{ "book": "yumi", "chapter": "22" }]
+    },
+    {
+      "characterId": "hwanji",
+      "role": "told Yumi",
+      "revealedIn": [{ "book": "yumi", "chapter": "22" }]
+    }
+  ]
+}

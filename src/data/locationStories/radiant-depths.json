@@ -1,0 +1,36 @@
+{
+  "intro": [
+    {
+      "text": "A deep trench in Shadesmar's Sea of Souls.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "26" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Local spren call it the great trench. Sailors know it well and prefer to stay in the shallows along its western side.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "26" }]
+    },
+    {
+      "text": "On the map, it runs from Nohadon's Stairways in the north to Nameless in the south, with a long peninsula holding the lighthouse Abiding Light alongside its southern half.",
+      "revealedIn": [
+        { "all": ["way-of-kings", "oathbringer", "rhythm-of-war"] }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "History",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "26" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Adolin and Shallan's delegation from Urithiru to Lasting Integrity sailed along the shallows beside the trench. Their peakspren crew had special tools for measuring the depth of the beads.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "26" }]
+        }
+      ]
+    }
+  ]
+}

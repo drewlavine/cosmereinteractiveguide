@@ -1,0 +1,208 @@
+{
+  "intro": [
+    {
+      "text": "A legendary war with the Voidbringers, said to have been fought long after the Last Desolation. The Vorin church dismisses it as pseudohistory, and it is known mainly through Dovcanti's epic.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "56" }]
+    },
+    {
+      "text": "A war the singers fought against humanity long after the Last Desolation, without the Fused, once the Unmade Ba-Ado-Mishram gave them forms of power. Her capture by the Radiants tore away part of the singers' minds, leaving them as parshmen.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "oathbringer", "chapter": "106" },
+            { "book": "rhythm-of-war", "chapter": "73" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "The Vorin church holds that no Voidbringers could have outlived Aharietiam, so it treats the war as pseudohistory. The main surviving account is an epic Dovcanti wrote about five centuries after the war, and few besides scholars such as Jasnah Kholin know much about it.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "56" }]
+    },
+    {
+      "text": "When Dalinar Kholin brought Jasnah and Navani Kholin into his vision of the Recreance, Jasnah suggested that the Radiants they saw had been fighting in the False Desolation.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "56" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "A war without the Fused",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "73" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Earlier Desolations began when the Heralds broke under torture in Damnation and Returned, after which the Fused Returned too, taking singers' bodies. This war was different: Odium's forces were stuck on Braize, held back by Taln, and the Unmade started a war of their own.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "38" },
+                { "book": "rhythm-of-war", "chapter": "73" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Ba-Ado-Mishram, an Unmade sometimes called a highprincess of the enemy, Connected herself to the singers much as Odium had in the Desolations. This let her grant them forms of power and Voidlight. The Radiants did not understand how she had formed this new Connection.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "106" },
+                { "book": "rhythm-of-war", "chapter": "73" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "As the fighting went on, the singers pushed toward Feverstone Keep, though the Radiants could not tell why the area drew them.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "41" },
+                { "book": "oathbringer", "chapter": "84" },
+                { "book": "rhythm-of-war", "chapter": "73" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The strike team",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "73" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Radiant scholars joined forces to find a way to stop the Voidbringers. They reasoned that an Unmade might be imprisoned like an ordinary spren, and planned to capture Ba-Ado-Mishram, which would end the singers' transformations and cut off their Voidlight.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "79" },
+                { "book": "rhythm-of-war", "chapter": "73" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "The plan needed a special prison and Melishi, the only Bondsmith of his day. No one knew everything capturing her would do to the singers. Melishi, who wanted to destroy the Voidbringers, was sure it would work, but Naze-daughter-Kuzodo warned of unforeseen effects. Believing it would end the war, the Radiants went ahead, and Ba-Ado-Mishram was captured.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "58" },
+                { "book": "oathbringer", "chapter": "107" },
+                { "book": "rhythm-of-war", "chapter": "73" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Aftermath",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "73" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "As Naze-daughter-Kuzodo had feared, the capture cost far more than expected. Because Ba-Ado-Mishram was Connected to most of the singers, her imprisonment tore part of their Connection and Identity from their souls. They were left without forms and unable to think or act for themselves: the parshmen that humans knew.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "17" },
+                { "book": "rhythm-of-war", "chapter": "73" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Binding Ba-Ado-Mishram also wounded the Sibling, whose Light fell out of rhythm, and the tower of Urithiru stopped working.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "73" }]
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Main source",
+      "name": "Dovcanti's epic",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "56" }]
+    },
+    {
+      "label": "Singers' leader",
+      "name": "Ba-Ado-Mishram",
+      "characterId": "ba-ado-mishram",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "oathbringer", "chapter": "106" },
+            { "book": "rhythm-of-war", "chapter": "73" }
+          ]
+        }
+      ]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "dovcanti",
+      "role": "Epic poet",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "56" }]
+    },
+    {
+      "characterId": "jasnah-kholin",
+      "role": "Scholar",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "56" }]
+    },
+    {
+      "characterId": "ba-ado-mishram",
+      "role": "Unmade",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "oathbringer", "chapter": "106" },
+            { "book": "rhythm-of-war", "chapter": "73" }
+          ]
+        }
+      ]
+    },
+    {
+      "characterId": "melishi",
+      "role": "Bondsmith",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "58" },
+            { "book": "oathbringer", "chapter": "107" },
+            { "book": "rhythm-of-war", "chapter": "73" }
+          ]
+        }
+      ]
+    },
+    {
+      "characterId": "naze-daughter-kuzodo",
+      "role": "Radiant",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "58" },
+            { "book": "oathbringer", "chapter": "107" },
+            { "book": "rhythm-of-war", "chapter": "73" }
+          ]
+        }
+      ]
+    },
+    {
+      "characterId": "sibling",
+      "role": "Wounded by binding",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "73" }]
+    }
+  ]
+}

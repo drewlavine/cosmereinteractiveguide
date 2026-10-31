@@ -1,0 +1,154 @@
+{
+  "intro": [
+    {
+      "text": "An Allomancer whose body has been changed by burning a metal hard and without rest for a very long time.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "16" }]
+    },
+    {
+      "text": "Someone whose body has been changed by the power they use. The ardents who Soulcast for construction on the Shattered Plains have begun to look like stone or crystal.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "35" }]
+    },
+    {
+      "text": "Someone whose body has been changed by long, intense use of an Invested art. Allomancers who flare a metal too long can become savants, and the ardents Soulcasting on the Shattered Plains have begun to look like stone or crystal.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "hero-of-ages", "chapter": "16" },
+            { "book": "words-of-radiance", "chapter": "35" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Someone whose body has been changed by long, intense use of an Invested art, such as an Allomancer who flares a metal too long or a Soulcaster who starts to take on the traits of what they create.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "hero-of-ages", "chapter": "16" },
+            { "book": "words-of-radiance", "chapter": "35" },
+            { "book": "oathbringer", "chapter": "81" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "Heavy, frequent use can make someone a savant. Savants grow much stronger in their art but often suffer dangerous effects much like withdrawal.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "16" }]
+    }
+  ],
+  "history": [],
+  "mechanics": [
+    {
+      "title": [
+        {
+          "text": "Allomantic savants",
+          "revealedIn": [
+            { "book": "hero-of-ages", "chapter": "16" },
+            {
+              "all": [
+                { "book": "hero-of-ages", "chapter": "16" },
+                { "book": "alloy-of-law", "chapter": "17" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Allomancers who flare a metal long and hard enough have their bodies changed by the constant power. For most metals the change is small: bronze burners often become savants unawares and simply gain range.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "16" }]
+        },
+        {
+          "text": "Tin savants end up with senses far keener than anyone needs, and become slaves to them.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "16" }]
+        },
+        {
+          "text": "Spook flared tin without a break for over a year, until he had to keep a cloth over his eyes to stand daylight.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "16" }]
+        },
+        {
+          "text": "Pewter is dangerous: since pewter burners feel neither pain nor exhaustion, most push past fatal injuries before they ever become savants.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "16" }]
+        },
+        {
+          "text": "A pewter savant recovers from injury fast, if more slowly than a Feruchemist drawing health from a goldmind.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "hero-of-ages", "chapter": "16" },
+                { "book": "alloy-of-law", "chapter": "17" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Soulcasting savants",
+          "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "35" },
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "35" },
+                { "book": "oathbringer", "chapter": "81" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The ardents Soulcasting for construction on the Shattered Plains have begun to look like stone or crystal.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "35" }]
+        },
+        {
+          "text": "Soulcasters gradually take on the traits of the substances they make. Kaza's body is becoming smoke. Ithi and her sister, who made grain nonstop through the siege of Kholinar, have vines growing beneath their skin.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "35" },
+                { "book": "oathbringer", "chapter": "81" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "spook",
+      "role": "Tin savant",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "16" }]
+    },
+    {
+      "characterId": "kaza",
+      "role": "Soulcaster",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "35" },
+            { "book": "oathbringer", "chapter": "81" }
+          ]
+        }
+      ]
+    },
+    {
+      "characterId": "ithi",
+      "role": "Soulcaster",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "35" },
+            { "book": "oathbringer", "chapter": "81" }
+          ]
+        }
+      ]
+    }
+  ]
+}

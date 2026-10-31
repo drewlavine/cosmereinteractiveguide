@@ -1,0 +1,57 @@
+{
+  "intro": [
+    {
+      "text": "A lullaby Shallan Davar's father sang to her when she was a child.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "10" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Lin Davar sang it to young Shallan, above all when she was scared or screamed in the night, and he held her and sang it on the night she had to kill her mother. The lullaby runs through her most painful memories.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "73" },
+            { "book": "oathbringer", "chapter": "82" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Shallan's memories",
+          "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "10" },
+            { "book": "words-of-radiance", "chapter": "73" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "One terrible night when Shallan was a girl, with her mother's body lying in the room, her father wiped blood from her face and sang her the lullaby as he put her to bed.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "10" }]
+        },
+        {
+          "text": "As her father died at her hands, Shallan wept and whispered to him the lullaby he had once sung to comfort her.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "73" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "lin-davar",
+      "role": "sang it",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "10" }]
+    },
+    {
+      "characterId": "shallan-davar",
+      "role": "sang it",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "73" }]
+    }
+  ]
+}

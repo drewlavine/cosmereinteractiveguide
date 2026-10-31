@@ -1,0 +1,54 @@
+{
+  "intro": [
+    {
+      "text": "A creature of the waters around the Pantheon, seen as a shadow moving beneath the waves.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "2" }]
+    },
+    {
+      "text": "A huge, many-legged, crab-like predator of First of the Sun, also called a shadow, that lives only in the waters around the Pantheon.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "24" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "A deepwalker is as wide as six narrowboats lashed side by side, with claw- or tusk-like parts, each the thickness of a man's upper arm, sharp enough to score rock. Before the Ones Above came, few people had seen one out of the water, so artists short of good descriptions often painted them as serpents like the Dakwara, the Eelakin snake god said to have endless coils reaching into every ocean.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "24" }]
+    },
+    {
+      "text": "Many Eelakin scientists cannot explain why they keep to the waters near the Pantheon. They find prey by sensing the minds of living creatures, so a boat without weapons needs a mind-shielding Aviar to protect it. They hunt in open water but can also burst from the sea to snatch prey on the beach, killing it at once and hauling it under the waves to eat. Small fare such as slimfish does not interest them.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "24" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Attacks near the Pantheon",
+          "revealedIn": [
+            { "book": "isles-of-the-emberdark", "chapter": "4" },
+            { "book": "isles-of-the-emberdark", "chapter": "24" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "On Patji's shore, Dusk found a wrecked Northern Interests Trading Company camp and worked out that a shadow had struck it; perhaps six survivors had fled into the jungle.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "4" }]
+        },
+        {
+          "text": "Ironhull warships are able to attack deepwalkers and fend them off, and they killed several while the Pantheon islands were being tamed.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "24" }]
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Found near",
+      "name": "Pantheon",
+      "placeId": "pantheon",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "24" }]
+    }
+  ],
+  "people": []
+}

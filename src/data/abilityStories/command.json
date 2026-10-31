@@ -1,0 +1,199 @@
+{
+  "intro": [
+    {
+      "text": "The instruction an Awakener speaks to an object while Awakening it, telling it what to do.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "prologue" }]
+    },
+    {
+      "text": "The instruction an Awakener speaks, in their own language and with its meaning pictured in mind, to tell an Awakened object what to do. At the Tenth Heightening it can be given silently.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "58" }]
+    },
+    {
+      "text": "An instruction, given with Intent, that some uses of Investiture require. The Dawnshards, the four original Commands, were used to make the cosmere.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "oathbringer", "chapter": "113" },
+            { "book": "dawnshard", "chapter": "19" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "When an Awakener brings an object to life, they speak a Command that tells it what to do.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "prologue" }]
+    },
+    {
+      "text": "Before speaking a Command, the Awakener must shape it in their mind, so it carries the right intent.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "33" }]
+    },
+    {
+      "text": "Commands are normally spoken clearly in the Awakener's own language, though a strong enough Connection lets another language work, and at the Tenth Heightening they can be given in the mind. The Awakener usually has to touch the target, but at the Ninth Heightening anything within earshot can be Awakened.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "58" }]
+    },
+    {
+      "text": "Picturing the Command clearly matters, above all for complex ones, yet an Awakened object is still bound by the Command's exact words. Some Commands with the same result, such as making a Lifeless, cost less Breath than others.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "58" }]
+    },
+    {
+      "text": "Across the cosmere, some uses of Investiture need a Command, made with Intent.",
+      "revealedIn": [{ "book": "dawnshard", "chapter": "19" }]
+    }
+  ],
+  "history": [],
+  "sections": [
+    {
+      "title": "Examples",
+      "items": [],
+      "parts": [
+        {
+          "title": [
+            {
+              "text": "Dawnshards",
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "oathbringer", "chapter": "113" },
+                    { "book": "dawnshard", "chapter": "19" }
+                  ]
+                }
+              ]
+            }
+          ],
+          "items": [
+            {
+              "text": "Four primal Commands, the Dawnshards, were used to make the cosmere, and they played a role in the Shattering of Adonalsium. A person can absorb a Dawnshard and become it, and one can also be held in an object, such as the mural at Akinah.",
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "oathbringer", "chapter": "113" },
+                    { "book": "dawnshard", "chapter": "19" }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "A Dawnshard seems useless without another way to use Investiture, but it can greatly strengthen other Invested Arts. One embodies a god's wish to remake things for the better, the power of change, and one differs somehow from the rest.",
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "oathbringer", "chapter": "113" },
+                    { "book": "dawnshard", "chapter": "19" }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": [
+            {
+              "text": "Awakening",
+              "revealedIn": [
+                { "book": "warbreaker", "chapter": "prologue" },
+                { "book": "warbreaker", "chapter": "35" },
+                { "book": "warbreaker", "chapter": "51" }
+              ]
+            }
+          ],
+          "items": [
+            {
+              "text": "Locked in a cell, Vasher Awakened a straw figure and Commanded it to fetch the keys.",
+              "revealedIn": [{ "book": "warbreaker", "chapter": "prologue" }]
+            },
+            {
+              "text": "Vivenna managed her first Command, \"Untie\", once she remembered to picture what she wanted.",
+              "revealedIn": [{ "book": "warbreaker", "chapter": "35" }]
+            },
+            {
+              "text": "Nightblood was Awakened with the Command \"Destroy evil\"; making him needed a thousand Breaths and the Ninth Heightening.",
+              "revealedIn": [{ "book": "warbreaker", "chapter": "51" }]
+            }
+          ]
+        },
+        {
+          "title": [
+            {
+              "text": "Stoneshaping",
+              "revealedIn": [{ "book": "rhythm-of-war", "chapter": "prologue" }]
+            }
+          ],
+          "items": [
+            {
+              "text": "Stoneshaping, and reshaping things with the Surge of Cohesion in general, often needs a Command, spoken or given in the mind. Stone, among the hardest materials to Soulcast, answers a Stoneshaper's Commands and Intent readily and can link them by Connection to times long past.",
+              "revealedIn": [{ "book": "rhythm-of-war", "chapter": "prologue" }]
+            }
+          ]
+        },
+        {
+          "title": [
+            {
+              "text": "Hemalurgy",
+              "revealedIn": [{ "book": "lost-metal", "chapter": "47" }]
+            }
+          ],
+          "items": [
+            {
+              "text": "Scadrian scientists testing Hemalurgy that doesn't kill find it easier to spike someone safely while using a Command, though speaking one isn't strictly needed.",
+              "revealedIn": [{ "book": "lost-metal", "chapter": "47" }]
+            }
+          ]
+        },
+        {
+          "title": [
+            {
+              "text": "Other uses",
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "rhythm-of-war", "chapter": "97" },
+                    { "book": "lost-metal", "chapter": "64" }
+                  ]
+                }
+              ]
+            }
+          ],
+          "items": [
+            {
+              "text": "Khriss thinks Navani Kholin's way of making anti-Investiture needs a Command as well as Intent. Navani only thinks about the Intent, so the Command may be unspoken or even unconscious.",
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "rhythm-of-war", "chapter": "97" },
+                    { "book": "lost-metal", "chapter": "64" }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Passing through a perpendicularity also takes a Command, though not a spoken one.",
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "rhythm-of-war", "chapter": "97" },
+                    { "book": "lost-metal", "chapter": "64" }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "vasher",
+      "role": "Awakener",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "prologue" }]
+    },
+    {
+      "characterId": "vivenna",
+      "role": "Awakener",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "35" }]
+    }
+  ]
+}

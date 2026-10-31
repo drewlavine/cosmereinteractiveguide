@@ -1,0 +1,107 @@
+{
+  "intro": [
+    {
+      "text": "An old friend of Kenton's who comes to the Diem soon after learning that Kenton survived.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "6" }]
+    },
+    {
+      "text": "Kenton's friend since boyhood and the estranged son of Lord General Raagent, back on Dayside after about three years on Darkside.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "11" }]
+    },
+    {
+      "text": "Kenton's friend since boyhood, who reluctantly takes up his murdered father Raagent's post of Lord General.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "17" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Return to Kezare",
+          "revealedIn": [
+            { "book": "white-sand-omnibus", "chapter": "11" },
+            { "book": "white-sand-omnibus", "chapter": "6" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Aarik had been Kenton's friend since boyhood. Disowned by his father, Lord General Raagent, he left for Darkside about three years before the attack on the Diem, and came back to see Kenton and to speak with his father.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "11" }]
+        },
+        {
+          "text": "Having believed Kenton dead for two weeks, Aarik reached the Diem just after his friend was named acting Lord Mastrell. They caught up, and he slept in Kenton's rooms before being given quarters of his own. He doubted Kenton's suspicion that Drile was behind the attack on the Diem.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "6" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Helping Kenton",
+          "revealedIn": [
+            { "book": "white-sand-omnibus", "chapter": "15" },
+            { "book": "white-sand-omnibus", "chapter": "11" },
+            { "book": "white-sand-omnibus", "chapter": "16" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "He went with Kenton to lobby many of the Taishin, his father among them. After he pulled Raagent away from a karak during a hunt, the two seemed partly reconciled.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "15" }]
+        },
+        {
+          "text": "After helping search the Diem for its missing lak and hearing of the assassins' ambush in Lonzare, he saw how dangerous Kenton's position had become and thought about leaving him to it, but stayed out of friendship and because he believed in the cause.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "11" }]
+        },
+        {
+          "text": "On the boat back from Lraezare, with Kenton unable to defend himself, Aarik had to choose between letting him die and fighting. He fought and killed six Kerztian attackers, and afterwards turned cold and formal.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "16" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Lord General",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "18" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "At Kenton's request he reluctantly took his father's title to secure the Tower's vote, growing still more withdrawn. In the Taishin's final vote he backed the Diem.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "18" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Brown hair cut short on one side and long to the shoulder on the other. He favours practical clothes, a cape and belt pouches, and his skin is tanned, probably from his time on Darkside.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "11" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Sarcastic and flippant even in danger, with little respect for authority, though something more sincere shows under the jokes.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "16" }]
+    }
+  ],
+  "abilities": [
+    {
+      "title": [
+        {
+          "text": "Skills",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "16" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Quick enough to dodge an armed foe at close quarters without drawing his own weapon; a skilled tonk rider and swordsman.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "16" }]
+        }
+      ]
+    }
+  ]
+}

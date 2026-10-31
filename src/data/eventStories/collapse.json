@@ -1,0 +1,152 @@
+{
+  "intro": [
+    {
+      "text": "The night the Final Empire came to an end, when the skaa of Luthadel rose up and the Lord Ruler was killed, bringing Kelsier's plan to completion.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "38" },
+            { "book": "shadows-of-self", "chapter": "17" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The uprising",
+          "revealedIn": [
+            { "book": "final-empire", "chapter": "35" },
+            { "book": "final-empire", "chapter": "38" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "After the Lord Ruler killed Kelsier, the kandra OreSeur used Kelsier's bones to convince the skaa that he had returned from the dead. Stirred by his sacrifice and seeming power, the skaa revolted, and Kelsier's crew helped them take key parts of the city.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "35" }]
+        },
+        {
+          "text": "The Lord Ruler let the riots run on, sure he could crush them and glad they would humble the nobility. Seeing how dangerous he was, Vin went to Kredik Shaw to face him. Misled by the Eleventh Metal, she was caught by two Steel Inquisitors, but with help from Sazed, Elend Venture and Marsh she broke free and killed the Lord Ruler.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "38" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Aftermath",
+          "revealedIn": [
+            { "book": "final-empire", "chapter": "epilogue" },
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "epilogue" },
+                { "book": "well-of-ascension", "chapter": "3" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "With the Lord Ruler dead and the city's troops beaten by the skaa, the Final Empire's authority was gone. The rebels set out to kill anyone tied to the old regime until Elend's speech on his hopes for a new kind of government held them back, while Breeze Soothed the crowds.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "epilogue" }]
+        },
+        {
+          "text": "Elend led Luthadel's prominent people in forming a new government and was crowned king of the Central Dominance. With no Lord Ruler holding the empire together, nobles elsewhere began seizing power, notably Straff Venture in the north and Cett in the west.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "epilogue" },
+                { "book": "well-of-ascension", "chapter": "3" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Plan",
+      "name": "Survivor's Gambit",
+      "revealedIn": [{ "book": "shadows-of-self", "chapter": "17" }]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "kelsier",
+      "role": "planner",
+      "revealedIn": [{ "book": "shadows-of-self", "chapter": "17" }]
+    },
+    {
+      "characterId": "lord-ruler",
+      "role": "emperor",
+      "revealedIn": [{ "book": "final-empire", "chapter": "38" }]
+    },
+    {
+      "characterId": "oreseur",
+      "role": "kandra",
+      "revealedIn": [{ "book": "final-empire", "chapter": "35" }]
+    },
+    {
+      "characterId": "vin",
+      "role": "Mistborn",
+      "revealedIn": [{ "book": "final-empire", "chapter": "38" }]
+    },
+    {
+      "characterId": "sazed",
+      "role": "Vin's ally",
+      "revealedIn": [{ "book": "final-empire", "chapter": "38" }]
+    },
+    {
+      "characterId": "elend-venture",
+      "role": "new king",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "epilogue" },
+            { "book": "well-of-ascension", "chapter": "3" }
+          ]
+        }
+      ]
+    },
+    {
+      "characterId": "marsh",
+      "role": "Vin's ally",
+      "revealedIn": [{ "book": "final-empire", "chapter": "38" }]
+    },
+    {
+      "characterId": "breeze",
+      "role": "Soother",
+      "revealedIn": [{ "book": "final-empire", "chapter": "epilogue" }]
+    },
+    {
+      "characterId": "ashweather-cett",
+      "role": "Western ruler",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "epilogue" },
+            { "book": "well-of-ascension", "chapter": "3" }
+          ]
+        }
+      ]
+    },
+    {
+      "characterId": "straff-venture",
+      "role": "Northern ruler",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "epilogue" },
+            { "book": "well-of-ascension", "chapter": "3" }
+          ]
+        }
+      ]
+    }
+  ]
+}

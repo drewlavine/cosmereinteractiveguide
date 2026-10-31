@@ -1,0 +1,142 @@
+{
+  "intro": [
+    {
+      "text": "A noble house of the Final Empire, fifth in power among the ten Great Houses of Luthadel.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "9" }]
+    },
+    {
+      "text": "A noble house of Scadrial: fifth of Luthadel's Great Houses in the Final Empire, and still a powerful house in Elendel.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "9" },
+            { "book": "shadows-of-self", "chapter": "18" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "It is a political rival of House Venture, though Jastes Lekal is a friend of Elend Venture.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "18" }]
+    },
+    {
+      "text": "Its money is steady next to some Luthadel houses, though far short of Venture's wealth. Like the other Great Houses it throws lavish balls, and its members go to other keeps' balls to scheme and gossip.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "28" }]
+    },
+    {
+      "text": "Keep Lekal's ballroom is a pyramid of five platforms: a large one in the middle for dancing and four smaller ones for dining. Four tiers of balconies look down on it, and its stained glass, among the finest in Luthadel, shows the Lord Ruler's Ascension, famous noblemen, and far-off lands and beasts.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "28" }]
+    },
+    {
+      "text": "A defensive wall surrounds the keep, making it easier to hold than most.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "36" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The house war",
+          "revealedIn": [
+            { "book": "final-empire", "chapter": "31" },
+            { "book": "final-empire", "chapter": "28" },
+            { "book": "final-empire", "chapter": "29" },
+            { "book": "final-empire", "chapter": "30" },
+            { "book": "final-empire", "chapter": "37" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Jastes, Elend and other young noblemen who might have been rivals talk philosophy and politics, often idealistically. They secretly read banned books and imagine a better life under the Lord Ruler, but never seriously think of rebelling. Elend trusts Jastes enough to tell him things a noble would not usually share with a rival.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "31" }]
+        },
+        {
+          "text": "Vin, as Valette Renoux, starts rumours at a ball at Keep Lekal.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "28" }]
+        },
+        {
+          "text": "Kelsier crawls through a drainage ditch under Keep Lekal's wall to carry out sabotage.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "29" }]
+        },
+        {
+          "text": "Jastes grows suspicious of Valette. Her rumours backfire, making Elend and his friends, Jastes among them, the targets of a failed assassination.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "30" }]
+        },
+        {
+          "text": "When the skaa rise in Luthadel, Elend sends his last soldiers to Keep Lekal despite the rivalry, believing the nobles must stand together. Keep Lekal holds out longer than some of the other great keeps.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "37" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Kingdom in the south",
+          "revealedIn": [
+            { "book": "well-of-ascension", "chapter": "42" },
+            { "book": "well-of-ascension", "chapter": "19" },
+            { "book": "well-of-ascension", "chapter": "53" },
+            { "book": "hero-of-ages", "chapter": "4" },
+            { "book": "hero-of-ages", "chapter": "61" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Jastes, now leading his house, tries to rule its southern lands by the ideals he and Elend once discussed, but rivals who keep to the old ruthless ways beat him. Many Lekals are killed, Jastes's sister among them.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "42" }]
+        },
+        {
+          "text": "Sazed is captured by koloss led by Jastes, who asks him to be his steward, then lets him go with word that he will ally with Elend.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "19" }]
+        },
+        {
+          "text": "Jastes keeps his koloss in line by paying them with fake coins, shrugging off the harm they do, and joins Straff Venture and Ashweather Cett in besieging Luthadel. He loses control of the koloss, who bring death and ruin to the city and even storm Keep Lekal. Elend feels he has no choice but to execute his old friend.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "53" }]
+        },
+        {
+          "text": "Audil, Jastes's uncle, takes his place as king in the south. The house's southern estate, a manor house with no palace, has become a shantytown called Lekal City.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "4" }]
+        },
+        {
+          "text": "Bandits and koloss have taken most of Audil's kingdom, but he still holds enough land near Luthadel to worry Elend. Sazed and Breeze visit Lekal City and press him to sign a treaty joining the New Empire.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "4" }]
+        },
+        {
+          "text": "As Scadrial grows unstable, lava from an ashmount destroys Lekal City and the land around it, killing King Audil and many of his loyal people.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "61" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "In Elendel",
+          "revealedIn": [{ "book": "shadows-of-self", "chapter": "18" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "House Lekal survives and holds a good deal of political power. As the chief rivals of Governor Replar Innate, the Lekals stay out of his bribery and corrupt dealings.",
+          "revealedIn": [{ "book": "shadows-of-self", "chapter": "18" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "jastes-lekal",
+      "role": "member",
+      "revealedIn": [{ "book": "final-empire", "chapter": "18" }]
+    },
+    {
+      "characterId": "audil-lekal",
+      "role": "king",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "4" }]
+    }
+  ]
+}

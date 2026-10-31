@@ -1,0 +1,49 @@
+{
+  "intro": [
+    {
+      "text": "A fruit that grows in Azir, often made into jam.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "42" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Smoke from the plant's burning leaves and stalks is intoxicating and brings euphoria, while the berries themselves are safe to eat.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "42" }]
+    },
+    {
+      "text": "Legend has it that eating the berry or its jam makes a person speak only truth until the following sunset. Groups meet to burn the plant's leaves and stalks while eating the berries, which makes for lively nights.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "42" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "A picnic in Kharbranth",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "42" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "On a picnic, Shallan and Kabsal ate truthberry jam. When he told her the legend behind the name, she said she was surprised they weren't called birthberries.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "42" }]
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Grows in",
+      "name": "Azir",
+      "placeId": "azir",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "42" }]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "kabsal",
+      "role": "shared it",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "42" }]
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "intro": [
+    {
+      "text": "An Elantrian, once a street cleaner, who joins Raoden's band in Elantris hoping to learn its secret for easing the pain.",
+      "revealedIn": [{ "book": "elantris", "chapter": "13" }]
+    },
+    {
+      "text": "An Elantrian, once a street cleaner, who joins Raoden's band and leads the work of scrubbing the city clean.",
+      "revealedIn": [{ "book": "elantris", "chapter": "16" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Cleaner in Elantris",
+          "revealedIn": [
+            { "book": "elantris", "chapter": "13" },
+            { "book": "elantris", "chapter": "16" },
+            { "book": "elantris", "chapter": "60" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Hearing rumours that Raoden's followers felt neither hunger nor pain, Kahar became the first Elantrian to come and join them of his own accord. He was put to work scrubbing the slime from the walls and floors of their chapel with collected rainwater.",
+          "revealedIn": [{ "book": "elantris", "chapter": "13" }]
+        },
+        {
+          "text": "Once Kahar's work had revealed how beautiful the chapel was, Raoden asked him to clean the streets too and gave him helpers. Kept busy, Kahar found he could forget his hunger.",
+          "revealedIn": [{ "book": "elantris", "chapter": "16" }]
+        },
+        {
+          "text": "When Derethi soldiers and monks attacked New Elantris, Galladon came upon Kahar, left without his legs and one arm by the fighting.",
+          "revealedIn": [{ "book": "elantris", "chapter": "60" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "An old, thin, stooped man who looks even more aged than most Elantrians, and walks with a hobble.",
+      "revealedIn": [{ "book": "elantris", "chapter": "16" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Polite and used to serving others, he was listless and suffering before he found work. Given a task, he proves tireless and resourceful, takes real pride in it, and likes things done properly.",
+      "revealedIn": [{ "book": "elantris", "chapter": "25" }]
+    }
+  ]
+}

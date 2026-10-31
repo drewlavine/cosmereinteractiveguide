@@ -1,0 +1,54 @@
+{
+  "intro": [
+    {
+      "text": "Worms that live around the pool and can float on the not-water beyond it.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "11" }]
+    },
+    {
+      "text": "Invested parasitic worms that live only on Patji, an island of First of the Sun's Pantheon. They are key to turning birds into Aviar, and can be made into a paste that lets objects float on the unsea.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "18" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "They make their home in the fruit that grows on the Cakoban's finger trees ringing Patji's Eye. When a young bird eats the fruit, the worms survive inside it and form a partnership with the bird, giving it a talent that depends on its species.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "18" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Secrets of the worms",
+          "revealedIn": [
+            { "book": "isles-of-the-emberdark", "chapter": "29" },
+            { "book": "isles-of-the-emberdark", "chapter": "17" },
+            { "book": "isles-of-the-emberdark", "chapter": "21" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Trappers knew how the worms were tied to the Aviar but kept it hidden from the homeislers until Vathi found out. Around two years after that, it was discovered by chance that the worms float on the not-water of the unsea, and that crushing them gives a paste, known as luminist, that lets anything coated in it float there for a while.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "29" }]
+        },
+        {
+          "text": "The scientist Ruen showed Dusk a glowing paste made from the local worms; anything coated in it could rest on the not-water.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "17" }]
+        },
+        {
+          "text": "Dusk smeared the paste, called luminist, over the hull of his small boat so it would float on the not-water, and took every bit that was left for his voyage.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "21" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "ruen",
+      "role": "made the paste",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "17" }]
+    }
+  ]
+}

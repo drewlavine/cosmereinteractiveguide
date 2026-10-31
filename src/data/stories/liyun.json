@@ -1,0 +1,182 @@
+{
+  "intro": [
+    {
+      "text": "Yumi's warden, who oversees her day of rituals and discourages her wish to see the Festival of Reveals.",
+      "revealedIn": [{ "book": "yumi", "chapter": "2" }],
+      "fallback": true
+    },
+    {
+      "text": "Yumi's stern warden, and also the stable nightmare that Nikaro has been hunting in Kilahito.",
+      "revealedIn": [{ "book": "yumi", "chapter": "34" }]
+    },
+    {
+      "text": "The warden of the yoki-hijo Yumi. The father machine took her life long ago, but her soul lived on as a nightmare.",
+      "revealedIn": [{ "book": "yumi", "chapter": "39" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Yumi's warden",
+          "revealedIn": [
+            { "book": "yumi", "chapter": "2" },
+            { "book": "yumi", "chapter": "6" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "When Yumi hinted that she would like to see the Festival of Reveals in Torio City, Liyun firmly talked her out of it. She also set the pace of Yumi's day, telling her when to move on to the place of ritual.",
+          "revealedIn": [{ "book": "yumi", "chapter": "2" }]
+        },
+        {
+          "text": "When Yumi collapsed after drawing a record number of spirits, Liyun scolded her, worried that she had either been idle before or was now pushing herself too hard.",
+          "revealedIn": [{ "book": "yumi", "chapter": "6" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The father machine",
+          "revealedIn": [{ "book": "yumi", "chapter": "39" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Switching on the father machine consumed Liyun's soul. The machine then set her beside Yumi to live the same day over and over for some seventeen centuries. By night she became a nightmare with no mind of her own, drawn to the imaginations of Kilahito's people, and at times the machine drove her directly.",
+          "revealedIn": [{ "book": "yumi", "chapter": "39" }]
+        },
+        {
+          "text": "Liyun was the nightmare that a freed spirit followed into Kilahito. There Nikaro kept her from killing a boy by painting at her, and she got away before he could finish.",
+          "revealedIn": [{ "book": "yumi", "chapter": "39" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Nikaro in Yumi's place",
+          "revealedIn": [
+            { "book": "yumi", "chapter": "12" },
+            { "book": "yumi", "chapter": "18" },
+            { "book": "yumi", "chapter": "23" },
+            { "book": "yumi", "chapter": "29" },
+            { "book": "yumi", "chapter": "39" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Once Nikaro began waking in Yumi's body, Liyun dismissed his attempt to explain as a lie. The next day she criticised him for collapsing during the ritual, and Yumi had him apologise.",
+          "revealedIn": [{ "book": "yumi", "chapter": "12" }]
+        },
+        {
+          "text": "To give them time to practise, Liyun arranged with Gongsha's leaders for the use of the town's place of ritual, and found gloves so that Nikaro could handle the hot stones.",
+          "revealedIn": [{ "book": "yumi", "chapter": "18" }]
+        },
+        {
+          "text": "Liyun met Nikaro's new habit of feeding himself with pointed disapproval, and admitted she had heard of the scholars' machines. When Yumi learned of the reform movement, Liyun conceded that she had hidden it from her, though she expected the rebellion to be short-lived.",
+          "revealedIn": [{ "book": "yumi", "chapter": "23" }]
+        },
+        {
+          "text": "For weeks Liyun went on serving and advising 'Yumi' as she worked to regain her skill, treating Nikaro just as she would have treated Yumi herself.",
+          "revealedIn": [{ "book": "yumi", "chapter": "29" }]
+        },
+        {
+          "text": "By night Liyun kept returning to Kilahito in search of Yumi. Grown stable, she attacked Yumi there, until Nikaro's painting drove her off again.",
+          "revealedIn": [{ "book": "yumi", "chapter": "39" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Confronting the scholars",
+          "revealedIn": [
+            { "book": "yumi", "chapter": "34" },
+            { "book": "yumi", "chapter": "36" },
+            { "book": "yumi", "chapter": "37" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Liyun gave Nikaro a map of Torio, which showed that his world and Yumi's overlapped. When he said the spirits wanted the scholars' machine destroyed, she agreed to help, sent for the bailiff and went with them to the scholars' tent.",
+          "revealedIn": [{ "book": "yumi", "chapter": "34" }]
+        },
+        {
+          "text": "At the tent, everyone around them began turning into nightmares. As Liyun changed completely, Nikaro realised that she was the stable nightmare he had been tracking.",
+          "revealedIn": [{ "book": "yumi", "chapter": "34" }]
+        },
+        {
+          "text": "With Nikaro cut off from Yumi, Liyun grew vague and forgetful. He sought her out in nightmare form and reminded her of her duty; she spoke to him, said she wished to be human again, told him Yumi's memory was wiped every day, and warned that the machine would send an army against Kilahito as it had against Futinoro.",
+          "revealedIn": [{ "book": "yumi", "chapter": "36" }]
+        },
+        {
+          "text": "Liyun promised to take Yumi's drawing from the carnival back to her. Dishevelled the next morning, she let Yumi go to the festival and dropped the drawing where Yumi would pick it up, bringing her memories back.",
+          "revealedIn": [{ "book": "yumi", "chapter": "37" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Human again",
+          "revealedIn": [
+            { "book": "yumi", "chapter": "40" },
+            { "book": "yumi", "chapter": "41" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "When the nightmares attacked Kilahito, Nikaro recognised Liyun among them and painted her as she had looked in life. She held on to her human shape, and he went on to restore the other villagers in the same way.",
+          "revealedIn": [{ "book": "yumi", "chapter": "40" }]
+        },
+        {
+          "text": "Once the father machine was destroyed, Liyun faded away with the other restored Torish people.",
+          "revealedIn": [{ "book": "yumi", "chapter": "41" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "A tall woman who usually wears a severe black tobok with a white bow, keeps her hair up, and has a taste for fashionable shoes.",
+      "revealedIn": [{ "book": "yumi", "chapter": "39" }]
+    },
+    {
+      "text": "As a nightmare she is a dark, wolfish creature with pale white eyes and backward-jointed legs. Once fully stable she reaches about eleven feet and has teeth.",
+      "revealedIn": [{ "book": "yumi", "chapter": "39" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Liyun is stern and exacting, quick to scold Yumi when she seems to fall short and to discourage any wish beyond her duties.",
+      "revealedIn": [{ "book": "yumi", "chapter": "6" }],
+      "fallback": true
+    },
+    {
+      "text": "She takes her role very seriously and believes firmly in seeing that Yumi does her duty well. Nikaro thinks she treats Yumi unfairly and deals in backhanded compliments, yet underneath she wants to help.",
+      "revealedIn": [{ "book": "yumi", "chapter": "39" }]
+    }
+  ],
+  "abilities": [
+    {
+      "title": [
+        {
+          "text": "As a nightmare",
+          "revealedIn": [{ "book": "yumi", "chapter": "34" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "In nightmare form Liyun can become almost wholly insubstantial and pass through walls. She senses thoughts, fear above all, and feeds on them and on Investiture, which gives her more substance; she came close to full stability.",
+          "revealedIn": [{ "book": "yumi", "chapter": "34" }]
+        }
+      ]
+    }
+  ]
+}

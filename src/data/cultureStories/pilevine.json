@@ -1,0 +1,39 @@
+{
+  "intro": [
+    {
+      "text": "A plant of Roshar bearing stringy red fruit, which Alethi soldiers on the Shattered Plains eat.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "57" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "In the Drunmu Basin, pilevines can grow to towering heights.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "57" },
+            { "book": "rhythm-of-war", "chapter": "64" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Thrown at bridgemen",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "57" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Soldiers sometimes threw overripe pilevine fruit at bridgemen; Moash was once hit in the face by one.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "57" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": []
+}

@@ -55,6 +55,22 @@
     }
   ],
   "history": [],
+  "mechanics": [
+    {
+      "title": [
+        {
+          "text": "Detecting the Fused",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "69" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Bronze alerter fabrials can detect nearby Fused.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "69" }]
+        }
+      ]
+    }
+  ],
   "facts": [
     {
       "label": "Allomancy",

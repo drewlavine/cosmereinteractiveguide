@@ -1,0 +1,35 @@
+{
+  "intro": [
+    {
+      "text": "A roasted pork dish from Hraggen.",
+      "revealedIn": [{ "book": "elantris", "chapter": "11" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Kiin knows how to cook ketathum.",
+      "revealedIn": [{ "book": "elantris", "chapter": "11" }]
+    }
+  ],
+  "history": [],
+  "facts": [
+    {
+      "label": "Ingredient",
+      "name": "Pork",
+      "revealedIn": [{ "book": "elantris", "chapter": "11" }]
+    },
+    {
+      "label": "Origin",
+      "name": "Hraggen",
+      "placeId": "hraggen",
+      "revealedIn": [{ "book": "elantris", "chapter": "11" }]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "kiin",
+      "role": "cook",
+      "revealedIn": [{ "book": "elantris", "chapter": "11" }]
+    }
+  ]
+}

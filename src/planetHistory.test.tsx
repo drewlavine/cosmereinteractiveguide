@@ -1,4 +1,10 @@
-import { render, screen, within } from '@testing-library/react'
+import {
+  cleanup,
+  fireEvent,
+  render,
+  screen,
+  within,
+} from '@testing-library/react'
 import userEvent from '@testing-library/user-event'
 import { createMemoryRouter, RouterProvider } from 'react-router'
 import { describe, expect, it } from 'vitest'
@@ -10,10 +16,14 @@ const SCADRIAL = '/systems/scadrian/planets/scadrial'
 const labels: Record<string, string> = {
   chronicle: 'Chronicle',
   scrubber: 'Time scrubber',
-  codex: 'Codex',
-  retold: 'As you read it',
+  chapters: 'Chapters',
+  metro: 'Metro line',
+  stars: 'Star chart',
+  dial: 'Tuning dial',
 }
 const styles = Object.keys(labels)
+// The Time scrubber and its alternative looks share one slider.
+const scrubbers = styles.filter((style) => style !== 'chronicle')
 
 const renderAt = (
   path: string,
@@ -87,77 +97,71 @@ describe('a planet’s History section', () => {
     expect(
       history.getByRole('button', { name: 'Chronicle', pressed: true }),
     ).toBeInTheDocument()
-    await userEvent.click(history.getByRole('button', { name: 'Codex' }))
+    await userEvent.click(history.getByRole('button', { name: 'Metro line' }))
     expect(
-      history.getByRole('group', { name: 'Show moments of kind' }),
+      history.getByRole('slider', { name: 'Moment in history' }),
     ).toBeInTheDocument()
-    expect(localStorage.getItem('cosmere-guide:history-style')).toBe('codex')
+    expect(localStorage.getItem('cosmere-guide:history-style')).toBe('metro')
   })
 
-  it('steps the scrubber through moments', async () => {
-    renderAt(`${NALTHIS}?history=scrubber`, ['tress'], { warbreaker: '15' })
-    const history = within(await section())
-    const slider = history.getByRole('slider', { name: 'Moment in history' })
-    expect(slider).toHaveAttribute(
-      'aria-valuetext',
-      'The Manywar: Kalad starts the Manywar',
-    )
-    await userEvent.click(history.getByRole('button', { name: 'Later ›' }))
-    expect(slider).toHaveAttribute(
-      'aria-valuetext',
-      'The Manywar: Peacegiver the Blessed',
-    )
-    await userEvent.click(
-      history.getByRole('button', { name: 'Under the God Kings' }),
-    )
+  it('falls back to the Chronicle for a style that’s gone', async () => {
+    localStorage.setItem('cosmere-guide:history-style', 'retold')
+    renderAt(NALTHIS, ['warbreaker'])
+    const kept = within(await section())
     expect(
-      history.getByRole('heading', { name: 'The Court of Gods' }),
+      kept.getByRole('button', { name: 'Chronicle', pressed: true }),
     ).toBeInTheDocument()
-  })
-
-  it('follows a cause in the codex, even past the kind filter', async () => {
+    cleanup()
     renderAt(`${NALTHIS}?history=codex`, ['warbreaker'])
-    const history = within(await section())
-    await userEvent.click(history.getByRole('button', { name: /^War/ }))
-    // The stone army marched because the rebellion failed, a Realm card.
-    await userEvent.click(
-      history.getAllByRole('button', { name: 'The rebellion fails' })[0],
-    )
+    const asked = within(await section())
     expect(
-      history.getByRole('button', {
-        name: 'The rebellion fails',
-        expanded: true,
-      }),
-    ).toHaveFocus()
-    expect(
-      history.getByRole('button', { name: /^All/, pressed: true }),
+      asked.getByRole('button', { name: 'Chronicle', pressed: true }),
     ).toBeInTheDocument()
+    expect(asked.queryByRole('slider')).toBeNull()
   })
 
-  it('replays what the reader knew at each point', async () => {
-    renderAt(`${NALTHIS}?history=retold`, ['tress'], { warbreaker: '58' })
-    const history = within(await section())
-    const slider = history.getByRole('slider', {
-      name: 'Point in your reading',
-    })
-    expect(slider).toHaveAttribute(
-      'aria-valuetext',
-      'Tress of the Emerald Sea, Chapter 15',
-    )
-    await userEvent.click(history.getByRole('button', { name: '‹ Earlier' }))
-    expect(slider).toHaveAttribute('aria-valuetext', 'Warbreaker, Chapter 58')
-    expect(
-      history.getByRole('heading', { name: 'Lightsong’s gift' }),
-    ).toBeInTheDocument()
-    await userEvent.click(history.getByRole('button', { name: '‹ Earlier' }))
-    expect(slider).toHaveAttribute('aria-valuetext', 'Warbreaker, Chapter 57')
-    expect(
-      history.queryByRole('heading', { name: 'Lightsong’s gift' }),
-    ).toBeNull()
-    expect(
-      history.getByRole('heading', {
-        name: 'The Pahn Kahl rebellion once “The God King’s bride”',
-      }),
-    ).toBeInTheDocument()
-  })
+  it.each(scrubbers)(
+    'steps the scrubber through moments (%s)',
+    async (style) => {
+      renderAt(`${NALTHIS}?history=${style}`, ['tress'], { warbreaker: '15' })
+      const history = within(await section())
+      const slider = history.getByRole('slider', { name: 'Moment in history' })
+      expect(slider).toHaveAttribute(
+        'aria-valuetext',
+        'The Manywar: Kalad starts the Manywar',
+      )
+      await userEvent.click(history.getByRole('button', { name: 'Later ›' }))
+      expect(slider).toHaveAttribute(
+        'aria-valuetext',
+        'The Manywar: Peacegiver the Blessed',
+      )
+      await userEvent.click(
+        history.getByRole('button', { name: 'Under the God Kings' }),
+      )
+      expect(
+        history.getByRole('heading', { name: 'The Court of Gods' }),
+      ).toBeInTheDocument()
+    },
+  )
+
+  it.each(scrubbers)(
+    'drags and keys the scrubber to the nearest moment (%s)',
+    async (style) => {
+      renderAt(`${NALTHIS}?history=${style}`, ['warbreaker'])
+      const history = within(await section())
+      const slider = history.getByRole('slider', { name: 'Moment in history' })
+      const dots = slider.querySelectorAll('[data-dot]')
+      dots.forEach((dot, n) => {
+        dot.getBoundingClientRect = () =>
+          ({ left: n * 10, width: 6 }) as DOMRect
+      })
+      slider.setPointerCapture = () => {}
+      fireEvent.pointerDown(slider, { clientX: 32, pointerId: 1 })
+      expect(slider).toHaveAttribute('aria-valuenow', '3')
+      fireEvent.keyDown(slider, { key: 'End' })
+      expect(slider).toHaveAttribute('aria-valuenow', String(dots.length - 1))
+      fireEvent.keyDown(slider, { key: 'ArrowLeft' })
+      expect(slider).toHaveAttribute('aria-valuenow', String(dots.length - 2))
+    },
+  )
 })

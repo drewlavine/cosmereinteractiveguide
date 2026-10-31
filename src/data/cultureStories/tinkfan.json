@@ -1,0 +1,24 @@
+{
+  "intro": [
+    {
+      "text": "A sweet Pahn Kahl pastry, served as a delicacy to the Returned gods of the Court of Gods.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "36" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Tinkfans are meant to be eaten in small bites, with a bit of bread between each to clear the palate.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "36" }]
+    }
+  ],
+  "history": [],
+  "facts": [
+    {
+      "label": "Origin",
+      "name": "Pahn Kahl",
+      "placeId": "pahn-kahl",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "36" }]
+    }
+  ],
+  "people": []
+}

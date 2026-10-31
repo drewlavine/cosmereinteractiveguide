@@ -1,0 +1,41 @@
+{
+  "intro": [
+    {
+      "text": "A settlement on the eastern edge of the Elendel Basin, beside a small tributary north of the Irongate River.",
+      "revealedIn": [
+        {
+          "all": ["alloy-of-law", { "book": "shadows-of-self", "chapter": "6" }]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "A dam near the foot of the Faleast Range held back a large reservoir here, whose water irrigated one of the Basin's biggest grain-growing regions.",
+      "revealedIn": ["shadows-of-self"]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Troubles of 342",
+          "revealedIn": [
+            { "book": "shadows-of-self", "chapter": "14" },
+            { "book": "shadows-of-self", "chapter": "6" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "In 342 PC a saboteur blew up the dam, killing dozens and flooding the area. Markets expected the harvest to be halved, and although grain reserves existed, food prices jumped in Elendel, adding to unrest the city already faced from a strike and a murder.",
+          "revealedIn": [{ "book": "shadows-of-self", "chapter": "14" }]
+        },
+        {
+          "text": "Governor Replar Innate pledged aid for the region, with backing from the Argien-Ohr Financial Circle and Lord Chapmot Heviers, but the promise went over badly with struggling people in Elendel.",
+          "revealedIn": [{ "book": "shadows-of-self", "chapter": "6" }]
+        }
+      ]
+    }
+  ]
+}

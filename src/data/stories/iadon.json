@@ -1,0 +1,105 @@
+{
+  "intro": [
+    {
+      "text": "The King of Arelon and Raoden's father, who sends his son into Elantris when the Shaod takes him.",
+      "revealedIn": [{ "book": "elantris", "chapter": "1" }],
+      "fallback": true
+    },
+    {
+      "text": "The paranoid King of Arelon and Raoden's father, a former merchant who seized the throne in the chaos of the Reod and made noble rank depend on wealth.",
+      "revealedIn": [{ "book": "elantris", "chapter": "2" }]
+    },
+    {
+      "text": "The paranoid King of Arelon and Raoden's father, a former merchant who seized the throne after the Reod, and whom Sarene catches performing a Jeskeri human sacrifice.",
+      "revealedIn": [{ "book": "elantris", "chapter": "32" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Rise to the throne",
+          "revealedIn": [{ "book": "elantris", "chapter": "2" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Iadon was a prosperous Arelene merchant. His first wife, the mother of his only son Raoden, died about two years before the Reod. By then Iadon led the merchants' guild, and he used that position to claim the crown in the turmoil after the Reod. A few months into his reign he married Eshen.",
+          "revealedIn": [{ "book": "elantris", "chapter": "2" }]
+        },
+        {
+          "text": "Growing paranoid as king, Iadon ruled for ten years that many counted among Arelon's worst. He tied farmers to nobles who all but owned them, and granted titles by wealth, so a noble whose fortune fell short lost his rank. Raoden openly opposed him, and by the time the Shaod took his son, Iadon did not even object when the priests carried him off.",
+          "revealedIn": [{ "book": "elantris", "chapter": "2" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Sarene and Hrathen",
+          "revealedIn": [
+            { "book": "elantris", "chapter": "6" },
+            { "book": "elantris", "chapter": "29" },
+            { "book": "elantris", "chapter": "32" },
+            { "book": "elantris", "chapter": "38" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Iadon rudely brushed Sarene off when she arrived and passed her to Queen Eshen. He also rejected the gyorn Hrathen's call to accept Jaddeth.",
+          "revealedIn": [{ "book": "elantris", "chapter": "6" }]
+        },
+        {
+          "text": "Shaken by heavy shipping losses that threatened his hold on the throne, Iadon accepted Sarene's offer of a profitable trade deal with Teod in return for letting her bring food into Elantris. After Elantrians attacked her, he sent guards to wipe out the city, but she pressured him into calling them off.",
+          "revealedIn": [{ "book": "elantris", "chapter": "29" }]
+        },
+        {
+          "text": "At a ball at Roial's house, Iadon slipped away. Sarene followed him into the sewers and found him, naked and bloodied, sacrificing a young woman in a Jeskeri rite meant to bring Sarene down. His fellow worshippers turned on her, but her allied lords rescued her and Iadon was arrested.",
+          "revealedIn": [{ "book": "elantris", "chapter": "32" }]
+        },
+        {
+          "text": "Rather than face the shame of giving up the crown, Iadon took his own life. Afterwards the Korathi patriarch read out a decree Iadon had entrusted to him years before, freezing noble titles to pass by inheritance instead of wealth: his erratic rule had been meant to prepare a steadier system.",
+          "revealedIn": [{ "book": "elantris", "chapter": "38" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Iadon is thin, with a shrewd face.",
+      "revealedIn": [{ "book": "elantris", "chapter": "2" }]
+    }
+  ],
+  "personality": [],
+  "relationships": [
+    {
+      "title": [
+        {
+          "text": "Eshen",
+          "revealedIn": [{ "book": "elantris", "chapter": "2" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Iadon married Eshen purely for political reasons. As with women in general, he thinks her silly and shallow, interested only in things like fashion, and speaks to her only when he must.",
+          "revealedIn": [{ "book": "elantris", "chapter": "2" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Raoden",
+          "revealedIn": [{ "book": "elantris", "chapter": "55" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Raoden is Iadon's only child, by his first wife. Iadon hates him and has tried several times to send him away.",
+          "revealedIn": [{ "book": "elantris", "chapter": "55" }]
+        }
+      ]
+    }
+  ]
+}

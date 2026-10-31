@@ -1,0 +1,762 @@
+/* ponytail: temporary, the Time scrubber's four alternative looks
+   (ScrubLooks.tsx). Each strip is a grid of --n equal columns, one per
+   moment, so every look keeps the moments evenly apart; --i is the current
+   moment. Column gaps are 0 so a moment's centre is exactly
+   (i + 0.5) / n of the way along, for anything that glides there. */
+
+.chTrack,
+.moTrack,
+.skTrack,
+.dlTrack {
+  display: grid;
+  grid-template-columns: repeat(var(--n), minmax(5rem, 1fr));
+  column-gap: 0;
+  width: max-content;
+  min-width: 100%;
+}
+
+.chLabels,
+.chBar,
+.moLines,
+.moStops,
+.skNames,
+.skSky,
+.dlBands,
+.dlScale {
+  display: grid;
+  grid-column: 1 / -1;
+  grid-template-columns: subgrid;
+}
+
+/* The sliders: drag along them, never scroll the page sideways. */
+.chBar,
+.moStops,
+.skSky,
+.dlScale {
+  cursor: pointer;
+  touch-action: pan-y;
+  user-select: none;
+}
+
+/* Era titles wrap rather than widen the columns. */
+.chLabel,
+.moLine,
+.skName,
+.dlBand,
+.moStops [data-dot] {
+  contain: inline-size;
+}
+
+.chLabel,
+.moLine,
+.skName,
+.dlBand {
+  border: 0;
+  background: none;
+  font: inherit;
+  line-height: 1.2;
+  text-wrap: balance;
+  cursor: pointer;
+}
+
+/* An era's title stays in sight while any of its span is, however far
+   the strip has scrolled through a long era. */
+.chLabel span,
+.moLine span,
+.skName span,
+.dlBand span {
+  position: sticky;
+  left: 0.5rem;
+  right: 0.5rem;
+}
+
+.chLabel:focus-visible,
+.chBar:focus-visible,
+.moLine:focus-visible,
+.moStops:focus-visible,
+.skName:focus-visible,
+.skSky:focus-visible,
+.dlBand:focus-visible,
+.dlScale:focus-visible {
+  outline: 2px solid var(--gold);
+  outline-offset: -2px;
+  border-radius: 6px;
+}
+
+/* ── A. Chapters: a media player's seek bar, one segment per era. ── */
+
+.chTrack {
+  position: relative;
+  row-gap: 0.1rem;
+}
+
+.chLabel {
+  display: flex;
+  align-items: flex-end;
+  margin: 0 2px;
+  padding: 0.15rem 0.4rem 0.2rem 0.5rem;
+  border-left: 2px solid var(--tone);
+  color: var(--text-muted, #9fb0bc);
+  font-size: 0.78rem;
+  text-align: left;
+}
+
+.chLabel:hover {
+  color: var(--text-strong);
+}
+
+.chLabel[aria-pressed='true'] {
+  background: linear-gradient(
+    to top,
+    color-mix(in srgb, var(--tone) 28%, transparent),
+    transparent
+  );
+  color: #fff;
+}
+
+.chBar {
+  position: relative;
+  align-items: center;
+  height: 2.25rem;
+}
+
+.chBar [data-dot] {
+  --dim: color-mix(in srgb, var(--tone) 26%, #2a3640);
+  position: relative;
+  height: 6px;
+  background: var(--dim);
+  transition: height 0.15s;
+}
+
+.chBar:hover [data-dot],
+.chBar:focus-visible [data-dot] {
+  height: 10px;
+}
+
+.chBar [data-past] {
+  background: var(--tone);
+}
+
+.chBar [data-at] {
+  background: linear-gradient(90deg, var(--tone) 50%, var(--dim) 50%);
+}
+
+/* A gap between eras, as between a video's chapters. */
+.chBar [data-first] {
+  margin-left: 2px;
+  border-radius: 3px 0 0 3px;
+}
+
+.chBar [data-end] {
+  margin-right: 2px;
+  border-radius: 0 3px 3px 0;
+}
+
+.chBar [data-first][data-end] {
+  border-radius: 3px;
+}
+
+/* A notch for each moment. */
+.chBar [data-dot]::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.5);
+  translate: -50% -50%;
+}
+
+.chBar [data-past]::after {
+  background: rgba(8, 14, 19, 0.6);
+}
+
+.chHead {
+  position: absolute;
+  top: 50%;
+  left: calc((var(--i) + 0.5) / var(--n) * 100%);
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: var(--gold-soft);
+  box-shadow:
+    0 0 0 3px var(--gold),
+    0 0 14px rgba(212, 165, 64, 0.85);
+  translate: -50% -50%;
+  transition: left 0.35s ease-out;
+  pointer-events: none;
+}
+
+.chControls {
+  gap: 0.45rem;
+}
+
+.chControls [data-play] {
+  min-width: 6.5rem;
+  border-color: var(--gold);
+  background: var(--gold);
+  color: #1a1408;
+  font-weight: 700;
+}
+
+/* What's playing, as a player names the chapter beside the time. */
+.chNow {
+  flex: 1 1 14rem;
+  min-width: 0;
+  margin: 0 0 0 0.5rem;
+  color: var(--text-strong);
+  font-family: var(--display);
+  font-size: 1.05rem;
+  line-height: 1.25;
+}
+
+.chNow span {
+  display: block;
+  color: var(--tone);
+  font-family: system-ui, sans-serif;
+  font-size: 0.66rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+/* ── B. Metro line: a line diagram, every moment a stop. ── */
+
+.moTrack {
+  grid-template-columns: repeat(var(--n), minmax(6rem, 1fr));
+  row-gap: 0.5rem;
+}
+
+.moLine {
+  display: flex;
+  align-items: flex-end;
+  padding: 0 3px;
+  text-align: left;
+}
+
+.moLine span {
+  padding: 0.2rem 0.55rem 0.25rem;
+  border: 2px solid var(--tone);
+  border-radius: 10px;
+  background: color-mix(in srgb, var(--tone) 16%, var(--slate-deep));
+  color: var(--text);
+  font-size: 0.76rem;
+  font-weight: 600;
+}
+
+.moLine span::before {
+  content: '';
+  display: inline-block;
+  width: 0.55rem;
+  height: 0.55rem;
+  margin-right: 0.35rem;
+  border-radius: 50%;
+  background: var(--tone);
+  vertical-align: 0.02em;
+}
+
+.moLine:hover span {
+  color: var(--text-strong);
+}
+
+.moLine[aria-pressed='true'] span {
+  background: color-mix(in srgb, var(--tone) 42%, var(--slate-deep));
+  color: #fff;
+  box-shadow: 0 0 14px color-mix(in srgb, var(--tone) 55%, transparent);
+}
+
+.moStops {
+  padding-bottom: 0.3rem;
+}
+
+.moStops [data-dot] {
+  --dim: color-mix(in srgb, var(--tone) 28%, #26323b);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 34px;
+}
+
+/* The line, solid where you've been. */
+.moStops [data-dot]::before {
+  content: '';
+  position: absolute;
+  top: 13px;
+  right: 0;
+  left: 0;
+  height: 8px;
+  background: var(--dim);
+}
+
+.moStops [data-past]::before {
+  background: var(--tone);
+}
+
+.moStops [data-at]::before {
+  background: linear-gradient(90deg, var(--tone) 50%, var(--dim) 50%);
+}
+
+/* A hairline break where one era's line meets the next. */
+.moStops [data-first]::before {
+  box-shadow: inset 2px 0 var(--bg);
+}
+
+/* The line ends at the first and last stops. */
+.moStops [data-dot]:first-child::before {
+  left: 50%;
+  border-radius: 4px 0 0 4px;
+}
+
+.moStops [data-dot]:last-child::before {
+  right: 50%;
+  border-radius: 0 4px 4px 0;
+}
+
+.moStops [data-at]:first-child::before {
+  background: var(--dim);
+}
+
+.moStops [data-at]:last-child::before {
+  background: var(--tone);
+}
+
+/* The stops: dark ahead, white where you've been. */
+.moStops [data-dot]::after {
+  content: '';
+  position: absolute;
+  top: 9px;
+  left: 50%;
+  box-sizing: border-box;
+  width: 16px;
+  height: 16px;
+  border: 3px solid var(--dim);
+  border-radius: 50%;
+  background: #0b141b;
+  translate: -50% 0;
+}
+
+.moStops [data-past]::after {
+  border-color: #0b141b;
+  background: #f4efe2;
+}
+
+/* You are here. */
+.moStops [data-at]::after {
+  top: 4px;
+  width: 26px;
+  height: 26px;
+  border: 5px solid var(--gold);
+  background: #fff;
+  box-shadow: 0 0 0 3px #0b141b;
+  animation: here 2s ease-out infinite;
+}
+
+@keyframes here {
+  from {
+    box-shadow:
+      0 0 0 3px #0b141b,
+      0 0 0 3px rgba(212, 165, 64, 0.7);
+  }
+  to {
+    box-shadow:
+      0 0 0 3px #0b141b,
+      0 0 0 14px rgba(212, 165, 64, 0);
+  }
+}
+
+.moName {
+  padding: 0 0.3rem;
+  color: var(--text-muted, #9fb0bc);
+  font-size: 0.72rem;
+  line-height: 1.2;
+  text-align: center;
+  text-wrap: balance;
+}
+
+[data-past] > .moName {
+  color: var(--text);
+}
+
+[data-at] > .moName {
+  color: var(--gold-soft);
+  font-weight: 700;
+}
+
+/* ── C. Star chart: constellations, high or low by kind. ── */
+
+.skStrip {
+  padding: 0;
+  border: 1px solid rgba(212, 165, 64, 0.25);
+  border-radius: 14px;
+  background: linear-gradient(#0a1219, #0d1822);
+  /* The lane names stay pinned over the left edge. */
+  scroll-padding-left: 3.75rem;
+}
+
+.skTrack {
+  --lh: 1.65rem;
+  grid-template-columns: 3.75rem repeat(var(--n), minmax(5rem, 1fr));
+  row-gap: 0.35rem;
+  padding: 0.6rem 0 0.5rem;
+  /* A starfield that scrolls with the sky. */
+  background:
+    radial-gradient(1px 1px at 18px 26px, #fff9, transparent),
+    radial-gradient(1px 1px at 92px 70px, #fff6, transparent),
+    radial-gradient(1.5px 1.5px at 140px 14px, #fffa, transparent),
+    radial-gradient(1px 1px at 61px 118px, #fff5, transparent),
+    radial-gradient(1px 1px at 170px 96px, #fff7, transparent);
+  background-size: 190px 150px;
+}
+
+/* The corner above the lane names, pinned with them. */
+.skNames > span:first-child,
+.skLanes {
+  position: sticky;
+  left: 0;
+  z-index: 2;
+  background: linear-gradient(90deg, #0b141c 85%, rgba(11, 20, 28, 0));
+}
+
+.skNames > span:first-child {
+  margin: -0.6rem 0 -0.35rem;
+}
+
+.skName span {
+  left: 4.1rem;
+}
+
+.skName {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 2px;
+  padding: 0.2rem 0.35rem 0.35rem;
+  border-bottom: 1px solid color-mix(in srgb, var(--tone) 65%, transparent);
+  border-radius: 8px 8px 0 0;
+  color: color-mix(in srgb, var(--tone) 50%, #fff);
+  font-family: var(--display);
+  font-size: 0.92rem;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+.skName:hover {
+  color: #fff;
+}
+
+.skName[aria-pressed='true'] {
+  background: linear-gradient(
+    to top,
+    color-mix(in srgb, var(--tone) 26%, transparent),
+    transparent
+  );
+  color: #fff;
+  text-shadow: 0 0 10px var(--tone);
+}
+
+.skSky {
+  grid-template-rows: calc(4 * var(--lh));
+  /* A faint guide along each lane. */
+  background:
+    linear-gradient(#ffffff12 0 0) 0 calc(var(--lh) * 0.5) / 100% 1px,
+    linear-gradient(#ffffff12 0 0) 0 calc(var(--lh) * 1.5) / 100% 1px,
+    linear-gradient(#ffffff12 0 0) 0 calc(var(--lh) * 2.5) / 100% 1px,
+    linear-gradient(#ffffff12 0 0) 0 calc(var(--lh) * 3.5) / 100% 1px;
+  background-repeat: no-repeat;
+}
+
+.skSky > * {
+  grid-row: 1;
+}
+
+.skLanes {
+  display: grid;
+  grid-column: 1;
+  grid-template-rows: repeat(4, 1fr);
+  align-items: center;
+  padding-left: 0.6rem;
+  font-size: 0.6rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.skLanes span {
+  color: var(--kind);
+}
+
+/* Each constellation's patch of sky. */
+.skBand {
+  margin: 0 2px;
+  border-radius: 8px;
+  background: linear-gradient(
+    color-mix(in srgb, var(--tone) 12%, transparent),
+    color-mix(in srgb, var(--tone) 4%, transparent)
+  );
+}
+
+.skLines {
+  grid-column: 2 / -1;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+  pointer-events: none;
+}
+
+.skLines polyline {
+  fill: none;
+  stroke: rgba(241, 230, 200, 0.25);
+  stroke-dasharray: 2 5;
+  stroke-width: 1;
+  vector-effect: non-scaling-stroke;
+}
+
+.skLines polyline[data-past] {
+  stroke: rgba(241, 230, 200, 0.7);
+  stroke-dasharray: none;
+  stroke-width: 1.5;
+}
+
+/* Stars ahead are faint; passed ones shine in their kind's colour. */
+.skSky [data-dot] {
+  --size: 9px;
+  position: relative;
+  align-self: start;
+  justify-self: center;
+  width: var(--size);
+  height: var(--size);
+  margin-top: calc((var(--lane) + 0.5) * var(--lh) - var(--size) / 2);
+  border-radius: 50%;
+  background: color-mix(in srgb, var(--kind) 30%, #0b141b);
+  box-shadow: 0 0 0 1px color-mix(in srgb, var(--kind) 55%, transparent);
+}
+
+.skSky [data-past] {
+  --size: 18px;
+  border-radius: 0;
+  background: none;
+  box-shadow: none;
+  filter: drop-shadow(0 0 4px var(--kind));
+}
+
+.skSky [data-past]::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle, #fff 0 20%, var(--kind) 55%);
+  clip-path: polygon(
+    50% 0,
+    61% 39%,
+    100% 50%,
+    61% 61%,
+    50% 100%,
+    39% 61%,
+    0 50%,
+    39% 39%
+  );
+}
+
+.skSky [data-at] {
+  --size: 34px;
+  filter: drop-shadow(0 0 6px var(--gold)) drop-shadow(0 0 3px #fff);
+}
+
+.skSky [data-at]::before {
+  background: radial-gradient(
+    circle,
+    #fff 0 16%,
+    var(--gold-soft) 30%,
+    var(--gold) 60%
+  );
+}
+
+.skSky [data-at]::after {
+  content: '';
+  position: absolute;
+  inset: -6px;
+  border: 1px solid rgba(212, 165, 64, 0.75);
+  border-radius: 50%;
+  animation: twinkle 2.4s ease-in-out infinite;
+}
+
+@keyframes twinkle {
+  50% {
+    opacity: 0.25;
+    scale: 1.2;
+  }
+}
+
+/* ── D. Tuning dial: an old radio's backlit glass and its needle. ── */
+
+.dlBezel {
+  margin-bottom: 0.75rem;
+  padding: 5px;
+  border-radius: 16px;
+  background: linear-gradient(#6b5524, #2c220e 45%, #4a3a17);
+  box-shadow:
+    0 4px 16px rgba(0, 0, 0, 0.45),
+    inset 0 1px 0 rgba(255, 236, 180, 0.35);
+}
+
+.dlStrip {
+  margin: 0;
+  padding: 0;
+  border-radius: 11px;
+  background:
+    radial-gradient(
+      ellipse at 50% 0%,
+      rgba(255, 190, 90, 0.14),
+      transparent 70%
+    ),
+    linear-gradient(#18130a, #0d0a05);
+  box-shadow:
+    inset 0 2px 10px rgba(0, 0, 0, 0.8),
+    inset 0 0 0 1px rgba(212, 165, 64, 0.35);
+}
+
+.dlTrack {
+  position: relative;
+  isolation: isolate;
+  row-gap: 0.45rem;
+  padding: 0.55rem 0 0.35rem;
+}
+
+/* The glass glows warmer behind the needle, up to where it is. */
+.dlTrack::before {
+  content: '';
+  position: absolute;
+  inset: 0 auto 0 0;
+  z-index: -1;
+  width: calc((var(--i) + 0.5) / var(--n) * 100%);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 170, 60, 0.02),
+    rgba(255, 170, 60, 0.16)
+  );
+  transition: width 0.6s cubic-bezier(0.3, 0.1, 0.2, 1);
+}
+
+.dlBand {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.15rem 0.45rem 0.45rem;
+  border-left: 1px solid rgba(240, 220, 170, 0.22);
+  background: linear-gradient(var(--tone), var(--tone)) 50% 100% / 2.25rem 2px
+    no-repeat;
+  color: rgba(240, 220, 170, 0.72);
+  font-family: var(--display);
+  font-size: 0.9rem;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+.dlBand:first-child {
+  border-left-color: transparent;
+}
+
+.dlBand:hover {
+  color: #fff4d6;
+}
+
+/* The printed titles sit over the needle. */
+.dlBand span {
+  z-index: 1;
+}
+
+.dlBand[aria-pressed='true'] {
+  color: #fff4d6;
+  text-shadow:
+    0 0 10px rgba(255, 180, 80, 0.95),
+    0 0 2px rgba(255, 180, 80, 0.8);
+}
+
+/* An engraved scale: a numbered mark per moment, quarter marks between. */
+.dlScale {
+  border-top: 1px solid rgba(240, 220, 170, 0.28);
+}
+
+.dlScale [data-dot] {
+  --ink: rgba(240, 220, 170, 0.5);
+  padding-top: 21px;
+  background:
+    linear-gradient(var(--ink), var(--ink)) 50% 0 / 2px 15px no-repeat,
+    linear-gradient(var(--ink), var(--ink)) 0 0 / 1px 6px no-repeat,
+    linear-gradient(var(--ink), var(--ink)) 25% 0 / 1px 6px no-repeat,
+    linear-gradient(var(--ink), var(--ink)) 75% 0 / 1px 6px no-repeat;
+  color: rgba(240, 220, 170, 0.5);
+  font-size: 0.68rem;
+  font-variant-numeric: tabular-nums;
+  line-height: 1.4;
+  text-align: center;
+}
+
+.dlScale [data-past] {
+  --ink: rgba(255, 210, 130, 0.85);
+  color: rgba(255, 220, 150, 0.85);
+}
+
+.dlScale [data-at] {
+  color: #fff;
+  font-weight: 700;
+  text-shadow: 0 0 8px #ff6a4d;
+}
+
+.dlNeedle {
+  position: absolute;
+  top: 0;
+  bottom: 1.45rem;
+  left: calc((var(--i) + 0.5) / var(--n) * 100%);
+  width: 2px;
+  /* Bright over the scale, fainter behind the printed era titles. */
+  background: linear-gradient(
+    to top,
+    #ff6a4d 1.3rem,
+    rgba(255, 106, 77, 0.4) 2.3rem
+  );
+  filter: drop-shadow(0 0 4px #ff6a4d);
+  translate: -1px 0;
+  transition: left 0.6s cubic-bezier(0.3, 0.1, 0.2, 1);
+  pointer-events: none;
+}
+
+.dlNeedle::after {
+  content: '';
+  position: absolute;
+  bottom: -3px;
+  left: -2px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #ffb09f;
+  box-shadow: 0 0 8px #ff6a4d;
+}
+
+.dlControls button {
+  border-color: rgba(212, 165, 64, 0.6);
+  background: linear-gradient(#3b2f15, #1f180b);
+  box-shadow: inset 0 1px 0 rgba(255, 236, 180, 0.2);
+  color: #f0dcaa;
+}
+
+.dlControls [data-play] {
+  background: linear-gradient(#e2b552, #a87d2a);
+  color: #1a1408;
+  font-weight: 700;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .chBar [data-dot],
+  .chHead,
+  .dlTrack::before,
+  .dlNeedle {
+    transition: none;
+  }
+
+  .moStops [data-at]::after,
+  .skSky [data-at]::after {
+    animation: none;
+  }
+}

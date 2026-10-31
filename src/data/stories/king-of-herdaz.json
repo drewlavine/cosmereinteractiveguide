@@ -1,0 +1,50 @@
+{
+  "intro": [
+    {
+      "text": "The monarch of Herdaz.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "23" },
+            { "book": "words-of-radiance", "chapter": "41" },
+            { "book": "oathbringer", "chapter": "49" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Ruler of Herdaz",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "23" },
+                { "book": "words-of-radiance", "chapter": "41" },
+                { "book": "oathbringer", "chapter": "49" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Little is known of the king of Herdaz or his family. He had no daughters and came from a powerful Reshi house, and either he or a son, if he had one, owned a Shardblade and Shardplate.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "23" },
+                { "book": "words-of-radiance", "chapter": "41" },
+                { "book": "oathbringer", "chapter": "49" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

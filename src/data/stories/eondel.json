@@ -1,0 +1,89 @@
+{
+  "intro": [
+    {
+      "text": "The Count of Eon Plantation, an Arelene noble whose private army is reckoned the finest fighting force in Arelon, and one of the nobles allied with Prince Raoden against King Iadon.",
+      "revealedIn": [{ "book": "elantris", "chapter": "11" }]
+    },
+    {
+      "text": "The Count of Eon Plantation, a skilled swordsman and commander with Arelon's finest private army, who taught Prince Raoden to fence and now stands with Sarene against King Iadon.",
+      "revealedIn": [{ "book": "elantris", "chapter": "28" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Ally of Raoden and Sarene",
+          "revealedIn": [
+            { "book": "elantris", "chapter": "11" },
+            { "book": "elantris", "chapter": "28" },
+            { "book": "elantris", "chapter": "32" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Eondel was one of the powerful nobles who came to Kiin's gathering of Raoden's allies, where Sarene joined them.",
+          "revealedIn": [{ "book": "elantris", "chapter": "11" }]
+        },
+        {
+          "text": "Eondel had backed Raoden's causes and taught him fencing. He supported Sarene's plan against King Iadon, helped her train the noble ladies in fencing and helped her carry supplies into Elantris for her Widow's Trial, where he rescued her from one of Shaor's men.",
+          "revealedIn": [{ "book": "elantris", "chapter": "28" }]
+        },
+        {
+          "text": "When Sarene tracked King Iadon into the sewers and stumbled on a Jeskeri sacrifice, Eondel arrived with guards, summoned by Ashe, to protect her.",
+          "revealedIn": [{ "book": "elantris", "chapter": "32" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Telrii's reign",
+          "revealedIn": [{ "book": "elantris", "chapter": "epilogue" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "After Count Ahan betrayed the group to King Telrii and Roial was killed, Eondel led his men against the palace to avenge the duke and win the throne back for Raoden. He killed Telrii himself, then died of the wounds he had taken.",
+          "revealedIn": [{ "book": "elantris", "chapter": "epilogue" }]
+        },
+        {
+          "text": "Eondel was buried among those who had fought for Arelon, alongside Roial, Saolin and Karata.",
+          "revealedIn": [{ "book": "elantris", "chapter": "epilogue" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": [
+    {
+      "text": "Though elderly, Eondel is a gracious and highly skilled fencer who let Sarene win their bout as a courtesy.",
+      "revealedIn": [{ "book": "elantris", "chapter": "17" }],
+      "fallback": true
+    }
+  ],
+  "abilities": [
+    {
+      "title": [
+        {
+          "text": "Soldier",
+          "revealedIn": [
+            { "book": "elantris", "chapter": "11" },
+            { "book": "elantris", "chapter": "54" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Eondel keeps a private army that is widely held to be the most effective fighting force in Arelon.",
+          "revealedIn": [{ "book": "elantris", "chapter": "11" }]
+        },
+        {
+          "text": "He is an able commander and trainer of soldiers, and a fine swordsman.",
+          "revealedIn": [{ "book": "elantris", "chapter": "54" }]
+        }
+      ]
+    }
+  ]
+}

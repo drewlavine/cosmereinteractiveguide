@@ -1,0 +1,57 @@
+{
+  "intro": [
+    {
+      "text": "A sea on Roshar, scattered with islands and home to the Tai-na, enormous greatshells that people live on.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-3" }]
+    },
+    {
+      "text": "The largest known sea on Roshar, filling a large part of the continent's centre. The Reshi Isles lie at its northern end, and Marabethia separates its southern end from the Purelake.",
+      "revealedIn": [
+        {
+          "all": [
+            "way-of-kings",
+            { "book": "words-of-radiance", "chapter": "i-3" },
+            "oathbringer"
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "It is deeper than the Purelake, yet shallow enough for the Tai-na, island-sized greatshells worshipped as gods, to walk along the bottom.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-3" }]
+    },
+    {
+      "text": "Its coasts are shared by Iri, Rira, Babatharnam, Tu Bayla, Herdaz and Jah Keved. In the Heraldic Epochs it lay within the Silver Kingdom of Rishir.",
+      "revealedIn": [{ "all": ["way-of-kings", "oathbringer"] }]
+    },
+    {
+      "text": "The Reshi live on many of its islands, and some Tai-na carry small kingdoms of their own that draw foreigners seeking a simpler life. Ashir and Geranid, two ardents, keep a small island there for their experiments.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "i-8" },
+            { "book": "words-of-radiance", "chapter": "i-3" },
+            { "book": "oathbringer", "chapter": "66" },
+            { "book": "dawnshard", "chapter": "3" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "The region is hot, humid and tropical, and it never snows. The water is usually calm and warm.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "i-8" },
+            { "book": "words-of-radiance", "chapter": "i-3" },
+            { "book": "dawnshard", "chapter": "3" },
+            { "book": "rhythm-of-war", "chapter": "50" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": []
+}

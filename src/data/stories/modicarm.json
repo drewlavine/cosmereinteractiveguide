@@ -1,0 +1,26 @@
+{
+  "intro": [
+    {
+      "text": "A professor at the university in Elendel.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "7" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Marasi's professor",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "7" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Marasi studied under him at the university. When she grew nervous, she often turned over his sayings in her mind, along with those of her other teachers.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "7" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

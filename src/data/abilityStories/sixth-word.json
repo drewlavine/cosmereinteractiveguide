@@ -1,0 +1,27 @@
+{
+  "intro": [
+    {
+      "text": "One of several Words, each an art of its own. Spoken aloud, the Sixth Word gives a sense of when important events will happen. A person is said to possess it rather than to know it.",
+      "revealedIn": [{ "book": "fires-of-december", "chapter": "xli" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Hoid holds the Words, the Sixth among them, and uses them to judge where he needs to be. When he spoke it at the inn in Rivershore, December was thrown into a vision of what was to come.",
+      "revealedIn": [{ "book": "fires-of-december", "chapter": "xli" }]
+    },
+    {
+      "text": "After the Megalith was released he whispered it near December again on purpose, sending her into another vision with time to learn to fight demons; this time it told him his time to help was over. He has never said how he got the Words and keeps their workings secret.",
+      "revealedIn": [{ "book": "fires-of-december", "chapter": "xli" }]
+    }
+  ],
+  "history": [],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "hoid",
+      "role": "speaker",
+      "revealedIn": [{ "book": "fires-of-december", "chapter": "xli" }]
+    }
+  ]
+}

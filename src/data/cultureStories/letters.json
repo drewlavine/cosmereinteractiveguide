@@ -1,0 +1,138 @@
+{
+  "intro": [
+    {
+      "text": "The letters are a run of in-world letters, quoted a few lines at a time at the start of chapters. The first, unsigned, is written to an \"old friend\" whom the writer calls all but immortal.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "13" }]
+    },
+    {
+      "text": "The letters are a run of in-world letters, quoted a few lines at a time at the start of chapters. The first, unsigned, warns an \"old friend\" about a man named Rayse; another letter replies to it.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "19" },
+            { "book": "words-of-radiance", "chapter": "64" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "The letters are a run of in-world letters, quoted a few lines at a time at the start of chapters. An unsigned one warns an \"old friend\" about Rayse, and several writers reply, some to a sender they call Cephandrius.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "19" },
+            { "book": "words-of-radiance", "chapter": "64" },
+            { "book": "oathbringer", "chapter": "41" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The first letter",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "13" },
+            { "book": "way-of-kings", "chapter": "15" },
+            { "book": "way-of-kings", "chapter": "19" },
+            { "book": "way-of-kings", "chapter": "24" },
+            { "book": "way-of-kings", "chapter": "27" },
+            { "book": "way-of-kings", "chapter": "28" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The writer opened by wishing the reader well, then joked that someone now all but immortal could take good health for granted, and guessed that the friend was still angry.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "13" }]
+        },
+        {
+          "text": "The writer promised that an element left in their keeping was safe, and accepted that the friend utterly disagreed with the writer's quest.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "15" }]
+        },
+        {
+          "text": "To explain the worry, the writer set a man named Ati, once kind before he changed, against Rayse, among the most hateful and cunning people the writer had known, who now held the most terrifying of the Shards. The friend was challenged to say whether staying out of things still made sense.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "19" }]
+        },
+        {
+          "text": "The writer admitted to arrogance and to an old grudge, as the friend had charged, but insisted that neither made the warning untrue.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "24" }]
+        },
+        {
+          "text": "Complaining of being hunted, probably by friends of the recipient who had been sent down a false trail, the writer asked for the hunters to be called off.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "27" }]
+        },
+        {
+          "text": "The letter closed with the writer begging, for the first time ever, for the friend's support, so that disaster would not take more lives.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "28" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "A reply to an old friend",
+          "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "64" },
+            { "book": "words-of-radiance", "chapter": "72" },
+            { "book": "words-of-radiance", "chapter": "75" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "A reply was addressed to an \"old friend\" because its writer did not know what name the friend now used. The writer admitted to disappointment but still counted the other a friend.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "64" }]
+        },
+        {
+          "text": "The replier granted that Rayse was very dangerous, yet argued that meddling had brought only pain. Since Rayse could not leave the system that held him, and had killed none of the sixteen in thousands of years, the replier judged him contained.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "72" }]
+        },
+        {
+          "text": "Accusing the friend of dragging chaos along everywhere, the replier pleaded with them to leave and swear the same vow not to interfere, warning that much might depend on such restraint.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "75" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Letters to Cephandrius",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "41" },
+            { "book": "oathbringer", "chapter": "51" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "One writer told someone called Cephandrius that they had noticed both his message and his many visits to their lands, disguises included. He was told not to worry about Rayse; the writer grumbled that few had kept an agreement not to interfere with each other, and warned that Rayse, and Cephandrius too, would be dealt with if needed.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "41" }]
+        },
+        {
+          "text": "Another answer to Cephandrius spoke as \"we\". It called Rayse contained, confessed some admiration for his initiative, and told Cephandrius to leave them alone; for more, he would have to come in person and pass the tests they had set.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "51" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "A third reply",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "57" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "A third writer, answering a \"Friend\", called the message revealing. Only lately a deity, this writer found they could still be surprised, said their own powers pulled against each other too much to help, wondered how the sender had stayed hidden, and asked for honesty and a visit in person.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "57" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": []
+}

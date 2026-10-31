@@ -1,0 +1,122 @@
+{
+  "intro": [
+    {
+      "text": "The defense of Azimir against an army approaching through the city's Oathgate.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "20" }]
+    }
+  ],
+  "description": [],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Preparing the defense",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "20" },
+            { "book": "wind-and-truth", "chapter": "37" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The coalition sent Adolin and reinforcements to hold the Oathgate dome until the army from Emul could arrive.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "20" }]
+        },
+        {
+          "text": "Adolin and Kushkam planned the defense under Yanagawn, keeping oil above the enemy entrance as a last resort.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "37" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The siege",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "42" },
+            { "book": "wind-and-truth", "chapter": "47" },
+            { "book": "wind-and-truth", "chapter": "76" },
+            { "book": "wind-and-truth", "chapter": "85" },
+            { "book": "wind-and-truth", "chapter": "125" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The first assault was repelled, but the attackers captured the defenders' Soulcaster.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "42" }]
+        },
+        {
+          "text": "The singers used it to fortify their position in bronze, while Maya left to seek spren reinforcements.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "47" }]
+        },
+        {
+          "text": "Emul and Tashikk's betrayal cut off the expected reinforcements, leaving Azimir to hold alone.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "76" }]
+        },
+        {
+          "text": "A thunderclast killed Neziham; Adolin brought it down but lost his lower right leg, and the defenders lost the dome.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "85" }]
+        },
+        {
+          "text": "The remaining line collapsed, and Yanagawn refused to leave without Adolin as they retreated to a safehouse.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "125" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Retaking the throne",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "128" },
+            { "book": "wind-and-truth", "chapter": "133" },
+            { "book": "wind-and-truth", "chapter": "135" },
+            { "book": "wind-and-truth", "chapter": "136" },
+            { "book": "wind-and-truth", "chapter": "147" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Rather than accept evacuation, Yanagawn and Adolin led survivors into the palace to hold the throne before the deadline.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "128" }]
+        },
+        {
+          "text": "Adolin's Plate returned to protect him during his duel with Abidi.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "133" }]
+        },
+        {
+          "text": "Maya brought willing deadeyes whose Blades and Plate armed the survivors.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "135" }]
+        },
+        {
+          "text": "They held the throne until the deadline and kept Azir independent.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "136" }]
+        },
+        {
+          "text": "The Everstorm covered Azir after the battle, then lifted.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "147" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "adolin-kholin",
+      "role": "commander",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "20" }]
+    },
+    {
+      "characterId": "yanagawn",
+      "role": "emperor",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "37" }]
+    },
+    {
+      "characterId": "mayalaran",
+      "role": "reinforcements",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "135" }]
+    }
+  ]
+}

@@ -3,7 +3,7 @@ import { journeyAtlas } from '../../data/journeyAtlas'
 import { readerCanSee } from '../../data/reveal'
 import { revealTimeline } from '../../data/timeline'
 import { SKY } from './sky'
-import { explorerPins, explorerWorlds, pointOn } from './worlds'
+import { cityOn, explorerPins, explorerWorlds, pointOn } from './worlds'
 
 const at = (read: string[], reading: Record<string, string> = {}) => {
   const canSee = readerCanSee({
@@ -124,6 +124,9 @@ describe('explorer worlds', () => {
     })
     // A map of all of Roshar, not a place on it: never drawn inside it.
     expect(roshar('honor-cultivation-settle')?.map?.parent).toBeUndefined()
+    // The Silver Kingdoms are a whole-world view, not a city inset: zooming
+    // out must keep this era's map instead of stepping up to modern Roshar.
+    expect(cityOn('silver-kingdoms', canSee)).toBeUndefined()
   })
 
   it("draws Scadrial by its world map after the Catacendre, else the Basin's", () => {

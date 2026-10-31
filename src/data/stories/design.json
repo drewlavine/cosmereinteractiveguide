@@ -111,5 +111,21 @@
         }
       ]
     }
+  ],
+  "relationships": [
+    {
+      "title": [
+        {
+          "text": "Wit",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "147" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Wit arranged protections for Design before the contest. When he regenerated on Scadrial, she remained on Roshar; their bond still allowed him to Lightweave, but not to summon her as a Blade.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "147" }]
+        }
+      ]
+    }
   ]
 }

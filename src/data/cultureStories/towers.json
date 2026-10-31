@@ -1,0 +1,25 @@
+{
+  "intro": [
+    {
+      "text": "A Rosharan card game used to teach military strategy.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "79" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Players deploy cards as armies and can retreat them into their hands. Position affects their strength; losing every army loses the game.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "52" }]
+    },
+    {
+      "text": "Cards lost in one game can affect the next, so winning one round at excessive cost can be a mistake. Players traditionally finish with a handshake.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "52" }]
+    },
+    {
+      "text": "Adolin favors the Flatface variant for teaching strategic planning.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "52" }]
+    }
+  ],
+  "history": [],
+  "facts": [],
+  "people": []
+}

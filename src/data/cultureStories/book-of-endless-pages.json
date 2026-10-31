@@ -1,0 +1,65 @@
+{
+  "intro": [
+    {
+      "text": "The Book of Endless Pages, a religious work on Roshar, belongs to the Devotary of Sincerity.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "48" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Its pages are all left blank: the devotary holds that learning never ends, so the book can never be complete.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "48" }]
+    },
+    {
+      "text": "The Devotary of Sincerity that the book stands for is a sect of Vorinism.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "48" },
+            { "book": "rhythm-of-war", "chapter": "22" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Jasnah's copy",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "48" },
+            { "book": "words-of-radiance", "chapter": "17" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Jasnah was given a copy by someone hoping to convert her. The attempt failed, though it came closer than anyone else ever had.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "48" }]
+        },
+        {
+          "text": "Jasnah passed the book on to Shallan, telling her that the search for truth is a virtue in every case. Shallan was surprised that such a devotary existed.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "48" }]
+        },
+        {
+          "text": "Shallan lost her copy when the Wind's Pleasure sank, still feeling she had not fully grasped what it meant.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "17" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "jasnah-kholin",
+      "role": "giver",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "48" }]
+    },
+    {
+      "characterId": "shallan-davar",
+      "role": "recipient",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "48" }]
+    }
+  ]
+}

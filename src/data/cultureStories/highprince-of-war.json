@@ -1,0 +1,101 @@
+{
+  "intro": [
+    {
+      "text": "Highprince of War is an Alethi title that Dalinar asks King Elhokar to give him, hoping to win the war on the Shattered Plains rather than simply outlast the Parshendi.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "18" }]
+    },
+    {
+      "text": "Highprince of War is an Alethi title meant to bring the highprinces together under one commander. Dalinar sought it to win the war on the Shattered Plains, and King Elhokar finally named him to it.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "69" }]
+    }
+  ],
+  "description": [],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Seeking the title",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "18" },
+            { "book": "way-of-kings", "chapter": "22" },
+            { "book": "way-of-kings", "chapter": "28" },
+            { "book": "way-of-kings", "chapter": "54" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Wanting to win the war rather than merely outlast the Parshendi, Dalinar asked Elhokar to make him Highprince of War, and the king said he would consider it.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "18" }]
+        },
+        {
+          "text": "When Elhokar made Sadeas Highprince of Information, Dalinar saw it as Sadeas's way of getting ahead of his own proposal.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "22" }]
+        },
+        {
+          "text": "Dalinar offered joint plateau assaults to the other highprinces, and every one turned him down, leaving only Sadeas, whom he had not yet asked.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "28" }]
+        },
+        {
+          "text": "Dalinar then proposed an alliance to Sadeas, who accepted.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "54" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Holding the title",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "69" },
+            { "book": "words-of-radiance", "chapter": "5" },
+            { "book": "oathbringer", "chapter": "2" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Only after Sadeas betrayed him at the Tower, and he lived through it, did Dalinar force Elhokar to name him Highprince of War.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "69" }]
+        },
+        {
+          "text": "Dalinar used the post to stop the highprinces racing each other for gemhearts. Gemhearts became the king's property, handed back as rewards for obedience and results, and highprinces were sent on runs in pairs to teach them to cooperate.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "5" }]
+        },
+        {
+          "text": "He also pressed the other highprinces to follow the Codes, but never went as far as seizing their property for ignoring them.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "5" }]
+        },
+        {
+          "text": "After the Everstorm and the move to Urithiru, Dalinar took full control of every highprince's army, to unify the Alethi, keep training going and put an end to squabbling.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "2" }]
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Held by",
+      "name": "Dalinar Kholin",
+      "characterId": "dalinar-kholin",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "69" }]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "dalinar-kholin",
+      "role": "holder",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "18" }]
+    },
+    {
+      "characterId": "elhokar-kholin",
+      "role": "king",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "18" }]
+    },
+    {
+      "characterId": "torol-sadeas",
+      "role": "rival",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "22" }]
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "intro": [
+    {
+      "text": "A name from Elendel's slums: more than one person there has taken Wayne for Edip's son.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "shadows-of-self", "chapter": "3" },
+            { "book": "bands-of-mourning", "chapter": "4" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Wayne in the slums",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "shadows-of-self", "chapter": "3" },
+                { "book": "bands-of-mourning", "chapter": "4" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "While Wayne was chasing the Marksman in 342 PC, a slum dweller greeted him as Edip's son, and Wayne went along with it to blend in. On another occasion, near the slums while searching for Ranette, someone else made the same mistake.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "shadows-of-self", "chapter": "3" },
+                { "book": "bands-of-mourning", "chapter": "4" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

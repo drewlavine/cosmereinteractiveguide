@@ -1,0 +1,26 @@
+{
+  "intro": [
+    {
+      "text": "A man of Diggen's Point who plays darts with Lem at Brick's Tavern.",
+      "revealedIn": [{ "book": "tress", "chapter": "7" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Diggen's Point",
+          "revealedIn": [{ "book": "tress", "chapter": "7" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "After a storm took the roof off Jule's house, Lem helped him put it back. Jule has settled Gremmy's tab at the tavern more than once, and was among the darts players Lem talked to when he quietly sought help for Tress.",
+          "revealedIn": [{ "book": "tress", "chapter": "7" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

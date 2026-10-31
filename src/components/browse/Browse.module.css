@@ -1,0 +1,184 @@
+/* The card page, a group's member page and the A–Z page of a browsable list.
+   The list rules in index.css (.character-list, .character-group,
+   .character-filters, .letter-index) still style the names. */
+
+.page {
+  --page-pad: clamp(1.5rem, 4vw, 4rem);
+}
+
+.head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 0.6rem 1.5rem;
+}
+
+/* Focus lands here when the page changes under the reader; no ring needed. */
+.page :is(h1, h2):focus {
+  outline: none;
+}
+
+.pageLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  min-height: 2.75rem;
+  padding: 0.4rem 1.2rem;
+  border: 1px solid var(--gold);
+  border-radius: 999px;
+  background: rgba(212, 165, 64, 0.14);
+  color: var(--gold-soft);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+@media (hover: hover) {
+  .pageLink:hover {
+    background: rgba(212, 165, 64, 0.3);
+    color: #fff;
+  }
+}
+
+.filters {
+  margin-top: 1.1rem;
+}
+
+/* Sticky under the window's top edge, as wide as the page. */
+.chips {
+  position: sticky;
+  top: 0;
+  z-index: 3;
+  margin: 0.9rem calc(var(--page-pad) * -1) 0;
+  padding: 0.45rem var(--page-pad);
+  border-bottom: 1px solid rgba(212, 165, 64, 0.25);
+  background: rgba(15, 26, 34, 0.94);
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+}
+
+.chips ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem 0.5rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.chip {
+  display: inline-flex;
+  align-items: center;
+  min-height: 2.75rem;
+  padding: 0 1.05rem;
+  border: 1px solid rgba(212, 165, 64, 0.4);
+  border-radius: 999px;
+  color: var(--gold-soft);
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.chip[aria-current] {
+  border-color: var(--gold);
+  background: #4a3b17;
+  color: #fff;
+}
+
+@media (hover: hover) {
+  .chip:hover {
+    border-color: var(--gold);
+    background: rgba(212, 165, 64, 0.14);
+    color: #fff;
+  }
+
+  .chip[aria-current]:hover {
+    background: #4a3b17;
+  }
+}
+
+.section {
+  margin-top: 1.75rem;
+  /* Clear of the sticky chips, however many rows they wrap to (CardsView
+     measures them), when a chip, link or Back scrolls here. */
+  scroll-margin-top: calc(var(--chips-h, 0px) + 0.75rem);
+}
+
+.section h2 {
+  margin: 0 0 0.85rem;
+  padding-bottom: 0.25rem;
+  border-bottom: 1px solid rgba(212, 165, 64, 0.35);
+  color: var(--gold);
+}
+
+.back {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  min-height: 2.75rem;
+  color: var(--gold);
+  text-decoration: none;
+}
+
+@media (hover: hover) {
+  .back:hover {
+    text-decoration: underline;
+  }
+}
+
+.memberHead {
+  display: flex;
+  align-items: flex-end;
+  gap: 1.25rem;
+  margin: 0.25rem 0 1rem;
+}
+
+.memberArt {
+  width: 9rem;
+  border: 1px solid rgba(212, 165, 64, 0.4);
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
+}
+
+.eyebrow {
+  margin: 0 0 0.2rem;
+  color: var(--gold-soft);
+  font-size: 0.78rem;
+  letter-spacing: 0.14em;
+  opacity: 0.8;
+  text-transform: uppercase;
+}
+
+.credit {
+  margin: 0.4rem 0 0;
+  color: var(--text-muted, #9fb0bc);
+  font-size: 0.8rem;
+}
+
+@media (max-width: 639px) {
+  .pageLink {
+    width: 100%;
+    justify-content: center;
+  }
+
+  /* One row of chips that scrolls sideways, so the bar stays slim. The
+     padding leaves room for each chip's focus ring inside the scroller. */
+  .chips ul {
+    flex-wrap: nowrap;
+    margin: -0.3rem;
+    padding: 0.3rem;
+    overflow-x: auto;
+    scrollbar-width: none;
+  }
+
+  .chips ul::-webkit-scrollbar {
+    display: none;
+  }
+
+  .memberHead {
+    gap: 0.9rem;
+  }
+
+  .memberArt {
+    width: 6.5rem;
+  }
+}

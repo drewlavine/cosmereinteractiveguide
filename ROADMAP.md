@@ -82,10 +82,11 @@ Category:Cosmere; check anything unclear by hand.
 
 ### 1a. Planet history
 
-- [x] Spoiler-gated history POC on Nalthis and Scadrial (Era 1), with four
-      interactive options: Chronicle, Time scrubber, Codex and As you read it
+- [x] Spoiler-gated history POC on Nalthis and Scadrial (Era 1), with
+      interactive options: Chronicle and the Time scrubber in five looks
+      (Time scrubber, Chapters, Metro line, Star chart, Tuning dial)
 - [ ] Choose a history style after feedback, then remove the comparison
-      controls (`?history=chronicle|scrubber|codex|retold`)
+      controls (`?history=chronicle|scrubber|chapters|metro|stars|dial`)
 
 ### 1b. Clickable map regions
 
@@ -300,20 +301,32 @@ section; tick a tab here once its section's first version ships.
 
 - [ ] Group and sort the character list in different ways. More groupings
       can be added later.
-  - [x] A–Z (the current list)
+  - [x] A–Z (the current list), now one **List all A–Z** button away
   - [x] Filter by name (including other names the reader knows), saved in
-        the URL (`?q=`)
-  - [x] A **Group by** dropdown (replaced the series and sort chips): Name,
-        **Series**, **World**, **Species**, **Ability** and **Number of
-        books**, using only what the reader knows. Characters without that
-        data yet are counted, not listed
+        the URL (`?q=`); typing swaps the cards for the matching names
+  - [x] **Group cards** (replaced the Group by dropdown): the page is a
+        card for every group, under **Series**, **World**, **Species**,
+        **Ability**, **Number of books** and **Page feature**. Each card
+        has art that describes the group (else a symbol), its name and how
+        many characters the reader can see in it; it opens that group's
+        names. A last "Not sorted yet" card holds characters without that
+        data yet. Using only what the reader knows. The same cards, group
+        pages and A–Z page serve Magic, Culture, Locations, Lifeforms and
+        Events (`src/components/browse/`)
+    - [x] Show only the selected grouping; choosing another chip replaces
+          the cards rather than jumping through stacked groupings
+    - [x] Each standalone book has its own Series group and cover instead of
+          one Standalones group, shared across the lists and book selection
+    - [ ] Pick the card style (poster, banner or tile); switcher live for
+          feedback (`?cards=`, the "Try a style" pill), then delete it
+    - [ ] Art for the groups that only have a symbol so far
   - [x] **Page feature icons**: small icons after a name for the special
         parts of its page the reader can see (Travels; Map on Locations),
         each linking straight to that section, with hover/focus tooltips and
         a legend under the filters. Spoiler-gated by books alone, from the
         same reveal code as the page. One registry
         (`src/data/pageFeatures.ts`), so a new feature is one entry plus
-        its icon. **Group by → Page feature** lists entries under each
+        its icon. The **Page feature** cards list entries under each
         feature (and "No special features")
   - [ ] **Book**: characters under each book they appear in, in publication
         order. A character in several books is listed under each.
@@ -322,8 +335,8 @@ section; tick a tab here once its section's first version ships.
         Elantrian, Lightweaver. A character with several abilities is listed
         under each.
     - [ ] Each ability heading links to its own ability page (see 13)
-  - [x] A group-by control on the list, saved in the URL (e.g.
-        `/characters?group=series`) so it can be shared
+  - [x] A group opened from its card, saved in the URL (e.g.
+        `/characters?group=series&of=<group>`) so it can be shared
   - [ ] Add each character's books, species and abilities to the data
         (Coppermind infoboxes are the source)
     - [x] Pilot: 34 main characters in `data/characterDetails.ts` (books,
@@ -338,6 +351,11 @@ section; tick a tab here once its section's first version ships.
       - [x] The Stormlight Archive (1,017 more characters: details for all,
             stories for all but 11 stub pages; portraits for 100; Time
             Machine checked for the 62 majors only)
+      - [x] Sourced Wind and Truth follow-up: 53 character stories,
+            122 Magic/Culture/Lifeform/Event pages, 62 location stories,
+            18 journey turning points and two chronology events; chapter
+            gates and earlier reading states checked. See HANDOFF for the
+            finite coverage inventory and conservative dating limitations.
 - [ ] Spoiler filter: leave out characters the reader hasn't met yet
   - [x] Tag each character with where the reader first meets them (book
         and chapter; pilot characters only so far, the rest count as met)
@@ -688,8 +706,9 @@ Personal arcs and battles belong on character and journey pages.
 
 - [ ] A Locations tab to browse and view locations (cities, regions,
       landmarks), built on the location pages from 1b
-  - [x] A list across every world, grouped like the Characters list (A–Z,
-        Type, World, Series, Inside), with the choice saved in the URL.
+  - [x] A list across every world, shown as group cards like the Characters
+        list (Type, World, Book, Series, Inside, Page feature, plus a **List
+        all A–Z** button), with the choice saved in the URL.
         684 places from the Coppermind's location categories
         (`~/cig-loc-data/build.py`, from the wiki snapshot), merged with the
         map's places
@@ -724,12 +743,18 @@ Personal arcs and battles belong on character and journey pages.
 
 - [ ] A Magic tab (was Abilities; `/abilities/*` redirects): the magic systems and other abilities of the
       Cosmere and how they work
-  - [x] The list page (`/magic`): 141 entries from the Coppermind's
-        Magic category (systems, powers, metals, orders, users, bonds,
-        Investiture, Invested objects, concepts), each listed once the
+  - [x] The list page (`/magic`): 136 entries from the Coppermind's
+        Magic category (systems, metals, orders, users, bonds,
+        Investiture, objects and materials, concepts), each listed once the
         reader has finished the earliest book its page cites (later by hand
-        where the name is a spoiler); Group by Type, Magic system, World,
-        Shard and Series, with ties to systems and Shards dated separately.
+        where the name is a spoiler); group cards by Type, Magic system,
+        World, Shard and Series, with ties to systems and Shards dated
+        separately; an entry whose type is a later reveal waits for it
+        (`kindRevealedIn`). Events, culture and characters filed under
+        Magic on the Coppermind (Reod, Aon, Sprouter, Steel alphabet,
+        Silajana) live on their own tabs; their old `/magic/` links redirect.
+        There is no Powers type: each former power is filed by its
+        Coppermind categories (a concept under its magic system, or culture).
         Pipeline: `~/cig-abil-data/abil_build.py`
   - [ ] A page per magic system (e.g. Allomancy, Surgebinding) and per
         ability (e.g. Windrunner, Mistborn, Coinshot, Awakener), with what
@@ -789,7 +814,7 @@ Personal arcs and battles belong on character and journey pages.
     - [ ] Stopgap to replace: list entries are dated by book and carry no
           text. Date them by chapter, with facts that build up (see "Facts
           build up chapter by chapter")
-  - [ ] Linked from the Characters list's **Group by → Ability** headings
+  - [ ] Linked from the Characters list's **Ability** group cards
         and from abilities on character pages (see 8)
   - [x] Add abilities to search (4)
   - [ ] Add magic systems to search (4)
@@ -857,6 +882,16 @@ and Ars Arcanums, so their dating needs extra care.
       globe docked at the side; replaces the Shards and characters arced
       around the globe
 - [ ] Pick the world card's entry style (switcher live for feedback)
+- [x] A secret, spoiler-gated chronology page (`/chronology`: press `??`
+      or tap the site title five times) listing researched events with
+      their ids, tiers and kinds (`docs/cosmere-timeline.md`)
+- [x] A secret Spanish Civil War page (`/spanish-civil-war`: press `>>`
+      or tap the site title three times), Drew's own exception to the
+      Cosmere-only rule: Wikipedia's history in the Metro-line scrubber,
+      on front-line maps that zoom to each place, with Commons photos
+- [x] Populate the first reconciled chronology draft (129 events);
+      source-archive expansion continues separately
+- [ ] Feed the time bar, its filters and Catch Me Up from that chronology
 - [ ] Filter by world; jump to "now" for the reader's current book
 - [ ] A page per event, linked from character, location and book pages
 
@@ -879,10 +914,10 @@ and Ars Arcanums, so their dating needs extra care.
     - [ ] Written so far: The Sunlit Man's entries plus Bridge Four (10);
           the rest to do
     - [ ] Linked from character pages
-  - [x] A list that can be grouped, like the Characters list, with the
+  - [x] A list shown as group cards, like the Characters list, with the
         choice saved in the URL: **Type** (house, rank, title, religion,
-        ...), **A–Z**, **Book**, **World** and **Series**, plus a name
-        filter
+        ...), **Book**, **World** and **Series**, a **List all A–Z**
+        button, plus a name filter
   - [ ] Follows the spoiler rule like everything else: an entry, and
         every fact on its page, only shows once the reader has reached
         where it's revealed (dated by footnotes down to the chapter);

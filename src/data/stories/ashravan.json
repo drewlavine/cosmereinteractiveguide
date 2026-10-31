@@ -1,0 +1,61 @@
+{
+  "intro": [
+    {
+      "text": "Ashravan of the Eighty Suns, forty-ninth Emperor of the Rose Empire and a member of the Heritage Faction, whose body has been healed after an assassins' attack but whose mind is gone.",
+      "revealedIn": [{ "book": "emperors-soul", "chapter": "day-2" }]
+    },
+    {
+      "text": "Ashravan of the Eighty Suns, forty-ninth Emperor of the Rose Empire, woken by the soul the Forger Shai made for him after assassins destroyed his mind.",
+      "revealedIn": [{ "book": "emperors-soul", "chapter": "day-98" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Before the attack",
+          "revealedIn": [{ "book": "emperors-soul", "chapter": "day-70" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "He idolised his brother, who died when Ashravan was six, but kept it to himself, believing his brother would have been the better emperor. Chosen to rule after Emperor Yazad died, partly at his mentor Gaotona's urging, he meant to reform the empire, but his zeal faded. He handed the arbiters more and more control and came to resent Gaotona for making him feel inadequate.",
+          "revealedIn": [{ "book": "emperors-soul", "chapter": "day-70" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The emperor's new soul",
+          "revealedIn": [
+            { "book": "emperors-soul", "chapter": "day-85" },
+            "emperors-soul"
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Glory Faction assassins broke into his rooms, killing his wife Kurshina and wounding him in the head. A Resealer healed the wound, but his mind was gone. The arbiters hid his state behind the mourning period for his wife and set the Forger Shai to make him a new soul before the hundred days ended.",
+          "revealedIn": [{ "book": "emperors-soul", "chapter": "day-85" }]
+        },
+        {
+          "text": "On the ninety-eighth day Shai stamped him awake. Talking with Gaotona he worked out what had happened to him, then told the arbiters he was well and vowed justice for his wife. Hidden triggers in the stamp steered him back toward his old journals and the ideals he had lost.",
+          "revealedIn": ["emperors-soul"]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "He has a strong face, with golden hair, a prominent nose and a firm chin.",
+      "revealedIn": [{ "book": "emperors-soul", "chapter": "day-98" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Known for his temper and his arrogance, he is still a humble idealist at heart who secretly wishes he had become something else. He writes awful poetry, loves a good argument and the sound of his own speeches, and hates fish.",
+      "revealedIn": [{ "book": "emperors-soul", "chapter": "epilogue" }]
+    }
+  ]
+}

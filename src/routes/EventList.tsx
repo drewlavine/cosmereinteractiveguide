@@ -10,6 +10,7 @@ export function EventList() {
       title="Events"
       path="events"
       noun="events"
+      entry={{ one: 'event', many: 'events' }}
     />
   )
 }

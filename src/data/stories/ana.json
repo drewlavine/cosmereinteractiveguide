@@ -1,0 +1,113 @@
+{
+  "intro": [
+    {
+      "text": "A silversmith from Kholinar and Moash's grandmother.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "44" }]
+    },
+    {
+      "text": "A silversmith from Kholinar and Moash's grandmother, jailed on false charges after a lighteyed rival asked a favor of Elhokar; she died in prison before any trial was held.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "62" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Kholinar",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "62" },
+                { "book": "oathbringer", "chapter": "6" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "44" },
+                { "book": "oathbringer", "chapter": "54" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Ana and her husband were darkeyes of the second nahn, a high rank, and were respected among their peers. They kept a silversmith shop of their own in Kholinar.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "62" },
+                { "book": "oathbringer", "chapter": "6" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "When their grandson's parents died soon after his birth, Ana and Da raised the boy themselves, and Da named him Moash. He grew up big and self-assured but cared nothing for silversmithing, and his grandparents backed him when he left the city to work on caravans.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "44" },
+                { "book": "oathbringer", "chapter": "54" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The Roshone affair",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "62" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Around 1166, while Moash was away, the lighteyes Roshone took offense that the couple's shop competed with one of his. He asked his friend Elhokar, then crown prince, for a favor, and Elhokar had them locked up on invented charges while Gavilar and Dalinar were away at the Shattered Plains.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "62" }]
+        },
+        {
+          "text": "Elhokar hadn't known that darkeyes of their rank were full citizens entitled to a trial. To keep the magistrates from exposing him, he simply let their case sit. The couple, both around seventy-five, died in the palace dungeons, and Moash heard nothing of it until his caravan came back months afterward.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "62" }]
+        },
+        {
+          "text": "The scandal came to be called the Roshone affair. Dalinar wanted a stiff penalty, but Gavilar heeded Elhokar's plea for mercy and merely sent Roshone off to be citylord of Hearthstone, where he made trouble for the townsfolk, Kaladin's family included. Kaladin was enraged to learn why Roshone had come.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "62" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Legacy",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "84" },
+                { "book": "oathbringer", "chapter": "45" },
+                { "book": "rhythm-of-war", "chapter": "8" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Moash thought of Ana and Da as his only family and felt their goodness had got them killed. Blaming Elhokar, he joined a plot against the king that Kaladin barely foiled; he went on to kill Elhokar during the siege of Kholinar, and Roshone too. Kaladin opposed his revenge but pitied Ana and Da.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "84" },
+                { "book": "oathbringer", "chapter": "45" },
+                { "book": "rhythm-of-war", "chapter": "8" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

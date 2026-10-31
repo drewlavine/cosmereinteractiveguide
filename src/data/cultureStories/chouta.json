@@ -1,0 +1,39 @@
+{
+  "intro": [
+    {
+      "text": "A portable meal of fried meat and sauce wrapped in fried flatbread.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "46" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Some warcamp vendors use battered meatballs made with flangria and ground lavis; others use fried cremling claws.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "46" },
+            { "book": "oathbringer", "chapter": "74" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Food during the siege",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "52" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Adolin's aide prepared chouta wraps so he could eat while spending time with Yanagawn during the defense of Azimir.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "52" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": []
+}

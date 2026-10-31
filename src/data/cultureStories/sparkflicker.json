@@ -1,0 +1,36 @@
+{
+  "intro": [
+    {
+      "text": "A Herdazian tool for striking fire that can double as an ornament.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "26" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "In the warcamps on the Shattered Plains, a Herdazian used one with oil to throw bursts of flame into the air.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "43" }]
+    },
+    {
+      "text": "The Mink brought a sparkflicker to the coalition's fighting in Emul and absently struck sparks with it while talking with Jasnah Kholin after a battle.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "26" },
+            { "book": "words-of-radiance", "chapter": "43" },
+            { "book": "rhythm-of-war", "chapter": "64" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [],
+  "facts": [
+    {
+      "label": "Origin",
+      "name": "Herdaz",
+      "placeId": "herdaz",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "26" }]
+    }
+  ],
+  "people": []
+}

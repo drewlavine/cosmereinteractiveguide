@@ -1,0 +1,54 @@
+{
+  "intro": [
+    {
+      "text": "A village in Emul where the coalition set up a warcamp for its offensive into the country.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "101" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "It lies in a rural part of central Emul, near the northern border with Azir.",
+      "revealedIn": ["rhythm-of-war"]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The war in Emul",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "65" },
+                { "book": "rhythm-of-war", "chapter": "101" }
+              ]
+            },
+            { "book": "rhythm-of-war", "chapter": "101" },
+            { "book": "rhythm-of-war", "chapter": "112" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The lands around Laqqi were fought over in the war in Emul. Odium's forces seized most of the country early on, but by early 1175 Azish troops fighting for the coalition had retaken its northern half.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "65" },
+                { "book": "rhythm-of-war", "chapter": "101" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Planning an offensive into Emul, Dalinar Kholin set up a warcamp at Laqqi, about three days' march from the front. Many coalition troops, Knights Radiant and leaders moved there for a time; tents and buildings went up and the village was strengthened against storms and raids by singers. The Alethi leaders kept to plain stone lodgings, while the Azish built lavish quarters for the Prime Aqasix. The base served well, and the offensive succeeded.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "101" }]
+        },
+        {
+          "text": "At the Laqqi warcamp, Dalinar and Odium agreed to hold a contest of champions.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "112" }]
+        }
+      ]
+    }
+  ]
+}

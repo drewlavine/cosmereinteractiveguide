@@ -79,6 +79,20 @@
     {
       "title": [
         {
+          "text": "An ancient title",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "107" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Zoral bore the title Voidbringer on Ashyn, before humanity's arrival on Roshar.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "107" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
           "text": "Jasnah's theory",
           "revealedIn": [
             {

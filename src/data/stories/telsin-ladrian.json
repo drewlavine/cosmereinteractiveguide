@@ -1,0 +1,304 @@
+{
+  "intro": [
+    {
+      "text": "Wax's sister. After twenty years with hardly any contact, the two have become practically strangers.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "3" }]
+    },
+    {
+      "text": "Wax's estranged sister. Their uncle Edwarn warns Wax that she will die if Wax kills him.",
+      "revealedIn": [{ "book": "shadows-of-self", "chapter": "17" }]
+    },
+    {
+      "text": "Wax's sister and a high-ranking member of the Set, whose underlings know her as Lady Sequence; she ranks even above Suit.",
+      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "27" }]
+    },
+    {
+      "text": "Wax's sister, now the Key, leader of the Set, and the person Autonomy has picked to become its avatar on Scadrial.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "alloy-of-law", "chapter": "3" },
+            { "book": "bands-of-mourning", "chapter": "27" },
+            { "book": "lost-metal", "chapter": "21" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Youth",
+          "revealedIn": [
+            { "book": "bands-of-mourning", "chapter": "prologue" },
+            {
+              "all": [
+                { "book": "bands-of-mourning", "chapter": "prologue" },
+                { "book": "lost-metal", "chapter": "35" }
+              ]
+            },
+            { "book": "alloy-of-law", "chapter": "3" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "As a teenager in the Village, Telsin liked to slip off to town with friends instead of attending evening recitation. One evening Wax tagged along as she sneaked out through the Tin Gate.",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "prologue" }]
+        },
+        {
+          "text": "Where Wax never felt at home in the Village, Telsin fitted in easily with the other youths, and she stayed on after he left. To get a room of her own she framed a cousin by hiding stolen money on him, and the privacy made sneaking out simpler.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "bands-of-mourning", "chapter": "prologue" },
+                { "book": "lost-metal", "chapter": "35" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Over the next two decades Telsin and Wax let their contact lapse, until they hardly knew each other.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "3" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Wax's sister",
+          "revealedIn": [
+            "bands-of-mourning",
+            { "book": "shadows-of-self", "chapter": "17" },
+            { "book": "bands-of-mourning", "chapter": "3" },
+            { "book": "bands-of-mourning", "chapter": "19" },
+            { "book": "bands-of-mourning", "chapter": "23" },
+            { "book": "bands-of-mourning", "chapter": "26" },
+            { "book": "bands-of-mourning", "chapter": "27" },
+            { "book": "bands-of-mourning", "chapter": "31" }
+          ]
+        },
+        {
+          "text": "Lady Sequence of the Set",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "27" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "As a young adult mixing with Elendel's rich and powerful, Telsin found the Set and joined it, drawing in her uncle to pay for her ambitions, and climbed its ranks fast. When her uncle staged his own death in a carriage accident, he staged hers as well.",
+          "revealedIn": ["bands-of-mourning"]
+        },
+        {
+          "text": "When Wax confronted Edwarn, his uncle warned that killing him would doom Telsin. Wax promised himself he would find her once Bleeder was stopped.",
+          "revealedIn": [{ "book": "shadows-of-self", "chapter": "17" }]
+        },
+        {
+          "text": "A kandra showed Wax a photograph of Telsin held prisoner in New Seran, and the sight of it persuaded him to make the journey there.",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "3" }]
+        },
+        {
+          "text": "In Dulsing, Wax found Telsin held under guard in a hidden fortress of the Set and freed her. She said she wanted revenge on the Set, and when its Thug came into the room she shot him dead on the spot, which gave them away and forced a frantic escape on the skimmer.",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "19" }]
+        },
+        {
+          "text": "Telsin pressed Wax to reach the temple ahead of Suit's expedition and claim the Bands of Mourning. In flight she made Wayne kick a pack overboard onto a guard, alerting the expedition. That, and her haste in shooting the Thug, made Wax begin to suspect her.",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "23" }]
+        },
+        {
+          "text": "In the temple Wax guessed that someone with him was working for Edwarn, and named Telsin. Her aluminum bullet struck him, and she shot him again as he escaped through a trap. She then injected MeLaan, took both of the kandra's spikes, and sent Edwarn after Wax.",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "26" }]
+        },
+        {
+          "text": "Telsin had been part of the Set the whole time. Its underlings called her Lady Sequence, and she held a higher rank than Suit himself.",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "27" }]
+        },
+        {
+          "text": "When the fight turned against the Set, Telsin made for the skimmer. Wayne caught her and emptied a shotgun into her to pay her back for Wax, trusting her Hemalurgic healing to keep her alive, then took the spikes she carried and let her go. She got away on the skimmer.",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "31" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Bilming and Autonomy",
+          "revealedIn": [
+            { "book": "lost-metal", "chapter": "19" },
+            {
+              "all": [
+                { "book": "bands-of-mourning", "chapter": "19" },
+                { "book": "lost-metal", "chapter": "33" }
+              ]
+            },
+            { "book": "lost-metal", "chapter": "46" },
+            { "book": "lost-metal", "chapter": "27" },
+            { "book": "lost-metal", "chapter": "35" },
+            {
+              "all": [
+                "bands-of-mourning",
+                { "book": "lost-metal", "chapter": "epilogue-1" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Autonomy regarded Scadrial as a threat that ought to be destroyed. Telsin talked Autonomy into sparing it if she could prove herself able to conquer the Basin, and on those terms Autonomy chose her to become its avatar.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "19" }]
+        },
+        {
+          "text": "From 342 PC Telsin built up Bilming as a new empire and a base for her plans, pushing the city forward socially and technologically. In 347 PC the Set managed to build a Harmonium bomb, though a way to deliver it took another year.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "bands-of-mourning", "chapter": "19" },
+                { "book": "lost-metal", "chapter": "33" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "The Set meant to destroy Elendel, blame the blast on Elendel's own Harmonium weapon, use the anger that followed to bring the Basin under its rule, and then turn the recovered technology against the Malwish.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "46" }]
+        },
+        {
+          "text": "When Wax put on the second earring, he heard Telsin in his head, alarmed over trouble with the bomb's delivery system. They spoke through the Connection, and she told him she was saving the world.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "27" }]
+        },
+        {
+          "text": "When Wax came to Bilming to stop her, Telsin turned up in person at the Sentinel of Truth broadsheet office to hold him up, urging him to take his family and flee to the Roughs. Wax realized she was stalling and got away.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "35" }]
+        },
+        {
+          "text": "Telsin fell back to Independence Tower with the Hidden Guard, the Set's elite army, and a decoy bomb to slow Wax down. As she faced Wax, Harmony cut her Connection to Autonomy, leaving her frail. Autonomy then took back its power, and she died, having scratched into her own arm the message \"You have proven yourselves. For now.\"",
+          "revealedIn": [
+            {
+              "all": [
+                "bands-of-mourning",
+                { "book": "lost-metal", "chapter": "epilogue-1" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "A middle-aged woman with curly dark hair and a rugged build.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "alloy-of-law", "chapter": "3" },
+            { "book": "bands-of-mourning", "chapter": "19" },
+            { "book": "lost-metal", "chapter": "19" }
+          ]
+        }
+      ]
+    }
+  ],
+  "personality": [
+    {
+      "text": "As a teenager in the Village she had little patience for rules. Wax sees her as manipulative and two-faced, skilled at hiding what she really wants and at always getting it. She loved drawing, and her uncle kept an easel and a big pad of paper for her in the Ladrian mansion.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "alloy-of-law", "chapter": "3" },
+            { "book": "bands-of-mourning", "chapter": "19" },
+            { "book": "lost-metal", "chapter": "19" }
+          ]
+        }
+      ]
+    }
+  ],
+  "abilities": [
+    {
+      "title": [
+        {
+          "text": "Hemalurgy",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "bands-of-mourning", "chapter": "31" },
+                { "book": "lost-metal", "chapter": "35" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Telsin is a Hemalurgist. She first held to three spikes, giving her the powers of a Coinshot, a Bloodmaker and a Leecher, because a fourth would have left her open to Harmony's control. Once the Set found a way past that limit, she swapped spikes as needed, gaining a Lurcher's and a Windwhisperer's powers.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "bands-of-mourning", "chapter": "31" },
+                { "book": "lost-metal", "chapter": "35" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Avatar of Autonomy",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "66" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "As Autonomy's avatar she can reach her followers' minds and picture plans in far more detail than an ordinary person could.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "66" }]
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "title": [
+        {
+          "text": "Wax",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "66" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Telsin has hated her brother for decades. As children she felt he judged her and thought himself above her, and she sees him as a coward who fled his duties to play the hero in the Roughs.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "66" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Autonomy",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "55" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Telsin is the one who persuaded Autonomy that Scadrial was worth keeping. Rivals within the Set mean she must keep proving she is the best choice for avatar, and Autonomy finds her efforts to win favor forced and believes she does not grasp true autonomy. Without her, Autonomy would have struck the planet sooner.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "55" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Edwarn Ladrian",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "29" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Telsin ranks above her uncle, who follows her orders, and she has long considered him a fool.",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "29" }]
+        }
+      ]
+    }
+  ]
+}

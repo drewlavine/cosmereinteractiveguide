@@ -1,0 +1,26 @@
+{
+  "intro": [
+    {
+      "text": "A senator in Elendel.",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "2" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The Supremacy Bill",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "2" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "In 348 PC, as the Senate voted on the Elendel Supremacy Bill, Wax was unsure which way Vindel would go.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "2" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

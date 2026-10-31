@@ -1,14 +1,21 @@
 import { AnimatePresence, MotionConfig, motion } from 'motion/react'
 import { useEffect, useRef, useState } from 'react'
-import { Link, useLocation, useOutlet } from 'react-router'
+import { Link, useLocation, useNavigate, useOutlet } from 'react-router'
 import { pageKey } from '../navigation'
 import { isPhone, loadPinned, savePinned } from '../state/sideNav'
 import { BooksReadProvider } from './BooksReadProvider'
 import { BooksReadSettings } from './BooksReadSettings'
+import { isTyping } from '../state/keys'
 import { Search } from './Search'
 import { SearchIcon } from './SearchIcon'
 import { SideNav } from './SideNav'
 import { Tooltips } from './Tooltips'
+
+/** Secret pages, never linked: press the key twice to open. */
+const secretKeys: Record<string, string> = {
+  '?': '/chronology',
+  '>': '/spanish-civil-war',
+}
 
 export function Layout() {
   const location = useLocation()
@@ -19,6 +26,51 @@ export function Layout() {
   const [navPinned, setNavPinned] = useState(loadPinned)
   const menuRef = useRef<HTMLButtonElement>(null)
   const wasOpen = useRef(false)
+  const navigate = useNavigate()
+  const titleTaps = useRef<number[]>([])
+
+  const tapPause = useRef<ReturnType<typeof setTimeout>>(undefined)
+
+  // The secret pages: a key pressed twice on a keyboard...
+  useEffect(() => {
+    let last = { key: '', at: 0 }
+    const onKey = (event: KeyboardEvent) => {
+      const to = secretKeys[event.key]
+      if (
+        !to ||
+        isTyping(event.target) ||
+        document.querySelector('dialog[open]')
+      )
+        return
+      if (event.key === last.key && Date.now() - last.at < 800) {
+        last = { key: '', at: 0 }
+        void navigate(to)
+      } else last = { key: event.key, at: Date.now() }
+    }
+    window.addEventListener('keydown', onKey)
+    return () => window.removeEventListener('keydown', onKey)
+  }, [navigate])
+
+  // ...or quick taps on the site title, for phones: three and a pause for
+  // the Spanish Civil War, five for the chronology.
+  useEffect(() => () => clearTimeout(tapPause.current), [])
+  const tapTitle = (event: React.MouseEvent) => {
+    const now = Date.now()
+    titleTaps.current = [
+      ...titleTaps.current.filter((t) => now - t < 2500),
+      now,
+    ]
+    clearTimeout(tapPause.current)
+    if (titleTaps.current.length >= 5) {
+      titleTaps.current = []
+      event.preventDefault()
+      void navigate('/chronology')
+    } else if (titleTaps.current.length === 3)
+      tapPause.current = setTimeout(() => {
+        titleTaps.current = []
+        void navigate('/spanish-civil-war')
+      }, 600)
+  }
 
   // Closing the phone drawer hands focus back to the button that opened it.
   useEffect(() => {
@@ -58,7 +110,7 @@ export function Layout() {
             >
               <SearchIcon name="menu" />
             </button>
-            <Link to="/" className="app-title">
+            <Link to="/" className="app-title" onClick={tapTitle}>
               Cosmere Interactive Guide
             </Link>
             <Search />

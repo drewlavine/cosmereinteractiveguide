@@ -1,0 +1,69 @@
+{
+  "intro": [
+    {
+      "text": "A body of water off Roshar that the ship Wind's Pleasure sailed through in 1173.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "11" }]
+    },
+    {
+      "text": "The ocean south of Roshar, lying off the coasts of Tukar, Marat and Thaylenah.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "oathbringer", "chapter": "107" },
+            { "book": "rhythm-of-war", "chapter": "19" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "Holding Thaylenah's waters gives control of the whole Southern Depths, but true mastery of the region also requires Emul and Tukar.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "oathbringer", "chapter": "107" },
+            { "book": "rhythm-of-war", "chapter": "19" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The Wind's Pleasure",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "11" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Shallan Davar and Jasnah Kholin crossed the Southern Depths in 1173 aboard the Wind's Pleasure, bound for the Shattered Plains.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "11" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The True Desolation",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "115" },
+            { "book": "rhythm-of-war", "chapter": "17" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Because Thaylenah mattered so much, the enemy struck at Thaylen City early in the True Desolation. Scouting near Marat, a Thaylen merchant ship saw many ships docked along the coast and sent word by spanreed, but Fused with glowing eyes rose from a nearby city and attacked it, and it was never heard from again. Soon after, the enemy fleet set out from Marat, carried swiftly across the Depths to Thaylen City by the Everstorm.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "115" }]
+        },
+        {
+          "text": "Several months after the Battle of Thaylen Field, the Thaylen navy won the Southern Depths for the coalition, forcing the enemy ships back to the coast of Iri.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "17" }]
+        }
+      ]
+    }
+  ]
+}

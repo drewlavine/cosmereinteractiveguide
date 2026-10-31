@@ -1,0 +1,66 @@
+{
+  "intro": [
+    {
+      "text": "One of the Silver Kingdoms of Roshar in the Heraldic Epochs. Like the others, its name is symmetrical, following Vorin tradition.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "33" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Valhav stretched across middle and eastern Roshar, from the Purelake in the west to Alethela in the east. It bordered Rishir to the north, Makabakam to the south and southwest, Sela Tales to the west and the Tarat Sea to the south, close to islands held by Rishir and Thalath.",
+      "revealedIn": ["way-of-kings"]
+    },
+    {
+      "text": "Its people wrote in the Dawnchant, at first simply using it to spell out their own language, then adapting it into a script of their own.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "i-2" }]
+    },
+    {
+      "text": "It took in the Horneater Peaks and a small part of the Purelake. Several great rivers crossed it, most running north or south into the Reshi or Tarat seas.",
+      "revealedIn": [{ "all": ["way-of-kings", "oathbringer"] }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Before human settlement",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "113" },
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "113" },
+                { "book": "rhythm-of-war", "chapter": "111" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Singers lived in the land before humans came to Roshar from Ashyn.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "113" }]
+        },
+        {
+          "text": "The humans were first given the land that became Shin Kak Nish. Within a generation they invaded the singers' lands, killing many and driving them out, a history forgotten until the Eila Stele was found.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "113" },
+                { "book": "rhythm-of-war", "chapter": "111" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [{ "text": "After Aharietiam", "revealedIn": ["oathbringer"] }],
+      "items": [
+        {
+          "text": "In the millennia after Aharietiam, Valhav collapsed. Its old lands are now split among several kingdoms, the largest share governed by Jah Keved.",
+          "revealedIn": ["oathbringer"]
+        }
+      ]
+    }
+  ]
+}

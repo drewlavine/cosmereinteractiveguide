@@ -1,0 +1,50 @@
+{
+  "intro": [
+    {
+      "text": "An accountant in the Roughs and the father of Allriandre and her sisters.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "alloy-of-law", "chapter": "10" },
+            { "book": "shadows-of-self", "chapter": "5" },
+            { "book": "lost-metal", "chapter": "58" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "In the Roughs",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "alloy-of-law", "chapter": "10" },
+                { "book": "shadows-of-self", "chapter": "5" },
+                { "book": "lost-metal", "chapter": "58" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Durkel kept accounts in the Roughs and wrote letters for miners and other workers. He was killed during a robbery by Wayne, who was sixteen at the time.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "alloy-of-law", "chapter": "10" },
+                { "book": "shadows-of-self", "chapter": "5" },
+                { "book": "lost-metal", "chapter": "58" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

@@ -1,0 +1,33 @@
+{
+  "intro": [
+    {
+      "text": "A battle in which Malwish troops fought on the ground while their enemy set the sky on fire, and the smoke grew so thick that day turned as dark as midnight.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "38" }]
+    }
+  ],
+  "description": [],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Dajer's wound",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "38" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Colonel Dajer fought at Aheleha and was wounded there.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "38" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "dajer",
+      "role": "wounded there",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "38" }]
+    }
+  ]
+}

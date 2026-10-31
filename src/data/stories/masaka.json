@@ -1,0 +1,158 @@
+{
+  "intro": [
+    {
+      "text": "One of Akane's friends in Kilahito, whom Yumi meets at the Noodle Pupil.",
+      "revealedIn": [{ "book": "yumi", "chapter": "16" }],
+      "fallback": true
+    },
+    {
+      "text": "A nightmare painter in Kilahito and one of Akane's circle of friends, who usually works alongside Izzy.",
+      "revealedIn": [{ "book": "yumi", "chapter": "28" }]
+    },
+    {
+      "text": "A shy nightmare painter in Kilahito who is secretly a Sleepless, living as a human woman by choice.",
+      "revealedIn": [{ "book": "yumi", "chapter": "33" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Origins",
+          "revealedIn": [{ "book": "yumi", "chapter": "33" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Masaka is a Sleepless who once went by the name Chinikdakordich, and she chose to hide her nature and live as a human woman. After settling in Kilahito she sent hordelings out to explore, and they found circular regions in the shroud that she could not enter.",
+          "revealedIn": [{ "book": "yumi", "chapter": "33" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Life in Kilahito",
+          "revealedIn": [
+            { "book": "yumi", "chapter": "28" },
+            { "book": "yumi", "chapter": "21" },
+            { "book": "yumi", "chapter": "33" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "At upper school, rumour held that Masaka had once stabbed someone and been sent to train as a painter as part of a plea deal. She became friends with Nikaro, Akane, Tojin and Izzy, and once made Nikaro a hat for his birthday. After graduating she usually worked with Izzy.",
+          "revealedIn": [{ "book": "yumi", "chapter": "28" }]
+        },
+        {
+          "text": "Masaka met Yumi when Akane introduced her at the Noodle Pupil, and she was among the friends who coaxed Yumi out to dinner.",
+          "revealedIn": [{ "book": "yumi", "chapter": "21" }]
+        },
+        {
+          "text": "Design brought Masaka in to help Yumi chart what lay beyond the shroud. Once she saw how much was at stake she readily agreed, begging Yumi to keep her nature secret and giving her a knife when Yumi promised. She sketched a map of the circles her hordelings could not enter.",
+          "revealedIn": [{ "book": "yumi", "chapter": "33" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Defending Kilahito",
+          "revealedIn": [{ "book": "yumi", "chapter": "40" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Masaka agreed to help Nikaro after Tojin did, and in the battle she was the first to notice the stable nightmares coming out of the shroud.",
+          "revealedIn": [{ "book": "yumi", "chapter": "40" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "After the battle",
+          "revealedIn": [{ "book": "yumi", "chapter": "another-epilogue" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "With the Nightmare Division disbanded, Masaka went to wait tables at the Noodle Princess, the restaurant Nikaro and Yumi ran. She wrote to Design now and then about life on the planet, and grew more at ease with people knowing what she was.",
+          "revealedIn": [{ "book": "yumi", "chapter": "another-epilogue" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Masaka appears as a short woman with bangs and dark makeup, heavy around the eyes, and wears only black, often a black sweater.",
+      "revealedIn": [{ "book": "yumi", "chapter": "33" }]
+    },
+    {
+      "text": "To keep her nature hidden she avoids showing skin, covering her neck with scarves or high collars and drawing her hands into long sleeves.",
+      "revealedIn": [{ "book": "yumi", "chapter": "33" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Masaka is shy and quiet, even with friends, and dislikes being stared at, but she tries hard to be warm toward those she cares about. She draws when out with friends and loves painting and art.",
+      "revealedIn": [{ "book": "yumi", "chapter": "33" }]
+    },
+    {
+      "text": "She is thoroughly tired of war and nudges her friends toward accepting aliens. She thinks nightmares can be cute at times, though she insists she dislikes horrific creatures.",
+      "revealedIn": [{ "book": "yumi", "chapter": "33" }]
+    },
+    {
+      "text": "She doubts she really passes as human, but is proud of how far she has come.",
+      "revealedIn": [{ "book": "yumi", "chapter": "33" }]
+    },
+    {
+      "text": "She lives as a woman because that form makes her happy, not merely for convenience, and prefers the name Masaka, correcting anyone who uses her old one.",
+      "revealedIn": [{ "book": "yumi", "chapter": "another-epilogue" }]
+    }
+  ],
+  "abilities": [
+    {
+      "title": [
+        {
+          "text": "As a Sleepless",
+          "revealedIn": [{ "book": "yumi", "chapter": "33" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "As a Sleepless, Masaka can send hordelings off to search and spy, though she seldom does. She is also a capable painter, with two years of upper school study behind her before she was hired.",
+          "revealedIn": [{ "book": "yumi", "chapter": "33" }]
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "title": [
+        { "text": "Yumi", "revealedIn": [{ "book": "yumi", "chapter": "33" }] }
+      ],
+      "items": [
+        {
+          "text": "Masaka liked Yumi from their first meeting and drew her a picture of a rabbit. She was deeply grateful that Yumi kept treating her as an ordinary woman after learning she was a Sleepless, and kept the secret.",
+          "revealedIn": [{ "book": "yumi", "chapter": "33" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Design",
+          "revealedIn": [{ "book": "yumi", "chapter": "33" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Design is one of the few who know Masaka's secret, and shows her an almost motherly fondness.",
+          "revealedIn": [{ "book": "yumi", "chapter": "33" }]
+        }
+      ]
+    }
+  ]
+}

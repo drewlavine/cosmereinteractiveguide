@@ -1,0 +1,112 @@
+{
+  "intro": [
+    {
+      "text": "A poisonous plant of Roshar whose stem looks like a trefoil prong.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "2" }]
+    },
+    {
+      "text": "A poisonous plant of Roshar and one of its deadliest natural poisons. Its stem looks like a trefoil prong.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "11" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Its leaves are narrow and dark green, each tip split into three points.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "2" },
+            { "book": "words-of-radiance", "chapter": "11" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Dried leaves poison by paralysing the victim until they cannot breathe, and they are said to grow stronger as they age.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "48" }]
+    },
+    {
+      "text": "Victims' skin darkens afterwards. Reaching full strength takes work: the leaves are dried, then made into a gum. Eating the paste kills more slowly than putting the essence straight into the blood.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "48" },
+            { "book": "dawnshard", "chapter": "10" },
+            { "book": "rhythm-of-war", "chapter": "7" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Blackbane in use",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "2" },
+            { "book": "way-of-kings", "chapter": "11" },
+            { "book": "words-of-radiance", "chapter": "48" },
+            { "book": "words-of-radiance", "chapter": "73" },
+            { "book": "oathbringer", "chapter": "50" },
+            { "book": "dawnshard", "chapter": "10" },
+            { "book": "rhythm-of-war", "chapter": "7" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "As a slave in Tvlakv's caravan, Kaladin kept a few blackbane leaves hidden in a makeshift belt, weighing poisoning Tvlakv or himself. In anger after a sick slave was killed, he crushed and lost them. A windspren asked about the leaves, but he wouldn't explain.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "2" }]
+        },
+        {
+          "text": "Syl, not knowing it was poison, then found Kaladin a new leaf to cheer him. She brought it just as he was about to step into the Honor Chasm, and he went back to his bridge crew with fresh purpose.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "11" }]
+        },
+        {
+          "text": "Shallan's brother Wikim handed her the dried blackbane he had carried for more than a year, a sign he no longer wanted to die.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "48" }]
+        },
+        {
+          "text": "Shallan used it on her father once he had killed Malise Gevelmar, his wife.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "73" }]
+        },
+        {
+          "text": "The darts shot at Taln when he was taken from the warcamp monastery were tipped with blackbane.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "50" }]
+        },
+        {
+          "text": "On the Wandersail, Nikli tried to blame Cord for the bad omens, among them the death of the ship's skyeel Screech, by claiming to have found blackbane in her room; Rysn saw through the lie.",
+          "revealedIn": [{ "book": "dawnshard", "chapter": "10" }]
+        },
+        {
+          "text": "Vathah knew of an officer in Sadeas's army who killed himself with blackbane when his smuggling was found out, and Ishnah's old gang used it too. Ialai Sadeas was poisoned to death with it.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "7" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "kaladin",
+      "role": "carried it",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "2" }]
+    },
+    {
+      "characterId": "wikim-davar",
+      "role": "carried it",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "48" }]
+    },
+    {
+      "characterId": "shallan-davar",
+      "role": "used it",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "73" }]
+    },
+    {
+      "characterId": "nikli",
+      "role": "used it",
+      "revealedIn": [{ "book": "dawnshard", "chapter": "10" }]
+    }
+  ]
+}

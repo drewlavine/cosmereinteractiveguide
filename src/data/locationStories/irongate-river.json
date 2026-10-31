@@ -1,0 +1,46 @@
+{
+  "intro": [
+    {
+      "text": "The main river of the Elendel Basin.",
+      "revealedIn": ["alloy-of-law"]
+    }
+  ],
+  "description": [
+    {
+      "text": "A railway follows the river's south bank, ending at the Third Octant's inner ring-road and linking with most other lines. At Steinel the line forks: one branch keeps close to the river toward the eastern mountains, and the other heads southwest to Elmsdel and Garmet.",
+      "revealedIn": ["alloy-of-law"]
+    },
+    {
+      "text": "Flowing into the Basin between the Faleast and Seran Ranges, it runs fairly straight westward. In Elendel the six great canals flow into it around the Field of Rebirth, forming spokes between the city's eight Octants, and once past the three bridges near the Northside Sixth Octant precinct, it broadens beneath the outermost ring-road's bridge before emptying into Hammondar Bay.",
+      "revealedIn": [{ "all": ["alloy-of-law", "lost-metal"] }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "On the river",
+          "revealedIn": [
+            { "book": "shadows-of-self", "chapter": "24" },
+            "shadows-of-self",
+            { "book": "bands-of-mourning", "chapter": "4" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Eastbridge carries the outer ring-road and a railway across the river. Chasing Bleeder, Waxillium Ladrian caught up with her there, and their final fight took place on the bridge above the water.",
+          "revealedIn": [{ "book": "shadows-of-self", "chapter": "24" }]
+        },
+        {
+          "text": "Lady Carmine Feltry planned a motorcar racetrack on the old fairgrounds beside the river.",
+          "revealedIn": ["shadows-of-self"]
+        },
+        {
+          "text": "Before setting out for New Seran, Wayne booked a boat in Elendel for an entire day, beginning with a trip along the Irongate to the Third Octant.",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "4" }]
+        }
+      ]
+    }
+  ]
+}

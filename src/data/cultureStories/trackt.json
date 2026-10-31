@@ -1,0 +1,82 @@
+{
+  "intro": [
+    {
+      "text": "Lossand's officers of the law, based at Trackt Hall within the Hall of Judgement.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "6" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "A trackt's uniform is dark grey boots and trousers under a paler grey robe, topped with a dark grey cape. Each is armed with zinkallin and has a brown, many-pouched belt fastened with a silver buckle.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "11" }]
+    },
+    {
+      "text": "Their Profession, which also takes in judges and scribes, is one of the eight seated on the Taishin. Lady Judge Heelis leads them, while a Senior Trackt runs their daily work. They try to enforce the law impartially.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "18" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Hunting Sharezan",
+          "revealedIn": [
+            { "book": "white-sand-omnibus", "chapter": "6" },
+            { "book": "white-sand-omnibus", "chapter": "16" },
+            { "book": "white-sand-omnibus", "chapter": "17" },
+            { "book": "white-sand-omnibus", "chapter": "18" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Hunting the crime lord Sharezan, Senior Trackt Ais and Trackt Tain's team searched a raided den, and Ais chased down and arrested Sharezan's second, Lokmlen. Lady Judge Heelis then took Ais off the case to guard Kenton and report on him.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "6" }]
+        },
+        {
+          "text": "With Ais away, Tain led the investigation. After another raid, word came that one of Sharezan's chief allies wanted out, and the trackts promised him protection for information. That ally was Lord General Raagent, but Sharezan set off an explosion where they were to meet. Raagent then vanished and was found dead in his wine cellar, his eyelids cut off, and Ais suspected Sharezan.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "16" }]
+        },
+        {
+          "text": "Tain told Ais that Lokmlen had talked and led her to a supposed safehouse, then revealed that he was Sharezan and made her choose between saving her family and the children in the orphanage that raised her. She sent a trackt she met on the way to the orphanage and got home to find Kenton beating Tain, who was jailed to await trial.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "17" }]
+        },
+        {
+          "text": "Afterwards Ais resigned and left Lossand with her family.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "18" }]
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Headquarters",
+      "name": "Trackt Hall, Hall of Judgement",
+      "placeId": "hall-of-judgment",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "6" }]
+    },
+    {
+      "label": "Leader",
+      "name": "Lady Judge Heelis",
+      "characterId": "heelis",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "18" }]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "ais",
+      "role": "Senior Trackt",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "6" }]
+    },
+    {
+      "characterId": "tain",
+      "role": "trackt",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "6" }]
+    },
+    {
+      "characterId": "heelis",
+      "role": "Lady Judge",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "6" }]
+    }
+  ]
+}

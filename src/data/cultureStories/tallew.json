@@ -1,0 +1,128 @@
+{
+  "intro": [
+    {
+      "text": "A food of Roshar; the slaver Tvlakv fed his slaves tallew that was plain and overcooked.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "2" }]
+    },
+    {
+      "text": "A grain grown on Roshar.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "37" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Lighteyes sometimes eat boiled tallew in a spicy gravy over sliced stagm, and Alethi children often get fruited tallew with flatbread.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "54" }]
+    },
+    {
+      "text": "It can be baked into flatbread, and once harvested it keeps for months, feeding people through winter.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "58" }]
+    },
+    {
+      "text": "Like rice, it can be steamed or boiled, and it is a plain meal common among soldiers, slaves and ardents.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "37" },
+            { "book": "words-of-radiance", "chapter": "i-12" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "It takes much labour to grow, since it cannot survive highstorm flooding, which makes it profitable. Sebarial set up tallew fields near the Shattered Plains warcamps, and the hills of the Akanny region in Alethkar produce large amounts.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "40" },
+            { "book": "edgedancer", "chapter": "12" },
+            { "book": "oathbringer", "chapter": "10" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "It can also be fermented into brandy or Veden saph.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "58" },
+            { "book": "oathbringer", "chapter": "18" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Notable meals",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "54" },
+                { "book": "words-of-radiance", "chapter": "64" },
+                { "book": "oathbringer", "chapter": "70" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "58" },
+                { "book": "words-of-radiance", "chapter": "46" },
+                { "book": "oathbringer", "chapter": "70" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The tallew Tvlakv served his slaves was mushy and unspiced; Kaladin found it revolting and had flashbacks to its taste.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "54" },
+                { "book": "words-of-radiance", "chapter": "64" },
+                { "book": "oathbringer", "chapter": "70" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Because it keeps so long, tallew fed the Kholinar Wall Guard during the siege of Kholinar.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "58" },
+                { "book": "words-of-radiance", "chapter": "46" },
+                { "book": "oathbringer", "chapter": "70" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "tvlakv",
+      "role": "served it",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "2" }]
+    },
+    {
+      "characterId": "turinad-sebarial",
+      "role": "grower",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "40" },
+            { "book": "edgedancer", "chapter": "12" },
+            { "book": "oathbringer", "chapter": "10" }
+          ]
+        }
+      ]
+    }
+  ]
+}

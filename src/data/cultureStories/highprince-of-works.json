@@ -1,0 +1,80 @@
+{
+  "intro": [
+    {
+      "text": "A title the Alethi king grants to one of his highprinces, in charge of public works. It is held by Highprince Hatham.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "29" },
+            { "book": "oathbringer", "chapter": "104" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "In Urithiru the Highprince of Works sees to the public lavatories, supplies water to the tower's people and packs goods for the Alethi holdings. He can call up soldiers, caravan workers and people of low nahn for labour, but they are not slaves and must be paid. His men are also trying, so far with little success, to grow food on the tower's balcony farms.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "104" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Hatham's tenure",
+          "revealedIn": [
+            {
+              "all": [
+                "way-of-kings",
+                { "book": "oathbringer", "chapter": "104" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Alethkar had no Highprince of Works between Gavilar's unification and the True Desolation. After the Everstorm arrived, Hatham was given the title and charged with making Urithiru livable. He does admirably, but the half-working tower cannot sustain its people without outside trade, and lower-class Alethi resist doing work that parshmen once did.",
+          "revealedIn": [
+            {
+              "all": [
+                "way-of-kings",
+                { "book": "oathbringer", "chapter": "104" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Holder",
+      "name": "Hatham",
+      "characterId": "hatham",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "29" },
+            { "book": "oathbringer", "chapter": "104" }
+          ]
+        }
+      ]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "hatham",
+      "role": "holder",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "29" },
+            { "book": "oathbringer", "chapter": "104" }
+          ]
+        }
+      ]
+    }
+  ]
+}

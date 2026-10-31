@@ -78,6 +78,20 @@
           ]
         }
       ]
+    },
+    {
+      "title": [
+        {
+          "text": "The Long Trail",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "i-11" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Cusicesh opened a perpendicularity, and the Iriali began leaving Roshar through Shadesmar for the next land of the Long Trail.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "i-11" }]
+        }
+      ]
     }
   ]
 }

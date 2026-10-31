@@ -1,0 +1,206 @@
+{
+  "intro": [
+    {
+      "text": "Soldiers and workers made by Awakening. Hallandren keeps forty thousand of them as an army outside T'Telir.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "4" }]
+    },
+    {
+      "text": "Dead bodies Awakened to serve. Anyone who knows a Lifeless's security phrase can give it new Commands, and Hallandren keeps forty thousand of them as an army.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "22" }]
+    },
+    {
+      "text": "Dead bodies Awakened to serve, counted as Type Two BioChromatic entities: a manifestation without a mind, housed in a corpse. Anyone who knows a Lifeless's security phrase can give it new Commands.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "46" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Unlike other Awakened objects, the Breath used on a Lifeless can't be taken back. Lifeless follow orders far more flexibly, since their brains leave them less dependent on the Awakener's intent, and they can take new Commands or have old ones cancelled without more Breath.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "21" }]
+    },
+    {
+      "text": "A Lifeless is grey all over, its colors drained to fuel its Awakening, though its clothes keep theirs. It doesn't breathe, eat or twitch, so it stands as still as a statue when idle. Lifeless come in every shape and size people do.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "25" }]
+    },
+    {
+      "text": "Lifeless are counted as Type Two BioChromatic entities, a manifestation without a mind, housed in a corpse.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "46" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The Manywar",
+          "revealedIn": [
+            { "book": "warbreaker", "chapter": "32" },
+            { "book": "warbreaker", "chapter": "epilogue" },
+            { "book": "warbreaker", "chapter": "58" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Hoid tells Siri that one of the Five Scholars found a way to make a Lifeless from a single Breath, and that Kalad made a stronger kind, Kalad's Phantoms.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "32" }]
+        },
+        {
+          "text": "Some three hundred years ago Shashara helped create the single-Breath Command; before it, making Lifeless was far less efficient. With it Kalad raised a vast army of Lifeless, his Phantoms, seized power in Hallandren and began the Manywar, forcing the royal family to flee to the highlands.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "epilogue" }]
+        },
+        {
+          "text": "Once Shashara made Nightblood, Kalad foresaw the horror of near-unstoppable Lifeless bearing sentient swords. To prevent it he slew her, then ordered his Phantoms back to retake Hallandren and make peace. He seemed so changed that people took him for a different Returned and called him Peacegiver.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "epilogue" }]
+        },
+        {
+          "text": "Kalad's Phantoms turn out to be the D'Denir statues in T'Telir, which hold Awakened human bones.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "58" }]
+        }
+      ]
+    }
+  ],
+  "mechanics": [
+    {
+      "title": [
+        {
+          "text": "Commands",
+          "revealedIn": [
+            { "book": "warbreaker", "chapter": "22" },
+            { "book": "warbreaker", "chapter": "3" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Anyone who knows a Lifeless's security phrase can give it new Commands, while a normal Awakened object takes only the one Command it is given in advance. Lifeless can remember long, complex orders and rarely get them wrong; Denth thinks they keep a little of their humanity.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "22" }]
+        },
+        {
+          "text": "Command phrases come in levels. Lightsong gives Llarimar the phrase \"Fledgling Fruit\", which lets him give limited orders that don't involve fighting.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "3" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Soldiers and upkeep",
+          "revealedIn": [
+            { "book": "warbreaker", "chapter": "33" },
+            { "book": "warbreaker", "chapter": "46" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Lifeless make good soldiers: they feel no pain, need little upkeep and no food, and keep some of the skill they had in life. Turning dead soldiers into Lifeless saves on both training and upkeep.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "33" }]
+        },
+        {
+          "text": "A Lifeless stays useful for several years if its body is kept in good condition, longer with ichor-alcohol in its veins. Damage can be partly mended, by sewing up cuts or replacing damaged muscles.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "46" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Awareness",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "31" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Clod seems to help Vivenna more than his Commands require, more than once.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "31" }]
+        }
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "title": "Views of Lifeless",
+      "items": [],
+      "parts": [
+        {
+          "title": [
+            {
+              "text": "Hallandren",
+              "revealedIn": [
+                { "book": "warbreaker", "chapter": "25" },
+                { "book": "warbreaker", "chapter": "19" },
+                { "book": "warbreaker", "chapter": "47" }
+              ]
+            }
+          ],
+          "items": [
+            {
+              "text": "Hallandren sees Lifeless as tools without feelings. They guard shops, carry packs and sweep the streets in T'Telir's richer districts, where few people pay them any mind, though most keep their distance.",
+              "revealedIn": [{ "book": "warbreaker", "chapter": "25" }]
+            },
+            {
+              "text": "Anyone who brings a body can pay to have it made into a Lifeless, and families are paid well for the fresh corpses of strong people.",
+              "revealedIn": [{ "book": "warbreaker", "chapter": "19" }]
+            },
+            {
+              "text": "The Court of Gods keeps forty thousand Lifeless in the Lifeless Enclave beside its palaces. As a check on power, four gods each hold the Commands for ten thousand: Lightsong, Allmother, Mercystar and Hopefinder.",
+              "revealedIn": [{ "book": "warbreaker", "chapter": "47" }]
+            }
+          ]
+        },
+        {
+          "title": [
+            {
+              "text": "Idris",
+              "revealedIn": [{ "book": "warbreaker", "chapter": "19" }]
+            }
+          ],
+          "items": [
+            {
+              "text": "Idrians, who already shun Breath and Awakening, see Lifeless as the worst abomination of all: a body should not be misused by being brought back to serve someone.",
+              "revealedIn": [{ "book": "warbreaker", "chapter": "19" }]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "lightsong",
+      "role": "Holds Commands",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "3" }]
+    },
+    {
+      "characterId": "llarimar",
+      "role": "Limited phrase",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "3" }]
+    },
+    {
+      "characterId": "jewels",
+      "role": "Repairs Clod",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "33" }]
+    },
+    {
+      "characterId": "blushweaver",
+      "role": "Gathers Commands",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "30" }]
+    },
+    {
+      "characterId": "mercystar",
+      "role": "Holds Commands",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "30" }]
+    },
+    {
+      "characterId": "allmother",
+      "role": "Holds Commands",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "47" }]
+    },
+    {
+      "characterId": "susebron",
+      "role": "Commands Phantoms",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "58" }]
+    }
+  ]
+}

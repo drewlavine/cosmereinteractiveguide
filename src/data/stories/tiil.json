@@ -1,0 +1,25 @@
+{
+  "intro": [
+    {
+      "text": "A young Arelene boy taken by the Shaod, who lives at the Roost in New Elantris under Matisse's care.",
+      "revealedIn": ["hope-of-elantris"]
+    }
+  ],
+  "history": [
+    {
+      "title": [{ "text": "The Roost", "revealedIn": ["hope-of-elantris"] }],
+      "items": [
+        {
+          "text": "When Raoden founded New Elantris, Tiil and about fifty other children were put in Matisse's care at the Roost, where she taught them to draw Aons.",
+          "revealedIn": ["hope-of-elantris"]
+        },
+        {
+          "text": "When Fjordell soldiers attacked Elantris, Matisse enlisted Tiil and Teor to keep the little ones quiet and on the move. She told them that, as her father was a soldier, she was one too, and they could be her subcaptains if they followed her orders.",
+          "revealedIn": ["hope-of-elantris"]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

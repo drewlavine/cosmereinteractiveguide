@@ -1,0 +1,43 @@
+{
+  "intro": [
+    {
+      "text": "An Idrian living in T'Telir who approaches Princess Vivenna in an alley, hoping she has come to help the city's Idrians.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "22" }],
+      "fallback": true
+    },
+    {
+      "text": "An Idrian from the slums of T'Telir who arranges Princess Vivenna's meetings with the city's Idrians and their leaders.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "31" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Meeting Vivenna",
+          "revealedIn": [
+            { "book": "warbreaker", "chapter": "22" },
+            { "book": "warbreaker", "chapter": "31" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Thame stopped Vivenna in an alley to ask if she had come to help the oppressed Idrians of Hallandren. Her mercenaries took him for a plant and questioned him roughly, but Jewels' checks showed he was what he claimed, and his visit gave Vivenna the idea of meeting the city's ordinary Idrians.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "22" }]
+        },
+        {
+          "text": "He worked for Rira, mostly drawing desperate or inexperienced Idrians into Rira's dealings, and had come to see the princess for himself after overhearing Rira sell word of where she was. He went on to set up her meetings with common Idrians and several slum lords.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "31" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": [
+    {
+      "text": "He stays loyal to Idris's government and to Austrism, though little of either shows in how he lives day to day.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "28" }]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "intro": [
+    {
+      "text": "A noble house of Scadrial, whose founder was Demoux.",
+      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "12" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Its members include Felise Demoux and her nephew. The house does business with House Ladrian.",
+      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "12" }]
+    }
+  ],
+  "history": [],
+  "facts": [
+    {
+      "label": "Founded by",
+      "name": "Demoux",
+      "characterId": "demoux",
+      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "12" }]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "demoux",
+      "role": "founder",
+      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "12" }]
+    },
+    {
+      "characterId": "felise-demoux",
+      "role": "member",
+      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "12" }]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "intro": [
+    {
+      "text": "A large lake in the Final Empire that encircles the Ashmount Tyrian.",
+      "revealedIn": ["final-empire"]
+    }
+  ],
+  "description": [],
+  "history": [
+    {
+      "title": [
+        { "text": "After the Catacendre", "revealedIn": ["alloy-of-law"] }
+      ],
+      "items": [
+        {
+          "text": "After the Catacendre, the lake gave way to the Tyrian Sea, which lies in much the same place.",
+          "revealedIn": ["alloy-of-law"]
+        }
+      ]
+    }
+  ]
+}

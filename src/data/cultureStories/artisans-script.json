@@ -1,0 +1,32 @@
+{
+  "intro": [
+    {
+      "text": "A Hallandren writing system built on color rather than shape: each color stands for a sound of the language.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "3" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "The simplest form uses plain dots of color. Skilled writers use lines that shade gradually from one color to another, or glyphs that make pictures.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "3" }]
+    },
+    {
+      "text": "Using the script to the full takes the perfect color sense granted by the Third Heightening.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "3" }]
+    },
+    {
+      "text": "Because their tongues are removed, Hallandren's God Kings are taught to communicate through the artisan's script.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "29" }]
+    }
+  ],
+  "history": [],
+  "facts": [
+    {
+      "label": "Used in",
+      "name": "Hallandren",
+      "placeId": "hallandren",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "3" }]
+    }
+  ],
+  "people": []
+}

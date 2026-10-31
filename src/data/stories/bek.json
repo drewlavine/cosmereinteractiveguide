@@ -1,0 +1,33 @@
+{
+  "intro": [
+    {
+      "text": "Queen Bek the Fifteenth, a spore eater said to be the only person in Lumar's recorded history to be cured of the condition.",
+      "revealedIn": [{ "book": "tress", "chapter": "31" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Legend",
+          "revealedIn": [
+            { "book": "tress", "chapter": "31" },
+            { "book": "tress", "chapter": "52" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Accounts hold that Bek was cured of her spore infection, and that the dragon Xisis had a hand in it.",
+          "revealedIn": [{ "book": "tress", "chapter": "31" }]
+        },
+        {
+          "text": "Xisis, however, says he can only hold the growth back for a time, not remove it, so her cure may not have been complete, unless he said so to stop Crow trying to escape.",
+          "revealedIn": [{ "book": "tress", "chapter": "52" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

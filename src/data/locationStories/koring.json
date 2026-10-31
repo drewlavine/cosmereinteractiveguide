@@ -1,0 +1,41 @@
+{
+  "intro": [
+    {
+      "text": "A Shin city near the Willshaper monastery, surrounded by grass-covered hills and farmland.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "45" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Its roughly two hundred buildings are brightly painted, with boardwalks and fixed awnings. Doors and windows use metal fittings.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "45" }]
+    },
+    {
+      "text": "Wooden palisades, a gate and a raised walkway form the city's improvised defenses.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "45" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "A place of refuge",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "52" },
+            { "book": "wind-and-truth", "chapter": "45" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "People who resisted the corruption in neighboring settlements gathered in Koring. They farmed outside by day and sheltered behind its walls against nighttime attacks.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "52" }]
+        },
+        {
+          "text": "Szeth and Kaladin found the city resisting the influence affecting much of Shinovar. After visiting the monastery, Szeth returned to promise help to the gathered people.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "45" }]
+        }
+      ]
+    }
+  ]
+}

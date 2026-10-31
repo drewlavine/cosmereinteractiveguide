@@ -1,0 +1,123 @@
+{
+  "intro": [
+    {
+      "text": "The ten classical elements of Vorin teaching, used to describe what the world is made of.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "prelude" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Every Essence has its own gemstone. To Soulcast something into a new substance, a Soulcaster fabrial needs the gem that matches that substance's Essence.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "prelude" }]
+    },
+    {
+      "text": "In Vorin teaching every Essence is linked to one of the Heralds and to the divine attributes that Herald stands for, as well as to many other ideas and substances.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "prelude" }]
+    },
+    {
+      "text": "Vorin doctrine also gives each Essence a Body Focus, a link to some part or function of the human body.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "prelude" }]
+    },
+    {
+      "text": "Each stance of Vorin swordplay is tied to one of the Essences.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "19" }]
+    }
+  ],
+  "history": [],
+  "tables": [
+    {
+      "title": "The Ten Essences",
+      "columns": [
+        "Essence",
+        "Number",
+        "Gemstone",
+        "Body Focus",
+        "Soulcasts into"
+      ],
+      "rows": [
+        {
+          "key": "Zephyr",
+          "cells": [
+            "Zephyr",
+            "1, Jes",
+            "Sapphire",
+            "Inhalation",
+            "Translucent gas, air"
+          ],
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "prelude" }]
+        },
+        {
+          "key": "Vapor",
+          "cells": [
+            "Vapor",
+            "2, Nan",
+            "Smokestone",
+            "Exhalation",
+            "Opaque gas, smoke, fog"
+          ],
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "prelude" }]
+        },
+        {
+          "key": "Spark",
+          "cells": ["Spark", "3, Chach", "Ruby", "The soul", "Fire"],
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "prelude" }]
+        },
+        {
+          "key": "Lucentia",
+          "cells": [
+            "Lucentia",
+            "4, Vev",
+            "Diamond",
+            "The eyes",
+            "Quartz, glass, crystal"
+          ],
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "prelude" }]
+        },
+        {
+          "key": "Pulp",
+          "cells": [
+            "Pulp",
+            "5, Palah",
+            "Emerald",
+            "The hair",
+            "Wood, plants, moss"
+          ],
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "prelude" }]
+        },
+        {
+          "key": "Blood",
+          "cells": [
+            "Blood",
+            "6, Shash",
+            "Garnet",
+            "The blood",
+            "Blood, all non-oil liquids"
+          ],
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "prelude" }]
+        },
+        {
+          "key": "Tallow",
+          "cells": ["Tallow", "7, Betab", "Zircon", "Oil", "All kinds of oil"],
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "prelude" }]
+        },
+        {
+          "key": "Foil",
+          "cells": ["Foil", "8, Kak", "Amethyst", "The nails", "Metal"],
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "prelude" }]
+        },
+        {
+          "key": "Talus",
+          "cells": ["Talus", "9, Tanat", "Topaz", "The bone", "Rock and stone"],
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "prelude" }]
+        },
+        {
+          "key": "Sinew",
+          "cells": ["Sinew", "10, Ishi", "Heliodor", "Flesh", "Meat, flesh"],
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "prelude" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": []
+}

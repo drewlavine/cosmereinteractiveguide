@@ -1,0 +1,252 @@
+{
+  "intro": [
+    {
+      "text": "The period of Roshar's history before the Era of Solitude, which closed with Aharietiam, the Last Desolation. It is sometimes called the Silver Kingdoms Epoch.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "45" }]
+    },
+    {
+      "text": "The age of Roshar's history before the Era of Solitude: a run of cycles, each a stretch of peace ended by a Desolation, while the Heralds kept the Oathpact.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "45" },
+            { "book": "oathbringer", "chapter": "111" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "Roshar was split into ten Silver Kingdoms, each with its own part in the Desolations. The Heralds built them and, by legend, ruled them.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "60" }]
+    },
+    {
+      "text": "Reading and writing were not only for women, since there were wordsmen, and war was not only for men, since some Knights Radiant were women.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "60" }]
+    },
+    {
+      "text": "Even between Desolations, people were always under threat from creatures like Midnight Essence.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "60" }]
+    },
+    {
+      "text": "Though seen as a golden age, the epochs were a time of decline. Each Desolation cost so much knowledge that the Heralds, having left mankind able to forge bronze, came back to find it in the stone age and had to teach vital skills again.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "21" },
+            { "book": "words-of-radiance", "chapter": "i-7" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Rosharans remember the epochs fondly, as an age when the Heralds steered events and people lived by honour. Great men of the age, such as Nohadon, are still revered.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "21" },
+            { "book": "words-of-radiance", "chapter": "47" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Origins",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "prelude" },
+                { "book": "oathbringer", "chapter": "111" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The epochs began with war between humans and singers, after the singers sided with Odium. Honor answered by choosing ten Heralds and forming the Oathpact: as long as the Heralds remained on Braize, no new Desolation could begin, so Odium tortured them until one gave in.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "prelude" },
+                { "book": "oathbringer", "chapter": "111" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Each cycle of peace ending in a Desolation was one Heraldic Epoch. The Heralds broke faster each time, so the first epochs were more than a century apart and the last only years apart.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "prelude" },
+                { "book": "oathbringer", "chapter": "111" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Senne Khald, a Worldsinger, belongs to the Sixth Epoch, and Dalinar's vision of Midnight Essence attacking Starfalls is set in the Eighth.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "prelude" },
+                { "book": "oathbringer", "chapter": "111" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The Knights Radiant",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "60" },
+                { "book": "words-of-radiance", "chapter": "42" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "At first only the Heralds could Surgebind, but in time spren copied their powers by bonding humans. These first Surgebinders were disorganised, and some turned on other people.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "60" },
+                { "book": "words-of-radiance", "chapter": "42" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "In Nohadon's day the Herald Ishar brought them to order, forming the Knights Radiant, who from then on fought the Desolations beside the Heralds.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "60" },
+                { "book": "words-of-radiance", "chapter": "42" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Stormseat",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "26" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "During one Desolation the city of Stormseat was destroyed, and its ruins became the Shattered Plains. In time, a legion sent there defected and became the listeners.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "26" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The end of the epochs",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "45" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "The epochs ended with Aharietiam, the Last Desolation, after which Taln was the only dead Herald. The rest left the Oathpact, reasoning that one of them could keep it working, abandoned their Honorblades and told mankind the Voidbringers were finally defeated.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "45" }]
+        },
+        {
+          "text": "With the Heralds gone, Roshar entered the Era of Solitude.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "45" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Vorin teaching",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "45" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Vorinism teaches that, as the epochs closed, the Heralds forced the Voidbringers into the Tranquiline Halls and were battling to expel them from there too. It counts one hundred Desolations, Aharietiam among them.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "45" }]
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Ended with",
+      "name": "Aharietiam",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "45" }]
+    },
+    {
+      "label": "Followed by",
+      "name": "Era of Solitude",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "45" }]
+    },
+    {
+      "label": "Kingdoms",
+      "name": "Ten Silver Kingdoms",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "60" }]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "talenel",
+      "role": "Herald",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "45" }]
+    },
+    {
+      "characterId": "ishar",
+      "role": "Herald",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "60" },
+            { "book": "words-of-radiance", "chapter": "42" }
+          ]
+        }
+      ]
+    },
+    {
+      "characterId": "nohadon",
+      "role": "King",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "60" },
+            { "book": "words-of-radiance", "chapter": "42" }
+          ]
+        }
+      ]
+    },
+    {
+      "characterId": "senne-khald",
+      "role": "Worldsinger",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "prelude" },
+            { "book": "oathbringer", "chapter": "111" }
+          ]
+        }
+      ]
+    }
+  ]
+}

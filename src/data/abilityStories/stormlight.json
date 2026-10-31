@@ -45,8 +45,37 @@
       ]
     }
   ],
-  "history": [],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "After the contest",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "147" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Retribution's formation left ordinary Stormlight inaccessible on Roshar.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "147" }]
+        }
+      ]
+    }
+  ],
   "mechanics": [
+    {
+      "title": [
+        {
+          "text": "Transport beyond Roshar",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "25" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Blanking Stormlight's Identity allows it to be carried out of the Rosharan system.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "25" }]
+        }
+      ]
+    },
     {
       "title": [
         {

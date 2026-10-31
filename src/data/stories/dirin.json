@@ -1,0 +1,90 @@
+{
+  "intro": [
+    {
+      "text": "An acolent of the Diem who passes on rumours about Mastrell Drile to Kenton.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "2" }],
+      "fallback": true
+    },
+    {
+      "text": "An acolent of the Diem and a friend of Kenton's from their time as acolents together.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "4" }]
+    },
+    {
+      "text": "An acolent who becomes acting Lord Mastrell Kenton's assistant in running the Diem.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "7" }]
+    },
+    {
+      "text": "A weak sand master but a capable administrator, who runs the Diem's daily business as Kenton's assistant.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "10" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Surviving the attack",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "4" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Although much younger, Dirin had befriended Kenton when both were acolents. He looked after Kenton following his run of the Path until Traiben sent him away. As one of the weaker sand masters, he was not targeted in the attack and was among the few who lived.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "4" }]
+        },
+        {
+          "text": "Expecting the Taishin to name Drile Lord Mastrell, he went back to the Diem for a mastrell's sash and found Kenton grieving there. He told Kenton of the meeting, went with him to the Hall of Judgement and urged him to use his rank to claim the leadership.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "4" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Kenton's assistant",
+          "revealedIn": [
+            { "book": "white-sand-omnibus", "chapter": "7" },
+            { "book": "white-sand-omnibus", "chapter": "10" },
+            { "book": "white-sand-omnibus", "chapter": "14" },
+            { "book": "white-sand-omnibus", "chapter": "18" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Dirin became Kenton's assistant, putting up ladders to the Diem's upper floors for guests and weaker masters, then hiring builders for permanent stairs.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "7" }]
+        },
+        {
+          "text": "After Kenton challenged Drile, the two tested ways for ribbons to attack other ribbons, and Kenton saw that a master with many ribbons could easily break an opponent's.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "10" }]
+        },
+        {
+          "text": "He brought in Delius's messenger with an invitation to a ball. He also reported that the Lady Mason would back the Diem after hearing how Kenton saved workers at a building site.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "14" }]
+        },
+        {
+          "text": "Watching the duel, he told Elorin that Kenton had always believed one ribbon could beat dozens. Afterwards he fetched Kenton because Drile wanted to speak with him.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "18" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": [],
+  "abilities": [
+    {
+      "title": [
+        {
+          "text": "Sand mastery",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "10" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Barely able to manage a single ribbon, but good at bureaucracy and the daily running of the Diem.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "10" }]
+        }
+      ]
+    }
+  ]
+}

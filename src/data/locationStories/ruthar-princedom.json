@@ -1,0 +1,62 @@
+{
+  "intro": [
+    {
+      "text": "One of the ten princedoms of Alethkar.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "67" },
+            { "book": "oathbringer", "chapter": "46" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "It lies in western Alethkar on the border with Jah Keved, with the Vamah and Aladar princedoms to the north, the Kholin princedom to the east and the Sunmaker Mountains along its southern edge. Kelathar lies near a tributary of the Windrunner River, and Danidan in the northeast near the Kholin border.",
+      "revealedIn": ["oathbringer"]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The princedom's Shards",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "37" },
+                { "book": "oathbringer", "chapter": "26" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Highprince Ruthar won a Shardblade and Shardplate in the 1145 battle against Kalanor's forces, and they came to be held by Relis Ruthar. The princedom also had a second set of Plate, held by Elit Ruthar.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "37" },
+                { "book": "oathbringer", "chapter": "26" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Adolin defeated Elit and Relis in duels and won both sets of Plate and Relis's Shardblade.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "37" },
+                { "book": "oathbringer", "chapter": "26" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

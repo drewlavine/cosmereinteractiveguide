@@ -1,0 +1,35 @@
+{
+  "intro": [
+    {
+      "text": "The mother of an Iriali family stranded in the emberdark when their small ship goes down, and rescued by the Dynamic's crew.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "27" }],
+      "fallback": true
+    },
+    {
+      "text": "Crux, an Iriali woman, probably from Zidorna, Nol's wife and the mother of their son. She speaks Yolish, and her hair is the gold common among the Iriali.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "30" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Lost in the emberdark",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "30" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Using a map handed down in Nol's family, a piece of the Long Trail record, the family sold everything for a ship to seek a lost perpendicularity. A shifted character in an old form of Iriali led them to misread the coordinates, and they were searching the wrong area when fire broke out in the cockpit. They deployed Invested floats and a distress beacon, which brought the Dynamic but also drew an entity.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "30" }]
+        },
+        {
+          "text": "Aboard the Dynamic, Crux told ZeetZi they had been heading home to Zidorna when their Knell compass broke. On Silverlight, where they had relatives at the university, she and Nol owned up to the lie and gave Starling their map, both as thanks and to keep themselves from trying such a foolish venture again.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "30" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

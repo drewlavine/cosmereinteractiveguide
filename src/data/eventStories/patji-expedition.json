@@ -1,0 +1,105 @@
+{
+  "intro": [
+    {
+      "text": "A venture by the Northern Interests Trading Company to Patji, where Dusk finds one of its camps wrecked on the shore.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "4" }]
+    },
+    {
+      "text": "A Northern Interests Trading Company expedition to Patji, meant to study the Aviar and claim the island before rival companies could.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "8" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Its fleet included at least two big iron-hulled ships with cannons, one captained by Eusto, who led the expedition. About two hundred soldiers and a hundred scientists and merchants came, and set up a small fortress as their base.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "8" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The scout team",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "8" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "A scout team, Vathi among them, set out to circle the island and found a second fortress, but a deepwalker attacked them as they camped on the beach. Vathi alone survived.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "8" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Dusk and the Company",
+          "revealedIn": [
+            { "book": "isles-of-the-emberdark", "chapter": "4" },
+            { "book": "isles-of-the-emberdark", "chapter": "6" },
+            { "book": "isles-of-the-emberdark", "chapter": "20" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Landing on Patji, Dusk found the wreckage of the camp on the shore and saw that a few survivors had fled inland.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "4" }]
+        },
+        {
+          "text": "Realizing the Company was making a full effort to take the island, Dusk, who had long warned the companies off, followed tracks inland, thinking they had hired a capable trapper, until he came upon Vathi trapped in a snare he had set.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "6" }]
+        },
+        {
+          "text": "Vathi told him the Company had dealings with the Ones Above and held several of their devices, including machines that could find Aviar. Winds, another member, opened the largest one, which stirred up every Aviar on the island.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "20" }]
+        },
+        {
+          "text": "Dusk came to believe the Ones Above had left such machines with the Eelakin deliberately, to hurry their progress so the planet's resources could be taken without technically exploiting its people.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "20" }]
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Organized by",
+      "name": "Northern Interests Trading Company",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "4" }]
+    },
+    {
+      "label": "Leader",
+      "name": "Eusto",
+      "characterId": "eusto",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "8" }]
+    },
+    {
+      "label": "Location",
+      "name": "Patji",
+      "placeId": "patji-island",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "4" }]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "sixth-of-the-dusk",
+      "role": "trapper",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "4" }]
+    },
+    {
+      "characterId": "vathi",
+      "role": "member",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "6" }]
+    },
+    {
+      "characterId": "eusto",
+      "role": "leader",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "8" }]
+    },
+    {
+      "characterId": "winds",
+      "role": "member",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "20" }]
+    }
+  ]
+}

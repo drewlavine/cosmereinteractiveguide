@@ -1,0 +1,16 @@
+{
+  "intro": [
+    { "text": "A city in the Elendel Basin.", "revealedIn": ["alloy-of-law"] }
+  ],
+  "description": [
+    {
+      "text": "It takes its name from the Ashmount Doriel, and stands on the flats where that mountain rose before the Catacendre.",
+      "revealedIn": [{ "all": ["final-empire", "alloy-of-law"] }]
+    },
+    {
+      "text": "It has a railway interchange, with a branch line running to Tarier.",
+      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "5" }]
+    }
+  ],
+  "history": []
+}

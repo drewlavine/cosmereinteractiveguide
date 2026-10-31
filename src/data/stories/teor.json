@@ -1,0 +1,30 @@
+{
+  "intro": [
+    {
+      "text": "A young Elantrian boy living at the Roost in New Elantris, one of the children in Matisse's care.",
+      "revealedIn": ["hope-of-elantris"]
+    }
+  ],
+  "history": [
+    {
+      "title": [{ "text": "The Roost", "revealedIn": ["hope-of-elantris"] }],
+      "items": [
+        {
+          "text": "Teor shared the Roost with about fifty other children and Matisse, who looked after them. Curious about what the grown-ups were doing, he liked to stay up and spy on them from the windows. One night he and his friend Tiil wanted to keep watching adults practise drawing Aons; Teor tried a pitiful wide-eyed look, but Matisse sent them to bed by threatening extra Aon-drawing lessons.",
+          "revealedIn": ["hope-of-elantris"]
+        },
+        {
+          "text": "Soon afterwards Fjordell soldiers attacked, and Matisse and Idotris hurried to hide the children. Matisse asked Teor and Tiil to help keep the little ones calm; Teor briefly questioned her right to give orders, but then did as she said. Ashe led the children to a library and kept them hidden.",
+          "revealedIn": ["hope-of-elantris"]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": [
+    {
+      "text": "Curious and fond of staying up past bedtime, with no love for schoolwork.",
+      "revealedIn": ["hope-of-elantris"]
+    }
+  ]
+}

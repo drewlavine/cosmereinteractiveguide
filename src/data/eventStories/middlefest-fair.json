@@ -1,0 +1,126 @@
+{
+  "intro": [
+    {
+      "text": "A festival held on Roshar every year during Midpeace, the stretch of the year without highstorms.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "45" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "It falls during Midpeace, the part of the year opposite the Weeping. With no highstorms and none of the Weeping's constant rain, there is time for a long festival.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "45" }]
+    },
+    {
+      "text": "For many darkeyes and lighteyes it is the high point of the year. The duels are a favourite: fought by lighteyes of low dahn, they are one of the few ways landless lighteyes can make a name, while higher lighteyes watch from boxes and sometimes fight.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "45" }]
+    },
+    {
+      "text": "Merchants, some of them high-ranking darkeyes, sell goods and exotic creatures such as Shin chickens, and lighteyes use the fair to make trade deals and jockey for influence with each other and the local highprince.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "45" }]
+    },
+    {
+      "text": "Jah Keved and Alethkar both hold it. In the countryside, fairgrounds on a highlord's lands are set up each year, and local lords of the fourth dahn or higher attend with their vassal houses and households.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "4" },
+            { "book": "words-of-radiance", "chapter": "45" },
+            { "book": "oathbringer", "chapter": "38" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "There are games of guessing and chance, food, drink, card games and betting on axehound fights. Darkeyes drum and sing together, children get sweets, and sometimes a Worldsinger tells of faraway lands.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "45" },
+            { "book": "oathbringer", "chapter": "38" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Shallan's Middlefest",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "45" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "In Shallan Davar's youth her family attended a Middlefest Fair on their own lands. There the lighteyed lord Revilar, who had Highprince Valam's favour, forced her father into a poor trade deal.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "45" }]
+        },
+        {
+          "text": "Shallan tried to bring her family some happiness by helping Balat, Jushu and Wikim recover from the harm their father had done them.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "45" }]
+        },
+        {
+          "text": "She also met Wit, who tested her Lightweaving, passed on a message from her brother Helaran and urged her to stay strong.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "45" }]
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Held during",
+      "name": "Midpeace",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "45" }]
+    },
+    {
+      "label": "Held in",
+      "name": "Jah Keved and Alethkar",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "4" },
+            { "book": "words-of-radiance", "chapter": "45" },
+            { "book": "oathbringer", "chapter": "38" }
+          ]
+        }
+      ]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "shallan-davar",
+      "role": "Attendee",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "45" }]
+    },
+    {
+      "characterId": "lin-davar",
+      "role": "Host",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "45" }]
+    },
+    {
+      "characterId": "balat-davar",
+      "role": "Attendee",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "45" }]
+    },
+    {
+      "characterId": "jushu-davar",
+      "role": "Attendee",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "45" }]
+    },
+    {
+      "characterId": "wikim-davar",
+      "role": "Attendee",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "45" }]
+    },
+    {
+      "characterId": "revilar",
+      "role": "Veden lord",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "45" }]
+    },
+    {
+      "characterId": "wit",
+      "role": "Visitor",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "45" }]
+    }
+  ]
+}

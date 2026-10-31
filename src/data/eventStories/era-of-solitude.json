@@ -1,0 +1,108 @@
+{
+  "intro": [
+    {
+      "text": "The roughly four-thousand-year period after the Heraldic Epochs, which opened when mankind, told that the Voidbringers were beaten, began rebuilding after Aharietiam.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "45" }]
+    }
+  ],
+  "description": [],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The Silver Kingdoms",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "45" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "The Silver Kingdoms already existed before Aharietiam. The Knights Radiant upheld them as one realm linked through Urithiru, with Alethela at the heart of their defence.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "45" }]
+        },
+        {
+          "text": "Once the Knights fell and Urithiru was abandoned, each kingdom was cut off and could no longer work as it once had.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "45" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Beginning",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "45" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "The era began after Aharietiam, the Last Desolation. Trusting the Heralds' word that the Voidbringers were beaten, mankind set about rebuilding.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "45" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Events",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "77" },
+            { "book": "way-of-kings", "chapter": "52" },
+            { "book": "oathbringer", "chapter": "2" },
+            { "book": "words-of-radiance", "chapter": "3" },
+            { "book": "way-of-kings", "chapter": "36" },
+            { "book": "way-of-kings", "chapter": "prologue" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The False Desolation: a war with singers who were not led by the Fused.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "77" }]
+        },
+        {
+          "text": "The Recreance, when the Knights Radiant broke their oaths and abandoned their Shards.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "52" }]
+        },
+        {
+          "text": "The Shin tried several times to conquer all of Roshar, and never succeeded.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "2" }]
+        },
+        {
+          "text": "The Hierocracy, when the Vorin church sought control over the world and history was heavily sanitized.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "3" }]
+        },
+        {
+          "text": "The Scouring of Aimia, a cataclysm of some kind that struck Aimia.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "36" }]
+        },
+        {
+          "text": "The assassination of Gavilar Kholin, king of Alethkar, on the Parshendi's behalf during the treaty celebration of 1167.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "prologue" }]
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Duration",
+      "name": "About 4,000 years",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "45" }]
+    },
+    {
+      "label": "Preceded by",
+      "name": "Heraldic Epochs",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "45" }]
+    },
+    {
+      "label": "Began after",
+      "name": "Aharietiam",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "45" }]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "gavilar-kholin",
+      "role": "Assassinated king",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "prologue" }]
+    }
+  ]
+}

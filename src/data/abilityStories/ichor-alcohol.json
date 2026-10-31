@@ -1,0 +1,89 @@
+{
+  "intro": [
+    {
+      "text": "A fluid pumped into the veins of Lifeless that lets them keep working longer before they need a new Breath.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "33" }]
+    },
+    {
+      "text": "A clear fluid, the work of Yesteel of the Five Scholars, pumped into Lifeless to make them cheaper to Awaken and keep them going longer without a new Breath.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "epilogue" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Ichor-alcohol is pushed into a Lifeless's veins with a small hand pump. Its main purpose is to let a Lifeless keep going longer before it needs a new Breath. A Lifeless can be made without it.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "33" }]
+    },
+    {
+      "text": "Over time the fluid in a Lifeless can go bad, so it must be checked and replaced regularly.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "47" }]
+    },
+    {
+      "text": "It also lowers the number of Breaths needed to Awaken a Lifeless, making them easier and cheaper to make. The pump is used so the blood vessels aren't damaged.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "58" }]
+    },
+    {
+      "text": "The fluid serves as a Lifeless's blood: a Lifeless that is cut and loses it keeps moving only briefly before it stops. Lifeless made without it, such as Kalad's Phantoms, cost more Breath but need no upkeep.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "58" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Discovery and the Manywar",
+          "revealedIn": [
+            { "book": "warbreaker", "chapter": "33" },
+            { "book": "warbreaker", "chapter": "53" },
+            { "book": "warbreaker", "chapter": "epilogue" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Ichor-alcohol reshaped Nalthis's history; it ranks among the chief causes of the Manywar.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "33" }]
+        },
+        {
+          "text": "Lifeless became cheaper, so kings could build armies that never had to eat.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "53" }]
+        },
+        {
+          "text": "Jealous of Yesteel's discovery, Shashara searched for new Awakening methods. She found Commands that create a Lifeless from a single Breath, and the way to make objects such as Nightblood.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "epilogue" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "In modern Hallandren",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "epilogue" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Some three centuries on from the Manywar, the fluid lets Hallandren keep huge standing armies of Lifeless that need no food and little upkeep. Because it makes Awakening cheaper, ordinary people can own Lifeless too, and they now commonly serve as servants and workers.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "epilogue" }]
+        },
+        {
+          "text": "Yesteel has made a new, stronger kind of ichor-alcohol, though few yet know of it or use it.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "epilogue" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "jewels",
+      "role": "Repairs Lifeless",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "33" }]
+    },
+    {
+      "characterId": "yesteel",
+      "role": "Inventor",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "epilogue" }]
+    }
+  ]
+}

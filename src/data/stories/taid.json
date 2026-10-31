@@ -1,0 +1,21 @@
+{
+  "intro": [
+    {
+      "text": "The adult who supervises the Roost, the children's home in New Elantris.",
+      "revealedIn": ["hope-of-elantris"]
+    }
+  ],
+  "history": [
+    {
+      "title": [{ "text": "The Roost", "revealedIn": ["hope-of-elantris"] }],
+      "items": [
+        {
+          "text": "Taid was the grown-up in charge of the Roost, where the children of New Elantris lived.",
+          "revealedIn": ["hope-of-elantris"]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

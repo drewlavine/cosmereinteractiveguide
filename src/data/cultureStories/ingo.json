@@ -1,0 +1,38 @@
+{
+  "intro": [
+    {
+      "text": "A tea that Taravangian drinks with mint. The scent brings back his home city of Kharbranth.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "107" }]
+    }
+  ],
+  "description": [],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "In Urithiru",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "107" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Maben brought Taravangian a hot cup of ingo as they talked about Dalinar's condition. The scent of home set him thinking about his own mortality.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "107" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "taravangian",
+      "role": "drinker",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "107" }]
+    },
+    {
+      "characterId": "maben",
+      "role": "served it",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "107" }]
+    }
+  ]
+}

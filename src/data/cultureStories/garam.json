@@ -1,0 +1,33 @@
+{
+  "intro": [
+    {
+      "text": "A food eaten on Roshar, which can be served buttered.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "23" }]
+    }
+  ],
+  "description": [],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Served to Sadeas",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "23" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "While cooking for Highprince Sadeas, Rock served him buttered garams with a chutney of chull dung. Once this was discovered he was sent to the bridge crews as punishment.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "23" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "lunamor",
+      "role": "cook",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "23" }]
+    }
+  ]
+}

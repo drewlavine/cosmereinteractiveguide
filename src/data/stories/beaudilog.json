@@ -1,0 +1,67 @@
+{
+  "intro": [
+    {
+      "text": "Beaudilog, king of Mountaincrest, who holds court in the royal palace at Kingseat and has little patience for the people who petition him.",
+      "revealedIn": [{ "book": "fires-of-december", "chapter": "xi" }],
+      "fallback": true
+    },
+    {
+      "text": "King of Mountaincrest, who released the Megalith from its prison as fighting broke out in his palace, and was killed right afterwards.",
+      "revealedIn": [{ "book": "fires-of-december", "chapter": "xl" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "King of Mountaincrest",
+          "revealedIn": [
+            { "book": "fires-of-december", "chapter": "xxxv" },
+            { "book": "fires-of-december", "chapter": "xi" },
+            { "book": "fires-of-december", "chapter": "xxxii" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Beaudilog inherited the throne, and from his parents the Prophet's secret passphrases. After the scandal over Duke Kird's daughter he had his spymaster, Count Flint, arrested, then offered him clemency for killing an immortal; Flint said no.",
+          "revealedIn": [{ "book": "fires-of-december", "chapter": "xxxv" }]
+        },
+        {
+          "text": "When December came to court, he tried to dismiss her, but her steady stare wore him down until he let her deliver her warning, and he passed her on to Lord Geoffrim.",
+          "revealedIn": [{ "book": "fires-of-december", "chapter": "xi" }]
+        },
+        {
+          "text": "When Geoffrim hauled December before him as a witch plotting against him, and named General Drakes as a traitor, the king was pleased to order his critic's arrest.",
+          "revealedIn": [{ "book": "fires-of-december", "chapter": "xxxii" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The demon's release",
+          "revealedIn": [{ "book": "fires-of-december", "chapter": "xl" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "He let Geoffrim purge the wall guard, ordered Flint killed, and wondered aloud about letting his niece Petva free the demon. When the palace came under attack he spoke the password and released the Megalith, but Geoffrim heard it, took its power for himself and killed the king.",
+          "revealedIn": [{ "book": "fires-of-december", "chapter": "xl" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "An unremarkable man of middling height, around sixty, with a few tufts of hair he imagines hide his balding, and a crown too big for him that droops on his head.",
+      "revealedIn": [{ "book": "fires-of-december", "chapter": "xxv" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "He brushes people off rather than hearing them out, prizes punctuality, follows Kingseat's fashions and hates witches. He alone knows the passwords the Prophet left.",
+      "revealedIn": [{ "book": "fires-of-december", "chapter": "xxv" }]
+    }
+  ]
+}

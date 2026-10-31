@@ -1,0 +1,65 @@
+{
+  "intro": [
+    {
+      "text": "A criminal gang in the Roughs on Scadrial.",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "58" }]
+    }
+  ],
+  "description": [],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Wayne and the gang",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "alloy-of-law", "chapter": "10" },
+                { "book": "lost-metal", "chapter": "58" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "After his mother died, Wayne ran with the Plank Boys for a time and counted some of them as friends. Seeing his promise, they talked him into armed robbery, which ended in Durkel's death.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "alloy-of-law", "chapter": "10" },
+                { "book": "lost-metal", "chapter": "58" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Wax brought up the Plank Boys when telling Wayne that a world where fewer children grow up alone could produce fewer criminals.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "alloy-of-law", "chapter": "10" },
+                { "book": "lost-metal", "chapter": "58" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "wayne",
+      "role": "former member",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "alloy-of-law", "chapter": "10" },
+            { "book": "lost-metal", "chapter": "58" }
+          ]
+        }
+      ]
+    }
+  ]
+}

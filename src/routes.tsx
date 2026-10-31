@@ -7,6 +7,7 @@ import { BookDetail } from './routes/BookDetail'
 import { Books } from './routes/Books'
 import { CharacterDetail } from './routes/CharacterDetail'
 import { CharacterList } from './routes/CharacterList'
+import { Chronology } from './routes/Chronology'
 import { ComingSoon } from './routes/ComingSoon'
 import { CultureDetail } from './routes/CultureDetail'
 import { CultureList } from './routes/CultureList'
@@ -21,6 +22,7 @@ import { NotFound } from './routes/NotFound'
 import { PlanetDetail } from './routes/PlanetDetail'
 import { RouteError } from './routes/RouteError'
 import { SearchPage } from './routes/SearchPage'
+import { SpanishCivilWar } from './routes/SpanishCivilWar'
 import { StarMap } from './routes/StarMap'
 import { ToMagic } from './routes/ToMagic'
 import { Timeline } from './routes/Timeline'
@@ -65,6 +67,10 @@ export const routes: RouteObject[] = [
       { path: 'locations/:locationId', element: <ListedLocationDetail /> },
       { path: 'search', element: <SearchPage /> },
       { path: 'timeline', element: <Timeline /> },
+      // Secret: reached by ?? or five taps on the site title, never linked.
+      { path: 'chronology', element: <Chronology /> },
+      // Secret: reached by >> or three taps on the site title, never linked.
+      { path: 'spanish-civil-war', element: <SpanishCivilWar /> },
       ...comingSoonTabs.map((tab) => ({
         path: tab.path.slice(1),
         element: <ComingSoon tab={tab} />,

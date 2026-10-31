@@ -1,0 +1,27 @@
+{
+  "intro": [
+    {
+      "text": "The second child of Wax and Steris, and younger sister of Maxillium Ladrian.",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "2" }],
+      "fallback": true
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Childhood",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "31" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "In 348 PC, while Wax worked to prevent a bombing and Steris readied Elendel for disaster, Tindwyl and her brother stayed at their grandfather's estate with their governess, Kath.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "31" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

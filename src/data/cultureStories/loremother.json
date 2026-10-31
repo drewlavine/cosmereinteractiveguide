@@ -1,0 +1,43 @@
+{
+  "intro": [
+    {
+      "text": "Storytellers who recite tales for the chiefs and kingmakers, and for ordinary people too.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "3" }]
+    },
+    {
+      "text": "Eelakin women who keep their people's oral history, guided by the kingmakers, and teach its history and culture through stories.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "47" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "A loremother traditionally wears a long-sleeved costume of feathers in an old style, though many have switched to more modern dress as the planet industrialised.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "3" }]
+    },
+    {
+      "text": "Every year the loremothers meet to recite their stories to one another and catch any errors, which keeps their tales remarkably accurate even across thousands of years. They must also stay impartial.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "47" }]
+    }
+  ],
+  "history": [],
+  "sections": [
+    {
+      "title": "Stories",
+      "items": [
+        {
+          "text": "The legend of Cakoban the Navigator, who crossed an endless dark sea in search of light until he found it among the islands of Patji.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "3" }]
+        }
+      ],
+      "parts": []
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "frond",
+      "role": "loremother",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "3" }]
+    }
+  ]
+}

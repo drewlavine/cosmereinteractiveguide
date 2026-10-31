@@ -1,0 +1,35 @@
+{
+  "intro": [
+    {
+      "text": "The leader of an outlaw gang in the Roughs, whose men have standing orders to shoot Wax and Lessie on sight.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "prologue" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Feud with Wax and Lessie",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "prologue" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Wax and Lessie clashed with Donal's crew many times. During a railcar robbery Wax shot Donal's brother in self-defence, and Lessie shot Donal's son, who lived but lost a toe; in return Donal told his men to kill the pair whenever they saw them.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "prologue" }]
+        },
+        {
+          "text": "When Bloody Tan stole a shipment of bendalloy from him, Donal offered a bounty for Tan and set his men on his trail; they arrived in Feltrel the same day Wax and Lessie did, and Wax, though tempted to let the gang and Tan fight it out, decided against it.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "prologue" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": [
+    {
+      "text": "He seems to care for his son but disliked the brother Wax killed, so his order for revenge may have been a matter of pride. Above all, he hates losing money.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "prologue" }]
+    }
+  ]
+}

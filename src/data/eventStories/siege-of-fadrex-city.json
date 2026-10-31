@@ -1,0 +1,122 @@
+{
+  "intro": [
+    {
+      "text": "Elend Venture's siege of Fadrex City, the seat of King Aradan Yomen, with thirty-eight thousand soldiers and twenty thousand koloss against twenty-five thousand defenders behind strong fortifications.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "25" }]
+    },
+    {
+      "text": "Elend Venture's siege of Fadrex City, Aradan Yomen's seat. It ended when the koloss went mad and Yomen opened his gates to Elend, and their joined armies held off Ruin's koloss until the koloss suddenly fled.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "73" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Allowing for Fadrex City's strong defences, the human armies on each side were judged close to even. Elend's koloss tipped the balance.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "25" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The siege",
+          "revealedIn": [
+            { "book": "hero-of-ages", "chapter": "32" },
+            { "book": "hero-of-ages", "chapter": "37" },
+            { "book": "hero-of-ages", "chapter": "44" },
+            { "book": "hero-of-ages", "chapter": "55" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "At a ball in Fadrex City, Elend confronted Yomen with an ultimatum: cooperate or be deposed. Yomen refused, claiming the Lord Ruler's mandate to rule the city.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "32" }]
+        },
+        {
+          "text": "Two weeks in, Yomen struck first with three small attacks. Raids from the north and south drew attention from the third, on the koloss camp, where eleven thousand koloss died under catapult fire or killed each other in bloodlust.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "37" }]
+        },
+        {
+          "text": "At a second ball, Vin slipped into the city's storage cache and was locked in, while Elend tested Yomen in a fight and withdrew. Hours afterwards Yomen sent word that he had captured Vin.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "44" }]
+        },
+        {
+          "text": "Elend asked to talk with Yomen, but the meeting ended with Vin held hostage. Elend went out and fought a koloss army near the city, returning with twenty-eight thousand more koloss, bringing his own to thirty-seven thousand.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "55" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Ruin's koloss",
+          "revealedIn": [
+            { "book": "hero-of-ages", "chapter": "63" },
+            { "book": "hero-of-ages", "chapter": "65" },
+            { "book": "hero-of-ages", "chapter": "67" },
+            { "book": "hero-of-ages", "chapter": "70" },
+            { "book": "hero-of-ages", "chapter": "73" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Marsh came to Fadrex for its atium, but Yomen admitted there had never been a great cache, only seven beads he had used to bluff. Marsh refused Yomen's plea for help, and Vin offered Yomen an alliance.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "63" }]
+        },
+        {
+          "text": "On Marsh's orders, Yomen sent his army into the fields against the koloss. Elend could easily have won, but on the advice of his general, Hammond, he pulled back.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "65" }]
+        },
+        {
+          "text": "Ruin then seized control of all the koloss to destroy both armies. As the koloss went mad, Yomen opened his gates and let Elend's army in, while Vin escaped the city and set off for Luthadel.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "67" }]
+        },
+        {
+          "text": "Ruin massed a large koloss army before the city. Inside, Elend came to understand the mistfallen and realised that five thousand of his people were now Mistings, a whole new army. Then Ruin ordered the attack.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "70" }]
+        },
+        {
+          "text": "After hours of fighting, the koloss suddenly fled the city, heading toward Luthadel.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "73" }]
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Location",
+      "name": "Fadrex City",
+      "placeId": "fadrex-city",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "25" }]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "elend-venture",
+      "role": "besieger",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "25" }]
+    },
+    {
+      "characterId": "aradan-yomen",
+      "role": "city's king",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "25" }]
+    },
+    {
+      "characterId": "vin",
+      "role": "hostage",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "55" }]
+    },
+    {
+      "characterId": "hammond",
+      "role": "general",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "65" }]
+    },
+    {
+      "characterId": "marsh",
+      "role": "Inquisitor",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "63" }]
+    }
+  ]
+}

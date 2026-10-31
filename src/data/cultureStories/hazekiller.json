@@ -1,0 +1,162 @@
+{
+  "intro": [
+    {
+      "text": "Warriors of Scadrial trained to fight and kill Allomancers.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "5" }]
+    },
+    {
+      "text": "Warriors trained to fight and kill Allomancers. Centuries after the Final Empire the name is seldom heard, and fighters like them are more often called kill squads.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "5" },
+            { "book": "alloy-of-law", "chapter": "14" },
+            { "book": "shadows-of-self", "chapter": "prologue" },
+            { "book": "bands-of-mourning", "chapter": "20" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "Hazekillers wear no armour and carry no metal. They fight with non-metal weapons and large wooden shields that turn aside coins, either swarming an Allomancer in big groups or holding one off until friendly Allomancers can arrive.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "5" }]
+    },
+    {
+      "text": "They are trained to recognise the effects of the metallic arts, so Allomancy fools them less easily. Mistborn, with their wide range of powers, are the hardest to contain, and Kelsier, Zane and Vin, all skilled Mistborn, have each beaten large groups of them.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "33" },
+            { "book": "well-of-ascension", "chapter": "43" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "They were ordinary people, not Allomancers. Besides defending noble keeps, they served as guards to keep Allomancers from getting in or out.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "31" },
+            { "book": "hero-of-ages", "chapter": "60" },
+            { "book": "alloy-of-law", "chapter": "14" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "In the Final Empire",
+          "revealedIn": [
+            { "book": "final-empire", "chapter": "5" },
+            { "book": "well-of-ascension", "chapter": "43" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Great houses such as Venture keep hazekiller squads alongside their regular guards. Kelsier has to fight some of them when he breaks into Keep Venture to steal its atium.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "5" }]
+        },
+        {
+          "text": "Attacking Keep Hasting, Vin and Zane cut their way through a squad of soldiers and then a large band of hazekillers.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "43" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Kill squads",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "alloy-of-law", "chapter": "14" },
+                { "book": "bands-of-mourning", "chapter": "20" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "shadows-of-self", "chapter": "prologue" },
+                { "book": "bands-of-mourning", "chapter": "20" }
+              ]
+            },
+            { "book": "alloy-of-law", "chapter": "14" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Centuries on, the word had become old-fashioned, but fighters using the same tactics remained, sometimes called kill squads; Wayne compares them to the old hazekillers. These squads learned to spot the work of Sliders and other Allomancers unknown in the Final Empire.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "alloy-of-law", "chapter": "14" },
+                { "book": "bands-of-mourning", "chapter": "20" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Granite Joe sends a kill squad with crossbows and no metal after Wax in Weathering. The Set fields several kill squads, sometimes arming them with costly aluminium weapons and bullets, and often includes Allomancers or Feruchemists in them.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "shadows-of-self", "chapter": "prologue" },
+                { "book": "bands-of-mourning", "chapter": "20" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Gunsmiths, Ranette above all, honour the old hazekillers with special bullets, each made to take down one type of Misting, which they call hazekiller rounds.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "14" }]
+        },
+        {
+          "text": "Ranette thinks her rounds work even better against Allomancers than aluminium bullets do, since the target only sees the danger too late. Vindication, the revolver she makes for Wax, fires both ordinary bullets and hazekiller rounds.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "14" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "kelsier",
+      "role": "fought them",
+      "revealedIn": [{ "book": "final-empire", "chapter": "5" }]
+    },
+    {
+      "characterId": "vin",
+      "role": "fought them",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "43" }]
+    },
+    {
+      "characterId": "zane-venture",
+      "role": "fought them",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "43" }]
+    },
+    {
+      "characterId": "ranette",
+      "role": "made the rounds",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "14" }]
+    },
+    {
+      "characterId": "waxillium-ladrian",
+      "role": "kill squad target",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "shadows-of-self", "chapter": "prologue" },
+            { "book": "bands-of-mourning", "chapter": "20" }
+          ]
+        }
+      ]
+    }
+  ]
+}

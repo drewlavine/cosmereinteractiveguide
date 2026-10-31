@@ -1,0 +1,27 @@
+{
+  "intro": [
+    {
+      "text": "A boy from Hearthstone.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "44" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Hearthstone",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "44" }],
+          "fallback": true
+        }
+      ],
+      "items": [
+        {
+          "text": "With Jost, he volunteered when Amaram came to Hearthstone to recruit for his army.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "44" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

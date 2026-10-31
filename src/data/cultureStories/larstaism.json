@@ -1,0 +1,119 @@
+{
+  "intro": [
+    {
+      "text": "A faith of old Scadrial built on simplicity and the beauty of nature, which looked for the divine in art and in making things, not in answers about existence or the afterlife.",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "48" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "The Larsta, exiled from a homeland bound by complicated traditions and rules, kept their own faith as simple as they could.",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "48" }]
+    },
+    {
+      "text": "Since not everyone can make art, believers gave money to gifted monks so they could paint, sculpt and write poetry for the good of all, holding that art draws people closer to the divine. Flowers were a favourite subject of their poems.",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "48" }]
+    },
+    {
+      "text": "A Larsta wedding is simple: the couple declare their love in front of a local priest, and the faith does not allow divorce.",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "48" }]
+    },
+    {
+      "text": "The faith had a religious hierarchy. Its priests wrote poetry on the world's beauty as they meditated, and it used scriptures, prayer materials and other writings.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "82" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Sazed and the Larsta faith",
+          "revealedIn": [
+            { "book": "well-of-ascension", "chapter": "48" },
+            {
+              "all": [
+                { "book": "well-of-ascension", "chapter": "48" },
+                { "book": "hero-of-ages", "chapter": "10" }
+              ]
+            },
+            { "book": "hero-of-ages", "chapter": "10" },
+            { "book": "hero-of-ages", "chapter": "82" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "When Vin proposes to Elend, Sazed marries them with a short Larsta ceremony.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "48" }]
+        },
+        {
+          "text": "Mare had followed the faith after Sazed taught it to her.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "well-of-ascension", "chapter": "48" },
+                { "book": "hero-of-ages", "chapter": "10" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Sazed studies Larstaism longer than other old religions, as he finds nothing illogical or contradictory in it, but in the end sets it aside, unable to square it with the disasters striking the land.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "10" }]
+        },
+        {
+          "text": "When Sazed remakes the world, he models new plants, such as the Marewill flower, on Larsta descriptions of the plants and animals of old.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "82" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Wax and Steris",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "well-of-ascension", "chapter": "48" },
+                { "book": "bands-of-mourning", "chapter": "1" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Wax and Steris's wedding ceremony follows Larsta practice, as Vin and Elend's did.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "well-of-ascension", "chapter": "48" },
+                { "book": "bands-of-mourning", "chapter": "1" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "mare",
+      "role": "follower",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "well-of-ascension", "chapter": "48" },
+            { "book": "hero-of-ages", "chapter": "10" }
+          ]
+        }
+      ]
+    },
+    {
+      "characterId": "sazed",
+      "role": "teacher",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "48" }]
+    }
+  ]
+}

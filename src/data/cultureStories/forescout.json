@@ -1,0 +1,32 @@
+{
+  "intro": [
+    {
+      "text": "The surname of the first family from the Homeland to settle the Forests of Hell, people who live by the forest instead of shutting it out as the fortfolk do.",
+      "revealedIn": ["shadows-for-silence"]
+    }
+  ],
+  "description": [
+    {
+      "text": "Many settlers followed, but the Forescouts came first, and they are fiercely proud of it. They boast that they can face the forest head-on where others turn their eyes away.",
+      "revealedIn": ["shadows-for-silence"]
+    },
+    {
+      "text": "Hardened by many dangers, they can be very stern, a way of teaching their children to survive in the forest.",
+      "revealedIn": ["shadows-for-silence"]
+    }
+  ],
+  "history": [],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "silence-montane",
+      "role": "Forescout",
+      "revealedIn": ["shadows-for-silence"]
+    },
+    {
+      "characterId": "silences-grandmother",
+      "role": "Forescout",
+      "revealedIn": ["shadows-for-silence"]
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "intro": [
+    {
+      "text": "One of the Silver Kingdoms of Roshar.",
+      "revealedIn": ["way-of-kings"]
+    },
+    {
+      "text": "One of the Silver Kingdoms, on the west coast of Roshar, covering much the same land as modern Shinovar and cut off from its neighbours by the Misted Mountains.",
+      "revealedIn": [{ "all": ["way-of-kings", "oathbringer"] }]
+    }
+  ],
+  "description": [
+    {
+      "text": "The Shin custom of adding a parent's name to a given name, as in Szeth-son-Neturo, goes back at least to the time of the Silver Kingdoms.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "38" }]
+    },
+    {
+      "text": "As with the other Silver Kingdoms, its name reads the same backwards and forwards, a form Vorinism treats as holy. The Shin call the Heralds by names of their own, such as Nin-son-God and Ishu-son-God.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "edgedancer", "chapter": "9" },
+            { "book": "oathbringer", "chapter": "106" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Where most of Roshar is bare stone, the ground here is mostly soil and grass. The Shin are pale-skinned, with large, round eyes.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "i-4" },
+            { "book": "oathbringer", "chapter": "115" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "The kingdom had an Oathgate, though its exact location is not known.",
+      "revealedIn": ["oathbringer"]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Human arrival",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "i-4" },
+                { "book": "oathbringer", "chapter": "115" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "When humans arrived on Roshar, Shin Kak Nish was the first land they were given. The Eila Stele records that these newcomers, once taken in by the singers, used Surgebinding against their hosts, who then began to call them Voidbringers.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "i-4" },
+                { "book": "oathbringer", "chapter": "115" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The Heraldic Epochs",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "47" },
+                { "book": "oathbringer", "chapter": "81" }
+              ]
+            },
+            { "book": "oathbringer", "chapter": "103" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Records are sparse, but some Shin were Knights Radiant or fought beside them in the Desolations, such as Naze-daughter-Kuzodo.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "47" },
+                { "book": "oathbringer", "chapter": "81" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Although nearly impassable mountains surround it, the kingdom still fought with its neighbours. The Shin leader Shubreth-son-Mashalan headed a cavalry campaign called the Shin invasion; his empire is believed to have fallen because it expanded too fast.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "103" }]
+        }
+      ]
+    }
+  ]
+}

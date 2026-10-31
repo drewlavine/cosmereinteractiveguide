@@ -185,7 +185,7 @@ describe('Cosmere Timeline page', () => {
     const stage = await findByRole('group', { name: 'Cosmere Timeline' })
     expect(cardTitle(container)).toBe('Adonalsium creates Roshar')
     // One count for every world, once the reader knows of the Shattering.
-    expect(indicator(container)).toBe('ca. 1050before the ShatteringRoshar')
+    expect(indicator(container)).toBe('ca. 1044before the ShatteringRoshar')
     // The card keeps to one line; the rest is under More.
     expect(container.querySelector('section')?.textContent).not.toMatch(
       /Word of Brandon/,
@@ -216,7 +216,7 @@ describe('Cosmere Timeline page', () => {
     expect(cardTitle(container)).toBe('Eshonai takes control from the Five')
     press(stage, 'ArrowLeft')
     expect(cardTitle(container)).toBe('Gavilar is assassinated')
-    expect(indicator(container)).toBe('ca. 10958after the ShatteringRoshar')
+    expect(indicator(container)).toBe('ca. 10957after the ShatteringRoshar')
     expect(await goal(findByTestId)).toEqual({
       world: 'roshar',
       view: 'pin',
@@ -567,7 +567,7 @@ describe('Cosmere Timeline page', () => {
     const { way, switcher, router, container } = await at(
       '/timeline?event=gavilar-assassinated',
     )
-    expect(way.textContent).toBe('State of Roshar')
+    expect(way).toHaveAttribute('aria-label', 'Show state of Roshar')
     click(within(switcher()).getByRole('button', { expanded: false }))
     click(within(switcher()).getByRole('button', { name: /Pill/ }))
     expect(router.state.location.search).toContain('title=current')
@@ -575,6 +575,31 @@ describe('Cosmere Timeline page', () => {
       'RosharDetails ›',
     )
   })
+
+  it.each(['curved-actions', 'hover-actions'])(
+    'offers state and zoom actions beside the globe (%s)',
+    async (style) => {
+      const { container, findByTestId, getByRole, getByText } = renderAt(
+        `/timeline?event=gavilar-assassinated&title=${style}`,
+        BEFORE_WAT,
+        { 'wind-and-truth': '17' },
+      )
+      await findByTestId('explorer')
+      click(getByText('down to the globe'))
+
+      expect(container.querySelectorAll('[data-orbit-action]')).toHaveLength(2)
+      click(getByRole('button', { name: 'Show state of Roshar' }))
+      const dialog = container.querySelector<HTMLElement>('[role="dialog"]')!
+      expect(dialog).toBeInTheDocument()
+      click(within(dialog).getByRole('button', { name: 'Close' }))
+
+      click(getByRole('button', { name: 'Zoom into Roshar' }))
+      expect(
+        container.querySelector('[data-testid="explorer"]'),
+      ).toHaveAttribute('data-zoom-in', '1')
+      expect(container.querySelector('[role="dialog"]')).toBeNull()
+    },
+  )
 
   it('makes the name the way in where the chip has no state to show', async () => {
     const { container, findByTestId, getByText } = renderAt(

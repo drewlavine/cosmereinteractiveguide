@@ -1,0 +1,38 @@
+{
+  "intro": [
+    {
+      "text": "A tavern and brewery on Diggen's Point, where Brick brews his ale and many of the island's locals regularly meet.",
+      "revealedIn": [{ "book": "tress", "chapter": "7" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Brick's ale is reckoned among the finest in the region. He brews at weekends, often helped by Rod, and sailors from other islands come looking for it while merchants buy it by the barrel.",
+      "revealedIn": [{ "book": "tress", "chapter": "7" }]
+    },
+    {
+      "text": "Regulars play darts by odd rules. The wood grain around the board happens to look like a figure, which patrons decided was the duke, and the real targets are two knots set well below the board, so a good throw makes onlookers wince.",
+      "revealedIn": [{ "book": "tress", "chapter": "7" }]
+    },
+    {
+      "text": "The tavern draws two crowds: a loud, cheerful one early in the evening, and a quieter, gloomier group as the night goes on, looking for company more than friendship. On rowdy nights Brick's cousin watches the door, and it stays open until two in the morning.",
+      "revealedIn": [{ "book": "tress", "chapter": "19" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Lem's plan",
+          "revealedIn": [{ "book": "tress", "chapter": "7" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Lem, a regular known for helping many of his neighbours, came to the tavern to quietly draw some of his friends into a plan to get his daughter Tress aboard the Oot's Dream in secret.",
+          "revealedIn": [{ "book": "tress", "chapter": "7" }]
+        }
+      ]
+    }
+  ]
+}

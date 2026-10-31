@@ -1,0 +1,112 @@
+{
+  "intro": [
+    {
+      "text": "The leader of a Horneater clan: a noble, comparable to a lighteyed Alethi lord.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "23" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Birth order and family line weigh heavily in Horneater standing; since all Horneaters are darkeyed, eye colour plays no part. A nuatoma's relatives serve as guards and servants, often doing several jobs at once.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "49" },
+            { "book": "oathbringer", "chapter": "37" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Having no Shards shames the nuatoma, and many have gone to Vedenar or Alethkar offering Shardbearers large sums to fight them. They believe whichever nuatoma first wins a Shardblade could become tana'kai, a kind of king, as none has in many years, and that other peaks would not dare fight a nuatoma who held a Shard.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "23" },
+            { "book": "words-of-radiance", "chapter": "46" },
+            { "book": "oathbringer", "chapter": "37" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Rock's nuatoma",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "23" },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "23" },
+                { "book": "oathbringer", "chapter": "37" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Rock's nuatoma dueled Highprince Sadeas in hope of winning his Shardplate, and lost. Rock, who was both his cousin and his servant, was bound to Sadeas and cooked for him until he slipped chull dung into his food and was sent to the bridge crews.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "23" }]
+        },
+        {
+          "text": "Every nuatoma who had challenged an Alethi Shardbearer had died. Kef'ha chose Sadeas thinking a man with only Plate was the easier mark, meaning to seek a Blade afterwards. Instead Sadeas killed him without a proper duel, killed relatives who protested, took their property, and made soldiers or servants of most of the rest.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "23" },
+                { "book": "oathbringer", "chapter": "37" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "A Shardbearer of the Peaks",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "12" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "When Cord gained Shardplate, Lunamor marvelled that his people's first Shardbearer was a young woman rather than a nuatoma.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "12" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "lunamor",
+      "role": "cousin, servant",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "23" }]
+    },
+    {
+      "characterId": "kefha",
+      "role": "Lunamor's nuatoma",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "23" },
+            { "book": "oathbringer", "chapter": "37" }
+          ]
+        }
+      ]
+    },
+    {
+      "characterId": "torol-sadeas",
+      "role": "dueled one",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "23" }]
+    },
+    {
+      "characterId": "cord",
+      "role": "Shardbearer",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "12" }]
+    }
+  ]
+}

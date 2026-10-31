@@ -1,0 +1,52 @@
+{
+  "intro": [
+    {
+      "text": "A city in Teod.",
+      "revealedIn": [{ "book": "elantris", "chapter": "41" }]
+    },
+    {
+      "text": "The capital of Teod, a large seaport surrounded by forest.",
+      "revealedIn": [{ "book": "elantris", "chapter": "61" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "It is best known for its Korathi temple, the largest in Teod.",
+      "revealedIn": [{ "book": "elantris", "chapter": "41" }]
+    },
+    {
+      "text": "Its streets are paved with cobblestones, with a main road leading down to the docks, and some of its buildings are made of brick.",
+      "revealedIn": [{ "book": "elantris", "chapter": "61" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Sarene's childhood",
+          "revealedIn": [{ "book": "elantris", "chapter": "32" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "When Sarene was eleven, a troupe of players came through the city, and she announced that she would rather be an actress than a princess.",
+          "revealedIn": [{ "book": "elantris", "chapter": "32" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Attack on the city",
+          "revealedIn": [{ "book": "elantris", "chapter": "61" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Dakhor monks led by Dilaf attacked Teoras.",
+          "revealedIn": [{ "book": "elantris", "chapter": "61" }]
+        }
+      ]
+    }
+  ]
+}

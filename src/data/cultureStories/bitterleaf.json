@@ -1,0 +1,28 @@
+{
+  "intro": [
+    {
+      "text": "A Rosharan plant used as a medicine for seizures.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "41" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Kaladin knew of its healing uses. Renarin Kholin was told to chew bitterleaf for his fits, though he didn't think it did much for them.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "41" }]
+    }
+  ],
+  "history": [],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "renarin-kholin",
+      "role": "chewed it",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "41" }]
+    },
+    {
+      "characterId": "kaladin",
+      "role": "knew its uses",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "41" }]
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "intro": [
+    {
+      "text": "Esandi, a Dhatrian aetherbound in the service of the Malwish Empire, whom Dajer introduces to Starling.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "48" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Serving the Malwish",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "48" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "How Esandi came to Scadrial and the Malwish is unknown, but she knew Colonel Dajer and owed him a favour.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "48" }]
+        },
+        {
+          "text": "Dajer called her by datapad to confirm what an aetherbound with a broken bud can do, and had her show Starling the living aether in her palm, though she warned it gave away closely kept state secrets. Starling's crew had thought aetherbounds were forbidden to serve Scadrians; asked how the aethers allowed it, Esandi said only that there were ways around the rule.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "48" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Light brown skin, Dhatrian in looks, but dressed in a Malwish military uniform.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "48" }]
+    }
+  ],
+  "personality": [],
+  "abilities": [
+    {
+      "title": [
+        {
+          "text": "Aetherbound",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "48" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "One palm holds a living aether bud of unknown type. She is the only aetherbound known to serve the Malwish, and speaks Malwish with a clear accent.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "48" }]
+        }
+      ]
+    }
+  ]
+}

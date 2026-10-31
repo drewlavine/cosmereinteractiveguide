@@ -1,0 +1,20 @@
+{
+  "intro": [
+    {
+      "text": "A land known for a weed soup that is very good for you but reputedly tastes foul.",
+      "revealedIn": [{ "book": "elantris", "chapter": "35" }]
+    },
+    {
+      "text": "A small nation of the Fjordell Empire, next to Jaador, Hrovell and Geant, known for a healthy but reputedly foul-tasting weed soup.",
+      "revealedIn": ["elantris"]
+    }
+  ],
+  "description": [
+    { "text": "Gmordsom is one of its cities.", "revealedIn": ["elantris"] },
+    {
+      "text": "Kathari, a large pink fruit, is grown there.",
+      "revealedIn": ["elantris"]
+    }
+  ],
+  "history": []
+}

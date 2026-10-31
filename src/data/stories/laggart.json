@@ -1,0 +1,119 @@
+{
+  "intro": [
+    {
+      "text": "A lanky, bald crewman of the Crow's Song whom the narrator likens to a buzzard, wearing an open military coat and armed with a sword and two pistols.",
+      "revealedIn": [{ "book": "tress", "chapter": "13" }]
+    },
+    {
+      "text": "First mate and cannonmaster of the Crow's Song.",
+      "revealedIn": [{ "book": "tress", "chapter": "15" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Aboard the Crow's Song",
+          "revealedIn": [
+            { "book": "tress", "chapter": "17" },
+            { "book": "tress", "chapter": "19" },
+            { "book": "tress", "chapter": "25" },
+            { "book": "tress", "chapter": "38" },
+            { "book": "tress", "chapter": "50" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Laggart sank the Oot's Dream with a lethal cannonball, passing it off as a faulty shot, and hid more like it in a barrel with a false bottom.",
+          "revealedIn": [{ "book": "tress", "chapter": "17" }]
+        },
+        {
+          "text": "He and Crow meant to turn the crew into deadrunners, pirates who sink ships outright, so that they would be bound to her. They had spared one survivor to spread the news, and when word came that he had died, Laggart agreed they needed blood on the crew's hands from another ship. He would not let Tress eat, since he did not count her as crew.",
+          "revealedIn": [{ "book": "tress", "chapter": "19" }]
+        },
+        {
+          "text": "At port he made a show of guarding Tress while doing all he could to let her slip away. Tress, staying aboard, quietly swapped his hidden cannonballs for ordinary ones, and when the next chase came, his shot only trapped the prey, leaving him cursing.",
+          "revealedIn": [{ "book": "tress", "chapter": "25" }]
+        },
+        {
+          "text": "On the Crimson Sea he gave Tress a curt lesson on the cannon, set her five practice shots a day at a buoy, and waved off her request to practise with the flare gun. He knew nothing of Crow's plan for the dragon, and Tress suspected the captain kept him as a spare offering, since he feared spores less than most.",
+          "revealedIn": [{ "book": "tress", "chapter": "38" }]
+        },
+        {
+          "text": "When the officers planned a mutiny, Laggart met them with a pistol and shot Salay in the thigh. Crow dared them to shoot him; Ann tried and missed, and Laggart was left guarding the captives while Crow took Tress to the dragon.",
+          "revealedIn": [{ "book": "tress", "chapter": "50" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "After the mutiny",
+          "revealedIn": [
+            { "book": "tress", "chapter": "55" },
+            { "book": "tress", "chapter": "63" },
+            { "book": "tress", "chapter": "epilogue" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Laggart backed away in alarm when Tress came back alone. Sure she meant to kill him once he let his guard down, he demanded she shoot him and get it over with. She offered him the brig instead, and he stumbled off, shaken to learn that some people really are generous.",
+          "revealedIn": [{ "book": "tress", "chapter": "55" }]
+        },
+        {
+          "text": "At the Sorceress's island he called out the positions that let Ann hit the metal men.",
+          "revealedIn": [{ "book": "tress", "chapter": "63" }]
+        },
+        {
+          "text": "He moved with the crew to their new ship, the Two Cups, and once ended up in the brig after starting a fight in a port tavern.",
+          "revealedIn": [{ "book": "tress", "chapter": "epilogue" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Lanky and wiry, with a long thin neck, a bald head and some scruff on his chin; Hoid likens him to a buzzard. He wears an open military coat, a sword and two pistols.",
+      "revealedIn": [{ "book": "tress", "chapter": "13" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Gruff, rude and not very bright, he struts about the deck scolding the crew and obeys Crow without question. He is proud of handling the zephyr charges in the cannon, though still wary of them.",
+      "revealedIn": [{ "book": "tress", "chapter": "38" }]
+    },
+    {
+      "text": "Loyal enough to Crow to turn violent on his own crewmates. Treated badly all his life, and treating others the same way, he struggles to recognise real kindness.",
+      "revealedIn": [{ "book": "tress", "chapter": "55" }]
+    },
+    {
+      "text": "Hoid says he grows into a better man aboard the Two Cups.",
+      "revealedIn": [{ "book": "tress", "chapter": "epilogue" }]
+    }
+  ],
+  "abilities": [
+    {
+      "title": [
+        {
+          "text": "Cannonmaster",
+          "revealedIn": [
+            { "book": "tress", "chapter": "19" },
+            { "book": "tress", "chapter": "63" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "An excellent shot who fires to sink ships without warning. He hands off as much work as he can and takes the credit, but always cleans the cannons himself.",
+          "revealedIn": [{ "book": "tress", "chapter": "19" }]
+        },
+        {
+          "text": "A poor teacher to Tress, he is far calmer and more helpful when directing Ann's fire.",
+          "revealedIn": [{ "book": "tress", "chapter": "63" }]
+        }
+      ]
+    }
+  ]
+}

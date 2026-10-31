@@ -1,0 +1,34 @@
+{
+  "intro": [
+    {
+      "text": "An aged painter of the Rose Empire, now blind and barely able to move, who tutored Shai when she was young.",
+      "revealedIn": [{ "book": "emperors-soul", "chapter": "day-76" }]
+    },
+    {
+      "text": "A celebrated painter of the Rose Empire, whose works are prized and enormously valuable, and who once tutored Shai.",
+      "revealedIn": ["emperors-soul"]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Lily of the Spring Pond",
+          "revealedIn": [{ "book": "emperors-soul", "chapter": "day-76" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Lily of the Spring Pond, his masterpiece, was made for a woman he loved. After her death her children gave it to the Rose Empire, and it came to the arbiter Frava. Unwilling to let it outlive her or glorify the empire, he hired his old pupil Shai to destroy it and put a copy in its place.",
+          "revealedIn": [{ "book": "emperors-soul", "chapter": "day-76" }]
+        },
+        {
+          "text": "He gave her his studies for the original and advice on the brushwork, helping her paint a masterful copy. She burned the original and hung the copy in its place.",
+          "revealedIn": [{ "book": "emperors-soul", "chapter": "day-76" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

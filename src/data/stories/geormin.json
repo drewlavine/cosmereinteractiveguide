@@ -1,0 +1,31 @@
+{
+  "intro": [
+    {
+      "text": "A coachman who carried mail into Weathering from the smaller villages around it.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "prologue" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Bloody Tan",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "prologue" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Geormin was among Bloody Tan's first victims, and his disappearance is what set Wax hunting Tan. Around two months on, Wax found his body in Tan's underground lair in Feltrel, mummified and hung from the ceiling in a grotesque pose, and promised to come back and cut him down.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "prologue" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": [
+    {
+      "text": "A pleasant enough man whom Wax knew in passing; they sometimes shared a drink, though Geormin cheated at chards.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "prologue" }]
+    }
+  ]
+}

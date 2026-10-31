@@ -1,0 +1,31 @@
+{
+  "intro": [
+    {
+      "text": "A Terris Steelrunner, the only one Wax's grandmother Vwafendal can name who might be involved in Winsting Innate's murder.",
+      "revealedIn": [{ "book": "shadows-of-self", "chapter": "5" }],
+      "fallback": true
+    },
+    {
+      "text": "A Terris Steelrunner from the Village, whom Bleeder killed in order to steal her Feruchemy.",
+      "revealedIn": [{ "book": "shadows-of-self", "chapter": "7" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Steelrunner",
+          "revealedIn": [{ "book": "shadows-of-self", "chapter": "7" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Idashwy grew up in the Village but often slipped out as a girl; Wax remembers her as shy, with golden hair. As an adult she moved to the Bournton District to keep the books for a jeweler. About a month before Lady ZoBell's party she began acting strangely, saying her dead brother's spirit visited her, and then vanished. Wax found her body in her kitchen and recognized a Hemalurgic spike wound from the book Ironeyes had sent him.",
+          "revealedIn": [{ "book": "shadows-of-self", "chapter": "7" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

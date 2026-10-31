@@ -1,0 +1,42 @@
+{
+  "intro": [
+    {
+      "text": "A serial shown on hion viewers, with a fresh episode each Samday evening.",
+      "revealedIn": [{ "book": "yumi", "chapter": "11" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Its hero wakes one day with no memories, yet he alone knows where a great treasure lies, so a crowd of people claim to be his friends. The story follows him as he pieces together his past and works out who is honest and who is lying. Every episode ends on a cliffhanger.",
+      "revealedIn": [{ "book": "yumi", "chapter": "11" }]
+    },
+    {
+      "text": "The cast includes a woman drawn in blue hion lines, a man drawn in violet, and that man's brother, Lee.",
+      "revealedIn": [{ "book": "yumi", "chapter": "11" }]
+    },
+    {
+      "text": "Nikaro watches it regularly and shows it to Yumi, explaining both the story and how the viewer works.",
+      "revealedIn": [{ "book": "yumi", "chapter": "11" }]
+    }
+  ],
+  "history": [],
+  "facts": [
+    {
+      "label": "Airs",
+      "name": "Samday evenings",
+      "revealedIn": [{ "book": "yumi", "chapter": "11" }]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "nikaro",
+      "role": "viewer",
+      "revealedIn": [{ "book": "yumi", "chapter": "11" }]
+    },
+    {
+      "characterId": "yumi",
+      "role": "viewer",
+      "revealedIn": [{ "book": "yumi", "chapter": "11" }]
+    }
+  ]
+}

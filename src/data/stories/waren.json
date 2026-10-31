@@ -1,0 +1,52 @@
+{
+  "intro": [
+    {
+      "text": "A young Arelene lord whose conversion is a key part of the gyorn Hrathen's plan to bring Arelon to Shu-Dereth.",
+      "revealedIn": [{ "book": "elantris", "chapter": "9" }]
+    },
+    {
+      "text": "A young Arelene lord, once known for his Korathi piety, whose sudden conversion to Shu-Dereth unsettles the nobility.",
+      "revealedIn": [{ "book": "elantris", "chapter": "14" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Conversion",
+          "revealedIn": [
+            { "book": "elantris", "chapter": "9" },
+            { "book": "elantris", "chapter": "14" },
+            { "book": "elantris", "chapter": "42" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Waren came with his cousin Idan when Hrathen met several young nobles in Kae, which surprised Hrathen given his reputation. Seeing that Waren was not truly religious but could be useful, Hrathen worked to persuade him that converting would bring him power. When Waren worried that Shu-Korath would take too long to topple, Hrathen pointed to the fall of the Duladel Republic as proof of its long decline, and Waren left with new respect for him.",
+          "revealedIn": [{ "book": "elantris", "chapter": "9" }]
+        },
+        {
+          "text": "Waren then announced that Jaddeth had appeared to him in a vision and told him to convert. Such a sudden change after years of strict Korathi practice set the court talking, Sarene and Eshen's ladies among them. At Duke Telrii's ball he slipped into Iadon's private room on Hrathen's coattails; Shuden thought him an opportunist, and Sarene saw his conversion as a dangerous gain for Hrathen.",
+          "revealedIn": [{ "book": "elantris", "chapter": "14" }]
+        },
+        {
+          "text": "Dilaf made Waren and many of Hrathen's other key backers his odivs, a deliberate move to weaken the gyorn. Once Hrathen regained some control, he made Dilaf release his odivs from their oaths, and Waren became Dilaf's krondet instead.",
+          "revealedIn": [{ "book": "elantris", "chapter": "42" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Thin and very young, with blond hair so pale it is nearly white.",
+      "revealedIn": [{ "book": "elantris", "chapter": "14" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Clever and calculating, with a sharp sense of power and advantage, and a manner of self-assured control. Many suspect his famous piety was always more about politics than faith.",
+      "revealedIn": [{ "book": "elantris", "chapter": "14" }]
+    }
+  ]
+}

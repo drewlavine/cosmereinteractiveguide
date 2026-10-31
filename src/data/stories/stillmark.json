@@ -1,0 +1,36 @@
+{
+  "intro": [
+    {
+      "text": "Stillmark the Noble, one of Hallandren's oldest Returned: a firm traditionalist who is set against war with Idris.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "16" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "In the Court of Gods",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "16" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "When the Court of Gods hears arguments for and against war with Idris, his high priest Nanrovah speaks against it on Stillmark's behalf.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "16" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "His colours are blue and gold.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "16" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "A staunch traditionalist who opposes most proposals put to the court, and above all war with Idris. Most of the other gods think him wise, which gives him real influence.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "21" }]
+    }
+  ]
+}

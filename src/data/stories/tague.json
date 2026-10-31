@@ -1,0 +1,43 @@
+{
+  "intro": [
+    {
+      "text": "The lead engineer of the Intensifier, arguing with Dajer when the machine fails to fire against the entity attacking the camp.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "54" }],
+      "fallback": true
+    },
+    {
+      "text": "The engineer in charge of the Intensifier, leading a small team that operates the new weapon.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "56" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The Intensifier",
+          "revealedIn": [
+            { "book": "isles-of-the-emberdark", "chapter": "54" },
+            { "book": "isles-of-the-emberdark", "chapter": "56" },
+            { "book": "isles-of-the-emberdark", "chapter": "58" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Summoned by Dajer, Tague and his engineers brought the Intensifier to the island in a large cargo ship, a trip of a day or two.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "54" }]
+        },
+        {
+          "text": "He could not get the Intensifier running in time when the entity struck. Once it was ready, he fired it at the creature with positive and negative Investiture alike, but as he had warned Dajer, it simply fed on the power. He refused to push harder, saying it would crash the system and that the test was useful data, and lucky, since the creature might have eaten the machine.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "56" }]
+        },
+        {
+          "text": "Turned on Starling's manacles, the Intensifier ran at its limit without breaking them, and the short blackout it caused let the Dynamic's crew escape.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "58" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

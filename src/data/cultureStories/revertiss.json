@@ -1,0 +1,30 @@
+{
+  "intro": [
+    {
+      "text": "A well-known Fjordell dish.",
+      "revealedIn": [{ "book": "elantris", "chapter": "8" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Soon after Sarene arrives in Arelon, Kiin cooks revertiss for lunch, and the prospect of it is enough to draw her away from Iadon's court to his house.",
+      "revealedIn": [{ "book": "elantris", "chapter": "8" }]
+    }
+  ],
+  "history": [],
+  "facts": [
+    {
+      "label": "Origin",
+      "name": "Fjorden",
+      "placeId": "fjorden",
+      "revealedIn": [{ "book": "elantris", "chapter": "8" }]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "kiin",
+      "role": "cook",
+      "revealedIn": [{ "book": "elantris", "chapter": "8" }]
+    }
+  ]
+}

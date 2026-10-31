@@ -1,0 +1,51 @@
+{
+  "intro": [
+    {
+      "text": "A valley in Shinovar.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "i-6" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "The valley lies near the coast; the air is muggy and the Shin grass grows thick. Shepherds tend their flocks beneath white cliffs, wild horses run on its plains, and its buildings are simple and made of earth.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "i-6" },
+            { "book": "rhythm-of-war", "chapter": "i-7" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Szeth's exile",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "i-6" },
+                { "book": "words-of-radiance", "chapter": "88" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Szeth and his family lived there. Around 1165 he insisted the Voidbringers would come back. His people did not believe him; they named him Truthless and banished him from the valley and from Shinovar itself.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "i-6" },
+                { "book": "words-of-radiance", "chapter": "88" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

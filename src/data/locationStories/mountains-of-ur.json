@@ -1,0 +1,41 @@
+{
+  "intro": [
+    {
+      "text": "A mountain range in central Roshar, where Urithiru stands.",
+      "revealedIn": ["rhythm-of-war"]
+    }
+  ],
+  "description": [
+    {
+      "text": "The range runs east to west across the centre of Roshar and splits in the west into northern and southern branches, like a sideways Y. It borders Yulay and Tu Bayla to the north, Bavland to the east, Triax, Tu Fallia, Greater Hexi and Marat to the south, and Emul and Azir to the west.",
+      "revealedIn": ["oathbringer"]
+    },
+    {
+      "text": "Few people live there. Most towns lie in the foothills, the largest being the mining city of Zawfix in Azir and Silnasen in Jah Keved, and the mountains themselves hold only small, isolated villages. No country claims them.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "i-10" },
+            "oathbringer"
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Urithiru, the largest settlement, is a vast collection of fabrials that provide heat and air pressure, and home to the tower's own spren, the Sibling. Far below, in the Valley, the Nightwatcher holds court, and Cultivation sometimes appears there.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "oathbringer", "chapter": "114" },
+            { "book": "rhythm-of-war", "chapter": "111" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "The range takes its name from Ur, a mountain that once stood at its centre, where the range splits, and that was reshaped long ago into the tower city of Urithiru.",
+      "revealedIn": ["rhythm-of-war"]
+    }
+  ],
+  "history": []
+}

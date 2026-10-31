@@ -1,0 +1,70 @@
+{
+  "intro": [
+    {
+      "text": "The ten fools are figures of Vorin tradition, invoked to describe someone behaving very foolishly.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "37" }]
+    },
+    {
+      "text": "The ten fools are figures of Vorin tradition, each standing for a particular kind of folly, invoked to describe someone behaving very foolishly.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "69" },
+            { "book": "words-of-radiance", "chapter": "i-12" },
+            { "book": "rhythm-of-war", "chapter": "12" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "Cabine is a grown man who behaves like a child.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "37" }]
+    },
+    {
+      "text": "Eshu lectures people about subjects they know and he does not.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "71" }]
+    },
+    {
+      "text": "Dilid ran up a hillside of shifting sand toward the Tranquiline Halls forever, never getting any closer.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "29" }]
+    },
+    {
+      "text": "Each fool stands for one foolish trait, which has its own glyph known to Vorin ardents. People name a particular fool, either by name or by number, such as the \"fourth fool\", to stress that trait.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "69" },
+            { "book": "words-of-radiance", "chapter": "i-12" },
+            { "book": "rhythm-of-war", "chapter": "12" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Pai's protest",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-12" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Pai made a bold protest against Queen Aesudan and the Alethi government by invoking the ten fools.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-12" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "pai",
+      "role": "protester",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-12" }]
+    }
+  ]
+}

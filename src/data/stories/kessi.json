@@ -1,0 +1,31 @@
+{
+  "intro": [
+    {
+      "text": "A Soother living in the Community.",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "56" }],
+      "fallback": true
+    },
+    {
+      "text": "A Soother kidnapped by the Set, who lived for five years in the Community.",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "68" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Wayfarer",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "68" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "The Set took Kessi as part of the operation it called the Community, and she spent five years in Wayfarer. She used her Allomancy to help Marasi drain Autonomy's perpendicularity, and afterwards left Wayfarer together with Marasi.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "68" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

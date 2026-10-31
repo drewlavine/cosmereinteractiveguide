@@ -1,0 +1,35 @@
+{
+  "intro": [
+    {
+      "text": "An underlestrell of the Diem and one of Drile's followers, openly scornful of Kenton.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "prologue" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The Diem",
+          "revealedIn": [
+            { "book": "white-sand-omnibus", "chapter": "prologue" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Moril and Yeeden taunted Kenton shortly before he ran the Mastrell's Path, doubting Dirin's praise of his single ribbon. Yeeden challenged him to a game of Zo'Ken with a wager riding on it, and both were stunned when Kenton won easily. They walked off grumbling as Drile arrived to scold them for sparring with acolents.",
+          "revealedIn": [
+            { "book": "white-sand-omnibus", "chapter": "prologue" }
+          ]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Of average height and build, with medium-length red hair and fair skin; she wears a sand master's white robes with an underlestrell's purple sash.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "prologue" }]
+    }
+  ],
+  "personality": []
+}

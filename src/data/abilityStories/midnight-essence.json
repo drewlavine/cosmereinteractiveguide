@@ -1,0 +1,217 @@
+{
+  "intro": [
+    {
+      "text": "Creatures that attack in one of Dalinar Kholin's visions; the Knights Radiant who fight them there say they are Midnight Essence, not Voidbringers.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "19" }]
+    },
+    {
+      "text": "A black, tarlike substance that the Unmade Re-Shephir shapes into creatures. The ancient Radiants counted it among the Ten Deaths.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "19" },
+            { "book": "oathbringer", "chapter": "29" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "A black substance, found on more than one world, that acts as both substance and creature. Re-Shephir shapes it into her creatures, and on Lumar it is grown by pouring water on midnight spores.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "19" },
+            { "book": "oathbringer", "chapter": "29" },
+            { "book": "tress", "chapter": "31" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "The creatures in Dalinar's vision had no eyes and found their prey by smell, wheezing softly as they searched. Their soft bodies gave under blows and bled smoke when cut; badly hurt, one would collapse with a hiss, leaving a skin like an empty sack of black silk. The mouth was a weak spot.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "19" }]
+    },
+    {
+      "text": "Their bodies looked almost liquid, with long, bending necks and knifelike teeth.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "19" }]
+    },
+    {
+      "text": "They were strong and quick, smashing through a barn wall, tracking people by scent in the darkest night and often hunting in packs. Their claws could do serious damage to Shardplate.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "19" }]
+    },
+    {
+      "text": "They could be cunning, growing cautious against a skilled or determined fighter.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "19" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Dalinar's vision",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "19" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "In one of Dalinar Kholin's visions, the creatures broke into a farm and hunted a family. Dalinar fought them off with an iron poker until two Knights Radiant arrived and helped him kill them.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "19" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Beneath Urithiru",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "19" },
+                { "book": "oathbringer", "chapter": "29" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Under Urithiru, Re-Shephir set roughly human figures of black goo on Adolin, Shallan and the members of Bridge Four with them.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "19" },
+                { "book": "oathbringer", "chapter": "29" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Tress's spores",
+          "revealedIn": [{ "book": "tress", "chapter": "31" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Tress grew Midnight Essence from spores, paying it with water drawn from her own body. It took Huck's likeness from her thoughts, and she went on to control it and then to inhabit it.",
+          "revealedIn": [{ "book": "tress", "chapter": "31" }]
+        }
+      ]
+    }
+  ],
+  "mechanics": [
+    {
+      "title": [
+        {
+          "text": "Making and bonding",
+          "revealedIn": [
+            { "book": "tress", "chapter": "31" },
+            { "book": "tress", "chapter": "62" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "On Lumar it is more common and used by many people; the usual way to make it is to pour water onto midnight spores.",
+          "revealedIn": [{ "book": "tress", "chapter": "31" }]
+        },
+        {
+          "text": "It has never been shown to exist without some awareness of its own or a bond steering it, so it counts as both substance and creature.",
+          "revealedIn": [{ "book": "tress", "chapter": "31" }]
+        },
+        {
+          "text": "A Luhel bond gives control over it: the bonder directs how it moves and acts and, with enough control, can make it dissolve. The bond is a trade, handing it something it craves (water, for Lumar's Essence) in return for control. It follows the bonder's Intention, so it needs no spoken or visible commands.",
+          "revealedIn": [{ "book": "tress", "chapter": "62" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Shape and mind",
+          "revealedIn": [
+            { "book": "tress", "chapter": "62" },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "19" },
+                { "book": "oathbringer", "chapter": "29" },
+                { "book": "tress", "chapter": "58" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "19" },
+                { "book": "tress", "chapter": "58" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Lumar's Essence is a thick, black, bubbling liquid that copies a creature nearby.",
+          "revealedIn": [{ "book": "tress", "chapter": "62" }]
+        },
+        {
+          "text": "It is smooth, slick, black and reflective, and usually copies what it sees, often as filtered through the mind it is bound to. Re-Shephir's creatures in Urithiru copied the tower's people. It can squeeze through gaps far smaller than itself: Tress's copied a rat and slid under a door.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "19" },
+                { "book": "oathbringer", "chapter": "29" },
+                { "book": "tress", "chapter": "58" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Some take shapes that copy nothing, like the six-legged, clawed creatures of Dalinar's vision, which gave off a foul smell. Those in the Midnight Sea look like huge sea serpents.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "19" },
+                { "book": "tress", "chapter": "58" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "It shows a basic intelligence, pressing simple notions on the minds of those bonded to it, and can carry out orders without being steered.",
+          "revealedIn": [{ "book": "tress", "chapter": "62" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Dangers",
+          "revealedIn": [{ "book": "tress", "chapter": "31" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "A user can sink so deep into the creation that they lose hold of their own body and see and act through it instead. Their thoughts drift toward whatever it imitates, and since they no longer feel their real body, they can die of thirst.",
+          "revealedIn": [{ "book": "tress", "chapter": "31" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "re-shephir",
+      "role": "Shapes creatures",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "29" }]
+    },
+    {
+      "characterId": "tress",
+      "role": "Bonder",
+      "revealedIn": [{ "book": "tress", "chapter": "31" }]
+    }
+  ]
+}

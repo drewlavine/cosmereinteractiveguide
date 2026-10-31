@@ -1,0 +1,77 @@
+{
+  "intro": [
+    {
+      "text": "Known as Bluefingers for his ink-stained hands, a Pahn Kahl scribe who runs the God King's palace as its head scribe and steward.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "6" }]
+    },
+    {
+      "text": "Known as Bluefingers, the Pahn Kahl head scribe and steward of the God King's palace, who guides the new queen, Siri, and agrees to help her escape if the priests turn on her.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "34" }]
+    },
+    {
+      "text": "Known as Bluefingers, the Pahn Kahl head scribe and steward of the God King's palace, who turns on Siri and the God King to set Idris and Hallandren at war.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "57" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Steward of the palace",
+          "revealedIn": [
+            { "book": "warbreaker", "chapter": "15" },
+            { "book": "warbreaker", "chapter": "20" },
+            { "book": "warbreaker", "chapter": "34" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Having no faith in the Returned, Bluefingers works in the God King's palace not as a priest but as its head scribe and steward. The priest Bebid says he all but keeps the Court of Gods running.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "15" }]
+        },
+        {
+          "text": "When Siri arrived, he explained the rules of her new life, and he often waited with her outside the God King's bedchamber, offering advice and cryptic warnings. He told her that bearing the God King a child would be the worst thing she could do, hinting at dangerous factions within the palace.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "20" }]
+        },
+        {
+          "text": "When Siri told him she knew what became of God Kings once an heir was born, and that she had been talking with the God King, he admitted that he feared for the God King's life. They struck a deal: she would look after the Pahn Kahl servants, and if the priests acted against the couple, he would help them escape the palace.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "34" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The attack on the palace",
+          "revealedIn": [
+            { "book": "warbreaker", "chapter": "55" },
+            { "book": "warbreaker", "chapter": "57" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "When the palace came under attack, Bluefingers offered to lead Siri and Susebron to the docks, but Siri worked out that the Pahn Kahl were behind the attack, and he fled. His men and Lifeless soon captured the pair, and once he had the Commands he needed, he sent Hallandren's Lifeless armies against Idris.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "55" }]
+        },
+        {
+          "text": "Hoping to win his people their freedom by driving both kingdoms to war, he locked Susebron away and led Siri to an altar, meaning to kill her. As he struck, Susebron, Awakening the very room around them, stopped him.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "57" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "An older, balding man in brown robes with a round, friendly face. His fingers are always stained with blue ink, which earned him his nickname, and he usually carries a ledger.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "6" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Well informed on many things, including Idrian customs and the Royal Locks. He is deferential to Siri, asking leave and offering help, yet does not shy away from pointing out her mistakes.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "6" }]
+    }
+  ]
+}

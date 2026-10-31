@@ -1,0 +1,55 @@
+{
+  "intro": [
+    {
+      "text": "A faction of the Rose Empire devoted to honouring past cultures, which recreates famous works through Forgery and calls the practice Remembering.",
+      "revealedIn": [{ "book": "emperors-soul", "chapter": "day-3" }]
+    },
+    {
+      "text": "The faction ruling the Rose Empire during Shai's imprisonment, one of eighty, devoted to honouring past cultures and recreating their works by Remembering.",
+      "revealedIn": ["emperors-soul"]
+    }
+  ],
+  "description": [
+    {
+      "text": "The faction rebuilt its wing of the Rose Palace to copy an ancient building and furnished it with recreated art and cultural pieces, often in the Lamio style. Because Forgers are poorly regarded in the empire, it calls this work Remembering.",
+      "revealedIn": [{ "book": "emperors-soul", "chapter": "day-3" }]
+    },
+    {
+      "text": "It also tries to win public favour by reviving forgotten holidays and feasts, though only the arbiters of the eighty factions choose a new emperor.",
+      "revealedIn": [{ "book": "emperors-soul", "chapter": "day-17" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "A new soul for the emperor",
+          "revealedIn": ["emperors-soul"]
+        }
+      ],
+      "items": [
+        {
+          "text": "After an assassination attempt left Emperor Ashravan without a mind, the faction's arbiters hid him away under cover of mourning for his wife and forced the Forger Shai to make him a new soul.",
+          "revealedIn": ["emperors-soul"]
+        },
+        {
+          "text": "Every arbiter except Gaotona visited Shai and asked her to make the emperor easier to control. She left the final stamp free of such changes, adding only prompts toward the emperor Ashravan had wanted to be.",
+          "revealedIn": ["emperors-soul"]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "gaotona",
+      "role": "arbiter",
+      "revealedIn": ["emperors-soul"]
+    },
+    {
+      "characterId": "frava",
+      "role": "arbiter",
+      "revealedIn": ["emperors-soul"]
+    }
+  ]
+}

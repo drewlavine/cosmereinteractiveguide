@@ -1,0 +1,243 @@
+{
+  "intro": [
+    {
+      "text": "The stages of power a person passes through as they gather more Breath. Each Heightening brings new abilities, such as perfect pitch at the Second, and the number of Breaths each one takes is only approximate.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "prologue" }]
+    },
+    {
+      "text": "The stages of power a person passes through as they gather more Breath, from the First Heightening to the Tenth. Each brings new abilities, and a Returned's single divine Breath carries them straight to the Fifth.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "27" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Each Heightening is reached by holding a certain number of Breaths, though the count is not exact: it can take more or fewer depending on circumstances and on how strong the gathered Breaths are.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "prologue" }]
+    },
+    {
+      "text": "Few people ever reach the highest Heightenings, so little is known about them.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "prologue" }]
+    },
+    {
+      "text": "Wealthy people who buy Breath mostly stop at the First Heightening, which is enough to add about ten years to their lives and sharpen their life sense.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "5" }]
+    },
+    {
+      "text": "A Returned's one divine Breath is enough to bring them to the Fifth Heightening.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "27" }]
+    }
+  ],
+  "history": [],
+  "mechanics": [
+    {
+      "title": [
+        {
+          "text": "First Heightening",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "14" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "The First Heightening grants Aura Recognition: an instinctive sight of the Breath around other people, showing roughly how much they hold and how healthy it is.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "14" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Second Heightening",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "prologue" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "The Second Heightening grants Perfect Pitch.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "prologue" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Third Heightening",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "3" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "At the Third Heightening comes Perfect Color Recognition, an instinctive sense of the exact shade of any color and its hue harmonics.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "3" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Fourth Heightening",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "15" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Everyone with Breath has some life sense, but it only becomes perfect at the Fourth Heightening.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "15" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Fifth Heightening",
+          "revealedIn": [
+            { "book": "warbreaker", "chapter": "35" },
+            { "book": "warbreaker", "chapter": "43" },
+            { "book": "warbreaker", "chapter": "epilogue" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The Fifth Heightening grants Agelessness. Resistance to sickness peaks: the holder shrugs off most poisons, alcohol included, and most bodily ailments, and no longer grows older.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "35" }]
+        },
+        {
+          "text": "Resistance to disease grows with each Breath gathered and reaches its peak at around two thousand Breaths.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "43" }]
+        },
+        {
+          "text": "A Returned does not hold two thousand Breaths. Their one powerful Breath brings with it the abilities of the first five Heightenings.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "epilogue" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Sixth Heightening",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "49" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Reached at about three and a half thousand Breaths, the Sixth Heightening grants Instinctive Awakening: basic Commands can be used at once without training, and harder ones are easier to learn and discover.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "49" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Seventh Heightening",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "prologue" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "At the Seventh Heightening comes Invested Breath Recognition: the holder can see the auras of objects and tell when one has been Awakened with Breath.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "prologue" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Eighth Heightening",
+          "revealedIn": [
+            { "book": "warbreaker", "chapter": "8" },
+            { "book": "warbreaker", "chapter": "58" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Around ten thousand Breaths bring the Eighth Heightening, which lets an Awakener override the Commands in objects someone else has Awakened.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "8" }]
+        },
+        {
+          "text": "This Command Breaking extends to Lifeless. It takes concentration and leaves the Awakener exhausted, and reworking many objects can take weeks.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "58" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Ninth Heightening",
+          "revealedIn": [
+            { "book": "warbreaker", "chapter": "prologue" },
+            { "book": "warbreaker", "chapter": "51" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The Ninth Heightening grants Audible Command: the holder can Awaken objects they are not touching, as long as the objects are close enough to hear them.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "prologue" }]
+        },
+        {
+          "text": "At about twenty thousand Breaths, the Ninth Heightening also allows Greater Awakening of stone and steel. This takes a great deal of Breath and special Commands, and is how sentient objects such as Nightblood are made.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "51" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Tenth Heightening",
+          "revealedIn": [
+            { "book": "warbreaker", "chapter": "15" },
+            { "book": "warbreaker", "chapter": "58" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The Tenth Heightening grants Color Distortion: light bends around white objects near the holder, splitting into colors as if through a prism.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "15" }]
+        },
+        {
+          "text": "It takes about fifty thousand Breaths. It also grants Perfect Invocation, drawing more color from the objects used to fuel Awakening so that they are left white instead of grey.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "58" }]
+        },
+        {
+          "text": "A third ability, hard to learn, lets the holder give Commands in their mind. This is how the God Kings could pass on their Breath even with their tongues removed.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "58" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "susebron",
+      "role": "God King",
+      "level": "Tenth Heightening",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "15" }]
+    },
+    {
+      "characterId": "lightsong",
+      "role": "Returned god",
+      "level": "Fifth Heightening",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "27" }]
+    },
+    {
+      "characterId": "vivenna",
+      "role": "Idrian princess",
+      "level": "Third Heightening",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "43" }]
+    }
+  ],
+  "levels": [
+    "First Heightening",
+    "Second Heightening",
+    "Third Heightening",
+    "Fourth Heightening",
+    "Fifth Heightening",
+    "Sixth Heightening",
+    "Seventh Heightening",
+    "Eighth Heightening",
+    "Ninth Heightening",
+    "Tenth Heightening"
+  ]
+}

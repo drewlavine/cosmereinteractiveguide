@@ -1,0 +1,86 @@
+{
+  "intro": [
+    {
+      "text": "An Arelene mourning custom dating from before the Reod, in which a lady who has just lost her husband does works of charity.",
+      "revealedIn": [{ "book": "elantris", "chapter": "11" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "The time and effort a widow gives to her trial are a measure of her regard for her late husband and their marriage. Most hand out food or other basic needs to the poor.",
+      "revealedIn": [{ "book": "elantris", "chapter": "17" }]
+    },
+    {
+      "text": "Because the custom grew out of the old reverence for the Elantrians, some call it a pagan rite. Sarene's priest, Father Omin, and many other Korathi accept it, since it means giving to the needy rather than worshipping Elantrians.",
+      "revealedIn": [{ "book": "elantris", "chapter": "17" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Sarene's trial",
+          "revealedIn": [
+            { "book": "elantris", "chapter": "17" },
+            { "book": "elantris", "chapter": "20" },
+            { "book": "elantris", "chapter": "23" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Sarene asked Father Omin what a Widow's Trial involves.",
+          "revealedIn": [{ "book": "elantris", "chapter": "17" }]
+        },
+        {
+          "text": "She chose to make her trial a gift of food to the Elantrians, to undercut Hrathen's campaign against them, and asked the nobles to join her; only Shuden agreed. Iadon gave his permission in exchange for a profitable trade deal with Teod.",
+          "revealedIn": [{ "book": "elantris", "chapter": "20" }]
+        },
+        {
+          "text": "With Eondel and Shuden as escort, Sarene brought food into Elantris and bargained with its leaders to hand it out unhindered, in return for cloth, grain, oil and building materials.",
+          "revealedIn": [{ "book": "elantris", "chapter": "23" }]
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Practised in",
+      "name": "Arelon",
+      "placeId": "arelon",
+      "revealedIn": [{ "book": "elantris", "chapter": "11" }]
+    },
+    {
+      "label": "Dates from",
+      "name": "Before the Reod",
+      "revealedIn": [{ "book": "elantris", "chapter": "11" }]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "sarene",
+      "role": "widow",
+      "revealedIn": [{ "book": "elantris", "chapter": "11" }]
+    },
+    {
+      "characterId": "omin",
+      "role": "adviser",
+      "revealedIn": [{ "book": "elantris", "chapter": "17" }]
+    },
+    {
+      "characterId": "shuden",
+      "role": "companion",
+      "revealedIn": [{ "book": "elantris", "chapter": "20" }]
+    },
+    {
+      "characterId": "iadon",
+      "role": "permits it",
+      "revealedIn": [{ "book": "elantris", "chapter": "20" }]
+    },
+    {
+      "characterId": "eondel",
+      "role": "escort",
+      "revealedIn": [{ "book": "elantris", "chapter": "23" }]
+    }
+  ]
+}

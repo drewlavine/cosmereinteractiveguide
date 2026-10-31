@@ -106,5 +106,49 @@
         }
       ]
     }
+  ],
+  "description": [
+    {
+      "title": [
+        {
+          "text": "Origins",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "111" },
+                { "book": "wind-and-truth", "chapter": "21" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Cultivation created the Nightwatcher from the essence of the Night, one of Roshar's ancient entities.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "111" },
+                { "book": "wind-and-truth", "chapter": "21" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "A visitor's transformation",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "i-5" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "After visiting the Nightwatcher, Baxil needed red bandages to hold his body together and could be seen or touched only in certain circumstances.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "i-5" }]
+        }
+      ]
+    }
   ]
 }

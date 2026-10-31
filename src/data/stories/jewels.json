@@ -1,0 +1,81 @@
+{
+  "intro": [
+    {
+      "text": "The third member of Denth and Tonk Fah's mercenary band, which stays on to work for Princess Vivenna in T'Telir.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "13" }],
+      "fallback": true
+    },
+    {
+      "text": "A mercenary in Denth's band who directs and maintains the crew's Lifeless, Clod, while they work for Princess Vivenna in T'Telir.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "19" }]
+    },
+    {
+      "text": "A Hallandren mercenary in Denth's band, which had only pretended to serve Princess Vivenna, who gets away with Tonk Fah at the end.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "58" }],
+      "fallback": true
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Early life",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "25" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Jewels grew up in T'Telir, one of six children. Her parents had sold their own Breath to fund a dye business, and when her father hurt his back the family sank into poverty. At eleven, seeing her siblings starve, she gave her Breath to the God King, an honour in her family's eyes, and the payment fed them for a year while her father recovered. Her brothers now run the business.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "25" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Denth's crew",
+          "revealedIn": [
+            { "book": "warbreaker", "chapter": "19" },
+            { "book": "warbreaker", "chapter": "25" },
+            { "book": "warbreaker", "chapter": "33" },
+            { "book": "warbreaker", "chapter": "58" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "In Denth's crew, Jewels was in charge of their Lifeless, Clod, a job she had worked hard to learn: she gave him his orders and kept him in repair.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "19" }]
+        },
+        {
+          "text": "Left alone with Vivenna one day, Jewels was short-tempered, and when Vivenna tried to sympathise with her for being a Drab, Jewels fiercely insisted that giving her Breath to the God King had been right.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "25" }]
+        },
+        {
+          "text": "While she was repairing Clod, she let his security phrase slip within Vivenna's hearing.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "33" }]
+        },
+        {
+          "text": "She was with Denth and Tonk Fah when they caught Vivenna in their safe house, but Vivenna turned Clod on Denth and shoved past Jewels to escape. Once the crew had fallen apart, Jewels got away with Tonk Fah.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "58" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "A short, solidly built woman with light brown hair that falls to her shoulders.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "19" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Usually blunt and irritable, which Denth puts down to her nature, though Vivenna suspects losing her Breath has a part in it. She hates being judged and hates being pitied even more.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "25" }]
+    },
+    {
+      "text": "A devout follower of the Iridescent Tones, she believes the Returned truly look after their people and that giving them Breath lets a person live on inside them. She resents Idrians' sense of superiority, and thinks giving up Breath no worse than giving a child to an Idrian monastery for life.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "25" }]
+    }
+  ]
+}

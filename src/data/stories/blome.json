@@ -1,0 +1,26 @@
+{
+  "intro": [
+    {
+      "text": "A Seeker who tends bar for Lord Winsting Innate at his mansion in Elendel.",
+      "revealedIn": [{ "book": "shadows-of-self", "chapter": "1" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The auction",
+          "revealedIn": [{ "book": "shadows-of-self", "chapter": "4" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Blome's work for House Innate went beyond the bar: as a Seeker he could tell Winsting which of his guests were Allomancers. At the party where Winsting auctioned his senate vote, Blome signaled to him that no one was burning metals. He was presumably killed in the fighting that broke out.",
+          "revealedIn": [{ "book": "shadows-of-self", "chapter": "4" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

@@ -1,0 +1,122 @@
+{
+  "intro": [
+    {
+      "text": "A Scadrian colonel whose inspection team boards Starling's ship, the Dynamic, on an island in the emberdark.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "36" }],
+      "fallback": true
+    },
+    {
+      "text": "A colonel of the Malwish Empire who leads a team of Scadrian military engineers searching the Drominad subastral for a perpendicularity, meaning to secure it for his empire.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "38" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Soldier and engineer",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "38" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Dajer began as a front-line soldier in the Malwish military. Smoke at the Battle of Aheleha scarred his lungs for good, leaving him reliant on an oxygen tube and ending his front-line service, so he moved to the Military Engineer Corps and rose to colonel. Along the way he completed a two-year cross-division training and earned an arcanist's badge.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "38" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The hunt for the perpendicularity",
+          "revealedIn": [
+            { "book": "isles-of-the-emberdark", "chapter": "50" },
+            { "book": "isles-of-the-emberdark", "chapter": "36" },
+            { "book": "isles-of-the-emberdark", "chapter": "37" },
+            { "book": "isles-of-the-emberdark", "chapter": "38" },
+            { "book": "isles-of-the-emberdark", "chapter": "39" },
+            { "book": "isles-of-the-emberdark", "chapter": "40" },
+            { "book": "isles-of-the-emberdark", "chapter": "44" },
+            { "book": "isles-of-the-emberdark", "chapter": "48" },
+            { "book": "isles-of-the-emberdark", "chapter": "51" },
+            { "book": "isles-of-the-emberdark", "chapter": "54" },
+            { "book": "isles-of-the-emberdark", "chapter": "56" },
+            { "book": "isles-of-the-emberdark", "chapter": "57" },
+            { "book": "isles-of-the-emberdark", "chapter": "59" },
+            { "book": "isles-of-the-emberdark", "chapter": "60" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "While the Ones Above bargained with the Eelakin, Dajer searched the Drominad subastral for a perpendicularity he was sure existed, spending heavily from military resources against his superiors' judgement. Convinced it lay on the Dakwara's island, he set about investigating it, losing six soldiers in the process.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "50" }]
+        },
+        {
+          "text": "His team searched the Dynamic, and when they found its fake cargo, Dajer, who already knew more than Starling liked, saw that her crew were after the perpendicularity too. Keen to keep it secret, he detained them.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "36" }]
+        },
+        {
+          "text": "When a lone stranger from Drominad rowed up, Dajer dropped his hostility for a show of welcome. He assumed the man had come to use a perpendicularity his people were hiding beyond the giant serpent, and named him an honoured guest.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "37" }]
+        },
+        {
+          "text": "He ordered the deserter Leonore executed, a ploy to draw out the shade Nazh, whom his soldiers trapped in a shade prison. He then courted Dusk, trading stories, telling how he had been sidelined after Aheleha, and showing him other worlds through a viewing device.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "38" }]
+        },
+        {
+          "text": "He took Dusk to the Cave of Death, where soldiers and drones had been lost, hoping it led past the serpent. Amazed at how well Dusk knew its dangers, he agreed to let him go in alone with recording equipment.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "39" }]
+        },
+        {
+          "text": "He offered Starling twenty years as his aide-de-camp, promising her crew safe passage home and the removal of her manacles. As proof, he showed her a dragons' ancient lock broken by the Intensifier, a machine due on the island within a day.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "40" }]
+        },
+        {
+          "text": "When Dusk insisted on Starling coming with him into the cave, Dajer quietly asked her to refuse, but she agreed. He followed their progress through a drone until it strayed too close to a tokka and was destroyed.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "44" }]
+        },
+        {
+          "text": "Demanding Starling's answer, he introduced his own aetherbound, Esandi, revealed he had worked out her crew's escape plan, and threatened them.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "48" }]
+        },
+        {
+          "text": "He turned the Intensifier on Starling's manacles. She admitted it worked, and he gave her one day to decide.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "51" }]
+        },
+        {
+          "text": "When the entity attacked his camp, it killed two more soldiers, forcing a mandatory review from his superiors, and the Intensifier failed against it. Then an attendant brought him a dead hordeling: one of the Sleepless was on the island.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "54" }]
+        },
+        {
+          "text": "Once Chrysalis was caught, Starling accepted his contract: she would serve as his bodyguard in return for her freedom, and it allowed Chrysalis to be killed if found guilty of the prime minister's murder. Instead of freeing Starling, he fired the Intensifier at the entity, with no effect.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "56" }]
+        },
+        {
+          "text": "Watching Dusk through a drone, he raged when the tunnel ended in a dead end, and recalled it.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "57" }]
+        },
+        {
+          "text": "Bound by the contract, he had the Intensifier fired at Starling's manacles until it overloaded and blacked out the camp. The crew used the blackout to escape and sabotage his warships, and when the freed Nazh rose behind him, he fled.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "59" }]
+        },
+        {
+          "text": "For revenge he set out to kill Chrysalis, then turned his gunship on the fleeing Dynamic, saying his failure had ruined him. The Dakwara, now at Dusk's command, struck the gunship, and Dajer was killed.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "60" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "A red-haired man in a traditional Malwish mask, fitted with an oxygen tube to his nose because of an old injury.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "36" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Ruthless and determined, he steers conversations expertly and wields his authority with precision, yet underrates anyone he thinks less advanced than himself. Well informed about the cosmere and well prepared, he admires Scadrial's great feats of engineering as lessons in hard work.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "38" }]
+    }
+  ]
+}

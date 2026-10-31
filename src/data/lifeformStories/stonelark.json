@@ -1,0 +1,23 @@
+{
+  "intro": [
+    {
+      "text": "A bird of Sel.",
+      "revealedIn": [{ "book": "elantris", "chapter": "47" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Stonelarks dig holes in wet sand only for the tide to fill them again. Hrathen mentions them in an argument with Sarene.",
+      "revealedIn": [{ "book": "elantris", "chapter": "47" }]
+    }
+  ],
+  "history": [],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "hrathen",
+      "role": "mentions it",
+      "revealedIn": [{ "book": "elantris", "chapter": "47" }]
+    }
+  ]
+}

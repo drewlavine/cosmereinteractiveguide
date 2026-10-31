@@ -1,0 +1,33 @@
+{
+  "intro": [
+    {
+      "text": "A place in eastern Roshar, a region often thought of as a crumbling, empty wasteland, though some Alethi mapmakers know of it.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "60" },
+            { "book": "oathbringer", "chapter": "67" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "A place on Roshar's far eastern coast, a region often thought of as an empty wasteland, though some Alethi mapmakers know of it.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "60" },
+            "oathbringer"
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "East of the Unclaimed Hills, it sits on a sea that opens onto the Ocean of Origins, within what was once the Silver Kingdom of Natanatan. New Natanan, a city-state, is the nearest population center.",
+      "revealedIn": [{ "all": ["way-of-kings", "oathbringer"] }]
+    }
+  ],
+  "history": []
+}

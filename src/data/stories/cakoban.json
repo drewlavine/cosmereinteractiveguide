@@ -1,0 +1,48 @@
+{
+  "intro": [
+    {
+      "text": "Cakoban, a hero of Eelakin legend who crossed a sea of endless night in search of light, and found it at last in the islands of Patji.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "3" }],
+      "fallback": true
+    },
+    {
+      "text": "Cakoban, also called Tenth the Navigator, an Eelakin explorer remembered as the first trapper of Patji, and a skilled Navigator.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "52" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Legend and truth",
+          "revealedIn": [
+            { "book": "isles-of-the-emberdark", "chapter": "3" },
+            { "book": "isles-of-the-emberdark", "chapter": "52" },
+            { "book": "isles-of-the-emberdark", "chapter": "61" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "In the loremothers' tale, Cakoban made a pact with a great winged statue, killed the giants of Epelli and followed a falling star to the Dakwara's cave, where he tricked the serpent into knots. It then served him and his kin for a hundred years.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "3" }]
+        },
+        {
+          "text": "He was one of the explorers who found the Drominad perpendicularity. After leaving most of their people there, he set out again with three ships. Hunted and starving, he leapt overboard to save his crew; the Dakwara caught him, but his defiance beat it, and as he died he bound it to guard the island and spare his crew. They told the embellished tale he asked for.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "52" }]
+        },
+        {
+          "text": "In a cavern on the Dakwara's island, Dusk found old bones he took to be Cakoban's. Pictures of the tomb bore writing in the dragons' language, signed by Frost, saying Cakoban died with honour.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "61" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "For all the stories of a big man, he is lean and wiry, under five and a half feet tall but bulging with muscle, and wears the traditional wrap and loincloth.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "52" }]
+    }
+  ],
+  "personality": []
+}

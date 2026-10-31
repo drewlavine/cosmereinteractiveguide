@@ -1,0 +1,26 @@
+{
+  "intro": [
+    {
+      "text": "An acquaintance of the ardents Geranid and Ashir.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "i-8" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Gift from Shinovar",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "i-8" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Gom once brought Geranid and Ashir a vegetable from Shinovar, and Ashir was intrigued by the way it caramelized.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "i-8" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

@@ -1,0 +1,98 @@
+{
+  "intro": [
+    {
+      "text": "A powerful Arelene duke among the nobles the gyorn Hrathen courts with promises of power if they convert to Shu-Dereth.",
+      "revealedIn": [{ "book": "elantris", "chapter": "9" }],
+      "fallback": true
+    },
+    {
+      "text": "A powerful Arelene duke allied with the gyorn Hrathen, who has promised to put him on Arelon's throne in return for a peaceful conversion to Shu-Dereth.",
+      "revealedIn": [{ "book": "elantris", "chapter": "15" }],
+      "fallback": true
+    },
+    {
+      "text": "A vain, free-spending duke who took Arelon's throne with the gyorn Hrathen's backing, then refused to convert to Shu-Dereth unless he was made a gyorn himself.",
+      "revealedIn": [{ "book": "elantris", "chapter": "48" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Duke Telrii",
+          "revealedIn": [
+            { "book": "elantris", "chapter": "50" },
+            { "book": "elantris", "chapter": "22" },
+            { "book": "elantris", "chapter": "25" },
+            { "book": "elantris", "chapter": "15" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Telrii owed his rank as duke and much of his fortune to his brother, a far better merchant, whose estate he inherited when the brother died.",
+          "revealedIn": [{ "book": "elantris", "chapter": "50" }]
+        },
+        {
+          "text": "Telrii's only daughter, Soine, never grew any hair, so he had a blond wig made for her. When the Shaod took her, he hid the fact and announced that she had died of an illness called dionia. Raoden recognized her in Elantris as Shaor, leader of one of its gangs.",
+          "revealedIn": [{ "book": "elantris", "chapter": "22" }]
+        },
+        {
+          "text": "Raoden once asked Telrii to join his circle of conspirators; Telrii just yawned and asked how much Raoden would pay for his support.",
+          "revealedIn": [{ "book": "elantris", "chapter": "25" }]
+        },
+        {
+          "text": "Telrii met with the gyorn Hrathen and other Arelene nobles and accepted Hrathen's offer. When rumours tying Hrathen to the disaster in Duladel gave him second thoughts, Hrathen won him back by pledging to make him king.",
+          "revealedIn": [{ "book": "elantris", "chapter": "15" }]
+        },
+        {
+          "text": "When Sarene started handing out food in Elantris, Telrii came along but did no work at all, bringing a manservant to do it for him.",
+          "revealedIn": [{ "book": "elantris", "chapter": "25" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "King of Arelon",
+          "revealedIn": [
+            { "book": "elantris", "chapter": "44" },
+            { "book": "elantris", "chapter": "48" },
+            { "book": "elantris", "chapter": "53" },
+            { "book": "elantris", "chapter": "56" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "With Sarene shut away in Elantris, Telrii was first in line and took the throne.",
+          "revealedIn": [{ "book": "elantris", "chapter": "44" }]
+        },
+        {
+          "text": "Once king, Telrii broke his bargain with Hrathen: he would only convert if made a gyorn, since any Derethi priest could otherwise command him, while a gyorn outranked even a king.",
+          "revealedIn": [{ "book": "elantris", "chapter": "48" }]
+        },
+        {
+          "text": "Count Ahan offered to betray his fellow conspirators, and Telrii led soldiers to Kiin's house intending to kill everyone inside, despite promising Ahan only arrests. His men killed Roial, but Raoden, believed dead, appeared, and Telrii fled with his soldiers.",
+          "revealedIn": [{ "book": "elantris", "chapter": "53" }]
+        },
+        {
+          "text": "Eondel attacked the throne room and killed Telrii to avenge Roial.",
+          "revealedIn": [{ "book": "elantris", "chapter": "56" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Telrii is lean and bald, with an upright, stately bearing and a large purple birthmark over the left side of his face and neck. He could have been handsome, but heaps of jewellery and gaudy clothes, often embroidered or set with gems, make him look pompous.",
+      "revealedIn": [{ "book": "elantris", "chapter": "38" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Telrii spends lavishly and has little head for money. He likes servants to do his work and lounges amid exotic food and luxuries. People take him for a power-hungry man driven mostly by money, but he is less simple than he seems: unpredictable and cunning enough to hide his aims, if not always clever enough to see where his actions lead.",
+      "revealedIn": [{ "book": "elantris", "chapter": "54" }]
+    }
+  ]
+}

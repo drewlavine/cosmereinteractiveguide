@@ -1,0 +1,37 @@
+{
+  "intro": [
+    {
+      "text": "The First Returned, the earliest person known to have Returned. Idris's royal family descends from him, something a few Hallandren priests still know but keep secret.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "32" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The First Returned",
+          "revealedIn": [
+            { "book": "warbreaker", "chapter": "32" },
+            { "book": "warbreaker", "chapter": "51" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Vo sailed with an expedition that crossed the Inner Sea westward looking for new lands and found a lush valley. He died at about the time it was discovered, and soon Returned in the bay beside what is now T'Telir.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "32" }]
+        },
+        {
+          "text": "He lived just one week after Returning. In that time he spoke the five Visions and fathered a child with his wife.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "32" }]
+        },
+        {
+          "text": "His shipmates founded a kingdom in the valley and made his wife its queen. The royal line she started carried his blood and ruled until the Manywar, after which it left T'Telir for the highlands and founded Idris.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "51" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

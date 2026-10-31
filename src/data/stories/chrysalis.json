@@ -1,0 +1,168 @@
+{
+  "intro": [
+    {
+      "text": "The doctor aboard the ship Dynamic, whom the technician ZeetZi distrusts and accuses of spying on him.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "22" }],
+      "fallback": true
+    },
+    {
+      "text": "One of the Sleepless, a Dysian Aimian whose body is made of many hordelings, who serves as doctor aboard the Dynamic.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "23" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Aboard the Dynamic",
+          "revealedIn": [
+            { "book": "isles-of-the-emberdark", "chapter": "35" },
+            { "book": "isles-of-the-emberdark", "chapter": "23" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Hoid found Chrysalis and made her the Dynamic's doctor, a good fit for her knowledge of human biology. Apart from Starling, the crew were deeply wary of her.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "35" }]
+        },
+        {
+          "text": "When Starling confronted her about spying, Chrysalis said she would be leaving soon, and that she watched the crew because she was sure they would kill her one day, pointing to the way they spoke of her.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "23" }]
+        },
+        {
+          "text": "Left out of the crew's mutiny against Captain Crow, she resented that no one had asked her, and refused to join their celebration. She thought the ship's real problems were its lack of profit and its ties to Hoid, an outlaw in Silverlight; she herself could legally be executed on Scadrial and Taldain.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "35" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "On the island",
+          "revealedIn": [
+            { "book": "isles-of-the-emberdark", "chapter": "35" },
+            { "book": "isles-of-the-emberdark", "chapter": "42" },
+            { "book": "isles-of-the-emberdark", "chapter": "46" },
+            { "book": "isles-of-the-emberdark", "chapter": "50" },
+            { "book": "isles-of-the-emberdark", "chapter": "55" },
+            { "book": "isles-of-the-emberdark", "chapter": "56" },
+            { "book": "isles-of-the-emberdark", "chapter": "60" },
+            { "book": "isles-of-the-emberdark", "chapter": "epilogue" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "When Malwish warships surrounded the Dynamic, she hid in an aluminum smuggler's box Hoid had left aboard.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "35" }]
+        },
+        {
+          "text": "She offered to replace the guards' recordings of the crew's talk with faked voices. The crew were disturbed, since it meant she could always have imitated them, but accepted.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "42" }]
+        },
+        {
+          "text": "She sent a hordeling to bite Dusk and speak into his mind, asking his help to reach the perpendicularity she believed lay at the island's centre. She let him see through one of her nodes, explained that she is one person made of many parts whose self survives as nodes die and are replaced, and offered her kind's help to his people.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "46" }]
+        },
+        {
+          "text": "She asked Dusk to carry one of her nodes on his next trip into the cave, sensing that he was hiding something from her.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "50" }]
+        },
+        {
+          "text": "Hiding in Dusk's bed, she told him she had tried to reach the island's centre alone, and that partisans, not her kind, had killed the Malwish prime minister. She also told him he was strangely Invested and Connected to the island and the dark, which was why the cave shaped itself to his memories.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "55" }]
+        },
+        {
+          "text": "After the Malwish found her hordelings, she let Dusk watch as they set up an interference cloud to cut her nodes off from one another, then gassed most of them and shovelled her into a container.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "56" }]
+        },
+        {
+          "text": "As the crew escaped, Dajer had her prison superheated. Too weak to speak, she showed Dusk her dying nodes, but Starling smashed open the prison and freed her. Hundreds of hordelings died, but enough survived to keep her alive, and she was moved that the crew had come for her.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "60" }]
+        },
+        {
+          "text": "Over the next six months she regrew her horde and spent more time with the crew, and suggested asking the other Sleepless at the Grand Apparatus to help free Starling from her manacles.",
+          "revealedIn": [
+            { "book": "isles-of-the-emberdark", "chapter": "epilogue" }
+          ]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "A horde of hordelings arranged in the rough shape of a human body, some looking like human skin or features. In human shape she appears as a thick-bodied woman with a lean face, blonde hair and dark tan skin, its tattoos partly hiding the seams between hordelings. She presents as female and is about six thousand years old.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "46" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Stiff and defensive, she keeps watch on the crew, certain they will turn on her.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "23" }],
+      "fallback": true
+    },
+    {
+      "text": "She has sworn the Oath of the First, never to harm another living being.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "35" }]
+    },
+    {
+      "text": "Often cold and abrasive, she resents the crew's wariness of the Sleepless and puts her own survival first. Her past keeps her from making friends, though she longs for acceptance, and slowly she begins to find a home on the Dynamic.",
+      "revealedIn": [
+        { "book": "isles-of-the-emberdark", "chapter": "epilogue" }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "title": [
+        {
+          "text": "Starling",
+          "revealedIn": [
+            { "book": "isles-of-the-emberdark", "chapter": "epilogue" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "She resisted Starling's efforts to befriend her and often avoided her, believing Starling would abandon her if needed. When Starling saved her life instead, she began to trust her and the crew a little more, though she stays reserved.",
+          "revealedIn": [
+            { "book": "isles-of-the-emberdark", "chapter": "epilogue" }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "ZeetZi",
+          "revealedIn": [
+            { "book": "isles-of-the-emberdark", "chapter": "epilogue" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Their relationship is tense: the Sleepless enslaved ZeetZi's people, and he wanted her off the ship, while she spied on the crew, expecting them to try to kill her. Yet he insisted on going back to save her, and in time accepted her as crew, though he remains wary.",
+          "revealedIn": [
+            { "book": "isles-of-the-emberdark", "chapter": "epilogue" }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Dusk",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "60" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "She trusts Dusk more than the crew, since he knows nothing of the stigma against her kind. He sees her as a god without worshipping her, but finds her hordelings nauseating, which hurts her. He was furious when the Malwish tried to destroy her.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "60" }]
+        }
+      ]
+    }
+  ]
+}

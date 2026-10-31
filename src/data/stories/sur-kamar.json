@@ -1,0 +1,27 @@
+{
+  "intro": [
+    {
+      "text": "A Veden on Roshar.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "39" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "A feast",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "39" }],
+          "fallback": true
+        }
+      ],
+      "items": [
+        {
+          "text": "Balat Davar had to attend a feast where Sur Kamar was present, a day's travel each way; he implied Sur Kamar was too important to snub.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "39" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

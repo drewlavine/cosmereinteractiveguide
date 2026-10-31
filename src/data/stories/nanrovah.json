@@ -1,0 +1,58 @@
+{
+  "intro": [
+    {
+      "text": "High priest of the god Stillmark, who argues in the Court of Gods against going to war with Idris.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "16" }],
+      "fallback": true
+    },
+    {
+      "text": "High priest of the god Stillmark and the Court of Gods' most outspoken opponent of war with Idris, though for a time he was forced to change sides.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "50" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "High priest of Stillmark",
+          "revealedIn": [
+            { "book": "warbreaker", "chapter": "16" },
+            { "book": "warbreaker", "chapter": "25" },
+            { "book": "warbreaker", "chapter": "49" },
+            { "book": "warbreaker", "chapter": "50" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "When the Court of Gods debated war with Idris, Nanrovah argued against it, opposed by Blushweaver's high priestess, Inhanna.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "16" }]
+        },
+        {
+          "text": "As a distraction in one of their schemes, Denth's mercenaries had their Lifeless club the horse pulling Nanrovah's carriage, scattering his gold across the street.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "25" }]
+        },
+        {
+          "text": "Nanrovah then suddenly began backing the war. Vasher and Vivenna found out why: the attack on his carriage had covered the kidnapping of his young daughter, held captive to silence him. They rescued her and brought her home to her grateful father.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "49" }]
+        },
+        {
+          "text": "Free to speak his mind again, he went back to arguing against war, but having changed his position twice, he found few willing to listen.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "50" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "He wears priest's robes in his god's colours, blue and gold.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "16" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "A traditionalist like his god, he argues against most proposals put to the Court and is widely respected. He inherited a fortune from his father, one of Hallandren's richest merchants, so his vote can't be bought.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "49" }]
+    }
+  ]
+}

@@ -178,6 +178,29 @@
       ]
     }
   ],
+  "mechanics": [
+    {
+      "title": [
+        {
+          "text": "Permanent destruction",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "i-3" },
+            { "book": "wind-and-truth", "chapter": "53" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "A raysium dagger carrying anti-Stormlight can permanently destroy a Herald.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "i-3" }]
+        },
+        {
+          "text": "Nightblood can consume and permanently destroy a Cognitive Shadow even in the Cognitive Realm.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "53" }]
+        }
+      ]
+    }
+  ],
   "facts": [
     {
       "label": "Also called",

@@ -1,0 +1,57 @@
+{
+  "intro": [
+    {
+      "text": "The palace of Emperor Ashravan.",
+      "revealedIn": [{ "book": "emperors-soul", "chapter": "day-59" }]
+    },
+    {
+      "text": "The imperial palace of the Rose Empire, in the Imperial Seat. The emperor lives there, and it houses the Rose Throne.",
+      "revealedIn": [{ "book": "emperors-soul", "chapter": "day-76" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "A vast complex of many wings joined by long hallways, often hung with portraits and set with pottery. The central wings, the Imperial Wing among them, are of quarried stone, with stained-glass windows in many rooms. The ruling faction picks which wings to use and maintain, often restyling them completely, so parts of the palace sit largely unused as storage. It is admired as beautiful despite some neglected areas.",
+      "revealedIn": [{ "book": "emperors-soul", "chapter": "day-98" }]
+    },
+    {
+      "text": "Strikers, held in high regard by the arbiters, lead the palace guard and must be able to read. The guards, both men and women, hold military ranks and carry swords and daggers.",
+      "revealedIn": [{ "book": "emperors-soul", "chapter": "day-98" }]
+    },
+    {
+      "text": "The emperor and his family live there along with the five ruling arbiters. The many servants have their own section near the stables and wear buttoned uniforms with an embroidered badge on the left breast showing their duties. The emperor also keeps an Imperial Fool.",
+      "revealedIn": [{ "book": "emperors-soul", "chapter": "epilogue" }]
+    },
+    {
+      "text": "Its features include an Imperial Gallery of art and relics from across the empire, among them the Moon Scepter, a study shared by the arbiters, kitchens, a guardhouse, walled grounds, stables and a large servants' complex. Its dungeon has a cell made for Forgers, its walls built of forty-four kinds of stone and lined with ralkalest so that no Forgery can free a prisoner.",
+      "revealedIn": ["emperors-soul"]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Under Emperor Ashravan",
+          "revealedIn": [
+            { "book": "emperors-soul", "chapter": "day-98" },
+            { "book": "emperors-soul", "chapter": "day-59" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Palace life followed a strict routine: the post came early every morning and servants worked like clockwork. Notable guests included Atsuko of JinDo and an ambassador from Fjorden.",
+          "revealedIn": [{ "book": "emperors-soul", "chapter": "day-98" }]
+        },
+        {
+          "text": "The Heritage Faction relied heavily on Rememberers to turn the Imperial Wing into a copy of a far older building, reproducing Lamio stonework and relics. The emperor's headboard, too, was Forged in a Lamio style known only from old texts. An arbiters' study became a replica of a fifth-century hunting lodge.",
+          "revealedIn": [{ "book": "emperors-soul", "chapter": "day-59" }]
+        },
+        {
+          "text": "An attack on the palace, blamed on the Glory Faction, killed the empress Kurshina and left Ashravan incapacitated. Around then the Forger Shai, caught after breaking in to copy the Moon Scepter, was confined to a guarded, Bloodsealed room in a neglected wing and given a hundred days to Forge a new soul for the emperor. She finished the work and escaped.",
+          "revealedIn": [{ "book": "emperors-soul", "chapter": "day-98" }]
+        }
+      ]
+    }
+  ]
+}

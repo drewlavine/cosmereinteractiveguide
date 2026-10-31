@@ -354,5 +354,21 @@
       "text": "Before the Oathpact, Taln was soft-spoken and caring, the least regal of the Heralds, and he took on the role of Herald so that no one else would have to suffer in his place.",
       "revealedIn": [{ "book": "wind-and-truth", "chapter": "65" }]
     }
+  ],
+  "abilities": [
+    {
+      "title": [
+        {
+          "text": "The Heralds' power",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "120" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Honor increased the Heralds' access to the Surges and to Roshar's own powers before the Last Desolation.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "120" }]
+        }
+      ]
+    }
   ]
 }

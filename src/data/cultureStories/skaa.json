@@ -1,0 +1,65 @@
+{
+  "intro": [
+    {
+      "text": "The lower class of the Final Empire on Scadrial, who labour on noble plantations under taskmasters.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "prologue" }]
+    },
+    {
+      "text": "The lower class of the Final Empire on Scadrial, believed to descend from the people who did not back the Lord Ruler's rise to power.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "19" }]
+    },
+    {
+      "text": "One of the two peoples the Lord Ruler made when he altered mankind: shorter and hardier than the nobles, and able to have many children.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "25" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Nobles have spread tales that make skaa fear the evening mists: they believe anyone who goes out in them is killed and becomes a mistwraith.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "prologue" }]
+    },
+    {
+      "text": "Plantation skaa are treated worst of all, and die younger than city skaa, since those who can no longer work are killed.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "6" }]
+    },
+    {
+      "text": "Only very skilled skaa, like Clubs, can work a trade as craftsmen, and even they are underpaid and scorned by the nobility.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "6" }]
+    },
+    {
+      "text": "Every skaa Allomancer has noble blood somewhere in their ancestry.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "19" },
+            { "book": "hero-of-ages", "chapter": "62" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Origins",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "25" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "In reshaping humanity to withstand the ash, the Lord Ruler gave the skaa a shorter, hardier build than the nobles and the ability to bear many children. These differences were small, and a millennium of interbreeding had mostly wiped them out.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "25" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "clubs",
+      "role": "craftsman",
+      "revealedIn": [{ "book": "final-empire", "chapter": "6" }]
+    }
+  ]
+}

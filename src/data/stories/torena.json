@@ -1,0 +1,61 @@
+{
+  "intro": [
+    {
+      "text": "A noblewoman of the Arelene court.",
+      "revealedIn": [{ "book": "elantris", "chapter": "14" }]
+    },
+    {
+      "text": "A quiet, intelligent noblewoman of the Arelene court, and the only court lady who goes into Elantris with Sarene.",
+      "revealedIn": [{ "book": "elantris", "chapter": "26" }]
+    },
+    {
+      "text": "A quiet noblewoman of the Arelene court, daughter of Ahan and Lady Seaden, who was the first to volunteer for Sarene's fencing lessons and is being courted by Shuden.",
+      "revealedIn": [{ "book": "elantris", "chapter": "47" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "At court",
+          "revealedIn": [
+            { "book": "elantris", "chapter": "26" },
+            { "book": "elantris", "chapter": "32" },
+            { "book": "elantris", "chapter": "47" },
+            { "book": "elantris", "chapter": "epilogue" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Torena was the only woman of the court who joined Sarene in Elantris for her Widow's Trial, and Sarene held up her courage as an example to the other ladies.",
+          "revealedIn": [{ "book": "elantris", "chapter": "26" }]
+        },
+        {
+          "text": "At Roial's eclipse ball, Torena and Shuden plainly enjoyed each other's company.",
+          "revealedIn": [{ "book": "elantris", "chapter": "32" }]
+        },
+        {
+          "text": "Normally quiet at court gatherings, Torena had been the first to volunteer when Sarene started fencing lessons. She and Kaise carried Sarene's train at her wedding to Roial, and she danced and went riding with Shuden, who began to court her.",
+          "revealedIn": [{ "book": "elantris", "chapter": "47" }]
+        },
+        {
+          "text": "After her father betrayed the group, Torena dropped out of sight, reappearing only before the battle. She attended the funeral with him.",
+          "revealedIn": [{ "book": "elantris", "chapter": "epilogue" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Torena is surprisingly slender considering how heavy her parents are, and has red-gold hair.",
+      "revealedIn": [{ "book": "elantris", "chapter": "17" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Torena is one of the quieter court ladies, and Sarene thinks her clever.",
+      "revealedIn": [{ "book": "elantris", "chapter": "17" }]
+    }
+  ]
+}

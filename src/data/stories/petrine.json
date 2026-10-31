@@ -1,0 +1,47 @@
+{
+  "intro": [
+    {
+      "text": "A Malwish crew member of the Brunstell, now in her sixties.",
+      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "29" }]
+    },
+    {
+      "text": "The enginemaster and oldest crew member of the Malwish airship Brunstell.",
+      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "30" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The Brunstell's crew",
+          "revealedIn": [
+            { "book": "bands-of-mourning", "chapter": "30" },
+            { "book": "bands-of-mourning", "chapter": "29" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Petrine served under Captain Jordis as the Brunstell's enginemaster, and was aboard for its expedition into the mountains near the Elendel Basin in search of the Bands of Mourning. When the ship crashed at Dulsing, the Set seized the crew and tortured them for information, killing some. Petrine was among the prisoners taken into the mountains to help with the search.",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "30" }]
+        },
+        {
+          "text": "Kept in a tent in the bitter mountain cold, the captives grew desperate; Jordis marveled that Petrine had lasted so long at her age. Petrine urged one last attempt to fight their captors, even at the cost of their lives, but Allik arrived to free them and used medallions to help them recover. She then handed out the guns Steris had brought before the battle with the Set.",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "29" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "In her sixties, with wrinkled skin; as a Malwish, she wears a mask over her face.",
+      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "29" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Tough and brave.",
+      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "29" }]
+    }
+  ]
+}

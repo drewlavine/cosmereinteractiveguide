@@ -1,0 +1,44 @@
+{
+  "intro": [
+    {
+      "text": "An event the father machine's scholars call the Incident. Honam thinks it happened because the machine ran short of power.",
+      "revealedIn": [{ "book": "yumi", "chapter": "23" }]
+    },
+    {
+      "text": "The scholars' name for the time some spirits slipped free of the father machine and reached the people of Futinoro, which ended in Futinoro's destruction.",
+      "revealedIn": [{ "book": "yumi", "chapter": "36" }]
+    }
+  ],
+  "description": [],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Futinoro",
+          "revealedIn": [{ "book": "yumi", "chapter": "36" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "After spirits made contact with the people of Futinoro, the machine sent nightmares that destroyed the town.",
+          "revealedIn": [{ "book": "yumi", "chapter": "36" }]
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Place",
+      "name": "Futinoro",
+      "placeId": "futinoro",
+      "revealedIn": [{ "book": "yumi", "chapter": "36" }]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "honam",
+      "role": "scholar",
+      "revealedIn": [{ "book": "yumi", "chapter": "23" }]
+    }
+  ]
+}

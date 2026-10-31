@@ -1,0 +1,43 @@
+{
+  "intro": [
+    {
+      "text": "A Dreamwatch companion from Nagadan, serving on Tesuaka Tatomi's team.",
+      "revealedIn": [{ "book": "yumi", "chapter": "37" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The Dreamwatch",
+          "revealedIn": [
+            { "book": "yumi", "chapter": "37" },
+            { "book": "yumi", "chapter": "another-epilogue" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "When Nikaro came to the Dreamwatch's temporary headquarters in Kilahito to report the stable nightmare, Hikiri let him in and took him to Tesuaka. Brushing off his warning of an army of nightmares, Hikiri showed him out, explaining that places in the Dreamwatch go to painters with connections, and that Nikaro should be content with his job.",
+          "revealedIn": [{ "book": "yumi", "chapter": "37" }]
+        },
+        {
+          "text": "Once the Dreamwatch was disbanded, Hikiri had to look for other work.",
+          "revealedIn": [{ "book": "yumi", "chapter": "another-epilogue" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Tall and bald, with an impressive beard, Hikiri wears a formal painter's uniform whose coat is short in front and long behind.",
+      "revealedIn": [{ "book": "yumi", "chapter": "37" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Patient, yet assertive.",
+      "revealedIn": [{ "book": "yumi", "chapter": "37" }]
+    }
+  ]
+}

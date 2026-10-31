@@ -4,6 +4,8 @@ import { createPortal } from 'react-dom'
 interface Tip {
   el: HTMLElement | SVGElement
   text: string
+  /** Beside the control rather than above it, where there's room. */
+  beside: boolean
 }
 
 const GAP = 8
@@ -14,7 +16,9 @@ const tipAt = (target: EventTarget | null): Tip | undefined => {
       ? target.closest<HTMLElement | SVGElement>('[data-tooltip]')
       : null
   const text = el?.dataset.tooltip
-  return el && text ? { el, text } : undefined
+  return el && text
+    ? { el, text, beside: el.dataset.tooltipBeside !== undefined }
+    : undefined
 }
 
 const focusVisible = (el: Element) => {
@@ -73,11 +77,19 @@ export function Tooltips() {
     }
   }, [])
 
-  // Above the control, or below it near the top of the window; kept on screen.
+  // Above the control, or below it near the top of the window; kept on
+  // screen. `data-tooltip-beside` puts it to the control's right instead
+  // (for a stack of controls, so it doesn't cover the one above).
   useLayoutEffect(() => {
     const t = box.current
     if (!tip || !t) return
     const r = tip.el.getBoundingClientRect()
+    const right = r.right + GAP
+    if (tip.beside && right + t.offsetWidth <= window.innerWidth - GAP) {
+      t.style.left = `${right}px`
+      t.style.top = `${r.top + (r.height - t.offsetHeight) / 2}px`
+      return
+    }
     const above = r.top - t.offsetHeight - GAP
     const x = Math.min(
       Math.max(GAP, r.left + r.width / 2 - t.offsetWidth / 2),

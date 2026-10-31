@@ -1,0 +1,68 @@
+{
+  "intro": [
+    {
+      "text": "A foreign land whose traders are a common sight in T'Telir.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "9" }]
+    },
+    {
+      "text": "A kingdom across the Bright Sea from Hallandren, at least three centuries old, whose traders are a common sight in T'Telir.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "32" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Tedradians have brown skin, and the men often wear long black beards bound into a cylinder with a leather cord.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "25" }]
+    },
+    {
+      "text": "Like Idrians, they favour modest clothing; dresses run all the way from ankle to neck. The two nations are on good terms.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "25" }]
+    },
+    {
+      "text": "Its position on the Bright Sea gives it access to the sea's trade routes, and many of its merchants work in Hallandren.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "25" }]
+    },
+    {
+      "text": "Ill will toward Hallandren has eased little since the Manywar. Idris's General Yarda thinks Tedradel could take up arms against Hallandren once more should Idris be attacked.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "32" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Rivalry with Hanald",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "32" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Hanald held a monopoly on dyes, among the richest trades of the age, and refused to let Tedradel or other kingdoms share in it.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "32" }]
+        },
+        {
+          "text": "Hanald also threw itself into Awakening, then a young art, gaining powerful Awakeners and Lifeless that other kingdoms lacked. New discoveries let nations raise much bigger armies at lower cost, and tensions climbed higher still.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "32" }]
+        },
+        {
+          "text": "When one of Hanald's Returned had a vision of war, Hanald struck first against the other nations.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "32" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The Manywar",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "32" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Soon after Kuth and Huth came under attack, Tedradel was drawn into the war against Hanald. Peace was made in the end, but Tedradel's hostility toward Hallandren has barely softened since.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "32" }]
+        }
+      ]
+    }
+  ]
+}

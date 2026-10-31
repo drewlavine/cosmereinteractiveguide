@@ -1,0 +1,60 @@
+{
+  "intro": [
+    {
+      "text": "Tress's father, who lives with his family on Diggen's Point.",
+      "revealedIn": [{ "book": "tress", "chapter": "4" }]
+    },
+    {
+      "text": "Tress's father on Diggen's Point, a one-time miner left with a limp and a cane after an accident. He and his wife Ulba knit socks to sell to sailors.",
+      "revealedIn": [{ "book": "tress", "chapter": "7" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Diggen's Point",
+          "revealedIn": [
+            { "book": "tress", "chapter": "7" },
+            { "book": "tress", "chapter": "6" },
+            { "book": "tress", "chapter": "epilogue" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "An accident ended Lem's work as a miner, leaving him in constant pain and unsteady on his feet. He could manage few chores, so he mostly practised darts, and helped Ulba knit socks for sailors, though yarn cost so much that they earned very little.",
+          "revealedIn": [{ "book": "tress", "chapter": "7" }]
+        },
+        {
+          "text": "Lem didn't know how Tress felt about Charlie at first, and cared little for the duke or his son, but when she told her parents, he and Ulba supported her plea for the duke to pay the ransom. When that failed and she proposed going herself, he paused, then agreed, sure she had weighed every other choice, and he talked a more cautious Ulba round.",
+          "revealedIn": [{ "book": "tress", "chapter": "6" }]
+        },
+        {
+          "text": "Lem had helped countless neighbours, seeing Rod home drunk and fixing Jule's roof after a storm, and never asked for anything in return. So when he hinted at the tavern that Tress needed help, without ever asking outright, people took the hint: Gremmy, Sor, Gret and Brick all signed on to help smuggle her onto the Oot's Dream.",
+          "revealedIn": [{ "book": "tress", "chapter": "7" }]
+        },
+        {
+          "text": "Tress wrote home on her travels, but her parents could not be sure of seeing her again until she sailed back. Once the king let islanders leave, Lem, Ulba and their son took a cabin aboard the Two Cups and left with her.",
+          "revealedIn": [{ "book": "tress", "chapter": "epilogue" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "He has a moustache and arms that were once strong. An injured leg gives him a limp, and he leans on a cane.",
+      "revealedIn": [{ "book": "tress", "chapter": "6" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "He trusts Tress's judgement completely, knowing how clever and careful she is, and has long felt she was meant for something bigger than their island.",
+      "revealedIn": [{ "book": "tress", "chapter": "6" }]
+    },
+    {
+      "text": "Kind and wise, he is known for helping anyone, no strings attached. He loves pie and tends to eat a great deal of it while chewing over a hard problem.",
+      "revealedIn": [{ "book": "tress", "chapter": "7" }]
+    }
+  ]
+}

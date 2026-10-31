@@ -1,0 +1,128 @@
+{
+  "intro": [
+    {
+      "text": "The magic of Bloodsealers. The arbiters hire one to make sure Shai cannot leave her room.",
+      "revealedIn": [{ "book": "emperors-soul", "chapter": "day-3" }]
+    },
+    {
+      "text": "A magic practised by the Bloodsealers of Dzhamar. Like Forgery, it uses stamps to make seals with magical effects, but its stamps are inked with human blood.",
+      "revealedIn": [{ "book": "emperors-soul", "chapter": "day-76" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Bloodsealers have been seen to move with an unnatural litheness. Their pale skin and hair are simply traits of the Dzhamarian people.",
+      "revealedIn": [{ "book": "emperors-soul", "chapter": "day-76" }]
+    },
+    {
+      "text": "Bloodsealing is known to be practised only in Dzhamar. The Grands find it distasteful but will still use it rather than Forgery, while the MaiPon and the Strikers loathe it; the MaiPon think it twisted, and the Strikers' mountain homeland borders Dzhamar, feeding a long enmity. Bloodsealers in turn fear and hate MaiPon Forgers.",
+      "revealedIn": [{ "book": "emperors-soul", "chapter": "day-76" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Guarding Shai",
+          "revealedIn": [
+            { "book": "emperors-soul", "chapter": "day-17" },
+            { "book": "emperors-soul", "chapter": "day-98" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The arbiters hired a Bloodsealer to keep Shai from escaping her room. He sealed her door each morning, asking only for her bones as payment.",
+          "revealedIn": [{ "book": "emperors-soul", "chapter": "day-17" }]
+        },
+        {
+          "text": "When his mark on her door failed, Shai left her room. He sent his skeletals after her, but she destroyed them and took some of his blood as a safeguard.",
+          "revealedIn": [{ "book": "emperors-soul", "chapter": "day-98" }]
+        }
+      ]
+    }
+  ],
+  "mechanics": [
+    {
+      "title": [
+        {
+          "text": "Stamps and blood",
+          "revealedIn": [
+            { "book": "emperors-soul", "chapter": "day-3" },
+            { "book": "emperors-soul", "chapter": "day-98" },
+            { "book": "emperors-soul", "chapter": "day-97" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The Bloodsealer guarding Shai carries a rough stamp made of bone.",
+          "revealedIn": [{ "book": "emperors-soul", "chapter": "day-3" }]
+        },
+        {
+          "text": "A Bloodseal needs a stamp and the blood of the person being sealed. The blood must be fresh, drawn within the past day; after that it goes stale and new blood is needed. Before a seal loses its power it dims, then pulses, then vanishes.",
+          "revealedIn": [{ "book": "emperors-soul", "chapter": "day-98" }]
+        },
+        {
+          "text": "There is talk that a person's hair, nails and belongings can serve a Bloodsealer, though Shai claims they would be of little use.",
+          "revealedIn": [{ "book": "emperors-soul", "chapter": "day-97" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Wards",
+          "revealedIn": [
+            { "book": "emperors-soul", "chapter": "day-17" },
+            { "book": "emperors-soul", "chapter": "day-98" },
+            { "book": "emperors-soul", "chapter": "day-76" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The Bloodsealer keeps Shai in her small room with a ward on its door, renewed each morning.",
+          "revealedIn": [{ "book": "emperors-soul", "chapter": "day-17" }]
+        },
+        {
+          "text": "A main use of Bloodsealing is a ward to imprison one person. Its rune looks like an eye; inked with that person's blood and set on a door, it glows red and gives them a brief, sharp pain. If they leave the room or tamper with the rune, the Bloodsealer knows. Unrenewed, its glow fades, pulses and goes out.",
+          "revealedIn": [{ "book": "emperors-soul", "chapter": "day-98" }]
+        },
+        {
+          "text": "A soulstamp will not take on anything that bears a Bloodseal, so a ward also makes an object impossible to Forge.",
+          "revealedIn": [{ "book": "emperors-soul", "chapter": "day-76" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Skeletals",
+          "revealedIn": [
+            { "book": "emperors-soul", "chapter": "day-3" },
+            { "book": "emperors-soul", "chapter": "day-98" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The Bloodsealer keeps skeletals, made from the skeletons of the dead, as his pets.",
+          "revealedIn": [{ "book": "emperors-soul", "chapter": "day-3" }]
+        },
+        {
+          "text": "Skeletals are skeletons brought back by a Bloodseal on the forehead, usually from human bones, though animal bones can serve less well. Given blood drawn within the past day, they can track its owner. The skeleton must stay whole: damage key bones and it stops. Some have sharpened bones, making them painful to take apart.",
+          "revealedIn": [{ "book": "emperors-soul", "chapter": "day-98" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "weedfingers",
+      "role": "Bloodsealer",
+      "revealedIn": [{ "book": "emperors-soul", "chapter": "day-3" }]
+    }
+  ]
+}

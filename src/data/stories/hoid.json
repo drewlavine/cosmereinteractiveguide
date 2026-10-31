@@ -712,5 +712,35 @@
       "text": "Hoid shares a close but fondly exasperated bond with Design, who constantly spoils the stories he tells.",
       "revealedIn": [{ "book": "rhythm-of-war", "chapter": "epilogue" }]
     }
+  ],
+  "abilities": [
+    {
+      "title": [
+        {
+          "text": "A safeguard",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "147" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Wit left living tissue on Scadrial so that he could grow a new body there if his body on Roshar was completely destroyed.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "147" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "A bond across worlds",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "147" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Wit protected his bond with Design before the contest. On Scadrial he could still Surgebind, but could not summon her as a Shardblade.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "147" }]
+        }
+      ]
+    }
   ]
 }

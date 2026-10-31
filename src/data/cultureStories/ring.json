@@ -1,0 +1,106 @@
+{
+  "intro": [
+    {
+      "text": "A group of spren of Wyndle's kind in Shadesmar.",
+      "revealedIn": [{ "book": "edgedancer", "chapter": "1" }]
+    },
+    {
+      "text": "A group of spren of Wyndle's kind in Shadesmar. When Cryptics and honorspren began forming Nahel bonds again, the Ring oversaw their own kind's attempts to do the same.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "i-9" },
+            { "book": "edgedancer", "chapter": "2" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "Wyndle speaks of the Ring as \"they\". To them, the Old Magic's mark on Lift was a gift from their \"mother\", and they hold authority over Wyndle's kind: he had to accept the assignment they gave him.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "i-9" },
+            { "book": "oathbringer", "chapter": "118" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Wyndle's assignment",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "i-9" },
+                { "book": "edgedancer", "chapter": "2" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "i-9" },
+                { "book": "edgedancer", "chapter": "14" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "It had been so long since the Recreance that Wyndle's kind were unsure how to form bonds, so the Ring acted as a committee to oversee the effort.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "i-9" },
+                { "book": "edgedancer", "chapter": "2" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Wyndle was content in Shadesmar until the Ring picked him to bond someone in the physical world, a duty he resented. They also chose Lift for him, against his wishes, valuing her youth and her brush with the Old Magic. The bond proved easier than he expected, and in time he came to accept the assignment.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "i-9" },
+                { "book": "edgedancer", "chapter": "14" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "wyndle",
+      "role": "assigned spren",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "i-9" },
+            { "book": "edgedancer", "chapter": "14" }
+          ]
+        }
+      ]
+    },
+    {
+      "characterId": "lift",
+      "role": "chosen partner",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "i-9" },
+            { "book": "edgedancer", "chapter": "14" }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -36,17 +36,21 @@ afterEach(() => {
 
 describe('events list', () => {
   it('shows nothing before any book is read', () => {
-    renderAt('/events')
+    renderAt('/events?group=name')
     expect(names()).toEqual([])
   })
 
   it('lists what the finished books reveal, and no later battles', () => {
-    renderAt('/events', ['way-of-kings'])
+    renderAt('/events?group=name', ['way-of-kings'])
     expect(names()).toContain('Aharietiam')
     expect(names()).not.toContain('Battle of Thaylen Field')
     expect(names()).toHaveLength(shownAfter(['way-of-kings']).length)
     cleanup()
-    renderAt('/events', ['way-of-kings', 'words-of-radiance', 'oathbringer'])
+    renderAt('/events?group=name', [
+      'way-of-kings',
+      'words-of-radiance',
+      'oathbringer',
+    ])
     expect(names()).toContain('Battle of Thaylen Field')
   })
 })

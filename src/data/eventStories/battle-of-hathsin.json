@@ -1,0 +1,101 @@
+{
+  "intro": [
+    {
+      "text": "The battle at the Pits of Hathsin, where Elend's soldiers, burning atium from the kandra hoard, fought off a koloss army while several hundred thousand refugees took shelter in the kandra caverns.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "81" }]
+    },
+    {
+      "text": "The battle by the Pits of Hathsin that ended the long struggle between Preservation and Ruin. It used up most of the world's atium and cost the lives of Elend, Vin and many others, and in its wake Sazed remade the world.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "82" }]
+    }
+  ],
+  "description": [],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "At the Pits",
+          "revealedIn": [
+            { "book": "hero-of-ages", "chapter": "80" },
+            { "book": "hero-of-ages", "chapter": "81" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Several hundred thousand refugees gathered at the Pits of Hathsin with no walls to protect them as a koloss army approached. Elend ordered them into the caverns of the kandra Homeland.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "80" }]
+        },
+        {
+          "text": "Elend's soldiers, every one of them found to be a Seer, fought the koloss burning atium from the kandra hoard, while Sazed kept them supplied at the cave mouth. Human led koloss through the kandra tunnels after the atium, but all of it had been burned.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "81" }]
+        },
+        {
+          "text": "Marsh arrived burning atium and fought Elend. Elend wounded him, but Marsh healed and beheaded Elend. Inspired by Elend, Vin attacked Ruin with Preservation's power, and the attack killed them both.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "81" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Aftermath",
+          "revealedIn": [
+            { "book": "hero-of-ages", "chapter": "82" },
+            { "book": "secret-history", "chapter": "6-8" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Sazed ran forward to find Vin lying lifeless near Elend. Grieving, he suddenly understood what he had to do: he took up the power leaking from the fallen, fulfilled the old prophecies and began remaking the world.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "82" }]
+        },
+        {
+          "text": "Kelsier, who had watched the battle from the Cognitive Realm, met the souls of Elend and Vin after they died.",
+          "revealedIn": [{ "book": "secret-history", "chapter": "6-8" }]
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Location",
+      "name": "Pits of Hathsin",
+      "placeId": "pits-of-hathsin",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "80" }]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "elend-venture",
+      "role": "commander",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "80" }]
+    },
+    {
+      "characterId": "sazed",
+      "role": "supplier",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "81" }]
+    },
+    {
+      "characterId": "human",
+      "role": "koloss leader",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "81" }]
+    },
+    {
+      "characterId": "marsh",
+      "role": "enemy Inquisitor",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "81" }]
+    },
+    {
+      "characterId": "vin",
+      "role": "Ruin's foe",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "81" }]
+    },
+    {
+      "characterId": "kelsier",
+      "role": "observer",
+      "revealedIn": [{ "book": "secret-history", "chapter": "6-8" }]
+    }
+  ]
+}

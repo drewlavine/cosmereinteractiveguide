@@ -1,0 +1,26 @@
+{
+  "intro": [
+    {
+      "text": "An old lawkeeper of Weathering in the Roughs.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "4" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Weathering",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "4" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Before Wax came to Weathering, Arbitan did his best to keep the peace there; Wax remembers him warmly.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "4" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

@@ -1,4 +1,5 @@
 import type { Portrait } from './characterPortraits'
+import { generatedEntryArt } from './entryArtGenerated'
 
 /**
  * Art for Magic, Culture and Lifeforms entries and for places (`place:<id>`),
@@ -445,6 +446,8 @@ const order = (
 ]
 
 export const entryArt: Record<string, EntryArt[]> = Object.fromEntries([
+  // Generated from ~/cig-entry-art manifests; first, so the art below wins.
+  ...Object.entries(generatedEntryArt),
   // Shallan's sketchbook pages of the tower, Oathbringer interior art. The
   // Coppermind doesn't say which chapter; it names Oathgates, so it waits for
   // the book's end.

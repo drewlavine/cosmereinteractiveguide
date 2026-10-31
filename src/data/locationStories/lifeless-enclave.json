@@ -1,0 +1,56 @@
+{
+  "intro": [
+    {
+      "text": "A vast barracks belonging to the Court of Gods in T'Telir, housing the tens of thousands of Lifeless who make up Hallandren's army.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "47" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "It stands at the foot of the Court's plateau, linked to the other buildings by a long, roofed walkway. Guards are posted both inside the building and out.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "47" }]
+    },
+    {
+      "text": "Inside are four enormous halls like warehouses, each holding about ten thousand Lifeless, with viewing platforms above where gods and priests can watch. The halls have no lights, so visitors carry lanterns. There is room for exercise and for medical care, and winding passages are meant to confuse any invader.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "47" }]
+    },
+    {
+      "text": "Since Lifeless need neither food nor sleep, a fairly small staff can look after them. The gods who command them tell the soldiers to obey servants sending them to exercise or to the infirmary, so the staff can keep them fit and check and renew each one's ichor-alcohol.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "47" }]
+    },
+    {
+      "text": "Four Returned each hold the Command phrase for ten thousand of the soldiers. Any god may come to watch, though the visit can be unnerving: the fully armed ranks stand in total silence, their eyes open in the dark.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "52" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Tunnels beneath the Court",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "52" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Tunnels running under the Court of Gods had been extended to give hidden entrances into each of the enclave's four main halls. Lightsong found them after odd dreams about tunnels, though at first he didn't see what they meant.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "52" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The march on Idris",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "58" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Rebels seized the whole Lifeless army by torturing and coercing Blushweaver and Lightsong into giving up their Command phrases, then sent it to attack Idris. Bluefingers meant to use the emptied enclave as a stage for framing the two gods for the rebels' attack on the God King.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "58" }]
+        }
+      ]
+    }
+  ]
+}

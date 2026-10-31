@@ -1,0 +1,48 @@
+{
+  "intro": [
+    {
+      "text": "Silence's partner in a plan to poison a wanted gang staying at the waystop; she fetches the poison and serves them the drugged drinks herself.",
+      "revealedIn": [{ "book": "shadows-for-silence", "chapter": "1" }],
+      "fallback": true
+    },
+    {
+      "text": "Silence Montane's fourteen-year-old daughter, who lives with her mother and helps run their waystop in the Forests of Hell.",
+      "revealedIn": ["shadows-for-silence"]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Hunting Chesterton",
+          "revealedIn": [
+            { "book": "shadows-for-silence", "chapter": "2" },
+            { "book": "shadows-for-silence", "chapter": "5" },
+            "shadows-for-silence"
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "She went with Silence to track Chesterton's gang and helped kill them. When shades wounded Silence she emptied the whole pouch of silver dust over her. Then Red Young seized her as a hostage; his knife drew her blood, and he shoved her through a shade.",
+          "revealedIn": [{ "book": "shadows-for-silence", "chapter": "2" }]
+        },
+        {
+          "text": "Silence carried her back to the waystop and poured silver over her. She lived, though with an injured arm and leg.",
+          "revealedIn": [{ "book": "shadows-for-silence", "chapter": "5" }]
+        },
+        {
+          "text": "The silver kept her from becoming a shade, but her left side was left blackened, and her hand and some of her toes had to be amputated.",
+          "revealedIn": ["shadows-for-silence"]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "She looks like her father and at fourteen is already taller than her mother. She grumbles about being gangly and too tall, though Silence thinks it means she will be beautiful.",
+      "revealedIn": ["shadows-for-silence"]
+    }
+  ],
+  "personality": []
+}

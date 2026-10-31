@@ -1,0 +1,92 @@
+{
+  "intro": [
+    {
+      "text": "A confederation of five southern nations, which joined together under the banner of the Malwish nation after discovering the Elendel Basin.",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "9" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "It makes wide use of heavy airships with portholes and two big pontoons, each commanded by a captain with several subcaptains. By custom, anyone leaving a ship hands any borrowed medallions back to its captain.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "bands-of-mourning", "chapter": "31" },
+            { "book": "lost-metal", "chapter": "9" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Its member nations keep their own leaders, so how far the union truly goes is unclear. It was forged mostly by one faction that resents the North for centuries of trouble and sees it as chaotic and unpredictable.",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "epilogue-7" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "A southern union",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "9" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Over the six years of the South's unification, friction with the Basin grew, because Wax had handed the Bands of Mourning to the kandra and the Malwish considered themselves the Bands' true owners.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "9" }]
+        },
+        {
+          "text": "Wax feared that word of the new Consortium would persuade Elendel's politicians that the Elendel Supremacy Bill was more necessary than ever.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "9" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The Bands surrendered",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "43" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "The Consortium sent Admiral Daal to Elendel as its ambassador. When the select council thought of using the Bands of Mourning against a bomb the Set had sent toward Elendel, Daal said that would break their treaty and the Bands must be given up. The Bands proved drained, but Daal declared his terms met anyway, took them and left Elendel.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "43" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "A widening rift",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "bands-of-mourning", "chapter": "31" },
+                { "book": "lost-metal", "chapter": "epilogue-7" }
+              ]
+            },
+            { "book": "lost-metal", "chapter": "epilogue-7" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Six months after the Set's bomb, relations soured further: the Basin felt the Bands had been unjustly taken, while the Malwish called even the idea of using them aggression. Trade had been tentative and mostly by sea; now the Consortium banned most of it, harmonium above all, along with all tourism, and spoke of closing its borders to Northerners.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "bands-of-mourning", "chapter": "31" },
+                { "book": "lost-metal", "chapter": "epilogue-7" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Two years after the bomb, the Basin sent Marasi Colms to the Consortium as its ambassador.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "epilogue-7" }]
+        }
+      ]
+    }
+  ]
+}

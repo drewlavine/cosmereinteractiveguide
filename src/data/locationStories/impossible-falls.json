@@ -1,0 +1,37 @@
+{
+  "intro": [
+    {
+      "text": "A waterfall in Kholinar.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "26" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "The falls are in the southwest corner of Kholinar, apparently against one of the windblades. Water drops from tier to tier, and from the right spot it seems to run down and then climb back to the top. Nobody is certain whether they are natural or built.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "77" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Visitors",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "26" },
+            { "book": "oathbringer", "chapter": "77" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "A few months after the Alethi first met the Parshendi, King Gavilar went to the falls with Dalinar and spoke of how differently he now saw the world.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "26" }]
+        },
+        {
+          "text": "Adolin had visited the falls and described them to Shallan, saying he hoped to show them to her one day.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "77" }]
+        }
+      ]
+    }
+  ]
+}

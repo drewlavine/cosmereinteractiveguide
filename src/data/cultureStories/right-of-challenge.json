@@ -1,0 +1,100 @@
+{
+  "intro": [
+    {
+      "text": "A Vorin tradition, held to come from the Heralds, that a king may grant to a lighteyed warrior who has shown his worth to the king and the Almighty.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "55" }]
+    },
+    {
+      "text": "A Vorin tradition, said to come from the Heralds, that lets a lighteyed warrior who has proven himself demand justice by combat from someone who has wronged him.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "58" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Though widely known among lighteyes, the tradition has fallen out of use. Paired with the King's Boon, it has twice been invoked in recent Alethi history: first by Sadeas against Highprince Yenev, then, eighteen years on, by Adolin Kholin against Sadeas.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "58" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Gavilar's unification",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "55" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Highprince Yenev was a leading opponent of Gavilar Kholin's unification of Alethkar. To be rid of him, Sadeas suggested the Right of Challenge and the King's Boon, traditions of the old crown that also strengthened Gavilar's claim to rule. At a tournament Sadeas fought another Shardbearer, pausing to raise the stakes with money and then lands. After his win Gavilar granted him a boon, and Sadeas dueled and killed Yenev, whose lands went to their ally Aladar.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "55" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Adolin and Sadeas",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "58" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "With help from Shallan Davar, Adolin set out to turn Sadeas's tactic against him. He challenged Relis Ruthar to a duel that grew into a fight against four opponents, staking all his house's Shards against Relis's, and won with help from Kaladin and Renarin. Elhokar offered him the King's Boon, and he challenged Sadeas.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "58" }]
+        },
+        {
+          "text": "Kaladin then broke in to challenge Amaram, giving Sadeas time to leave; Sadeas then answered that he would duel Adolin in a year. As a darkeyes, Kaladin was jailed for slander at Dalinar's insistence, sparing him the execution that the law and the king called for.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "58" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "torol-sadeas",
+      "role": "used it",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "58" }]
+    },
+    {
+      "characterId": "yenev",
+      "role": "challenged",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "55" }]
+    },
+    {
+      "characterId": "gavilar-kholin",
+      "role": "king",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "55" }]
+    },
+    {
+      "characterId": "aladar",
+      "role": "gained lands",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "55" }]
+    },
+    {
+      "characterId": "adolin-kholin",
+      "role": "used it",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "58" }]
+    },
+    {
+      "characterId": "relis-ruthar",
+      "role": "dueled Adolin",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "58" }]
+    },
+    {
+      "characterId": "elhokar-kholin",
+      "role": "granted boon",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "58" }]
+    },
+    {
+      "characterId": "kaladin",
+      "role": "challenged Amaram",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "58" }]
+    },
+    {
+      "characterId": "meridas-amaram",
+      "role": "challenged",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "58" }]
+    }
+  ]
+}

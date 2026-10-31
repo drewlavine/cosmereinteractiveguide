@@ -1,0 +1,19 @@
+{
+  "intro": [
+    {
+      "text": "A grazing animal of Roshar. The coalition of monarchs raised lobberbeasts and other animals in pastures made inside Urithiru.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "15" }]
+    }
+  ],
+  "description": [],
+  "history": [],
+  "facts": [
+    {
+      "label": "Raised in",
+      "name": "Urithiru",
+      "placeId": "urithiru",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "15" }]
+    }
+  ],
+  "people": []
+}

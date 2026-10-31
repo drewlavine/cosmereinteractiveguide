@@ -33,6 +33,10 @@
       "revealedIn": [{ "book": "dawnshard", "chapter": "8" }]
     },
     {
+      "text": "The tradition was influenced by Odium.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "4" }]
+    },
+    {
       "text": "The central idea of the Passions is that wanting something changes fate to bring it to you: passionate people make their own luck.",
       "revealedIn": [
         {
@@ -117,6 +121,18 @@
           "revealedIn": [{ "book": "dawnshard", "chapter": "10" }]
         }
       ]
+    }
+  ],
+  "sections": [
+    {
+      "title": "Criticism",
+      "items": [
+        {
+          "text": "Wit objected that the philosophy blames people for misfortune instead of acknowledging injustice and unfair social systems.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "4" }]
+        }
+      ],
+      "parts": []
     }
   ],
   "facts": [],

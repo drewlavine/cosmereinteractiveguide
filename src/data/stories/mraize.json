@@ -287,5 +287,21 @@
         }
       ]
     }
+  ],
+  "abilities": [
+    {
+      "title": [
+        {
+          "text": "Lightweaving",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "134" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Mraize bonded an Enlightened Cryptic and used Lightweaving to disguise himself.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "134" }]
+        }
+      ]
+    }
   ]
 }

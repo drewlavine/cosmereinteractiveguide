@@ -1,0 +1,104 @@
+{
+  "intro": [
+    {
+      "text": "An object of legend, a replica of which is displayed in the museum at the centre of the Field of Rebirth.",
+      "revealedIn": [{ "book": "shadows-of-self", "chapter": "19" }]
+    },
+    {
+      "text": "Legendary bracers said to give whoever wears them the powers of the Lord Ruler.",
+      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "3" }]
+    },
+    {
+      "text": "A legendary metalmind, long said to be bracers that grant the Lord Ruler's powers, which is really an oversized spearhead woven from all the Allomantic metals.",
+      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "28" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "The spearhead's metals run through it in wavy bands, like the folds in pattern-welded steel. When it was found, it held more power than any metalmind ever seen.",
+      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "28" }]
+    },
+    {
+      "text": "Its nicrosil is filled with Investiture, so tapping it grants Allomancy and the use of other metalminds, to tap or fill. The power was so great that mists streamed from Marasi as she used it, and Wax felt his abilities matched the mighty Allomancy of old.",
+      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "29" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The search",
+          "revealedIn": [
+            { "book": "bands-of-mourning", "chapter": "3" },
+            { "book": "bands-of-mourning", "chapter": "23" },
+            { "book": "bands-of-mourning", "chapter": "27" },
+            { "book": "bands-of-mourning", "chapter": "28" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The kandra ReLuur photographed murals of bracers on a pedestal during an expedition, but came back missing one of his spikes and unable to explain what he had found.",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "3" }]
+        },
+        {
+          "text": "At the entrance to a hidden temple, Wayne pried a metal spearhead off a statue, thinking it was a valuable chunk of aluminum.",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "23" }]
+        },
+        {
+          "text": "The bracers on the pedestal deep inside the temple turned out to be drained: a decoy.",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "27" }]
+        },
+        {
+          "text": "Marasi realised the trap-filled temple was itself the decoy and that Wayne's spearhead was the real Bands. Tapping everything in it, she moved with enormous speed and power, and Wax healed at once when she put it in his hand.",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "28" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Afterwards",
+          "revealedIn": [
+            { "book": "bands-of-mourning", "chapter": "30" },
+            { "book": "lost-metal", "chapter": "epilogue-7" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Found in 342 PC, the Bands were given to the kandra to keep, so that the Elendel Basin's government and the Malwish would not quarrel over who owned them.",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "30" }]
+        },
+        {
+          "text": "When a bomb threatened the Basin, Elendel's government agreed to let the Malwish ambassador try using the Bands to stop it. When TenSoon handed them over, they proved completely drained. The angry ambassador hinted that Elendel had used them, said his scientists would know a fake, and took them back south.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "epilogue-7" }]
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Form",
+      "name": "Spearhead",
+      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "28" }]
+    },
+    {
+      "label": "Made of",
+      "name": "All the Allomantic metals",
+      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "28" }]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "marasi-colms",
+      "role": "tapped it",
+      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "28" }]
+    },
+    {
+      "characterId": "waxillium-ladrian",
+      "role": "tapped it",
+      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "28" }]
+    }
+  ]
+}

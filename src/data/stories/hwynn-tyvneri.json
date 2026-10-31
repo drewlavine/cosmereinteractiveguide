@@ -1,0 +1,52 @@
+{
+  "intro": [
+    {
+      "text": "A historian from the world of Rellam who sails Shadesmar in a small boat, studying the cosmere and looking after a lost girl, Lorieta.",
+      "revealedIn": ["elsecaller"]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        { "text": "Wanderer of Shadesmar", "revealedIn": ["elsecaller"] }
+      ],
+      "items": [
+        {
+          "text": "Born on Rellam, Tyvneri left his world by means unknown and has roamed the Cognitive Realm ever since, studying the history of the cosmere and hoping to find a way to save his homeworld. He has also been to Roshar's Physical Realm, where he watched the highstorms and observed Shardblades.",
+          "revealedIn": ["elsecaller"]
+        },
+        {
+          "text": "He came across Lorieta in Shadesmar and took her under his care, raising her like a parent while he studies her visions of the future and tries to bring her home. Finding her gave his quest a purpose.",
+          "revealedIn": ["elsecaller"]
+        }
+      ]
+    },
+    {
+      "title": [{ "text": "With Jasnah", "revealedIn": ["elsecaller"] }],
+      "items": [
+        {
+          "text": "A historian like her, Tyvneri was the first to explain the nature of the cosmere to Jasnah Kholin, telling her about Rellam and the other worlds he had seen. His selfless care for Lorieta, and for Jasnah herself, led Jasnah to rethink her own motives.",
+          "revealedIn": ["elsecaller"]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": [
+    {
+      "text": "Calm and measured, he describes himself as too old for anger. He insists he is no warrior, yet when angerspren had to be fought, he fought them at Jasnah's side.",
+      "revealedIn": ["elsecaller"]
+    }
+  ],
+  "abilities": [
+    {
+      "title": [{ "text": "Abilities", "revealedIn": ["elsecaller"] }],
+      "items": [
+        {
+          "text": "Tyvneri has no known Investiture; on his homeworld, Investiture has been corrupted and is seen as a curse. He crosses Shadesmar in a boat about ten yards long, whose sail catches the Current.",
+          "revealedIn": ["elsecaller"]
+        }
+      ]
+    }
+  ]
+}

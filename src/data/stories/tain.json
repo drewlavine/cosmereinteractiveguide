@@ -1,0 +1,71 @@
+{
+  "intro": [
+    {
+      "text": "A trackt on Senior Trackt Ais's team.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "6" }],
+      "fallback": true
+    },
+    {
+      "text": "A senior officer of Trackt Hall and Ais's second-in-command, whom she considers her best officer.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "13" }]
+    },
+    {
+      "text": "A trackt serving under Ais who is secretly the crime lord Sharezan, using his post to keep ahead of the law.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "17" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Trackt",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "13" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "While Ais guarded Kenton, Tain led the hunt for Sharezan. He watched Nilto's boat races, reported that Lokmlen had made a deal in custody, and, after Tarn's death, brought Ais a warning note signed by Sharezan, suggesting it was aimed at all the trackts.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "13" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Sharezan",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "17" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "As Sharezan, his men killed six trackts and wounded five in a raid, and he had held Torkel captive with his murdered family after Torkel tried to back out of a deal. He also left a threatening letter at Ais's home.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "17" }]
+        },
+        {
+          "text": "He killed his agent Tarn to stop him going to the authorities, then, as Tain, planted the warning note while investigating. Hearing of Raagent's planned meeting with Ais, he firebombed the meeting place, though she and Kenton escaped.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "17" }]
+        },
+        {
+          "text": "To punish Raagent's attempted betrayal, he took him from his bed in the Tower to the wine cellar, drugged him and cut off his eyelids, leaving him to die of fright in the dark.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "17" }]
+        },
+        {
+          "text": "He lured Ais to a fake hideout with a sabotaged zinkall, revealed himself, and said he had set a fire trap at her childhood orphanage and would also attack her family. At her house Kenton, taking him for an assassin, threw him through a wall, and Ais insisted he face proper justice.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "17" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Middle-aged and grey-haired, in a trackt's black robes, cape, trousers and boots, with a zinkall on his right arm.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "17" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Enjoys preying on fears: he studies people's weak points and builds elaborate traps to push them past breaking.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "17" }]
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "intro": [
+    {
+      "text": "An ocean-covered planet with few land masses, forming a double planet with Komashi around a large red-orange sun.",
+      "revealedIn": [{ "book": "yumi", "chapter": "another-epilogue" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Seen from Komashi, it shines as a pale blue daystar, the only light in the sky that could pierce the shroud.",
+      "revealedIn": [{ "book": "yumi", "chapter": "another-epilogue" }]
+    },
+    {
+      "text": "Nagadan scientists studied it through telescopes and then with a hion-powered space bus that orbited it. They found that its Sho Del inhabitants live mostly on boats, with a few settlements on land, and picked up no radio signals.",
+      "revealedIn": [{ "book": "yumi", "chapter": "another-epilogue" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "First contact",
+          "revealedIn": [{ "book": "yumi", "chapter": "another-epilogue" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "A space bus from Komashi landed there, and its crew met the Sho Del for the first time.",
+          "revealedIn": [{ "book": "yumi", "chapter": "another-epilogue" }]
+        }
+      ]
+    }
+  ]
+}

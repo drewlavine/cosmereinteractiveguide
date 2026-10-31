@@ -1,0 +1,121 @@
+{
+  "intro": [
+    {
+      "text": "A kingdom set in a large mountain range and ruled by a king or queen.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "1" }]
+    },
+    {
+      "text": "Its people follow Austrism and shun display, living plainly beside a far stronger Hallandren whose army theirs could never match.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "9" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "A king or queen rules Idris, writes its treaties and sits on its war council, with a general below; under King Dedelin this was Yarda. When the ruler dies, the eldest child, son or daughter, takes the throne, though a younger child may become heir if the eldest is promised to a foreign ruler. Vendis raiders attack the kingdom constantly, and heavy snow helps to defend it.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "2" }]
+    },
+    {
+      "text": "Idris exports little and lives mainly on tariffs from four trade passes it controls, Hallandren's only dependable road north; it must keep the tolls moderate, since overcharging could anger their users and even start a war. Tedradel is friendly, and General Yarda thinks it might help against a Hallandren attack. Dozens of northern kingdoms reject Hallandren's view of Idris as a rebel state and would side with it in a war, or seize the chance to take T'Telir.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "5" }]
+    },
+    {
+      "text": "Idrians are taught from childhood to be reserved, composed, simple, hard and capable, and to avoid shameful shows of feeling. In keeping with Austrism they shun ostentation, dressing in drab bleached grey or white, binding their hair modestly and never wearing make-up; even stone walls are whitewashed. Austrism condemns the Lifeless and Awakening of Hallandren, and Idrians tie Breath closely to the soul, fearing its loss and counting it sinful to hold another's Breath, let alone Awaken with it.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "13" }]
+    },
+    {
+      "text": "The mountains are cold and warm only briefly in summer, so farming is hard and crops sometimes fail. Commerce is weak, and the kingdom owns and taxes the farmland, so many struggling Idrians go south to work in Hallandren. Royals who rule or may inherit carry the Royal Locks, hair that changes colour with mood or at will unless disciplined to stay still; they usually keep it black or brown, as brighter shades seem ostentatious.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "28" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Hanald",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "32" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Explorers from Chedesh, then the dominant power, found a jungle valley on the coast of the Inner Sea. Aboard one of their ships, Vo died and became the First Returned, only to die again within a week.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "32" }]
+        },
+        {
+          "text": "His crewmates founded a kingdom there called Hanald, which grew into one of the mightiest of its age.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "32" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The Manywar and the founding",
+          "revealedIn": [
+            { "book": "warbreaker", "chapter": "32" },
+            { "book": "warbreaker", "chapter": "46" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The Manywar was ended through diplomacy by the figure the Hallandren came to call Peacegiver.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "32" }]
+        },
+        {
+          "text": "During that time the royal house fled T'Telir for Hanald's northern highlands, taking Austrism and their servants with them, and founded the kingdom of Idris.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "32" }]
+        },
+        {
+          "text": "The royals had dabbled in Awakening before, but after the war they rejected it, using Austrism's teachings to cast it as immoral and wicked.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "46" }]
+        },
+        {
+          "text": "Once they had gone, the Cult of the Returned took over what was left of the nation and renamed it Hallandren.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "32" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The marriage treaty",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "1" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "On becoming king, Dedelin made a treaty with Hallandren's God King, promising to send a daughter to the Court of Gods as his bride. When the time came he sent Siri rather than Vivenna.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "1" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Rising tensions",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "17" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "As relations soured, Lemex, Idris's chief spy in T'Telir, worked on the king's orders to unsettle Hallandren and hamper its ability to make war.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "17" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The rebellion",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "epilogue" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "At the climax of the Pahn Kahl rebellion, the Lifeless army of Hallandren marched to wipe out the Idrians, but Susebron sent Kalad's Phantoms in pursuit, and they caught and beat the Lifeless before the slaughter could begin.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "epilogue" }]
+        }
+      ]
+    }
+  ]
+}

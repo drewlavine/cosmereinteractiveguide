@@ -1,7 +1,7 @@
 // ponytail: temporary, to gather opinions on the way into the world card
 // (see worldTitleStyle.ts); remove once a style is chosen. The ways in away
 // from the title, which is then just the world's name: a chip with the
-// world's state, or a node orbiting its globe.
+// world's state, a node orbiting its globe, or state and zoom buttons.
 import { useEffect, useRef, useState } from 'react'
 import { createPortal } from 'react-dom'
 import timeline from './CosmereTimeline.module.css'
@@ -16,11 +16,14 @@ interface PlacementProps {
   /** While the dialog is open (kept, to take the focus back). */
   hidden?: boolean
   onOpen: () => void
+  onZoom?: () => void
 }
 
 /** The way into the dialog for a placed style, if it has one. */
 export function TitlePlacement(props: PlacementProps) {
   if (props.style === 'moon') return <Moon {...props} />
+  if (props.style === 'curved-actions') return <CurvedActions {...props} />
+  if (props.style === 'hover-actions') return <HoverActions {...props} />
   if (props.style === 'state' && props.state) return <StateChip {...props} />
   return null
 }
@@ -249,6 +252,78 @@ function Moon({ world, hidden, onOpen }: PlacementProps) {
           </span>
         </button>
       </span>
+    </div>
+  )
+}
+
+/** The state button, and the zoom one where the world has a map to zoom into. */
+function ActionButtons({
+  style,
+  world,
+  beside,
+  onOpen,
+  onZoom,
+}: PlacementProps & { beside?: boolean }) {
+  return (
+    <>
+      <button
+        type="button"
+        className={`${styles.action} ${styles.stateAction}`}
+        data-title-style={style}
+        aria-label={`Show state of ${world.name}`}
+        aria-haspopup="dialog"
+        data-tooltip={`State of ${world.name}`}
+        data-tooltip-beside={beside || undefined}
+        data-world-title
+        data-orbit-action
+        onClick={onOpen}
+      >
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M12 10.5v7.5" />
+          <path d="M12 6.2v.1" />
+        </svg>
+      </button>
+      {onZoom && (
+        <button
+          type="button"
+          className={`${styles.action} ${styles.zoomAction}`}
+          data-title-style={style}
+          aria-label={`Zoom into ${world.name}`}
+          data-tooltip={`Zoom into ${world.name}`}
+          data-tooltip-beside={beside || undefined}
+          data-orbit-action
+          onClick={onZoom}
+        >
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M12 5v14M5 12h14" />
+          </svg>
+        </button>
+      )}
+    </>
+  )
+}
+
+/** The actions, fixed to opposite points on the globe's curve. */
+function CurvedActions({ hidden, ...props }: PlacementProps) {
+  return (
+    <div
+      className={styles.actions}
+      style={hidden ? { visibility: 'hidden' } : undefined}
+    >
+      <span className={styles.actionsRing} aria-hidden="true" />
+      <ActionButtons {...props} />
+    </div>
+  )
+}
+
+/** The actions stacked beside the globe, there while it's hovered. */
+function HoverActions({ hidden, ...props }: PlacementProps) {
+  return (
+    <div
+      className={styles.pair}
+      style={hidden ? { visibility: 'hidden' } : undefined}
+    >
+      <ActionButtons {...props} beside />
     </div>
   )
 }

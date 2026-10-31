@@ -1,0 +1,25 @@
+{
+  "intro": [
+    {
+      "text": "A place on Roshar considered as a refuge by the ancient Knights Radiant.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "80" }]
+    }
+  ],
+  "description": [],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The False Desolation",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "80" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "As Urithiru's systems failed, Garith and the Radiants considered moving to Cabridar.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "80" }]
+        }
+      ]
+    }
+  ]
+}

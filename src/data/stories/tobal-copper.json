@@ -1,0 +1,52 @@
+{
+  "intro": [
+    {
+      "text": "A man in Bilming whose name Marsh gives to Wax and his companions as a lead.",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "28" }],
+      "fallback": true
+    },
+    {
+      "text": "A Bilming chemist at Basin Tires who teamed up with the newspaper editor Maraga Dulcet to uncover the Set's doings.",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "33" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Basin Tires",
+          "revealedIn": [
+            { "book": "lost-metal", "chapter": "33" },
+            { "book": "lost-metal", "chapter": "29" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Tobal worked at Basin Tires as a rubber chemist, then on rocket propellants, until he was fired for \"erratic behavior\" around 343 PC. His lawsuit against the company was dismissed, and going door to door with pamphlets in his apartment building got him arrested for disturbing the peace and released once he calmed down.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "33" }]
+        },
+        {
+          "text": "The next year he went to Maraga, who ran the Sentinel of Truth, and began stealing evidence when she doubted him. By 348 PC the two met every night in the paper's basement to piece together the Set's plans. He warned her that one evening he would simply not come; so it proved, when the Set reached his apartment and killed him.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "33" }]
+        },
+        {
+          "text": "About two weeks after he vanished, Marsh heard of it and told Marasi, Wax and Wayne, who took up the lead.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "29" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Bald, and wears a leather cap.",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "34" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Quick to leap to conclusions and prone to outlandish claims, so many dismiss him as a crackpot despite his skill as a scientist. He is a decent man, undaunted by the Set hunting him and set on sharing what he knows.",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "34" }]
+    }
+  ]
+}

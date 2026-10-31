@@ -1,0 +1,55 @@
+{
+  "intro": [
+    {
+      "text": "A Shin holy site in the rocky highlands east of Ayabiza, half a day's walk from the city.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "92" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Unlike the other monasteries, it is a natural enclosure among rocks. The Sheathing of Swords contains nine hollows used to hold the Honorblades.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "94" }]
+    },
+    {
+      "text": "A nearby cavern contains the chamber where prospective Honorbearers meet the Voice.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "94" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Szeth's pilgrimage",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "94" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Szeth reached the site at the end of his training pilgrimage. Inside the cavern, he found spren pinned to the walls and fled rather than submit to the Voice.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "94" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The return to Shinovar",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "130" },
+            { "book": "wind-and-truth", "chapter": "144" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Ishar received Szeth, Kaladin and Nale at the monastery. Szeth faced the Honorbearers while Kaladin sought to persuade Ishar to release Shinovar.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "130" }]
+        },
+        {
+          "text": "Ishar renewed the Oathpact at the site, with Kaladin taking Jezrien's place and the Heralds' minds sheltered from Braize.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "144" }]
+        }
+      ]
+    }
+  ]
+}

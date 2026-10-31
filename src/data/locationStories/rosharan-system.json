@@ -1,0 +1,48 @@
+{
+  "intro": [
+    {
+      "text": "A planetary system with three inner rocky worlds and ten outer gas giants, separated by an asteroid belt.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "100" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "The outer planets are named Jes, Nan, Chach, Vev, Palah, Shash, Betab, Kak, Tanat and Ishi, in order away from the sun.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "100" }]
+    },
+    {
+      "text": "Braize has an unusual metallic core that attracts Investiture and souls.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "104" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The early system",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "120" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Roshar once had a fourth moon. It fell before Honor reached the system, leaving fragments beneath the future Shattered Plains.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "120" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "After the contest",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "147" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "The formation of Retribution slowed time around Roshar relative to the wider cosmere, disrupting trade and communication. Thaidakar estimated that a Rosharan decade could correspond to seventy or eighty years elsewhere.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "147" }]
+        }
+      ]
+    }
+  ]
+}

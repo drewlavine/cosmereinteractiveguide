@@ -1,0 +1,34 @@
+{
+  "intro": [
+    {
+      "text": "The capital of the kingdom of Torio, where its queen lives.",
+      "revealedIn": [{ "book": "yumi", "chapter": "40" }]
+    },
+    {
+      "text": "The ruined capital of the former kingdom of Torio, lying west of Kilahito.",
+      "revealedIn": [{ "book": "yumi", "chapter": "another-epilogue" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Most of its buildings are stone with red roofs, set among trees, fountains and dragon sculptures. Its famous university, which includes the Institute of Mechanical Solutions, is known in the countryside for helping villages. Every year the Festival of Reveals is held at the exhibition hall and courtyard at the city's heart.",
+      "revealedIn": [{ "book": "yumi", "chapter": "40" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Ruin",
+          "revealedIn": [{ "book": "yumi", "chapter": "another-epilogue" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Once the father machine had consumed Torio's people, the city fell into decay. Its ruins cover a round area about the size of Kilahito, to that city's west, and plants found there helped the people of Nagadan breed new crops after the shroud was gone.",
+          "revealedIn": [{ "book": "yumi", "chapter": "another-epilogue" }]
+        }
+      ]
+    }
+  ]
+}

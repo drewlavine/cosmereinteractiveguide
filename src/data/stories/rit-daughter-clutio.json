@@ -44,5 +44,35 @@
       "revealedIn": [{ "book": "wind-and-truth", "chapter": "68" }]
     }
   ],
-  "personality": []
+  "personality": [],
+  "abilities": [
+    {
+      "title": [
+        {
+          "text": "The Honorblade",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "132" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Rit specializes in the Stoneward Surges of Cohesion and Tension, allowing her to make stone flow or stiffen a rope. She also trained with the other Honorblades.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "132" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Ishar's changes",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "128" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Ishar turned Rit into a human Cognitive Shadow who could return in another person's body after death. She could draw on her Surges without Stormlight.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "128" }]
+        }
+      ]
+    }
+  ]
 }

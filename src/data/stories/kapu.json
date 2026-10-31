@@ -1,0 +1,26 @@
+{
+  "intro": [
+    {
+      "text": "A youngster in the Eelakin capital who listens to Mother Frond's tales at the park.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "3" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "At the park",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "3" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "At the park built to show the Pantheon as it once was, Kapu heard Frond, who knew him by name, tell the tale of Cakoban. He knew it well enough to sum it up for a girl, but asked how an ocean could have no end. Frond then sent him back to his parents with a sweet.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "3" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

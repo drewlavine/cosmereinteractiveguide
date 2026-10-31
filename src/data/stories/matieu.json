@@ -1,0 +1,55 @@
+{
+  "intro": [
+    {
+      "text": "The captain of the constables in Ironstand.",
+      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "9" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The constabulary",
+          "revealedIn": [
+            { "book": "bands-of-mourning", "chapter": "9" },
+            {
+              "all": [
+                { "book": "bands-of-mourning", "chapter": "9" },
+                { "book": "lost-metal", "chapter": "21" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "After the Nightstreet Gang robbed a train near Ironstand, Matieu told Wax about the gang and asked his help in catching those who had escaped, but Marasi reminded Wax he already had a task.",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "9" }]
+        },
+        {
+          "text": "Six years on, in 348, Matieu was working for the Elendel constabulary and discussed Marasi's investigation with Constable-General Reddi.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "bands-of-mourning", "chapter": "9" },
+                { "book": "lost-metal", "chapter": "21" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Tall and lanky, with a ready smile.",
+      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "9" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Somewhat in awe of Wax.",
+      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "9" }]
+    }
+  ]
+}

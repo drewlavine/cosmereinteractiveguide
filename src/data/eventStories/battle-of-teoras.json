@@ -1,0 +1,166 @@
+{
+  "intro": [
+    {
+      "text": "A fight in Teoras, in Teod, after Dilaf brings Dakhor monks there from Arelon in an instant.",
+      "revealedIn": [{ "book": "elantris", "chapter": "61" }]
+    },
+    {
+      "text": "A fight in Teoras, in Teod, after Dilaf brings Dakhor monks there from Arelon in an instant as a Fjordell fleet attacks. It failed, and Teod kept its independence.",
+      "revealedIn": [{ "book": "elantris", "chapter": "63" }]
+    }
+  ],
+  "description": [],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Arrival in Teod",
+          "revealedIn": [{ "book": "elantris", "chapter": "60" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Dilaf and Hrathen crossed from Arelon to Teod in an instant with a band of Dakhor monks, using up one of the monks to power the jump. From a rooftop, Dilaf watched a Fjordell fleet sail into Teod's bay.",
+          "revealedIn": [{ "book": "elantris", "chapter": "60" }]
+        },
+        {
+          "text": "Sarene came with them as Dilaf's captive, and Dilaf considered having her die before her father's eyes.",
+          "revealedIn": [{ "book": "elantris", "chapter": "60" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The throne room",
+          "revealedIn": [{ "book": "elantris", "chapter": "61" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "The group appeared in Eventeo's throne room. When Dilaf began to cut Sarene's throat, Hrathen struck him, warned Eventeo that Fjorden was about to invade, and shielded Sarene as she escaped.",
+          "revealedIn": [{ "book": "elantris", "chapter": "61" }]
+        },
+        {
+          "text": "Eventeo's honour guard joined the fight, while Hrathen and Sarene hid in a cellar until the pursuing monks had passed.",
+          "revealedIn": [{ "book": "elantris", "chapter": "61" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The docks",
+          "revealedIn": [{ "book": "elantris", "chapter": "62" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Hrathen planned to get Sarene away on a merchant ship, but Fjon stabbed him, and Dilaf and his monks found Sarene.",
+          "revealedIn": [{ "book": "elantris", "chapter": "62" }]
+        },
+        {
+          "text": "Raoden reached Teod with Aon Tia, using the distance Adien gave him, and pulled Sarene away from the monks. Galladon then arrived on the docks with a group of Elantrians, who turned their Aons on the monks.",
+          "revealedIn": [{ "book": "elantris", "chapter": "62" }]
+        },
+        {
+          "text": "Dilaf broke away to hunt Eventeo and wounded Raoden and Sarene when they followed. The dying Hrathen blocked Dilaf's blow and choked him to death, then died himself. The Teo fleet held against the Fjordell ships.",
+          "revealedIn": [{ "book": "elantris", "chapter": "62" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Aftermath",
+          "revealedIn": [
+            { "book": "elantris", "chapter": "63" },
+            { "book": "elantris", "chapter": "epilogue" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The attacks the Wyrn sent against Arelon and Teod both failed, and the two nations stayed independent.",
+          "revealedIn": [{ "book": "elantris", "chapter": "63" }]
+        },
+        {
+          "text": "The burial ground of Hrathen and others was set aside as a memorial honouring those who died or fought in the Invasion of Arelon and the battles of Elantris and Teoras.",
+          "revealedIn": [{ "book": "elantris", "chapter": "epilogue" }]
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "City",
+      "name": "Teoras",
+      "placeId": "teoras",
+      "revealedIn": [{ "book": "elantris", "chapter": "61" }]
+    },
+    {
+      "label": "Nation",
+      "name": "Teod",
+      "placeId": "teod",
+      "revealedIn": [{ "book": "elantris", "chapter": "61" }]
+    },
+    {
+      "label": "Attackers",
+      "name": "Dakhor monks and a Fjordell fleet",
+      "revealedIn": [{ "book": "elantris", "chapter": "60" }]
+    },
+    {
+      "label": "Led by",
+      "name": "Dilaf",
+      "characterId": "dilaf",
+      "revealedIn": [{ "book": "elantris", "chapter": "61" }]
+    },
+    {
+      "label": "Outcome",
+      "name": "The attack failed",
+      "revealedIn": [{ "book": "elantris", "chapter": "63" }]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "dilaf",
+      "role": "leader",
+      "revealedIn": [{ "book": "elantris", "chapter": "61" }]
+    },
+    {
+      "characterId": "sarene",
+      "role": "captive",
+      "revealedIn": [{ "book": "elantris", "chapter": "61" }]
+    },
+    {
+      "characterId": "hrathen",
+      "role": "Sarene's protector",
+      "revealedIn": [{ "book": "elantris", "chapter": "61" }]
+    },
+    {
+      "characterId": "eventeo",
+      "role": "king of Teod",
+      "revealedIn": [{ "book": "elantris", "chapter": "61" }]
+    },
+    {
+      "characterId": "fjon",
+      "role": "attacker",
+      "revealedIn": [{ "book": "elantris", "chapter": "62" }]
+    },
+    {
+      "characterId": "raoden",
+      "role": "rescuer",
+      "revealedIn": [{ "book": "elantris", "chapter": "62" }]
+    },
+    {
+      "characterId": "galladon",
+      "role": "Elantrian leader",
+      "revealedIn": [{ "book": "elantris", "chapter": "62" }]
+    },
+    {
+      "characterId": "adien",
+      "role": "gave the distance",
+      "revealedIn": [{ "book": "elantris", "chapter": "62" }]
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "intro": [
+    {
+      "text": "An empire on Ashyn whose conquests were supported by Odium and the power of unrestricted Surges.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "104" }]
+    }
+  ],
+  "description": [],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Expansion",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "104" },
+            { "book": "wind-and-truth", "chapter": "107" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "With powers granted by Odium, the empire conquered neighboring city-states.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "104" }]
+        },
+        {
+          "text": "It invited delegates to a conference and offered membership under an implied threat of further conquest. Makibak and Nale departed rather than join.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "104" }]
+        },
+        {
+          "text": "Honor supplied its opponents with powers to resist, beginning a prolonged struggle.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "107" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The end of the war",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "107" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "The scouring of Ashyn destroyed the empire. Jezrien succeeded Zoral and helped lead the survivors toward Roshar.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "107" }]
+        }
+      ]
+    }
+  ]
+}

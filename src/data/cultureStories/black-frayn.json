@@ -1,0 +1,51 @@
+{
+  "intro": [
+    {
+      "text": "A herbal stimulant used in the Final Empire.",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "53" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "A nasty, addictive drug taken by eating its leaves. It makes the user feel stronger and sharper, can wake someone quickly, and warms the blood much as burning a metal does.",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "55" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Straff's addiction",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "55" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Amaranta, Straff Venture's herbalist and former mistress, is secretly working with Zane. Over time she doses Straff with black frayn, so that each bout of withdrawal makes him think he is being poisoned.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "55" }]
+        },
+        {
+          "text": "Believing Straff has driven Zane away, she means to cut off his supply and leave him to die, in revenge for his past treatment of her. Straff finds the strength to kill her and swallows a mix of herbs, hoping one will save him.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "55" }]
+        },
+        {
+          "text": "Three days after that, Straff wakes and works out that black frayn is the drug he is hooked on. He means to wean himself off it slowly, though he admits it has its uses.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "55" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "straff-venture",
+      "role": "addict",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "55" }]
+    },
+    {
+      "characterId": "amaranta",
+      "role": "supplier",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "55" }]
+    }
+  ]
+}

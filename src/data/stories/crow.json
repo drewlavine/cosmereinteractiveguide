@@ -1,0 +1,204 @@
+{
+  "intro": [
+    {
+      "text": "Captain of the Crow's Song, the pirate ship that takes Tress aboard after the Oot's Dream goes down.",
+      "revealedIn": [{ "book": "tress", "chapter": "12" }],
+      "fallback": true
+    },
+    {
+      "text": "The feared captain of the pirate ship Crow's Song, a spore eater whose own infection is slowly killing her.",
+      "revealedIn": [{ "book": "tress", "chapter": "28" }]
+    },
+    {
+      "text": "Former captain of the Crow's Song, now bound to serve the dragon Xisis beneath the Crimson Sea.",
+      "revealedIn": [{ "book": "tress", "chapter": "52" }]
+    },
+    {
+      "text": "Captain of the starship Dynamic, who keeps a silver flagon of water close and sips from it every few minutes.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "25" }],
+      "fallback": true
+    },
+    {
+      "text": "Once captain of the pirate ship Crow's Song and given over to serve the dragon Xisis, she now commands the starship Dynamic.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "tress", "chapter": "52" },
+            { "book": "isles-of-the-emberdark", "chapter": "25" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "A spore eater from Lumar who once captained the pirate ship Crow's Song and now works for the dragon Xisis out of Silverlight.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "tress", "chapter": "52" },
+            { "book": "isles-of-the-emberdark", "chapter": "32" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Captain of the Crow's Song",
+          "revealedIn": [
+            { "book": "tress", "chapter": "12" },
+            { "book": "tress", "chapter": "19" },
+            { "book": "tress", "chapter": "21" },
+            { "book": "tress", "chapter": "27" },
+            { "book": "tress", "chapter": "28" },
+            { "book": "tress", "chapter": "31" },
+            { "book": "tress", "chapter": "35" },
+            { "book": "tress", "chapter": "48" },
+            { "book": "tress", "chapter": "50" },
+            { "book": "tress", "chapter": "52" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "As the Oot's Dream sank, Crow shot down several of its sailors as they ran across the stilled spores toward her ship. When Tress was hauled aboard, Crow threatened to toss her over the side, saying the crew had no need of an inspector.",
+          "revealedIn": [{ "book": "tress", "chapter": "12" }]
+        },
+        {
+          "text": "Crow had talked the crew into piracy, arguing that with the king's war coming they could either be pressed into fighting or strike out for themselves. In secret she and Laggart meant to make them deadrunners, pirates who leave no survivors, to tie them to the ship. When word came that the one man they had let go had died before telling anyone, she agreed they would have to sink another ship.",
+          "revealedIn": [{ "book": "tress", "chapter": "19" }]
+        },
+        {
+          "text": "Overhearing Tress mourn the lost crew of the Oot's Dream, Crow saw that letting her loose ashore would spread word of what the pirates had done. She turned the ship toward port for water, which she drank constantly, and kicked Tress for looking pleased. When Tress passed up the chance to run, Crow made her ship's sprouter instead.",
+          "revealedIn": [{ "book": "tress", "chapter": "21" }]
+        },
+        {
+          "text": "When a chase left both ships stuck in the stilled spores, Crow picked off the enemy's gunners and sent Ann and Tress below to patch the hull. She let Salay overrule her about boarding with sabres, and when a sailor aimed at her, she shot herself in the head; vines burst from her face and caught the bullet.",
+          "revealedIn": [{ "book": "tress", "chapter": "27" }]
+        },
+        {
+          "text": "Ulaam told Tress that Crow was a spore eater, kept alive by a rogue verdant growth that should have killed her long before, and judged from all the water she drank that she had only weeks left.",
+          "revealedIn": [{ "book": "tress", "chapter": "28" }]
+        },
+        {
+          "text": "Using a midnight essence, Tress read Crow's notes on cures for her infection, which pointed to Xisis, a dragon said to live under the Crimson Sea. Crow had met Weev, the old sprouter, in secret to search for the dragon, and had him killed when he tried to blackmail her.",
+          "revealedIn": [{ "book": "tress", "chapter": "31" }]
+        },
+        {
+          "text": "Crow laughed when Tress admitted she hoped to save someone from the Sorceress, but promised to sail the Crimson Sea if Tress could win the crew over. Ulaam warned Tress that the dragon would want something in return for curing Crow, and that he liked servants who could handle spores. At the last port Crow kept Tress on board and told her she knew about the swapped cannonballs.",
+          "revealedIn": [{ "book": "tress", "chapter": "35" }]
+        },
+        {
+          "text": "After a crewman died in a crimson storm, Crow handed out a barrel of drink. When Tress lifted the ship on vines above the next storm's spikes and the crew cheered her, Crow watched in silence, seeing their love for Tress as a danger to a captain who ruled by fear.",
+          "revealedIn": [{ "book": "tress", "chapter": "48" }]
+        },
+        {
+          "text": "Crow's midnight essence spied on the officers as they talked of mutiny. With Laggart holding them at gunpoint, she put their weapons on a table, dared them to shoot him, and then beat them one by one and smashed Fort's writing board. She threw a letter into the spores, and a tunnel opened that led her and Tress down to the dragon.",
+          "revealedIn": [{ "book": "tress", "chapter": "50" }]
+        },
+        {
+          "text": "Before Xisis, Crow offered Tress as a servant, but Tress offered Crow in return. They argued their cases until the dragon gagged Crow with magic cloths and chose her as his new floor scrubber, telling Tress his cure would only have bought Crow time. Crow was kept beneath the Crimson Sea to serve him.",
+          "revealedIn": [{ "book": "tress", "chapter": "52" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Captain of the Dynamic",
+          "revealedIn": [
+            { "book": "isles-of-the-emberdark", "chapter": "25" },
+            { "book": "isles-of-the-emberdark", "chapter": "32" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Captain Crow steered the Dynamic toward a faint distress call and found a wrecked Iriali ship holding a family, with an entity closing in on them. She wanted to hang back until the family was dead and then loot the wreck, but Starling and the crew lured her off the bridge, locked her out, and went to the rescue.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "25" }]
+        },
+        {
+          "text": "Crow took no action over the mutiny, telling Starling she could answer to Xisis once they were back in Silverlight. She had led the Dynamic for six months on his behalf. When the ship landed she stalked off without a word and saw Xisis before Starling could.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "32" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Stout and stern-faced, with lightly tanned, slightly ruddy skin, of ordinary height, and topped by a black feathered hat.",
+      "revealedIn": [{ "book": "tress", "chapter": "35" }]
+    },
+    {
+      "text": "On the Dynamic she dresses in modern clothes that still look a little like a sea captain's.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "tress", "chapter": "45" },
+            { "book": "isles-of-the-emberdark", "chapter": "32" }
+          ]
+        }
+      ]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Cold and hard; her crew have only once seen her amused, when a sailor hurt himself with his own boarding hook. She counts a pretty cup as plunder.",
+      "revealedIn": [{ "book": "tress", "chapter": "35" }]
+    },
+    {
+      "text": "She rules through fear and does nothing out of kindness, but she knows when to give way, as when she let Salay have her way over boarding a captured ship.",
+      "revealedIn": [{ "book": "tress", "chapter": "48" }],
+      "fallback": true
+    },
+    {
+      "text": "She never talks about her past. Xisis rates her as very sharp, one of the best servants he has gained.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "tress", "chapter": "45" },
+            { "book": "isles-of-the-emberdark", "chapter": "32" }
+          ]
+        }
+      ]
+    }
+  ],
+  "abilities": [
+    {
+      "title": [
+        {
+          "text": "Spore eater",
+          "revealedIn": [{ "book": "tress", "chapter": "28" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "A rogue verdant growth lives in her body, throwing up vines to shield her from any threat, though she does not truly command them. It drains water from her constantly, and she has outlasted the usual span by about a year.",
+          "revealedIn": [{ "book": "tress", "chapter": "28" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Other skills",
+          "revealedIn": [
+            { "book": "tress", "chapter": "49" },
+            { "book": "tress", "chapter": "50" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "She spies on her crew through midnight essence.",
+          "revealedIn": [{ "book": "tress", "chapter": "49" }]
+        },
+        {
+          "text": "An excellent shot with a keen sense for what others are feeling, which she uses to dominate them. She can put down several mutineers without calling on her vines.",
+          "revealedIn": [{ "book": "tress", "chapter": "50" }]
+        }
+      ]
+    }
+  ]
+}

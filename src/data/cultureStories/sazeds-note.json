@@ -1,0 +1,35 @@
+{
+  "intro": [
+    {
+      "text": "A note Sazed wrote on the back of Mare's flower drawing, which Kelsier used to carry.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "epilogue" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Written to Spook, it names Rashek, Ruin, Goradel and Kelsier, along with the rest of the crew. Its first paragraph is about Vin and Elend, and a postscript says two metals are still to be found.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "epilogue" }]
+    }
+  ],
+  "history": [],
+  "facts": [
+    {
+      "label": "Addressed to",
+      "name": "Spook",
+      "characterId": "spook",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "epilogue" }]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "sazed",
+      "role": "writer",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "epilogue" }]
+    },
+    {
+      "characterId": "spook",
+      "role": "recipient",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "epilogue" }]
+    }
+  ]
+}

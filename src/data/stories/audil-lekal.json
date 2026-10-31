@@ -1,0 +1,50 @@
+{
+  "intro": [
+    {
+      "text": "The second king of House Lekal's realm in the Southern Dominance, and the uncle of Jastes Lekal.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "4" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "King Lekal",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "well-of-ascension", "chapter": "51" },
+                { "book": "hero-of-ages", "chapter": "4" }
+              ]
+            },
+            { "book": "hero-of-ages", "chapter": "4" },
+            { "book": "hero-of-ages", "chapter": "61" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "After Jastes was executed for raising a koloss army he could not control, Audil took charge of the southern lands House Lekal had claimed. He ruled them from Lekal City, a former country estate that had turned into a shantytown amid the turmoil that followed the Lord Ruler's death.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "well-of-ascension", "chapter": "51" },
+                { "book": "hero-of-ages", "chapter": "4" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Breeze and Sazed came to him on Elend's behalf so that he would sign a treaty submitting to Elend's rule. After they had waited a while, one of the king's aides brought them the signed document.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "4" }]
+        },
+        {
+          "text": "As Scadrial came apart, lava from an ashmount swept over his kingdom, and Audil died with it.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "61" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

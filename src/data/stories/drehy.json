@@ -139,6 +139,32 @@
           ]
         }
       ]
+    },
+    {
+      "title": [
+        {
+          "text": "Before the contest",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "11" },
+            { "book": "wind-and-truth", "chapter": "30" },
+            { "book": "wind-and-truth", "chapter": "127" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Drehy and his squires escorted Adolin and Shallan from Lasting Integrity toward Azimir, surviving an unusually fierce attack by Heavenly Ones in Shadesmar.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "11" }]
+        },
+        {
+          "text": "Seeing Renarin's feelings for Rlain, Drehy encouraged him to speak openly and offered to answer his questions about his sexuality.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "30" }]
+        },
+        {
+          "text": "Drehy and Skar reached Azimir intending to evacuate its leaders, but instead agreed to draw away the Heavenly Ones so Yanagawn and Adolin could try to reclaim the throne room.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "127" }]
+        }
+      ]
     }
   ],
   "appearance": [

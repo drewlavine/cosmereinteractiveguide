@@ -1,0 +1,23 @@
+{
+  "intro": [
+    {
+      "text": "A Scadrian fashion brand famed for luxurious, costly vests.",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "17" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Wax wears Versuli vests.",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "17" }]
+    }
+  ],
+  "history": [],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "waxillium-ladrian",
+      "role": "wearer",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "17" }]
+    }
+  ]
+}

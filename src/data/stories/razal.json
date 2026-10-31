@@ -1,0 +1,31 @@
+{
+  "intro": [
+    {
+      "text": "A Terrisman and Brute who leads the guards keeping trespassers out of the Village, Elendel's Terris enclave.",
+      "revealedIn": [{ "book": "shadows-of-self", "chapter": "5" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Guarding the Village",
+          "revealedIn": [{ "book": "shadows-of-self", "chapter": "5" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "When Wax came to the Village to ask his grandmother about Lord Winsting's death, Razal and his two fellow guards tried to force him out. Vwafendal broke up the confrontation, telling them that Wax's Terris heritage gave him the right to enter.",
+          "revealedIn": [{ "book": "shadows-of-self", "chapter": "5" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": [
+    {
+      "text": "Stubborn, which serves him well as a guard, yet respectful of Terris leaders and custom. He did not take Wax for Terris on sight, but knew of him as Vwafendal's grandson.",
+      "revealedIn": [{ "book": "shadows-of-self", "chapter": "5" }]
+    }
+  ]
+}

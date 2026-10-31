@@ -1,0 +1,26 @@
+{
+  "intro": [
+    {
+      "text": "A renowned artisan of the Rose Empire on Sel.",
+      "revealedIn": [{ "book": "emperors-soul", "chapter": "day-12" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Artisan",
+          "revealedIn": [{ "book": "emperors-soul", "chapter": "day-12" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "His work as an artisan has made his name famous in the Rose Empire.",
+          "revealedIn": [{ "book": "emperors-soul", "chapter": "day-12" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

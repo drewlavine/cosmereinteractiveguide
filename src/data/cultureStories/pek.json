@@ -1,0 +1,31 @@
+{
+  "intro": [
+    {
+      "text": "A currency Quellion mints in Urteau after the Lord Ruler's fall. Each pek is reckoned at only part of a copper clip, so it is close to worthless.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "26" }]
+    }
+  ],
+  "description": [],
+  "history": [],
+  "facts": [
+    {
+      "label": "Minted by",
+      "name": "Quellion",
+      "characterId": "quellion",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "26" }]
+    },
+    {
+      "label": "Used in",
+      "name": "Urteau",
+      "placeId": "urteau",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "26" }]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "quellion",
+      "role": "issuer",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "26" }]
+    }
+  ]
+}

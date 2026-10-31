@@ -1,0 +1,24 @@
+{
+  "intro": [
+    {
+      "text": "A forty-mile race run every year on an island of the Emerald Sea, on the Verdant King's birthday.",
+      "revealedIn": [{ "book": "tress", "chapter": "30" }]
+    }
+  ],
+  "description": [],
+  "history": [],
+  "facts": [
+    {
+      "label": "Held on",
+      "name": "The Verdant King's birthday",
+      "characterId": "verdant-king",
+      "revealedIn": [{ "book": "tress", "chapter": "30" }]
+    },
+    {
+      "label": "Length",
+      "name": "Forty miles",
+      "revealedIn": [{ "book": "tress", "chapter": "30" }]
+    }
+  ],
+  "people": []
+}

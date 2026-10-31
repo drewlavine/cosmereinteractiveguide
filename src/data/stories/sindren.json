@@ -1,0 +1,40 @@
+{
+  "intro": [
+    {
+      "text": "A young, jumpy recruit to the Vanishers gang in Elendel.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "8" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The Vanishers",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "8" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Raised in Elendel's Inner Seventh Octant, Sindren was brought into the Vanishers by Clamps to earn a little money. He lived mostly at their Longard foundry, leaving only for raids. About two weeks after joining, he took part in the wedding dinner robbery, where Wax and Wayne captured him; Captain Brettin had him and five other Vanishers taken to the Fourth Octant precinct.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "8" }]
+        },
+        {
+          "text": "Wayne, disguised as Captain Guffon Trenchant, got into the interview rooms, learned Sindren was the likeliest to talk, and inside a speed bubble posed as a fellow Vanisher. Sindren let slip who had recruited him and where the gang worked. Wayne advised him to confess once the constables promised his freedom in front of Arintol, an honest solicitor, then to head for the Roughs and a new life in the mills.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "8" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Short and young, with big ears, wide eyes and an Inner Seventh Octant accent; his voice squeaks when he is nervous.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "8" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "No hardened criminal: nervous, rather gullible and in it only for the money, with no interest in the gang's grudges and a weary acceptance that life is unfair to the poor.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "8" }]
+    }
+  ]
+}

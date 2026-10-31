@@ -1,0 +1,26 @@
+{
+  "intro": [
+    {
+      "text": "A constable in Marasi's precinct in Elendel.",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "10" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The precinct",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "10" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Marasi believed that Wilhelmette and Gemdwyn had joined the constabulary because of her example.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "10" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

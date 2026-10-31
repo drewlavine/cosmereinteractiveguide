@@ -455,7 +455,12 @@
           "revealedIn": [
             { "book": "wind-and-truth", "chapter": "4" },
             { "book": "wind-and-truth", "chapter": "12" },
-            { "book": "wind-and-truth", "chapter": "13" }
+            { "book": "wind-and-truth", "chapter": "13" },
+            { "book": "wind-and-truth", "chapter": "33" },
+            { "book": "wind-and-truth", "chapter": "69" },
+            { "book": "wind-and-truth", "chapter": "108" },
+            { "book": "wind-and-truth", "chapter": "110" },
+            { "book": "wind-and-truth", "chapter": "140" }
           ]
         }
       ],
@@ -471,6 +476,26 @@
         {
           "text": "In Azir, Kaladin declined Shallan and Adolin's request for help against an army gathering in Shadesmar. Shallan made him promise to return, and he flew to Shinovar with Szeth and Nightblood.",
           "revealedIn": [{ "book": "wind-and-truth", "chapter": "13" }]
+        },
+        {
+          "text": "Kaladin struggled to reach Szeth, who believed he deserved only suffering. Remembering how Bridge Four had changed, he resolved to keep trying; Szeth began to open up about his home.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "33" }]
+        },
+        {
+          "text": "Nale's arrival made Szeth withdraw again. Kaladin challenged the Herald's insistence that laws and authority should be obeyed without question.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "69" }]
+        },
+        {
+          "text": "When Szeth refused Nale's demand for obedience, Kaladin agreed to fight as Szeth's champion.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "108" }]
+        },
+        {
+          "text": "After Nale defeated him, Kaladin used the Wind's music and the story of Wandersail to remind the Herald why he had once protected ordinary people. Nale acknowledged what he had become, and Kaladin and Szeth offered to help him.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "110" }]
+        },
+        {
+          "text": "Kaladin swore the Fifth Ideal, and the Wind accepted it. The surge of Stormlight drove Odium's influence from the Heralds; Kaladin freed his companions with Nightblood and supplied the Light that let Szeth wield it.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "140" }]
         }
       ]
     },
@@ -478,13 +503,20 @@
       "title": [
         {
           "text": "Herald",
-          "revealedIn": [{ "book": "wind-and-truth", "chapter": "144" }]
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "144" },
+            { "book": "wind-and-truth", "chapter": "postlude" }
+          ]
         }
       ],
       "items": [
         {
           "text": "Chosen by the Wind, Kaladin took Jezrien's place as a Herald after his death, becoming a Cognitive Shadow known as the Herald of Kings, of the Wind, and of Second Chances.",
           "revealedIn": [{ "book": "wind-and-truth", "chapter": "144" }]
+        },
+        {
+          "text": "Within a peaceful vision, Kaladin welcomed Kalak and explained that Taln had forgiven the other Heralds.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "postlude" }]
         }
       ]
     }

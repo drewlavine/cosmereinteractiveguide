@@ -1,0 +1,29 @@
+{
+  "intro": [
+    {
+      "text": "Dark, seon-like beings of Sel. They seem to draw in the light around them, their edges fade into the air, and a ring of misty symbols circles each sphere.",
+      "revealedIn": [{ "all": ["elantris", "arcanum-unbounded"] }]
+    }
+  ],
+  "description": [
+    {
+      "text": "They are said to rely on humankind, though whether they have masters as seons do is unknown.",
+      "revealedIn": [{ "all": ["elantris", "arcanum-unbounded"] }]
+    },
+    {
+      "text": "Dilaf, leader of the Dakhor, learned from the skaze that Elantrians could be destroyed.",
+      "revealedIn": [
+        {
+          "all": [{ "book": "elantris", "chapter": "62" }, "arcanum-unbounded"]
+        }
+      ]
+    },
+    {
+      "text": "Hoid struck a bargain with a group of skaze, promising to become an Elantrian. When his first attempts failed, he was with a skaze whose lively feelings and humour reminded him how much each one's personality differs.",
+      "revealedIn": [{ "all": ["elantris", "arcanum-unbounded"] }]
+    }
+  ],
+  "history": [],
+  "facts": [],
+  "people": []
+}

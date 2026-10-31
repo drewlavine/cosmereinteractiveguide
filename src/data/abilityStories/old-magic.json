@@ -141,6 +141,40 @@
       ]
     }
   ],
+  "sections": [
+    {
+      "title": "Origins",
+      "items": [],
+      "parts": [
+        {
+          "title": [
+            {
+              "text": "Roshar's old powers",
+              "revealedIn": [
+                { "book": "wind-and-truth", "chapter": "100" },
+                { "book": "wind-and-truth", "chapter": "21" },
+                { "book": "wind-and-truth", "chapter": "52" }
+              ]
+            }
+          ],
+          "items": [
+            {
+              "text": "Adonalsium left the Old Magic in the Wind, Stone and Night to protect and nurture Roshar's life.",
+              "revealedIn": [{ "book": "wind-and-truth", "chapter": "100" }]
+            },
+            {
+              "text": "Early Bondsmiths bonded these powers before the Stormfather, Sibling and Nightwatcher were made from them.",
+              "revealedIn": [{ "book": "wind-and-truth", "chapter": "21" }]
+            },
+            {
+              "text": "The name Old Magic became associated particularly with the Nightwatcher.",
+              "revealedIn": [{ "book": "wind-and-truth", "chapter": "52" }]
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "facts": [],
   "people": [
     {

@@ -1,0 +1,67 @@
+{
+  "intro": [
+    {
+      "text": "The home of the Sorceress, an island in the Midnight Sea that only her own ships may approach.",
+      "revealedIn": [{ "book": "tress", "chapter": "23" }]
+    },
+    {
+      "text": "A small, oddly circular island in the Midnight Sea near its border with the Crimson Sea, home to the Sorceress and her tower.",
+      "revealedIn": [{ "book": "tress", "chapter": "59" }]
+    },
+    {
+      "text": "A small, oddly circular island in the Midnight Sea near its border with the Crimson Sea, where the Sorceress lived in her tower until she left the planet.",
+      "revealedIn": [{ "book": "tress", "chapter": "64" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Smaller even than Diggen's Point, it has only a few lone trees with sparse leaves. Nobody lives there but the Sorceress and the metal soldiers of her army, and her tower is the only building.",
+      "revealedIn": [{ "book": "tress", "chapter": "59" }]
+    },
+    {
+      "text": "Rocky spikes beneath the surrounding sea rip apart ships that cross carelessly, making them a strong guard against invaders and part of what drew the Sorceress to the island.",
+      "revealedIn": [{ "book": "tress", "chapter": "62" }]
+    },
+    {
+      "text": "Anyone trying to reach her faced three defences: the Midnight Sea, whose creatures she ordered to hunt intruders while leaving them some freedom; her metal soldiers; and the tower itself, sheer and made of silver, which could be entered only by a front door opened from inside.",
+      "revealedIn": [{ "book": "tress", "chapter": "64" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Under the Sorceress",
+          "revealedIn": [
+            { "book": "tress", "chapter": "59" },
+            { "book": "tress", "chapter": "23" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The Sorceress came from the stars with her tower and settled on the island, choosing it on purpose because it was so hard for anyone else to reach.",
+          "revealedIn": [{ "book": "tress", "chapter": "59" }]
+        },
+        {
+          "text": "The Sorceress's ships raided other nations, and since only her vessels could sail the Midnight Sea, no other ship came near the island. Nobody who reached it came back without at least a curse.",
+          "revealedIn": [{ "book": "tress", "chapter": "23" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The Sorceress's departure",
+          "revealedIn": [{ "book": "tress", "chapter": "64" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Tress pressed the Sorceress to leave the planet, and she departed in her tower.",
+          "revealedIn": [{ "book": "tress", "chapter": "64" }]
+        }
+      ]
+    }
+  ]
+}

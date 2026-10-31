@@ -1,0 +1,48 @@
+{
+  "intro": [
+    {
+      "text": "A hexer of Kingseat, one of those mining demonstone in their village, to whom Count Flint brings a lantern bearing Hoid's face.",
+      "revealedIn": [{ "book": "fires-of-december", "chapter": "xxvi" }],
+      "fallback": true
+    },
+    {
+      "text": "The eldest and most skilled of Kingseat's hexers, who takes December in when the king sends her to their village.",
+      "revealedIn": [{ "book": "fires-of-december", "chapter": "xxxvii" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Leader of the hexers",
+          "revealedIn": [
+            { "book": "fires-of-december", "chapter": "xxvii" },
+            { "book": "fires-of-december", "chapter": "xxxvii" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Weonim practised witchcraft until the king caught her and offered a pardon if she served as a hexer; she accepted and bound her demon to a strict contract. As the hexers' leader she met Flint about a strange demon he wished to sell, and was appalled when he asked for demonstone as payment.",
+          "revealedIn": [{ "book": "fires-of-december", "chapter": "xxvii" }]
+        },
+        {
+          "text": "When December arrived as a new hexer, Weonim mothered her and admitted the hexers could not hold the demon once it was free. She showed December the contract to force on her own demon, and the hexers were aghast when December let it go instead.",
+          "revealedIn": [{ "book": "fires-of-december", "chapter": "xxxvii" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "She looks close to eighty, with pale skin, chin-length silver hair and a kind face that is strangely free of wrinkles, and usually wears a robe.",
+      "revealedIn": [{ "book": "fires-of-december", "chapter": "xxxvii" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "She likes taking tea with the other hexers, who address her as Elder.",
+      "revealedIn": [{ "book": "fires-of-december", "chapter": "xxxvii" }]
+    }
+  ]
+}

@@ -1,0 +1,266 @@
+{
+  "intro": [
+    {
+      "text": "Peoples from the south of Scadrial, in many ways more technologically advanced than the north. One of their airships crashed near Dulsing while searching for the Sovereign's temple.",
+      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "21" }]
+    },
+    {
+      "text": "Peoples from the south of Scadrial, divided among five nations, each with its own mask customs. They worship the Jaggenmire and the Sovereign, and their technology outstrips the north's in many ways.",
+      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "22" }]
+    },
+    {
+      "text": "Peoples from the south of Scadrial, once five nations and now united as the Malwish Consortium. They wear masks, worship the Jaggenmire and the Sovereign, and their technology outstrips the north's in many ways.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "bands-of-mourning", "chapter": "30" },
+            { "book": "lost-metal", "chapter": "9" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "The Sovereign gave them the Excisors, devices for making medallions: unsealed metalminds that let the wearer use Feruchemical brass. They adapted these to grant other powers, and iron medallions that let many people store their weight led them to build airships.",
+      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "21" }]
+    },
+    {
+      "text": "Each of the five southern peoples has its own rules and customs for wearing masks.",
+      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "22" }]
+    },
+    {
+      "text": "Their airships are fueled by ettmetal.",
+      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "22" }]
+    },
+    {
+      "text": "Making medallions takes both Metalborn and Excisors, and the exact method is a trade secret of the Malwish Consortium. Some medallions hold several metals and grant several powers at once, but wearing more than one medallion fails, as they interfere with each other.",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "9" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The Ice Death",
+          "revealedIn": [
+            { "book": "bands-of-mourning", "chapter": "21" },
+            { "book": "bands-of-mourning", "chapter": "22" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "For the southern peoples, the age of ash ended with the Ascension of Harmony, which they came to call the Ice Death.",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "21" }]
+        },
+        {
+          "text": "Their lands grew colder, and the Ice Death never lifted. Unable to recover on their own, their society came close to collapse. Even in the north, southern travelers still feel unnaturally cold.",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "22" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The Sovereign",
+          "revealedIn": [
+            { "book": "bands-of-mourning", "chapter": "21" },
+            { "book": "bands-of-mourning", "chapter": "24" },
+            { "book": "bands-of-mourning", "chapter": "epilogue" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The Sovereign ruled over his southern followers and founded the custom of Firemothers and Firefathers, who live only to fill medallions with heat. In time he hid the Bands of Mourning in a temple in the northern mountains. His priests traveled with him, then went back south to spread the Bands' legend.",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "21" }]
+        },
+        {
+          "text": "The Sovereign's priests belonged to none of the southern peoples living today.",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "24" }]
+        },
+        {
+          "text": "Though rumored to be the Lord Ruler, the Sovereign was in truth Kelsier, another man from the north.",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "epilogue" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Seeking the Bands",
+          "revealedIn": [
+            { "book": "bands-of-mourning", "chapter": "23" },
+            { "book": "bands-of-mourning", "chapter": "21" },
+            { "book": "bands-of-mourning", "chapter": "30" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Scouting ever farther north by airship, the southerners discovered the Elendel Basin. The Hunters then sent a large expedition north to find the Sovereign's temple and destroy the Bands with an ettmetal bomb. Most of the expedition died, but one Skimmer made it home to tell the tale.",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "23" }]
+        },
+        {
+          "text": "Jordis took a second airship, the Brunstell, north to find the temple, but a storm brought it down near Dulsing. The Set found the wreck, captured and questioned the crew, learned of the medallions and the Bands, and planned its own expedition. Wax and Marasi, investigating for the kandra, found where the captives were held and helped Allik Neverfar escape in a small airship, the Wilg.",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "21" }]
+        },
+        {
+          "text": "Wax's group won the race to the Bands and beat the Set, freeing the remaining southern captives. Steris negotiated a trade agreement, the first official relationship between north and south.",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "30" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The Malwish Consortium",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "epilogue-7" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Over the next six years, contact grew: the Basin gained skimmers and medallions, and the Malwish access to northern Allomancers. Old rivalries in the south cooled until the peoples united under the Malwish banner, though each nation kept its own leaders. Seeing the north as chaotic and blaming its disasters for their hardships, by 350 PC they had shut their borders to northerners and banned most trade.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "epilogue-7" }]
+        }
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "title": "Nations",
+      "items": [
+        {
+          "text": "The south was split into five nations. After they found the north, their politics shifted until they united under one banner, the Malwish Consortium.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "bands-of-mourning", "chapter": "30" },
+                { "book": "lost-metal", "chapter": "9" }
+              ]
+            }
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "title": [
+            {
+              "text": "The Malwish",
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "bands-of-mourning", "chapter": "22" },
+                    { "book": "lost-metal", "chapter": "3" }
+                  ]
+                },
+                { "book": "lost-metal", "chapter": "9" }
+              ]
+            }
+          ],
+          "items": [
+            {
+              "text": "Malwish masks are red and vary with the wearer's profession or mood. Lifting a mask is a way to stress a point; they pretend it is taboo, though letting others see beneath it is not truly wrong. Dancing matters so much to them that a misstep can earn a harsh but friendly punishment.",
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "bands-of-mourning", "chapter": "22" },
+                    { "book": "lost-metal", "chapter": "3" }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Once the north was found, the Malwish took charge of diplomacy with the Basin. Most southerners who traveled north came from their nation, the only one to send an ambassador.",
+              "revealedIn": [{ "book": "lost-metal", "chapter": "9" }]
+            }
+          ]
+        },
+        {
+          "title": [
+            {
+              "text": "The Hunters",
+              "revealedIn": [{ "book": "bands-of-mourning", "chapter": "22" }]
+            }
+          ],
+          "items": [
+            {
+              "text": "Hunters receive one mask at birth and a second on reaching adulthood, which in time grows into the skin. Warriors before the Ice Death, they now hunt for the cause of the disaster that ruined them. They sent an airship north to find the Bands of Mourning and destroy them.",
+              "revealedIn": [{ "book": "bands-of-mourning", "chapter": "22" }]
+            }
+          ]
+        },
+        {
+          "title": [
+            {
+              "text": "The Fallen",
+              "revealedIn": [{ "book": "bands-of-mourning", "chapter": "22" }]
+            }
+          ],
+          "items": [
+            {
+              "text": "Before the Ice Death, the Fallen were kings; they lost their authority with it, a divine punishment for offending the Jaggenmire. A member wears a plain, unpainted mask until some great deed earns an ornate one.",
+              "revealedIn": [{ "book": "bands-of-mourning", "chapter": "22" }]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Religion",
+      "items": [
+        {
+          "text": "They worship the Jaggenmire, two beings always one and always apart: Herr, a force of motion, and his sister and wife Frue, a force of stillness. Neither can make life alone. They believe their kings offended the Jaggenmire and so caused the Ice Death.",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "22" }]
+        },
+        {
+          "text": "They also worship the Sovereign, who saved them after the Ice Death and taught them to revere Metalborn as pieces of God. They believe he forged the Bands of Mourning and left them hidden in the mountains to use when he returns. Some clans see finding the Bands as a test; the Hunters want them destroyed.",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "22" }]
+        },
+        {
+          "text": "They believe hell lies up in the sky, since the ground below is warmer.",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "23" }]
+        }
+      ],
+      "parts": []
+    }
+  ],
+  "facts": [
+    {
+      "label": "Worship",
+      "name": "The Jaggenmire and the Sovereign",
+      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "22" }]
+    },
+    {
+      "label": "United as",
+      "name": "Malwish Consortium",
+      "placeId": "malwish-consortium",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "bands-of-mourning", "chapter": "30" },
+            { "book": "lost-metal", "chapter": "9" }
+          ]
+        }
+      ]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "allik-neverfar",
+      "role": "crewman",
+      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "21" }]
+    },
+    {
+      "characterId": "jordis",
+      "role": "captain",
+      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "21" }]
+    },
+    {
+      "characterId": "kelsier",
+      "role": "the Sovereign",
+      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "epilogue" }]
+    }
+  ]
+}

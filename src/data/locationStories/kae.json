@@ -1,0 +1,50 @@
+{
+  "intro": [
+    {
+      "text": "One of the four gate cities around Elantris and, since the Reod, the capital of Arelon. It lies in the shadow of Elantris, beside which it looks like a minor village, and its people try their best to ignore Elantris and its curse.",
+      "revealedIn": [{ "book": "elantris", "chapter": "3" }]
+    },
+    {
+      "text": "One of the four gate cities around Elantris and, since the Reod, the capital of Arelon. It was left almost completely in ruins by the invasion of Arelon.",
+      "revealedIn": [{ "book": "elantris", "chapter": "62" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Elantris lies to its west and the foothills of the Dathreki Mountains to its east. The Aredel River bends around the city's northern edge, past the palace, and enters the sea in a bay with the best harbor on Arelon's northern coast. Kae is sprawling and barely fortified, with only a low stone wall, yet it has rarely been attacked: fear of Elantris deters small bands of thieves, and nobles pay larger ones to keep away.",
+      "revealedIn": [{ "book": "elantris", "chapter": "15" }]
+    },
+    {
+      "text": "As the seat of Arelon's aristocracy, Kae shows none of the country's economic hardship, and its merchants cater to the nobles' showy tastes. The city is green and well kept, and no beggars are seen there, because King Iadon banned begging and had any beggars sent to the farms.",
+      "revealedIn": [{ "book": "elantris", "chapter": "21" }]
+    },
+    {
+      "text": "Some features recall the glory of Elantris, such as the sewers that once brought running water to every home, and the perfectly round wall around the inner city, beyond which Kae has spread.",
+      "revealedIn": [{ "book": "elantris", "chapter": "32" }]
+    },
+    {
+      "text": "By night the city is a sea of flickering lights, with streetlamps scattered among its low, widely spaced houses and a ring of lights marking its edge. It is said to be among the safest cities in Opelon.",
+      "revealedIn": [{ "book": "elantris", "chapter": "60" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Hard times and invasion",
+          "revealedIn": [{ "book": "elantris", "chapter": "62" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "As political uncertainty grew in the lead-up to Duke Telrii taking the throne, Kae's economy weakened and then collapsed, leaving the city cold and lifeless.",
+          "revealedIn": [{ "book": "elantris", "chapter": "62" }]
+        },
+        {
+          "text": "During the invasion of Arelon, Kae was the main battleground. Fires raged through the city and Dakhor monks slaughtered its people, and afterwards it lay almost entirely destroyed.",
+          "revealedIn": [{ "book": "elantris", "chapter": "62" }]
+        }
+      ]
+    }
+  ]
+}

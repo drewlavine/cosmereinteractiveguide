@@ -1,0 +1,33 @@
+{
+  "intro": [
+    {
+      "text": "Lady Allri Innate, the wife of Replar Innate, Elendel's governor.",
+      "revealedIn": [{ "book": "shadows-of-self", "chapter": "9" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Lady ZoBell's party",
+          "revealedIn": [
+            { "book": "shadows-of-self", "chapter": "9" },
+            { "book": "shadows-of-self", "chapter": "12" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The evening after the attack on her husband during one of his speeches, Allri attended Lady ZoBell's party, but she felt queasy, likely from shock and nerves, and went back to the governor's mansion to rest. Steris asked Replar after her health.",
+          "revealedIn": [{ "book": "shadows-of-self", "chapter": "9" }]
+        },
+        {
+          "text": "Once Wax persuaded Replar that the danger to his family was real, the governor sent Allri and their children somewhere safe.",
+          "revealedIn": [{ "book": "shadows-of-self", "chapter": "12" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

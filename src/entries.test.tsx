@@ -73,11 +73,11 @@ describe('culture pages', () => {
   })
 
   it('are linked from the Culture list once reached', async () => {
-    renderAt('/culture', before)
+    renderAt('/culture?group=name', before)
     await screen.findByRole('article', { name: 'Culture' })
     expect(screen.queryByRole('link', { name: 'Night Brigade' })).toBeNull()
     cleanup()
-    renderAt('/culture', firstIntro.chapter)
+    renderAt('/culture?group=name', firstIntro.chapter)
     expect(
       await screen.findByRole('link', { name: 'Night Brigade' }),
     ).toHaveAttribute('href', '/culture/night-brigade')

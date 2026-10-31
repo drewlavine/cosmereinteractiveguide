@@ -1,0 +1,23 @@
+{
+  "intro": [
+    {
+      "text": "A plant Shallan names while traveling toward the Shattered Plains, common in the southern Frostlands.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "20" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Crustspine has twisted, tubular branches of a brittle, sandstone-like material, tipped with tiny green leaves that fold and withdraw into the stalks. It grows tall enough to reach from a wagon seat.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "20" }]
+    }
+  ],
+  "history": [],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "shallan-davar",
+      "role": "named it",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "20" }]
+    }
+  ]
+}

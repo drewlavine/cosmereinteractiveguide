@@ -1,0 +1,30 @@
+{
+  "intro": [
+    {
+      "text": "A cheap vegetable grown in the Final Empire and eaten by skaa labourers, who get only enough food to survive.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "prologue" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "When Kelsier visits Tresting's plantation, Tepper and the skaa there cook farlet soup. It smells good, but usually tastes thin and bland.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "prologue" }]
+    }
+  ],
+  "history": [],
+  "facts": [
+    {
+      "label": "Grown on",
+      "name": "Tresting plantation",
+      "placeId": "tresting",
+      "revealedIn": [{ "book": "final-empire", "chapter": "prologue" }]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "tepper",
+      "role": "cook",
+      "revealedIn": [{ "book": "final-empire", "chapter": "prologue" }]
+    }
+  ]
+}

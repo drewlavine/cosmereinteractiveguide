@@ -1,0 +1,50 @@
+{
+  "intro": [
+    {
+      "text": "Eternathis, by an unknown author, recounts the history of eastern Roshar from the Hierocracy's collapse onward.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "8" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "A work of philosophy as much as history, it deals only with how Alethkar, Jah Keved, Kharbranth, Natanatan and Thaylenah, the Vorin kingdoms, dealt with each other. Within that narrow subject it is thorough.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "8" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Shallan's copy",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "8" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "In Kharbranth, Shallan bought a four-volume set of Eternathis from the bookseller Artmyrn to study history. Jasnah approved of the choice.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "8" }]
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Sold by",
+      "name": "Artmyrn",
+      "characterId": "artmyrn",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "8" }]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "shallan-davar",
+      "role": "reader",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "8" }]
+    },
+    {
+      "characterId": "artmyrn",
+      "role": "seller",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "8" }]
+    }
+  ]
+}

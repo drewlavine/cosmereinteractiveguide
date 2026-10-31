@@ -1,0 +1,88 @@
+{
+  "intro": [
+    {
+      "text": "One of Lossand's eight Professions: the soldiers of the Tower are the nation's army.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "prologue" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "The Tower seems to lie in or near Kezare, the capital, and includes barracks. Khrissalla visits it along with every other Profession's headquarters while in the city.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "6" }]
+    },
+    {
+      "text": "The Tower Garrison is where its military power is based.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "9" }]
+    },
+    {
+      "text": "The Diem and the Tower presumably once stood together against enemies such as the Kerztians, but after two hundred years of peace each scorns the other. Lossand spends more of its taxes on the Tower than on the Diem, and the Taishin have come to feel the Tower is all the defence they need.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "9" }]
+    },
+    {
+      "text": "Its Taisha is the Lord General, who lives in the Tower. It defends Lossand physically but has no authority over the trackts, who answer to Lady Judge Heelis, and the two are rivals.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "16" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Kenton's training",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "10" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Despite the rivalry, Kenton spent many hours of his youth training with the Tower's soldiers to make up for his weak sand mastery. It gave him sharp instincts and reflexes, which served him well, not least on the Mastrell's Path. The soldiers taught him that muscles pushed past their limits grow stronger, an idea he links to how overmastery builds a sand master's power.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "10" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Raagent's offer",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "9" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "When the Taishin voted to dissolve the Diem, Lord General Raagent showed his hunger for power by proposing to hire sand masters into the Tower rather than let them go to another land such as Seevis. Kenton called him a hypocrite, and Raagent took offence, but after watching Kenton behead a huge sandling alone he struck a deal to help save the Diem.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "9" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "A new Lord General",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "16" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Raagent was found dead in the Tower's wine cellar, and his son Aarik reluctantly agreed to take over as Lord General.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "16" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "raagent",
+      "role": "Lord General",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "9" }]
+    },
+    {
+      "characterId": "kenton",
+      "role": "trained there",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "10" }]
+    },
+    {
+      "characterId": "aarik",
+      "role": "Lord General",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "16" }]
+    }
+  ]
+}

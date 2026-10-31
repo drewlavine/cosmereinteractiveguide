@@ -1,0 +1,18 @@
+{
+  "intro": [
+    {
+      "text": "Lilting Adrene is an old Rosharan ballad about history. Jasnah has Shallan sing its refrain to test her voice.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "5" }]
+    }
+  ],
+  "description": [],
+  "history": [],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "shallan-davar",
+      "role": "singer",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "5" }]
+    }
+  ]
+}

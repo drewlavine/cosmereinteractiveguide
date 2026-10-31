@@ -1,0 +1,71 @@
+{
+  "intro": [
+    {
+      "text": "A noble house of Elendel, the family of Winsting Innate.",
+      "revealedIn": [{ "book": "shadows-of-self", "chapter": "1" }]
+    },
+    {
+      "text": "A noble house of Elendel whose notable members include Winsting and Replar Innate.",
+      "revealedIn": [{ "book": "shadows-of-self", "chapter": "4" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Among the mightiest of Elendel's noble houses. Nobody knows how the Innates made their fortune, but both Winsting and Replar sold political favours for money.",
+      "revealedIn": [{ "book": "shadows-of-self", "chapter": "18" }]
+    },
+    {
+      "text": "The house's Senate vote was much sought after, and it was sold for huge sums.",
+      "revealedIn": [{ "book": "shadows-of-self", "chapter": "18" }]
+    },
+    {
+      "text": "Winsting was an Allomancer, so the ability runs in the family.",
+      "revealedIn": [{ "book": "shadows-of-self", "chapter": "18" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The Innate brothers",
+          "revealedIn": [
+            { "book": "shadows-of-self", "chapter": "1" },
+            { "book": "shadows-of-self", "chapter": "6" },
+            { "book": "shadows-of-self", "chapter": "epilogue" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Winsting gathered nobles and crime lords at his mansion to sell his Senate vote under cover of auctioning a painting. Every guest died in a gunfight, and Winsting was killed in his saferoom.",
+          "revealedIn": [{ "book": "shadows-of-self", "chapter": "1" }]
+        },
+        {
+          "text": "Governor Replar Innate publicly defended his brother's name. During the address a guardsman drew a revolver on him, but Marasi caught the man in a slowness bubble and the shot went wild.",
+          "revealedIn": [{ "book": "shadows-of-self", "chapter": "6" }]
+        },
+        {
+          "text": "Wax discovered that Bleeder had been impersonating the governor, and no one could say when the real Replar had been killed. MeLaan, who had then taken his place, refused to testify and chose to fake his death.",
+          "revealedIn": [{ "book": "shadows-of-self", "chapter": "epilogue" }]
+        },
+        {
+          "text": "The family's corruption and the loss of both brothers badly damaged the house's reputation.",
+          "revealedIn": [{ "book": "shadows-of-self", "chapter": "epilogue" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "winsting-innate",
+      "role": "member",
+      "revealedIn": [{ "book": "shadows-of-self", "chapter": "1" }]
+    },
+    {
+      "characterId": "replar-innate",
+      "role": "member, governor",
+      "revealedIn": [{ "book": "shadows-of-self", "chapter": "4" }]
+    }
+  ]
+}

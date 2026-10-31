@@ -1,0 +1,35 @@
+{
+  "intro": [
+    {
+      "text": "Wayne's mother, who raised him in the mining town of Tinweight Settlement.",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "prologue" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Tinweight Settlement",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "prologue" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "She took in laundry while Wayne's father worked the mines of the Tinweight Settlement, until he died in a collapse. Wayne's uncle Gregr moved in and took his place at the mines, building cheap furniture for the household, though Wayne came to hate him. When Gregr also died in a mining accident, she went down the mines herself, and Wayne took over the laundry to bring in extra money.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "prologue" }]
+        },
+        {
+          "text": "One night in 319 PC she came home to find Wayne still awake and learned he had been stealing again. She told him it wasn't right, then told him a story about Allomancer Jak. It was Wayne's last good memory of her: the next day another collapse at the mine killed her.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "prologue" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": [
+    {
+      "text": "Close to Wayne, who could make her smile after the hardest day; she loved silly voices and telling him tales of the Roughs, but worried about his stealing and swearing, and privately feared she was a poor parent. She speaks with a Roughs dialect.",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "prologue" }]
+    }
+  ]
+}

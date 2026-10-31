@@ -1,0 +1,34 @@
+{
+  "intro": [
+    {
+      "text": "Captain Eusto, an Eelakin who works for the Northern Interests Trading Company.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "10" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The Patji expedition",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "10" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Eusto captained the company's ironhull steamship on the expedition that brought Vathi to Patji, seeking a permanent outpost there for the island's valuable Aviar. He resented her presence, fearing she would undercut his authority.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "10" }]
+        },
+        {
+          "text": "Armed with weapons from the Ones Above, the expedition killed a deepwalker and built a fortress on the island. When the party scouting a site for a second one was wiped out, stranding Vathi in the jungle, she suspected Eusto was glad she had not come back.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "10" }]
+        },
+        {
+          "text": "The expedition also carried a large machine from the Ones Above, able to map where the island's Aviar were, though the crew did not understand how it worked.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "10" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

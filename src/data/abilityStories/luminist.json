@@ -1,0 +1,35 @@
+{
+  "intro": [
+    {
+      "text": "A glowing paste made from worms that lets a boat whose hull is coated with it float on the dark not-water.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "21" }]
+    },
+    {
+      "text": "A glowing paste made from processed worms; anything coated with it can interact with the Cognitive Realm's unsea, and it can Invest living beings who wear or eat it.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "33" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "A coat stays effective for roughly five days.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "33" }]
+    },
+    {
+      "text": "Whether coated on a living being or eaten, it Invests them.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "33" }]
+    },
+    {
+      "text": "Navigators usually eat it to hold the Investiture their ability needs.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "52" }]
+    }
+  ],
+  "history": [],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "sixth-of-the-dusk",
+      "role": "coats his boat",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "21" }]
+    }
+  ]
+}

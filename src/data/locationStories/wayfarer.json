@@ -1,0 +1,41 @@
+{
+  "intro": [
+    {
+      "text": "An underground town beneath Bilming, where the Set kept the people it had captured for its Community scheme.",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "57" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Being underground, it has no grass or trees, but otherwise looks much like other Basin towns, with brick-and-clay houses, built without nails, set around a central park. Green-painted wood chips stand in for grass, a few ceiling floodlights light it, and unknown to its people its walls are one-way glass. All metal has been taken out, and the town is held at the technology of 341 PC, with little electricity beyond a public address system.",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "57" }]
+    },
+    {
+      "text": "An observation room shows residents pictures passed off as the ruined world outside. On the town's edge stands a three-story mansion with big picture windows on every side, supposedly Gave Entrone's home but mostly a front, which houses the town's radio station.",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "59" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The Community",
+          "revealedIn": [
+            { "book": "lost-metal", "chapter": "56" },
+            { "book": "lost-metal", "chapter": "68" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The Set built the town by 343 PC and brought in captured civilians, convincing them they were rescued survivors of the end of the world. They lived there for five years, visited by supposed survivors, really actors paid by the Set, whose tales kept the lie alive. Once the Set even let a so-called metal mutant into the town.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "56" }]
+        },
+        {
+          "text": "In 348 PC Marasi Colms got inside, confronted the town's mayor, Gave Entrone, and exposed the Set's lie. After overcoming him, she led the residents out to see the truth for themselves.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "68" }]
+        }
+      ]
+    }
+  ]
+}

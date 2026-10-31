@@ -1,0 +1,55 @@
+{
+  "intro": [
+    {
+      "text": "A deadly poison of Roshar: a tasteless white powder that kills within seconds, even if only breathed in, unless its antidote is taken.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "50" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Dusted over bread, it can pass for flour.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "50" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "A poisoning in Kharbranth",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "50" },
+            { "book": "way-of-kings", "chapter": "70" },
+            { "book": "way-of-kings", "chapter": "74" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "In 1173 the ardent Kabsal tried to poison Jasnah Kholin at the Palanaeum. He sprinkled the powder on Thaylen bread and put the antidote in jam he knew she disliked, bringing both for months on visits to her ward Shallan Davar. Jasnah finally ate the bread while Shallan was in hospital, at Shallan's urging.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "50" }]
+        },
+        {
+          "text": "Jasnah escaped by turning the bread to smoke with Soulcasting as she ate it. As a precaution she also Soulcast the jam, which stripped out the antidote and left a foul mess, so Kabsal and Shallan were poisoned instead. Jasnah saved Shallan by Soulcasting the poison out of her blood, but Kabsal died.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "70" }]
+        },
+        {
+          "text": "Jasnah named Kabsal as one of the Ghostbloods.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "74" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "kabsal",
+      "role": "poisoner",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "50" }]
+    },
+    {
+      "characterId": "jasnah-kholin",
+      "role": "target",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "50" }]
+    }
+  ]
+}

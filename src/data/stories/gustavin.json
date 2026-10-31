@@ -1,0 +1,26 @@
+{
+  "intro": [
+    {
+      "text": "A famous politician, Lord Gustavin the Great, known for giving up his noble lineage as a mark of his integrity.",
+      "revealedIn": [{ "book": "fires-of-december", "chapter": "iv" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The Northern Eclipse",
+          "revealedIn": [{ "book": "fires-of-december", "chapter": "iv" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "When December told the captain of the Northern Eclipse she wasn't a noble, he took it that she had given up her lineage the way Gustavin had.",
+          "revealedIn": [{ "book": "fires-of-december", "chapter": "iv" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

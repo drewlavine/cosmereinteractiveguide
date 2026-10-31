@@ -1,0 +1,26 @@
+{
+  "intro": [
+    {
+      "text": "An early Eelakin, known only from a name carved on a stone.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "21" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "An ancient name",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "21" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Their name is carved, in an early form of Eelakin script, on a stone on the island near the watchpost in the endless dark.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "21" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

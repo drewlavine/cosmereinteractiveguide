@@ -1,0 +1,43 @@
+{
+  "intro": [
+    {
+      "text": "General of the Idrian armies and an old friend of King Dedelin: a burly man with a thick beard.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "1" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "In Idris",
+          "revealedIn": [
+            { "book": "warbreaker", "chapter": "1" },
+            { "book": "warbreaker", "chapter": "9" },
+            { "book": "warbreaker", "chapter": "17" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "As he and Dedelin weigh the danger of war, Yarda persuades the king that honouring the treaty, and sending a princess to marry the God King, will hold Hallandren off for longer.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "1" }]
+        },
+        {
+          "text": "His son is Parlin, whom Dedelin often wished could marry Vivenna; the treaty had already promised her to Hallandren.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "9" }]
+        },
+        {
+          "text": "He and Dedelin could find no lasting answer to Hallandren, where more voices each year called for an attack on the so-called rebel Idrians. Yarda judged Idris's northern passes too tempting a prize for Hallandren to leave alone.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "17" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": [
+    {
+      "text": "Dedelin calls him a hard man forged by hard winters, yet as good a man as he has known. Yarda would send a single soldier to his death without a second thought if it put the rest of the army in a stronger position. His meetings with the king tend to run for hours.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "1" }]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "intro": [
+    {
+      "text": "A seon bonded to Dashe, named for the Aon that means hope.",
+      "revealedIn": [{ "all": ["elantris", "hope-of-elantris"] }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "A new master",
+          "revealedIn": [{ "all": ["elantris", "hope-of-elantris"] }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Ati's bonded was an Elantrian when the Reod struck, which left the seon without a mind of their own until Elantris was restored. By then that first master had died, so Ati went to Raoden to ask for someone new. Raoden entrusted both Ati and another seon, Aeo, to Dashe, who kept Ati for himself and handed Aeo to Matisse.",
+          "revealedIn": [{ "all": ["elantris", "hope-of-elantris"] }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

@@ -1,0 +1,168 @@
+{
+  "intro": [
+    {
+      "text": "An old leather-bound book that Vin grabs in Kredik Shaw to shield herself from an Inquisitor.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "14" }]
+    },
+    {
+      "text": "An ancient journal in Khlenni that Vin took from Kredik Shaw. Its writer records his life, his travels and his struggle to accept the role of Hero of Ages, and Sazed is translating it.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "17" }]
+    },
+    {
+      "text": "Alendi's ancient journal, which Vin took from Kredik Shaw and Sazed translated. In it Alendi records his life, his travels and his struggle to accept the role of Hero of Ages; Vin combs it for clues about the mists and the Deepness.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "17" },
+            { "book": "well-of-ascension", "chapter": "16" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "Much of the journal follows its writer's journey into Terris: the herdsmen and farmers, the mountains, and the route up into the icy highlands, for which he hires Terris packmen.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "4" }]
+    },
+    {
+      "text": "Among the packmen is Rashek, a tall young man the others respect, who curses Khlennium and openly hates the writer. The writer sees him as one of a growing faction of Terris youths who want their powers used for more than fieldwork.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "11" }]
+    },
+    {
+      "text": "As he relates his travels, the writer questions his own choices, doubts that he is truly the Hero of Ages, and ponders what the Terris prophecies mean. He wrote not for posterity but to set his feelings down and keep his sanity.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "22" }]
+    },
+    {
+      "text": "It gives details of his travels, down to supply lists, and a few sights, like the Terris ice fields and waterfalls, and tells how his journey began and how he met Kwaan. It mentions both Allomancy and Feruchemy without comparing them, and says nothing of the Eleventh Metal.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "29" }]
+    },
+    {
+      "text": "High in the mountains, the writer tells of a lake Fedik found and of the mist creature following the party, which stabbed Fedik with an invisible knife.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "33" }]
+    },
+    {
+      "text": "He insists that, whatever happens, he must give up the power rather than take it for himself.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "35" }]
+    },
+    {
+      "text": "It warns that the Deepness is dangerous but never says what it is.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "29" },
+            { "book": "well-of-ascension", "chapter": "16" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "The journey's goal is the Well of Ascension in Terris, and the journal notes each appearance of the mist spirit along the way.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "33" },
+            { "book": "well-of-ascension", "chapter": "16" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Found and translated",
+          "revealedIn": [
+            { "book": "final-empire", "chapter": "14" },
+            { "book": "final-empire", "chapter": "15" },
+            { "book": "final-empire", "chapter": "21" },
+            { "book": "final-empire", "chapter": "29" },
+            { "book": "final-empire", "chapter": "38" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Fighting an Inquisitor in Kredik Shaw, Vin snatches up a leather-bound book at random to block the metal shards he Pushes at her, and she gets away with it still in hand.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "14" }]
+        },
+        {
+          "text": "Sazed brings the wounded Vin back to the crew along with the book. He tells Kelsier and Dockson it is written in Khlenni, the language of Khlennium, and thinks he can translate it in time.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "15" }]
+        },
+        {
+          "text": "Delighted with the book, Sazed works on translating it and passes finished parts to the crew; some of Clubs's apprentices make copies for the crew to read.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "21" }]
+        },
+        {
+          "text": "Vin reads the last of the translation and is disappointed it ends before telling what the writer did to save the world; Kelsier is disappointed it never mentions the Eleventh Metal.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "29" }]
+        },
+        {
+          "text": "The crew had taken the Lord Ruler for its writer, since he claimed to be the Hero of Ages who had to defeat the Deepness. The journal instead leads Vin to see that the Lord Ruler is Rashek, not the writer: both hold that Rashek's people should be dominant.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "38" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "After the Collapse",
+          "revealedIn": [
+            { "book": "well-of-ascension", "chapter": "16" },
+            { "book": "well-of-ascension", "chapter": "33" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Vin combs her copy of the logbook for any mention of the mist spirit or the Deepness. She concludes that the spirit watching her is the same one that once trailed Alendi, though the book tells her little about either.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "16" }]
+        },
+        {
+          "text": "Her study leads her to believe that the mists are the Deepness, and that she herself is the Hero of Ages.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "33" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "vin",
+      "role": "Found it",
+      "revealedIn": [{ "book": "final-empire", "chapter": "14" }]
+    },
+    {
+      "characterId": "sazed",
+      "role": "Translator",
+      "revealedIn": [{ "book": "final-empire", "chapter": "15" }]
+    },
+    {
+      "characterId": "rashek",
+      "role": "Terris packman",
+      "revealedIn": [{ "book": "final-empire", "chapter": "11" }]
+    },
+    {
+      "characterId": "kwaan",
+      "role": "Terris philosopher",
+      "revealedIn": [{ "book": "final-empire", "chapter": "29" }]
+    },
+    {
+      "characterId": "fedik",
+      "role": "Stabbed companion",
+      "revealedIn": [{ "book": "final-empire", "chapter": "33" }]
+    },
+    {
+      "characterId": "lord-ruler",
+      "role": "Supposed writer",
+      "revealedIn": [{ "book": "final-empire", "chapter": "38" }]
+    },
+    {
+      "characterId": "alendi",
+      "role": "Writer",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "16" }]
+    }
+  ]
+}

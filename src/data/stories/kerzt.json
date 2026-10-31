@@ -1,0 +1,27 @@
+{
+  "intro": [
+    {
+      "text": "A figure of ancient legend whose split with his sister Lossa over worshipping the Sand Lord is said to have divided Kerzta from Lossand.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "3" }],
+      "fallback": true
+    }
+  ],
+  "history": [
+    {
+      "title": [{ "text": "Legend", "revealedIn": ["white-sand-omnibus"] }],
+      "items": [
+        {
+          "text": "Kerzt and Lossa both said the Sand Lord had visited them, but only Lossa gained sand mastery. Kerztians call her power a curse that Kerzt rightly tried to punish; Lossandins say he attacked her out of envy and drove her into the desert, where she founded Lossand. Their quarrel gave rise to the Ker'reen faith and the Los'seen philosophy, and the nations named after them have fought many wars since.",
+          "revealedIn": ["white-sand-omnibus"]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Traditionally shown as a short, bearded man in a hooded robe, carrying a thin staff or cane.",
+      "revealedIn": ["white-sand-omnibus"]
+    }
+  ],
+  "personality": []
+}

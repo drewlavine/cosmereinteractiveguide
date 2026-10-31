@@ -1,0 +1,33 @@
+{
+  "intro": [
+    {
+      "text": "A Survivorist priest in Elendel.",
+      "revealedIn": [{ "book": "shadows-of-self", "chapter": "12" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The mistdawn sermon",
+          "revealedIn": [
+            { "book": "shadows-of-self", "chapter": "12" },
+            { "book": "shadows-of-self", "chapter": "15" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "At the mistdawn service, a Pathian priest named Larskpur preached to the gathered Survivorists, then lowered a drape to show Father Bin nailed to the wall by spikes through both eyes.",
+          "revealedIn": [{ "book": "shadows-of-self", "chapter": "12" }]
+        },
+        {
+          "text": "Wax had sent Father Bin a formal request to perform his wedding to Steris. The Pathian preacher had been Bleeder in disguise, aiming to set Survivorists against Pathians and push the city toward riots. Wax found Larskpur's bones and a bloody mallet, likely used on Father Bin, in the back of Chapaou's coach.",
+          "revealedIn": [{ "book": "shadows-of-self", "chapter": "15" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

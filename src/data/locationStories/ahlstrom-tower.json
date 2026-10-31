@@ -1,0 +1,59 @@
+{
+  "intro": [
+    {
+      "text": "A skyscraper in Elendel.",
+      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "31" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "The tower has a flat top, its roof roomy enough for a crowd and an airship. Its top floor is a stately penthouse whose bedroom suite opens onto a balcony above the city, high enough that stars show even on misty nights. Wax fitted metal structures to the outside to help with steelpushing.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "bands-of-mourning", "chapter": "epilogue" },
+            { "book": "lost-metal", "chapter": "epilogue-2" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Back to Elendel",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "31" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Waxillium Ladrian bought a share in the tower. Its penthouse stood empty while the people living there were away in Elmsdel on a long holiday.",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "31" }]
+        },
+        {
+          "text": "Returning to Elendel aboard a Southern Scadrian airship, Wax, Steris Harms, Marasi Colms and Wayne set down on the roof, where Governor Claude Aradel and Constable-General Reddi met them. Worn out, Wax gave Aradel only a brief account and put off the full story until the next day.",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "31" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The wedding night",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "epilogue" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Wax brought Steris downstairs, where a Survivorist priest was standing by in the penthouse. He asked her to marry him for love rather than as a contract between their houses; she said yes, they wed that same night and spent the whole of their honeymoon there.",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "epilogue" }]
+        },
+        {
+          "text": "After that stay, Wax thought about leaving Ladrian mansion to live in the tower for good, seeing skyscrapers as the mark of a newer, livelier age.",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "epilogue" }]
+        }
+      ]
+    }
+  ]
+}

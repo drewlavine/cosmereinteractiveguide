@@ -108,6 +108,85 @@
       ]
     }
   ],
+  "sections": [
+    {
+      "title": "Healing and partnership",
+      "items": [
+        {
+          "text": "Time spent in an awakened Urithiru helps a deadeye heal.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "34" }]
+        },
+        {
+          "text": "Maya and Adolin can speak mind-to-mind, though distance in Shadesmar weakens the connection.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "67" }]
+        },
+        {
+          "text": "An Unoathed partnership is a personal connection, not a Nahel bond. The spren can remain in Shadesmar until summoned as a Blade.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "147" }]
+        },
+        {
+          "text": "Recovery is incomplete: Maya regained eyes and speech but remained scarred, with her thoughts and speech still recovering.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "rhythm-of-war", "chapter": "94" },
+                { "book": "wind-and-truth", "chapter": "147" }
+              ]
+            }
+          ]
+        }
+      ],
+      "parts": []
+    },
+    {
+      "title": "Causes and recovery",
+      "items": [],
+      "parts": [
+        {
+          "title": [
+            {
+              "text": "The abandoned oaths",
+              "revealedIn": [{ "book": "wind-and-truth", "chapter": "124" }]
+            }
+          ],
+          "items": [
+            {
+              "text": "Before the Recreance, Honor showed the Radiants visions of Roshar destroyed.",
+              "revealedIn": [{ "book": "wind-and-truth", "chapter": "124" }]
+            }
+          ]
+        },
+        {
+          "title": [
+            {
+              "text": "Help at Azimir",
+              "revealedIn": [{ "book": "wind-and-truth", "chapter": "135" }]
+            }
+          ],
+          "items": [
+            {
+              "text": "Maya brought deadeyes and their Plate spren to help the city's defenders.",
+              "revealedIn": [{ "book": "wind-and-truth", "chapter": "135" }]
+            }
+          ]
+        },
+        {
+          "title": [
+            {
+              "text": "Mishram's release",
+              "revealedIn": [{ "book": "wind-and-truth", "chapter": "147" }]
+            }
+          ],
+          "items": [
+            {
+              "text": "Freeing Ba-Ado-Mishram began the recovery of all deadeyes, without fully healing them.",
+              "revealedIn": [{ "book": "wind-and-truth", "chapter": "147" }]
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "facts": [],
   "people": [
     {

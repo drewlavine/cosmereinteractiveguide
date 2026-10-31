@@ -1,0 +1,59 @@
+{
+  "intro": [
+    {
+      "text": "A name given to the day of the contest of champions.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "129" }]
+    }
+  ],
+  "description": [],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The long conflict",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "115" },
+            { "book": "wind-and-truth", "chapter": "122" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Cultivation helped bind the three Shards to Roshar and limit their war through mortal agents.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "115" }]
+        },
+        {
+          "text": "Odium promised to accept a contest of champions in exchange for Honor removing Ba-Ado-Mishram.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "122" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The contest and its outcome",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "142" },
+            { "book": "wind-and-truth", "chapter": "145" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Dalinar briefly took up Honor, then renounced his oaths rather than continue the war between the powers.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "142" }]
+        },
+        {
+          "text": "Taravangian combined Honor and Odium as Retribution and folded the highstorm into the Everstorm.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "145" }]
+        },
+        {
+          "text": "The renewed Oathpact protected the spren from Retribution; Azir and the Shattered Plains remained independent.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "145" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": []
+}

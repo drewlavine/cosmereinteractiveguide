@@ -1,0 +1,23 @@
+{
+  "intro": [
+    {
+      "text": "A Rosharan method of judging people by the width of their fingers.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "44" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "The stormwarden Elthebar suggested that the gear ratios of the fabrial lifts in Urithiru might somehow be linked to their builders' fingers.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "44" }]
+    }
+  ],
+  "history": [],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "elthebar",
+      "role": "theorist",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "44" }]
+    }
+  ]
+}

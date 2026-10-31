@@ -1,0 +1,427 @@
+/* Group cards. One component, three looks: the grid's data-card picks
+   poster (art above the name), banner (art fills the card) or tile (small
+   art beside the name). */
+
+.grid {
+  display: grid;
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.grid > li {
+  display: flex;
+  min-width: 0;
+}
+
+.grid[data-card='poster'] {
+  grid-template-columns: repeat(auto-fill, minmax(10.5rem, 1fr));
+}
+
+.grid[data-card='banner'] {
+  grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+}
+
+.grid[data-card='tile'] {
+  grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr));
+  gap: 0.6rem 0.8rem;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-width: 0;
+  overflow: hidden;
+  border: 1px solid rgba(212, 165, 64, 0.3);
+  border-radius: 12px;
+  background: var(--panel);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.25);
+  color: var(--text);
+  text-decoration: none;
+  /* Keyboard focus scrolls a card clear of the sticky chips (see Browse). */
+  scroll-margin-top: calc(var(--chips-h, 0px) + 0.75rem);
+}
+
+/* A faint wash behind the art, so a card whose picture is still loading
+   doesn't look empty. */
+.media {
+  position: relative;
+  display: block;
+  flex: none;
+  aspect-ratio: 3 / 4;
+  overflow: hidden;
+  background: linear-gradient(160deg, #2a3d4d, #17232d);
+}
+
+.media img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  border: 0;
+  border-radius: 0;
+  object-fit: cover;
+  object-position: top center;
+}
+
+/* A glyph or emblem: shown whole, not cropped to fill. */
+.contain img {
+  padding: 14%;
+  object-fit: contain;
+  object-position: center;
+}
+
+/* A world: the planet as the star charts paint it, in the dark. */
+.space {
+  background:
+    radial-gradient(
+      circle at 50% 46%,
+      rgba(120, 165, 195, 0.24),
+      transparent 64%
+    ),
+    radial-gradient(
+      1px 1px at 17% 21%,
+      rgba(255, 255, 255, 0.8) 50%,
+      transparent 52%
+    ),
+    radial-gradient(
+      1px 1px at 79% 15%,
+      rgba(255, 255, 255, 0.7) 50%,
+      transparent 52%
+    ),
+    radial-gradient(
+      1.3px 1.3px at 63% 84%,
+      rgba(255, 255, 255, 0.8) 50%,
+      transparent 52%
+    ),
+    radial-gradient(
+      1px 1px at 11% 71%,
+      rgba(255, 255, 255, 0.6) 50%,
+      transparent 52%
+    ),
+    radial-gradient(
+      1px 1px at 90% 58%,
+      rgba(255, 255, 255, 0.7) 50%,
+      transparent 52%
+    ),
+    radial-gradient(
+      1px 1px at 38% 9%,
+      rgba(255, 255, 255, 0.6) 50%,
+      transparent 52%
+    ),
+    radial-gradient(
+      1.2px 1.2px at 30% 91%,
+      rgba(255, 255, 255, 0.7) 50%,
+      transparent 52%
+    ),
+    #0a141b;
+}
+
+.space svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+/* No art (or none yet): a hued panel, a ring and the list's own symbol. It
+   depends only on the group, so hidden art can't be told from none. */
+.panel {
+  --sym: 3.4rem;
+  display: grid;
+  place-items: center;
+  background:
+    radial-gradient(
+      circle at 50% 36%,
+      rgba(255, 255, 255, 0.16),
+      transparent 58%
+    ),
+    linear-gradient(160deg, var(--a), var(--b));
+}
+
+.panel::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  width: 64%;
+  aspect-ratio: 1;
+  margin: auto;
+  border: 1px solid rgba(212, 165, 64, 0.38);
+  border-radius: 50%;
+  box-shadow:
+    0 0 0 0.55rem rgba(212, 165, 64, 0.07),
+    inset 0 0 1.4rem rgba(0, 0, 0, 0.28);
+}
+
+.symbol {
+  position: relative;
+  display: grid;
+  place-items: center;
+  color: var(--gold-soft);
+  filter: drop-shadow(0 2px 6px rgba(0, 0, 0, 0.55));
+}
+
+.symbol svg {
+  width: var(--sym);
+  height: var(--sym);
+}
+
+.symbol :global(.search-icon),
+.symbol :global(.feature-icon) {
+  stroke-width: 1.4;
+}
+
+.monogram {
+  font-family: var(--display);
+  font-size: calc(var(--sym) * 1.15);
+  line-height: 1;
+}
+
+/* Eight hues, in an order where neighbours (and the last and first) differ. */
+.tone0 {
+  --a: #2f5568;
+  --b: #15303d;
+}
+
+.tone1 {
+  --a: #54406b;
+  --b: #2a1f3d;
+}
+
+.tone2 {
+  --a: #6b3f3f;
+  --b: #3a1f22;
+}
+
+.tone3 {
+  --a: #3f6650;
+  --b: #1d3a2b;
+}
+
+.tone4 {
+  --a: #6b5a35;
+  --b: #3a2f17;
+}
+
+.tone5 {
+  --a: #3f5270;
+  --b: #1f2c40;
+}
+
+.tone6 {
+  --a: #6b3f58;
+  --b: #3a1f30;
+}
+
+.tone7 {
+  --a: #7a4d2b;
+  --b: #3d2514;
+}
+
+.text {
+  display: grid;
+  gap: 0.1rem;
+  min-width: 0;
+  padding: 0.7rem 0.8rem 0.85rem;
+}
+
+.name {
+  color: var(--text-strong);
+  font-family: var(--display);
+  font-size: 1.15rem;
+  line-height: 1.2;
+  overflow-wrap: anywhere;
+}
+
+.count {
+  color: var(--text-muted, #9fb0bc);
+  font-size: 0.85rem;
+}
+
+.credit {
+  margin-top: 0.15rem;
+  overflow: hidden;
+  color: var(--text-muted, #9fb0bc);
+  font-size: 0.68rem;
+  opacity: 0.8;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* Poster, when no card of the grouping has art: shorter panels, so a long
+   run of symbols takes less room. */
+.grid[data-card='poster'][data-compact] .media {
+  aspect-ratio: 16 / 10;
+}
+
+.grid[data-card='poster'][data-compact] .panel {
+  --sym: 2.6rem;
+}
+
+.grid[data-card='poster'][data-compact] .panel::before {
+  width: auto;
+  height: 76%;
+}
+
+/* Banner: the art fills the card; the name sits on a fade at the foot. */
+.grid[data-card='banner'] .card {
+  aspect-ratio: 4 / 3;
+}
+
+.grid[data-card='banner'] .media {
+  position: absolute;
+  inset: 0;
+  aspect-ratio: auto;
+}
+
+.grid[data-card='banner'] .media img {
+  object-position: center 28%;
+}
+
+.grid[data-card='banner'] .contain img {
+  object-position: center;
+}
+
+.grid[data-card='banner'] .text {
+  position: relative;
+  margin-top: auto;
+  padding: 2.6rem 0.9rem 0.8rem;
+  background: linear-gradient(
+    to top,
+    rgba(7, 13, 18, 0.97),
+    rgba(7, 13, 18, 0.86) 55%,
+    transparent
+  );
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.8);
+}
+
+.grid[data-card='banner'] .credit {
+  opacity: 1;
+}
+
+.grid[data-card='banner'] .space svg {
+  height: 80%;
+}
+
+.grid[data-card='banner'] .panel {
+  --sym: 4rem;
+  padding-bottom: 2.8rem;
+}
+
+.grid[data-card='banner'] .panel::before {
+  bottom: 2.8rem;
+  width: auto;
+  height: 62%;
+}
+
+/* Tile: small art beside the name, for the long lists. */
+.grid[data-card='tile'] .card {
+  flex-direction: row;
+  align-items: center;
+  gap: 0.7rem;
+  min-height: 3.75rem;
+  padding: 0.45rem 0.75rem 0.45rem 0.45rem;
+  border-radius: 10px;
+}
+
+.grid[data-card='tile'] .media {
+  width: 3.25rem;
+  aspect-ratio: 1;
+  border-radius: 8px;
+}
+
+/* Covers share their header and footer lettering, so crop to the middle. */
+.grid[data-card='tile'] .media img {
+  object-position: center;
+}
+
+.grid[data-card='tile'] .panel {
+  --sym: 1.5rem;
+}
+
+.grid[data-card='tile'] .panel::before {
+  display: none;
+}
+
+.grid[data-card='tile'] .contain img {
+  padding: 8%;
+}
+
+.grid[data-card='tile'] .text {
+  padding: 0;
+}
+
+.grid[data-card='tile'] .name {
+  font-size: 1.02rem;
+}
+
+.grid[data-card='tile'] .credit {
+  overflow: visible;
+  text-overflow: clip;
+  white-space: normal;
+}
+
+@media (hover: hover) {
+  .card:hover {
+    border-color: var(--gold);
+  }
+}
+
+@media (hover: hover) and (prefers-reduced-motion: no-preference) {
+  .card {
+    transition:
+      transform 0.18s ease-out,
+      box-shadow 0.18s ease-out,
+      border-color 0.18s;
+  }
+
+  .card:hover {
+    box-shadow:
+      0 8px 22px rgba(0, 0, 0, 0.45),
+      0 0 0 1px rgba(212, 165, 64, 0.45);
+    transform: translateY(-3px);
+  }
+
+  .media img {
+    transition: transform 0.35s ease-out;
+  }
+
+  .card:hover .media img {
+    transform: scale(1.05);
+  }
+}
+
+@media (max-width: 639px) {
+  .grid,
+  .grid[data-card] {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.75rem;
+  }
+
+  .text {
+    padding: 0.6rem 0.65rem 0.7rem;
+  }
+
+  .name {
+    font-size: 1.05rem;
+  }
+
+  .grid[data-card='banner'] .text {
+    padding: 2.2rem 0.7rem 0.65rem;
+  }
+
+  .grid[data-card='tile'] .card {
+    gap: 0.55rem;
+    padding-right: 0.5rem;
+  }
+
+  .grid[data-card='tile'] .media {
+    width: 2.75rem;
+  }
+
+  .grid[data-card='tile'] .name {
+    font-size: 0.95rem;
+  }
+}

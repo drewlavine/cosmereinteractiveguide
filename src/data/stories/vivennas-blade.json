@@ -1,0 +1,164 @@
+{
+  "intro": [
+    {
+      "text": "The Shardblade of some sort carried by Azure, the woman leading the guard on Kholinar's wall, with which she rallied her troops against the Cult of Moments.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "70" }],
+      "fallback": true
+    },
+    {
+      "text": "Azure's Shardblade-like sword, which slices through almost anything and turns those it kills an ashen gray instead of burning out their eyes.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "83" }]
+    },
+    {
+      "text": "The sword Vivenna carries in her guise as Azure, perhaps an Awakened weapon akin to Nightblood; it slices through almost anything and drains the color from those it kills.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "warbreaker", "chapter": "51" },
+            { "book": "oathbringer", "chapter": "83" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Azure's unusual sword, short and thin for a Shardblade, which she used to defend Kholinar and to help a group of Radiants escape across Shadesmar.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "110" }]
+    },
+    {
+      "text": "The sword, probably Awakened, that Vivenna carries as Azure; she used it to defend Kholinar and to help a group of Radiants escape across Shadesmar.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "warbreaker", "chapter": "51" },
+            { "book": "oathbringer", "chapter": "110" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Origins",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "warbreaker", "chapter": "51" },
+                { "book": "oathbringer", "chapter": "83" }
+              ]
+            },
+            { "book": "oathbringer", "chapter": "101" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "No one knows where the sword came from. Because it drains the color from those it kills and resembles Nightblood in other ways, it was likely made on Nalthis by Awakening, though by a different process or Command than Nightblood.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "warbreaker", "chapter": "51" },
+                { "book": "oathbringer", "chapter": "83" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Azure seems to link the sword with her past failures and with burdens she let fall, so it may have played a part in something she regrets.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "101" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Siege of Kholinar",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "81" },
+            { "book": "oathbringer", "chapter": "89" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Azure already had the sword when she came to Kholinar before the siege. After the Wall Guard's commander died in the riots, she used it to hold the wall against the Cult of Moments and took command as Highmarshal Azure, mostly hiding that she was a woman, since a woman leading soldiers with a Shardblade would seem odd.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "81" }]
+        },
+        {
+          "text": "When the siege began, the Fused kept clear of her blade. She also used it to cut blocks of stone in a hidden room under the windblades, giving her Soulcasters enough stone to turn into grain to feed the besieged city.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "81" }]
+        },
+        {
+          "text": "After agreeing with Kaladin to send part of the Wall Guard to free the palace, Azure fought at the head of the attack with her sword. When the singer armies overwhelmed them, she took it with her into Shadesmar as Shallan activated the corrupted Oathgate.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "89" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Across Shadesmar",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "110" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Azure kept the sword with her on the way to Celebrant, but the honorspren took it from her when the group escaped the city aboard the Honor's Path. She told Borea, the first mate, that she knew how to make Blades without enslaving a spren, and offered to prove it.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "110" }]
+        },
+        {
+          "text": "Borea brought the sword on deck and drew it as instructed, letting it investigate her. She gave it back and offered passage to Lasting Integrity, and news of a sword Azure was hunting, in return for the secret of its forging. When the others left the ship, Azure stayed aboard with her sword to help fight off the pursuing Fused.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "110" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Although it looks otherworldly, it isn't instantly recognizable as a Shardblade. It is small, short and slender for one, with no gemstones on its crossguard or pommel and a gleaming silver basket hilt.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "93" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "It may have some intelligence, since it investigates whoever draws it, but whether it is truly self-aware is unknown. Azure thinks of the sword as female.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "108" }]
+    }
+  ],
+  "abilities": [
+    {
+      "title": [
+        {
+          "text": "Abilities",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "83" },
+            {
+              "all": [
+                { "book": "warbreaker", "chapter": "51" },
+                { "book": "oathbringer", "chapter": "108" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Like a Shardblade, it cuts through nonliving material almost effortlessly. But a person it kills does not have their eyes burned out; instead their whole body turns a strange ashen gray.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "83" }]
+        },
+        {
+          "text": "It can't be summoned or dismissed. The first time someone draws it, they feel a tingle as it investigates them. Unlike Nightblood, it doesn't need a source of Investiture to be drawn safely.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "warbreaker", "chapter": "51" },
+                { "book": "oathbringer", "chapter": "108" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

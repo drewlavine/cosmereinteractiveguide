@@ -1,0 +1,33 @@
+{
+  "intro": [
+    {
+      "text": "Scarfever is an illness on Roshar that can kill.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "44" }]
+    }
+  ],
+  "description": [],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Known cases",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "44" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Around 1167, scarfever killed the wife of Harl, a man of the Alethi town of Hearthstone.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "44" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "harl",
+      "role": "widower",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "44" }]
+    }
+  ]
+}

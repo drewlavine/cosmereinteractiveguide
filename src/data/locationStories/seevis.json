@@ -1,0 +1,30 @@
+{
+  "intro": [
+    {
+      "text": "A nation of Dayside and one of the Rim Kingdoms.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "9" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "It lies on Dayside's eastern coast, with Denka to the north and Tallon to the south. Mountains form its western border, with a way through in the northwest to the northern deep sand. Its cities include Reveln.",
+      "revealedIn": ["white-sand-omnibus"]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Interest in the sand masters",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "9" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Lossand's Lord General suspected King Reven of Seevis of offering to hire sand masters.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "9" }]
+        }
+      ]
+    }
+  ]
+}

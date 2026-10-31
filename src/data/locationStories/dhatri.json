@@ -1,0 +1,49 @@
+{
+  "intro": [
+    {
+      "text": "A planet hit by the dark aether, a force that made it unsafe for aetherbound to remain there.",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "47" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Followers of the aethers hold that the aethers gave humans rebirth so they could encourage and lift up one another. At death a person goes back to the aethers to reflect on their life, and those who chose badly must wait long to be reborn. A common oath is \"by the first aether\".",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "51" }]
+    },
+    {
+      "text": "Its people worship the aethers as gods older than the Shattering and even than Adonalsium, and believe the aethers made every person to think differently.",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "epilogue-1" }]
+    },
+    {
+      "text": "Dhatri has at least twelve kingdoms. Among its offices is that of Raj, and it has a body called the Coriander Court.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "lost-metal", "chapter": "51" },
+            { "book": "isles-of-the-emberdark", "chapter": "22" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Some Dhatrians have black hair, at times braided, and brown skin with a light tan undertone, and many favor bright, colorful clothes. The planet has its own flowing script, and owning a dead aether is thought very bad luck.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "28" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Trade and travel",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "36" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Travel to Dhatri became very costly. The planet sells aethers, but they are expensive and tightly regulated.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "36" }]
+        }
+      ]
+    }
+  ]
+}

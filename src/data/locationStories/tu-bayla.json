@@ -1,0 +1,55 @@
+{
+  "intro": [
+    {
+      "text": "A Rosharan nation badly affected by the Everstorm and the collapse of regional trade.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "i-2" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Its people keep domesticated minks as pets and hunting companions.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "i-2" }]
+    },
+    {
+      "text": "Tu Bayla has a rich musical tradition and an unusually wide variety of instruments.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "i-2" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Border wars",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "i-2" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Neighboring powers repeatedly fought over Tu Bayla, including Azir, Jah Keved and Alethkar.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "i-2" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The True Desolation",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "i-2" },
+            { "book": "wind-and-truth", "chapter": "146" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The Everstorm destroyed crops, and trade between Azir and Jah Keved broke down. Famine undermined the government, allowing warlords to control communities through their food supplies.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "i-2" }]
+        },
+        {
+          "text": "During the Night of Sorrows, the Purelake overflowed into parts of Tu Bayla while the unending Everstorm kept the country in darkness.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "146" }]
+        }
+      ]
+    }
+  ]
+}

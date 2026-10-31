@@ -1,0 +1,47 @@
+{
+  "intro": [
+    {
+      "text": "A Shin scholar.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "8" },
+            { "book": "words-of-radiance", "chapter": "47" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Scholar",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "8" },
+                { "book": "words-of-radiance", "chapter": "47" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Ali-daughter-Hasweth was a scholar from Shinovar.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "8" },
+                { "book": "words-of-radiance", "chapter": "47" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

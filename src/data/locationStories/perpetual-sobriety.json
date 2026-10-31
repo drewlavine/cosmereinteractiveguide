@@ -1,0 +1,19 @@
+{
+  "intro": [
+    {
+      "text": "A settlement on a Sea of Souls peninsula in Shadesmar, with the Basin of the Veiled Sun to its north and Ageless Beauty to its south.",
+      "revealedIn": [{ "all": ["oathbringer", "rhythm-of-war"] }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Its peninsula is the river between Azir and Emul in the Physical Realm.",
+      "revealedIn": [{ "all": ["oathbringer", "rhythm-of-war"] }]
+    },
+    {
+      "text": "A note on the map adds that it is perpetually boring as well.",
+      "revealedIn": ["rhythm-of-war"]
+    }
+  ],
+  "history": []
+}

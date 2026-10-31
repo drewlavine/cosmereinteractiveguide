@@ -1,0 +1,70 @@
+{
+  "intro": [
+    {
+      "text": "Kerzta's faith in the Sand Lord, divided from Lossand's by an old schism. Its clergy, the priest DaiKeen, are led by a high priest called the A'kar, bear square scars on their foreheads and speak Karshad.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "3" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "A schism over the right way to worship the Sand Lord split Kerzt from Lossa, and with them the nations of Kerzta and Lossand.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "3" }]
+    },
+    {
+      "text": "A Kerztian who serves Lossand's law can be called zensha, a traitor to their people and faith. Ais answers that justice belongs to the Sand Lord, so in serving it she serves him.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "6" }]
+    },
+    {
+      "text": "Its law lets a family be charged with killing an enemy of the Kerztian people. Every second day it may dispatch as many as eight warriors until the job is done, unless the target first finds and beats its leader; each failed attack buys the target a day's safety.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "8" }]
+    },
+    {
+      "text": "It teaches against sand mastery, holding that the sand is the Sand Lord's own body and a power people were never meant to wield.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "13" }]
+    },
+    {
+      "text": "Its chief holy book is the KerKor.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "14" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "A convert in the Diem",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "18" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Elorin claims he was visited by the Sand Lord, which persuaded him that Ker'reen is true; he had become a convert half a year earlier.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "18" }]
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Leader",
+      "name": "The A'kar",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "3" }]
+    },
+    {
+      "label": "Holy text",
+      "name": "The KerKor",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "14" }]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "ais",
+      "role": "believer",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "6" }]
+    },
+    {
+      "characterId": "elorin",
+      "role": "convert",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "18" }]
+    }
+  ]
+}

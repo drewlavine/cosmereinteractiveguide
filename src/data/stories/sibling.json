@@ -158,5 +158,77 @@
       "text": "Feeling betrayed by humanity at the Recreance, the Sibling distrusts humans and doesn't want to bond one. They despise modern fabrials for imprisoning spren, though will compromise if the spren are treated well.",
       "revealedIn": [{ "book": "wind-and-truth", "chapter": "69" }]
     }
+  ],
+  "abilities": [
+    {
+      "title": [
+        {
+          "text": "Towerlight",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "rhythm-of-war", "chapter": "110" },
+                { "book": "wind-and-truth", "chapter": "i-13" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The Sibling continually replenishes Towerlight inside Urithiru and can interrupt powers drawing on it. Outside the tower, Towerlight rapidly escapes from gemstones and people.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "rhythm-of-war", "chapter": "110" },
+                { "book": "wind-and-truth", "chapter": "i-13" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The Bondsmith's presence",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "rhythm-of-war", "chapter": "87" },
+                { "book": "wind-and-truth", "chapter": "i-13" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The Sibling's bond weakens if their Bondsmith remains away from Urithiru for several weeks. Absence in the Spiritual Realm has a slower, but still harmful, effect.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "rhythm-of-war", "chapter": "87" },
+                { "book": "wind-and-truth", "chapter": "i-13" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Protecting the tower",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "147" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Together with Navani, the Sibling formed a crystal barrier around Urithiru that blocked passage through the Physical Realm and resisted a Shard's direct intervention.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "147" }]
+        }
+      ]
+    }
   ]
 }

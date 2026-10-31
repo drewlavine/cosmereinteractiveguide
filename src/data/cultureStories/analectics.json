@@ -1,0 +1,49 @@
+{
+  "intro": [
+    {
+      "text": "A book by Corvana that gathers the chants of the Vanrial, an order of artists on Roshar.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "60" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "The Vanrial have sung these chants for generations without knowing what the words mean. They hold that the Heralds wrote the songs in the Dawnchant.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "60" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Dalinar's visions",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "60" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Jasnah Kholin left her copy with her uncle on the Shattered Plains. When Navani wrote down the words Dalinar spoke at the end of a vision, she found them matching a Vanrial chant in Jasnah's copy, showing the visions were not his own invention and opening a way to translate the songs and the Dawnchant.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "60" }]
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Compiled by",
+      "name": "Corvana",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "60" }]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "jasnah-kholin",
+      "role": "owner",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "60" }]
+    },
+    {
+      "characterId": "navani-kholin",
+      "role": "reader",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "60" }]
+    }
+  ]
+}

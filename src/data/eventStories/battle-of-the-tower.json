@@ -1,0 +1,185 @@
+{
+  "intro": [
+    {
+      "text": "A joint assault by the armies of Dalinar Kholin and Sadeas on the Tower, a large plateau on the Shattered Plains held in strength by the Parshendi.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "64" }]
+    },
+    {
+      "text": "A battle on the Shattered Plains in which Sadeas withdrew and left Dalinar Kholin's army stranded, until Bridge Four turned back to help it escape.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "68" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "The Tower is a large plateau, and two of its sides cannot be reached by bridge. The Parshendi usually defended it with around ten thousand warriors, and no Alethi army had ever taken it.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "64" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Background",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "12" },
+            { "book": "way-of-kings", "chapter": "24" },
+            { "book": "way-of-kings", "chapter": "59" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The ten Alethi highprinces each raced the Parshendi and one another to kill chasmfiends on the Shattered Plains and win their gemhearts.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "12" }]
+        },
+        {
+          "text": "Dalinar thought this contest could not win the war, since the highprinces fought as ten separate armies and never struck at the Parshendi directly. He wanted them to work together.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "24" }]
+        },
+        {
+          "text": "Dalinar and Sadeas began joint plateau runs. At the king's suggestion, Sadeas agreed to supply all the bridge crews for both armies.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "59" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The assault",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "64" },
+            { "book": "way-of-kings", "chapter": "65" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "When a chasmfiend was sighted on the Tower, Sadeas proposed a joint attack there to win a decisive victory. Dalinar brought eight thousand men and Sadeas seven thousand, crossing on Sadeas's bridges for speed.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "64" }]
+        },
+        {
+          "text": "The plan had Sadeas's thirty-two bridge crews seize a foothold for both armies, with Dalinar then splitting the Parshendi line and Sadeas's scouts watching the north for reinforcements.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "65" }]
+        },
+        {
+          "text": "Bridge Four charged in carapace armour, with Kaladin and a few men running ahead to draw the archers' fire. Five bridges fell; Skar and Teft were both hit by arrows.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "65" }]
+        },
+        {
+          "text": "Dalinar's army crossed and drove into the Parshendi ranks. Gripped by the Thrill, Dalinar fought eagerly, until he saw how young and frightened one of his foes was and stopped, sickened.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "65" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Sadeas withdraws",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "66" },
+            { "book": "way-of-kings", "chapter": "67" },
+            { "book": "way-of-kings", "chapter": "68" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "An hour into the fight a second Parshendi army arrived from the south without warning. Dalinar saw that Sadeas's army was pulling back and had taken every bridge with it, leaving the Kholin forces trapped. They prepared for a last stand.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "66" }]
+        },
+        {
+          "text": "Kaladin realised Sadeas had abandoned Dalinar on purpose. He meant to use the confusion for Bridge Four to slip away, but Syl's distress at leaving Dalinar's men to die made him turn back toward the Tower.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "67" }]
+        },
+        {
+          "text": "Bridge Four laid its bridge and Kaladin led most of Dalinar's army, Adolin among them, across to safety. He then went back to help Dalinar, who was fighting a Parshendi Shardbearer, and the survivors returned to the warcamps.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "68" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Aftermath",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "69" },
+            { "book": "way-of-kings", "chapter": "73" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "About six thousand of Dalinar's eight thousand men died; 2,653 came home.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "69" }]
+        },
+        {
+          "text": "Because of the betrayal, Dalinar demanded to be made Highprince of War so he could run the war himself.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "69" }]
+        },
+        {
+          "text": "Sadeas refused to sell his bridgemen, so Dalinar traded his Shardblade for them. Most joined Dalinar's army under Kaladin, and Bridge Four became the Kholin family's guard.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "73" }]
+        },
+        {
+          "text": "Kaladin was made a captain, an unheard-of rank for a darkeyes.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "73" }]
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Location",
+      "name": "The Tower",
+      "placeId": "tower-roshar",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "64" }]
+    },
+    {
+      "label": "Forces",
+      "name": "8,000 Kholin, 7,000 Sadeas",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "64" }]
+    },
+    {
+      "label": "Kholin losses",
+      "name": "About 6,000 dead",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "69" }]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "dalinar-kholin",
+      "role": "Commander",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "64" }]
+    },
+    {
+      "characterId": "torol-sadeas",
+      "role": "Commander",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "64" }]
+    },
+    {
+      "characterId": "kaladin",
+      "role": "Bridge Four leader",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "65" }]
+    },
+    {
+      "characterId": "skar",
+      "role": "Bridgeman",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "65" }]
+    },
+    {
+      "characterId": "teft",
+      "role": "Bridgeman",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "65" }]
+    },
+    {
+      "characterId": "moash",
+      "role": "Bridgeman",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "65" }]
+    },
+    {
+      "characterId": "adolin-kholin",
+      "role": "Kholin officer",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "68" }]
+    }
+  ]
+}

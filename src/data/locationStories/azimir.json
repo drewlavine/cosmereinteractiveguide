@@ -45,6 +45,47 @@
           "revealedIn": [{ "book": "oathbringer", "chapter": "65" }]
         }
       ]
+    },
+    {
+      "title": [
+        {
+          "text": "The defense of the city",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "20" },
+            { "book": "wind-and-truth", "chapter": "41" },
+            { "book": "wind-and-truth", "chapter": "84" },
+            { "book": "wind-and-truth", "chapter": "125" },
+            { "book": "wind-and-truth", "chapter": "136" },
+            { "book": "wind-and-truth", "chapter": "147" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "An enemy army approached through Shadesmar to attack the Oathgate. Adolin brought two thousand troops to reinforce the Azish defenders while a larger relief army marched toward the city.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "20" }]
+        },
+        {
+          "text": "The first assault emerged through the Oathgate's control room, where the defenders forced the attackers back.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "41" }]
+        },
+        {
+          "text": "A thunderclast broke into the defense. Adolin brought it down, but the siege continued through the city's damaged positions.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "84" }]
+        },
+        {
+          "text": "The exhausted defensive line collapsed. Yanagawn and a small group of survivors sheltered in a saferoom rather than surrender.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "125" }]
+        },
+        {
+          "text": "The survivors returned to hold the throne room. Adolin and the Unoathed kept it until the contest began, preserving Azir's independence.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "136" }]
+        },
+        {
+          "text": "After about a month of darkness, sunlight returned over the city while the Everstorm continued elsewhere.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "147" }]
+        }
+      ]
     }
   ]
 }

@@ -1,0 +1,271 @@
+{
+  "intro": [
+    {
+      "text": "A noble house of Elendel, led by Lord Waxillium Ladrian since he came back to the city to do his duty to it.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "1" }]
+    },
+    {
+      "text": "A noble house of Elendel, founded after the Catacendre by Edgard Ladrian and Allrianne Cett.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "shadows-of-self", "chapter": "19" },
+            { "book": "bands-of-mourning", "chapter": "19" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "The house once owned a separate ballroom able to hold three or four hundred guests, until Edwarn sold it.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "5" }]
+    },
+    {
+      "text": "The family mansion at Sixteen Ladrian Place is a four-storey house of ivy-covered stone and brick behind an iron fence, with balconies, large windows and gardens front and back.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "7" }]
+    },
+    {
+      "text": "Inside, a marble entry hall inlaid with silver leads to rooms in a classical style of dark wood and stone statues, though gaps on the walls show where paintings were sold under Edwarn. Wax spends much of his time in the upstairs study.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "alloy-of-law", "chapter": "9" },
+            { "book": "shadows-of-self", "chapter": "5" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Its high lord sits in the Senate on behalf of everyone who works for the house or lives on its land. The house keeps a close watch on the dealings of the other houses, most of them its rivals.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "alloy-of-law", "chapter": "3" },
+            { "book": "shadows-of-self", "chapter": "6" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Besides the family, the house takes in those who work its properties and foundries, mostly forge workers and seamstresses, who count as full members after a generation or two and rely on the high lord for their wages. It owns two to three percent of the city's land, ships steel by rail and does some five million boxings of business each quarter.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "alloy-of-law", "chapter": "7" },
+            { "book": "shadows-of-self", "chapter": "6" },
+            { "book": "bands-of-mourning", "chapter": "5" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Founding",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "shadows-of-self", "chapter": "19" },
+                { "book": "bands-of-mourning", "chapter": "19" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "After the Catacendre, Edgard Ladrian founded the house together with Allrianne Cett. Over three hundred years it grew from a few thousand people to about twenty thousand by 341 PC.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "shadows-of-self", "chapter": "19" },
+                { "book": "bands-of-mourning", "chapter": "19" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Edwarn's rule",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "alloy-of-law", "chapter": "2" },
+                { "book": "shadows-of-self", "chapter": "9" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "alloy-of-law", "chapter": "3" },
+                { "book": "shadows-of-self", "chapter": "5" },
+                { "book": "lost-metal", "chapter": "35" }
+              ]
+            },
+            { "book": "alloy-of-law", "chapter": "epilogue" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Edwarn Ladrian's time as high lord left the house badly impoverished.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "alloy-of-law", "chapter": "2" },
+                { "book": "shadows-of-self", "chapter": "9" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Once powerful, the house was nearly ruined by its fifteenth high lord, Edwarn, who gambled, mismanaged its business and offended the other houses. Having no heir, he raised his brother's children to succeed him. Their parents had died in what was said to be an accident, which Telsin blames on Harmony's agents.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "alloy-of-law", "chapter": "3" },
+                { "book": "shadows-of-self", "chapter": "5" },
+                { "book": "lost-metal", "chapter": "35" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Edwarn had faked his own death, which is what brought Wax back to Elendel as the house's sixteenth high lord.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "epilogue" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Under Waxillium",
+          "revealedIn": [
+            { "book": "alloy-of-law", "chapter": "1" },
+            { "book": "alloy-of-law", "chapter": "2" },
+            {
+              "all": [
+                { "book": "alloy-of-law", "chapter": "2" },
+                { "book": "shadows-of-self", "chapter": "9" }
+              ]
+            },
+            { "book": "shadows-of-self", "chapter": "6" },
+            {
+              "all": [
+                { "book": "alloy-of-law", "chapter": "2" },
+                { "book": "shadows-of-self", "chapter": "epilogue" },
+                { "book": "bands-of-mourning", "chapter": "5" }
+              ]
+            },
+            { "book": "lost-metal", "chapter": "2" },
+            {
+              "all": [
+                { "book": "shadows-of-self", "chapter": "epilogue" },
+                { "book": "lost-metal", "chapter": "31" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Wax returned from the Roughs to take up his duty to the house and became Lord Waxillium Ladrian in the eyes of the city.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "1" }]
+        },
+        {
+          "text": "With the house short of money and its steel shipments being stolen, Wax arranged to marry Steris Harms: Ladrian would gain funds, and House Harms would gain the Ladrian name.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "2" }]
+        },
+        {
+          "text": "Once engaged, Wax used Steris's money to pay off most of the house's debts and stave off foreclosure until other investments paid out, making the house one of the richest in Elendel again.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "alloy-of-law", "chapter": "2" },
+                { "book": "shadows-of-self", "chapter": "9" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Finding conditions in some of the house's factories unacceptable, Wax replaced the overseers and hired more workers for shorter shifts. He then had to raise wages so they could live on them, which pushed up the price of the house's goods, a sign of wider troubles in Elendel.",
+          "revealedIn": [{ "book": "shadows-of-self", "chapter": "6" }]
+        },
+        {
+          "text": "When Claude Aradel arrested Governor Replar Innate and went after the lords who had dealt with him, House Ladrian and its partners were untouched, because Wax only did business with honest people.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "alloy-of-law", "chapter": "2" },
+                { "book": "shadows-of-self", "chapter": "epilogue" },
+                { "book": "bands-of-mourning", "chapter": "5" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Wax and Steris had two children, Maxillium and Tindwyl Ladrian.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "2" }]
+        },
+        {
+          "text": "Wax put a workers' rights act before the Senate, and opposed the Elendel Supremacy Bill, speaking and casting his vote against it.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "shadows-of-self", "chapter": "epilogue" },
+                { "book": "lost-metal", "chapter": "31" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "waxillium-ladrian",
+      "role": "high lord",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "1" }]
+    },
+    {
+      "characterId": "edwarn-ladrian",
+      "role": "former high lord",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "epilogue" }]
+    },
+    {
+      "characterId": "edgard-ladrian",
+      "role": "founder",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "shadows-of-self", "chapter": "19" },
+            { "book": "bands-of-mourning", "chapter": "19" }
+          ]
+        }
+      ]
+    },
+    {
+      "characterId": "allrianne-cett",
+      "role": "founder",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "shadows-of-self", "chapter": "19" },
+            { "book": "bands-of-mourning", "chapter": "19" }
+          ]
+        }
+      ]
+    },
+    {
+      "characterId": "steris-harms",
+      "role": "Wax's wife",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "2" }]
+    }
+  ]
+}

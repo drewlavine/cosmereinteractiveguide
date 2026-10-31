@@ -1,0 +1,43 @@
+{
+  "intro": [
+    {
+      "text": "Lord Admiral Delius's son, who serves as his steward.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "15" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Delius's steward",
+          "revealedIn": [
+            { "book": "white-sand-omnibus", "chapter": "7" },
+            { "book": "white-sand-omnibus", "chapter": "15" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "When Kenton, Aarik and Ais called on Delius, he let them in. Once they had gone, he told his father that the kelzin were mostly Kerztian or Ker'reen and generally hated the sand masters.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "7" }]
+        },
+        {
+          "text": "At Delius's direction he had bought a fleet in his own name and carried papers that would hand it to his father. When the Shipowners' Circle ousted Delius in Lraezare, he produced the papers, and Delius told him to have the fleet blockade Kezare's port for a month.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "15" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Long blond hair and a light blue coat.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "7" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Quiet; he says very little.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "7" }]
+    }
+  ]
+}

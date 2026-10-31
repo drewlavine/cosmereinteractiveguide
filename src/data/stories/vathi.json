@@ -1,0 +1,237 @@
+{
+  "intro": [
+    {
+      "text": "A clerk of the Eelakin's Northern Interests Trading Company who has met the Ones Above several times, and who joins the company's expedition to the island of Patji.",
+      "revealedIn": ["sixth-of-the-dusk"]
+    },
+    {
+      "text": "The president, whom the former trapper Dusk wishes would send for him.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "1" }],
+      "fallback": true
+    },
+    {
+      "text": "President of the First Company, which leads the Eelakin people. She often asks Dusk's advice about the Pantheon and the Aviar.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "7" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Five years ago",
+          "revealedIn": [
+            "sixth-of-the-dusk",
+            { "book": "isles-of-the-emberdark", "chapter": "6" },
+            { "book": "isles-of-the-emberdark", "chapter": "8" },
+            { "book": "isles-of-the-emberdark", "chapter": "10" },
+            { "book": "isles-of-the-emberdark", "chapter": "12" },
+            { "book": "isles-of-the-emberdark", "chapter": "14" },
+            { "book": "isles-of-the-emberdark", "chapter": "16" },
+            { "book": "isles-of-the-emberdark", "chapter": "18" },
+            { "book": "isles-of-the-emberdark", "chapter": "20" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Vathi worked for the Northern Interests Trading Company in the homeisles. She had dealt with the Ones Above several times, and had first come across Dusk when he made one of his infrequent calls on the company.",
+          "revealedIn": ["sixth-of-the-dusk"]
+        },
+        {
+          "text": "She joined the company's expedition to Patji under Captain Eusto, drawn more by science than profit. When a deepwalker wiped out the scout team she was with, she fired her spear cannon at it to little effect and escaped into the jungle; her Aviar, Mirris, was hurt.",
+          "revealedIn": ["sixth-of-the-dusk"]
+        },
+        {
+          "text": "Dusk tracked her into the jungle and found her caught in one of his traps. He knew her as a company clerk; she begged him to let her down, then followed him with her wounded Aviar.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "6" }]
+        },
+        {
+          "text": "At his safecamp she claimed she had found it by following the sound of water, which Dusk doubted, and told him the company had a second, larger camp across the island.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "8" }]
+        },
+        {
+          "text": "When the island's Aviar shrieked in pain one night, she told Dusk about the Ones Above and their rules against conquest, and showed him a small device that translates languages and locates Aviar. A larger one at the main camp was to be started that night, and Dusk dragged her along to stop it.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "10" }]
+        },
+        {
+          "text": "Sak's visions persuaded her to go, and she was stunned that Dusk seemed to have found a new kind of Aviar.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "12" }]
+        },
+        {
+          "text": "She set off a drop-rope trap that drove a spike through Dusk's arm. As she bandaged him, he gave her the ritual speech for an apprentice trapper's first serious mistake.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "14" }]
+        },
+        {
+          "text": "When a nightmaw attacked, she killed it with her spear cannon, which trappers had thought impossible, but its dying cry called others, and she and Dusk fled upriver.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "16" }]
+        },
+        {
+          "text": "At the trappers' secret pool, she saw hundreds of Aviar and learned that glowing worms give them their talents. Dusk meant to lead the nightmaws off alone, but she had a better idea: they fired one of the blossoms that draw mind-hunters from her cannon, and the predators followed it.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "18" }]
+        },
+        {
+          "text": "At the fort, Winds told her the machine had only been opened, never switched on. From manuals the Ones Above had left, she reached Dusk's conclusion that their gifts were meant to set up a conquest, and asked for his help.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "20" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "President",
+          "revealedIn": [
+            { "book": "isles-of-the-emberdark", "chapter": "7" },
+            { "book": "isles-of-the-emberdark", "chapter": "9" },
+            { "book": "isles-of-the-emberdark", "chapter": "11" },
+            { "book": "isles-of-the-emberdark", "chapter": "13" },
+            { "book": "isles-of-the-emberdark", "chapter": "15" },
+            { "book": "isles-of-the-emberdark", "chapter": "19" },
+            { "book": "isles-of-the-emberdark", "chapter": "21" },
+            { "book": "isles-of-the-emberdark", "chapter": "61" },
+            { "book": "isles-of-the-emberdark", "chapter": "epilogue" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "After the events on Patji she was elected president of the First Company, the renamed trading company, which then won the leadership of all the Eelakin. She often consulted Dusk, but had to limit his visits after he clashed with senators. Dealing with the Ones Above became her government's chief concern.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "7" }]
+        },
+        {
+          "text": "When police held Dusk after a scuffle, they called her, and she asked his help: the Ones Above would return in two months for promised Aviar chicks. A second off-worlder made a rival offer. During the meeting Sak showed Dusk a vision of Vathi dead, decades older, in a uniform of the Ones Above.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "7" }]
+        },
+        {
+          "text": "The vision named her colonial governor of an occupied Drominad. Desperate for any way to resist, she thought of resigning, but Dusk urged her instead to look into the pool the off-worlder had asked about and to travel the endless dark.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "9" }]
+        },
+        {
+          "text": "She put the idea of a voyage into the dark to her council; Admiral Rattu opposed it, pointing to an earlier expedition that had been lost.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "11" }]
+        },
+        {
+          "text": "She went with Dusk to Patji, worried for him, and agreed to gather him a crew.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "13" }]
+        },
+        {
+          "text": "Her government had provisionally accepted the terms of the Ones Above while secretly talking with the Rosharans, who wanted both the Aviar and the perpendicularity. At the pool she gave Dusk a new Aviar, Rokke, for protection.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "15" }]
+        },
+        {
+          "text": "Admiral Rattu moved to cut funding for her projects and review her leadership, the first step toward removing her. Unable to fund a new expedition, she told Dusk she needed proof that the dark could be crossed and that crossing it would help.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "19" }]
+        },
+        {
+          "text": "As Dusk set out alone, she gave him two months to find his proof, along with all their remaining worm paste.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "21" }]
+        },
+        {
+          "text": "She survived three votes of no confidence, the last by just two votes, while holding to the two months she had promised Dusk. When he came back with an outsider, Starling, she was dismayed, but accepted Starling's apology and her offer of information.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "61" }]
+        },
+        {
+          "text": "Dusk showed her the Dakwara, now bound to him, and pictures of Cakoban's tomb. She saw proof that could sway parliament, and Dusk suggested earning money by hiring out navigators.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "61" }]
+        },
+        {
+          "text": "Six months after his return, with the First Company's Navigators back from their first voyage, she and other leaders struck a deal with Xisis that gave the Eelakin leverage to stay independent. Dusk handed her command of the Dakwara, and at her urging joined Starling's crew.",
+          "revealedIn": [
+            { "book": "isles-of-the-emberdark", "chapter": "epilogue" }
+          ]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Dark-skinned, with dark, curly hair. On Patji she wore a fitted vest and green linen skirts and carried her Aviar, Mirris.",
+      "revealedIn": [
+        {
+          "all": [
+            "sixth-of-the-dusk",
+            { "book": "isles-of-the-emberdark", "chapter": "13" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "As president she favours clothes cut in the modern style of the Ones Above, blended with Eelakin tradition.",
+      "revealedIn": [
+        {
+          "all": [
+            "sixth-of-the-dusk",
+            { "book": "isles-of-the-emberdark", "chapter": "13" }
+          ]
+        }
+      ]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Raised on the tale of Yaalani the Brave, said to be the only woman trapper, she doubts it, suspecting that like similar tales elsewhere it props up the very roles it seems to overturn.",
+      "revealedIn": ["sixth-of-the-dusk"]
+    },
+    {
+      "text": "Her people's independence matters greatly to her, though she would accept the terms of the Ones Above if she saw no other way.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "9" }]
+    },
+    {
+      "text": "Educated, with a polished accent, she has read books about the trappers and the Pantheon. Her curiosity shows in endless questions about Dusk's life and Patji's plants and creatures, which irritate him. She is brave, calm under pressure and quick to act in danger.",
+      "revealedIn": [
+        {
+          "all": [
+            "sixth-of-the-dusk",
+            { "book": "isles-of-the-emberdark", "chapter": "21" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "A skilled negotiator who balances pressure from her own government and from the Ones Above, she carefully keeps up her public reputation for toughness.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "61" }]
+    }
+  ],
+  "abilities": [
+    {
+      "title": [{ "text": "Skills", "revealedIn": ["sixth-of-the-dusk"] }],
+      "items": [
+        {
+          "text": "Resourceful and confident, she crossed Patji's jungle alive with her Aviar's help, moving so quickly and nimbly that Dusk took her trail for a young trapper's. Her book learning about the Pantheon is deep, limited only by lack of experience, and she can piece together a great deal from a few clues.",
+          "revealedIn": ["sixth-of-the-dusk"]
+        },
+        {
+          "text": "Dusk first took her for a scribe, and she surprised him again and again with her toughness and skill.",
+          "revealedIn": ["sixth-of-the-dusk"]
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "title": [
+        {
+          "text": "Sixth of the Dusk",
+          "revealedIn": [
+            { "book": "isles-of-the-emberdark", "chapter": "9" },
+            { "book": "isles-of-the-emberdark", "chapter": "30" },
+            { "book": "isles-of-the-emberdark", "chapter": "61" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "She and Dusk wear matching medallions of Cakoban to remember each other, and his Aviar Kokerlii was especially fond of her.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "9" }]
+        },
+        {
+          "text": "They are close friends. She keeps him away from senators unless his advice is urgently needed, reminds him to answer when people speak to him, and is called when he is in trouble with the police; he tries to follow her advice.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "30" }]
+        },
+        {
+          "text": "She admires him and values his counsel, and risked her presidency waiting for his return. She helps him find his place in modern life, and he teaches her about the Aviar and the Pantheon. Some assume they are a couple, but they are not.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "61" }]
+        }
+      ]
+    }
+  ]
+}

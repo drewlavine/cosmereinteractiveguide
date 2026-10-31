@@ -232,5 +232,28 @@
       "text": "Like many spren, she finds the honorspren stuffy and boring.",
       "revealedIn": [{ "book": "wind-and-truth", "chapter": "135" }]
     }
+  ],
+  "abilities": [
+    {
+      "title": [
+        {
+          "text": "Bond with Adolin",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "135" },
+            { "book": "wind-and-truth", "chapter": "147" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Maya and Adolin communicate mentally, and he can see through her eyes in Shadesmar. Their bond does not grant him Surgebinding or require Radiant oaths, but lets him summon her without waiting ten heartbeats.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "135" }]
+        },
+        {
+          "text": "After Stormfall, Maya could still enter Shadesmar and become a Blade for Adolin. She had recruited other deadeyes to fight beside humans as the Unoathed.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "147" }]
+        }
+      ]
+    }
   ]
 }

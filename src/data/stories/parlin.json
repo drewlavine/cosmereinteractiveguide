@@ -1,0 +1,72 @@
+{
+  "intro": [
+    {
+      "text": "A quiet Idrian hunter and childhood friend of Princess Vivenna, who guards her on her secret journey to T'Telir.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "9" }]
+    },
+    {
+      "text": "A quiet Idrian hunter and childhood friend of Princess Vivenna, who guarded her in T'Telir until he was killed there.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "35" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "With Vivenna in T'Telir",
+          "revealedIn": [
+            { "book": "warbreaker", "chapter": "9" },
+            { "book": "warbreaker", "chapter": "33" },
+            { "book": "warbreaker", "chapter": "37" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Parlin had been guarding Idris's northern passes and had scouted the route a year before, so when Vivenna set out in secret after her sister Siri, he was easily persuaded to come as her bodyguard. Several years her senior, he scouted ahead in the city, uneasy in crowds and closed-in rooms.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "9" }]
+        },
+        {
+          "text": "His knack for blending into the wild served him in the city too. He took to wearing a bright hat and colourful vests, which Vivenna thought ridiculous, though Denth pointed out they simply made him look Hallandren. He also grew fond of Jewels, which made Vivenna jealous, something she refused to admit when Denth teased her.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "33" }]
+        },
+        {
+          "text": "Parlin was killed while Vivenna was away, and his body was left bound to a chair down in a cellar of the safe house the mercenaries used. Finding him there, she was seized by Denth and Tonk Fah and realised they had been using her all along. She blamed herself for his death, since she had talked him into coming.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "37" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Tall but not lanky, with a square jaw. In Idris he wore dull browns that hid him in the forests; in T'Telir he switched to colourful vests and a floppy green hat to fit in.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "14" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "A skilled hunter who would rather be among forests and animals than cities and people. A follower of Austre, he is modest, solid and dependable, and speaks little, not out of rudeness but because he seldom thinks he has much to add. Crowds make him nervous.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "9" }]
+    },
+    {
+      "text": "Observant and good at going unnoticed, he quickly picks up the manners of T'Telir's street toughs. Denth thinks him adaptable and trustworthy, if no scholar.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "28" }]
+    }
+  ],
+  "relationships": [
+    {
+      "title": [
+        {
+          "text": "Vivenna",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "9" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "He and Vivenna have been close friends since childhood. If she hadn't been promised to the God King, King Dedelin would have matched her with Parlin.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "9" }]
+        }
+      ]
+    }
+  ]
+}

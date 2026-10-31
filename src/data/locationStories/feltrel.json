@@ -1,0 +1,63 @@
+{
+  "intro": [
+    {
+      "text": "A ghost town in a dry corner of the Roughs, where the soil is mostly red clay and little but weeds grows.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "prologue" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "A crumbling blacksmith's forge near the edge of town faces the old hotel across the street. The hotel, with its sign along the front of the balcony and a taproom inside, has long sheltered drifters and is littered with their rubbish and rat droppings.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "prologue" }]
+    },
+    {
+      "text": "A long earthen tunnel shored with timbers links an old shop's cold cellar with the chapel. Bloody Tan made it his gallery, lighting eight mummified bodies that he had wired or spiked into mocking poses from their lives.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "prologue" }]
+    },
+    {
+      "text": "Being built of brick, the Survivorist chapel has kept its four walls, though the roof has gone. Its four altars remain among broken benches and toppled statues, and a trapdoor in the floor drops into the tunnel.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "prologue" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Boom and decline",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "prologue" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "By about 320 the town was thriving, with a hotel, a blacksmith, several shops and a chapel to the Survivor. At some point a smuggling tunnel was dug between a store's cellar and the chapel.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "prologue" }]
+        },
+        {
+          "text": "Hard times came when a koloss clan settled nearby: townsfolk were killed or fled, and within a few years only squatters and miscreants remained. In 341 the serial killer Bloody Tan, once a mortician, moved into the tunnel and chapel and put his victims on show, as the vagrants dwindled away.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "prologue" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The hunt for Bloody Tan",
+          "revealedIn": [
+            { "book": "alloy-of-law", "chapter": "prologue" },
+            { "book": "alloy-of-law", "chapter": "1" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "When the town's drifters vanished, Waxillium Ladrian tracked Tan here with Lessie, Barl and Wayne. Members of Donal's gang came too, out for revenge over stolen bendalloy, and Wax fought them around the hotel and forge. After Wax left Lessie alone, Tan shot and wounded her and dragged her off to the chapel.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "prologue" }]
+        },
+        {
+          "text": "Wax followed the tunnel through Tan's gallery up into the chapel, where Tan held Lessie with a garrote. Tan jerked her into the path of Wax's shot, so the bullet struck her; Wax then shot Tan dead. Afterwards Wax gave up being a lawman in Weathering and went home to lead House Ladrian.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "1" }]
+        }
+      ]
+    }
+  ]
+}

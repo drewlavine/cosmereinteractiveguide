@@ -1,14 +1,40 @@
 import { cleanup, render, screen, within } from '@testing-library/react'
 import userEvent from '@testing-library/user-event'
 import { createMemoryRouter, RouterProvider } from 'react-router'
-import { afterEach, describe, expect, it } from 'vitest'
+import { afterEach, describe, expect, it, vi } from 'vitest'
 import { books } from './data/books'
 import { chapters } from './data/chapters'
-import { listedLocations, mapPlaceOf } from './data/listedLocations'
+import {
+  listedLocations,
+  mapPlaceOf,
+  placeKnownIn,
+  placeRevealedIn,
+} from './data/listedLocations'
 import { hasLocationStory, loadLocationStory } from './data/locationStories'
 import { readerCanSee } from './data/reveal'
+import type { ListedLocation } from './data/types'
 import { routes } from './routes'
 import { BOOKS_READ_KEY } from './state/booksRead'
+
+// The only real place art unlocks with the book that shows what lies inside
+// the place, so give Luthadel art from a later book to see its card wait.
+vi.mock('./data/entryArt', async (importOriginal) => {
+  const real = await importOriginal<typeof import('./data/entryArt')>()
+  return {
+    ...real,
+    entryArt: {
+      ...real.entryArt,
+      'place:luthadel': [
+        {
+          src: '/entries/test-sketch.webp',
+          alt: 'A test sketch of Luthadel',
+          artist: 'Test Artist',
+          revealedIn: ['well-of-ascension'],
+        },
+      ],
+    },
+  }
+})
 
 const renderAt = (
   path: string,
@@ -26,12 +52,30 @@ const renderAt = (
   )
 }
 
-const list = () => screen.getByRole('article', { name: 'Locations' })
+// On a group's own page the article is named for the group, not the list.
+const list = () => screen.getByRole('article')
 const names = () =>
   [...list().querySelectorAll('.character-group li')].map((li) =>
     li.textContent?.trim(),
   )
+const grouping = (label: string) => screen.getByRole('region', { name: label })
+/** The groups with a card in a grouping (a card is "<group>, <count>"). */
+const groups = (label: string) =>
+  within(grouping(label))
+    .getAllByRole('link')
+    .map((card) =>
+      card.getAttribute('aria-label')?.replace(/, \d+ places?$/, ''),
+    )
+const card = (label: string, group: string) =>
+  within(grouping(label)).getByRole('link', {
+    name: (name) => name.startsWith(`${group}, `),
+  })
+/** A card's picture, without the hue of its panel. */
+const picture = (element: HTMLElement) =>
+  element.firstElementChild?.outerHTML.replace(/[^\s"]*tone\d[^\s"]*/, '')
 const ERA1 = ['final-empire', 'well-of-ascension', 'hero-of-ages']
+const SUNLIT_NAMED = { 'sunlit-man': '7' }
+const SUNLIT_INTRO = { 'sunlit-man': '13' }
 
 afterEach(() => {
   cleanup()
@@ -41,7 +85,7 @@ afterEach(() => {
 describe('locations list', () => {
   it('lists places by letter, linking map places to their pages', () => {
     renderAt(
-      '/locations',
+      '/locations?group=name',
       books.map((b) => b.id),
     )
     expect(
@@ -55,14 +99,18 @@ describe('locations list', () => {
 
   it('shows no places before any book is read', () => {
     renderAt('/locations')
-    expect(names()).toEqual([])
+    expect(screen.queryAllByRole('region')).toEqual([])
+    expect(screen.getByText('No places match.')).toBeInTheDocument()
     expect(
       screen.getByText(/hidden based on what you've read so far/),
     ).toBeInTheDocument()
+    cleanup()
+    renderAt('/locations?group=name')
+    expect(names()).toEqual([])
   })
 
   it('hides places from books the reader has not finished', () => {
-    renderAt('/locations', ['final-empire'])
+    renderAt('/locations?group=name', ['final-empire'])
     expect(names()).toContain('Luthadel')
     expect(names()).not.toContain('Kholinar')
     // Era 2's city would give away how Era 1 ends.
@@ -70,31 +118,49 @@ describe('locations list', () => {
   })
 
   it('shows later places once their book is finished', () => {
-    renderAt('/locations', [...ERA1, 'alloy-of-law', 'way-of-kings'])
+    renderAt('/locations?group=name', [...ERA1, 'alloy-of-law', 'way-of-kings'])
     expect(names()).toEqual(expect.arrayContaining(['Elendel', 'Kholinar']))
   })
 
   it('groups by world without naming worlds the reader has not reached', () => {
     renderAt('/locations?group=world', ['final-empire'])
-    const headings = screen
-      .getAllByRole('heading', { level: 2 })
-      .map((h) => h.textContent)
-    expect(headings).toContain('Scadrial')
-    expect(headings).not.toContain('Roshar')
+    expect(groups('World')).toContain('Scadrial')
+    expect(groups('World')).not.toContain('Roshar')
   })
 
-  it('groups by type and by series', () => {
+  it('lists worlds, and the places that hold others, biggest first', async () => {
+    renderAt(
+      '/locations',
+      books.map((b) => b.id),
+    )
+    for (const label of ['World', 'Inside']) {
+      await userEvent.click(
+        within(screen.getByRole('navigation', { name: 'Browse by' })).getByRole(
+          'link',
+          { name: label },
+        ),
+      )
+      const sizes = within(grouping(label))
+        .getAllByRole('link')
+        .map((c) => c.getAttribute('aria-label') ?? '')
+        .filter((name) => !name.startsWith('Not sorted yet, '))
+        .map((name) => Number(/(\d+) places?$/.exec(name)?.[1]))
+      expect(sizes.length).toBeGreaterThan(1)
+      expect(sizes).toEqual([...sizes].sort((a, b) => b - a))
+    }
+  })
+
+  it('opens a type with the places of that type, and a series as a card', async () => {
+    const user = userEvent.setup()
     renderAt('/locations?group=type', ERA1)
+    await user.click(card('Type', 'Cities and towns'))
     expect(
-      within(
-        screen.getByRole('region', { name: 'Cities and towns' }),
-      ).getByText('Luthadel'),
+      screen.getByRole('heading', { level: 1, name: 'Cities and towns' }),
     ).toBeInTheDocument()
+    expect(names()).toContain('Luthadel')
     cleanup()
     renderAt('/locations?group=series', ERA1)
-    expect(
-      screen.getByRole('region', { name: 'Mistborn (Era 1)' }),
-    ).toBeInTheDocument()
+    expect(groups('Series')).toContain('Mistborn (Era 1)')
   })
 
   it('filters by name', () => {
@@ -104,44 +170,170 @@ describe('locations list', () => {
 
   it('groups by book, only books the reader may see', () => {
     renderAt('/locations?group=book', ERA1)
-    const regions = screen
-      .getAllByRole('region')
-      .map((r) => r.getAttribute('aria-labelledby'))
-    expect(regions.length).toBeGreaterThan(0)
     const wellOf = books.find((b) => b.id === 'well-of-ascension')!.title
-    const group = screen.getByRole('region', { name: wellOf })
+    expect(groups('Book')).toContain(wellOf)
+    expect(groups('Book')).not.toContain(
+      books.find((b) => b.id === 'way-of-kings')!.title,
+    )
+    cleanup()
+    renderAt('/locations?group=book&of=well-of-ascension', ERA1)
     const inBook = listedLocations
       .filter((l) => l.books.includes('well-of-ascension'))
       .map((l) => l.name)
-    for (const li of group.querySelectorAll('li'))
-      expect(inBook).toContain(li.textContent?.trim())
-    expect(
-      screen.queryByRole('region', {
-        name: books.find((b) => b.id === 'way-of-kings')!.title,
-      }),
-    ).toBeNull()
+    expect(names().length).toBeGreaterThan(0)
+    for (const name of names()) expect(inBook).toContain(name)
   })
 
   it('groups a place under the book being read once it is revealed', () => {
     const sunlit = books.find((b) => b.id === 'sunlit-man')!.title
     renderAt('/locations?group=book', [], { 'sunlit-man': '6' })
-    expect(screen.queryByRole('region', { name: sunlit })).toBeNull()
+    expect(screen.queryByRole('region', { name: 'Book' })).toBeNull()
     cleanup()
-    renderAt('/locations?group=book', [], { 'sunlit-man': '7' })
-    expect(
-      within(screen.getByRole('region', { name: sunlit })).getByText('Beacon'),
-    ).toBeInTheDocument()
+    renderAt('/locations?group=book', [], SUNLIT_NAMED)
+    expect(groups('Book')).toEqual([sunlit])
+    cleanup()
+    renderAt('/locations?group=book&of=sunlit-man', [], SUNLIT_NAMED)
+    expect(names()).toEqual(['Beacon'])
   })
 
-  it('shows a place from the chapter that names it, sorted by type only once known', () => {
-    renderAt('/locations?group=type', [], { 'sunlit-man': '7' })
-    expect(within(list()).queryByText('Beacon')).toBeNull()
-    expect(
-      screen.getByText(/1 more place not sorted by type/),
-    ).toBeInTheDocument()
+  it('files a place named in a chapter under Not sorted yet until the chapter that says what it is', () => {
+    // Under its book from the start (the book names it), but nowhere else.
+    renderAt('/locations?group=type', [], SUNLIT_NAMED)
+    expect(screen.queryByRole('region', { name: 'Type' })).toBeNull()
     cleanup()
-    renderAt('/locations?group=type', [], { 'sunlit-man': '13' })
-    expect(within(list()).getByText('Beacon')).toBeInTheDocument()
+    const by = {
+      type: 'Type',
+      world: 'World',
+      series: 'Series',
+      inside: 'Inside',
+      feature: 'Page feature',
+    }
+    for (const [group, label] of Object.entries(by)) {
+      renderAt(`/locations?group=${group}`, ['final-empire'], SUNLIT_NAMED)
+      expect(groups(label)).toContain('Not sorted yet')
+      cleanup()
+      renderAt(
+        `/locations?group=${group}&of=unsorted`,
+        ['final-empire'],
+        SUNLIT_NAMED,
+      )
+      expect(names()).toContain('Beacon')
+      cleanup()
+    }
+    const cities = '/locations?group=type&of=settlement'
+    renderAt(cities, ['final-empire'], SUNLIT_NAMED)
+    expect(names()).not.toContain('Beacon')
+    cleanup()
+    renderAt(cities, ['final-empire'], SUNLIT_INTRO)
+    expect(names()).toContain('Beacon')
+    cleanup()
+    renderAt('/locations?group=type', ['final-empire'], SUNLIT_INTRO)
+    expect(groups('Type')).not.toContain('Not sorted yet')
+  })
+
+  it("keeps a place's feature links and the legend on a group's page", () => {
+    renderAt('/locations?group=feature&of=map', ['final-empire'])
+    const row = within(list())
+      .getByRole('link', { name: 'Luthadel' })
+      .closest('li')!
+    expect(
+      within(row).getByRole('link', { name: 'Luthadel: Map' }),
+    ).toHaveAttribute(
+      'href',
+      '/systems/scadrian/planets/scadrial/locations/luthadel#map',
+    )
+    expect(
+      screen.getByRole('group', { name: 'Icon legend' }),
+    ).toHaveTextContent('Map')
+    cleanup()
+    renderAt('/locations?group=feature&of=no-features', ['final-empire'])
+    expect(names().length).toBeGreaterThan(0)
+    expect(screen.queryAllByRole('link', { name: /: Map$/ })).toEqual([])
+  })
+})
+
+describe('a place that holds others', () => {
+  it('has a card with the same panel whether its art is locked or there is none', () => {
+    renderAt('/locations?group=inside', ['final-empire'])
+    const locked = card('Inside', 'Luthadel')
+    expect(locked.querySelector('img, [data-art]')).toBeNull()
+    expect(locked).not.toHaveTextContent('Art:')
+    expect(picture(locked)).toContain('search-icon')
+    expect(picture(locked)).not.toContain('monogram')
+    expect(picture(locked)).toBe(picture(card('Inside', 'Final Empire')))
+    cleanup()
+    renderAt('/locations?group=inside', ['final-empire', 'well-of-ascension'])
+    const unlocked = card('Inside', 'Luthadel')
+    expect(unlocked.querySelector('img')).toHaveAttribute(
+      'src',
+      expect.stringContaining('test-sketch'),
+    )
+    expect(unlocked).toHaveTextContent('Art: Test Artist')
+  })
+
+  it('shows its art on the page of what is inside it only once unlocked', () => {
+    const sketch = { name: 'A test sketch of Luthadel' }
+    renderAt('/locations?group=inside&of=luthadel', ['final-empire'])
+    expect(screen.queryByRole('img', sketch)).toBeNull()
+    expect(screen.queryByText(/^Art:/)).toBeNull()
+    cleanup()
+    renderAt('/locations?group=inside&of=luthadel', [
+      'final-empire',
+      'well-of-ascension',
+    ])
+    expect(screen.getByRole('img', sketch)).toBeInTheDocument()
+    expect(screen.getByText('Art: Test Artist')).toBeInTheDocument()
+  })
+
+  it('has a card once something inside it can be seen, counting only what can', async () => {
+    const user = userEvent.setup()
+    const read = ['way-of-kings', 'words-of-radiance']
+    renderAt('/locations?group=name', read)
+    expect(names()).toContain('Urithiru')
+    cleanup()
+    renderAt('/locations?group=inside', read)
+    expect(groups('Inside')).not.toContain('Urithiru')
+    const holder = card('Inside', 'Alethkar')
+    const seen = Number(
+      /(\d+) places$/.exec(holder.getAttribute('aria-label') ?? '')?.[1],
+    )
+    expect(seen).toBeGreaterThan(0)
+    expect(seen).toBeLessThan(
+      listedLocations.filter((l) => l.parentId === 'alethkar').length,
+    )
+    await user.click(holder)
+    expect(names()).toHaveLength(seen)
+    expect(screen.getByText(`${seen} places`)).toBeInTheDocument()
+    cleanup()
+    renderAt('/locations?group=inside', [...read, 'oathbringer'])
+    expect(card('Inside', 'Urithiru').querySelector('img')).toHaveAttribute(
+      'src',
+      expect.stringContaining('place-urithiru'),
+    )
+  })
+
+  it('does not name the place that holds another until the reader can see it', () => {
+    const read = ['final-empire', 'well-of-ascension']
+    const canSee = readerCanSee({ read: new Set(read), reading: new Map() })
+    const holderOf = (l: ListedLocation) =>
+      listedLocations.find((p) => p.id === l.parentId)
+    // Found from the data, so the test doesn't name places it hides.
+    const inside = listedLocations.find((l) => {
+      const holder = holderOf(l)
+      return (
+        holder &&
+        canSee(placeRevealedIn(l)) &&
+        canSee(placeKnownIn(l)) &&
+        !canSee(placeRevealedIn(holder))
+      )
+    })!
+    const holder = holderOf(inside)!
+    renderAt('/locations?group=inside', read)
+    expect(groups('Inside')).not.toContain(holder.name)
+    cleanup()
+    renderAt('/locations?group=inside&of=unsorted', read)
+    expect(names()).toContain(inside.name)
+    expect(screen.queryByText(holder.name)).toBeNull()
   })
 })
 
@@ -236,7 +428,7 @@ describe('place pages', () => {
   })
 
   it('links every listed place from the list', () => {
-    renderAt('/locations', ERA1)
+    renderAt('/locations?group=name', ERA1)
     expect(
       within(list()).getByRole('link', { name: listedOnly.name }),
     ).toHaveAttribute('href', `/locations/${listedOnly.id}`)

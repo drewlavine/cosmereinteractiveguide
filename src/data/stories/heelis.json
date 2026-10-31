@@ -1,0 +1,57 @@
+{
+  "intro": [
+    {
+      "text": "The High Lady Judge, who tells Kenton that the Taishin have met to dissolve the Diem rather than name its new leader.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "4" }],
+      "fallback": true
+    },
+    {
+      "text": "The Lady Judge and a member of the Taishin, who votes to dissolve the Diem but upholds the rule that delays it.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "5" }]
+    },
+    {
+      "text": "The Lady Judge and a member of the Taishin, who has known Ais for eighteen years and gives her the Hall's deciding vote on the Diem.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "18" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Lady Judge",
+          "revealedIn": [
+            { "book": "white-sand-omnibus", "chapter": "5" },
+            { "book": "white-sand-omnibus", "chapter": "6" },
+            { "book": "white-sand-omnibus", "chapter": "16" },
+            { "book": "white-sand-omnibus", "chapter": "18" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Heelis voted to dissolve the Diem, then declared the vote void when Kenton pointed out a notice rule it had broken. Afterwards she told him her vote was mostly a show of unity with the others, and that his chances of changing the Taishin's minds were slim.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "5" }]
+        },
+        {
+          "text": "She trusted Ais, whom she had known for eighteen years, and asked her to spy on Kenton under cover of guarding him, despite Ais's dislike of sand masters.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "6" }]
+        },
+        {
+          "text": "When Ais reported the Lord General's death, Heelis thanked her but reminded her that guarding Kenton came first.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "16" }]
+        },
+        {
+          "text": "When Ais said she meant to resign, Heelis warned that running from problems solves nothing and asked her to stay one more day. At the final vote she handed the Hall's vote to Ais, wanting Kenton to win over even those most opposed to him, and Ais's vote for the Diem made it unanimous.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "18" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "An elderly, pale woman with grey hair worn in a heart-shaped pompadour; she wears the usual Taishin clothes with gold hoop earrings.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "4" }]
+    }
+  ],
+  "personality": []
+}

@@ -73,6 +73,14 @@ export const journeyIndex: JourneyIndex = {
           chapter: '123',
         },
         {
+          book: 'wind-and-truth',
+          chapter: '135',
+        },
+        {
+          book: 'wind-and-truth',
+          chapter: '136',
+        },
+        {
           book: 'words-of-radiance',
           chapter: '14',
         },
@@ -469,6 +477,18 @@ export const journeyIndex: JourneyIndex = {
         {
           book: 'wind-and-truth',
           chapter: '130',
+        },
+        {
+          book: 'wind-and-truth',
+          chapter: '141',
+        },
+        {
+          book: 'wind-and-truth',
+          chapter: '142',
+        },
+        {
+          book: 'wind-and-truth',
+          chapter: '143',
         },
         {
           book: 'words-of-radiance',
@@ -1087,6 +1107,10 @@ export const journeyIndex: JourneyIndex = {
           chapter: '108',
         },
         {
+          book: 'wind-and-truth',
+          chapter: '123',
+        },
+        {
           book: 'words-of-radiance',
           chapter: 'prologue',
         },
@@ -1260,7 +1284,19 @@ export const journeyIndex: JourneyIndex = {
         },
         {
           book: 'wind-and-truth',
+          chapter: '110',
+        },
+        {
+          book: 'wind-and-truth',
           chapter: '130',
+        },
+        {
+          book: 'wind-and-truth',
+          chapter: '140',
+        },
+        {
+          book: 'wind-and-truth',
+          chapter: '144',
         },
         {
           book: 'words-of-radiance',
@@ -1454,6 +1490,10 @@ export const journeyIndex: JourneyIndex = {
         {
           book: 'rhythm-of-war',
           chapter: '103',
+        },
+        {
+          book: 'wind-and-truth',
+          chapter: 'i-13',
         },
         {
           book: 'words-of-radiance',
@@ -1668,6 +1708,10 @@ export const journeyIndex: JourneyIndex = {
           chapter: '14',
         },
         {
+          book: 'wind-and-truth',
+          chapter: '147',
+        },
+        {
           book: 'words-of-radiance',
           chapter: '86',
         },
@@ -1804,6 +1848,14 @@ export const journeyIndex: JourneyIndex = {
         {
           book: 'wind-and-truth',
           chapter: '30',
+        },
+        {
+          book: 'wind-and-truth',
+          chapter: '140',
+        },
+        {
+          book: 'wind-and-truth',
+          chapter: '146',
         },
         {
           book: 'words-of-radiance',
@@ -2403,7 +2455,19 @@ export const journeyIndex: JourneyIndex = {
         },
         {
           book: 'wind-and-truth',
+          chapter: '110',
+        },
+        {
+          book: 'wind-and-truth',
           chapter: '130',
+        },
+        {
+          book: 'wind-and-truth',
+          chapter: '135',
+        },
+        {
+          book: 'wind-and-truth',
+          chapter: '143',
         },
         {
           book: 'words-of-radiance',
@@ -2460,6 +2524,10 @@ export const journeyIndex: JourneyIndex = {
         {
           book: 'way-of-kings',
           chapter: '71',
+        },
+        {
+          book: 'wind-and-truth',
+          chapter: '143',
         },
         {
           book: 'words-of-radiance',
@@ -2688,6 +2756,14 @@ export const journeyIndex: JourneyIndex = {
         {
           book: 'wind-and-truth',
           chapter: '112',
+        },
+        {
+          book: 'wind-and-truth',
+          chapter: '137',
+        },
+        {
+          book: 'wind-and-truth',
+          chapter: '146',
         },
         {
           book: 'words-of-radiance',

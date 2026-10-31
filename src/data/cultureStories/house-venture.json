@@ -1,0 +1,149 @@
+{
+  "intro": [
+    {
+      "text": "A noble house of the Final Empire on Scadrial, powerful enough that lesser lords seek its business.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "prologue" }]
+    },
+    {
+      "text": "The largest and richest noble house of the Final Empire, first in power among the ten Great Houses of Luthadel.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "9" }]
+    },
+    {
+      "text": "The largest and richest noble house of the Final Empire, first among Luthadel's Great Houses, and still a noble family in Elendel.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "9" },
+            { "book": "shadows-of-self", "chapter": "2" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "Houses Lekal and Hasting are its political rivals.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "18" }]
+    },
+    {
+      "text": "House Venture runs the mining of atium.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "28" }]
+    },
+    {
+      "text": "The house comes from the city of Urteau.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "5" },
+            { "book": "well-of-ascension", "chapter": "3" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Keep Venture's great hall, four or five storeys high and several times longer than it is wide, holds its balls. Stained glass windows lit from outside show mostly the Lord Ruler and the Deepness, above a floor of grey and white tiles swirled like mist. Dancers fill the middle while tables sit under a low gallery, and Straff Venture dines on a balcony at the far end.",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "12" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The house war",
+          "revealedIn": [
+            { "book": "final-empire", "chapter": "5" },
+            { "book": "final-empire", "chapter": "12" },
+            { "book": "final-empire", "chapter": "19" },
+            { "book": "final-empire", "chapter": "28" },
+            { "book": "final-empire", "chapter": "30" },
+            { "book": "final-empire", "chapter": "36" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Kelsier breaks into Keep Venture, takes atium from its safe and escapes after a fight with hazekillers.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "5" }]
+        },
+        {
+          "text": "Vin, as Valette Renoux, goes to her first ball at Keep Venture and meets Elend Venture there.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "12" }]
+        },
+        {
+          "text": "Posing as a lame skaa beggar who sells information, Kelsier meets Lord Venture and tells him an exaggerated tale of House Erikell selling arms more cheaply to Tekiel.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "19" }]
+        },
+        {
+          "text": "Straff Venture seeks an alliance with Lord Tegas so as to crush House Hasting faster if a house war starts.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "28" }]
+        },
+        {
+          "text": "At the last ball at Keep Venture before the war, Elariel assassins come for Elend, and Straff has thinned the guards near the room to clear the way for them. Vin stops the attack.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "30" }]
+        },
+        {
+          "text": "As the skaa rise, Straff tells Elend they are leaving Luthadel. Elend says he will stay, and Straff agrees, hoping Elend will be killed.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "36" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The siege of Luthadel",
+          "revealedIn": [
+            { "book": "well-of-ascension", "chapter": "1" },
+            { "book": "well-of-ascension", "chapter": "18" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Straff Venture brings an army of some fifty thousand soldiers to besiege Luthadel, where Elend now rules.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "1" }]
+        },
+        {
+          "text": "Zane, who serves Straff, is Elend's half-brother.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "18" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "In Elendel",
+          "revealedIn": [{ "book": "shadows-of-self", "chapter": "2" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Douglas Venture is a nobleman of Elendel.",
+          "revealedIn": [{ "book": "shadows-of-self", "chapter": "2" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "straff-venture",
+      "role": "head of house",
+      "revealedIn": [{ "book": "final-empire", "chapter": "28" }]
+    },
+    {
+      "characterId": "elend-venture",
+      "role": "heir",
+      "revealedIn": [{ "book": "final-empire", "chapter": "12" }]
+    },
+    {
+      "characterId": "zane-venture",
+      "role": "son",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "18" }]
+    },
+    {
+      "characterId": "douglas-venture",
+      "role": "member",
+      "revealedIn": [{ "book": "shadows-of-self", "chapter": "2" }]
+    }
+  ]
+}

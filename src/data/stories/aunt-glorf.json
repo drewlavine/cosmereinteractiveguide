@@ -1,0 +1,26 @@
+{
+  "intro": [
+    {
+      "text": "Tress's aunt on Diggen's Point.",
+      "revealedIn": [{ "book": "tress", "chapter": "40" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Diggen's Point",
+          "revealedIn": [{ "book": "tress", "chapter": "40" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Aunt Glorf was famous for battling over prices in the market, even for the tiniest things, much as Fort does, because she dreaded being cheated and looking a fool.",
+          "revealedIn": [{ "book": "tress", "chapter": "40" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

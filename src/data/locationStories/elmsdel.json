@@ -1,0 +1,15 @@
+{
+  "intro": [
+    {
+      "text": "A city in the southeastern part of the Elendel Basin.",
+      "revealedIn": ["alloy-of-law"]
+    }
+  ],
+  "description": [
+    {
+      "text": "No railway between Elmsdel and Rashekin goes around Elendel, so goods traded between them are taxed twice by the capital: once on the rails and again on entering the city. Steris Harms points to this as one reason for resentment across the Basin.",
+      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "5" }]
+    }
+  ],
+  "history": []
+}

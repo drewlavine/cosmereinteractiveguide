@@ -1,0 +1,272 @@
+{
+  "intro": [
+    {
+      "text": "The life force each person is born with, one Breath apiece, which can be handed on to someone else. Awakeners gather Breaths from others and spend them to bring objects to life, draining color from things nearby as fuel.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "prologue" }]
+    },
+    {
+      "text": "The life force each person is born with, one Breath apiece, which can be handed on to someone else. Awakeners gather Breaths and spend them to bring objects to life; people left with no Breath at all are called Drabs.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "3" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Everyone is born holding a single Breath and may choose to give it to someone else. Breath can be spent on Awakening, and holding one or more Breaths brings other benefits too.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "prologue" }]
+    },
+    {
+      "text": "Because each person has only one, anyone who wants to do grander Awakenings has to collect Breaths from others.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "prologue" }]
+    },
+    {
+      "text": "Breaths are not all equally strong, and they weaken when the person holding them falls ill. The more Breaths someone holds, the more they brighten the colors around them, and over a wider area.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "14" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "In the story",
+          "revealedIn": [
+            { "book": "warbreaker", "chapter": "prologue" },
+            { "book": "warbreaker", "chapter": "3" },
+            { "book": "warbreaker", "chapter": "10" },
+            { "book": "warbreaker", "chapter": "37" },
+            { "book": "warbreaker", "chapter": "43" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Vahr, a captive rebel leader, gives his large store of Breaths to Vasher so that his enemies cannot have them.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "prologue" }]
+        },
+        {
+          "text": "Lightsong, a Returned, must be given one Breath every week to stay alive.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "3" }]
+        },
+        {
+          "text": "The dying Lemex forces his Breath on Vivenna, who is overwhelmed by the sense of life and color it brings.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "10" }]
+        },
+        {
+          "text": "Vivenna hides in the slums as a Drab by putting all her Breath into a shawl.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "37" }]
+        },
+        {
+          "text": "She reclaims her Breath from the shawl and at once feels far better.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "43" }]
+        }
+      ]
+    }
+  ],
+  "mechanics": [
+    {
+      "title": [
+        {
+          "text": "Passing on Breath",
+          "revealedIn": [
+            { "book": "warbreaker", "chapter": "prologue" },
+            { "book": "warbreaker", "chapter": "13" },
+            { "book": "warbreaker", "chapter": "57" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Breath is passed on by touching the person receiving it and speaking a Command that gives them the giver's life and Breath.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "prologue" }]
+        },
+        {
+          "text": "It cannot be handed out bit by bit: a person's Breath can only be passed on in one go, all together.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "13" }]
+        },
+        {
+          "text": "Taking in a great many Breaths at once brings a sudden rush of pleasure and shock that usually drops the person to the ground, shaking. This doesn't happen if they took in a large amount not long before.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "57" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Living with more Breath",
+          "revealedIn": [
+            { "book": "warbreaker", "chapter": "43" },
+            { "book": "warbreaker", "chapter": "21" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Gathering Breath raises a person through the Heightenings, points along a continuous scale. Resistance to disease grows with each Breath and peaks at around two thousand, and a sick person given many Breaths soon recovers. Little is known of the Heightenings above the Sixth, which very few reach.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "43" }]
+        },
+        {
+          "text": "When someone dies, their Breath can pulse outward in a rare wave of brightened color. A person can also make the colors around them flare on purpose.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "21" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Spending Breath to Awaken",
+          "revealedIn": [
+            { "book": "warbreaker", "chapter": "46" },
+            { "book": "warbreaker", "chapter": "prologue" },
+            { "book": "warbreaker", "chapter": "43" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "To Awaken an object, an Awakener speaks a Command in their own language while picturing what they want it to do. Skill with Commands is what makes a good Awakener.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "46" }]
+        },
+        {
+          "text": "Some of the Awakener's Breath leaves them and goes into the object, from a single Breath to a thousand or more depending on the object. Color drains from things nearby as fuel, so a red scarf may turn grey. The color is gone for good, but the Breath can usually be taken back.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "prologue" }]
+        },
+        {
+          "text": "The closer a thing is to the shape and form of something living, the easier it is to Awaken. How much Breath an Awakening takes says little about how powerful the result will be.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "46" }]
+        },
+        {
+          "text": "Breath can also be kept outside the body by putting it into an object, from which it can be reclaimed.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "43" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "BioChromatic entities",
+          "revealedIn": [
+            { "book": "warbreaker", "chapter": "46" },
+            { "book": "warbreaker", "chapter": "27" },
+            { "book": "warbreaker", "chapter": "32" },
+            { "book": "warbreaker", "chapter": "51" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Vasher sorts BioChromatic entities into four Types: the Returned are Type One, Lifeless are Type Two, and Awakened objects with minds of their own are Type Four.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "46" }]
+        },
+        {
+          "text": "Each Returned holds one powerful divine Breath. Giving it away heals one person but costs the Returned their life.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "27" }]
+        },
+        {
+          "text": "A way was found to make a Lifeless from a single Breath, and that discovery made the Lifeless armies of the Manywar possible.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "32" }]
+        },
+        {
+          "text": "A Type Four entity is made by Awakening something like metal or stone, which takes at least the Ninth Heightening. The sword Nightblood is one: making it took a thousand Breaths, with \"Destroy evil\" as its Command.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "51" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Drabs",
+          "revealedIn": [
+            { "book": "warbreaker", "chapter": "3" },
+            { "book": "warbreaker", "chapter": "35" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "In Hallandren, anyone with no Breath is called a Drab, or sometimes a Dull or a Faded One.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "3" }]
+        },
+        {
+          "text": "Many in Hallandren think losing a Breath does no harm, but Drabs see duller colors and have weaker senses. They have no life sense and others cannot sense them either.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "35" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Memories in Breath",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "warbreaker", "chapter": "48" },
+                { "book": "rhythm-of-war", "chapter": "epilogue" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Memories can be stored in Breath, by a method simple enough to teach a child and usable without much Breath. Removing those Breaths takes the memories away with them.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "warbreaker", "chapter": "48" },
+                { "book": "rhythm-of-war", "chapter": "epilogue" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Breath Equivalent Units",
+          "revealedIn": [
+            { "book": "sunlit-man", "chapter": "13" },
+            { "book": "sunlit-man", "chapter": "24" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Breath gives its name to a measure of Investiture, the Breath Equivalent Unit.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "13" }]
+        },
+        {
+          "text": "Even on worlds rich in Investiture, a person's soul seldom amounts to more than three Breath Equivalent Units; an ordinary Threnodite on Canticle has one.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "24" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "vasher",
+      "role": "Awakener",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "prologue" }]
+    },
+    {
+      "characterId": "lightsong",
+      "role": "Returned god",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "3" }]
+    },
+    {
+      "characterId": "lemex",
+      "role": "Gave his Breath",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "10" }]
+    },
+    {
+      "characterId": "vivenna",
+      "role": "Idrian princess",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "10" }]
+    },
+    {
+      "characterId": "susebron",
+      "role": "God King",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "15" }]
+    }
+  ]
+}

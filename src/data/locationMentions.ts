@@ -235,6 +235,10 @@ export const locationMentions: Record<string, ChapterPoint[]> = {
       book: 'dawnshard',
       chapter: '14',
     },
+    {
+      book: 'wind-and-truth',
+      chapter: '11',
+    },
   ],
   hornhollow: [
     {
@@ -304,6 +308,10 @@ export const locationMentions: Record<string, ChapterPoint[]> = {
     {
       book: 'rhythm-of-war',
       chapter: '13',
+    },
+    {
+      book: 'wind-and-truth',
+      chapter: '1',
     },
   ],
   maipon: [
@@ -389,6 +397,10 @@ export const locationMentions: Record<string, ChapterPoint[]> = {
       book: 'way-of-kings',
       chapter: '5',
     },
+    {
+      book: 'wind-and-truth',
+      chapter: 'i-6',
+    },
   ],
   pantheon: [
     {
@@ -412,6 +424,10 @@ export const locationMentions: Record<string, ChapterPoint[]> = {
     {
       book: 'edgedancer',
       chapter: '5',
+    },
+    {
+      book: 'wind-and-truth',
+      chapter: '145',
     },
   ],
   revolar: [

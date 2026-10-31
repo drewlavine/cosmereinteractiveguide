@@ -1,0 +1,52 @@
+{
+  "intro": [
+    {
+      "text": "A captain of the Bilming constabulary who, in 348 PC, leads a sting on a local gang.",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "22" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The Bilming sting",
+          "revealedIn": [
+            { "book": "lost-metal", "chapter": "22" },
+            { "book": "lost-metal", "chapter": "23" },
+            { "book": "lost-metal", "chapter": "29" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Blantach first met Marasi Colms at an intercity training event in 347 PC. A year on she planned a sting against a Bilming gang; her superiors pushed back a little harder than usual but still signed off on it.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "22" }]
+        },
+        {
+          "text": "The gang was surrendering when Marasi appeared and admitted that Elendel's constables had planned a sting of their own, which enraged Blantach. Then Dumad's huge Steelpush threw her a short distance; after Marasi saved her she agreed to work with her, and Wax's arrival turned a planned retreat into the capture of most of the gang.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "23" }]
+        },
+        {
+          "text": "Blantach took the Elendel constables to the Bilming constabulary headquarters, oversaw the cleanup of the site and sent for the mayor, Gave Entrone. When the mayor stormed out after arguing with the visitors, she apologized for him.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "29" }]
+        },
+        {
+          "text": "Catching up with Wax, Wayne and Marasi as they left, Blantach offered her help, saying she could hold off Entrone more easily if a Bilming constable went with them. They agreed, and she sent along a woman named Kim.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "29" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Blantach is tall, with short blonde hair.",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "22" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Blantach cares about keeping her people and her city safe rather than winning glory. She has served as a constable longer than most, Reddi included, and that experience earned her a captaincy.",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "22" }]
+    }
+  ]
+}

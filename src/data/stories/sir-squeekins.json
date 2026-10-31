@@ -1,0 +1,31 @@
+{
+  "intro": [
+    {
+      "text": "A white rat that once belonged to Wayne.",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "21" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Traded away",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "21" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Wayne traded him for a harmonica, saying he wanted the rat in more responsible hands after it had escaped its cage seventeen times.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "21" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Pure white, with a long, bare tail.",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "21" }]
+    }
+  ],
+  "personality": []
+}

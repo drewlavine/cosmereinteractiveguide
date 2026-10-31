@@ -1,0 +1,32 @@
+{
+  "intro": [
+    {
+      "text": "Someone who is both a Misting and a Ferring. Twinborn first arose after the Final Ascension, once the Terris people mixed with the other people of the Final Empire.",
+      "revealedIn": [{ "book": "shadows-of-self", "chapter": "prologue" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "The same mixing diluted Feruchemy, producing Ferrings. Holding both powers has practical uses: a Bloodmaker can heal inside a speed bubble, and a Coinshot can add Feruchemical weight.",
+      "revealedIn": [{ "book": "shadows-of-self", "chapter": "prologue" }]
+    },
+    {
+      "text": "Twinborn also have resonances, effects that come from their two powers combining.",
+      "revealedIn": [{ "book": "shadows-of-self", "chapter": "prologue" }]
+    }
+  ],
+  "history": [],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "waxillium-ladrian",
+      "role": "Coinshot, Skimmer",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "9" }]
+    },
+    {
+      "characterId": "wayne",
+      "role": "Slider, Bloodmaker",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "9" }]
+    }
+  ]
+}

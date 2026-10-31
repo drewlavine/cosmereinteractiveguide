@@ -1,0 +1,77 @@
+{
+  "intro": [
+    {
+      "text": "A kingdom north of the Idrian mountains, close to Kuth. The two were allies in the Manywar, and Hanald invaded both.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "32" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Little is recorded about its climate, except that the land was prairie, steppe or desert.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "32" }]
+    },
+    {
+      "text": "Huth was on poor terms with Hanald, envying its wealth and fearing its armies.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "32" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Tensions with Hanald",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "32" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Roughly three centuries ago, just before the Manywar, tensions with Hanald peaked. One cause was Hanald's monopoly on dyes, which kept other kingdoms from sharing in that trade.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "32" }]
+        },
+        {
+          "text": "Hanald's royals had also embraced the young art of Awakening, gaining strong Awakeners and Lifeless that other realms lacked. New discoveries let nations field much larger, cheaper armies, raising tensions further.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "32" }]
+        },
+        {
+          "text": "Then one of Hanald's Returned foresaw war, and Kalad struck first at Huth and other nations.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "32" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The Manywar",
+          "revealedIn": [
+            { "book": "warbreaker", "chapter": "32" },
+            { "book": "warbreaker", "chapter": "epilogue" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The Manywar broke out as Kalad's Phantoms marched into Huth and Kuth.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "32" }]
+        },
+        {
+          "text": "Huth and Kuth became Hanald's main enemies and kept fighting until, close to the war's end, both kingdoms were destroyed.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "epilogue" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Aftermath",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "epilogue" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Several kingdoms arose in Huth's place, and they kept their hatred of Hallandren. Some three hundred years after its fall, a tyrant backed by Yesteel set out to bring Huth and Kuth back.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "epilogue" }]
+        }
+      ]
+    }
+  ]
+}

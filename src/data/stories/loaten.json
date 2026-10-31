@@ -1,0 +1,32 @@
+{
+  "intro": [
+    {
+      "text": "A Darksider who runs things in Lonzare, Kezare's Darkside quarter, and for whom N'Teese works.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "5" }],
+      "fallback": true
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Lonzare",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "5" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Loaten, branded a traitor by the Dynasty and supposedly executed, was expecting Khriss but dodged most of her questions. He admitted meeting Gevin and Wilheln before the prince was shot, and asked N'Teese to keep helping Khriss, until Nilto came in and told him to send her away.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "5" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Portly and dark-skinned, bald but for a thin goatee and long, thick sideburns, with a distinctive scar on his neck. He wears a pinstriped grey robe over a blue shirt and a ring on every finger.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "5" }]
+    }
+  ],
+  "personality": []
+}

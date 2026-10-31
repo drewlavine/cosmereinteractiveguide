@@ -1,0 +1,38 @@
+{
+  "intro": [
+    {
+      "text": "A document said to have been written by Dockson, one of the Preservers, though it is considered apocryphal. A copy is kept in the museum beneath the Field of Rebirth.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "well-of-ascension", "chapter": "53" },
+            { "book": "shadows-of-self", "chapter": "19" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "Wax once tried to read it and found it very dull.",
+      "revealedIn": [{ "book": "shadows-of-self", "chapter": "19" }]
+    }
+  ],
+  "history": [],
+  "facts": [
+    {
+      "label": "Said to be by",
+      "name": "Dockson",
+      "characterId": "dockson",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "well-of-ascension", "chapter": "53" },
+            { "book": "shadows-of-self", "chapter": "19" }
+          ]
+        }
+      ]
+    }
+  ],
+  "people": []
+}

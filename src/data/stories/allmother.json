@@ -1,0 +1,47 @@
+{
+  "intro": [
+    {
+      "text": "A goddess of Hallandren's Court of Gods who holds the Commands for ten thousand Lifeless, a quarter of the army. She took Calmseer as her model and loathes Lightsong.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "26" }]
+    },
+    {
+      "text": "Hallandren's goddess of matrons and families, who holds the Commands for ten thousand Lifeless, a quarter of the army. She took Calmseer as her model and loathes Lightsong.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "34" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "In the Court of Gods",
+          "revealedIn": [
+            { "book": "warbreaker", "chapter": "38" },
+            { "book": "warbreaker", "chapter": "42" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Blushweaver tries to get Allmother's security phrase so she can control those Lifeless herself. Allmother won't give it up, and in the end refuses even to talk to her.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "38" }]
+        },
+        {
+          "text": "Turned away again and again, Lightsong pitches a pavilion outside her palace and sends a Lifeless squirrel in to cause chaos, and at last she lets him in. She scolds him for playing the fool, won't simply take his own Commands, and instead tells him her phrase, partly because Calmseer had thought well of him and partly to push him into acting.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "42" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "She looks elderly, white-haired and wrinkled, and in bodily age she is the oldest of the gods. She is also stockier than most goddesses.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "47" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Instead of answering petitioners with a bare yes or no, she does what she can to help them, as the Returned of old did, though partly from fear of losing worshippers and the Breath they bring. She keeps to herself and rarely joins court sessions or debates.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "47" }]
+    }
+  ]
+}

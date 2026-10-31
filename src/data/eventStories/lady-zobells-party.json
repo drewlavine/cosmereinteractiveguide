@@ -1,0 +1,119 @@
+{
+  "intro": [
+    {
+      "text": "A party hosted by Lady ZoBell in ZoBell Tower, in Elendel.",
+      "revealedIn": [{ "book": "shadows-of-self", "chapter": "8" }]
+    },
+    {
+      "text": "A party in Elendel, the first ever thrown in ZoBell Tower's penthouse, timed around the governor's spring dinner and policy speech. Wax went there hunting Bleeder.",
+      "revealedIn": [{ "book": "shadows-of-self", "chapter": "10" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "It was the first party ever held in the tower's penthouse, and was arranged to go with the governor's spring dinner and policy speech. Invitations went out to the highest levels of society, in Elendel and further afield.",
+      "revealedIn": [{ "book": "shadows-of-self", "chapter": "9" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Getting in",
+          "revealedIn": [
+            { "book": "shadows-of-self", "chapter": "8" },
+            { "book": "shadows-of-self", "chapter": "9" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Faced with a long queue of carriages, Wax used a tether from Ranette to Push himself and Steris up to the top of the tower, which Steris had planned for.",
+          "revealedIn": [{ "book": "shadows-of-self", "chapter": "8" }]
+        },
+        {
+          "text": "Just as Steris had expected, the coach attendants could not cope and traffic backed up badly. After that day's attempt on the governor's life, security was tightened, and anyone missing from the guest list was turned away, invitation or not.",
+          "revealedIn": [{ "book": "shadows-of-self", "chapter": "9" }]
+        },
+        {
+          "text": "Wayne and Marasi were both on a list of people to be refused entry. Wayne used a speed bubble to read the guest list unnoticed, then picked Professor Hanlanaze to impersonate, with Marasi helping him into the disguise.",
+          "revealedIn": [{ "book": "shadows-of-self", "chapter": "9" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Bleeder at the party",
+          "revealedIn": [{ "book": "shadows-of-self", "chapter": "10" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "As Wax and Steris spoke with Governor Innate, Bleeder began speaking into Wax's mind, threatening Wax's father, which Wax took to mean Steris's father.",
+          "revealedIn": [{ "book": "shadows-of-self", "chapter": "10" }]
+        },
+        {
+          "text": "Watching how everyone in the room moved, Wax decided Bleeder was posing as one of the waiters. Wayne tackled the man, but the governor's guards piled onto Wayne and the waiter got away. Wax fired at him and missed, the waiter crashed out through a window, and Wax went after him.",
+          "revealedIn": [{ "book": "shadows-of-self", "chapter": "10" }]
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Host",
+      "name": "Lady ZoBell",
+      "characterId": "lady-zobell",
+      "revealedIn": [{ "book": "shadows-of-self", "chapter": "8" }]
+    },
+    {
+      "label": "Venue",
+      "name": "ZoBell Tower",
+      "placeId": "zobell-tower",
+      "revealedIn": [{ "book": "shadows-of-self", "chapter": "8" }]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "lady-zobell",
+      "role": "host",
+      "revealedIn": [{ "book": "shadows-of-self", "chapter": "8" }]
+    },
+    {
+      "characterId": "waxillium-ladrian",
+      "role": "guest",
+      "revealedIn": [{ "book": "shadows-of-self", "chapter": "8" }]
+    },
+    {
+      "characterId": "steris-harms",
+      "role": "guest",
+      "revealedIn": [{ "book": "shadows-of-self", "chapter": "8" }]
+    },
+    {
+      "characterId": "wayne",
+      "role": "gatecrasher",
+      "revealedIn": [{ "book": "shadows-of-self", "chapter": "9" }]
+    },
+    {
+      "characterId": "marasi-colms",
+      "role": "gatecrasher",
+      "revealedIn": [{ "book": "shadows-of-self", "chapter": "9" }]
+    },
+    {
+      "characterId": "hanlanaze",
+      "role": "impersonated",
+      "revealedIn": [{ "book": "shadows-of-self", "chapter": "9" }]
+    },
+    {
+      "characterId": "replar-innate",
+      "role": "governor",
+      "revealedIn": [{ "book": "shadows-of-self", "chapter": "10" }]
+    },
+    {
+      "characterId": "paalm",
+      "role": "taunted Wax",
+      "revealedIn": [{ "book": "shadows-of-self", "chapter": "10" }]
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "intro": [
+    {
+      "text": "A steel plate engraved in an old Terris dialect by Kwaan, the Terrisman who was the first to name Alendi as the prophesied Hero. Sazed finds it at the Conventical of Seran.",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "12" }]
+    },
+    {
+      "text": "Kwaan's account of Alendi, engraved in steel and found by Sazed at the Conventical of Seran. Sazed's rubbing of it turns out not to match the plate.",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "epilogue" }]
+    }
+  ],
+  "description": [],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Sazed's rubbing",
+          "revealedIn": [
+            { "book": "well-of-ascension", "chapter": "12" },
+            { "book": "well-of-ascension", "chapter": "30" },
+            { "book": "well-of-ascension", "chapter": "41" },
+            { "book": "well-of-ascension", "chapter": "57" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Exploring the Conventical of Seran with Marsh, Sazed finds the plate. Kwaan writes that he was the first to proclaim Alendi the Hero, before deciding he had to stop him. Sazed takes charcoal rubbings of it.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "12" }]
+        },
+        {
+          "text": "Back in Luthadel, Sazed copies out his rubbings, and Vin reads the transcription.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "30" }]
+        },
+        {
+          "text": "Tindwyl asks to see the rubbing, and she and Sazed study it together. They cannot see why Kwaan would turn against Alendi or send Rashek to stop him, and Tindwyl feels something about it is wrong.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "41" }]
+        },
+        {
+          "text": "Sazed is troubled by a line of his copy saying Alendi must be kept from the Well of Ascension, lest he take its power for himself. It seems at odds with everything else he knows of Kwaan.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "57" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The plate itself",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "epilogue" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Sazed returns to the Conventical and finds his rubbing does not match the steel. The plate says Alendi must not free the thing imprisoned in the Well, warns that a malevolent force twisted the prophecies, and tells of Kwaan's fallback plan for Rashek to kill Alendi. The altered words had led Vin to give up the Well's power.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "epilogue" }]
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Author",
+      "name": "Kwaan",
+      "characterId": "kwaan",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "12" }]
+    },
+    {
+      "label": "Found at",
+      "name": "Conventical of Seran",
+      "placeId": "conventical-of-seran",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "12" }]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "kwaan",
+      "role": "author",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "12" }]
+    },
+    {
+      "characterId": "sazed",
+      "role": "transcriber",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "12" }]
+    },
+    {
+      "characterId": "vin",
+      "role": "reader",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "30" }]
+    },
+    {
+      "characterId": "tindwyl",
+      "role": "studied it",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "41" }]
+    },
+    {
+      "characterId": "alendi",
+      "role": "subject",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "12" }]
+    }
+  ]
+}

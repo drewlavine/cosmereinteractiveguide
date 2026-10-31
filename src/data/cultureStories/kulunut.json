@@ -1,0 +1,38 @@
+{
+  "intro": [
+    {
+      "text": "A rich, fatty nut. Its fat can be pressed out and cooked with instead of oil.",
+      "revealedIn": [{ "book": "tress", "chapter": "40" }]
+    }
+  ],
+  "description": [],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Aboard the Crow's Song",
+          "revealedIn": [{ "book": "tress", "chapter": "40" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "With the ship's oil gone rancid, Tress showed Fort how to make kulunut bread, which would hide the stale taste of the old flour. Fort crushed the nuts for their fat, and Tress baked the loaf in a steamer she rigged up. It was so good that Fort suspected she had tricked him, and said one bite outdid every meal he had ever made her.",
+          "revealedIn": [{ "book": "tress", "chapter": "40" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "tress",
+      "role": "baker",
+      "revealedIn": [{ "book": "tress", "chapter": "40" }]
+    },
+    {
+      "characterId": "fort",
+      "role": "helped bake",
+      "revealedIn": [{ "book": "tress", "chapter": "40" }]
+    }
+  ]
+}

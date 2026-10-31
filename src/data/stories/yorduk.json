@@ -1,0 +1,42 @@
+{
+  "intro": [
+    {
+      "text": "Rivershore's innkeeper, married to Gornil, with a big family of children and grandchildren.",
+      "revealedIn": [{ "book": "fires-of-december", "chapter": "ii" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Rivershore",
+          "revealedIn": [
+            { "book": "fires-of-december", "chapter": "ii" },
+            { "book": "fires-of-december", "chapter": "xli" },
+            { "book": "fires-of-december", "chapter": "epilogue" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Yorduk and Gornil's family took December in after she was orphaned, and raised her at the inn.",
+          "revealedIn": [{ "book": "fires-of-december", "chapter": "ii" }]
+        },
+        {
+          "text": "In the life December lived before waking in the past, when December fled her husband Bark's abuse back to the inn, Yorduk and Gornil heard her out but feared the illness that had left her unable to have children might spread to the other young women of the house, so they fed her, gave her a few coins and sent her off. Bark went on to marry their granddaughter Isa.",
+          "revealedIn": [{ "book": "fires-of-december", "chapter": "xli" }]
+        },
+        {
+          "text": "Years after, with fewer travellers and the inn living on the reeve's help, December, now the reeve's wife, spent years helping her foster family make it pay again. In the second future she lived through, Yorduk alone knew her when she came home, but he took her for a double and cursed her.",
+          "revealedIn": [{ "book": "fires-of-december", "chapter": "xli" }]
+        },
+        {
+          "text": "After her twenty-first birthday, December left Rivershore with a warning for her foster family: keep a close eye on their youngest grandson, not yet born, who would otherwise fall down a well at four and break both legs. Yorduk was a guest at her wedding to Flint.",
+          "revealedIn": [{ "book": "fires-of-december", "chapter": "epilogue" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

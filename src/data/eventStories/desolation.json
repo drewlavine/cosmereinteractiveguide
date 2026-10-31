@@ -1,0 +1,449 @@
+{
+  "intro": [
+    {
+      "text": "One of a cycle of devastating wars fought on Roshar by the ten Heralds, who spent the time between them in a place of torment.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "prelude" }]
+    },
+    {
+      "text": "One of a cycle of devastating wars on Roshar. Vorin teaching holds that mankind fought the Voidbringers through ninety-nine Desolations before finally driving them back to the Tranquiline Halls.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "45" }]
+    },
+    {
+      "text": "Continent-wide wars in which the Heralds and the Voidbringers clashed, each leaving human civilization in ruins.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "61" },
+            { "book": "words-of-radiance", "chapter": "6" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "In Vorin teaching, the final victory over the Voidbringers came to be called the Last Desolation.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "45" }]
+    },
+    {
+      "text": "Each Desolation devastated humankind. In one, nine in ten of the people in Nohadon's kingdom died, and some nations, such as Sur, Eiliz and Tarma, vanished from history altogether.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "60" }]
+    },
+    {
+      "text": "Between Desolations, the Knights Radiant were meant to stay watchful, prepare mankind and fight the Voidbringers when they came.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "60" }]
+    },
+    {
+      "text": "The Desolations kept humanity's technology very low: soldiers fought in bronze and leather, and people often still used stone tools when the Heralds came back. The Heralds tried to advance them before each Desolation, with Vedel teaching medicine such as keeping wounds clean.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "52" },
+            { "book": "words-of-radiance", "chapter": "i-7" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The First Desolation",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "113" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Humans who had destroyed their former home with Surgebinding came to Roshar for shelter, and the singers gave them the land that became Shinovar. Unsatisfied, the humans invaded the rest of the continent: the first war between humans and singers.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "113" }]
+        },
+        {
+          "text": "The Eila Stele was written by a singer who witnessed the invasion, to warn against ever trusting humans.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "113" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The Oathpact",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "64" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Odium gave power to some singers killed by the invaders, turning them into the Fused: Cognitive Shadows that take over living singers and cannot be killed.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "64" }]
+        },
+        {
+          "text": "Ishar founded the Oathpact in answer. He and nine others, who became the Heralds, swore with Honor to imprison the Fused on Braize. Originally, Taln was not meant to be among them.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "64" }]
+        },
+        {
+          "text": "Because the Heralds were human, the pact had a loophole: they could give in and let the Fused back onto Roshar, starting a Desolation. The Fused knew this, and captured and tortured them.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "64" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The cycle",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "epilogue" },
+                { "book": "words-of-radiance", "chapter": "i-7" },
+                { "book": "oathbringer", "chapter": "i-7" }
+              ]
+            },
+            { "book": "rhythm-of-war", "chapter": "14" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The appearance of the Heralds and of Midnight Essence foretold a Desolation. It began with the Return, when the Heralds and the Fused came back to Roshar and the Fused had to find singers willing to give up their bodies.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "epilogue" },
+                { "book": "words-of-radiance", "chapter": "i-7" },
+                { "book": "oathbringer", "chapter": "i-7" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "A Desolation ended when the Heralds went back to Braize, which began the sealing away of the Fused, called an Isolation.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "14" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Between Desolations",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "prelude" },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "prelude" },
+                { "book": "oathbringer", "chapter": "38" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The Heralds spent the time between Desolations in a place of torment that Kalak dreaded going back to.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "prelude" }]
+        },
+        {
+          "text": "On Braize the Heralds hid from and fought the Fused until they were caught and tortured. Sharing their pain through their bond, they once held out for centuries, but the gaps shrank to under ten years and the last to less than one. Only Taln never broke.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "prelude" },
+                { "book": "oathbringer", "chapter": "38" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The Heralds abandon the Oathpact",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "prelude" },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "prologue" },
+                { "book": "oathbringer", "chapter": "38" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "The Last Desolation",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "prologue" },
+                { "book": "oathbringer", "chapter": "38" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "After a Desolation, Jezrien and Kalak met at the Heralds' gathering place, where the others had already left their Honorblades and abandoned the Oathpact. The two added their own Blades and went separate ways, leaving Talenel alone bound to it and meaning to tell people the enemy was beaten.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "prelude" }]
+        },
+        {
+          "text": "Unusually, nine of the ten Heralds survived the Last Desolation. Dreading Braize, they broke the Oathpact, accepting Ishar's claim that Taln alone could uphold it, and told people that humanity had won for good.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "prologue" },
+                { "book": "oathbringer", "chapter": "38" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Taln held back the Fused alone for 4,500 years while mankind believed the Desolations were over.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "prologue" },
+                { "book": "oathbringer", "chapter": "38" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The False Desolation",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "41" },
+                { "book": "oathbringer", "chapter": "84" }
+              ]
+            },
+            { "book": "oathbringer", "chapter": "107" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Neither the Heralds nor the Fused took part in the False Desolation. It began when Ba-Ado-Mishram Connected with most singers and granted them Voidlight and forms of power. The fighting was fiercest when the singers pushed toward Feverstone Keep.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "41" },
+                { "book": "oathbringer", "chapter": "84" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Radiant scholars reasoned that an Unmade could be trapped like an ordinary spren and planned to imprison Ba-Ado-Mishram, which needed Melishi, the sole Bondsmith of that era. Naze-daughter-Kuzodo warned of side effects.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "107" }]
+        },
+        {
+          "text": "Since she was Connected to every singer, her imprisonment ripped away their Connection and Identity, leaving them as parshmen.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "107" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The True Desolation",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "epilogue" },
+                { "book": "words-of-radiance", "chapter": "83" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Talenel came back from Braize and appeared at the gates of Kholinar. Soon after, at the Battle of Narak, listeners in stormform summoned the Everstorm.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "epilogue" },
+                { "book": "words-of-radiance", "chapter": "83" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "title": "Participants",
+      "items": [],
+      "parts": [
+        {
+          "title": [
+            {
+              "text": "Heralds",
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "way-of-kings", "chapter": "prelude" },
+                    { "book": "words-of-radiance", "chapter": "i-7" },
+                    { "book": "oathbringer", "chapter": "38" }
+                  ]
+                }
+              ]
+            }
+          ],
+          "items": [
+            {
+              "text": "The Heralds led Honor's forces and taught mankind skills for the coming fight: Jezrien in leadership, Vedel in surgery and Kalak in casting bronze. Each was patron of an order of Knights Radiant, and Taln became known for winning impossible battles.",
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "way-of-kings", "chapter": "prelude" },
+                    { "book": "words-of-radiance", "chapter": "i-7" },
+                    { "book": "oathbringer", "chapter": "38" }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": [
+            {
+              "text": "Knights Radiant",
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "way-of-kings", "chapter": "19" },
+                    { "book": "words-of-radiance", "chapter": "47" },
+                    { "book": "oathbringer", "chapter": "120" }
+                  ]
+                }
+              ]
+            }
+          ],
+          "items": [
+            {
+              "text": "Honor did not plan the Knights Radiant. Spren copied the Heralds by forming bonds that gave people Surgebinding, and the orders each took a role: Windrunners scouted, Stonewards held the front line and Lightweavers kept up the troops' spirits.",
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "way-of-kings", "chapter": "19" },
+                    { "book": "words-of-radiance", "chapter": "47" },
+                    { "book": "oathbringer", "chapter": "120" }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Radiant Shardblades and Shardplate gave them a better chance against the Voidbringers, thunderclasts above all. They invited anyone willing and able to fight or lead to train with them.",
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "way-of-kings", "chapter": "19" },
+                    { "book": "words-of-radiance", "chapter": "47" },
+                    { "book": "oathbringer", "chapter": "120" }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": [
+            {
+              "text": "Voidbringers",
+              "revealedIn": [{ "book": "oathbringer", "chapter": "106" }]
+            }
+          ],
+          "items": [
+            {
+              "text": "Voidbringers were all the forces fighting for Odium in a Desolation: the Fused, the Unmade, Regals and other singers, voidspren and thunderclasts, along with some humans.",
+              "revealedIn": [{ "book": "oathbringer", "chapter": "106" }]
+            },
+            {
+              "text": "They kept a strict ranking: the Fused stood far above the Regals, singers bonded to voidspren in forms of power, who in turn stood above ordinary singers.",
+              "revealedIn": [{ "book": "oathbringer", "chapter": "106" }]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Vorin count",
+      "name": "Ninety-nine before the last",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "45" }]
+    },
+    {
+      "label": "Last Desolation",
+      "name": "About 4,500 years ago",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "prologue" },
+            { "book": "oathbringer", "chapter": "38" }
+          ]
+        }
+      ]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "jezrien",
+      "role": "Herald",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "prelude" }]
+    },
+    {
+      "characterId": "kalak",
+      "role": "Herald",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "prelude" }]
+    },
+    {
+      "characterId": "talenel",
+      "role": "Herald",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "prelude" }]
+    },
+    {
+      "characterId": "nohadon",
+      "role": "King",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "60" }]
+    },
+    {
+      "characterId": "vedel",
+      "role": "Herald",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "52" },
+            { "book": "words-of-radiance", "chapter": "i-7" }
+          ]
+        }
+      ]
+    },
+    {
+      "characterId": "ishar",
+      "role": "Oathpact founder",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "64" }]
+    },
+    {
+      "characterId": "ba-ado-mishram",
+      "role": "Unmade",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "107" }]
+    },
+    {
+      "characterId": "melishi",
+      "role": "Bondsmith",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "107" }]
+    },
+    {
+      "characterId": "naze-daughter-kuzodo",
+      "role": "Radiant scholar",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "107" }]
+    }
+  ]
+}
