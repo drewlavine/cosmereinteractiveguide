@@ -103,9 +103,11 @@ describe('map labels', () => {
 })
 
 describe('location page', () => {
-  it('shows a place with its parent, stories and spoiler-free summary', () => {
+  it('shows a place with its parent, stories and spoiler-free summary', async () => {
     renderAt(`${SEL}/locations/svorden`, ['elantris'])
-    expect(screen.getByRole('heading', { name: 'Svorden' })).toBeInTheDocument()
+    expect(
+      await screen.findByRole('heading', { name: 'Svorden' }),
+    ).toBeInTheDocument()
     expect(screen.getByText('Type').nextElementSibling).toHaveTextContent(
       'Nation',
     )
@@ -119,17 +121,17 @@ describe('location page', () => {
     ).toHaveTextContent('Some information hidden due to spoilers.')
   })
 
-  it('adds what later books reveal once they are read', () => {
+  it('adds what later books reveal once they are read', async () => {
     renderAt(`${SEL}/locations/svorden`, ['elantris', 'emperors-soul'])
-    expect(screen.getByText(/Rose Empire/)).toBeInTheDocument()
+    expect(await screen.findAllByText(/Rose Empire/)).not.toHaveLength(0)
     expect(
       screen.getByText('Mentioned in').nextElementSibling,
     ).toHaveTextContent(/^The Emperor’s Soul$/)
   })
 
-  it('lists the places within it', () => {
+  it('lists the places within it', async () => {
     renderAt(`${SEL}/locations/arelon`, ['elantris'])
-    const here = screen.getByText('Places here')
+    const here = (await screen.findByText('Places here'))
       .nextElementSibling as HTMLElement
     expect(within(here).getByRole('link', { name: 'Kae' })).toHaveAttribute(
       'href',
@@ -144,7 +146,9 @@ describe('location page', () => {
     renderAt(`${SEL}/locations/kae`, ['emperors-soul'])
     expect(screen.getByText('Not yet charted')).toBeInTheDocument()
     await userEvent.click(screen.getByRole('button', { name: 'Show anyway' }))
-    expect(screen.getByRole('heading', { name: 'Kae' })).toBeInTheDocument()
+    expect(
+      await screen.findByRole('heading', { name: 'Kae' }),
+    ).toBeInTheDocument()
   })
 
   it('is not found for an unknown place', () => {

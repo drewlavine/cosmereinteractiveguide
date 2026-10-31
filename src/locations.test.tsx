@@ -409,12 +409,14 @@ describe('location page maps', () => {
 })
 
 describe('place pages', () => {
+  const era1 = readerCanSee({ read: new Set(ERA1), reading: new Map() })
   const listedOnly = listedLocations.find(
     (l) =>
       !mapPlaceOf(l) &&
       hasLocationStory(l.id) &&
       l.kind !== 'planet' &&
-      l.world === 'scadrial',
+      l.world === 'scadrial' &&
+      era1(placeRevealedIn(l)),
   )!
 
   it('gives places without a map page a page of their own', async () => {
