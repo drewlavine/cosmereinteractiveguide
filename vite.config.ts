@@ -26,5 +26,9 @@ export default defineConfig({
     // Whole character pages render slowly on CI runners.
     testTimeout: 20_000,
     hookTimeout: 30_000,
+    // The on-disk module cache misses files added under import.meta.glob
+    // (a freshly emitted story JSON), so tests pass on stale data. No
+    // measurable speed cost here.
+    fsModuleCache: false,
   },
 })

@@ -25,6 +25,11 @@ factual reminder for a reader who has already read the chapter.
   current.
 - Don't hand-edit generated files (`characterDetails.ts`, `stories/*.json`):
   change the pipeline input and re-emit.
+- Swarms: `/content-swarm` and `/code-swarm` (`.github/skills/`, agents in
+  `.github/agents/`). Only the coordinator commits to `main`, after asking;
+  code-swarm implementers commit only to their own `swarm/*` branches.
+  `scripts/main-lock.sh` serialises emits, merges and full checks in this
+  checkout.
 
 ## Checks
 
