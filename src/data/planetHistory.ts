@@ -4,7 +4,7 @@ import { entryArt } from './entryArt'
 import { findLocation } from './locations'
 import { chapterIndex, chapterLabel } from './progress'
 import type { CanSee } from './reveal'
-import type { Location, Reveal, RevealPoint } from './types'
+import type { Era, MomentKind, Reveal, RevealPoint, Told } from './types'
 
 /**
  * A planet's history, told in eras and moments for its page's History
@@ -18,47 +18,7 @@ import type { Location, Reveal, RevealPoint } from './types'
  * `chrono`, so the two can be checked against each other.
  */
 
-export type MomentKind = 'legend' | 'magic' | 'war' | 'realm'
-
-/** Some words and the books that reveal them. */
-interface Dated {
-  text: string
-  revealedIn: Reveal
-}
-
-/**
- * One telling of a moment. Of the tellings the reader has reached, the last
- * is current; whatever it leaves out carries over from the ones before.
- */
-interface Told {
-  revealedIn: Reveal
-  title?: string
-  text?: string
-  /** Where it happened: location ids on this planet. */
-  places?: string[]
-  /** Moments that led to it, by id. */
-  after?: string[]
-  /** `character:<id>` for a portrait, else an `entryArt` key. */
-  art?: string
-}
-
-interface Moment {
-  id: string
-  kind: MomentKind
-  told: Told[]
-  /** The shared chronology's event for it, if it has one. */
-  chrono?: string
-}
-
-interface Era {
-  id: string
-  /** A plain title, or titles revealed in turn (the last one reached wins). */
-  title: string | Dated[]
-  when?: Dated[]
-  /** A colour for the era (hex). */
-  tone: string
-  moments: Moment[]
-}
+export type { MomentKind }
 
 const wb = (chapter: string) => ({ book: 'warbreaker', chapter })
 const fe = (chapter: string) => ({ book: 'final-empire', chapter })
@@ -854,12 +814,18 @@ export interface Telling {
   text: string
 }
 
+/** A place a moment happened at, as its page links to it. */
+export interface ShownPlace {
+  id: string
+  name: string
+}
+
 export interface ShownMoment {
   id: string
   kind: MomentKind
   title: string
   text: string
-  places: Location[]
+  places: ShownPlace[]
   /** Shown moments that led to this one. */
   after: string[]
   art?: Portrait
@@ -924,6 +890,27 @@ export function revealPlanetHistory(
   canSee: CanSee,
   viewAnyway = false,
 ): { eras: ShownEra[]; spoilers: boolean } {
+  return revealEras(
+    planetHistory[planetId] ?? [],
+    (id, show) => {
+      const place = findLocation(planetId, id)
+      return place && show(place.revealedIn) ? place : undefined
+    },
+    canSee,
+    viewAnyway,
+  )
+}
+
+/**
+ * Any eras trimmed as revealPlanetHistory does. `placeOf` gives a moment's
+ * place by id if `show` lets the reader see it.
+ */
+export function revealEras(
+  history: readonly Era[],
+  placeOf: (id: string, show: CanSee) => ShownPlace | undefined,
+  canSee: CanSee,
+  viewAnyway = false,
+): { eras: ShownEra[]; spoilers: boolean } {
   const show: CanSee = viewAnyway ? () => true : canSee
   let spoilers = false
   const visible = <T extends { revealedIn: Reveal }>(list: readonly T[]) => {
@@ -931,7 +918,7 @@ export function revealPlanetHistory(
     return list.filter((x) => show(x.revealedIn))
   }
 
-  const eras = (planetHistory[planetId] ?? []).flatMap((era): ShownEra[] => {
+  const eras = history.flatMap((era): ShownEra[] => {
     const titles =
       typeof era.title === 'string'
         ? [{ text: era.title }]
@@ -958,8 +945,8 @@ export function revealPlanetHistory(
           title,
           text,
           places: places.flatMap((id) => {
-            const place = findLocation(planetId, id)
-            return place && show(place.revealedIn) ? [place] : []
+            const place = placeOf(id, show)
+            return place ? [{ id: place.id, name: place.name }] : []
           }),
           after,
           art: art ? artFor(art, show) : undefined,

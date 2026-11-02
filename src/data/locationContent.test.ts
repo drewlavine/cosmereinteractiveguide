@@ -73,6 +73,7 @@ describe('revealLocationStory', () => {
     expect(s).toEqual({
       intro: undefined,
       description: [],
+      culture: [],
       history: [],
       spoilers: true,
     })

@@ -301,10 +301,76 @@ export interface LocationDetails {
 export interface LocationStory {
   /** "What it is" in a sentence or two, earliest first. */
   intro: StoryItem[]
-  /** What it's like: geography, layout, people, culture. */
-  description: StoryItem[]
+  /**
+   * What it's like: geography, layout, economy. An entry with `fromCulture`
+   * only mirrors a Culture item (for the old page) and isn't shown.
+   */
+  description: (StoryItem & { fromCulture?: CultureTopic })[]
+  /** Its people and ways, one subsection per topic. */
+  culture?: { title: StoryItem[]; topic?: CultureTopic; items: StoryItem[] }[]
   /** What happened there, in in-world order (as CharacterStory's). */
   history: { title: StoryItem[]; items: StoryItem[] }[]
+  /** The same history in eras and moments, shown in place of `history`. */
+  timeline?: Era[]
+}
+
+export type CultureTopic =
+  | 'people'
+  | 'society'
+  | 'religion'
+  | 'dress'
+  | 'language'
+  | 'arts'
+  | 'food'
+  | 'customs'
+  | 'warfare'
+  | 'trade'
+
+export type MomentKind = 'legend' | 'magic' | 'war' | 'realm'
+
+/** Some words and the books that reveal them. */
+export interface Dated {
+  text: string
+  revealedIn: Reveal
+}
+
+/**
+ * One telling of a history moment. Of the tellings the reader has reached,
+ * the last is current; whatever it leaves out carries over from the ones
+ * before.
+ */
+export interface Told {
+  revealedIn: Reveal
+  title?: string
+  text?: string
+  /** Where it happened: place ids (see Era). */
+  places?: string[]
+  /** Moments that led to it, by id. */
+  after?: string[]
+  /** `character:<id>` for a portrait, else an `entryArt` key. */
+  art?: string
+}
+
+export interface Moment {
+  id: string
+  kind: MomentKind
+  told: Told[]
+  /** The shared chronology's event for it, if it has one. */
+  chrono?: string
+}
+
+/**
+ * An era of a planet's or place's history. A planet's moments name its map
+ * places; a place's name listed places (locationList.ts).
+ */
+export interface Era {
+  id: string
+  /** A plain title, or titles revealed in turn (the last one reached wins). */
+  title: string | Dated[]
+  when?: Dated[]
+  /** A colour for the era (hex). */
+  tone: string
+  moments: Moment[]
 }
 
 /** A Key fact on a Culture or Abilities entry's page, e.g. its leader. */

@@ -1,6 +1,8 @@
 import { hasReached, type ReadingProgress } from './progress'
 import type { BookDate, BookPin } from './bookScenes'
-import { findListed, listedKindNames } from './listedLocations'
+import { findListed, listedKindNames, placeRevealedIn } from './listedLocations'
+import type { EntryArt } from './entryArt'
+import { revealEras, type ShownEra } from './planetHistory'
 import { books, bookSeries } from './books'
 import { chapters } from './chapters'
 import { characterDetails } from './characterDetails'
@@ -31,6 +33,7 @@ import type {
   LocationDetails,
   LocationPerson,
   LocationStory,
+  CultureTopic,
   Passage,
   Persona,
   Planet,
@@ -1293,6 +1296,12 @@ export interface ShownLocationStory {
   /** The latest "what it is" line the reader may see. */
   intro?: string
   description: string[]
+  /** Culture subsections with anything to show, each with its topic. */
+  culture: {
+    title?: string
+    topic?: CultureTopic
+    items: { text: string; books: BookSource[] }[]
+  }[]
   /** As ShownStory's history. */
   history: { title?: string; items: { text: string; books: BookSource[] }[] }[]
   spoilers: boolean
@@ -1304,27 +1313,81 @@ export function revealLocationStory(
   canSee: CanSee,
   viewAnyway = false,
 ): ShownLocationStory {
-  if (!prose) return { description: [], history: [], spoilers: false }
+  if (!prose)
+    return { description: [], culture: [], history: [], spoilers: false }
   let spoilers = false
   const show = ({ revealedIn }: StoryItem) => {
     if (canSee(revealedIn)) return true
     spoilers = true
     return viewAnyway
   }
+  const sections = (list: { title: StoryItem[]; items: StoryItem[] }[]) =>
+    list.map(({ title, items }) => ({
+      title: title.filter(show).at(-1)?.text,
+      items: items.filter(show).map(({ text, revealedIn }) => ({
+        text,
+        books: pointSources(revealedIn),
+      })),
+    }))
+  const culture = prose.culture ?? []
+  // About's copies of Culture items, kept for the old page, show once: in Culture.
+  const inCulture = new Set(culture.flatMap((c) => c.items.map((i) => i.text)))
   return {
     intro: prose.intro.filter(show).at(-1)?.text,
-    description: prose.description.filter(show).map((i) => i.text),
-    history: prose.history
-      .map(({ title, items }) => ({
-        title: title.filter(show).at(-1)?.text,
-        items: items.filter(show).map(({ text, revealedIn }) => ({
-          text,
-          books: pointSources(revealedIn),
-        })),
-      }))
-      .filter((s) => s.items.length > 0),
+    description: prose.description
+      .filter((i) => !i.fromCulture && !inCulture.has(i.text))
+      .filter(show)
+      .map((i) => i.text),
+    culture: sections(culture)
+      .map((c, i) => ({ ...c, topic: culture[i].topic }))
+      .filter((c) => c.items.length > 0),
+    history: sections(prose.history).filter((s) => s.items.length > 0),
     spoilers,
   }
+}
+
+/**
+ * A place's history as eras and moments (see revealPlanetHistory). Its
+ * moments' places are listed places, shown once the reader may see them.
+ */
+export function revealLocationTimeline(
+  prose: LocationStory | undefined,
+  canSee: CanSee,
+  viewAnyway = false,
+): { eras: ShownEra[]; spoilers: boolean } {
+  return revealEras(
+    prose?.timeline ?? [],
+    (id, show) => {
+      const place = findListed(id)
+      return place && show(placeRevealedIn(place)) ? place : undefined
+    },
+    canSee,
+    viewAnyway,
+  )
+}
+
+/** A picture for a place's Culture section (see placeCultureArt.ts). */
+export type CultureArt = EntryArt & { topic: string; caption?: string }
+
+/**
+ * A place's Culture pictures the reader may see, each beside a shown
+ * subsection of its topic (`topics`); a picture whose subsection is hidden
+ * is hidden too.
+ */
+export function revealPlaceCultureArt(
+  art: readonly CultureArt[] | undefined,
+  topics: readonly (string | undefined)[],
+  canSee: CanSee,
+  viewAnyway = false,
+): { art: CultureArt[]; spoilers: boolean } {
+  let spoilers = false
+  const shown = (art ?? []).filter((a) => {
+    if (!topics.includes(a.topic)) return false
+    if (canSee(a.revealedIn)) return true
+    spoilers = true
+    return viewAnyway
+  })
+  return { art: shown, spoilers }
 }
 
 /** A place's Key facts and people, trimmed to what the reader may see. */
