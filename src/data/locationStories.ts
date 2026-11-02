@@ -8,7 +8,9 @@ import type { LocationStory } from './types'
 const files = import.meta.glob<LocationStory>('./locationStories/*.json', {
   import: 'default',
 })
-const path = (id: string) => `./locationStories/${id}.json`
+/** Map places whose story is written under their listed page's id. */
+const storyOf: Record<string, string> = { rira: 'rira-country' }
+const path = (id: string) => `./locationStories/${storyOf[id] ?? id}.json`
 const loaded = new Map<string, LocationStory>()
 
 export const hasLocationStory = (id: string) => path(id) in files

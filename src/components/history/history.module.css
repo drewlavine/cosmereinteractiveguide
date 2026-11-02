@@ -547,6 +547,10 @@
   transition: border-color 0.6s;
 }
 
+.scrubCard[data-bare] {
+  grid-template-columns: minmax(0, 1fr);
+}
+
 .fadeIn {
   animation: rise 0.45s ease-out both;
 }

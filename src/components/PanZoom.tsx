@@ -88,8 +88,16 @@ function measure(viewport: HTMLElement, fill: Fill): Bounds | null {
 export interface PanZoomHandle {
   /** Pans and zooms so the box fills the viewport, centred. */
   flyTo(rect: ContentRect, options?: FlyOptions): void
+  /** Back to the home view (see `home`). */
   reset(options?: { animate?: boolean }): void
+  /** Out to the whole map, even when `home` frames part of it. */
+  showWhole(options?: { animate?: boolean }): void
 }
+
+/** Where the view opens and where ⟲ returns, given the map's area. */
+export type PanZoomHome = (
+  area: ContentRect,
+) => { rect: ContentRect; options?: FlyOptions } | undefined
 
 /**
  * A pannable, zoomable view. The wheel eases into its zoom and a flung map
@@ -102,6 +110,7 @@ export function PanZoom({
   ref,
   onTransform,
   fill = 'contain',
+  home,
 }: {
   children: ReactNode
   label: string
@@ -113,6 +122,11 @@ export function PanZoom({
    * 'contain' for a chart: until all of it shows.
    */
   fill?: Fill
+  /**
+   * Where the view opens and where ⟲ returns, given the map's area (content
+   * px). Default: the whole map.
+   */
+  home?: PanZoomHome
 }) {
   const viewportRef = useRef<HTMLDivElement>(null)
   const [transform, setTransform] = useState(IDENTITY)
@@ -127,6 +141,10 @@ export function PanZoom({
   const frame = useRef({ id: 0, last: 0 })
   // Whether the view has been placed (or flown somewhere) yet.
   const opened = useRef(false)
+  const homeRef = useRef(home)
+  useEffect(() => {
+    homeRef.current = home
+  })
 
   useEffect(() => onTransform?.(transform), [transform, onTransform])
 
@@ -146,6 +164,13 @@ export function PanZoom({
     },
     [bounds],
   )
+
+  const homeOf = useCallback((b: Bounds) => {
+    const h = homeRef.current?.(b.area)
+    return h
+      ? clampTransform(fitTransform(h.rect, b.viewport, h.options), b)
+      : homeTransform(b)
+  }, [])
 
   const show = useCallback((t: Transform) => {
     shown.current = t
@@ -211,9 +236,7 @@ export function PanZoom({
       const b = bounds()
       if (!b) return
       show(
-        !opened.current && fill === 'cover'
-          ? homeTransform(b)
-          : settle(shown.current),
+        !opened.current && fill === 'cover' ? homeOf(b) : settle(shown.current),
       )
       opened.current = true
     })
@@ -221,7 +244,7 @@ export function PanZoom({
     const area = viewport.firstElementChild?.firstElementChild
     if (area) observer.observe(area)
     return () => observer.disconnect()
-  }, [bounds, settle, show, fill])
+  }, [bounds, settle, show, fill, homeOf])
 
   useImperativeHandle(
     ref,
@@ -233,15 +256,22 @@ export function PanZoom({
         setAnimate(options.animate === false ? false : 'fly')
         show(settle(fitTransform(rect, box, options)))
       },
-      reset({ animate = true } = {}) {
+      reset({ animate = !reducedMotion() } = {}) {
         stopGliding()
         opened.current = true
-        setAnimate(animate && 'zoom')
+        setAnimate(animate && (homeRef.current ? 'fly' : 'zoom'))
+        const b = bounds()
+        show(b ? homeOf(b) : IDENTITY)
+      },
+      showWhole({ animate = !reducedMotion() } = {}) {
+        stopGliding()
+        opened.current = true
+        setAnimate(animate && 'fly')
         const b = bounds()
         show(b ? homeTransform(b) : IDENTITY)
       },
     }),
-    [bounds, settle, show, stopGliding],
+    [bounds, settle, show, stopGliding, homeOf],
   )
   const [dragging, setDragging] = useState(false)
 
@@ -453,9 +483,9 @@ export function PanZoom({
           data-tooltip="Reset the zoom and position"
           onClick={() => {
             stopGliding()
-            setAnimate('zoom')
+            setAnimate(homeRef.current ? 'fly' : 'zoom')
             const b = bounds()
-            show(b ? homeTransform(b) : IDENTITY)
+            show(b ? homeOf(b) : IDENTITY)
           }}
         >
           ⟲

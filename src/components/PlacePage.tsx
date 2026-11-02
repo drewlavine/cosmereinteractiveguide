@@ -18,10 +18,13 @@ import { PeopleGrid } from './PeopleGrid'
 import { PortraitArt } from './ArtViewer'
 import { SeeAll } from './SeeAll'
 import { entryArt } from '../data/entryArt'
+import { placeCultureArt } from '../data/placeCultureArt'
 import { LIST_CAP } from '../data/notable'
 import {
   revealLocationDetails,
   revealLocationStory,
+  revealLocationTimeline,
+  revealPlaceCultureArt,
   revealPortrait,
   type ShownLocationDetails,
 } from '../data/reveal'
@@ -30,6 +33,8 @@ import { useCanSee, useShownSystems } from '../state/reveal'
 import { PageContents, PageSection, PageSubsection } from './PageSections'
 import { slugs } from './pageSlugs'
 import { LocationMaps } from './LocationMaps'
+import { PlaceCulture } from './PlaceCulture'
+import { PlaceTimeline } from './PlaceTimeline'
 import { SpoilerNotice } from './SpoilerNotice'
 import { useLinkText } from './LinkedText'
 
@@ -139,6 +144,13 @@ export function PlacePage(props: PlacePageProps) {
     return !!l && canSee(placeRevealedIn(l))
   }
   const story = revealLocationStory(prose.story, canSee, showAll)
+  const cultureArt = revealPlaceCultureArt(
+    placeCultureArt[id],
+    story.culture.map((c) => c.topic),
+    canSee,
+    showAll,
+  )
+  const timeline = revealLocationTimeline(prose.story, canSee, showAll)
   const details = revealLocationDetails(
     locationDetails[id],
     canSee,
@@ -180,7 +192,12 @@ export function PlacePage(props: PlacePageProps) {
       <SpoilerNotice
         scope={scope}
         spoilers={
-          props.spoilers || story.spoilers || details.spoilers || art.spoilers
+          props.spoilers ||
+          story.spoilers ||
+          timeline.spoilers ||
+          details.spoilers ||
+          art.spoilers ||
+          cultureArt.spoilers
         }
       />
       <div className="character-body">
@@ -276,29 +293,39 @@ export function PlacePage(props: PlacePageProps) {
               })()}
             </PageSection>
           )}
-          {story.history.length > 0 && (
-            <PageSection id="history" title="History">
-              {story.history.map(({ title, items }, i) => {
-                const linked = new Set<string>()
-                const paragraphs = items.map(({ text, books }) => (
-                  <p key={text}>
-                    {link(text, linked)}
-                    <SourceMark books={books} />
-                  </p>
-                ))
-                return title ? (
-                  <PageSubsection
-                    key={historyIds[i]}
-                    id={historyIds[i]}
-                    title={title}
-                  >
-                    {paragraphs}
-                  </PageSubsection>
-                ) : (
-                  <Fragment key={`untitled-${i}`}>{paragraphs}</Fragment>
-                )
-              })}
-            </PageSection>
+          <PlaceCulture id={id} culture={story.culture} art={cultureArt.art} />
+          {timeline.eras.length > 0 ? (
+            <PlaceTimeline
+              id={id}
+              eras={timeline.eras}
+              planetId={props.planetId}
+              showAll={showAll}
+            />
+          ) : (
+            story.history.length > 0 && (
+              <PageSection id="history" title="History">
+                {story.history.map(({ title, items }, i) => {
+                  const linked = new Set<string>()
+                  const paragraphs = items.map(({ text, books }) => (
+                    <p key={text}>
+                      {link(text, linked)}
+                      <SourceMark books={books} />
+                    </p>
+                  ))
+                  return title ? (
+                    <PageSubsection
+                      key={historyIds[i]}
+                      id={historyIds[i]}
+                      title={title}
+                    >
+                      {paragraphs}
+                    </PageSubsection>
+                  ) : (
+                    <Fragment key={`untitled-${i}`}>{paragraphs}</Fragment>
+                  )
+                })}
+              </PageSection>
+            )
           )}
           {people.length > 0 && (
             <PageSection

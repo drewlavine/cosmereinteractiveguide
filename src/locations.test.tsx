@@ -11,6 +11,7 @@ import {
   placeRevealedIn,
 } from './data/listedLocations'
 import { hasLocationStory, loadLocationStory } from './data/locationStories'
+import { planetMaps } from './data/maps'
 import { readerCanSee } from './data/reveal'
 import type { ListedLocation } from './data/types'
 import { routes } from './routes'
@@ -372,7 +373,7 @@ describe('location page maps', () => {
     ).toBeInTheDocument()
     expect(
       screen.getByRole('img', {
-        name: 'Pits of Hathsin marked on a map of The Final Empire',
+        name: 'Pits of Hathsin circled on a map of The Final Empire',
       }),
     ).toBeInTheDocument()
     // The Scadrial map is from a later book, so there's nothing to choose.
@@ -403,8 +404,104 @@ describe('location page maps', () => {
     ).toBeInTheDocument()
     expect(screen.getByRole('img', { name: /^Luthadel: / })).toBeInTheDocument()
     expect(
-      screen.queryByRole('img', { name: /marked on/ }),
+      screen.queryByRole('img', { name: / (outlined|circled) on a map/ }),
     ).not.toBeInTheDocument()
+  })
+
+  const roshar = '/systems/rosharan/planets/roshar/locations'
+  const outline = (name: string) =>
+    screen.findByRole('img', { name: `${name} outlined on a map of Roshar` })
+
+  it('redraws each piece of a place over the greyed map, unlabelled', async () => {
+    renderAt(`${roshar}/aimia`, ['way-of-kings'])
+    const svg = await outline('Aimia')
+    const pieces = planetMaps.roshar
+      .find((m) => m.id === 'roshar')!
+      .versions.flatMap((v) => v.hotspots ?? [])
+      .filter((h) => h.locationId === 'aimia')
+    expect(pieces.length).toBeGreaterThan(1)
+    expect(svg.querySelectorAll('clipPath polygon')).toHaveLength(pieces.length)
+    expect(svg.querySelector('image[clip-path]')).toBeInTheDocument()
+    expect(svg.querySelector('text')).not.toBeInTheDocument()
+    expect(svg.closest('.map-viewer-frame')).toHaveClass('is-spotlit')
+    expect(
+      screen.getByText((_, el) =>
+        el?.matches('.place-key span')
+          ? el.textContent === 'Aimia outlined on the map of Roshar'
+          : false,
+      ),
+    ).toBeInTheDocument()
+  })
+
+  describe('framed on the place', () => {
+    // A laid-out 800×500 frame, so PanZoom can frame the place.
+    afterEach(() => {
+      vi.restoreAllMocks()
+      vi.unstubAllGlobals()
+    })
+    const laidOut = () => {
+      vi.stubGlobal(
+        'ResizeObserver',
+        class {
+          cb: (entries: unknown[]) => void
+          constructor(cb: (entries: unknown[]) => void) {
+            this.cb = cb
+          }
+          observe() {
+            this.cb([{ contentRect: { width: 800, height: 500 } }])
+          }
+          disconnect() {}
+        },
+      )
+      vi.spyOn(Element.prototype, 'getBoundingClientRect').mockReturnValue({
+        left: 0,
+        top: 0,
+        width: 800,
+        height: 500,
+      } as DOMRect)
+      vi.spyOn(HTMLElement.prototype, 'offsetWidth', 'get').mockReturnValue(800)
+      vi.spyOn(Element.prototype, 'clientWidth', 'get').mockReturnValue(800)
+      vi.spyOn(Element.prototype, 'clientHeight', 'get').mockReturnValue(500)
+    }
+
+    it('opens zoomed on a small place and toggles the whole map', async () => {
+      laidOut()
+      renderAt(`${roshar}/steen`, ['way-of-kings'])
+      await outline('Steen')
+      const showAll = await screen.findByRole('button', {
+        name: 'Show all of Roshar',
+      })
+      expect(document.querySelector('.place-inset')).toBeInTheDocument()
+      expect(document.querySelector('.place-tag')).not.toBeInTheDocument()
+      await userEvent.click(showAll)
+      expect(
+        screen.getByRole('button', { name: 'Back to Steen' }),
+      ).toBeInTheDocument()
+      expect(document.querySelector('.place-tag')).toHaveTextContent('Steen')
+      expect(document.querySelector('.place-inset')).not.toBeInTheDocument()
+      await userEvent.click(
+        screen.getByRole('button', { name: 'Back to Steen' }),
+      )
+      expect(
+        screen.getByRole('button', { name: 'Show all of Roshar' }),
+      ).toBeInTheDocument()
+    })
+
+    it('has no toggle for a place that already fills its map', async () => {
+      laidOut()
+      renderAt(
+        '/systems/nalthian/planets/nalthis/locations/hallandren-jungle',
+        ['warbreaker'],
+      )
+      await screen.findByRole('img', {
+        name: "Hallandren Jungle outlined on a map of T'Telir",
+      })
+      expect(
+        screen.queryByRole('button', { name: /^Show all of/ }),
+      ).not.toBeInTheDocument()
+      expect(document.querySelector('.place-tag')).not.toBeInTheDocument()
+      expect(document.querySelector('.place-inset')).not.toBeInTheDocument()
+    })
   })
 })
 

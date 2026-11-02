@@ -8,7 +8,6 @@ import { PortraitArt } from '../ArtViewer'
 import { PlanetGlobe } from '../PlanetGlobe'
 import {
   kindLabels,
-  placePath,
   sourceLine,
   toneStyle,
   type HistoryProps,
@@ -47,7 +46,7 @@ export function MomentText({
         <ul className={s.places} aria-label="Where it happened">
           {moment.places.map((place) => (
             <li key={place.id}>
-              <Link to={placePath(props, place.id)}>{place.name}</Link>
+              <Link to={props.placeHref(place.id)}>{place.name}</Link>
             </li>
           ))}
         </ul>
@@ -85,8 +84,10 @@ export function Stage({ step, props }: { step: Step; props: HistoryProps }) {
   const canSee = useCanSee()
   const [ref, aspect] = useAspect(4 / 3)
   const { era, moment } = step
+  const { planet } = props
+  if (!planet) return null
   const maps = interactiveMaps(
-    props.planet.id,
+    planet.id,
     props.showAll ? () => true : hasRead,
     (place) => props.showAll || canSee(place.revealedIn),
   )
@@ -118,7 +119,7 @@ export function Stage({ step, props }: { step: Step; props: HistoryProps }) {
       style={toneStyle(era.tone)}
     >
       <svg className={s.world} viewBox="-160 -160 320 320" aria-hidden>
-        <PlanetGlobe planet={props.planet} cx={0} cy={0} r={120} />
+        <PlanetGlobe planet={planet} cx={0} cy={0} r={120} />
       </svg>
       {map && view && (
         <MapLayer key={map.id} map={map} view={view} stepKey={moment.id} />
