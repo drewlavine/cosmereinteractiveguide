@@ -11,11 +11,13 @@ import type { LinkTextFn } from '../LinkedText'
 /** What the views share: the trimmed history and where it belongs. */
 export interface HistoryProps {
   eras: ShownEra[]
-  systemId: string
-  planet: ShownPlanet
+  /** The world it happened on, for the stage's maps and globe. */
+  planet?: ShownPlanet
   /** The reader chose to view spoilers: maps unlock as if read. */
   showAll: boolean
   link: LinkTextFn
+  /** The page a moment's place links to. */
+  placeHref: (placeId: string) => string
 }
 
 /** What the scrubber needs of an era (the Spanish Civil War page has its own). */
@@ -63,9 +65,6 @@ export function sourceLine(moment: ShownMoment) {
     last.book === first.book && last.chapter ? last.chapter : sinceLabel(last)
   return `From ${sinceLabel(first)} · updated in ${later}`
 }
-
-export const placePath = (props: HistoryProps, placeId: string) =>
-  `/systems/${props.systemId}/planets/${props.planet.id}/locations/${placeId}`
 
 /** An era's colour, for CSS to use as `var(--tone)`. */
 export const toneStyle = (tone: string) => ({ '--tone': tone }) as CSSProperties
