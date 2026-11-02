@@ -11,8 +11,9 @@
   ],
   "description": [
     {
-      "text": "Deshi visitors were a familiar sight in Yeddaw, a city of Tashikk. Their dress has a rural look and lighter colours, similar to what is worn in Alm.",
-      "revealedIn": [{ "book": "edgedancer", "chapter": "4" }]
+      "text": "Deshi travellers were often seen in Yeddaw, in Tashikk. To Lift their clothes looked countrified, in lighter colours, much like what people wear in Alm.",
+      "revealedIn": [{ "book": "edgedancer", "chapter": "4" }],
+      "fromCulture": "dress"
     },
     {
       "text": "Desh formally recognises the Prime Aqasix as its emperor. In practice it governs itself, but follows Azir's lead in international affairs.",
@@ -21,6 +22,23 @@
     {
       "text": "A small nation at the foot of Roshar's western mountains, bordering Azir to the east and Yezier to the south. Mountains separate it from Shinovar to the west and Babatharnam to the north.",
       "revealedIn": [{ "all": ["way-of-kings", "oathbringer"] }]
+    }
+  ],
+  "culture": [
+    {
+      "title": [
+        {
+          "text": "Dress",
+          "revealedIn": [{ "book": "edgedancer", "chapter": "4" }]
+        }
+      ],
+      "topic": "dress",
+      "items": [
+        {
+          "text": "Deshi travellers were often seen in Yeddaw, in Tashikk. To Lift their clothes looked countrified, in lighter colours, much like what people wear in Alm.",
+          "revealedIn": [{ "book": "edgedancer", "chapter": "4" }]
+        }
+      ]
     }
   ],
   "history": [
@@ -49,6 +67,90 @@
         {
           "text": "A Deshi ambassador was in Azimir when Noura told Dalinar that the Azish empire would join his coalition.",
           "revealedIn": [{ "book": "oathbringer", "chapter": "65" }]
+        }
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "id": "long-ago",
+      "title": "Long ago",
+      "tone": "#8c7ae6",
+      "moments": [
+        {
+          "id": "makabakam",
+          "kind": "realm",
+          "told": [
+            {
+              "revealedIn": ["way-of-kings"],
+              "title": "Part of Makabakam",
+              "text": "In the age of the Silver Kingdoms, Desh's lands were part of Makabakam.",
+              "places": ["makabakam"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "solitude",
+      "title": [
+        {
+          "text": "The Era of Solitude",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "65" },
+            { "book": "edgedancer", "chapter": "4" }
+          ]
+        }
+      ],
+      "tone": "#e0b25c",
+      "moments": [
+        {
+          "id": "joins-empire",
+          "kind": "realm",
+          "told": [
+            {
+              "revealedIn": [{ "book": "oathbringer", "chapter": "65" }],
+              "title": "Joining the Azish Empire",
+              "text": "Some time before 1174, Desh became one of the member states of the Azish Empire.",
+              "places": ["azir"]
+            }
+          ]
+        },
+        {
+          "id": "lift-visit",
+          "kind": "realm",
+          "told": [
+            {
+              "revealedIn": [{ "book": "edgedancer", "chapter": "4" }],
+              "title": "Lift passes through",
+              "text": "Lift once spent time in Desh and liked it there, since hardly anyone tried to kill her.",
+              "art": "character:lift"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "true-desolation",
+      "title": [
+        {
+          "text": "The True Desolation",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "65" }]
+        }
+      ],
+      "tone": "#5fb3c9",
+      "moments": [
+        {
+          "id": "ambassador",
+          "kind": "realm",
+          "told": [
+            {
+              "revealedIn": [{ "book": "oathbringer", "chapter": "65" }],
+              "title": "A witness in Azimir",
+              "text": "Desh had an ambassador in Azimir on the day Noura told Dalinar Kholin that the Azish had accepted his invitation to visit Urithiru.",
+              "places": ["azimir"]
+            }
+          ]
         }
       ]
     }

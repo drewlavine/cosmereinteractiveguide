@@ -26,8 +26,39 @@
       ]
     },
     {
-      "text": "The land is lush compared with eastern nations like Alethkar, thick with grasses and vines, and home to animals such as a tentacled creature with leathery skin instead of chitin. People live in small villages in forest clearings, in vine-covered houses on stilts, and many carry tools that are not made of metal.",
+      "text": "The land is lush compared with eastern nations like Alethkar, thick with grasses and vines, and home to animals such as a tentacled creature with leathery skin instead of chitin.",
       "revealedIn": [{ "book": "rhythm-of-war", "chapter": "71" }]
+    },
+    {
+      "text": "People live in small villages, often in forest clearings, in houses raised on stilts though floods are rare. Buildings are often overgrown with the same vines that cover the land.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "71" }],
+      "fromCulture": "society"
+    },
+    {
+      "text": "Many villagers carry tools that are not made of metal.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "71" }],
+      "fromCulture": "society"
+    }
+  ],
+  "culture": [
+    {
+      "title": [
+        {
+          "text": "Village life",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "71" }]
+        }
+      ],
+      "topic": "society",
+      "items": [
+        {
+          "text": "People live in small villages, often in forest clearings, in houses raised on stilts though floods are rare. Buildings are often overgrown with the same vines that cover the land.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "71" }]
+        },
+        {
+          "text": "Many villagers carry tools that are not made of metal.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "71" }]
+        }
+      ]
     }
   ],
   "history": [
@@ -87,6 +118,168 @@
                 { "book": "oathbringer", "chapter": "122" },
                 { "book": "rhythm-of-war", "chapter": "17" }
               ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "id": "silver-kingdoms",
+      "title": [
+        {
+          "text": "The Silver Kingdoms",
+          "revealedIn": [
+            "way-of-kings",
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "prelude" },
+                { "book": "words-of-radiance", "chapter": "i-7" }
+              ]
+            }
+          ]
+        }
+      ],
+      "tone": "#e0b25c",
+      "moments": [
+        {
+          "id": "divided",
+          "kind": "realm",
+          "told": [
+            {
+              "revealedIn": ["way-of-kings"],
+              "title": "Split between two kingdoms",
+              "text": "In the age of the Silver Kingdoms, this land was divided in half, part of it in Makabakam and part in Valhav.",
+              "places": ["makabakam", "valhav"]
+            }
+          ]
+        },
+        {
+          "id": "desolations",
+          "kind": "legend",
+          "told": [
+            {
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "way-of-kings", "chapter": "prelude" },
+                    { "book": "words-of-radiance", "chapter": "i-7" }
+                  ]
+                }
+              ],
+              "title": "Desolation after Desolation",
+              "text": "Again and again the Desolations threw the people here back to stone tools. Each time the Heralds returned, they helped them rebuild, often as far as the age of bronze, with the Herald Kalak among those who helped.",
+              "art": "character:kalak"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "after-last-desolation",
+      "title": [
+        {
+          "text": "After the Last Desolation",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "53" },
+            {
+              "all": [
+                { "book": "dawnshard", "chapter": "6" },
+                { "book": "rhythm-of-war", "chapter": "71" }
+              ]
+            }
+          ]
+        }
+      ],
+      "tone": "#5fb3c9",
+      "moments": [
+        {
+          "id": "nanhar",
+          "kind": "war",
+          "told": [
+            {
+              "revealedIn": [{ "book": "oathbringer", "chapter": "53" }],
+              "title": "NanHar's invasion",
+              "text": "At some point the Veden king NanHar invaded the area, but he died in the war. His brother NanKhet, who followed him, died within three months, and the Siln dynasty took the Veden throne. Whether the Veden conquest of Triax succeeded is unknown.",
+              "places": ["jah-keved"]
+            }
+          ]
+        },
+        {
+          "id": "quiet-years",
+          "kind": "realm",
+          "told": [
+            {
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "dawnshard", "chapter": "6" },
+                    { "book": "rhythm-of-war", "chapter": "71" }
+                  ]
+                }
+              ],
+              "title": "Out of the way",
+              "text": "Some trade still passed through Triax: Vstim bought its wormy grain cheaply, knowing he could sell it at a profit in other lands. Dalinar never knew the land first-hand.",
+              "art": "character:vstim"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "true-desolation",
+      "title": [
+        {
+          "text": "The True Desolation",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "122" },
+                { "book": "rhythm-of-war", "chapter": "17" }
+              ]
+            }
+          ]
+        }
+      ],
+      "tone": "#d9645a",
+      "moments": [
+        {
+          "id": "falls",
+          "kind": "war",
+          "told": [
+            {
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "oathbringer", "chapter": "122" },
+                    { "book": "rhythm-of-war", "chapter": "17" }
+                  ]
+                }
+              ],
+              "title": "Cut off by the enemy",
+              "text": "When the Everstorm came, Odium's forces gathered in Marat and struck fast along the coast of the Tarat Sea, Triax included. Within weeks all contact with Triax, spanreeds included, was lost.",
+              "places": ["marat"]
+            }
+          ]
+        },
+        {
+          "id": "occupied",
+          "kind": "war",
+          "told": [
+            {
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "oathbringer", "chapter": "122" },
+                    { "book": "rhythm-of-war", "chapter": "17" }
+                  ]
+                }
+              ],
+              "title": "Held by the enemy",
+              "text": "After the Battle of Thaylen Field, Triax stayed under Odium's control. Once Queen Fen won a decisive victory at sea, the coalition ruled the southern waters and used Thaylen ships to supply its troops in Emul, never needing to march through Triax.",
+              "places": ["emul", "thaylenah"],
+              "after": ["falls"]
             }
           ]
         }

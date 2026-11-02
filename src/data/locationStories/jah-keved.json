@@ -7,11 +7,12 @@
   ],
   "description": [
     {
-      "text": "Following Vorin precepts against predicting the future, Vedens avoid games of chance and favour games of skill, such as Breakneck; in Bavland, people watch and bet on shallowcrab fights.",
-      "revealedIn": [{ "book": "way-of-kings", "chapter": "i-6" }]
+      "text": "Because Vorin teaching forbids foretelling the future, Vedens steer clear of gambling and games of chance and play games of skill instead, such as Breakneck, often found in gambling dens. In Bavland, many people watch and bet on shallowcrab fights.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "i-6" }],
+      "fromCulture": "customs"
     },
     {
-      "text": "Veden sons have two-part names: the first part gives their order of birth (Nan, Tet, Asha, Van), the second is their given name. If an elder brother dies or is disinherited, the younger ones move up.",
+      "text": "A Veden son carries a birth-order word before his given name: Nan for the eldest, then Tet, Asha and Van. If an older brother dies or is disinherited, each younger one moves up a place, so Tet Balat turns into Nan Balat. Brothers mostly leave the words off when talking among themselves.",
       "revealedIn": [
         {
           "all": [
@@ -19,20 +20,450 @@
             { "book": "words-of-radiance", "chapter": "45" }
           ]
         }
+      ],
+      "fromCulture": "society"
+    },
+    {
+      "text": "A monarchy whose highprinces govern their princedoms almost as independent states. Under them, brightlords hold scattered estates and run them largely as they please, answering to higher authority only when summoned.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "6" },
+            { "book": "words-of-radiance", "chapter": "i-14" }
+          ]
+        }
       ]
     },
     {
-      "text": "Jah Keved is verdant but has few major rivers. Its most notable feature is the Horneater Peaks in the east, a strategic barrier against Alethkar.",
-      "revealedIn": [{ "book": "oathbringer", "chapter": "i-2" }]
+      "text": "Goods flow both out of the country and into it: costly floral dyes are among the exports, and trade treaties with Alethkar let Vedens trade there cheaply.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "i-8" }]
     },
     {
-      "text": "Vedens are far more religious than most Vorins, strict about the safehand and the division between masculine and feminine arts, and deeply respectful of ardents. The Holy Enclave, centre of the Vorin church, is in Valath.",
+      "text": "Nearly all Vedens are Vorin, the Unkalaki being the one notable exception. Vedens are far more religious than most Vorins and very traditional in doctrine, strict about the safehand and the line between masculine and feminine arts, and deeply respectful of ardents. The Holy Enclave, heart of the Vorin church, is in Valath. The Bav are Vorin too, though less strict.",
       "revealedIn": [
         {
           "all": [
             { "book": "way-of-kings", "chapter": "33" },
             { "book": "oathbringer", "chapter": "100" }
           ]
+        }
+      ],
+      "fromCulture": "religion"
+    },
+    {
+      "text": "In the east rise the Horneater Peaks, whose summits stay livable thanks to hot lakes called the Horneater Oceans. The Peaks stop clouds drifting west, so the land just west of them gets hardly any rain apart from highstorms.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "110" }]
+    }
+  ],
+  "culture": [
+    {
+      "title": [
+        {
+          "text": "People",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "i-6" },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "46" },
+                { "book": "oathbringer", "chapter": "100" }
+              ]
+            },
+            { "book": "words-of-radiance", "chapter": "54" },
+            { "book": "oathbringer", "chapter": "37" },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "23" },
+                { "book": "oathbringer", "chapter": "107" }
+              ]
+            }
+          ]
+        }
+      ],
+      "topic": "people",
+      "items": [
+        {
+          "text": "The Bav, mostly miners, live in Bavland, a small and dusty mining region. They have a language and culture of their own, though they share the Vorin faith.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "i-6" }]
+        },
+        {
+          "text": "Many Vedens, above all in the south, look like the Alethi, with tan skin and dark hair, and some are darker still. They are a passionate, unsubtle people.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "46" },
+                { "book": "oathbringer", "chapter": "100" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "The Siln lag behind the rest of the country in technology, and their warfare is heavily ritualised.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "54" }]
+        },
+        {
+          "text": "The Unkalaki, whom outsiders call Horneaters, live high on the Horneater Peaks. The name comes from their eating chulls and other animals whole, shells and horns included. Red hair is common among them.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "37" }]
+        },
+        {
+          "text": "The Peaks belong to Jah Keved in name only: the Unkalaki keep their own language, beliefs and government and hardly count themselves Veden. Even so, the Vedens claim the right to raise troops among them in wartime.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "23" },
+                { "book": "oathbringer", "chapter": "107" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Family and society",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "i-2" },
+                { "book": "words-of-radiance", "chapter": "45" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "1" },
+                { "book": "oathbringer", "chapter": "66" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "57" },
+                { "book": "words-of-radiance", "chapter": "45" },
+                { "book": "oathbringer", "chapter": "65" }
+              ]
+            },
+            { "book": "words-of-radiance", "chapter": "45" },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "5" },
+                { "book": "words-of-radiance", "chapter": "45" },
+                { "book": "wind-and-truth", "chapter": "97" }
+              ]
+            }
+          ]
+        }
+      ],
+      "topic": "society",
+      "items": [
+        {
+          "text": "A Veden son carries a birth-order word before his given name: Nan for the eldest, then Tet, Asha and Van. If an older brother dies or is disinherited, each younger one moves up a place, so Tet Balat turns into Nan Balat. Brothers mostly leave the words off when talking among themselves.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "i-2" },
+                { "book": "words-of-radiance", "chapter": "45" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Despite their wars, Vedens and Alethi get on well. Both kingdoms are Vorin with much the same culture, and a marriage between lighteyes of the two countries is nothing unusual.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "1" },
+                { "book": "oathbringer", "chapter": "66" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "As in other Vorin lands, life follows the book Arts and Majesty, which splits the arts by sex. Reading, writing, science, mathematics, painting and music belong to women; duelling, tactics, politics, carpentry and commerce to men.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "57" },
+                { "book": "words-of-radiance", "chapter": "45" },
+                { "book": "oathbringer", "chapter": "65" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Parents usually arrange marriages, unless the couple are old enough to arrange their own; in families with many daughters, a woman may court and choose a suitor herself. Relatives of the couple receive gifts, often weapons for boys and jewellery for women.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "45" }]
+        },
+        {
+          "text": "At a wedding, a senior member of the house gives each partner away.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "5" },
+                { "book": "words-of-radiance", "chapter": "45" },
+                { "book": "wind-and-truth", "chapter": "97" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Faith",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "33" },
+                { "book": "oathbringer", "chapter": "100" }
+              ]
+            },
+            { "book": "words-of-radiance", "chapter": "55" }
+          ]
+        }
+      ],
+      "topic": "religion",
+      "items": [
+        {
+          "text": "Nearly all Vedens are Vorin, the Unkalaki being the one notable exception. Vedens are far more religious than most Vorins and very traditional in doctrine, strict about the safehand and the line between masculine and feminine arts, and deeply respectful of ardents. The Holy Enclave, heart of the Vorin church, is in Valath. The Bav are Vorin too, though less strict.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "33" },
+                { "book": "oathbringer", "chapter": "100" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "The Unkalaki worship many gods, such as gods of mountains, trees and the waters, and they also revere spren. They believe the Place of the Gods lies beneath the water on the peaks. Veden ardents still climb up to preach Vorinism to them.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "55" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Dress",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "3" },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "3" },
+                { "book": "words-of-radiance", "chapter": "19" }
+              ]
+            },
+            "words-of-radiance",
+            "oathbringer",
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "48" },
+                { "book": "rhythm-of-war", "chapter": "20" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "48" },
+                { "book": "rhythm-of-war", "chapter": "69" }
+              ]
+            }
+          ]
+        }
+      ],
+      "topic": "dress",
+      "items": [
+        {
+          "text": "In these years the Alethi tan and hair are held to be the height of beauty. Darkeyed women dress more plainly and cover the safehand with a glove instead of a long sleeve, which lighteyes consider immodest and a mark of low class.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "3" }]
+        },
+        {
+          "text": "Men often wear trousers with shirts laced up the front. Lighteyes mostly dress in silk. Nobles shun beards, though a few lighteyes grow them anyway.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "3" },
+                { "book": "words-of-radiance", "chapter": "19" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Much lighteyed Veden clothing is designed in Liafor. Veden and Alethi styles are close enough that Liafor sells to both from the same fashion folios, but Vedens keep their own traditional clothes as well.",
+          "revealedIn": ["words-of-radiance"]
+        },
+        {
+          "text": "Designers in Yezier dress Veden lighteyes too, working from Veden trends with a foreign touch. Lighteyed women often pile their hair high in braids pinned with four steel spikes.",
+          "revealedIn": ["oathbringer"]
+        },
+        {
+          "text": "Traditional men's dress includes the ulatu, a knee-length skirt paired with a plain shirt and a long coat or robe, and the vakama, common among warriors; both resemble the Alethi takama. A mink pelt goes with traditional clothing.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "48" },
+                { "book": "rhythm-of-war", "chapter": "20" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Women wear skirts and colourful blouses, and lighteyed women often the Vorin havah: snug through the bust, shoulders and waist, with a flowing skirt and a long left sleeve over the safehand, often holding a safepouch. Havahs are usually of bright silk thin enough to let the covered hand grip things.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "48" },
+                { "book": "rhythm-of-war", "chapter": "69" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Language",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "i-3" },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "5" },
+                { "book": "words-of-radiance", "chapter": "24" }
+              ]
+            }
+          ]
+        }
+      ],
+      "topic": "language",
+      "items": [
+        {
+          "text": "Veden is not the country's only tongue: the Bav have a language of their own, and many Vedens learn Alethi as children.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "i-3" }]
+        },
+        {
+          "text": "Unkalaki speaking Veden or Alethi have a marked accent, often saying \"he\" where \"it\" would fit.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "5" },
+                { "book": "words-of-radiance", "chapter": "24" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Art and architecture",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "45" },
+            { "book": "words-of-radiance", "chapter": "73" },
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "73" },
+                { "book": "oathbringer", "chapter": "100" }
+              ]
+            }
+          ]
+        }
+      ],
+      "topic": "arts",
+      "items": [
+        {
+          "text": "The Vanrial, an order of artists, make their home on a mountain called the Silent Mount.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "45" }]
+        },
+        {
+          "text": "Country estates have a manor for the lighteyed owners, a separate building for servants, a guardhouse and a large garden. Manors are tall and imposing, built of square stone blocks with small windows and walls spotted with dark lichen, and lack newer comforts such as storm cisterns. Nearly all have a great dining hall, where the most important table is the high table.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "73" }]
+        },
+        {
+          "text": "Veden building is close to the Alethi style. Vedens love greenery: gardens are full of trained vines and rows of shalebark clipped into shapes, plants hang down walls and out of windows, and the current fashion is a jumble of rare plants.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "73" },
+                { "book": "oathbringer", "chapter": "100" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Festivals and games",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "i-6" },
+            { "book": "words-of-radiance", "chapter": "45" }
+          ]
+        }
+      ],
+      "topic": "customs",
+      "items": [
+        {
+          "text": "Because Vorin teaching forbids foretelling the future, Vedens steer clear of gambling and games of chance and play games of skill instead, such as Breakneck, often found in gambling dens. In Bavland, many people watch and bet on shallowcrab fights.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "i-6" }]
+        },
+        {
+          "text": "Vedens hold fairs and festivals for special occasions, such as the Middlefest Fair at the coming of the Midpeace.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "45" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "War",
+          "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "45" },
+            { "book": "oathbringer", "chapter": "52" },
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "52" },
+                { "book": "rhythm-of-war", "chapter": "100" }
+              ]
+            }
+          ]
+        }
+      ],
+      "topic": "warfare",
+      "items": [
+        {
+          "text": "Vedens are fond of duelling. By the classical ideal a man duels with a sword and no shield, using broad sweeping strokes said to copy fighting with a Shardblade.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "45" }]
+        },
+        {
+          "text": "A well-known Veden tactic is the raid: mobile forces of about four thousand, backed by a strong main army, harry the enemy and slip away before a real fight. Veden generals are good enough to earn Alethi respect.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "52" }]
+        },
+        {
+          "text": "Vedens can also fight in the open, usually in great shield walls, and they signal on the battlefield with drums.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "52" },
+                { "book": "rhythm-of-war", "chapter": "100" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Trade",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "45" }]
+        }
+      ],
+      "topic": "trade",
+      "items": [
+        {
+          "text": "Much of the country's trade passes through the northern city of Northgrip. Lighteyes sometimes deal with one another to win favour higher up.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "45" }]
         }
       ]
     }
@@ -182,6 +613,447 @@
         {
           "text": "Under Taravangian, Jah Keved and Kharbranth were the first to ally with Urithiru, and Jah Keved asked for and received aid against the Voidbringers. After the revelations of the Eila Stele, it broke from the alliance.",
           "revealedIn": [{ "book": "oathbringer", "chapter": "113" }]
+        }
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "id": "long-ago",
+      "title": "Long ago",
+      "tone": "#8c7ae6",
+      "moments": [
+        {
+          "id": "singer-land",
+          "kind": "legend",
+          "told": [
+            {
+              "revealedIn": [{ "book": "oathbringer", "chapter": "113" }],
+              "title": "A land taken from the singers",
+              "text": "Singers lived in the land that became Jah Keved before humans came to Roshar. In time the newcomers turned on them and took this land, among others, by force."
+            }
+          ]
+        },
+        {
+          "id": "valhav",
+          "kind": "realm",
+          "told": [
+            {
+              "revealedIn": [{ "all": ["way-of-kings", "oathbringer"] }],
+              "title": "Part of Valhav",
+              "text": "In the age of the Silver Kingdoms, this land belonged to the kingdom of Valhav. Tu Bayla and Triax have since broken away, but Jah Keved still holds most of Valhav's lands, including Vedenar and its Oathgate, and has added much of mainland Rishir and part of western Alethkar.",
+              "places": ["valhav", "tu-bayla", "triax", "rishir"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "early-kings",
+      "title": [
+        {
+          "text": "Early kings",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "53" },
+            { "book": "wind-and-truth", "chapter": "61" }
+          ]
+        }
+      ],
+      "tone": "#e0b25c",
+      "moments": [
+        {
+          "id": "nankhet",
+          "kind": "realm",
+          "told": [
+            {
+              "revealedIn": [{ "book": "oathbringer", "chapter": "53" }],
+              "title": "A king who killed his kin",
+              "text": "The scholar Natata Ved wrote of King NanHar, who died invading the lands that became Triax. His brother NanKhet took the throne and survived six attempts on his life by his own family, then invited his whole household to a feast and killed them all.",
+              "places": ["triax"]
+            }
+          ]
+        },
+        {
+          "id": "siln-dynasty",
+          "kind": "realm",
+          "told": [
+            {
+              "revealedIn": [{ "book": "oathbringer", "chapter": "53" }],
+              "title": "The Siln dynasty",
+              "text": "NanKhet ruled for only three months. After his death the Siln dynasty took the throne in place of his family.",
+              "after": ["nankhet"]
+            }
+          ]
+        },
+        {
+          "id": "bav-uprising",
+          "kind": "war",
+          "told": [
+            {
+              "revealedIn": [{ "book": "wind-and-truth", "chapter": "61" }],
+              "title": "The Bav uprising",
+              "text": "In 637 the Bav rose against Veden rule. The revolt largely succeeded, and some of Jah Keved's slaves were raised to a higher nahn as a result.",
+              "places": ["bavland"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hierocracy",
+      "title": [
+        {
+          "text": "The Hierocracy",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "18" },
+                { "book": "oathbringer", "chapter": "59" }
+              ]
+            },
+            { "book": "words-of-radiance", "chapter": "12" },
+            { "book": "way-of-kings", "chapter": "36" },
+            { "book": "oathbringer", "chapter": "42" },
+            { "book": "oathbringer", "chapter": "19" }
+          ]
+        },
+        {
+          "text": "The Hierocracy and the Sunmaker",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "12" }]
+        }
+      ],
+      "tone": "#5fb3c9",
+      "moments": [
+        {
+          "id": "hierocracy",
+          "kind": "realm",
+          "told": [
+            {
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "way-of-kings", "chapter": "18" },
+                    { "book": "oathbringer", "chapter": "59" }
+                  ]
+                }
+              ],
+              "title": "Under the Hierocracy",
+              "text": "Jah Keved lay within the Hierocracy, a wide Vorin realm that also took in the lands that became Alethkar, Kharbranth and Thaylenah. The larger it grew, the harder it was to hold together.",
+              "places": ["alethkar", "kharbranth", "thaylenah"]
+            }
+          ]
+        },
+        {
+          "id": "war-of-loss",
+          "kind": "war",
+          "chrono": "roshar-war-of-loss-hierocracy-ends",
+          "told": [
+            {
+              "revealedIn": [{ "book": "words-of-radiance", "chapter": "12" }],
+              "title": "The War of Loss",
+              "text": "An Alethi warlord called the Sunmaker rose against the Hierocracy with his kingdom behind him and overthrew it in the War of Loss. The fighting and the chaos that came after left many cities sacked.",
+              "places": ["alethkar"],
+              "after": ["hierocracy"]
+            }
+          ]
+        },
+        {
+          "id": "church-remade",
+          "kind": "realm",
+          "told": [
+            {
+              "revealedIn": [{ "book": "way-of-kings", "chapter": "36" }],
+              "title": "The church remade",
+              "text": "After the Hierocracy fell, the church was reordered so that no new Hierocracy could arise."
+            },
+            {
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "way-of-kings", "chapter": "36" },
+                    { "book": "oathbringer", "chapter": "100" }
+                  ]
+                }
+              ],
+              "text": "After the Hierocracy fell, Vorinism was split into separate devotaries so that no new Hierocracy could arise. Ardents lost the right to own property, hold office or gather wealth and were made little better than slaves, though they could still excommunicate, and their claims to see the future were discredited.",
+              "after": ["war-of-loss"]
+            }
+          ]
+        },
+        {
+          "id": "sunmaker-conquest",
+          "kind": "war",
+          "told": [
+            {
+              "revealedIn": [{ "book": "oathbringer", "chapter": "42" }],
+              "title": "Conquered by the Sunmaker",
+              "text": "Next the Sunmaker turned on the rest of Roshar. After taking Herdaz, he conquered Jah Keved, cutting his way through it all the way to Azir.",
+              "places": ["herdaz", "azir"],
+              "after": ["war-of-loss"]
+            }
+          ]
+        },
+        {
+          "id": "independence",
+          "kind": "realm",
+          "told": [
+            {
+              "revealedIn": [{ "book": "oathbringer", "chapter": "19" }],
+              "title": "Free again",
+              "text": "When the Sunmaker died, his ten sons failed to settle on one heir and divided his kingdom into ten princedoms. With no central government left, the lands he had occupied, Jah Keved among them, regained their independence.",
+              "after": ["sunmaker-conquest"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "highprinces",
+      "title": [
+        {
+          "text": "King and highprinces",
+          "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "73" },
+            { "book": "way-of-kings", "chapter": "52" },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "16" },
+                { "book": "oathbringer", "chapter": "66" }
+              ]
+            },
+            { "book": "oathbringer", "chapter": "52" }
+          ]
+        }
+      ],
+      "tone": "#e3c35a",
+      "moments": [
+        {
+          "id": "crown",
+          "kind": "realm",
+          "told": [
+            {
+              "revealedIn": [{ "book": "words-of-radiance", "chapter": "73" }],
+              "title": "A crown that holds the Soulcasters",
+              "text": "Kings have long ruled Jah Keved, powerful but not absolute. The crown keeps the highprinces in hand chiefly by owning every Soulcaster."
+            },
+            {
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "words-of-radiance", "chapter": "73" },
+                    { "book": "rhythm-of-war", "chapter": "19" }
+                  ]
+                }
+              ],
+              "text": "Kings have long ruled Jah Keved, powerful but not absolute. The crown keeps the highprinces in hand chiefly by owning every Soulcaster, and the monarch spends much effort setting them against one another."
+            }
+          ]
+        },
+        {
+          "id": "shards",
+          "kind": "war",
+          "told": [
+            {
+              "revealedIn": [{ "book": "way-of-kings", "chapter": "52" }],
+              "title": "Rich in Shards",
+              "text": "Jah Keved owns a wealth of Shards: some twenty Blades, plus Plate in numbers unknown. Only Alethkar can match it."
+            }
+          ]
+        },
+        {
+          "id": "alethi-wars",
+          "kind": "war",
+          "told": [
+            {
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "way-of-kings", "chapter": "16" },
+                    { "book": "oathbringer", "chapter": "66" }
+                  ]
+                }
+              ],
+              "title": "Border wars with Alethkar",
+              "text": "The two neighbours have fought a long run of small wars over disputed land, usually waged by single highprinces on each side. At one point King Hanavanar took a hand himself and launched a modest incursion to probe Alethkar's defences.",
+              "places": ["alethkar"]
+            }
+          ]
+        },
+        {
+          "id": "dalinar-border",
+          "kind": "war",
+          "told": [
+            {
+              "revealedIn": [{ "book": "oathbringer", "chapter": "52" }],
+              "title": "Dalinar on the western border",
+              "text": "After four years of campaigning that began with crushing Herdaz, Dalinar Kholin, brother of the Alethi king, was fighting the Vedens on Alethkar's western border.",
+              "places": ["alethkar", "herdaz"],
+              "art": "character:dalinar-kholin"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "civil-war",
+      "title": [
+        {
+          "text": "A king assassinated",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "i-9" },
+            { "book": "words-of-radiance", "chapter": "i-14" }
+          ]
+        },
+        {
+          "text": "Civil war",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-14" }]
+        }
+      ],
+      "tone": "#d9645a",
+      "moments": [
+        {
+          "id": "assassination",
+          "kind": "war",
+          "told": [
+            {
+              "revealedIn": [{ "book": "way-of-kings", "chapter": "i-9" }],
+              "title": "Szeth kills the king",
+              "text": "Szeth, the assassin in white, broke into King Hanavanar's banquet, cut down many of those trying to flee and killed the king.",
+              "art": "character:szeth"
+            }
+          ]
+        },
+        {
+          "id": "civil-war",
+          "kind": "war",
+          "told": [
+            {
+              "revealedIn": [
+                { "book": "words-of-radiance", "chapter": "i-14" }
+              ],
+              "title": "War for the throne",
+              "text": "The king's death set off a civil war that lasted a few months as rivals fought for the crown. It ended in a battle at Vedenar, won by Highprince Valam.",
+              "places": ["vedenar"],
+              "after": ["assassination"]
+            },
+            {
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "way-of-kings", "chapter": "i-9" },
+                    { "book": "words-of-radiance", "chapter": "i-14" },
+                    { "book": "oathbringer", "chapter": "100" }
+                  ]
+                }
+              ],
+              "text": "The killing of the king and several highprinces set off a civil war in which at least seven factions fought to take Vedenar and crown their own leader, driven to rare savagery by the Thrill. After a few months it ended in a battle at Vedenar, won by Highprince Valam, but much of the capital lay in ruins."
+            }
+          ]
+        },
+        {
+          "id": "taravangian-king",
+          "kind": "realm",
+          "told": [
+            {
+              "revealedIn": [
+                { "book": "words-of-radiance", "chapter": "i-14" }
+              ],
+              "title": "Taravangian takes the crown",
+              "text": "Valam soon handed the throne to King Taravangian of Kharbranth, then had Redin, his illegitimate son, end his life.",
+              "places": ["kharbranth"],
+              "after": ["civil-war"],
+              "art": "character:taravangian"
+            },
+            {
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "words-of-radiance", "chapter": "i-14" },
+                    { "book": "oathbringer", "chapter": "107" }
+                  ]
+                }
+              ],
+              "text": "Valam soon handed the throne to King Taravangian of Kharbranth, then had Redin, his illegitimate son, end his life. The war had cost many Veden units more than half their men, yet the army was still enormous. Taravangian made two brothers highprinces in place of some who had died."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "desolation",
+      "title": [
+        {
+          "text": "The True Desolation",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "12" },
+            { "book": "oathbringer", "chapter": "96" },
+            { "book": "oathbringer", "chapter": "113" },
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "122" },
+                { "book": "rhythm-of-war", "chapter": "i-6" }
+              ]
+            }
+          ]
+        }
+      ],
+      "tone": "#5f8fd9",
+      "moments": [
+        {
+          "id": "joins-dalinar",
+          "kind": "realm",
+          "told": [
+            {
+              "revealedIn": [{ "book": "oathbringer", "chapter": "12" }],
+              "title": "Answering Dalinar's call",
+              "text": "When Dalinar Kholin called on the monarchs to unite against the Desolation, Taravangian, now king of both Jah Keved and Kharbranth, agreed to his plan at once.",
+              "places": ["urithiru", "kharbranth"]
+            }
+          ]
+        },
+        {
+          "id": "aid",
+          "kind": "war",
+          "told": [
+            {
+              "revealedIn": [{ "book": "oathbringer", "chapter": "96" }],
+              "title": "Allies pledge troops",
+              "text": "With Alethkar overrun by the singers, Jah Keved looked like their next target, and other kingdoms of the coalition pledged troops to defend it.",
+              "places": ["alethkar"],
+              "after": ["joins-dalinar"]
+            }
+          ]
+        },
+        {
+          "id": "breaks-away",
+          "kind": "realm",
+          "told": [
+            {
+              "revealedIn": [{ "book": "oathbringer", "chapter": "113" }],
+              "title": "Leaving the coalition",
+              "text": "Jah Keved and Kharbranth had been the first kingdoms to ally with Urithiru. After the Eila Stele's revelations, Taravangian broke with Dalinar and took Jah Keved out of the alliance.",
+              "after": ["aid"]
+            }
+          ]
+        },
+        {
+          "id": "turns",
+          "kind": "war",
+          "told": [
+            {
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "oathbringer", "chapter": "122" },
+                    { "book": "rhythm-of-war", "chapter": "i-6" }
+                  ]
+                }
+              ],
+              "title": "Jah Keved turns on the coalition",
+              "text": "Taravangian had made a pact with the enemy, though Jah Keved was not part of his bargain. After the battle of Thaylen Field he quietly readied the country to change sides, promoting people the enemy could control and placing his troops to betray Dalinar. At his signal, the Veden armies abandoned the coalition and went over to the enemy.",
+              "after": ["breaks-away"]
+            }
+          ]
         }
       ]
     }

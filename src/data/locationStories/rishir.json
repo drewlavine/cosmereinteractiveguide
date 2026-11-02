@@ -11,8 +11,30 @@
       "revealedIn": ["way-of-kings"]
     },
     {
-      "text": "Its people wrote in the Dawnchant, at first using it to spell out their own languages and in time adapting it into a script of their own.",
-      "revealedIn": [{ "book": "oathbringer", "chapter": "i-2" }]
+      "text": "Rishir's people wrote in the Dawnchant, at first using it to spell out their own languages and in time adapting it into a script of their own.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "i-2" }],
+      "fromCulture": "language"
+    },
+    {
+      "text": "Most of Rishir lay in or beside the Reshi Sea. Its few large rivers all ran across the mainland, and it had no mountain ranges of note.",
+      "revealedIn": [{ "all": ["way-of-kings", "oathbringer"] }]
+    }
+  ],
+  "culture": [
+    {
+      "title": [
+        {
+          "text": "Language and writing",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "i-2" }]
+        }
+      ],
+      "topic": "language",
+      "items": [
+        {
+          "text": "Rishir's people wrote in the Dawnchant, at first using it to spell out their own languages and in time adapting it into a script of their own.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "i-2" }]
+        }
+      ]
     }
   ],
   "history": [
@@ -50,6 +72,170 @@
         {
           "text": "In the millennia after Aharietiam, Rishir broke apart into many kingdoms and tribes. Its lands now include Herdaz, Kurth is held by Rira, and the Reshi Isles are independent, each island under its own king.",
           "revealedIn": ["oathbringer"]
+        }
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "id": "long-ago",
+      "title": "Long ago",
+      "tone": "#8c7ae6",
+      "moments": [
+        {
+          "id": "singer-land",
+          "kind": "war",
+          "told": [
+            {
+              "revealedIn": [{ "book": "oathbringer", "chapter": "113" }],
+              "title": "A land of singers",
+              "text": "Singers lived in the land that became Rishir before humans came to Roshar."
+            },
+            {
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "oathbringer", "chapter": "113" },
+                    { "book": "rhythm-of-war", "chapter": "111" }
+                  ]
+                }
+              ],
+              "title": "Taken from the singers",
+              "text": "Singers lived in the land that became Rishir until humans, given a home in what became Shin Kak Nish, turned on them, killing or driving out the singers and taking their lands. The tale was lost until the Eila Stele was found.",
+              "places": ["shin-kak-nish"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "silver-kingdoms",
+      "title": [
+        {
+          "text": "The Silver Kingdoms",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "prelude" },
+                { "book": "words-of-radiance", "chapter": "i-7" },
+                { "book": "rhythm-of-war", "chapter": "1" }
+              ]
+            },
+            { "book": "oathbringer", "chapter": "107" },
+            { "book": "way-of-kings", "chapter": "19" },
+            { "book": "way-of-kings", "chapter": "prologue" }
+          ]
+        }
+      ],
+      "tone": "#e0b25c",
+      "moments": [
+        {
+          "id": "founding",
+          "kind": "realm",
+          "told": [
+            {
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "way-of-kings", "chapter": "prelude" },
+                    { "book": "words-of-radiance", "chapter": "i-7" },
+                    { "book": "rhythm-of-war", "chapter": "1" }
+                  ]
+                }
+              ],
+              "title": "Rishir is founded",
+              "text": "Rishir was founded in the age of the Silver Kingdoms. Each Desolation threw its people back, sometimes as far as stone tools, and each time the returning Heralds, Kalak among them, helped them rise again.",
+              "art": "place:rishir"
+            }
+          ]
+        },
+        {
+          "id": "capital",
+          "kind": "realm",
+          "told": [
+            {
+              "revealedIn": [{ "book": "oathbringer", "chapter": "107" }],
+              "title": "Kurth becomes the capital",
+              "text": "Early on, Kurth was founded as the capital of Rishir, and in time it also housed the kingdom's Oathgate.",
+              "places": ["kurth", "urithiru"],
+              "after": ["founding"]
+            }
+          ]
+        },
+        {
+          "id": "desolations",
+          "kind": "legend",
+          "told": [
+            {
+              "revealedIn": [{ "book": "way-of-kings", "chapter": "19" }],
+              "title": "Desolation after Desolation",
+              "text": "Desolations struck Rishir again and again, along with the rest of Roshar."
+            }
+          ]
+        },
+        {
+          "id": "last-desolation",
+          "kind": "legend",
+          "told": [
+            {
+              "revealedIn": [{ "book": "way-of-kings", "chapter": "prologue" }],
+              "title": "The Last Desolation",
+              "text": "About 4,500 years ago, the Last Desolation struck a world still weak from the Desolation before it. Weary of their torment, nine of the Heralds then refused to go back, leaving Taln to bear it alone.",
+              "after": ["desolations"],
+              "art": "character:kalak"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "after-last-desolation",
+      "title": [
+        {
+          "text": "After the Last Desolation",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "45" },
+                { "book": "oathbringer", "chapter": "119" }
+              ]
+            },
+            "oathbringer"
+          ]
+        }
+      ],
+      "tone": "#5fb3c9",
+      "moments": [
+        {
+          "id": "respite",
+          "kind": "realm",
+          "told": [
+            {
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "way-of-kings", "chapter": "45" },
+                    { "book": "oathbringer", "chapter": "119" }
+                  ]
+                }
+              ],
+              "title": "The Desolations end",
+              "text": "With no more Desolations to ravage it, Rishir could advance further than ever before.",
+              "after": ["last-desolation"]
+            }
+          ]
+        },
+        {
+          "id": "collapse",
+          "kind": "realm",
+          "told": [
+            {
+              "revealedIn": ["oathbringer"],
+              "title": "Rishir breaks apart",
+              "text": "At some point after the Last Desolation, Rishir collapsed into many kingdoms and tribes. Herdaz is the foremost of them; Rira took Kurth, and the Reshi Isles went their own way, each island with its own king.",
+              "places": ["herdaz", "kurth", "reshi-isles"]
+            }
+          ]
         }
       ]
     }

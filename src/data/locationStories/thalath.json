@@ -11,12 +11,34 @@
       "revealedIn": ["way-of-kings"]
     },
     {
-      "text": "Its people wrote in the Dawnchant, first using it to transcribe their own language and in time developing a script of their own.",
-      "revealedIn": [{ "book": "oathbringer", "chapter": "i-2" }]
+      "text": "Thalath's people wrote in the Dawnchant, first using it to transcribe their own language and in time developing a script of their own.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "i-2" }],
+      "fromCulture": "language"
     },
     {
       "text": "Its former lands are now divided between Thaylenah, Alethkar and the Frostlands, and include the city of Kharbranth.",
       "revealedIn": [{ "all": ["way-of-kings", "oathbringer"] }]
+    },
+    {
+      "text": "Most of Thalath lay close to the sea, and much of it was islands, though most of its land was on the mainland. It had almost no large rivers, and its one notable range was the high interior of the island of Thaylenah.",
+      "revealedIn": [{ "all": ["way-of-kings", "oathbringer"] }]
+    }
+  ],
+  "culture": [
+    {
+      "title": [
+        {
+          "text": "Language and writing",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "i-2" }]
+        }
+      ],
+      "topic": "language",
+      "items": [
+        {
+          "text": "Thalath's people wrote in the Dawnchant, first using it to transcribe their own language and in time developing a script of their own.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "i-2" }]
+        }
+      ]
     }
   ],
   "history": [
@@ -54,6 +76,170 @@
         {
           "text": "In the millennia after Aharietiam, Thalath fell apart. Much of its old land lies abandoned and unclaimed, but Thaylenah has kept much of its culture and ideals.",
           "revealedIn": ["oathbringer"]
+        }
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "id": "long-ago",
+      "title": "Long ago",
+      "tone": "#8c7ae6",
+      "moments": [
+        {
+          "id": "singer-land",
+          "kind": "war",
+          "told": [
+            {
+              "revealedIn": [{ "book": "oathbringer", "chapter": "113" }],
+              "title": "A land of singers",
+              "text": "Singers lived in the land that became Thalath before humans came to Roshar."
+            },
+            {
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "oathbringer", "chapter": "113" },
+                    { "book": "rhythm-of-war", "chapter": "111" }
+                  ]
+                }
+              ],
+              "title": "Taken from the singers",
+              "text": "Singers lived in the land that became Thalath until humans, given a home in what became Shin Kak Nish, turned on them, killing or driving out the singers and taking their lands. The tale was lost until the Eila Stele was found.",
+              "places": ["shin-kak-nish"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "silver-kingdoms",
+      "title": [
+        {
+          "text": "The Silver Kingdoms",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "prelude" },
+                { "book": "words-of-radiance", "chapter": "i-7" },
+                { "book": "rhythm-of-war", "chapter": "1" }
+              ]
+            },
+            { "book": "oathbringer", "chapter": "107" },
+            { "book": "way-of-kings", "chapter": "19" },
+            { "book": "way-of-kings", "chapter": "prologue" }
+          ]
+        }
+      ],
+      "tone": "#e0b25c",
+      "moments": [
+        {
+          "id": "founding",
+          "kind": "realm",
+          "told": [
+            {
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "way-of-kings", "chapter": "prelude" },
+                    { "book": "words-of-radiance", "chapter": "i-7" },
+                    { "book": "rhythm-of-war", "chapter": "1" }
+                  ]
+                }
+              ],
+              "title": "Thalath is founded",
+              "text": "Thalath was founded in the age of the Silver Kingdoms. Each Desolation threw its people back, sometimes as far as stone tools, and each time the returning Heralds, Kalak among them, helped them rise again.",
+              "art": "place:thalath"
+            }
+          ]
+        },
+        {
+          "id": "capital",
+          "kind": "realm",
+          "told": [
+            {
+              "revealedIn": [{ "book": "oathbringer", "chapter": "107" }],
+              "title": "Thaylen City becomes the capital",
+              "text": "Early on, Thaylen City was founded as the capital of Thalath, and in time it also housed the kingdom's Oathgate.",
+              "places": ["thaylen-city", "urithiru"],
+              "after": ["founding"]
+            }
+          ]
+        },
+        {
+          "id": "desolations",
+          "kind": "legend",
+          "told": [
+            {
+              "revealedIn": [{ "book": "way-of-kings", "chapter": "19" }],
+              "title": "Desolation after Desolation",
+              "text": "Desolations struck Thalath again and again, along with the rest of Roshar."
+            }
+          ]
+        },
+        {
+          "id": "last-desolation",
+          "kind": "legend",
+          "told": [
+            {
+              "revealedIn": [{ "book": "way-of-kings", "chapter": "prologue" }],
+              "title": "The Last Desolation",
+              "text": "About 4,500 years ago, the Last Desolation struck a world still weak from the Desolation before it. Weary of their torment, nine of the Heralds then refused to go back, leaving Taln to bear it alone.",
+              "after": ["desolations"],
+              "art": "character:kalak"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "after-last-desolation",
+      "title": [
+        {
+          "text": "After the Last Desolation",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "45" },
+                { "book": "oathbringer", "chapter": "119" }
+              ]
+            },
+            { "all": ["way-of-kings", "oathbringer"] }
+          ]
+        }
+      ],
+      "tone": "#5fb3c9",
+      "moments": [
+        {
+          "id": "respite",
+          "kind": "realm",
+          "told": [
+            {
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "way-of-kings", "chapter": "45" },
+                    { "book": "oathbringer", "chapter": "119" }
+                  ]
+                }
+              ],
+              "title": "The Desolations end",
+              "text": "With no more Desolations to ravage it, Thalath could advance further than ever before.",
+              "after": ["last-desolation"]
+            }
+          ]
+        },
+        {
+          "id": "collapse",
+          "kind": "realm",
+          "told": [
+            {
+              "revealedIn": [{ "all": ["way-of-kings", "oathbringer"] }],
+              "title": "Thalath fades",
+              "text": "At some point after the Last Desolation, Thalath collapsed. Much of its old land now lies abandoned and unclaimed, and Thaylenah holds part of the rest.",
+              "places": ["thaylenah"]
+            }
+          ]
         }
       ]
     }

@@ -11,11 +11,12 @@
   ],
   "description": [
     {
-      "text": "The Shin custom of adding a parent's name to a given name, as in Szeth-son-Neturo, goes back at least to the time of the Silver Kingdoms.",
-      "revealedIn": [{ "book": "oathbringer", "chapter": "38" }]
+      "text": "The Shin custom of naming a person as the son or daughter of a parent goes back at least to the time of the Silver Kingdoms.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "38" }],
+      "fromCulture": "language"
     },
     {
-      "text": "As with the other Silver Kingdoms, its name reads the same backwards and forwards, a form Vorinism treats as holy. The Shin call the Heralds by names of their own, such as Nin-son-God and Ishu-son-God.",
+      "text": "As with the other Silver Kingdoms, its name reads the same backwards and forwards, a form Vorinism treats as holy. The Shin give the Heralds names of their own; Ishu-son-God and Nin-son-God are two of them.",
       "revealedIn": [
         {
           "all": [
@@ -23,10 +24,11 @@
             { "book": "oathbringer", "chapter": "106" }
           ]
         }
-      ]
+      ],
+      "fromCulture": "religion"
     },
     {
-      "text": "Where most of Roshar is bare stone, the ground here is mostly soil and grass. The Shin are pale-skinned, with large, round eyes.",
+      "text": "Where most of Roshar is bare stone, the ground here is mostly soil and grass.",
       "revealedIn": [
         {
           "all": [
@@ -37,8 +39,129 @@
       ]
     },
     {
+      "text": "The Shin look unlike other Rosharans, pale-skinned with large, round eyes.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "i-4" },
+            { "book": "oathbringer", "chapter": "115" }
+          ]
+        }
+      ],
+      "fromCulture": "people"
+    },
+    {
       "text": "The kingdom had an Oathgate, though its exact location is not known.",
       "revealedIn": ["oathbringer"]
+    }
+  ],
+  "culture": [
+    {
+      "title": [
+        {
+          "text": "Peoples",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "i-4" },
+                { "book": "oathbringer", "chapter": "115" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "55" },
+                { "book": "words-of-radiance", "chapter": "88" },
+                { "book": "oathbringer", "chapter": "38" }
+              ]
+            }
+          ]
+        }
+      ],
+      "topic": "people",
+      "items": [
+        {
+          "text": "The Shin look unlike other Rosharans, pale-skinned with large, round eyes.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "i-4" },
+                { "book": "oathbringer", "chapter": "115" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Today the Shin are generally thought of as peaceful people who keep to themselves.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "55" },
+                { "book": "words-of-radiance", "chapter": "88" },
+                { "book": "oathbringer", "chapter": "38" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Faith",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "edgedancer", "chapter": "9" },
+                { "book": "oathbringer", "chapter": "106" }
+              ]
+            }
+          ]
+        }
+      ],
+      "topic": "religion",
+      "items": [
+        {
+          "text": "As with the other Silver Kingdoms, its name reads the same backwards and forwards, a form Vorinism treats as holy. The Shin give the Heralds names of their own; Ishu-son-God and Nin-son-God are two of them.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "edgedancer", "chapter": "9" },
+                { "book": "oathbringer", "chapter": "106" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Names",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "38" }]
+        }
+      ],
+      "topic": "language",
+      "items": [
+        {
+          "text": "The Shin custom of naming a person as the son or daughter of a parent goes back at least to the time of the Silver Kingdoms.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "38" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Food and drink",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "103" }]
+        }
+      ],
+      "topic": "food",
+      "items": [
+        {
+          "text": "Shin loaf bread is much fluffier than loaves of Rosharan grain; in one of Dalinar's visions, Nohadon means to bake some.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "103" }]
+        }
+      ]
     }
   ],
   "history": [
@@ -100,6 +223,141 @@
         {
           "text": "Although nearly impassable mountains surround it, the kingdom still fought with its neighbours. The Shin leader Shubreth-son-Mashalan headed a cavalry campaign called the Shin invasion; his empire is believed to have fallen because it expanded too fast.",
           "revealedIn": [{ "book": "oathbringer", "chapter": "103" }]
+        }
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "id": "long-ago",
+      "title": "Long ago",
+      "tone": "#8c7ae6",
+      "moments": [
+        {
+          "id": "gift",
+          "kind": "legend",
+          "told": [
+            {
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "way-of-kings", "chapter": "i-4" },
+                    { "book": "oathbringer", "chapter": "115" }
+                  ]
+                }
+              ],
+              "title": "A land for refugees",
+              "text": "Humans came to Roshar as refugees from a disaster on Ashyn, perhaps one of their own making, and were given this land."
+            }
+          ]
+        },
+        {
+          "id": "turn",
+          "kind": "war",
+          "told": [
+            {
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "way-of-kings", "chapter": "i-4" },
+                    { "book": "oathbringer", "chapter": "115" }
+                  ]
+                }
+              ],
+              "title": "Turning on the singers",
+              "text": "The Eila Stele tells how the humans the singers had welcomed turned Surgebinding against them, and the singers began to call them Voidbringers.",
+              "after": ["gift"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "silver-kingdoms",
+      "title": [
+        {
+          "text": "The Silver Kingdoms",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "38" },
+            { "book": "oathbringer", "chapter": "103" }
+          ]
+        }
+      ],
+      "tone": "#e0b25c",
+      "moments": [
+        {
+          "id": "radiants",
+          "kind": "war",
+          "told": [
+            {
+              "revealedIn": [{ "book": "oathbringer", "chapter": "38" }],
+              "title": "A Shin soldier at Aharietiam",
+              "text": "Shin fought in the Desolations. Malad-son-Zent, a Shin soldier with a bronze-tipped spear, fought at Aharietiam, the Last Desolation."
+            }
+          ]
+        },
+        {
+          "id": "border-war",
+          "kind": "war",
+          "told": [
+            {
+              "revealedIn": [{ "book": "oathbringer", "chapter": "103" }],
+              "title": "War near the border",
+              "text": "Though nearly impassable mountains ring it, the kingdom still clashed with its neighbours. After one Desolation, Nohadon told Dalinar, he fought in a war near the Shin Kak Nish border.",
+              "art": "character:nohadon"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "after-last-desolation",
+      "title": [
+        {
+          "text": "After the Last Desolation",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "55" },
+                { "book": "words-of-radiance", "chapter": "88" },
+                { "book": "oathbringer", "chapter": "38" }
+              ]
+            },
+            { "book": "oathbringer", "chapter": "103" }
+          ]
+        }
+      ],
+      "tone": "#5fb3c9",
+      "moments": [
+        {
+          "id": "honorblades",
+          "kind": "magic",
+          "told": [
+            {
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "way-of-kings", "chapter": "55" },
+                    { "book": "words-of-radiance", "chapter": "88" },
+                    { "book": "oathbringer", "chapter": "38" }
+                  ]
+                }
+              ],
+              "title": "Keepers of the Honorblades",
+              "text": "In a vision, Dalinar watched a Shin man come upon the Honorblades the Heralds had abandoned, and most of the Blades remained with the Shin for thousands of years."
+            }
+          ]
+        },
+        {
+          "id": "shin-invasion",
+          "kind": "war",
+          "told": [
+            {
+              "revealedIn": [{ "book": "oathbringer", "chapter": "103" }],
+              "title": "Shin invasions",
+              "text": "At some point the Shin rode out on horseback to invade the lands beyond their mountains. Gavilar counted the empire of the Shin ruler Shubreth-son-Mashalan among those that fell soon after they were built because they grew too fast."
+            }
+          ]
         }
       ]
     }

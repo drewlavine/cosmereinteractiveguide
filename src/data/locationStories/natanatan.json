@@ -18,7 +18,7 @@
       "revealedIn": [{ "book": "words-of-radiance", "chapter": "83" }]
     },
     {
-      "text": "Highstorms are especially strong in the east; the Natans adapted by farming low-profile crops.",
+      "text": "Highstorms hit eastern Roshar especially hard, and the Natans learned to live with them, farming with crops that grow low to the ground.",
       "revealedIn": [
         {
           "all": [
@@ -27,10 +27,35 @@
             { "book": "oathbringer", "chapter": "i-1" }
           ]
         }
-      ]
+      ],
+      "fromCulture": "food"
     },
     {
-      "text": "Natans have pale blue skin, wide noses and wool-like white hair, and revere the moons, especially the blue moon Nomon. Natanatan was nicknamed the Granite Kingdom.",
+      "text": "Natans have pale blue skin, broad noses and white hair with a woolly texture.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "36" },
+            { "book": "oathbringer", "chapter": "67" }
+          ]
+        }
+      ],
+      "fromCulture": "people"
+    },
+    {
+      "text": "Natans treat Roshar's moons as gods and honour the blue moon Nomon most of all. In a folk tale Hoid tells, Nomon fathered a child by Tsa, a queen of the Natans, and her blue-skinned descendants were blessed with grace and beauty.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "36" },
+            { "book": "oathbringer", "chapter": "67" }
+          ]
+        }
+      ],
+      "fromCulture": "religion"
+    },
+    {
+      "text": "People called Natanatan the Granite Kingdom. In Hoid's tale it is a land of rich culture and fine buildings; how much of that is true is unclear, but stories of a civilised Natanatan are still told on Roshar.",
       "revealedIn": [
         {
           "all": [
@@ -38,7 +63,8 @@
             { "book": "oathbringer", "chapter": "67" }
           ]
         }
-      ]
+      ],
+      "fromCulture": "arts"
     },
     {
       "text": "Its old lands now include the Unclaimed Hills, the Shattered Plains, Alethkar's Eastern Crownlands and the eastern Frostlands. People think of the region as an empty wasteland of forests and jungles.",
@@ -48,6 +74,126 @@
             { "book": "way-of-kings", "chapter": "45" },
             { "book": "words-of-radiance", "chapter": "i-4" },
             { "book": "oathbringer", "chapter": "105" }
+          ]
+        }
+      ]
+    }
+  ],
+  "culture": [
+    {
+      "title": [
+        {
+          "text": "People",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "36" },
+                { "book": "oathbringer", "chapter": "67" }
+              ]
+            }
+          ]
+        }
+      ],
+      "topic": "people",
+      "items": [
+        {
+          "text": "Natans have pale blue skin, broad noses and white hair with a woolly texture.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "36" },
+                { "book": "oathbringer", "chapter": "67" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Faith",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "36" },
+                { "book": "oathbringer", "chapter": "67" }
+              ]
+            }
+          ]
+        }
+      ],
+      "topic": "religion",
+      "items": [
+        {
+          "text": "Natans treat Roshar's moons as gods and honour the blue moon Nomon most of all. In a folk tale Hoid tells, Nomon fathered a child by Tsa, a queen of the Natans, and her blue-skinned descendants were blessed with grace and beauty.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "36" },
+                { "book": "oathbringer", "chapter": "67" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Art and legend",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "58" },
+                { "book": "oathbringer", "chapter": "67" }
+              ]
+            }
+          ]
+        }
+      ],
+      "topic": "arts",
+      "items": [
+        {
+          "text": "People called Natanatan the Granite Kingdom. In Hoid's tale it is a land of rich culture and fine buildings; how much of that is true is unclear, but stories of a civilised Natanatan are still told on Roshar.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "58" },
+                { "book": "oathbringer", "chapter": "67" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Farming",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "58" },
+                { "book": "words-of-radiance", "chapter": "55" },
+                { "book": "oathbringer", "chapter": "i-1" }
+              ]
+            }
+          ]
+        }
+      ],
+      "topic": "food",
+      "items": [
+        {
+          "text": "Highstorms hit eastern Roshar especially hard, and the Natans learned to live with them, farming with crops that grow low to the ground.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "58" },
+                { "book": "words-of-radiance", "chapter": "55" },
+                { "book": "oathbringer", "chapter": "i-1" }
+              ]
+            }
           ]
         }
       ]
@@ -100,6 +246,169 @@
         {
           "text": "Only the city-state of New Natanan remains of the old government. Its people want to reclaim their homeland and its Oathgate.",
           "revealedIn": [{ "book": "oathbringer", "chapter": "122" }]
+        }
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "id": "old-kingdom",
+      "title": [{ "text": "The old kingdom", "revealedIn": ["way-of-kings"] }],
+      "tone": "#8c7ae6",
+      "moments": [
+        {
+          "id": "silver-kingdom",
+          "kind": "realm",
+          "told": [
+            {
+              "revealedIn": ["way-of-kings"],
+              "title": "A Silver Kingdom",
+              "text": "In the Heraldic Epochs, Natanatan counted among the Silver Kingdoms of Roshar."
+            },
+            {
+              "revealedIn": [
+                {
+                  "all": [
+                    "way-of-kings",
+                    { "book": "words-of-radiance", "chapter": "83" }
+                  ]
+                }
+              ],
+              "text": "In the Heraldic Epochs, Natanatan counted among the Silver Kingdoms, covering the southeast corner of Roshar. It was ruled from Stormseat, a city with an Oathgate.",
+              "places": ["stormseat"]
+            },
+            {
+              "revealedIn": [
+                {
+                  "all": [
+                    "way-of-kings",
+                    { "book": "words-of-radiance", "chapter": "83" },
+                    { "book": "wind-and-truth", "chapter": "60" }
+                  ]
+                }
+              ],
+              "title": "The last Silver Kingdom",
+              "text": "No Silver Kingdom was founded after Natanatan, in the southeast corner of Roshar, and the Oathgate at its capital, Stormseat, was the tenth to be built."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "after-desolations",
+      "title": [
+        {
+          "text": "After the Desolations",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "19" },
+                { "book": "words-of-radiance", "chapter": "60" },
+                { "book": "oathbringer", "chapter": "59" }
+              ]
+            }
+          ]
+        }
+      ],
+      "tone": "#e0b25c",
+      "moments": [
+        {
+          "id": "stormseat-lost",
+          "kind": "legend",
+          "told": [
+            {
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "way-of-kings", "chapter": "19" },
+                    { "book": "words-of-radiance", "chapter": "60" },
+                    { "book": "oathbringer", "chapter": "59" }
+                  ]
+                }
+              ],
+              "title": "Stormseat is lost",
+              "text": "Stormseat is thought to have been destroyed in a Desolation thousands of years ago, but Vorin tradition holds that Natanatan lived on without its capital.",
+              "places": ["stormseat"]
+            }
+          ]
+        },
+        {
+          "id": "five-kingdoms",
+          "kind": "realm",
+          "told": [
+            {
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "way-of-kings", "chapter": "19" },
+                    { "book": "words-of-radiance", "chapter": "60" },
+                    { "book": "oathbringer", "chapter": "59" }
+                  ]
+                }
+              ],
+              "title": "One of five Vorin kingdoms",
+              "text": "After the Recreance Natanatan allied with Alethkar, Jah Keved, Kharbranth and Thaylenah; together they were known as the five Vorin kingdoms.",
+              "places": ["thaylenah", "alethkar", "jah-keved", "kharbranth"]
+            }
+          ]
+        },
+        {
+          "id": "kingdom-falls",
+          "kind": "realm",
+          "told": [
+            {
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "way-of-kings", "chapter": "19" },
+                    { "book": "words-of-radiance", "chapter": "60" },
+                    { "book": "oathbringer", "chapter": "59" }
+                  ]
+                }
+              ],
+              "title": "The kingdom falls",
+              "text": "Despite that alliance, Natanatan fell several hundred years ago. How it fell is not known.",
+              "after": ["five-kingdoms"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "present",
+      "title": [
+        {
+          "text": "The present day",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "i-1" },
+            { "book": "oathbringer", "chapter": "122" }
+          ]
+        }
+      ],
+      "tone": "#5fb3c9",
+      "moments": [
+        {
+          "id": "puuli",
+          "kind": "magic",
+          "told": [
+            {
+              "revealedIn": [{ "book": "oathbringer", "chapter": "i-1" }],
+              "title": "A lighthouse keeper's grandfather",
+              "text": "When the Everstorm came, Puuli, a Natan lighthouse keeper, wondered if this was the time his grandfather had warned of: a time of change, when men from a hidden island of the Origin would at last come to take back Natanatan."
+            }
+          ]
+        },
+        {
+          "id": "new-natanan",
+          "kind": "realm",
+          "told": [
+            {
+              "revealedIn": [{ "book": "oathbringer", "chapter": "122" }],
+              "title": "New Natanan carries on",
+              "text": "The city-state of New Natanan, on Roshar's far eastern coast, is all that is left of the Natan government, with a few smaller settlements as its protectorates. It took part in Dalinar's talks at Urithiru on an alliance against the Voidbringers, but the Natans care most about winning back their homeland and its Oathgate.",
+              "places": ["new-natanan", "urithiru"]
+            }
+          ]
         }
       ]
     }

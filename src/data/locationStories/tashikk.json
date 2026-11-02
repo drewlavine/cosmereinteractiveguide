@@ -36,6 +36,16 @@
   ],
   "description": [
     {
+      "text": "The Tashikki are Makabaki with dark brown skin, known as polite and reserved, more so even than their northern neighbours. Like the Azish they are very formal, their society runs on bureaucracy, and information passes among them as currency alongside spheres.",
+      "revealedIn": [{ "book": "edgedancer", "chapter": "3" }],
+      "fromCulture": "people"
+    },
+    {
+      "text": "Tashikki faith is behind the shiqua: wearing it hides a person from the gaze of Nun Raylisi, an evil being of their religion.",
+      "revealedIn": [{ "book": "edgedancer", "chapter": "3" }],
+      "fromCulture": "religion"
+    },
+    {
       "text": "Tashikk looks flat, with wide grassy fields. Its wildlife includes herds of axehinds and drop-deads, tall spindly trees that lie flat when a highstorm comes.",
       "revealedIn": [{ "book": "edgedancer", "chapter": "4" }]
     },
@@ -44,12 +54,17 @@
       "revealedIn": [{ "book": "edgedancer", "chapter": "4" }]
     },
     {
-      "text": "The Tashikki are Makabaki, polite and reserved even by their neighbours' standards, formal and bureaucratic like the Azish. Men and women wear shiquas, one-sheet wraps covering the whole body and face, to protect them from the eyes of Nun Raylisi, an evil entity in their religion.",
+      "text": "Tashikki men and women usually wear the shiqua, an intricate wrap made from one sheet of cloth that hides the whole body, face included. Guards, who need to move freely, dress differently.",
+      "revealedIn": [{ "book": "edgedancer", "chapter": "8" }],
+      "fromCulture": "dress"
+    },
+    {
+      "text": "Though it has a prince of its own, Tashikk belongs to the Azish Empire and has long stood, with Yezier, closest of its states to the Azish throne. Like other member states, it can hire the Imperial Shardblades from Azir, and it keeps an ambassador in Azimir, at present the prince's brother.",
       "revealedIn": [
         {
           "all": [
-            { "book": "edgedancer", "chapter": "8" },
-            { "book": "oathbringer", "chapter": "96" }
+            { "book": "edgedancer", "chapter": "2" },
+            { "book": "oathbringer", "chapter": "122" }
           ]
         }
       ]
@@ -62,6 +77,106 @@
             { "book": "words-of-radiance", "chapter": "87" },
             { "book": "oathbringer", "chapter": "122" }
           ]
+        }
+      ]
+    }
+  ],
+  "culture": [
+    {
+      "title": [
+        {
+          "text": "People",
+          "revealedIn": [
+            { "book": "edgedancer", "chapter": "3" },
+            { "book": "oathbringer", "chapter": "8" }
+          ]
+        }
+      ],
+      "topic": "people",
+      "items": [
+        {
+          "text": "The Tashikki are Makabaki with dark brown skin, known as polite and reserved, more so even than their northern neighbours. Like the Azish they are very formal, their society runs on bureaucracy, and information passes among them as currency alongside spheres.",
+          "revealedIn": [{ "book": "edgedancer", "chapter": "3" }]
+        },
+        {
+          "text": "For all the news they gather, the Tashikki are seen as a people who keep to themselves.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "8" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Faith",
+          "revealedIn": [
+            { "book": "edgedancer", "chapter": "3" },
+            { "book": "edgedancer", "chapter": "13" },
+            { "book": "edgedancer", "chapter": "20" },
+            { "book": "rhythm-of-war", "chapter": "101" }
+          ]
+        }
+      ],
+      "topic": "religion",
+      "items": [
+        {
+          "text": "Tashikki faith is behind the shiqua: wearing it hides a person from the gaze of Nun Raylisi, an evil being of their religion.",
+          "revealedIn": [{ "book": "edgedancer", "chapter": "3" }]
+        },
+        {
+          "text": "Against Nun Raylisi stands Tashi, God of Gods, also called Binder of the World, who bound the world together with the Nine. The Tashikki trust Tashi to protect them in their own land, so at home they mostly leave their faces bare, and cover them when abroad.",
+          "revealedIn": [{ "book": "edgedancer", "chapter": "13" }]
+        },
+        {
+          "text": "In Yeddaw, ten kinds of pancake are made for the Weeping. The tenth, Tashi's, is never cooked: people only think about it.",
+          "revealedIn": [{ "book": "edgedancer", "chapter": "20" }]
+        },
+        {
+          "text": "The country takes its name from Tashi, the Tashikki name for the Herald Ishar.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "101" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Dress",
+          "revealedIn": [
+            { "book": "edgedancer", "chapter": "8" },
+            { "book": "oathbringer", "chapter": "96" }
+          ]
+        }
+      ],
+      "topic": "dress",
+      "items": [
+        {
+          "text": "Tashikki men and women usually wear the shiqua, an intricate wrap made from one sheet of cloth that hides the whole body, face included. Guards, who need to move freely, dress differently.",
+          "revealedIn": [{ "book": "edgedancer", "chapter": "8" }]
+        },
+        {
+          "text": "Tashikki diplomats abroad sometimes put the shiqua aside for more common international clothes.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "96" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Ships and soldiers",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "111" },
+            { "book": "edgedancer", "chapter": "3" }
+          ]
+        }
+      ],
+      "topic": "warfare",
+      "items": [
+        {
+          "text": "Tashikk's fleet has troop carriers and scout ships and in peacetime patrols the grand waterway. It is bound up with Azir: Azish battalions help crew it, and in war the Prime may use it as he sees fit.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "111" }]
+        },
+        {
+          "text": "Azish soldiers also serve in Tashikk on land, as guards and fighters, and the credentials of achievement Azish viziers grant them are honoured there.",
+          "revealedIn": [{ "book": "edgedancer", "chapter": "3" }]
         }
       ]
     }
@@ -116,6 +231,193 @@
                 { "book": "oathbringer", "chapter": "122" },
                 { "book": "wind-and-truth", "chapter": "76" }
               ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "id": "long-ago",
+      "title": "Long ago",
+      "tone": "#8c7ae6",
+      "moments": [
+        {
+          "id": "makabakam",
+          "kind": "realm",
+          "told": [
+            {
+              "revealedIn": [{ "book": "rhythm-of-war", "chapter": "111" }],
+              "title": "Part of Makabakam",
+              "text": "In the age of the Silver Kingdoms, Tashikk belonged to Makabakam, settled by people who spread out across Roshar from Shinovar.",
+              "places": ["makabakam", "shinovar"]
+            }
+          ]
+        },
+        {
+          "id": "desolations",
+          "kind": "legend",
+          "told": [
+            {
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "way-of-kings", "chapter": "prelude" },
+                    { "book": "words-of-radiance", "chapter": "i-7" }
+                  ]
+                }
+              ],
+              "title": "Thrown back by the Desolations",
+              "text": "Each Desolation left the people here with little more than stone tools. When the Heralds returned, they helped them climb back, at times as far as working bronze."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "before-the-everstorm",
+      "title": [
+        {
+          "text": "Before the Everstorm",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "122" },
+            { "book": "edgedancer", "chapter": "2" }
+          ]
+        }
+      ],
+      "tone": "#e0b25c",
+      "moments": [
+        {
+          "id": "joins-empire",
+          "kind": "realm",
+          "told": [
+            {
+              "revealedIn": [{ "book": "oathbringer", "chapter": "122" }],
+              "title": "Joining the Azish Empire",
+              "text": "At some point Tashikk joined the Azish Empire as one of its member states.",
+              "places": ["azir"]
+            }
+          ]
+        },
+        {
+          "id": "yeddaw",
+          "kind": "realm",
+          "told": [
+            {
+              "revealedIn": [{ "book": "edgedancer", "chapter": "2" }],
+              "title": "Yeddaw is carved out",
+              "text": "Around 1074, Yeddaw was cut down into the ground with the Azish Imperial Shardblades. It grew into one of Tashikk's leading cities.",
+              "places": ["yeddaw"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "true-desolation",
+      "title": [
+        {
+          "text": "The True Desolation",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "87" },
+            { "book": "oathbringer", "chapter": "90" },
+            { "book": "oathbringer", "chapter": "12" },
+            { "book": "oathbringer", "chapter": "122" }
+          ]
+        }
+      ],
+      "tone": "#5fb3c9",
+      "moments": [
+        {
+          "id": "storm-warning",
+          "kind": "realm",
+          "told": [
+            {
+              "revealedIn": [{ "book": "oathbringer", "chapter": "87" }],
+              "title": "Warning the world",
+              "text": "Dalinar Kholin used Tashikk's spanreed relay stations to send word of the Everstorm across the world."
+            }
+          ]
+        },
+        {
+          "id": "nale-leaves",
+          "kind": "magic",
+          "told": [
+            {
+              "revealedIn": [{ "book": "oathbringer", "chapter": "90" }],
+              "title": "Nale leaves Yeddaw",
+              "text": "The Everstorm reached Yeddaw, and with it Nale's efforts to stop the Desolation came to an end. The Herald left the country, leaving Szeth behind.",
+              "places": ["yeddaw"],
+              "art": "character:nale"
+            }
+          ]
+        },
+        {
+          "id": "joins-coalition",
+          "kind": "realm",
+          "told": [
+            {
+              "revealedIn": [{ "book": "oathbringer", "chapter": "12" }],
+              "title": "Waiting on Azir",
+              "text": "Dalinar asked the prince of Tashikk to join his coalition. The prince, who defers to the Prime Aqasix, would not commit until Azir had decided."
+            },
+            {
+              "revealedIn": [{ "book": "oathbringer", "chapter": "96" }],
+              "title": "Joining the coalition",
+              "text": "Dalinar invited the prince of Tashikk into his coalition, but the prince, who defers to the Prime Aqasix, waited on Azir. Once the Azish allied with Urithiru, Tashikk did too, and sent its ambassador in Azimir, the prince's brother, to the tower to represent it.",
+              "places": ["azir", "urithiru"],
+              "after": ["storm-warning"]
+            }
+          ]
+        },
+        {
+          "id": "eila-stele",
+          "kind": "realm",
+          "told": [
+            {
+              "revealedIn": [{ "book": "oathbringer", "chapter": "122" }],
+              "title": "The Eila Stele spreads",
+              "text": "Taravangian used Tashikk to spread word of the Eila Stele, hoping to split the coalition. Azir left it in the aftermath; whether Tashikk did too is unknown.",
+              "after": ["joins-coalition"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "new-allegiance",
+      "title": [
+        {
+          "text": "A new allegiance",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "122" },
+                { "book": "wind-and-truth", "chapter": "76" }
+              ]
+            }
+          ]
+        }
+      ],
+      "tone": "#d9645a",
+      "moments": [
+        {
+          "id": "secession",
+          "kind": "war",
+          "told": [
+            {
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "oathbringer", "chapter": "122" },
+                    { "book": "wind-and-truth", "chapter": "76" }
+                  ]
+                }
+              ],
+              "title": "Leaving the empire",
+              "text": "Tashikk and Emul broke away from Azir and the Azish Empire and joined the forces of Odium.",
+              "places": ["emul", "azir"]
             }
           ]
         }

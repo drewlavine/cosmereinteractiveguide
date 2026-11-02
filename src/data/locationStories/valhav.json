@@ -11,12 +11,61 @@
       "revealedIn": ["way-of-kings"]
     },
     {
-      "text": "Its people wrote in the Dawnchant, at first simply using it to spell out their own language, then adapting it into a script of their own.",
-      "revealedIn": [{ "book": "oathbringer", "chapter": "i-2" }]
+      "text": "Valhav's people wrote in the Dawnchant, at first simply using it to spell out their own language, then adapting it into a script of their own.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "i-2" }],
+      "fromCulture": "language"
     },
     {
       "text": "It took in the Horneater Peaks and a small part of the Purelake. Several great rivers crossed it, most running north or south into the Reshi or Tarat seas.",
       "revealedIn": [{ "all": ["way-of-kings", "oathbringer"] }]
+    }
+  ],
+  "culture": [
+    {
+      "title": [
+        {
+          "text": "Peoples",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "46" },
+                { "book": "words-of-radiance", "chapter": "69" },
+                { "book": "oathbringer", "chapter": "100" }
+              ]
+            }
+          ]
+        }
+      ],
+      "topic": "people",
+      "items": [
+        {
+          "text": "Valhav's peoples varied. Most were pale with violet eyes, but many, above all in the south, looked like their neighbours in Alethela, tan with dark hair, and some were darker still. The men of the Horneater Peaks were pale too, but tall and often red-haired.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "46" },
+                { "book": "words-of-radiance", "chapter": "69" },
+                { "book": "oathbringer", "chapter": "100" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Language and writing",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "i-2" }]
+        }
+      ],
+      "topic": "language",
+      "items": [
+        {
+          "text": "Valhav's people wrote in the Dawnchant, at first simply using it to spell out their own language, then adapting it into a script of their own.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "i-2" }]
+        }
+      ]
     }
   ],
   "history": [
@@ -59,6 +108,156 @@
         {
           "text": "In the millennia after Aharietiam, Valhav collapsed. Its old lands are now split among several kingdoms, the largest share governed by Jah Keved.",
           "revealedIn": ["oathbringer"]
+        }
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "id": "long-ago",
+      "title": "Long ago",
+      "tone": "#8c7ae6",
+      "moments": [
+        {
+          "id": "singer-land",
+          "kind": "war",
+          "told": [
+            {
+              "revealedIn": [{ "book": "oathbringer", "chapter": "113" }],
+              "title": "A land of singers",
+              "text": "Singers lived in the land that became Valhav before humans came to Roshar."
+            },
+            {
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "oathbringer", "chapter": "113" },
+                    { "book": "rhythm-of-war", "chapter": "111" }
+                  ]
+                }
+              ],
+              "title": "Taken from the singers",
+              "text": "Singers lived in the land that became Valhav until humans, given a home in what became Shin Kak Nish, turned on them, killing or driving out the singers and taking their lands. The tale was lost until the Eila Stele was found.",
+              "places": ["shin-kak-nish"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "silver-kingdoms",
+      "title": [
+        {
+          "text": "The Silver Kingdoms",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "prelude" },
+                { "book": "words-of-radiance", "chapter": "i-7" },
+                { "book": "rhythm-of-war", "chapter": "1" }
+              ]
+            },
+            { "book": "way-of-kings", "chapter": "19" },
+            { "book": "way-of-kings", "chapter": "prologue" }
+          ]
+        }
+      ],
+      "tone": "#e0b25c",
+      "moments": [
+        {
+          "id": "founding",
+          "kind": "realm",
+          "told": [
+            {
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "way-of-kings", "chapter": "prelude" },
+                    { "book": "words-of-radiance", "chapter": "i-7" },
+                    { "book": "rhythm-of-war", "chapter": "1" }
+                  ]
+                }
+              ],
+              "title": "Valhav is founded",
+              "text": "Valhav was founded in the age of the Silver Kingdoms. Each Desolation threw its people back, sometimes as far as stone tools, and each time the returning Heralds, Kalak among them, helped them rise again.",
+              "art": "place:valhav"
+            }
+          ]
+        },
+        {
+          "id": "desolations",
+          "kind": "legend",
+          "told": [
+            {
+              "revealedIn": [{ "book": "way-of-kings", "chapter": "19" }],
+              "title": "Desolation after Desolation",
+              "text": "Desolations struck Valhav again and again, along with the rest of Roshar."
+            }
+          ]
+        },
+        {
+          "id": "last-desolation",
+          "kind": "legend",
+          "told": [
+            {
+              "revealedIn": [{ "book": "way-of-kings", "chapter": "prologue" }],
+              "title": "The Last Desolation",
+              "text": "About 4,500 years ago, the Last Desolation struck a world still weak from the Desolation before it. Weary of their torment, nine of the Heralds then refused to go back, leaving Taln to bear it alone.",
+              "after": ["desolations"],
+              "art": "character:kalak"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "after-last-desolation",
+      "title": [
+        {
+          "text": "After the Last Desolation",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "45" },
+                { "book": "oathbringer", "chapter": "119" }
+              ]
+            },
+            "oathbringer"
+          ]
+        }
+      ],
+      "tone": "#5fb3c9",
+      "moments": [
+        {
+          "id": "respite",
+          "kind": "realm",
+          "told": [
+            {
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "way-of-kings", "chapter": "45" },
+                    { "book": "oathbringer", "chapter": "119" }
+                  ]
+                }
+              ],
+              "title": "The Desolations end",
+              "text": "With no more Desolations to ravage it, Valhav could advance further than ever before.",
+              "after": ["last-desolation"]
+            }
+          ]
+        },
+        {
+          "id": "collapse",
+          "kind": "realm",
+          "told": [
+            {
+              "revealedIn": ["oathbringer"],
+              "title": "Valhav falls apart",
+              "text": "At some point after the Last Desolation, Valhav collapsed. Its old lands are now split among several kingdoms, the largest share ruled by Jah Keved.",
+              "places": ["jah-keved"]
+            }
+          ]
         }
       ]
     }

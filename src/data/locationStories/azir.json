@@ -15,25 +15,321 @@
   ],
   "description": [
     {
-      "text": "The best-known Azish produce is the truthberry, made into jam. Legend says those who eat them speak only the truth until the next sunset.",
-      "revealedIn": [{ "book": "way-of-kings", "chapter": "42" }]
+      "text": "Azir's best-known crop is the truthberry, often made into jam. Local legend says anyone who eats one cannot lie before the following sunset. The berries are harmless, but burning the leaves and stalks gives a euphoric high, and Shallan Davar jokes they might as well be called birthberries.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "42" }],
+      "fromCulture": "food"
     },
     {
       "text": "The Azish believe they are never without a Prime: an election is a search for the person who has always been Prime. Anyone but a scion may apply, with forms and essays reviewed by the viziers, a method the Azish are proud of for avoiding succession wars.",
       "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-9" }]
     },
     {
-      "text": "The Prime belongs to the public: citizens can win a lottery to watch the Prime sleep and eat, and can keep relics such as nail clippings or hair.",
+      "text": "Below the Prime, the highest officials are the viziers. They advise the Prime, can force their decisions through, and run the search for a new Prime by reviewing the applications; their standing and learning mean many Primes were viziers first.",
       "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-9" }]
     },
     {
-      "text": "The Azish are stereotyped as peaceful, preferring education to war, and adoring bureaucracy and paperwork, which they take pride in. Their custom is to stay calm and polite, avoid offending guests, and never say \"no\" outright.",
+      "text": "In Azir the Prime is treated as the people's own. A lottery lets citizens watch the Prime sleep, eat and go about the day, and they may keep relics such as a lock of hair or a nail clipping.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-9" }],
+      "fromCulture": "customs"
+    },
+    {
+      "text": "Like most of Makabak, Azir is warm and dry, though cooler than Iri, a land of broad plains and few rivers.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "i-5" },
+            { "book": "words-of-radiance", "chapter": "59" },
+            { "book": "oathbringer", "chapter": "65" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Others picture the Azish as peaceful folk who would rather study than fight and who love bureaucracy and paperwork, and the Azish are proud of that system for sparing them serious internal crises for centuries. They value calm and courtesy: voices stay low even in anger, guests must never be offended, and a disagreement is talked around rather than met with a flat \"no\". Yet they are not easily pushed around.",
       "revealedIn": [
         {
           "all": [
             { "book": "words-of-radiance", "chapter": "89" },
             { "book": "oathbringer", "chapter": "107" }
           ]
+        }
+      ],
+      "fromCulture": "people"
+    },
+    {
+      "text": "Azir breeds and ranches numul, and the gemhearts taken from them are used to Soulcast bronze.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "62" }]
+    }
+  ],
+  "culture": [
+    {
+      "title": [
+        {
+          "text": "People",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "53" },
+                { "book": "oathbringer", "chapter": "42" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "89" },
+                { "book": "oathbringer", "chapter": "107" }
+              ]
+            }
+          ]
+        }
+      ],
+      "topic": "people",
+      "items": [
+        {
+          "text": "The Azish are Makabaki, a people found all over the region. They tend to be short, with deep brown skin, and speak with a smooth accent much like the Emuli. Light eyes are very rare among them.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "53" },
+                { "book": "oathbringer", "chapter": "42" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Others picture the Azish as peaceful folk who would rather study than fight and who love bureaucracy and paperwork, and the Azish are proud of that system for sparing them serious internal crises for centuries. They value calm and courtesy: voices stay low even in anger, guests must never be offended, and a disagreement is talked around rather than met with a flat \"no\". Yet they are not easily pushed around.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "89" },
+                { "book": "oathbringer", "chapter": "107" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Rank and office",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "i-9" },
+                { "book": "oathbringer", "chapter": "116" }
+              ]
+            },
+            { "book": "oathbringer", "chapter": "35" }
+          ]
+        }
+      ],
+      "topic": "society",
+      "items": [
+        {
+          "text": "Azir does not split its people into lighteyes and darkeyes. Standing comes from schooling and promotion through the bureaucracy, with viziers and scribes near the top. Scribes are ranked by level and then circle, shown by the patterns on their clothes, and ordinary citizens outside the government are called discrete.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "i-9" },
+                { "book": "oathbringer", "chapter": "116" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Anyone may sit the written exam to join the civil service, but it is hard and usually takes costly schooling, so most officials come from families that already ranked high.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "35" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Faith",
+          "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "i-9" },
+            { "book": "oathbringer", "chapter": "12" },
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "i-9" },
+                { "book": "oathbringer", "chapter": "116" }
+              ]
+            }
+          ]
+        }
+      ],
+      "topic": "religion",
+      "items": [
+        {
+          "text": "The Azish worship the Heralds, whom they call the Kadasixes.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-9" }]
+        },
+        {
+          "text": "Scions travel the country blessing towns and villages, which is why no scion may become Prime. They still take part in choosing one: at the holy conclave they keep the choice spiritually pure, give theological counsel and help the viziers pick the best candidate.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-9" }]
+        },
+        {
+          "text": "Chief of the Kadasixes is Yaezir, as the Azish call Jezrien, the Kadasix of Kings and patron of their government; the Prime Aqasix is his emissary to the world. By Azish doctrine a person is born Prime, and an election only finds that person.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "12" }]
+        },
+        {
+          "text": "Scions are not owned the way Vorin ardents are. To rise to priest-minister, a high rank among scions, is one of the greatest honours an Azish person can earn.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "12" }]
+        },
+        {
+          "text": "Scions, both men and women, are government officials. They see to the spiritual side of the bureaucracy, blessing formal meetings and reading omens for the will of the Kadasixes, and also work as clerks and scribes. The most influential sit among the Prime's advisors beside the viziers.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "i-9" },
+                { "book": "oathbringer", "chapter": "116" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Dress",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "98" },
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "89" },
+                { "book": "oathbringer", "chapter": "i-8" }
+              ]
+            },
+            { "book": "oathbringer", "chapter": "116" }
+          ]
+        }
+      ],
+      "topic": "dress",
+      "items": [
+        {
+          "text": "Azish clothes are bright and colourful: robes or wraps with large hats, which can make the wearer look weighed down. Each pattern on them has its own meaning, so a trained scribe can read someone's clothing like a text.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "98" }]
+        },
+        {
+          "text": "For all their loudness, Azish fabrics are liked even in the east. Dalinar Kholin grew up among Azish rugs, Alethi fashion folios show Azish designs, and a mineral dye from Azir is known in other lands.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "89" },
+                { "book": "oathbringer", "chapter": "i-8" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "The Prime's mark of office is the Imperial Yuanazixin, a traditional hat with sweeping sides.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "116" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Writing and patterns",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "98" },
+                { "book": "wind-and-truth", "chapter": "147" }
+              ]
+            }
+          ]
+        }
+      ],
+      "topic": "language",
+      "items": [
+        {
+          "text": "The Azish have a script of their own, unrelated to the Vorin scripts, which to outsiders looks like little cremling tracks. The patterns on their furniture, decorations and clothes, called hokra on garments, each carry a meaning a trained scribe can read.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "98" },
+                { "book": "wind-and-truth", "chapter": "147" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Food",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "42" },
+            { "book": "edgedancer", "chapter": "3" }
+          ]
+        }
+      ],
+      "topic": "food",
+      "items": [
+        {
+          "text": "Azir's best-known crop is the truthberry, often made into jam. Local legend says anyone who eats one cannot lie before the following sunset. The berries are harmless, but burning the leaves and stalks gives a euphoric high, and Shallan Davar jokes they might as well be called birthberries.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "42" }]
+        },
+        {
+          "text": "Tallew, a grain with many uses, is grown in Azir.",
+          "revealedIn": [{ "book": "edgedancer", "chapter": "3" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The Prime and the people",
+          "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "i-9" },
+            { "book": "oathbringer", "chapter": "65" }
+          ]
+        }
+      ],
+      "topic": "customs",
+      "items": [
+        {
+          "text": "In Azir the Prime is treated as the people's own. A lottery lets citizens watch the Prime sleep, eat and go about the day, and they may keep relics such as a lock of hair or a nail clipping.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-9" }]
+        },
+        {
+          "text": "When the Prime issues a mandate, citizens get a month to raise grievances, often as reasoned arguments or protests, before they must obey.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "65" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "War",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "65" },
+            { "book": "oathbringer", "chapter": "107" },
+            { "book": "rhythm-of-war", "chapter": "47" },
+            { "book": "wind-and-truth", "chapter": "60" }
+          ]
+        }
+      ],
+      "topic": "warfare",
+      "items": [
+        {
+          "text": "Azish soldiers wear plated mail and tall domed helmets, usually brightly coloured.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "65" }]
+        },
+        {
+          "text": "Azir's army is smaller than those of Alethkar and Jah Keved but still formidable, and its fortifications are hard to take. It is organised in battalions of about a thousand. The Alethi dismiss Azish generals as historians and theorists, but their advice is practical and usually sound. With no fleet of its own, Azir sends soldiers from chosen battalions in turns to crew Tashikk's ships.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "107" }]
+        },
+        {
+          "text": "Azish troops are superbly disciplined, though man for man they fight less well than the Alethi. Their tightly drilled pike blocks hold up well against the singers and make a good partner for Alethi flexibility.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "47" }]
+        },
+        {
+          "text": "The army is choosy about recruits and sets entrance exams, not to test wits but to weed out the violent and undisciplined. The result is a tight, well-paid force and a respected career, though not one built for a draft.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "60" }]
         }
       ]
     }
@@ -138,6 +434,445 @@
         {
           "text": "The Night of Sorrows darkened Azir for about a month before Retribution withdrew the storm from its skies.",
           "revealedIn": [{ "book": "wind-and-truth", "chapter": "147" }]
+        }
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "id": "long-ago",
+      "title": "Long ago",
+      "tone": "#8c7ae6",
+      "moments": [
+        {
+          "id": "singer-land",
+          "kind": "legend",
+          "told": [
+            {
+              "revealedIn": [{ "book": "oathbringer", "chapter": "113" }],
+              "title": "A land taken from the singers",
+              "text": "Before humans came to Roshar, singers lived in the land that became Azir. Some time after the first humans settled in the far west, they invaded, slaughtered or drove out the singers and took the land. The memory was lost until the Eila Stele was found."
+            }
+          ]
+        },
+        {
+          "id": "makabakam",
+          "kind": "realm",
+          "told": [
+            {
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "edgedancer", "chapter": "2" },
+                    { "book": "oathbringer", "chapter": "65" },
+                    { "book": "rhythm-of-war", "chapter": "111" }
+                  ]
+                }
+              ],
+              "title": "Part of Makabakam",
+              "text": "In the age of the Silver Kingdoms this land was Makabakam, settled by people who spread out from Shinovar. Makabakam's Oathgate stood at Azimir.",
+              "places": ["makabakam", "shinovar"],
+              "art": "place:makabakam"
+            }
+          ]
+        },
+        {
+          "id": "desolations",
+          "kind": "legend",
+          "told": [
+            {
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "way-of-kings", "chapter": "prelude" },
+                    { "book": "words-of-radiance", "chapter": "i-7" }
+                  ]
+                }
+              ],
+              "title": "Thrown back by the Desolations",
+              "text": "Each Desolation left the people here with little more than stone tools. When the Heralds returned, they helped them climb back, at times as far as working bronze."
+            }
+          ]
+        },
+        {
+          "id": "alethela-war",
+          "kind": "war",
+          "told": [
+            {
+              "revealedIn": [{ "book": "oathbringer", "chapter": "103" }],
+              "title": "War with Alethela",
+              "text": "Under Nohadon, Alethela went to war with Makabakam over trade routes. What the war did to either kingdom is not known.",
+              "places": ["alethela", "makabakam"]
+            }
+          ]
+        },
+        {
+          "id": "splinter",
+          "kind": "realm",
+          "told": [
+            {
+              "revealedIn": ["oathbringer"],
+              "title": "Many states",
+              "text": "Where Makabakam once lay, today's maps show the many separate states of Makabak, Azir among them.",
+              "places": ["makabakam", "makabak"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "old-legends",
+      "title": "Of uncertain date",
+      "tone": "#e0b25c",
+      "moments": [
+        {
+          "id": "tagarut",
+          "kind": "legend",
+          "told": [
+            {
+              "revealedIn": ["sunlit-man"],
+              "title": "The Tagarut",
+              "text": "Azish legends tell of the Tagarut, invaders who tried again and again to conquer the land and were beaten back each time. The tales come from an age with few clear records."
+            }
+          ]
+        },
+        {
+          "id": "ulutu",
+          "kind": "legend",
+          "told": [
+            {
+              "revealedIn": ["sunlit-man"],
+              "title": "The Ulutu Dynasty",
+              "text": "Legends also tell of the Ulutu Dynasty, said to have lasted at least fifteen emperors. No one knows whether it really existed."
+            }
+          ]
+        },
+        {
+          "id": "kasaakam",
+          "kind": "realm",
+          "told": [
+            {
+              "revealedIn": [{ "book": "wind-and-truth", "chapter": "61" }],
+              "title": "Slavery outlawed",
+              "text": "When is unknown, but an Azish ruler remembered as Kasaakam the Magnanimous once ended slavery by imperial decree."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sunmaker",
+      "title": [
+        {
+          "text": "The Sunmaker",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "42" }]
+        }
+      ],
+      "when": [
+        {
+          "text": "The seventh century",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "42" }]
+        }
+      ],
+      "tone": "#d9645a",
+      "moments": [
+        {
+          "id": "sunmaker-conquest",
+          "kind": "war",
+          "told": [
+            {
+              "revealedIn": [{ "book": "oathbringer", "chapter": "42" }],
+              "title": "Conquered by the Sunmaker",
+              "text": "The Alethi warlord Sadees, the Sunmaker, conquered Azir in the seventh century, while Snoxil was Prime Aqasix. The occupation was savage: up to a tenth of the people died, with daily execution quotas in some places and men killed for the length of their hair in others.",
+              "places": ["alethkar"]
+            },
+            {
+              "revealedIn": [{ "book": "oathbringer", "chapter": "65" }],
+              "text": "The Alethi warlord Sadees, the Sunmaker, conquered Azir in the seventh century, while Snoxil was Prime Aqasix. The occupation was savage: up to a tenth of the people died, with daily execution quotas in some places and men killed for the length of their hair in others. Sadees excused it by calling the Azish uncivilised for not ranking people by eye colour."
+            }
+          ]
+        },
+        {
+          "id": "independence",
+          "kind": "realm",
+          "told": [
+            {
+              "revealedIn": [{ "book": "oathbringer", "chapter": "42" }],
+              "title": "Independence regained",
+              "text": "When Sadees died, his sons split his kingdom. With no single ruler it was stretched too thin to keep Azir, and the Azish won back their freedom.",
+              "after": ["sunmaker-conquest"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "empire",
+      "title": [
+        {
+          "text": "The Azish Empire",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "12" },
+            { "book": "wind-and-truth", "chapter": "127" }
+          ]
+        }
+      ],
+      "tone": "#5fb3c9",
+      "moments": [
+        {
+          "id": "empire-forms",
+          "kind": "realm",
+          "told": [
+            {
+              "revealedIn": [{ "book": "oathbringer", "chapter": "12" }],
+              "title": "Leader of Makabak",
+              "text": "Over the centuries, Azir became the cultural and political heart of Makabak. Many neighbouring nations became its client states, forming the Azish Empire, a loose union whose Prime Aqasix speaks for all of them abroad.",
+              "places": ["makabak"],
+              "after": ["independence"]
+            }
+          ]
+        },
+        {
+          "id": "dusqqa",
+          "kind": "realm",
+          "told": [
+            {
+              "revealedIn": [{ "book": "wind-and-truth", "chapter": "127" }],
+              "title": "The Dusqqa Dynasty falls",
+              "text": "The Dusqqa Dynasty fell around 875, and a scramble for power followed. One family moved to found a new imperial seat elsewhere, but the imperial judges decided that whoever held the throne room ruled by right."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "search-for-a-prime",
+      "title": [
+        {
+          "text": "The search for a Prime",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-9" }]
+        }
+      ],
+      "when": [
+        {
+          "text": "1173",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-9" }]
+        }
+      ],
+      "tone": "#e3c35a",
+      "moments": [
+        {
+          "id": "assassinations",
+          "kind": "war",
+          "told": [
+            {
+              "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-9" }],
+              "title": "Two Primes assassinated",
+              "text": "Two Primes in a row died at the hands of the Assassin in White. After that no candidate wanted the throne, and the empire was left without a ruler."
+            }
+          ]
+        },
+        {
+          "id": "yanagawn-crowned",
+          "kind": "realm",
+          "told": [
+            {
+              "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-9" }],
+              "title": "A thief crowned Prime",
+              "text": "The crisis ended when a gang of thieves, Lift among them, broke into the Bronze Palace. One young thief seemed to be killed and then lived again. The court took it as a miracle proving he was the Prime they sought, and crowned him Yanagawn the First.",
+              "after": ["assassinations"],
+              "art": "character:yanagawn"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "everstorm",
+      "title": [
+        {
+          "text": "The Everstorm",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "12" },
+            { "book": "oathbringer", "chapter": "28" },
+            {
+              "all": [
+                { "book": "edgedancer", "chapter": "2" },
+                { "book": "oathbringer", "chapter": "65" }
+              ]
+            },
+            { "book": "oathbringer", "chapter": "107" },
+            { "book": "oathbringer", "chapter": "116" }
+          ]
+        }
+      ],
+      "when": [
+        {
+          "text": "From 1173",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "12" }]
+        }
+      ],
+      "tone": "#e58fb8",
+      "moments": [
+        {
+          "id": "parshmen-sue",
+          "kind": "realm",
+          "told": [
+            {
+              "revealedIn": [{ "book": "oathbringer", "chapter": "12" }],
+              "title": "The parshmen sue",
+              "text": "When the Everstorm came, Azir's parshmen awoke. Rather than fight, they took a lesson from their old masters and sued the government for back pay. The Azish kept talking with no plan to give in, buying time to fortify their cities."
+            }
+          ]
+        },
+        {
+          "id": "closed-gate",
+          "kind": "realm",
+          "told": [
+            {
+              "revealedIn": [{ "book": "oathbringer", "chapter": "28" }],
+              "title": "A closed Oathgate",
+              "text": "Dalinar Kholin, gathering a coalition at Urithiru, was in contact with Azimir. Remembering the Sunmaker, the Azish would not unlock their Oathgate or let Alethi armies in, and even planned to destroy the gate.",
+              "places": ["urithiru"]
+            }
+          ]
+        },
+        {
+          "id": "dalinar-visit",
+          "kind": "realm",
+          "told": [
+            {
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "edgedancer", "chapter": "2" },
+                    { "book": "oathbringer", "chapter": "65" }
+                  ]
+                }
+              ],
+              "title": "Dalinar in Azimir",
+              "text": "During Dalinar's visit to Azimir, Lift brought the city's ancient Oathgate back into use. Its platform had long served as Azimir's Grand Market.",
+              "art": "character:lift"
+            }
+          ]
+        },
+        {
+          "id": "joins-coalition",
+          "kind": "realm",
+          "told": [
+            {
+              "revealedIn": [{ "book": "oathbringer", "chapter": "107" }],
+              "title": "Joining the coalition",
+              "text": "When their talks with the singers came to nothing, the Azish gave way, agreed to Dalinar's terms and joined his coalition.",
+              "after": ["closed-gate", "dalinar-visit"]
+            }
+          ]
+        },
+        {
+          "id": "thaylen-withdrawal",
+          "kind": "war",
+          "told": [
+            {
+              "revealedIn": [{ "book": "oathbringer", "chapter": "116" }],
+              "title": "Pulling back from Thaylen City",
+              "text": "Expecting the enemy to strike Jah Keved, the Azish promised five battalions there, then moved their fleet near Thaylen City once it proved the real target. After the Eila Stele was translated they pulled out, ships and all. Seeing Alethi troops attack the Thaylens, not knowing these were Amaram's men in the grip of the Thrill, only hardened their resolve.",
+              "places": ["jah-keved", "thaylen-city"],
+              "after": ["joins-coalition"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "after-thaylen-field",
+      "title": [
+        {
+          "text": "After Thaylen Field",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "122" },
+            { "book": "rhythm-of-war", "chapter": "50" }
+          ]
+        }
+      ],
+      "tone": "#7cc78f",
+      "moments": [
+        {
+          "id": "renegotiate",
+          "kind": "realm",
+          "told": [
+            {
+              "revealedIn": [{ "book": "oathbringer", "chapter": "122" }],
+              "title": "Terms for coming back",
+              "text": "After the battle, Dalinar told the Azish by spanreed what had really happened. They offered to renegotiate their place in the alliance if he could prove he controlled his troops.",
+              "after": ["thaylen-withdrawal"]
+            }
+          ]
+        },
+        {
+          "id": "emul-campaign",
+          "kind": "war",
+          "told": [
+            {
+              "revealedIn": [{ "book": "rhythm-of-war", "chapter": "50" }],
+              "title": "The war in Emul",
+              "text": "A year after Thaylen Field, Azish armies advised by Alethi strategists had won back ground in northern Emul. Dalinar then opened a major offensive there, bringing Alethi battalions, Windrunners and Veden troops through the Oathgate. When the Veden troops went over to Odium, the Alethi and Azish together defeated them.",
+              "places": ["emul", "jah-keved"],
+              "after": ["renegotiate"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "defense-of-azimir",
+      "title": [
+        {
+          "text": "The defense of Azimir",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "76" },
+            { "book": "wind-and-truth", "chapter": "136" },
+            { "book": "wind-and-truth", "chapter": "147" }
+          ]
+        }
+      ],
+      "tone": "#c98f4a",
+      "moments": [
+        {
+          "id": "secession",
+          "kind": "war",
+          "told": [
+            {
+              "revealedIn": [{ "book": "wind-and-truth", "chapter": "76" }],
+              "title": "Emul and Tashikk turn",
+              "text": "Several member states, Emul and Tashikk among them, formally left the empire and sided with Odium. They attacked the army sent to relieve Azimir, so the capital's defenders never got the help they were counting on.",
+              "places": ["emul", "tashikk"]
+            }
+          ]
+        },
+        {
+          "id": "throne-room",
+          "kind": "war",
+          "chrono": "roshar-wat-azir-remains-independent",
+          "told": [
+            {
+              "revealedIn": [{ "book": "wind-and-truth", "chapter": "136" }],
+              "title": "Holding the throne room",
+              "text": "With only a handful of fighters, Adolin Kholin held Azimir's imperial throne room against the invaders until the contest of champions began, and so Azir stayed out of Odium's control.",
+              "after": ["secession"],
+              "art": "character:adolin-kholin"
+            }
+          ]
+        },
+        {
+          "id": "night-of-sorrows",
+          "kind": "realm",
+          "told": [
+            {
+              "revealedIn": [{ "book": "wind-and-truth", "chapter": "147" }],
+              "title": "The Night of Sorrows",
+              "text": "The Night of Sorrows kept Azir in darkness for about a month. Then Retribution kept his word and drew the storm back from Azir's skies."
+            }
+          ]
         }
       ]
     }

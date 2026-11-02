@@ -15,18 +15,33 @@
   ],
   "description": [
     {
-      "text": "The Natan have pale blue skin, woolly white hair and wide noses. Some dye a few locks of hair in vivid colours, and their names have common and high forms: Au-nak's high form is Nak-ali.",
-      "revealedIn": [
-        {
-          "all": [
-            { "book": "way-of-kings", "chapter": "54" },
-            { "book": "oathbringer", "chapter": "67" }
-          ]
-        }
-      ]
+      "text": "Some Natan dye a few locks of their hair in vivid colours such as dark red.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "54" }],
+      "fromCulture": "people"
     },
     {
-      "text": "The Natan are mostly Vorin, but also revere the moons, especially Nomon, so some Alethi ardents consider them almost pagan.",
+      "text": "Natan names come in several forms, among them a common one and a high one: Au-nak, for instance, becomes Nak-ali in its high form. The New Natanan accent sounds airy, stretching out low and middle vowels.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "54" }],
+      "fromCulture": "language"
+    },
+    {
+      "text": "The easternmost city on the continent, New Natanan stands on a big peninsula jutting into the Ocean of Origins from the Frostlands, a thinly peopled and largely lawless region. It is the first settlement each highstorm strikes as it comes ashore.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "22" }]
+    },
+    {
+      "text": "The Natan have pale blue skin, white hair with a woolly texture, and broad noses.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "36" },
+            { "book": "oathbringer", "chapter": "67" }
+          ]
+        }
+      ],
+      "fromCulture": "people"
+    },
+    {
+      "text": "Most Natan are Vorin, but their Vorinism has its own character: besides the Almighty and the Heralds they seem to revere the moons, Nomon above all. Some Alethi ardents think them nearly pagan and doubt their devotion away from 'proper' Vorins, yet senior church leaders count New Natanan among the important Vorin states and bring its religious leaders into any debate on doctrine.",
       "revealedIn": [
         {
           "all": [
@@ -34,7 +49,8 @@
             { "book": "oathbringer", "chapter": "67" }
           ]
         }
-      ]
+      ],
+      "fromCulture": "religion"
     },
     {
       "text": "Caravans run between the city and the Alethi warcamps on the Shattered Plains, so the Natan keep an ambassador in the warcamps to court the Alethi lighteyes.",
@@ -56,6 +72,103 @@
             { "book": "words-of-radiance", "chapter": "1" },
             { "book": "oathbringer", "chapter": "i-13" }
           ]
+        }
+      ]
+    }
+  ],
+  "culture": [
+    {
+      "title": [
+        {
+          "text": "People",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "54" },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "36" },
+                { "book": "oathbringer", "chapter": "67" }
+              ]
+            }
+          ]
+        }
+      ],
+      "topic": "people",
+      "items": [
+        {
+          "text": "Some Natan dye a few locks of their hair in vivid colours such as dark red.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "54" }]
+        },
+        {
+          "text": "The Natan have pale blue skin, white hair with a woolly texture, and broad noses.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "36" },
+                { "book": "oathbringer", "chapter": "67" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Faith",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "54" },
+                { "book": "oathbringer", "chapter": "67" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "36" },
+                { "book": "oathbringer", "chapter": "67" }
+              ]
+            }
+          ]
+        }
+      ],
+      "topic": "religion",
+      "items": [
+        {
+          "text": "Most Natan are Vorin, but their Vorinism has its own character: besides the Almighty and the Heralds they seem to revere the moons, Nomon above all. Some Alethi ardents think them nearly pagan and doubt their devotion away from 'proper' Vorins, yet senior church leaders count New Natanan among the important Vorin states and bring its religious leaders into any debate on doctrine.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "54" },
+                { "book": "oathbringer", "chapter": "67" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "A local myth says the Natan owe their looks to an ancient queen, Tsa, who had children with the blue moon Nomon.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "36" },
+                { "book": "oathbringer", "chapter": "67" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Language and names",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "54" }]
+        }
+      ],
+      "topic": "language",
+      "items": [
+        {
+          "text": "Natan names come in several forms, among them a common one and a high one: Au-nak, for instance, becomes Nak-ali in its high form. The New Natanan accent sounds airy, stretching out low and middle vowels.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "54" }]
         }
       ]
     }
@@ -131,6 +244,169 @@
         {
           "text": "The Natan claim the Oathgate at Stormseat as heirs of ancient Natanatan, but lack the power to enforce it.",
           "revealedIn": [{ "book": "oathbringer", "chapter": "122" }]
+        }
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "id": "old-kingdom",
+      "title": [
+        {
+          "text": "The old kingdom",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "60" }]
+        }
+      ],
+      "tone": "#8c7ae6",
+      "moments": [
+        {
+          "id": "natanatan-shrinks",
+          "kind": "realm",
+          "told": [
+            {
+              "revealedIn": [{ "book": "words-of-radiance", "chapter": "60" }],
+              "title": "What is left of Natanatan",
+              "text": "This region once belonged to the Silver Kingdom of Natanatan, ruled from Stormseat. After the disaster that made the Shattered Plains, the kingdom slowly came apart, shrinking at last to a single settlement: New Natanan.",
+              "places": ["natanatan", "stormseat", "shattered-plains"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gateway",
+      "title": [
+        {
+          "text": "Trade and travel",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "42" },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "54" },
+                { "book": "words-of-radiance", "chapter": "6" },
+                { "book": "oathbringer", "chapter": "105" }
+              ]
+            }
+          ]
+        }
+      ],
+      "tone": "#e0b25c",
+      "moments": [
+        {
+          "id": "river-search",
+          "kind": "realm",
+          "told": [
+            {
+              "revealedIn": [{ "book": "way-of-kings", "chapter": "42" }],
+              "title": "Searching for a river route",
+              "text": "Several expeditions looked for a waterway linking Alethkar with New Natanan, and one of them led Alethi explorers to the Parshendi.",
+              "places": ["alethkar"]
+            }
+          ]
+        },
+        {
+          "id": "plains-claimed",
+          "kind": "realm",
+          "told": [
+            {
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "way-of-kings", "chapter": "54" },
+                    { "book": "words-of-radiance", "chapter": "6" },
+                    { "book": "oathbringer", "chapter": "105" }
+                  ]
+                }
+              ],
+              "title": "A road to the Plains",
+              "text": "New Natanan grew into a rich trading city, the largest on the east coast. Before the War of Reckoning, Dalinar marched a small company through it to win the Shattered Plains for House Kholin; a few years on, a Natan ambassador, Au-nak, was living in the Alethi warcamps.",
+              "places": ["shattered-plains"],
+              "after": ["river-search"]
+            }
+          ]
+        },
+        {
+          "id": "ship-sunk",
+          "kind": "war",
+          "told": [
+            {
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "way-of-kings", "chapter": "54" },
+                    { "book": "words-of-radiance", "chapter": "6" },
+                    { "book": "oathbringer", "chapter": "105" }
+                  ]
+                }
+              ],
+              "title": "A ship lost at sea",
+              "text": "Since caravans to the Plains set out from New Natanan, Jasnah and Shallan sailed for the city, but their ship was sunk before it got there."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "everstorm",
+      "title": [
+        {
+          "text": "The Everstorm",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "87" },
+                { "book": "oathbringer", "chapter": "12" }
+              ]
+            },
+            { "book": "oathbringer", "chapter": "96" },
+            { "book": "oathbringer", "chapter": "122" }
+          ]
+        }
+      ],
+      "tone": "#5fb3c9",
+      "moments": [
+        {
+          "id": "everstorm",
+          "kind": "magic",
+          "told": [
+            {
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "words-of-radiance", "chapter": "87" },
+                    { "book": "oathbringer", "chapter": "12" }
+                  ]
+                }
+              ],
+              "title": "First to face the Everstorm",
+              "text": "When the Everstorm first came, it hit New Natanan before any other major city, though Dalinar and Navani had tried to warn its people. Whether or not they believed the warning, the Natan afterwards confirmed to the Thaylens that the storm was real.",
+              "places": ["thaylenah"]
+            }
+          ]
+        },
+        {
+          "id": "joins-coalition",
+          "kind": "realm",
+          "told": [
+            {
+              "revealedIn": [{ "book": "oathbringer", "chapter": "96" }],
+              "title": "Joining the coalition",
+              "text": "When Dalinar asked New Natanan to join his coalition, the Natan stalled for time. They agreed to join only once Taravangian brought Jah Keved and Kharbranth in, and their ambassador to the Alethi became the city's voice in Urithiru.",
+              "places": ["urithiru", "jah-keved", "kharbranth"]
+            }
+          ]
+        },
+        {
+          "id": "oathgate-claim",
+          "kind": "realm",
+          "told": [
+            {
+              "revealedIn": [{ "book": "oathbringer", "chapter": "122" }],
+              "title": "A claim to Stormseat",
+              "text": "As heirs of ancient Natanatan, the Natan believe the Oathgate at Stormseat, its old capital, should be theirs, but they lack the political or military strength to enforce the claim.",
+              "places": ["stormseat", "natanatan"]
+            }
+          ]
         }
       ]
     }

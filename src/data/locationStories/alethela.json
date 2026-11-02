@@ -11,20 +11,149 @@
   ],
   "description": [
     {
+      "text": "Alethela was a fiercely warlike land. It studied and preserved the arts of war so it could teach each new generation to fight whenever a Desolation came, and so most Knights Radiant made their homes there, even though their orders were based in Urithiru.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "19" }],
+      "fromCulture": "warfare"
+    },
+    {
       "text": "Alethela covered parts of today's Herdaz, Jah Keved, Alethkar and the Unclaimed Hills. Heavy highstorms meant towns were built in the lee of laits.",
       "revealedIn": [{ "book": "way-of-kings", "chapter": "33" }]
     },
     {
-      "text": "Alethelan men wore long skirts tied with wide girdles, with simple overshirts or bare chests, and short pointed beards. Buildings were brightly coloured, built of sandstone with large pillars.",
-      "revealedIn": [{ "book": "way-of-kings", "chapter": "60" }]
+      "text": "Men wore long skirts held at the waist by broad girdles, some reaching up over the stomach, with a plain overshirt or nothing at all above. Some men of high rank wore robes whose huge sleeves swallowed their hands. Beards were short and pointed, and some men braided their hair back.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "60" }],
+      "fromCulture": "dress"
     },
     {
-      "text": "Alethela was the most militaristic of the Silver Kingdoms, keeping the arts of war alive to teach them whenever a Desolation came. Many Radiants lived there, though their orders were based in Urithiru.",
-      "revealedIn": [
+      "text": "Alethelan builders favoured sandstone and great pillars, and much of what they made was richly and brightly coloured. Decoration drew heavily on the Knights Radiant and on Vorin themes.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "60" }],
+      "fromCulture": "arts"
+    },
+    {
+      "text": "The kingdom reached right across eastern Roshar. Its coasts ran from the Steamwater Ocean on the north to the Tarat Sea on the southwest, with the Ocean of Origins on its east. Natanatan lay to its south and southeast, Valhav along its west and Rishir to the northwest, with a short border with Thalath in the south. It also held a small chain of islands in the Steamwater Ocean.",
+      "revealedIn": ["way-of-kings"]
+    },
+    {
+      "text": "Many rivers ran through it, the greatest being the Windrunner, which flowed westward across the north to the Bay of Elibath in Rishir. A long, cross-shaped range, the mountains now called the Sunmaker Mountains, rose in the west, the east was hilly, and Alethela held the northern half of a great lake, the Sea of Spears.",
+      "revealedIn": [{ "all": ["way-of-kings", "oathbringer"] }]
+    }
+  ],
+  "culture": [
+    {
+      "title": [
         {
-          "all": [
+          "text": "People",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "3" },
+                { "book": "words-of-radiance", "chapter": "40" },
+                { "book": "edgedancer", "chapter": "10" },
+                { "book": "oathbringer", "chapter": "103" }
+              ]
+            }
+          ]
+        }
+      ],
+      "topic": "people",
+      "items": [
+        {
+          "text": "Alethelans looked much like the Alethi who came after them: tan-skinned and dark-haired, usually black, and very tall, often a foot taller than people farther west. Like most Rosharans they had epicanthic folds, and in the northwest their hair tended to curl. Many of them liked to haggle.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "3" },
+                { "book": "words-of-radiance", "chapter": "40" },
+                { "book": "edgedancer", "chapter": "10" },
+                { "book": "oathbringer", "chapter": "103" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Dress",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "60" },
+            { "book": "oathbringer", "chapter": "103" }
+          ]
+        }
+      ],
+      "topic": "dress",
+      "items": [
+        {
+          "text": "Men wore long skirts held at the waist by broad girdles, some reaching up over the stomach, with a plain overshirt or nothing at all above. Some men of high rank wore robes whose huge sleeves swallowed their hands. Beards were short and pointed, and some men braided their hair back.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "60" }]
+        },
+        {
+          "text": "Women of high rank wore tube-shaped gowns built from many small rings of cloth layered one over another and tasselled at the hem, which seemed to ripple as they moved, and left their shoulders bare. Clothes were bright and richly coloured, and some men wore many rings.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "103" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Language",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "104" }]
+        }
+      ],
+      "topic": "language",
+      "items": [
+        {
+          "text": "Alethelans wrote in the Dawnchant. Over time they reshaped its script to suit their own tongue, at first simply borrowing its letters to spell out their own words by sound. By the time of the Recreance their language was known as Alethelan.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "104" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Building and art",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "60" }]
+        }
+      ],
+      "topic": "arts",
+      "items": [
+        {
+          "text": "Alethelan builders favoured sandstone and great pillars, and much of what they made was richly and brightly coloured. Decoration drew heavily on the Knights Radiant and on Vorin themes.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "60" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "War and the Radiants",
+          "revealedIn": [
             { "book": "way-of-kings", "chapter": "19" },
-            { "book": "oathbringer", "chapter": "61" }
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "19" },
+                { "book": "oathbringer", "chapter": "61" }
+              ]
+            }
+          ]
+        }
+      ],
+      "topic": "warfare",
+      "items": [
+        {
+          "text": "Alethela was a fiercely warlike land. It studied and preserved the arts of war so it could teach each new generation to fight whenever a Desolation came, and so most Knights Radiant made their homes there, even though their orders were based in Urithiru.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "19" }]
+        },
+        {
+          "text": "No Silver Kingdom was more militaristic, and in at least some Desolations its people were bound to defend every other nation. Radiants, Windrunners above all, lived in its cities and crossed borders to protect others. Anyone able to fight, or wishing to learn, could go there to train, as could veterans of battles with the Ten Deaths, so that the changes those battles left in them would not destroy them.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "19" },
+                { "book": "oathbringer", "chapter": "61" }
+              ]
+            }
           ]
         }
       ]
@@ -100,6 +229,249 @@
                 { "book": "way-of-kings", "chapter": "45" },
                 { "book": "oathbringer", "chapter": "119" }
               ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "id": "long-ago",
+      "title": "Long ago",
+      "tone": "#8c7ae6",
+      "moments": [
+        {
+          "id": "singer-land",
+          "kind": "legend",
+          "told": [
+            {
+              "revealedIn": [{ "book": "oathbringer", "chapter": "113" }],
+              "title": "A land of the singers",
+              "text": "Before humans came to Roshar, the land that became Alethela belonged to the singers."
+            }
+          ]
+        },
+        {
+          "id": "human-conquest",
+          "kind": "war",
+          "told": [
+            {
+              "revealedIn": [{ "book": "oathbringer", "chapter": "113" }],
+              "title": "Humans take the land",
+              "text": "The humans who came to Roshar seized the singers' lands by force. That story was forgotten until the Eila Stele was read.",
+              "after": ["singer-land"]
+            },
+            {
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "oathbringer", "chapter": "113" },
+                    { "book": "rhythm-of-war", "chapter": "111" }
+                  ]
+                }
+              ],
+              "text": "Humans reached Roshar and were given the land that became Shinovar. They went on to invade the rest of the continent, killing the singers and driving them out, and took this land among others. The story was lost until the Eila Stele was found.",
+              "places": ["shinovar"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "warrior-kingdom",
+      "title": [
+        {
+          "text": "A warrior kingdom",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "19" },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "60" },
+                { "book": "oathbringer", "chapter": "87" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "prelude" },
+                { "book": "words-of-radiance", "chapter": "i-7" },
+                { "book": "rhythm-of-war", "chapter": "1" }
+              ]
+            }
+          ]
+        }
+      ],
+      "tone": "#e0b25c",
+      "moments": [
+        {
+          "id": "founded",
+          "kind": "realm",
+          "told": [
+            {
+              "revealedIn": [{ "book": "way-of-kings", "chapter": "19" }],
+              "title": "A kingdom that remembered war",
+              "text": "Alethela was a fiercely warlike nation that kept the arts of war alive so it could teach them anew whenever a Desolation came."
+            }
+          ]
+        },
+        {
+          "id": "kholinar-capital",
+          "kind": "realm",
+          "told": [
+            {
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "way-of-kings", "chapter": "60" },
+                    { "book": "oathbringer", "chapter": "87" }
+                  ]
+                }
+              ],
+              "title": "Kholinar, the capital",
+              "text": "Very early on, the Dawncity of Kholinar was built and made the capital, and in time it received Alethela's Oathgate. Many wanted Urithiru raised there too, but it was built in the mountains near Makabakam instead.",
+              "places": ["kholinar", "urithiru", "makabakam"],
+              "art": "place:kholinar"
+            }
+          ]
+        },
+        {
+          "id": "desolation-cycle",
+          "kind": "legend",
+          "told": [
+            {
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "way-of-kings", "chapter": "prelude" },
+                    { "book": "words-of-radiance", "chapter": "i-7" },
+                    { "book": "rhythm-of-war", "chapter": "1" }
+                  ]
+                }
+              ],
+              "title": "Knocked back by the Desolations",
+              "text": "Each Desolation threw Alethela back to primitive ways, at times as far as stone tools. Each time the returning Heralds, often Kalak, helped it rise again. Old writings from those days also tell of swift plagues that killed tens of thousands.",
+              "art": "character:kalak"
+            },
+            {
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "way-of-kings", "chapter": "prelude" },
+                    { "book": "words-of-radiance", "chapter": "i-7" },
+                    { "book": "rhythm-of-war", "chapter": "65" }
+                  ]
+                }
+              ],
+              "text": "Each Desolation threw Alethela back to primitive ways, at times as far as stone tools, and in some of them the Fused even took its capital before being driven out. Each time the returning Heralds, often Kalak, helped it rise again."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nohadon",
+      "title": [
+        {
+          "text": "Nohadon's reign",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "60" },
+            { "book": "oathbringer", "chapter": "103" }
+          ]
+        }
+      ],
+      "tone": "#5fb3c9",
+      "moments": [
+        {
+          "id": "nohadon-desolation",
+          "kind": "war",
+          "told": [
+            {
+              "revealedIn": [{ "book": "way-of-kings", "chapter": "60" }],
+              "title": "Nohadon and a terrible Desolation",
+              "text": "King Nohadon once ruled Alethela. A Desolation in his lifetime brought more than eleven years of fighting, and nine in ten of his people died.",
+              "art": "character:nohadon"
+            }
+          ]
+        },
+        {
+          "id": "nohadon-rebuilds",
+          "kind": "realm",
+          "told": [
+            {
+              "revealedIn": [{ "book": "oathbringer", "chapter": "103" }],
+              "title": "Nohadon rebuilds",
+              "text": "Grieving, Nohadon wanted to give up his throne, but he kept it and spent decades making Alethela a busy, colourful land again. He also fought Makabakam over trade routes; how that war changed either kingdom is unknown.",
+              "places": ["makabakam"],
+              "after": ["nohadon-desolation"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "later-desolations",
+      "title": [
+        {
+          "text": "More Desolations",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "38" },
+            { "book": "way-of-kings", "chapter": "prologue" },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "45" },
+                { "book": "oathbringer", "chapter": "119" }
+              ]
+            }
+          ]
+        }
+      ],
+      "tone": "#d9645a",
+      "moments": [
+        {
+          "id": "weakened",
+          "kind": "legend",
+          "told": [
+            {
+              "revealedIn": [{ "book": "oathbringer", "chapter": "38" }],
+              "title": "A wounded society",
+              "text": "Toward the end the Desolations came ever closer together, and the one before the Last left society hurt and weak, still recovering."
+            }
+          ]
+        },
+        {
+          "id": "heralds-depart",
+          "kind": "legend",
+          "told": [
+            {
+              "revealedIn": [{ "book": "way-of-kings", "chapter": "prologue" }],
+              "title": "The Heralds walk away",
+              "text": "About 4,500 years before Gavilar's death, a Desolation ended. Weary of the torment they suffered between Desolations, nine of the Heralds refused to go back to it, leaving Taln, the one who had not returned, to bear it alone.",
+              "art": "character:jezrien"
+            },
+            {
+              "revealedIn": [{ "book": "oathbringer", "chapter": "38" }],
+              "title": "The Heralds walk away",
+              "text": "About 4,500 years before Gavilar's death, with the Desolations coming ever closer together, another struck while society was still weak. Weary of the torment they suffered between Desolations, nine of the Heralds refused to go back to it, leaving Taln, the one who had not returned, to bear it alone.",
+              "after": ["weakened"]
+            }
+          ]
+        },
+        {
+          "id": "desolations-cease",
+          "kind": "legend",
+          "told": [
+            {
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "way-of-kings", "chapter": "45" },
+                    { "book": "oathbringer", "chapter": "119" }
+                  ]
+                }
+              ],
+              "title": "No more Desolations",
+              "text": "After the Last Desolation no more Desolations came. Spared them, society advanced further than ever before, perhaps strong enough to face a new one without collapse. The age that followed became known as the Era of Solitude.",
+              "after": ["heralds-depart"]
             }
           ]
         }

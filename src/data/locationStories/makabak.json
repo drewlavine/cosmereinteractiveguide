@@ -9,6 +9,97 @@
     {
       "text": "Mountains enclose much of the region, while its southern edge meets the Southern Depths. Its only Oathgate is in Azimir.",
       "revealedIn": [{ "book": "oathbringer", "chapter": "65" }]
+    },
+    {
+      "text": "Azir is the largest nation here, and its Prime Aqasix by tradition claims to be emperor of all Makabak, though in practice he rules only Azir. The empire's other member states honour him through certain customs but largely govern themselves, and Azir's influence stays strong. Feuds between the nations are thought common, and Emul and Tukar are at war. Rulers are sometimes called by their country's name instead of their own.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "54" },
+            { "book": "oathbringer", "chapter": "96" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Outsiders tend to think the region of little political weight, its many heads of state slow to make up their minds. To the big Vorin powers the Makabaki are pagans, their people sometimes dismissed as ‘barbarians’ and their countries as mere ‘tribes’.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "55" },
+            { "book": "oathbringer", "chapter": "106" }
+          ]
+        }
+      ]
+    }
+  ],
+  "culture": [
+    {
+      "title": [
+        {
+          "text": "People",
+          "revealedIn": [
+            { "book": "edgedancer", "chapter": "2" },
+            { "book": "way-of-kings", "chapter": "55" }
+          ]
+        }
+      ],
+      "topic": "people",
+      "items": [
+        {
+          "text": "Most Makabaki are dark brown of skin, with black hair and dark eyes. Though the region borders Shinovar, they mostly have epicanthic folds, which the Shin do not.",
+          "revealedIn": [{ "book": "edgedancer", "chapter": "2" }]
+        },
+        {
+          "text": "The Makabaki are split into several peoples, the Askarki among them, and some of these are divided again into tribes.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "55" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Manners",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "96" }]
+        }
+      ],
+      "topic": "customs",
+      "items": [
+        {
+          "text": "People in several Makabaki nations go out of their way not to give offence, and would sooner sidestep a request, a foreigner's above all, than turn it down. The Azish are thought wordy and at times deliberately vague, and their empire is known for its many able clerks and scribes and for being lawful, bureaucratic and orderly.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "96" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Dress of home",
+          "revealedIn": [{ "book": "edgedancer", "chapter": "4" }]
+        }
+      ],
+      "topic": "dress",
+      "items": [
+        {
+          "text": "For all they share, the Makabaki nations differ in culture, in social order and in government. Within the Azish Empire, people travelling abroad can often be picked out by the clothes of their homeland.",
+          "revealedIn": [{ "book": "edgedancer", "chapter": "4" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Writing",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "i-2" }]
+        }
+      ],
+      "topic": "language",
+      "items": [
+        {
+          "text": "Writings that survive from Makabakam show that its people, like everyone else on Roshar in those days, wrote in the Dawnchant.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "i-2" }]
+        }
+      ]
     }
   ],
   "history": [
@@ -23,6 +114,155 @@
         {
           "text": "Makabak inherited its name from Makabakam, whose name came from Makibak, a leader of early humanity on Roshar.",
           "revealedIn": [{ "book": "wind-and-truth", "chapter": "58" }]
+        }
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "id": "long-ago",
+      "title": "Long ago",
+      "tone": "#8c7ae6",
+      "moments": [
+        {
+          "id": "singer-land",
+          "kind": "legend",
+          "told": [
+            {
+              "revealedIn": [{ "book": "oathbringer", "chapter": "113" }],
+              "title": "A land of singers",
+              "text": "Before humans came to Roshar, singers lived in these lands. In time the newcomers drove them out and claimed the land for themselves, a history forgotten until the Eila Stele was read."
+            }
+          ]
+        },
+        {
+          "id": "makibak",
+          "kind": "legend",
+          "told": [
+            {
+              "revealedIn": [{ "book": "wind-and-truth", "chapter": "58" }],
+              "title": "Named for Makibak",
+              "text": "The region takes its name from the Silver Kingdom of Makabakam, which was itself named after Makibak, one of the great leaders of humankind in its first days on Roshar.",
+              "places": ["makabakam"],
+              "after": ["singer-land"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "silver-kingdom",
+      "title": "The Silver Kingdom",
+      "tone": "#e0b25c",
+      "moments": [
+        {
+          "id": "founding",
+          "kind": "realm",
+          "told": [
+            {
+              "revealedIn": [{ "book": "rhythm-of-war", "chapter": "1" }],
+              "title": "Founding Makabakam",
+              "text": "Makabakam was founded in the age of the Silver Kingdoms. Again and again the Desolations threw its people back to stone tools, and each time the returning Heralds helped them rise again.",
+              "places": ["makabakam"]
+            }
+          ]
+        },
+        {
+          "id": "azimir",
+          "kind": "realm",
+          "told": [
+            {
+              "revealedIn": [{ "book": "oathbringer", "chapter": "87" }],
+              "title": "Azimir and Urithiru",
+              "text": "Very early on, Azimir was built and made Makabakam's capital, and in time the kingdom's Oathgate stood there. Many wished Urithiru to be raised in Alethela, but it could not be, and the tower rose instead among the mountains of Ur, on Makabakam's own soil.",
+              "places": ["azimir", "urithiru", "alethela"],
+              "art": "place:makabakam"
+            }
+          ]
+        },
+        {
+          "id": "alethela-war",
+          "kind": "war",
+          "told": [
+            {
+              "revealedIn": [{ "book": "oathbringer", "chapter": "103" }],
+              "title": "War with Alethela",
+              "text": "A quarrel over trade routes led Makabakam into war with Alethela.",
+              "places": ["alethela"]
+            }
+          ]
+        },
+        {
+          "id": "desolations",
+          "kind": "legend",
+          "told": [
+            {
+              "revealedIn": ["way-of-kings"],
+              "title": "Wounded by Desolations",
+              "text": "Desolation after Desolation struck Makabakam along with the rest of Roshar, and one of them left its society weak and wounded, in need of a long recovery."
+            }
+          ]
+        },
+        {
+          "id": "solitude",
+          "kind": "legend",
+          "told": [
+            {
+              "revealedIn": [{ "book": "oathbringer", "chapter": "119" }],
+              "title": "The Desolations end",
+              "text": "After the Last Desolation, no more Desolations came. Free of them, society here could grow further than ever before, and the Era of Solitude began.",
+              "after": ["desolations"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "after-makabakam",
+      "title": "After Makabakam",
+      "tone": "#5fb3c9",
+      "moments": [
+        {
+          "id": "heirs",
+          "kind": "realm",
+          "told": [
+            {
+              "revealedIn": ["oathbringer"],
+              "title": "A dozen kingdoms",
+              "text": "After Aharietiam, the lands of Makabakam came to be divided among about a dozen kingdoms.",
+              "places": ["makabakam"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "true-desolation",
+      "title": [
+        {
+          "text": "The True Desolation",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "65" }]
+        }
+      ],
+      "tone": "#e3c35a",
+      "moments": [
+        {
+          "id": "coalition",
+          "kind": "realm",
+          "told": [
+            {
+              "revealedIn": [{ "book": "oathbringer", "chapter": "65" }],
+              "title": "A meeting in Urithiru",
+              "text": "Noura surprised Dalinar Kholin with news: Azir and a number of other Makabaki nations would meet him in Urithiru.",
+              "places": ["azir", "urithiru"]
+            },
+            {
+              "revealedIn": [{ "book": "oathbringer", "chapter": "111" }],
+              "title": "Planning war together",
+              "text": "Azir and several other Makabaki nations agreed to meet Dalinar Kholin in Urithiru, while the Voidbringers seized parts of Emul and Marat on their way to Thaylen City. Soon Makabaki leaders were planning war beside Alethi ones, though the two regions had made no formal alliance in centuries, and Dalinar found that the Azish generals he had taken for scribes knew strategy well.",
+              "places": ["azir", "urithiru", "emul", "marat"]
+            }
+          ]
         }
       ]
     }

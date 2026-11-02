@@ -11,32 +11,156 @@
   ],
   "description": [
     {
-      "text": "Rira lies in northwest Roshar, bordering Babatharnam to the south, with a large lake between it and Iri to the west. Its northeast is mountainous and surrounded by the Reshi Sea.",
+      "text": "Rira lies in Roshar's warm northwest.",
       "revealedIn": [{ "book": "way-of-kings", "chapter": "i-5" }]
     },
     {
-      "text": "Rira has its own language, related to Iriali and Reshi. The \"Re\" in Renarin's name comes from it.",
-      "revealedIn": [{ "book": "oathbringer", "chapter": "52" }]
+      "text": "With no Soulcasters or Shards between them, neither Rira nor Iri is seen as a threat by the eastern nations. Iri's claim to rule Rira is disputed, but it is thought to hold real diplomatic sway there.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "19" }]
     },
     {
-      "text": "Rira includes the \"sunken forests\" and controls the island of the city of Kurth.",
-      "revealedIn": [
-        {
-          "all": [
-            { "book": "way-of-kings", "chapter": "49" },
-            { "book": "oathbringer", "chapter": "66" }
-          ]
-        }
-      ]
+      "text": "The \"Re\" at the start of Renarin's name comes from the Riran tongue, though by itself it means nothing.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "52" }],
+      "fromCulture": "language"
     },
     {
-      "text": "Rirans are tall with light skin and blond hair, like the Iriali but without their metallic tinge. They are freer about affection than the Vorin nations, and some blend Iriali belief in the One with worship of the Heralds.",
+      "text": "Rirans differ in faith: some mix pieces of Iriali and Vorin belief, while others feel neither speaks for their people.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "66" }],
+      "fromCulture": "religion"
+    },
+    {
+      "text": "Rirans are tall, with light skin and blond hair, and their culture draws on both Iriali and Vorin ways.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "75" }],
+      "fromCulture": "people"
+    },
+    {
+      "text": "Rira includes the \"sunken forests\" and holds the city of Kurth, on an island off its coast.",
+      "revealedIn": [{ "all": ["way-of-kings", "oathbringer"] }]
+    },
+    {
+      "text": "Rirans look a little like the Iriali, but their skin and hair lack the Iriali metallic sheen.",
       "revealedIn": [
         {
           "all": [
             { "book": "oathbringer", "chapter": "75" },
             { "book": "rhythm-of-war", "chapter": "22" }
           ]
+        }
+      ],
+      "fromCulture": "people"
+    }
+  ],
+  "culture": [
+    {
+      "title": [
+        {
+          "text": "People",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "75" },
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "75" },
+                { "book": "rhythm-of-war", "chapter": "22" }
+              ]
+            },
+            { "book": "oathbringer", "chapter": "122" }
+          ]
+        }
+      ],
+      "topic": "people",
+      "items": [
+        {
+          "text": "Rirans are tall, with light skin and blond hair, and their culture draws on both Iriali and Vorin ways.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "75" }]
+        },
+        {
+          "text": "Rirans look a little like the Iriali, but their skin and hair lack the Iriali metallic sheen.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "75" },
+                { "book": "rhythm-of-war", "chapter": "22" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Rirans are less guarded about sex and affection than the eastern Vorin nations, and some Alethi blame Adolin's flirting on his Riran blood.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "122" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Faith",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "66" },
+            { "book": "oathbringer", "chapter": "71" }
+          ]
+        }
+      ],
+      "topic": "religion",
+      "items": [
+        {
+          "text": "Rirans differ in faith: some mix pieces of Iriali and Vorin belief, while others feel neither speaks for their people.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "66" }]
+        },
+        {
+          "text": "Evi held to the Iriali idea of the One, yet her Riran faith also has its own names for the Heralds: Jezrien is Yaysi and Kalak is Kellai. She did not pray to the Almighty, burned her glyphwards on scented paper so they served as incense too, and spoke of someone called Shishi.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "71" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Dress",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "122" }]
+        }
+      ],
+      "topic": "dress",
+      "items": [
+        {
+          "text": "Ialai Sadeas claimed that Rirans, like the Iriali and the Reshi, wear hardly any clothes, though she may have been exaggerating to tempt Dalinar. Evi had on a filmy dress the first time she met the Alethi, and was not used to covering her safehand.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "122" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Language",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "36" },
+            { "book": "oathbringer", "chapter": "52" }
+          ]
+        }
+      ],
+      "topic": "language",
+      "items": [
+        {
+          "text": "Toh and Evi spoke Alethi with a thick accent, drawing out their \"oh\" and \"ah\" sounds, and Riran sayings seldom survive being put into Alethi.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "36" }]
+        },
+        {
+          "text": "The \"Re\" at the start of Renarin's name comes from the Riran tongue, though by itself it means nothing.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "52" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Customs",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "71" }]
+        }
+      ],
+      "topic": "customs",
+      "items": [
+        {
+          "text": "Rirans believe bad memories gather in the skin, so once a month they scrub them away with a stone.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "71" }]
         }
       ]
     }
@@ -75,6 +199,114 @@
         {
           "text": "As the war went on, the Iriali invaded Rira and took it back, and it became part of Odium's stronghold in the northwest. Kurth's Oathgate made it strategically important, but it lay too deep in enemy land for the coalition to try for it.",
           "revealedIn": [{ "book": "oathbringer", "chapter": "107" }]
+        }
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "id": "long-ago",
+      "title": "Long ago",
+      "tone": "#8c7ae6",
+      "moments": [
+        {
+          "id": "own-kingdom",
+          "kind": "realm",
+          "told": [
+            {
+              "revealedIn": [{ "book": "oathbringer", "chapter": "16" }],
+              "title": "A disputed vassal",
+              "text": "Iri held that Rira was its vassal, but the claim was contested, and other nations treated Rira as a sovereign kingdom.",
+              "places": ["iri"]
+            },
+            {
+              "revealedIn": [{ "all": ["way-of-kings", "oathbringer"] }],
+              "title": "Breaking from Iri",
+              "text": "Rira's heartland once lay within the Silver Kingdom of Iri, but Rira now stands as a kingdom of its own. Iri still calls it a vassal, though the claim is contested and other nations treat Rira as sovereign."
+            }
+          ]
+        },
+        {
+          "id": "new-lands",
+          "kind": "realm",
+          "told": [
+            {
+              "revealedIn": [{ "all": ["way-of-kings", "oathbringer"] }],
+              "title": "Kurth and the south",
+              "text": "Old maps show the island city of Kurth under the Silver Kingdom of Rishir, and part of Rira's south belonging to Sela Tales. Rira has since taken both.",
+              "places": ["sela-tales"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "before",
+      "title": [
+        {
+          "text": "Before the True Desolation",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "19" }]
+        }
+      ],
+      "tone": "#e0b25c",
+      "moments": [
+        {
+          "id": "evi-plate",
+          "kind": "realm",
+          "told": [
+            {
+              "revealedIn": [{ "book": "oathbringer", "chapter": "19" }],
+              "title": "Evi's Shardplate",
+              "text": "Toh took a set of Shardplate out of his homeland, Rira, and brought it to the Alethi to bargain with, raising the idea that Dalinar Kholin might marry his sister Evi and gain the Plate.",
+              "places": ["alethkar"],
+              "art": "character:evi-kholin"
+            },
+            {
+              "revealedIn": [{ "book": "oathbringer", "chapter": "66" }],
+              "text": "Rira was no military power and had no Soulcasters, but it did own Shardplate. Evi and her brother Toh carried a set out of the country and used it to buy shelter in Alethkar and Evi's marriage to Dalinar Kholin. Furious at the loss, the other Rirans exiled them both."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "desolation",
+      "title": [
+        {
+          "text": "The True Desolation",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "24" },
+            { "book": "oathbringer", "chapter": "107" }
+          ]
+        }
+      ],
+      "tone": "#d9645a",
+      "moments": [
+        {
+          "id": "silence",
+          "kind": "realm",
+          "told": [
+            {
+              "revealedIn": [{ "book": "oathbringer", "chapter": "24" }],
+              "title": "No answer for Dalinar",
+              "text": "Rira's government never replied to Dalinar's call for an alliance against the Voidbringers, and Iri claimed to speak for it, calling Dalinar a thief over Evi's Plate. Dalinar thought about giving Iri the Plate, now worn by Adolin, to win it over, but the talks soon collapsed.",
+              "places": ["iri"],
+              "after": ["evi-plate"]
+            }
+          ]
+        },
+        {
+          "id": "invaded",
+          "kind": "war",
+          "told": [
+            {
+              "revealedIn": [{ "book": "oathbringer", "chapter": "107" }],
+              "title": "Taken by Iri",
+              "text": "As the war went on, the Iriali invaded and occupied Rira, which became part of Odium's stronghold in the northwest, its armies fighting the coalition. The Oathgate at Kurth made it valuable, but it lay too deep in enemy country for the coalition to try for it.",
+              "places": ["iri"],
+              "after": ["own-kingdom"]
+            }
+          ]
         }
       ]
     }

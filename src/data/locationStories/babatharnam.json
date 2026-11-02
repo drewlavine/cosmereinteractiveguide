@@ -15,21 +15,61 @@
       "revealedIn": [{ "book": "way-of-kings", "chapter": "46" }]
     },
     {
-      "text": "It is a gerontocracy: the older someone is, the more authority they have, and the oldest man rules as the Most Ancient. In practice, the Monavakah dynasty executes or exiles anyone old enough to challenge it, and has kept power for fifty years.",
+      "text": "It is a gerontocracy: the older someone is, the more authority they have. In practice, the Monavakah dynasty executes or exiles anyone old enough to challenge it, and has kept power for fifty years.",
       "revealedIn": [{ "book": "way-of-kings", "chapter": "46" }]
     },
     {
-      "text": "The Babath value thoughtful, precise speech, which leads careless outsiders into offence. Sigzil was imprisoned there three times. They are known to eat snails.",
-      "revealedIn": [{ "book": "way-of-kings", "chapter": "46" }]
+      "text": "Sigzil was jailed in Babatharnam three times, though he suspected its people would lock up any foreigner on the thinnest excuse, since his master had plenty of money.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "46" }],
+      "fromCulture": "people"
     },
     {
-      "text": "The Babath have bronze skin and dark hair and speak a mix of Selay and local tribal languages. Their women have a complex pattern of veins just under the skin that many foreigners find unnerving.",
-      "revealedIn": [
+      "text": "Snails are part of the diet in Babatharnam.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "46" }],
+      "fromCulture": "food"
+    },
+    {
+      "text": "The women of Babatharnam have an intricate web of veins lying just beneath the skin, which many foreigners find unsettling.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "46" }],
+      "fromCulture": "people"
+    },
+    {
+      "text": "Babatharnam touches the Purelake, Yulay, Marabethia and Rira. Besides its capital, Panatham, its towns include Sween; two rivers cross the country, and a third marks the border with Yulay.",
+      "revealedIn": [{ "all": ["oathbringer", "rhythm-of-war"] }]
+    }
+  ],
+  "culture": [
+    {
+      "title": [
         {
-          "all": [
-            { "book": "way-of-kings", "chapter": "52" },
-            { "book": "oathbringer", "chapter": "i-1" }
-          ]
+          "text": "People",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "46" }]
+        }
+      ],
+      "topic": "people",
+      "items": [
+        {
+          "text": "The women of Babatharnam have an intricate web of veins lying just beneath the skin, which many foreigners find unsettling.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "46" }]
+        },
+        {
+          "text": "Sigzil was jailed in Babatharnam three times, though he suspected its people would lock up any foreigner on the thinnest excuse, since his master had plenty of money.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "46" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Food",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "46" }]
+        }
+      ],
+      "topic": "food",
+      "items": [
+        {
+          "text": "Snails are part of the diet in Babatharnam.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "46" }]
         }
       ]
     }
@@ -53,6 +93,64 @@
         {
           "text": "In the first months of the True Desolation, the Most Ancient of Babatharnam refused to cooperate with Dalinar Kholin.",
           "revealedIn": [{ "book": "oathbringer", "chapter": "24" }]
+        }
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "id": "long-ago",
+      "title": "Long ago",
+      "tone": "#8c7ae6",
+      "moments": [
+        {
+          "id": "sela-tales",
+          "kind": "realm",
+          "told": [
+            {
+              "revealedIn": ["oathbringer"],
+              "title": "Out of Sela Tales",
+              "text": "In the Heraldic Epochs, Babatharnam's lands belonged to the Silver Kingdom of Sela Tales. Some time after Aharietiam, Sela Tales splintered into many small states, and Babatharnam grew out of them.",
+              "places": ["sela-tales"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "monavakah",
+      "title": [
+        {
+          "text": "Under the Monavakahs",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "46" },
+            { "book": "oathbringer", "chapter": "24" }
+          ]
+        }
+      ],
+      "tone": "#e0b25c",
+      "moments": [
+        {
+          "id": "dynasty",
+          "kind": "realm",
+          "told": [
+            {
+              "revealedIn": [{ "book": "way-of-kings", "chapter": "46" }],
+              "title": "The Monavakah dynasty",
+              "text": "Around 1120 the Monavakah dynasty came to power, though custom there gives the most authority to the oldest. It held on by killing or exiling anyone old enough to challenge it, and its assassinations left the country deeply unsettled."
+            }
+          ]
+        },
+        {
+          "id": "refuses",
+          "kind": "realm",
+          "told": [
+            {
+              "revealedIn": [{ "book": "oathbringer", "chapter": "24" }],
+              "title": "No help for Dalinar",
+              "text": "Early in the True Desolation, Babatharnam's Most Ancient refused to work with Dalinar Kholin."
+            }
+          ]
         }
       ]
     }

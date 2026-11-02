@@ -15,24 +15,838 @@
   ],
   "description": [
     {
+      "text": "As in all Vorin lands, reading and writing are for women and ardents, not for men of any class.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "8" }],
+      "fromCulture": "language"
+    },
+    {
+      "text": "Each of the ten princedoms is named for its ruling house and keeps an army of its own, a leftover from before the reunification. The king holds them together less by custom than by force of arms and by Soulcasters, which he taxes heavily.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "15" }]
+    },
+    {
       "text": "Alethkar is a feudal kingdom: the king is served by ten highprinces, each with lighteyed subjects down to the citylords of single towns. Shardbearers stand slightly apart from this order.",
       "revealedIn": [{ "book": "way-of-kings", "chapter": "16" }]
     },
     {
-      "text": "Alethi life is split into masculine and feminine roles, from art to food. Reading and writing belong to women and ardents, so most men cannot read.",
-      "revealedIn": [{ "book": "way-of-kings", "chapter": "33" }]
+      "text": "Almost every part of Alethi life, from art and work to what people eat, is marked as either masculine or feminine. Ardents count as neither and may do both.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "33" }],
+      "fromCulture": "society"
     },
     {
       "text": "Far in the east, Alethkar is battered by heavy highstorms, so towns are built in the lee of laits, where plants also grow thickest.",
       "revealedIn": [{ "book": "way-of-kings", "chapter": "69" }]
     },
     {
-      "text": "Most Alethi worship the Almighty through the ardents, who are owned by lighteyes. Ardents are open to anyone, regarded as genderless, and alone may use Soulcasters.",
+      "text": "As one of the Vorin kingdoms, Alethkar mostly worships the Almighty, largely through its priests, the ardents. Ardents are not free but belong to lighteyed masters. Any man or woman of any caste may become one; they count as genderless and are the only people allowed to use Soulcasters.",
       "revealedIn": [
         {
           "all": [
             { "book": "way-of-kings", "chapter": "3" },
             { "book": "words-of-radiance", "chapter": "44" }
+          ]
+        }
+      ],
+      "fromCulture": "religion"
+    },
+    {
+      "text": "Alethkar spans the east of Roshar, reaching north to the Steamwater Ocean and southwest to the Tarat Sea. To the east lie the Unclaimed Hills, to the south the Frostlands and the Shattered Plains, which Alethkar has lately claimed, and to the northwest Herdaz. The long-disputed border with Jah Keved in the west follows two rivers and a bend of the Sunmaker Mountains.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "52" }]
+    }
+  ],
+  "culture": [
+    {
+      "title": [
+        {
+          "text": "People",
+          "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "87" },
+            { "book": "oathbringer", "chapter": "50" },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "3" },
+                { "book": "words-of-radiance", "chapter": "38" },
+                { "book": "edgedancer", "chapter": "10" },
+                { "book": "oathbringer", "chapter": "122" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "54" },
+                { "book": "words-of-radiance", "chapter": "40" },
+                { "book": "oathbringer", "chapter": "122" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "22" },
+                { "book": "oathbringer", "chapter": "122" },
+                { "book": "rhythm-of-war", "chapter": "50" }
+              ]
+            }
+          ]
+        }
+      ],
+      "topic": "people",
+      "items": [
+        {
+          "text": "Many Herdazians have moved to Alethkar. They keep their own ways and gather in communities such as Little Herdaz.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "87" }]
+        },
+        {
+          "text": "Alethkar also has a sizable number of immigrants from the Makabaki lands.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "50" }]
+        },
+        {
+          "text": "The Alethi are tan, darker than Veden or Shin folk but lighter than the Makabaki, with dark hair, usually black. Most are very tall, often a foot taller than people farther west. Their long history of conquest has left them a mixed people.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "3" },
+                { "book": "words-of-radiance", "chapter": "38" },
+                { "book": "edgedancer", "chapter": "10" },
+                { "book": "oathbringer", "chapter": "122" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Tan skin and black hair are the Alethi ideal of beauty. Hair of several colours, or violet eyes, betrays foreign ancestors: some call that impure, others proof of what conquest has won. Lighteyes marry foreigners more often, so darkeyes tend to have the 'purer' hair.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "54" },
+                { "book": "words-of-radiance", "chapter": "40" },
+                { "book": "oathbringer", "chapter": "122" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "The Alethi hide their feelings and anything that might look weak; even engaged couples are expected to keep their distance in public. Men are expected to be forceful, women sharp-tongued, and many Alethi see life itself as a contest that some win and others lose.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "22" },
+                { "book": "oathbringer", "chapter": "122" },
+                { "book": "rhythm-of-war", "chapter": "50" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Society",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "33" },
+            { "book": "words-of-radiance", "chapter": "15" },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "69" },
+                { "book": "words-of-radiance", "chapter": "2" }
+              ]
+            },
+            { "book": "words-of-radiance", "chapter": "25" },
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "79" },
+                { "book": "oathbringer", "chapter": "14" },
+                { "book": "rhythm-of-war", "chapter": "11" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "26" },
+                { "book": "words-of-radiance", "chapter": "12" },
+                { "book": "wind-and-truth", "chapter": "107" }
+              ]
+            }
+          ]
+        }
+      ],
+      "topic": "society",
+      "items": [
+        {
+          "text": "Almost every part of Alethi life, from art and work to what people eat, is marked as either masculine or feminine. Ardents count as neither and may do both.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "33" }]
+        },
+        {
+          "text": "Rank decides each citizen's rights. Most Alethi, from the sixth nahn up, hold the right of travel and may move about freely, but soldiers give it up while they serve.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "15" }]
+        },
+        {
+          "text": "Alethi slaves have a brand burned into the forehead, a pair of glyphs naming where they were branded; dangerous slaves may get a shash brand too. A freed slave gets a writ of freedom and may tattoo over the brand.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "69" },
+                { "book": "words-of-radiance", "chapter": "2" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "The Alethi idea of what is masculine and what is feminine goes back to Arts and Majesty, an ancient book that sorts pursuits into the two.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "25" }]
+        },
+        {
+          "text": "Parshmen, enslaved singers, had hardly any rights and were bought and sold by wealthy lighteyes. Freed in the True Desolation, they took up parts of Alethi culture and blended them with their own.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "79" },
+                { "book": "oathbringer", "chapter": "14" },
+                { "book": "rhythm-of-war", "chapter": "11" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Stepping outside one's gender role is often called unnatural or even blasphemous, yet women's roles had loosened a little by the time Gavilar united the country, and loosened further once Jasnah took the throne.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "26" },
+                { "book": "words-of-radiance", "chapter": "12" },
+                { "book": "wind-and-truth", "chapter": "107" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Faith",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "3" },
+            { "book": "way-of-kings", "chapter": "59" },
+            { "book": "words-of-radiance", "chapter": "12" },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "3" },
+                { "book": "words-of-radiance", "chapter": "44" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "18" },
+                { "book": "oathbringer", "chapter": "89" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "100" },
+                { "book": "rhythm-of-war", "chapter": "22" }
+              ]
+            }
+          ]
+        }
+      ],
+      "topic": "religion",
+      "items": [
+        {
+          "text": "A few Alethi turn away from religion altogether. They are uncommon, and most of society brands them heretics.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "3" }]
+        },
+        {
+          "text": "When they die, the Alethi believe, people go to help the Heralds as their Calling suits them, and warriors join the fight to win back the Tranquiline Halls from the Voidbringers. Those who fail their Calling sleep without dreams until the Halls are retaken; the wicked fall into Damnation.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "59" }]
+        },
+        {
+          "text": "Most Alethi follow an orthodox Vorinism, the same strain as in Jah Keved. A large minority, mostly Herdazians, keep less orthodox forms such as Herdazian Vorinism.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "12" }]
+        },
+        {
+          "text": "As one of the Vorin kingdoms, Alethkar mostly worships the Almighty, largely through its priests, the ardents. Ardents are not free but belong to lighteyed masters. Any man or woman of any caste may become one; they count as genderless and are the only people allowed to use Soulcasters.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "3" },
+                { "book": "words-of-radiance", "chapter": "44" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Alethi need not be personally devout. Each picks a Calling and a Glory, a life's goal and an aspect of the Almighty to emulate, but ardents do the rituals and prayers for their masters; most people touch the faith only through a glyphward or prayer now and then.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "18" },
+                { "book": "oathbringer", "chapter": "89" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Once the True Desolation began, many Alethi stopped worshipping the Almighty. Others stayed Vorin but changed their view: Honor, who had died, was only one aspect of the Almighty, charged with guarding mankind, and the Heralds, however glorious, were just people.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "100" },
+                { "book": "rhythm-of-war", "chapter": "22" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Dress",
+          "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "49" },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "58" },
+                { "book": "oathbringer", "chapter": "62" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "46" },
+                { "book": "words-of-radiance", "chapter": "45" },
+                { "book": "oathbringer", "chapter": "110" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "48" },
+                { "book": "oathbringer", "chapter": "122" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "58" },
+                { "book": "oathbringer", "chapter": "65" },
+                { "book": "rhythm-of-war", "chapter": "20" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "48" },
+                { "book": "words-of-radiance", "chapter": "prologue" },
+                { "book": "oathbringer", "chapter": "63" },
+                { "book": "rhythm-of-war", "chapter": "69" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "25" },
+                { "book": "words-of-radiance", "chapter": "38" },
+                { "book": "oathbringer", "chapter": "103" },
+                { "book": "rhythm-of-war", "chapter": "22" },
+                { "book": "wind-and-truth", "chapter": "30" }
+              ]
+            }
+          ]
+        }
+      ],
+      "topic": "dress",
+      "items": [
+        {
+          "text": "Much lighteyed Alethi clothing is designed in Liafor and Yezier, which add their own flair to Alethi trends, and Azish fashion has some pull too.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "49" }]
+        },
+        {
+          "text": "Lighteyed men wear shirts with open or buttoned jackets and coats, long or short, over stiff belted trousers, lately looser with wide cuffs. Scarves are common, silk and lace are usual, and high nobles have silver or gold embroidery. A sidesword is often worn just for show.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "58" },
+                { "book": "oathbringer", "chapter": "62" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Darkeyed women dress simply, in blouses with skirts or trousers, and cover the safehand with a glove rather than a long sleeve, which makes housework easier. Lighteyes think a gloved safehand immodest and a mark of low class.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "46" },
+                { "book": "words-of-radiance", "chapter": "45" },
+                { "book": "oathbringer", "chapter": "110" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Lighteyed women braid their hair in elaborate patterns or loose piles pinned on top of the head with spikes, as tradition calls for; some use gold spikes, more of them, or spikes shaped like Shardblades, and add ribbons or headdresses.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "48" },
+                { "book": "oathbringer", "chapter": "122" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Alethi fashion favours solid colours; in 1173 bright colours and ornate frills were in vogue.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "58" },
+                { "book": "oathbringer", "chapter": "65" },
+                { "book": "rhythm-of-war", "chapter": "20" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Lighteyed women most often wear the Vorin havah, fitted at the bust, shoulders and waist with a flowing skirt. Its long left sleeve hides the safehand and often holds a safepouch, and its thin, bright silk still lets that hand grip things.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "48" },
+                { "book": "words-of-radiance", "chapter": "prologue" },
+                { "book": "oathbringer", "chapter": "63" },
+                { "book": "rhythm-of-war", "chapter": "69" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Warriors traditionally wear the takama, a straight calf-length skirt with a belt and a shirt cut to match, descended from older Alethi girdled skirts. Darkeyed workmen wear overalls, sturdy boots, trousers and laced shirts, often of Breechtree cotton.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "25" },
+                { "book": "words-of-radiance", "chapter": "38" },
+                { "book": "oathbringer", "chapter": "103" },
+                { "book": "rhythm-of-war", "chapter": "22" },
+                { "book": "wind-and-truth", "chapter": "30" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Language and writing",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "8" },
+            { "book": "way-of-kings", "chapter": "10" },
+            { "book": "way-of-kings", "chapter": "31" },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "3" },
+                { "book": "words-of-radiance", "chapter": "52" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "24" },
+                { "book": "words-of-radiance", "chapter": "29" },
+                { "book": "oathbringer", "chapter": "49" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "12" },
+                { "book": "oathbringer", "chapter": "122" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "60" },
+                { "book": "oathbringer", "chapter": "104" },
+                { "book": "wind-and-truth", "chapter": "55" }
+              ]
+            }
+          ]
+        }
+      ],
+      "topic": "language",
+      "items": [
+        {
+          "text": "As in all Vorin lands, reading and writing are for women and ardents, not for men of any class.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "8" }]
+        },
+        {
+          "text": "Darkeyed names are simpler than lighteyed ones, and darkeyes have no surnames. A darkeyes given a lighteyed name often shortens it to sound plainer.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "10" }]
+        },
+        {
+          "text": "Nearly every lighteyed woman can read, and so can many darkeyed women in the cities, but in small darkeyed villages such as Hearthstone almost nobody may be able to.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "31" }]
+        },
+        {
+          "text": "Men may learn glyphs, where a symbol or a pair stands for a whole idea. Stormwardens quietly use glyphs to spell out sounds in their own script, which counts as reading, so they keep it hidden.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "3" },
+                { "book": "words-of-radiance", "chapter": "52" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Lighteyed names join a prefix and a suffix with meanings, and are followed by the house name and any titles. A symmetrical name is thought slightly blasphemous.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "24" },
+                { "book": "words-of-radiance", "chapter": "29" },
+                { "book": "oathbringer", "chapter": "49" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Written Alethi has masculine, feminine and neuter pronouns, even for 'I'; since men don't write, the masculine 'I' appears mostly in quotations and ardents write in the neuter. Many Alethi epics are famous well beyond Alethkar.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "12" },
+                { "book": "oathbringer", "chapter": "122" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Alethi is close enough to Veden to be easy to learn. It descends from Alethelan, and many Fused speak it, if with a heavy accent.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "60" },
+                { "book": "oathbringer", "chapter": "104" },
+                { "book": "wind-and-truth", "chapter": "55" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Music and art",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "8" },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "57" },
+                { "book": "words-of-radiance", "chapter": "55" },
+                { "book": "oathbringer", "chapter": "84" }
+              ]
+            },
+            { "book": "rhythm-of-war", "chapter": "69" },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "57" },
+                { "book": "oathbringer", "chapter": "i-5" },
+                { "book": "rhythm-of-war", "chapter": "76" }
+              ]
+            }
+          ]
+        }
+      ],
+      "topic": "arts",
+      "items": [
+        {
+          "text": "Alethi women paint and draw, and artists often carry big sketchbooks. Surrealism is an old style that now hardly anyone but students bothers with.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "8" }]
+        },
+        {
+          "text": "Music, like art, counts as feminine, so it is left mostly to women and ardents. Alethi music leans on flutes, held upright and sometimes played in quartets, and on bowed string instruments of fine wood.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "57" },
+                { "book": "words-of-radiance", "chapter": "55" },
+                { "book": "oathbringer", "chapter": "84" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Alethi music traditionally uses a ten-note scale, really two groups of five notes called quintaves, and all the great Alethi works are written in it. In ancient times people used a scale of only three notes.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "69" }]
+        },
+        {
+          "text": "Lighteyed women of high enough dahn are trained to sing, and men sing too, including Vorin hymns. Lighteyes dance and have music at their feasts, but look down on drums as the music of darkeyes.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "57" },
+                { "book": "oathbringer", "chapter": "i-5" },
+                { "book": "rhythm-of-war", "chapter": "76" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Food and drink",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "22" },
+            { "book": "way-of-kings", "chapter": "54" },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "37" },
+                { "book": "oathbringer", "chapter": "19" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "54" },
+                { "book": "words-of-radiance", "chapter": "81" },
+                { "book": "oathbringer", "chapter": "67" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "37" },
+                { "book": "words-of-radiance", "chapter": "64" },
+                { "book": "oathbringer", "chapter": "68" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "81" },
+                { "book": "oathbringer", "chapter": "18" },
+                { "book": "rhythm-of-war", "chapter": "76" }
+              ]
+            }
+          ]
+        }
+      ],
+      "topic": "food",
+      "items": [
+        {
+          "text": "Alethi table manners are strict, especially among lighteyes. Men carry a broad serrated dining knife, good as a weapon at need, in a sheath on the right calf, and it is rude to walk over to someone of the other sex while they eat at another table.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "22" }]
+        },
+        {
+          "text": "Stagm and other tubers are everyday food, and children often eat fruited tallew rice with flatbread.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "54" }]
+        },
+        {
+          "text": "Lighteyed meals come with a cup of water for rinsing the fingers and clean white napkins, by candlelight though Stormlight is brighter. The upper classes love grand feasts, where business and politics are done too; the king's feasts spread over several levels for different guests.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "37" },
+                { "book": "oathbringer", "chapter": "19" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Much of the diet is tallew and lavis, eaten and brewed into drink. Tallew is often boiled or steamed into soup, or spread on vegetables such as stagm.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "54" },
+                { "book": "words-of-radiance", "chapter": "81" },
+                { "book": "oathbringer", "chapter": "67" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Men's food is spicy, often in curries and sauces, while women's food is sweetened.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "37" },
+                { "book": "words-of-radiance", "chapter": "64" },
+                { "book": "oathbringer", "chapter": "68" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "At parties the Alethi stick to weaker drinks so guests don't get drunk too fast. Alethi wines are sourer than Shin grape wines, and some are spiced.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "81" },
+                { "book": "oathbringer", "chapter": "18" },
+                { "book": "rhythm-of-war", "chapter": "76" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Customs",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "12" },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "54" },
+                { "book": "words-of-radiance", "chapter": "1" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "4" },
+                { "book": "words-of-radiance", "chapter": "55" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "16" },
+                { "book": "oathbringer", "chapter": "101" }
+              ]
+            },
+            { "book": "oathbringer", "chapter": "122" },
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "58" },
+                { "book": "oathbringer", "chapter": "36" },
+                { "book": "rhythm-of-war", "chapter": "50" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "41" },
+                { "book": "words-of-radiance", "chapter": "2" },
+                { "book": "oathbringer", "chapter": "105" },
+                { "book": "rhythm-of-war", "chapter": "114" }
+              ]
+            }
+          ]
+        }
+      ],
+      "topic": "customs",
+      "items": [
+        {
+          "text": "Hunting is nearly as dear to the Alethi as fighting. Lighteyes go on grand hunts for greatshells such as chasmfiends, led by a huntmaster who lures the beast with bait and blood; those with Shardblades or grandbows fight it, others wear it down with archers.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "12" }]
+        },
+        {
+          "text": "An engaged woman wears a bride's prayer, a kind of glyphward. Official betrothals must be verified by ardents, so some people settle for a causal betrothal without legal standing. Lighteyes marry foreigners; darkeyes rarely do.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "54" },
+                { "book": "words-of-radiance", "chapter": "1" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "The Middlefest Fair marks the arrival of the Midpeace. Before the unification, highprinces met at galas of might and renown, tournaments for showing off to one another.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "4" },
+                { "book": "words-of-radiance", "chapter": "55" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "The Alethi rarely quit a duty, even for someone better suited. Clocks are rare in Alethkar. Tradition matters a lot: each person brings a chair or stool of their own to a meeting, a sign that each brings wisdom and all are equal. A girl becomes an adult when she gloves her safehand.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "16" },
+                { "book": "oathbringer", "chapter": "101" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "A lighteyed wedding is lavish. Bride and groom are readied in separate rooms, receiving gifts, weapons for the man; ardents bless and pray for them, the bride paints a last prayer and meditates, and only then do they swear their oaths before a great feast.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "122" }]
+        },
+        {
+          "text": "Duelling is an old, proud Alethi art. Before the unification duels of passion were fought on the spot; since then they are held in grand arenas after a wait of some days before lighteyes and darkeyes alike, under strict rules. A lighteyes may name a champion to fight in his place.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "58" },
+                { "book": "oathbringer", "chapter": "36" },
+                { "book": "rhythm-of-war", "chapter": "50" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Wealthy lighteyes are Soulcast into statues of stone or metal and laid in catacombs, in a holy ceremony lit by fire rather than Stormlight. Darkeyes are usually burned, and armies far from home burn their dead where they fall, sending only lighteyed officers home.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "41" },
+                { "book": "words-of-radiance", "chapter": "2" },
+                { "book": "oathbringer", "chapter": "105" },
+                { "book": "rhythm-of-war", "chapter": "114" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "War",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "24" },
+            { "book": "way-of-kings", "chapter": "26" },
+            { "book": "way-of-kings", "chapter": "44" },
+            { "book": "words-of-radiance", "chapter": "44" },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "26" },
+                { "book": "words-of-radiance", "chapter": "29" },
+                { "book": "rhythm-of-war", "chapter": "16" }
+              ]
+            }
+          ]
+        }
+      ],
+      "topic": "warfare",
+      "items": [
+        {
+          "text": "Every highprince's army has its own strength: Kholin's heavy infantry, Roion's archers and Sadeas's swift bridges are the best of their kind.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "24" }]
+        },
+        {
+          "text": "Alethi warriors prize the Thrill, an eager battle-lust that can take hold of them in combat. Men seldom talk about it.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "26" }]
+        },
+        {
+          "text": "Alethi culture is deeply military. Soldiering is the highest Calling, and fighting to retake the Tranquiline Halls the finest afterlife. The country is nearly always at war, between highprinces if not with outsiders, and armies sometimes take recruits as young as twelve.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "44" }]
+        },
+        {
+          "text": "Any man, lighteyed or darkeyed, may volunteer, mostly boys dreaming of glory and Shards, and conscription fills the gaps. A soldier signs on for four years at a time and leaves with a bonus of a tenth of his wages; one who rises in rank may rise in nahn or dahn too.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "44" }]
+        },
+        {
+          "text": "Around the age of ten, suitable lighteyed boys are picked by an ardent swordmaster, who teaches the ten Shardblade stances and the use of Plate with wooden practice blades or one of the King's Blades. So the Alethi have Roshar's best-trained Shardbearers, and a fallen Shardbearer's Blade always has someone ready to bond it.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "44" }]
+        },
+        {
+          "text": "Since the Battle of Thaylen Field the Thrill no longer stirs Alethi warriors.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "26" },
+                { "book": "words-of-radiance", "chapter": "29" },
+                { "book": "rhythm-of-war", "chapter": "16" }
+              ]
+            }
           ]
         }
       ]
@@ -235,6 +1049,1103 @@
         {
           "text": "After the contest, Jasnah accepted that Alethkar had been lost. The Oathgates no longer offered a route to reclaim it, and her treaty had ceded the Shattered Plains to the listeners.",
           "revealedIn": [{ "book": "wind-and-truth", "chapter": "146" }]
+        }
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "id": "long-ago",
+      "title": "Long ago",
+      "tone": "#8c7ae6",
+      "moments": [
+        {
+          "id": "singer-land",
+          "kind": "legend",
+          "told": [
+            {
+              "revealedIn": [{ "book": "oathbringer", "chapter": "113" }],
+              "title": "A land of the singers",
+              "text": "Before humans came to Roshar, the land that became Alethkar belonged to the singers."
+            }
+          ]
+        },
+        {
+          "id": "human-conquest",
+          "kind": "war",
+          "told": [
+            {
+              "revealedIn": [{ "book": "oathbringer", "chapter": "113" }],
+              "title": "Humans take the land",
+              "text": "The humans who came to Roshar took the singers' lands by force. That history was forgotten until the Eila Stele was read.",
+              "after": ["singer-land"]
+            },
+            {
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "oathbringer", "chapter": "113" },
+                    { "book": "rhythm-of-war", "chapter": "111" }
+                  ]
+                }
+              ],
+              "text": "Humans reached Roshar and were given the land that became Shinovar. They went on to invade the rest of the continent, slaughtering the singers and driving them out, and took this land among others. The story was lost until the Eila Stele was found.",
+              "places": ["shinovar"]
+            }
+          ]
+        },
+        {
+          "id": "althmen",
+          "kind": "realm",
+          "told": [
+            {
+              "revealedIn": [{ "book": "wind-and-truth", "chapter": "62" }],
+              "title": "The Althmen",
+              "text": "About a century after humans arrived, a kingdom whose name is lost arose here; its people were called Althmen. They lived as nomads, hunting large animals, and the Herald Jezrien was one of them, perhaps even their ruler.",
+              "art": "character:jezrien"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "alethela",
+      "title": [
+        {
+          "text": "Alethela",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "19" },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "60" },
+                { "book": "oathbringer", "chapter": "87" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "prelude" },
+                { "book": "words-of-radiance", "chapter": "i-7" },
+                { "book": "rhythm-of-war", "chapter": "1" }
+              ]
+            },
+            { "book": "way-of-kings", "chapter": "60" },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "18" },
+                { "book": "oathbringer", "chapter": "103" }
+              ]
+            }
+          ]
+        }
+      ],
+      "tone": "#e0b25c",
+      "moments": [
+        {
+          "id": "alethela-founded",
+          "kind": "realm",
+          "told": [
+            {
+              "revealedIn": [{ "book": "way-of-kings", "chapter": "19" }],
+              "title": "A kingdom that remembered war",
+              "text": "Alethela was a fiercely warlike kingdom that studied and remembered the arts of war, so that it could teach them anew whenever a Desolation came.",
+              "places": ["alethela"]
+            }
+          ]
+        },
+        {
+          "id": "kholinar-founded",
+          "kind": "realm",
+          "told": [
+            {
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "way-of-kings", "chapter": "60" },
+                    { "book": "oathbringer", "chapter": "87" }
+                  ]
+                }
+              ],
+              "title": "Kholinar, the capital",
+              "text": "Very early on, the Dawncity of Kholinar was built and made the capital, and in time it received Alethela's Oathgate. Many wanted Urithiru built there too, but it was raised in the mountains near Makabakam instead. Kholinar still stands, one of Roshar's oldest cities.",
+              "places": ["kholinar", "urithiru", "makabakam"]
+            }
+          ]
+        },
+        {
+          "id": "desolation-cycle",
+          "kind": "legend",
+          "told": [
+            {
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "way-of-kings", "chapter": "prelude" },
+                    { "book": "words-of-radiance", "chapter": "i-7" },
+                    { "book": "rhythm-of-war", "chapter": "1" }
+                  ]
+                }
+              ],
+              "title": "Knocked back by the Desolations",
+              "text": "Each Desolation threw the people back to primitive ways, sometimes as far as stone tools. Each time the returning Heralds, often Kalak, helped them rebuild, and old writings tell of plagues that killed tens of thousands.",
+              "art": "character:kalak"
+            },
+            {
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "way-of-kings", "chapter": "prelude" },
+                    { "book": "words-of-radiance", "chapter": "i-7" },
+                    { "book": "rhythm-of-war", "chapter": "65" }
+                  ]
+                }
+              ],
+              "text": "Each Desolation threw the people back to primitive ways, sometimes as far as stone tools, and in some of them the Fused even captured Alethela's capital before being driven out. Each time the returning Heralds, often Kalak, helped them rebuild."
+            }
+          ]
+        },
+        {
+          "id": "nohadon",
+          "kind": "war",
+          "told": [
+            {
+              "revealedIn": [{ "book": "way-of-kings", "chapter": "60" }],
+              "title": "Nohadon and a terrible Desolation",
+              "text": "Alethela was once ruled by King Nohadon. During his life a Desolation brought more than eleven years of fighting, and nine in ten of his people died.",
+              "art": "character:nohadon"
+            }
+          ]
+        },
+        {
+          "id": "nohadon-rebuilds",
+          "kind": "realm",
+          "told": [
+            {
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "way-of-kings", "chapter": "18" },
+                    { "book": "oathbringer", "chapter": "103" }
+                  ]
+                }
+              ],
+              "title": "Nohadon rebuilds",
+              "text": "Grieving, Nohadon wanted to give up his throne, but he stayed and spent decades making Alethela a lively, colourful land again. He also fought Makabakam over trade routes, and his ideals shaped the backbone of the Knights Radiant.",
+              "places": ["makabakam"],
+              "after": ["nohadon"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "era-of-solitude",
+      "title": [
+        {
+          "text": "After the Heralds left",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "prologue" },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "45" },
+                { "book": "oathbringer", "chapter": "119" }
+              ]
+            },
+            { "book": "rhythm-of-war", "chapter": "19" },
+            {
+              "all": [
+                { "book": "sunlit-man", "chapter": "26" },
+                { "book": "wind-and-truth", "chapter": "34" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "The Era of Solitude",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "45" },
+                { "book": "oathbringer", "chapter": "119" }
+              ]
+            }
+          ]
+        }
+      ],
+      "tone": "#5fb3c9",
+      "moments": [
+        {
+          "id": "heralds-depart",
+          "kind": "legend",
+          "told": [
+            {
+              "revealedIn": [{ "book": "way-of-kings", "chapter": "prologue" }],
+              "title": "The Heralds walk away",
+              "text": "About 4,500 years before Gavilar's death, a Desolation ended. Weary of the torment they suffered between Desolations, nine of the Heralds refused to go back to it, leaving Taln, the one who had not returned, to bear it alone.",
+              "art": "character:jezrien"
+            }
+          ]
+        },
+        {
+          "id": "desolations-cease",
+          "kind": "legend",
+          "told": [
+            {
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "way-of-kings", "chapter": "45" },
+                    { "book": "oathbringer", "chapter": "119" }
+                  ]
+                }
+              ],
+              "title": "No more Desolations",
+              "text": "After the Last Desolation no further Desolations came. Spared them, society advanced further than ever before, strong enough perhaps to face a new one without collapse. The age that followed became the Era of Solitude.",
+              "after": ["heralds-depart"]
+            }
+          ]
+        },
+        {
+          "id": "warlords",
+          "kind": "war",
+          "told": [
+            {
+              "revealedIn": [{ "book": "rhythm-of-war", "chapter": "19" }],
+              "title": "Conquerors with Soulcasters",
+              "text": "Alethi kings and highprinces led armies across Roshar, their emerald Soulcasters sparing them long supply lines. Scholars of the time were more like gurus, musing in shrines on storms and souls."
+            }
+          ]
+        },
+        {
+          "id": "azir-wars",
+          "kind": "war",
+          "told": [
+            {
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "sunlit-man", "chapter": "26" },
+                    { "book": "wind-and-truth", "chapter": "34" }
+                  ]
+                }
+              ],
+              "title": "Wars with Azir",
+              "text": "The Alethi invaded Azir at least five times under the Ulutu dynasty, winning as often as they were driven back; the Azish say every siege of Azimir sacked it. Legend says they climbed the mountains to take gems and weapons from the sun, which bleached their eyes.",
+              "places": ["azir", "azimir"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hierocracy-sunmaker",
+      "title": [
+        {
+          "text": "Church and conqueror",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "45" },
+                { "book": "words-of-radiance", "chapter": "6" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "18" },
+                { "book": "oathbringer", "chapter": "59" }
+              ]
+            },
+            { "book": "way-of-kings", "chapter": "36" },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "36" },
+                { "book": "oathbringer", "chapter": "100" }
+              ]
+            },
+            { "book": "oathbringer", "chapter": "2" },
+            { "book": "way-of-kings", "chapter": "24" }
+          ]
+        },
+        {
+          "text": "The Hierocracy and Sadees",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "36" }]
+        },
+        {
+          "text": "The Hierocracy and the Sunmaker",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "12" }]
+        },
+        {
+          "text": "The Hierocracy and Sadees the Sunmaker",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "26" }]
+        }
+      ],
+      "tone": "#d9645a",
+      "moments": [
+        {
+          "id": "hierocracy",
+          "kind": "realm",
+          "told": [
+            {
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "way-of-kings", "chapter": "45" },
+                    { "book": "words-of-radiance", "chapter": "6" }
+                  ]
+                }
+              ],
+              "title": "The Hierocracy rewrites history",
+              "text": "While the Hierocracy ruled, it tried to wipe from the records what was known of the Knights Radiant, the Recreance and Shadesmar, and doctored old texts to tell its own version of the past."
+            },
+            {
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "way-of-kings", "chapter": "45" },
+                    { "book": "words-of-radiance", "chapter": "6" },
+                    { "book": "oathbringer", "chapter": "34" }
+                  ]
+                }
+              ],
+              "title": "The ardents seize power",
+              "text": "After the Recreance the church grew so strong in Alethela that ardents held land and office and alone could interpret scripture. In time they overthrew the government and ruled as a theocracy, the Hierocracy, claiming a divine right to rule. They erased what they could of the Knights Radiant, the Recreance and Shadesmar, and rewrote history to suit themselves."
+            }
+          ]
+        },
+        {
+          "id": "hierocracy-spreads",
+          "kind": "realm",
+          "told": [
+            {
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "way-of-kings", "chapter": "18" },
+                    { "book": "oathbringer", "chapter": "59" }
+                  ]
+                }
+              ],
+              "title": "A Vorin realm grows too large",
+              "text": "The Hierocracy spread beyond the old Alethelan lands into a wider Vorin domain that took in the lands that became Jah Keved, Kharbranth and Thaylenah. The larger it grew, the harder it was to hold together, and its power began to totter.",
+              "places": ["jah-keved", "kharbranth", "thaylenah"],
+              "after": ["hierocracy"]
+            }
+          ]
+        },
+        {
+          "id": "war-of-loss",
+          "kind": "war",
+          "chrono": "roshar-war-of-loss-hierocracy-ends",
+          "told": [
+            {
+              "revealedIn": [{ "book": "way-of-kings", "chapter": "36" }],
+              "title": "Sadees ends the Hierocracy",
+              "text": "Sadees brought down the Hierocracy and broke the church's power so that no such rule could rise again."
+            },
+            {
+              "revealedIn": [{ "book": "words-of-radiance", "chapter": "12" }],
+              "title": "The Sunmaker and the War of Loss",
+              "text": "Around the year 673 the Sunmaker led Alethkar in a successful revolt against the Hierocracy, the War of Loss. The fighting and the chaos that followed left many cities sacked and ruined, but Kholinar was one of the few eastern cities left unharmed.",
+              "places": ["kholinar"]
+            },
+            {
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "way-of-kings", "chapter": "36" },
+                    { "book": "words-of-radiance", "chapter": "12" },
+                    { "book": "oathbringer", "chapter": "26" }
+                  ]
+                }
+              ],
+              "text": "Around the year 673 Sadees the Sunmaker led Alethkar in a successful revolt against the Hierocracy, the War of Loss, and became the first to unite the land since Alethela. The fighting left many cities sacked and ruined, but Kholinar was among the few eastern cities spared. Sadees broke the church's power so that no such rule could rise again."
+            }
+          ]
+        },
+        {
+          "id": "church-remade",
+          "kind": "realm",
+          "told": [
+            {
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "way-of-kings", "chapter": "36" },
+                    { "book": "oathbringer", "chapter": "100" }
+                  ]
+                }
+              ],
+              "title": "The church is broken up",
+              "text": "After the Hierocracy fell, Vorinism was divided into many devotaries with no central rule. Ardents lost the right to own property or hold office and to gather wealth, becoming little more than slaves, though they could still excommunicate. Their claims to see the future were exposed as false.",
+              "after": ["war-of-loss"],
+              "art": "culture:vorinism"
+            }
+          ]
+        },
+        {
+          "id": "sunmaker-conquests",
+          "kind": "war",
+          "told": [
+            {
+              "revealedIn": [{ "book": "oathbringer", "chapter": "2" }],
+              "title": "The Sunmaker looks outward",
+              "text": "Having reunited Alethela under the name Alethkar, the Sunmaker set out to conquer the rest of Roshar.",
+              "after": ["war-of-loss"]
+            },
+            {
+              "revealedIn": [{ "book": "oathbringer", "chapter": "65" }],
+              "title": "The Sunmaker conquers",
+              "text": "Having reunited Alethela as Alethkar, the Sunmaker conquered Herdaz first, then marched on Azir and took its capital, Azimir, claiming he came to civilize the Azish. With an army garrisoned there he pursued genocide: it is said one Azish person in ten died under his rule.",
+              "places": ["herdaz", "azir", "azimir"]
+            },
+            {
+              "revealedIn": [{ "book": "oathbringer", "chapter": "100" }],
+              "text": "Having reunited Alethela as Alethkar, the Sunmaker conquered Herdaz, then Azir, where it is said one Azish person in ten died under his rule. The Alethi remember him as a hero; much of the world calls him a genocidal tyrant and distrusts the Alethi for it. His conquests also opened trade routes to Azir, Herdaz and Jah Keved that still make Alethkar rich.",
+              "places": ["herdaz", "azir", "jah-keved"]
+            }
+          ]
+        },
+        {
+          "id": "princedoms-split",
+          "kind": "realm",
+          "told": [
+            {
+              "revealedIn": [{ "book": "way-of-kings", "chapter": "24" }],
+              "title": "Ten highprinces",
+              "text": "Under Sadees the ten highprinces each ran one part of the whole kingdom's government."
+            },
+            {
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "way-of-kings", "chapter": "18" },
+                    { "book": "oathbringer", "chapter": "19" },
+                    { "book": "rhythm-of-war", "chapter": "34" }
+                  ]
+                }
+              ],
+              "title": "The sons divide the kingdom",
+              "text": "The Sunmaker's ten sons could not agree which of them should succeed him, so they divided the realm into ten princedoms and ruled them separately as highprinces, with no central government. The conquered lands, among them Azir and Herdaz, won back their freedom. Famous duels of this age are still remembered.",
+              "places": ["azir", "herdaz"],
+              "after": ["sunmaker-conquests"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unification",
+      "title": [
+        {
+          "text": "The unification",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "3" },
+            { "book": "oathbringer", "chapter": "11" },
+            { "book": "oathbringer", "chapter": "26" },
+            { "book": "way-of-kings", "chapter": "16" }
+          ]
+        }
+      ],
+      "tone": "#e3c35a",
+      "moments": [
+        {
+          "id": "yezriar",
+          "kind": "war",
+          "told": [
+            {
+              "revealedIn": [{ "book": "oathbringer", "chapter": "3" }],
+              "title": "Yezriar falls",
+              "text": "In 1140, during the war to unite the princedoms, the lord Yezriar was beaten and his lands folded into the growing kingdom."
+            }
+          ]
+        },
+        {
+          "id": "rathalas-conquest",
+          "kind": "war",
+          "told": [
+            {
+              "revealedIn": [{ "book": "oathbringer", "chapter": "11" }],
+              "title": "The conquest of Rathalas",
+              "text": "In 1141 the Kholins attacked Rathalas, seat of Tanalan. Dalinar killed Tanalan, then followed his Shardblade to his family, where Tanalan's young son had taken it up, and claimed the Blade, Oathbringer.",
+              "places": ["rathalas"],
+              "art": "place:rathalas"
+            },
+            {
+              "revealedIn": [{ "book": "oathbringer", "chapter": "36" }],
+              "text": "In 1141 the Kholins took Rathalas, seat of Tanalan, whom Dalinar killed in battle. Dalinar spared Tanalan's family but took his Shardblade, Oathbringer. Rathalas came under Kholin rule, but not peacefully: its rulers stayed furious over Tanalan's death and demanded the Blade back for his heir."
+            }
+          ]
+        },
+        {
+          "id": "kalanor",
+          "kind": "war",
+          "told": [
+            {
+              "revealedIn": [{ "book": "oathbringer", "chapter": "26" }],
+              "title": "The fall of Kalanor",
+              "text": "Highprince Kalanor, who called himself king, was one of Gavilar's chief obstacles. In 1145 Gavilar's forces attacked small cities in his lands to draw him into open battle, the largest of the war, where Dalinar killed him. His Shards went to Gavilar and his lands to Loradar Vamah. That officially ended the war of unification, though skirmishes went on for decades.",
+              "after": ["yezriar"]
+            }
+          ]
+        },
+        {
+          "id": "gavilar-crowned",
+          "kind": "realm",
+          "told": [
+            {
+              "revealedIn": [{ "book": "way-of-kings", "chapter": "16" }],
+              "title": "Gavilar is crowned",
+              "text": "In 1145 Gavilar Kholin was crowned king of Alethkar.",
+              "art": "character:gavilar-kholin"
+            },
+            {
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "way-of-kings", "chapter": "16" },
+                    { "book": "oathbringer", "chapter": "26" }
+                  ]
+                }
+              ],
+              "title": "One ruler again",
+              "text": "Since the death of Sadees the Sunmaker, Alethkar had been split among his sons. Gavilar Kholin fought a war to unify it and brought the country under one ruler again, and in 1145 he was crowned king."
+            },
+            {
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "way-of-kings", "chapter": "16" },
+                    { "book": "oathbringer", "chapter": "26" },
+                    { "book": "wind-and-truth", "chapter": "37" }
+                  ]
+                }
+              ],
+              "text": "Around 1140, taking the Sunmaker as his model, Gavilar Kholin set out to conquer and unite the highprinces, and by about 1145 he had done it. He was crowned king and his brother Dalinar became Highprince of the Kholin princedom. The highprinces, whose lines went back to the Sunmaker's sons, hated giving up their power and kept straining against his rule.",
+              "after": ["kalanor"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "border-wars",
+      "title": [
+        {
+          "text": "Border wars",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "16" },
+            { "book": "oathbringer", "chapter": "52" },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "56" },
+                { "book": "oathbringer", "chapter": "52" }
+              ]
+            },
+            { "book": "oathbringer", "chapter": "66" },
+            { "book": "oathbringer", "chapter": "75" }
+          ]
+        }
+      ],
+      "tone": "#7cc78f",
+      "moments": [
+        {
+          "id": "reshi-raids",
+          "kind": "war",
+          "told": [
+            {
+              "revealedIn": [{ "book": "way-of-kings", "chapter": "16" }],
+              "title": "Reshi raiders",
+              "text": "Some time after Gavilar's crowning, Reshi raiders hit the northern princedoms, hoping to profit from the new kingdom's instability. Soldiers were raised across the Sadeas princedom, among them darkeyes from Hearthstone; the Reshi had no Shardblades.",
+              "places": ["hearthstone", "reshi-isles"]
+            },
+            {
+              "revealedIn": [{ "book": "way-of-kings", "chapter": "18" }],
+              "text": "Some time after Gavilar's crowning, Reshi raiders hit the northern princedoms, hoping to profit from the new kingdom's instability. Soldiers were raised across the Sadeas princedom, among them darkeyes from Hearthstone. The fighting did not stop the Reshi: they were still raiding Alethi lands in 1173."
+            }
+          ]
+        },
+        {
+          "id": "herdaz-war",
+          "kind": "war",
+          "told": [
+            {
+              "revealedIn": [{ "book": "oathbringer", "chapter": "52" }],
+              "title": "War with Herdaz",
+              "text": "Around 1150 a new dynasty in Herdaz rallied its forces and pushed against the Alethi border for about four years. The fighting shaped the present border and left ethnic bitterness behind, with Herdazians stereotyped and mistreated.",
+              "places": ["herdaz"]
+            },
+            {
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "oathbringer", "chapter": "52" },
+                    { "book": "rhythm-of-war", "chapter": "16" }
+                  ]
+                }
+              ],
+              "text": "From 1150 to 1154 Alethkar fought a violent war with Herdaz, meant to show Alethi strength, secure the border and win land, with Dalinar Kholin as a leading general. Many died on both sides. The war fixed the present border and left ethnic bitterness, with Herdazians stereotyped and mistreated.",
+              "art": "character:dalinar-kholin"
+            }
+          ]
+        },
+        {
+          "id": "akak",
+          "kind": "war",
+          "told": [
+            {
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "way-of-kings", "chapter": "56" },
+                    { "book": "oathbringer", "chapter": "52" }
+                  ]
+                }
+              ],
+              "title": "The conquest of Akak",
+              "text": "In 1155 Dalinar Kholin conquered Akak, an island of the Reshi, wiped out the Reshi living there and claimed it for Alethkar.",
+              "places": ["akak"]
+            }
+          ]
+        },
+        {
+          "id": "veden-border",
+          "kind": "war",
+          "told": [
+            {
+              "revealedIn": [{ "book": "oathbringer", "chapter": "66" }],
+              "title": "War with Jah Keved",
+              "text": "Around 1155 war broke out on the border with Jah Keved, which had taken Alethi land some twelve years before; Dalinar Kholin was again a leading general.",
+              "places": ["jah-keved"]
+            },
+            {
+              "revealedIn": [{ "book": "oathbringer", "chapter": "100" }],
+              "text": "Around 1155 war broke out on the border with Jah Keved, which had taken Alethi land some twelve years before. At Slickrock, Dalinar Kholin's army beat the Veden under Nalanar, though the Veden came close to winning at least three times."
+            }
+          ]
+        },
+        {
+          "id": "rathalas-burned",
+          "kind": "war",
+          "told": [
+            {
+              "revealedIn": [{ "book": "oathbringer", "chapter": "75" }],
+              "title": "Rathalas rebels",
+              "text": "In 1163, with Rathalas calling for rebellion under Tanalan's son, also named Tanalan, Gavilar sent Dalinar and Torol Sadeas to the Rift. Dalinar offered Tanalan a highprincedom to surrender; Tanalan refused and buried Dalinar's men in a landslide, leaving only Dalinar alive.",
+              "places": ["rathalas"],
+              "after": ["rathalas-conquest"]
+            },
+            {
+              "revealedIn": [{ "book": "oathbringer", "chapter": "76" }],
+              "title": "The Burning of Rathalas",
+              "text": "In 1163 Rathalas rose under the younger Tanalan, who refused Dalinar's offer of a highprincedom and killed his men in a landslide. Dalinar had messengers under a flag of truce shot, attacked at night and burned the city. Tanalan's family died in the fire and Dalinar killed Tanalan himself, then learned that his own wife Evi had died in the blaze.",
+              "art": "character:evi-kholin"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reckoning",
+      "title": [
+        {
+          "text": "A king's murder",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "45" },
+                { "book": "words-of-radiance", "chapter": "i-4" },
+                { "book": "oathbringer", "chapter": "prologue" },
+                { "book": "rhythm-of-war", "chapter": "48" }
+              ]
+            },
+            { "book": "way-of-kings", "chapter": "prologue" },
+            { "book": "way-of-kings", "chapter": "18" },
+            { "book": "way-of-kings", "chapter": "60" },
+            { "book": "way-of-kings", "chapter": "69" },
+            { "book": "words-of-radiance", "chapter": "79" }
+          ]
+        },
+        {
+          "text": "Vengeance for Gavilar",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "18" }]
+        },
+        {
+          "text": "The War of Reckoning",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "prologue" }]
+        }
+      ],
+      "when": [
+        {
+          "text": "From 1167",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "prologue" }]
+        },
+        {
+          "text": "1166 to 1173",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "45" },
+                { "book": "words-of-radiance", "chapter": "i-4" },
+                { "book": "oathbringer", "chapter": "prologue" },
+                { "book": "rhythm-of-war", "chapter": "48" }
+              ]
+            }
+          ]
+        }
+      ],
+      "tone": "#c98f4a",
+      "moments": [
+        {
+          "id": "parshendi-contact",
+          "kind": "realm",
+          "told": [
+            {
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "way-of-kings", "chapter": "45" },
+                    { "book": "words-of-radiance", "chapter": "i-4" },
+                    { "book": "oathbringer", "chapter": "prologue" },
+                    { "book": "rhythm-of-war", "chapter": "48" }
+                  ]
+                }
+              ],
+              "title": "Meeting the Parshendi",
+              "text": "In 1166 Gavilar met the Parshendi and was fascinated by them at once. Their party was led by Eshonai, who became central to dealings between the two peoples."
+            }
+          ]
+        },
+        {
+          "id": "gavilar-assassinated",
+          "kind": "war",
+          "told": [
+            {
+              "revealedIn": [{ "book": "way-of-kings", "chapter": "prologue" }],
+              "title": "Gavilar is assassinated",
+              "text": "On the night the Alethi feasted a peace treaty with the Parshendi, King Gavilar was killed by Szeth, an assassin the Parshendi sent. Dying, Gavilar gave him a black sphere and a message for his brother Dalinar.",
+              "art": "character:szeth"
+            },
+            {
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "way-of-kings", "chapter": "prologue" },
+                    { "book": "words-of-radiance", "chapter": "prologue" },
+                    { "book": "oathbringer", "chapter": "prologue" }
+                  ]
+                }
+              ],
+              "text": "At the feast for the Parshendi treaty in 1167, Gavilar told Eshonai he planned to return the ancient gods her people had left behind. Horrified, the Parshendi leaders agreed he must die and sent Szeth. Gavilar fought back but was killed; dying, he gave Szeth a sphere and a message urging Dalinar to seek the most important words a person can speak.",
+              "after": ["parshendi-contact"],
+              "art": "event:assassination-of-gavilar"
+            }
+          ]
+        },
+        {
+          "id": "vengeance-pact",
+          "kind": "war",
+          "chrono": "roshar-war-of-reckoning-begins",
+          "told": [
+            {
+              "revealedIn": [{ "book": "way-of-kings", "chapter": "18" }],
+              "title": "The Vengeance Pact",
+              "text": "Gavilar's son Elhokar became king, and the highprinces bound themselves in the Vengeance Pact, taking their armies to the Shattered Plains to make war on the Parshendi.",
+              "places": ["shattered-plains"],
+              "after": ["gavilar-assassinated"]
+            },
+            {
+              "revealedIn": [
+                { "book": "words-of-radiance", "chapter": "prologue" }
+              ],
+              "title": "The War of Reckoning begins",
+              "text": "Three Parshendi leaders claimed the killing, covering the flight of many of their people from Kholinar; Dalinar sent a hundred horsemen after them, and none came back. Those who stayed were hanged. Gavilar's son Elhokar, now king, declared war, and all the highprinces joined the Vengeance Pact, marching to besiege the Parshendi on the Shattered Plains in the War of Reckoning."
+            }
+          ]
+        },
+        {
+          "id": "dalinar-visions",
+          "kind": "magic",
+          "told": [
+            {
+              "revealedIn": [{ "book": "way-of-kings", "chapter": "60" }],
+              "title": "Dalinar sees visions",
+              "text": "During the war Dalinar began to have visions showing the past and warning of what was to come, which made other highprinces and his own soldiers question his sanity. Fabrial-making also leapt forward."
+            }
+          ]
+        },
+        {
+          "id": "tower-betrayal",
+          "kind": "war",
+          "told": [
+            {
+              "revealedIn": [{ "book": "way-of-kings", "chapter": "69" }],
+              "title": "Betrayal at the Tower",
+              "text": "In 1173 Highprince Sadeas turned a battle on the plateau called the Tower into a trap meant to kill Dalinar Kholin. Dalinar led 8,000 men into the fight and brought back 2,653.",
+              "places": ["shattered-plains"],
+              "art": "character:torol-sadeas"
+            }
+          ]
+        },
+        {
+          "id": "narak",
+          "kind": "war",
+          "chrono": "roshar-wor-everstorm-summoned",
+          "told": [
+            {
+              "revealedIn": [{ "book": "words-of-radiance", "chapter": "79" }],
+              "title": "Out onto the Plains",
+              "text": "Disturbed by glyphs that appeared scratched into his walls, and determined to finish the war, Dalinar gathered allies and, after weeks of preparation, marched his whole army onto the Shattered Plains, joined by Highprinces Roion, Sebarial and Aladar.",
+              "places": ["shattered-plains"]
+            },
+            {
+              "revealedIn": [{ "book": "words-of-radiance", "chapter": "85" }],
+              "title": "The Battle of Narak",
+              "text": "Wanting to end the war, Dalinar marched onto the Shattered Plains with Roion, Sebarial and Aladar. Near the centre they found the Parshendi changed in form and attacked them in the Battle of Narak in 1173. Many Alethi died, Highprince Roion among them. The Alethi won but could not stop the summoning of the Everstorm."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "true-desolation",
+      "title": [
+        {
+          "text": "The True Desolation",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "87" },
+                { "book": "oathbringer", "chapter": "10" }
+              ]
+            },
+            { "book": "oathbringer", "chapter": "i-10" },
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "i-12" },
+                { "book": "oathbringer", "chapter": "84" }
+              ]
+            },
+            { "book": "oathbringer", "chapter": "87" },
+            { "book": "oathbringer", "chapter": "122" }
+          ]
+        }
+      ],
+      "tone": "#5f8fd9",
+      "moments": [
+        {
+          "id": "everstorm",
+          "kind": "magic",
+          "told": [
+            {
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "words-of-radiance", "chapter": "87" },
+                    { "book": "oathbringer", "chapter": "10" }
+                  ]
+                }
+              ],
+              "title": "The Everstorm",
+              "text": "The Everstorm restored the parshmen's minds, and across Alethkar they broke free and fled their owners. The storm damaged or destroyed many buildings, but the newly awakened singers mostly left the towns peacefully.",
+              "after": ["narak"]
+            }
+          ]
+        },
+        {
+          "id": "singers-take-alethkar",
+          "kind": "war",
+          "told": [
+            {
+              "revealedIn": [{ "book": "oathbringer", "chapter": "i-10" }],
+              "title": "The singers take Alethkar",
+              "text": "Led by the Fused, the singers gathered at human towns, trained and slowly took control of Alethkar. With most Alethi armies on the Shattered Plains or at Urithiru, the few that fought were soon driven into Herdaz, while thousands of singers marched on Kholinar.",
+              "places": ["herdaz", "kholinar"],
+              "after": ["everstorm"]
+            },
+            {
+              "revealedIn": [{ "book": "oathbringer", "chapter": "107" }],
+              "text": "Led by the Fused, the singers slowly took control of Alethkar, driving the few Alethi armies left there into Herdaz. After Kholinar fell, the Coalition sent ten thousand Alethi soldiers to guard Jah Keved.",
+              "places": ["herdaz", "kholinar", "jah-keved"]
+            }
+          ]
+        },
+        {
+          "id": "kholinar-unmade",
+          "kind": "magic",
+          "told": [
+            {
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "words-of-radiance", "chapter": "i-12" },
+                    { "book": "oathbringer", "chapter": "84" }
+                  ]
+                }
+              ],
+              "title": "The Unmade in Kholinar",
+              "text": "Late in the War of Reckoning, Navani left Queen Aesudan to rule Kholinar alone. The Unmade crept into the city: Aesudan threw lavish feasts while Kholinar's society fell apart, and Sja-anat corrupted the city's spren.",
+              "places": ["kholinar"]
+            }
+          ]
+        },
+        {
+          "id": "kholinar-falls",
+          "kind": "war",
+          "chrono": "roshar-ob-kholinar-falls",
+          "told": [
+            {
+              "revealedIn": [{ "book": "oathbringer", "chapter": "87" }],
+              "title": "Kholinar falls",
+              "text": "Elhokar took a few Radiants to Kholinar to open its Oathgate and bring the Alethi armies through. The attempt failed: the capital fell to the enemy, and the king was killed.",
+              "places": ["kholinar"],
+              "after": ["singers-take-alethkar"]
+            },
+            {
+              "revealedIn": [{ "book": "oathbringer", "chapter": "122" }],
+              "text": "Alethkar joined other nations in a Coalition against the enemy, and Elhokar swore an oath to Dalinar, making him high king. Elhokar then flew to Kholinar with a few Radiants to open its Oathgate for the Alethi armies, but they could not work it in time. The enemy attacked, the city fell and the king was killed, though his heir got out safely."
+            }
+          ]
+        },
+        {
+          "id": "thaylen-field",
+          "kind": "war",
+          "chrono": "roshar-ob-thaylen-field-battle-resolves",
+          "told": [
+            {
+              "revealedIn": [{ "book": "oathbringer", "chapter": "122" }],
+              "title": "The Battle of Thaylen Field",
+              "text": "Dalinar saw that the enemy would strike for the Oathgate at Thaylen City, where Alethi troops of the Sadeas army were already posted. When the attack came, the Unmade Nergaoul drove that army, under Amaram, against the city, yet the Coalition still won.",
+              "places": ["thaylen-city", "thaylenah"]
+            }
+          ]
+        },
+        {
+          "id": "jasnah-crowned",
+          "kind": "realm",
+          "told": [
+            {
+              "revealedIn": [{ "book": "oathbringer", "chapter": "122" }],
+              "title": "Queen Jasnah",
+              "text": "Elhokar's heir was too young and a regency seemed too unstable, so soon after the battle the Alethi crowned Jasnah Kholin queen with great ceremony. Adolin Kholin married Shallan Davar the following week.",
+              "after": ["kholinar-falls"],
+              "art": "character:jasnah-kholin"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "war-goes-on",
+      "title": [
+        {
+          "text": "The war goes on",
+          "revealedIn": [
+            { "book": "rhythm-of-war", "chapter": "18" },
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "96" },
+                { "book": "rhythm-of-war", "chapter": "112" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "rhythm-of-war", "chapter": "50" },
+                { "book": "wind-and-truth", "chapter": "34" }
+              ]
+            },
+            { "book": "rhythm-of-war", "chapter": "112" },
+            { "book": "wind-and-truth", "chapter": "61" },
+            { "book": "wind-and-truth", "chapter": "146" }
+          ]
+        }
+      ],
+      "tone": "#b07cc7",
+      "moments": [
+        {
+          "id": "hearthstone-evacuated",
+          "kind": "war",
+          "told": [
+            {
+              "revealedIn": [{ "book": "rhythm-of-war", "chapter": "18" }],
+              "title": "Hearthstone evacuated",
+              "text": "In 1175 the Coalition set out to rescue the people of Hearthstone. After a fight with the Fused holding the town, among them Lezian, all but fifteen of its people were flown to Urithiru on the Fourth Bridge. Citylord Roshone was killed, and the post passed in time to Laral.",
+              "places": ["hearthstone", "urithiru"]
+            }
+          ]
+        },
+        {
+          "id": "emul-campaign",
+          "kind": "war",
+          "told": [
+            {
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "oathbringer", "chapter": "96" },
+                    { "book": "rhythm-of-war", "chapter": "112" }
+                  ]
+                }
+              ],
+              "title": "The push into Emul",
+              "text": "Highprince Aladar and his scribes helped the Emuli fortify what land they still held. After a year of stalemate and Skybreaker attacks, the Coalition agreed in 1175 to drive the singers out of Emul, mostly with Alethi troops; the queen herself stayed in Emul, and she and Dalinar chose a new Sadeas highprince.",
+              "places": ["emul"]
+            }
+          ]
+        },
+        {
+          "id": "southwest-retaken",
+          "kind": "war",
+          "told": [
+            {
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "rhythm-of-war", "chapter": "50" },
+                    { "book": "wind-and-truth", "chapter": "34" }
+                  ]
+                }
+              ],
+              "title": "Fighting back in the southwest",
+              "text": "Alethi forces inside Alethkar won back its southwestern corner on the Tarat Sea, though a push into the southeast failed. When Taravangian betrayed the Coalition, they regrouped at Karanak with few losses.",
+              "places": ["karanak", "tarat-sea"]
+            }
+          ]
+        },
+        {
+          "id": "contest-set",
+          "kind": "realm",
+          "chrono": "roshar-row-contest-of-champions-set",
+          "told": [
+            {
+              "revealedIn": [{ "book": "rhythm-of-war", "chapter": "112" }],
+              "title": "Terms for a contest",
+              "text": "After Urithiru was freed, Odium appeared to Dalinar and proposed a contest of champions to settle the True Desolation. If the Coalition won, Alethkar and Herdaz would be returned and Odium would keep the peace; if Odium won, he would keep everything and take Dalinar's soul.",
+              "places": ["herdaz", "urithiru"]
+            }
+          ]
+        },
+        {
+          "id": "slavery-abolished",
+          "kind": "realm",
+          "told": [
+            {
+              "revealedIn": [{ "book": "wind-and-truth", "chapter": "61" }],
+              "title": "Slavery abolished",
+              "text": "Queen Jasnah passed a law ending slavery and freeing every Alethi slave. Little changed for many: former owners still treated them badly, some kept working for little or no pay, and others found society shut them out."
+            }
+          ]
+        },
+        {
+          "id": "alethkar-lost",
+          "kind": "war",
+          "told": [
+            {
+              "revealedIn": [{ "book": "wind-and-truth", "chapter": "146" }],
+              "title": "Alethkar is lost",
+              "text": "After the contest, Jasnah accepted that Alethkar had been lost. The Oathgates no longer offered a way to win it back, and her treaty had handed the Shattered Plains to the listeners.",
+              "places": ["shattered-plains"],
+              "after": ["contest-set"]
+            }
+          ]
         }
       ]
     }

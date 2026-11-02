@@ -2002,14 +2002,14 @@ export const generatedEntryArt: Record<string, EntryArt[]> = {
     },
   ],
   'culture:takama': [
-    // Folio page on unnamed models; its note states nothing past the entry's list book
+    // Wind and Truth interior folio page (file page: book sa5); its in-world note on the modern style can't be pinned to a chapter, so dated to that book's end
     {
       src: '/entries/culture-takama.webp',
       alt: 'Fashion folio page of a traditional and a modern takama',
       artist: 'Dan dos Santos',
       artistUrl:
         'https://coppermind.net/wiki/Coppermind:Artists/Dan_dos_Santos',
-      revealedIn: ['way-of-kings'],
+      revealedIn: ['wind-and-truth'],
     },
   ],
   'culture:thaylen-script': [

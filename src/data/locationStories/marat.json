@@ -15,13 +15,109 @@
       "revealedIn": [{ "book": "oathbringer", "chapter": "106" }]
     },
     {
-      "text": "The Marati are a proud people, brown-skinned and black-haired like the Tukari, with many customs, some belonging only to particular tribes.",
+      "text": "A wheat-like grain grows in Marat that pulls itself down into burrows. Clawed, disc-shaped creatures eat it and carry the seeds east in their droppings; there the seeds grow into polyps, which blow back west and become grain again.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "106" }]
+    },
+    {
+      "text": "Marat trades steadily with Alethkar, selling it furniture and rugs.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "26" },
+            { "book": "oathbringer", "chapter": "122" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "The Marati are a proud people, brown of skin and black of hair like their Tukari neighbours.",
       "revealedIn": [
         {
           "all": [
             { "book": "oathbringer", "chapter": "106" },
             { "book": "rhythm-of-war", "chapter": "30" }
           ]
+        }
+      ],
+      "fromCulture": "people"
+    }
+  ],
+  "culture": [
+    {
+      "title": [
+        {
+          "text": "People",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "106" },
+                { "book": "rhythm-of-war", "chapter": "30" }
+              ]
+            },
+            { "book": "oathbringer", "chapter": "106" }
+          ]
+        }
+      ],
+      "topic": "people",
+      "items": [
+        {
+          "text": "The Marati are a proud people, brown of skin and black of hair like their Tukari neighbours.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "106" },
+                { "book": "rhythm-of-war", "chapter": "30" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Some easterners, Taravangian among them, look on the Marati as barbarians.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "106" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Dress",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "31" },
+                { "book": "rhythm-of-war", "chapter": "30" }
+              ]
+            }
+          ]
+        }
+      ],
+      "topic": "dress",
+      "items": [
+        {
+          "text": "Marati clothes come in colours much like Azish patterns, but the cloth is thicker and coarser and wraps the body more fully, with long braided tassels falling from the waist. The style is common across southeastern Makabak.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "31" },
+                { "book": "rhythm-of-war", "chapter": "30" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Rugs and furniture",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "122" }]
+        }
+      ],
+      "topic": "arts",
+      "items": [
+        {
+          "text": "Fine Marati furniture and rugs are prized abroad. Dalinar Kholin furnished his barracks with them, Mraize keeps rugs from Marat, and Shallan received a fine Marati rug from Queen Fen as a wedding present.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "122" }]
         }
       ]
     }
@@ -64,6 +160,116 @@
         {
           "text": "One of the Fused's first moves was to gather a great force of singers in southern Marat. They pressed survivors into labour at the docks and built a fleet of over a hundred ships in Marat's ports to attack Thaylen City.",
           "revealedIn": [{ "book": "oathbringer", "chapter": "121" }]
+        }
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "id": "solitude",
+      "title": "Bazaars and trade",
+      "tone": "#e0b25c",
+      "moments": [
+        {
+          "id": "trade",
+          "kind": "realm",
+          "told": [
+            {
+              "revealedIn": [{ "book": "way-of-kings", "chapter": "26" }],
+              "title": "Rugs for Alethkar",
+              "text": "Marati rugs and furniture find their way as far as Alethkar, where Dalinar Kholin has decorated his barracks with them.",
+              "places": ["alethkar"]
+            },
+            {
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "way-of-kings", "chapter": "26" },
+                    { "book": "oathbringer", "chapter": "122" },
+                    { "book": "dawnshard", "chapter": "6" }
+                  ]
+                }
+              ],
+              "title": "Famed for rugs and bazaars",
+              "text": "Over the Era of Solitude, Marat grew famous for its furniture, its rugs and its great bazaars, and became a rich centre of trade, sending its goods all across Roshar, Alethkar included.",
+              "places": ["alethkar"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "true-desolation",
+      "title": [
+        {
+          "text": "The True Desolation",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "27" },
+            { "book": "oathbringer", "chapter": "106" },
+            { "book": "oathbringer", "chapter": "i-12" },
+            { "book": "oathbringer", "chapter": "111" }
+          ]
+        }
+      ],
+      "tone": "#5fb3c9",
+      "moments": [
+        {
+          "id": "singers-gather",
+          "kind": "war",
+          "told": [
+            {
+              "revealedIn": [{ "book": "oathbringer", "chapter": "27" }],
+              "title": "An army in the south",
+              "text": "Early in the Desolation, a large army of Voidbringers gathered in southern Marat."
+            },
+            {
+              "revealedIn": [{ "book": "oathbringer", "chapter": "106" }],
+              "title": "Under the singers",
+              "text": "Conquering Marat, the singers forced the survivors to work at the docks, though they let them burn their dead."
+            }
+          ]
+        },
+        {
+          "id": "skybreakers",
+          "kind": "magic",
+          "told": [
+            {
+              "revealedIn": [{ "book": "oathbringer", "chapter": "106" }],
+              "title": "Nale's revelation",
+              "text": "Szeth had passed through Marat once during his exile. Now Nale brought him and the rest of his followers here to reveal what had really happened in the First Desolation.",
+              "art": "character:nale"
+            }
+          ]
+        },
+        {
+          "id": "venli",
+          "kind": "magic",
+          "told": [
+            {
+              "revealedIn": [{ "book": "oathbringer", "chapter": "i-12" }],
+              "title": "Venli's stories",
+              "text": "Living in a cave in Marat, Venli told the gathered singers the story of the listeners to ready them to fight.",
+              "art": "character:venli"
+            }
+          ]
+        },
+        {
+          "id": "fleet",
+          "kind": "war",
+          "told": [
+            {
+              "revealedIn": [{ "book": "oathbringer", "chapter": "111" }],
+              "title": "A fleet in the harbours",
+              "text": "The Fused gathered more than a hundred ships in Marat's ports and coves."
+            },
+            {
+              "revealedIn": [{ "book": "oathbringer", "chapter": "121" }],
+              "title": "Sailing on Thaylen City",
+              "text": "From southern Marat, where they had massed and put the survivors to work, the singers launched a fleet of over a hundred ships. It sailed for Thaylen City with the surprise Everstorm and came back once Odium was defeated.",
+              "places": ["thaylen-city"],
+              "after": ["singers-gather", "venli"]
+            }
+          ]
         }
       ]
     }

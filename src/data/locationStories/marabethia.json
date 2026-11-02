@@ -11,27 +11,101 @@
   ],
   "description": [
     {
-      "text": "Yu-nerig are prized for their taste and their gemhearts. Marabethians love debate: pedestals stand at intersections for men to proclaim their arguments, and listeners are said to carry overripe fruit to discourage speakers they disagree with.",
+      "text": "The yu-nerig are prized for their succulent meat and their gemhearts.",
       "revealedIn": [{ "book": "way-of-kings", "chapter": "40" }]
     },
     {
-      "text": "Those guilty of serious crimes are hung over a seaside cliff at high tide, cheeks cut, as bait for the yu-nerig, and freed if they survive a week. Nearly all prefer this false hope to the execution they could demand. Marabethians believe sarpenthyn are the vengeful spirits of murdered children.",
+      "text": "Marabethians love to argue. Pedestals stand at street intersections so that men can climb up and declaim, and listeners are said to carry overripe fruit to discourage speakers they disagree with.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "40" }],
+      "fromCulture": "customs"
+    },
+    {
+      "text": "Serious criminals are hung over a seaside cliff at high tide, cheeks cut, as bait for the yu-nerig, and freed if they survive a week; most are attacked within a day. They may demand execution instead, but nearly all prefer false hope to certain death.",
       "revealedIn": [
         {
           "all": [
             { "book": "way-of-kings", "chapter": "40" },
-            { "book": "words-of-radiance", "chapter": "55" }
+            { "book": "words-of-radiance", "chapter": "49" }
           ]
         }
       ]
     },
     {
-      "text": "Marabethia has several local monarchs and is more a group of culturally similar states than a single nation; cities are led by high ministers. High judges wear a patterned shoulder cloak and a colourful skirt-like wrap, and men wear the Marabethian wrap. Many in the south follow the Purelaker religion.",
+      "text": "Marabethians believe sarpenthyn are the vengeful spirits of murdered children.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "55" }],
+      "fromCulture": "religion"
+    },
+    {
+      "text": "Marabethia has several local monarchs and is more a group of culturally similar states than a single nation. A city may be led by a high minister, and high judges are important keepers of the law.",
       "revealedIn": [{ "book": "oathbringer", "chapter": "92" }]
+    },
+    {
+      "text": "High judges wear a patterned shoulder cloak and a colourful skirt-like wrap. Men wear a garment called the Marabethian wrap, and a woman may wear just a cloth tied around her chest in place of a shirt.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "92" }],
+      "fromCulture": "dress"
+    },
+    {
+      "text": "Part of the population follows the Purelaker religion, especially in the south near the Purelake.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "92" }],
+      "fromCulture": "religion"
     },
     {
       "text": "The Skybreakers keep a stronghold on the southern edge along the Purelake, where they train acolytes. The government calls on them for help with enforcement and has granted them legal authority in the region.",
       "revealedIn": [{ "book": "oathbringer", "chapter": "98" }]
+    }
+  ],
+  "culture": [
+    {
+      "title": [
+        {
+          "text": "Beliefs",
+          "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "55" },
+            { "book": "oathbringer", "chapter": "92" }
+          ]
+        }
+      ],
+      "topic": "religion",
+      "items": [
+        {
+          "text": "Marabethians believe sarpenthyn are the vengeful spirits of murdered children.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "55" }]
+        },
+        {
+          "text": "Part of the population follows the Purelaker religion, especially in the south near the Purelake.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "92" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Dress",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "92" }]
+        }
+      ],
+      "topic": "dress",
+      "items": [
+        {
+          "text": "High judges wear a patterned shoulder cloak and a colourful skirt-like wrap. Men wear a garment called the Marabethian wrap, and a woman may wear just a cloth tied around her chest in place of a shirt.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "92" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Customs",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "40" }]
+        }
+      ],
+      "topic": "customs",
+      "items": [
+        {
+          "text": "Marabethians love to argue. Pedestals stand at street intersections so that men can climb up and declaim, and listeners are said to carry overripe fruit to discourage speakers they disagree with.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "40" }]
+        }
+      ]
     }
   ],
   "history": [
@@ -116,6 +190,203 @@
         {
           "text": "In 1174, Szeth and his fellow acolytes were brought to a town on the southern border, which held prisoners from across the region, to hunt down inmates who had escaped its jail. The jail keeper was caught and found guilty of pocketing funds meant for the prison.",
           "revealedIn": [{ "book": "oathbringer", "chapter": "92" }]
+        }
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "id": "long-ago",
+      "title": "Long ago",
+      "tone": "#8c7ae6",
+      "moments": [
+        {
+          "id": "singer-land",
+          "kind": "war",
+          "told": [
+            {
+              "revealedIn": [{ "book": "oathbringer", "chapter": "113" }],
+              "title": "Taken from the singers",
+              "text": "Singers lived here before humans came to Roshar. Some time after settling in what is now Shinovar, humans invaded, killing or driving out the singers and claiming the land. The story was forgotten until the Eila Stele was found."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "silver-kingdoms",
+      "title": [
+        {
+          "text": "The Silver Kingdoms",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "40" },
+                { "book": "oathbringer", "chapter": "i-1" }
+              ]
+            },
+            { "book": "way-of-kings", "chapter": "19" }
+          ]
+        }
+      ],
+      "tone": "#e0b25c",
+      "moments": [
+        {
+          "id": "sela-tales",
+          "kind": "realm",
+          "told": [
+            {
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "way-of-kings", "chapter": "40" },
+                    { "book": "oathbringer", "chapter": "i-1" }
+                  ]
+                }
+              ],
+              "title": "Part of Sela Tales",
+              "text": "In the age of the Silver Kingdoms this land belonged to Sela Tales. It is still counted among the Selay lands.",
+              "places": ["sela-tales"]
+            }
+          ]
+        },
+        {
+          "id": "desolations",
+          "kind": "legend",
+          "told": [
+            {
+              "revealedIn": [{ "book": "way-of-kings", "chapter": "19" }],
+              "title": "Desolation after Desolation",
+              "text": "Desolations struck this land again and again, along with the rest of Roshar."
+            },
+            {
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "way-of-kings", "chapter": "19" },
+                    { "book": "words-of-radiance", "chapter": "i-7" }
+                  ]
+                }
+              ],
+              "title": "Desolation after Desolation",
+              "text": "Desolations struck this land again and again, along with the rest of Roshar, each one throwing people back to stone tools until the returning Heralds helped them rebuild, often as far as bronze."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "after-last-desolation",
+      "title": [
+        {
+          "text": "After the Last Desolation",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "45" },
+                { "book": "oathbringer", "chapter": "119" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "40" },
+                { "book": "oathbringer", "chapter": "92" }
+              ]
+            },
+            { "book": "words-of-radiance", "chapter": "i-9" }
+          ]
+        }
+      ],
+      "tone": "#5fb3c9",
+      "moments": [
+        {
+          "id": "desolations-end",
+          "kind": "legend",
+          "told": [
+            {
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "way-of-kings", "chapter": "45" },
+                    { "book": "oathbringer", "chapter": "119" }
+                  ]
+                }
+              ],
+              "title": "The Desolations end",
+              "text": "After the Last Desolation, no more Desolations came to ravage the nations, and society grew stronger than ever before.",
+              "after": ["desolations"]
+            }
+          ]
+        },
+        {
+          "id": "breakup",
+          "kind": "realm",
+          "told": [
+            {
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "way-of-kings", "chapter": "40" },
+                    { "book": "oathbringer", "chapter": "92" }
+                  ]
+                }
+              ],
+              "title": "A cluster of states",
+              "text": "By the present day Sela Tales was long gone, and in its place Marabethia was less a true nation than a cluster of states sharing one culture, with several local monarchs.",
+              "places": ["sela-tales"],
+              "after": ["sela-tales"]
+            }
+          ]
+        },
+        {
+          "id": "lift",
+          "kind": "realm",
+          "told": [
+            {
+              "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-9" }],
+              "title": "Lift passes through",
+              "text": "Lift spent time in Marabethia, hunted by a man she called Darkness, before moving on to Azir.",
+              "places": ["azir"],
+              "art": "character:lift"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "true-desolation",
+      "title": [
+        {
+          "text": "The True Desolation",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "24" },
+            { "book": "oathbringer", "chapter": "92" }
+          ]
+        }
+      ],
+      "tone": "#d9645a",
+      "moments": [
+        {
+          "id": "coalition",
+          "kind": "realm",
+          "told": [
+            {
+              "revealedIn": [{ "book": "oathbringer", "chapter": "24" }],
+              "title": "No answer to the coalition",
+              "text": "When the True Desolation came, the coalition of monarchs asked Marabethia for aid and alliance. It never replied."
+            }
+          ]
+        },
+        {
+          "id": "skybreaker-hunt",
+          "kind": "realm",
+          "told": [
+            {
+              "revealedIn": [{ "book": "oathbringer", "chapter": "92" }],
+              "title": "Skybreakers hunt escaped prisoners",
+              "text": "Szeth and his fellow acolytes were sent to a town on the southern border, home to Reshi idealists and to a jail for prisoners from across the region, to track down inmates who had broken out. The jail keeper was caught and convicted of pocketing money meant for the prison's upkeep."
+            }
+          ]
         }
       ]
     }

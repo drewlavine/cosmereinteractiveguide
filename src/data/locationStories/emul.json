@@ -29,20 +29,50 @@
   ],
   "description": [
     {
-      "text": "Rejecting the Almighty, the Emuli believe Jezrien, whom they call the Prime Kadasix, is the only god. They say he named their kingdom and their capital, Sesemalex Dar, whose pattern is sacred to them.",
-      "revealedIn": [{ "book": "way-of-kings", "chapter": "55" }]
+      "text": "The Emuli turn away from the Almighty: for them the only god is Jezrien, whom they call the Prime Kadasix. In their stories he gave both the kingdom and its capital, Sesemalex Dar, their names.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "55" }],
+      "fromCulture": "religion"
     },
     {
-      "text": "Emuli men usually wear robes and the women flowing gowns, and both wear headdresses, especially elaborate ones at weddings.",
-      "revealedIn": [{ "book": "way-of-kings", "chapter": "55" }]
+      "text": "The Emuli see Sesemalex Dar as their ancestral home, given to them by the Heralds, and the city's pattern lies at the heart of their faith, one reason they fight so hard to hold it. Their religion looks like an offshoot of Vorinism, or the reverse, yet the Vorin peoples to the east call them pagans.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "55" }],
+      "fromCulture": "religion"
     },
     {
-      "text": "The Emuli are kind and accommodating to foreigners, treating them as relatives visiting from afar and often hosting strangers for dinner in exchange for a gift of fruit.",
+      "text": "Emuli men usually wear robes, and the women flowing gowns with wraps over their heads.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "55" }],
+      "fromCulture": "dress"
+    },
+    {
+      "text": "Most Emuli farm, growing tallew and lurnips to live on, though the war has pulled many farmers into the army and left their fields open to raiders. Some Emuli earn their living as mercenaries abroad. Sesemalex Dar is a superb port and a key stop for trade along the southwest coast, and its crem pottery is famous.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "55" },
+            { "book": "edgedancer", "chapter": "4" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "The Emuli are warm and obliging to foreigners, welcoming them like kin come from afar, and will often invite a stranger to dinner in return for a gift of fruit, exotic fruit above all. Even among Makabaki peoples, they are unusually unwilling to give offence.",
       "revealedIn": [
         {
           "all": [
             { "book": "way-of-kings", "chapter": "55" },
             { "book": "oathbringer", "chapter": "12" }
+          ]
+        }
+      ],
+      "fromCulture": "people"
+    },
+    {
+      "text": "Azir lies to Emul's north, Tashikk to its northwest, Marat to its southeast and Tukar to its south. Its capital, Sesemalex Dar, stands on the coast near the Tukari border. Fighting Tukar has left the country in pieces.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "54" },
+            { "book": "oathbringer", "chapter": "96" }
           ]
         }
       ]
@@ -54,6 +84,157 @@
           "all": [
             { "book": "way-of-kings", "chapter": "55" },
             { "book": "oathbringer", "chapter": "111" }
+          ]
+        }
+      ],
+      "fromCulture": "warfare"
+    },
+    {
+      "text": "Like the Azish, Emul is led by a Prime, in 1174 Vexil the Wise, often simply called Emul. It owes Azir some deference: its Prime may not marry another Makabaki monarch without the Prime Aqasix's leave. Still, Emul has long gone its own way more than other Makabaki lands, making its own foreign agreements. Its laws are lenient to foreigners, though they may not own property or a shop there, and it holds a few Soulcasters.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "55" },
+            { "book": "words-of-radiance", "chapter": "i-14" },
+            { "book": "oathbringer", "chapter": "122" }
+          ]
+        }
+      ]
+    }
+  ],
+  "culture": [
+    {
+      "title": [
+        {
+          "text": "People",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "55" },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "55" },
+                { "book": "oathbringer", "chapter": "12" }
+              ]
+            }
+          ]
+        }
+      ],
+      "topic": "people",
+      "items": [
+        {
+          "text": "The Emuli count as a tribe of the Askarki people. They look Makabaki, dark brown of skin and black-haired, and speak with a smooth accent.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "55" }]
+        },
+        {
+          "text": "The Emuli are warm and obliging to foreigners, welcoming them like kin come from afar, and will often invite a stranger to dinner in return for a gift of fruit, exotic fruit above all. Even among Makabaki peoples, they are unusually unwilling to give offence.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "55" },
+                { "book": "oathbringer", "chapter": "12" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Faith",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "55" },
+            { "book": "way-of-kings", "chapter": "i-7" }
+          ]
+        }
+      ],
+      "topic": "religion",
+      "items": [
+        {
+          "text": "The Emuli turn away from the Almighty: for them the only god is Jezrien, whom they call the Prime Kadasix. In their stories he gave both the kingdom and its capital, Sesemalex Dar, their names.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "55" }]
+        },
+        {
+          "text": "The other Heralds are holy to the Emuli as well, as Kadasixes. Wealthy families set aside a Hallowed Hall at home with images of the Kadasixes, and a prayer usually opens with ‘If the Prime Kadasix could provide’, states its wish and closes with ‘thank you’.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "i-7" }]
+        },
+        {
+          "text": "The Emuli see Sesemalex Dar as their ancestral home, given to them by the Heralds, and the city's pattern lies at the heart of their faith, one reason they fight so hard to hold it. Their religion looks like an offshoot of Vorinism, or the reverse, yet the Vorin peoples to the east call them pagans.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "55" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Dress",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "55" }]
+        }
+      ],
+      "topic": "dress",
+      "items": [
+        {
+          "text": "Emuli men usually wear robes, and the women flowing gowns with wraps over their heads.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "55" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Greetings and food",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "55" }]
+        }
+      ],
+      "topic": "customs",
+      "items": [
+        {
+          "text": "Old friends greet one another by touching the left forefinger to the forehead and bowing. Emuli cooking tends to be salty.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "55" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "War",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "55" },
+                { "book": "oathbringer", "chapter": "111" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "edgedancer", "chapter": "3" },
+                { "book": "oathbringer", "chapter": "24" }
+              ]
+            }
+          ]
+        }
+      ],
+      "topic": "warfare",
+      "items": [
+        {
+          "text": "The Emuli think it crass to strike another warrior directly and prefer to fight from a distance: leaders favour the bow, then spears and halberds, with swords last.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "55" },
+                { "book": "oathbringer", "chapter": "111" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Many Emuli soldiers are drafted farmers, and the army is not especially skilled: the Tukari are thought the better fighters.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "edgedancer", "chapter": "3" },
+                { "book": "oathbringer", "chapter": "24" }
+              ]
+            }
           ]
         }
       ]
@@ -132,6 +313,219 @@
         {
           "text": "Emul seceded from the Azish Empire alongside Tashikk and joined Odium, despite the coalition's recent campaign to defend it.",
           "revealedIn": [{ "book": "wind-and-truth", "chapter": "126" }]
+        }
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "id": "long-ago",
+      "title": "Long ago",
+      "tone": "#8c7ae6",
+      "moments": [
+        {
+          "id": "makabakam",
+          "kind": "realm",
+          "told": [
+            {
+              "revealedIn": [{ "book": "way-of-kings", "chapter": "55" }],
+              "title": "A kingdom of their own",
+              "text": "The Emuli, a tribe of the Askarki people, founded a kingdom of their own, with Sesemalex Dar as its capital.",
+              "places": ["sesemalex-dar"]
+            },
+            {
+              "revealedIn": ["way-of-kings"],
+              "title": "From Makabakam to a kingdom",
+              "text": "In the age of the Silver Kingdoms, Emul's lands lay within Makabakam. Afterwards the Emuli, a tribe of the Askarki people, founded a kingdom of their own with Sesemalex Dar as its capital.",
+              "places": ["makabakam", "sesemalex-dar"]
+            }
+          ]
+        },
+        {
+          "id": "under-azir",
+          "kind": "realm",
+          "told": [
+            {
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "oathbringer", "chapter": "65" },
+                    { "book": "wind-and-truth", "chapter": "126" }
+                  ]
+                }
+              ],
+              "title": "Under the Azish Empire",
+              "text": "Centuries ago Emul came under the Azish Empire, though it often acted on its own. Over those centuries the Emuli came to feel the empire's rule as domination.",
+              "places": ["azir"],
+              "after": ["makabakam"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "famine-and-war",
+      "title": "Famine and war",
+      "tone": "#e0b25c",
+      "moments": [
+        {
+          "id": "famine",
+          "kind": "realm",
+          "told": [
+            {
+              "revealedIn": [{ "book": "way-of-kings", "chapter": "i-7" }],
+              "title": "The lurnip famine",
+              "text": "A few decades before 1173, the lurnip crop failed in Emul and many people starved."
+            }
+          ]
+        },
+        {
+          "id": "eightys-war",
+          "kind": "war",
+          "told": [
+            {
+              "revealedIn": [{ "book": "way-of-kings", "chapter": "54" }],
+              "title": "A feud over Sesemalex Dar",
+              "text": "Emul and Tukar have quarrelled for a long time over Sesemalex Dar, a city holy to the Emuli and a fine port.",
+              "places": ["tukar", "sesemalex-dar"]
+            },
+            {
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "way-of-kings", "chapter": "54" },
+                    { "book": "words-of-radiance", "chapter": "i-14" },
+                    { "book": "edgedancer", "chapter": "3" }
+                  ]
+                }
+              ],
+              "title": "The Eighty's War",
+              "text": "Since 1167 Emul and Tukar have fought the Eighty's War, the latest round of their religious struggle for Sesemalex Dar. Emul kept the city, but the fighting went ever worse for it and refugees fled into Tashikk.",
+              "places": ["tukar", "sesemalex-dar", "tashikk"],
+              "art": "place:sesemalex-dar"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "true-desolation",
+      "title": [
+        {
+          "text": "The True Desolation",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "24" },
+            { "book": "oathbringer", "chapter": "65" },
+            { "book": "oathbringer", "chapter": "107" }
+          ]
+        }
+      ],
+      "tone": "#5fb3c9",
+      "moments": [
+        {
+          "id": "courted",
+          "kind": "realm",
+          "told": [
+            {
+              "revealedIn": [{ "book": "oathbringer", "chapter": "24" }],
+              "title": "Courted by the coalition",
+              "text": "With Emul and Tukar at war, Dalinar Kholin's coalition saw it could hope to win over only one of them. When Tezim of Tukar turned the offer down, it set out to court Emul instead.",
+              "places": ["tukar"]
+            }
+          ]
+        },
+        {
+          "id": "overrun",
+          "kind": "war",
+          "told": [
+            {
+              "revealedIn": [{ "book": "oathbringer", "chapter": "65" }],
+              "title": "Emul burns",
+              "text": "Squeezed between the Voidbringers and the Tukari, Emul saw much of its land burned, and the kingdom was left a small remnant of what it had been."
+            },
+            {
+              "revealedIn": [{ "book": "oathbringer", "chapter": "96" }],
+              "title": "Broken apart",
+              "text": "Fighting the Tukari and the Voidbringers at once left Emul shattered into pieces, unable to stand alone."
+            }
+          ]
+        },
+        {
+          "id": "joins-coalition",
+          "kind": "realm",
+          "told": [
+            {
+              "revealedIn": [{ "book": "oathbringer", "chapter": "107" }],
+              "title": "Joining the coalition",
+              "text": "Mustering in Marat, the singers fought their way across Emul. After that blow, and with Azir already in, Emul joined Dalinar's coalition. Its Prime, Vexil the Wise, went with Ashno of Sages through Azimir's Oathgate to Urithiru and pressed for help winning their land back from the Tukari, but the coalition judged it a poor use of its strength. Highprince Aladar and his scribes did advise Vexil on fortifying what remained.",
+              "places": ["marat", "azimir", "urithiru"],
+              "after": ["courted", "overrun"],
+              "art": "character:aladar"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "emul-campaign",
+      "title": "The campaign in Emul",
+      "tone": "#e3c35a",
+      "moments": [
+        {
+          "id": "stalemate",
+          "kind": "war",
+          "told": [
+            {
+              "revealedIn": [{ "book": "rhythm-of-war", "chapter": "17" }],
+              "title": "A stalled front",
+              "text": "The next year the coalition's war in Emul ground to a halt amid skirmishes and Skybreaker attacks on its forces."
+            }
+          ]
+        },
+        {
+          "id": "retaking",
+          "kind": "war",
+          "told": [
+            {
+              "revealedIn": [{ "book": "rhythm-of-war", "chapter": "19" }],
+              "title": "Agreeing to push in",
+              "text": "In 1175 the coalition's leaders all agreed to drive into Emul and beat the singer armies there."
+            },
+            {
+              "revealedIn": [{ "book": "rhythm-of-war", "chapter": "98" }],
+              "title": "Emuli commanders",
+              "text": "In 1175 the coalition's leaders all agreed to drive into Emul and beat the singer armies there. Commanders of the Emuli army shared the lead in this campaign to win back their homeland."
+            },
+            {
+              "revealedIn": [{ "book": "rhythm-of-war", "chapter": "112" }],
+              "title": "Victory in Emul",
+              "text": "After a long stalemate under Skybreaker attack, the coalition agreed in 1175 to drive into Emul against the singers. With Emuli commanders sharing the lead, the campaign to win back their homeland succeeded."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "new-allegiance",
+      "title": [
+        {
+          "text": "A new allegiance",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "126" }]
+        }
+      ],
+      "tone": "#d9645a",
+      "moments": [
+        {
+          "id": "secession",
+          "kind": "war",
+          "told": [
+            {
+              "revealedIn": [{ "book": "wind-and-truth", "chapter": "126" }],
+              "title": "Leaving the empire",
+              "text": "On Palahanes 1175, Emul and Tashikk broke away from the Azish Empire and joined Odium's forces. Coming so soon after the campaign to save Emul, the change of sides left the Azish feeling deeply betrayed.",
+              "places": ["tashikk", "azir"]
+            }
+          ]
         }
       ]
     }

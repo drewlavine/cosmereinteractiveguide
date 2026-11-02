@@ -18,15 +18,21 @@
   ],
   "description": [
     {
-      "text": "Iri's largest city is Rall Elorim, the City of Shadows, followed by Kasitor, where many worship the giant spren Cusicesh the Protector. Iri also contains the city of Eila.",
+      "text": "Rall Elorim, known as the City of Shadows, is the biggest city in Iri, with Kasitor a close second. Iri is a warm land.",
       "revealedIn": [{ "book": "way-of-kings", "chapter": "i-5" }]
     },
     {
-      "text": "The Iriali believe they are not native to Roshar but walk the Long Trail through seven Lands, of which Roshar is the Fourth. They revere the One, which knew everything but had experienced nothing, and so became Many to experience all things.",
-      "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-2" }]
+      "text": "The Iriali believe they are not native to Roshar. They walk the Long Trail, a journey through seven Lands that must all be attained before they become One again, and Roshar is the Fourth.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-2" }],
+      "fromCulture": "religion"
     },
     {
-      "text": "The Iriali have metallic golden-blond skin and hair, and many Alethi consider a lock of it good luck. Most have yellow eyes. They are strict about chastity but less quarrelsome and prudish than the Vorin nations.",
+      "text": "They revere the One, which they do not count as a god.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-2" }],
+      "fromCulture": "religion"
+    },
+    {
+      "text": "The Iriali have golden hair and skin with a metallic sheen, a trait that breeds true, and most of them have yellow eyes. Many Alethi think a lock of Iriali hair brings good luck.",
       "revealedIn": [
         {
           "all": [
@@ -34,11 +40,102 @@
             { "book": "words-of-radiance", "chapter": "20" }
           ]
         }
+      ],
+      "fromCulture": "people"
+    },
+    {
+      "text": "The Iriali keep strict chastity laws and dislike public nakedness, yet they are less quarrelsome and less prudish than the Vorin peoples.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "i-5" },
+            { "book": "words-of-radiance", "chapter": "20" }
+          ]
+        }
+      ],
+      "fromCulture": "people"
+    },
+    {
+      "text": "Iri is ruled by three monarchs at once, at present two kings and a queen, and the queen oversees foreign policy. The kingdom owns no Soulcasters.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "19" }]
+    }
+  ],
+  "culture": [
+    {
+      "title": [
+        {
+          "text": "People",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "i-5" },
+                { "book": "words-of-radiance", "chapter": "20" }
+              ]
+            },
+            { "book": "words-of-radiance", "chapter": "54" }
+          ]
+        }
+      ],
+      "topic": "people",
+      "items": [
+        {
+          "text": "The Iriali have golden hair and skin with a metallic sheen, a trait that breeds true, and most of them have yellow eyes. Many Alethi think a lock of Iriali hair brings good luck.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "i-5" },
+                { "book": "words-of-radiance", "chapter": "20" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "The Iriali keep strict chastity laws and dislike public nakedness, yet they are less quarrelsome and less prudish than the Vorin peoples.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "i-5" },
+                { "book": "words-of-radiance", "chapter": "20" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Out on the Iri plains live the runners, a people said to fight few wars, and gentler ones than elsewhere.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "54" }]
+        }
       ]
     },
     {
-      "text": "Iri is ruled by a triumvirate, regardless of the rulers' gender; each monarch has their own responsibilities, and the queen oversees foreign policy.",
-      "revealedIn": [{ "book": "oathbringer", "chapter": "19" }]
+      "title": [
+        {
+          "text": "Faith",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "i-5" },
+            { "book": "words-of-radiance", "chapter": "i-2" },
+            { "book": "oathbringer", "chapter": "16" }
+          ]
+        }
+      ],
+      "topic": "religion",
+      "items": [
+        {
+          "text": "In Kasitor some worship Cusicesh the Protector, a spren that rises from the water by the city's docks each morning, as a god, though most simply count him part of the city.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "i-5" }]
+        },
+        {
+          "text": "The Iriali believe they are not native to Roshar. They walk the Long Trail, a journey through seven Lands that must all be attained before they become One again, and Roshar is the Fourth.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-2" }]
+        },
+        {
+          "text": "They revere the One, which they do not count as a god.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-2" }]
+        },
+        {
+          "text": "The Iriali reject priests and preaching as foreign ideas. Instead, tidereaders study the ocean's waves to foretell the future, and the queen keeps one at her court.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "16" }]
+        }
+      ]
     }
   ],
   "history": [
@@ -90,6 +187,138 @@
         {
           "text": "Cusicesh opened a perpendicularity, and the Iriali began leaving Roshar through Shadesmar for the next land of the Long Trail.",
           "revealedIn": [{ "book": "wind-and-truth", "chapter": "i-11" }]
+        }
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "id": "long-ago",
+      "title": "Long ago",
+      "tone": "#8c7ae6",
+      "moments": [
+        {
+          "id": "silver-kingdom",
+          "kind": "realm",
+          "told": [
+            {
+              "revealedIn": [{ "book": "oathbringer", "chapter": "16" }],
+              "title": "A Silver Kingdom",
+              "text": "Iri was once one of the Silver Kingdoms."
+            }
+          ]
+        },
+        {
+          "id": "arrival",
+          "kind": "realm",
+          "told": [
+            {
+              "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-2" }],
+              "title": "The Fourth Land",
+              "text": "The Iriali believe they came to Roshar from another land: Roshar is the Fourth of the seven Lands on their Long Trail."
+            }
+          ]
+        },
+        {
+          "id": "rira-claim",
+          "kind": "realm",
+          "told": [
+            {
+              "revealedIn": [{ "book": "oathbringer", "chapter": "16" }],
+              "title": "A claim on Rira",
+              "text": "Iri claims Rira as a vassal, though Rira disputes the claim.",
+              "places": ["rira-country"],
+              "after": ["silver-kingdom"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "desolation",
+      "title": [
+        {
+          "text": "The True Desolation",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "16" },
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "122" },
+                { "book": "rhythm-of-war", "chapter": "19" }
+              ]
+            }
+          ]
+        }
+      ],
+      "tone": "#d9645a",
+      "moments": [
+        {
+          "id": "refuses",
+          "kind": "realm",
+          "told": [
+            {
+              "revealedIn": [{ "book": "oathbringer", "chapter": "16" }],
+              "title": "Answering Dalinar",
+              "text": "When Dalinar Kholin sought Iri for his coalition, he wrote to its queen, who handles foreign affairs. She answered that Iri was weighing a treaty with the Voidbringers instead, and she demanded a set of Shardplate from him, though her claim to it was weak.",
+              "places": ["alethkar"],
+              "art": "character:dalinar-kholin"
+            }
+          ]
+        },
+        {
+          "id": "surrender",
+          "kind": "realm",
+          "told": [
+            {
+              "revealedIn": [{ "book": "oathbringer", "chapter": "16" }],
+              "title": "Choosing surrender",
+              "text": "Looking through their histories, the Iriali saw that humans had never tried yielding to escape a Desolation, and felt bound to try it, since the One had never yet lived through it."
+            }
+          ]
+        },
+        {
+          "id": "strikes-east",
+          "kind": "war",
+          "told": [
+            {
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "oathbringer", "chapter": "122" },
+                    { "book": "rhythm-of-war", "chapter": "19" }
+                  ]
+                }
+              ],
+              "title": "Striking east",
+              "text": "Iri struck east alongside Odium's forces, occupying Rira and taking most of the western kingdoms around the Purelake. It became a staging ground for troops, and the place Odium's navy fell back to after a defeat by the coalition.",
+              "places": ["rira-country", "purelake"],
+              "after": ["surrender"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "leaving",
+      "title": [
+        {
+          "text": "Leaving Roshar",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "i-11" }]
+        }
+      ],
+      "tone": "#5fb3c9",
+      "moments": [
+        {
+          "id": "departure",
+          "kind": "realm",
+          "told": [
+            {
+              "revealedIn": [{ "book": "wind-and-truth", "chapter": "i-11" }],
+              "title": "Through Cusicesh's gate",
+              "text": "Cusicesh the Protector opened a perpendicularity, and the Iriali left Roshar, passing into Shadesmar to go on along their Long Trail.",
+              "art": "character:cusicesh"
+            }
+          ]
         }
       ]
     }

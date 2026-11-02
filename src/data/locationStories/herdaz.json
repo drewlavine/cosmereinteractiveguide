@@ -19,7 +19,7 @@
   ],
   "description": [
     {
-      "text": "Herdazians have large families, so one person can be related to half the country, and they stick together wherever they live. Across western Roshar they are thought extremely boastful, and their women tough and hard to impress.",
+      "text": "Herdazian families are huge, so a single person may be kin to half the country, and Herdazians stand by one another wherever they live. Across western Roshar they are thought extremely boastful, and their women tough and hard to impress.",
       "revealedIn": [
         {
           "all": [
@@ -27,10 +27,11 @@
             { "book": "words-of-radiance", "chapter": "87" }
           ]
         }
-      ]
+      ],
+      "fromCulture": "people"
     },
     {
-      "text": "Herdazian food uses many kinds of shellfood and flatbread; chull head is a delicacy. The most famous dish is chouta, fried Soulcast meat wrapped tightly in flatbread with sauce.",
+      "text": "Herdazian cooking relies on many kinds of shellfood and on flatbread, and chull head counts as a delicacy. The best-known dish is chouta: Soulcast meat, fried, rolled tight in flatbread and topped with sauce.",
       "revealedIn": [
         {
           "all": [
@@ -38,10 +39,11 @@
             { "book": "oathbringer", "chapter": "13" }
           ]
         }
-      ]
+      ],
+      "fromCulture": "food"
     },
     {
-      "text": "Herdazians have singer blood in their ancestry. Its clearest sign is their crystalline, slate-coloured fingernails, strong enough to strike a fire.",
+      "text": "Herdazian fingernails are crystalline and slate-coloured, hard enough to strike a fire with.",
       "revealedIn": [
         {
           "all": [
@@ -50,16 +52,235 @@
             { "book": "oathbringer", "chapter": "35" }
           ]
         }
-      ]
+      ],
+      "fromCulture": "people"
     },
     {
-      "text": "Most Herdazian homes have a small ornamental chimney besides the large one, for the smoke of glyphwards burned in personal worship. Herdazian Vorinism allows men to read.",
+      "text": "Herdaz is a kingdom whose king comes from a fairly new dynasty.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "49" }]
+    },
+    {
+      "text": "Herdazian Vorinism allows men to read.",
       "revealedIn": [
         {
           "all": [
             { "book": "words-of-radiance", "chapter": "12" },
             { "book": "oathbringer", "chapter": "50" }
           ]
+        }
+      ],
+      "fromCulture": "religion"
+    },
+    {
+      "text": "The crown owns one Shardblade and one set of Shardplate, which pass down the royal line.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "23" },
+            { "book": "oathbringer", "chapter": "75" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Most of the country is a run of long, narrow peninsulas reaching into the sea. The interior is fairly flat, divided by one major river.",
+      "revealedIn": ["oathbringer"]
+    }
+  ],
+  "culture": [
+    {
+      "title": [
+        {
+          "text": "People",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "32" },
+                { "book": "edgedancer", "chapter": "7" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "i-4" },
+                { "book": "words-of-radiance", "chapter": "87" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "26" },
+                { "book": "words-of-radiance", "chapter": "43" },
+                { "book": "oathbringer", "chapter": "35" }
+              ]
+            }
+          ]
+        }
+      ],
+      "topic": "people",
+      "items": [
+        {
+          "text": "Herdazians are brown-skinned and brown-haired, darker than the Alethi but lighter than the Makabaki, and similar enough to the Reshi to be taken for them.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "32" },
+                { "book": "edgedancer", "chapter": "7" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Herdazian families are huge, so a single person may be kin to half the country, and Herdazians stand by one another wherever they live. Across western Roshar they are thought extremely boastful, and their women tough and hard to impress.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "i-4" },
+                { "book": "words-of-radiance", "chapter": "87" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Herdazian fingernails are crystalline and slate-coloured, hard enough to strike a fire with.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "26" },
+                { "book": "words-of-radiance", "chapter": "43" },
+                { "book": "oathbringer", "chapter": "35" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Faith",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "12" },
+                { "book": "oathbringer", "chapter": "50" }
+              ]
+            },
+            { "book": "dawnshard", "chapter": "18" }
+          ]
+        }
+      ],
+      "topic": "religion",
+      "items": [
+        {
+          "text": "Herdazian Vorinism allows men to read.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "12" },
+                { "book": "oathbringer", "chapter": "50" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Long ago Herdazians worshipped gods of their own, and some still pray to them now and then.",
+          "revealedIn": [{ "book": "dawnshard", "chapter": "18" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Food",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "46" },
+                { "book": "oathbringer", "chapter": "13" }
+              ]
+            }
+          ]
+        }
+      ],
+      "topic": "food",
+      "items": [
+        {
+          "text": "Herdazian cooking relies on many kinds of shellfood and on flatbread, and chull head counts as a delicacy. The best-known dish is chouta: Soulcast meat, fried, rolled tight in flatbread and topped with sauce.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "46" },
+                { "book": "oathbringer", "chapter": "13" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Herdazians abroad",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "87" },
+                { "book": "oathbringer", "chapter": "68" }
+              ]
+            }
+          ]
+        }
+      ],
+      "topic": "society",
+      "items": [
+        {
+          "text": "Herdazians who settle abroad in numbers often make districts of their own, like Little Herdaz in Highprince Sebarial's warcamp, and keep their ways there. Chouta became a favourite street food of the warcamps and is sold even in Kholinar.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "87" },
+                { "book": "oathbringer", "chapter": "68" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Language",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "32" },
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "121" },
+                { "book": "dawnshard", "chapter": "5" }
+              ]
+            },
+            { "book": "rhythm-of-war", "chapter": "1" }
+          ]
+        }
+      ],
+      "topic": "language",
+      "items": [
+        {
+          "text": "In Herdazian, a moolie is someone mute or quiet.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "32" }]
+        },
+        {
+          "text": "Other Herdazian words include gancho or gancha, a casual way to address a superior, and chortana, a formidable woman.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "121" },
+                { "book": "dawnshard", "chapter": "5" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Enne is an old Herdazian honorific meaning roughly \"great\".",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "1" }]
         }
       ]
     }
@@ -126,6 +347,248 @@
         {
           "text": "Dieno's attempt to restore the country's independence failed, and Herdaz remained under Retribution after the contest.",
           "revealedIn": ["wind-and-truth"]
+        }
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "id": "long-ago",
+      "title": "Long ago",
+      "tone": "#8c7ae6",
+      "moments": [
+        {
+          "id": "singer-land",
+          "kind": "legend",
+          "told": [
+            {
+              "revealedIn": [{ "book": "oathbringer", "chapter": "113" }],
+              "title": "A land taken from the singers",
+              "text": "Before humans came to Roshar, singers lived in the land that became Herdaz. After humans settled in the far west, they spread across the continent by force and took this land too."
+            }
+          ]
+        },
+        {
+          "id": "rishir",
+          "kind": "realm",
+          "told": [
+            {
+              "revealedIn": ["way-of-kings"],
+              "title": "Part of Rishir",
+              "text": "In the time of the Silver Kingdoms, this land belonged to the kingdom of Rishir, with the Reshi Isles and the north of what became Jah Keved, Alethkar and Tu Bayla.",
+              "places": ["rishir"]
+            }
+          ]
+        },
+        {
+          "id": "young-nation",
+          "kind": "realm",
+          "told": [
+            {
+              "revealedIn": [{ "book": "dawnshard", "chapter": "13" }],
+              "title": "A young nation",
+              "text": "Herdaz became a country of its own only after the scouring of Aimia, so it is a fairly young nation."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sunmaker",
+      "title": [
+        {
+          "text": "The Sunmaker and after",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "24" }]
+        }
+      ],
+      "tone": "#e0b25c",
+      "moments": [
+        {
+          "id": "sunmaker-conquest",
+          "kind": "war",
+          "told": [
+            {
+              "revealedIn": [{ "book": "oathbringer", "chapter": "24" }],
+              "title": "Conquered by the Sunmaker",
+              "text": "The warlord Sadees, the Sunmaker, took Herdaz early in his conquests. After his death his sons could not keep it."
+            }
+          ]
+        },
+        {
+          "id": "first-target",
+          "kind": "war",
+          "told": [
+            {
+              "revealedIn": [{ "book": "oathbringer", "chapter": "24" }],
+              "title": "Alethkar's first target",
+              "text": "Ever since, Herdaz has been the usual first step whenever Alethkar sets out to conquer, and the two countries are bitter neighbours.",
+              "places": ["alethkar"],
+              "after": ["sunmaker-conquest"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "new-dynasty",
+      "title": [
+        {
+          "text": "A new dynasty",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "52" }]
+        }
+      ],
+      "when": [
+        {
+          "text": "About twenty years before the books",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "52" }]
+        }
+      ],
+      "tone": "#5fb3c9",
+      "moments": [
+        {
+          "id": "reshi-house",
+          "kind": "realm",
+          "told": [
+            {
+              "revealedIn": [{ "book": "oathbringer", "chapter": "52" }],
+              "title": "A Reshi house takes the throne",
+              "text": "After Gavilar Kholin united Alethkar, a Reshi house came to power in Herdaz, and its new king tested the Alethi borders."
+            }
+          ]
+        },
+        {
+          "id": "border-wars",
+          "kind": "war",
+          "told": [
+            {
+              "revealedIn": [{ "book": "oathbringer", "chapter": "52" }],
+              "title": "Dalinar's border campaigns",
+              "text": "Alethkar answered with armies under the king's brother, Dalinar Kholin, who fought in the borderlands for about four years. The modern border between the two countries took shape then.",
+              "places": ["alethkar"],
+              "after": ["reshi-house"],
+              "art": "character:dalinar-kholin"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "desolation",
+      "title": [
+        {
+          "text": "The True Desolation",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "41" },
+                { "book": "oathbringer", "chapter": "96" }
+              ]
+            },
+            { "book": "oathbringer", "chapter": "i-10" },
+            { "book": "rhythm-of-war", "chapter": "1" }
+          ]
+        }
+      ],
+      "tone": "#d9645a",
+      "moments": [
+        {
+          "id": "leaving",
+          "kind": "realm",
+          "told": [
+            {
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "words-of-radiance", "chapter": "41" },
+                    { "book": "oathbringer", "chapter": "96" }
+                  ]
+                }
+              ],
+              "title": "Many Herdazians leave",
+              "text": "Before the Desolation many Herdazians left the country; some came back now and then, others never did."
+            }
+          ]
+        },
+        {
+          "id": "everstorm",
+          "kind": "realm",
+          "told": [
+            {
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "words-of-radiance", "chapter": "41" },
+                    { "book": "oathbringer", "chapter": "96" }
+                  ]
+                }
+              ],
+              "title": "Through the Everstorm",
+              "text": "Herdaz came through the Everstorm with little damage. When Dalinar asked it to join his coalition, its leaders at first suspected a trick to invade them."
+            }
+          ]
+        },
+        {
+          "id": "alethi-retreat",
+          "kind": "war",
+          "told": [
+            {
+              "revealedIn": [{ "book": "oathbringer", "chapter": "i-10" }],
+              "title": "Alethi armies cross the border",
+              "text": "Alethi armies that had fought the singers' advance in their own country were soon forced over the border into Herdaz.",
+              "places": ["alethkar"]
+            }
+          ]
+        },
+        {
+          "id": "fall",
+          "kind": "war",
+          "told": [
+            {
+              "revealedIn": [{ "book": "rhythm-of-war", "chapter": "1" }],
+              "title": "Herdaz falls",
+              "text": "The Herdazian army held off the Fused for many months before the country fell.",
+              "after": ["alethi-retreat"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "occupation",
+      "title": [
+        {
+          "text": "Under occupation",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "21" },
+            "wind-and-truth"
+          ]
+        }
+      ],
+      "tone": "#9bb36a",
+      "moments": [
+        {
+          "id": "troops-move",
+          "kind": "war",
+          "told": [
+            {
+              "revealedIn": [{ "book": "wind-and-truth", "chapter": "21" }],
+              "title": "The occupiers move on",
+              "text": "Once Herdaz was taken, the Fused moved most of their troops elsewhere.",
+              "after": ["fall"]
+            }
+          ]
+        },
+        {
+          "id": "dieno-rising",
+          "kind": "war",
+          "told": [
+            {
+              "revealedIn": ["wind-and-truth"],
+              "title": "A failed rising",
+              "text": "Dieno led an attempt to win back the country's independence. It failed, and after the contest of champions Herdaz remained under Retribution.",
+              "art": "character:dieno"
+            }
+          ]
         }
       ]
     }

@@ -5,7 +5,37 @@
       "revealedIn": [{ "book": "oathbringer", "chapter": "65" }]
     }
   ],
-  "description": [],
+  "description": [
+    {
+      "text": "Steen belongs to the Azish Empire and defers to Azir and its Prime Aqasix.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "65" }]
+    },
+    {
+      "text": "Steen has a prince, and merchant lords of its own: Beard of Bridge Four told a tale of swimming across a vat of dye while in their service.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "73" }]
+    },
+    {
+      "text": "Steen sits at the tip of a peninsula on Roshar's southwestern coast, bounded on three sides by the Southern Depths and the Aimian Sea. Its only land neighbour is Liafor.",
+      "revealedIn": ["oathbringer"]
+    }
+  ],
+  "culture": [
+    {
+      "title": [
+        {
+          "text": "Dress",
+          "revealedIn": [{ "book": "dawnshard", "chapter": "9" }]
+        }
+      ],
+      "topic": "dress",
+      "items": [
+        {
+          "text": "Men from Steen wrap their beards into cords.",
+          "revealedIn": [{ "book": "dawnshard", "chapter": "9" }]
+        }
+      ]
+    }
+  ],
   "history": [
     {
       "title": [
@@ -18,6 +48,90 @@
         {
           "text": "Steen raiders were defeated by Szeth and the soldiers he freed. Szeth warned them against further attacks on Shinovar.",
           "revealedIn": [{ "book": "wind-and-truth", "chapter": "59" }]
+        }
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "id": "long-ago",
+      "title": "Long ago",
+      "tone": "#8c7ae6",
+      "moments": [
+        {
+          "id": "makabakam",
+          "kind": "realm",
+          "told": [
+            {
+              "revealedIn": ["way-of-kings"],
+              "title": "Part of Makabakam",
+              "text": "In the age of the Silver Kingdoms, Steen's lands belonged to Makabakam."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "raids",
+      "title": [
+        {
+          "text": "Raids on Shinovar",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "59" }]
+        }
+      ],
+      "tone": "#d9645a",
+      "moments": [
+        {
+          "id": "szeth-raiders",
+          "kind": "war",
+          "told": [
+            {
+              "revealedIn": [{ "book": "wind-and-truth", "chapter": "59" }],
+              "title": "Szeth turns back the raiders",
+              "text": "In Szeth's youth, raiders from Steen were preying on Shinovar's coast. Szeth and his soldiers set their ships alight and overpowered them, and he warned their captain that others like him would come for the raiders if the attacks went on.",
+              "places": ["shinovar"],
+              "art": "character:szeth"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "desolation",
+      "title": [
+        {
+          "text": "The True Desolation",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "65" },
+            { "book": "oathbringer", "chapter": "111" }
+          ]
+        }
+      ],
+      "tone": "#5f8fd9",
+      "moments": [
+        {
+          "id": "left-out",
+          "kind": "realm",
+          "told": [
+            {
+              "revealedIn": [{ "book": "oathbringer", "chapter": "65" }],
+              "title": "Left out of the talks",
+              "text": "When Makabaki envoys were invited to talks at Urithiru, Noura of Azir hinted that Steen should not be among them.",
+              "places": ["urithiru", "azir"]
+            }
+          ]
+        },
+        {
+          "id": "storm-report",
+          "kind": "realm",
+          "told": [
+            {
+              "revealedIn": [{ "book": "oathbringer", "chapter": "111" }],
+              "title": "Word of the Everstorm",
+              "text": "At a meeting in Urithiru, a report from Steen confirmed that the early Everstorm Shinovar had warned of had passed, and that it was faster and more violent than the storms before it.",
+              "places": ["urithiru", "shinovar"]
+            }
+          ]
         }
       ]
     }

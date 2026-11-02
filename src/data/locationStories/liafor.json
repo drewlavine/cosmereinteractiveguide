@@ -11,7 +11,17 @@
   ],
   "description": [
     {
-      "text": "Together with Yezier, Liafor leads Rosharan fashion. Its folios are read as far away as the Shattered Plains and are tailored to local markets with local models. Those sent to the Shattered Plains deliberately showed out-of-date styles to sell military uniforms, which appalled Adolin.",
+      "text": "Liafor and Yezier set the fashions of Roshar, and their folios are read as far off as the Shattered Plains.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "49" }],
+      "fromCulture": "dress"
+    },
+    {
+      "text": "Like many Makabaki peoples, Liaforans are dark brown of eye, with deep brown skin.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "i-4" }],
+      "fromCulture": "people"
+    },
+    {
+      "text": "Folios bound for the Shattered Plains deliberately showed outdated styles, to push the soldiers there into buying military uniforms, which appalled Adolin when he found out.",
       "revealedIn": [
         {
           "all": [
@@ -19,10 +29,11 @@
             { "book": "oathbringer", "chapter": "69" }
           ]
         }
-      ]
+      ],
+      "fromCulture": "dress"
     },
     {
-      "text": "Liaforans, like many Makabaki peoples, are deep brown of skin, with dark brown eyes. Products from Liafor include fine boots, handicrafts and word puzzles.",
+      "text": "Liaforan boots are fine enough that in Tashikk a pair gave away a man claiming to be a poor farmer. Tashikki women talk about Liaforan handicrafts, and Rysn passed time in Thaylen City with a Liaforan word puzzle.",
       "revealedIn": [
         {
           "all": [
@@ -30,19 +41,110 @@
             { "book": "oathbringer", "chapter": "i-13" }
           ]
         }
-      ]
+      ],
+      "fromCulture": "trade"
     },
     {
-      "text": "It borders Tashikk to the east, Yezier and Alm to the north and Steen to the southwest, with the Aimian Sea to the northwest. A major river runs west from near the city of Berizhet to the Aimian Sea.",
+      "text": "Tashikk lies to Liafor's east, Yezier and Alm to its north and Steen to its southwest, with the Aimian Sea off its northwest coast. A major river flows west from near the city of Berizhet into the Aimian Sea.",
       "revealedIn": [{ "all": ["way-of-kings", "oathbringer"] }]
     },
     {
-      "text": "Liafor is ruled by a prince. It eagerly joins any council Azir sits on, and likes to cater the meetings itself.",
+      "text": "In fashion folios, each page shows a few outfits for one kind of reader, such as male Azish civil servants. A page of havahs uses Alethi models, and a page of Thaylen women's fashion follows the nobles of Queen Fen's court.",
+      "revealedIn": ["oathbringer"],
+      "fromCulture": "dress"
+    },
+    {
+      "text": "Liafor's rulers include a prince. It often follows Azir's lead in foreign affairs, eagerly joins any council Azir sits on, and likes to cater the meetings itself.",
       "revealedIn": [
         {
           "all": [
             { "book": "oathbringer", "chapter": "65" },
             { "book": "dawnshard", "chapter": "2" }
+          ]
+        }
+      ]
+    }
+  ],
+  "culture": [
+    {
+      "title": [
+        {
+          "text": "People",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "i-4" }]
+        }
+      ],
+      "topic": "people",
+      "items": [
+        {
+          "text": "Like many Makabaki peoples, Liaforans are dark brown of eye, with deep brown skin.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "i-4" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Fashion",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "49" },
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "49" },
+                { "book": "oathbringer", "chapter": "69" }
+              ]
+            },
+            "oathbringer"
+          ]
+        }
+      ],
+      "topic": "dress",
+      "items": [
+        {
+          "text": "Liafor and Yezier set the fashions of Roshar, and their folios are read as far off as the Shattered Plains.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "49" }]
+        },
+        {
+          "text": "Folios bound for the Shattered Plains deliberately showed outdated styles, to push the soldiers there into buying military uniforms, which appalled Adolin when he found out.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "49" },
+                { "book": "oathbringer", "chapter": "69" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "In fashion folios, each page shows a few outfits for one kind of reader, such as male Azish civil servants. A page of havahs uses Alethi models, and a page of Thaylen women's fashion follows the nobles of Queen Fen's court.",
+          "revealedIn": ["oathbringer"]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Goods",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "edgedancer", "chapter": "4" },
+                { "book": "oathbringer", "chapter": "i-13" }
+              ]
+            }
+          ]
+        }
+      ],
+      "topic": "trade",
+      "items": [
+        {
+          "text": "Liaforan boots are fine enough that in Tashikk a pair gave away a man claiming to be a poor farmer. Tashikki women talk about Liaforan handicrafts, and Rysn passed time in Thaylen City with a Liaforan word puzzle.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "edgedancer", "chapter": "4" },
+                { "book": "oathbringer", "chapter": "i-13" }
+              ]
+            }
           ]
         }
       ]
@@ -72,6 +174,65 @@
                 { "book": "oathbringer", "chapter": "65" },
                 { "book": "dawnshard", "chapter": "2" }
               ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "id": "long-ago",
+      "title": "Long ago",
+      "tone": "#8c7ae6",
+      "moments": [
+        {
+          "id": "makabakam",
+          "kind": "realm",
+          "told": [
+            {
+              "revealedIn": ["way-of-kings"],
+              "title": "Part of Makabakam",
+              "text": "In the age of the Silver Kingdoms, Liafor's lands were part of Makabakam."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "desolation",
+      "title": [
+        {
+          "text": "The True Desolation",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "8" },
+            { "book": "oathbringer", "chapter": "i-4" }
+          ]
+        }
+      ],
+      "tone": "#5f8fd9",
+      "moments": [
+        {
+          "id": "coalition",
+          "kind": "realm",
+          "told": [
+            {
+              "revealedIn": [{ "book": "oathbringer", "chapter": "8" }],
+              "title": "Worth asking",
+              "text": "When the True Desolation began, Dalinar judged Liafor and Yezier the only Makabaki kingdoms steady enough to approach about joining his coalition.",
+              "places": ["yezier"]
+            }
+          ]
+        },
+        {
+          "id": "soulcaster-lost",
+          "kind": "magic",
+          "told": [
+            {
+              "revealedIn": [{ "book": "oathbringer", "chapter": "i-4" }],
+              "title": "The lost Soulcaster",
+              "text": "Liafor's royal family kept a Soulcaster that could turn things only into smoke, and whoever used it was locked away, though in comfort. Kaza, the prince's cousin, had trained with it since childhood. Seeking a cure for her condition, she took it on a voyage to the island of Akinah, and it was lost there.",
+              "art": "character:kaza"
             }
           ]
         }

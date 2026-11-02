@@ -31,11 +31,40 @@
       "revealedIn": [{ "book": "way-of-kings", "chapter": "53" }]
     },
     {
-      "text": "The Tukari use their own calendar: the Vorin year 1168 falls somewhere in the eighties by their count.",
-      "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-14" }]
+      "text": "Tukar keeps its own calendar, not the Vorin one. By its count, the Vorin year 1168 falls somewhere in the eighties.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-14" }],
+      "fromCulture": "customs"
     },
     {
-      "text": "Tukar is a theocracy. Its god-priest Tezim is revered as an aspect of the Almighty, and the Tukari, unlike other Makabaki, worship the Almighty as the eastern nations do. The people also live in clans.",
+      "text": "Other Makabaki treat the Heralds as gods, but the Tukari worship the Almighty, as the eastern nations do. Tezim is revered as half divine, an aspect of god, with titles such as ‘first and last man’, ‘Herald of Heralds’ and ‘bearer of the Oathpact’.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "edgedancer", "chapter": "3" },
+            { "book": "oathbringer", "chapter": "64" }
+          ]
+        }
+      ],
+      "fromCulture": "religion"
+    },
+    {
+      "text": "On paper Tukar seems to belong to the Azish Empire, and the Prime Aqasix can apparently call its god-priest to Azimir. But Tukar has fought Emul, a fellow member state, for generations, which leaves the Prime's hold over it in doubt.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "54" },
+            { "book": "edgedancer", "chapter": "2" },
+            { "book": "oathbringer", "chapter": "65" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Its reach onto the Southern Sea makes Tukar a major nation, with a real edge over others in trade and in war.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "19" }]
+    },
+    {
+      "text": "Tukar is a theocracy. Its spiritual and political head, Tezim, goes by god-priest, god-king or priest-king, and the Tukari themselves are organised in clans.",
       "revealedIn": [
         {
           "all": [
@@ -47,13 +76,133 @@
       ]
     },
     {
-      "text": "The Tukari are highly militaristic. Tezim's soldiers wear no proper uniforms but hogshide leathers with dark blue cuirasses, and the country has many Soulcasters, used in the war.",
+      "text": "Tukar is a deeply military country. Tezim's soldiers have no real uniform: they fight in hogshide leathers under hardened cuirasses painted dark blue, mostly with spears, a few with steel swords. Tukar also has many Soulcasters and has used them well in its war with Emul.",
       "revealedIn": [
         {
           "all": [
             { "book": "words-of-radiance", "chapter": "i-14" },
             { "book": "oathbringer", "chapter": "24" },
             { "book": "rhythm-of-war", "chapter": "111" }
+          ]
+        }
+      ],
+      "fromCulture": "warfare"
+    }
+  ],
+  "culture": [
+    {
+      "title": [
+        {
+          "text": "People",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "106" },
+            { "book": "rhythm-of-war", "chapter": "98" }
+          ]
+        }
+      ],
+      "topic": "people",
+      "items": [
+        {
+          "text": "Foreigners tend to think the Tukari volatile, even mad, and the Alethi were glad not to need them as allies. Outsiders deal with Tukar through its scribes; the god-priest himself seldom if ever speaks to them.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "106" }]
+        },
+        {
+          "text": "Many Tukari make their living as herders.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "98" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Faith",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "edgedancer", "chapter": "3" },
+                { "book": "oathbringer", "chapter": "64" }
+              ]
+            },
+            { "book": "rhythm-of-war", "chapter": "98" }
+          ]
+        }
+      ],
+      "topic": "religion",
+      "items": [
+        {
+          "text": "Other Makabaki treat the Heralds as gods, but the Tukari worship the Almighty, as the eastern nations do. Tezim is revered as half divine, an aspect of god, with titles such as ‘first and last man’, ‘Herald of Heralds’ and ‘bearer of the Oathpact’.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "edgedancer", "chapter": "3" },
+                { "book": "oathbringer", "chapter": "64" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "The country's name comes from Tuk, the Tukari name for the Herald Talenel.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "98" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Dress",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "36" }]
+        }
+      ],
+      "topic": "dress",
+      "items": [
+        {
+          "text": "Tukari clothes come in colours close to Azish patterns, with braided tassels hanging low from the waist, a look common across southeastern Makabak. Some Tukari also wear bracelets of coloured cloth, which may carry writing as well.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "36" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Calendar",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-14" }]
+        }
+      ],
+      "topic": "customs",
+      "items": [
+        {
+          "text": "Tukar keeps its own calendar, not the Vorin one. By its count, the Vorin year 1168 falls somewhere in the eighties.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-14" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "War",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "i-14" },
+                { "book": "oathbringer", "chapter": "24" },
+                { "book": "rhythm-of-war", "chapter": "111" }
+              ]
+            }
+          ]
+        }
+      ],
+      "topic": "warfare",
+      "items": [
+        {
+          "text": "Tukar is a deeply military country. Tezim's soldiers have no real uniform: they fight in hogshide leathers under hardened cuirasses painted dark blue, mostly with spears, a few with steel swords. Tukar also has many Soulcasters and has used them well in its war with Emul.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "i-14" },
+                { "book": "oathbringer", "chapter": "24" },
+                { "book": "rhythm-of-war", "chapter": "111" }
+              ]
+            }
           ]
         }
       ]
@@ -126,6 +275,172 @@
         {
           "text": "After Ishar departed for Shinovar, Odium gained influence in Tukar.",
           "revealedIn": [{ "book": "wind-and-truth", "chapter": "114" }]
+        }
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "id": "long-ago",
+      "title": "Long ago",
+      "tone": "#8c7ae6",
+      "moments": [
+        {
+          "id": "makabakam",
+          "kind": "realm",
+          "told": [
+            {
+              "revealedIn": [{ "all": ["way-of-kings", "oathbringer"] }],
+              "title": "Part of Makabakam",
+              "text": "In the age of the Silver Kingdoms, Tukar's lands lay within Makabakam; today they form one of the many states of Makabak.",
+              "places": ["makabakam"]
+            }
+          ]
+        },
+        {
+          "id": "azish-empire",
+          "kind": "realm",
+          "told": [
+            {
+              "revealedIn": [{ "book": "oathbringer", "chapter": "96" }],
+              "title": "Joining the Azish Empire?",
+              "text": "Tukar may have joined the Azish Empire as it took shape, though its place within the empire, if it has one, is far from simple.",
+              "places": ["azir"],
+              "after": ["makabakam"]
+            }
+          ]
+        },
+        {
+          "id": "sesemalex-feud",
+          "kind": "war",
+          "told": [
+            {
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "way-of-kings", "chapter": "54" },
+                    { "book": "edgedancer", "chapter": "2" }
+                  ]
+                }
+              ],
+              "title": "Centuries of feuding",
+              "text": "For centuries Tukar and Emul have fought now and again over Sesemalex Dar, a city both hold sacred and a valuable port.",
+              "places": ["emul", "sesemalex-dar"],
+              "art": "place:sesemalex-dar"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eightys-war",
+      "title": "The Eighty's War",
+      "tone": "#e0b25c",
+      "moments": [
+        {
+          "id": "eightys-war",
+          "kind": "war",
+          "told": [
+            {
+              "revealedIn": [{ "book": "edgedancer", "chapter": "3" }],
+              "title": "The fighting grows fiercer",
+              "text": "In 1173, shortly before the Everstorm, Tukar's war with Emul grew fiercer.",
+              "places": ["emul"]
+            },
+            {
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "edgedancer", "chapter": "3" },
+                    { "book": "oathbringer", "chapter": "106" }
+                  ]
+                }
+              ],
+              "title": "Tezim's war",
+              "text": "Around 1167 Tezim rose to rule Tukar as god-priest and opened a new war on Emul for Sesemalex Dar, the Eighty's War. In 1173 it grew fiercer, while tension with Marat rose too, and some wondered if Tukar would soon turn on Marat instead.",
+              "places": ["emul", "sesemalex-dar", "marat"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "true-desolation",
+      "title": [
+        {
+          "text": "The True Desolation",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "24" },
+            { "book": "oathbringer", "chapter": "102" },
+            "rhythm-of-war"
+          ]
+        }
+      ],
+      "tone": "#5fb3c9",
+      "moments": [
+        {
+          "id": "refuses-coalition",
+          "kind": "realm",
+          "told": [
+            {
+              "revealedIn": [{ "book": "oathbringer", "chapter": "24" }],
+              "title": "Refusing the coalition",
+              "text": "As the True Desolation broke, Dalinar Kholin sent word to both Emul and Tukar, hoping to win at least one. Tukar refused outright: its god-priest, as an aspect of the Almighty, demanded to lead Urithiru and the Knights Radiant, and the coalition would not agree.",
+              "places": ["emul", "urithiru"]
+            }
+          ]
+        },
+        {
+          "id": "voidspren",
+          "kind": "magic",
+          "told": [
+            {
+              "revealedIn": [{ "book": "oathbringer", "chapter": "102" }],
+              "title": "Voidspren gather",
+              "text": "Voidspren began to appear in the stretch of Shadesmar that matches Tukar."
+            },
+            {
+              "revealedIn": [{ "book": "oathbringer", "chapter": "122" }],
+              "title": "Still neutral",
+              "text": "Though voidspren were gathering in Tukar's part of Shadesmar, the country was still reckoned neutral when the battle of Thaylen Field was fought."
+            }
+          ]
+        },
+        {
+          "id": "northeast-armies",
+          "kind": "war",
+          "told": [
+            {
+              "revealedIn": ["rhythm-of-war"],
+              "title": "Armies in the northeast",
+              "text": "Tukar's armies made their base in the country's northeast, around the Drunmu Basin."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "before-the-contest",
+      "title": [
+        {
+          "text": "Before the contest",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "114" }]
+        }
+      ],
+      "tone": "#d9645a",
+      "moments": [
+        {
+          "id": "odium-influence",
+          "kind": "realm",
+          "told": [
+            {
+              "revealedIn": [{ "book": "wind-and-truth", "chapter": "114" }],
+              "title": "Odium's reach",
+              "text": "Once Ishar left Tukar for Shinovar, Odium won some sway over the country.",
+              "places": ["shinovar"],
+              "art": "character:ishar"
+            }
+          ]
         }
       ]
     }

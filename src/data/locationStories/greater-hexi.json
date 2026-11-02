@@ -15,7 +15,7 @@
       "revealedIn": [{ "book": "oathbringer", "chapter": "114" }]
     },
     {
-      "text": "Most Hexi live as nomads, and a traveller may go days without coming across a village. Hexi is seen as a backwater, more so even than neighbouring Marat. After trading with Rysn, the Hexi departed singing a farewell.",
+      "text": "Most Hexi live as nomads, and a traveller may go days without coming across a village. They wear their hair in braids, and are mostly quiet people with little interest in other nations' affairs. Hexi is seen as a backwater, more so even than neighbouring Marat.",
       "revealedIn": [
         {
           "all": [
@@ -23,11 +23,159 @@
             { "book": "dawnshard", "chapter": "6" }
           ]
         }
+      ],
+      "fromCulture": "people"
+    },
+    {
+      "text": "The Hexi can be hard to trade with. Those who speak respectfully may receive gifts, but arrogant traders are refused outright. After trading with Rysn, they departed singing a farewell.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "oathbringer", "chapter": "114" },
+            { "book": "dawnshard", "chapter": "6" }
+          ]
+        }
+      ],
+      "fromCulture": "trade"
+    },
+    {
+      "text": "The Hexi faith keeps animals as sacred, and its priests swear never to eat meat. Grubs and insects count as plants, not animals.",
+      "revealedIn": [{ "book": "dawnshard", "chapter": "6" }],
+      "fromCulture": "religion"
+    },
+    {
+      "text": "Because grubs count as plants, fresh grain with worms in it is a prized food.",
+      "revealedIn": [{ "book": "dawnshard", "chapter": "6" }],
+      "fromCulture": "food"
+    },
+    {
+      "text": "Jerky from dead animals is made solely for trade with outsiders.",
+      "revealedIn": [{ "book": "dawnshard", "chapter": "6" }],
+      "fromCulture": "trade"
+    }
+  ],
+  "culture": [
+    {
+      "title": [
+        {
+          "text": "People",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "114" },
+                { "book": "dawnshard", "chapter": "6" }
+              ]
+            }
+          ]
+        }
+      ],
+      "topic": "people",
+      "items": [
+        {
+          "text": "Most Hexi live as nomads, and a traveller may go days without coming across a village. They wear their hair in braids, and are mostly quiet people with little interest in other nations' affairs. Hexi is seen as a backwater, more so even than neighbouring Marat.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "114" },
+                { "book": "dawnshard", "chapter": "6" }
+              ]
+            }
+          ]
+        }
       ]
     },
     {
-      "text": "The Hexi faith keeps animals as sacred, and its priests swear never to eat meat. Grubs and insects are classed as plants, which makes fresh grain with worms in it a prized food. Jerky from dead animals is made solely for trade with outsiders.",
-      "revealedIn": [{ "book": "dawnshard", "chapter": "6" }]
+      "title": [
+        {
+          "text": "Faith",
+          "revealedIn": [{ "book": "dawnshard", "chapter": "6" }]
+        }
+      ],
+      "topic": "religion",
+      "items": [
+        {
+          "text": "The Hexi faith keeps animals as sacred, and its priests swear never to eat meat. Grubs and insects count as plants, not animals.",
+          "revealedIn": [{ "book": "dawnshard", "chapter": "6" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Language",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "114" },
+                { "book": "dawnshard", "chapter": "6" }
+              ]
+            }
+          ]
+        }
+      ],
+      "topic": "language",
+      "items": [
+        {
+          "text": "The Hexi tongue is hard for outsiders to learn.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "114" },
+                { "book": "dawnshard", "chapter": "6" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Food",
+          "revealedIn": [{ "book": "dawnshard", "chapter": "6" }]
+        }
+      ],
+      "topic": "food",
+      "items": [
+        {
+          "text": "Because grubs count as plants, fresh grain with worms in it is a prized food.",
+          "revealedIn": [{ "book": "dawnshard", "chapter": "6" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Trade",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "114" },
+                { "book": "dawnshard", "chapter": "6" }
+              ]
+            },
+            { "book": "dawnshard", "chapter": "6" }
+          ]
+        }
+      ],
+      "topic": "trade",
+      "items": [
+        {
+          "text": "The Hexi can be hard to trade with. Those who speak respectfully may receive gifts, but arrogant traders are refused outright. After trading with Rysn, they departed singing a farewell.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "114" },
+                { "book": "dawnshard", "chapter": "6" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Jerky from dead animals is made solely for trade with outsiders.",
+          "revealedIn": [{ "book": "dawnshard", "chapter": "6" }]
+        }
+      ]
     }
   ],
   "history": [

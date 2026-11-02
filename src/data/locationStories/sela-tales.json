@@ -11,21 +11,75 @@
   ],
   "description": [
     {
-      "text": "Sela Tales held nearly the whole coast of the Purelake, and great rivers ran through it to the Reshi Sea or the lake.",
-      "revealedIn": [{ "book": "way-of-kings", "chapter": "i-1" }]
+      "text": "Today some of the Selay are ruled by gerontarchs.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "52" }],
+      "fromCulture": "society"
     },
     {
-      "text": "The Selay have bronze skin, dark hair and distinctive ripple patterns on their skin. Some were afterwards ruled by gerontarchs, likely a remnant of the old kingdom.",
-      "revealedIn": [{ "book": "way-of-kings", "chapter": "52" }]
+      "text": "Sela Tales held nearly the whole coast of the Purelake.",
+      "revealedIn": ["way-of-kings"]
     },
     {
-      "text": "Selay belongs to the Iri language family, with the languages of Iri, Rira, the Reshi and the Purelake.",
+      "text": "The kingdom reached from the Misted Mountains across to the plains of Valhav. The Reshi Sea lay north of it and Makabakam south, with Shin Kak Nish and Iri on its western and northwestern edges, and it also ruled islands out in the Reshi Sea.",
+      "revealedIn": ["way-of-kings"]
+    },
+    {
+      "text": "Sela Tales used the Dawnchant for its writing.",
       "revealedIn": [
         {
           "all": [
             { "book": "way-of-kings", "chapter": "i-1" },
             { "book": "words-of-radiance", "chapter": "4" },
             { "book": "oathbringer", "chapter": "i-2" }
+          ]
+        }
+      ],
+      "fromCulture": "language"
+    }
+  ],
+  "culture": [
+    {
+      "title": [
+        {
+          "text": "Society",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "52" }]
+        }
+      ],
+      "topic": "society",
+      "items": [
+        {
+          "text": "Today some of the Selay are ruled by gerontarchs.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "52" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Language and writing",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "i-1" },
+                { "book": "words-of-radiance", "chapter": "4" },
+                { "book": "oathbringer", "chapter": "i-2" }
+              ]
+            }
+          ]
+        }
+      ],
+      "topic": "language",
+      "items": [
+        {
+          "text": "Sela Tales used the Dawnchant for its writing.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "i-1" },
+                { "book": "words-of-radiance", "chapter": "4" },
+                { "book": "oathbringer", "chapter": "i-2" }
+              ]
+            }
           ]
         }
       ]
@@ -86,6 +140,195 @@
         {
           "text": "Sometime after Aharietiam, Sela Tales collapsed into several kingdoms, with some regions, like the Purelake, ungoverned. The region kept its name, and after the Recreance the Selay acquired several Shardblades and sets of Shardplate.",
           "revealedIn": [{ "book": "way-of-kings", "chapter": "52" }]
+        }
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "id": "long-ago",
+      "title": "Long ago",
+      "tone": "#8c7ae6",
+      "moments": [
+        {
+          "id": "singer-land",
+          "kind": "war",
+          "told": [
+            {
+              "revealedIn": [{ "book": "oathbringer", "chapter": "113" }],
+              "title": "A land of singers",
+              "text": "Singers lived in the land that became Sela Tales before humans came to Roshar."
+            },
+            {
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "oathbringer", "chapter": "113" },
+                    { "book": "rhythm-of-war", "chapter": "111" }
+                  ]
+                }
+              ],
+              "title": "Taken from the singers",
+              "text": "Singers lived in the land that became Sela Tales until humans, given a home in what became Shin Kak Nish, turned on them, killing or driving out the singers and taking their lands. The tale was lost until the Eila Stele was found.",
+              "places": ["shin-kak-nish"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "silver-kingdoms",
+      "title": [
+        {
+          "text": "The Silver Kingdoms",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "prelude" },
+                { "book": "words-of-radiance", "chapter": "i-7" },
+                { "book": "rhythm-of-war", "chapter": "1" }
+              ]
+            },
+            { "book": "oathbringer", "chapter": "107" },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "19" },
+                { "book": "words-of-radiance", "chapter": "4" }
+              ]
+            },
+            { "book": "way-of-kings", "chapter": "prologue" }
+          ]
+        }
+      ],
+      "tone": "#e0b25c",
+      "moments": [
+        {
+          "id": "founding",
+          "kind": "realm",
+          "told": [
+            {
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "way-of-kings", "chapter": "prelude" },
+                    { "book": "words-of-radiance", "chapter": "i-7" },
+                    { "book": "rhythm-of-war", "chapter": "1" }
+                  ]
+                }
+              ],
+              "title": "Sela Tales is founded",
+              "text": "Sela Tales was founded in the age of the Silver Kingdoms. Each Desolation threw its people back, sometimes as far as stone tools, and each time the returning Heralds, Kalak among them, helped them rise again."
+            }
+          ]
+        },
+        {
+          "id": "capital",
+          "kind": "realm",
+          "told": [
+            {
+              "revealedIn": [{ "book": "oathbringer", "chapter": "107" }],
+              "title": "Panatham becomes the capital",
+              "text": "Early on, Panatham was founded as the capital of Sela Tales, and in time it also housed the kingdom's Oathgate.",
+              "places": ["panatham", "urithiru"],
+              "after": ["founding"]
+            }
+          ]
+        },
+        {
+          "id": "desolations",
+          "kind": "legend",
+          "told": [
+            {
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "way-of-kings", "chapter": "19" },
+                    { "book": "words-of-radiance", "chapter": "4" }
+                  ]
+                }
+              ],
+              "title": "Desolation after Desolation",
+              "text": "Desolations struck Sela Tales again and again, along with the rest of Roshar. In those times the Selay raised great works and fortifications, and kept at least one large stone fortress on the Purelake.",
+              "places": ["purelake"],
+              "art": "event:desolation"
+            }
+          ]
+        },
+        {
+          "id": "last-desolation",
+          "kind": "legend",
+          "told": [
+            {
+              "revealedIn": [{ "book": "way-of-kings", "chapter": "prologue" }],
+              "title": "The Last Desolation",
+              "text": "About 4,500 years ago, the Last Desolation struck a world still weak from the Desolation before it. Weary of their torment, nine of the Heralds then refused to go back, leaving Taln to bear it alone.",
+              "after": ["desolations"],
+              "art": "character:kalak"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "after-last-desolation",
+      "title": [
+        {
+          "text": "After the Last Desolation",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "45" },
+                { "book": "oathbringer", "chapter": "119" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "52" },
+                "oathbringer"
+              ]
+            }
+          ]
+        }
+      ],
+      "tone": "#5fb3c9",
+      "moments": [
+        {
+          "id": "respite",
+          "kind": "realm",
+          "told": [
+            {
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "way-of-kings", "chapter": "45" },
+                    { "book": "oathbringer", "chapter": "119" }
+                  ]
+                }
+              ],
+              "title": "The Desolations end",
+              "text": "With no more Desolations to ravage it, Sela Tales could advance further than ever before.",
+              "after": ["last-desolation"]
+            }
+          ]
+        },
+        {
+          "id": "collapse",
+          "kind": "realm",
+          "told": [
+            {
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "way-of-kings", "chapter": "52" },
+                    "oathbringer"
+                  ]
+                }
+              ],
+              "title": "Sela Tales breaks apart",
+              "text": "At some point after the Last Desolation, Sela Tales collapsed into several kingdoms, leaving places like the Purelake with no rulers at all. The region kept the old name and its peoples are still called Selay, and after the Recreance they gained several Shardblades and sets of Shardplate.",
+              "places": ["purelake"]
+            }
+          ]
         }
       ]
     }

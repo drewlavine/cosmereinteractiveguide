@@ -15,7 +15,7 @@
   ],
   "description": [
     {
-      "text": "Besides humans, Aimia was home to two non-human peoples: the Dysian Aimians, or Sleepless, and the Siah Aimians. Both have a kind of immortality and can change their bodies.",
+      "text": "Besides humans, Aimia was home to two non-human peoples, the Dysian Aimians and the Siah Aimians. Both have a kind of immortality and can reshape their bodies.",
       "revealedIn": [
         {
           "all": [
@@ -24,10 +24,15 @@
             { "book": "oathbringer", "chapter": "i-5" }
           ]
         }
-      ]
+      ],
+      "fromCulture": "people"
     },
     {
-      "text": "Aimia is now desolate and barren, too cold for anything to grow. During the Heraldic Epochs, devices, probably fabrials, made it habitable.",
+      "text": "Aimia is one large island and many smaller ones off the west coast of Shinovar, with the Aimian Sea to the east and the Endless Ocean to the west.",
+      "revealedIn": ["oathbringer"]
+    },
+    {
+      "text": "Aimia is now desolate and barren, too cold for anything to grow. During the Heraldic Epochs, devices of some kind made it habitable.",
       "revealedIn": [{ "book": "dawnshard", "chapter": "9" }]
     },
     {
@@ -39,6 +44,75 @@
             { "book": "words-of-radiance", "chapter": "i-3" },
             { "book": "oathbringer", "chapter": "i-13" },
             { "book": "dawnshard", "chapter": "19" }
+          ]
+        }
+      ]
+    }
+  ],
+  "culture": [
+    {
+      "title": [
+        {
+          "text": "Peoples",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "54" },
+                { "book": "edgedancer", "chapter": "18" },
+                { "book": "oathbringer", "chapter": "i-5" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "i-5" },
+                { "book": "edgedancer", "chapter": "18" },
+                { "book": "dawnshard", "chapter": "6" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "dawnshard", "chapter": "9" },
+                { "book": "rhythm-of-war", "chapter": "16" }
+              ]
+            }
+          ]
+        }
+      ],
+      "topic": "people",
+      "items": [
+        {
+          "text": "Besides humans, Aimia was home to two non-human peoples, the Dysian Aimians and the Siah Aimians. Both have a kind of immortality and can reshape their bodies.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "54" },
+                { "book": "edgedancer", "chapter": "18" },
+                { "book": "oathbringer", "chapter": "i-5" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "The Dysian Aimian Arclo speaks familiarly of the Siah Aimian Axies the Collector.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "i-5" },
+                { "book": "edgedancer", "chapter": "18" },
+                { "book": "dawnshard", "chapter": "6" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Humans lived on Aimia for most of its history, but since the scouring they have died or fled. Those who settled in Alm braid their beards into cords, like the men of Steen.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "dawnshard", "chapter": "9" },
+                { "book": "rhythm-of-war", "chapter": "16" }
+              ]
+            }
           ]
         }
       ]
@@ -120,6 +194,225 @@
         {
           "text": "In late 1174, Rysn Ftori led an expedition to Akinah and brought back eight Soulcasters and a set of Shardplate.",
           "revealedIn": [{ "book": "dawnshard", "chapter": "19" }]
+        }
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "id": "long-ago",
+      "title": "Long ago",
+      "tone": "#8c7ae6",
+      "moments": [
+        {
+          "id": "dawnshard-arrives",
+          "kind": "magic",
+          "told": [
+            {
+              "revealedIn": [{ "book": "dawnshard", "chapter": "19" }],
+              "title": "A Dawnshard hidden at Akinah",
+              "text": "In the distant past, a Dawnshard came or was brought to Aimia and was bound into a mural at Akinah, where the lanceryn guarded it.",
+              "places": ["akinah"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "silver-kingdom",
+      "title": [
+        {
+          "text": "The Silver Kingdoms",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "45" },
+                { "book": "oathbringer", "chapter": "107" },
+                { "book": "dawnshard", "chapter": "9" }
+              ]
+            }
+          ]
+        }
+      ],
+      "tone": "#e0b25c",
+      "moments": [
+        {
+          "id": "silver-kingdom",
+          "kind": "realm",
+          "told": [
+            {
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "way-of-kings", "chapter": "45" },
+                    { "book": "oathbringer", "chapter": "107" },
+                    { "book": "dawnshard", "chapter": "9" }
+                  ]
+                }
+              ],
+              "title": "A Silver Kingdom of the islands",
+              "text": "In the Heraldic Epochs the islands formed a Silver Kingdom with its own Oathgate to Urithiru. Its capital, Akinah, was a grand city on a rock formation of tenfold symmetry, known as the place to get Soulcasters. At least some Aimians stood close to the Knights Radiant.",
+              "places": ["akinah", "urithiru"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "laid-waste",
+      "title": [
+        {
+          "text": "Aimia laid waste",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "113" },
+            { "book": "dawnshard", "chapter": "18" },
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "i-4" },
+                { "book": "dawnshard", "chapter": "3" }
+              ]
+            }
+          ]
+        }
+      ],
+      "tone": "#5fb3c9",
+      "moments": [
+        {
+          "id": "scouring",
+          "kind": "war",
+          "told": [
+            {
+              "revealedIn": [{ "book": "oathbringer", "chapter": "113" }],
+              "title": "Aimia destroyed",
+              "text": "Long ago Aimia was laid waste. The scholar Hessi suggested the being called Dai-Gonarthis was behind it."
+            },
+            {
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "way-of-kings", "chapter": "i-5" },
+                    { "book": "way-of-kings", "chapter": "36" },
+                    { "book": "words-of-radiance", "chapter": "i-3" },
+                    { "book": "oathbringer", "chapter": "107" },
+                    { "book": "dawnshard", "chapter": "17" }
+                  ]
+                }
+              ],
+              "title": "The scouring of Aimia",
+              "text": "At least four centuries before the Everstorm came, yet after the Recreance, Aimia was scoured; what happened, and why, is unknown. The devices that kept the islands livable were destroyed, native animals almost died out, the surviving humans fled, the Na-Alind sheltered the last few larkin, and the Oathgate at Akinah fell out of use, cutting the islands off."
+            }
+          ]
+        },
+        {
+          "id": "guardians",
+          "kind": "magic",
+          "told": [
+            {
+              "revealedIn": [{ "book": "dawnshard", "chapter": "18" }],
+              "title": "The Sleepless keep watch",
+              "text": "With the lanceryn gone and the larkin scattered, the Dawnshard lay unprotected, so the Sleepless there became its guardians, unwilling to let a power able to destroy billions fall into the wrong hands. They killed hundreds who came near their secret and built a false Akinah, with a ruined copy of its Oathgate, to turn intruders away; the real Oathgate lies locked beneath.",
+              "places": ["akinah"],
+              "after": ["scouring"]
+            }
+          ]
+        },
+        {
+          "id": "dangerous-seas",
+          "kind": "magic",
+          "told": [
+            {
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "oathbringer", "chapter": "i-4" },
+                    { "book": "dawnshard", "chapter": "3" }
+                  ]
+                }
+              ],
+              "title": "A walled and stormy sea",
+              "text": "Ever since, the waters around the islands have been deadly, with odd winds and storms that seem to rise from the islands themselves and one storm that never leaves Akinah. Forty-foot spikes of Soulcast stone ring Akinah, with more beneath the waves to stop ships.",
+              "places": ["aimian-sea", "akinah"],
+              "after": ["scouring"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "recent",
+      "title": "Recent years",
+      "tone": "#c98f4a",
+      "moments": [
+        {
+          "id": "legends",
+          "kind": "legend",
+          "told": [
+            {
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "way-of-kings", "chapter": "i-5" },
+                    { "book": "words-of-radiance", "chapter": "i-3" },
+                    { "book": "oathbringer", "chapter": "i-4" },
+                    { "book": "dawnshard", "chapter": "9" }
+                  ]
+                }
+              ],
+              "title": "Aimia in legend",
+              "text": "Over the centuries myths grew up around the islands. Akinah earned names such as the Rock of Secrets, or the Void's Playground. A few Aimians survive, but the non-human ones meet hostility when found out, and their reversed shadows are called Voidbringer shadows."
+            }
+          ]
+        },
+        {
+          "id": "first-dreams",
+          "kind": "magic",
+          "told": [
+            {
+              "revealedIn": [{ "book": "oathbringer", "chapter": "i-4" }],
+              "title": "The voyage of the First Dreams",
+              "text": "The ship First Dreams came through the storm around Akinah to its ring of stone spikes, hunting forbidden treasure. The ship's cook poisoned the crew and would not tell the island's secret, which could mean the ends of worlds. The Soulcaster Kaza struggled ashore before she died.",
+              "places": ["akinah"],
+              "art": "character:kaza"
+            },
+            {
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "oathbringer", "chapter": "i-4" },
+                    { "book": "dawnshard", "chapter": "18" }
+                  ]
+                }
+              ],
+              "title": "The voyage of the First Dreams",
+              "text": "Lately the storm around Akinah has weakened, perhaps since the Everstorm came, and the ship First Dreams got close. A Sleepless poisoned the crew to keep humans away, saying it guarded a secret that could end worlds. Kaza reached the shore and saw a larkin, or something that looked like one, and the false ruins of Akinah before she died."
+            }
+          ]
+        },
+        {
+          "id": "outposts",
+          "kind": "realm",
+          "told": [
+            {
+              "revealedIn": [{ "book": "dawnshard", "chapter": "10" }],
+              "title": "Thaylen outposts",
+              "text": "Scouting parties sent to the main island recently found it barren, and the Thaylen Royal Navy has built outposts there as a precaution.",
+              "places": ["thaylenah"]
+            }
+          ]
+        },
+        {
+          "id": "expedition",
+          "kind": "realm",
+          "told": [
+            {
+              "revealedIn": [{ "book": "dawnshard", "chapter": "19" }],
+              "title": "Rysn's expedition to Akinah",
+              "text": "Rysn Ftori led an expedition to Akinah and returned with Shardplate and eight Soulcasters. Rysn became the Dawnshard herself, and its Sleepless guardians allowed her to leave, admitting the island had become too hard to guard.",
+              "places": ["akinah"],
+              "after": ["guardians"],
+              "art": "character:rysn-ftori"
+            }
+          ]
         }
       ]
     }

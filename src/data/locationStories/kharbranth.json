@@ -34,11 +34,16 @@
   ],
   "description": [
     {
+      "text": "Kharbranth turns no one away for their nation or standing, so people from all over Roshar make their homes there.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "3" }],
+      "fromCulture": "people"
+    },
+    {
       "text": "Bells hang everywhere, supposedly to warn of highstorms that are said to be too gentle to notice here, and their ringing reaches even deep in the Conclave. The blocky buildings, built on or carved from the mountain, are painted in bright colours that show their purpose.",
       "revealedIn": [{ "book": "way-of-kings", "chapter": "36" }]
     },
     {
-      "text": "Anyone may enter the city regardless of nationality or status, so people from all over Roshar live there. Kharbranth is thought safe, though violent crime has sometimes gone unpoliced, and some suspect corruption in the city watch.",
+      "text": "Kharbranth is thought safe, though violent crime has sometimes gone unpoliced, and some suspect corruption in the city watch.",
       "revealedIn": [{ "book": "way-of-kings", "chapter": "36" }]
     },
     {
@@ -46,8 +51,152 @@
       "revealedIn": [{ "book": "way-of-kings", "chapter": "48" }]
     },
     {
-      "text": "The caste of lighteyes and darkeyes matters less in Kharbranth than in Alethkar or Jah Keved, and services such as free healthcare are open to all.",
-      "revealedIn": [{ "book": "way-of-kings", "chapter": "63" }]
+      "text": "Kharbranth is ruled by a monarch together with a council, and the crown can pass down through either the male or the female line. The monarch can put forward and steer policy, deals with other nations and has some direct power over how laws are carried out.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "i-14" },
+            { "book": "oathbringer", "chapter": "12" },
+            { "book": "rhythm-of-war", "chapter": "i-3" }
+          ]
+        }
+      ]
+    }
+  ],
+  "culture": [
+    {
+      "title": [
+        {
+          "text": "People",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "3" }]
+        }
+      ],
+      "topic": "people",
+      "items": [
+        {
+          "text": "Kharbranth turns no one away for their nation or standing, so people from all over Roshar make their homes there.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "3" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Society",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "63" }]
+        }
+      ],
+      "topic": "society",
+      "items": [
+        {
+          "text": "Unlike Alethkar, Kharbranth allows no human slaves, though it still puts parshmen to work without pay.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "63" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Faith",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "48" },
+                { "book": "oathbringer", "chapter": "50" }
+              ]
+            }
+          ]
+        }
+      ],
+      "topic": "religion",
+      "items": [
+        {
+          "text": "Kharbranth counts among the five Vorin nations. Its ardentia carries weight in the city, stays in touch with Vorin leaders in the east, and runs and staffs the Palanaeum. Not every devotary is present (there are no ardents of Sincerity), and the ardents own no Soulcasters. Those who don't follow Vorinism mostly keep their views to themselves.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "48" },
+                { "book": "oathbringer", "chapter": "50" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Food",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "29" },
+                { "book": "words-of-radiance", "chapter": "24" }
+              ]
+            }
+          ]
+        }
+      ],
+      "topic": "food",
+      "items": [
+        {
+          "text": "Kharbranth has restaurants, and soup is the favourite midday meal.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "29" },
+                { "book": "words-of-radiance", "chapter": "24" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Army",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "i-14" },
+                { "book": "oathbringer", "chapter": "107" },
+                { "book": "rhythm-of-war", "chapter": "50" }
+              ]
+            }
+          ]
+        }
+      ],
+      "topic": "warfare",
+      "items": [
+        {
+          "text": "Kharbranth keeps its standing army small, to seem harmless. It seldom goes to war and sends medical aid to both sides of a conflict, with its soldiers guarding these missions. It has no true navy, but can take over merchant ships in an emergency, and its soldiers wear burnt orange and white.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "i-14" },
+                { "book": "oathbringer", "chapter": "107" },
+                { "book": "rhythm-of-war", "chapter": "50" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Money",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "33" }]
+        }
+      ],
+      "topic": "trade",
+      "items": [
+        {
+          "text": "Like most of Roshar, Kharbranth trades in spheres: glass beads set with gems that give light when infused, worth more or less by the kind and size of the stone, from the diamond chip up to the emerald broam. The Palanaeum doubles as the royal treasury, and the city's emeralds light its halls.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "33" }]
+        }
+      ]
     }
   ],
   "history": [
@@ -205,6 +354,540 @@
         {
           "text": "Retribution kept a replica of Kharbranth in the Spiritual Realm. He had secretly moved the citizens there before the destruction and removed their memories of it.",
           "revealedIn": [{ "book": "wind-and-truth", "chapter": "147" }]
+        }
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "id": "long-ago",
+      "title": "Long ago",
+      "tone": "#8c7ae6",
+      "moments": [
+        {
+          "id": "caverns",
+          "kind": "legend",
+          "told": [
+            {
+              "revealedIn": [{ "book": "way-of-kings", "chapter": "46" }],
+              "title": "The Palanaeum's caverns",
+              "text": "The two great caverns of the Palanaeum are older than the city; the rooms that hold its books were cut once people had settled there. How the caverns were made is unknown, though some credit the Dawnsingers. A fire has since burned part of the collection.",
+              "places": ["palanaeum"]
+            }
+          ]
+        },
+        {
+          "id": "ancient",
+          "kind": "realm",
+          "told": [
+            {
+              "revealedIn": [{ "book": "way-of-kings", "chapter": "8" }],
+              "title": "An ancient city",
+              "text": "Rumour has it that Kharbranth predates the Last Desolation, and one account even dates its founding to the shadowdays."
+            }
+          ]
+        },
+        {
+          "id": "hierocracy",
+          "kind": "realm",
+          "told": [
+            {
+              "revealedIn": [{ "book": "oathbringer", "chapter": "59" }],
+              "title": "Under the Hierocracy",
+              "text": "Kharbranth belonged to the Hierocracy, a wide Vorin realm that also took in Jah Keved and the lands that became Alethkar and Thaylenah. After the Hierocracy fell in the War of Loss, Kharbranth kept close alliances with the other Vorin nations.",
+              "places": ["jah-keved", "alethkar", "thaylenah"],
+              "after": ["ancient"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "surgeons",
+      "title": "City of surgeons",
+      "tone": "#e0b25c",
+      "moments": [
+        {
+          "id": "lirin",
+          "kind": "realm",
+          "told": [
+            {
+              "revealedIn": [{ "book": "way-of-kings", "chapter": "17" }],
+              "title": "Lirin's journey",
+              "text": "As a young courier, Lirin travelled to Kharbranth and saw something of the world's peoples. He learned medicine from Vathe, a surgeon trained at the city's Great Concourse.",
+              "places": ["great-concourse-of-kharbranth"],
+              "art": "character:lirin"
+            }
+          ]
+        },
+        {
+          "id": "kaladin-hopes",
+          "kind": "realm",
+          "told": [
+            {
+              "revealedIn": [{ "book": "way-of-kings", "chapter": "37" }],
+              "title": "A place for Kaladin",
+              "text": "Lirin hoped his son Kaladin could train as a surgeon in Kharbranth once he turned sixteen, and kept a hoard of spheres to pay for it. When Roshone arrived in Hearthstone, Lirin wrote to the city's surgeons asking that Kaladin be allowed to take the entrance tests early; they said no.",
+              "places": ["hearthstone"],
+              "after": ["lirin"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "secret",
+      "title": [
+        {
+          "text": "The king's secret",
+          "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "i-14" },
+            { "book": "way-of-kings", "chapter": "71" }
+          ]
+        },
+        {
+          "text": "The Diagram",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-14" }]
+        }
+      ],
+      "tone": "#5fb3c9",
+      "moments": [
+        {
+          "id": "diagram",
+          "kind": "magic",
+          "told": [
+            {
+              "revealedIn": [
+                { "book": "words-of-radiance", "chapter": "i-14" }
+              ],
+              "title": "The Diagram",
+              "text": "Gavilar Kholin had told Taravangian that his visions demanded a united world. Taravangian asked the Nightwatcher for the capacity to save humankind, and on one day of towering intelligence he wrote the predictions that became the Diagram, followed in secret by a group of the same name. Because his wits change from day to day, he is tested each morning to settle what he may do.",
+              "places": ["the-valley"],
+              "art": "character:taravangian"
+            },
+            {
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "words-of-radiance", "chapter": "i-14" },
+                    { "book": "oathbringer", "chapter": "122" },
+                    { "book": "rhythm-of-war", "chapter": "i-6" }
+                  ]
+                }
+              ],
+              "text": "On the night he died, Gavilar Kholin told Taravangian of visions warning that the world must unite to survive the coming Desolation. Taravangian went to the Nightwatcher and begged for the power to save Roshar. On one day of towering intelligence he wrote the predictions that became the Diagram, followed in secret by a group of the same name. The gift had a curse: he could be brilliant or compassionate, but never both at once."
+            }
+          ]
+        },
+        {
+          "id": "death-rattles",
+          "kind": "magic",
+          "told": [
+            {
+              "revealedIn": [{ "book": "way-of-kings", "chapter": "71" }],
+              "title": "The secret hospital",
+              "text": "The king kept a secret hospital where dying patients were slowly bled so that the words they spoke as they died could be written down. He believed those words might hold the key to saving everyone."
+            },
+            {
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "way-of-kings", "chapter": "71" },
+                    { "book": "words-of-radiance", "chapter": "i-14" }
+                  ]
+                }
+              ],
+              "text": "Deep in the Conclave, the Silent Gatherers ran hidden hospitals where the terminally ill and the very poor were brought to be killed, so that their Death Rattles could add to the Diagram's predictions.",
+              "places": ["conclave"],
+              "after": ["diagram"]
+            },
+            {
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "way-of-kings", "chapter": "71" },
+                    { "book": "words-of-radiance", "chapter": "i-14" },
+                    { "book": "rhythm-of-war", "chapter": "i-3" }
+                  ]
+                }
+              ],
+              "text": "Deep in the Conclave, the Silent Gatherers ran hidden hospitals where the terminally ill and the very poor were brought to be killed, so that their Death Rattles could add to the Diagram's predictions. The Death Rattles grew rarer from late 1173 and stopped altogether in 1174, but the hospitals kept working."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jasnah-shallan",
+      "title": [
+        {
+          "text": "Jasnah and Shallan",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "5" },
+            { "book": "way-of-kings", "chapter": "8" },
+            { "book": "way-of-kings", "chapter": "36" },
+            { "book": "way-of-kings", "chapter": "48" },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "70" },
+                { "book": "words-of-radiance", "chapter": "1" }
+              ]
+            }
+          ]
+        }
+      ],
+      "tone": "#e3c35a",
+      "moments": [
+        {
+          "id": "palanaeum-entry",
+          "kind": "realm",
+          "told": [
+            {
+              "revealedIn": [{ "book": "way-of-kings", "chapter": "5" }],
+              "title": "A key to the Palanaeum",
+              "text": "Jasnah Kholin freed Taravangian's granddaughter, trapped by a cave-in deep inside the palace, and in return the king let her into the Palanaeum.",
+              "places": ["palanaeum"],
+              "art": "character:jasnah-kholin"
+            }
+          ]
+        },
+        {
+          "id": "ward",
+          "kind": "realm",
+          "told": [
+            {
+              "revealedIn": [{ "book": "way-of-kings", "chapter": "8" }],
+              "title": "Shallan becomes a ward",
+              "text": "Jasnah had come in 1173 to research in the Palanaeum. Shallan Davar, who had been chasing her for six months, found her in the Conclave and won a place as her ward, though her real aim was to swap her family's broken Soulcaster for Jasnah's.",
+              "after": ["palanaeum-entry"],
+              "art": "character:shallan-davar"
+            }
+          ]
+        },
+        {
+          "id": "alley",
+          "kind": "magic",
+          "told": [
+            {
+              "revealedIn": [{ "book": "way-of-kings", "chapter": "36" }],
+              "title": "The alley",
+              "text": "One night Jasnah took Shallan down a street near the theatre district where robbers had been killing people, and when four men attacked she Soulcast them all. Back at the Conclave, Shallan swapped her broken Soulcaster for Jasnah's.",
+              "after": ["ward"]
+            }
+          ]
+        },
+        {
+          "id": "poison",
+          "kind": "magic",
+          "told": [
+            {
+              "revealedIn": [{ "book": "way-of-kings", "chapter": "48" }],
+              "title": "Poisoned bread",
+              "text": "When a goblet turned to blood in her hands, Shallan cut her own arm to hide it and was taken to a hospital. There the ardent Kabsal offered bread poisoned to kill Jasnah. Shallan ate it, and Jasnah saved her by Soulcasting her blood, finding out about the stolen Soulcaster.",
+              "after": ["alley"]
+            }
+          ]
+        },
+        {
+          "id": "departure",
+          "kind": "realm",
+          "told": [
+            {
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "way-of-kings", "chapter": "70" },
+                    { "book": "words-of-radiance", "chapter": "1" }
+                  ]
+                }
+              ],
+              "title": "Leaving Kharbranth",
+              "text": "Jasnah forgave Shallan and took her back as her ward, and the two sailed from Kharbranth for the Shattered Plains on the Wind's Pleasure.",
+              "places": ["shattered-plains"],
+              "after": ["poison"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "schemes",
+      "title": [
+        {
+          "text": "Taravangian's schemes",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "71" },
+            { "book": "words-of-radiance", "chapter": "i-14" }
+          ]
+        }
+      ],
+      "tone": "#d9645a",
+      "moments": [
+        {
+          "id": "szeth-list",
+          "kind": "war",
+          "told": [
+            {
+              "revealedIn": [{ "book": "way-of-kings", "chapter": "71" }],
+              "title": "The assassin's master",
+              "text": "Szeth's killings of rulers and officials across Roshar, the king of Jah Keved among them, were ordered by Taravangian, who held the assassin's oathstone and put his own name on the list to avoid suspicion. When Szeth came to kill him, the king revealed himself as his master and sent him after Dalinar Kholin.",
+              "places": ["jah-keved"],
+              "art": "character:szeth"
+            }
+          ]
+        },
+        {
+          "id": "veden-throne",
+          "kind": "realm",
+          "told": [
+            {
+              "revealedIn": [
+                { "book": "words-of-radiance", "chapter": "i-14" }
+              ],
+              "title": "King of Jah Keved",
+              "text": "Taravangian had a hand in starting Jah Keved's civil war, then sent food, medicine and healers to tend the wounded of every side. As the war ended, the dying King Valam named him heir, making him king of Jah Keved as well.",
+              "places": ["jah-keved", "vedenar"],
+              "after": ["szeth-list"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "desolation",
+      "title": [
+        {
+          "text": "The True Desolation",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "12" },
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "i-14" },
+                { "book": "oathbringer", "chapter": "122" }
+              ]
+            },
+            { "book": "oathbringer", "chapter": "122" }
+          ]
+        }
+      ],
+      "tone": "#5f8fd9",
+      "moments": [
+        {
+          "id": "joins-dalinar",
+          "kind": "realm",
+          "told": [
+            {
+              "revealedIn": [{ "book": "oathbringer", "chapter": "12" }],
+              "title": "Answering Dalinar",
+              "text": "When Dalinar Kholin asked the rulers of Roshar for help against the Voidbringers, Taravangian alone agreed at once, bringing Kharbranth and Jah Keved into alliance with Alethkar.",
+              "places": ["alethkar", "jah-keved"]
+            },
+            {
+              "revealedIn": [{ "book": "oathbringer", "chapter": "24" }],
+              "text": "When Dalinar Kholin asked the rulers of Roshar for help against the Voidbringers, Taravangian alone agreed at once, bringing Kharbranth and Jah Keved into alliance with Alethkar. He went to Urithiru and left a scribe to run the city, and abroad many took him for a figurehead, with the true power held by that scribe or by his head scribe, Adrotagia.",
+              "places": ["alethkar", "jah-keved", "urithiru"]
+            }
+          ]
+        },
+        {
+          "id": "both-sides",
+          "kind": "war",
+          "told": [
+            {
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "words-of-radiance", "chapter": "i-14" },
+                    { "book": "oathbringer", "chapter": "122" }
+                  ]
+                }
+              ],
+              "title": "Playing both sides",
+              "text": "The alliance gave Taravangian and the Diagram a way into Urithiru and into how the coalition was run. They spied on its members and spread false stories to split it, and before Thaylen Field they secretly leaked Dalinar's meeting with Odium, the highking proposal and the Eila Stele translation. During that battle Malata quietly unlocked the Kholinar Oathgate, hindering the coalition's troop movements.",
+              "places": ["urithiru", "kholinar", "thaylen-city"],
+              "after": ["joins-dalinar"]
+            }
+          ]
+        },
+        {
+          "id": "confession",
+          "kind": "realm",
+          "told": [
+            {
+              "revealedIn": [{ "book": "oathbringer", "chapter": "122" }],
+              "title": "Taravangian's confession",
+              "text": "After the battle, Taravangian confessed to Dalinar that Szeth's killings across Roshar had been Kharbranth's doing. He had gone looking for the assassin after an ardent called Dova, who he believed was the Herald Battah'Elin, warned him that a Desolation was near.",
+              "after": ["both-sides"]
+            }
+          ]
+        },
+        {
+          "id": "odium-deal",
+          "kind": "magic",
+          "told": [
+            {
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "words-of-radiance", "chapter": "i-14" },
+                    { "book": "oathbringer", "chapter": "122" }
+                  ]
+                }
+              ],
+              "title": "A bargain with Odium",
+              "text": "During the Everstorm, Taravangian struck a deal with Odium: the Diagram's loyalty in return for sparing Kharbranth and its people in the war ahead.",
+              "after": ["confession"]
+            }
+          ]
+        },
+        {
+          "id": "kaladin-stop",
+          "kind": "realm",
+          "told": [
+            {
+              "revealedIn": [{ "book": "oathbringer", "chapter": "122" }],
+              "title": "Kaladin passes through",
+              "text": "On his way to Alethkar, Kaladin stopped for a night in Kharbranth and drew infused gemstones from the royal treasury for the journey.",
+              "places": ["alethkar"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "betrayal",
+      "title": [
+        {
+          "text": "Turning on the coalition",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "71" },
+                { "book": "words-of-radiance", "chapter": "i-14" },
+                { "book": "rhythm-of-war", "chapter": "i-3" }
+              ]
+            },
+            { "book": "rhythm-of-war", "chapter": "i-6" },
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "i-14" },
+                { "book": "rhythm-of-war", "chapter": "50" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Betrayal and a new queen",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "50" }]
+        }
+      ],
+      "tone": "#e58fb8",
+      "moments": [
+        {
+          "id": "disbanded",
+          "kind": "realm",
+          "told": [
+            {
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "way-of-kings", "chapter": "71" },
+                    { "book": "words-of-radiance", "chapter": "i-14" },
+                    { "book": "rhythm-of-war", "chapter": "i-3" }
+                  ]
+                }
+              ],
+              "title": "The Diagram disbanded",
+              "text": "Kharbranth stayed in the coalition but often argued against its battle plans, while Taravangian's inner circle drifted home to Kharbranth at his request. Ready to turn on the coalition, he disbanded the Diagram and had its work in the city taken apart, so that the city would not be punished for his betrayal."
+            },
+            {
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "way-of-kings", "chapter": "71" },
+                    { "book": "words-of-radiance", "chapter": "i-14" },
+                    { "book": "rhythm-of-war", "chapter": "66" }
+                  ]
+                }
+              ],
+              "text": "Kharbranth stayed in the coalition but often argued against its battle plans, while Taravangian's inner circle drifted home to Kharbranth at his request. Ready to turn on the coalition, he disbanded the Diagram, had its work in the city taken apart and removed everyone tied to it from government, so that the city would not be punished for his betrayal."
+            }
+          ]
+        },
+        {
+          "id": "emul",
+          "kind": "war",
+          "told": [
+            {
+              "revealedIn": [{ "book": "rhythm-of-war", "chapter": "i-6" }],
+              "title": "The betrayal at Emul",
+              "text": "In Emul, Taravangian sent the order for his armies to turn on the coalition, and within minutes he was arrested.",
+              "places": ["emul", "jah-keved"],
+              "after": ["disbanded"]
+            },
+            {
+              "revealedIn": [{ "book": "rhythm-of-war", "chapter": "66" }],
+              "text": "In Emul, Taravangian sent the order for his armies to turn on the coalition, and within minutes he was arrested. From prison he told Dalinar that, sure the coalition would lose, he had seen no other way to save Kharbranth.",
+              "places": ["emul", "jah-keved"]
+            }
+          ]
+        },
+        {
+          "id": "neutral",
+          "kind": "realm",
+          "told": [
+            {
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "words-of-radiance", "chapter": "i-14" },
+                    { "book": "rhythm-of-war", "chapter": "50" }
+                  ]
+                }
+              ],
+              "title": "Queen Savrahalidem",
+              "text": "Taravangian's daughter Savrahalidem, whom he had kept out of the Diagram so she would share none of the blame, became queen. She condemned her father, pulled Kharbranth out of every alliance and declared it neutral, going back to healing anyone in need. Dalinar blockaded the city's waters but would not risk a costly attack on land.",
+              "after": ["emul"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wave",
+      "title": [
+        {
+          "text": "The tidal wave",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "i-12" },
+            { "book": "wind-and-truth", "chapter": "147" }
+          ]
+        }
+      ],
+      "tone": "#a3443f",
+      "moments": [
+        {
+          "id": "tidal-wave",
+          "kind": "war",
+          "told": [
+            {
+              "revealedIn": [{ "book": "wind-and-truth", "chapter": "i-12" }],
+              "title": "Swept away",
+              "text": "Cultivation sent agents into Kharbranth and threatened to kill Taravangian's family unless he made peace with the coalition. To prove he could not be cowed, he called up a huge tidal wave that wiped out the city."
+            }
+          ]
+        },
+        {
+          "id": "replica",
+          "kind": "magic",
+          "told": [
+            {
+              "revealedIn": [{ "book": "wind-and-truth", "chapter": "147" }],
+              "title": "A city kept safe",
+              "text": "While Cultivation looked away, Retribution had quietly moved Kharbranth's people into a copy of the city he made in the Spiritual Realm, taking away their memories of its destruction.",
+              "after": ["tidal-wave"]
+            }
+          ]
         }
       ]
     }

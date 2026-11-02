@@ -11,11 +11,28 @@
   ],
   "description": [
     {
-      "text": "Thaylens follow Vorinism mixed with local beliefs, such as the Passions: wanting something strongly enough draws it to you. Men may learn to read, and women often wear a long glove instead of a sleeve on the safehand.",
-      "revealedIn": [{ "book": "way-of-kings", "chapter": "i-4" }]
+      "text": "Thaylens keep the Vorin divide between lighteyes and darkeyes, but in place of nahns and dahns they use ranks of their own.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "8" }]
     },
     {
-      "text": "Thaylens are known for long white eyebrows, which they sometimes tuck behind their ears; Thaylen men also have white beards whatever their age.",
+      "text": "Thaylens bend Vorin custom: men may learn to read, and women often cover the safehand with a long glove rather than a sleeve. Some young women leave it bare, which traditional Thaylens frown on.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "i-4" }],
+      "fromCulture": "religion"
+    },
+    {
+      "text": "Merchants rise in rank from apprentice to master, and the path is open to men, women and even foreigners. A master takes on an apprentice by becoming their legal parent, or babsk. Master merchants once wore flat-topped conical hats and starched robes to stand apart from their servants and guards; today many wear caps and vests instead.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "58" },
+            { "book": "words-of-radiance", "chapter": "i-3" }
+          ]
+        }
+      ],
+      "fromCulture": "trade"
+    },
+    {
+      "text": "Thaylens are tanned, if paler than the Reshi, and have epicanthic folds, as most Rosharans do. Most are short, though a few stand as tall as Alethi. Their mark is a pair of long white eyebrows, sometimes tucked behind the ears; the men also have white beards, whatever their age or hair colour.",
       "revealedIn": [
         {
           "all": [
@@ -24,10 +41,11 @@
             { "book": "oathbringer", "chapter": "i-4" }
           ]
         }
-      ]
+      ],
+      "fromCulture": "people"
     },
     {
-      "text": "Thaylenah's largest island, its population centre, is mountainous, with towering cliffs along its northern coast. It is cold, though Thaylens find it pleasantly chill. Its capital lies in a large lait on the northwest coast, across the Longbrow's Straits from the Frostlands.",
+      "text": "Thaylenah's mountains run right down to the sea, ending in towering cliffs along the northern coast. It is cold, though Thaylens find it pleasantly chill. Its capital lies in a large lait on the northwest coast.",
       "revealedIn": [
         {
           "all": [
@@ -38,14 +56,383 @@
       ]
     },
     {
-      "text": "Thaylen merchants trade across the whole continent. Merchants are ranked from apprentice to master; anyone can become one by being taken on by a master, who becomes their legal parent, or babsk.",
+      "text": "Thaylen banking is built on the Gemstone Reserve, the capital's great vault. Every sphere held there is assigned an owner and a number, and merchants trade the numbers instead of moving the gems, which works as long as people trust the Reserve. Using spanreeds, Thaylen banks keep branches in cities all over the continent, Kholinar among them.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "i-13" }]
+    },
+    {
+      "text": "Thaylen merchants trade in every corner of the continent, from Shinovar in the west to the Reshi Isles in the north, travelling by wagon caravan on land and in their own ships at sea. Their goods run from Soulcast metal to slaves.",
       "revealedIn": [
         {
           "all": [
-            { "book": "way-of-kings", "chapter": "58" },
+            { "book": "way-of-kings", "chapter": "i-4" },
             { "book": "words-of-radiance", "chapter": "i-3" },
             { "book": "oathbringer", "chapter": "i-13" }
           ]
+        }
+      ],
+      "fromCulture": "trade"
+    },
+    {
+      "text": "In Shadesmar the main island shows up as a wide lake, called the Thaylen Sea, just below the Sea of Lost Lights. Its shores stand empty; Salumon, in the foothills of the eastern mountains, is the nearest spren town.",
+      "revealedIn": ["oathbringer"]
+    }
+  ],
+  "culture": [
+    {
+      "title": [
+        {
+          "text": "People",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "2" },
+                { "book": "words-of-radiance", "chapter": "i-3" },
+                { "book": "oathbringer", "chapter": "i-4" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "8" },
+                { "book": "words-of-radiance", "chapter": "i-14" },
+                { "book": "oathbringer", "chapter": "120" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "10" },
+                { "book": "words-of-radiance", "chapter": "i-3" },
+                { "book": "oathbringer", "chapter": "i-10" },
+                { "book": "dawnshard", "chapter": "11" }
+              ]
+            }
+          ]
+        }
+      ],
+      "topic": "people",
+      "items": [
+        {
+          "text": "Thaylens are tanned, if paler than the Reshi, and have epicanthic folds, as most Rosharans do. Most are short, though a few stand as tall as Alethi. Their mark is a pair of long white eyebrows, sometimes tucked behind the ears; the men also have white beards, whatever their age or hair colour.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "2" },
+                { "book": "words-of-radiance", "chapter": "i-3" },
+                { "book": "oathbringer", "chapter": "i-4" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Thaylens take great care over their eyebrows. They wax or starch them into spikes, bangs or ringlets, and very few shave them off. One suit of Thaylen Shardplate, Cvaderln, is even decorated with eyebrows.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "8" },
+                { "book": "words-of-radiance", "chapter": "i-14" },
+                { "book": "oathbringer", "chapter": "120" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Thaylens live far beyond their islands: as travelling merchants, as settlers in lands like the Reshi Isles and Alethkar, and as tailors and bankers in cities across the continent. Some Rosharans call their sailors skyeels. They have a name for swindling but not for war, and Thaylen locks are known for their quality.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "10" },
+                { "book": "words-of-radiance", "chapter": "i-3" },
+                { "book": "oathbringer", "chapter": "i-10" },
+                { "book": "dawnshard", "chapter": "11" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Faith",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "i-4" },
+            { "book": "oathbringer", "chapter": "12" },
+            { "book": "oathbringer", "chapter": "59" },
+            { "book": "oathbringer", "chapter": "107" }
+          ]
+        }
+      ],
+      "topic": "religion",
+      "items": [
+        {
+          "text": "Thaylens bend Vorin custom: men may learn to read, and women often cover the safehand with a long glove rather than a sleeve. Some young women leave it bare, which traditional Thaylens frown on.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "i-4" }]
+        },
+        {
+          "text": "In Thaylen lore the Oathgates are bound up with the Passions: these \"portals of worlds\" could be reopened only by the most Passionate.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "12" }]
+        },
+        {
+          "text": "Thaylen City has temples to the Heralds, among them Shalash and Battah.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "59" }]
+        },
+        {
+          "text": "Other Vorin peoples see Thaylens as half pagan, yet Thaylenah is still counted among the five Vorin kingdoms, and its religious leaders have a voice when the ardentia debates. The friction is old: Thaylen monarchs often go out of their way to prove their piety, and some Thaylens now want to break with Vorinism altogether.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "107" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Dress",
+          "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "i-3" },
+            "oathbringer",
+            { "book": "dawnshard", "chapter": "1" }
+          ]
+        }
+      ],
+      "topic": "dress",
+      "items": [
+        {
+          "text": "Thaylens shrug off the cold of their islands, often going shirtless in the bitterest weather. They own heavy winter clothes but save them for the high mountains.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-3" }]
+        },
+        {
+          "text": "Fashionable Thaylen women favour vests, shirts and skirts of patterned silk, the skirts with hems that come off, or thick boots and leggings worn under a skirt. The tlmko is a garment of their own. An older style, still seen, has men in knee-length trousers tucked into socks with their jacket sleeves rolled up, and women in knee-length aprons over shirts. Parasols are popular, though the mainland hasn't taken them up.",
+          "revealedIn": ["oathbringer"]
+        },
+        {
+          "text": "Some Thaylens hang jewellery on their eyebrows.",
+          "revealedIn": [{ "book": "dawnshard", "chapter": "1" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Language",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "3" },
+            { "book": "words-of-radiance", "chapter": "i-3" },
+            { "book": "way-of-kings", "chapter": "8" },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "8" },
+                { "book": "lost-metal", "chapter": "39" }
+              ]
+            }
+          ]
+        }
+      ],
+      "topic": "language",
+      "items": [
+        {
+          "text": "Thaylens have a distinctive accent: they stress unexpected syllables, run their words together and often finish a sentence with \"you see\".",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "3" }]
+        },
+        {
+          "text": "In Thaylen, tyvnk means sullen; Rysn gives the word as a name to her pot of Shin grass.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-3" }]
+        },
+        {
+          "text": "The Thaylen script is an abjad, written without vowels. Unlike in most Vorin lands, Thaylen men may learn it, though they don't show the skill off in public.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "8" }]
+        },
+        {
+          "text": "Written Thaylen letters lock into one another.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "8" },
+                { "book": "lost-metal", "chapter": "39" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Architecture",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "i-3" },
+                { "book": "oathbringer", "chapter": "107" }
+              ]
+            }
+          ]
+        }
+      ],
+      "topic": "arts",
+      "items": [
+        {
+          "text": "Thaylen buildings are ornate and flowery, quite unlike the plain, practical buildings of the Alethi.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "i-3" },
+                { "book": "oathbringer", "chapter": "107" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Food",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "42" },
+                { "book": "oathbringer", "chapter": "121" }
+              ]
+            }
+          ]
+        }
+      ],
+      "topic": "food",
+      "items": [
+        {
+          "text": "Thaylen bread is known abroad: dark, long and rounded, and as puffy as cake. Thaylens also brew a beer of their own from lavis.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "42" },
+                { "book": "oathbringer", "chapter": "121" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Warfare",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "23" },
+                { "book": "oathbringer", "chapter": "120" }
+              ]
+            },
+            { "book": "oathbringer", "chapter": "107" },
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "i-3" },
+                { "book": "oathbringer", "chapter": "107" }
+              ]
+            }
+          ]
+        }
+      ],
+      "topic": "warfare",
+      "items": [
+        {
+          "text": "Thaylenah has five Shardblades and three suits of Shardplate, each belonging to a different house; those who bear them are known as highguards.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "23" },
+                { "book": "oathbringer", "chapter": "120" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Thaylenah's seafaring tradition is famous across the world. Its officers study naval tactics and strategy far more deeply than officers elsewhere, and it keeps a large fleet.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "107" }]
+        },
+        {
+          "text": "The traditional Thaylen weapon is the gtet, which has a wedge-shaped blade and a grip held like a fist. Sailors carry sabers instead.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "i-3" },
+                { "book": "oathbringer", "chapter": "107" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Trade",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "58" },
+                { "book": "words-of-radiance", "chapter": "i-3" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "11" },
+                { "book": "oathbringer", "chapter": "i-13" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "i-4" },
+                { "book": "words-of-radiance", "chapter": "i-3" },
+                { "book": "oathbringer", "chapter": "i-13" }
+              ]
+            },
+            { "book": "oathbringer", "chapter": "i-13" },
+            { "book": "rhythm-of-war", "chapter": "97" }
+          ]
+        }
+      ],
+      "topic": "trade",
+      "items": [
+        {
+          "text": "Merchants rise in rank from apprentice to master, and the path is open to men, women and even foreigners. A master takes on an apprentice by becoming their legal parent, or babsk. Master merchants once wore flat-topped conical hats and starched robes to stand apart from their servants and guards; today many wear caps and vests instead.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "58" },
+                { "book": "words-of-radiance", "chapter": "i-3" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Ship captains, many of them merchants too, mark their ships with a captain's cord: a white rope twenty feet long, wrapped in the captain's colours and strung in the rigging. Traders with no ship can hire barges for the short crossing to the mainland.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "11" },
+                { "book": "oathbringer", "chapter": "i-13" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Thaylen merchants trade in every corner of the continent, from Shinovar in the west to the Reshi Isles in the north, travelling by wagon caravan on land and in their own ships at sea. Their goods run from Soulcast metal to slaves.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "i-4" },
+                { "book": "words-of-radiance", "chapter": "i-3" },
+                { "book": "oathbringer", "chapter": "i-13" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Trade is the backbone of the economy, so merchant councils hold real power over the monarch and help elect one, and becoming a master merchant can lead to high office.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "i-13" }]
+        },
+        {
+          "text": "Thaylenah is scientifically advanced. Many of the most skilled artifabrians are Thaylen, in guilds like the Vriztl Guild, which guard their methods closely, and the kingdom makes fine instruments, from telescope lenses to vacuum tubes made by its Royal Institute of Barometric Studies.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "97" }]
         }
       ]
     }
@@ -105,6 +492,241 @@
         {
           "text": "A supposed invasion fleet drew coalition forces toward Thaylen City. The threat was a diversion, and Odium secured Queen Fen's agreement to join him after debating Jasnah.",
           "revealedIn": [{ "book": "wind-and-truth", "chapter": "123" }]
+        }
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "id": "long-ago",
+      "title": "Long ago",
+      "tone": "#8c7ae6",
+      "moments": [
+        {
+          "id": "thalath",
+          "kind": "legend",
+          "told": [
+            {
+              "revealedIn": [{ "book": "oathbringer", "chapter": "12" }],
+              "title": "Part of Thalath",
+              "text": "In the Heraldic Epochs the islands belonged to the kingdom of Thalath.",
+              "places": ["thalath"]
+            },
+            {
+              "revealedIn": [{ "book": "oathbringer", "chapter": "107" }],
+              "text": "In the Heraldic Epochs the islands belonged to the kingdom of Thalath. Thaylen City was its capital and home to its Oathgate."
+            }
+          ]
+        },
+        {
+          "id": "own-kingdom",
+          "kind": "realm",
+          "told": [
+            {
+              "revealedIn": [{ "book": "oathbringer", "chapter": "12" }],
+              "title": "A kingdom of its own",
+              "text": "Thaylen tradition holds that Thaylenah itself is around four thousand years old.",
+              "after": ["thalath"]
+            }
+          ]
+        },
+        {
+          "id": "hierocracy",
+          "kind": "realm",
+          "told": [
+            {
+              "revealedIn": [{ "book": "oathbringer", "chapter": "59" }],
+              "title": "Under the Hierocracy",
+              "text": "Thaylenah was once part of the Hierocracy, a wide Vorin realm that also took in Jah Keved and the lands that became Alethkar and Kharbranth.",
+              "places": ["jah-keved", "alethkar", "kharbranth"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "merchants",
+      "title": "A kingdom of merchants",
+      "tone": "#e0b25c",
+      "moments": [
+        {
+          "id": "commerce",
+          "kind": "realm",
+          "told": [
+            {
+              "revealedIn": [{ "book": "way-of-kings", "chapter": "i-4" }],
+              "title": "A trading power",
+              "text": "Thaylen merchants carried their trade far across Roshar, as far west as Shinovar.",
+              "places": ["shinovar"]
+            },
+            {
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "way-of-kings", "chapter": "i-4" },
+                    { "book": "oathbringer", "chapter": "120" }
+                  ]
+                }
+              ],
+              "text": "Thaylenah grew into a giant of commerce, its ships and caravans trading goods all over the world. It was a peaceful land that had known no war for a generation."
+            }
+          ]
+        },
+        {
+          "id": "elected-crown",
+          "kind": "realm",
+          "told": [
+            {
+              "revealedIn": [{ "book": "oathbringer", "chapter": "59" }],
+              "title": "An elected crown",
+              "text": "Thaylenah's monarch is chosen by an assembly of merchant councils and senior naval officers. The present ruler is Queen Fen Rnamdi.",
+              "after": ["commerce"],
+              "art": "character:fen-rnamdi"
+            },
+            {
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "way-of-kings", "chapter": "i-4" },
+                    { "book": "oathbringer", "chapter": "120" }
+                  ]
+                }
+              ],
+              "text": "Thaylenah's monarch is chosen by an assembly of merchant councils and senior naval officers. Fen Rnamdi was elected queen within the last few decades."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "desolation",
+      "title": [
+        {
+          "text": "The True Desolation",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "12" },
+            { "book": "oathbringer", "chapter": "58" },
+            { "book": "oathbringer", "chapter": "113" },
+            { "book": "oathbringer", "chapter": "119" }
+          ]
+        }
+      ],
+      "tone": "#d9645a",
+      "moments": [
+        {
+          "id": "everstorm",
+          "kind": "war",
+          "told": [
+            {
+              "revealedIn": [{ "book": "oathbringer", "chapter": "12" }],
+              "title": "Wrecked by the Everstorm",
+              "text": "The Everstorm left Thaylen City in ruins, and the Voidbringers made off with most of the kingdom's ships."
+            },
+            {
+              "revealedIn": [{ "book": "oathbringer", "chapter": "113" }],
+              "text": "The Everstorm wrecked Thaylen City, and its parshmen stole the ships and sailed away. The losses crippled the navy Thaylenah was famous for and badly hurt its economy."
+            }
+          ]
+        },
+        {
+          "id": "oathgate",
+          "kind": "magic",
+          "told": [
+            {
+              "revealedIn": [{ "book": "oathbringer", "chapter": "58" }],
+              "title": "Through the Oathgate",
+              "text": "Queen Fen agreed to a visit, and Dalinar came to Thaylen City through its Oathgate, worked from Urithiru. He was shocked by how much of the city lay in ruins.",
+              "places": ["urithiru"],
+              "after": ["everstorm"]
+            }
+          ]
+        },
+        {
+          "id": "alliance",
+          "kind": "realm",
+          "told": [
+            {
+              "revealedIn": [{ "book": "oathbringer", "chapter": "113" }],
+              "title": "Standing with Urithiru",
+              "text": "With nowhere else to turn, Thaylenah allied with Urithiru, and it stood by that alliance even after the other kingdoms broke away.",
+              "places": ["urithiru"],
+              "after": ["oathgate"]
+            }
+          ]
+        },
+        {
+          "id": "thaylen-field",
+          "kind": "war",
+          "chrono": "roshar-ob-thaylen-field-battle-resolves",
+          "told": [
+            {
+              "revealedIn": [{ "book": "oathbringer", "chapter": "119" }],
+              "title": "The Battle of Thaylen Field",
+              "text": "Thaylen City became the ground for one of the first great battles of the True Desolation, the Battle of Thaylen Field.",
+              "after": ["alliance"]
+            },
+            {
+              "revealedIn": [{ "book": "oathbringer", "chapter": "120" }],
+              "text": "Thaylen City became the ground for one of the first great battles of the True Desolation, the Battle of Thaylen Field. In it the King's Drop, a flawless gem from the Thaylen Reserve, became the prison of the Unmade Nergaoul."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "contest",
+      "title": [
+        {
+          "text": "Before the contest",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "15" },
+            { "book": "wind-and-truth", "chapter": "78" },
+            { "book": "wind-and-truth", "chapter": "123" }
+          ]
+        }
+      ],
+      "tone": "#5f8fd9",
+      "moments": [
+        {
+          "id": "threat",
+          "kind": "war",
+          "told": [
+            {
+              "revealedIn": [{ "book": "wind-and-truth", "chapter": "15" }],
+              "title": "Thaylen City threatened",
+              "text": "In the days before the contest of champions, word came that the singers were moving against Thaylen City, as well as Azimir and the Shattered Plains.",
+              "places": ["azimir", "shattered-plains"]
+            },
+            {
+              "revealedIn": [{ "book": "wind-and-truth", "chapter": "61" }],
+              "text": "In the days before the contest of champions, Odium's forces moved against Thaylen City. Jasnah came with an Alethi army to help hold it, though Fen, whose navy had never recovered, was uneasy about relying on Alethi troops.",
+              "places": ["alethkar"]
+            }
+          ]
+        },
+        {
+          "id": "ruse",
+          "kind": "war",
+          "told": [
+            {
+              "revealedIn": [{ "book": "wind-and-truth", "chapter": "78" }],
+              "title": "A fleet full of stone",
+              "text": "A report reached Jasnah that Odium's ships carried stone, not soldiers: the invasion was a feint to draw the coalition's forces away. Fen feared it hid some real plan to take her kingdom.",
+              "after": ["threat"]
+            }
+          ]
+        },
+        {
+          "id": "joins-odium",
+          "kind": "realm",
+          "told": [
+            {
+              "revealedIn": [{ "book": "wind-and-truth", "chapter": "123" }],
+              "title": "Queen Fen's choice",
+              "text": "Odium came in person to argue over Thaylenah's fate with Jasnah. Jasnah lost the debate, and Queen Fen signed her kingdom over to Odium without any invasion.",
+              "after": ["ruse"]
+            }
+          ]
         }
       ]
     }

@@ -11,12 +11,19 @@
       "revealedIn": [{ "book": "way-of-kings", "chapter": "i-3" }]
     },
     {
-      "text": "Outsiders call its people Bavlanders, but they call themselves Bav. Though Vorin, they have a culture distinct from the Veden one, with their own language in several dialects.",
-      "revealedIn": [{ "book": "way-of-kings", "chapter": "i-6" }]
+      "text": "Outsiders call the people of Bavland Bavlanders, but they call themselves Bav. Though Vorin, they have a culture distinct from the Veden one.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "i-6" }],
+      "fromCulture": "people"
+    },
+    {
+      "text": "The Bav have a language of their own, spoken in several dialects. In the Ironsway dialect, a child is a kurp.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "i-6" }],
+      "fromCulture": "language"
     },
     {
       "text": "Spoken Bav sounds as though the speaker's mouth is full of pebbles. Tyn trained Shallan in the accent, which is a good one for anyone hoping to avoid notice.",
-      "revealedIn": [{ "book": "words-of-radiance", "chapter": "28" }]
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "28" }],
+      "fromCulture": "language"
     },
     {
       "text": "The rest of Jah Keved largely ignores Bavland, and even the highprince with authority over it stays away; the Alethi dismiss it as a backwater.",
@@ -26,6 +33,74 @@
             { "book": "way-of-kings", "chapter": "i-3" },
             { "book": "rhythm-of-war", "chapter": "29" }
           ]
+        }
+      ]
+    }
+  ],
+  "culture": [
+    {
+      "title": [
+        {
+          "text": "People",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "i-6" }]
+        }
+      ],
+      "topic": "people",
+      "items": [
+        {
+          "text": "Outsiders call the people of Bavland Bavlanders, but they call themselves Bav. Though Vorin, they have a culture distinct from the Veden one.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "i-6" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Faith",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "i-3" },
+                { "book": "oathbringer", "chapter": "93" }
+              ]
+            }
+          ]
+        }
+      ],
+      "topic": "religion",
+      "items": [
+        {
+          "text": "When the Bav curse, they call on the Dustmother.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "i-3" },
+                { "book": "oathbringer", "chapter": "93" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Language",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "i-6" },
+            { "book": "words-of-radiance", "chapter": "28" }
+          ]
+        }
+      ],
+      "topic": "language",
+      "items": [
+        {
+          "text": "The Bav have a language of their own, spoken in several dialects. In the Ironsway dialect, a child is a kurp.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "i-6" }]
+        },
+        {
+          "text": "Spoken Bav sounds as though the speaker's mouth is full of pebbles. Tyn trained Shallan in the accent, which is a good one for anyone hoping to avoid notice.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "28" }]
         }
       ]
     }
