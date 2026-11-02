@@ -116,8 +116,8 @@ describe('place culture and timeline reveals', () => {
     )
     expect(shown.spoilers).toBe(true)
 
-    const place = (id: string) =>
-      revealLocationTimeline(
+    const place = (id: string) => {
+      const t = revealLocationTimeline(
         {
           intro: [],
           description: [],
@@ -138,8 +138,54 @@ describe('place culture and timeline reveals', () => {
           ],
         },
         read,
-      ).eras[0].moments[0].places
-    expect(place('no-such-place')).toEqual([])
+      )
+      return { places: t.eras[0].moments[0].places, spoilers: t.spoilers }
+    }
+    expect(place('no-such-place').places).toEqual([])
+    expect(place('no-such-place').spoilers).toBe(false)
+  })
+
+  it('hides a moment’s place and art until their chapters, and says so', () => {
+    const moment = (canSee: ReturnType<typeof at>) =>
+      revealLocationTimeline(
+        {
+          intro: [],
+          description: [],
+          history: [],
+          timeline: [
+            {
+              id: 'e',
+              title: 'Era',
+              tone: '#000000',
+              moments: [
+                {
+                  id: 'a',
+                  kind: 'war',
+                  told: [
+                    {
+                      revealedIn: wok('1'),
+                      title: 'a',
+                      text: 'a',
+                      places: ['kholinar'],
+                      art: 'character:kaladin',
+                    },
+                  ],
+                },
+              ],
+            },
+          ],
+        },
+        canSee,
+      )
+    const early = moment(at([], { 'way-of-kings': '1' }))
+    expect(early.eras[0].moments[0].places).toEqual([])
+    expect(early.eras[0].moments[0].art).toBeUndefined()
+    expect(early.spoilers).toBe(true)
+    const late = moment(at(['way-of-kings', 'words-of-radiance']))
+    expect(late.eras[0].moments[0].places.map((p) => p.id)).toEqual([
+      'kholinar',
+    ])
+    expect(late.eras[0].moments[0].art).toBeDefined()
   })
 
   it('finds Rira’s story for its map place', () => {

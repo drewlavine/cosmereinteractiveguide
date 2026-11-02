@@ -918,6 +918,11 @@ export function revealEras(
     return list.filter((x) => show(x.revealedIn))
   }
 
+  const shownArt = (key: string) => {
+    if (!artFor(key, canSee) && artFor(key, () => true)) spoilers = true
+    return artFor(key, show)
+  }
+
   const eras = history.flatMap((era): ShownEra[] => {
     const titles =
       typeof era.title === 'string'
@@ -945,11 +950,12 @@ export function revealEras(
           title,
           text,
           places: places.flatMap((id) => {
+            if (!placeOf(id, canSee) && placeOf(id, () => true)) spoilers = true
             const place = placeOf(id, show)
             return place ? [{ id: place.id, name: place.name }] : []
           }),
           after,
-          art: art ? artFor(art, show) : undefined,
+          art: art ? shownArt(art) : undefined,
           chrono: moment.chrono,
           versions,
         },
