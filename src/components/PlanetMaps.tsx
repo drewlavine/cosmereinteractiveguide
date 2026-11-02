@@ -1,4 +1,11 @@
-import { useState, type ReactNode } from 'react'
+import {
+  useCallback,
+  useEffect,
+  useRef,
+  useState,
+  type ReactNode,
+  type Ref,
+} from 'react'
 import { books } from '../data/books'
 import {
   mapImageUrl,
@@ -9,7 +16,12 @@ import {
   type PlanetMap,
 } from '../data/maps'
 import { useBooksRead } from '../state/booksRead'
-import { PanZoom } from './PanZoom'
+import {
+  PanZoom,
+  type PanZoomHandle,
+  type PanZoomHome,
+  type Transform,
+} from './PanZoom'
 import { PageSection } from './PageSections'
 
 const bookTitle = (bookId: string) =>
@@ -89,9 +101,24 @@ export function PlanetMaps({
   )
 }
 
+/** How a map is shown right now, for overlays that follow the zoom. */
+export interface MapView {
+  transform: Transform
+  /** Canvas px per image px, before the zoom. */
+  k: number
+  /** Where the image starts in the canvas (it's letterboxed to fit). */
+  origin: { x: number; y: number }
+  /** Screen px per image px, zoom included. */
+  px: number
+  frame: { width: number; height: number }
+}
+
 /**
  * One map version with its caption, edition choice (when `onVersion` is
- * given) and credit. `overlay` is drawn over the image, in image pixels.
+ * given) and credit. `overlay` is drawn over the image, in image pixels;
+ * given as a function, it and `frameExtras` (drawn over the frame, unzoomed)
+ * follow the view. `spotlight` dims the image, for an overlay that redraws
+ * part of it.
  */
 export function MapFigure({
   map,
@@ -99,20 +126,75 @@ export function MapFigure({
   source,
   onVersion,
   overlay,
+  frameExtras,
+  captionStart,
+  spotlight = false,
+  home,
+  panZoom,
+  onTransform,
 }: {
   map: PlanetMap
   version: MapVersion
   source: (version: MapVersion) => string
   onVersion?: (version: MapVersion) => void
-  overlay?: ReactNode
+  overlay?: ReactNode | ((view: MapView) => ReactNode)
+  frameExtras?: (view: MapView) => ReactNode
+  captionStart?: ReactNode
+  spotlight?: boolean
+  home?: PanZoomHome
+  panZoom?: Ref<PanZoomHandle>
+  onTransform?: (transform: Transform) => void
 }) {
+  const follows = typeof overlay === 'function' || !!frameExtras
+  const frameRef = useRef<HTMLDivElement>(null)
+  const [transform, setTransform] = useState<Transform>({
+    x: 0,
+    y: 0,
+    scale: 1,
+  })
+  const [frame, setFrame] = useState({ width: 0, height: 0 })
+
+  // The image is drawn to fit the frame; track its size to place the overlays.
+  useEffect(() => {
+    const el = frameRef.current
+    if (!follows || !el || typeof ResizeObserver === 'undefined') return
+    const observer = new ResizeObserver(() =>
+      setFrame({ width: el.clientWidth, height: el.clientHeight }),
+    )
+    observer.observe(el)
+    return () => observer.disconnect()
+  }, [follows])
+
+  const changed = useCallback(
+    (t: Transform) => {
+      if (follows) setTransform(t)
+      onTransform?.(t)
+    },
+    [follows, onTransform],
+  )
+  const k =
+    Math.min(frame.width / version.width, frame.height / version.height) || 1
+  const origin = {
+    x: frame.width ? (frame.width - version.width * k) / 2 : 0,
+    y: frame.height ? (frame.height - version.height * k) / 2 : 0,
+  }
+  const view: MapView = { transform, k, origin, px: k * transform.scale, frame }
+
   return (
     <figure className="map-viewer">
       <div
-        className="map-viewer-frame"
+        ref={frameRef}
+        className={`map-viewer-frame${spotlight ? ' is-spotlit' : ''}`}
         style={{ aspectRatio: `${version.width} / ${version.height}` }}
       >
-        <PanZoom key={version.file} label={`${map.title} map`} fill="cover">
+        <PanZoom
+          key={version.file}
+          label={`${map.title} map`}
+          fill="cover"
+          ref={panZoom}
+          home={home}
+          onTransform={changed}
+        >
           <div className="map-canvas">
             <img
               className="map-viewer-image"
@@ -122,12 +204,14 @@ export function MapFigure({
               height={version.height}
               draggable={false}
             />
-            {overlay}
+            {typeof overlay === 'function' ? overlay(view) : overlay}
           </div>
         </PanZoom>
+        {frameExtras?.(view)}
       </div>
 
       <figcaption className="map-viewer-caption">
+        {captionStart}
         <div>
           <strong>{map.title}.</strong> {version.caption}
         </div>
