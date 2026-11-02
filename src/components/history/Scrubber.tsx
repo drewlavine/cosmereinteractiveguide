@@ -50,6 +50,7 @@ export function ScrubCard({
     <div
       className={`${s.scrubCard} ${className}`}
       style={toneStyle(step.era.tone)}
+      data-bare={!props.planet || undefined}
     >
       <Stage step={step} props={props} />
       <div aria-live="polite">

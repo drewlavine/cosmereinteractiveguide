@@ -58,10 +58,12 @@ export function PlanetHistory({
       <p className={s.tip}>{historyStyles.find((o) => o.id === style)?.tip}.</p>
       <View
         eras={eras}
-        systemId={systemId}
         planet={planet}
         showAll={showAll}
         link={link}
+        placeHref={(id) =>
+          `/systems/${systemId}/planets/${planet.id}/locations/${id}`
+        }
       />
     </PageSection>
   )
