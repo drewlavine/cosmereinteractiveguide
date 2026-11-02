@@ -18,11 +18,13 @@ import { PeopleGrid } from './PeopleGrid'
 import { PortraitArt } from './ArtViewer'
 import { SeeAll } from './SeeAll'
 import { entryArt } from '../data/entryArt'
+import { placeCultureArt } from '../data/placeCultureArt'
 import { LIST_CAP } from '../data/notable'
 import {
   revealLocationDetails,
   revealLocationStory,
   revealLocationTimeline,
+  revealPlaceCultureArt,
   revealPortrait,
   type ShownLocationDetails,
 } from '../data/reveal'
@@ -142,6 +144,12 @@ export function PlacePage(props: PlacePageProps) {
     return !!l && canSee(placeRevealedIn(l))
   }
   const story = revealLocationStory(prose.story, canSee, showAll)
+  const cultureArt = revealPlaceCultureArt(
+    placeCultureArt[id],
+    story.culture.map((c) => c.topic),
+    canSee,
+    showAll,
+  )
   const timeline = revealLocationTimeline(prose.story, canSee, showAll)
   const details = revealLocationDetails(
     locationDetails[id],
@@ -188,7 +196,8 @@ export function PlacePage(props: PlacePageProps) {
           story.spoilers ||
           timeline.spoilers ||
           details.spoilers ||
-          art.spoilers
+          art.spoilers ||
+          cultureArt.spoilers
         }
       />
       <div className="character-body">
@@ -284,7 +293,7 @@ export function PlacePage(props: PlacePageProps) {
               })()}
             </PageSection>
           )}
-          <PlaceCulture id={id} culture={story.culture} showAll={showAll} />
+          <PlaceCulture id={id} culture={story.culture} art={cultureArt.art} />
           {timeline.eras.length > 0 ? (
             <PlaceTimeline
               id={id}
