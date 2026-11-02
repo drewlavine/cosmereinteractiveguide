@@ -115,6 +115,12 @@ Category:Cosmere; check anything unclear by hand.
           Kholinar…) shows it, with its editions; any other place is
           highlighted on each unlocked map it's marked on ("Where it is",
           with a choice of map). 17 own maps, 186 marked, 3 without a map
+    - [x] "Where it is" spotlights the place: the map dims around a framed
+          outline, with a "Show all" toggle and an inset for the whole map.
+          Re-traced Aimia, Rira, Thaylenah and Silver Kingdoms Aimia and
+          Alethela
+    - [x] Roshar nations: History as a Metro-line timeline, and a Culture
+          section with pictures beside their topics, all spoiler-gated
     - [ ] Jump to a regional map, e.g. from Arelon's outline to the Arelon map
   - [x] Only show regions, and information about them, from books the reader
         has marked as read

@@ -443,12 +443,12 @@ describe('location page maps', () => {
       vi.stubGlobal(
         'ResizeObserver',
         class {
-          cb: () => void
-          constructor(cb: () => void) {
+          cb: (entries: unknown[]) => void
+          constructor(cb: (entries: unknown[]) => void) {
             this.cb = cb
           }
           observe() {
-            this.cb()
+            this.cb([{ contentRect: { width: 800, height: 500 } }])
           }
           disconnect() {}
         },
