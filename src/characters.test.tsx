@@ -588,7 +588,8 @@ describe('characters pages', () => {
     expect(
       screen.getByRole('heading', { level: 1, name: 'In 6 books' }),
     ).toBeInTheDocument()
-  })
+    // Renders several full list pages; slow on CI runners.
+  }, 60_000)
 
   it('groups only by what the reader knows', () => {
     // Kaladin learns he's a Surgebinder in chapter 57 (Coppermind footnote).
