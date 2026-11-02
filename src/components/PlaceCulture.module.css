@@ -1,0 +1,35 @@
+/* Keep each topic's floated pictures inside it. */
+.topic {
+  display: flow-root;
+}
+
+/* A picture floated beside its topic's text. */
+.art {
+  float: right;
+  clear: right;
+  width: min(17rem, 42%);
+  margin: 0.25rem 0 0.75rem 1.25rem;
+}
+
+.art img {
+  max-height: 22rem;
+  object-fit: contain;
+  object-position: center;
+}
+
+@media (max-width: 600px) {
+  .art {
+    float: none;
+    width: auto;
+    margin: 0 0 1rem;
+  }
+
+  .art img {
+    width: 100%;
+    max-height: none;
+  }
+
+  .art :global(.art-open) {
+    width: 100%;
+  }
+}
