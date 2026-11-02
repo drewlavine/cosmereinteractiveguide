@@ -24,12 +24,18 @@
     margin: 0 0 1rem;
   }
 
+  /* Whole picture, centred, never taller than most of the screen. */
   .art img {
-    width: 100%;
-    max-height: none;
+    width: auto;
+    max-width: 100%;
+    max-height: 60vh;
+    margin-inline: auto;
+    object-fit: contain;
   }
 
   .art :global(.art-open) {
-    width: 100%;
+    width: fit-content;
+    max-width: 100%;
+    margin-inline: auto;
   }
 }
