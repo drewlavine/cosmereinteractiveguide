@@ -1,0 +1,177 @@
+/* Keep each topic's pictures inside it. */
+.topic {
+  position: relative;
+  display: flow-root;
+}
+
+/* Topic heading: icon, title, then a hairline to the edge. */
+:global(.place-page) .topic > h3 {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-top: 2rem;
+  font-family: var(--display);
+  font-size: 1.35rem;
+  font-weight: 400;
+  color: var(--gold-soft);
+}
+
+.topic > h3::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(90deg, rgba(212, 165, 64, 0.5), transparent);
+}
+
+.iconed > h3 {
+  padding-left: 2rem;
+}
+
+.icon {
+  position: absolute;
+  /* Level with the title (h3 margin + half its line). */
+  top: calc(2rem + 0.1rem);
+  left: 0;
+  width: 1.5rem;
+  height: 1.5rem;
+  color: var(--gold);
+}
+
+:global(.place-page .page-section-body) > .topic:first-child > h3,
+:global(.place-page) .jumper + .topic > h3 {
+  margin-top: 0.75rem;
+}
+
+:global(.page-section-body) > .topic:first-child > .icon,
+.jumper + .topic > .icon {
+  top: 0.85rem;
+}
+
+/* Each topic opens on its first note, a little larger. */
+p.lead {
+  color: var(--text-strong);
+  font-size: 1.02rem;
+  line-height: 1.6;
+}
+
+/* A picture at the top of its topic (phones and narrow windows). */
+.art {
+  margin: 0.25rem 0 1rem;
+}
+
+.topic .art img {
+  width: 100%;
+  max-height: 60vh;
+  object-fit: contain;
+  object-position: center;
+}
+
+/* Sticky topic jumper, for when there's no plate beside the text. */
+.jumper {
+  position: sticky;
+  top: 0;
+  z-index: 3;
+  margin: 0 calc(-1 * clamp(1.5rem, 4vw, 4rem)) 0.5rem;
+  padding: 0.4rem clamp(1.5rem, 4vw, 4rem);
+  background: rgba(15, 26, 34, 0.94);
+  border-bottom: 1px solid rgba(212, 165, 64, 0.3);
+  backdrop-filter: blur(6px);
+}
+
+.jumperToggle {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.45rem 0.75rem;
+  border: 1px solid rgba(212, 165, 64, 0.45);
+  border-radius: 999px;
+  background: var(--slate-deep);
+  color: var(--gold-soft);
+  font: inherit;
+  cursor: pointer;
+}
+
+.jumperToggle::after {
+  content: '▾';
+  color: var(--gold);
+  transition: transform 0.2s;
+}
+
+.jumperToggle[aria-expanded='true']::after {
+  transform: rotate(180deg);
+}
+
+.jumperIcon {
+  flex: none;
+  width: 1.15rem;
+  height: 1.15rem;
+  color: var(--gold);
+}
+
+.jumperTitle {
+  font-family: var(--display);
+  font-size: 1.1rem;
+}
+
+.jumperCount {
+  margin-left: auto;
+  color: var(--text-muted, #9fb0bc);
+  font-size: 0.8rem;
+}
+
+.jumperMenu {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(10rem, 1fr));
+  gap: 0.3rem;
+  margin: 0.5rem 0 0.2rem;
+  padding: 0;
+  list-style: none;
+}
+
+.jumperMenu a {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.45rem 0.6rem;
+  border: 1px solid rgba(212, 165, 64, 0.2);
+  border-radius: 0.5rem;
+  color: var(--text);
+  font-size: 0.9rem;
+  text-decoration: none;
+}
+
+.jumperMenu a[aria-current] {
+  border-color: var(--gold);
+  background: rgba(212, 165, 64, 0.14);
+  color: var(--gold);
+}
+
+/* Phones: pictures run edge to edge, like plates in a book. */
+@media (max-width: 760px) {
+  .topic .art {
+    margin-inline: calc(-1 * clamp(1.5rem, 4vw, 4rem));
+  }
+
+  .topic .art img {
+    border-inline: 0;
+    border-radius: 0;
+  }
+
+  .topic .art figcaption {
+    padding-inline: 1rem;
+  }
+}
+
+@media (max-width: 1023px) {
+  /* Room for the jumper above a topic jumped to. */
+  .topic {
+    scroll-margin-top: 4rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .jumperToggle::after {
+    transition: none;
+  }
+}
