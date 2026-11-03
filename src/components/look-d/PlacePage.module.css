@@ -1,0 +1,211 @@
+/*
+ * A place's page: a hero band (picture, name, intro and fact strip) over the
+ * text, with the plate beside it on wide screens (see PlatePanel).
+ */
+.hero {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  max-width: 78rem;
+  margin-bottom: 2rem;
+  padding: 2rem clamp(1.25rem, 3vw, 2.5rem) 1.25rem;
+  border: 1px solid rgba(212, 165, 64, 0.3);
+  border-radius: 18px;
+  background:
+    linear-gradient(
+      100deg,
+      var(--slate-deep) 30%,
+      rgba(28, 42, 53, 0.75) 55%,
+      rgba(28, 42, 53, 0.15)
+    ),
+    var(--bg);
+}
+
+/* Shade over the backdrop so the facts along the foot stay legible. */
+.hero::after {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  inset: 0;
+  background: linear-gradient(0deg, rgba(15, 26, 34, 0.75), transparent 50%);
+  pointer-events: none;
+}
+
+/* The place's picture as a faint backdrop on the right (wide screens). */
+.backdrop {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  right: 0;
+  width: 62%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 40%;
+  opacity: 0.5;
+  mask-image: linear-gradient(90deg, transparent, #000 55%);
+  pointer-events: none;
+}
+
+.heroText {
+  max-width: 44rem;
+}
+
+.heroText h1 {
+  font-size: clamp(2.4rem, 4.2vw, 3.4rem);
+  line-height: 1.05;
+  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.45);
+}
+
+.intro {
+  margin: 0.8rem 0 0;
+  color: var(--text-strong);
+  font-size: 1.18rem;
+  line-height: 1.55;
+  text-shadow: 0 1px 8px rgba(15, 26, 34, 0.9);
+}
+
+/* The fact strip: short facts as cells along the foot of the hero. */
+.facts {
+  margin-top: 1.5rem;
+  padding-top: 1rem;
+  border-top: 1px solid rgba(212, 165, 64, 0.25);
+}
+
+.strip {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(9.5rem, 1fr));
+  gap: 0.8rem 1.5rem;
+  margin: 0;
+}
+
+.strip:empty {
+  display: none;
+}
+
+.strip > div {
+  min-width: 0;
+  padding-left: 0.75rem;
+  border-left: 2px solid rgba(212, 165, 64, 0.45);
+}
+
+.strip dt {
+  color: var(--gold);
+  font-size: 0.7rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.strip dd {
+  margin: 0.15rem 0 0;
+  color: var(--text-strong);
+  font-size: 1.02rem;
+  line-height: 1.35;
+  text-shadow: 0 1px 6px rgba(15, 26, 34, 0.95);
+}
+
+.wideFact {
+  grid-column: span 2;
+}
+
+.source {
+  margin: 0.9rem 0 0;
+  color: var(--text-muted, #9fb0bc);
+  font-size: 0.8rem;
+}
+
+/* The longer facts, folded, where there's no plate to hold them. */
+.moreFacts {
+  margin-top: 0.9rem;
+  font-size: 0.92rem;
+}
+
+.moreFacts:has(dl:empty) {
+  display: none;
+}
+
+.moreFacts summary {
+  color: var(--gold);
+  font-size: 0.75rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.moreFacts dl {
+  margin: 0.5rem 0 0;
+}
+
+.moreFacts dt {
+  margin-top: 0.6rem;
+  color: var(--gold);
+  font-size: 0.7rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.moreFacts dd {
+  margin: 0.1rem 0 0;
+}
+
+/* Text and plate side by side; the text keeps a comfortable measure. */
+.body {
+  display: grid;
+  grid-template-columns: minmax(0, 40rem) minmax(20rem, 1fr);
+  column-gap: clamp(2rem, 4vw, 3.5rem);
+  align-items: start;
+  max-width: 78rem;
+}
+
+.stack {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  row-gap: 1.5rem;
+  max-width: 46rem;
+}
+
+/* Narrow screens: the picture heads the hero, full width. */
+.hero .heroArt {
+  margin: -2rem calc(-1 * clamp(1.25rem, 3vw, 2.5rem)) 1.25rem;
+}
+
+.hero .heroArt img {
+  width: 100%;
+  max-height: none;
+  aspect-ratio: 16 / 9;
+  border: 0;
+  border-bottom: 1px solid rgba(212, 165, 64, 0.3);
+  border-radius: 0;
+  object-fit: cover;
+  object-position: center 40%;
+}
+
+.hero .heroArt :global(.art-open) {
+  width: 100%;
+}
+
+.hero .heroArt figcaption {
+  padding-inline: 1rem;
+  text-align: right;
+}
+
+@media (max-width: 760px) {
+  .hero {
+    margin-bottom: 1.5rem;
+    padding-top: 1.5rem;
+  }
+
+  .hero .heroArt {
+    margin-top: -1.5rem;
+  }
+
+  .strip {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.7rem 1rem;
+  }
+}
+
+/* The shared text column names a grid area these layouts don't have. */
+.body > :global(.character-main),
+.stack > :global(.character-main) {
+  grid-area: auto;
+}

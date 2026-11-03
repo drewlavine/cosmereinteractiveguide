@@ -522,7 +522,7 @@ describe('place pages', () => {
       await screen.findByRole('heading', { level: 1, name: listedOnly.name }),
     ).toBeInTheDocument()
     expect(
-      screen.getByRole('complementary', { name: 'Key facts' }),
+      screen.getByRole('complementary', { name: 'More facts' }),
     ).toBeInTheDocument()
   })
 

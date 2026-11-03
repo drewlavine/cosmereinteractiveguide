@@ -1,0 +1,250 @@
+/* The plate: a column beside the text whose inside sticks in view. */
+.plate {
+  align-self: stretch;
+  min-width: 0;
+}
+
+.inner {
+  position: sticky;
+  top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-height: calc(100dvh - 6rem);
+  overflow-y: auto;
+  scrollbar-width: thin;
+}
+
+/* Whatever leads the plate fades in as the reader moves on. */
+.stage {
+  padding: 1rem 1.1rem 0.9rem;
+  border: 1px solid rgba(212, 165, 64, 0.35);
+  border-radius: 14px;
+  background:
+    radial-gradient(
+      120% 80% at 50% 0%,
+      rgba(212, 165, 64, 0.08),
+      transparent 60%
+    ),
+    var(--panel);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .stage {
+    animation: plate-in 0.35s ease-out;
+  }
+}
+
+@keyframes plate-in {
+  from {
+    opacity: 0;
+    transform: translateY(4px);
+  }
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+  margin: 0 0 0.75rem;
+  color: var(--gold-soft);
+  font-family: var(--display);
+  font-size: 1.55rem;
+  line-height: 1.2;
+}
+
+.titleIcon {
+  flex: none;
+  width: 1.4rem;
+  height: 1.4rem;
+  color: var(--gold);
+}
+
+/* The picture, whole, never taller than leaves room for the compass. */
+.figure {
+  margin: 0;
+}
+
+.figure + .figure {
+  margin-top: 0.75rem;
+}
+
+.stage .figure img {
+  border: 0;
+  border-radius: 8px;
+  max-height: min(26rem, calc(100dvh - 30rem));
+  min-height: 12rem;
+  object-fit: contain;
+  object-position: center;
+  background: rgba(15, 26, 34, 0.6);
+}
+
+.stage .placeFigure img {
+  max-height: min(20rem, calc(100dvh - 34rem));
+}
+
+/* A topic without a picture: its emblem, large. */
+.medallion {
+  display: grid;
+  place-items: center;
+  width: 7.5rem;
+  aspect-ratio: 1;
+  margin: 0.5rem auto 0.25rem;
+  border: 1px solid rgba(212, 165, 64, 0.45);
+  border-radius: 50%;
+  background: radial-gradient(
+    circle,
+    rgba(212, 165, 64, 0.14),
+    rgba(212, 165, 64, 0.02) 70%
+  );
+  box-shadow:
+    0 0 0 6px rgba(15, 26, 34, 0.7),
+    0 0 0 7px rgba(212, 165, 64, 0.2);
+  color: var(--gold);
+}
+
+.medallion svg {
+  width: 3.4rem;
+  height: 3.4rem;
+}
+
+/* The compass: every Culture topic the reader can see, the current lit. */
+.compass {
+  padding: 0.85rem 0.9rem 0.9rem;
+  border: 1px solid rgba(212, 165, 64, 0.25);
+  border-radius: 14px;
+  background: rgba(28, 42, 53, 0.6);
+}
+
+.compassTitle {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin: 0 0 0.55rem;
+  color: var(--gold);
+  font-size: 0.72rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.compassTitle span {
+  color: var(--text-muted, #9fb0bc);
+  letter-spacing: 0.04em;
+  text-transform: none;
+}
+
+.compass ol {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.3rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.compass a {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+  height: 100%;
+  padding: 0.35rem 0.55rem;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  color: var(--text);
+  font-size: 0.86rem;
+  line-height: 1.25;
+  text-decoration: none;
+  transition:
+    background 0.2s,
+    border-color 0.2s,
+    color 0.2s;
+}
+
+.compass a:hover {
+  border-color: rgba(212, 165, 64, 0.3);
+  color: var(--gold-soft);
+}
+
+.compass a[aria-current] {
+  border-color: rgba(212, 165, 64, 0.7);
+  background: rgba(212, 165, 64, 0.16);
+  color: var(--gold);
+}
+
+.chipIcon {
+  flex: none;
+  width: 1.05rem;
+  height: 1.05rem;
+  color: var(--gold);
+  opacity: 0.85;
+}
+
+.chipTitle {
+  min-width: 0;
+}
+
+.chipCount {
+  margin-left: auto;
+  padding-left: 0.3rem;
+  color: var(--text-muted, #9fb0bc);
+  font-size: 0.75rem;
+  font-variant-numeric: tabular-nums;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .compass a {
+    transition: none;
+  }
+}
+
+/* Facts too long for the strip, while the reader is near the top. */
+.more {
+  margin: 0;
+  padding: 0.85rem 1rem;
+  border: 1px solid rgba(212, 165, 64, 0.25);
+  border-radius: 14px;
+  background: rgba(28, 42, 53, 0.6);
+  font-size: 0.9rem;
+}
+
+.more:empty {
+  display: none;
+}
+
+.more dt {
+  margin-top: 0.6rem;
+  color: var(--gold);
+  font-size: 0.7rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.more dt:first-child {
+  margin-top: 0;
+}
+
+.more dd {
+  margin: 0.1rem 0 0;
+}
+
+/* The Contents, at the foot of the plate (not sticky on its own). */
+.inner :global(.page-contents) {
+  align-self: auto;
+}
+
+.inner :global(.page-contents-inner) {
+  position: static;
+  max-height: none;
+  overflow: visible;
+  border-color: rgba(212, 165, 64, 0.25);
+  background: rgba(28, 42, 53, 0.6);
+}
+
+.inner :global(.page-contents a) {
+  font-size: 0.9rem;
+}
+
+/* The compass lists Culture's topics, so the Contents needn't. */
+.hasCompass :global(.page-contents li:has(> a[href='#culture']) > ol) {
+  display: none;
+}
