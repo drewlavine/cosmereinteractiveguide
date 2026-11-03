@@ -418,7 +418,7 @@ describe('Design D navigation comparison', { timeout: 20000 }, () => {
     expect(window.location.hash).toBe(href)
   })
 
-  it('realigns a cold subsection link after reflows, until the reader scrolls', async () => {
+  it('realigns a cold subsection link after reflows, until the reader takes control', async () => {
     const previous = HTMLElement.prototype.scrollIntoView
     const scroll = vi.fn(function (this: HTMLElement) {
       return this.id
@@ -433,15 +433,35 @@ describe('Design D navigation comparison', { timeout: 20000 }, () => {
         ).length
       await waitFor(() => expect(calls()).toBeGreaterThan(0))
       expect(scroll).toHaveBeenCalledWith({ block: 'start', behavior: 'auto' })
+      // A slow image can arrive after the initial fade-alignment timers.
+      await new Promise((resolve) => setTimeout(resolve, 2700))
       const beforeImage = calls()
       const image = document.querySelector('article.location-detail img')!
       fireEvent.load(image)
       await waitFor(() => expect(calls()).toBeGreaterThan(beforeImage))
-      fireEvent.wheel(document.querySelector('.app-main')!)
+      fireEvent.pointerDown(document.body)
       const afterUser = calls()
       fireEvent.load(image)
       await new Promise((resolve) => setTimeout(resolve, 300))
       expect(calls()).toBe(afterUser)
+    } finally {
+      HTMLElement.prototype.scrollIntoView = previous
+    }
+  }, 10000)
+
+  it('stops following a cold link when navigation clears its fragment', async () => {
+    const previous = HTMLElement.prototype.scrollIntoView
+    const scroll = vi.fn()
+    HTMLElement.prototype.scrollIntoView = scroll
+    try {
+      const router = renderAt(`${ALETHKAR}#culture-music-and-art`)
+      await plateNav()
+      await waitFor(() => expect(scroll).toHaveBeenCalled())
+      await act(async () => router.navigate(ALETHKAR))
+      const afterNavigation = scroll.mock.calls.length
+      fireEvent.load(document.querySelector('article.location-detail img')!)
+      await new Promise((resolve) => setTimeout(resolve, 300))
+      expect(scroll).toHaveBeenCalledTimes(afterNavigation)
     } finally {
       HTMLElement.prototype.scrollIntoView = previous
     }

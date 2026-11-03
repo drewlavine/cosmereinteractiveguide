@@ -401,9 +401,10 @@ export function usePageNavigation({
       pinned.current = undefined
       stopFollowing()
     }
-    const manual = ['wheel', 'touchmove', 'pointerdown'] as const
+    const manual = ['wheel', 'touchmove'] as const
     target.addEventListener('scroll', read, { passive: true })
     for (const event of manual) target.addEventListener(event, unpin)
+    window.addEventListener('pointerdown', unpin)
     window.addEventListener('keydown', unpin)
     window.addEventListener('resize', schedule)
     root.addEventListener('load', schedule, true)
@@ -419,6 +420,7 @@ export function usePageNavigation({
       changes?.disconnect()
       target.removeEventListener('scroll', read)
       for (const event of manual) target.removeEventListener(event, unpin)
+      window.removeEventListener('pointerdown', unpin)
       window.removeEventListener('keydown', unpin)
       window.removeEventListener('resize', schedule)
       root.removeEventListener('load', schedule, true)
@@ -455,6 +457,7 @@ export function usePageNavigation({
     if (loading || snapshot?.version !== version) return
     const hash = location.hash
     if (!hash) {
+      if (following.current) stopFollowing()
       followed.current = { hash, version }
       ownHash.current = undefined
       return
@@ -487,7 +490,6 @@ export function usePageNavigation({
         if (following.current?.id === id) align(id)
       }, ms),
     )
-    timers.push(setTimeout(stopFollowing, 2500))
     following.current = { id, timers }
   }, [
     route.hash,
