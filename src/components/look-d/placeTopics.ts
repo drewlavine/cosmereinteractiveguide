@@ -20,8 +20,11 @@ export function jumpTo(id: string) {
   const el = document.getElementById(id)
   if (!el) return
   el.closest('[data-toc]')?.dispatchEvent(new Event(OPEN))
-  requestAnimationFrame(() => el.scrollIntoView?.({ block: 'start' }))
+  const frame = requestAnimationFrame(() =>
+    el.scrollIntoView?.({ block: 'start' }),
+  )
   history.replaceState(history.state, '', `#${id}`)
+  return frame
 }
 
 /** Each Culture subsection's id (as its PageSubsection), in order. */
@@ -31,7 +34,7 @@ export const cultureIds = (culture: ShownLocationStory['culture']) =>
     culture.map((c) => c.title ?? ''),
   )
 
-/** The titled Culture topics, which the Contents and compass list. */
+/** The titled Culture topics, which the page navigation lists. */
 export function shownTopics(
   culture: ShownLocationStory['culture'],
 ): ShownTopic[] {

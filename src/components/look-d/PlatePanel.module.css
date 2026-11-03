@@ -60,7 +60,7 @@
   color: var(--gold);
 }
 
-/* The picture, whole, never taller than leaves room for the compass. */
+/* The picture, whole, never taller than leaves room for navigation. */
 .figure {
   margin: 0;
 }
@@ -108,95 +108,6 @@
   height: 3.4rem;
 }
 
-/* The compass: every Culture topic the reader can see, the current lit. */
-.compass {
-  padding: 0.85rem 0.9rem 0.9rem;
-  border: 1px solid rgba(212, 165, 64, 0.25);
-  border-radius: 14px;
-  background: rgba(28, 42, 53, 0.6);
-}
-
-.compassTitle {
-  display: flex;
-  align-items: baseline;
-  justify-content: space-between;
-  margin: 0 0 0.55rem;
-  color: var(--gold);
-  font-size: 0.72rem;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-}
-
-.compassTitle span {
-  color: var(--text-muted, #9fb0bc);
-  letter-spacing: 0.04em;
-  text-transform: none;
-}
-
-.compass ol {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 0.3rem;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-.compass a {
-  display: flex;
-  align-items: center;
-  gap: 0.45rem;
-  height: 100%;
-  padding: 0.35rem 0.55rem;
-  border: 1px solid transparent;
-  border-radius: 8px;
-  color: var(--text);
-  font-size: 0.86rem;
-  line-height: 1.25;
-  text-decoration: none;
-  transition:
-    background 0.2s,
-    border-color 0.2s,
-    color 0.2s;
-}
-
-.compass a:hover {
-  border-color: rgba(212, 165, 64, 0.3);
-  color: var(--gold-soft);
-}
-
-.compass a[aria-current] {
-  border-color: rgba(212, 165, 64, 0.7);
-  background: rgba(212, 165, 64, 0.16);
-  color: var(--gold);
-}
-
-.chipIcon {
-  flex: none;
-  width: 1.05rem;
-  height: 1.05rem;
-  color: var(--gold);
-  opacity: 0.85;
-}
-
-.chipTitle {
-  min-width: 0;
-}
-
-.chipCount {
-  margin-left: auto;
-  padding-left: 0.3rem;
-  color: var(--text-muted, #9fb0bc);
-  font-size: 0.75rem;
-  font-variant-numeric: tabular-nums;
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .compass a {
-    transition: none;
-  }
-}
-
 /* Facts too long for the strip, while the reader is near the top. */
 .more {
   margin: 0;
@@ -225,26 +136,4 @@
 
 .more dd {
   margin: 0.1rem 0 0;
-}
-
-/* The Contents, at the foot of the plate (not sticky on its own). */
-.inner :global(.page-contents) {
-  align-self: auto;
-}
-
-.inner :global(.page-contents-inner) {
-  position: static;
-  max-height: none;
-  overflow: visible;
-  border-color: rgba(212, 165, 64, 0.25);
-  background: rgba(28, 42, 53, 0.6);
-}
-
-.inner :global(.page-contents a) {
-  font-size: 0.9rem;
-}
-
-/* The compass lists Culture's topics, so the Contents needn't. */
-.hasCompass :global(.page-contents li:has(> a[href='#culture']) > ol) {
-  display: none;
 }

@@ -2,7 +2,8 @@ import { findListed, placeHref, systemOfPlanet } from '../data/listedLocations'
 import type { ShownEra } from '../data/planetHistory'
 import { revealSystem } from '../data/reveal'
 import { useCanSee, useShownSystems } from '../state/reveal'
-import { Metro } from './history/ScrubLooks'
+import { Metro, type MetroHandle } from './history/ScrubLooks'
+import type { Ref } from 'react'
 import { useLinkText } from './LinkedText'
 import { PageSection } from './PageSections'
 
@@ -12,11 +13,15 @@ export function PlaceTimeline({
   eras,
   planetId,
   showAll,
+  navigationRef,
+  onEraChange,
 }: {
   id: string
   eras: ShownEra[]
   planetId?: string
   showAll: boolean
+  navigationRef?: Ref<MetroHandle>
+  onEraChange?: (index: number) => void
 }) {
   const canSee = useCanSee()
   const systems = useShownSystems()
@@ -40,6 +45,8 @@ export function PlaceTimeline({
         showAll={showAll}
         link={link}
         placeHref={href}
+        navigationRef={navigationRef}
+        onEraChange={onEraChange}
       />
     </PageSection>
   )

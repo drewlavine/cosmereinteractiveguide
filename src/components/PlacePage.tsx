@@ -51,6 +51,8 @@ export function PlacePage(props: PlacePageProps) {
             style={{
               border: 0,
               borderRadius: 999,
+              minWidth: 44,
+              minHeight: 44,
               padding: '6px 12px',
               cursor: 'pointer',
               font: 'inherit',
