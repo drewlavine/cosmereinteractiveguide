@@ -187,6 +187,63 @@ describe('design D', () => {
       const compass = () =>
         within(plate()).getByRole('navigation', { name: 'Culture topics' })
 
+      it('follows the parts of a place without culture once its story loads', async () => {
+        const watched: string[] = []
+        vi.stubGlobal(
+          'IntersectionObserver',
+          class {
+            observe = (el: Element) => watched.push(el.id)
+            disconnect = () => {}
+          },
+        )
+        localStorage.setItem(
+          BOOKS_READ_KEY,
+          JSON.stringify({ version: 2, read: ['way-of-kings'], reading: {} }),
+        )
+        render(
+          <RouterProvider
+            router={createMemoryRouter(routes, {
+              initialEntries: ['/locations/kholinar'],
+            })}
+          />,
+        )
+        await screen.findByRole('heading', { level: 1, name: 'Kholinar' })
+        await waitFor(() => expect(watched).toContain('history'))
+      })
+
+      it('shows a place’s own picture in the hero and plate only once revealed', async () => {
+        const sketches = /Shallan's sketches of Urithiru/
+        const at = async (read: string[]) => {
+          localStorage.setItem(
+            BOOKS_READ_KEY,
+            JSON.stringify({ version: 2, read, reading: {} }),
+          )
+          render(
+            <RouterProvider
+              router={createMemoryRouter(routes, {
+                initialEntries: ['/locations/urithiru'],
+              })}
+            />,
+          )
+          await screen.findByRole('heading', { level: 1, name: 'Urithiru' })
+        }
+        await at(['way-of-kings', 'words-of-radiance', 'oathbringer'])
+        const src = within(plate())
+          .getByRole('img', { name: sketches })
+          .getAttribute('src')
+        const withSrc = () =>
+          [...document.querySelectorAll('img')].filter(
+            (i) => i.getAttribute('src') === src,
+          )
+        // On the plate and as the hero backdrop.
+        expect(withSrc()).toHaveLength(2)
+        cleanup()
+
+        await at(['way-of-kings', 'words-of-radiance'])
+        expect(screen.queryByRole('img', { name: sketches })).toBeNull()
+        expect(withSrc()).toHaveLength(0)
+      })
+
       it('lists in the compass only the topics the reader can see', async () => {
         // Each chip is a topic title followed by its count of visible notes.
         const topics = (culture: HTMLElement) =>

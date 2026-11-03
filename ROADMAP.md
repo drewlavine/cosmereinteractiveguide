@@ -121,6 +121,10 @@ Category:Cosmere; check anything unclear by hand.
           Alethela
     - [x] Roshar nations: History as a Metro-line timeline, and a Culture
           section with pictures beside their topics, all spoiler-gated
+    - [x] Two place page designs behind a switch, for feedback: a field
+          guide with icon-led Culture cards, and a plate beside the text
+          that follows the part being read
+    - [ ] Pick one design and remove the switch
     - [ ] Jump to a regional map, e.g. from Arelon's outline to the Arelon map
   - [x] Only show regions, and information about them, from books the reader
         has marked as read

@@ -1,4 +1,4 @@
-import { useEffect, useState, useSyncExternalStore } from 'react'
+import { useEffect, useRef, useState, useSyncExternalStore } from 'react'
 
 /** Whether a media query matches, kept up to date; false where unsupported. */
 export function useMedia(query: string) {
@@ -18,7 +18,9 @@ export function useMedia(query: string) {
  * whose top has passed a line a third of the way down the screen. Starts at
  * the part named in the URL's hash, if any. Watched with an
  * IntersectionObserver, so it costs nothing between crossings; where there
- * is none (tests), it changes only through the returned setter.
+ * is none (tests), it changes only through the returned setter. The parts
+ * are looked up again after every render, since loading and the books read
+ * add, remove or swap them.
  */
 export function useReadingPart(ids: string[]) {
   // Null once the reader is above every part; undefined until first seen.
@@ -26,13 +28,21 @@ export function useReadingPart(ids: string[]) {
   const hash = decodeURIComponent(location.hash.slice(1))
   const active =
     seen === undefined ? (ids.includes(hash) ? hash : undefined) : seen
-  const key = ids.join(' ')
+  const watching = useRef<{ els: HTMLElement[]; stop: () => void }>(null)
   useEffect(() => {
     if (typeof IntersectionObserver === 'undefined') return
-    const els = key
-      .split(' ')
+    const els = ids
       .map((id) => document.getElementById(id))
       .filter((el): el is HTMLElement => !!el)
+    const was = watching.current
+    if (
+      was &&
+      was.els.length === els.length &&
+      was.els.every((el, i) => el === els[i])
+    )
+      return
+    was?.stop()
+    watching.current = null
     if (!els.length) return
     let timer: ReturnType<typeof setTimeout> | undefined
     const pick = () => {
@@ -51,10 +61,14 @@ export function useReadingPart(ids: string[]) {
       rootMargin: '0px 0px -66% 0px',
     })
     for (const el of els) watch.observe(el)
-    return () => {
-      clearTimeout(timer)
-      watch.disconnect()
+    watching.current = {
+      els,
+      stop: () => {
+        clearTimeout(timer)
+        watch.disconnect()
+      },
     }
-  }, [key])
+  })
+  useEffect(() => () => watching.current?.stop(), [])
   return [active ?? undefined, setActive] as const
 }
