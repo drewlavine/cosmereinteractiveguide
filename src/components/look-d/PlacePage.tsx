@@ -7,7 +7,7 @@ import {
   useState,
   type ReactNode,
 } from 'react'
-import { Link, useLocation } from 'react-router'
+import { Link } from 'react-router'
 import { locationDetails } from '../../data/locationDetails'
 import {
   cachedLocationStory,
@@ -156,7 +156,6 @@ export function PlacePage(props: PlacePageProps) {
   const systems = useShownSystems()
   const prose = useLocationStory(id)
   const link = useLinkText(`place:${id}`)
-  const { hash } = useLocation()
   const rootRef = useRef<HTMLElement>(null)
   const metroRef = useRef<MetroHandle>(null)
   const [navigationStyle, setNavigationStyle] = useState<NavigationStyle>(
@@ -200,7 +199,6 @@ export function PlacePage(props: PlacePageProps) {
     eras: timeline.eras,
     version,
     loading: prose.loading,
-    hash,
   })
   const active =
     nav.current.part ??
@@ -395,7 +393,7 @@ export function PlacePage(props: PlacePageProps) {
               planetId={props.planetId}
               showAll={showAll}
               navigationRef={metroRef}
-              onEraChange={nav.setEra}
+              onEraChange={nav.onEraChange}
             />
           ) : (
             story.history.length > 0 && (

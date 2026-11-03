@@ -6,6 +6,7 @@ import {
   useState,
   type RefObject,
 } from 'react'
+import { useLocation, useNavigate } from 'react-router'
 import type { ShownEra } from '../../data/planetHistory'
 import type { CultureTopic } from '../../data/types'
 import type { MetroHandle } from '../history/ScrubLooks'
@@ -13,9 +14,10 @@ import { jumpTo, type ShownTopic } from './placeTopics'
 
 export interface NavPart {
   title: string
-  /** DOM subsections have an id; timeline eras deliberately do not. */
+  /** DOM subsections have an id; timeline eras use an opaque fragment. */
   id?: string
   era?: number
+  href?: string
   topic?: CultureTopic
   count?: number
 }
@@ -33,6 +35,7 @@ interface Reading {
 
 interface Geometry {
   segments: { id: string; start: number; size: number }[]
+  markers: { section: string; part?: string; start: number }[]
   viewStart: number
   viewSize: number
   progress: number
@@ -48,12 +51,24 @@ const top: NavSection = { id: 'top', title: 'Top', parts: [] }
 const topOnly = [top]
 const emptyGeometry: Geometry = {
   segments: [],
+  markers: [],
   viewStart: 0,
   viewSize: 1,
   progress: 0,
 }
 const clamp = (n: number) => Math.max(0, Math.min(1, n))
 const rounded = (n: number) => Math.round(clamp(n) * 10000) / 10000
+
+/** A stable neutral link, never the data id or a title that may change. */
+function eraHref(era: ShownEra) {
+  let hash = 0xcbf29ce484222325n
+  for (const char of era.id)
+    hash = BigInt.asUintN(
+      64,
+      (hash ^ BigInt(char.codePointAt(0)!)) * 0x100000001b3n,
+    )
+  return `#history~${hash.toString(36)}`
+}
 
 /** The app scrolls its main area, not the browser window. */
 const scrollerOf = (root: HTMLElement) => root.closest<HTMLElement>('.app-main')
@@ -78,7 +93,6 @@ export function usePageNavigation({
   eras,
   version,
   loading,
-  hash,
 }: {
   rootRef: RefObject<HTMLElement | null>
   metroRef: RefObject<MetroHandle | null>
@@ -86,14 +100,23 @@ export function usePageNavigation({
   eras: ShownEra[]
   version: object
   loading: boolean
-  hash: string
 }) {
+  const route = useLocation()
+  const navigate = useNavigate()
   const [snapshot, setSnapshot] = useState<Snapshot>()
   const [reading, setReading] = useState<Reading>({ section: 'top' })
   const [era, setEra] = useState(0)
   const pinned = useRef<Reading>(undefined)
-  const followed = useRef('')
+  const followed = useRef<{ hash: string; version: object }>(undefined)
+  const ownHash = useRef<string>(undefined)
+  const requestedEra = useRef<number>(undefined)
+  const lastMetro = useRef<number>(undefined)
+  const suppressMetro = useRef(true)
   const jumpFrame = useRef<number>(undefined)
+  const following = useRef<{
+    id: string
+    timers: ReturnType<typeof setTimeout>[]
+  }>(undefined)
   const sections = snapshot?.version === version ? snapshot.sections : topOnly
   const geometry =
     snapshot?.version === version ? snapshot.geometry : emptyGeometry
@@ -105,33 +128,108 @@ export function usePageNavigation({
     era: Math.min(era, Math.max(0, eras.length - 1)),
   }
 
-  // A previously visible heading can disappear when reading progress moves
-  // backwards. Do not leave its title-derived fragment in the address bar.
+  const stopFollowing = useCallback(() => {
+    following.current?.timers.forEach(clearTimeout)
+    following.current = undefined
+    if (jumpFrame.current !== undefined) {
+      cancelAnimationFrame(jumpFrame.current)
+      jumpFrame.current = undefined
+    }
+  }, [])
+
+  const align = useCallback(
+    (id: string) => {
+      const el = document.getElementById(id)
+      if (el && rootRef.current?.contains(el))
+        el.scrollIntoView?.({ block: 'start', behavior: 'auto' })
+    },
+    [rootRef],
+  )
+
+  const writeHash = useCallback(
+    (hash: string) => {
+      if (route.hash === hash && location.hash === hash) return
+      ownHash.current = hash
+      void navigate(
+        { pathname: route.pathname, search: route.search, hash },
+        { state: route.state, preventScrollReset: true },
+      )
+    },
+    [navigate, route.hash, route.pathname, route.search, route.state],
+  )
+
+  const selectEra = useCallback(
+    (index: number) => {
+      requestedEra.current = index
+      setEra(index)
+      metroRef.current?.selectEra(index)
+    },
+    [metroRef],
+  )
+
+  // Metro reports on mount as well as on user changes. Only the latter
+  // create a history entry; selecting an era from a link is not a new edit.
+  useLayoutEffect(() => {
+    suppressMetro.current = true
+    if (!eras.length) lastMetro.current = undefined
+  }, [eras.length, version])
+  useEffect(() => {
+    suppressMetro.current = false
+  }, [version])
+  const onEraChange = useCallback(
+    (index: number) => {
+      if (lastMetro.current === index) return
+      const first = lastMetro.current === undefined
+      lastMetro.current = index
+      setEra(index)
+      const requested = requestedEra.current
+      requestedEra.current = undefined
+      if (first || suppressMetro.current || requested === index) return
+      const selected = eras[index]
+      if (selected) writeHash(eraHref(selected))
+    },
+    [eras, writeHash],
+  )
+
+  // Validate again on navigation, not just progress changes. Back can
+  // restore an old fragment after its heading has become a spoiler.
   useLayoutEffect(() => {
     const root = rootRef.current
-    if (!root || loading || !location.hash) return
-    let id = ''
-    try {
-      id = decodeURIComponent(location.hash.slice(1))
-    } catch {
-      // An invalid fragment cannot name a visible heading.
-    }
-    const target = document.getElementById(id)
-    if (id !== 'top' && (!target || !root.contains(target)))
+    if (!root || loading) return
+    const path = location.pathname
+    const validate = () => {
+      if (location.pathname !== path || !location.hash) return
+      let id = ''
+      try {
+        id = decodeURIComponent(location.hash.slice(1))
+      } catch {
+        // An invalid fragment cannot name a visible heading.
+      }
+      const target = document.getElementById(id)
+      const valid = id.startsWith('history~')
+        ? eras.filter((entry) => eraHref(entry) === `#${id}`).length === 1 &&
+          root.contains(document.getElementById('history'))
+        : id === 'top' || (target && root.contains(target))
+      if (valid) return
       history.replaceState(
         history.state,
         '',
         location.pathname + location.search,
       )
-  }, [rootRef, version, loading])
+      followed.current = undefined
+      ownHash.current = undefined
+      stopFollowing()
+    }
+    validate()
+    window.addEventListener('popstate', validate)
+    window.addEventListener('hashchange', validate)
+    return () => {
+      window.removeEventListener('popstate', validate)
+      window.removeEventListener('hashchange', validate)
+    }
+  }, [rootRef, eras, version, loading, route.hash, stopFollowing])
 
-  useEffect(
-    () => () => {
-      if (jumpFrame.current !== undefined)
-        cancelAnimationFrame(jumpFrame.current)
-    },
-    [],
-  )
+  useEffect(() => stopFollowing, [stopFollowing])
 
   useEffect(() => {
     const root = rootRef.current
@@ -161,7 +259,13 @@ export function usePageNavigation({
             }
           })
           if (el.id === 'history' && eras.length)
-            parts.push(...eras.map((e, i) => ({ title: e.title, era: i })))
+            parts.push(
+              ...eras.map((e, i) => ({
+                title: e.title,
+                era: i,
+                href: eraHref(e),
+              })),
+            )
           return { id: el.id, title: el.dataset.toc ?? '', parts }
         }),
       ]
@@ -188,6 +292,26 @@ export function usePageNavigation({
             start: rounded(starts[i]),
             size: rounded((starts[i + 1] ?? 1) - starts[i]),
           })),
+          markers: [
+            { section: 'top', start: 0 },
+            ...els.flatMap((el) => [
+              {
+                section: el.id,
+                start: rounded(
+                  (el.getBoundingClientRect().top - page.top) / height,
+                ),
+              },
+              ...[...el.querySelectorAll<HTMLElement>('[data-toc-sub]')]
+                .filter((sub) => !sub.closest('[hidden]'))
+                .map((sub) => ({
+                  section: el.id,
+                  part: sub.id,
+                  start: rounded(
+                    (sub.getBoundingClientRect().top - page.top) / height,
+                  ),
+                })),
+            ]),
+          ],
           viewStart: rounded(viewStart),
           viewSize: rounded(Math.max(0, viewEnd - viewStart)),
           progress: rounded(
@@ -243,6 +367,7 @@ export function usePageNavigation({
         frame = requestAnimationFrame(() => {
           frame = 0
           read()
+          if (following.current) align(following.current.id)
         })
     }
     const resize =
@@ -274,6 +399,7 @@ export function usePageNavigation({
       })
     const unpin = () => {
       pinned.current = undefined
+      stopFollowing()
     }
     const manual = ['wheel', 'touchmove', 'pointerdown'] as const
     target.addEventListener('scroll', read, { passive: true })
@@ -299,55 +425,81 @@ export function usePageNavigation({
       root.removeEventListener('click', schedule)
       root.removeEventListener('toggle', schedule, true)
     }
-  }, [rootRef, topics, eras, version, loading])
+  }, [rootRef, topics, eras, version, loading, align, stopFollowing])
 
   const jump = useCallback(
-    (section: NavSection, part?: NavPart) => {
-      if (jumpFrame.current !== undefined)
-        cancelAnimationFrame(jumpFrame.current)
+    (section: NavSection, part?: NavPart, updateHash = true) => {
+      stopFollowing()
       const next = { section: section.id, part: part?.id }
       pinned.current = next
       setReading(next)
-      if (part?.era !== undefined) {
-        setEra(part.era)
-        metroRef.current?.selectEra(part.era)
-      }
+      if (part?.era !== undefined) selectEra(part.era)
       if (section.id === 'top') {
         const scroller = rootRef.current && scrollerOf(rootRef.current)
         if (scroller) moveScroller(scroller, 0)
         else window.scrollTo?.({ top: 0 })
-        history.replaceState(
-          history.state,
-          '',
-          location.pathname + location.search,
-        )
       } else jumpFrame.current = jumpTo(part?.id ?? section.id)
+      if (updateHash)
+        writeHash(
+          section.id === 'top'
+            ? ''
+            : (part?.href ?? `#${part?.id ?? section.id}`),
+        )
     },
-    [metroRef, rootRef],
+    [rootRef, selectEra, stopFollowing, writeHash],
   )
 
-  // Follow existing section links after lazy content has arrived.
+  // Follow links after lazy content has arrived. Keep the target aligned
+  // through the initial fade and image reflows until the reader intervenes.
   useEffect(() => {
-    let id = ''
-    try {
-      id = decodeURIComponent(hash.slice(1))
-    } catch {
+    if (loading || snapshot?.version !== version) return
+    const hash = location.hash
+    if (!hash) {
+      followed.current = { hash, version }
+      ownHash.current = undefined
       return
     }
-    if (!id || followed.current === id) return
     const section = sections.find(
-      (s) => s.id === id || s.parts.some((p) => p.id === id),
+      (s) =>
+        `#${s.id}` === hash ||
+        s.parts.some((p) => (p.href ?? `#${p.id}`) === hash),
     )
     if (!section) return
-    const frame = requestAnimationFrame(() => {
-      followed.current = id
-      jump(
-        section,
-        section.parts.find((p) => p.id === id),
-      )
-    })
-    return () => cancelAnimationFrame(frame)
-  }, [hash, sections, jump])
+    const part = section.parts.find((p) => (p.href ?? `#${p.id}`) === hash)
+    const changed = followed.current?.hash !== hash
+    if (!changed && followed.current?.version === version) return
+    followed.current = { hash, version }
+    const ours = ownHash.current === hash
+    ownHash.current = undefined
+    if (ours) return
+    if (!changed) {
+      if (part?.era !== undefined) {
+        requestedEra.current = part.era
+        metroRef.current?.selectEra(part.era)
+      }
+      return
+    }
+    jump(section, part, false)
+    if (section.id === 'top') return
+    const id = part?.id ?? section.id
+    const timers = [150, 500, 1000, 2000].map((ms) =>
+      setTimeout(() => {
+        if (following.current?.id === id) align(id)
+      }, ms),
+    )
+    timers.push(setTimeout(stopFollowing, 2500))
+    following.current = { id, timers }
+  }, [
+    route.hash,
+    sections,
+    snapshot,
+    version,
+    loading,
+    jump,
+    metroRef,
+    align,
+    stopFollowing,
+  ])
 
   /** Move the actual page to a fraction of the rendered article. */
   const seek = useCallback(
@@ -361,13 +513,14 @@ export function usePageNavigation({
       const pageTop = scrollTop + page.top - (box?.top ?? 0)
       const top = pageTop + clamp(fraction) * page.height
       pinned.current = undefined
+      stopFollowing()
       if (scroller) moveScroller(scroller, top)
       else window.scrollTo?.({ top, behavior: 'auto' })
     },
-    [rootRef],
+    [rootRef, stopFollowing],
   )
 
-  return { sections, geometry, current, jump, seek, setEra }
+  return { sections, geometry, current, jump, seek, onEraChange }
 }
 
 export type PageNavigation = ReturnType<typeof usePageNavigation>

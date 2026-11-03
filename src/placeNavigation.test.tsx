@@ -8,7 +8,7 @@ import {
   within,
 } from '@testing-library/react'
 import userEvent from '@testing-library/user-event'
-import { createMemoryRouter, MemoryRouter, RouterProvider } from 'react-router'
+import { createBrowserRouter, MemoryRouter, RouterProvider } from 'react-router'
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest'
 import { BooksReadProvider } from './components/BooksReadProvider'
 import { PlacePage as DesignD } from './components/look-d/PlacePage'
@@ -16,7 +16,9 @@ import { routes } from './routes'
 import { BOOKS_READ_KEY } from './state/booksRead'
 
 const ALETHKAR = '/systems/rosharan/planets/roshar/locations/alethkar'
+const KHOLINAR = '/systems/rosharan/planets/roshar/locations/kholinar'
 const THROUGH_WOR = ['way-of-kings', 'words-of-radiance', 'edgedancer']
+let browserRouter: ReturnType<typeof createBrowserRouter> | undefined
 
 function wideScreen(wide: boolean) {
   vi.stubGlobal('matchMedia', (query: string) => ({
@@ -36,9 +38,11 @@ function renderAt(
     BOOKS_READ_KEY,
     JSON.stringify({ version: 2, read, reading }),
   )
-  const router = createMemoryRouter(routes, { initialEntries: [path] })
-  render(<RouterProvider router={router} />)
-  return router
+  browserRouter?.dispose()
+  window.history.replaceState({ idx: 0 }, '', path)
+  browserRouter = createBrowserRouter(routes)
+  render(<RouterProvider router={browserRouter} />)
+  return browserRouter
 }
 
 async function plateNav(mode: 'contents' | 'map' = 'contents') {
@@ -48,7 +52,16 @@ async function plateNav(mode: 'contents' | 'map' = 'contents') {
   })
 }
 
+async function openMapList(nav: HTMLElement) {
+  const summary = within(nav).queryByText(
+    'Browse all sections, topics and eras',
+  )
+  if (summary && !summary.closest('details')?.open)
+    await userEvent.click(summary)
+}
+
 async function openParts(nav: HTMLElement, section: string) {
+  await openMapList(nav)
   const toggle = await within(nav).findByRole('button', {
     name: new RegExp(`^(Show|Hide) ${section} (topics|eras|parts)$`),
   })
@@ -57,9 +70,27 @@ async function openParts(nav: HTMLElement, section: string) {
   return document.getElementById(toggle.getAttribute('aria-controls')!)!
 }
 
+async function setChapter(
+  user: ReturnType<typeof userEvent.setup>,
+  book: string,
+  chapter: string,
+) {
+  await user.click(screen.getByRole('button', { name: /Books Read/ }))
+  const settings = screen.getByRole('dialog', { name: 'Books Read' })
+  await user.selectOptions(
+    within(settings).getByRole('combobox', {
+      name: `Last chapter finished in ${book}`,
+    }),
+    chapter,
+  )
+  await user.click(within(settings).getByRole('button', { name: 'Done' }))
+}
+
 beforeEach(() => wideScreen(true))
 afterEach(() => {
   cleanup()
+  browserRouter?.dispose()
+  browserRouter = undefined
   localStorage.clear()
   vi.restoreAllMocks()
   vi.unstubAllGlobals()
@@ -102,6 +133,7 @@ describe('Design D navigation comparison', { timeout: 20000 }, () => {
       localStorage.setItem('placeNavigation', mode)
       renderAt(ALETHKAR, ['way-of-kings'], { 'words-of-radiance': '11' })
       const nav = await plateNav(mode)
+      await openMapList(nav)
       const article = screen.getByRole('article', { name: 'Alethkar' })
       const sections = [...article.querySelectorAll<HTMLElement>('[data-toc]')]
       expect(
@@ -136,11 +168,17 @@ describe('Design D navigation comparison', { timeout: 20000 }, () => {
         .map((button) => button.textContent)
       expect(
         within(history)
-          .getAllByRole('button')
+          .getAllByRole('link')
           .map((button) => button.textContent),
       ).toEqual(metroTitles)
       expect(history).toHaveTextContent('The Hierocracy and Sadees')
       expect(history).not.toHaveTextContent('The Hierocracy and the Sunmaker')
+      const earlyEra = within(history).getByRole('link', {
+        name: 'The Hierocracy and Sadees',
+      })
+      const eraLink = earlyEra.getAttribute('href')
+      await user.click(earlyEra)
+      expect(window.location.hash).toBe(eraLink)
 
       await user.click(screen.getByRole('button', { name: /Books Read/ }))
       const settings = screen.getByRole('dialog', { name: 'Books Read' })
@@ -154,6 +192,18 @@ describe('Design D navigation comparison', { timeout: 20000 }, () => {
         expect(nav).toHaveTextContent('The Hierocracy and the Sunmaker'),
       )
       expect(nav).not.toHaveTextContent('The Hierocracy and Sadees')
+      const laterEra = within(await openParts(nav, 'History')).getByRole(
+        'link',
+        { name: 'The Hierocracy and the Sunmaker' },
+      )
+      expect(laterEra).toHaveAttribute('href', eraLink)
+      expect(laterEra).toHaveAttribute('aria-current', 'location')
+      expect(
+        within(metro).getByRole('button', {
+          name: 'The Hierocracy and the Sunmaker',
+        }),
+      ).toHaveAttribute('aria-pressed', 'true')
+      expect(window.location.hash).toBe(eraLink)
       await user.selectOptions(
         within(settings).getByRole('combobox', {
           name: 'Last chapter finished in Words of Radiance',
@@ -164,6 +214,7 @@ describe('Design D navigation comparison', { timeout: 20000 }, () => {
         expect(nav).toHaveTextContent('The Hierocracy and Sadees'),
       )
       expect(nav).not.toHaveTextContent('The Hierocracy and the Sunmaker')
+      expect(window.location.hash).toBe(eraLink)
     },
   )
 
@@ -216,7 +267,7 @@ describe('Design D navigation comparison', { timeout: 20000 }, () => {
       renderAt(ALETHKAR, THROUGH_WOR, { oathbringer: '112' })
       const nav = await plateNav(mode)
       const earlier = await openParts(nav, 'History')
-      const count = within(earlier).getAllByRole('button').length
+      const count = within(earlier).getAllByRole('link').length
       expect(nav).not.toHaveTextContent('Long ago')
 
       await user.click(screen.getByRole('button', { name: /Books Read/ }))
@@ -229,12 +280,12 @@ describe('Design D navigation comparison', { timeout: 20000 }, () => {
       )
       await waitFor(() => expect(nav).toHaveTextContent('Long ago'))
       expect(
-        within(await openParts(nav, 'History')).getAllByRole('button'),
+        within(await openParts(nav, 'History')).getAllByRole('link'),
       ).toHaveLength(count + 1)
       expect(nav.innerHTML).not.toContain('long-ago')
       await user.click(within(settings).getByRole('button', { name: 'Done' }))
-      await user.click(within(nav).getByRole('button', { name: 'Long ago' }))
-      expect(window.location.hash).toBe('#history')
+      await user.click(within(nav).getByRole('link', { name: 'Long ago' }))
+      expect(window.location.hash).toMatch(/^#history~[a-z0-9]+$/)
 
       await user.click(screen.getByRole('button', { name: /Books Read/ }))
       await user.selectOptions(
@@ -245,11 +296,156 @@ describe('Design D navigation comparison', { timeout: 20000 }, () => {
         '112',
       )
       await waitFor(() => expect(nav).not.toHaveTextContent('Long ago'))
+      expect(window.location.hash).toBe('')
       expect(
-        within(await openParts(nav, 'History')).getAllByRole('button'),
+        within(await openParts(nav, 'History')).getAllByRole('link'),
       ).toHaveLength(count)
     },
   )
+
+  it.each(['contents', 'map'] as const)(
+    '%s restores era links on refresh, Back and Forward after Metro changes',
+    async (mode) => {
+      const user = userEvent.setup()
+      localStorage.setItem('placeNavigation', mode)
+      const path = `${ALETHKAR}?comparison=on`
+      renderAt(path)
+      const nav = await plateNav(mode)
+      const eras = await openParts(nav, 'History')
+      const links = within(eras).getAllByRole('link')
+      const chosen = links.at(-1)!
+      const first = links[0]
+      const chosenName = chosen.textContent!
+      const firstName = first.textContent!
+      const chosenHref = chosen.getAttribute('href')!
+      const firstHref = first.getAttribute('href')!
+      expect(chosenHref).toMatch(/^#history~[a-z0-9]+$/)
+      expect(chosenHref).not.toContain(
+        chosenName.toLowerCase().replaceAll(' ', '-'),
+      )
+      expect(chosenHref).not.toBe(firstHref)
+      const metro = within(
+        screen.getByRole('region', { name: 'History' }),
+      ).getByRole('group', { name: 'Jump to an era' })
+      await user.click(chosen)
+      expect(window.location.hash).toBe(chosenHref)
+      expect(
+        within(metro).getByRole('button', { name: chosenName }),
+      ).toHaveAttribute('aria-pressed', 'true')
+      await user.click(within(metro).getByRole('button', { name: firstName }))
+      await waitFor(() => expect(window.location.hash).toBe(firstHref))
+      await act(async () => window.history.back())
+      await waitFor(() => {
+        expect(window.location.hash).toBe(chosenHref)
+        expect(
+          within(metro).getByRole('button', { name: chosenName }),
+        ).toHaveAttribute('aria-pressed', 'true')
+        expect(chosen).toHaveAttribute('aria-current', 'location')
+      })
+      await act(async () => window.history.forward())
+      await waitFor(() => {
+        expect(window.location.hash).toBe(firstHref)
+        expect(
+          within(metro).getByRole('button', { name: firstName }),
+        ).toHaveAttribute('aria-pressed', 'true')
+      })
+      expect(window.location.search).toBe('?comparison=on')
+
+      cleanup()
+      renderAt(`${path}${chosenHref}`)
+      const restoredNav = await plateNav(mode)
+      const restoredEras = await openParts(restoredNav, 'History')
+      const restoredMetro = within(
+        screen.getByRole('region', { name: 'History' }),
+      ).getByRole('group', { name: 'Jump to an era' })
+      await waitFor(() => {
+        expect(
+          within(restoredMetro).getByRole('button', { name: chosenName }),
+        ).toHaveAttribute('aria-pressed', 'true')
+        expect(
+          within(restoredEras).getByRole('link', { name: chosenName }),
+        ).toHaveAttribute('aria-current', 'location')
+      })
+      expect(window.location.hash).toBe(chosenHref)
+    },
+  )
+
+  it('fails closed for an era after rollback, including Back and a cold link', async () => {
+    const user = userEvent.setup()
+    const path = `${ALETHKAR}?comparison=on`
+    renderAt(path, THROUGH_WOR, { oathbringer: '113' })
+    const nav = await plateNav()
+    const eras = await openParts(nav, 'History')
+    const link = within(eras).getByRole('link', { name: 'Long ago' })
+    const href = link.getAttribute('href')!
+    await user.click(link)
+    const savedState = { ...window.history.state, marker: 'preserve-state' }
+    window.history.replaceState(savedState, '', window.location.href)
+    await user.click(within(nav).getByRole('link', { name: 'About' }))
+    await setChapter(user, 'Oathbringer', '112')
+    expect(nav).not.toHaveTextContent('Long ago')
+
+    await act(async () => window.history.back())
+    await waitFor(() => expect(window.location.hash).toBe(''))
+    expect(window.location.search).toBe('?comparison=on')
+    expect(window.history.state).toEqual(savedState)
+    expect(nav.innerHTML).not.toContain(href)
+    await act(async () => window.history.forward())
+    await waitFor(() => expect(window.location.hash).toBe('#about'))
+
+    cleanup()
+    renderAt(`${path}${href}`, THROUGH_WOR, { oathbringer: '112' })
+    const hidden = await plateNav()
+    await waitFor(() => expect(window.location.hash).toBe(''))
+    expect(window.location.search).toBe('?comparison=on')
+    expect(hidden).not.toHaveTextContent('Long ago')
+
+    cleanup()
+    renderAt(`${path}${href}`, THROUGH_WOR, { oathbringer: '113' })
+    const unlocked = await plateNav()
+    const unlockedEras = await openParts(unlocked, 'History')
+    const metro = within(
+      screen.getByRole('region', { name: 'History' }),
+    ).getByRole('group', { name: 'Jump to an era' })
+    await waitFor(() => {
+      expect(
+        within(metro).getByRole('button', { name: 'Long ago' }),
+      ).toHaveAttribute('aria-pressed', 'true')
+      expect(
+        within(unlockedEras).getByRole('link', { name: 'Long ago' }),
+      ).toHaveAttribute('aria-current', 'location')
+    })
+    expect(window.location.hash).toBe(href)
+  })
+
+  it('realigns a cold subsection link after reflows, until the reader scrolls', async () => {
+    const previous = HTMLElement.prototype.scrollIntoView
+    const scroll = vi.fn(function (this: HTMLElement) {
+      return this.id
+    })
+    HTMLElement.prototype.scrollIntoView = scroll
+    try {
+      renderAt(`${ALETHKAR}#culture-music-and-art`)
+      await plateNav()
+      const calls = () =>
+        scroll.mock.instances.filter(
+          (element) => element.id === 'culture-music-and-art',
+        ).length
+      await waitFor(() => expect(calls()).toBeGreaterThan(0))
+      expect(scroll).toHaveBeenCalledWith({ block: 'start', behavior: 'auto' })
+      const beforeImage = calls()
+      const image = document.querySelector('article.location-detail img')!
+      fireEvent.load(image)
+      await waitFor(() => expect(calls()).toBeGreaterThan(beforeImage))
+      fireEvent.wheel(document.querySelector('.app-main')!)
+      const afterUser = calls()
+      fireEvent.load(image)
+      await new Promise((resolve) => setTimeout(resolve, 300))
+      expect(calls()).toBe(afterUser)
+    } finally {
+      HTMLElement.prototype.scrollIntoView = previous
+    }
+  })
 
   it.each(['contents', 'map'] as const)(
     '%s opens folded sections and synchronizes era selection both ways',
@@ -286,30 +482,30 @@ describe('Design D navigation comparison', { timeout: 20000 }, () => {
       await user.click(historyToggle)
       expect(historyToggle).toHaveAttribute('aria-expanded', 'false')
       const eras = await openParts(nav, 'History')
-      await user.click(within(eras).getByRole('button', { name: targetTitle }))
+      await user.click(within(eras).getByRole('link', { name: targetTitle }))
       expect(historyToggle).toHaveAttribute('aria-expanded', 'true')
       expect(
         within(metro).getByRole('button', { name: targetTitle }),
       ).toHaveAttribute('aria-pressed', 'true')
       expect(
-        within(eras).getByRole('button', { name: targetTitle }),
+        within(eras).getByRole('link', { name: targetTitle }),
       ).toHaveAttribute('aria-current', 'location')
-      expect(window.location.hash).toBe('#history')
+      expect(window.location.hash).toMatch(/^#history~[a-z0-9]+$/)
 
       await user.click(within(metro).getByRole('button', { name: lastTitle }))
       await waitFor(() =>
         expect(
-          within(eras).getByRole('button', { name: lastTitle }),
+          within(eras).getByRole('link', { name: lastTitle }),
         ).toHaveAttribute('aria-current', 'location'),
       )
       expect(
-        within(eras).getByRole('button', { name: targetTitle }),
+        within(eras).getByRole('link', { name: targetTitle }),
       ).not.toHaveAttribute('aria-current')
       fireEvent.keyDown(within(history).getByRole('slider'), { key: 'Home' })
       const firstTitle = metroButtons[0].textContent!
       await waitFor(() =>
         expect(
-          within(eras).getByRole('button', { name: firstTitle }),
+          within(eras).getByRole('link', { name: firstTitle }),
         ).toHaveAttribute('aria-current', 'location'),
       )
     },
@@ -393,6 +589,17 @@ describe('Design D navigation comparison', { timeout: 20000 }, () => {
           return rect(-scroll, height)
         if (this.hasAttribute('data-toc'))
           return rect((positions[this.id] ?? 1800) - scroll, 100)
+        if (this.hasAttribute('data-toc-sub')) {
+          const section = this.closest<HTMLElement>('[data-toc]')!
+          const parts = [...section.querySelectorAll('[data-toc-sub]')]
+          return rect(
+            (positions[section.id] ?? 1800) +
+              60 +
+              parts.indexOf(this) * 100 -
+              scroll,
+            100,
+          )
+        }
         return rect(0, 0)
       },
     )
@@ -421,14 +628,30 @@ describe('Design D navigation comparison', { timeout: 20000 }, () => {
 
     const slider = within(nav).getByRole('slider', { name: 'Page position' })
     await waitFor(() => expect(slider).toHaveAttribute('aria-valuenow', '50'))
-    const track = slider.parentElement!
-    track.getBoundingClientRect = () => rect(100, 400)
-    const bars = track.querySelectorAll<HTMLElement>('span[aria-hidden]')
-    expect(bars[0]).toHaveStyle({ height: '10%' })
-    expect(bars[bars.length - 1]).toHaveStyle({
-      top: '37.5%',
-      height: '25%',
+    slider.getBoundingClientRect = () => rect(100, 400)
+    const marker = (text: string) =>
+      within(slider).getByText(text).closest<HTMLElement>('[style]')!
+    expect(marker('Culture')).toHaveStyle({ top: '25%' })
+    const topic = screen.getByRole('region', { name: 'Music and art' })
+    const top =
+      ((topic.getBoundingClientRect().top + main.scrollTop) / height) * 100
+    expect(marker('Music and art')).toHaveStyle({ top: `${top}%` })
+    expect(
+      [...slider.querySelectorAll<HTMLElement>('span[style]')].some(
+        (el) => el.style.top === '37.5%' && el.style.height === '25%',
+      ),
+    ).toBe(true)
+    fireEvent.pointerDown(slider, {
+      clientY: 100 + (top / 100) * 400,
+      pointerId: 1,
+      buttons: 1,
     })
+    fireEvent.pointerUp(slider, {
+      clientY: 100 + (top / 100) * 400,
+      pointerId: 1,
+    })
+    expect(window.location.hash).toBe('#culture-music-and-art')
+    fireEvent.wheel(main)
 
     fireEvent.pointerDown(slider, { clientY: 300, pointerId: 1, buttons: 1 })
     fireEvent.pointerMove(slider, { clientY: 380, pointerId: 1, buttons: 1 })
@@ -449,6 +672,13 @@ describe('Design D navigation comparison', { timeout: 20000 }, () => {
     const image = document.querySelector('article.location-detail img')!
     fireEvent.load(image)
     await waitFor(() => expect(slider).toHaveAttribute('aria-valuenow', '30'))
+    const faith = screen.getByRole('region', { name: 'Faith' })
+    const faithTop =
+      ((faith.getBoundingClientRect().top + main.scrollTop) / height) * 100
+    await waitFor(() =>
+      expect(parseFloat(marker('Faith').style.top)).toBeCloseTo(faithTop, 2),
+    )
+    expect(within(slider).queryByText('Music and art')).toBeNull()
     height = 4000
     fireEvent.resize(window)
     await waitFor(() => expect(slider).toHaveAttribute('aria-valuenow', '21'))
@@ -461,6 +691,69 @@ describe('Design D navigation comparison', { timeout: 20000 }, () => {
       ),
     )
     await waitFor(() => expect(slider).toHaveAttribute('aria-valuenow', '100'))
+    expect(within(slider).queryByText('Music and art')).toBeNull()
+    const topics = await openParts(nav, 'Culture')
+    expect(
+      within(topics).getByRole('link', { name: /Music and art/ }),
+    ).toBeVisible()
+  })
+
+  it('maps prose History headings at their measured positions and reopens folds', async () => {
+    localStorage.setItem('placeNavigation', 'map')
+    renderAt(KHOLINAR, [...THROUGH_WOR, 'oathbringer'], {
+      'rhythm-of-war': 'i-4',
+    })
+    const nav = await plateNav('map')
+    const main = document.querySelector<HTMLElement>('.app-main')!
+    const article = screen.getByRole('article', { name: 'Kholinar' })
+    const history = screen.getByRole('region', { name: 'History' })
+    const rect = (top: number, height: number) =>
+      ({ top, height, bottom: top + height }) as DOMRect
+    Object.defineProperty(main, 'clientHeight', {
+      configurable: true,
+      value: 500,
+    })
+    main.getBoundingClientRect = () => rect(0, 500)
+    article.getBoundingClientRect = () => rect(-main.scrollTop, 3000)
+    article.querySelectorAll<HTMLElement>('[data-toc]').forEach((section) => {
+      const top =
+        section.id === 'history' ? 800 : section.id === 'about' ? 200 : 2700
+      section.getBoundingClientRect = () => rect(top - main.scrollTop, 200)
+    })
+    const headings = [
+      ...history.querySelectorAll<HTMLElement>('[data-toc-sub]'),
+    ]
+    headings.forEach((section, index) => {
+      section.getBoundingClientRect = () =>
+        rect(1000 + index * 250 - main.scrollTop, 200)
+    })
+    fireEvent.resize(window)
+    const slider = within(nav).getByRole('slider', { name: 'Page position' })
+    const target = screen.getByRole('region', { name: 'Occupation' })
+    const expected =
+      ((target.getBoundingClientRect().top + main.scrollTop) / 3000) * 100
+    await waitFor(() => {
+      const marker = within(slider)
+        .getByText('Occupation')
+        .closest<HTMLElement>('[style]')!
+      expect(parseFloat(marker.style.top)).toBeCloseTo(expected, 2)
+    })
+    await userEvent.click(
+      within(history).getByRole('button', { name: 'History' }),
+    )
+    await waitFor(() =>
+      expect(within(slider).queryByText('Occupation')).toBeNull(),
+    )
+    const parts = await openParts(nav, 'History')
+    await userEvent.click(
+      within(parts).getByRole('link', { name: 'Occupation' }),
+    )
+    expect(
+      within(history).getByRole('button', { name: 'History' }),
+    ).toHaveAttribute('aria-expanded', 'true')
+    await waitFor(() =>
+      expect(within(slider).getByText('Occupation')).toBeInTheDocument(),
+    )
   })
 })
 
@@ -500,6 +793,14 @@ describe('phone navigation', { timeout: 20000 }, () => {
     await user.click(edge)
     const sheet = screen.getByRole('dialog', { name: 'Page map' })
     const nav = within(sheet).getByRole('navigation', { name: 'Page map' })
+    const browse = within(nav).getByText('Browse all sections, topics and eras')
+    await user.keyboard('{Shift>}{Tab}{/Shift}')
+    expect(browse).toHaveFocus()
+    await user.keyboard('{Tab}')
+    expect(
+      within(sheet).getByRole('button', { name: 'Close navigation' }),
+    ).toHaveFocus()
+    await openMapList(nav)
     await user.click(within(nav).getByRole('link', { name: 'History' }))
     expect(sheet).not.toHaveAttribute('open')
     expect(edge).toHaveFocus()
@@ -551,11 +852,120 @@ describe('phone navigation', { timeout: 20000 }, () => {
     fireEvent.scroll(main)
     fireEvent.pointerDown(edge, { clientY: 200, pointerId: 1, buttons: 1 })
     fireEvent.pointerMove(edge, { clientY: 320, pointerId: 1, buttons: 1 })
+    expect(screen.getByRole('status')).toHaveTextContent(/%/)
     fireEvent.pointerUp(edge, { clientY: 320, pointerId: 1 })
     fireEvent.click(edge)
     expect(scroll).toHaveBeenCalled()
     expect(screen.queryByRole('dialog', { name: 'Page map' })).toBeNull()
     await userEvent.click(edge)
     expect(screen.getByRole('dialog', { name: 'Page map' })).toBeInTheDocument()
+    await userEvent.click(
+      screen.getByRole('button', { name: 'Close navigation' }),
+    )
+    fireEvent.pointerDown(edge, { clientY: 200, pointerId: 2, buttons: 1 })
+    fireEvent.pointerMove(edge, { clientY: 320, pointerId: 2, buttons: 1 })
+    fireEvent.pointerUp(edge, { clientY: 320, pointerId: 2 })
+    // Some browsers omit the synthetic click after a drag.
+    await userEvent.click(edge)
+    expect(screen.getByRole('dialog', { name: 'Page map' })).toBeInTheDocument()
+  })
+})
+
+describe('prose History spoiler boundary', { timeout: 30000 }, () => {
+  it.each([
+    ['contents', false],
+    ['map', false],
+    ['contents', true],
+    ['map', true],
+  ] as const)(
+    '%s navigation on phone=%s hides a subsection before its chapter',
+    async (mode, phone) => {
+      wideScreen(!phone)
+      const user = userEvent.setup()
+      localStorage.setItem('placeNavigation', mode)
+      renderAt(`${KHOLINAR}?comparison=on`, [...THROUGH_WOR, 'oathbringer'], {
+        'rhythm-of-war': '43',
+      })
+      const open = async () => {
+        if (!phone) {
+          const nav = await plateNav(mode)
+          await openParts(nav, 'History')
+          return nav
+        }
+        const trigger = await screen.findByRole('button', {
+          name: mode === 'contents' ? /^Contents/ : /^Page map/,
+        })
+        await user.click(trigger)
+        const sheet = screen.getByRole('dialog', {
+          name: mode === 'contents' ? 'On this page' : 'Page map',
+        })
+        const nav = within(sheet).getByRole('navigation', {
+          name: mode === 'contents' ? 'On this page' : 'Page map',
+        })
+        await openParts(nav, 'History')
+        return nav
+      }
+      const close = async () => {
+        if (phone)
+          await user.click(
+            screen.getByRole('button', { name: 'Close navigation' }),
+          )
+      }
+
+      let nav = await open()
+      expect(nav).not.toHaveTextContent('Occupation')
+      expect(nav.innerHTML).not.toContain('history-occupation')
+      expect(screen.queryByRole('heading', { name: 'Occupation' })).toBeNull()
+      await close()
+      await user.click(screen.getByRole('button', { name: 'Show anyway' }))
+      nav = await open()
+      const revealed = within(nav).getByRole('link', { name: 'Occupation' })
+      expect(revealed).toHaveAttribute('href', '#history-occupation')
+      await user.click(revealed)
+      expect(window.location.hash).toBe('#history-occupation')
+      await user.click(screen.getByRole('button', { name: 'Hide again' }))
+      await waitFor(() => expect(window.location.hash).toBe(''))
+      nav = await open()
+      expect(nav).not.toHaveTextContent('Occupation')
+      expect(nav.innerHTML).not.toContain('history-occupation')
+      await close()
+
+      await setChapter(user, 'Rhythm of War', 'i-4')
+      nav = await open()
+      expect(
+        within(nav).getByRole('link', { name: 'Occupation' }),
+      ).toBeVisible()
+      await close()
+      expect(screen.getByRole('heading', { name: 'Occupation' })).toBeVisible()
+      await setChapter(user, 'Rhythm of War', '43')
+      nav = await open()
+      expect(nav).not.toHaveTextContent('Occupation')
+      expect(screen.queryByRole('heading', { name: 'Occupation' })).toBeNull()
+      await close()
+    },
+  )
+
+  it('scrubs a previously visited hidden subsection on Back and Forward', async () => {
+    const user = userEvent.setup()
+    renderAt(`${KHOLINAR}?comparison=on`, [...THROUGH_WOR, 'oathbringer'], {
+      'rhythm-of-war': 'i-4',
+    })
+    const nav = await plateNav()
+    const history = await openParts(nav, 'History')
+    await user.click(within(history).getByRole('link', { name: 'Occupation' }))
+    const savedState = { ...window.history.state, marker: 'preserve-state' }
+    window.history.replaceState(savedState, '', window.location.href)
+    await user.click(within(nav).getByRole('link', { name: 'About' }))
+    await setChapter(user, 'Rhythm of War', '43')
+    await act(async () => window.history.back())
+    await waitFor(() => expect(window.location.hash).toBe(''))
+    expect(window.location.search).toBe('?comparison=on')
+    expect(window.history.state).toEqual(savedState)
+    expect(nav.innerHTML).not.toContain('history-occupation')
+    expect(screen.queryByRole('heading', { name: 'Occupation' })).toBeNull()
+    await act(async () => window.history.forward())
+    await waitFor(() => expect(window.location.hash).toBe('#about'))
+    await act(async () => window.history.back())
+    await waitFor(() => expect(window.location.hash).toBe(''))
   })
 })

@@ -13,17 +13,15 @@ export interface ShownTopic {
 }
 
 /**
- * Takes the reader to a part of the page, opening its section if folded,
- * and puts it in the URL like the Contents does.
+ * Takes the reader to a part of the page, opening its section if folded.
  */
 export function jumpTo(id: string) {
   const el = document.getElementById(id)
   if (!el) return
   el.closest('[data-toc]')?.dispatchEvent(new Event(OPEN))
   const frame = requestAnimationFrame(() =>
-    el.scrollIntoView?.({ block: 'start' }),
+    el.scrollIntoView?.({ block: 'start', behavior: 'auto' }),
   )
-  history.replaceState(history.state, '', `#${id}`)
   return frame
 }
 
