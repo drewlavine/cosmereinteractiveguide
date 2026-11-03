@@ -212,7 +212,8 @@
               "revealedIn": [{ "book": "dawnshard", "chapter": "19" }],
               "title": "A Dawnshard hidden at Akinah",
               "text": "In the distant past, a Dawnshard came or was brought to Aimia and was bound into a mural at Akinah, where the lanceryn guarded it.",
-              "places": ["akinah"]
+              "places": ["akinah"],
+              "art": "place:akinah"
             }
           ]
         }
@@ -252,7 +253,8 @@
               ],
               "title": "A Silver Kingdom of the islands",
               "text": "In the Heraldic Epochs the islands formed a Silver Kingdom with its own Oathgate to Urithiru. Its capital, Akinah, was a grand city on a rock formation of tenfold symmetry, known as the place to get Soulcasters. At least some Aimians stood close to the Knights Radiant.",
-              "places": ["akinah", "urithiru"]
+              "places": ["akinah", "urithiru"],
+              "art": "place:silver-kingdoms"
             }
           ]
         }
@@ -284,7 +286,8 @@
             {
               "revealedIn": [{ "book": "oathbringer", "chapter": "113" }],
               "title": "Aimia destroyed",
-              "text": "Long ago Aimia was laid waste. The scholar Hessi suggested the being called Dai-Gonarthis was behind it."
+              "text": "Long ago Aimia was laid waste. The scholar Hessi suggested the being called Dai-Gonarthis was behind it.",
+              "art": "place:akinah"
             },
             {
               "revealedIn": [
@@ -299,7 +302,8 @@
                 }
               ],
               "title": "The scouring of Aimia",
-              "text": "At least four centuries before the Everstorm came, yet after the Recreance, Aimia was scoured; what happened, and why, is unknown. The devices that kept the islands livable were destroyed, native animals almost died out, the surviving humans fled, the Na-Alind sheltered the last few larkin, and the Oathgate at Akinah fell out of use, cutting the islands off."
+              "text": "At least four centuries before the Everstorm came, yet after the Recreance, Aimia was scoured; what happened, and why, is unknown. The devices that kept the islands livable were destroyed, native animals almost died out, the surviving humans fled, the Na-Alind sheltered the last few larkin, and the Oathgate at Akinah fell out of use, cutting the islands off.",
+              "art": "place:aimia"
             }
           ]
         },
@@ -312,7 +316,8 @@
               "title": "The Sleepless keep watch",
               "text": "With the lanceryn gone and the larkin scattered, the Dawnshard lay unprotected, so the Sleepless there became its guardians, unwilling to let a power able to destroy billions fall into the wrong hands. They killed hundreds who came near their secret and built a false Akinah, with a ruined copy of its Oathgate, to turn intruders away; the real Oathgate lies locked beneath.",
               "places": ["akinah"],
-              "after": ["scouring"]
+              "after": ["scouring"],
+              "art": "place:akinah"
             }
           ]
         },
@@ -332,7 +337,8 @@
               "title": "A walled and stormy sea",
               "text": "Ever since, the waters around the islands have been deadly, with odd winds and storms that seem to rise from the islands themselves and one storm that never leaves Akinah. Forty-foot spikes of Soulcast stone ring Akinah, with more beneath the waves to stop ships.",
               "places": ["aimian-sea", "akinah"],
-              "after": ["scouring"]
+              "after": ["scouring"],
+              "art": "place:akinah"
             }
           ]
         }
@@ -359,7 +365,8 @@
                 }
               ],
               "title": "Aimia in legend",
-              "text": "Over the centuries myths grew up around the islands. Akinah earned names such as the Rock of Secrets, or the Void's Playground. A few Aimians survive, but the non-human ones meet hostility when found out, and their reversed shadows are called Voidbringer shadows."
+              "text": "Over the centuries myths grew up around the islands. Akinah earned names such as the Rock of Secrets, or the Void's Playground. A few Aimians survive, but the non-human ones meet hostility when found out, and their reversed shadows are called Voidbringer shadows.",
+              "art": "place:akinah"
             }
           ]
         },
@@ -396,7 +403,8 @@
               "revealedIn": [{ "book": "dawnshard", "chapter": "10" }],
               "title": "Thaylen outposts",
               "text": "Scouting parties sent to the main island recently found it barren, and the Thaylen Royal Navy has built outposts there as a precaution.",
-              "places": ["thaylenah"]
+              "places": ["thaylenah"],
+              "art": "place:aimia"
             }
           ]
         },

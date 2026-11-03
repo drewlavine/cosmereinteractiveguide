@@ -267,7 +267,8 @@
               "revealedIn": [{ "book": "words-of-radiance", "chapter": "60" }],
               "title": "What is left of Natanatan",
               "text": "This region once belonged to the Silver Kingdom of Natanatan, ruled from Stormseat. After the disaster that made the Shattered Plains, the kingdom slowly came apart, shrinking at last to a single settlement: New Natanan.",
-              "places": ["natanatan", "stormseat", "shattered-plains"]
+              "places": ["natanatan", "stormseat", "shattered-plains"],
+              "art": "place:stormseat"
             }
           ]
         }
@@ -300,7 +301,8 @@
               "revealedIn": [{ "book": "way-of-kings", "chapter": "42" }],
               "title": "Searching for a river route",
               "text": "Several expeditions looked for a waterway linking Alethkar with New Natanan, and one of them led Alethi explorers to the Parshendi.",
-              "places": ["alethkar"]
+              "places": ["alethkar"],
+              "art": "character:gavilar-kholin"
             }
           ]
         },
@@ -321,7 +323,8 @@
               "title": "A road to the Plains",
               "text": "New Natanan grew into a rich trading city, the largest on the east coast. Before the War of Reckoning, Dalinar marched a small company through it to win the Shattered Plains for House Kholin; a few years on, a Natan ambassador, Au-nak, was living in the Alethi warcamps.",
               "places": ["shattered-plains"],
-              "after": ["river-search"]
+              "after": ["river-search"],
+              "art": "character:dalinar-kholin"
             }
           ]
         },
@@ -340,7 +343,8 @@
                 }
               ],
               "title": "A ship lost at sea",
-              "text": "Since caravans to the Plains set out from New Natanan, Jasnah and Shallan sailed for the city, but their ship was sunk before it got there."
+              "text": "Since caravans to the Plains set out from New Natanan, Jasnah and Shallan sailed for the city, but their ship was sunk before it got there.",
+              "art": "character:shallan-davar"
             }
           ]
         }
@@ -380,7 +384,8 @@
               ],
               "title": "First to face the Everstorm",
               "text": "When the Everstorm first came, it hit New Natanan before any other major city, though Dalinar and Navani had tried to warn its people. Whether or not they believed the warning, the Natan afterwards confirmed to the Thaylens that the storm was real.",
-              "places": ["thaylenah"]
+              "places": ["thaylenah"],
+              "art": "character:navani-kholin"
             }
           ]
         },
@@ -392,7 +397,8 @@
               "revealedIn": [{ "book": "oathbringer", "chapter": "96" }],
               "title": "Joining the coalition",
               "text": "When Dalinar asked New Natanan to join his coalition, the Natan stalled for time. They agreed to join only once Taravangian brought Jah Keved and Kharbranth in, and their ambassador to the Alethi became the city's voice in Urithiru.",
-              "places": ["urithiru", "jah-keved", "kharbranth"]
+              "places": ["urithiru", "jah-keved", "kharbranth"],
+              "art": "character:dalinar-kholin"
             }
           ]
         },
@@ -404,7 +410,8 @@
               "revealedIn": [{ "book": "oathbringer", "chapter": "122" }],
               "title": "A claim to Stormseat",
               "text": "As heirs of ancient Natanatan, the Natan believe the Oathgate at Stormseat, its old capital, should be theirs, but they lack the political or military strength to enforce the claim.",
-              "places": ["stormseat", "natanatan"]
+              "places": ["stormseat", "natanatan"],
+              "art": "place:stormseat"
             }
           ]
         }

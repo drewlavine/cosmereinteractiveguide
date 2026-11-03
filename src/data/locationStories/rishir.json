@@ -89,7 +89,8 @@
             {
               "revealedIn": [{ "book": "oathbringer", "chapter": "113" }],
               "title": "A land of singers",
-              "text": "Singers lived in the land that became Rishir before humans came to Roshar."
+              "text": "Singers lived in the land that became Rishir before humans came to Roshar.",
+              "art": "lifeform:singer"
             },
             {
               "revealedIn": [
@@ -158,7 +159,8 @@
               "title": "Kurth becomes the capital",
               "text": "Early on, Kurth was founded as the capital of Rishir, and in time it also housed the kingdom's Oathgate.",
               "places": ["kurth", "urithiru"],
-              "after": ["founding"]
+              "after": ["founding"],
+              "art": "place:kurth"
             }
           ]
         },
@@ -169,7 +171,8 @@
             {
               "revealedIn": [{ "book": "way-of-kings", "chapter": "19" }],
               "title": "Desolation after Desolation",
-              "text": "Desolations struck Rishir again and again, along with the rest of Roshar."
+              "text": "Desolations struck Rishir again and again, along with the rest of Roshar.",
+              "art": "event:desolation"
             }
           ]
         },
@@ -182,7 +185,7 @@
               "title": "The Last Desolation",
               "text": "About 4,500 years ago, the Last Desolation struck a world still weak from the Desolation before it. Weary of their torment, nine of the Heralds then refused to go back, leaving Taln to bear it alone.",
               "after": ["desolations"],
-              "art": "character:kalak"
+              "art": "ability:herald"
             }
           ]
         }
@@ -221,7 +224,8 @@
               ],
               "title": "The Desolations end",
               "text": "With no more Desolations to ravage it, Rishir could advance further than ever before.",
-              "after": ["last-desolation"]
+              "after": ["last-desolation"],
+              "art": "event:era-of-solitude"
             }
           ]
         },
@@ -233,7 +237,8 @@
               "revealedIn": ["oathbringer"],
               "title": "Rishir breaks apart",
               "text": "At some point after the Last Desolation, Rishir collapsed into many kingdoms and tribes. Herdaz is the foremost of them; Rira took Kurth, and the Reshi Isles went their own way, each island with its own king.",
-              "places": ["herdaz", "kurth", "reshi-isles"]
+              "places": ["herdaz", "kurth", "reshi-isles"],
+              "art": "place:reshi-isles"
             }
           ]
         }

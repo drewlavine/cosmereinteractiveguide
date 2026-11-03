@@ -117,7 +117,8 @@
               "revealedIn": ["way-of-kings"],
               "title": "Part of Makabakam",
               "text": "In the age of the Silver Kingdoms, Yezier belonged to Makabakam.",
-              "places": ["makabakam"]
+              "places": ["makabakam"],
+              "art": "place:silver-kingdoms"
             }
           ]
         }
@@ -144,7 +145,8 @@
               "revealedIn": [{ "book": "oathbringer", "chapter": "12" }],
               "title": "Waiting on Azir",
               "text": "After the Everstorm, Dalinar Kholin tried to bring Yezier into his coalition, hoping it would win over other states nearby. He spoke with its princess, but she held back until the Prime Aqasix had decided.",
-              "places": ["azir"]
+              "places": ["azir"],
+              "art": "place:yezier"
             },
             {
               "revealedIn": [{ "book": "oathbringer", "chapter": "95" }],
@@ -169,7 +171,8 @@
               "title": "Staying with Alethkar",
               "text": "The Azish pulled out of the coalition not long before the battle of Thaylen Field, but Yezier stayed. Its princess, who had feared an invasion from Iri, now on Odium's side, looked to bind herself and her country more closely to Alethkar.",
               "places": ["azir", "iri", "alethkar"],
-              "after": ["joins-coalition"]
+              "after": ["joins-coalition"],
+              "art": "place:yezier"
             }
           ]
         },
@@ -181,7 +184,8 @@
               "revealedIn": [{ "book": "oathbringer", "chapter": "122" }],
               "title": "A Kholin courtship",
               "text": "The princess began courting Halam Khal, a highlord of House Kholin, though she may not marry him without the Prime Aqasix's leave.",
-              "after": ["stays"]
+              "after": ["stays"],
+              "art": "culture:house-kholin"
             }
           ]
         }

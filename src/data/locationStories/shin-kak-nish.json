@@ -247,7 +247,8 @@
                 }
               ],
               "title": "A land for refugees",
-              "text": "Humans came to Roshar as refugees from a disaster on Ashyn, perhaps one of their own making, and were given this land."
+              "text": "Humans came to Roshar as refugees from a disaster on Ashyn, perhaps one of their own making, and were given this land.",
+              "art": "place:ashyn"
             }
           ]
         },
@@ -266,7 +267,8 @@
               ],
               "title": "Turning on the singers",
               "text": "The Eila Stele tells how the humans the singers had welcomed turned Surgebinding against them, and the singers began to call them Voidbringers.",
-              "after": ["gift"]
+              "after": ["gift"],
+              "art": "lifeform:singer"
             }
           ]
         }
@@ -292,7 +294,8 @@
             {
               "revealedIn": [{ "book": "oathbringer", "chapter": "38" }],
               "title": "A Shin soldier at Aharietiam",
-              "text": "Shin fought in the Desolations. Malad-son-Zent, a Shin soldier with a bronze-tipped spear, fought at Aharietiam, the Last Desolation."
+              "text": "Shin fought in the Desolations. Malad-son-Zent, a Shin soldier with a bronze-tipped spear, fought at Aharietiam, the Last Desolation.",
+              "art": "event:last-desolation"
             }
           ]
         },
@@ -344,7 +347,8 @@
                 }
               ],
               "title": "Keepers of the Honorblades",
-              "text": "In a vision, Dalinar watched a Shin man come upon the Honorblades the Heralds had abandoned, and most of the Blades remained with the Shin for thousands of years."
+              "text": "In a vision, Dalinar watched a Shin man come upon the Honorblades the Heralds had abandoned, and most of the Blades remained with the Shin for thousands of years.",
+              "art": "ability:honorblade"
             }
           ]
         },
@@ -355,7 +359,8 @@
             {
               "revealedIn": [{ "book": "oathbringer", "chapter": "103" }],
               "title": "Shin invasions",
-              "text": "At some point the Shin rode out on horseback to invade the lands beyond their mountains. Gavilar counted the empire of the Shin ruler Shubreth-son-Mashalan among those that fell soon after they were built because they grew too fast."
+              "text": "At some point the Shin rode out on horseback to invade the lands beyond their mountains. Gavilar counted the empire of the Shin ruler Shubreth-son-Mashalan among those that fell soon after they were built because they grew too fast.",
+              "art": "place:shinovar"
             }
           ]
         }

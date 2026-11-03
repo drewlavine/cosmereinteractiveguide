@@ -293,7 +293,8 @@
               "revealedIn": [{ "all": ["way-of-kings", "oathbringer"] }],
               "title": "Part of Makabakam",
               "text": "In the age of the Silver Kingdoms, Tukar's lands lay within Makabakam; today they form one of the many states of Makabak.",
-              "places": ["makabakam"]
+              "places": ["makabakam"],
+              "art": "place:makabakam"
             }
           ]
         },
@@ -306,7 +307,8 @@
               "title": "Joining the Azish Empire?",
               "text": "Tukar may have joined the Azish Empire as it took shape, though its place within the empire, if it has one, is far from simple.",
               "places": ["azir"],
-              "after": ["makabakam"]
+              "after": ["makabakam"],
+              "art": "place:azir"
             }
           ]
         },
@@ -345,7 +347,8 @@
               "revealedIn": [{ "book": "edgedancer", "chapter": "3" }],
               "title": "The fighting grows fiercer",
               "text": "In 1173, shortly before the Everstorm, Tukar's war with Emul grew fiercer.",
-              "places": ["emul"]
+              "places": ["emul"],
+              "art": "place:sesemalex-dar"
             },
             {
               "revealedIn": [
@@ -386,7 +389,8 @@
               "revealedIn": [{ "book": "oathbringer", "chapter": "24" }],
               "title": "Refusing the coalition",
               "text": "As the True Desolation broke, Dalinar Kholin sent word to both Emul and Tukar, hoping to win at least one. Tukar refused outright: its god-priest, as an aspect of the Almighty, demanded to lead Urithiru and the Knights Radiant, and the coalition would not agree.",
-              "places": ["emul", "urithiru"]
+              "places": ["emul", "urithiru"],
+              "art": "character:dalinar-kholin"
             }
           ]
         },
@@ -397,7 +401,8 @@
             {
               "revealedIn": [{ "book": "oathbringer", "chapter": "102" }],
               "title": "Voidspren gather",
-              "text": "Voidspren began to appear in the stretch of Shadesmar that matches Tukar."
+              "text": "Voidspren began to appear in the stretch of Shadesmar that matches Tukar.",
+              "art": "place:rosharan-subastral"
             },
             {
               "revealedIn": [{ "book": "oathbringer", "chapter": "122" }],
@@ -413,7 +418,8 @@
             {
               "revealedIn": ["rhythm-of-war"],
               "title": "Armies in the northeast",
-              "text": "Tukar's armies made their base in the country's northeast, around the Drunmu Basin."
+              "text": "Tukar's armies made their base in the country's northeast, around the Drunmu Basin.",
+              "art": "place:drunmu-basin"
             }
           ]
         }

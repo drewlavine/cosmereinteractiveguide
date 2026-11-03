@@ -131,7 +131,8 @@
             {
               "revealedIn": [{ "book": "oathbringer", "chapter": "113" }],
               "title": "A land of singers",
-              "text": "Before humans came to Roshar, singers lived in these lands. In time the newcomers drove them out and claimed the land for themselves, a history forgotten until the Eila Stele was read."
+              "text": "Before humans came to Roshar, singers lived in these lands. In time the newcomers drove them out and claimed the land for themselves, a history forgotten until the Eila Stele was read.",
+              "art": "lifeform:singer"
             }
           ]
         },
@@ -144,7 +145,8 @@
               "title": "Named for Makibak",
               "text": "The region takes its name from the Silver Kingdom of Makabakam, which was itself named after Makibak, one of the great leaders of humankind in its first days on Roshar.",
               "places": ["makabakam"],
-              "after": ["singer-land"]
+              "after": ["singer-land"],
+              "art": "place:makabakam"
             }
           ]
         }
@@ -163,7 +165,8 @@
               "revealedIn": [{ "book": "rhythm-of-war", "chapter": "1" }],
               "title": "Founding Makabakam",
               "text": "Makabakam was founded in the age of the Silver Kingdoms. Again and again the Desolations threw its people back to stone tools, and each time the returning Heralds helped them rise again.",
-              "places": ["makabakam"]
+              "places": ["makabakam"],
+              "art": "place:makabakam"
             }
           ]
         },
@@ -188,7 +191,8 @@
               "revealedIn": [{ "book": "oathbringer", "chapter": "103" }],
               "title": "War with Alethela",
               "text": "A quarrel over trade routes led Makabakam into war with Alethela.",
-              "places": ["alethela"]
+              "places": ["alethela"],
+              "art": "character:nohadon"
             }
           ]
         },
@@ -199,7 +203,8 @@
             {
               "revealedIn": ["way-of-kings"],
               "title": "Wounded by Desolations",
-              "text": "Desolation after Desolation struck Makabakam along with the rest of Roshar, and one of them left its society weak and wounded, in need of a long recovery."
+              "text": "Desolation after Desolation struck Makabakam along with the rest of Roshar, and one of them left its society weak and wounded, in need of a long recovery.",
+              "art": "event:desolation"
             }
           ]
         },
@@ -211,7 +216,8 @@
               "revealedIn": [{ "book": "oathbringer", "chapter": "119" }],
               "title": "The Desolations end",
               "text": "After the Last Desolation, no more Desolations came. Free of them, society here could grow further than ever before, and the Era of Solitude began.",
-              "after": ["desolations"]
+              "after": ["desolations"],
+              "art": "event:era-of-solitude"
             }
           ]
         }
@@ -230,7 +236,8 @@
               "revealedIn": ["oathbringer"],
               "title": "A dozen kingdoms",
               "text": "After Aharietiam, the lands of Makabakam came to be divided among about a dozen kingdoms.",
-              "places": ["makabakam"]
+              "places": ["makabakam"],
+              "art": "place:azir"
             }
           ]
         }
@@ -254,7 +261,8 @@
               "revealedIn": [{ "book": "oathbringer", "chapter": "65" }],
               "title": "A meeting in Urithiru",
               "text": "Noura surprised Dalinar Kholin with news: Azir and a number of other Makabaki nations would meet him in Urithiru.",
-              "places": ["azir", "urithiru"]
+              "places": ["azir", "urithiru"],
+              "art": "place:azir"
             },
             {
               "revealedIn": [{ "book": "oathbringer", "chapter": "111" }],

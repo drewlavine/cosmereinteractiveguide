@@ -207,7 +207,8 @@
             {
               "revealedIn": [{ "book": "oathbringer", "chapter": "113" }],
               "title": "Taken from the singers",
-              "text": "Singers lived here before humans came to Roshar. Some time after settling in what is now Shinovar, humans invaded, killing or driving out the singers and claiming the land. The story was forgotten until the Eila Stele was found."
+              "text": "Singers lived here before humans came to Roshar. Some time after settling in what is now Shinovar, humans invaded, killing or driving out the singers and claiming the land. The story was forgotten until the Eila Stele was found.",
+              "art": "lifeform:singer"
             }
           ]
         }
@@ -246,7 +247,8 @@
               ],
               "title": "Part of Sela Tales",
               "text": "In the age of the Silver Kingdoms this land belonged to Sela Tales. It is still counted among the Selay lands.",
-              "places": ["sela-tales"]
+              "places": ["sela-tales"],
+              "art": "place:sela-tales"
             }
           ]
         },
@@ -257,7 +259,8 @@
             {
               "revealedIn": [{ "book": "way-of-kings", "chapter": "19" }],
               "title": "Desolation after Desolation",
-              "text": "Desolations struck this land again and again, along with the rest of Roshar."
+              "text": "Desolations struck this land again and again, along with the rest of Roshar.",
+              "art": "event:desolation"
             },
             {
               "revealedIn": [
@@ -269,7 +272,8 @@
                 }
               ],
               "title": "Desolation after Desolation",
-              "text": "Desolations struck this land again and again, along with the rest of Roshar, each one throwing people back to stone tools until the returning Heralds helped them rebuild, often as far as bronze."
+              "text": "Desolations struck this land again and again, along with the rest of Roshar, each one throwing people back to stone tools until the returning Heralds helped them rebuild, often as far as bronze.",
+              "art": "event:desolation"
             }
           ]
         }
@@ -314,7 +318,8 @@
               ],
               "title": "The Desolations end",
               "text": "After the Last Desolation, no more Desolations came to ravage the nations, and society grew stronger than ever before.",
-              "after": ["desolations"]
+              "after": ["desolations"],
+              "art": "event:era-of-solitude"
             }
           ]
         },
@@ -334,7 +339,8 @@
               "title": "A cluster of states",
               "text": "By the present day Sela Tales was long gone, and in its place Marabethia was less a true nation than a cluster of states sharing one culture, with several local monarchs.",
               "places": ["sela-tales"],
-              "after": ["sela-tales"]
+              "after": ["sela-tales"],
+              "art": "place:marabethia"
             }
           ]
         },
@@ -373,7 +379,8 @@
             {
               "revealedIn": [{ "book": "oathbringer", "chapter": "24" }],
               "title": "No answer to the coalition",
-              "text": "When the True Desolation came, the coalition of monarchs asked Marabethia for aid and alliance. It never replied."
+              "text": "When the True Desolation came, the coalition of monarchs asked Marabethia for aid and alliance. It never replied.",
+              "art": "place:marabethia"
             }
           ]
         },
@@ -384,7 +391,8 @@
             {
               "revealedIn": [{ "book": "oathbringer", "chapter": "92" }],
               "title": "Skybreakers hunt escaped prisoners",
-              "text": "Szeth and his fellow acolytes were sent to a town on the southern border, home to Reshi idealists and to a jail for prisoners from across the region, to track down inmates who had broken out. The jail keeper was caught and convicted of pocketing money meant for the prison's upkeep."
+              "text": "Szeth and his fellow acolytes were sent to a town on the southern border, home to Reshi idealists and to a jail for prisoners from across the region, to track down inmates who had broken out. The jail keeper was caught and convicted of pocketing money meant for the prison's upkeep.",
+              "art": "character:szeth"
             }
           ]
         }

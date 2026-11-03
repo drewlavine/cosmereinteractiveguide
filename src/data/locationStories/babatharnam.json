@@ -111,7 +111,8 @@
               "revealedIn": ["oathbringer"],
               "title": "Out of Sela Tales",
               "text": "In the Heraldic Epochs, Babatharnam's lands belonged to the Silver Kingdom of Sela Tales. Some time after Aharietiam, Sela Tales splintered into many small states, and Babatharnam grew out of them.",
-              "places": ["sela-tales"]
+              "places": ["sela-tales"],
+              "art": "place:sela-tales"
             }
           ]
         }
@@ -137,7 +138,8 @@
             {
               "revealedIn": [{ "book": "way-of-kings", "chapter": "46" }],
               "title": "The Monavakah dynasty",
-              "text": "Around 1120 the Monavakah dynasty came to power, though custom there gives the most authority to the oldest. It held on by killing or exiling anyone old enough to challenge it, and its assassinations left the country deeply unsettled."
+              "text": "Around 1120 the Monavakah dynasty came to power, though custom there gives the most authority to the oldest. It held on by killing or exiling anyone old enough to challenge it, and its assassinations left the country deeply unsettled.",
+              "art": "place:babatharnam"
             }
           ]
         },
@@ -148,7 +150,8 @@
             {
               "revealedIn": [{ "book": "oathbringer", "chapter": "24" }],
               "title": "No help for Dalinar",
-              "text": "Early in the True Desolation, Babatharnam's Most Ancient refused to work with Dalinar Kholin."
+              "text": "Early in the True Desolation, Babatharnam's Most Ancient refused to work with Dalinar Kholin.",
+              "art": "place:babatharnam"
             }
           ]
         }

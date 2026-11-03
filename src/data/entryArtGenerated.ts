@@ -316,6 +316,17 @@ export const generatedEntryArt: Record<string, EntryArt[]> = {
       glyph: true,
     },
   ],
+  'ability:dawnshard': [
+    // Fan art crop of the mural only, the person in front cut away; dated to the end of Dawnshard, the book whose scene it is
+    {
+      src: '/entries/ability-dawnshard.webp',
+      alt: 'A cracked mural of a glowing golden ring split by spokes and edged with ancient script',
+      artist: 'Connor Chamberlain',
+      artistUrl:
+        'https://coppermind.net/wiki/Coppermind:Artists/Connor_Chamberlain',
+      revealedIn: ['dawnshard'],
+    },
+  ],
   'ability:duralumin': [
     // The duralumin symbol alone; dated by the duralumin entry's own reveal
     {
@@ -1515,6 +1526,16 @@ export const generatedEntryArt: Record<string, EntryArt[]> = {
       ],
     },
   ],
+  'culture:diagram': [
+    // Same crop as the writing-covered walls used for its writings; its glyphs can't be read, so dated to the last book out when the card was made
+    {
+      src: '/entries/culture-diagram.webp',
+      alt: 'Walls covered in glowing writing',
+      artist: 'Ari Ibarra',
+      artistUrl: 'https://coppermind.net/wiki/Coppermind:Artists/Ari_Ibarra',
+      revealedIn: ['oathbringer'],
+    },
+  ],
   'culture:diagram-literature': [
     // Crop of the writing-covered walls only; its glyphs can't be read, so dated to the last book out when the card was made
     {
@@ -1670,6 +1691,58 @@ export const generatedEntryArt: Record<string, EntryArt[]> = {
       artistUrl:
         'https://coppermind.net/wiki/Coppermind:Artists/Dan_dos_Santos',
       revealedIn: ['oathbringer'],
+    },
+  ],
+  'culture:heraldic-forces': [
+    // Loose match: the ten Heralds who led these forces, as the official chapter-arch carving that opens every chapter from the start; unlabelled; dated to the entry page reveal
+    {
+      src: '/entries/culture-heraldic-forces.webp',
+      alt: 'A carved stone ring of ten solemn faces',
+      artist: 'Isaac Stewart',
+      artistUrl: 'https://coppermind.net/wiki/Coppermind:Artists/Isaac_Stewart',
+      revealedIn: [
+        {
+          book: 'way-of-kings',
+          chapter: '59',
+        },
+      ],
+      glyph: true,
+    },
+  ],
+  'culture:hierocracy': [
+    // Crop of the Way of Kings interior page of in-world history, showing only its last panel (labels: Hierocracy, Vorinism); dated to the entry page reveal, the latest label
+    {
+      src: '/entries/culture-hierocracy.webp',
+      alt: 'An ornate lettered panel headed by a sword and a skull, naming the Hierocracy as the failure of the church',
+      artist: 'Greg Call',
+      artistUrl: 'https://coppermind.net/wiki/Coppermind:Artists/Greg_Call',
+      revealedIn: [
+        {
+          book: 'way-of-kings',
+          chapter: '36',
+        },
+      ],
+      glyph: true,
+    },
+  ],
+  'culture:highprince': [
+    // Crop of the Way of Kings interior war-camps map: its title and camps only, the legend that names each camp's highprince cut away (it names some later); dated to the end of The Way of Kings, whose map it is
+    {
+      src: '/entries/culture-highprince.webp',
+      alt: 'An old map of war camps strung along the edge of cracked plateaus below the mountains',
+      artist: 'Isaac Stewart',
+      artistUrl: 'https://coppermind.net/wiki/Coppermind:Artists/Isaac_Stewart',
+      revealedIn: ['way-of-kings'],
+    },
+  ],
+  'culture:honorbearer': [
+    // Wind and Truth interior map of the monasteries; its labels run late into the book and its note is undated, so dated to the end of Wind and Truth (allowed when correctly dated)
+    {
+      src: '/entries/culture-honorbearer.webp',
+      alt: 'A coloured map of a green land ringed by mountains, its monasteries marked with towers and a handwritten note',
+      artist: 'Isaac Stewart',
+      artistUrl: 'https://coppermind.net/wiki/Coppermind:Artists/Isaac_Stewart',
+      revealedIn: ['wind-and-truth'],
     },
   ],
   'culture:house-davar': [
@@ -2191,6 +2264,17 @@ export const generatedEntryArt: Record<string, EntryArt[]> = {
       glyph: true,
     },
   ],
+  'culture:tranquiline-halls': [
+    // Crop of the Way of Kings history page, top panel only (labels: Tranquiline Halls, Expulsion); the Expulsion label is first shown in Oathbringer, so dated to Oathbringer
+    {
+      src: '/entries/culture-tranquiline-halls.webp',
+      alt: 'Ornate lettering titling a history of mankind, its first age named as the loss of the Tranquiline Halls',
+      artist: 'Greg Call',
+      artistUrl: 'https://coppermind.net/wiki/Coppermind:Artists/Greg_Call',
+      revealedIn: ['oathbringer'],
+      glyph: true,
+    },
+  ],
   'culture:true-body': [
     // Mistborn Adventure Game kandra drawing; True Bodies are first shown in The Hero of Ages
     {
@@ -2437,6 +2521,20 @@ export const generatedEntryArt: Record<string, EntryArt[]> = {
     },
   ],
   'event:desolation': [
+    // Crop of the Way of Kings history page, the Desolations heading only (its subtitle cut off); dated to the entry's first reveal in the prelude; kept as a strip because any taller box takes in a later-dated line above or below
+    {
+      src: '/entries/event-desolation-2.webp',
+      alt: 'Ornate lettering with a sword and a skull: a heading naming the Desolations',
+      artist: 'Greg Call',
+      artistUrl: 'https://coppermind.net/wiki/Coppermind:Artists/Greg_Call',
+      revealedIn: [
+        {
+          book: 'way-of-kings',
+          chapter: 'prelude',
+        },
+      ],
+      glyph: true,
+    },
     // Official Way of Kings interior art, an in-world depiction of a Desolation (the Coppermind's caption); dated to the book (levels lifted for legibility)
     {
       src: '/entries/event-desolation.webp',
@@ -2444,6 +2542,43 @@ export const generatedEntryArt: Record<string, EntryArt[]> = {
       artist: 'Greg Call',
       artistUrl: 'https://coppermind.net/wiki/Coppermind:Artists/Greg_Call',
       revealedIn: ['way-of-kings'],
+    },
+    // Official roleplaying-game key art of a battle in a Desolation, logos cut off; it shows a living stone monster and Plate, so dated to their reveals
+    {
+      src: '/entries/event-desolation-3.webp',
+      alt: 'Armoured warriors with great swords battle a towering creature of stone with a glowing heart, amid lightning',
+      artist: 'Antti Hakosaari',
+      artistUrl:
+        'https://coppermind.net/wiki/Coppermind:Artists/Antti_Hakosaari',
+      revealedIn: [
+        {
+          all: [
+            {
+              book: 'way-of-kings',
+              chapter: '69',
+            },
+            {
+              book: 'words-of-radiance',
+              chapter: '51',
+            },
+          ],
+        },
+      ],
+    },
+  ],
+  'event:era-of-solitude': [
+    // Fan art of the abandoning of the Blades that began this era, a scene told in the prelude; no labels; dated to the entry page reveal
+    {
+      src: '/entries/event-era-of-solitude.webp',
+      alt: 'Two cloaked figures walk away across a ruined field from swords left standing at the foot of a rock spire',
+      artist: 'Grace Oris',
+      artistUrl: 'https://coppermind.net/wiki/Coppermind:Artists/Grace_Oris',
+      revealedIn: [
+        {
+          book: 'way-of-kings',
+          chapter: '45',
+        },
+      ],
     },
   ],
   'event:expedition-to-akinah': [
@@ -2493,6 +2628,27 @@ export const generatedEntryArt: Record<string, EntryArt[]> = {
         {
           book: 'way-of-kings',
           chapter: '45',
+        },
+      ],
+    },
+    // Album art book piece of the victory that ended the last Desolation; copyright line cut off; it shows a fallen stone monster and Plate, so dated to their reveals
+    {
+      src: '/entries/event-last-desolation-2.webp',
+      alt: 'Armoured knights with glowing swords stand victorious beside a fallen stone giant as fires burn',
+      artist: 'Petar Penev',
+      artistUrl: 'https://coppermind.net/wiki/Coppermind:Artists/Petar_Penev',
+      revealedIn: [
+        {
+          all: [
+            {
+              book: 'way-of-kings',
+              chapter: '69',
+            },
+            {
+              book: 'words-of-radiance',
+              chapter: '51',
+            },
+          ],
         },
       ],
     },
@@ -2553,6 +2709,49 @@ export const generatedEntryArt: Record<string, EntryArt[]> = {
       artistUrl:
         'https://coppermind.net/wiki/Coppermind:Artists/Michael_%22Stickmouse%22_Howard',
       revealedIn: ['hero-of-ages'],
+    },
+  ],
+  'event:siege-of-kholinar': [
+    // Official roleplaying-game world-guide page on the occupied city (labels: palace, stormdrains, park, a note on voidspren); the guide was made after Rhythm of War and its later state could not be pinned, so dated to the end of Rhythm of War
+    {
+      src: '/entries/event-siege-of-kholinar.webp',
+      alt: 'Travel-guide sketches of an occupied city: a guard on the wall, a palace of rock, a tall spire, drains, a park of trees and a glowing spren',
+      artist: 'Marie Seeberger',
+      artistUrl:
+        'https://coppermind.net/wiki/Coppermind:Artists/Marie_Seeberger',
+      revealedIn: ['rhythm-of-war'],
+    },
+  ],
+  'event:war-for-heaven': [
+    // Loose match: the Heralds of the old wars, as the official chapter-arch carving seen from the first chapter; unlabelled; dated to the entry page reveal
+    {
+      src: '/entries/event-war-for-heaven.webp',
+      alt: 'A carved stone ring of ten solemn faces',
+      artist: 'Isaac Stewart',
+      artistUrl: 'https://coppermind.net/wiki/Coppermind:Artists/Isaac_Stewart',
+      revealedIn: [
+        {
+          book: 'way-of-kings',
+          chapter: '59',
+        },
+      ],
+      glyph: true,
+    },
+  ],
+  'event:war-of-loss': [
+    // Loose match: the war ended the rule this panel names. Crop of the Way of Kings history page showing only the Hierocracy panel; dated to the entry page reveal
+    {
+      src: '/entries/event-war-of-loss.webp',
+      alt: 'An ornate lettered panel headed by a sword and a skull, naming the Hierocracy as the failure of the church',
+      artist: 'Greg Call',
+      artistUrl: 'https://coppermind.net/wiki/Coppermind:Artists/Greg_Call',
+      revealedIn: [
+        {
+          book: 'way-of-kings',
+          chapter: '36',
+        },
+      ],
+      glyph: true,
     },
   ],
   'event:war-of-reckoning': [
@@ -3250,6 +3449,17 @@ export const generatedEntryArt: Record<string, EntryArt[]> = {
       revealedIn: ['words-of-radiance'],
     },
   ],
+  'lifeform:voidspren': [
+    // Crop of the official roleplaying-game world-guide page: the spren sketch and its note only; dated with the rest of the page to the end of Rhythm of War
+    {
+      src: '/entries/lifeform-voidspren.webp',
+      alt: 'A crackling yellow spren swirls around a handwritten warning note',
+      artist: 'Marie Seeberger',
+      artistUrl:
+        'https://coppermind.net/wiki/Coppermind:Artists/Marie_Seeberger',
+      revealedIn: ['rhythm-of-war'],
+    },
+  ],
   'lifeform:whitespine': [
     // Fan painting of a whitespine; dated to the entry's list book
     {
@@ -3436,26 +3646,25 @@ export const generatedEntryArt: Record<string, EntryArt[]> = {
     },
   ],
   'place:alethela': [
+    // Locator globe of the kingdom's extent with no labels; dated to the entry's own page reveal (Way of Kings 19)
+    {
+      src: '/entries/place-alethela-2.webp',
+      alt: 'Globe map highlighting Alethela',
+      artist: 'SaleSVQ',
+      artistUrl: 'https://coppermind.net/wiki/User:SaleSVQ',
+      revealedIn: [
+        {
+          book: 'way-of-kings',
+          chapter: '19',
+        },
+      ],
+    },
     // Crop of the Way of Kings Silver Kingdoms map showing only the Alethela label, dated to the entry's reveal; re-dated to also wait for the entry's own reveal
     {
       src: '/entries/place-alethela.webp',
       alt: 'Map detail of the ancient kingdom of Alethela',
       artist: 'Isaac Stewart',
       artistUrl: 'https://coppermind.net/wiki/Coppermind:Artists/Isaac_Stewart',
-      revealedIn: [
-        'way-of-kings',
-        'words-of-radiance',
-        'oathbringer',
-        'rhythm-of-war',
-        'wind-and-truth',
-      ],
-    },
-    // Locator globe of the kingdom's extent with no labels, dated to the entry's reveal; re-dated to also wait for the entry's own reveal
-    {
-      src: '/entries/place-alethela-2.webp',
-      alt: 'Globe map highlighting Alethela',
-      artist: 'SaleSVQ',
-      artistUrl: 'https://coppermind.net/wiki/User:SaleSVQ',
       revealedIn: [
         'way-of-kings',
         'words-of-radiance',
@@ -3631,17 +3840,17 @@ export const generatedEntryArt: Record<string, EntryArt[]> = {
     },
   ],
   'place:babatharnam': [
-    // Unlabelled locator globe highlighting only Babatharnam; dated to the entry's reveal; re-dated to also wait for the entry's own reveal
+    // Unlabelled locator globe highlighting only Babatharnam (its place is on the Way of Kings endpaper map); dated to the entry's own page reveal (Way of Kings 46)
     {
       src: '/entries/place-babatharnam.webp',
       alt: 'Globe map of Roshar with Babatharnam highlighted',
       artist: 'SaleSVQ',
       artistUrl: 'https://coppermind.net/wiki/User:SaleSVQ',
       revealedIn: [
-        'way-of-kings',
-        'oathbringer',
-        'rhythm-of-war',
-        'wind-and-truth',
+        {
+          book: 'way-of-kings',
+          chapter: '46',
+        },
       ],
     },
     // Crop of the Oathbringer world map (labels: Babatharnam, Panatham); Panatham is first named in Oathbringer, so dated to Oathbringer
@@ -6461,7 +6670,7 @@ export const generatedEntryArt: Record<string, EntryArt[]> = {
     },
   ],
   'place:outer-market': [
-    // Way of Kings warcamps map whose note names Sebarial, first met in Words of Radiance 38; judgement call, dated later
+    // Way of Kings warcamps map whose note names Sebarial (Words of Radiance 38) and the dueling arena (first shown by Words of Radiance 56); dated by the later
     {
       src: '/entries/place-outer-market.webp',
       alt: 'Painted map of the warcamps with a handwritten key',
@@ -6470,7 +6679,7 @@ export const generatedEntryArt: Record<string, EntryArt[]> = {
       revealedIn: [
         {
           book: 'words-of-radiance',
-          chapter: '38',
+          chapter: '56',
         },
       ],
     },
@@ -6941,7 +7150,7 @@ export const generatedEntryArt: Record<string, EntryArt[]> = {
     },
   ],
   'place:river-vandonas': [
-    // Way of Kings warcamps map whose note names Sebarial, first met in Words of Radiance 38; judgement call, dated later
+    // Way of Kings warcamps map whose note names Sebarial (Words of Radiance 38) and the dueling arena (first shown by Words of Radiance 56); dated by the later
     {
       src: '/entries/place-river-vandonas.webp',
       alt: 'Painted map of the warcamps with a handwritten key',
@@ -6950,7 +7159,7 @@ export const generatedEntryArt: Record<string, EntryArt[]> = {
       revealedIn: [
         {
           book: 'words-of-radiance',
-          chapter: '38',
+          chapter: '56',
         },
       ],
     },
@@ -7697,6 +7906,28 @@ export const generatedEntryArt: Record<string, EntryArt[]> = {
     },
   ],
   'place:silver-kingdoms': [
+    // Crop of the Way of Kings Silver Kingdoms map: its title only (labels: Roshar, Silver Kingdoms); dated by the later label; kept as a strip because any larger box takes in kingdom labels first shown later
+    {
+      src: '/entries/place-silver-kingdoms-2.webp',
+      alt: 'The ornate title of an old map of the world, naming its Silver Kingdoms epoch',
+      artist: 'Isaac Stewart',
+      artistUrl: 'https://coppermind.net/wiki/Coppermind:Artists/Isaac_Stewart',
+      revealedIn: [
+        {
+          all: [
+            {
+              book: 'way-of-kings',
+              chapter: '19',
+            },
+            {
+              book: 'way-of-kings',
+              chapter: '27',
+            },
+          ],
+        },
+      ],
+      glyph: true,
+    },
     // Way of Kings interior map; every label is named by the end of Way of Kings
     {
       src: '/entries/place-silver-kingdoms.webp',

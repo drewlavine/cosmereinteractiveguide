@@ -93,7 +93,8 @@
             {
               "revealedIn": [{ "book": "oathbringer", "chapter": "113" }],
               "title": "A land of singers",
-              "text": "Singers lived in the land that became Thalath before humans came to Roshar."
+              "text": "Singers lived in the land that became Thalath before humans came to Roshar.",
+              "art": "lifeform:singer"
             },
             {
               "revealedIn": [
@@ -162,7 +163,8 @@
               "title": "Thaylen City becomes the capital",
               "text": "Early on, Thaylen City was founded as the capital of Thalath, and in time it also housed the kingdom's Oathgate.",
               "places": ["thaylen-city", "urithiru"],
-              "after": ["founding"]
+              "after": ["founding"],
+              "art": "place:thalath"
             }
           ]
         },
@@ -173,7 +175,8 @@
             {
               "revealedIn": [{ "book": "way-of-kings", "chapter": "19" }],
               "title": "Desolation after Desolation",
-              "text": "Desolations struck Thalath again and again, along with the rest of Roshar."
+              "text": "Desolations struck Thalath again and again, along with the rest of Roshar.",
+              "art": "event:desolation"
             }
           ]
         },
@@ -186,7 +189,7 @@
               "title": "The Last Desolation",
               "text": "About 4,500 years ago, the Last Desolation struck a world still weak from the Desolation before it. Weary of their torment, nine of the Heralds then refused to go back, leaving Taln to bear it alone.",
               "after": ["desolations"],
-              "art": "character:kalak"
+              "art": "ability:herald"
             }
           ]
         }
@@ -225,7 +228,8 @@
               ],
               "title": "The Desolations end",
               "text": "With no more Desolations to ravage it, Thalath could advance further than ever before.",
-              "after": ["last-desolation"]
+              "after": ["last-desolation"],
+              "art": "event:era-of-solitude"
             }
           ]
         },
@@ -237,7 +241,8 @@
               "revealedIn": [{ "all": ["way-of-kings", "oathbringer"] }],
               "title": "Thalath fades",
               "text": "At some point after the Last Desolation, Thalath collapsed. Much of its old land now lies abandoned and unclaimed, and Thaylenah holds part of the rest.",
-              "places": ["thaylenah"]
+              "places": ["thaylenah"],
+              "art": "place:thaylenah"
             }
           ]
         }

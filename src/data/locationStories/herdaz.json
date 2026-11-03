@@ -364,7 +364,8 @@
             {
               "revealedIn": [{ "book": "oathbringer", "chapter": "113" }],
               "title": "A land taken from the singers",
-              "text": "Before humans came to Roshar, singers lived in the land that became Herdaz. After humans settled in the far west, they spread across the continent by force and took this land too."
+              "text": "Before humans came to Roshar, singers lived in the land that became Herdaz. After humans settled in the far west, they spread across the continent by force and took this land too.",
+              "art": "lifeform:singer"
             }
           ]
         },
@@ -376,7 +377,8 @@
               "revealedIn": ["way-of-kings"],
               "title": "Part of Rishir",
               "text": "In the time of the Silver Kingdoms, this land belonged to the kingdom of Rishir, with the Reshi Isles and the north of what became Jah Keved, Alethkar and Tu Bayla.",
-              "places": ["rishir"]
+              "places": ["rishir"],
+              "art": "place:rishir"
             }
           ]
         },
@@ -387,7 +389,8 @@
             {
               "revealedIn": [{ "book": "dawnshard", "chapter": "13" }],
               "title": "A young nation",
-              "text": "Herdaz became a country of its own only after the scouring of Aimia, so it is a fairly young nation."
+              "text": "Herdaz became a country of its own only after the scouring of Aimia, so it is a fairly young nation.",
+              "art": "place:herdaz"
             }
           ]
         }
@@ -410,7 +413,8 @@
             {
               "revealedIn": [{ "book": "oathbringer", "chapter": "24" }],
               "title": "Conquered by the Sunmaker",
-              "text": "The warlord Sadees, the Sunmaker, took Herdaz early in his conquests. After his death his sons could not keep it."
+              "text": "The warlord Sadees, the Sunmaker, took Herdaz early in his conquests. After his death his sons could not keep it.",
+              "art": "ability:shardblade"
             }
           ]
         },
@@ -423,7 +427,8 @@
               "title": "Alethkar's first target",
               "text": "Ever since, Herdaz has been the usual first step whenever Alethkar sets out to conquer, and the two countries are bitter neighbours.",
               "places": ["alethkar"],
-              "after": ["sunmaker-conquest"]
+              "after": ["sunmaker-conquest"],
+              "art": "ability:shardblade"
             }
           ]
         }
@@ -452,7 +457,8 @@
             {
               "revealedIn": [{ "book": "oathbringer", "chapter": "52" }],
               "title": "A Reshi house takes the throne",
-              "text": "After Gavilar Kholin united Alethkar, a Reshi house came to power in Herdaz, and its new king tested the Alethi borders."
+              "text": "After Gavilar Kholin united Alethkar, a Reshi house came to power in Herdaz, and its new king tested the Alethi borders.",
+              "art": "place:reshi-isles"
             }
           ]
         },
@@ -505,7 +511,8 @@
                 }
               ],
               "title": "Many Herdazians leave",
-              "text": "Before the Desolation many Herdazians left the country; some came back now and then, others never did."
+              "text": "Before the Desolation many Herdazians left the country; some came back now and then, others never did.",
+              "art": "character:lopen"
             }
           ]
         },
@@ -523,7 +530,8 @@
                 }
               ],
               "title": "Through the Everstorm",
-              "text": "Herdaz came through the Everstorm with little damage. When Dalinar asked it to join his coalition, its leaders at first suspected a trick to invade them."
+              "text": "Herdaz came through the Everstorm with little damage. When Dalinar asked it to join his coalition, its leaders at first suspected a trick to invade them.",
+              "art": "character:dalinar-kholin"
             }
           ]
         },
@@ -535,7 +543,8 @@
               "revealedIn": [{ "book": "oathbringer", "chapter": "i-10" }],
               "title": "Alethi armies cross the border",
               "text": "Alethi armies that had fought the singers' advance in their own country were soon forced over the border into Herdaz.",
-              "places": ["alethkar"]
+              "places": ["alethkar"],
+              "art": "event:war-of-reckoning"
             }
           ]
         },
@@ -547,7 +556,8 @@
               "revealedIn": [{ "book": "rhythm-of-war", "chapter": "1" }],
               "title": "Herdaz falls",
               "text": "The Herdazian army held off the Fused for many months before the country fell.",
-              "after": ["alethi-retreat"]
+              "after": ["alethi-retreat"],
+              "art": "place:herdaz"
             }
           ]
         }
@@ -574,7 +584,8 @@
               "revealedIn": [{ "book": "wind-and-truth", "chapter": "21" }],
               "title": "The occupiers move on",
               "text": "Once Herdaz was taken, the Fused moved most of their troops elsewhere.",
-              "after": ["fall"]
+              "after": ["fall"],
+              "art": "ability:fused"
             }
           ]
         },

@@ -451,7 +451,8 @@
             {
               "revealedIn": [{ "book": "oathbringer", "chapter": "113" }],
               "title": "A land taken from the singers",
-              "text": "Before humans came to Roshar, singers lived in the land that became Azir. Some time after the first humans settled in the far west, they invaded, slaughtered or drove out the singers and took the land. The memory was lost until the Eila Stele was found."
+              "text": "Before humans came to Roshar, singers lived in the land that became Azir. Some time after the first humans settled in the far west, they invaded, slaughtered or drove out the singers and took the land. The memory was lost until the Eila Stele was found.",
+              "art": "lifeform:singer"
             }
           ]
         },
@@ -490,7 +491,8 @@
                 }
               ],
               "title": "Thrown back by the Desolations",
-              "text": "Each Desolation left the people here with little more than stone tools. When the Heralds returned, they helped them climb back, at times as far as working bronze."
+              "text": "Each Desolation left the people here with little more than stone tools. When the Heralds returned, they helped them climb back, at times as far as working bronze.",
+              "art": "event:desolation"
             }
           ]
         },
@@ -502,7 +504,8 @@
               "revealedIn": [{ "book": "oathbringer", "chapter": "103" }],
               "title": "War with Alethela",
               "text": "Under Nohadon, Alethela went to war with Makabakam over trade routes. What the war did to either kingdom is not known.",
-              "places": ["alethela", "makabakam"]
+              "places": ["alethela", "makabakam"],
+              "art": "character:nohadon"
             }
           ]
         },
@@ -514,7 +517,8 @@
               "revealedIn": ["oathbringer"],
               "title": "Many states",
               "text": "Where Makabakam once lay, today's maps show the many separate states of Makabak, Azir among them.",
-              "places": ["makabakam", "makabak"]
+              "places": ["makabakam", "makabak"],
+              "art": "place:azir"
             }
           ]
         }
@@ -532,7 +536,8 @@
             {
               "revealedIn": ["sunlit-man"],
               "title": "The Tagarut",
-              "text": "Azish legends tell of the Tagarut, invaders who tried again and again to conquer the land and were beaten back each time. The tales come from an age with few clear records."
+              "text": "Azish legends tell of the Tagarut, invaders who tried again and again to conquer the land and were beaten back each time. The tales come from an age with few clear records.",
+              "art": "place:azir"
             }
           ]
         },
@@ -543,7 +548,8 @@
             {
               "revealedIn": ["sunlit-man"],
               "title": "The Ulutu Dynasty",
-              "text": "Legends also tell of the Ulutu Dynasty, said to have lasted at least fifteen emperors. No one knows whether it really existed."
+              "text": "Legends also tell of the Ulutu Dynasty, said to have lasted at least fifteen emperors. No one knows whether it really existed.",
+              "art": "place:azir"
             }
           ]
         },
@@ -554,7 +560,8 @@
             {
               "revealedIn": [{ "book": "wind-and-truth", "chapter": "61" }],
               "title": "Slavery outlawed",
-              "text": "When is unknown, but an Azish ruler remembered as Kasaakam the Magnanimous once ended slavery by imperial decree."
+              "text": "When is unknown, but an Azish ruler remembered as Kasaakam the Magnanimous once ended slavery by imperial decree.",
+              "art": "place:azimir"
             }
           ]
         }
@@ -584,7 +591,8 @@
               "revealedIn": [{ "book": "oathbringer", "chapter": "42" }],
               "title": "Conquered by the Sunmaker",
               "text": "The Alethi warlord Sadees, the Sunmaker, conquered Azir in the seventh century, while Snoxil was Prime Aqasix. The occupation was savage: up to a tenth of the people died, with daily execution quotas in some places and men killed for the length of their hair in others.",
-              "places": ["alethkar"]
+              "places": ["alethkar"],
+              "art": "place:azimir"
             },
             {
               "revealedIn": [{ "book": "oathbringer", "chapter": "65" }],
@@ -600,7 +608,8 @@
               "revealedIn": [{ "book": "oathbringer", "chapter": "42" }],
               "title": "Independence regained",
               "text": "When Sadees died, his sons split his kingdom. With no single ruler it was stretched too thin to keep Azir, and the Azish won back their freedom.",
-              "after": ["sunmaker-conquest"]
+              "after": ["sunmaker-conquest"],
+              "art": "place:azir"
             }
           ]
         }
@@ -628,7 +637,8 @@
               "title": "Leader of Makabak",
               "text": "Over the centuries, Azir became the cultural and political heart of Makabak. Many neighbouring nations became its client states, forming the Azish Empire, a loose union whose Prime Aqasix speaks for all of them abroad.",
               "places": ["makabak"],
-              "after": ["independence"]
+              "after": ["independence"],
+              "art": "place:azir"
             }
           ]
         },
@@ -639,7 +649,8 @@
             {
               "revealedIn": [{ "book": "wind-and-truth", "chapter": "127" }],
               "title": "The Dusqqa Dynasty falls",
-              "text": "The Dusqqa Dynasty fell around 875, and a scramble for power followed. One family moved to found a new imperial seat elsewhere, but the imperial judges decided that whoever held the throne room ruled by right."
+              "text": "The Dusqqa Dynasty fell around 875, and a scramble for power followed. One family moved to found a new imperial seat elsewhere, but the imperial judges decided that whoever held the throne room ruled by right.",
+              "art": "place:azimir"
             }
           ]
         }
@@ -668,7 +679,8 @@
             {
               "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-9" }],
               "title": "Two Primes assassinated",
-              "text": "Two Primes in a row died at the hands of the Assassin in White. After that no candidate wanted the throne, and the empire was left without a ruler."
+              "text": "Two Primes in a row died at the hands of the Assassin in White. After that no candidate wanted the throne, and the empire was left without a ruler.",
+              "art": "character:szeth"
             }
           ]
         },
@@ -721,7 +733,8 @@
             {
               "revealedIn": [{ "book": "oathbringer", "chapter": "12" }],
               "title": "The parshmen sue",
-              "text": "When the Everstorm came, Azir's parshmen awoke. Rather than fight, they took a lesson from their old masters and sued the government for back pay. The Azish kept talking with no plan to give in, buying time to fortify their cities."
+              "text": "When the Everstorm came, Azir's parshmen awoke. Rather than fight, they took a lesson from their old masters and sued the government for back pay. The Azish kept talking with no plan to give in, buying time to fortify their cities.",
+              "art": "place:azimir"
             }
           ]
         },
@@ -733,7 +746,8 @@
               "revealedIn": [{ "book": "oathbringer", "chapter": "28" }],
               "title": "A closed Oathgate",
               "text": "Dalinar Kholin, gathering a coalition at Urithiru, was in contact with Azimir. Remembering the Sunmaker, the Azish would not unlock their Oathgate or let Alethi armies in, and even planned to destroy the gate.",
-              "places": ["urithiru"]
+              "places": ["urithiru"],
+              "art": "place:azimir"
             }
           ]
         },
@@ -764,7 +778,8 @@
               "revealedIn": [{ "book": "oathbringer", "chapter": "107" }],
               "title": "Joining the coalition",
               "text": "When their talks with the singers came to nothing, the Azish gave way, agreed to Dalinar's terms and joined his coalition.",
-              "after": ["closed-gate", "dalinar-visit"]
+              "after": ["closed-gate", "dalinar-visit"],
+              "art": "character:yanagawn"
             }
           ]
         },
@@ -777,7 +792,8 @@
               "title": "Pulling back from Thaylen City",
               "text": "Expecting the enemy to strike Jah Keved, the Azish promised five battalions there, then moved their fleet near Thaylen City once it proved the real target. After the Eila Stele was translated they pulled out, ships and all. Seeing Alethi troops attack the Thaylens, not knowing these were Amaram's men in the grip of the Thrill, only hardened their resolve.",
               "places": ["jah-keved", "thaylen-city"],
-              "after": ["joins-coalition"]
+              "after": ["joins-coalition"],
+              "art": "character:meridas-amaram"
             }
           ]
         }
@@ -804,7 +820,8 @@
               "revealedIn": [{ "book": "oathbringer", "chapter": "122" }],
               "title": "Terms for coming back",
               "text": "After the battle, Dalinar told the Azish by spanreed what had really happened. They offered to renegotiate their place in the alliance if he could prove he controlled his troops.",
-              "after": ["thaylen-withdrawal"]
+              "after": ["thaylen-withdrawal"],
+              "art": "character:dalinar-kholin"
             }
           ]
         },
@@ -817,7 +834,8 @@
               "title": "The war in Emul",
               "text": "A year after Thaylen Field, Azish armies advised by Alethi strategists had won back ground in northern Emul. Dalinar then opened a major offensive there, bringing Alethi battalions, Windrunners and Veden troops through the Oathgate. When the Veden troops went over to Odium, the Alethi and Azish together defeated them.",
               "places": ["emul", "jah-keved"],
-              "after": ["renegotiate"]
+              "after": ["renegotiate"],
+              "art": "place:emul"
             }
           ]
         }
@@ -845,7 +863,8 @@
               "revealedIn": [{ "book": "wind-and-truth", "chapter": "76" }],
               "title": "Emul and Tashikk turn",
               "text": "Several member states, Emul and Tashikk among them, formally left the empire and sided with Odium. They attacked the army sent to relieve Azimir, so the capital's defenders never got the help they were counting on.",
-              "places": ["emul", "tashikk"]
+              "places": ["emul", "tashikk"],
+              "art": "place:emul"
             }
           ]
         },
@@ -870,7 +889,8 @@
             {
               "revealedIn": [{ "book": "wind-and-truth", "chapter": "147" }],
               "title": "The Night of Sorrows",
-              "text": "The Night of Sorrows kept Azir in darkness for about a month. Then Retribution kept his word and drew the storm back from Azir's skies."
+              "text": "The Night of Sorrows kept Azir in darkness for about a month. Then Retribution kept his word and drew the storm back from Azir's skies.",
+              "art": "place:azir"
             }
           ]
         }

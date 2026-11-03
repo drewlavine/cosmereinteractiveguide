@@ -157,7 +157,8 @@
             {
               "revealedIn": [{ "book": "oathbringer", "chapter": "113" }],
               "title": "A land of singers",
-              "text": "Singers lived in the land that became Sela Tales before humans came to Roshar."
+              "text": "Singers lived in the land that became Sela Tales before humans came to Roshar.",
+              "art": "lifeform:singer"
             },
             {
               "revealedIn": [
@@ -217,7 +218,8 @@
                 }
               ],
               "title": "Sela Tales is founded",
-              "text": "Sela Tales was founded in the age of the Silver Kingdoms. Each Desolation threw its people back, sometimes as far as stone tools, and each time the returning Heralds, Kalak among them, helped them rise again."
+              "text": "Sela Tales was founded in the age of the Silver Kingdoms. Each Desolation threw its people back, sometimes as far as stone tools, and each time the returning Heralds, Kalak among them, helped them rise again.",
+              "art": "place:sela-tales"
             }
           ]
         },
@@ -230,7 +232,8 @@
               "title": "Panatham becomes the capital",
               "text": "Early on, Panatham was founded as the capital of Sela Tales, and in time it also housed the kingdom's Oathgate.",
               "places": ["panatham", "urithiru"],
-              "after": ["founding"]
+              "after": ["founding"],
+              "art": "place:sela-tales"
             }
           ]
         },
@@ -263,7 +266,7 @@
               "title": "The Last Desolation",
               "text": "About 4,500 years ago, the Last Desolation struck a world still weak from the Desolation before it. Weary of their torment, nine of the Heralds then refused to go back, leaving Taln to bear it alone.",
               "after": ["desolations"],
-              "art": "character:kalak"
+              "art": "ability:herald"
             }
           ]
         }
@@ -307,7 +310,8 @@
               ],
               "title": "The Desolations end",
               "text": "With no more Desolations to ravage it, Sela Tales could advance further than ever before.",
-              "after": ["last-desolation"]
+              "after": ["last-desolation"],
+              "art": "event:era-of-solitude"
             }
           ]
         },
@@ -326,7 +330,8 @@
               ],
               "title": "Sela Tales breaks apart",
               "text": "At some point after the Last Desolation, Sela Tales collapsed into several kingdoms, leaving places like the Purelake with no rulers at all. The region kept the old name and its peoples are still called Selay, and after the Recreance they gained several Shardblades and sets of Shardplate.",
-              "places": ["purelake"]
+              "places": ["purelake"],
+              "art": "place:purelake"
             }
           ]
         }

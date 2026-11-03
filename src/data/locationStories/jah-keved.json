@@ -630,7 +630,8 @@
             {
               "revealedIn": [{ "book": "oathbringer", "chapter": "113" }],
               "title": "A land taken from the singers",
-              "text": "Singers lived in the land that became Jah Keved before humans came to Roshar. In time the newcomers turned on them and took this land, among others, by force."
+              "text": "Singers lived in the land that became Jah Keved before humans came to Roshar. In time the newcomers turned on them and took this land, among others, by force.",
+              "art": "lifeform:singer"
             }
           ]
         },
@@ -642,7 +643,8 @@
               "revealedIn": [{ "all": ["way-of-kings", "oathbringer"] }],
               "title": "Part of Valhav",
               "text": "In the age of the Silver Kingdoms, this land belonged to the kingdom of Valhav. Tu Bayla and Triax have since broken away, but Jah Keved still holds most of Valhav's lands, including Vedenar and its Oathgate, and has added much of mainland Rishir and part of western Alethkar.",
-              "places": ["valhav", "tu-bayla", "triax", "rishir"]
+              "places": ["valhav", "tu-bayla", "triax", "rishir"],
+              "art": "place:valhav"
             }
           ]
         }
@@ -669,7 +671,8 @@
               "revealedIn": [{ "book": "oathbringer", "chapter": "53" }],
               "title": "A king who killed his kin",
               "text": "The scholar Natata Ved wrote of King NanHar, who died invading the lands that became Triax. His brother NanKhet took the throne and survived six attempts on his life by his own family, then invited his whole household to a feast and killed them all.",
-              "places": ["triax"]
+              "places": ["triax"],
+              "art": "place:vedenar"
             }
           ]
         },
@@ -681,7 +684,8 @@
               "revealedIn": [{ "book": "oathbringer", "chapter": "53" }],
               "title": "The Siln dynasty",
               "text": "NanKhet ruled for only three months. After his death the Siln dynasty took the throne in place of his family.",
-              "after": ["nankhet"]
+              "after": ["nankhet"],
+              "art": "place:vedenar"
             }
           ]
         },
@@ -693,7 +697,8 @@
               "revealedIn": [{ "book": "wind-and-truth", "chapter": "61" }],
               "title": "The Bav uprising",
               "text": "In 637 the Bav rose against Veden rule. The revolt largely succeeded, and some of Jah Keved's slaves were raised to a higher nahn as a result.",
-              "places": ["bavland"]
+              "places": ["bavland"],
+              "art": "place:bavland"
             }
           ]
         }
@@ -739,7 +744,8 @@
               ],
               "title": "Under the Hierocracy",
               "text": "Jah Keved lay within the Hierocracy, a wide Vorin realm that also took in the lands that became Alethkar, Kharbranth and Thaylenah. The larger it grew, the harder it was to hold together.",
-              "places": ["alethkar", "kharbranth", "thaylenah"]
+              "places": ["alethkar", "kharbranth", "thaylenah"],
+              "art": "culture:hierocracy"
             }
           ]
         },
@@ -753,7 +759,8 @@
               "title": "The War of Loss",
               "text": "An Alethi warlord called the Sunmaker rose against the Hierocracy with his kingdom behind him and overthrew it in the War of Loss. The fighting and the chaos that came after left many cities sacked.",
               "places": ["alethkar"],
-              "after": ["hierocracy"]
+              "after": ["hierocracy"],
+              "art": "event:war-of-loss"
             }
           ]
         },
@@ -764,7 +771,8 @@
             {
               "revealedIn": [{ "book": "way-of-kings", "chapter": "36" }],
               "title": "The church remade",
-              "text": "After the Hierocracy fell, the church was reordered so that no new Hierocracy could arise."
+              "text": "After the Hierocracy fell, the church was reordered so that no new Hierocracy could arise.",
+              "art": "culture:vorinism"
             },
             {
               "revealedIn": [
@@ -789,7 +797,8 @@
               "title": "Conquered by the Sunmaker",
               "text": "Next the Sunmaker turned on the rest of Roshar. After taking Herdaz, he conquered Jah Keved, cutting his way through it all the way to Azir.",
               "places": ["herdaz", "azir"],
-              "after": ["war-of-loss"]
+              "after": ["war-of-loss"],
+              "art": "place:vedenar"
             }
           ]
         },
@@ -801,7 +810,8 @@
               "revealedIn": [{ "book": "oathbringer", "chapter": "19" }],
               "title": "Free again",
               "text": "When the Sunmaker died, his ten sons failed to settle on one heir and divided his kingdom into ten princedoms. With no central government left, the lands he had occupied, Jah Keved among them, regained their independence.",
-              "after": ["sunmaker-conquest"]
+              "after": ["sunmaker-conquest"],
+              "art": "place:vedenar"
             }
           ]
         }
@@ -834,7 +844,8 @@
             {
               "revealedIn": [{ "book": "words-of-radiance", "chapter": "73" }],
               "title": "A crown that holds the Soulcasters",
-              "text": "Kings have long ruled Jah Keved, powerful but not absolute. The crown keeps the highprinces in hand chiefly by owning every Soulcaster."
+              "text": "Kings have long ruled Jah Keved, powerful but not absolute. The crown keeps the highprinces in hand chiefly by owning every Soulcaster.",
+              "art": "ability:soulcasting"
             },
             {
               "revealedIn": [
@@ -856,7 +867,8 @@
             {
               "revealedIn": [{ "book": "way-of-kings", "chapter": "52" }],
               "title": "Rich in Shards",
-              "text": "Jah Keved owns a wealth of Shards: some twenty Blades, plus Plate in numbers unknown. Only Alethkar can match it."
+              "text": "Jah Keved owns a wealth of Shards: some twenty Blades, plus Plate in numbers unknown. Only Alethkar can match it.",
+              "art": "ability:shardblade"
             }
           ]
         },
@@ -875,7 +887,8 @@
               ],
               "title": "Border wars with Alethkar",
               "text": "The two neighbours have fought a long run of small wars over disputed land, usually waged by single highprinces on each side. At one point King Hanavanar took a hand himself and launched a modest incursion to probe Alethkar's defences.",
-              "places": ["alethkar"]
+              "places": ["alethkar"],
+              "art": "place:vedenar"
             }
           ]
         },
@@ -934,7 +947,8 @@
               "title": "War for the throne",
               "text": "The king's death set off a civil war that lasted a few months as rivals fought for the crown. It ended in a battle at Vedenar, won by Highprince Valam.",
               "places": ["vedenar"],
-              "after": ["assassination"]
+              "after": ["assassination"],
+              "art": "place:vedenar"
             },
             {
               "revealedIn": [
@@ -1007,7 +1021,8 @@
               "revealedIn": [{ "book": "oathbringer", "chapter": "12" }],
               "title": "Answering Dalinar's call",
               "text": "When Dalinar Kholin called on the monarchs to unite against the Desolation, Taravangian, now king of both Jah Keved and Kharbranth, agreed to his plan at once.",
-              "places": ["urithiru", "kharbranth"]
+              "places": ["urithiru", "kharbranth"],
+              "art": "character:taravangian"
             }
           ]
         },
@@ -1020,7 +1035,8 @@
               "title": "Allies pledge troops",
               "text": "With Alethkar overrun by the singers, Jah Keved looked like their next target, and other kingdoms of the coalition pledged troops to defend it.",
               "places": ["alethkar"],
-              "after": ["joins-dalinar"]
+              "after": ["joins-dalinar"],
+              "art": "place:vedenar"
             }
           ]
         },
@@ -1032,7 +1048,8 @@
               "revealedIn": [{ "book": "oathbringer", "chapter": "113" }],
               "title": "Leaving the coalition",
               "text": "Jah Keved and Kharbranth had been the first kingdoms to ally with Urithiru. After the Eila Stele's revelations, Taravangian broke with Dalinar and took Jah Keved out of the alliance.",
-              "after": ["aid"]
+              "after": ["aid"],
+              "art": "character:taravangian"
             }
           ]
         },
@@ -1051,7 +1068,8 @@
               ],
               "title": "Jah Keved turns on the coalition",
               "text": "Taravangian had made a pact with the enemy, though Jah Keved was not part of his bargain. After the battle of Thaylen Field he quietly readied the country to change sides, promoting people the enemy could control and placing his troops to betray Dalinar. At his signal, the Veden armies abandoned the coalition and went over to the enemy.",
-              "after": ["breaks-away"]
+              "after": ["breaks-away"],
+              "art": "character:taravangian"
             }
           ]
         }

@@ -263,7 +263,8 @@
             {
               "revealedIn": ["way-of-kings"],
               "title": "A Silver Kingdom",
-              "text": "In the Heraldic Epochs, Natanatan counted among the Silver Kingdoms of Roshar."
+              "text": "In the Heraldic Epochs, Natanatan counted among the Silver Kingdoms of Roshar.",
+              "art": "place:silver-kingdoms"
             },
             {
               "revealedIn": [
@@ -275,7 +276,8 @@
                 }
               ],
               "text": "In the Heraldic Epochs, Natanatan counted among the Silver Kingdoms, covering the southeast corner of Roshar. It was ruled from Stormseat, a city with an Oathgate.",
-              "places": ["stormseat"]
+              "places": ["stormseat"],
+              "art": "place:stormseat"
             },
             {
               "revealedIn": [
@@ -328,7 +330,8 @@
               ],
               "title": "Stormseat is lost",
               "text": "Stormseat is thought to have been destroyed in a Desolation thousands of years ago, but Vorin tradition holds that Natanatan lived on without its capital.",
-              "places": ["stormseat"]
+              "places": ["stormseat"],
+              "art": "place:stormseat"
             }
           ]
         },
@@ -348,7 +351,8 @@
               ],
               "title": "One of five Vorin kingdoms",
               "text": "After the Recreance Natanatan allied with Alethkar, Jah Keved, Kharbranth and Thaylenah; together they were known as the five Vorin kingdoms.",
-              "places": ["thaylenah", "alethkar", "jah-keved", "kharbranth"]
+              "places": ["thaylenah", "alethkar", "jah-keved", "kharbranth"],
+              "art": "culture:vorinism"
             }
           ]
         },
@@ -368,7 +372,8 @@
               ],
               "title": "The kingdom falls",
               "text": "Despite that alliance, Natanatan fell several hundred years ago. How it fell is not known.",
-              "after": ["five-kingdoms"]
+              "after": ["five-kingdoms"],
+              "art": "place:stormseat"
             }
           ]
         }
@@ -394,7 +399,8 @@
             {
               "revealedIn": [{ "book": "oathbringer", "chapter": "i-1" }],
               "title": "A lighthouse keeper's grandfather",
-              "text": "When the Everstorm came, Puuli, a Natan lighthouse keeper, wondered if this was the time his grandfather had warned of: a time of change, when men from a hidden island of the Origin would at last come to take back Natanatan."
+              "text": "When the Everstorm came, Puuli, a Natan lighthouse keeper, wondered if this was the time his grandfather had warned of: a time of change, when men from a hidden island of the Origin would at last come to take back Natanatan.",
+              "art": "character:puuli"
             }
           ]
         },
@@ -406,7 +412,8 @@
               "revealedIn": [{ "book": "oathbringer", "chapter": "122" }],
               "title": "New Natanan carries on",
               "text": "The city-state of New Natanan, on Roshar's far eastern coast, is all that is left of the Natan government, with a few smaller settlements as its protectorates. It took part in Dalinar's talks at Urithiru on an alliance against the Voidbringers, but the Natans care most about winning back their homeland and its Oathgate.",
-              "places": ["new-natanan", "urithiru"]
+              "places": ["new-natanan", "urithiru"],
+              "art": "place:new-natanan"
             }
           ]
         }

@@ -65,7 +65,8 @@
             {
               "revealedIn": ["way-of-kings"],
               "title": "Part of Makabakam",
-              "text": "In the age of the Silver Kingdoms, Steen's lands belonged to Makabakam."
+              "text": "In the age of the Silver Kingdoms, Steen's lands belonged to Makabakam.",
+              "art": "place:silver-kingdoms"
             }
           ]
         }
@@ -117,7 +118,8 @@
               "revealedIn": [{ "book": "oathbringer", "chapter": "65" }],
               "title": "Left out of the talks",
               "text": "When Makabaki envoys were invited to talks at Urithiru, Noura of Azir hinted that Steen should not be among them.",
-              "places": ["urithiru", "azir"]
+              "places": ["urithiru", "azir"],
+              "art": "place:steen"
             }
           ]
         },
@@ -129,7 +131,8 @@
               "revealedIn": [{ "book": "oathbringer", "chapter": "111" }],
               "title": "Word of the Everstorm",
               "text": "At a meeting in Urithiru, a report from Steen confirmed that the early Everstorm Shinovar had warned of had passed, and that it was faster and more violent than the storms before it.",
-              "places": ["urithiru", "shinovar"]
+              "places": ["urithiru", "shinovar"],
+              "art": "place:steen"
             }
           ]
         }

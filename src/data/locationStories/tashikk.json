@@ -251,7 +251,8 @@
               "revealedIn": [{ "book": "rhythm-of-war", "chapter": "111" }],
               "title": "Part of Makabakam",
               "text": "In the age of the Silver Kingdoms, Tashikk belonged to Makabakam, settled by people who spread out across Roshar from Shinovar.",
-              "places": ["makabakam", "shinovar"]
+              "places": ["makabakam", "shinovar"],
+              "art": "place:makabakam"
             }
           ]
         },
@@ -269,7 +270,8 @@
                 }
               ],
               "title": "Thrown back by the Desolations",
-              "text": "Each Desolation left the people here with little more than stone tools. When the Heralds returned, they helped them climb back, at times as far as working bronze."
+              "text": "Each Desolation left the people here with little more than stone tools. When the Heralds returned, they helped them climb back, at times as far as working bronze.",
+              "art": "event:desolation"
             }
           ]
         }
@@ -296,7 +298,8 @@
               "revealedIn": [{ "book": "oathbringer", "chapter": "122" }],
               "title": "Joining the Azish Empire",
               "text": "At some point Tashikk joined the Azish Empire as one of its member states.",
-              "places": ["azir"]
+              "places": ["azir"],
+              "art": "place:tashikk"
             }
           ]
         },
@@ -308,7 +311,8 @@
               "revealedIn": [{ "book": "edgedancer", "chapter": "2" }],
               "title": "Yeddaw is carved out",
               "text": "Around 1074, Yeddaw was cut down into the ground with the Azish Imperial Shardblades. It grew into one of Tashikk's leading cities.",
-              "places": ["yeddaw"]
+              "places": ["yeddaw"],
+              "art": "ability:shardblade"
             }
           ]
         }
@@ -336,7 +340,8 @@
             {
               "revealedIn": [{ "book": "oathbringer", "chapter": "87" }],
               "title": "Warning the world",
-              "text": "Dalinar Kholin used Tashikk's spanreed relay stations to send word of the Everstorm across the world."
+              "text": "Dalinar Kholin used Tashikk's spanreed relay stations to send word of the Everstorm across the world.",
+              "art": "ability:fabrial"
             }
           ]
         },
@@ -360,7 +365,8 @@
             {
               "revealedIn": [{ "book": "oathbringer", "chapter": "12" }],
               "title": "Waiting on Azir",
-              "text": "Dalinar asked the prince of Tashikk to join his coalition. The prince, who defers to the Prime Aqasix, would not commit until Azir had decided."
+              "text": "Dalinar asked the prince of Tashikk to join his coalition. The prince, who defers to the Prime Aqasix, would not commit until Azir had decided.",
+              "art": "place:yeddaw"
             },
             {
               "revealedIn": [{ "book": "oathbringer", "chapter": "96" }],
@@ -379,7 +385,8 @@
               "revealedIn": [{ "book": "oathbringer", "chapter": "122" }],
               "title": "The Eila Stele spreads",
               "text": "Taravangian used Tashikk to spread word of the Eila Stele, hoping to split the coalition. Azir left it in the aftermath; whether Tashikk did too is unknown.",
-              "after": ["joins-coalition"]
+              "after": ["joins-coalition"],
+              "art": "character:taravangian"
             }
           ]
         }
@@ -417,7 +424,8 @@
               ],
               "title": "Leaving the empire",
               "text": "Tashikk and Emul broke away from Azir and the Azish Empire and joined the forces of Odium.",
-              "places": ["emul", "azir"]
+              "places": ["emul", "azir"],
+              "art": "place:tashikk"
             }
           ]
         }

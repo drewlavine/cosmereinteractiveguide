@@ -372,7 +372,8 @@
               "revealedIn": [{ "book": "way-of-kings", "chapter": "46" }],
               "title": "The Palanaeum's caverns",
               "text": "The two great caverns of the Palanaeum are older than the city; the rooms that hold its books were cut once people had settled there. How the caverns were made is unknown, though some credit the Dawnsingers. A fire has since burned part of the collection.",
-              "places": ["palanaeum"]
+              "places": ["palanaeum"],
+              "art": "place:conclave"
             }
           ]
         },
@@ -383,7 +384,8 @@
             {
               "revealedIn": [{ "book": "way-of-kings", "chapter": "8" }],
               "title": "An ancient city",
-              "text": "Rumour has it that Kharbranth predates the Last Desolation, and one account even dates its founding to the shadowdays."
+              "text": "Rumour has it that Kharbranth predates the Last Desolation, and one account even dates its founding to the shadowdays.",
+              "art": "character:taravangian"
             }
           ]
         },
@@ -396,7 +398,8 @@
               "title": "Under the Hierocracy",
               "text": "Kharbranth belonged to the Hierocracy, a wide Vorin realm that also took in Jah Keved and the lands that became Alethkar and Thaylenah. After the Hierocracy fell in the War of Loss, Kharbranth kept close alliances with the other Vorin nations.",
               "places": ["jah-keved", "alethkar", "thaylenah"],
-              "after": ["ancient"]
+              "after": ["ancient"],
+              "art": "culture:hierocracy"
             }
           ]
         }
@@ -429,7 +432,8 @@
               "title": "A place for Kaladin",
               "text": "Lirin hoped his son Kaladin could train as a surgeon in Kharbranth once he turned sixteen, and kept a hoard of spheres to pay for it. When Roshone arrived in Hearthstone, Lirin wrote to the city's surgeons asking that Kaladin be allowed to take the entrance tests early; they said no.",
               "places": ["hearthstone"],
-              "after": ["lirin"]
+              "after": ["lirin"],
+              "art": "character:lirin"
             }
           ]
         }
@@ -475,7 +479,8 @@
                   ]
                 }
               ],
-              "text": "On the night he died, Gavilar Kholin told Taravangian of visions warning that the world must unite to survive the coming Desolation. Taravangian went to the Nightwatcher and begged for the power to save Roshar. On one day of towering intelligence he wrote the predictions that became the Diagram, followed in secret by a group of the same name. The gift had a curse: he could be brilliant or compassionate, but never both at once."
+              "text": "On the night he died, Gavilar Kholin told Taravangian of visions warning that the world must unite to survive the coming Desolation. Taravangian went to the Nightwatcher and begged for the power to save Roshar. On one day of towering intelligence he wrote the predictions that became the Diagram, followed in secret by a group of the same name. The gift had a curse: he could be brilliant or compassionate, but never both at once.",
+              "art": "culture:diagram"
             }
           ]
         },
@@ -486,7 +491,8 @@
             {
               "revealedIn": [{ "book": "way-of-kings", "chapter": "71" }],
               "title": "The secret hospital",
-              "text": "The king kept a secret hospital where dying patients were slowly bled so that the words they spoke as they died could be written down. He believed those words might hold the key to saving everyone."
+              "text": "The king kept a secret hospital where dying patients were slowly bled so that the words they spoke as they died could be written down. He believed those words might hold the key to saving everyone.",
+              "art": "place:conclave"
             },
             {
               "revealedIn": [
@@ -572,7 +578,8 @@
               "revealedIn": [{ "book": "way-of-kings", "chapter": "36" }],
               "title": "The alley",
               "text": "One night Jasnah took Shallan down a street near the theatre district where robbers had been killing people, and when four men attacked she Soulcast them all. Back at the Conclave, Shallan swapped her broken Soulcaster for Jasnah's.",
-              "after": ["ward"]
+              "after": ["ward"],
+              "art": "ability:soulcasting"
             }
           ]
         },
@@ -584,7 +591,8 @@
               "revealedIn": [{ "book": "way-of-kings", "chapter": "48" }],
               "title": "Poisoned bread",
               "text": "When a goblet turned to blood in her hands, Shallan cut her own arm to hide it and was taken to a hospital. There the ardent Kabsal offered bread poisoned to kill Jasnah. Shallan ate it, and Jasnah saved her by Soulcasting her blood, finding out about the stolen Soulcaster.",
-              "after": ["alley"]
+              "after": ["alley"],
+              "art": "character:kabsal"
             }
           ]
         },
@@ -604,7 +612,8 @@
               "title": "Leaving Kharbranth",
               "text": "Jasnah forgave Shallan and took her back as her ward, and the two sailed from Kharbranth for the Shattered Plains on the Wind's Pleasure.",
               "places": ["shattered-plains"],
-              "after": ["poison"]
+              "after": ["poison"],
+              "art": "character:jasnah-kholin"
             }
           ]
         }
@@ -647,7 +656,8 @@
               "title": "King of Jah Keved",
               "text": "Taravangian had a hand in starting Jah Keved's civil war, then sent food, medicine and healers to tend the wounded of every side. As the war ended, the dying King Valam named him heir, making him king of Jah Keved as well.",
               "places": ["jah-keved", "vedenar"],
-              "after": ["szeth-list"]
+              "after": ["szeth-list"],
+              "art": "character:taravangian"
             }
           ]
         }
@@ -680,7 +690,8 @@
               "revealedIn": [{ "book": "oathbringer", "chapter": "12" }],
               "title": "Answering Dalinar",
               "text": "When Dalinar Kholin asked the rulers of Roshar for help against the Voidbringers, Taravangian alone agreed at once, bringing Kharbranth and Jah Keved into alliance with Alethkar.",
-              "places": ["alethkar", "jah-keved"]
+              "places": ["alethkar", "jah-keved"],
+              "art": "character:taravangian"
             },
             {
               "revealedIn": [{ "book": "oathbringer", "chapter": "24" }],
@@ -705,7 +716,8 @@
               "title": "Playing both sides",
               "text": "The alliance gave Taravangian and the Diagram a way into Urithiru and into how the coalition was run. They spied on its members and spread false stories to split it, and before Thaylen Field they secretly leaked Dalinar's meeting with Odium, the highking proposal and the Eila Stele translation. During that battle Malata quietly unlocked the Kholinar Oathgate, hindering the coalition's troop movements.",
               "places": ["urithiru", "kholinar", "thaylen-city"],
-              "after": ["joins-dalinar"]
+              "after": ["joins-dalinar"],
+              "art": "character:malata"
             }
           ]
         },
@@ -717,7 +729,8 @@
               "revealedIn": [{ "book": "oathbringer", "chapter": "122" }],
               "title": "Taravangian's confession",
               "text": "After the battle, Taravangian confessed to Dalinar that Szeth's killings across Roshar had been Kharbranth's doing. He had gone looking for the assassin after an ardent called Dova, who he believed was the Herald Battah'Elin, warned him that a Desolation was near.",
-              "after": ["both-sides"]
+              "after": ["both-sides"],
+              "art": "character:taravangian"
             }
           ]
         },
@@ -736,7 +749,8 @@
               ],
               "title": "A bargain with Odium",
               "text": "During the Everstorm, Taravangian struck a deal with Odium: the Diagram's loyalty in return for sparing Kharbranth and its people in the war ahead.",
-              "after": ["confession"]
+              "after": ["confession"],
+              "art": "character:taravangian"
             }
           ]
         },
@@ -748,7 +762,8 @@
               "revealedIn": [{ "book": "oathbringer", "chapter": "122" }],
               "title": "Kaladin passes through",
               "text": "On his way to Alethkar, Kaladin stopped for a night in Kharbranth and drew infused gemstones from the royal treasury for the journey.",
-              "places": ["alethkar"]
+              "places": ["alethkar"],
+              "art": "character:kaladin"
             }
           ]
         }
@@ -798,7 +813,8 @@
                 }
               ],
               "title": "The Diagram disbanded",
-              "text": "Kharbranth stayed in the coalition but often argued against its battle plans, while Taravangian's inner circle drifted home to Kharbranth at his request. Ready to turn on the coalition, he disbanded the Diagram and had its work in the city taken apart, so that the city would not be punished for his betrayal."
+              "text": "Kharbranth stayed in the coalition but often argued against its battle plans, while Taravangian's inner circle drifted home to Kharbranth at his request. Ready to turn on the coalition, he disbanded the Diagram and had its work in the city taken apart, so that the city would not be punished for his betrayal.",
+              "art": "character:taravangian"
             },
             {
               "revealedIn": [
@@ -823,7 +839,8 @@
               "title": "The betrayal at Emul",
               "text": "In Emul, Taravangian sent the order for his armies to turn on the coalition, and within minutes he was arrested.",
               "places": ["emul", "jah-keved"],
-              "after": ["disbanded"]
+              "after": ["disbanded"],
+              "art": "character:taravangian"
             },
             {
               "revealedIn": [{ "book": "rhythm-of-war", "chapter": "66" }],
@@ -847,7 +864,8 @@
               ],
               "title": "Queen Savrahalidem",
               "text": "Taravangian's daughter Savrahalidem, whom he had kept out of the Diagram so she would share none of the blame, became queen. She condemned her father, pulled Kharbranth out of every alliance and declared it neutral, going back to healing anyone in need. Dalinar blockaded the city's waters but would not risk a costly attack on land.",
-              "after": ["emul"]
+              "after": ["emul"],
+              "art": "place:kharbranth"
             }
           ]
         }
@@ -873,7 +891,8 @@
             {
               "revealedIn": [{ "book": "wind-and-truth", "chapter": "i-12" }],
               "title": "Swept away",
-              "text": "Cultivation sent agents into Kharbranth and threatened to kill Taravangian's family unless he made peace with the coalition. To prove he could not be cowed, he called up a huge tidal wave that wiped out the city."
+              "text": "Cultivation sent agents into Kharbranth and threatened to kill Taravangian's family unless he made peace with the coalition. To prove he could not be cowed, he called up a huge tidal wave that wiped out the city.",
+              "art": "character:taravangian"
             }
           ]
         },
@@ -885,7 +904,8 @@
               "revealedIn": [{ "book": "wind-and-truth", "chapter": "147" }],
               "title": "A city kept safe",
               "text": "While Cultivation looked away, Retribution had quietly moved Kharbranth's people into a copy of the city he made in the Spiritual Realm, taking away their memories of its destruction.",
-              "after": ["tidal-wave"]
+              "after": ["tidal-wave"],
+              "art": "place:kharbranth"
             }
           ]
         }

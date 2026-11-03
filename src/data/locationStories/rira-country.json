@@ -217,7 +217,8 @@
               "revealedIn": [{ "book": "oathbringer", "chapter": "16" }],
               "title": "A disputed vassal",
               "text": "Iri held that Rira was its vassal, but the claim was contested, and other nations treated Rira as a sovereign kingdom.",
-              "places": ["iri"]
+              "places": ["iri"],
+              "art": "place:rira-country"
             },
             {
               "revealedIn": [{ "all": ["way-of-kings", "oathbringer"] }],
@@ -234,7 +235,8 @@
               "revealedIn": [{ "all": ["way-of-kings", "oathbringer"] }],
               "title": "Kurth and the south",
               "text": "Old maps show the island city of Kurth under the Silver Kingdom of Rishir, and part of Rira's south belonging to Sela Tales. Rira has since taken both.",
-              "places": ["sela-tales"]
+              "places": ["sela-tales"],
+              "art": "place:kurth"
             }
           ]
         }
@@ -291,7 +293,8 @@
               "title": "No answer for Dalinar",
               "text": "Rira's government never replied to Dalinar's call for an alliance against the Voidbringers, and Iri claimed to speak for it, calling Dalinar a thief over Evi's Plate. Dalinar thought about giving Iri the Plate, now worn by Adolin, to win it over, but the talks soon collapsed.",
               "places": ["iri"],
-              "after": ["evi-plate"]
+              "after": ["evi-plate"],
+              "art": "place:rira-country"
             }
           ]
         },
@@ -304,7 +307,8 @@
               "title": "Taken by Iri",
               "text": "As the war went on, the Iriali invaded and occupied Rira, which became part of Odium's stronghold in the northwest, its armies fighting the coalition. The Oathgate at Kurth made it valuable, but it lay too deep in enemy country for the coalition to try for it.",
               "places": ["iri"],
-              "after": ["own-kingdom"]
+              "after": ["own-kingdom"],
+              "art": "place:iri"
             }
           ]
         }

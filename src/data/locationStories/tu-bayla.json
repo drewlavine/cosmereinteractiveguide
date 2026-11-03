@@ -179,7 +179,8 @@
               "revealedIn": ["way-of-kings"],
               "title": "Carved from two kingdoms",
               "text": "Tu Bayla took shape from parts of Sela Tales and Valhav after those Silver Kingdoms collapsed, though it is unclear when it became a nation, or when others began to count it as one.",
-              "places": ["sela-tales", "valhav"]
+              "places": ["sela-tales", "valhav"],
+              "art": "place:silver-kingdoms"
             }
           ]
         },
@@ -192,7 +193,8 @@
               "title": "A battleground for others",
               "text": "For millennia outsiders thought little of Tu Bayla and fought their wars on its soil, mostly Azir against Jah Keved, or against Alethkar when Alethkar held the Veden lands. It happened again and again.",
               "places": ["azir", "jah-keved", "alethkar"],
-              "after": ["formed"]
+              "after": ["formed"],
+              "art": "place:tu-bayla"
             }
           ]
         }
@@ -219,7 +221,8 @@
             {
               "revealedIn": [{ "book": "wind-and-truth", "chapter": "i-2" }],
               "title": "Famine and warlords",
-              "text": "Once the Everstorm came, it ruined Tu Bayla's crops, and trade between Azir and Jah Keved ended. Famine and chaos killed many, children among them. The government fell, and warlords seized supplies and used them to rule."
+              "text": "Once the Everstorm came, it ruined Tu Bayla's crops, and trade between Azir and Jah Keved ended. Famine and chaos killed many, children among them. The government fell, and warlords seized supplies and used them to rule.",
+              "art": "place:tu-bayla"
             }
           ]
         },
@@ -231,7 +234,8 @@
               "revealedIn": [{ "book": "oathbringer", "chapter": "122" }],
               "title": "The coalition eyes an invasion",
               "text": "Not long after the battle at Thaylen City, the coalition of monarchs considered invading Tu Bayla to head off attacks on Jah Keved that could split the coalition's lands in two.",
-              "places": ["jah-keved"]
+              "places": ["jah-keved"],
+              "art": "character:dalinar-kholin"
             }
           ]
         },
@@ -243,7 +247,8 @@
               "revealedIn": [{ "book": "wind-and-truth", "chapter": "146" }],
               "title": "The Purelake floods",
               "text": "After Retribution folded the highstorm into the Everstorm, the Purelake flooded parts of Tu Bayla.",
-              "places": ["purelake"]
+              "places": ["purelake"],
+              "art": "place:purelake"
             }
           ]
         }

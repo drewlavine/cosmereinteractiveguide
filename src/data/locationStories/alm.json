@@ -166,7 +166,8 @@
               "revealedIn": ["way-of-kings"],
               "title": "Part of Makabakam",
               "text": "In the age of the Silver Kingdoms, Alm belonged to Makabakam.",
-              "places": ["makabakam"]
+              "places": ["makabakam"],
+              "art": "place:silver-kingdoms"
             }
           ]
         }
@@ -195,7 +196,8 @@
               "title": "Founding the Azish Empire",
               "text": "In the Era of Solitude, Alm and other Makabaki nations came together to form the Azish Empire.",
               "places": ["azir"],
-              "after": ["makabakam"]
+              "after": ["makabakam"],
+              "art": "place:azir"
             }
           ]
         },
@@ -207,7 +209,8 @@
               "revealedIn": [{ "book": "dawnshard", "chapter": "9" }],
               "title": "Refugees from Aimia",
               "text": "Some time after the Recreance and the scouring of Aimia, refugees from Aimia reached Alm. How many came, and when, is not known.",
-              "places": ["aimia"]
+              "places": ["aimia"],
+              "art": "place:akinah"
             }
           ]
         },
@@ -246,7 +249,8 @@
               "revealedIn": [{ "book": "edgedancer", "chapter": "14" }],
               "title": "First word of the Everstorm",
               "text": "Sitting on Roshar's western edge, Alm and Steen were the first to send word that the Everstorm had come, news that alarmed Ghenna and the government of Tashikk.",
-              "places": ["steen", "tashikk"]
+              "places": ["steen", "tashikk"],
+              "art": "place:alm"
             }
           ]
         },
@@ -259,7 +263,8 @@
               "title": "A witness in Azimir",
               "text": "When Yanagawn agreed to visit Urithiru, Alm had an ambassador in Azimir.",
               "places": ["azimir"],
-              "after": ["everstorm"]
+              "after": ["everstorm"],
+              "art": "place:azimir"
             }
           ]
         }

@@ -85,7 +85,8 @@
               "revealedIn": ["way-of-kings"],
               "title": "Part of Makabakam",
               "text": "In the age of the Silver Kingdoms, Desh's lands were part of Makabakam.",
-              "places": ["makabakam"]
+              "places": ["makabakam"],
+              "art": "place:silver-kingdoms"
             }
           ]
         }
@@ -112,7 +113,8 @@
               "revealedIn": [{ "book": "oathbringer", "chapter": "65" }],
               "title": "Joining the Azish Empire",
               "text": "Some time before 1174, Desh became one of the member states of the Azish Empire.",
-              "places": ["azir"]
+              "places": ["azir"],
+              "art": "place:azir"
             }
           ]
         },
@@ -148,7 +150,8 @@
               "revealedIn": [{ "book": "oathbringer", "chapter": "65" }],
               "title": "A witness in Azimir",
               "text": "Desh had an ambassador in Azimir on the day Noura told Dalinar Kholin that the Azish had accepted his invitation to visit Urithiru.",
-              "places": ["azimir"]
+              "places": ["azimir"],
+              "art": "place:azimir"
             }
           ]
         }

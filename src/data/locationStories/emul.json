@@ -337,7 +337,8 @@
               "revealedIn": ["way-of-kings"],
               "title": "From Makabakam to a kingdom",
               "text": "In the age of the Silver Kingdoms, Emul's lands lay within Makabakam. Afterwards the Emuli, a tribe of the Askarki people, founded a kingdom of their own with Sesemalex Dar as its capital.",
-              "places": ["makabakam", "sesemalex-dar"]
+              "places": ["makabakam", "sesemalex-dar"],
+              "art": "place:silver-kingdoms"
             }
           ]
         },
@@ -357,7 +358,8 @@
               "title": "Under the Azish Empire",
               "text": "Centuries ago Emul came under the Azish Empire, though it often acted on its own. Over those centuries the Emuli came to feel the empire's rule as domination.",
               "places": ["azir"],
-              "after": ["makabakam"]
+              "after": ["makabakam"],
+              "art": "place:emul"
             }
           ]
         }
@@ -430,7 +432,8 @@
               "revealedIn": [{ "book": "oathbringer", "chapter": "24" }],
               "title": "Courted by the coalition",
               "text": "With Emul and Tukar at war, Dalinar Kholin's coalition saw it could hope to win over only one of them. When Tezim of Tukar turned the offer down, it set out to court Emul instead.",
-              "places": ["tukar"]
+              "places": ["tukar"],
+              "art": "character:dalinar-kholin"
             }
           ]
         },
@@ -441,12 +444,14 @@
             {
               "revealedIn": [{ "book": "oathbringer", "chapter": "65" }],
               "title": "Emul burns",
-              "text": "Squeezed between the Voidbringers and the Tukari, Emul saw much of its land burned, and the kingdom was left a small remnant of what it had been."
+              "text": "Squeezed between the Voidbringers and the Tukari, Emul saw much of its land burned, and the kingdom was left a small remnant of what it had been.",
+              "art": "lifeform:singer"
             },
             {
               "revealedIn": [{ "book": "oathbringer", "chapter": "96" }],
               "title": "Broken apart",
-              "text": "Fighting the Tukari and the Voidbringers at once left Emul shattered into pieces, unable to stand alone."
+              "text": "Fighting the Tukari and the Voidbringers at once left Emul shattered into pieces, unable to stand alone.",
+              "art": "place:emul"
             }
           ]
         },
@@ -478,7 +483,8 @@
             {
               "revealedIn": [{ "book": "rhythm-of-war", "chapter": "17" }],
               "title": "A stalled front",
-              "text": "The next year the coalition's war in Emul ground to a halt amid skirmishes and Skybreaker attacks on its forces."
+              "text": "The next year the coalition's war in Emul ground to a halt amid skirmishes and Skybreaker attacks on its forces.",
+              "art": "place:emul"
             }
           ]
         },
@@ -489,7 +495,8 @@
             {
               "revealedIn": [{ "book": "rhythm-of-war", "chapter": "19" }],
               "title": "Agreeing to push in",
-              "text": "In 1175 the coalition's leaders all agreed to drive into Emul and beat the singer armies there."
+              "text": "In 1175 the coalition's leaders all agreed to drive into Emul and beat the singer armies there.",
+              "art": "place:emul"
             },
             {
               "revealedIn": [{ "book": "rhythm-of-war", "chapter": "98" }],
@@ -523,7 +530,8 @@
               "revealedIn": [{ "book": "wind-and-truth", "chapter": "126" }],
               "title": "Leaving the empire",
               "text": "On Palahanes 1175, Emul and Tashikk broke away from the Azish Empire and joined Odium's forces. Coming so soon after the campaign to save Emul, the change of sides left the Azish feeling deeply betrayed.",
-              "places": ["tashikk", "azir"]
+              "places": ["tashikk", "azir"],
+              "art": "place:emul"
             }
           ]
         }

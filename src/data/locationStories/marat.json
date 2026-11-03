@@ -178,7 +178,8 @@
               "revealedIn": [{ "book": "way-of-kings", "chapter": "26" }],
               "title": "Rugs for Alethkar",
               "text": "Marati rugs and furniture find their way as far as Alethkar, where Dalinar Kholin has decorated his barracks with them.",
-              "places": ["alethkar"]
+              "places": ["alethkar"],
+              "art": "character:dalinar-kholin"
             },
             {
               "revealedIn": [
@@ -192,7 +193,8 @@
               ],
               "title": "Famed for rugs and bazaars",
               "text": "Over the Era of Solitude, Marat grew famous for its furniture, its rugs and its great bazaars, and became a rich centre of trade, sending its goods all across Roshar, Alethkar included.",
-              "places": ["alethkar"]
+              "places": ["alethkar"],
+              "art": "place:marat"
             }
           ]
         }
@@ -220,7 +222,8 @@
             {
               "revealedIn": [{ "book": "oathbringer", "chapter": "27" }],
               "title": "An army in the south",
-              "text": "Early in the Desolation, a large army of Voidbringers gathered in southern Marat."
+              "text": "Early in the Desolation, a large army of Voidbringers gathered in southern Marat.",
+              "art": "lifeform:singer"
             },
             {
               "revealedIn": [{ "book": "oathbringer", "chapter": "106" }],
@@ -260,7 +263,8 @@
             {
               "revealedIn": [{ "book": "oathbringer", "chapter": "111" }],
               "title": "A fleet in the harbours",
-              "text": "The Fused gathered more than a hundred ships in Marat's ports and coves."
+              "text": "The Fused gathered more than a hundred ships in Marat's ports and coves.",
+              "art": "place:marat"
             },
             {
               "revealedIn": [{ "book": "oathbringer", "chapter": "121" }],

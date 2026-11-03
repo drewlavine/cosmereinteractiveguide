@@ -248,7 +248,8 @@
             {
               "revealedIn": [{ "book": "oathbringer", "chapter": "113" }],
               "title": "A land of the singers",
-              "text": "Before humans came to Roshar, the land that became Alethela belonged to the singers."
+              "text": "Before humans came to Roshar, the land that became Alethela belonged to the singers.",
+              "art": "lifeform:singer"
             }
           ]
         },
@@ -260,7 +261,8 @@
               "revealedIn": [{ "book": "oathbringer", "chapter": "113" }],
               "title": "Humans take the land",
               "text": "The humans who came to Roshar seized the singers' lands by force. That story was forgotten until the Eila Stele was read.",
-              "after": ["singer-land"]
+              "after": ["singer-land"],
+              "art": "lifeform:singer"
             },
             {
               "revealedIn": [
@@ -272,7 +274,8 @@
                 }
               ],
               "text": "Humans reached Roshar and were given the land that became Shinovar. They went on to invade the rest of the continent, killing the singers and driving them out, and took this land among others. The story was lost until the Eila Stele was found.",
-              "places": ["shinovar"]
+              "places": ["shinovar"],
+              "art": "place:shinovar"
             }
           ]
         }
@@ -310,7 +313,8 @@
             {
               "revealedIn": [{ "book": "way-of-kings", "chapter": "19" }],
               "title": "A kingdom that remembered war",
-              "text": "Alethela was a fiercely warlike nation that kept the arts of war alive so it could teach them anew whenever a Desolation came."
+              "text": "Alethela was a fiercely warlike nation that kept the arts of war alive so it could teach them anew whenever a Desolation came.",
+              "art": "place:alethela"
             }
           ]
         },
@@ -402,7 +406,8 @@
               "title": "Nohadon rebuilds",
               "text": "Grieving, Nohadon wanted to give up his throne, but he kept it and spent decades making Alethela a busy, colourful land again. He also fought Makabakam over trade routes; how that war changed either kingdom is unknown.",
               "places": ["makabakam"],
-              "after": ["nohadon-desolation"]
+              "after": ["nohadon-desolation"],
+              "art": "character:nohadon"
             }
           ]
         }
@@ -434,7 +439,8 @@
             {
               "revealedIn": [{ "book": "oathbringer", "chapter": "38" }],
               "title": "A wounded society",
-              "text": "Toward the end the Desolations came ever closer together, and the one before the Last left society hurt and weak, still recovering."
+              "text": "Toward the end the Desolations came ever closer together, and the one before the Last left society hurt and weak, still recovering.",
+              "art": "event:desolation"
             }
           ]
         },
@@ -446,13 +452,14 @@
               "revealedIn": [{ "book": "way-of-kings", "chapter": "prologue" }],
               "title": "The Heralds walk away",
               "text": "About 4,500 years before Gavilar's death, a Desolation ended. Weary of the torment they suffered between Desolations, nine of the Heralds refused to go back to it, leaving Taln, the one who had not returned, to bear it alone.",
-              "art": "character:jezrien"
+              "art": "ability:herald"
             },
             {
               "revealedIn": [{ "book": "oathbringer", "chapter": "38" }],
               "title": "The Heralds walk away",
               "text": "About 4,500 years before Gavilar's death, with the Desolations coming ever closer together, another struck while society was still weak. Weary of the torment they suffered between Desolations, nine of the Heralds refused to go back to it, leaving Taln, the one who had not returned, to bear it alone.",
-              "after": ["weakened"]
+              "after": ["weakened"],
+              "art": "event:era-of-solitude"
             }
           ]
         },
@@ -471,7 +478,8 @@
               ],
               "title": "No more Desolations",
               "text": "After the Last Desolation no more Desolations came. Spared them, society advanced further than ever before, perhaps strong enough to face a new one without collapse. The age that followed became known as the Era of Solitude.",
-              "after": ["heralds-depart"]
+              "after": ["heralds-depart"],
+              "art": "event:era-of-solitude"
             }
           ]
         }

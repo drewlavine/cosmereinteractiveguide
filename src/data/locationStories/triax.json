@@ -151,7 +151,8 @@
               "revealedIn": ["way-of-kings"],
               "title": "Split between two kingdoms",
               "text": "In the age of the Silver Kingdoms, this land was divided in half, part of it in Makabakam and part in Valhav.",
-              "places": ["makabakam", "valhav"]
+              "places": ["makabakam", "valhav"],
+              "art": "place:silver-kingdoms"
             }
           ]
         },
@@ -202,7 +203,8 @@
               "revealedIn": [{ "book": "oathbringer", "chapter": "53" }],
               "title": "NanHar's invasion",
               "text": "At some point the Veden king NanHar invaded the area, but he died in the war. His brother NanKhet, who followed him, died within three months, and the Siln dynasty took the Veden throne. Whether the Veden conquest of Triax succeeded is unknown.",
-              "places": ["jah-keved"]
+              "places": ["jah-keved"],
+              "art": "place:triax"
             }
           ]
         },
@@ -259,7 +261,8 @@
               ],
               "title": "Cut off by the enemy",
               "text": "When the Everstorm came, Odium's forces gathered in Marat and struck fast along the coast of the Tarat Sea, Triax included. Within weeks all contact with Triax, spanreeds included, was lost.",
-              "places": ["marat"]
+              "places": ["marat"],
+              "art": "place:triax"
             }
           ]
         },
@@ -279,7 +282,8 @@
               "title": "Held by the enemy",
               "text": "After the Battle of Thaylen Field, Triax stayed under Odium's control. Once Queen Fen won a decisive victory at sea, the coalition ruled the southern waters and used Thaylen ships to supply its troops in Emul, never needing to march through Triax.",
               "places": ["emul", "thaylenah"],
-              "after": ["falls"]
+              "after": ["falls"],
+              "art": "place:triax"
             }
           ]
         }

@@ -1066,7 +1066,8 @@
             {
               "revealedIn": [{ "book": "oathbringer", "chapter": "113" }],
               "title": "A land of the singers",
-              "text": "Before humans came to Roshar, the land that became Alethkar belonged to the singers."
+              "text": "Before humans came to Roshar, the land that became Alethkar belonged to the singers.",
+              "art": "lifeform:singer"
             }
           ]
         },
@@ -1078,7 +1079,8 @@
               "revealedIn": [{ "book": "oathbringer", "chapter": "113" }],
               "title": "Humans take the land",
               "text": "The humans who came to Roshar took the singers' lands by force. That history was forgotten until the Eila Stele was read.",
-              "after": ["singer-land"]
+              "after": ["singer-land"],
+              "art": "lifeform:singer"
             },
             {
               "revealedIn": [
@@ -1090,7 +1092,8 @@
                 }
               ],
               "text": "Humans reached Roshar and were given the land that became Shinovar. They went on to invade the rest of the continent, slaughtering the singers and driving them out, and took this land among others. The story was lost until the Eila Stele was found.",
-              "places": ["shinovar"]
+              "places": ["shinovar"],
+              "art": "place:shinovar"
             }
           ]
         },
@@ -1148,7 +1151,8 @@
               "revealedIn": [{ "book": "way-of-kings", "chapter": "19" }],
               "title": "A kingdom that remembered war",
               "text": "Alethela was a fiercely warlike kingdom that studied and remembered the arts of war, so that it could teach them anew whenever a Desolation came.",
-              "places": ["alethela"]
+              "places": ["alethela"],
+              "art": "place:alethela"
             }
           ]
         },
@@ -1167,7 +1171,8 @@
               ],
               "title": "Kholinar, the capital",
               "text": "Very early on, the Dawncity of Kholinar was built and made the capital, and in time it received Alethela's Oathgate. Many wanted Urithiru built there too, but it was raised in the mountains near Makabakam instead. Kholinar still stands, one of Roshar's oldest cities.",
-              "places": ["kholinar", "urithiru", "makabakam"]
+              "places": ["kholinar", "urithiru", "makabakam"],
+              "art": "place:kholinar"
             }
           ]
         },
@@ -1231,7 +1236,8 @@
               "title": "Nohadon rebuilds",
               "text": "Grieving, Nohadon wanted to give up his throne, but he stayed and spent decades making Alethela a lively, colourful land again. He also fought Makabakam over trade routes, and his ideals shaped the backbone of the Knights Radiant.",
               "places": ["makabakam"],
-              "after": ["nohadon"]
+              "after": ["nohadon"],
+              "art": "character:nohadon"
             }
           ]
         }
@@ -1281,7 +1287,7 @@
               "revealedIn": [{ "book": "way-of-kings", "chapter": "prologue" }],
               "title": "The Heralds walk away",
               "text": "About 4,500 years before Gavilar's death, a Desolation ended. Weary of the torment they suffered between Desolations, nine of the Heralds refused to go back to it, leaving Taln, the one who had not returned, to bear it alone.",
-              "art": "character:jezrien"
+              "art": "ability:herald"
             }
           ]
         },
@@ -1300,7 +1306,8 @@
               ],
               "title": "No more Desolations",
               "text": "After the Last Desolation no further Desolations came. Spared them, society advanced further than ever before, strong enough perhaps to face a new one without collapse. The age that followed became the Era of Solitude.",
-              "after": ["heralds-depart"]
+              "after": ["heralds-depart"],
+              "art": "event:era-of-solitude"
             }
           ]
         },
@@ -1311,7 +1318,8 @@
             {
               "revealedIn": [{ "book": "rhythm-of-war", "chapter": "19" }],
               "title": "Conquerors with Soulcasters",
-              "text": "Alethi kings and highprinces led armies across Roshar, their emerald Soulcasters sparing them long supply lines. Scholars of the time were more like gurus, musing in shrines on storms and souls."
+              "text": "Alethi kings and highprinces led armies across Roshar, their emerald Soulcasters sparing them long supply lines. Scholars of the time were more like gurus, musing in shrines on storms and souls.",
+              "art": "ability:soulcasting"
             }
           ]
         },
@@ -1330,7 +1338,8 @@
               ],
               "title": "Wars with Azir",
               "text": "The Alethi invaded Azir at least five times under the Ulutu dynasty, winning as often as they were driven back; the Azish say every siege of Azimir sacked it. Legend says they climbed the mountains to take gems and weapons from the sun, which bleached their eyes.",
-              "places": ["azir", "azimir"]
+              "places": ["azir", "azimir"],
+              "art": "place:azimir"
             }
           ]
         }
@@ -1394,7 +1403,8 @@
                 }
               ],
               "title": "The Hierocracy rewrites history",
-              "text": "While the Hierocracy ruled, it tried to wipe from the records what was known of the Knights Radiant, the Recreance and Shadesmar, and doctored old texts to tell its own version of the past."
+              "text": "While the Hierocracy ruled, it tried to wipe from the records what was known of the Knights Radiant, the Recreance and Shadesmar, and doctored old texts to tell its own version of the past.",
+              "art": "culture:hierocracy"
             },
             {
               "revealedIn": [
@@ -1427,7 +1437,8 @@
               "title": "A Vorin realm grows too large",
               "text": "The Hierocracy spread beyond the old Alethelan lands into a wider Vorin domain that took in the lands that became Jah Keved, Kharbranth and Thaylenah. The larger it grew, the harder it was to hold together, and its power began to totter.",
               "places": ["jah-keved", "kharbranth", "thaylenah"],
-              "after": ["hierocracy"]
+              "after": ["hierocracy"],
+              "art": "culture:hierocracy"
             }
           ]
         },
@@ -1439,7 +1450,8 @@
             {
               "revealedIn": [{ "book": "way-of-kings", "chapter": "36" }],
               "title": "Sadees ends the Hierocracy",
-              "text": "Sadees brought down the Hierocracy and broke the church's power so that no such rule could rise again."
+              "text": "Sadees brought down the Hierocracy and broke the church's power so that no such rule could rise again.",
+              "art": "event:war-of-loss"
             },
             {
               "revealedIn": [{ "book": "words-of-radiance", "chapter": "12" }],
@@ -1489,13 +1501,15 @@
               "revealedIn": [{ "book": "oathbringer", "chapter": "2" }],
               "title": "The Sunmaker looks outward",
               "text": "Having reunited Alethela under the name Alethkar, the Sunmaker set out to conquer the rest of Roshar.",
-              "after": ["war-of-loss"]
+              "after": ["war-of-loss"],
+              "art": "ability:shardblade"
             },
             {
               "revealedIn": [{ "book": "oathbringer", "chapter": "65" }],
               "title": "The Sunmaker conquers",
               "text": "Having reunited Alethela as Alethkar, the Sunmaker conquered Herdaz first, then marched on Azir and took its capital, Azimir, claiming he came to civilize the Azish. With an army garrisoned there he pursued genocide: it is said one Azish person in ten died under his rule.",
-              "places": ["herdaz", "azir", "azimir"]
+              "places": ["herdaz", "azir", "azimir"],
+              "art": "place:azimir"
             },
             {
               "revealedIn": [{ "book": "oathbringer", "chapter": "100" }],
@@ -1511,7 +1525,8 @@
             {
               "revealedIn": [{ "book": "way-of-kings", "chapter": "24" }],
               "title": "Ten highprinces",
-              "text": "Under Sadees the ten highprinces each ran one part of the whole kingdom's government."
+              "text": "Under Sadees the ten highprinces each ran one part of the whole kingdom's government.",
+              "art": "ability:shardblade"
             },
             {
               "revealedIn": [
@@ -1526,7 +1541,8 @@
               "title": "The sons divide the kingdom",
               "text": "The Sunmaker's ten sons could not agree which of them should succeed him, so they divided the realm into ten princedoms and ruled them separately as highprinces, with no central government. The conquered lands, among them Azir and Herdaz, won back their freedom. Famous duels of this age are still remembered.",
               "places": ["azir", "herdaz"],
-              "after": ["sunmaker-conquests"]
+              "after": ["sunmaker-conquests"],
+              "art": "place:alethkar"
             }
           ]
         }
@@ -1554,7 +1570,8 @@
             {
               "revealedIn": [{ "book": "oathbringer", "chapter": "3" }],
               "title": "Yezriar falls",
-              "text": "In 1140, during the war to unite the princedoms, the lord Yezriar was beaten and his lands folded into the growing kingdom."
+              "text": "In 1140, during the war to unite the princedoms, the lord Yezriar was beaten and his lands folded into the growing kingdom.",
+              "art": "character:gavilar-kholin"
             }
           ]
         },
@@ -1583,7 +1600,8 @@
               "revealedIn": [{ "book": "oathbringer", "chapter": "26" }],
               "title": "The fall of Kalanor",
               "text": "Highprince Kalanor, who called himself king, was one of Gavilar's chief obstacles. In 1145 Gavilar's forces attacked small cities in his lands to draw him into open battle, the largest of the war, where Dalinar killed him. His Shards went to Gavilar and his lands to Loradar Vamah. That officially ended the war of unification, though skirmishes went on for decades.",
-              "after": ["yezriar"]
+              "after": ["yezriar"],
+              "art": "character:dalinar-kholin"
             }
           ]
         },
@@ -1655,7 +1673,8 @@
               "revealedIn": [{ "book": "way-of-kings", "chapter": "16" }],
               "title": "Reshi raiders",
               "text": "Some time after Gavilar's crowning, Reshi raiders hit the northern princedoms, hoping to profit from the new kingdom's instability. Soldiers were raised across the Sadeas princedom, among them darkeyes from Hearthstone; the Reshi had no Shardblades.",
-              "places": ["hearthstone", "reshi-isles"]
+              "places": ["hearthstone", "reshi-isles"],
+              "art": "place:sadeas-princedom"
             },
             {
               "revealedIn": [{ "book": "way-of-kings", "chapter": "18" }],
@@ -1671,7 +1690,8 @@
               "revealedIn": [{ "book": "oathbringer", "chapter": "52" }],
               "title": "War with Herdaz",
               "text": "Around 1150 a new dynasty in Herdaz rallied its forces and pushed against the Alethi border for about four years. The fighting shaped the present border and left ethnic bitterness behind, with Herdazians stereotyped and mistreated.",
-              "places": ["herdaz"]
+              "places": ["herdaz"],
+              "art": "character:dalinar-kholin"
             },
             {
               "revealedIn": [
@@ -1682,8 +1702,7 @@
                   ]
                 }
               ],
-              "text": "From 1150 to 1154 Alethkar fought a violent war with Herdaz, meant to show Alethi strength, secure the border and win land, with Dalinar Kholin as a leading general. Many died on both sides. The war fixed the present border and left ethnic bitterness, with Herdazians stereotyped and mistreated.",
-              "art": "character:dalinar-kholin"
+              "text": "From 1150 to 1154 Alethkar fought a violent war with Herdaz, meant to show Alethi strength, secure the border and win land, with Dalinar Kholin as a leading general. Many died on both sides. The war fixed the present border and left ethnic bitterness, with Herdazians stereotyped and mistreated."
             }
           ]
         },
@@ -1702,7 +1721,8 @@
               ],
               "title": "The conquest of Akak",
               "text": "In 1155 Dalinar Kholin conquered Akak, an island of the Reshi, wiped out the Reshi living there and claimed it for Alethkar.",
-              "places": ["akak"]
+              "places": ["akak"],
+              "art": "place:akak"
             }
           ]
         },
@@ -1714,7 +1734,8 @@
               "revealedIn": [{ "book": "oathbringer", "chapter": "66" }],
               "title": "War with Jah Keved",
               "text": "Around 1155 war broke out on the border with Jah Keved, which had taken Alethi land some twelve years before; Dalinar Kholin was again a leading general.",
-              "places": ["jah-keved"]
+              "places": ["jah-keved"],
+              "art": "character:dalinar-kholin"
             },
             {
               "revealedIn": [{ "book": "oathbringer", "chapter": "100" }],
@@ -1731,7 +1752,8 @@
               "title": "Rathalas rebels",
               "text": "In 1163, with Rathalas calling for rebellion under Tanalan's son, also named Tanalan, Gavilar sent Dalinar and Torol Sadeas to the Rift. Dalinar offered Tanalan a highprincedom to surrender; Tanalan refused and buried Dalinar's men in a landslide, leaving only Dalinar alive.",
               "places": ["rathalas"],
-              "after": ["rathalas-conquest"]
+              "after": ["rathalas-conquest"],
+              "art": "place:rathalas"
             },
             {
               "revealedIn": [{ "book": "oathbringer", "chapter": "76" }],
@@ -1810,7 +1832,8 @@
                 }
               ],
               "title": "Meeting the Parshendi",
-              "text": "In 1166 Gavilar met the Parshendi and was fascinated by them at once. Their party was led by Eshonai, who became central to dealings between the two peoples."
+              "text": "In 1166 Gavilar met the Parshendi and was fascinated by them at once. Their party was led by Eshonai, who became central to dealings between the two peoples.",
+              "art": "character:eshonai"
             }
           ]
         },
@@ -1850,14 +1873,16 @@
               "title": "The Vengeance Pact",
               "text": "Gavilar's son Elhokar became king, and the highprinces bound themselves in the Vengeance Pact, taking their armies to the Shattered Plains to make war on the Parshendi.",
               "places": ["shattered-plains"],
-              "after": ["gavilar-assassinated"]
+              "after": ["gavilar-assassinated"],
+              "art": "character:elhokar-kholin"
             },
             {
               "revealedIn": [
                 { "book": "words-of-radiance", "chapter": "prologue" }
               ],
               "title": "The War of Reckoning begins",
-              "text": "Three Parshendi leaders claimed the killing, covering the flight of many of their people from Kholinar; Dalinar sent a hundred horsemen after them, and none came back. Those who stayed were hanged. Gavilar's son Elhokar, now king, declared war, and all the highprinces joined the Vengeance Pact, marching to besiege the Parshendi on the Shattered Plains in the War of Reckoning."
+              "text": "Three Parshendi leaders claimed the killing, covering the flight of many of their people from Kholinar; Dalinar sent a hundred horsemen after them, and none came back. Those who stayed were hanged. Gavilar's son Elhokar, now king, declared war, and all the highprinces joined the Vengeance Pact, marching to besiege the Parshendi on the Shattered Plains in the War of Reckoning.",
+              "art": "event:war-of-reckoning"
             }
           ]
         },
@@ -1868,7 +1893,8 @@
             {
               "revealedIn": [{ "book": "way-of-kings", "chapter": "60" }],
               "title": "Dalinar sees visions",
-              "text": "During the war Dalinar began to have visions showing the past and warning of what was to come, which made other highprinces and his own soldiers question his sanity. Fabrial-making also leapt forward."
+              "text": "During the war Dalinar began to have visions showing the past and warning of what was to come, which made other highprinces and his own soldiers question his sanity. Fabrial-making also leapt forward.",
+              "art": "character:dalinar-kholin"
             }
           ]
         },
@@ -1894,7 +1920,8 @@
               "revealedIn": [{ "book": "words-of-radiance", "chapter": "79" }],
               "title": "Out onto the Plains",
               "text": "Disturbed by glyphs that appeared scratched into his walls, and determined to finish the war, Dalinar gathered allies and, after weeks of preparation, marched his whole army onto the Shattered Plains, joined by Highprinces Roion, Sebarial and Aladar.",
-              "places": ["shattered-plains"]
+              "places": ["shattered-plains"],
+              "art": "character:dalinar-kholin"
             },
             {
               "revealedIn": [{ "book": "words-of-radiance", "chapter": "85" }],
@@ -1946,7 +1973,8 @@
               ],
               "title": "The Everstorm",
               "text": "The Everstorm restored the parshmen's minds, and across Alethkar they broke free and fled their owners. The storm damaged or destroyed many buildings, but the newly awakened singers mostly left the towns peacefully.",
-              "after": ["narak"]
+              "after": ["narak"],
+              "art": "character:eshonai"
             }
           ]
         },
@@ -1959,7 +1987,8 @@
               "title": "The singers take Alethkar",
               "text": "Led by the Fused, the singers gathered at human towns, trained and slowly took control of Alethkar. With most Alethi armies on the Shattered Plains or at Urithiru, the few that fought were soon driven into Herdaz, while thousands of singers marched on Kholinar.",
               "places": ["herdaz", "kholinar"],
-              "after": ["everstorm"]
+              "after": ["everstorm"],
+              "art": "lifeform:singer"
             },
             {
               "revealedIn": [{ "book": "oathbringer", "chapter": "107" }],
@@ -1983,7 +2012,8 @@
               ],
               "title": "The Unmade in Kholinar",
               "text": "Late in the War of Reckoning, Navani left Queen Aesudan to rule Kholinar alone. The Unmade crept into the city: Aesudan threw lavish feasts while Kholinar's society fell apart, and Sja-anat corrupted the city's spren.",
-              "places": ["kholinar"]
+              "places": ["kholinar"],
+              "art": "character:sja-anat"
             }
           ]
         },
@@ -1997,7 +2027,8 @@
               "title": "Kholinar falls",
               "text": "Elhokar took a few Radiants to Kholinar to open its Oathgate and bring the Alethi armies through. The attempt failed: the capital fell to the enemy, and the king was killed.",
               "places": ["kholinar"],
-              "after": ["singers-take-alethkar"]
+              "after": ["singers-take-alethkar"],
+              "art": "place:kholinar"
             },
             {
               "revealedIn": [{ "book": "oathbringer", "chapter": "122" }],
@@ -2014,7 +2045,8 @@
               "revealedIn": [{ "book": "oathbringer", "chapter": "122" }],
               "title": "The Battle of Thaylen Field",
               "text": "Dalinar saw that the enemy would strike for the Oathgate at Thaylen City, where Alethi troops of the Sadeas army were already posted. When the attack came, the Unmade Nergaoul drove that army, under Amaram, against the city, yet the Coalition still won.",
-              "places": ["thaylen-city", "thaylenah"]
+              "places": ["thaylen-city", "thaylenah"],
+              "art": "place:thaylen-city"
             }
           ]
         },
@@ -2068,7 +2100,8 @@
               "revealedIn": [{ "book": "rhythm-of-war", "chapter": "18" }],
               "title": "Hearthstone evacuated",
               "text": "In 1175 the Coalition set out to rescue the people of Hearthstone. After a fight with the Fused holding the town, among them Lezian, all but fifteen of its people were flown to Urithiru on the Fourth Bridge. Citylord Roshone was killed, and the post passed in time to Laral.",
-              "places": ["hearthstone", "urithiru"]
+              "places": ["hearthstone", "urithiru"],
+              "art": "place:hearthstone"
             }
           ]
         },
@@ -2087,7 +2120,8 @@
               ],
               "title": "The push into Emul",
               "text": "Highprince Aladar and his scribes helped the Emuli fortify what land they still held. After a year of stalemate and Skybreaker attacks, the Coalition agreed in 1175 to drive the singers out of Emul, mostly with Alethi troops; the queen herself stayed in Emul, and she and Dalinar chose a new Sadeas highprince.",
-              "places": ["emul"]
+              "places": ["emul"],
+              "art": "place:emul"
             }
           ]
         },
@@ -2106,7 +2140,8 @@
               ],
               "title": "Fighting back in the southwest",
               "text": "Alethi forces inside Alethkar won back its southwestern corner on the Tarat Sea, though a push into the southeast failed. When Taravangian betrayed the Coalition, they regrouped at Karanak with few losses.",
-              "places": ["karanak", "tarat-sea"]
+              "places": ["karanak", "tarat-sea"],
+              "art": "place:karanak"
             }
           ]
         },
@@ -2119,7 +2154,8 @@
               "revealedIn": [{ "book": "rhythm-of-war", "chapter": "112" }],
               "title": "Terms for a contest",
               "text": "After Urithiru was freed, Odium appeared to Dalinar and proposed a contest of champions to settle the True Desolation. If the Coalition won, Alethkar and Herdaz would be returned and Odium would keep the peace; if Odium won, he would keep everything and take Dalinar's soul.",
-              "places": ["herdaz", "urithiru"]
+              "places": ["herdaz", "urithiru"],
+              "art": "character:rayse"
             }
           ]
         },
@@ -2130,7 +2166,8 @@
             {
               "revealedIn": [{ "book": "wind-and-truth", "chapter": "61" }],
               "title": "Slavery abolished",
-              "text": "Queen Jasnah passed a law ending slavery and freeing every Alethi slave. Little changed for many: former owners still treated them badly, some kept working for little or no pay, and others found society shut them out."
+              "text": "Queen Jasnah passed a law ending slavery and freeing every Alethi slave. Little changed for many: former owners still treated them badly, some kept working for little or no pay, and others found society shut them out.",
+              "art": "character:jasnah-kholin"
             }
           ]
         },
@@ -2143,7 +2180,8 @@
               "title": "Alethkar is lost",
               "text": "After the contest, Jasnah accepted that Alethkar had been lost. The Oathgates no longer offered a way to win it back, and her treaty had handed the Shattered Plains to the listeners.",
               "places": ["shattered-plains"],
-              "after": ["contest-set"]
+              "after": ["contest-set"],
+              "art": "place:alethkar"
             }
           ]
         }

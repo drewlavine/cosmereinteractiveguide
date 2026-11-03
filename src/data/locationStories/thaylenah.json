@@ -510,7 +510,8 @@
               "revealedIn": [{ "book": "oathbringer", "chapter": "12" }],
               "title": "Part of Thalath",
               "text": "In the Heraldic Epochs the islands belonged to the kingdom of Thalath.",
-              "places": ["thalath"]
+              "places": ["thalath"],
+              "art": "place:thalath"
             },
             {
               "revealedIn": [{ "book": "oathbringer", "chapter": "107" }],
@@ -526,7 +527,8 @@
               "revealedIn": [{ "book": "oathbringer", "chapter": "12" }],
               "title": "A kingdom of its own",
               "text": "Thaylen tradition holds that Thaylenah itself is around four thousand years old.",
-              "after": ["thalath"]
+              "after": ["thalath"],
+              "art": "culture:thaylen-script"
             }
           ]
         },
@@ -538,7 +540,8 @@
               "revealedIn": [{ "book": "oathbringer", "chapter": "59" }],
               "title": "Under the Hierocracy",
               "text": "Thaylenah was once part of the Hierocracy, a wide Vorin realm that also took in Jah Keved and the lands that became Alethkar and Kharbranth.",
-              "places": ["jah-keved", "alethkar", "kharbranth"]
+              "places": ["jah-keved", "alethkar", "kharbranth"],
+              "art": "culture:hierocracy"
             }
           ]
         }
@@ -557,7 +560,8 @@
               "revealedIn": [{ "book": "way-of-kings", "chapter": "i-4" }],
               "title": "A trading power",
               "text": "Thaylen merchants carried their trade far across Roshar, as far west as Shinovar.",
-              "places": ["shinovar"]
+              "places": ["shinovar"],
+              "art": "character:vstim"
             },
             {
               "revealedIn": [
@@ -624,7 +628,8 @@
             },
             {
               "revealedIn": [{ "book": "oathbringer", "chapter": "113" }],
-              "text": "The Everstorm wrecked Thaylen City, and its parshmen stole the ships and sailed away. The losses crippled the navy Thaylenah was famous for and badly hurt its economy."
+              "text": "The Everstorm wrecked Thaylen City, and its parshmen stole the ships and sailed away. The losses crippled the navy Thaylenah was famous for and badly hurt its economy.",
+              "art": "lifeform:singer"
             }
           ]
         },
@@ -637,7 +642,8 @@
               "title": "Through the Oathgate",
               "text": "Queen Fen agreed to a visit, and Dalinar came to Thaylen City through its Oathgate, worked from Urithiru. He was shocked by how much of the city lay in ruins.",
               "places": ["urithiru"],
-              "after": ["everstorm"]
+              "after": ["everstorm"],
+              "art": "character:dalinar-kholin"
             }
           ]
         },
@@ -650,7 +656,8 @@
               "title": "Standing with Urithiru",
               "text": "With nowhere else to turn, Thaylenah allied with Urithiru, and it stood by that alliance even after the other kingdoms broke away.",
               "places": ["urithiru"],
-              "after": ["oathgate"]
+              "after": ["oathgate"],
+              "art": "character:fen-rnamdi"
             }
           ]
         },
@@ -663,7 +670,8 @@
               "revealedIn": [{ "book": "oathbringer", "chapter": "119" }],
               "title": "The Battle of Thaylen Field",
               "text": "Thaylen City became the ground for one of the first great battles of the True Desolation, the Battle of Thaylen Field.",
-              "after": ["alliance"]
+              "after": ["alliance"],
+              "art": "place:thaylen-city"
             },
             {
               "revealedIn": [{ "book": "oathbringer", "chapter": "120" }],
@@ -695,7 +703,8 @@
               "revealedIn": [{ "book": "wind-and-truth", "chapter": "15" }],
               "title": "Thaylen City threatened",
               "text": "In the days before the contest of champions, word came that the singers were moving against Thaylen City, as well as Azimir and the Shattered Plains.",
-              "places": ["azimir", "shattered-plains"]
+              "places": ["azimir", "shattered-plains"],
+              "art": "place:thaylen-city"
             },
             {
               "revealedIn": [{ "book": "wind-and-truth", "chapter": "61" }],
@@ -712,7 +721,8 @@
               "revealedIn": [{ "book": "wind-and-truth", "chapter": "78" }],
               "title": "A fleet full of stone",
               "text": "A report reached Jasnah that Odium's ships carried stone, not soldiers: the invasion was a feint to draw the coalition's forces away. Fen feared it hid some real plan to take her kingdom.",
-              "after": ["threat"]
+              "after": ["threat"],
+              "art": "character:fen-rnamdi"
             }
           ]
         },
@@ -724,7 +734,8 @@
               "revealedIn": [{ "book": "wind-and-truth", "chapter": "123" }],
               "title": "Queen Fen's choice",
               "text": "Odium came in person to argue over Thaylenah's fate with Jasnah. Jasnah lost the debate, and Queen Fen signed her kingdom over to Odium without any invasion.",
-              "after": ["ruse"]
+              "after": ["ruse"],
+              "art": "character:fen-rnamdi"
             }
           ]
         }

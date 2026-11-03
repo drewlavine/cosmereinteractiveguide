@@ -457,7 +457,8 @@
                 }
               ],
               "title": "Refugees from Ashyn",
-              "text": "Humans came to Roshar as refugees from Ashyn and were given this land. The plants and animals they brought took root here, and they still live nowhere else."
+              "text": "Humans came to Roshar as refugees from Ashyn and were given this land. The plants and animals they brought took root here, and they still live nowhere else.",
+              "art": "place:shinovar"
             },
             {
               "revealedIn": [
@@ -470,7 +471,8 @@
                 }
               ],
               "title": "Refugees from Ashyn",
-              "text": "Over seven thousand years ago, humans fled Ashyn, which they had left unfit to live on, and arrived here. The singers gave them this land, which then had soil but no grass. The plants and animals the humans brought took root and came to shape Shinovar's wildlife."
+              "text": "Over seven thousand years ago, humans fled Ashyn, which they had left unfit to live on, and arrived here. The singers gave them this land, which then had soil but no grass. The plants and animals the humans brought took root and came to shape Shinovar's wildlife.",
+              "art": "place:ashyn"
             }
           ]
         },
@@ -482,7 +484,8 @@
               "revealedIn": [{ "book": "oathbringer", "chapter": "113" }],
               "title": "Spreading out by force",
               "text": "In time the humans wanted more than the land they had been given, and they took more by violence.",
-              "after": ["humans-arrive"]
+              "after": ["humans-arrive"],
+              "art": "lifeform:singer"
             }
           ]
         }
@@ -515,7 +518,8 @@
               "revealedIn": ["way-of-kings"],
               "title": "The kingdom of Shin Kak Nish",
               "text": "In the age of the Silver Kingdoms, Shinovar was the kingdom of Shin Kak Nish.",
-              "places": ["shin-kak-nish"]
+              "places": ["shin-kak-nish"],
+              "art": "place:shin-kak-nish"
             }
           ]
         },
@@ -533,7 +537,8 @@
                 }
               ],
               "title": "Desolation after Desolation",
-              "text": "Again and again the Desolations threw people back to stone tools. Each time the Heralds returned they helped them rebuild, often as far as the age of bronze, with the Herald Kalak among those who helped."
+              "text": "Again and again the Desolations threw people back to stone tools. Each time the Heralds returned they helped them rebuild, often as far as the age of bronze, with the Herald Kalak among those who helped.",
+              "art": "character:kalak"
             }
           ]
         },
@@ -597,7 +602,8 @@
                 }
               ],
               "title": "The Shin take the Honorblades",
-              "text": "After the Last Desolation, the Shin took the Heralds' Honorblades, all but Taln's, home to Shinovar. At some point Nale quietly took his own Blade back without telling their leaders."
+              "text": "After the Last Desolation, the Shin took the Heralds' Honorblades, all but Taln's, home to Shinovar. At some point Nale quietly took his own Blade back without telling their leaders.",
+              "art": "ability:honorblade"
             },
             {
               "revealedIn": [
@@ -620,7 +626,8 @@
             {
               "revealedIn": [{ "book": "oathbringer", "chapter": "75" }],
               "title": "Shin invasions",
-              "text": "Early in the long age after the Last Desolation, the Shin tried more than once to conquer the lands beyond their mountains. Legends tell of great bands of men on horseback, armed with spears."
+              "text": "Early in the long age after the Last Desolation, the Shin tried more than once to conquer the lands beyond their mountains. Legends tell of great bands of men on horseback, armed with spears.",
+              "art": "place:shinovar"
             }
           ]
         },
@@ -655,7 +662,8 @@
             {
               "revealedIn": [{ "book": "rhythm-of-war", "chapter": "111" }],
               "title": "Ishar's claim about the Unmade",
-              "text": "Ishar told Szeth that when Szeth's father was barely a man, the Shin had accepted Unmade as their gods, and claimed to have saved them from the Unmade."
+              "text": "Ishar told Szeth that when Szeth's father was barely a man, the Shin had accepted Unmade as their gods, and claimed to have saved them from the Unmade.",
+              "art": "place:shinovar"
             }
           ]
         },
@@ -667,7 +675,8 @@
               "revealedIn": [{ "book": "wind-and-truth", "chapter": "59" }],
               "title": "Raiders from Steen",
               "text": "Before the Everstorm, raiders from Steen struck the Shin coast again and again, and the monasteries near the sea grew into strongholds against them.",
-              "places": ["steen"]
+              "places": ["steen"],
+              "art": "place:steen"
             }
           ]
         },
@@ -678,7 +687,8 @@
             {
               "revealedIn": [{ "book": "way-of-kings", "chapter": "i-4" }],
               "title": "A Truthless given away",
-              "text": "Seven years before the books, a Shin farmer gave the Thaylen merchant Vstim a Truthless as a servant. Vstim found him so obedient that he asked for another, but the farmer hopes never to see one like him again."
+              "text": "Seven years before the books, a Shin farmer gave the Thaylen merchant Vstim a Truthless as a servant. Vstim found him so obedient that he asked for another, but the farmer hopes never to see one like him again.",
+              "art": "character:vstim"
             },
             {
               "revealedIn": [
@@ -724,7 +734,8 @@
               "revealedIn": [{ "book": "edgedancer", "chapter": "14" }],
               "title": "Warnings from the west",
               "text": "After the Everstorm first struck, the Shin sent warnings to other lands, Tashikk among them, so they could prepare.",
-              "places": ["tashikk"]
+              "places": ["tashikk"],
+              "art": "place:shinovar"
             }
           ]
         },
@@ -735,7 +746,8 @@
             {
               "revealedIn": [{ "book": "oathbringer", "chapter": "122" }],
               "title": "Shinovar stays apart",
-              "text": "Through a Thaylen merchant, Dalinar asked the Shin to join his coalition, keen to win them because they held the westernmost Oathgate on the mainland. They declined, sending back only their congratulations. They never sided with Odium either, and after the Battle of Thaylen Field they remained uncommitted."
+              "text": "Through a Thaylen merchant, Dalinar asked the Shin to join his coalition, keen to win them because they held the westernmost Oathgate on the mainland. They declined, sending back only their congratulations. They never sided with Odium either, and after the Battle of Thaylen Field they remained uncommitted.",
+              "art": "place:shinovar"
             }
           ]
         }
@@ -761,7 +773,8 @@
             {
               "revealedIn": [{ "book": "wind-and-truth", "chapter": "22" }],
               "title": "Szeth's quest to cleanse Shinovar",
-              "text": "Szeth came home with Kaladin on a quest to cleanse Shinovar of an Unmade he said had been at work there for years."
+              "text": "Szeth came home with Kaladin on a quest to cleanse Shinovar of an Unmade he said had been at work there for years.",
+              "art": "character:szeth"
             },
             {
               "revealedIn": [{ "book": "wind-and-truth", "chapter": "143" }],
@@ -780,7 +793,8 @@
               "revealedIn": [{ "book": "wind-and-truth", "chapter": "145" }],
               "title": "Claimed by Retribution",
               "text": "When Retribution rose, he counted Shinovar among the lands newly under his control, along with the Reshi Isles.",
-              "places": ["reshi-isles"]
+              "places": ["reshi-isles"],
+              "art": "place:shinovar"
             }
           ]
         }

@@ -193,7 +193,8 @@
             {
               "revealedIn": ["way-of-kings"],
               "title": "Part of Makabakam",
-              "text": "In the age of the Silver Kingdoms, Liafor's lands were part of Makabakam."
+              "text": "In the age of the Silver Kingdoms, Liafor's lands were part of Makabakam.",
+              "art": "place:silver-kingdoms"
             }
           ]
         }
@@ -220,7 +221,8 @@
               "revealedIn": [{ "book": "oathbringer", "chapter": "8" }],
               "title": "Worth asking",
               "text": "When the True Desolation began, Dalinar judged Liafor and Yezier the only Makabaki kingdoms steady enough to approach about joining his coalition.",
-              "places": ["yezier"]
+              "places": ["yezier"],
+              "art": "character:dalinar-kholin"
             }
           ]
         },

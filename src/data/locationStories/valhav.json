@@ -125,7 +125,8 @@
             {
               "revealedIn": [{ "book": "oathbringer", "chapter": "113" }],
               "title": "A land of singers",
-              "text": "Singers lived in the land that became Valhav before humans came to Roshar."
+              "text": "Singers lived in the land that became Valhav before humans came to Roshar.",
+              "art": "lifeform:singer"
             },
             {
               "revealedIn": [
@@ -191,7 +192,8 @@
             {
               "revealedIn": [{ "book": "way-of-kings", "chapter": "19" }],
               "title": "Desolation after Desolation",
-              "text": "Desolations struck Valhav again and again, along with the rest of Roshar."
+              "text": "Desolations struck Valhav again and again, along with the rest of Roshar.",
+              "art": "event:desolation"
             }
           ]
         },
@@ -204,7 +206,7 @@
               "title": "The Last Desolation",
               "text": "About 4,500 years ago, the Last Desolation struck a world still weak from the Desolation before it. Weary of their torment, nine of the Heralds then refused to go back, leaving Taln to bear it alone.",
               "after": ["desolations"],
-              "art": "character:kalak"
+              "art": "ability:herald"
             }
           ]
         }
@@ -243,7 +245,8 @@
               ],
               "title": "The Desolations end",
               "text": "With no more Desolations to ravage it, Valhav could advance further than ever before.",
-              "after": ["last-desolation"]
+              "after": ["last-desolation"],
+              "art": "event:era-of-solitude"
             }
           ]
         },
@@ -255,7 +258,8 @@
               "revealedIn": ["oathbringer"],
               "title": "Valhav falls apart",
               "text": "At some point after the Last Desolation, Valhav collapsed. Its old lands are now split among several kingdoms, the largest share ruled by Jah Keved.",
-              "places": ["jah-keved"]
+              "places": ["jah-keved"],
+              "art": "place:jah-keved"
             }
           ]
         }

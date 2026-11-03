@@ -204,7 +204,8 @@
             {
               "revealedIn": [{ "book": "oathbringer", "chapter": "16" }],
               "title": "A Silver Kingdom",
-              "text": "Iri was once one of the Silver Kingdoms."
+              "text": "Iri was once one of the Silver Kingdoms.",
+              "art": "place:silver-kingdoms"
             }
           ]
         },
@@ -215,7 +216,8 @@
             {
               "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-2" }],
               "title": "The Fourth Land",
-              "text": "The Iriali believe they came to Roshar from another land: Roshar is the Fourth of the seven Lands on their Long Trail."
+              "text": "The Iriali believe they came to Roshar from another land: Roshar is the Fourth of the seven Lands on their Long Trail.",
+              "art": "place:rira-country"
             }
           ]
         },
@@ -228,7 +230,8 @@
               "title": "A claim on Rira",
               "text": "Iri claims Rira as a vassal, though Rira disputes the claim.",
               "places": ["rira-country"],
-              "after": ["silver-kingdom"]
+              "after": ["silver-kingdom"],
+              "art": "place:rira-country"
             }
           ]
         }
@@ -272,7 +275,8 @@
             {
               "revealedIn": [{ "book": "oathbringer", "chapter": "16" }],
               "title": "Choosing surrender",
-              "text": "Looking through their histories, the Iriali saw that humans had never tried yielding to escape a Desolation, and felt bound to try it, since the One had never yet lived through it."
+              "text": "Looking through their histories, the Iriali saw that humans had never tried yielding to escape a Desolation, and felt bound to try it, since the One had never yet lived through it.",
+              "art": "place:iri"
             }
           ]
         },
@@ -292,7 +296,8 @@
               "title": "Striking east",
               "text": "Iri struck east alongside Odium's forces, occupying Rira and taking most of the western kingdoms around the Purelake. It became a staging ground for troops, and the place Odium's navy fell back to after a defeat by the coalition.",
               "places": ["rira-country", "purelake"],
-              "after": ["surrender"]
+              "after": ["surrender"],
+              "art": "place:purelake"
             }
           ]
         }

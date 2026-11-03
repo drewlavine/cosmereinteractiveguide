@@ -44,6 +44,14 @@ character text and character art writers share `~/cig-char-data`; art owns
   thing it shows (map labels count). Credit `artist` and `artistUrl`. No AI,
   NSFW or uncredited art. WEBP, at most 600px wide (800 for maps), quality
   about 82, under about 90 KB.
+- **History and timeline art (planet, nation, any Metro moment):** give every
+  moment art if you can. A loose match beats the planet globe; use the globe
+  only when nothing relates at all. Match what the moment evokes: its
+  people, place, culture, a related figure or Herald, or the object it's
+  about. Repeats are fine. The usual dating rules still apply: the art must
+  reveal nothing later than the telling. Note missing pieces as "Art wanted"
+  in STATUS.md for the entry/place art pipeline. Drew would rather reject a
+  loose pick than see the planet.
 - Never hand-edit generated files: change pipeline input and re-emit. After
   every emit, confirm no id or field disappeared (compare ids and counts).
 - **Shared tree:** never stage, commit, stash, reset, check out or clean;
