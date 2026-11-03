@@ -246,9 +246,12 @@ function PageMap({
   onJump: (section: NavSection, part?: NavPart) => void
 }) {
   const track = useRef<HTMLDivElement>(null)
-  const drag = useRef<{ offset: number; start: number; moved: boolean }>(
-    undefined,
-  )
+  const drag = useRef<{
+    offset: number
+    start: number
+    moved: boolean
+    label?: string
+  }>(undefined)
   const [height, setHeight] = useState(400)
   const { geometry } = nav
   const markers = mapMarkers(nav)
@@ -320,6 +323,11 @@ function PageMap({
           drag.current = {
             start: event.clientY,
             moved: false,
+            label:
+              event.target instanceof Element
+                ? event.target.closest<HTMLElement>('[data-map-label]')?.dataset
+                    .mapLabel
+                : undefined,
             offset: inWindow
               ? y - geometry.viewStart * box.height
               : (geometry.viewSize * box.height) / 2,
@@ -336,18 +344,24 @@ function PageMap({
           const box = track.current?.getBoundingClientRect()
           if (box?.height && drag.current && !drag.current.moved) {
             const y = event.clientY - box.top
-            const nearest = markers.reduce<
-              (typeof markers)[number] | undefined
-            >(
-              (best, marker) =>
-                !best ||
-                Math.abs(marker.start * box.height - y) <
-                  Math.abs(best.start * box.height - y)
-                  ? marker
-                  : best,
-              undefined,
+            const label = markers.find(
+              (marker) => marker.key === drag.current?.label,
             )
-            if (nearest && Math.abs(nearest.start * box.height - y) <= 12)
+            const nearest =
+              label ??
+              markers.reduce<(typeof markers)[number] | undefined>(
+                (best, marker) =>
+                  !best ||
+                  Math.abs(marker.start * box.height - y) <
+                    Math.abs(best.start * box.height - y)
+                    ? marker
+                    : best,
+                undefined,
+              )
+            if (
+              nearest &&
+              (label || Math.abs(nearest.start * box.height - y) <= 12)
+            )
               onJump(nearest.section, nearest.part)
             else position(event)
           }
@@ -387,7 +401,10 @@ function PageMap({
           >
             <span className={styles.mapTick} />
             {labels.has(marker.key) && (
-              <span className={styles.mapMarkerLabel}>
+              <span
+                className={styles.mapMarkerLabel}
+                data-map-label={marker.key}
+              >
                 {marker.part?.topic && (
                   <TopicIcon
                     topic={marker.part.topic}

@@ -10,6 +10,12 @@ import { useLocation, useNavigate } from 'react-router'
 import type { ShownEra } from '../../data/planetHistory'
 import type { CultureTopic } from '../../data/types'
 import type { MetroHandle } from '../history/ScrubLooks'
+import {
+  discardFragment,
+  pendingFragment,
+  quarantineFragment,
+  releaseFragment,
+} from './placeFragments'
 import { jumpTo, type ShownTopic } from './placeTopics'
 
 export interface NavPart {
@@ -103,9 +109,11 @@ export function usePageNavigation({
 }) {
   const route = useLocation()
   const navigate = useNavigate()
+  const path = useRef(location.pathname)
   const [snapshot, setSnapshot] = useState<Snapshot>()
   const [reading, setReading] = useState<Reading>({ section: 'top' })
   const [era, setEra] = useState(0)
+  const [restored, setRestored] = useState(0)
   const pinned = useRef<Reading>(undefined)
   const followed = useRef<{ hash: string; version: object }>(undefined)
   const ownHash = useRef<string>(undefined)
@@ -191,17 +199,23 @@ export function usePageNavigation({
     [eras, writeHash],
   )
 
-  // Validate again on navigation, not just progress changes. Back can
-  // restore an old fragment after its heading has become a spoiler.
+  // Quarantine until the story is trimmed, then validate again on progress
+  // and navigation. Back may restore a fragment after it becomes a spoiler.
   useLayoutEffect(() => {
     const root = rootRef.current
-    if (!root || loading) return
-    const path = location.pathname
+    if (!root || !path.current.endsWith(route.pathname)) return
     const validate = () => {
-      if (location.pathname !== path || !location.hash) return
+      if (location.pathname !== path.current) return
+      if (loading) {
+        quarantineFragment()
+        return
+      }
+      const currentHash = location.hash
+      const hash = currentHash || pendingFragment()
+      if (!hash) return
       let id = ''
       try {
-        id = decodeURIComponent(location.hash.slice(1))
+        id = decodeURIComponent(hash.slice(1))
       } catch {
         // An invalid fragment cannot name a visible heading.
       }
@@ -210,12 +224,13 @@ export function usePageNavigation({
         ? eras.filter((entry) => eraHref(entry) === `#${id}`).length === 1 &&
           root.contains(document.getElementById('history'))
         : id === 'top' || (target && root.contains(target))
-      if (valid) return
-      history.replaceState(
-        history.state,
-        '',
-        location.pathname + location.search,
-      )
+      if (valid) {
+        releaseFragment(hash)
+        // A native history entry may have no Router key or hash to update.
+        if (!currentHash) setRestored((n) => n + 1)
+        return
+      }
+      discardFragment()
       followed.current = undefined
       ownHash.current = undefined
       stopFollowing()
@@ -227,7 +242,16 @@ export function usePageNavigation({
       window.removeEventListener('popstate', validate)
       window.removeEventListener('hashchange', validate)
     }
-  }, [rootRef, eras, version, loading, route.hash, stopFollowing])
+  }, [
+    rootRef,
+    eras,
+    version,
+    loading,
+    route.pathname,
+    route.hash,
+    route.key,
+    stopFollowing,
+  ])
 
   useEffect(() => stopFollowing, [stopFollowing])
 
@@ -493,6 +517,8 @@ export function usePageNavigation({
     following.current = { id, timers }
   }, [
     route.hash,
+    route.key,
+    restored,
     sections,
     snapshot,
     version,
