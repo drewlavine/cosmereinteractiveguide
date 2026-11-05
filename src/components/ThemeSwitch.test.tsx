@@ -8,6 +8,7 @@ import {
 import userEvent from '@testing-library/user-event'
 import { createMemoryRouter, RouterProvider } from 'react-router'
 import { afterEach, beforeAll, describe, expect, it, vi } from 'vitest'
+import indexHtml from '../../index.html?raw'
 import { loadStory } from '../data/characterStories'
 import { routes } from '../routes'
 import { BOOKS_READ_KEY } from '../state/booksRead'
@@ -19,6 +20,59 @@ afterEach(() => {
   vi.restoreAllMocks()
   vi.unstubAllGlobals()
   delete document.documentElement.dataset.theme
+})
+
+describe('First-paint theme bootstrap', () => {
+  const page = new DOMParser().parseFromString(indexHtml, 'text/html')
+  const bootstrap = page.head.querySelector('script')!
+
+  function runBootstrap() {
+    // Execute the actual inline document script without loading the app.
+    new Function('document', 'console', bootstrap.textContent!)(
+      document,
+      console,
+    )
+  }
+
+  it('is synchronous and precedes app scripts, stylesheets and preloads', () => {
+    expect(bootstrap).not.toBeNull()
+    expect(bootstrap.hasAttribute('src')).toBe(false)
+    expect(bootstrap.hasAttribute('type')).toBe(false)
+    expect(bootstrap.hasAttribute('defer')).toBe(false)
+    expect(bootstrap.hasAttribute('async')).toBe(false)
+    for (const resource of page.querySelectorAll(
+      'script[src], link[rel="stylesheet"], link[rel="modulepreload"]',
+    )) {
+      expect(
+        bootstrap.compareDocumentPosition(resource) &
+          Node.DOCUMENT_POSITION_FOLLOWING,
+      ).toBeTruthy()
+    }
+  })
+
+  it.each([null, 'classic', 'illuminated', 'unknown', 'CLASSIC'])(
+    'sets the root before app boot and agrees with normal loading for %s',
+    (saved) => {
+      if (saved !== null) localStorage.setItem(THEME_KEY, saved)
+      runBootstrap()
+      const expected = saved === 'classic' ? 'classic' : 'illuminated'
+      expect(document.documentElement.dataset.theme).toBe(expected)
+      expect(loadTheme()).toBe(expected)
+    },
+  )
+
+  it('still sets Illuminated and warns when storage is denied', () => {
+    const warning = vi.spyOn(console, 'warn').mockImplementation(() => {})
+    vi.spyOn(Storage.prototype, 'getItem').mockImplementation(() => {
+      throw new DOMException('Denied', 'SecurityError')
+    })
+    expect(runBootstrap).not.toThrow()
+    expect(document.documentElement.dataset.theme).toBe('illuminated')
+    expect(loadTheme()).toBe('illuminated')
+    expect(warning).toHaveBeenCalledWith(
+      'Theme preference unavailable; using Illuminated.',
+    )
+  })
 })
 
 describe('Theme preference', () => {

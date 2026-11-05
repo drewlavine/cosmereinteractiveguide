@@ -12,7 +12,7 @@ export function loadTheme(): Theme {
   }
 }
 
-/** Shared by entry boot (before paint) and the header control. */
+/** Synchronizes the entry and header with the pre-paint bootstrap in index.html. */
 export function applyTheme(theme: Theme) {
   document.documentElement.dataset.theme = theme
 }
