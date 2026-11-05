@@ -674,12 +674,15 @@ describe('Design D navigation comparison', { timeout: 20000 }, () => {
     fireEvent.wheel(main)
 
     fireEvent.pointerDown(slider, { clientY: 300, pointerId: 1, buttons: 1 })
+    // A plate that sticks while the page scrolls moves the track mid-drag.
+    slider.getBoundingClientRect = () => rect(-200, 400)
     fireEvent.pointerMove(slider, { clientY: 380, pointerId: 1, buttons: 1 })
     fireEvent.pointerUp(slider, { clientY: 380, pointerId: 1 })
     expect(scroll).toHaveBeenLastCalledWith({
       top: 1150,
       behavior: 'auto',
     })
+    slider.getBoundingClientRect = () => rect(100, 400)
     expect(windowScroll).not.toHaveBeenCalled()
     fireEvent.keyDown(slider, { key: 'End' })
     expect(scroll).toHaveBeenLastCalledWith({

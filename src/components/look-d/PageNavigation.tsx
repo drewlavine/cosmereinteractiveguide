@@ -246,8 +246,11 @@ function PageMap({
   onJump: (section: NavSection, part?: NavPart) => void
 }) {
   const track = useRef<HTMLDivElement>(null)
+  // The track can move while the page scrolls under it, so a drag follows
+  // the pointer's travel from where it started rather than the track's box.
   const drag = useRef<{
-    offset: number
+    origin: number
+    height: number
     start: number
     moved: boolean
     label?: string
@@ -274,9 +277,11 @@ function PageMap({
     }
   }, [])
   const position = (event: PointerEvent<HTMLElement>) => {
-    const box = track.current?.getBoundingClientRect()
-    if (box?.height && drag.current)
-      nav.seek((event.clientY - box.top - drag.current.offset) / box.height)
+    if (drag.current)
+      nav.seek(
+        drag.current.origin +
+          (event.clientY - drag.current.start) / drag.current.height,
+      )
   }
   const key = (event: KeyboardEvent<HTMLElement>) => {
     const delta: Record<string, number> = {
@@ -328,9 +333,10 @@ function PageMap({
                 ? event.target.closest<HTMLElement>('[data-map-label]')?.dataset
                     .mapLabel
                 : undefined,
-            offset: inWindow
-              ? y - geometry.viewStart * box.height
-              : (geometry.viewSize * box.height) / 2,
+            height: box.height,
+            origin: inWindow
+              ? geometry.viewStart
+              : y / box.height - geometry.viewSize / 2,
           }
           event.currentTarget.setPointerCapture?.(event.pointerId)
         }}
