@@ -1,8 +1,10 @@
+import { useEffect } from 'react'
 import { Link, Navigate, useLocation, useParams } from 'react-router'
 import { BookList } from '../components/BookList'
 import { PlaceBreadcrumb, PlacePage } from '../components/PlacePage'
 import {
   pendingFragment,
+  redirectPendingFragment,
   useHiddenPlaceFragment,
 } from '../components/look-d/placeFragments'
 import { ancestorTrail } from '../data/ancestors'
@@ -25,6 +27,30 @@ import { NotFound } from './NotFound'
 
 const coppermindUrl = (page: string) =>
   `https://coppermind.net/wiki/${encodeURIComponent(page.replaceAll(' ', '_'))}`
+
+/** Keep the same native entry and notify the router when an alias moves. */
+function PendingAlias({
+  from,
+  pathname,
+  search,
+  hash,
+}: {
+  from: string
+  pathname: string
+  search: string
+  hash: string
+}) {
+  useEffect(() => {
+    const base = import.meta.env.BASE_URL.replace(/\/$/, '')
+    if (
+      location.pathname.toLowerCase() === (base + from).toLowerCase() &&
+      location.search === search &&
+      redirectPendingFragment(base + pathname, search, hash)
+    )
+      window.dispatchEvent(new PopStateEvent('popstate'))
+  }, [from, pathname, search, hash])
+  return null
+}
 
 /**
  * A place from the Locations list without a map page of its own; places
@@ -59,6 +85,15 @@ export function ListedLocationDetail() {
       location.pathname.toLowerCase() === (base + route.pathname).toLowerCase()
         ? pendingFragment()
         : ''
+    if (hash)
+      return (
+        <PendingAlias
+          from={route.pathname}
+          pathname={href!}
+          search={route.search}
+          hash={hash}
+        />
+      )
     return (
       <Navigate
         to={{ pathname: href, search: route.search, hash: hash ?? '' }}

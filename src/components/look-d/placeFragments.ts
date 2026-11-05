@@ -1,24 +1,91 @@
 import { useLayoutEffect, useRef } from 'react'
 import { useLocation } from 'react-router'
 
-// Keep unverified fragments out of the URL and browser history state while a
-// story loads. History keys let Back/Forward retain each pending destination.
-const pending = new Map<string, string>()
+// A pending fragment belongs to its history entry, so it survives reloads
+// and Back/Forward even when the browser provides no navigation keys.
+const prefix = '__cosmereGuidePendingFragment'
+const marker = 'cosmere-guide:pending-fragment-v1'
 const nativePush = history.pushState
 const nativeReplace = history.replaceState
-const entryKey = () => {
-  const state = history.state as { key?: string; idx?: number } | null
-  return JSON.stringify([
-    location.pathname,
-    location.search,
-    window.navigation?.currentEntry?.key ?? state?.key ?? state?.idx ?? null,
-  ])
+
+interface Pending {
+  marker: typeof marker
+  hash: string
+  boxed: boolean
+  original?: unknown
 }
 
-function replaceFragment(hash: string) {
+const isObject = (value: unknown): value is Record<string, unknown> =>
+  value !== null && typeof value === 'object'
+
+function findPending(state: unknown) {
+  if (!isObject(state)) return
+  for (const key of Object.keys(state)) {
+    const value = state[key]
+    if (
+      key.startsWith(prefix) &&
+      /^_*$/.test(key.slice(prefix.length)) &&
+      isObject(value) &&
+      value.marker === marker &&
+      typeof value.hash === 'string' &&
+      value.hash.startsWith('#') &&
+      typeof value.boxed === 'boolean'
+    )
+      return { key, value: value as unknown as Pending }
+  }
+}
+
+function cloneObject(state: Record<string, unknown>) {
+  if (typeof structuredClone === 'function') return structuredClone(state)
+  return Array.isArray(state)
+    ? Object.assign(state.slice(), state)
+    : { ...state }
+}
+
+/** Remove our metadata without changing user fields, arrays or primitives. */
+function withoutPending(state: unknown): unknown {
+  const found = findPending(state)
+  if (!found || !isObject(state)) return state
+  const copy = cloneObject(state)
+  const info = copy[found.key] as Pending
+  delete copy[found.key]
+  if (info.boxed) {
+    const original = Object.assign({}, info.original) as Record<string, unknown>
+    const keys = Object.keys(copy)
+    if (
+      keys.length === Object.keys(original).length &&
+      keys.every((key) => Object.is(copy[key], original[key]))
+    )
+      return info.original
+  }
+  return copy
+}
+
+function withPending(state: unknown, hash: string) {
+  const original = withoutPending(state)
+  const plain =
+    isObject(original) &&
+    (Array.isArray(original) ||
+      Object.getPrototypeOf(original) === Object.prototype ||
+      Object.getPrototypeOf(original) === null)
+  const copy: Record<string, unknown> = plain
+    ? cloneObject(original)
+    : Object.assign({}, original)
+  let key = prefix
+  while (Object.hasOwn(copy, key)) key += '_'
+  copy[key] = {
+    marker,
+    hash,
+    boxed: !plain,
+    ...(!plain ? { original } : {}),
+  } satisfies Pending
+  return copy
+}
+
+function replaceFragment(hash: string, state: unknown) {
   nativeReplace.call(
     history,
-    history.state,
+    state,
     '',
     location.pathname + location.search + hash,
   )
@@ -26,20 +93,30 @@ function replaceFragment(hash: string) {
 
 export function quarantineFragment() {
   if (!location.hash) return
-  pending.set(entryKey(), location.hash)
-  replaceFragment('')
+  replaceFragment('', withPending(history.state, location.hash))
 }
 
-export const pendingFragment = () => pending.get(entryKey())
+export const pendingFragment = () => findPending(history.state)?.value.hash
 
 export function releaseFragment(hash: string) {
-  pending.delete(entryKey())
-  if (location.hash !== hash) replaceFragment(hash)
+  if (pendingFragment() || location.hash !== hash)
+    replaceFragment(hash, withoutPending(history.state))
 }
 
 export function discardFragment() {
-  pending.delete(entryKey())
-  if (location.hash) replaceFragment('')
+  if (pendingFragment() || location.hash)
+    replaceFragment('', withoutPending(history.state))
+}
+
+/** Move an alias entry without exposing or discarding its pending target. */
+export function redirectPendingFragment(
+  pathname: string,
+  search: string,
+  hash: string,
+) {
+  if (pendingFragment() !== hash) return false
+  nativeReplace.call(history, history.state, '', pathname + search)
+  return true
 }
 
 function placePath(pathname: string) {
@@ -85,11 +162,19 @@ function pushState(
   url?: string | URL | null,
 ) {
   const target = this === history ? destination(url) : undefined
-  if (!target) return nativePush.call(this, data, unused, url)
-  const hash = target.hash
-  target.hash = ''
-  nativePush.call(this, data, unused, target.href)
-  pending.set(entryKey(), hash)
+  if (target) {
+    const hash = target.hash
+    target.hash = ''
+    return nativePush.call(this, withPending(data, hash), unused, target.href)
+  }
+  if (this !== history) return nativePush.call(this, data, unused, url)
+  const hash = url == null || url === '' ? pendingFragment() : undefined
+  return nativePush.call(
+    this,
+    hash ? withPending(data, hash) : withoutPending(data),
+    unused,
+    url,
+  )
 }
 
 function replaceState(
@@ -99,14 +184,24 @@ function replaceState(
   url?: string | URL | null,
 ) {
   const target = this === history ? destination(url) : undefined
-  if (!target || target.href === location.href)
-    return nativeReplace.call(this, data, unused, url)
-  const previous = entryKey()
-  const hash = target.hash
-  target.hash = ''
-  nativeReplace.call(this, data, unused, target.href)
-  pending.delete(previous)
-  pending.set(entryKey(), hash)
+  if (target && target.href !== location.href) {
+    const hash = target.hash
+    target.hash = ''
+    return nativeReplace.call(
+      this,
+      withPending(data, hash),
+      unused,
+      target.href,
+    )
+  }
+  if (this !== history) return nativeReplace.call(this, data, unused, url)
+  const hash = url == null || url === '' ? pendingFragment() : undefined
+  return nativeReplace.call(
+    this,
+    hash ? withPending(data, hash) : withoutPending(data),
+    unused,
+    url,
+  )
 }
 
 history.pushState = pushState

@@ -29,8 +29,9 @@ function mount(
   mode: Mode,
   read: string[] = [],
   reading: Record<string, string> = {},
+  design: 'a' | 'd' = 'd',
 ) {
-  localStorage.setItem('placeLook', 'd')
+  localStorage.setItem('placeLook', design)
   localStorage.setItem('placeNavigation', mode)
   localStorage.setItem(
     BOOKS_READ_KEY,
@@ -97,7 +98,8 @@ async function backToInitial(
   await act(async () =>
     current.navigate(`${path}#about`, { state: { from: 'about' } }),
   )
-  const laterState = structuredClone(history.state)
+  const { idx, key, usr } = history.state
+  const laterState = structuredClone({ idx, key, usr })
   expect(location.hash).toBe('')
   await act(async () => history.back())
   await waitFor(() => expect(history.state.key).toBe(initialKey))
@@ -147,6 +149,67 @@ describe('place fragment safety', { timeout: 20000 }, () => {
     )
     expect(history.state).toEqual(state)
   })
+
+  it.each([
+    [
+      KHOLINAR,
+      'kholinar',
+      [...THROUGH_WOR, 'oathbringer'],
+      { 'rhythm-of-war': 'i-4' },
+      '#history-occupation',
+    ],
+    [
+      '/locations/akak',
+      'akak',
+      ['way-of-kings'],
+      { oathbringer: '52' },
+      '#history-alethi-conquest',
+    ],
+  ] as const)(
+    'keeps Design A links unchanged on %s',
+    async (path, storyId, read, reading, hash) => {
+      delayStory(storyId)
+      const { state } = mount(
+        `${path}?comparison=on${hash}`,
+        'contents',
+        [...read],
+        reading,
+        'a',
+      )
+      expect(document.querySelector('article[aria-busy="true"]')).toBeTruthy()
+      expect(location.hash).toBe(hash)
+      expect(history.state).toEqual(state)
+      await act(async () => release?.())
+      expect(
+        await screen.findByRole('navigation', { name: 'Contents' }),
+      ).toBeInTheDocument()
+      expect(location.hash).toBe(hash)
+      expect(location.search).toBe('?comparison=on')
+      expect(history.state).toEqual(state)
+    },
+  )
+
+  it.each([
+    [KHOLINAR, 'Not yet charted'],
+    ['/locations/akak', 'Not reached yet'],
+  ] as const)(
+    'clears a hidden place in Design A on %s',
+    async (path, fallback) => {
+      const { state } = mount(
+        `${path}?comparison=on#history-occupation`,
+        'contents',
+        [],
+        {},
+        'a',
+      )
+      expect(
+        await screen.findByRole('heading', { name: fallback }),
+      ).toBeInTheDocument()
+      expect(location.hash).toBe('')
+      expect(location.search).toBe('?comparison=on')
+      expect(history.state).toEqual(state)
+    },
+  )
 
   const equivalentRoutes = [
     '/SYSTEMS/rosharan/PLANETS/roshar/LOCATIONS/kholinar///',
@@ -210,19 +273,21 @@ describe('place fragment safety', { timeout: 20000 }, () => {
       )
       expect(document.querySelector('article[aria-busy="true"]')).toBeTruthy()
       expect(location.hash).toBe('')
-      expect(history.state).toEqual(state)
+      expect(history.state).toMatchObject(state)
       expect(current.state.location.state).toEqual(state.usr)
       expect(location.search).toBe('?comparison=on')
 
       const laterState = await backToInitial(current, path, state.key)
-      expect(history.state).toEqual(state)
+      expect(history.state).toMatchObject(state)
       await act(async () => release?.())
       const nav = await navigation(mode)
       if (visible) {
         await waitFor(() => expect(location.hash).toBe('#history-occupation'))
-        expect(
-          screen.getByRole('heading', { name: 'Occupation' }),
-        ).toBeVisible()
+        await waitFor(() =>
+          expect(
+            screen.getByRole('heading', { name: 'Occupation' }),
+          ).toBeVisible(),
+        )
       } else {
         expect(location.hash).toBe('')
         expect(nav).not.toHaveTextContent('Occupation')
@@ -238,59 +303,209 @@ describe('place fragment safety', { timeout: 20000 }, () => {
     },
   )
 
-  it('keeps native history entries with the same state distinct while loading', async () => {
-    const navigationEntry = { key: 'initial' }
-    vi.stubGlobal('navigation', { currentEntry: navigationEntry })
+  it.each(['contents', 'map'] as const)(
+    '%s keeps unkeyed native entries distinct without the Navigation API',
+    async (mode) => {
+      vi.stubGlobal('navigation', undefined)
+      delayStory('kholinar')
+      const path = `${KHOLINAR}?comparison=on`
+      mount(path, mode, [...THROUGH_WOR, 'oathbringer'], {
+        'rhythm-of-war': 'i-4',
+      })
+      history.pushState(null, '', `${path}#history-occupation`)
+      expect(location.hash).toBe('')
+      history.pushState(null, '', `${path}#about`)
+      expect(location.hash).toBe('')
+
+      await act(async () => {
+        const popped = new Promise<void>((resolve) =>
+          window.addEventListener('popstate', () => resolve(), { once: true }),
+        )
+        history.back()
+        await popped
+      })
+      expect(location.hash).toBe('')
+      await act(async () => release?.())
+      const nav = await navigation(mode)
+      await waitFor(() => expect(location.hash).toBe('#history-occupation'))
+      const historyParts = await parts(nav, 'History')
+      await waitFor(() =>
+        expect(
+          within(historyParts).getByRole('link', { name: 'Occupation' }),
+        ).toHaveAttribute('aria-current', 'location'),
+      )
+      expect(history.state).toBeNull()
+
+      await act(async () => {
+        const popped = new Promise<void>((resolve) =>
+          window.addEventListener('popstate', () => resolve(), { once: true }),
+        )
+        history.forward()
+        await popped
+      })
+      await waitFor(() => expect(location.hash).toBe('#about'))
+      await waitFor(() =>
+        expect(
+          within(nav).getByRole('link', { name: 'About' }),
+        ).toHaveAttribute('aria-current', 'location'),
+      )
+      expect(history.state).toBeNull()
+      expect(location.search).toBe('?comparison=on')
+    },
+  )
+
+  it.each([
+    [
+      'contents',
+      KHOLINAR,
+      'kholinar',
+      [...THROUGH_WOR, 'oathbringer'],
+      { 'rhythm-of-war': 'i-4' },
+      '#history-occupation',
+    ],
+    [
+      'map',
+      KHOLINAR,
+      'kholinar',
+      [...THROUGH_WOR, 'oathbringer'],
+      { 'rhythm-of-war': 'i-4' },
+      '#history-occupation',
+    ],
+    [
+      'contents',
+      '/locations/akak',
+      'akak',
+      ['way-of-kings'],
+      { oathbringer: '52' },
+      '#history-alethi-conquest',
+    ],
+    [
+      'map',
+      '/locations/akak',
+      'akak',
+      ['way-of-kings'],
+      { oathbringer: '52' },
+      '#history-alethi-conquest',
+    ],
+  ] as const)(
+    '%s does not revive a replaced fragment-free entry on %s',
+    async (mode, route, storyId, read, reading, fragment) => {
+      delayStory(storyId)
+      const path = `${route}?comparison=on`
+      const { state } = mount(`${path}${fragment}`, mode, [...read], reading)
+      expect(location.hash).toBe('')
+      history.replaceState(history.state, '', path)
+      expect(location.hash).toBe('')
+      await act(async () => release?.())
+      await navigation(mode)
+      expect(location.hash).toBe('')
+      expect(location.search).toBe('?comparison=on')
+      expect(history.state).toEqual(state)
+    },
+  )
+
+  it.each([
+    undefined,
+    null,
+    false,
+    7,
+    12n,
+    'reader state',
+    new Date('2024-01-01T00:00:00.000Z'),
+    new Map([['reader', 'state']]),
+    new Set(['reader', 'state']),
+    new Uint8Array([1, 2, 3]),
+    ['reader', 'state'],
+    {
+      idx: 4,
+      key: 'reader-key',
+      usr: { source: 'reader' },
+      extra: { untouched: true },
+      __cosmereGuidePendingFragment: 'a user field',
+    },
+  ])('restores user-owned native state %s after validation', async (state) => {
     delayStory('kholinar')
     const path = `${KHOLINAR}?comparison=on`
     mount(path, 'contents', [...THROUGH_WOR, 'oathbringer'], {
       'rhythm-of-war': 'i-4',
     })
-    navigationEntry.key = 'first'
-    history.pushState(null, '', `${path}#history-occupation`)
+    const original = structuredClone(state)
+    history.pushState(state, '', `${path}#history-occupation`)
     expect(location.hash).toBe('')
-    navigationEntry.key = 'second'
-    history.pushState(null, '', `${path}#about`)
-    expect(location.hash).toBe('')
-
-    navigationEntry.key = 'first'
-    await act(async () => {
-      const popped = new Promise<void>((resolve) =>
-        window.addEventListener('popstate', () => resolve(), { once: true }),
-      )
-      history.back()
-      await popped
-    })
-    expect(location.hash).toBe('')
-    expect(history.state).toBeNull()
+    if (Array.isArray(state)) expect([...history.state]).toEqual(state)
+    else if (
+      state &&
+      typeof state === 'object' &&
+      Object.getPrototypeOf(state) === Object.prototype
+    )
+      expect(history.state).toMatchObject(state)
+    if (state instanceof Uint8Array)
+      expect([...state]).toEqual([...(original as Uint8Array)])
+    else expect(state).toEqual(original)
     await act(async () => release?.())
-    const nav = await navigation('contents')
+    await navigation('contents')
     await waitFor(() => expect(location.hash).toBe('#history-occupation'))
-    const historyParts = await parts(nav, 'History')
-    await waitFor(() =>
-      expect(
-        within(historyParts).getByRole('link', { name: 'Occupation' }),
-      ).toHaveAttribute('aria-current', 'location'),
-    )
-
-    navigationEntry.key = 'second'
-    await act(async () => {
-      const popped = new Promise<void>((resolve) =>
-        window.addEventListener('popstate', () => resolve(), { once: true }),
-      )
-      history.forward()
-      await popped
-    })
-    await waitFor(() => expect(location.hash).toBe('#about'))
-    await waitFor(() =>
-      expect(within(nav).getByRole('link', { name: 'About' })).toHaveAttribute(
-        'aria-current',
-        'location',
-      ),
-    )
-    expect(history.state).toBeNull()
+    if (state instanceof Uint8Array) {
+      expect(history.state.constructor.name).toBe('Uint8Array')
+      expect([...history.state]).toEqual([...state])
+    } else expect(history.state).toEqual(original)
     expect(location.search).toBe('?comparison=on')
   })
+
+  it('preserves cyclic native state without mutating the caller', async () => {
+    delayStory('kholinar')
+    const path = `${KHOLINAR}?comparison=on`
+    mount(path, 'contents', [...THROUGH_WOR, 'oathbringer'], {
+      'rhythm-of-war': 'i-4',
+    })
+    const state: { usr: string; self?: unknown } = { usr: 'reader' }
+    state.self = state
+    history.pushState(state, '', `${path}#history-occupation`)
+    expect(state.self).toBe(state)
+    expect(Object.keys(state)).toEqual(['usr', 'self'])
+    expect(history.state.self).toBe(history.state)
+    await act(async () => release?.())
+    await navigation('contents')
+    await waitFor(() => expect(location.hash).toBe('#history-occupation'))
+    expect(history.state.usr).toBe('reader')
+    expect(history.state.self).toBe(history.state)
+  })
+
+  it.each([
+    ['replaceState', undefined],
+    ['replaceState', null],
+    ['replaceState', ''],
+    ['pushState', undefined],
+    ['pushState', null],
+    ['pushState', ''],
+  ] as const)(
+    'preserves a pending destination through %s with URL %j',
+    async (operation, url) => {
+      delayStory('kholinar')
+      const path = `${KHOLINAR}?comparison=on`
+      const { state } = mount(
+        `${path}#history-occupation`,
+        'contents',
+        [...THROUGH_WOR, 'oathbringer'],
+        { 'rhythm-of-war': 'i-4' },
+      )
+      history[operation](
+        { ...history.state, usr: { from: 'updated' }, extra: 'updated' },
+        '',
+        url,
+      )
+      expect(location.hash).toBe('')
+      await act(async () => release?.())
+      await navigation('contents')
+      await waitFor(() => expect(location.hash).toBe('#history-occupation'))
+      expect(history.state).toEqual({
+        ...state,
+        usr: { from: 'updated' },
+        extra: 'updated',
+      })
+      expect(location.search).toBe('?comparison=on')
+    },
+  )
 
   it.each([
     ['contents', '43', false],
@@ -325,6 +540,30 @@ describe('place fragment safety', { timeout: 20000 }, () => {
       expect(history.state.usr).toEqual(state.usr)
     },
   )
+
+  it('does not copy alias state over a newer navigation', async () => {
+    delayStory('kholinar')
+    const { router: current } = mount(
+      '/locations/kholinar?comparison=on#history-occupation',
+      'contents',
+      [...THROUGH_WOR, 'oathbringer'],
+      { 'rhythm-of-war': 'i-4' },
+    )
+    await act(async () =>
+      current.navigate(`${KHOLINAR}?comparison=on#about`, {
+        replace: true,
+        state: { from: 'newer' },
+      }),
+    )
+    await waitFor(() => expect(location.pathname).toBe(KHOLINAR))
+    expect(location.hash).toBe('')
+    expect(history.state.usr).toEqual({ from: 'newer' })
+    expect(history.state.extra).toBeUndefined()
+    await act(async () => release?.())
+    await navigation('contents')
+    await waitFor(() => expect(location.hash).toBe('#about'))
+    expect(history.state.extra).toBeUndefined()
+  })
 
   it.each([
     ['contents', '43', false],
@@ -408,7 +647,7 @@ describe('place fragment safety', { timeout: 20000 }, () => {
           ).toBeTruthy(),
         )
         expect(location.hash).toBe('')
-        expect(history.state).toEqual(target)
+        expect(history.state).toMatchObject(target)
         await act(async () => release?.())
         await navigation(mode)
         await waitFor(() =>
@@ -449,14 +688,16 @@ describe('place fragment safety', { timeout: 20000 }, () => {
         ).toBeTruthy(),
       )
       expect(location.hash).toBe('')
-      expect(history.state).toEqual(state)
+      expect(history.state).toMatchObject(state)
       await act(async () => release?.())
       const nav = await navigation(mode)
       if (visible) {
         await waitFor(() => expect(location.hash).toBe('#history-occupation'))
-        expect(
-          screen.getByRole('heading', { name: 'Occupation' }),
-        ).toBeVisible()
+        await waitFor(() =>
+          expect(
+            screen.getByRole('heading', { name: 'Occupation' }),
+          ).toBeVisible(),
+        )
       } else {
         expect(location.hash).toBe('')
         expect(nav).not.toHaveTextContent('Occupation')
@@ -493,7 +734,7 @@ describe('place fragment safety', { timeout: 20000 }, () => {
       )
       expect(document.querySelector('article[aria-busy="true"]')).toBeTruthy()
       expect(location.hash).toBe('')
-      expect(history.state).toEqual(state)
+      expect(history.state).toMatchObject(state)
       const laterState = await backToInitial(current, path, state.key)
       await act(async () => release?.())
       const nav = await navigation(mode)
