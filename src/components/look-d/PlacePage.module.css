@@ -167,6 +167,25 @@
   max-width: 46rem;
 }
 
+/* Leave the phone map's 44px edge target clear of the article text. */
+@media (max-width: 1023px) {
+  .mapPage {
+    padding-right: calc(clamp(1.5rem, 4vw, 4rem) + 2.5rem);
+  }
+
+  .stack :global(.page-section),
+  .stack :global(.page-subsection) {
+    scroll-margin-top: 5rem;
+  }
+}
+
+@media (max-width: 380px) {
+  .stack :global(.page-section),
+  .stack :global(.page-subsection) {
+    scroll-margin-top: 8rem;
+  }
+}
+
 /* Narrow screens: the picture heads the hero, full width. */
 .hero .heroArt {
   margin: -2rem calc(-1 * clamp(1.25rem, 3vw, 2.5rem)) 1.25rem;

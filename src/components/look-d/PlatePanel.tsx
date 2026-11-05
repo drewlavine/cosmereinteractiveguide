@@ -2,7 +2,7 @@ import type { ReactNode } from 'react'
 import type { CultureArt } from '../../data/reveal'
 import type { Portrait } from '../../data/characterPortraits'
 import { PortraitArt } from '../ArtViewer'
-import { jumpTo, type ShownTopic } from './placeTopics'
+import type { ShownTopic } from './placeTopics'
 import { TopicIcon } from './TopicIcon'
 import styles from './PlatePanel.module.css'
 
@@ -10,9 +10,8 @@ import styles from './PlatePanel.module.css'
  * The sticky panel beside a place's text on wide screens. It follows the
  * part being read: the place's own picture and more facts near the top; a
  * Culture topic's picture while that topic is read, or its icon when it has
- * none; a compass of the Culture topics; and the page's Contents. Everything
- * comes from revealed data, so it never shows more than the text does.
- * The compass leads, so it stays put while the picture under it changes.
+ * none. The navigation leads, so it stays put while the picture under it
+ * changes. Everything comes from revealed data.
  */
 export function PlatePanel({
   topics,
@@ -20,8 +19,7 @@ export function PlatePanel({
   placeArt,
   active,
   moreFacts,
-  contents,
-  onJump,
+  navigation,
 }: {
   topics: ShownTopic[]
   /** Culture pictures, already trimmed. */
@@ -32,8 +30,7 @@ export function PlatePanel({
   active?: string
   /** dt/dd rows too long for the fact strip. */
   moreFacts: ReactNode
-  contents: ReactNode
-  onJump: (id: string) => void
+  navigation: ReactNode
 }) {
   const topic =
     topics.find((t) => t.id === active) ??
@@ -41,44 +38,15 @@ export function PlatePanel({
   const pictures = topic?.topic
     ? art.filter((a) => a.topic === topic.topic)
     : []
-  const compass = topics.length > 1
   const inCulture = active === 'culture' || active?.startsWith('culture-')
   const upper = !active || active === 'about' || inCulture
-  // A topic takes the plate when it has a picture or there's a compass to
-  // light; otherwise the place's own picture stays.
-  const showTopic = topic && (pictures.length > 0 || compass)
+  // Keep the existing topic illustration or emblem behavior.
+  const showTopic = topic && (pictures.length > 0 || topics.length > 1)
 
   return (
     <aside className={styles.plate} aria-label="Plate">
-      <div
-        className={`${styles.inner}${compass ? ` ${styles.hasCompass}` : ''}`}
-      >
-        {compass && upper && (
-          <nav className={styles.compass} aria-label="Culture topics">
-            <p className={styles.compassTitle}>
-              Culture <span>{topics.length} topics</span>
-            </p>
-            <ol>
-              {topics.map((t) => (
-                <li key={t.id}>
-                  <a
-                    href={`#${t.id}`}
-                    aria-current={t.id === topic?.id ? 'location' : undefined}
-                    onClick={(e) => {
-                      e.preventDefault()
-                      onJump(t.id)
-                      jumpTo(t.id)
-                    }}
-                  >
-                    <TopicIcon topic={t.topic} className={styles.chipIcon} />
-                    <span className={styles.chipTitle}>{t.title}</span>
-                    <span className={styles.chipCount}>{t.count}</span>
-                  </a>
-                </li>
-              ))}
-            </ol>
-          </nav>
-        )}
+      <div className={styles.inner}>
+        {navigation}
         {showTopic ? (
           <div key={topic.id} className={styles.stage}>
             <p className={styles.title}>
@@ -122,7 +90,6 @@ export function PlatePanel({
             {moreFacts}
           </dl>
         )}
-        {contents}
       </div>
     </aside>
   )
