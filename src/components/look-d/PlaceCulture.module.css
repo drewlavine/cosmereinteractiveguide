@@ -20,7 +20,11 @@
   content: '';
   flex: 1;
   height: 1px;
-  background: linear-gradient(90deg, rgba(212, 165, 64, 0.5), transparent);
+  background: linear-gradient(
+    90deg,
+    var(--accent-wash, rgba(212, 165, 64, 0.5)),
+    transparent
+  );
 }
 
 .iconed > h3 {

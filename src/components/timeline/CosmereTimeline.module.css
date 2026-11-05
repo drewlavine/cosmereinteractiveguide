@@ -3,6 +3,7 @@
    and a details panel over the right, after the 17th Shard's Roshar map. */
 
 .stage {
+  composes: media from '../../styles/media.module.css';
   --bar-h: 64px;
   /* The date above the bar, and the gaps around it. */
   --indicator-h: 3.1rem;

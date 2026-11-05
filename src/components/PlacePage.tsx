@@ -34,9 +34,9 @@ export function PlacePage(props: PlacePageProps) {
           gap: 4,
           padding: 6,
           borderRadius: 999,
-          background: '#0b1620ee',
-          border: '1px solid #c9a24a',
-          boxShadow: '0 4px 16px #0008',
+          background: 'var(--surface, #0b1620ee)',
+          border: '1px solid var(--line, #c9a24a)',
+          boxShadow: '0 4px 16px var(--shadow, #0008)',
         }}
       >
         {(Object.keys(looks) as Look[]).map((k) => (
@@ -57,8 +57,12 @@ export function PlacePage(props: PlacePageProps) {
               cursor: 'pointer',
               font: 'inherit',
               fontSize: 13,
-              background: look === k ? '#c9a24a' : 'transparent',
-              color: look === k ? '#0b1620' : '#e8dcc0',
+              background:
+                look === k ? 'var(--accent-ink, #c9a24a)' : 'transparent',
+              color:
+                look === k
+                  ? 'var(--on-accent, #0b1620)'
+                  : 'var(--foreground, #e8dcc0)',
             }}
           >
             {looks[k][0]}

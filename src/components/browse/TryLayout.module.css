@@ -20,12 +20,12 @@
   gap: 0.3rem;
   max-width: 100%;
   padding: 0.25rem;
-  border: 1px solid rgba(212, 165, 64, 0.45);
+  border: 1px solid var(--line, rgba(212, 165, 64, 0.45));
   border-radius: 16px;
-  background: rgba(17, 27, 35, 0.9);
+  background: var(--surface, rgba(17, 27, 35, 0.9));
   -webkit-backdrop-filter: blur(8px);
   backdrop-filter: blur(8px);
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 4px 16px var(--shadow, rgba(0, 0, 0, 0.4));
   font-size: 0.75rem;
   pointer-events: auto;
 }
@@ -52,7 +52,7 @@
 .head {
   min-height: 2.75rem;
   padding: 0.15rem 0.6rem 0.15rem 0.55rem;
-  color: rgba(241, 230, 200, 0.85);
+  color: var(--text-muted, rgba(241, 230, 200, 0.85));
   font-size: 0.68rem;
   font-weight: 600;
   letter-spacing: 0.12em;
@@ -67,7 +67,7 @@
 
 .now {
   padding-left: 0.45rem;
-  border-left: 1px solid rgba(212, 165, 64, 0.35);
+  border-left: 1px solid var(--line, rgba(212, 165, 64, 0.35));
   color: var(--gold);
   font-size: 0.78rem;
   letter-spacing: 0.01em;
@@ -94,13 +94,13 @@
   display: grid;
   gap: 0.2rem;
   padding: 0.1rem 0 0.25rem;
-  border-bottom: 1px solid rgba(212, 165, 64, 0.22);
+  border-bottom: 1px solid var(--line, rgba(212, 165, 64, 0.22));
 }
 
 .label {
   margin: 0.2rem 0 0.2rem;
   padding: 0 0.5rem;
-  color: rgba(212, 165, 64, 0.85);
+  color: var(--accent-ink, rgba(212, 165, 64, 0.85));
   font-size: 0.6rem;
   font-weight: 700;
   letter-spacing: 0.12em;
@@ -126,8 +126,8 @@
 @media (hover: hover) {
   .head:hover,
   .option:hover {
-    background: rgba(212, 165, 64, 0.14);
-    color: #fff;
+    background: var(--accent-wash, rgba(212, 165, 64, 0.14));
+    color: var(--foreground, #fff);
   }
 }
 
@@ -139,8 +139,8 @@
 
 .option[aria-pressed='true'] {
   border-color: var(--gold);
-  background: #4a3b17;
-  color: #fff;
+  background: var(--accent-wash, #4a3b17);
+  color: var(--foreground, #fff);
 }
 
 @media (prefers-reduced-motion: reduce) {

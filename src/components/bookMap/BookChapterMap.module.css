@@ -8,6 +8,7 @@
 
 /* The map and its timeline, in one box; full screen on request. */
 .frame {
+  composes: media from '../../styles/media.module.css';
   display: flex;
   flex-direction: column;
   overflow: hidden;

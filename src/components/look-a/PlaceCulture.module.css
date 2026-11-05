@@ -13,9 +13,9 @@
   align-items: center;
   gap: 0.4rem;
   padding: 0.3rem 0.8rem 0.3rem 0.6rem;
-  border: 1px solid rgba(212, 165, 64, 0.35);
+  border: 1px solid var(--line, rgba(212, 165, 64, 0.35));
   border-radius: 999px;
-  background: rgba(28, 42, 53, 0.6);
+  background: var(--surface-tint, rgba(28, 42, 53, 0.6));
   color: var(--text-strong);
   font-size: 0.88rem;
   text-decoration: none;
@@ -27,7 +27,7 @@
 .index a:hover,
 .index a:focus-visible {
   border-color: var(--gold);
-  background: rgba(212, 165, 64, 0.14);
+  background: var(--accent-wash, rgba(212, 165, 64, 0.14));
 }
 
 .icon {
@@ -45,9 +45,9 @@
   display: flow-root;
   margin: 0 0 1rem;
   padding: 1rem 1.25rem 0.5rem;
-  border: 1px solid rgba(212, 165, 64, 0.22);
+  border: 1px solid var(--line, rgba(212, 165, 64, 0.22));
   border-radius: 12px;
-  background: rgba(28, 42, 53, 0.45);
+  background: var(--surface-tint, rgba(28, 42, 53, 0.45));
   scroll-margin-top: 1rem;
 }
 
@@ -57,7 +57,7 @@ section.topic > h3.title {
   gap: 0.55rem;
   margin: 0 0 0.85rem;
   padding-bottom: 0.45rem;
-  border-bottom: 1px solid rgba(212, 165, 64, 0.4);
+  border-bottom: 1px solid var(--line, rgba(212, 165, 64, 0.4));
   font-size: 1.3rem;
 }
 
