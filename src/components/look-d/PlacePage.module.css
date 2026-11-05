@@ -199,12 +199,7 @@
   max-width: 46rem;
 }
 
-/* Leave the phone map's 44px edge target clear of the article text. */
 @media (max-width: 1023px) {
-  .mapPage {
-    padding-right: calc(clamp(1.5rem, 4vw, 4rem) + 2.5rem);
-  }
-
   .stack :global(.page-section),
   .stack :global(.page-subsection) {
     scroll-margin-top: 5rem;

@@ -57,10 +57,10 @@ async function reloadDocument(storyId: string) {
   await startDocument(storyId)
 }
 
-async function navigation(mode: 'contents' | 'map') {
+async function navigation() {
   const plate = await screen.findByRole('complementary', { name: 'Plate' })
   return within(plate).findByRole('navigation', {
-    name: mode === 'contents' ? 'On this page' : 'Page map',
+    name: 'On this page',
   })
 }
 
@@ -93,7 +93,6 @@ afterEach(() => {
 describe('fragment reload during loading', { timeout: 20000 }, () => {
   it.each([
     [
-      'contents',
       KHOLINAR,
       'kholinar',
       [...THROUGH_WOR, 'oathbringer'],
@@ -103,7 +102,6 @@ describe('fragment reload during loading', { timeout: 20000 }, () => {
       false,
     ],
     [
-      'contents',
       KHOLINAR,
       'kholinar',
       [...THROUGH_WOR, 'oathbringer'],
@@ -113,27 +111,6 @@ describe('fragment reload during loading', { timeout: 20000 }, () => {
       true,
     ],
     [
-      'map',
-      KHOLINAR,
-      'kholinar',
-      [...THROUGH_WOR, 'oathbringer'],
-      'rhythm-of-war',
-      '43',
-      '#history-occupation',
-      false,
-    ],
-    [
-      'map',
-      KHOLINAR,
-      'kholinar',
-      [...THROUGH_WOR, 'oathbringer'],
-      'rhythm-of-war',
-      'i-4',
-      '#history-occupation',
-      true,
-    ],
-    [
-      'map',
       '/locations/kholinar',
       'kholinar',
       [...THROUGH_WOR, 'oathbringer'],
@@ -143,7 +120,6 @@ describe('fragment reload during loading', { timeout: 20000 }, () => {
       false,
     ],
     [
-      'contents',
       '/locations/kholinar',
       'kholinar',
       [...THROUGH_WOR, 'oathbringer'],
@@ -153,17 +129,6 @@ describe('fragment reload during loading', { timeout: 20000 }, () => {
       true,
     ],
     [
-      'map',
-      '/locations/akak',
-      'akak',
-      ['way-of-kings'],
-      'oathbringer',
-      '52',
-      '#history-alethi-conquest',
-      true,
-    ],
-    [
-      'contents',
       '/locations/akak',
       'akak',
       ['way-of-kings'],
@@ -173,10 +138,8 @@ describe('fragment reload during loading', { timeout: 20000 }, () => {
       true,
     ],
   ] as const)(
-    '%s restores only an allowed target after reloading %s',
-    async (mode, path, storyId, read, book, chapter, hash, visible) => {
-      localStorage.setItem('placeLook', 'd')
-      localStorage.setItem('placeNavigation', mode)
+    'restores only an allowed target after reloading %s',
+    async (path, storyId, read, book, chapter, hash, visible) => {
       localStorage.setItem(
         BOOKS_READ_KEY,
         JSON.stringify({ version: 2, read, reading: { [book]: chapter } }),
@@ -190,7 +153,7 @@ describe('fragment reload during loading', { timeout: 20000 }, () => {
         self?: unknown
       } = {
         idx: 0,
-        key: `reload-${mode}`,
+        key: 'reload',
         usr: { from: 'initial' },
         extra: { untouched: true },
         __cosmereGuidePendingFragment: 'a user field',
@@ -213,7 +176,7 @@ describe('fragment reload during loading', { timeout: 20000 }, () => {
       expect(history.state.__cosmereGuidePendingFragment).toBe('a user field')
       expect(history.state.self).toBe(history.state)
       await act(async () => release?.())
-      const nav = await navigation(mode)
+      const nav = await navigation()
       await waitFor(() => expect(location.hash).toBe(visible ? hash : ''))
       if (!visible) expect(nav).not.toHaveTextContent('Occupation')
       expect(location.search).toBe('?comparison=on')
@@ -227,8 +190,6 @@ describe('fragment reload during loading', { timeout: 20000 }, () => {
   it.each([null, false, 'reader'] as const)(
     'retains a pending native entry with %j state through reload',
     async (state) => {
-      localStorage.setItem('placeLook', 'd')
-      localStorage.setItem('placeNavigation', 'contents')
       localStorage.setItem(
         BOOKS_READ_KEY,
         JSON.stringify({
@@ -245,7 +206,7 @@ describe('fragment reload during loading', { timeout: 20000 }, () => {
       await reloadDocument('kholinar')
       expect(location.hash).toBe('')
       await act(async () => release?.())
-      await navigation('contents')
+      await navigation()
       await waitFor(() => expect(location.hash).toBe('#history-occupation'))
       // React Router assigns its index when it boots on an unkeyed entry.
       const expected: Record<string, unknown> = { idx: 0 }
@@ -256,13 +217,11 @@ describe('fragment reload during loading', { timeout: 20000 }, () => {
   )
 
   it.each([
-    ['contents', '112', false],
-    ['map', '113', true],
+    ['112', false],
+    ['113', true],
   ] as const)(
-    '%s validates an era link after reload at chapter %s',
-    async (mode, chapter, visible) => {
-      localStorage.setItem('placeLook', 'd')
-      localStorage.setItem('placeNavigation', mode)
+    'validates an era link after reload at chapter %s',
+    async (chapter, visible) => {
       localStorage.setItem(
         BOOKS_READ_KEY,
         JSON.stringify({
@@ -275,7 +234,7 @@ describe('fragment reload during loading', { timeout: 20000 }, () => {
       const { routes } = await import('./routes')
       router = createBrowserRouter(routes)
       render(<RouterProvider router={router} />)
-      const nav = await navigation(mode)
+      const nav = await navigation()
       const summary = within(nav).queryByText(
         'Browse all sections, topics and eras',
       )
@@ -312,7 +271,7 @@ describe('fragment reload during loading', { timeout: 20000 }, () => {
       await reloadDocument('alethkar')
       expect(location.hash).toBe('')
       await act(async () => release?.())
-      const reloaded = await navigation(mode)
+      const reloaded = await navigation()
       await waitFor(() => expect(location.hash).toBe(visible ? hash : ''))
       if (visible) {
         const metro = within(

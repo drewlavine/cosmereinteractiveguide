@@ -140,7 +140,7 @@ function placePath(pathname: string) {
 
 function destination(url?: string | URL | null) {
   try {
-    if (url == null || localStorage.getItem('placeLook') !== 'd') return
+    if (url == null) return
     const target = new URL(url, location.href)
     if (
       target.origin === location.origin &&
@@ -149,7 +149,7 @@ function destination(url?: string | URL | null) {
     )
       return target
   } catch {
-    // Let the browser handle invalid URLs or unavailable storage.
+    // Let the browser handle invalid URLs.
   }
 }
 

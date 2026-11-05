@@ -80,60 +80,37 @@ describe('a place page’s Culture', { timeout: 20000 }, () => {
     ).toBeInTheDocument()
   })
 
-  it('indexes only the topics the reader has reached', async () => {
+  it('shows only the topics the reader has reached', async () => {
     const culture = await renderAt('alethkar', ['way-of-kings'])
     const topics = within(culture)
       .getAllByRole('heading', { level: 3 })
       .map((h) => h.textContent)
-    const index = within(culture).getByRole('navigation', {
-      name: 'Culture topics',
-    })
-    expect(
-      within(index)
-        .getAllByRole('link')
-        .map((a) => a.textContent),
-    ).toEqual(topics)
     // Dress has nothing to show until later.
+    expect(topics).toContain('War')
     expect(topics).not.toContain('Dress')
-    expect(within(index).getByRole('link', { name: 'War' })).toHaveAttribute(
-      'href',
-      '#culture-war',
-    )
     cleanup()
 
-    // Thaylenah has only two topics by then: no index.
     const few = await renderAt('thaylenah', ['way-of-kings'])
     expect(within(few).getAllByRole('heading', { level: 3 })).toHaveLength(2)
-    expect(within(few).queryByRole('navigation')).toBeNull()
   })
 
-  it('counts only the notes the reader has reached in Show all', async () => {
+  it('shows only the notes the reader has reached', async () => {
     const war = async (read: string[]) => {
       await renderAt('alethkar', read)
-      const region = screen.getByRole('region', { name: 'War' })
-      return {
-        notes: region.querySelectorAll('p').length,
-        more: region.querySelector('summary'),
-      }
+      return screen.getByRole('region', { name: 'War' }).querySelectorAll('p')
+        .length
     }
-    // Four notes after The Way of Kings: short enough to show whole.
-    expect((await war(['way-of-kings'])).more).toBeNull()
+    expect(await war(['way-of-kings'])).toBe(4)
     cleanup()
-
-    const later = await war(['way-of-kings', 'words-of-radiance'])
-    expect(later.notes).toBe(5)
-    expect(later.more).toHaveTextContent('Show all 5 notes on War')
+    expect(await war(['way-of-kings', 'words-of-radiance'])).toBe(5)
     cleanup()
-
-    const all = await war([...toOathbringer, 'oathbringer', 'rhythm-of-war'])
-    expect(all.notes).toBe(6)
-    expect(all.more).toHaveTextContent('Show all 6 notes on War')
+    expect(await war([...toOathbringer, 'oathbringer', 'rhythm-of-war'])).toBe(
+      6,
+    )
   })
 })
 
-describe('design D', () => {
-  // The design switch remembers the reader's pick.
-  beforeEach(() => localStorage.setItem('placeLook', 'd'))
+describe('the plate layout', () => {
   const toOathbringer = ['way-of-kings', 'words-of-radiance', 'edgedancer']
 
   describe('a place page’s navigation and plate', { timeout: 20000 }, () => {
@@ -323,21 +300,5 @@ describe('design D', () => {
         expect(screen.getAllByRole('img', { name: alt })).toHaveLength(1)
       })
     })
-  })
-})
-
-describe('the design switch', { timeout: 20000 }, () => {
-  it('swaps the place page design and remembers the pick', async () => {
-    const user = userEvent.setup()
-    await renderAt('alethkar', ['way-of-kings'])
-    const switcher = screen.getByRole('group', { name: 'Page design' })
-    expect(
-      within(switcher).getByRole('button', { name: 'Design A' }),
-    ).toHaveAttribute('aria-pressed', 'true')
-    await user.click(within(switcher).getByRole('button', { name: 'Design D' }))
-    expect(localStorage.getItem('placeLook')).toBe('d')
-    expect(
-      await screen.findByRole('group', { name: 'Navigation style' }),
-    ).toBeInTheDocument()
   })
 })

@@ -46,11 +46,7 @@ import type { MetroHandle } from '../history/ScrubLooks'
 import { PlatePanel } from './PlatePanel'
 import { useMedia } from './placeSpy'
 import { shownTopics } from './placeTopics'
-import {
-  MobileNavigation,
-  NavigationPanel,
-  type NavigationStyle,
-} from './PageNavigation'
+import { MobileNavigation, NavigationPanel } from './PageNavigation'
 import { usePageNavigation } from './usePageNavigation'
 import { assetUrl } from '../../data/assetUrl'
 import styles from './PlacePage.module.css'
@@ -158,25 +154,6 @@ export function PlacePage(props: PlacePageProps) {
   const link = useLinkText(`place:${id}`)
   const rootRef = useRef<HTMLElement>(null)
   const metroRef = useRef<MetroHandle>(null)
-  const [navigationStyle, setNavigationStyle] = useState<NavigationStyle>(
-    () => {
-      try {
-        return localStorage.getItem('placeNavigation') === 'map'
-          ? 'map'
-          : 'contents'
-      } catch {
-        return 'contents'
-      }
-    },
-  )
-  const chooseNavigation = (mode: NavigationStyle) => {
-    setNavigationStyle(mode)
-    try {
-      localStorage.setItem('placeNavigation', mode)
-    } catch {
-      // The switch still works for this visit if storage is unavailable.
-    }
-  }
   // Wide windows get the plate; narrower ones put pictures in the text.
   const wide = useMedia(WIDE)
   const story = useMemo(
@@ -260,17 +237,11 @@ export function PlacePage(props: PlacePageProps) {
   return (
     <article
       ref={rootRef}
-      className={`character-detail location-detail place-page${navigationStyle === 'map' ? ` ${styles.mapPage}` : ''}`}
+      className="character-detail location-detail place-page"
       aria-labelledby="location-title"
     >
       {props.breadcrumb}
-      {!wide && (
-        <MobileNavigation
-          nav={nav}
-          mode={navigationStyle}
-          onMode={chooseNavigation}
-        />
-      )}
+      {!wide && <MobileNavigation nav={nav} />}
       <SpoilerNotice
         scope={scope}
         spoilers={
@@ -461,13 +432,7 @@ export function PlacePage(props: PlacePageProps) {
             placeArt={art.portrait}
             active={active}
             moreFacts={props.extraFacts}
-            navigation={
-              <NavigationPanel
-                nav={nav}
-                mode={navigationStyle}
-                onMode={chooseNavigation}
-              />
-            }
+            navigation={<NavigationPanel nav={nav} />}
           />
         )}
       </div>

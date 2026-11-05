@@ -39,31 +39,16 @@ interface Reading {
   part?: string
 }
 
-interface Geometry {
-  segments: { id: string; start: number; size: number }[]
-  markers: { section: string; part?: string; start: number }[]
-  viewStart: number
-  viewSize: number
-  progress: number
-}
-
 interface Snapshot {
   version: object
   sections: NavSection[]
-  geometry: Geometry
+  progress: number
 }
 
 const top: NavSection = { id: 'top', title: 'Top', parts: [] }
 const topOnly = [top]
-const emptyGeometry: Geometry = {
-  segments: [],
-  markers: [],
-  viewStart: 0,
-  viewSize: 1,
-  progress: 0,
-}
-const clamp = (n: number) => Math.max(0, Math.min(1, n))
-const rounded = (n: number) => Math.round(clamp(n) * 10000) / 10000
+const rounded = (n: number) =>
+  Math.round(Math.max(0, Math.min(1, n)) * 10000) / 10000
 
 /** A stable neutral link, never the data id or a title that may change. */
 function eraHref(era: ShownEra) {
@@ -88,7 +73,7 @@ function moveScroller(scroller: HTMLElement, top: number) {
 }
 
 /**
- * One model for both navigation looks. Section names come from rendered
+ * The model behind Contents. Section names come from rendered
  * headings, and era names only from the already-trimmed timeline. A new
  * visibility version invalidates the old snapshot before it can be painted.
  */
@@ -126,8 +111,7 @@ export function usePageNavigation({
     timers: ReturnType<typeof setTimeout>[]
   }>(undefined)
   const sections = snapshot?.version === version ? snapshot.sections : topOnly
-  const geometry =
-    snapshot?.version === version ? snapshot.geometry : emptyGeometry
+  const progress = snapshot?.version === version ? snapshot.progress : 0
   const currentSection = sections.find((s) => s.id === reading.section) ?? top
   const currentPart = currentSection.parts.find((p) => p.id === reading.part)
   const current = {
@@ -299,50 +283,11 @@ export function usePageNavigation({
       const scrollTop = scroller?.scrollTop ?? window.scrollY
       const viewHeight = scroller?.clientHeight ?? window.innerHeight
       const pageTop = scrollTop + page.top - (box?.top ?? 0)
-      const height = page.height
-      let geometry = emptyGeometry
-      if (height > 0) {
-        const starts = [
-          0,
-          ...els.map((el) =>
-            clamp((el.getBoundingClientRect().top - page.top) / height),
-          ),
-        ]
-        const viewStart = clamp((scrollTop - pageTop) / height)
-        const viewEnd = clamp((scrollTop + viewHeight - pageTop) / height)
-        geometry = {
-          segments: next.map((s, i) => ({
-            id: s.id,
-            start: rounded(starts[i]),
-            size: rounded((starts[i + 1] ?? 1) - starts[i]),
-          })),
-          markers: [
-            { section: 'top', start: 0 },
-            ...els.flatMap((el) => [
-              {
-                section: el.id,
-                start: rounded(
-                  (el.getBoundingClientRect().top - page.top) / height,
-                ),
-              },
-              ...[...el.querySelectorAll<HTMLElement>('[data-toc-sub]')]
-                .filter((sub) => !sub.closest('[hidden]'))
-                .map((sub) => ({
-                  section: el.id,
-                  part: sub.id,
-                  start: rounded(
-                    (sub.getBoundingClientRect().top - page.top) / height,
-                  ),
-                })),
-            ]),
-          ],
-          viewStart: rounded(viewStart),
-          viewSize: rounded(Math.max(0, viewEnd - viewStart)),
-          progress: rounded(
-            (scrollTop - pageTop) / Math.max(1, height - viewHeight),
-          ),
-        }
-
+      let progress = 0
+      if (page.height > 0) {
+        progress = rounded(
+          (scrollTop - pageTop) / Math.max(1, page.height - viewHeight),
+        )
         if (!pinned.current) {
           const line = (box?.top ?? 0) + Math.min(96, viewHeight * 0.3)
           const passed = (el: HTMLElement) =>
@@ -374,14 +319,11 @@ export function usePageNavigation({
         const sameSections =
           old?.version === version &&
           JSON.stringify(old.sections) === JSON.stringify(next)
-        const sameGeometry =
-          old?.version === version &&
-          JSON.stringify(old.geometry) === JSON.stringify(geometry)
-        if (sameSections && sameGeometry) return old
+        if (sameSections && old.progress === progress) return old
         return {
           version,
           sections: sameSections ? old.sections : next,
-          geometry,
+          progress,
         }
       })
     }
@@ -529,26 +471,7 @@ export function usePageNavigation({
     stopFollowing,
   ])
 
-  /** Move the actual page to a fraction of the rendered article. */
-  const seek = useCallback(
-    (fraction: number) => {
-      const root = rootRef.current
-      if (!root) return
-      const scroller = scrollerOf(root)
-      const page = root.getBoundingClientRect()
-      const box = scroller?.getBoundingClientRect()
-      const scrollTop = scroller?.scrollTop ?? window.scrollY
-      const pageTop = scrollTop + page.top - (box?.top ?? 0)
-      const top = pageTop + clamp(fraction) * page.height
-      pinned.current = undefined
-      stopFollowing()
-      if (scroller) moveScroller(scroller, top)
-      else window.scrollTo?.({ top, behavior: 'auto' })
-    },
-    [rootRef, stopFollowing],
-  )
-
-  return { sections, geometry, current, jump, seek, onEraChange }
+  return { sections, progress, current, jump, onEraChange }
 }
 
 export type PageNavigation = ReturnType<typeof usePageNavigation>
