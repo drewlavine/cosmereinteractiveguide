@@ -41,6 +41,8 @@
   top: 0;
   right: 0;
   width: 62%;
+  /* Wide heroes keep the art's width rather than cropping it to a strip. */
+  max-width: 48rem;
   height: 100%;
   object-fit: cover;
   object-position: center 40%;
@@ -151,35 +153,43 @@
 }
 
 /*
- * Wide screens: the text leads at a readable measure, with a narrower plate
- * beside it. The pair is centred, so extra width becomes margin rather than
- * a gap between the text and its pictures.
+ * Wide screens: the article takes the whole main area, with a bounded plate
+ * beside it. Headings, rules and media span the column; prose grows a little
+ * with the screen so its lines stay readable without leaving a hole.
  */
-.page {
-  --measure: 40rem;
-  --plate: clamp(18rem, 19vw, 21rem);
-  --gap: clamp(1.75rem, 3vw, 3rem);
-}
-
-@media (min-width: 1024px) {
-  .page {
-    max-width: calc(
-      var(--measure) + var(--gap) + var(--plate) + 2 * clamp(1.5rem, 4vw, 4rem)
-    );
-    margin-inline: auto;
-  }
-}
-
 .body {
+  --prose: clamp(1.05rem, 0.35rem + 0.7vw, 1.4rem);
   display: grid;
-  grid-template-columns: minmax(0, var(--measure)) var(--plate);
-  column-gap: var(--gap);
+  grid-template-columns: minmax(0, 1fr) clamp(18rem, 20vw, 24rem);
+  column-gap: clamp(1.75rem, 2.5vw, 3rem);
   align-items: start;
 }
 
-/* About 75-80 characters a line, a little larger than the shared default. */
-.body :global(.character-story p) {
-  font-size: 1.05rem;
+.body :global(.character-story) :is(p, ul, ol) {
+  font-size: var(--prose);
+}
+
+/*
+ * Once the column has room for two readable measures, prose flows into
+ * columns of about 55-65 characters while headings, timelines, maps and
+ * pictures still span it.
+ */
+.body
+  :global(:is(.page-section-body, .page-subsection, .character-story)):has(
+    > p
+  ) {
+  columns: calc(26 * var(--prose));
+  column-gap: clamp(2rem, 3vw, 3.5rem);
+}
+
+.body
+  :global(:is(.page-section-body, .page-subsection, .character-story)):has(> p)
+  > :not(p) {
+  column-span: all;
+}
+
+.body :global(.character-story) :is(p, li) {
+  break-inside: avoid;
 }
 
 .stack {
