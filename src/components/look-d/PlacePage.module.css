@@ -153,43 +153,26 @@
 }
 
 /*
- * Wide screens: the article takes the whole main area, with a bounded plate
- * beside it. Headings, rules and media span the column; prose grows a little
- * with the screen so its lines stay readable without leaving a hole.
+ * Wide screens, sized like Wikipedia: one text column up to 60rem with the
+ * plate beside it. The pair fills smaller screens and centres on large ones.
  */
+@media (min-width: 1024px) {
+  .page {
+    max-width: calc(60rem + 3rem + 22rem);
+    margin-inline: auto;
+  }
+}
+
 .body {
-  --prose: clamp(1.05rem, 0.35rem + 0.7vw, 1.4rem);
   display: grid;
-  grid-template-columns: minmax(0, 1fr) clamp(18rem, 20vw, 24rem);
+  grid-template-columns: minmax(0, 60rem) clamp(18rem, 20vw, 22rem);
   column-gap: clamp(1.75rem, 2.5vw, 3rem);
+  justify-content: space-between;
   align-items: start;
 }
 
 .body :global(.character-story) :is(p, ul, ol) {
-  font-size: var(--prose);
-}
-
-/*
- * Once the column has room for two readable measures, prose flows into
- * columns of about 55-65 characters while headings, timelines, maps and
- * pictures still span it.
- */
-.body
-  :global(:is(.page-section-body, .page-subsection, .character-story)):has(
-    > p
-  ) {
-  columns: calc(26 * var(--prose));
-  column-gap: clamp(2rem, 3vw, 3.5rem);
-}
-
-.body
-  :global(:is(.page-section-body, .page-subsection, .character-story)):has(> p)
-  > :not(p) {
-  column-span: all;
-}
-
-.body :global(.character-story) :is(p, li) {
-  break-inside: avoid;
+  font-size: 1.05rem;
 }
 
 .stack {

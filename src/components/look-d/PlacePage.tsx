@@ -237,7 +237,7 @@ export function PlacePage(props: PlacePageProps) {
   return (
     <article
       ref={rootRef}
-      className="character-detail location-detail place-page"
+      className={`character-detail location-detail place-page ${styles.page}`}
       aria-labelledby="location-title"
     >
       {props.breadcrumb}
