@@ -813,7 +813,7 @@ describe('place fragment safety', { timeout: 20000 }, () => {
   )
 })
 
-it('chooses a visible map label rather than a nearby suppressed marker', () => {
+it('lists close map entries in full and keeps bar clicks for seeking', () => {
   vi.stubGlobal('PointerEvent', MouseEvent)
   const visible = { id: 'culture-first', title: 'First topic' }
   const suppressed = { id: 'culture-second', title: 'Second topic' }
@@ -845,14 +845,18 @@ it('chooses a visible map label rather than a nearby suppressed marker', () => {
   const slider = screen.getByRole('slider', { name: 'Page position' })
   slider.getBoundingClientRect = () =>
     ({ top: 100, height: 400, bottom: 500 }) as DOMRect
-  const label = within(slider).getByText('First topic')
-  expect(within(slider).queryByText('Second topic')).toBeNull()
-  fireEvent.pointerDown(label, { clientY: 305, pointerId: 1, buttons: 1 })
-  fireEvent.pointerUp(slider, { clientY: 305, pointerId: 1 })
-  expect(jump).toHaveBeenCalledWith(section, visible)
+  // Ticks only 0.01 apart still both get a full row beside the bar.
+  fireEvent.click(screen.getByRole('link', { name: 'Second topic' }))
+  expect(jump).toHaveBeenCalledWith(section, suppressed)
+  expect(slider.querySelector('[data-marker="culture-second"]')).toHaveStyle({
+    top: '51%',
+  })
 
   jump.mockClear()
-  fireEvent.pointerDown(label, { clientY: 305, pointerId: 1, buttons: 1 })
+  fireEvent.pointerDown(slider, { clientY: 305, pointerId: 1, buttons: 1 })
+  fireEvent.pointerUp(slider, { clientY: 305, pointerId: 1 })
+  expect(nav.seek).toHaveBeenLastCalledWith(0.4125)
+  fireEvent.pointerDown(slider, { clientY: 305, pointerId: 1, buttons: 1 })
   fireEvent.pointerMove(slider, { clientY: 340, pointerId: 1, buttons: 1 })
   fireEvent.pointerUp(slider, { clientY: 340, pointerId: 1 })
   expect(nav.seek).toHaveBeenCalled()

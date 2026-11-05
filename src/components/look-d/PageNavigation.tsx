@@ -1,11 +1,11 @@
 import {
   useId,
-  useLayoutEffect,
   useRef,
   useState,
+  type CSSProperties,
   type KeyboardEvent,
-  type PointerEvent,
 } from 'react'
+import { createPortal } from 'react-dom'
 import { TopicIcon } from './TopicIcon'
 import type { NavPart, NavSection, PageNavigation } from './usePageNavigation'
 import styles from './PageNavigation.module.css'
@@ -83,34 +83,15 @@ function mapMarkers(nav: PageNavigation) {
   })
 }
 
-/**
- * Keep labels at their real positions. Where they collide, keep the active
- * label and section names first; every tick and the full list remain.
- */
-function visibleMapLabels(
-  markers: ReturnType<typeof mapMarkers>,
-  height: number,
-) {
-  const picked: typeof markers = []
-  const priority = (marker: (typeof markers)[number]) =>
-    marker.active && marker.part ? 0 : marker.active ? 1 : !marker.part ? 2 : 3
-  for (const marker of [...markers].sort((a, b) => priority(a) - priority(b))) {
-    if (
-      picked.every(
-        (other) => Math.abs(other.start - marker.start) * height >= 19,
-      )
-    )
-      picked.push(marker)
-  }
-  return new Set(picked.map((marker) => marker.key))
-}
-
 function SectionList({
   nav,
   onJump,
+  lit,
 }: {
   nav: PageNavigation
   onJump: (section: NavSection, part?: NavPart) => void
+  /** Rows on screen, for the page map. */
+  lit?: Set<string>
 }) {
   const [opened, setOpened] = useState<Record<string, boolean>>({})
   const uid = useId()
@@ -131,6 +112,7 @@ function SectionList({
             <div
               className={styles.sectionRow}
               data-active={active || undefined}
+              data-lit={lit?.has(section.id) || undefined}
             >
               <a
                 href={`#${section.id}`}
@@ -192,6 +174,7 @@ function SectionList({
                       <a
                         href={part.href ?? `#${part.id}`}
                         aria-current={partActive ? 'location' : undefined}
+                        data-lit={(part.id && lit?.has(part.id)) || undefined}
                         onClick={(event) => {
                           if (
                             event.metaKey ||
@@ -237,7 +220,11 @@ function Contents({
   )
 }
 
-/** A scale drawing of the rendered article, with a draggable viewport. */
+/**
+ * The page drawn to scale beside its outline. Bars, ticks and the window sit
+ * at measured positions; the labels are the ordinary list beside them, so
+ * none collide or go missing, and the rows now on screen are lit.
+ */
 function PageMap({
   nav,
   onJump,
@@ -245,7 +232,6 @@ function PageMap({
   nav: PageNavigation
   onJump: (section: NavSection, part?: NavPart) => void
 }) {
-  const track = useRef<HTMLDivElement>(null)
   // The track can move while the page scrolls under it, so a drag follows
   // the pointer's travel from where it started rather than the track's box.
   const drag = useRef<{
@@ -253,36 +239,21 @@ function PageMap({
     height: number
     start: number
     moved: boolean
-    label?: string
   }>(undefined)
-  const [height, setHeight] = useState(400)
   const { geometry } = nav
   const markers = mapMarkers(nav)
-  const labels = visibleMapLabels(markers, height)
-  useLayoutEffect(() => {
-    const element = track.current
-    if (!element) return
-    const measure = () =>
-      setHeight(element.getBoundingClientRect().height || 400)
-    measure()
-    const resize =
-      typeof ResizeObserver === 'undefined'
-        ? undefined
-        : new ResizeObserver(measure)
-    resize?.observe(element)
-    window.addEventListener('resize', measure)
-    return () => {
-      resize?.disconnect()
-      window.removeEventListener('resize', measure)
-    }
-  }, [])
-  const position = (event: PointerEvent<HTMLElement>) => {
-    if (drag.current)
-      nav.seek(
-        drag.current.origin +
-          (event.clientY - drag.current.start) / drag.current.height,
-      )
-  }
+  const viewEnd = geometry.viewStart + geometry.viewSize
+  const overlaps = (start: number, end: number) =>
+    start < viewEnd && end > geometry.viewStart
+  const lit = new Set(
+    geometry.segments
+      .filter((s) => overlaps(s.start, s.start + s.size))
+      .map((s) => s.id),
+  )
+  markers.forEach((marker, i) => {
+    if (marker.part && overlaps(marker.start, markers[i + 1]?.start ?? 1))
+      lit.add(marker.part.id!)
+  })
   const key = (event: KeyboardEvent<HTMLElement>) => {
     const delta: Record<string, number> = {
       ArrowUp: -0.05,
@@ -302,138 +273,90 @@ function PageMap({
     <nav aria-label="Page map">
       <div className={styles.cardHeading}>
         <span>Page map</span>
-        <span>Choose a label or drag</span>
+        <span>Drag the bar or choose</span>
       </div>
-      <div
-        ref={track}
-        className={styles.mapTrack}
-        role="slider"
-        tabIndex={0}
-        aria-label="Page position"
-        aria-valuemin={0}
-        aria-valuemax={100}
-        aria-valuenow={Math.round(geometry.progress * 100)}
-        aria-orientation="vertical"
-        aria-valuetext={`${Math.round(geometry.progress * 100)}% · ${currentLabel(nav)}`}
-        onKeyDown={key}
-        onPointerDown={(event) => {
-          const box = track.current?.getBoundingClientRect()
-          if (!box?.height) return
-          event.preventDefault()
-          event.currentTarget.focus({ preventScroll: true })
-          const y = event.clientY - box.top
-          const inWindow =
-            y >= geometry.viewStart * box.height &&
-            y <= (geometry.viewStart + geometry.viewSize) * box.height
-          drag.current = {
-            start: event.clientY,
-            moved: false,
-            label:
-              event.target instanceof Element
-                ? event.target.closest<HTMLElement>('[data-map-label]')?.dataset
-                    .mapLabel
-                : undefined,
-            height: box.height,
-            origin: inWindow
-              ? geometry.viewStart
-              : y / box.height - geometry.viewSize / 2,
-          }
-          event.currentTarget.setPointerCapture?.(event.pointerId)
-        }}
-        onPointerMove={(event) => {
-          if (!drag.current) return
-          if (Math.abs(event.clientY - drag.current.start) > 4)
-            drag.current.moved = true
-          if (drag.current.moved) position(event)
-        }}
-        onPointerUp={(event) => {
-          const box = track.current?.getBoundingClientRect()
-          if (box?.height && drag.current && !drag.current.moved) {
-            const y = event.clientY - box.top
-            const label = markers.find(
-              (marker) => marker.key === drag.current?.label,
-            )
-            const nearest =
-              label ??
-              markers.reduce<(typeof markers)[number] | undefined>(
-                (best, marker) =>
-                  !best ||
-                  Math.abs(marker.start * box.height - y) <
-                    Math.abs(best.start * box.height - y)
-                    ? marker
-                    : best,
-                undefined,
+      <div className={styles.map}>
+        <div
+          className={styles.mapTrack}
+          role="slider"
+          tabIndex={0}
+          aria-label="Page position"
+          aria-valuemin={0}
+          aria-valuemax={100}
+          aria-valuenow={Math.round(geometry.progress * 100)}
+          aria-orientation="vertical"
+          aria-valuetext={`${Math.round(geometry.progress * 100)}% · ${currentLabel(nav)}`}
+          onKeyDown={key}
+          onPointerDown={(event) => {
+            const box = event.currentTarget.getBoundingClientRect()
+            if (!box.height) return
+            event.preventDefault()
+            event.currentTarget.focus({ preventScroll: true })
+            const y = (event.clientY - box.top) / box.height
+            drag.current = {
+              start: event.clientY,
+              moved: false,
+              height: box.height,
+              origin:
+                y >= geometry.viewStart && y <= viewEnd
+                  ? geometry.viewStart
+                  : y - geometry.viewSize / 2,
+            }
+            event.currentTarget.setPointerCapture?.(event.pointerId)
+          }}
+          onPointerMove={(event) => {
+            const current = drag.current
+            if (!current) return
+            if (Math.abs(event.clientY - current.start) > 4)
+              current.moved = true
+            if (current.moved)
+              nav.seek(
+                current.origin +
+                  (event.clientY - current.start) / current.height,
               )
-            if (
-              nearest &&
-              (label || Math.abs(nearest.start * box.height - y) <= 12)
-            )
-              onJump(nearest.section, nearest.part)
-            else position(event)
-          }
-          drag.current = undefined
-        }}
-        onPointerCancel={() => {
-          drag.current = undefined
-        }}
-      >
-        {geometry.segments.map((segment) => (
+          }}
+          onPointerUp={() => {
+            // A click outside the window centres it there.
+            if (drag.current && !drag.current.moved)
+              nav.seek(drag.current.origin)
+            drag.current = undefined
+          }}
+          onPointerCancel={() => {
+            drag.current = undefined
+          }}
+        >
+          {geometry.segments.map((segment) => (
+            <span
+              key={segment.id}
+              className={styles.mapSegment}
+              aria-hidden
+              style={{
+                top: `${segment.start * 100}%`,
+                height: `${segment.size * 100}%`,
+              }}
+            />
+          ))}
+          {markers.map((marker) => (
+            <span
+              key={marker.key}
+              className={styles.mapTick}
+              data-marker={marker.part?.id ?? marker.section.id}
+              data-part={!!marker.part || undefined}
+              aria-hidden
+              style={{ top: `${marker.start * 100}%` }}
+            />
+          ))}
           <span
-            key={segment.id}
-            className={styles.mapSegment}
+            className={styles.mapWindow}
             aria-hidden
             style={{
-              top: `${segment.start * 100}%`,
-              height: `${segment.size * 100}%`,
+              top: `${geometry.viewStart * 100}%`,
+              height: `${geometry.viewSize * 100}%`,
             }}
           />
-        ))}
-        <span
-          className={styles.mapWindow}
-          aria-hidden
-          style={{
-            top: `${geometry.viewStart * 100}%`,
-            height: `${geometry.viewSize * 100}%`,
-          }}
-        />
-        {markers.map((marker) => (
-          <span
-            key={marker.key}
-            className={styles.mapMarker}
-            data-active={marker.active || undefined}
-            data-part={!!marker.part || undefined}
-            aria-hidden
-            style={{ top: `${marker.start * 100}%` }}
-          >
-            <span className={styles.mapTick} />
-            {labels.has(marker.key) && (
-              <span
-                className={styles.mapMarkerLabel}
-                data-map-label={marker.key}
-              >
-                {marker.part?.topic && (
-                  <TopicIcon
-                    topic={marker.part.topic}
-                    className={styles.partIcon}
-                  />
-                )}
-                <span>{marker.part?.title ?? marker.section.title}</span>
-                {marker.part?.count !== undefined && (
-                  <span className={styles.partCount}>{marker.part.count}</span>
-                )}
-              </span>
-            )}
-          </span>
-        ))}
+        </div>
+        <SectionList nav={nav} onJump={onJump} lit={lit} />
       </div>
-      <p className={styles.mapHint}>
-        Labels follow the visible page. Closely spaced labels remain in the
-        list.
-      </p>
-      <details className={styles.mapIndex}>
-        <summary>Browse all sections, topics and eras</summary>
-        <SectionList nav={nav} onJump={onJump} />
-      </details>
     </nav>
   )
 }
@@ -452,7 +375,11 @@ export function NavigationPanel({ nav, mode, onMode }: NavigationProps) {
   )
 }
 
-/** Phone: a discoverable edge target which taps open and drags to skim. */
+/**
+ * Phone: a thin edge track. A tap opens the sheet; a drag unfolds every
+ * section and topic down the edge, and letting go lands on the row under the
+ * finger.
+ */
 function EdgeScrubber({
   nav,
   open,
@@ -462,21 +389,16 @@ function EdgeScrubber({
 }) {
   const pointer = useRef<{ start: number; moved: boolean }>(undefined)
   const suppressClick = useRef(false)
-  const [dragging, setDragging] = useState(false)
-  const [height, setHeight] = useState(600)
-  const markers = mapMarkers(nav)
-  const labels = visibleMapLabels(markers, height)
-  const move = (event: PointerEvent<HTMLButtonElement>) => {
-    if (!pointer.current) return
-    if (Math.abs(event.clientY - pointer.current.start) > 6) {
-      pointer.current.moved = true
-      setDragging(true)
-    }
-    const box = event.currentTarget.getBoundingClientRect()
-    if (pointer.current.moved && box.height)
-      nav.seek(
-        (event.clientY - box.top) / box.height - nav.geometry.viewSize / 2,
-      )
+  const list = useRef<HTMLOListElement>(null)
+  const [target, setTarget] = useState<{ index: number; y: number }>()
+  const rows = nav.sections.flatMap((section) => [
+    { section, part: undefined as NavPart | undefined },
+    ...section.parts.map((part) => ({ section, part })),
+  ])
+  const aim = rows[target?.index ?? -1]
+  const end = () => {
+    pointer.current = undefined
+    setTarget(undefined)
   }
   return (
     <>
@@ -494,45 +416,39 @@ function EdgeScrubber({
           // independent tap if the browser omitted that synthetic click.
           suppressClick.current = false
           pointer.current = { start: event.clientY, moved: false }
-          setHeight(event.currentTarget.getBoundingClientRect().height || 600)
           event.currentTarget.setPointerCapture?.(event.pointerId)
         }}
-        onPointerMove={move}
+        onPointerMove={(event) => {
+          if (!pointer.current) return
+          if (Math.abs(event.clientY - pointer.current.start) > 6)
+            pointer.current.moved = true
+          if (!pointer.current.moved) return
+          const box = list.current?.getBoundingClientRect()
+          const top = box?.top ?? 0
+          const height = box?.height || window.innerHeight
+          const index = Math.floor(
+            ((event.clientY - top) / height) * rows.length,
+          )
+          setTarget({
+            index: Math.min(rows.length - 1, Math.max(0, index)),
+            y: Math.min(top + height, Math.max(top, event.clientY)),
+          })
+        }}
         onPointerUp={() => {
           suppressClick.current = !!pointer.current?.moved
-          pointer.current = undefined
-          setDragging(false)
+          if (pointer.current?.moved && aim) nav.jump(aim.section, aim.part)
+          end()
         }}
         onPointerCancel={() => {
-          pointer.current = undefined
           suppressClick.current = false
-          setDragging(false)
+          end()
         }}
         onClick={(event) => {
           if (suppressClick.current) suppressClick.current = false
           else open(event.currentTarget)
         }}
       >
-        <span className={styles.edgeName} aria-hidden>
-          Map
-        </span>
         <span className={styles.edgeTrack} aria-hidden />
-        {dragging && (
-          <span className={styles.edgePreview} aria-hidden>
-            {markers.map((marker) => (
-              <span
-                key={marker.key}
-                className={styles.edgeMarker}
-                data-active={marker.active || undefined}
-                data-part={!!marker.part || undefined}
-                style={{ top: `${marker.start * 100}%` }}
-              >
-                {labels.has(marker.key) &&
-                  (marker.part?.title ?? marker.section.title)}
-              </span>
-            ))}
-          </span>
-        )}
         <span
           className={styles.edgeThumb}
           aria-hidden
@@ -540,21 +456,55 @@ function EdgeScrubber({
             top: `${(nav.geometry.viewStart + nav.geometry.viewSize / 2) * 100}%`,
           }}
         />
-        {dragging && (
-          <span
-            className={styles.edgeCurrent}
-            aria-hidden
-            style={{
-              top: `${(nav.geometry.viewStart + nav.geometry.viewSize / 2) * 100}%`,
-            }}
-          >
-            {currentLabel(nav)}
-          </span>
-        )}
       </button>
+      {target &&
+        // Out of the sticky bar's stacking context, over the whole page.
+        createPortal(
+          <div className={styles.edgeOverlay} aria-hidden>
+            <span className={styles.edgeRail}>
+              {nav.geometry.segments.map((segment) => (
+                <span
+                  key={segment.id}
+                  style={{
+                    top: `${segment.start * 100}%`,
+                    height: `${segment.size * 100}%`,
+                  }}
+                />
+              ))}
+            </span>
+            <ol ref={list} style={{ '--rows': rows.length } as CSSProperties}>
+              {rows.map((row, i) => (
+                <li
+                  key={`${row.section.id}:${row.part?.id ?? row.part?.title ?? ''}`}
+                  data-part={!!row.part || undefined}
+                  data-target={i === target.index || undefined}
+                >
+                  {row.part ? (
+                    <TopicIcon
+                      topic={row.part.topic}
+                      className={styles.partIcon}
+                    />
+                  ) : (
+                    <span className={styles.sectionIcon}>
+                      {row.section.id === 'top' ? '↑' : '✦'}
+                    </span>
+                  )}
+                  <span>{row.part?.title ?? row.section.title}</span>
+                </li>
+              ))}
+            </ol>
+            {aim && (
+              <span className={styles.edgeCard} style={{ top: target.y }}>
+                {aim.part && <small>{aim.section.title}</small>}
+                {aim.part?.title ?? aim.section.title}
+              </span>
+            )}
+          </div>,
+          document.body,
+        )}
       <span className="visually-hidden" role="status" aria-live="polite">
-        {dragging
-          ? `${currentLabel(nav)} · ${Math.round(nav.geometry.progress * 100)}%`
+        {aim
+          ? [aim.section.title, aim.part?.title].filter(Boolean).join(' · ')
           : ''}
       </span>
     </>
