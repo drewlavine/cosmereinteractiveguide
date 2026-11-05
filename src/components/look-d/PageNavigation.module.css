@@ -200,11 +200,21 @@
   font-variant-numeric: tabular-nums;
 }
 
+/* Bar column (true proportions) beside the outline (the labels). */
+.map {
+  display: grid;
+  grid-template-columns: 1.6rem minmax(0, 1fr);
+  gap: 0.35rem;
+  margin-top: 0.45rem;
+}
+
+.map .sections {
+  margin: 0;
+}
+
 .mapTrack {
   position: relative;
-  height: min(30rem, 55dvh);
-  min-height: 16rem;
-  margin: 1.4rem 0 1rem;
+  min-height: 8rem;
   cursor: grab;
   touch-action: none;
   user-select: none;
@@ -214,90 +224,49 @@
   cursor: grabbing;
 }
 
+.mapTrack:focus-visible {
+  outline: 2px solid var(--gold);
+  outline-offset: 2px;
+  border-radius: 6px;
+}
+
 .mapSegment {
   position: absolute;
-  left: 8px;
-  width: 8px;
-  border-radius: 4px;
-  background: color-mix(in srgb, var(--gold) 42%, transparent);
-  box-shadow: inset 0 1px var(--panel);
+  left: 9px;
+  width: 6px;
+  border-radius: 3px;
+  background: color-mix(in srgb, var(--gold) 40%, transparent);
+  box-shadow: inset 0 2px var(--panel);
+}
+
+.mapTick {
+  position: absolute;
+  left: 3px;
+  width: 18px;
+  border-top: 1px solid color-mix(in srgb, var(--gold) 80%, transparent);
+}
+
+.mapTick[data-part] {
+  left: 7px;
+  width: 10px;
+  opacity: 0.7;
 }
 
 .mapWindow {
   position: absolute;
   z-index: 1;
-  left: 2px;
+  left: 0;
   right: 0;
-  min-height: 1px;
+  min-height: 4px;
   border: 1px solid var(--gold);
   border-radius: 5px;
   background: color-mix(in srgb, var(--gold) 12%, transparent);
   pointer-events: none;
 }
 
-.mapMarker {
-  position: absolute;
-  z-index: 2;
-  left: 0;
-  right: 0;
-  height: 0;
-  pointer-events: none;
-}
-
-.mapTick {
-  position: absolute;
-  left: 4px;
-  width: 16px;
-  border-top: 1px solid color-mix(in srgb, var(--gold) 75%, transparent);
-}
-
-.mapMarkerLabel {
-  position: absolute;
-  top: 0;
-  left: 28px;
-  right: 6px;
-  display: flex;
-  align-items: center;
-  gap: 0.35rem;
-  transform: translateY(-50%);
-  overflow: hidden;
-  color: var(--text-strong);
-  font-size: 0.9rem;
-  line-height: 1;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  pointer-events: auto;
-}
-
-.mapMarkerLabel > span {
-  background: var(--slate-deep);
-  box-shadow: 0 0 0 2px var(--slate-deep);
-}
-
-.mapMarker[data-part] .mapMarkerLabel {
-  left: 40px;
-  color: var(--text);
-  font-size: 0.75rem;
-}
-
-.mapMarker[data-active] .mapMarkerLabel {
-  color: var(--gold-soft);
-  font-weight: 700;
-}
-
-.mapIndex summary {
-  min-height: 44px;
-  padding: 0.8rem 0.2rem;
-  color: var(--gold-soft);
-  font-size: 0.82rem;
-  cursor: pointer;
-}
-
-.mapHint {
-  margin: 0.65rem 0 0;
-  color: var(--text-muted, #9fb0bc);
-  font-size: 0.75rem;
-  line-height: 1.4;
+.sectionRow[data-lit]:not([data-active]),
+.parts a[data-lit]:not([aria-current]) {
+  background: color-mix(in srgb, var(--gold) 5%, transparent);
 }
 
 /* This bar is inside the app scroller, so it remains reachable throughout. */
@@ -409,101 +378,145 @@
   position: fixed;
   z-index: 19;
   top: 9rem;
-  right: 8px;
-  bottom: 8rem;
-  width: 44px;
-  min-height: 44px;
+  right: max(4px, env(safe-area-inset-right));
+  bottom: max(6rem, env(safe-area-inset-bottom));
+  width: 32px;
   padding: 0;
   border: 0;
   background: transparent;
-  color: var(--gold);
   cursor: pointer;
   touch-action: none;
-}
-
-.edgeName {
-  position: absolute;
-  top: -1.5rem;
-  left: 0;
-  width: 100%;
-  color: var(--gold-soft);
-  font-size: 0.7rem;
-  text-align: center;
 }
 
 .edgeTrack {
   position: absolute;
   top: 0;
-  right: 19px;
+  right: 10px;
   bottom: 0;
-  width: 6px;
+  width: 4px;
   border-radius: 99px;
   background: color-mix(in srgb, var(--gold) 28%, transparent);
 }
 
-.edgePreview {
+.edgeThumb {
   position: absolute;
-  top: 0;
-  right: 38px;
-  bottom: 0;
-  width: min(15rem, 65vw);
+  right: 8px;
+  width: 8px;
+  height: 36px;
+  transform: translateY(-50%);
+  border-radius: 99px;
+  background: var(--gold);
+}
+
+/* While dragging: the whole page outline unfolds down the edge. */
+.edgeOverlay {
+  position: fixed;
+  /* Above the floating design switch while the finger is down. */
+  z-index: 1001;
+  inset: 0;
+  padding: max(1rem, env(safe-area-inset-top))
+    max(0.5rem, env(safe-area-inset-right))
+    max(1rem, env(safe-area-inset-bottom)) 1rem;
   background: linear-gradient(
     90deg,
-    transparent,
-    color-mix(in srgb, var(--bg) 95%, transparent) 35%
+    color-mix(in srgb, var(--bg) 55%, transparent),
+    color-mix(in srgb, var(--bg) 94%, transparent) 45%
   );
   pointer-events: none;
 }
 
-.edgeMarker {
+@media (prefers-reduced-motion: no-preference) {
+  .edgeOverlay {
+    animation: unfold 0.15s ease-out;
+  }
+}
+
+@keyframes unfold {
+  from {
+    opacity: 0;
+  }
+}
+
+.edgeRail {
+  position: absolute;
+  top: max(1rem, env(safe-area-inset-top));
+  right: max(0.5rem, env(safe-area-inset-right));
+  bottom: max(1rem, env(safe-area-inset-bottom));
+  width: 6px;
+}
+
+.edgeRail span {
   position: absolute;
   right: 0;
-  left: 0;
+  width: 6px;
+  border-radius: 3px;
+  background: color-mix(in srgb, var(--gold) 45%, transparent);
+  box-shadow: inset 0 2px var(--bg);
+}
+
+.edgeOverlay ol {
+  display: grid;
+  grid-template-rows: repeat(var(--rows), minmax(0, 1fr));
+  height: 100%;
+  margin: 0 1.25rem 0 auto;
+  padding: 0;
+  max-width: 70%;
+  list-style: none;
+}
+
+.edgeOverlay li {
+  display: flex;
+  min-height: 0;
+  align-items: center;
+  justify-content: end;
+  gap: 0.4rem;
   overflow: hidden;
-  padding-right: 0.8rem;
-  transform: translateY(-50%);
-  color: var(--text-strong);
-  font-size: 0.85rem;
-  line-height: 1;
-  text-align: right;
-  text-overflow: ellipsis;
+  color: var(--text);
+  font-size: clamp(0.62rem, calc(80dvh / var(--rows) * 0.5), 0.85rem);
   white-space: nowrap;
 }
 
-.edgeMarker[data-part] {
-  color: var(--text);
-  font-size: 0.72rem;
+.edgeOverlay li::after {
+  content: '';
+  flex: none;
+  width: 10px;
+  border-top: 1px solid color-mix(in srgb, var(--gold) 70%, transparent);
 }
 
-.edgeMarker[data-active] {
+.edgeOverlay li:not([data-part]) {
+  color: var(--heading, var(--gold-soft));
+  font-family: var(--display);
+  font-size: clamp(0.8rem, calc(80dvh / var(--rows) * 0.75), 1.3rem);
+}
+
+.edgeOverlay li[data-target] {
   color: var(--gold-soft);
   font-weight: 700;
 }
 
-.edgeThumb {
-  position: absolute;
-  right: 15px;
-  width: 14px;
-  height: 44px;
+.edgeCard {
+  position: fixed;
+  left: 1rem;
+  max-width: 55vw;
+  padding: 0.5rem 0.9rem;
   transform: translateY(-50%);
-  border: 1px solid var(--gold-soft);
-  border-radius: 99px;
-  background: var(--gold);
-  box-shadow: 0 0 0 4px color-mix(in srgb, var(--bg) 80%, transparent);
+  border: 1px solid var(--gold);
+  border-radius: 10px;
+  background: var(--panel);
+  color: var(--heading, var(--gold-soft));
+  font-family: var(--display);
+  font-size: 1.4rem;
+  line-height: 1.15;
+  box-shadow: 0 8px 30px var(--shadow, #0008);
 }
 
-.edgeCurrent {
-  position: absolute;
-  z-index: 2;
-  right: 48px;
-  max-width: 12rem;
-  padding: 0.5rem 0.7rem;
-  border: 1px solid var(--gold);
-  border-radius: 8px;
-  background: var(--panel);
-  color: var(--gold-soft);
-  font-size: 0.8rem;
-  white-space: nowrap;
+.edgeCard small {
+  display: block;
+  color: var(--text-muted, #9fb0bc);
+  font-family: var(--ui-font, inherit);
+  font-size: 0.68rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
 }
 
 @media (max-width: 600px) {
@@ -525,4 +538,44 @@
   .context {
     min-width: 11rem;
   }
+}
+
+/* Desktop plate: a compact outline that stays secondary to the article. */
+.panel .switcher {
+  margin-bottom: 0.6rem;
+}
+
+.panel .switchLabel {
+  display: none;
+}
+
+.panel .switcher button {
+  min-height: 32px;
+  white-space: nowrap;
+}
+
+.panel .sectionRow a {
+  min-height: 30px;
+  padding-block: 0.15rem;
+  color: var(--heading, var(--gold-soft));
+  font-family: var(--display);
+  font-size: 1.02rem;
+}
+
+.panel .disclose {
+  min-height: 30px;
+  min-width: 2rem;
+}
+
+.panel .parts {
+  grid-template-columns: minmax(0, 1fr);
+  gap: 0;
+  margin: 0 0 0.25rem 0.6rem;
+}
+
+.panel .parts a,
+.panel .parts button {
+  min-height: 26px;
+  padding-block: 0.1rem;
+  font-size: 0.8rem;
 }

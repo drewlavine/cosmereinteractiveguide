@@ -6,7 +6,6 @@
   position: relative;
   isolation: isolate;
   overflow: hidden;
-  max-width: 78rem;
   margin-bottom: 2rem;
   padding: 2rem clamp(1.25rem, 3vw, 2.5rem) 1.25rem;
   border: 1px solid var(--line, rgba(212, 165, 64, 0.3));
@@ -151,13 +150,36 @@
   margin: 0.1rem 0 0;
 }
 
-/* Text and plate side by side; the text keeps a comfortable measure. */
+/*
+ * Wide screens: the text leads at a readable measure, with a narrower plate
+ * beside it. The pair is centred, so extra width becomes margin rather than
+ * a gap between the text and its pictures.
+ */
+.page {
+  --measure: 40rem;
+  --plate: clamp(18rem, 19vw, 21rem);
+  --gap: clamp(1.75rem, 3vw, 3rem);
+}
+
+@media (min-width: 1024px) {
+  .page {
+    max-width: calc(
+      var(--measure) + var(--gap) + var(--plate) + 2 * clamp(1.5rem, 4vw, 4rem)
+    );
+    margin-inline: auto;
+  }
+}
+
 .body {
   display: grid;
-  grid-template-columns: minmax(0, 40rem) minmax(20rem, 1fr);
-  column-gap: clamp(2rem, 4vw, 3.5rem);
+  grid-template-columns: minmax(0, var(--measure)) var(--plate);
+  column-gap: var(--gap);
   align-items: start;
-  max-width: 78rem;
+}
+
+/* About 75-80 characters a line, a little larger than the shared default. */
+.body :global(.character-story p) {
+  font-size: 1.05rem;
 }
 
 .stack {

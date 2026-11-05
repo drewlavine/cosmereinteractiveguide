@@ -649,28 +649,21 @@ describe('Design D navigation comparison', { timeout: 20000 }, () => {
     const slider = within(nav).getByRole('slider', { name: 'Page position' })
     await waitFor(() => expect(slider).toHaveAttribute('aria-valuenow', '50'))
     slider.getBoundingClientRect = () => rect(100, 400)
-    const marker = (text: string) =>
-      within(slider).getByText(text).closest<HTMLElement>('[style]')!
-    expect(marker('Culture')).toHaveStyle({ top: '25%' })
+    const marker = (id: string) =>
+      slider.querySelector<HTMLElement>(`[data-marker="${id}"]`)!
+    expect(marker('culture')).toHaveStyle({ top: '25%' })
     const topic = screen.getByRole('region', { name: 'Music and art' })
     const top =
       ((topic.getBoundingClientRect().top + main.scrollTop) / height) * 100
-    expect(marker('Music and art')).toHaveStyle({ top: `${top}%` })
+    expect(marker(topic.id)).toHaveStyle({ top: `${top}%` })
     expect(
       [...slider.querySelectorAll<HTMLElement>('span[style]')].some(
         (el) => el.style.top === '37.5%' && el.style.height === '25%',
       ),
     ).toBe(true)
-    fireEvent.pointerDown(slider, {
-      clientY: 100 + (top / 100) * 400,
-      pointerId: 1,
-      buttons: 1,
-    })
-    fireEvent.pointerUp(slider, {
-      clientY: 100 + (top / 100) * 400,
-      pointerId: 1,
-    })
-    expect(window.location.hash).toBe('#culture-music-and-art')
+    // Every entry is a row beside the bar; the bar itself only seeks.
+    fireEvent.click(within(nav).getByRole('link', { name: /Music and art/ }))
+    expect(window.location.hash).toBe(`#${topic.id}`)
     fireEvent.wheel(main)
 
     fireEvent.pointerDown(slider, { clientY: 300, pointerId: 1, buttons: 1 })
@@ -699,9 +692,8 @@ describe('Design D navigation comparison', { timeout: 20000 }, () => {
     const faithTop =
       ((faith.getBoundingClientRect().top + main.scrollTop) / height) * 100
     await waitFor(() =>
-      expect(parseFloat(marker('Faith').style.top)).toBeCloseTo(faithTop, 2),
+      expect(parseFloat(marker(faith.id).style.top)).toBeCloseTo(faithTop, 2),
     )
-    expect(within(slider).queryByText('Music and art')).toBeNull()
     height = 4000
     fireEvent.resize(window)
     await waitFor(() => expect(slider).toHaveAttribute('aria-valuenow', '21'))
@@ -714,7 +706,7 @@ describe('Design D navigation comparison', { timeout: 20000 }, () => {
       ),
     )
     await waitFor(() => expect(slider).toHaveAttribute('aria-valuenow', '100'))
-    expect(within(slider).queryByText('Music and art')).toBeNull()
+    expect(marker(topic.id)).toBeNull()
     const topics = await openParts(nav, 'Culture')
     expect(
       within(topics).getByRole('link', { name: /Music and art/ }),
@@ -756,16 +748,16 @@ describe('Design D navigation comparison', { timeout: 20000 }, () => {
     const expected =
       ((target.getBoundingClientRect().top + main.scrollTop) / 3000) * 100
     await waitFor(() => {
-      const marker = within(slider)
-        .getByText('Occupation')
-        .closest<HTMLElement>('[style]')!
+      const marker = slider.querySelector<HTMLElement>(
+        `[data-marker="${target.id}"]`,
+      )!
       expect(parseFloat(marker.style.top)).toBeCloseTo(expected, 2)
     })
     await userEvent.click(
       within(history).getByRole('button', { name: 'History' }),
     )
     await waitFor(() =>
-      expect(within(slider).queryByText('Occupation')).toBeNull(),
+      expect(slider.querySelector(`[data-marker="${target.id}"]`)).toBeNull(),
     )
     const parts = await openParts(nav, 'History')
     await userEvent.click(
@@ -775,7 +767,9 @@ describe('Design D navigation comparison', { timeout: 20000 }, () => {
       within(history).getByRole('button', { name: 'History' }),
     ).toHaveAttribute('aria-expanded', 'true')
     await waitFor(() =>
-      expect(within(slider).getByText('Occupation')).toBeInTheDocument(),
+      expect(
+        slider.querySelector(`[data-marker="${target.id}"]`),
+      ).toBeInTheDocument(),
     )
   })
 })
@@ -816,9 +810,8 @@ describe('phone navigation', { timeout: 20000 }, () => {
     await user.click(edge)
     const sheet = screen.getByRole('dialog', { name: 'Page map' })
     const nav = within(sheet).getByRole('navigation', { name: 'Page map' })
-    const browse = within(nav).getByText('Browse all sections, topics and eras')
     await user.keyboard('{Shift>}{Tab}{/Shift}')
-    expect(browse).toHaveFocus()
+    expect(nav.contains(document.activeElement)).toBe(true)
     await user.keyboard('{Tab}')
     expect(
       within(sheet).getByRole('button', { name: 'Close navigation' }),
@@ -874,11 +867,15 @@ describe('phone navigation', { timeout: 20000 }, () => {
     })
     fireEvent.scroll(main)
     fireEvent.pointerDown(edge, { clientY: 200, pointerId: 1, buttons: 1 })
-    fireEvent.pointerMove(edge, { clientY: 320, pointerId: 1, buttons: 1 })
-    expect(screen.getByRole('status')).toHaveTextContent(/%/)
-    fireEvent.pointerUp(edge, { clientY: 320, pointerId: 1 })
+    // The outline unfolds and the row under the finger is announced; it is
+    // only landed on when the finger lifts.
+    fireEvent.pointerMove(edge, { clientY: 5000, pointerId: 1, buttons: 1 })
+    expect(screen.getByRole('status')).toHaveTextContent('Map')
+    expect(scroll).not.toHaveBeenCalled()
+    fireEvent.pointerUp(edge, { clientY: 5000, pointerId: 1 })
     fireEvent.click(edge)
-    expect(scroll).toHaveBeenCalled()
+    expect(window.location.hash).toBe('#map')
+    expect(screen.getByRole('status')).toBeEmptyDOMElement()
     expect(screen.queryByRole('dialog', { name: 'Page map' })).toBeNull()
     await userEvent.click(edge)
     expect(screen.getByRole('dialog', { name: 'Page map' })).toBeInTheDocument()
