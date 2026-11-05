@@ -1,6 +1,7 @@
 /* The explorer: a WebGL canvas with HTML labels, pins and buttons on top. */
 
 .explorer {
+  composes: media from '../../styles/media.module.css';
   position: absolute;
   inset: 0;
   overflow: hidden;

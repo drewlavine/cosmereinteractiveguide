@@ -54,8 +54,8 @@ export function GoldFrame({
         width={width - 18}
         height={height - 18}
         fill="none"
-        stroke={GOLD}
-        strokeWidth={18}
+        stroke={`var(--chart-frame, ${GOLD})`}
+        strokeWidth="var(--chart-frame-width, 18)"
       />
       <rect
         x={1}
@@ -63,7 +63,7 @@ export function GoldFrame({
         width={width - 2}
         height={height - 2}
         fill="none"
-        stroke="#3b2a12"
+        stroke="var(--chart-edge, #3b2a12)"
         strokeWidth={2}
       />
       <rect
@@ -72,7 +72,7 @@ export function GoldFrame({
         width={width - 36}
         height={height - 36}
         fill="none"
-        stroke="#3b2a12"
+        stroke="var(--chart-edge, #3b2a12)"
         strokeWidth={2}
       />
     </g>

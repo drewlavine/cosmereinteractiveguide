@@ -18,12 +18,12 @@
 /* Whatever leads the plate fades in as the reader moves on. */
 .stage {
   padding: 1rem 1.1rem 0.9rem;
-  border: 1px solid rgba(212, 165, 64, 0.35);
+  border: 1px solid var(--line, rgba(212, 165, 64, 0.35));
   border-radius: 14px;
   background:
     radial-gradient(
       120% 80% at 50% 0%,
-      rgba(212, 165, 64, 0.08),
+      var(--accent-wash, rgba(212, 165, 64, 0.08)),
       transparent 60%
     ),
     var(--panel);
@@ -76,7 +76,7 @@
   min-height: 12rem;
   object-fit: contain;
   object-position: center;
-  background: rgba(15, 26, 34, 0.6);
+  background: var(--surface-tint, rgba(15, 26, 34, 0.6));
 }
 
 .stage .placeFigure img {
@@ -90,16 +90,16 @@
   width: 7.5rem;
   aspect-ratio: 1;
   margin: 0.5rem auto 0.25rem;
-  border: 1px solid rgba(212, 165, 64, 0.45);
+  border: 1px solid var(--line, rgba(212, 165, 64, 0.45));
   border-radius: 50%;
   background: radial-gradient(
     circle,
-    rgba(212, 165, 64, 0.14),
-    rgba(212, 165, 64, 0.02) 70%
+    var(--accent-wash, rgba(212, 165, 64, 0.14)),
+    var(--accent-wash, rgba(212, 165, 64, 0.02)) 70%
   );
   box-shadow:
-    0 0 0 6px rgba(15, 26, 34, 0.7),
-    0 0 0 7px rgba(212, 165, 64, 0.2);
+    0 0 0 6px var(--shadow, rgba(15, 26, 34, 0.7)),
+    0 0 0 7px var(--accent-glow, rgba(212, 165, 64, 0.2));
   color: var(--gold);
 }
 
@@ -111,9 +111,9 @@
 /* The compass: every Culture topic the reader can see, the current lit. */
 .compass {
   padding: 0.85rem 0.9rem 0.9rem;
-  border: 1px solid rgba(212, 165, 64, 0.25);
+  border: 1px solid var(--line, rgba(212, 165, 64, 0.25));
   border-radius: 14px;
-  background: rgba(28, 42, 53, 0.6);
+  background: var(--surface-tint, rgba(28, 42, 53, 0.6));
 }
 
 .compassTitle {
@@ -161,13 +161,13 @@
 }
 
 .compass a:hover {
-  border-color: rgba(212, 165, 64, 0.3);
+  border-color: var(--line, rgba(212, 165, 64, 0.3));
   color: var(--gold-soft);
 }
 
 .compass a[aria-current] {
-  border-color: rgba(212, 165, 64, 0.7);
-  background: rgba(212, 165, 64, 0.16);
+  border-color: var(--line, rgba(212, 165, 64, 0.7));
+  background: var(--accent-wash, rgba(212, 165, 64, 0.16));
   color: var(--gold);
 }
 
@@ -201,9 +201,9 @@
 .more {
   margin: 0;
   padding: 0.85rem 1rem;
-  border: 1px solid rgba(212, 165, 64, 0.25);
+  border: 1px solid var(--line, rgba(212, 165, 64, 0.25));
   border-radius: 14px;
-  background: rgba(28, 42, 53, 0.6);
+  background: var(--surface-tint, rgba(28, 42, 53, 0.6));
   font-size: 0.9rem;
 }
 
@@ -236,8 +236,8 @@
   position: static;
   max-height: none;
   overflow: visible;
-  border-color: rgba(212, 165, 64, 0.25);
-  background: rgba(28, 42, 53, 0.6);
+  border-color: var(--line, rgba(212, 165, 64, 0.25));
+  background: var(--surface-tint, rgba(28, 42, 53, 0.6));
 }
 
 .inner :global(.page-contents a) {

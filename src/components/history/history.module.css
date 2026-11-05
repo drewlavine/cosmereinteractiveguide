@@ -13,7 +13,7 @@
 
 .tryLabel {
   margin-right: 0.3rem;
-  color: rgba(212, 165, 64, 0.85);
+  color: var(--accent-ink, rgba(212, 165, 64, 0.85));
   font-size: 0.62rem;
   font-weight: 700;
   letter-spacing: 0.12em;
@@ -24,9 +24,9 @@
 .controls button {
   min-height: 2.5rem;
   padding: 0.2rem 0.9rem;
-  border: 1px solid rgba(212, 165, 64, 0.35);
+  border: 1px solid var(--line, rgba(212, 165, 64, 0.35));
   border-radius: 999px;
-  background: rgba(17, 27, 35, 0.9);
+  background: var(--surface, rgba(17, 27, 35, 0.9));
   color: var(--gold-soft);
   font: inherit;
   font-size: 0.85rem;
@@ -35,8 +35,8 @@
 
 .tryOption[aria-pressed='true'] {
   border-color: var(--gold);
-  background: #4a3b17;
-  color: #fff;
+  background: var(--accent-wash, #4a3b17);
+  color: var(--foreground, #fff);
 }
 
 .controls button:disabled {
@@ -67,7 +67,7 @@
   display: inline-flex;
   align-items: center;
   gap: 0.3rem;
-  color: var(--kind);
+  color: var(--accent-ink, var(--kind));
   font-weight: 700;
 }
 
@@ -120,7 +120,7 @@
 .places a {
   display: inline-block;
   padding: 0.05rem 0.6rem;
-  border: 1px solid rgba(212, 165, 64, 0.35);
+  border: 1px solid var(--line, rgba(212, 165, 64, 0.35));
   border-radius: 999px;
   font-size: 0.8rem;
   text-decoration: none;
@@ -152,13 +152,14 @@
 .when {
   margin: 0.15rem 0 0;
   padding-left: calc(0.65rem + 4px);
-  color: var(--tone);
+  color: var(--accent-ink, var(--tone));
   font-size: 0.8rem;
   letter-spacing: 0.03em;
 }
 
 /* The stage: the world, a map flown to a place, or a piece of art. */
 .stage {
+  composes: media from '../../styles/media.module.css';
   position: relative;
   aspect-ratio: 4 / 3;
   overflow: hidden;
@@ -362,7 +363,7 @@
 
 .stageCaption span {
   display: block;
-  color: var(--tone);
+  color: var(--accent-ink, var(--tone));
   font-family: system-ui, sans-serif;
   font-size: 0.66rem;
   letter-spacing: 0.1em;
@@ -385,7 +386,7 @@
   position: relative;
   margin: 0 0 20vh;
   padding: 0.9rem 1rem;
-  border: 1px solid rgba(212, 165, 64, 0.2);
+  border: 1px solid var(--line, rgba(212, 165, 64, 0.2));
   border-radius: 12px;
   background: var(--panel);
   opacity: 0.55;
@@ -405,14 +406,14 @@
   height: 14px;
   border: 2px solid var(--tone);
   border-radius: 50%;
-  background: #0b141b;
+  background: var(--surface-muted, #0b141b);
 }
 
 .step[aria-current='step'] {
   border-color: var(--tone);
   box-shadow:
     0 0 0 1px var(--tone),
-    0 6px 20px rgba(0, 0, 0, 0.3);
+    0 6px 20px var(--shadow, rgba(0, 0, 0, 0.3));
   opacity: 1;
 }
 
@@ -475,7 +476,7 @@
 /* No bold here: it could rewrap the title. */
 .ribbonEra[aria-pressed='true'] {
   background: color-mix(in srgb, var(--tone) 35%, var(--slate-deep));
-  color: #fff;
+  color: var(--foreground, #fff);
 }
 
 .ribbonEra:focus-visible,
@@ -543,7 +544,7 @@
   border: 1px solid color-mix(in srgb, var(--tone) 55%, transparent);
   border-radius: 14px;
   background: var(--panel);
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 2px 10px var(--shadow, rgba(0, 0, 0, 0.25));
   transition: border-color 0.6s;
 }
 

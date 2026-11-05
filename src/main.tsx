@@ -5,6 +5,9 @@ import { routes } from './routes'
 import '@fontsource/im-fell-english/400.css'
 import '@fontsource/im-fell-english/400-italic.css'
 import './styles/app.css'
+import { applyTheme, loadTheme } from './components/theme'
+
+applyTheme(loadTheme())
 
 const router = createBrowserRouter(routes, {
   basename: import.meta.env.BASE_URL.replace(/\/$/, '') || '/',
