@@ -278,3 +278,8 @@
   padding-block: 0.1rem;
   font-size: 0.8rem;
 }
+
+/* The sheet already has its own title. */
+.sheet .cardHeading {
+  display: none;
+}

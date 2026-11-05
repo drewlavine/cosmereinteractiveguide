@@ -398,7 +398,10 @@ describe('place fragment safety', { timeout: 20000 }, () => {
     },
   )
 
-  it.each([['43', false]] as const)(
+  it.each([
+    ['43', false],
+    ['i-4', true],
+  ] as const)(
     'preserves and quarantines an aliased place link',
     async (chapter, visible) => {
       delayStory('kholinar')
@@ -451,7 +454,10 @@ describe('place fragment safety', { timeout: 20000 }, () => {
     expect(history.state.extra).toBeUndefined()
   })
 
-  it.each([['43', false]] as const)(
+  it.each([
+    ['43', false],
+    ['i-4', true],
+  ] as const)(
     'quarantines a route push before the destination mounts',
     async (chapter, visible) => {
       delayStory('kholinar')
@@ -491,7 +497,10 @@ describe('place fragment safety', { timeout: 20000 }, () => {
     },
   )
 
-  it.each([['43', false]] as const)(
+  it.each([
+    ['43', false],
+    ['i-4', true],
+  ] as const)(
     'quarantines Back before a place route mounts',
     async (chapter, visible) => {
       delayStory('kholinar')
