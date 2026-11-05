@@ -351,6 +351,7 @@
 }
 
 .modal {
+  composes: media from '../../styles/media.module.css';
   --edge: 1rem;
   --ink: rgb(9, 14, 20);
   position: absolute;

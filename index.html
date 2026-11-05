@@ -2,6 +2,19 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <script>
+      // Keep preference rules aligned with src/components/theme.ts.
+      // This must run before app styles or deferred modules can paint.
+      try {
+        document.documentElement.dataset.theme =
+          localStorage.getItem('cosmere-guide:theme') === 'classic'
+            ? 'classic'
+            : 'illuminated'
+      } catch {
+        document.documentElement.dataset.theme = 'illuminated'
+        console.warn('Theme preference unavailable; using Illuminated.')
+      }
+    </script>
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cosmere Interactive Guide</title>

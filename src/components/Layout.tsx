@@ -10,6 +10,7 @@ import { Search } from './Search'
 import { SearchIcon } from './SearchIcon'
 import { SideNav } from './SideNav'
 import { Tooltips } from './Tooltips'
+import { ThemeSwitch } from './ThemeSwitch'
 
 /** Secret pages, never linked: press the key twice to open. */
 const secretKeys: Record<string, string> = {
@@ -115,6 +116,7 @@ export function Layout() {
             </Link>
             <Search />
             <BooksReadSettings />
+            <ThemeSwitch />
           </header>
 
           <SideNav

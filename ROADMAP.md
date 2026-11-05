@@ -592,6 +592,7 @@ AI-generated.
 - [ ] Visual identity: a deliberate palette, type pairing (display and
       body), and Cosmere-flavoured touches (e.g. subtle Shardic or
       world-specific accents) instead of default-looking UI
+  - [x] Offer the Illuminated theme with a switch back to Classic
 - [ ] Design tokens: one set of CSS variables for colour, spacing, radius,
       shadow and type scale; replace one-off values in `index.css`
 - [ ] Shared components: consistent buttons, tabs, cards, chips, notices

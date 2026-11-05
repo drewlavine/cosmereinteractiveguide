@@ -1,0 +1,27 @@
+/* Intentional dark islands: art/sky diagrams keep their original palette.
+   `initial` makes semantic properties use the exact local Classic fallbacks. */
+.media {
+  --bg: #0f1a22;
+  --slate: #2d4352;
+  --slate-deep: #1c2a35;
+  --panel: rgba(28, 42, 53, 0.92);
+  --gold: #d4a540;
+  --gold-soft: #f1e6c8;
+  --text: #d6e1e6;
+  --text-strong: #f4fafc;
+  --heading: initial;
+  --text-muted: initial;
+  --foreground: initial;
+  --on-accent: initial;
+  --surface: initial;
+  --surface-muted: initial;
+  --surface-tint: initial;
+  --line: initial;
+  --accent-wash: initial;
+  --accent-ink: initial;
+  --accent-glow: initial;
+  --shadow: initial;
+  --text-shadow: initial;
+  color: var(--text);
+  color-scheme: dark;
+}
