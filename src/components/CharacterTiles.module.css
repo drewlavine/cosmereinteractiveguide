@@ -29,9 +29,9 @@
   overflow: hidden;
   border: 2px solid var(--gold);
   border-radius: 50%;
-  background: #1c2a35;
+  background: var(--surface-muted, #1c2a35);
   box-shadow:
-    0 0 0 3px rgba(13, 19, 27, 0.9),
+    0 0 0 3px var(--shadow, rgba(13, 19, 27, 0.9)),
     0 0 0 4px rgba(214, 178, 106, 0.35);
   color: var(--gold-soft);
   font-size: 1.8rem;
@@ -50,7 +50,7 @@
 
 .tile:is(:hover, :focus-visible) .art {
   box-shadow:
-    0 0 0 3px rgba(13, 19, 27, 0.9),
+    0 0 0 3px var(--shadow, rgba(13, 19, 27, 0.9)),
     0 0 0 4px rgba(214, 178, 106, 0.8),
     0 0 16px rgba(255, 226, 160, 0.45);
 }

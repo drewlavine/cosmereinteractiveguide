@@ -20,7 +20,11 @@
   content: '';
   flex: 1;
   height: 1px;
-  background: linear-gradient(90deg, rgba(212, 165, 64, 0.5), transparent);
+  background: linear-gradient(
+    90deg,
+    var(--accent-wash, rgba(212, 165, 64, 0.5)),
+    transparent
+  );
 }
 
 .iconed > h3 {
@@ -73,8 +77,8 @@ p.lead {
   z-index: 3;
   margin: 0 calc(-1 * clamp(1.5rem, 4vw, 4rem)) 0.5rem;
   padding: 0.4rem clamp(1.5rem, 4vw, 4rem);
-  background: rgba(15, 26, 34, 0.94);
-  border-bottom: 1px solid rgba(212, 165, 64, 0.3);
+  background: var(--surface, rgba(15, 26, 34, 0.94));
+  border-bottom: 1px solid var(--line, rgba(212, 165, 64, 0.3));
   backdrop-filter: blur(6px);
 }
 
@@ -84,7 +88,7 @@ p.lead {
   align-items: center;
   gap: 0.6rem;
   padding: 0.45rem 0.75rem;
-  border: 1px solid rgba(212, 165, 64, 0.45);
+  border: 1px solid var(--line, rgba(212, 165, 64, 0.45));
   border-radius: 999px;
   background: var(--slate-deep);
   color: var(--gold-soft);
@@ -134,7 +138,7 @@ p.lead {
   align-items: center;
   gap: 0.5rem;
   padding: 0.45rem 0.6rem;
-  border: 1px solid rgba(212, 165, 64, 0.2);
+  border: 1px solid var(--line, rgba(212, 165, 64, 0.2));
   border-radius: 0.5rem;
   color: var(--text);
   font-size: 0.9rem;
@@ -143,7 +147,7 @@ p.lead {
 
 .jumperMenu a[aria-current] {
   border-color: var(--gold);
-  background: rgba(212, 165, 64, 0.14);
+  background: var(--accent-wash, rgba(212, 165, 64, 0.14));
   color: var(--gold);
 }
 

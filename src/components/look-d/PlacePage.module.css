@@ -9,14 +9,14 @@
   max-width: 78rem;
   margin-bottom: 2rem;
   padding: 2rem clamp(1.25rem, 3vw, 2.5rem) 1.25rem;
-  border: 1px solid rgba(212, 165, 64, 0.3);
+  border: 1px solid var(--line, rgba(212, 165, 64, 0.3));
   border-radius: 18px;
   background:
     linear-gradient(
       100deg,
       var(--slate-deep) 30%,
-      rgba(28, 42, 53, 0.75) 55%,
-      rgba(28, 42, 53, 0.15)
+      var(--surface-tint, rgba(28, 42, 53, 0.75)) 55%,
+      var(--surface-tint, rgba(28, 42, 53, 0.15))
     ),
     var(--bg);
 }
@@ -27,7 +27,11 @@
   position: absolute;
   z-index: -1;
   inset: 0;
-  background: linear-gradient(0deg, rgba(15, 26, 34, 0.75), transparent 50%);
+  background: linear-gradient(
+    0deg,
+    var(--surface-tint, rgba(15, 26, 34, 0.75)),
+    transparent 50%
+  );
   pointer-events: none;
 }
 
@@ -53,7 +57,7 @@
 .heroText h1 {
   font-size: clamp(2.4rem, 4.2vw, 3.4rem);
   line-height: 1.05;
-  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.45);
+  text-shadow: 0 2px 12px var(--text-shadow, rgba(0, 0, 0, 0.45));
 }
 
 .intro {
@@ -61,14 +65,14 @@
   color: var(--text-strong);
   font-size: 1.18rem;
   line-height: 1.55;
-  text-shadow: 0 1px 8px rgba(15, 26, 34, 0.9);
+  text-shadow: 0 1px 8px var(--text-shadow, rgba(15, 26, 34, 0.9));
 }
 
 /* The fact strip: short facts as cells along the foot of the hero. */
 .facts {
   margin-top: 1.5rem;
   padding-top: 1rem;
-  border-top: 1px solid rgba(212, 165, 64, 0.25);
+  border-top: 1px solid var(--line, rgba(212, 165, 64, 0.25));
 }
 
 .strip {
@@ -85,7 +89,7 @@
 .strip > div {
   min-width: 0;
   padding-left: 0.75rem;
-  border-left: 2px solid rgba(212, 165, 64, 0.45);
+  border-left: 2px solid var(--line, rgba(212, 165, 64, 0.45));
 }
 
 .strip dt {
@@ -100,7 +104,7 @@
   color: var(--text-strong);
   font-size: 1.02rem;
   line-height: 1.35;
-  text-shadow: 0 1px 6px rgba(15, 26, 34, 0.95);
+  text-shadow: 0 1px 6px var(--text-shadow, rgba(15, 26, 34, 0.95));
 }
 
 .wideFact {
@@ -173,7 +177,7 @@
   max-height: none;
   aspect-ratio: 16 / 9;
   border: 0;
-  border-bottom: 1px solid rgba(212, 165, 64, 0.3);
+  border-bottom: 1px solid var(--line, rgba(212, 165, 64, 0.3));
   border-radius: 0;
   object-fit: cover;
   object-position: center 40%;
