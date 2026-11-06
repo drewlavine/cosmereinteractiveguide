@@ -169,6 +169,102 @@ export const placeCultureArt: Record<
       revealedIn: ['oathbringer'],
     },
   ],
+  shinovar: [
+    // Official Book 5 concept art, cropped to the empty valley and its houses only: both figures, the light in the sky and the logo are cut away. Shows only grass and earthen houses (stone shunned for building, WoK i-6), so it waits only for the nation page.
+    {
+      src: '/entries/place-culture-shinovar-1.webp',
+      topic: 'religion',
+      caption: 'Round earthen houses in a green valley',
+      alt: 'A green valley of grass and trees dotted with small round houses with conical roofs',
+      artist: 'Randy Vargas',
+      artistUrl: 'https://coppermind.net/wiki/Coppermind:Artists/Randy_Vargas',
+      revealedIn: [
+        {
+          all: [
+            {
+              book: 'way-of-kings',
+              chapter: 'i-6',
+            },
+            {
+              book: 'words-of-radiance',
+              chapter: 'i-10',
+            },
+          ],
+        },
+      ],
+    },
+    // Unnamed 'Shin' figure from the official Cosmere RPG peoples sheet, cropped to that figure and its label; plain brown dress is WoK i-4, so the nation page is the latest thing
+    {
+      src: '/entries/place-culture-shinovar-2.webp',
+      topic: 'dress',
+      caption: 'Plain brown clothing',
+      alt: 'A shaven-headed man in a plain brown hooded tunic, sash, loose trousers and laced sandals',
+      artist: 'Deandra Scicluna',
+      artistUrl:
+        'https://coppermind.net/wiki/Coppermind:Artists/Deandra_Scicluna',
+      revealedIn: [
+        {
+          all: [
+            {
+              book: 'way-of-kings',
+              chapter: 'i-6',
+            },
+            {
+              book: 'words-of-radiance',
+              chapter: 'i-10',
+            },
+          ],
+        },
+      ],
+    },
+    // Credited fan art (2022), cropped to face, hand, stone and the edge of the hilt. Shows only things from the WoK prologue and i-6 (the white clothes, the sword, the stone, and the background handwriting, which repeats the prologue's opening line), so the nation page is the latest thing
+    {
+      src: '/entries/place-culture-shinovar-3.webp',
+      topic: 'society',
+      caption: "A warrior's stone held in an open hand",
+      alt: 'A shaven-headed man in white sits with a sword hilt beside him, a small grey stone resting in his palm',
+      artist: 'Diego López',
+      artistUrl:
+        'https://coppermind.net/wiki/Coppermind:Artists/Diego_L%C3%B3pez',
+      revealedIn: [
+        {
+          all: [
+            {
+              book: 'way-of-kings',
+              chapter: 'i-6',
+            },
+            {
+              book: 'words-of-radiance',
+              chapter: 'i-10',
+            },
+          ],
+        },
+      ],
+    },
+    // Credited fan art of the Thaylen trader in Shinovar (his visit and the trade are WoK i-4/48; he is named in the trade text), so the nation page is the latest thing
+    {
+      src: '/entries/place-culture-shinovar-4.webp',
+      topic: 'trade',
+      caption: 'A Thaylen merchant come to trade',
+      alt: 'A Thaylen merchant with long white eyebrows and a red coat stands by a wagon below snowy mountains',
+      artist: 'Dragontrill',
+      artistUrl: 'https://coppermind.net/wiki/Coppermind:Artists/Dragontrill',
+      revealedIn: [
+        {
+          all: [
+            {
+              book: 'way-of-kings',
+              chapter: 'i-6',
+            },
+            {
+              book: 'words-of-radiance',
+              chapter: 'i-10',
+            },
+          ],
+        },
+      ],
+    },
+  ],
   thaylenah: [
     // OB folio page; its note names the queen, first named OB 12, which is the latest thing shown
     {
