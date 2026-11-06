@@ -1,5 +1,12 @@
 import { SourceMark } from '../SourceMark'
-import { Fragment, useEffect, useState, type ReactNode } from 'react'
+import {
+  Fragment,
+  useEffect,
+  useMemo,
+  useRef,
+  useState,
+  type ReactNode,
+} from 'react'
 import { Link } from 'react-router'
 import { locationDetails } from '../../data/locationDetails'
 import {
@@ -30,14 +37,17 @@ import {
 } from '../../data/reveal'
 import type { ListedLocation, LocationPerson } from '../../data/types'
 import { useCanSee, useShownSystems } from '../../state/reveal'
-import { PageContents, PageSection, PageSubsection } from '../PageSections'
+import { PageSection, PageSubsection } from '../PageSections'
 import { slugs } from '../pageSlugs'
 import { LocationMaps } from '../LocationMaps'
 import { PlaceCulture } from './PlaceCulture'
 import { PlaceTimeline } from '../PlaceTimeline'
+import type { MetroHandle } from '../history/ScrubLooks'
 import { PlatePanel } from './PlatePanel'
-import { useMedia, useReadingPart } from './placeSpy'
+import { useMedia } from './placeSpy'
 import { shownTopics } from './placeTopics'
+import { MobileNavigation, NavigationPanel } from './PageNavigation'
+import { usePageNavigation } from './usePageNavigation'
 import { assetUrl } from '../../data/assetUrl'
 import styles from './PlacePage.module.css'
 import { SpoilerNotice } from '../SpoilerNotice'
@@ -142,21 +152,43 @@ export function PlacePage(props: PlacePageProps) {
   const systems = useShownSystems()
   const prose = useLocationStory(id)
   const link = useLinkText(`place:${id}`)
-  // Wide windows get the plate beside the text; narrower ones put pictures
-  // in the text and a topic jumper over it.
+  const rootRef = useRef<HTMLElement>(null)
+  const metroRef = useRef<MetroHandle>(null)
+  // Wide windows get the plate; narrower ones put pictures in the text.
   const wide = useMedia(WIDE)
-  const story = revealLocationStory(prose.story, canSee, showAll)
-  const topics = shownTopics(story.culture)
-  const [active, setActive] = useReadingPart([
-    'about',
-    'culture',
-    ...topics.map((t) => t.id),
-    'history',
-    'people',
-  ])
+  const story = useMemo(
+    () => revealLocationStory(prose.story, canSee, showAll),
+    [prose.story, canSee, showAll],
+  )
+  const topics = useMemo(() => shownTopics(story.culture), [story.culture])
+  const timeline = useMemo(
+    () => revealLocationTimeline(prose.story, canSee, showAll),
+    [prose.story, canSee, showAll],
+  )
+  const version = useMemo(
+    () => ({ id, story, timeline, canSee, showAll }),
+    [id, story, timeline, canSee, showAll],
+  )
+  const nav = usePageNavigation({
+    rootRef,
+    metroRef,
+    topics,
+    eras: timeline.eras,
+    version,
+    loading: prose.loading,
+  })
+  const active =
+    nav.current.part ??
+    (nav.current.section === 'top' ? undefined : nav.current.section)
 
   if (prose.loading)
-    return <article className="character-detail place-page" aria-busy="true" />
+    return (
+      <article
+        ref={rootRef}
+        className="character-detail place-page"
+        aria-busy="true"
+      />
+    )
 
   const planetShown = (planetId: string) =>
     systems.some((s) => s.planets.some((p) => p.id === planetId))
@@ -170,7 +202,6 @@ export function PlacePage(props: PlacePageProps) {
     canSee,
     showAll,
   )
-  const timeline = revealLocationTimeline(prose.story, canSee, showAll)
   const details = revealLocationDetails(
     locationDetails[id],
     canSee,
@@ -205,10 +236,12 @@ export function PlacePage(props: PlacePageProps) {
 
   return (
     <article
-      className="character-detail location-detail place-page"
+      ref={rootRef}
+      className={`character-detail location-detail place-page ${styles.page}`}
       aria-labelledby="location-title"
     >
       {props.breadcrumb}
+      {!wide && <MobileNavigation nav={nav} />}
       <SpoilerNotice
         scope={scope}
         spoilers={
@@ -307,7 +340,6 @@ export function PlacePage(props: PlacePageProps) {
         </aside>
       </header>
       <div className={wide ? styles.body : styles.stack}>
-        {!wide && <PageContents />}
         <div className="character-main character-story">
           {story.description.length > 0 && (
             <PageSection id="about" title="About">
@@ -323,10 +355,7 @@ export function PlacePage(props: PlacePageProps) {
             id={id}
             culture={story.culture}
             art={cultureArt.art}
-            topics={topics}
             plate={wide}
-            active={active}
-            onJump={setActive}
           />
           {timeline.eras.length > 0 ? (
             <PlaceTimeline
@@ -334,6 +363,8 @@ export function PlacePage(props: PlacePageProps) {
               eras={timeline.eras}
               planetId={props.planetId}
               showAll={showAll}
+              navigationRef={metroRef}
+              onEraChange={nav.onEraChange}
             />
           ) : (
             story.history.length > 0 && (
@@ -401,8 +432,7 @@ export function PlacePage(props: PlacePageProps) {
             placeArt={art.portrait}
             active={active}
             moreFacts={props.extraFacts}
-            contents={<PageContents />}
-            onJump={setActive}
+            navigation={<NavigationPanel nav={nav} />}
           />
         )}
       </div>

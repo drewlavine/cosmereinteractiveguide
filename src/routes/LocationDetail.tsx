@@ -1,6 +1,7 @@
 import { Link, useParams } from 'react-router'
 import { BookList } from '../components/BookList'
 import { PlaceBreadcrumb, PlacePage } from '../components/PlacePage'
+import { useHiddenPlaceFragment } from '../components/look-d/placeFragments'
 import { ancestorTrail } from '../data/ancestors'
 import { childLocations, findLocation, kindLabels } from '../data/locations'
 import { revealLocation } from '../data/reveal'
@@ -17,10 +18,11 @@ export function LocationDetail() {
   const system = useShownSystem(systemId)
   const planet = system?.planets.find((p) => p.id === planetId)
   const location = findLocation(planetId, locationId)
+  const showAll = !!system && viewAnyway.has(system.id)
+  const shown = location && revealLocation(location, canSee, showAll)
+  useHiddenPlaceFragment(!!system && !!location && (!planet || !shown))
 
   if (!system || !location) return <NotFound />
-  const showAll = viewAnyway.has(system.id)
-  const shown = revealLocation(location, canSee, showAll)
   if (!planet || !shown) return <HiddenPage systemId={system.id} />
 
   const visible = (id?: string) => {

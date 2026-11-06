@@ -6,7 +6,6 @@
   position: relative;
   isolation: isolate;
   overflow: hidden;
-  max-width: 78rem;
   margin-bottom: 2rem;
   padding: 2rem clamp(1.25rem, 3vw, 2.5rem) 1.25rem;
   border: 1px solid var(--line, rgba(212, 165, 64, 0.3));
@@ -42,6 +41,8 @@
   top: 0;
   right: 0;
   width: 62%;
+  /* Wide heroes keep the art's width rather than cropping it to a strip. */
+  max-width: 48rem;
   height: 100%;
   object-fit: cover;
   object-position: center 40%;
@@ -151,13 +152,27 @@
   margin: 0.1rem 0 0;
 }
 
-/* Text and plate side by side; the text keeps a comfortable measure. */
+/*
+ * Wide screens, sized like Wikipedia: one text column up to 60rem with the
+ * plate beside it. The pair fills smaller screens and centres on large ones.
+ */
+@media (min-width: 1024px) {
+  .page {
+    max-width: calc(60rem + 3rem + 22rem);
+    margin-inline: auto;
+  }
+}
+
 .body {
   display: grid;
-  grid-template-columns: minmax(0, 40rem) minmax(20rem, 1fr);
-  column-gap: clamp(2rem, 4vw, 3.5rem);
+  grid-template-columns: minmax(0, 60rem) clamp(18rem, 20vw, 22rem);
+  column-gap: clamp(1.75rem, 2.5vw, 3rem);
+  justify-content: space-between;
   align-items: start;
-  max-width: 78rem;
+}
+
+.body :global(.character-story) :is(p, ul, ol) {
+  font-size: 1.05rem;
 }
 
 .stack {
@@ -165,6 +180,20 @@
   grid-template-columns: minmax(0, 1fr);
   row-gap: 1.5rem;
   max-width: 46rem;
+}
+
+@media (max-width: 1023px) {
+  .stack :global(.page-section),
+  .stack :global(.page-subsection) {
+    scroll-margin-top: 5rem;
+  }
+}
+
+@media (max-width: 380px) {
+  .stack :global(.page-section),
+  .stack :global(.page-subsection) {
+    scroll-margin-top: 8rem;
+  }
 }
 
 /* Narrow screens: the picture heads the hero, full width. */

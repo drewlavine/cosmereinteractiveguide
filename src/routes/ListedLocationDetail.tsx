@@ -1,6 +1,12 @@
-import { Link, Navigate, useParams } from 'react-router'
+import { useEffect } from 'react'
+import { Link, Navigate, useLocation, useParams } from 'react-router'
 import { BookList } from '../components/BookList'
 import { PlaceBreadcrumb, PlacePage } from '../components/PlacePage'
+import {
+  pendingFragment,
+  redirectPendingFragment,
+  useHiddenPlaceFragment,
+} from '../components/look-d/placeFragments'
 import { ancestorTrail } from '../data/ancestors'
 import { SpoilerNotice } from '../components/SpoilerNotice'
 import {
@@ -22,27 +28,81 @@ import { NotFound } from './NotFound'
 const coppermindUrl = (page: string) =>
   `https://coppermind.net/wiki/${encodeURIComponent(page.replaceAll(' ', '_'))}`
 
+/** Keep the same native entry and notify the router when an alias moves. */
+function PendingAlias({
+  from,
+  pathname,
+  search,
+  hash,
+}: {
+  from: string
+  pathname: string
+  search: string
+  hash: string
+}) {
+  useEffect(() => {
+    const base = import.meta.env.BASE_URL.replace(/\/$/, '')
+    if (
+      location.pathname.toLowerCase() === (base + from).toLowerCase() &&
+      location.search === search &&
+      redirectPendingFragment(base + pathname, search, hash)
+    )
+      window.dispatchEvent(new PopStateEvent('popstate'))
+  }, [from, pathname, search, hash])
+  return null
+}
+
 /**
  * A place from the Locations list without a map page of its own; places
  * with one (and planets) go to that page instead.
  */
 export function ListedLocationDetail() {
   const { locationId } = useParams()
+  const route = useLocation()
   const { viewAnyway } = useBooksRead()
   const canSee = useCanSee()
   const systems = useShownSystems()
   const place = findListed(locationId)
-  if (!place) return <NotFound />
-
   const planetShown = (id: string) =>
     systems.some((s) => s.planets.some((p) => p.id === id))
-  const href = placeHref(place, planetShown)
-  if (href !== `/locations/${place.id}`) return <Navigate to={href} replace />
-
-  const system = place.world ? systemOfPlanet.get(place.world) : undefined
-  const scope = system?.id ?? `location:${place.id}`
+  const href = place && placeHref(place, planetShown)
+  const system = place?.world ? systemOfPlanet.get(place.world) : undefined
+  const scope = system?.id ?? `location:${place?.id}`
   const showAll = viewAnyway.has(scope)
-  if (!showAll && !canSee(placeRevealedIn(place)))
+  const hidden =
+    !!place &&
+    href === `/locations/${place.id}` &&
+    !showAll &&
+    !canSee(placeRevealedIn(place))
+  useHiddenPlaceFragment(hidden)
+
+  if (!place) return <NotFound />
+  if (href !== `/locations/${place.id}`) {
+    if (!href?.includes('/locations/')) return <Navigate to={href!} replace />
+    // The map-place route validates the pending hash after its story loads.
+    const base = import.meta.env.BASE_URL.replace(/\/$/, '')
+    const hash =
+      location.pathname.toLowerCase() === (base + route.pathname).toLowerCase()
+        ? pendingFragment()
+        : ''
+    if (hash)
+      return (
+        <PendingAlias
+          from={route.pathname}
+          pathname={href!}
+          search={route.search}
+          hash={hash}
+        />
+      )
+    return (
+      <Navigate
+        to={{ pathname: href, search: route.search, hash: hash ?? '' }}
+        state={route.state}
+        replace
+      />
+    )
+  }
+  if (hidden)
     return (
       <section className="message-page" aria-labelledby="hidden-title">
         <h1 id="hidden-title">Not reached yet</h1>

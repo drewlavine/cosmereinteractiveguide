@@ -124,7 +124,9 @@ Category:Cosmere; check anything unclear by hand.
     - [x] Two place page designs behind a switch, for feedback: a field
           guide with icon-led Culture cards, and a plate beside the text
           that follows the part being read
-    - [ ] Pick one design and remove the switch
+    - [x] Pick one design and remove the switch: the plate design, full
+          width, with a Contents panel at the top of the plate (a sheet on
+          phones). The page map tried beside it was dropped
     - [ ] Jump to a regional map, e.g. from Arelon's outline to the Arelon map
   - [x] Only show regions, and information about them, from books the reader
         has marked as read

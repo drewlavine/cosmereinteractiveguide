@@ -3,7 +3,12 @@
 // only in its strip; delete the ones Drew doesn't pick, with their blocks in
 // scrubLooks.module.css. Keep MetroStrip and its mo* styles either way: the
 // hidden Spanish Civil War page uses them.
-import type { CSSProperties } from 'react'
+import {
+  useEffect,
+  useImperativeHandle,
+  type CSSProperties,
+  type Ref,
+} from 'react'
 import type { MomentKind } from '../../data/planetHistory'
 import {
   kindLabels,
@@ -70,8 +75,29 @@ export function Chapters(props: HistoryProps) {
  * spaced along it and named, each era a stretch of line in its colour, the
  * line travelled so far solid and the stop you're at marked.
  */
-export function Metro(props: HistoryProps) {
-  const scrub = useScrub(props.eras)
+export interface MetroHandle {
+  /** Select the first visible moment in an era. */
+  selectEra: (index: number) => void
+}
+
+export function Metro(
+  props: HistoryProps & {
+    navigationRef?: Ref<MetroHandle>
+    onEraChange?: (index: number) => void
+  },
+) {
+  const { eras, navigationRef, onEraChange } = props
+  const scrub = useScrub(eras)
+  const eraIndex = eras.indexOf(scrub.step.era)
+  useImperativeHandle(navigationRef, () => ({
+    selectEra: (index) => {
+      const era = eras[index]
+      if (era) scrub.go(scrub.steps.findIndex((step) => step.era === era))
+    },
+  }))
+  useEffect(() => {
+    onEraChange?.(eraIndex)
+  }, [eraIndex, onEraChange])
   return (
     <div>
       <MetroStrip eras={props.eras} scrub={scrub} />

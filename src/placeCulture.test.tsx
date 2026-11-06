@@ -1,5 +1,6 @@
 import {
   cleanup,
+  fireEvent,
   render,
   screen,
   waitFor,
@@ -79,98 +80,86 @@ describe('a place page’s Culture', { timeout: 20000 }, () => {
     ).toBeInTheDocument()
   })
 
-  it('indexes only the topics the reader has reached', async () => {
+  it('shows only the topics the reader has reached', async () => {
     const culture = await renderAt('alethkar', ['way-of-kings'])
     const topics = within(culture)
       .getAllByRole('heading', { level: 3 })
       .map((h) => h.textContent)
-    const index = within(culture).getByRole('navigation', {
-      name: 'Culture topics',
-    })
-    expect(
-      within(index)
-        .getAllByRole('link')
-        .map((a) => a.textContent),
-    ).toEqual(topics)
     // Dress has nothing to show until later.
+    expect(topics).toContain('War')
     expect(topics).not.toContain('Dress')
-    expect(within(index).getByRole('link', { name: 'War' })).toHaveAttribute(
-      'href',
-      '#culture-war',
-    )
     cleanup()
 
-    // Thaylenah has only two topics by then: no index.
     const few = await renderAt('thaylenah', ['way-of-kings'])
     expect(within(few).getAllByRole('heading', { level: 3 })).toHaveLength(2)
-    expect(within(few).queryByRole('navigation')).toBeNull()
   })
 
-  it('counts only the notes the reader has reached in Show all', async () => {
+  it('shows only the notes the reader has reached', async () => {
     const war = async (read: string[]) => {
       await renderAt('alethkar', read)
-      const region = screen.getByRole('region', { name: 'War' })
-      return {
-        notes: region.querySelectorAll('p').length,
-        more: region.querySelector('summary'),
-      }
+      return screen.getByRole('region', { name: 'War' }).querySelectorAll('p')
+        .length
     }
-    // Four notes after The Way of Kings: short enough to show whole.
-    expect((await war(['way-of-kings'])).more).toBeNull()
+    expect(await war(['way-of-kings'])).toBe(4)
     cleanup()
-
-    const later = await war(['way-of-kings', 'words-of-radiance'])
-    expect(later.notes).toBe(5)
-    expect(later.more).toHaveTextContent('Show all 5 notes on War')
+    expect(await war(['way-of-kings', 'words-of-radiance'])).toBe(5)
     cleanup()
-
-    const all = await war([...toOathbringer, 'oathbringer', 'rhythm-of-war'])
-    expect(all.notes).toBe(6)
-    expect(all.more).toHaveTextContent('Show all 6 notes on War')
+    expect(await war([...toOathbringer, 'oathbringer', 'rhythm-of-war'])).toBe(
+      6,
+    )
   })
 })
 
-describe('design D', () => {
-  // The design switch remembers the reader's pick.
-  beforeEach(() => localStorage.setItem('placeLook', 'd'))
+describe('the plate layout', () => {
   const toOathbringer = ['way-of-kings', 'words-of-radiance', 'edgedancer']
 
-  describe('a place page’s topic jumper and plate', { timeout: 20000 }, () => {
+  describe('a place page’s navigation and plate', { timeout: 20000 }, () => {
     const throughOathbringer = [
       'way-of-kings',
       'words-of-radiance',
       'edgedancer',
       'oathbringer',
     ]
-    const links = (nav: HTMLElement) =>
-      within(nav)
+    const links = (list: HTMLElement) =>
+      within(list)
         .getAllByRole('link')
         .map((a) => a.textContent)
+    const cultureParts = async (nav: HTMLElement) => {
+      const toggle = within(nav).getByRole('button', {
+        name: /^(Show|Hide) Culture topics$/,
+      })
+      if (toggle.getAttribute('aria-expanded') === 'false')
+        await userEvent.click(toggle)
+      return document.getElementById(toggle.getAttribute('aria-controls')!)!
+    }
 
-    it('lists in the jumper only the topics the reader can see', async () => {
+    it('lists in the phone sheet only the topics the reader can see', async () => {
       const user = userEvent.setup()
       // Alethkar's Music and art waits for Oathbringer.
       let culture = await renderAt('alethkar', ['way-of-kings'])
-      const jumper = within(culture).getByRole('navigation', {
-        name: 'Culture topics',
+      await user.click(screen.getByRole('button', { name: /^Contents/ }))
+      const sheet = screen.getByRole('dialog', { name: 'On this page' })
+      const index = within(sheet).getByRole('navigation', {
+        name: 'On this page',
       })
-      await user.click(within(jumper).getByRole('button'))
-      const early = links(jumper)
+      const early = links(await cultureParts(index)).map((s) =>
+        s?.replace(/\d+$/, ''),
+      )
       expect(early).not.toContain('Music and art')
       expect(early).toEqual(
         within(culture)
           .getAllByRole('heading', { level: 3 })
           .map((h) => h.textContent),
       )
-      expect(jumper).toHaveTextContent(`${early.length} topics`)
+      expect(index).toHaveTextContent(`${early.length} topics`)
       cleanup()
 
       culture = await renderAt('alethkar', throughOathbringer)
-      const later = within(culture).getByRole('navigation', {
-        name: 'Culture topics',
-      })
-      await user.click(within(later).getByRole('button'))
-      expect(links(later)).toContain('Music and art')
+      await user.click(screen.getByRole('button', { name: /^Contents/ }))
+      const later = within(
+        screen.getByRole('dialog', { name: 'On this page' }),
+      ).getByRole('navigation', { name: 'On this page' })
+      expect(links(await cultureParts(later)).join()).toContain('Music and art')
     })
 
     describe('on a wide screen', () => {
@@ -184,18 +173,10 @@ describe('design D', () => {
       afterEach(() => vi.unstubAllGlobals())
 
       const plate = () => screen.getByRole('complementary', { name: 'Plate' })
-      const compass = () =>
-        within(plate()).getByRole('navigation', { name: 'Culture topics' })
+      const contents = () =>
+        within(plate()).getByRole('navigation', { name: 'On this page' })
 
       it('follows the parts of a place without culture once its story loads', async () => {
-        const watched: string[] = []
-        vi.stubGlobal(
-          'IntersectionObserver',
-          class {
-            observe = (el: Element) => watched.push(el.id)
-            disconnect = () => {}
-          },
-        )
         localStorage.setItem(
           BOOKS_READ_KEY,
           JSON.stringify({ version: 2, read: ['way-of-kings'], reading: {} }),
@@ -208,7 +189,27 @@ describe('design D', () => {
           />,
         )
         await screen.findByRole('heading', { level: 1, name: 'Kholinar' })
-        await waitFor(() => expect(watched).toContain('history'))
+        const history = await within(contents()).findByRole('link', {
+          name: 'History',
+        })
+        const main = document.querySelector<HTMLElement>('.app-main')!
+        const article = screen.getByRole('article', { name: 'Kholinar' })
+        const rect = (top: number, height: number) =>
+          ({ top, height, bottom: top + height }) as DOMRect
+        Object.defineProperty(main, 'clientHeight', { value: 500 })
+        Object.defineProperty(main, 'scrollHeight', { value: 2000 })
+        main.getBoundingClientRect = () => rect(0, 500)
+        article.getBoundingClientRect = () => rect(-main.scrollTop, 2000)
+        article.querySelectorAll<HTMLElement>('[data-toc]').forEach((el) => {
+          const position =
+            el.id === 'history' ? 500 : el.id === 'about' ? 200 : 1600
+          el.getBoundingClientRect = () => rect(position - main.scrollTop, 100)
+        })
+        main.scrollTop = 500
+        fireEvent.scroll(main)
+        await waitFor(() => expect(history).toHaveAttribute('aria-current'))
+        await userEvent.click(history)
+        expect(history).toHaveAttribute('aria-current', 'location')
       })
 
       it('shows a place’s own picture in the hero and plate only once revealed', async () => {
@@ -244,7 +245,7 @@ describe('design D', () => {
         expect(withSrc()).toHaveLength(0)
       })
 
-      it('lists in the compass only the topics the reader can see', async () => {
+      it('lists on the plate only the topics the reader can see', async () => {
         // Each chip is a topic title followed by its count of visible notes.
         const topics = (culture: HTMLElement) =>
           within(culture)
@@ -255,13 +256,17 @@ describe('design D', () => {
                 `${r.querySelector('h3')!.textContent}${r.querySelectorAll('p').length}`,
             )
         let culture = await renderAt('alethkar', ['way-of-kings'])
-        expect(links(compass())).toEqual(topics(culture))
-        expect(links(compass()).join()).not.toContain('Music and art')
+        expect(links(await cultureParts(contents()))).toEqual(topics(culture))
+        expect(links(await cultureParts(contents())).join()).not.toContain(
+          'Music and art',
+        )
         cleanup()
 
         culture = await renderAt('alethkar', throughOathbringer)
-        expect(links(compass())).toEqual(topics(culture))
-        expect(links(compass()).join()).toContain('Music and art')
+        expect(links(await cultureParts(contents()))).toEqual(topics(culture))
+        expect(links(await cultureParts(contents())).join()).toContain(
+          'Music and art',
+        )
       })
 
       it('shows a topic’s picture on the plate only once it’s revealed', async () => {
@@ -269,17 +274,25 @@ describe('design D', () => {
         const { alt } = art('thaylenah', 'dress')
         // The Thaylen dress picture is revealed at Oathbringer 12.
         await renderAt('thaylenah', toOathbringer, { oathbringer: '11' })
-        await user.click(within(compass()).getByRole('link', { name: /Dress/ }))
+        await user.click(
+          within(await cultureParts(contents())).getByRole('link', {
+            name: /Dress/,
+          }),
+        )
         await waitFor(() =>
           expect(
-            within(compass()).getByRole('link', { name: /Dress/ }),
+            within(contents()).getByRole('link', { name: /Dress/ }),
           ).toHaveAttribute('aria-current', 'location'),
         )
         expect(screen.queryByRole('img', { name: alt })).toBeNull()
         cleanup()
 
         await renderAt('thaylenah', toOathbringer, { oathbringer: '12' })
-        await user.click(within(compass()).getByRole('link', { name: /Dress/ }))
+        await user.click(
+          within(await cultureParts(contents())).getByRole('link', {
+            name: /Dress/,
+          }),
+        )
         expect(
           await within(plate()).findByRole('img', { name: alt }),
         ).toBeInTheDocument()
@@ -287,21 +300,5 @@ describe('design D', () => {
         expect(screen.getAllByRole('img', { name: alt })).toHaveLength(1)
       })
     })
-  })
-})
-
-describe('the design switch', { timeout: 20000 }, () => {
-  it('swaps the place page design and remembers the pick', async () => {
-    const user = userEvent.setup()
-    await renderAt('alethkar', ['way-of-kings'])
-    const switcher = screen.getByRole('group', { name: 'Page design' })
-    expect(
-      within(switcher).getByRole('button', { name: 'Design A' }),
-    ).toHaveAttribute('aria-pressed', 'true')
-    await user.click(within(switcher).getByRole('button', { name: 'Design D' }))
-    expect(localStorage.getItem('placeLook')).toBe('d')
-    expect(
-      await screen.findByRole('button', { name: /Culture topics|topics/ }),
-    ).toBeInTheDocument()
   })
 })
