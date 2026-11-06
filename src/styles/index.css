@@ -3296,7 +3296,7 @@ a.search-option:focus-visible {
     grid-template-columns: minmax(0, 1fr) clamp(10rem, 19vw, 13rem);
   }
 
-  .map-places {
+  .interactive-map-body > .map-places {
     padding-inline: 0.6rem;
   }
 }
