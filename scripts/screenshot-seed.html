@@ -1,6 +1,8 @@
 <!doctype html><html><body style="margin:0"><script>
 const q = new URLSearchParams(location.search)
 localStorage.setItem('cosmere-guide:books-read', JSON.stringify({version:2, read: JSON.parse(q.get('read')||'[]'), reading: JSON.parse(q.get('reading')||'{}')}))
+// Optional theme=illuminated|classic, as the header switch saves it.
+if (q.get('theme')) localStorage.setItem('cosmere-guide:theme', q.get('theme'))
 const f = document.createElement('iframe'); f.src = q.get('to'); f.style.cssText='border:0;width:100vw;height:100vh'; document.body.appendChild(f)
 // Headless screenshots never run animation frames, so skip the page fade-in.
 f.onload = () => { const s = f.contentDocument.createElement('style'); s.textContent = '.app-main{opacity:1!important;transform:none!important;filter:none!important}'; f.contentDocument.head.appendChild(s) }

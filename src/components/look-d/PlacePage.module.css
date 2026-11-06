@@ -153,20 +153,13 @@
 }
 
 /*
- * Wide screens, sized like Wikipedia: one text column up to 60rem with the
- * plate beside it. The pair fills smaller screens and centres on large ones.
+ * One text column with the plate beside it, sized like Wikipedia (the page
+ * width and these tokens are shared with every page; see index.css).
  */
-@media (min-width: 1024px) {
-  .page {
-    max-width: calc(60rem + 3rem + 22rem);
-    margin-inline: auto;
-  }
-}
-
 .body {
   display: grid;
-  grid-template-columns: minmax(0, 60rem) clamp(18rem, 20vw, 22rem);
-  column-gap: clamp(1.75rem, 2.5vw, 3rem);
+  grid-template-columns: minmax(0, var(--prose-max)) var(--side-panel);
+  column-gap: var(--side-gap);
   justify-content: space-between;
   align-items: start;
 }
